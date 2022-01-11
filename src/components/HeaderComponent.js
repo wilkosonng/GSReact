@@ -9,6 +9,8 @@ class Header extends Component {
         this.state = {
             navCheck: false
         };
+
+        this.navCollapser = this.navCollapser.bind(this);
     }
 
     navCollapser() { 
@@ -20,29 +22,38 @@ class Header extends Component {
     //Renders a Navbar that collapses under certain viewports
     render() {
         return (
-            <Navbar sticky="top" expand="md">
-                <NavbarToggler onClick={this.navCollapser} />
+            <React.Fragment>
+                <div className="container">
+                    <div className="row">
+                        <div className="col">
+                            <Navbar sticky="top" expand="md">
+                                <NavbarToggler onClick={this.navCollapser} />
 
-                <Collapse isOpen={this.state.navCheck} navbar>
-                    <Nav navbar>
-                        <NavItem>
-                            <NavLink className="nav-link" to="/news">
-                                <b>NEWS</b>
-                            </NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink className="nav-link" to="/units">
-                                <b>UNITS</b>
-                            </NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink className="nav-link" to="/equips">
-                                <b>EQUIPMENT</b>
-                            </NavLink>
-                        </NavItem>
-                    </Nav>
-                </Collapse>
-            </Navbar>
+                                <Collapse isOpen={this.state.navCheck} navbar>
+                                    <Nav navbar>
+                                        <NavItem>
+                                            <NavLink className="nav-link" to="/news">
+                                                <b>NEWS</b>
+                                            </NavLink>
+                                        </NavItem>
+                                        <NavItem>
+                                            <NavLink className="nav-link" to="/units">
+                                                <b>UNITS</b>
+                                            </NavLink>
+                                        </NavItem>
+                                        <NavItem>
+                                            <NavLink className="nav-link" to="/equips">
+                                                <b>EQUIPMENT</b>
+                                            </NavLink>
+                                        </NavItem>
+                                    </Nav>
+                                </Collapse>
+                            </Navbar>
+                        </div>
+                    </div>
+                </div>
+                
+            </React.Fragment>
         );
     }
     

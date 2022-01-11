@@ -1,41 +1,40 @@
-import React, { Component } from 'react';
-import { Media } from 'reactstrap';
+import React from 'react';
+import { Media, Card, CardImg, CardText, CardBody, CardTitle, Button, Modal, ModalHeader, ModalBody } from 'reactstrap';
+import { Link } from 'react-router-dom';
 
-function Units (props) {
-    
-    const units = props.units.map(unitInfo => {
+
+function Units(props) {
+
+    const units = props.units.map(unit => {
+            return (
+                <React.Fragment key={unit.name}>
+                    <RenderThumbnails units={unit}  />
+                </React.Fragment>
+            );
+        })
+
         return (
-            <div className="col" key={unitInfo.id}>
-                <RenderThumbnails units={unitInfo} />
-            </div>
-        );
-    });
-
-
-    return (
-        <div className="container">
-            <div className="row">
-                <div className="col">
-                    {units}
+            <React.Fragment>
+                <div className="container">
+                    <div className="row">            
+                        {units}
+                    </div>
                 </div>
-            </div>
-        </div>
-    );
-        
-
+            </React.Fragment>
+        );
 }
 
 function RenderThumbnails ({units}) {
     if(units) {
         return (
-            <Media src={units.image.thumbawk} alt={units.name} width="75" height="75" />
+            <React.Fragment>
+                <Link to={`/unit/${units.name}`}>
+                    <Media src={units.image.thumbawk} alt={units.name} width="75" height="75" />
+                </Link>
+            </React.Fragment>
         );
     }
-    else {
-        return (
-            <div />
-        );
-    }
+    return <div />
 }
 
 export default Units;
