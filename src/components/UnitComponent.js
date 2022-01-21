@@ -1,45 +1,41 @@
-import React, { Component } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Media, Card, CardImg, CardText, CardBody, CardTitle, Button, Nav, NavItem, NavLink, Badge, TabContent, TabPane} from 'reactstrap';
 import '../index.css';
-import { UnitInformation } from '../shared/unitInfo';
+import { useParams } from 'react-router-dom';
+import { getUnitByName } from '../shared/unitInfo';
 
-class UnitDetails extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            units: UnitInformation
-        };
-    }
+function UnitDetails () {
+    const selectedUnit = useParams();
+    const units = getUnitByName(selectedUnit.unitName);
 
-    render() {
-        return (
-            <React.Fragment>
-                <Nav tabs justified>
-                    <NavItem>
-                        <NavLink href="#stats" active>Stats</NavLink> 
-                    </NavItem>
-                    <NavItem>
-                        <NavLink href="#trueweapon">True Weapon</NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink href="#lore">Lore</NavLink>
-                    </NavItem>
-                </Nav>
-                <TabContent>
-                    <TabPane id="stats">          
-                        <RenderStats unitStats={this.units.stats} detail={this.units.image.detail} 
-                        unitAtt={this.units.attribute} unitType={this.units.type} unitSkill={this.units.skillset} />
-                    </TabPane>
-                    <TabPane id="trueweapon">
-    
-                    </TabPane>
-                    <TabPane id="lore">
-    
-                    </TabPane>
-                </TabContent>
-            </React.Fragment>
-        )
-    }
+    return (
+        <React.Fragment>
+            <p>Show Params {selectedUnit.unitName}</p>
+            <Nav tabs justified>
+                <NavItem>
+                    <NavLink href="#stats" active>Stats</NavLink> 
+                </NavItem>
+                <NavItem>
+                    <NavLink href="#trueweapon">True Weapon</NavLink>
+                </NavItem>
+                <NavItem>
+                    <NavLink href="#lore">Lore</NavLink>
+                </NavItem>
+            </Nav>
+            <TabContent>
+                <TabPane id="stats">   
+                    <RenderStats unitStats={units.stats} detail={units.image.detail} 
+                        unitAtt={units.attribute} unitType={units.type} unitSkill={units.skillset} />
+                </TabPane>
+                <TabPane id="trueweapon">
+
+                </TabPane>
+                <TabPane id="lore">
+
+                </TabPane>
+            </TabContent>
+        </React.Fragment>
+    )
 }
 
 function RenderStats({unitStats, unitAtt, unitType, detail, unitSkill}){

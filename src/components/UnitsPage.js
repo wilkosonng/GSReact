@@ -1,40 +1,47 @@
 import React from 'react';
 import { Media, Card, CardImg, CardText, CardBody, CardTitle, Button, Modal, ModalHeader, ModalBody } from 'reactstrap';
-import { Link } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
+import { UnitDetails } from './UnitComponent';
+import { Component } from 'react/cjs/react.production.min';
+import { getUnits } from '../shared/unitInfo';
 
 
-function Units(props) {
+class Units extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            selectedUnit: null
+        };
+    }
 
-    const units = props.units.map(unit => {
-            return (
-                <React.Fragment key={unit.name}>
-                    <RenderThumbnails units={unit}  />
-                </React.Fragment>
-            );
-        })
+    onSelectUnit(unit){
+        this.setState({selectedUnit: unit});
+    }
 
+
+    render() {
+        const units = getUnits();
+
+        //Display Unit Thumbnails
         return (
             <React.Fragment>
                 <div className="container">
                     <div className="row">            
-                        {units}
+                        {units.map(unit => {
+                            return (
+                                <React.Fragment key={unit.name} >
+                                    <Link to={`/units/${unit.name}`} key={unit.name}>
+                                        <Media src={unit.image.thumbawk} alt={unit.name} width="75" height="75" />
+                                    </Link>
+                                </React.Fragment>
+                            );
+                        })}
+                        <Outlet />
                     </div>
                 </div>
             </React.Fragment>
         );
-}
-
-function RenderThumbnails ({units}) {
-    if(units) {
-        return (
-            <React.Fragment>
-                <Link to={`/unit/${units.name}`}>
-                    <Media src={units.image.thumbawk} alt={units.name} width="75" height="75" />
-                </Link>
-            </React.Fragment>
-        );
     }
-    return <div />
 }
 
 export default Units;

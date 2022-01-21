@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Navbar, NavbarToggler, Nav, NavItem, Collapse } from 'reactstrap';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Outlet } from 'react-router-dom';
 
 class Header extends Component {
     constructor(props) {
@@ -47,6 +47,7 @@ class Header extends Component {
                                             </NavLink>
                                         </NavItem>
                                     </Nav>
+                                    <Outlet />
                                 </Collapse>
                             </Navbar>
                         </div>
