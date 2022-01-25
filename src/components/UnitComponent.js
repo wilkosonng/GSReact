@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Media, Card, CardImg, CardText, CardBody, CardTitle, Button, Nav, NavItem, NavLink, Badge, TabContent, TabPane} from 'reactstrap';
+import { Media, Card, CardImg, CardText, CardBody, CardTitle, Button, Nav, NavItem, NavLink, Badge, TabContent, TabPane, Modal} from 'reactstrap';
 import '../index.css';
 import { useParams } from 'react-router-dom';
 import { getUnitByName } from '../shared/unitInfo';
@@ -7,10 +7,9 @@ import { getUnitByName } from '../shared/unitInfo';
 function UnitDetails () {
     const selectedUnit = useParams();
     const units = getUnitByName(selectedUnit.unitName);
-
+    
     return (
         <React.Fragment>
-            <p>Show Params {selectedUnit.unitName}</p>
             <Nav tabs justified>
                 <NavItem>
                     <NavLink href="#stats" active>Stats</NavLink> 
@@ -28,7 +27,7 @@ function UnitDetails () {
                         unitAtt={units.attribute} unitType={units.type} unitSkill={units.skillset} />
                 </TabPane>
                 <TabPane id="trueweapon">
-
+                    <RenderTrue unitTrue={units.trueweapon} truePassive={units.trueweapon.passive} />
                 </TabPane>
                 <TabPane id="lore">
 
@@ -39,7 +38,7 @@ function UnitDetails () {
 }
 
 function RenderStats({unitStats, unitAtt, unitType, detail, unitSkill}){
-    //Modal Tab for Stats
+    //Tab for Stats
     if(unitStats){
         return (
             <div className="container-fluid">
@@ -64,8 +63,27 @@ function RenderStats({unitStats, unitAtt, unitType, detail, unitSkill}){
     return <div />
 }
 
-function RenderTrue({unitTrue}) {
-    //Modal Tab for True Weapon
+function RenderTrue({unitTrue, truePassive}) {
+    //Tab for True Weapon
+    //POSSIBLY might need to add Map to Passives
+    if(unitTrue){
+        return (
+            <div className="container-fluid">
+                <div className="row">
+                    <div className="col">
+                        <p>NAME: {unitTrue.name}</p>
+                        <p>SKILL: {unitTrue.skill} <Badge color="secondary">BREAK {unitTrue.skillbreak}</Badge></p>
+                        <p>PASSIVES: 
+                            <ul>
+                                <li>{truePassive.ability1}</li>
+                                <li>{truePassive.ability2}</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        )
+    }
 }
 
 function RenderLore({unitLore}) {
