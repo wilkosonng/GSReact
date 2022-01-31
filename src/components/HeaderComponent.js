@@ -32,24 +32,24 @@ class Header extends Component {
                                 <Collapse isOpen={this.state.navCheck} navbar>
                                     <Nav navbar>
                                         <NavItem>
-                                            <NavLink className="nav-link" to="/news">
+                                            <NavLink className="nav-link" to="/news" activeClassName="active">
                                                 <b>NEWS</b>
                                             </NavLink>
                                         </NavItem>
                                         <NavItem>
-                                            <NavLink className="nav-link" to="/units">
+                                            <NavLink className="nav-link" to="/units" activeClassName="active">
                                                 <b>UNITS</b>
                                             </NavLink>
                                         </NavItem>
                                         <NavItem>
-                                            <NavLink className="nav-link" to="/equips">
+                                            <NavLink className="nav-link" to="/equips" activeClassName="active">
                                                 <b>EQUIPMENT</b>
                                             </NavLink>
                                         </NavItem>
                                     </Nav>
-                                    <Outlet />
                                 </Collapse>
                             </Navbar>
+                            <Outlet />
                         </div>
                     </div>
                 </div>

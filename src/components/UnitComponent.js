@@ -1,38 +1,30 @@
 import React, { useState, useEffect } from 'react';
-import { Media, Card, CardImg, CardText, CardBody, CardTitle, Button, Nav, NavItem, NavLink, Badge, TabContent, TabPane, Modal} from 'reactstrap';
+import { Media, Card, CardImg, CardText, CardBody, CardTitle, Button, Nav, NavItem, NavLink, Badge, TabContent, TabPane} from 'reactstrap';
 import '../index.css';
-import { useParams } from 'react-router-dom';
+import { useParams, Link, Routes, Route } from 'react-router-dom';
 import { getUnitByName } from '../shared/unitInfo';
 
 function UnitDetails () {
     const selectedUnit = useParams();
     const units = getUnitByName(selectedUnit.unitName);
-    
+
+    /*TODO: Fix tabbing spacing
+    Also, Nest Stats and True WEapon under lore so evolution can be toggled?
+    If Lore Information, Index under / , then put child path under it to toggled #?*/
     return (
         <React.Fragment>
-            <Nav tabs justified>
-                <NavItem>
-                    <NavLink href="#stats" active>Stats</NavLink> 
-                </NavItem>
-                <NavItem>
-                    <NavLink href="#trueweapon">True Weapon</NavLink>
-                </NavItem>
-                <NavItem>
-                    <NavLink href="#lore">Lore</NavLink>
-                </NavItem>
-            </Nav>
-            <TabContent>
-                <TabPane id="stats">   
-                    <RenderStats unitStats={units.stats} detail={units.image.detail} 
-                        unitAtt={units.attribute} unitType={units.type} unitSkill={units.skillset} />
-                </TabPane>
-                <TabPane id="trueweapon">
-                    <RenderTrue unitTrue={units.trueweapon} truePassive={units.trueweapon.passive} />
-                </TabPane>
-                <TabPane id="lore">
+            <Link to="" activeClassName="active">Lore</Link>
+            <Link to="stats" activeClassName="active">Stats</Link>
+            <Link to="trueweapon" activeClassName="active">True Weapon</Link>
 
-                </TabPane>
-            </TabContent>
+            <div>
+                <Routes>
+                    <Route path="/" element={<RenderLore unitLore={units.lore} detail={units.image.detail} />} />
+                    <Route path="stats" element={<RenderStats unitStats={units.stats} 
+                        unitAtt={units.attribute} unitType={units.type} unitSkill={units.skillset} />} />
+                    <Route path="trueweapon" element={<RenderTrue unitTrue={units.trueweapon} truePassive={units.trueweapon.passive} />} />
+                </Routes>
+            </div>
         </React.Fragment>
     )
 }
@@ -42,9 +34,7 @@ function RenderStats({unitStats, unitAtt, unitType, detail, unitSkill}){
     if(unitStats){
         return (
             <div className="container-fluid">
-                <div className="row justify-content-md-center">
-                        <Media src={detail} className="unitDetail" />
-                </div>
+                
                 <div className="row">
                     <div className="col">
                         <p><i>{unitAtt} , {unitType}</i></p>
@@ -65,7 +55,7 @@ function RenderStats({unitStats, unitAtt, unitType, detail, unitSkill}){
 
 function RenderTrue({unitTrue, truePassive}) {
     //Tab for True Weapon
-    //POSSIBLY might need to add Map to Passives
+    //POSSIBLY might need to add if statements to check to Passives based on amount
     if(unitTrue){
         return (
             <div className="container-fluid">
@@ -86,8 +76,18 @@ function RenderTrue({unitTrue, truePassive}) {
     }
 }
 
-function RenderLore({unitLore}) {
-    //Modal Tab for Lore
+function RenderLore({unitLore, detail}) {
+    //Use If statements to check if unitlore.evo# exists? , then display information? https://ui.dev/react-router-nested-routes/
+    return(
+        <div>
+            <div className="row justify-content-md-center">
+                        <Media src={detail} className="unitDetail" />
+            </div>
+            <div>
+                <p>{unitLore.evo2}</p>
+            </div>
+        </div>
+    )
 }
 
 export default UnitDetails;
