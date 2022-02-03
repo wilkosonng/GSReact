@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { Media, Card, CardImg, CardText, CardBody, CardTitle, Button, Nav, NavItem, NavLink, Badge, TabContent, TabPane} from 'reactstrap';
+import { Media, Card, CardImg, CardText, CardBody, CardTitle, Button, Badge } from 'reactstrap';
 import '../index.css';
-import { useParams, Link, Routes, Route } from 'react-router-dom';
+import { useParams, Link, Routes, Route, Outlet } from 'react-router-dom';
 import { getUnitByName } from '../shared/unitInfo';
 
 function UnitDetails () {
@@ -13,13 +13,25 @@ function UnitDetails () {
     If Lore Information, Index under / , then put child path under it to toggled #?*/
     return (
         <React.Fragment>
-            <Link to="" activeClassName="active">Lore</Link>
-            <Link to="stats" activeClassName="active">Stats</Link>
-            <Link to="trueweapon" activeClassName="active">True Weapon</Link>
+            <nav>
+                <Link to="" activeClassName="active">Lore</Link>
+                <Link to="stats" activeClassName="active">Stats</Link>
+                <Link to="trueweapon" activeClassName="active">True Weapon</Link>
+            </nav>
+            
 
             <div>
                 <Routes>
-                    <Route path="/" element={<RenderLore unitLore={units.lore} detail={units.image.detail} />} />
+                    <Route path="/" element={<React.Fragment>
+                        <RenderDetail detail={units.image.detail} />
+                        <RenderLore unitLore={units.lore} unitImage={units.image} /></React.Fragment>} >
+                            <Route index />
+                            <Route path="twostar" element={<RenderTwoStar lore={units.lore.evo2} />} />
+                            <Route path="threestar" element={<RenderThreeStar lore={units.lore.evo3} />} />
+                            <Route path="fourstar" element={<RenderFourStar lore={units.lore.evo4} />} />
+                            <Route path="fivestar" element={<RenderFiveStar lore={units.lore.evo5} />} />
+                            <Route path="awaken" element={<RenderAwaken lore={units.lore.evoawk} />} />
+                    </Route>
                     <Route path="stats" element={<RenderStats unitStats={units.stats} 
                         unitAtt={units.attribute} unitType={units.type} unitSkill={units.skillset} />} />
                     <Route path="trueweapon" element={<RenderTrue unitTrue={units.trueweapon} truePassive={units.trueweapon.passive} />} />
@@ -29,7 +41,138 @@ function UnitDetails () {
     )
 }
 
-function RenderStats({unitStats, unitAtt, unitType, detail, unitSkill}){
+function RenderDetail({detail}){
+    //Shows the Unit Detail
+    return(
+            <div className="row justify-content-md-center">
+                        <Media src={detail} className="unitDetail" />
+            </div>
+    )
+}
+
+function RenderLore({unitLore, unitImage}) {
+    //Use If statements to check if unitlore.evo# exists? , then display information? https://ui.dev/react-router-nested-routes/
+    //Redo Links as NAvbars?
+    //Check down list and return based on the earliest available evolution
+    if(unitLore.evo2) {
+        return (
+            <React.Fragment>
+                <nav>
+                    <Link to="twostar" activeClassName="active">
+                        <Media src={unitImage.thumb2} />
+                    </Link>
+                    <Link to="threestar" activeClassName="active">
+                        <Media src={unitImage.thumb3} />
+                    </Link>
+                    <Link to="fourstar" activeClassName="active">
+                        <Media src={unitImage.thumb4} />
+                    </Link>
+                    <Link to="fivestar" activeClassName="active">
+                        <Media src={unitImage.thumb5} />
+                    </Link>
+                    <Link to="awaken" activeClassName="active">
+                        <Media src={unitImage.thumbawk} />
+                    </Link>
+                </nav>
+                <Outlet />
+            </React.Fragment>
+
+        )
+    }
+
+    if(unitLore.evo3) {
+        return (
+            <React.Fragment>
+                <nav>
+                    <Link to="threestar" activeClassName="active">
+                        <Media src={unitImage.thumb3} />
+                    </Link>
+                    <Link to="fourstar" activeClassName="active">
+                        <Media src={unitImage.thumb4} />
+                    </Link>
+                    <Link to="fivestar" activeClassName="active">
+                        <Media src={unitImage.thumb5} />
+                    </Link>
+                    <Link to="awaken" activeClassName="active">
+                        <Media src={unitImage.thumbawk} />
+                    </Link>
+                </nav>
+                <Outlet />
+            </React.Fragment>
+
+        )
+    }
+
+    if(unitLore.evo4) {
+        return (
+            <React.Fragment>
+                <nav>
+                    <Link to="fourstar" activeClassName="active">
+                        <Media src={unitImage.thumb4} />
+                    </Link>
+                    <Link to="fivestar" activeClassName="active">
+                        <Media src={unitImage.thumb5} />
+                    </Link>
+                    <Link to="awaken" activeClassName="active">
+                        <Media src={unitImage.thumbawk} />
+                    </Link>
+                </nav>
+                <Outlet />
+            </React.Fragment>
+
+        )
+    }
+
+    if(unitLore.evo5) {
+        return (
+            <React.Fragment>
+                <nav>
+                    <Link to="fivestar" activeClassName="active">
+                        <Media src={unitImage.thumb5} />
+                    </Link>
+                    <Link to="awaken" activeClassName="active">
+                        <Media src={unitImage.thumbawk} />
+                    </Link>
+                </nav>
+                <Outlet />
+            </React.Fragment>
+
+        )
+    }
+
+}
+
+function RenderTwoStar({lore}) {
+    return (
+        <p>{lore}</p>
+    )
+}
+
+function RenderThreeStar({lore}) {
+    return (
+        <p>{lore}</p>
+    )
+}
+
+function RenderFourStar({lore}) {
+    return (
+        <p>{lore}</p>
+    )
+}
+
+function RenderFiveStar({lore}) {
+    return(
+        <p>{lore}</p>
+    )
+}
+
+function RenderAwaken({lore}) {
+    return (
+        <p>{lore}</p>
+    )
+}
+
+function RenderStats({unitStats, unitAtt, unitType, unitSkill}){
     //Tab for Stats
     if(unitStats){
         return (
@@ -76,18 +219,6 @@ function RenderTrue({unitTrue, truePassive}) {
     }
 }
 
-function RenderLore({unitLore, detail}) {
-    //Use If statements to check if unitlore.evo# exists? , then display information? https://ui.dev/react-router-nested-routes/
-    return(
-        <div>
-            <div className="row justify-content-md-center">
-                        <Media src={detail} className="unitDetail" />
-            </div>
-            <div>
-                <p>{unitLore.evo2}</p>
-            </div>
-        </div>
-    )
-}
+
 
 export default UnitDetails;
