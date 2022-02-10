@@ -1,21 +1,21 @@
 const UnitInformation = [
     { //Clyde - Complete
-        id: 0,
+        id: 100016111,
         name: "Clyde",
         attribute: "Fire",
         type: "Human",
         image: 
             {
-                detailawk: "/db/Units/Detail/unit_detail_ClydeAwk.png",
-                thumb2: "/db/Units/Thumbnail/unit_thumbnail_Clyde2.png",
-                thumb3: "/db/Units/Thumbnail/unit_thumbnail_Clyde3.png",
-                thumb4: "/db/Units/Thumbnail/unit_thumbnail_Clyde4.png",
-                thumb5: "/db/Units/Thumbnail/unit_thumbnail_Clyde5.png",
-                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_ClydeAwk.png",
-                detail2: "/db/Units/Detail/unit_detail_Clyde2.png",
-                detail3: "/db/Units/Detail/unit_detail_Clyde3.png",
-                detail4: "/db/Units/Detail/unit_detail_Clyde4.png",
-                detail5: "/db/Units/Detail/unit_detail_Clyde5.png"
+                detailawk: "/db/Units/Detail/unit_detail_100016111.png",
+                thumb2: "/db/Units/Thumbnail/unit_thumbnail_100012111.png",
+                thumb3: "/db/Units/Thumbnail/unit_thumbnail_100013111.png",
+                thumb4: "/db/Units/Thumbnail/unit_thumbnail_100014111.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_100015111.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_100016111.png",
+                detail2: "/db/Units/Detail/unit_detail_100012111.png",
+                detail3: "/db/Units/Detail/unit_detail_100013111.png",
+                detail4: "/db/Units/Detail/unit_detail_100014111.png",
+                detail5: "/db/Units/Detail/unit_detail_100015111.png"
             },
         skillset: 
             {
@@ -76,8 +76,11 @@ const UnitInformation = [
                 {
                     mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
                     mat1amt: 10,
-                    mat2: "/db/Icons/dungeon_drops/fragDegilmagna.png",
-                    mat2amt: 2
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragDegilmagna.png",
+                    mat3amt: 1,
+                    hover3: "Degilmagna"
                 }
             },
         trueweapon: 
@@ -151,6 +154,40 @@ const UnitInformation = [
                 ability1: "Increase Water Allies' BE generation by 20%.",
                 ability2: "Increase Water Allies' DMG by 30%."
             },
+        evolution: 
+            {
+                evo23: 
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_water2.png",
+                    mat1amt: 2,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_water1.png",
+                    mat2amt: 2
+                },
+                evo34: 
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_water2.png",
+                    mat1amt: 2,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_water2.png",
+                    mat2amt: 5
+                },
+                evo45:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_water4.png",
+                    mat1amt: 2,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_water3.png",
+                    mat2amt: 5
+                },
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 10,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragFreydal.png",
+                    mat3amt: 1,
+                    hover3: "Freydal"
+                }
+            },
         trueweapon: 
             {
                 name: "Froid Rosier",
@@ -223,6 +260,40 @@ const UnitInformation = [
             slot3: 3,
             slot3type: "/db/Mines/thumbnail/defLB.png"
         },
+        evolution: 
+            {
+                evo23: 
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_earth2.png",
+                    mat1amt: 2,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_earth1.png",
+                    mat2amt: 2
+                },
+                evo34: 
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_earth3.png",
+                    mat1amt: 2,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_earth2.png",
+                    mat2amt: 5
+                },
+                evo45:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_earth4.png",
+                    mat1amt: 2,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_earth3.png",
+                    mat2amt: 5
+                },
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 10,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragElpneumas.png",
+                    mat3amt: 1,
+                    hover3: "Elpneumas"
+                }
+            },
         trueweapon: 
             {
                 name: "Arth Lumina",
@@ -296,6 +367,46 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/suppLB.png"
             },
+        evolution: 
+            {
+                evo23: 
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
+                    mat1amt: 2,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light1.png",
+                    mat2amt: 5
+                },
+                evo34: 
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
+                    mat1amt: 2,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
+                    mat2amt: 5
+                },
+                evo45:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
+                    mat1amt: 2,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
+                    mat2amt: 5
+                },
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3amt: 4,
+                    hover3: "Fosradius",
+                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat4amt: 4,
+                    hover4: "Code-XTF",
+                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                    mat5amt: 5,
+                    hover5: "Aerugraxes"
+                }
+            },
         trueweapon: 
             {
                 name: "Centurion",
@@ -368,6 +479,46 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/healLB.png"
             },
+        evolution: 
+            {
+                evo23: 
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_dark2.png",
+                    mat1amt: 2,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_dark1.png",
+                    mat2amt: 5
+                },
+                evo34: 
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_dark3.png",
+                    mat1amt: 2,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_dark2.png",
+                    mat2amt: 5
+                },
+                evo45:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_dark4.png",
+                    mat1amt: 2,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_dark3.png",
+                    mat2amt: 5
+                },
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragValzandeth.png",
+                    mat3amt: 4,
+                    hover3: "Valzandeth",
+                    mat4: "/db/Icons/dungeon_drops/fragIfrit.png",
+                    mat4amt: 4,
+                    hover4: "Ifrit",
+                    mat5: "/db/Icons/dungeon_drops/fragOldeus.png",
+                    mat5amt: 5,
+                    hover5: "Oldeus"
+                }
+            },
         trueweapon: 
             {
                 name: "Nemesis Crow",
@@ -401,10 +552,10 @@ const UnitInformation = [
                 detail3: "/db/Units/Detail/unit_detail_100563112.png",
                 detail4: "/db/Units/Detail/unit_detail_100564112.png",
                 detail5: "/db/Units/Detail/unit_detail_100565112.png",
-                thumb3: "/db/Units/Thumbnail/unit_detail_100563112.png",
-                thumb4: "/db/Units/Thumbnail/unit_detail_100564112.png",
-                thumb5: "/db/Units/Thumbnail/unit_detail_100565112.png",
-                thumbawk: "/db/Units/Thumbnail/unit_detail_100566112.png"
+                thumb3: "/db/Units/Thumbnail/unit_thumbnail_100563112.png",
+                thumb4: "/db/Units/Thumbnail/unit_thumbnail_100564112.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_100565112.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_100566112.png"
             },
         skillset: 
             {
@@ -439,6 +590,33 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/magLB.png"
             },
+        evolution: 
+            {
+                evo34: 
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_fire3.png",
+                    mat1amt: 2,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_fire2.png",
+                    mat2amt: 5
+                },
+                evo45:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_fire4.png",
+                    mat1amt: 2,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_fire3.png",
+                    mat2amt: 5
+                },
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragDegilmagna.png",
+                    mat3amt: 2,
+                    hover3: "Degilmagna",
+                }
+            },
         lore: 
             {   
                 evo3: "Missing Lore Information, please contact site owner",
@@ -454,14 +632,14 @@ const UnitInformation = [
         type: "Giant",
         image: 
             {
-                detail3: "/db/Unit/Detail/unit_detail_100573212.png",
-                detail4: "/db/Unit/Detail/unit_detail_100574212.png",
-                detail5: "/db/Unit/Detail/unit_detail_100575212.png",
-                detailawk: "/db/Unit/Detail/unit_detail_100576212.png",
-                thumb3: "/db/Unit/Thumbnail/unit_thumbnail_100573212.png",
-                thumb4: "/db/Unit/Thumbnail/unit_thumbnail_100574212.png",
-                thumb5: "/db/Unit/Thumbnail/unit_thumbnail_100575212.png",
-                thumbawk: "/db/Unit/Thumbnail/unit_thumbnail_100576212.png"
+                detail3: "/db/Units/Detail/unit_detail_100573212.png",
+                detail4: "/db/Units/Detail/unit_detail_100574212.png",
+                detail5: "/db/Units/Detail/unit_detail_100575212.png",
+                detailawk: "/db/Units/Detail/unit_detail_100576212.png",
+                thumb3: "/db/Units/Thumbnail/unit_thumbnail_100573212.png",
+                thumb4: "/db/Units/Thumbnail/unit_thumbnail_100574212.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_100575212.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_100576212.png"
             },
         slots: 
             {
@@ -496,6 +674,41 @@ const UnitInformation = [
                 ability2: "Increase own DMG to Human Enemy by 80%",
                 ability3: "Increase own DMG by 30% when own HP is over 50%. (Does not stack)"
             },
+        evolution: 
+            {
+                evo34: 
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_water2.png",
+                    mat1amt: 5,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_earth2.png",
+                    mat2amt: 1
+                },
+                evo45:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_water4.png",
+                    mat1amt: 2,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_earth4.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_water3.png",
+                    mat3amt: 5
+                },
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragPalamicia.png",
+                    mat3amt: 4,
+                    hover3: "Palamicia",
+                    mat4: "/db/Icons/dungeon_drops/fragValzendeth.png",
+                    mat4amt: 4,
+                    hover4: "Valzendeth",
+                    mat5: "/db/Icons/dungeon_drops/fragFreydal.png",
+                    mat5amt: 3,
+                    hover5: "Freydal"
+                }
+            },
         lore: 
             {   
                 evo3: "Missing Lore Information, please contact site owner",
@@ -505,20 +718,20 @@ const UnitInformation = [
             }
     },
     { //Valhalla - Missing Lore
-        id: 100585312,
+        id: 100586312,
         name: "Valhalla",
         attribute: "Earth",
         type: "Spirit",
         image: 
             {
-                detail3: "/db/Unit/Detail/unit_detail_100583212.png",
-                detail4: "/db/Unit/Detail/unit_detail_100584212.png",
-                detail5: "/db/Unit/Detail/unit_detail_100585312.png",
-                detailawk: "/db/Unit/Detail/unit_detail_100583212.png",
-                thumb3: "/db/Unit/Thumbnail/unit_thumbnail_100583212.png",
-                thumb4: "/db/Unit/Thumbnail/unit_thumbnail_100584212.png",
-                thumb5: "/db/Unit/Thumbnail/unit_thumbnail_100585212.png",
-                thumbawk: "/db/Unit/Thumbnail/unit_thumbnail_100586212.png"
+                detail3: "/db/Units/Detail/unit_detail_100583312.png",
+                detail4: "/db/Units/Detail/unit_detail_100584312.png",
+                detail5: "/db/Units/Detail/unit_detail_100585312.png",
+                detailawk: "/db/Units/Detail/unit_detail_100586312.png",
+                thumb3: "/db/Units/Thumbnail/unit_thumbnail_100583312.png",
+                thumb4: "/db/Units/Thumbnail/unit_thumbnail_100584312.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_100585312.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_100586312.png"
             },
         slots: 
             {
@@ -553,6 +766,33 @@ const UnitInformation = [
                 ability2: "Increase all Ally Poison RES by 50%",
                 ability3: "Increase all Ally DMG RES by 10% when near death"
             },
+        evolution: 
+            {
+                evo34: 
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_earth3.png",
+                    mat1amt: 2,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_earth2.png",
+                    mat2amt: 5
+                },
+                evo45:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_earth4.png",
+                    mat1amt: 2,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_earth3.png",
+                    mat2amt: 5
+                },
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragElpneumas.png",
+                    mat3amt: 2,
+                    hover3: "Elpneumas",
+                }
+            },
         lore: 
             {   
                 evo3: "Missing Lore Information, please contact site owner",
@@ -568,14 +808,14 @@ const UnitInformation = [
         type: "Machine",
         image: 
             {
-                detail3: "/db/Unit/Detail/unit_detail_100593412.png",
-                detail4: "/db/Unit/Detail/unit_detail_100594412.png",
-                detail5: "/db/Unit/Detail/unit_detail_100595412.png",
-                detailawk: "/db/Unit/Detail/unit_detail_100596412.png",
-                thumb3: "/db/Unit/Thumbnail/unit_thumbnail_100593412.png",
-                thumb4: "/db/Unit/Thumbnail/unit_thumbnail_100594412.png",
-                thumb5: "/db/Unit/Thumbnail/unit_thumbnail_100595412.png",
-                thumbawk: "/db/Unit/Thumbnail/unit_thumbnail_100596412.png"
+                detail3: "/db/Units/Detail/unit_detail_100593412.png",
+                detail4: "/db/Units/Detail/unit_detail_100594412.png",
+                detail5: "/db/Units/Detail/unit_detail_100595412.png",
+                detailawk: "/db/Units/Detail/unit_detail_100596412.png",
+                thumb3: "/db/Units/Thumbnail/unit_thumbnail_100593412.png",
+                thumb4: "/db/Units/Thumbnail/unit_thumbnail_100594412.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_100595412.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_100596412.png"
             },
         slots: 
             {
@@ -609,7 +849,46 @@ const UnitInformation = [
                 ability1: "Increase own Paralysis RES by 60%",
                 ability2: "Increase own Poison RES by 60%",
                 ability3: "After using True Arts, increase Wave Armor level by 1 (Max 3)"
-            },  
+            },
+        evolution: 
+            {
+                evo34: 
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
+                    mat1amt: 2,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_fire2.png",
+                    mat2amt: 2,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_water2.png",
+                    mat3amt: 2,
+                    mat4: "/db/Icons/dungeon_drops/material_thumbnail_earth2.png",
+                    mat4amt: 2,
+                    mat5: "/db/Icons/dungeon_drops/material_thumbnail_dark2.png",
+                    mat5amt: 2
+                },
+                evo45:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
+                    mat1amt: 2,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_fire3.png",
+                    mat2amt: 2,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_water3.png",
+                    mat3amt: 2,
+                    mat4: "/db/Icons/dungeon_drops/material_thumbnail_earth3.png",
+                    mat4amt: 2,
+                    mat5: "/db/Icons/dungeon_drops/material_thumbnail_dark3.png",
+                    mat5amt: 2
+                },
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3amt: 2,
+                    hover3: "Fosradius"
+                }
+            },
         lore: 
             {   
                 evo3: "Missing Lore Information, please contact site owner",
@@ -625,14 +904,14 @@ const UnitInformation = [
         type: "Demon",
         image: 
             {
-                detail3: "/db/Unit/Detail/unit_detail_100603512.png",
-                detail4: "/db/Unit/Detail/unit_detail_100604512.png",
-                detail5: "/db/Unit/Detail/unit_detail_100605512.png",
-                detailawk: "/db/Unit/Detail/unit_detail_100606512.png",
-                thumb3: "/db/Unit/Thumbnail/unit_thumbnail_100603512.png",
-                thumb4: "/db/Unit/Thumbnail/unit_thumbnail_100604512.png",
-                thumb5: "/db/Unit/Thumbnail/unit_thumbnail_100605512.png",
-                thumbawk: "/db/Unit/Thumbnail/unit_thumbnail_100606512.png"
+                detail3: "/db/Units/Detail/unit_detail_100603512.png",
+                detail4: "/db/Units/Detail/unit_detail_100604512.png",
+                detail5: "/db/Units/Detail/unit_detail_100605512.png",
+                detailawk: "/db/Units/Detail/unit_detail_100606512.png",
+                thumb3: "/db/Units/Thumbnail/unit_thumbnail_100603512.png",
+                thumb4: "/db/Units/Thumbnail/unit_thumbnail_100604512.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_100605512.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_100606512.png"
             },
         slots: 
             {
@@ -665,7 +944,38 @@ const UnitInformation = [
             {
                 ability1: "Increase own DMG to Demon Enemy by 100%",
                 ability2: "Increase own DMG to God Enemy by 100%"
-            },  
+            },
+        evolution: 
+            {
+                evo34: 
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_dark3.png",
+                    mat1amt: 2,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_fire3.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_2",
+                    mat3amt: 5
+                },
+                evo45:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_dark4.png",
+                    mat1amt: 2,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_fire4.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_dark3.png",
+                    mat3amt: 5
+                },
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragOldeus.png",
+                    mat3amt: 2,
+                    hover3: "Oldeus"
+                }
+            },
         lore: 
             {   
                 evo3: "Missing Lore Information, please contact site owner",
@@ -699,8 +1009,8 @@ export function getUnitByName(name) {
         type: ,
         image: 
             {
-                detailawk: "/db/Unit/Detail/unit_detail_100573212.png",
-                thumb5: "/db/Unit/Thumbnail/unit_thumbnail_100573212.png",
+                detailawk: "/db/Units/Detail/unit_detail_100573212.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_100573212.png",
                 thumbawk: ""
             },
         slots: 
@@ -734,7 +1044,47 @@ export function getUnitByName(name) {
             {
                 ability1: "",
                 ability2: ""
-            },  
+            }, 
+        evolution: 
+            {
+                evo23: 
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
+                    mat1amt: 2,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light1.png",
+                    mat2amt: 5
+                },
+                evo34: 
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
+                    mat1amt: 2,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
+                    mat2amt: 5
+                },
+                evo45:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
+                    mat1amt: 2,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
+                    mat2amt: 5
+                },
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3amt: 4,
+                    hover3: "Fosradius",
+                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat4amt: 4,
+                    hover4: "Code-XTF",
+                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                    mat5amt: 5,
+                    hover5: "Aerugraxes"
+                }
+            },
         trueweapon: 
             {
                 name: "",
