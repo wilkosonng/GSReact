@@ -40,13 +40,45 @@ const UnitInformation = [
                 def: 2138,
                 defplus: 330
             },
-        slots: {
+        slots: 
+            {
                 slot1: 5,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/physLB.png",
                 slot3: 3,
                 slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        evolution: 
+            {
+                evo23: 
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_fire2.png",
+                    mat1amt: 2,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_fire1.png",
+                    mat2amt: 2
+                },
+                evo34: 
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_fire2.png",
+                    mat1amt: 2,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_fire2.png",
+                    mat2amt: 5
+                },
+                evo45:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_fire4.png",
+                    mat1amt: 2,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_fire3.png",
+                    mat2amt: 5
+                },
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 10,
+                    mat2: "/db/Icons/dungeon_drops/fragDegilmagna.png",
+                    mat2amt: 2
+                }
             },
         trueweapon: 
             {
