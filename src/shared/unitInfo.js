@@ -1,3 +1,125 @@
+/**
+ * FORMAT, do not forget COMMAS
+ * 
+ * TODO: Add Slot 1, icon, Slot 2, icon, Slot3 icon
+ * TODO: Add Evo Mat 1 to 5, and Amount for each 
+ * 
+ * {
+        id: ,
+        name: ,
+        attribute: ,
+        type: ,
+        image: 
+            {
+                detail4: ,
+                detail5: ,
+                detailawk: "/db/Units/Detail/unit_detail_.png",
+                thumb4: ,
+                thumb5: ,
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: ,
+                hpplus: ,
+                atk: ,
+                atkplus: ,
+                def: ,
+                defplus: 
+            },
+        skillset: 
+            {
+                skill: "",
+                skillbreak: ,
+                arts: "",
+                artsbreak: ,
+                truearts: "",
+                trueartsbreak: 
+            },
+        passive: 
+            {
+                ability1: "",
+                ability2: ""
+            }, 
+        evolution: 
+            {
+                evo23: //2 to 3, 3 to 4, etc. If more than material listed, create new line with mat3 and mat3amt , etc.
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
+                    mat1amt: 2,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light1.png",
+                    mat2amt: 5
+                },
+                evo34: 
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
+                    mat1amt: 2,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
+                    mat2amt: 5
+                },
+                evo45:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
+                    mat1amt: 2,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
+                    mat2amt: 5
+                },
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3amt: 4,
+                    hover3: "Fosradius",
+                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat4amt: 4,
+                    hover4: "Code-XTF",
+                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                    mat5amt: 5,
+                    hover5: "Aerugraxes"
+                }
+            },
+        trueweapon: //If no TW, may delete this section
+            {
+                name: "",
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "",
+                skill: "",
+                skillbreak: ,
+                passive: 
+                    {
+                        ability1: 
+                        ability2: 
+                    }
+            },
+        lore: 
+            {   
+                evo3: "Missing Lore Information, please contact site owner",
+                evo4: "Missing Lore Information, please contact site owner",
+                evo5: "Missing Lore Information, please contact site owner",
+                evoawk: "Missing Lore Information, please contact site owner"
+            }
+    }
+
+    /db/Mines/thumbnail/physLB.png
+    /db/Mines/thumbnail/magLB.png
+    /db/Mines/thumbnail/defLB.png
+    /db/Mines/thumbnail/healLB.png
+    /db/Mines/thumbnail/suppLB.png
+
+ */
+
 const UnitInformation = [
     { //Clyde - Complete
         id: 100016111,
@@ -3662,124 +3784,3 @@ export function getUnitByName(name) {
     );
 }
 
-/**
- * FORMAT, do not forget COMMAS
- * 
- * TODO: Add Slot 1, icon, Slot 2, icon, Slot3 icon
- * TODO: Add Evo Mat 1 to 5, and Amount for each 
- * 
- * {
-        id: ,
-        name: ,
-        attribute: ,
-        type: ,
-        image: 
-            {
-                detail4: ,
-                detail5: ,
-                detailawk: "/db/Units/Detail/unit_detail_.png",
-                thumb4: ,
-                thumb5: ,
-                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_.png"
-            },
-        slots: 
-            {
-                slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
-                slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
-                slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
-            },
-        stats: 
-            {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
-            },
-        skillset: 
-            {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
-            },
-        passive: 
-            {
-                ability1: "",
-                ability2: ""
-            }, 
-        evolution: 
-            {
-                evo23: 
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light1.png",
-                    mat2amt: 5
-                },
-                evo34: 
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
-                    mat2amt: 5
-                },
-                evo45:
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat2amt: 5
-                },
-                evo5awk:
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
-                    mat1amt: 30,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
-                    mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
-                }
-            },
-        trueweapon: 
-            {
-                name: "",
-                slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
-                skill: "",
-                skillbreak: ,
-                passive: 
-                    {
-                        ability1: 
-                        ability2: 
-                    }
-            },
-        lore: 
-            {   
-                evo3: "Missing Lore Information, please contact site owner",
-                evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
-            }
-    }
-
-    /db/Mines/thumbnail/physLB.png
-    /db/Mines/thumbnail/magLB.png
-    /db/Mines/thumbnail/defLB.png
-    /db/Mines/thumbnail/healLB.png
-    /db/Mines/thumbnail/suppLB.png
-
- */
