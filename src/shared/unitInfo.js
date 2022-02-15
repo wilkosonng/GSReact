@@ -1106,11 +1106,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Ragna - Missing Stats, Lore, Slots, Evolution, True Weapon, TW Image
+    { //Ragna - Missing Lore, TW Image
         id: 100616112,
         name: "Ragna",
-        attribute: ,
-        type: ,
+        attribute: "Fire",
+        type: "God",
         image: 
             {
                 detail3: "/db/Units/Detail/unit_detail_100613112.png",
@@ -1133,26 +1133,28 @@ const UnitInformation = [
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 6300,
+                hpplus: 955,
+                atk: 3060,
+                atkplus: 469,
+                def: 2304,
+                defplus: 355 
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "8s CT - 1800% Fire DMG (PHY). Chance to inflict Burn.",
+                skillbreak: 2500,
+                arts: "12000% Fire DMG (PHY). For 10s, increase Allies' DMG by 20%, Fire Allies' DMG by 30%.",
+                artsbreak: 3000,
+                truearts: "24950% Fire DMG (PHY). For 10s, increase Allies' DMG and Break PWR by 20%, Fire Allies' DMG and Break PWR by 30%.",
+                trueartsbreak: 5500
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase Paralysis RES by 80%.",
+                ability2: "Increase Blind RES by 80%.",
+                ability3: "Increase DMG to Dark Enemies by 20%. Increase Dark RES by 10%.",
+                ability4: "After using both True Arts and Arts, activate Transcendental Enhancement for 30s. Faint self for 12s after Transcendental Enhancement is deactivated. Transcendental Enhancement: Increase own Movement Speed, Skill CT REC, Equipment CT REC, DMG and Break PWR by 100%."
             }, 
         evolution: 
             {
@@ -1196,15 +1198,15 @@ const UnitInformation = [
             },
         trueweapon: 
             {
-                name: "",
+                name: "Day Break",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "",
-                skill: "",
-                skillbreak: ,
+                skill: "55s CT - 6500% Fire DMG (PHY). Increase own Arts by 80 if user is near-death.",
+                skillbreak: 1000,
                 passive: 
                     {
-                        ability1: 
-                        ability2: 
+                        ability1: "When equipped by Ragna, increase DMG by 20% and increase Status RES (except Faint) by 100%.",
+                        ability2: "Increase DMG to Demon Enemies by 50%."
                     }
             },
         lore: 
@@ -1215,11 +1217,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Yomi - Missing Stats, Lore, Slots, Evolution
+    { //Yomi - Missing Lore
         id: 100626212,
         name: "Yomi",
-        attribute: ,
-        type: ,
+        attribute: "Water",
+        type: "Human",
         image: 
             {
                 detail3: "/db/Units/Detail/unit_detail_100623212.png",
@@ -1242,26 +1244,27 @@ const UnitInformation = [
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 6708,
+                hpplus: 999,
+                atk: 2449,
+                atkplus: 377,
+                def: 2074,
+                defplus: 321 
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "8s CT - 2000% Water DMG (PHY).",
+                skillbreak: 1700,
+                arts: "15000% Water DMG (PHY). For 15s, increase Allies' ATK by 20%.",
+                artsbreak: 2000,
+                truearts: "28000% Water DMG (PHY). If this True Arts hits a Broken Enemy, increase own Arts by 100 (only once per True Arts activation) + For 10s, increase own Critical Rate by 100%.",
+                trueartsbreak: 3600 
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase DMG to Dragon Enemies by 100%.",
+                ability2: "Increase evasion by 35% when near-death.",
+                ability3: "Increase DMG to Enemies in Break by 30%."
             }, 
         evolution: 
             {
@@ -1302,19 +1305,6 @@ const UnitInformation = [
                     mat5amt: 5,
                     hover5: "Aerugraxes"
                 }
-            },
-        trueweapon: 
-            {
-                name: "",
-                slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
-                skill: "",
-                skillbreak: ,
-                passive: 
-                    {
-                        ability1: 
-                        ability2: 
-                    }
             },
         lore: 
             {   
