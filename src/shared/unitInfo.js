@@ -834,8 +834,8 @@ const UnitInformation = [
         lore: 
             {   
                 evo3: "Missing Lore Information, please contact site owner",
-                evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
+                evo4: "The king of rare water-dwelling Giants, Herck shared dominion with the Sea Dragons prior to the start of the Great War. The two had a relationship that surpassed race, and even Herck's grandfather was a Sea Dragon. His body had dragon features, which were seen as natural and respected at the time, and a source of great power for Herck, but the war pit the two races against each other.",
+                evo5: "The king of the rarely seen Sea Giants, Herck followed the request to fight alongside the other Giants, and joined the Demon forces. The Sea Giants, always friends to his people, joined the Gods, but he turned his spear against them without hesitation. Though this drew the hatred of the Sea Dragons, the fear they felt towards him proved tactically useful. Damage to both sides was minimal, but scars remained...",
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
@@ -918,8 +918,8 @@ const UnitInformation = [
         lore: 
             {   
                 evo3: "Missing Lore Information, please contact site owner",
-                evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
+                evo4: "A divine tree with the powers of creation and rebirth. The Great War's battles rended the continents of Raktehelm in two, leading to a natural increase in prayers toward Valhalla. However, few firsthand accounts of such behavior remain. Some despaired, thinking Valhalla had abandoned the eight races after their countless mistakes, but current theories suggest that is was merely preparing its true power for the devastation to come.",
+                evo5: "A divine tree representing the world's will. Toward the end of the Great War, with the once-beautiful world of Raktehelm a mere shadow of its former self, Valhalla appeared at last in the skies over a raging battle and released the totality of its power. The world was suffused in a radiant light. the light eventually faded, the war eventually ended. And the survivors still had the earth, whose verdant glory returned, slowly but surely.",
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
@@ -1101,12 +1101,12 @@ const UnitInformation = [
         lore: 
             {   
                 evo3: "Missing Lore Information, please contact site owner",
-                evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
+                evo4: "A mechanical lifeform from another world. EDEN worked with the fairies he met to find some was to save his world, but unfortunately stumbled into Demon territory. To protect the fairies, he disabled the limiters on his functions, unleashing his original power in the process. Though the demons were defeated, he had exhausted his energy far faster than expected. His time remaining grew shorter by the moment.",
+                evo5: "With his functions close to ceasing, the worried fairies gave EDEN some of their secret medicine, which also happened to be the substance he was searching for to save his world. Thanking him for being their friend, the fairies gave him all of their medicine. With the last of his power, he transformed for the long-distance jump back to his world. Even now, the legend of these fairies who saved the metal traveler from another world persists.",
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Ragna - Missing Lore, Evolution, TW Image
+    { //Ragna - Missing Evolution, TW Image
         id: 100616112,
         name: "Ragna",
         attribute: "Fire",
@@ -1211,10 +1211,10 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo3: "Missing Lore Information, please contact site owner",
-                evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo3: "A God knight who threw his lot in with Humans. Originally a high-ranking knight among the Gods, he began a journey in search of strong foes to improve himself further. As he witnessed Humans dueling each other, he grew intrigued, the passion of people living to their truest potential coming through in the fights between heroes who would one day be known as Blade Masters. He realized what he lacked. And this only made him stronger.",
+                evo4: "A knight, born among the Gods, who chose to fight for Humans. Though Ragna observed many duels between Humans, he never participated. People only grew aware of his existence and power sometime after the beginning of the great war. Supposedly, he took up the sword to protect innocent children and the elderly who came under attack, telling those responsible not to 'spoil his fun' - words remembered even now.",
+                evo5: "A knight, born among the Gods, who threw his lot in with Humans. During the Great War, Ragna aligned himself with no country, and continued travelling the world to help those in need. He turned his blade not just against Demons, but anyone who dared to harm the weak, inspiring fear in the strong and courage in the oppressed. Always a wellspring of hope, he never offered his name, leaving it blank from the pages of history.",
+                evoawk: "A knight of the Gods whose name lives on only as a word of hope. Hailed as a savior in the Ancient War, he was in truth a brave protector of the weak and warrior for justice. And yet, for non-Humans, he was a figure of fear whose name is spoken even today in hushed tones. Today in Raktehelm, none alive know that the mantra of Ragna, spoken in times of deepest distress, is his true name."
             }
     },
     { //Yomi - Missing Lore, Evolution
@@ -1309,9 +1309,9 @@ const UnitInformation = [
         lore: 
             {   
                 evo3: "Missing Lore Information, please contact site owner",
-                evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo4: "A swordswoman summoned to Raktehelm from another world. Prior to her summoning, it is said that while she was always an expert with the sword, she never had any special powers. In Raktehelm, however, she overflowed with magical energies, and water surrounded her always. protecting her from harm and forming into blades to attack her Demonic foes. And they're still telling stories of how she cut Afradohl's wings...",
+                evo5: "A swordswoman summoned to Raktehelm from another world. Though she followed orders to fight against the Demons, a fight she had against a certain scythe-wielding Demoness changed her when she realized that her opponent had once been Human, and that the Demons altered people, turning them into weapons. This only made her magic power stronger, and steeled her resolved to defeat the enemies of Humans.",
+                evoawk: "A mysterious swordswoman summoned from another world. She once valued loyalty above all, but eventually, she came to doubt her God masters as much as the Demons. Ironically, the more she doubted, the sharper her blade cut. But soon, she will find that this power she sought to defend her home will bring even greater tragedy and hatred. And so she sets out on a journey to discover how to destroy forever her true enemy; War."
             }
     },
     { //Vaid - Missing Lore, Evolution
@@ -1406,7 +1406,7 @@ const UnitInformation = [
             {   
                 evo3: "Missing Lore Information, please contact site owner",
                 evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
+                evo5: "A machine weapon that fought during the great war. The small module's will won many battles, during which the large module rarely objected. Only once did the modules differ in opinion. After discovering an enemy Beast commander, the small module released all weapons and unleashed a devastating barrage. The commander survived, but the large module refused to attack. "That is your foe. Not mine," it said.",
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
@@ -1502,7 +1502,7 @@ const UnitInformation = [
             {   
                 evo3: "Missing Lore Information, please contact site owner",
                 evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
+                evo5: "A Beast hero renowned as the Azure Saint, Elfalla attempted to put a stop to a machine weapon of mass destruction, only for the weapon to inform him of a great sin he had committed during an earlier mission. Barely managing to escape, Elfalla found his actions clouded, but was stirred to act once more upon seeing his fellow soldiers doing their best to repay him. He would stop at nothing to stop the rampaging weapon.",
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
@@ -1599,9 +1599,9 @@ const UnitInformation = [
         lore: 
             {   
                 evo3: "Missing Lore Information, please contact site owner",
-                evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo4: "A murderous weapon that fought for the Demons during the Great War. Lily used her enormous scythe to cut down countless Gods. One day, a swordswoman from another world appeared before her, fighting for the Gods. During the fight, the swordswoman tried to speak to Lily again and again, but to no avail. The swordswoman unleashed hidden magical energy shatter Lily's scythe, promising to save her, someday, somehow.",
+                evo5: "A murderous weapon that fought for the Demons during the Great War. After losing to the otherworldly swordswoman, Lily sought even greater power, and used forbidden Demonic arts to form a pact with the reaper. With unimaginable strength and a new scythe, Lily returned to the battlefield... but her mind was slowly being consumed by the reaper. Those who survived described Lily as the reaper incarnate, desperately searching for her mark.",
+                evoawk: "An opponent of the Gods in the Ancient War who was called the Deathbringer of Corpse Mountain. In truth, she was a Human girl who turned her hatred into a continual search for power. Once the Deathdealer had her target, she would pursue it without cease, even to death. Once, when she came again against a swordswoman who had ducked her demonic sickle once before, she took on the demeanor of a death-dealing force of nature to kill her foe. For some reason, the swordswoman merely complained under her breath and readied her sword. History does not record what happened next."
             }
     },
     { //Rayas - Missing Lore, Evolution, TW Image
@@ -1712,7 +1712,7 @@ const UnitInformation = [
                 evo2: "Missing Lore Information, please contact site owner",
                 evo3: "Missing Lore Information, please contact site owner",
                 evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
+                evo5: "An adventurer journeying with friends to end the Demon menace. Contrary to his great strength, few know of his name and exploits, but even the handpicked warriors he journeys with have their eyes on him. Real experience has sharpened his talent with a sword and he’s managed to summon just Blade Masters, but incredible heroes from all of the eight races. Rayas still wants more, however, and so his journey continues.",
                 evoawk: "Currently unreleased in Global."
             }
     },
@@ -1780,22 +1780,6 @@ const UnitInformation = [
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
                     mat2amt: 5
                 },
-                evo5awk:
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
-                    mat1amt: 30,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
-                    mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
-                }
             },
         trueweapon: 
             {
@@ -1814,8 +1798,7 @@ const UnitInformation = [
             {   
                 evo3: "Missing Lore Information, please contact site owner",
                 evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "A divine girl who has the power to break down the barriers surrounding Gods. Though Iris was unaware she possessed such a rare power, she was discovered by a Demon and held as a research subject for anti-God weaponry. Profound in their cruelty, Iris lost her memories as a result of the experiments, but eventually managed to escape. Her encounter with a young man awakened her true power further.",
             }
     },
     { //Roy (WateR) - Missing Lore, Evolution, TW Image
@@ -1921,8 +1904,8 @@ const UnitInformation = [
         lore: 
             {   
                 evo3: "Missing Lore Information, please contact site owner",
-                evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
+                evo4: "An old friend of Rayas chosen by the Great Nations for its Demon Suppression Corps, Roy is the commander of Fenrir, the thrid unit of the imperial knights. many were opposed to Roy becoming commander, due to his youth and lowborn status, but he attained the position with the support of the Emperor and Empress. He was supposedly tasked with such a dangerous mission by the nobility, who despise him.",
+                evo5: "A knight of Isliid traveling with his allies to eliminate the Demon menace, Roy knows the secret concealed in Raktehelm's history, and seeks a world in which all races can live as equals. Though he once attempted to force a way forward, his way of thinking gradually became more flexible as he fought against the Demons with his friends. When light reached his stubborn heart, he was freed in the truest sense of the word, unleashing his true potential.",
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
@@ -2029,8 +2012,8 @@ const UnitInformation = [
         lore: 
             {   
                 evo3: "Missing Lore Information, please contact site owner",
-                evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
+                evo4: "Vice-commander of the Bamint knight order 'Rose Garden' and member of the Demon extermination squad. Though a princess, she chose the life of a knight instead. Mira refuses to mince words and has a strong sense of justice, resulting in her often acting impulsively and ignoring the actions of others. This has made her some enemies, but her willingness to defend the weak has made her friends to spare.",
+                evo5: "Third princess of Bamint, who travels with her allies to defeat the Demon menace. She ignored the opinions of Bamint's upper echelons, who didn't want to oppose the Demons, and joined the Demon Suppression Squad on her own. She seems aware of the rumor that they let her join just to get rid of her. She finds it difficult to live true to herself while traveling with others, and will continue forcing her way forward to find a place she can call home.",
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
