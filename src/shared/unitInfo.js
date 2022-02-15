@@ -2687,7 +2687,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Gilliam - Missing Stats, Lore, Slots, Evolution, True Weapon, TW Image
+    { //Gilliam - Missing Lore, Evolution, TW Image
         id: 101126311,
         name: "Gilliam",
         attribute: "Earth",
@@ -2704,34 +2704,34 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/healLB.png",
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/defLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 7320,
+                hpplus: 999,
+                atk: 2543,
+                atkplus: 391,
+                def: 2418,
+                defplus: 372
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "9s CT - 1600% Earth DMG (PHY). For 6s, increase Allies' DEF by 10%.",
+                skillbreak: 900,
+                arts: "15000% Earth DMG (PHY). For 10s, increase Allies' Equipment DMG by 30%.",
+                artsbreak: 1600,
+                truearts: "37000% Earth DMG (PHY). For 20s, increase own DMG by 70% and ignore 100% of Enemy DEF.",
+                trueartsbreak: 2000
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase PHY RES by 10%.",
+                ability2: "Increase Equipment CT REC by 20%."
             }, 
         evolution: 
             {
@@ -2775,15 +2775,15 @@ const UnitInformation = [
             },
         trueweapon: 
             {
-                name: "",
+                name: "Hepaistos",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "",
-                skill: "",
-                skillbreak: ,
+                skill: "45s CT - 10000% Earth DMG (PHY). For 8s, increase own Earth DMG by 30%.",
+                skillbreak: 300,
                 passive: 
                     {
-                        ability1: 
-                        ability2: 
+                        ability1: "When equipped by Gilliam, increase Allies' Equipment DMG by 20%. Does not stack with Abilities of the same name.",
+                        ability2: "Increase DEF by 10%."
                     }
             },
         lore: 
@@ -2794,11 +2794,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Liese (Light) - Missing Stats, Lore, Slots, Evolution, True Weapon, TW Image
+    { //Liese (Light) - Missing Lore, Evolution, TW Image
         id: 101136411,
         name: "Liese (Light)",
-        attribute: ,
-        type: ,
+        attribute: "Light",
+        type: "Human",
         image: 
             {
                 detail4: "/db/Units/Detail/unit_detail_101134411.png",
@@ -2811,34 +2811,35 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot1type: "/db/Mines/thumbnail/healLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/magLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/healLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 7510,
+                hpplus: 999,
+                atk: 2550,
+                atkplus: 392,
+                def: 2550,
+                defplus: 392
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "Recover Mode: 5s CT - Heal Allies' HP by 300. Attack Mode: 5s CT - 1800% Light DMG (MAG).",
+                skillbreak: 1700, //how do i write this??? cause liese skill has two modes, one has 0 break the other has 1700
+                arts: "Recover Mode: Heal Allies' HP by 2000, cure Allies' Status Ailments (except Faint). Attack Mode: 15500% Light DMG (MAG). High chance to inflict Paralysis.",
+                artsbreak: 3450, //same comment for skill
+                truearts: "28800% Light DMG (MAG). High chance to inflict Paralysis. Recover Allies' HP by 5000, revive fallen Allies with 30% HP (only able to revive fallen Allies once every 60s).",
+                trueartsbreak: 4450
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Switch between Attack Mode and Recover Mode when using Skill.",
+                ability2: "Increase Equipment CT REC 15%.", 
+                ability3: "Increase Status RES (except Faint) by 50%."
             }, 
         evolution: 
             {
@@ -2882,15 +2883,15 @@ const UnitInformation = [
             },
         trueweapon: 
             {
-                name: "",
-                slot: "/db/Mines/thumbnail/physLB.png",
+                name: "Rig Arcela",
+                slot: "/db/Mines/thumbnail/healLB.png",
                 detail: "",
-                skill: "",
-                skillbreak: ,
+                skill: "50s CT - Cure Allies' status ailments (except Faint), heal Allies' HP by 1200.",
+                skillbreak: 0,
                 passive: 
                     {
-                        ability1: 
-                        ability2: 
+                        ability1: "When equipped by Liese, increase DMG by 20%.",
+                        ability2: "Increase Healing Output by 10%."
                     }
             },
         lore: 
@@ -2901,11 +2902,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Est - Missing Stats, Lore, Slots, Evolution, True Weapon, TW Image
+    { //Est - Missing Lore, Evolution, TW Image
         id: 101146211,
         name: "Est",
-        attribute: ,
-        type: ,
+        attribute: "Water",
+        type: "Human",
         image: 
             {
                 detail4: "/db/Units/Detail/unit_detail_101144211.png",
@@ -2926,26 +2927,27 @@ const UnitInformation = [
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 7188,
+                hpplus: 999,
+                atk: 2784,
+                atkplus: 427,
+                def: 2138,
+                defplus: 330
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "10s CT - 2800% Water DMG (PHY). Chance to inflict Freeze.",
+                skillbreak: 1800,
+                arts: "14000% Water DMG (PHY). For 10s, increase Allies' Water DMG to Enemies in Break by 70%.",
+                artsbreak: 2750,
+                truearts: "23500% Water DMG (PHY). For 10s, increase Allies' DMG to Enemies in Break by 100%.",
+                trueartsbreak: 4550
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "When Ganan is in party, increase Allies' DMG by 5%.",
+                ability2: "Giant Boss' Break Bar is halved at the beginning of battle. Raid Bosses' Break Bars take 20000 Break DMG instead. Ability can only be activated once per Quest.",
+                ability3: "Increase DMG to Giant Bosses by 50%."
             }, 
         evolution: 
             {
@@ -2989,15 +2991,15 @@ const UnitInformation = [
             },
         trueweapon: 
             {
-                name: "",
+                name: "Wahrheit",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "",
-                skill: "",
-                skillbreak: ,
+                skill: "90s CT - 10800% Water DMG (PHY). If user is Human, increase Arts DMG by 50%. For 10s, reduce own Arts by 2/s.",
+                skillbreak: 1000,
                 passive: 
                     {
-                        ability1: 
-                        ability2: 
+                        ability1: "When equipped by Est, increase DMG and Break PWR by 20%. Does not stack with Abilities of the same name.",
+                        ability2: "Increase PHY DMG by 15%. Does not stack with Abilities of the same name."
                     }
             },
         lore: 
@@ -3008,11 +3010,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Sophie - Missing Stats, Lore, Slots, Evolution, True Weapon, TW Image
+    { //Sophie - Missing Lore, Evolution, TW Image
         id: 101156111,
         name: "Sophie",
-        attribute: ,
-        type: ,
+        attribute: "Fire",
+        type: "Human",
         image: 
             {
                 detail4: "/db/Units/Detail/unit_detail_101154111.png",
@@ -3025,34 +3027,34 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot1type: "/db/Mines/thumbnail/suppLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/healLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/physLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 6731,
+                hpplus: 999,
+                atk: 2310,
+                atkplus: 356,
+                def: 2238,
+                defplus: 345
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "8s CT - 1200% Fire DMG (PHY). For 6s, reduce Enemies' Break RES by 15%.",
+                skillbreak: 2500,
+                arts: "10000% Fire DMG (PHY). For 10s, increase Allies' Skill CT REC by 50%. Fire Allies' Skill CT REC is increased by 100% instead.",
+                artsbreak: 2900,
+                truearts: "27000% Fire DMG (PHY). High chance to inflict Burn. If Enemy was Burned by own True Arts or was already Burned when own True Arts was activated, for 10s, reduce Enemies' Fire RES by 50%.",
+                trueartsbreak: 3000
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase Fire Allies' ATK by 30%.",
+                ability2: "Increase Burn RES by 80%."
             }, 
         evolution: 
             {
@@ -3096,15 +3098,15 @@ const UnitInformation = [
             },
         trueweapon: 
             {
-                name: "",
-                slot: "/db/Mines/thumbnail/physLB.png",
+                name: "Wild Cat",
+                slot: "/db/Mines/thumbnail/suppLB.png",
                 detail: "",
-                skill: "",
-                skillbreak: ,
+                skill: "60s CT - 1000% Fire DMG (PHY). For 20s, increase Allies' Break PWR by 25%, and Fire Allies' DMG by 15%.",
+                skillbreak: 1000,
                 passive: 
                     {
-                        ability1: 
-                        ability2: 
+                        ability1: "When equipped by Sophie, increase accuracy by 30% and increase own Arts by 2/s.",
+                        ability2: "Increase DMG dealt against Enemies in BREAK by 10%."
                     }
             },
         lore: 
@@ -3115,11 +3117,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Rem (Grand Summoners) - Missing Stats, Lore, Slots, Evolution, True Weapon, TW Image
+    { //Rem (Grand Summoners) - Missing Lore, Evolution, TW Image
         id: 101166511,
         name: "Rem (Grand Summoners)",
-        attribute: ,
-        type: ,
+        attribute: "Dark",
+        type: "Human",
         image: 
             {
                 detail4: "/db/Units/Detail/unit_detail_101164511.png",
@@ -3134,32 +3136,33 @@ const UnitInformation = [
                 slot1: 5,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/defLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 6944,
+                hpplus: 999,
+                atk: 2455,
+                atkplus: 378,
+                def: 2560,
+                defplus: 394
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "10s CT - 2000% Dark DMG (MAG). During Skill, increase own BE generation by 50%.",
+                skillbreak: 800,
+                arts: "13000% Dark DMG (MAG). For 15s, reduce Enemies' ATK and DEF by 35%, reduce Enemies' RES to the element they have an Elemental Weakness against by 40%.",
+                artsbreak: 1300,
+                truearts: "25000% Dark DMG (MAG). Increase own True Arts' DMG by 100% against Light Enemies.",
+                trueartsbreak: 3000
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "When using Equipment, heal Allies' HP by 2%.",
+                ability2: "Increase Allies' DMG to Enemies of a certain Element (depends on day of the week: Monday - Dark, Tuesday - Fire, Wednesday - Water, Thursday - Earth, Friday - Light, Saturday & Sunday - Random Element) and DMG RES of the same Element by a random percentage between 20% and 40% (changed daily).",
+                ability3: "Increase Allies' MAG DMG by 15%."
             }, 
         evolution: 
             {
@@ -3203,15 +3206,15 @@ const UnitInformation = [
             },
         trueweapon: 
             {
-                name: "",
-                slot: "/db/Mines/thumbnail/physLB.png",
+                name: "Alchemia",
+                slot: "/db/Mines/thumbnail/magLB.png",
                 detail: "",
-                skill: "",
-                skillbreak: ,
+                skill: "40s CT - 7200% Dark DMG (MAG). For 5s, increase own BE generation by 50%, reduce Enemies' ATK and DEF by 20%.",
+                skillbreak: 700,
                 passive: 
                     {
-                        ability1: 
-                        ability2: 
+                        ability1: "When equipped by Rem, increase DMG by 20% and healing when using Equipment to 3% HP.",
+                        ability2: "Increase MAG DMG by 10%. When near-death, increase Arts by 2/s."
                     }
             },
         lore: 
@@ -3222,11 +3225,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Arosdea - Missing Stats, Lore, Slots, Evolution
+    { //Arosdea - Missing Lore, Evolution
         id: 101176112,
         name: "Arosdea",
-        attribute: ,
-        type: ,
+        attribute: "Fire",
+        type: "Dragon",
         image: 
             {
                 detail4: "/db/Units/Detail/unit_detail_101174112.png",
@@ -3239,34 +3242,35 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/physLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/physLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 7536,
+                hpplus: 999,
+                atk: 3017,
+                atkplus: 462,
+                def: 2030,
+                defplus: 375
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "8s CT - 2200% Fire DMG (PHY). Chance to inflict Burn.",
+                skillbreak: 1800,
+                arts: "16000% Fire DMG (PHY). Increase Arts by 30 + For 10s, increase Allies' DMG to Enemies in BREAK by 100%.",
+                artsbreak: 2600,
+                truearts: "30000% Fire DMG (PHY). For 15s, reduce Enemies' DMG RES by 30%. For 30s, gain a DMG barrier that negates 3500 DMG to self.",
+                trueartsbreak: 3000
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase DMG to Dragon Enemies by 100%.",
+                ability2: "Increase Earth RES by 15%.",
+                ability3: "When near-death, increase own Arts by 6/s."
             }, 
         evolution: 
             {
@@ -3316,11 +3320,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Selia (Regular) - Missing Stats, Lore, Slots, Evolution
+    { //Selia (Regular) - Missing Lore, Evolution
         id: 101186212,
         name: "Selia",
-        attribute: ,
-        type: ,
+        attribute: "Water",
+        type: "Human",
         image: 
             {
                 detail4: "/db/Units/Detail/unit_detail_101184212.png",
@@ -3333,34 +3337,35 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot1type: "/db/Mines/thumbnail/healLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/magLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/magLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 6499,
+                hpplus: 984,
+                atk: 2549,
+                atkplus: 392,
+                def: 2574,
+                defplus: 396
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "9s CT - 1700% Water DMG (MAG). Chance to reduce Enemies' DMG by 20% + For 8s, reduce Enemies' Freeze RES by 15%.",
+                skillbreak: 1350,
+                arts: "12800% Water DMG (MAG). High chance to inflict Freeze. Cleanse Allies' and Enemies' Burn.",
+                artsbreak: 2100,
+                truearts: "25000% Water DMG (MAG). High chance to inflict Freeze. Cleanse Allies' and Enemies' Burn + For 8s, reduce Enemies' Water RES by 20%.",
+                trueartsbreak: 3800
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase Fire RES by 35%.",
+                ability2: "Increase DMG to Fire Enemies by 35%.",
+                ability3: "Increase Allies' Burn and Freeze RES by 30%. Increase all Allies' Critical Rate by 50% against Frozen Enemies. Does not stack with Abilities of the same name."
             }, 
         evolution: 
             {
@@ -3410,11 +3415,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Ashe Toto - Missing Stats, Slots, Evolution, Lore
+    { //Ashe Toto - Missing Evolution, Lore
         id: 101196312,
         name: "Ashe Toto",
-        attribute: ,
-        type: ,
+        attribute: "Earth",
+        type: "Spirit",
         image: 
             {
                 detail4: "/db/Units/Detail/unit_detail_101194312.png",
@@ -3427,34 +3432,34 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot1type: "/db/Mines/thumbnail/suppLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/healLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 6185,
+                hpplus: 939,
+                atk: 2432,
+                atkplus: 411,
+                def: 1955,
+                defplus: 350
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "9s CT - 1900% Earth DMG (PHY).",
+                skillbreak: 1600,
+                arts: "12000% Earth DMG (PHY). For 15s, increase Allies’ evasion by 30%.",
+                artsbreak: 2000,
+                truearts: "20000% Earth DMG (PHY). Cure Allies’ Status Ailments (Except Faint) + For 20s, increase Earth Allies’ Arts by 2/s.",
+                trueartsbreak: 3400
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Heal 10 HP/s.",
+                ability2: "Increase own Equipment CT REC by 5%."
             }, 
         evolution: 
             {
@@ -3496,19 +3501,6 @@ const UnitInformation = [
                     hover5: "Aerugraxes"
                 }
             },
-        trueweapon: 
-            {
-                name: "",
-                slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
-                skill: "",
-                skillbreak: ,
-                passive: 
-                    {
-                        ability1: 
-                        ability2: 
-                    }
-            },
         lore: 
             {   
                 evo3: "Missing Lore Information, please contact site owner",
@@ -3517,11 +3509,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Duran - Missing Stats, Lore, Slots, Evolution
+    { //Duran - Missing Lore, Evolution
         id: 101206412,
         name: "Duran",
-        attribute: ,
-        type: ,
+        attribute: "Light",
+        type: "Human",
         image: 
             {
                 detail4: "/db/Units/Detail/unit_detail_101204412.png",
@@ -3534,34 +3526,34 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot1type: "/db/Mines/thumbnail/defLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/defLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/physLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 6792,
+                hpplus: 999,
+                atk: 2382,
+                atkplus: 337,
+                def: 2792,
+                defplus: 428
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "10s CT - 3300% Light DMG (PHY). During this Skill, increase own DMG RES by 30%.",
+                skillbreak: 2400,
+                arts: "For 10s, Enemies take [??? × DMG they inflict on this unit] Light DMG (PHY) + For 15s, heal Allies' HP by 300/s & Allies gain a DMG barrier that negates 1200 DMG.",
+                artsbreak: 0,
+                truearts: "For 10s, take all DMG dealt to Allies instead, Enemies take [??? × DMG they inflict on this unit] Light DMG (PHY), and gain a DMG barrier that negates 9000 DMG to self. During True Arts, increase Paralysis and Freeze RES by 100%.",
+                trueartsbreak: 0
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "When an Ally dies (except self), revive that Ally with 50% HP. Ability can only be activated once per Quest.",
+                ability2: "Increase PHY RES by 20%."
             }, 
         evolution: 
             {
@@ -3603,19 +3595,6 @@ const UnitInformation = [
                     hover5: "Aerugraxes"
                 }
             },
-        trueweapon: 
-            {
-                name: "",
-                slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
-                skill: "",
-                skillbreak: ,
-                passive: 
-                    {
-                        ability1: 
-                        ability2: 
-                    }
-            },
         lore: 
             {   
                 evo3: "Missing Lore Information, please contact site owner",
@@ -3627,8 +3606,8 @@ const UnitInformation = [
     { //Zenon - Missing Stats, Lore, Slots, Evolution, True Weapon, TW Image
         id: 101216512,
         name: "Zenon",
-        attribute: ,
-        type: ,
+        attribute: "Dark",
+        type: "Demon",
         image: 
             {
                 detail4: "/db/Units/Detail/unit_detail_101214512.png",
