@@ -808,10 +808,10 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo3: "Missing Lore Information, please contact site owner",
+                evo3: "A flame Dragon that reigned over Famelle Rock. Boasting overwhelming strength, Dargeon lived impulsively, trampling others without a thought. One day, a lone swordsman appeared to challenge Dargeon, who dismissed the challenger out of hand as a feeble Human. But something unexpected happened. The swordsman - Clyde - gave the dragon his first taste of defeat, and kindling vengeful flames within his heart.",
                 evo4: "The king of rare water-dwelling Giants, Herck shared dominion with the Sea Dragons prior to the start of the Great War. The two had a relationship that surpassed race, and even Herck's grandfather was a Sea Dragon. His body had dragon features, which were seen as natural and respected at the time, and a source of great power for Herck, but the war pit the two races against each other.",
                 evo5: "The king of the rarely seen Sea Giants, Herck followed the request to fight alongside the other Giants, and joined the Demon forces. The Sea Giants, always friends to his people, joined the Gods, but he turned his spear against them without hesitation. Though this drew the hatred of the Sea Dragons, the fear they felt towards him proved tactically useful. Damage to both sides was minimal, but scars remained...",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evoawk: "There exists a legend in Famelle of an unlikely saviour: a flame-wrapped Dragon with the majesty of a war god. He who once ravaged land and sky attained true enlightenment after his second duel with a master swordsman. Later, when the swordsman faced peril in the Ancient War, the Dragon appeared to fight alongside him out of respect for his strength as well as his own pride. Once the vast army was repelled, it was said he promised to duel the swordsman once again before soaring back into the endless blue."
             }
     },
     { //Valhalla - Missing Lore
