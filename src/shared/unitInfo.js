@@ -638,7 +638,7 @@ const UnitInformation = [
                 evoawk: "After the end of the Ancient War, he was known as one of the Twin Knights of the Morning Star, but before that, he was already famous for saving the Magus Empire of La Riiz from great peril. He stood agaisnt the God Eater Mavroskia, which brings calamity wherever it appears, and turned its rampage. This is the only time in history a God Eater's destruction has been limited so far. They say he had the protection of a certain Witch, but his merit in the story is undeniable."
             }
     },
-    { //Dargeon - Complete
+    { //Dargeon - Missing Lore
         id: 100566112,
         name: "Dargeon",
         attribute: "Fire",
@@ -716,10 +716,10 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo3: "A flame Dragon that reigned over Famelle Rock. Boasting overwhelming strength, Dargeon lived impulsively, trampling others without a thought. One day, a lone swordsman appeared to challenge Dargeon, who dismissed the challenger out of hand as a feeble Human. But something unexpected happened. The swordsman - Clyde - gave the dragon his first taste of defeat, and kindling vengeful flames within his heart.",
-                evo4: "A Dragon burning with revenge agaisnt the swordsman Clyde. following his defeat, Dargeon became fixated on strenghtening himself. Sure of his victory, he challenged Clyde to a rematch, only to suffer defeat once more. Bystanders demanded he finish Dargeon off, but Clyde quieted them before congratulating his fallen foe on a fight well fought. Dargeon said nothing, but something within had changed.",
-                evo5: "Encountering pure strength, as opposed to violence used only to subdue others, led Dargeon to greater heights. When he encountered Clyde up agaisnt the wall and surrounded by Demons, he realized the flames of vengance within his heart were gone. With a flame Dragon behind him and hordes of Demons readying to strike, you'd think Clyde was finished, but with a roar, Dargeon unleashed a final desperate attack to save him.",
-                evoawk: "There exists a legend in Famelle of an unlikely saviour: a flame-wrapped Dragon with the majesty of a war god. He who once ravaged land and sky attained true enlightenment after his second duel with a master swordsman. Later, when the swordsman faced peril in the Ancient War, the Dragon appeared to fight alongside him out of respect for his strength as well as his own pride. Once the vast army was repelled, it was said he promised to duel the swordsman once again before soaring back into the endless blue."
+                evo3: "Missing Lore Information, please contact site owner",
+                evo4: "Missing Lore Information, please contact site owner",
+                evo5: "Missing Lore Information, please contact site owner",
+                evoawk: "Missing Lore Information, please contact site owner"
             }
     },
     { //Herck - Missing Lore
@@ -808,10 +808,10 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo3: "Missing Lore Information, please contact site owner",
+                evo3: "A flame Dragon that reigned over Famelle Rock. Boasting overwhelming strength, Dargeon lived impulsively, trampling others without a thought. One day, a lone swordsman appeared to challenge Dargeon, who dismissed the challenger out of hand as a feeble Human. But something unexpected happened. The swordsman - Clyde - gave the dragon his first taste of defeat, and kindling vengeful flames within his heart.",
                 evo4: "The king of rare water-dwelling Giants, Herck shared dominion with the Sea Dragons prior to the start of the Great War. The two had a relationship that surpassed race, and even Herck's grandfather was a Sea Dragon. His body had dragon features, which were seen as natural and respected at the time, and a source of great power for Herck, but the war pit the two races against each other.",
                 evo5: "The king of the rarely seen Sea Giants, Herck followed the request to fight alongside the other Giants, and joined the Demon forces. The Sea Giants, always friends to his people, joined the Gods, but he turned his spear against them without hesitation. Though this drew the hatred of the Sea Dragons, the fear they felt towards him proved tactically useful. Damage to both sides was minimal, but scars remained...",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evoawk: "There exists a legend in Famelle of an unlikely saviour: a flame-wrapped Dragon with the majesty of a war god. He who once ravaged land and sky attained true enlightenment after his second duel with a master swordsman. Later, when the swordsman faced peril in the Ancient War, the Dragon appeared to fight alongside him out of respect for his strength as well as his own pride. Once the vast army was repelled, it was said he promised to duel the swordsman once again before soaring back into the endless blue."
             }
     },
     { //Valhalla - Missing Lore
@@ -2008,11 +2008,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Fen (Earth) - Missing Lore, Stats, Evolution, Slots, True Weapon, TW Image
+    { //Fen (Earth) - Missing Lore, TW Image
         id: 101056311,
         name: "Fen (Earth)",
-        attribute: ,
-        type: ,
+        attribute: "Earth",
+        type: "Human",
         image: 
             {
                 detail4: "/db/Units/Detail/unit_detail_101054311.png",
@@ -2025,66 +2025,76 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 5820,
+                hpplus: 883,
+                atk: 2642,
+                atkplus: 406,
+                def: 2257,
+                defplus: 348
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "7s CT - 1850% Earth DMG (PHY). Increase Allies' Arts by 4, heal the Ally with the lowest current HP by 3%.",
+                skillbreak: 1150,
+                arts: "13000% Earth DMG (PHY). For 20s, increase Allies' Equipment CT REC by 25%.",
+                artsbreak: 2200,
+                truearts: "21500% Earth DMG (PHY). For 20s, increase Allies' Arts by 3/s, increase Allies' Equipment DMG by 50%.",
+                trueartsbreak: 4600
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase Allies' evasion by 15%. Does not stack with Abilities of the same name.",
+                ability2: "Increase DMG to Enemies with 50% or less HP by 20%. Does not stack with Abilities of the same name.",
+                ability3: "Increase DMG to Human Enemies by 80%.",
+                ability4: "When near-death, increase ATK by 50%."
             }, 
         evolution: 
             {
-                evo45: ,
+                evo45:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_earth4.png",
+                    mat1amt: 3,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
+                    mat2amt: 2,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_earth3.png",
+                    mat3amt: 5
+                },
                 evo5awk:
                 {
                     mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat3: "/db/Icons/dungeon_drops/fragPalamicia.png",
+                    mat3amt: 3,
+                    hover3: "Palamicia",
+                    mat4: "/db/Icons/dungeon_drops/fragElpneumas.png",
                     mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                    hover4: "Elpneumas",
+                    mat5: "/db/Icons/dungeon_drops/fragGoldola.png",
                     mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    hover5: "Goldola"
                 }
             },
-        trueweapon: //If no TW, may delete this section
+        trueweapon: 
             {
-                name: "",
+                name: "Efkeria",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "",
-                skill: "",
-                skillbreak: ,
+                skill: "35s CT - 5000% Earth DMG (PHY). Heal own HP by 260 and increase own Arts by 20 each time this attack hits an Enemy (only once per enemy, per usage).",
+                skillbreak: 1500,
                 passive: 
                     {
-                        ability1: 
-                        ability2: 
+                        ability1: "When equipped by Fen, increase DMG by 20%. When near-death, increase evasion by 15%. Does not stack with Abilities of the same name.",
+                        ability2: "Increase DMG to Enemies with 50% or less HP by 15%. Does not stack with Abilities of the same name."
                     }
             },
         lore: 
@@ -2202,7 +2212,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Melia (Dark) - Missing Lore, Evolution, TW Image
+    { //Melia (Dark) - Missing TW Image
         id: 101076511,
         name: "Melia (Dark)",
         attribute: "Dark",
@@ -2251,26 +2261,14 @@ const UnitInformation = [
             }, 
         evolution: 
             {
-                evo23: 
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light1.png",
-                    mat2amt: 5
-                },
-                evo34: 
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
-                    mat2amt: 5
-                },
                 evo45:
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat2amt: 5
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_dark4.png",
+                    mat1amt: 3,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_fire4.png",
+                    mat2amt: 2,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_dark3.png",
+                    mat3amt: 5
                 },
                 evo5awk:
                 {
@@ -2278,15 +2276,15 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3: "/db/Icons/dungeon_drops/fragRadachne.png",
                     mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    hover3: "Radachne",
+                    mat4: "/db/Icons/dungeon_drops/fragMavroskia.png",
+                    mat4amt: 3,
+                    hover4: "Mavroskia",
+                    mat5: "/db/Icons/dungeon_drops/fragIfrit.png",
+                    mat5amt: 2,
+                    hover5: "Ifrit"
                 }
             },
         trueweapon: 
@@ -2304,13 +2302,12 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo3: "Missing Lore Information, please contact site owner",
-                evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo4: "Vice-commander of the La Riiz 3rd Magus Division and member of the Demon Suppression Corps. Known as Blue-eyed Black Fox, she's an expert at data collection operations with many successful infiltrations under her belt. Though her voluptuous appearance has engendered many rumours, she acknowledges none of them. The only thing certain about her is that anyone who brings up the subject of marriage to her will never mention the word ever again.",
+                evo5: "A mage from La Riiz who fought to end the Demonic menace. She has an upbringing she'd prefer not to bring up, and had a tendency to distance herlfrom from others. After journeying with the destined young heroes of the Demon Suppression Corps, her repressed kindness slowly began to reveal itself. It's not just her powerful magic, but her long-buried ability to feel for others that is her source of strength.",
+                evoawk: "A sorcerer who chose to embrace the darkest parts of the Magus Empire of La Riiz. Her particular abilities and tendency toward rash, independent action invited dangerous misunderstandings. She fell into a trap, straining the faith of her friends, yet the unwavering trust of the adventurer broke through to her, and she resolved to face up to her past. Her sorcery thus broke away from her shadowy past to become something brilliant, something greater, something to protect those she held dear."
             }
     },
-    { //Ragsherum - Missing Lore, Evolution, TW Image
+    { //Ragsherum - Missing TW Image
         id: 101086511,
         name: "Ragsherum",
         attribute: "Dark",
@@ -2412,10 +2409,9 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo3: "Missing Lore Information, please contact site owner",
-                evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo4: "A demon once sealed in Gormarey, until a break in the seal led to his resurrection. Ragsherum served as divisional commander under Auge, one of the six great Demon Generals that ruled the Demons during the Great War. The strongest and most prominent of the revived Demons, he assumed command over Grad and Nier as subordinates. He sought to fully resurrect the Demons, but was defeated by Rayas and his allies.",
+                evo5: "After falling to Rayas and company, Ragsherum dedicates his life to the resurrection of the Demon Generals. Though a Demon, he possesses something resembling a chivalric dedication to his cause, and a high degree of devotion to the Generals. Though he doesn't destroy or kill for sport, he will pursue mass slaughter if it would achieve his goals. He's wary of Humans, who now rule Raktehelm despite being the weakest race during the Great War.",
+                evoawk: "The divisional commander of the six great Demon Generals that revived at the Sealed Fortress Gormarey. At first, Demons were reviving sparsely. However, since they considered power the most, they never worked as groups and fought against themselves. One day Ragsherum had suppressed all the others and started his plan to revive Auge at Gormarey. Not only that, he desired to get the heart of Humans, the winner of the Ancient War, and to put them in fear and despair."
             }
     },
     { //Grad - Missing Lore, Evolution, TW Image
@@ -2470,42 +2466,22 @@ const UnitInformation = [
             }, 
         evolution: 
             {
-                evo23: 
+                evo45: //reym how do the funky 20 stone thing
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_dark4.png",
                     mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light1.png",
-                    mat2amt: 5
-                },
-                evo34: 
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
-                    mat2amt: 5
-                },
-                evo45:
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat2amt: 5
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
+                    mat2amt: 1
                 },
                 evo5awk:
                 {
                     mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
-                    mat1amt: 30,
+                    mat1amt: 10,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3: "/db/Icons/dungeon_drops/fragGrad.png",
                     mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    hover3: "Grad",
                 }
             },
         trueweapon: 
@@ -2523,9 +2499,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo3: "Missing Lore Information, please contact site owner",
-                evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
+                evo4: "A Demon once sealed in Gormarey, until a break in the seal led to his resurrection. Grad was a member of the squad dedicated to protecting Giaveil, one of The Six Great Demons. After his resurrection, he follows Ragsherum, renowned as one of the great Demon heroes, serving as one of his subordinated alongside Nier. A brutal lover of destruction and combat, Grad obsessively chases Rayas and his friends.",
+                evo5: "After continuously suffering defeat at the hands of Rayas and his friends, Grad will do anything to win. ",
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
