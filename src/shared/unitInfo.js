@@ -3402,7 +3402,7 @@ const UnitInformation = [
                 evoawk: "The fiery Thaumazein Plain was once transformed into a frigid wasteland by the Witch of Disaster. The disgrace at being saved by his target and the anger at his own weakness that allowed it awakened the power sleeping within him. He fired an arrow with the whole of that strength, intending to bring the chase to an end. However, all that accomplished was ridding the Plain of her cold magic, making him its unwitting saviour."
             }
     },
-    { //Duran - Missing Lore
+    { //Duran - Complete
         id: 101206412,
         name: "Duran",
         attribute: "Light",
@@ -3472,10 +3472,9 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo3: "Missing Lore Information, please contact site owner",
-                evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo4: "A Human soldier who fought prior to the Great War, Duran was known as a true and dependable knight. His hometown suffered a great fire. Though countless innocents fled for their lives in front of him, he could do nothing against the roaring flames. At that moment, a girl suddenly appeared in front of him, summoning a great blizzard to extinguish the fire. From that day forward, Duran abandoned his post as a knight to embark on a journey.",
+                evo5: "Once a knight, Duran left his post to embark on a journey. As he travelled the world, Duran fought for the powerless in every land, eventually leading to him being renowed as a wandering hero. Needless to say, Duran himself never claimed to be any such thing. One day, he heard rumours of a dread swordsman running rampant across the land. Without delay, he began heading to the area where this murderous monster was rumoured to be...",
+                evoawk: "Duran encountered the crazed swordsman who was terrorizing the northern towns. From how the warrior wielded his sword with abandon, he knew the weapon had possessed him. After a heated confrontation, the knight suffered near-fatal injuries but not a single innocent was harmed. Ever since, the legend of Duran and his shield spread across the land."
             }
     },
     { //Zenon - Missing Lore, TW Image
