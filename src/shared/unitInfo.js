@@ -638,7 +638,7 @@ const UnitInformation = [
                 evoawk: "After the end of the Ancient War, he was known as one of the Twin Knights of the Morning Star, but before that, he was already famous for saving the Magus Empire of La Riiz from great peril. He stood agaisnt the God Eater Mavroskia, which brings calamity wherever it appears, and turned its rampage. This is the only time in history a God Eater's destruction has been limited so far. They say he had the protection of a certain Witch, but his merit in the story is undeniable."
             }
     },
-    { //Dargeon - Missing Lore
+    { //Dargeon - Complete
         id: 100566112,
         name: "Dargeon",
         attribute: "Fire",
@@ -716,10 +716,10 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo3: "Missing Lore Information, please contact site owner",
-                evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo3: "A flame Dragon that reigned over Famelle Rock. Boasting overwhelming strength, Dargeon lived impulsively, trampling others without a thought. One day, a lone swordsman appeared to challenge Dargeon, who dismissed the challenger out of hand as a feeble Human. But something unexpected happened. The swordsman - Clyde - gave the dragon his first taste of defeat, and kindling vengeful flames within his heart.",
+                evo4: "A Dragon burning with revenge agaisnt the swordsman Clyde. following his defeat, Dargeon became fixated on strenghtening himself. Sure of his victory, he challenged Clyde to a rematch, only to suffer defeat once more. Bystanders demanded he finish Dargeon off, but Clyde quieted them before congratulating his fallen foe on a fight well fought. Dargeon said nothing, but something within had changed.",
+                evo5: "Encountering pure strength, as opposed to violence used only to subdue others, led Dargeon to greater heights. When he encountered Clyde up agaisnt the wall and surrounded by Demons, he realized the flames of vengance within his heart were gone. With a flame Dragon behind him and hordes of Demons readying to strike, you'd think Clyde was finished, but with a roar, Dargeon unleashed a final desperate attack to save him.",
+                evoawk: "There exists a legend in Famelle of an unlikely saviour: a flame-wrapped Dragon with the majesty of a war god. He who once ravaged land and sky attained true enlightenment after his second duel with a master swordsman. Later, when the swordsman faced peril in the Ancient War, the Dragon appeared to fight alongside him out of respect for his strength as well as his own pride. Once the vast army was repelled, it was said he promised to duel the swordsman once again before soaring back into the endless blue."
             }
     },
     { //Herck - Missing Lore
@@ -808,10 +808,10 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo3: "A flame Dragon that reigned over Famelle Rock. Boasting overwhelming strength, Dargeon lived impulsively, trampling others without a thought. One day, a lone swordsman appeared to challenge Dargeon, who dismissed the challenger out of hand as a feeble Human. But something unexpected happened. The swordsman - Clyde - gave the dragon his first taste of defeat, and kindling vengeful flames within his heart.",
+                evo3: "Missing Lore Information, please contact site owner",
                 evo4: "The king of rare water-dwelling Giants, Herck shared dominion with the Sea Dragons prior to the start of the Great War. The two had a relationship that surpassed race, and even Herck's grandfather was a Sea Dragon. His body had dragon features, which were seen as natural and respected at the time, and a source of great power for Herck, but the war pit the two races against each other.",
                 evo5: "The king of the rarely seen Sea Giants, Herck followed the request to fight alongside the other Giants, and joined the Demon forces. The Sea Giants, always friends to his people, joined the Gods, but he turned his spear against them without hesitation. Though this drew the hatred of the Sea Dragons, the fear they felt towards him proved tactically useful. Damage to both sides was minimal, but scars remained...",
-                evoawk: "There exists a legend in Famelle of an unlikely saviour: a flame-wrapped Dragon with the majesty of a war god. He who once ravaged land and sky attained true enlightenment after his second duel with a master swordsman. Later, when the swordsman faced peril in the Ancient War, the Dragon appeared to fight alongside him out of respect for his strength as well as his own pride. Once the vast army was repelled, it was said he promised to duel the swordsman once again before soaring back into the endless blue."
+                evoawk: "Missing Lore Information, please contact site owner"
             }
     },
     { //Valhalla - Missing Lore
