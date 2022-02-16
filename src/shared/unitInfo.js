@@ -2480,7 +2480,7 @@ const UnitInformation = [
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
                     mat3: "/db/Icons/dungeon_drops/fragGrad.png",
-                    mat3amt: 4,
+                    mat3amt: 20,
                     hover3: "Grad",
                 }
             },
@@ -2555,42 +2555,22 @@ const UnitInformation = [
             }, 
         evolution: 
             {
-                evo23: 
+                evo45:　//reym how do orb evo mats
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_dark4.png",
                     mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light1.png",
-                    mat2amt: 5
-                },
-                evo34: 
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
-                    mat2amt: 5
-                },
-                evo45:
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat2amt: 5
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_water4.png",
+                    mat2amt: 1
                 },
                 evo5awk:
                 {
                     mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
-                    mat1amt: 30,
+                    mat1amt: 10,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragNier.png",
+                    mat3amt: 20,
+                    hover3: "Nier",
                 }
             },
         trueweapon: 
@@ -2608,13 +2588,12 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo3: "Missing Lore Information, please contact site owner",
-                evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
+                evo4: "The Demon that revived when the seal was partly destroyed at the sealed area Gormarey. She was a member under Ze-Lemma, one of The Great Six Demons, who created the Special Magic Lab. She gets obsessed with results, but even if she fails if that is what makes her closer to her goal, she will accept it. However, her decisions are unique, so people around her think she moves depending on her feelings.",
+                evo5: "Being defeated several times by Rayas and the others, she calmly reviewed her cause of it, and planned to fight with grad who she was at odds. She felt humiliated, but she only pretended to feel like so in order to make him agree with her. For her, this was a matter of course for what her goal. Primarily, she was better at researching than fighting and she was doing research on anti-God magic during the Ancient War. After reviving, she was head of creating Iris's copies.",
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Ganan - Missing Lore, Evolution, TW Image
+    { //Ganan - Missing Evolution, TW Image
         id: 101116111,
         name: "Ganan",
         attribute: "Fire",
@@ -2663,42 +2642,20 @@ const UnitInformation = [
             }, 
         evolution: 
             {
-                evo23: 
+                evo45: //reym how do i do the funky crystal thing for evo mats
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light1.png",
-                    mat2amt: 5
-                },
-                evo34: 
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
-                    mat2amt: 5
-                },
-                evo45:
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat2amt: 5
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_fire4.png",
+                    mat1amt: 3,
                 },
                 evo5awk:
                 {
                     mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
-                    mat1amt: 30,
+                    mat1amt: 10,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragGanan.png",
+                    mat3amt: 20,
+                    hover3: "Ganan",
                 }
             },
         trueweapon: 
@@ -2716,10 +2673,9 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo3: "Missing Lore Information, please contact site owner",
-                evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo4: "The guild master at the Reigard branch of the Adventurer's Guild. Once a commander of Isliid's self-defense knight corps, a failed operation led to his demotion. Since then, he focused on raising the next generation, and became part of the Adventurer's Guild, saying that the laid back work suits his personality better. He suffered from a terrible injury during his failed operation with the knights, making it impossible for him to unleash his full power.",
+                evo5: "Everyone thought he was unable to use his full power because of his unhealed injuries. However, he had actually fully recovered from it long ago. Not being able to let go of the sins of the past limited his true powers. When he finally overcame his past, his power surged beyond its peak, unleashing a strike capable of rending the earth. However strong his enemies, his allies will always be able to depend on his smiling courage.",
+                evoawk: "The most powerful warrior of the Adventurer's Guild and guild master of Reigard branch. Theroughout the days at Reigard, Ganan interacted with many young adventurers. Being touched by their passion, he reconsidered his own path, together with the unforgettable mistake of his past and the meaning of being a guild master now... Embracing the failure of his past, he takes a step forward to protect the heroes of tomorrow."
             }
     },
     { //Gilliam - Missing Lore, Evolution, TW Image
@@ -2829,7 +2785,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Liese (Light) - Missing Lore, Evolution, TW Image
+    { //Liese (Light) - Missing TW Image
         id: 101136411,
         name: "Liese (Light)",
         attribute: "Light",
@@ -2878,26 +2834,14 @@ const UnitInformation = [
             }, 
         evolution: 
             {
-                evo23: 
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light1.png",
-                    mat2amt: 5
-                },
-                evo34: 
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
-                    mat2amt: 5
-                },
                 evo45:
                 {
                     mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
                     mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat2amt: 5
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_earth4.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
+                    mat3amt: 5
                 },
                 evo5awk:
                 {
@@ -2905,15 +2849,15 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragIfrit.png",
+                    mat3amt: 3,
+                    hover3: "Ifrit",
+                    mat4: "/db/Icons/dungeon_drops/fragRadachne.png",
+                    mat4amt: 2,
+                    hover4: "Radachne",
+                    mat5: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat5amt: 4,
+                    hover5: "CodeXTF"
                 }
             },
         trueweapon: 
@@ -2931,10 +2875,9 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo3: "Missing Lore Information, please contact site owner",
-                evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo4: "High priestess of the shrine in Reigard, Liese's parents emigrated to Isliid from Famelle in order to spread the teachings of the Guiding Light. At age 4, Liese began training at Famelle's great shrine. Her talents saw her becoming a priestess at age 10, and was assigned to Reigard's shrine at 11. Though she's currently only 13, she's far more dignified and regal in presence than Rayas.",
+                evo5: "Called a genius, her light magic are powerful enough to be termed "miracles", but she still has moments that reveal that yes, she is in fact a teenager. Like when she goes out for ice cream with the other girls in town. her eyes then were not those of a high priestess, but of a regular girl. The moments where Liese acknowledges her own youth are moments that cause her heart to soar, unleashing ever greater power and potential.",
+                evoawk: "Although she had pride in being a priestess, she acknowledged that living in a shrine meant living in a closed world. Since some time or another, an adventurer and his friends started visiting her and telling stories of their journeys. The stories sometimes exciting and at other times terrifying. What kind of judgment should she make as a follower of the Light God? This question and responsibilities led her to a higher dignity and more power as a priestess."
             }
     },
     { //Est - Missing Lore, Evolution, TW Image
@@ -3093,42 +3036,22 @@ const UnitInformation = [
             }, 
         evolution: 
             {
-                evo23: 
+                evo45: //rEYm how to rocc
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_fire4.png",
                     mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light1.png",
-                    mat2amt: 5
-                },
-                evo34: 
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
-                    mat2amt: 5
-                },
-                evo45:
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat2amt: 5
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_earth4.png",
+                    mat2amt: 1
                 },
                 evo5awk:
                 {
                     mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
-                    mat1amt: 30,
+                    mat1amt: 10,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragSophie.png",
+                    mat3amt: 20,
+                    hover3: "Sophie",
                 }
             },
         trueweapon: 
@@ -3146,13 +3069,12 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo3: "Missing Lore Information, please contact site owner",
-                evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
+                evo4: "Proprietress and head chef of the Firecat's Den in Reigrad, which boasts flavours and prices that make it popular among the common people. Her father, who is also her teacher, is currently retured due to injury, but hailed from a family of high-class Bamantian restauranteurs. Displeased with the idea that his food would only be enjoyed by the rich, he left on a journey in search of freedom.",
+                evo5: "Sophie was taught not only how to cook, but also how to acquire important ingredients on her own. How to lay traps for animals, how to traverse dangerous environs and live to talk about it, and how to fight. This training has made her an extremely capable adventurer recognised by even Ganan. Because of her upbringing, she's eye for men is extremely demanding, and she has yet to find someone who sets her heart aflutter.",
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Rem (Grand Summoners) - Missing Lore, Evolution, TW Image
+    { //Rem (Grand Summoners) - Missing Lore, TW Image
         id: 101166511,
         name: "Rem (Grand Summoners)",
         attribute: "Dark",
@@ -3201,26 +3123,14 @@ const UnitInformation = [
             }, 
         evolution: 
             {
-                evo23: 
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light1.png",
-                    mat2amt: 5
-                },
-                evo34: 
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
-                    mat2amt: 5
-                },
                 evo45:
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat2amt: 5
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_dark4.png",
+                    mat1amt: 3,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_water4.png",
+                    mat2amt: 2,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_dark3.png",
+                    mat3amt: 5
                 },
                 evo5awk:
                 {
@@ -3228,15 +3138,12 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragMavroskia.png",
+                    mat3amt: 2,
+                    hover3: "Mavroskia",
+                    mat4: "/db/Icons/dungeon_drops/fragTonetaurus.png",
+                    mat4amt: 1,
+                    hover4: "Tonetaurus",
                 }
             },
         trueweapon: 
@@ -3260,7 +3167,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Arosdea - Missing Lore, Evolution
+    { //Arosdea - Missing Lore
         id: 101176112,
         name: "Arosdea",
         attribute: "Fire",
@@ -3309,26 +3216,14 @@ const UnitInformation = [
             }, 
         evolution: 
             {
-                evo23: 
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light1.png",
-                    mat2amt: 5
-                },
-                evo34: 
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
-                    mat2amt: 5
-                },
                 evo45:
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_fire4.png",
                     mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat2amt: 5
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_dark4.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_fire3.png",
+                    mat3amt: 5
                 },
                 evo5awk:
                 {
@@ -3336,15 +3231,9 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragDegilmagna.png",
+                    mat3amt: 2,
+                    hover3: "Degilmagna",
                 }
             },
         lore: 
@@ -3355,7 +3244,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Selia (Regular) - Missing Lore, Evolution
+    { //Selia (Regular) - Missing Lore
         id: 101186212,
         name: "Selia",
         attribute: "Water",
@@ -3404,26 +3293,14 @@ const UnitInformation = [
             }, 
         evolution: 
             {
-                evo23: 
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light1.png",
-                    mat2amt: 5
-                },
-                evo34: 
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
-                    mat2amt: 5
-                },
                 evo45:
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_water4.png",
                     mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat2amt: 5
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_water3.png",
+                    mat3amt: 5
                 },
                 evo5awk:
                 {
@@ -3431,15 +3308,15 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragGeoZagnus.png",
+                    mat3amt: 1,
+                    hover3: "Geo Zagnus",
+                    mat4: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                    mat4amt: 3,
+                    hover4: "Aerugraxes",
+                    mat5: "/db/Icons/dungeon_drops/fragOldeus.png",
+                    mat5amt: 1,
+                    hover5: "Oldeus"
                 }
             },
         lore: 
@@ -3450,7 +3327,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Ashe Toto - Missing Evolution, Lore
+    { //Ashe Toto - Complete
         id: 101196312,
         name: "Ashe Toto",
         attribute: "Earth",
@@ -3498,26 +3375,14 @@ const UnitInformation = [
             }, 
         evolution: 
             {
-                evo23: 
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light1.png",
-                    mat2amt: 5
-                },
-                evo34: 
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
-                    mat2amt: 5
-                },
                 evo45:
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_earth4.png",
                     mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat2amt: 5
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_earth3.png",
+                    mat3amt: 5
                 },
                 evo5awk:
                 {
@@ -3525,26 +3390,19 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragTonetaurus.png",
+                    mat3amt: 2,
+                    hover3: "Tonetaurus",
                 }
             },
         lore: 
             {   
-                evo3: "Missing Lore Information, please contact site owner",
-                evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo4: "A spirit archer who fought prior to the Great War. A fox child, Toto was taken in by Eleanor, one of the six Great Witches, and spent his days training his archery skills in the depths of the forest. One day, he was ordered by Eleanor to chase down a troublesome witch who was disrupting nature's providence. After leaving the forest and travelling the world, he finally found Selia at Thaumazein Plain. Suddenly, a new, draconic challenger attacked...",
+                evo5: "An archer who chased after the witch Selia, Ashe Toto was forced into a fierce fight against a newfound assailant. Dodging a furious flurry of slashes and moving in for a counterattack, Toto's skills with the bow were at their sharpest. As the swordsman attacked with all his might, Toto loosed an arrow to end it all... and realised he was going to lose. The explosion from their strikes engulfed him, and everything in his vision suddenly turned pure white...",
+                evoawk: "The fiery Thaumazein Plain was once transformed into a frigid wasteland by the Witch of Disaster. The disgrace at being saved by his target and the anger at his own weakness that allowed it awakened the power sleeping within him. He fired an arrow with the whole of that strength, intending to bring the chase to an end. However, all that accomplished was ridding the Plain of her cold magic, making him its unwitting saviour."
             }
     },
-    { //Duran - Missing Lore, Evolution
+    { //Duran - Missing Lore
         id: 101206412,
         name: "Duran",
         attribute: "Light",
@@ -3592,26 +3450,14 @@ const UnitInformation = [
             }, 
         evolution: 
             {
-                evo23: 
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light1.png",
-                    mat2amt: 5
-                },
-                evo34: 
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
-                    mat2amt: 5
-                },
                 evo45:
                 {
                     mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
                     mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat2amt: 5
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_water4.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
+                    mat3amt: 5
                 },
                 evo5awk:
                 {
@@ -3619,15 +3465,9 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3: "/db/Icons/dungeon_drops/fragCodeXTF.png",
                     mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    hover3: "Code-XTF",
                 }
             },
         lore: 
@@ -3638,7 +3478,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Zenon - Missing Stats, Lore, Slots, Evolution, True Weapon, TW Image
+    { //Zenon - Missing Lore, TW Image
         id: 101216512,
         name: "Zenon",
         attribute: "Dark",
@@ -3659,53 +3499,41 @@ const UnitInformation = [
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/physLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 6169,
+                hpplus: 935,
+                atk: 2848,
+                atkplus: 437,
+                def: 2495,
+                defplus: 384
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "10s CT - 1550% Dark DMG (MAG). During this Skill, increase own BE generation by 50%.",
+                skillbreak: 1350,
+                arts: "8800% Dark DMG (MAG). Heal own HP by 3% of DMG dealt by this Arts + For 10s, increase Allies' Arts by 3/s.",
+                artsbreak: 2100,
+                truearts: "25500% Dark DMG (MAG). Consume 25% of own HP, increase Allies' Arts by 40 + For 10s, increase Allies' MAG DMG by 30%.",
+                trueartsbreak: 4400
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase DMG to Human Enemies by 80%.",
+                ability2: "Ignore 50% of Enemies' DEF."
             }, 
         evolution: 
             {
-                evo23: 
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light1.png",
-                    mat2amt: 5
-                },
-                evo34: 
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
-                    mat2amt: 5
-                },
                 evo45:
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_dark4.png",
                     mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat2amt: 5
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_fire4.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_dark3.png",
+                    mat3amt: 5
                 },
                 evo5awk:
                 {
@@ -3713,43 +3541,42 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragRagsherumPhantom.png",
+                    mat3amt: 1,
+                    hover3: "Ragsherum Phantom",
+                    mat4: "/db/Icons/dungeon_drops/fragOldeus.png",
+                    mat4amt: 2,
+                    hover4: "Oldeus",
+                    mat5: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat5amt: 2,
+                    hover5: "CodeXTF"
                 }
             },
         trueweapon: 
             {
-                name: "",
-                slot: "/db/Mines/thumbnail/physLB.png",
+                name: "Fe'Ode",
+                slot: "/db/Mines/thumbnail/magLB.png",
                 detail: "",
-                skill: "",
-                skillbreak: ,
+                skill: "50s CT - 6800% Dark DMG (MAG). For 10s, increase own Arts by 2/s.",
+                skillbreak: 1200,
                 passive: 
                     {
-                        ability1: 
-                        ability2: 
+                        ability1: "When equipped by Zenon, increase DMG to Human Enemies by 100%. Does not stack with Abilities of the same name.",
+                        ability2: "Increase BE generation by 20%."
                     }
             },
         lore: 
             {   
-                evo3: "Missing Lore Information, please contact site owner",
-                evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
+                evo4: "A spellblade who served as bodyguard to Auge, one of the six Demon Generals. Zenon was dedicated to Auge in heart and soul, and would perform any job requested of him, no matter how low, until the day he was imprisoned for a crim he didn't commit. This was all a plot by a Demon commander who was anxious about Zenon's growing power. Furious at this betrayal, he howled revenge, and his magic sword Fah Ode came to him as if in answer.",
+                evo5: "A demonic spellblade betrayed by his own people, Zenon used his sword Fah Ode to dismiss the officer who conspired against him... permanently. As the life drained from his body, the officer revealed Auge was partially responsible for carrying out the betrayal. As hatred welled up within him, his sword unleashed even greater power, reducing his surroundings to a mountain of corpses and debris. And he had no idea this was all part of Auge's plan...",
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Soleil - Missing Lore, Stats, Slots, Evolution
+    { //Soleil - Missing Lore
         id: 101226112,
         name: "Soleil",
-        attribute: ,
-        type: ,
+        attribute: "Fire",
+        type: "Machine",
         image: 
             {
                 detail4: "/db/Units/Detail/unit_detail_101224112.png",
@@ -3764,41 +3591,43 @@ const UnitInformation = [
                 slot1: 5,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/defLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/magLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 6424,
+                hpplus: 999,
+                atk: 2952,
+                atkplus: 454,
+                def: 2304,
+                defplus: 355
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "10s CT - 2000% Fire DMG (MAG). If a Burning enemy is present, deal 3000% Fire DMG (MAG) instead.",
+                skillbreak: 1000,
+                arts: "14000% Fire DMG (MAG). Chance to inflict Burn, Burn self + For 20s, increase own Critical Rate by 100% while Burned.",
+                artsbreak: 1800,
+                truearts: "33000% Fire DMG (MAG). For 15s, reduce Burned Enemies' DMG RES by 25% and increase own DMG by 100% while Burned.",
+                trueartsbreak: 2000
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase DMG to Beast Enemies by 30%.",
+                ability2: "Overheat: Every 3rd Skill used, apply Burn to self. While Burned, increase Skill CT REC by 100% and Freeze RES by 100%."
             }, 
         evolution: 
             {
                 evo45:
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_fire4.png",
                     mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat2amt: 5
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_fire3.png",
+                    mat3amt: 5
                 },
                 evo5awk:
                 {
@@ -3806,15 +3635,12 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat3amt: 1,
+                    hover3: "Code-XTF",
+                    mat4: "/db/Icons/dungeon_drops/fragFlogassa.png",
+                    mat4amt: 1,
+                    hover4: "Flogassa"
                 }
             },
         lore: 
@@ -3824,11 +3650,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Saar - Missing Lore, Stats, Slots, Evolution
+    { //Saar - Missing Lore
         id: 101236212,
         name: "Saar",
-        attribute: ,
-        type: ,
+        attribute: "Water",
+        type: "Beast",
         image: 
             {
                 detail4: "/db/Units/Detail/unit_detail_101234212.png",
@@ -3841,43 +3667,45 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/defLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 6504,
+                hpplus: 965,
+                atk: 2712,
+                atkplus: 416,
+                def: 2480,
+                defplus: 382
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "6s CT - 1750% Water DMG (PHY). Increase own Arts by 10. If this Skill crits, reduce Enemies' accuracy by 30% for 5s.",
+                skillbreak: 900,
+                arts: "12000% Water DMG (PHY). Permanently increase DMG and Critical Rate by 20% (Up to 100%).",
+                artsbreak: 1950,
+                truearts: "28000% Water DMG (PHY). For 15s, increase own Skill CT REC and Critical DMG by 100%.",
+                trueartsbreak: 3500
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase MAG RES by 20%.",
+                ability2: "Increase PHY evasion by 30%."
             }, 
         evolution: 
             {
                 evo45:
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_water4.png",
                     mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat2amt: 5
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_water3.png",
+                    mat3amt: 5
                 },
                 evo5awk:
                 {
@@ -3885,15 +3713,9 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragFreydal.png",
+                    mat3amt: 2,
+                    hover3: "Freydal",
                 }
             },
         lore: 
@@ -3903,11 +3725,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Pola - Missing Lore, Stats, Slots, Evolution
+    { //Pola - Missing Lore
         id: 101246312,
         name: "Pola",
-        attribute: ,
-        type: ,
+        attribute: "Earth",
+        type: "Demon",
         image: 
             {
                 detail4: "/db/Units/Detail/unit_detail_101244312.png",
@@ -3920,57 +3742,47 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/healLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/physLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 7212,
+                hpplus: 999,
+                atk: 2545,
+                atkplus: 391,
+                def: 2580,
+                defplus: 397
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "9s CT - 2280% Earth DMG (PHY). Chance to inflict Paralysis. Increase own Arts by 3.",
+                skillbreak: 1250,
+                arts: "16000% Earth DMG (PHY). High chance to inflict Poison. Increase DMG of Poison based on Enemies' HP (up to 2000 DMG).",
+                artsbreak: 2100,
+                truearts: "20200% Earth DMG (PHY). Heal own HP by 3% of DMG dealt by own True Arts + For 20s, reduce Enemies' Paralysis and Poison RES by 35%.",
+                trueartsbreak: 3750
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase Water RES by 50%.",
+                ability2: "Increase Freeze RES by 100%.",
+                ability3: "Heal own HP by 10/s.",
+                ability4: "Increase accuracy by 30% against Paralyzed or Poisoned Enemies. Does not stack with Abilities of the same name."
             }, 
         evolution: 
             {
-                evo23: //2 to 3, 3 to 4, etc. If more than material listed, create new line with mat3 and mat3amt , etc.
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light1.png",
-                    mat2amt: 5
-                },
-                evo34: 
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
-                    mat2amt: 5
-                },
                 evo45:
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_earth4.png",
                     mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat2amt: 5
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_dark4.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_earth3.png",
+                    mat3amt: 5
                 },
                 evo5awk:
                 {
@@ -3978,29 +3790,16 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3: "/db/Icons/dungeon_drops/fragGoldola.png",
                     mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    hover3: "Goldola",
+                    mat4: "/db/Icons/dungeon_drops/fragMavroskia.png",
+                    mat4amt: 2,
+                    hover4: "Mavroskia",
+                    mat5: "/db/Icons/dungeon_drops/fragTonetaurus.png",
+                    mat5amt: 3,
+                    hover5: "Tonetaurus"
                 }
-            },
-        trueweapon: //If no TW, may delete this section
-            {
-                name: "",
-                slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
-                skill: "",
-                skillbreak: ,
-                passive: 
-                    {
-                        ability1: 
-                        ability2: 
-                    }
             },
         lore: 
             {   
@@ -4010,11 +3809,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Leon - Missing Lore, Stats, Slots, Evolution
+    { //Leon - Missing Lore
         id: 101256512,
         name: "Leon",
-        attribute: ,
-        type: ,
+        attribute: "Dark",
+        type: "Demon",
         image: 
             {
                 detail4: "/db/Units/Detail/unit_detail_101254512.png",
@@ -4027,43 +3826,45 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot1type: "/db/Mines/thumbnail/suppLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/magLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 6797,
+                hpplus: 999,
+                atk: 2453,
+                atkplus: 378,
+                def: 1926,
+                defplus: 298
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "9s CT - 1800% Dark DMG (MAG). Chance to inflict Blind.",
+                skillbreak: 2000,
+                arts: "13000% Dark DMG (MAG). High chance to inflict Blind + For 20s, reduce Enemies' ATK and DEF by 30%.",
+                artsbreak: 2600,
+                truearts: "30000% Dark DMG (MAG). For 13s, increase Dark Allies' Arts by 2/s, and Demon Allies' DMG by 30%.",
+                trueartsbreak: 2800
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase Curse RES by 30%.",
+                ability2: "Increase Disease RES by 30%."
             }, 
         evolution: 
             {
                 evo45:
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_dark4.png",
                     mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat2amt: 5
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_water4.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_dark3.png",
+                    mat3amt: 5
                 },
                 evo5awk:
                 {
@@ -4071,15 +3872,9 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragValzandeth.png",
+                    mat3amt: 2,
+                    hover3: "Valzandeth",
                 }
             },
         lore: 
@@ -4089,11 +3884,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Zoroas - Missing Lore, Stats, Slots, Evolution
+    { //Zoroas - Missing Lore
         id: 101266512,
         name: "Zoroas",
-        attribute: ,
-        type: ,
+        attribute: "Dark",
+        type: "Dragon",
         image: 
             {
                 detail4: "/db/Units/Detail/unit_detail_101264512.png",
@@ -4106,43 +3901,44 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/magLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 7110,
+                hpplus: 999,
+                atk: 2600,
+                atkplus: 388,
+                def: 2450,
+                defplus: 373
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "10s CT - 1900% Dark DMG (PHY). Increase Arts by 20 if own Skill crits.",
+                skillbreak: 1200,
+                arts: "13000% Dark DMG (PHY). For 15s, increase Allies' DMG by 30%.",
+                artsbreak: 1800,
+                truearts: "34000% Dark DMG (PHY). For 15s, increase own Critical Rate by 100%, own DMG to Demon Enemies by 150%.",
+                trueartsbreak: 2500
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase DMG to Demon Enemies by 100%."
             }, 
         evolution: 
             {
                 evo45:
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_dark4.png",
                     mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat2amt: 5
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_fire4.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_dark3.png",
+                    mat3amt: 5
                 },
                 evo5awk:
                 {
@@ -4150,15 +3946,9 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragMavroskia.png",
+                    mat3amt: 2,
+                    hover3: "Mavroskia",
                 }
             },
         lore: 
@@ -4168,11 +3958,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Zechsia - Missing Lore, Stats, Slots, Evolution
+    { //Zechsia - Missing Lore
         id: 101316412,
         name: "Zechsia",
-        attribute: ,
-        type: ,
+        attribute: "Light",
+        type: "God",
         image: 
             {
                 detail4: "/db/Units/Detail/unit_detail_101314412.png",
@@ -4187,32 +3977,33 @@ const UnitInformation = [
                 slot1: 5,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/healLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/physLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 6660,
+                hpplus: 999,
+                atk: 2664,
+                atkplus: 411,
+                def: 2256,
+                defplus: 350
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "6s CT - 1900% Light DMG (PHY). Increase own Arts by 5.",
+                skillbreak: 2300,
+                arts: "10000% Light DMG (PHY). Increase own Arts by 50.",
+                artsbreak: 3700,
+                truearts: "26000% Light DMG (PHY). For 25s, increase own Arts by 5/s and increase Break PWR by 100%.",
+                trueartsbreak: 4000
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase evasion by 15%.",
+                ability2: "Increase Allies' Break PWR by 15%. Does not stack with Abilities of the same name.",
+                ability3: "Increase DMG to Human Enemies by 60%."
             }, 
         evolution: 
             {
@@ -4220,8 +4011,10 @@ const UnitInformation = [
                 {
                     mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
                     mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat2amt: 5
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_earth4.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
+                    mat3amt: 5
                 },
                 evo5awk:
                 {
@@ -4229,15 +4022,9 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragRadachne.png",
+                    mat3amt: 2,
+                    hover3: "Radachne",
                 }
             },
         lore: 
