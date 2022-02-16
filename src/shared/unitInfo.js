@@ -1579,7 +1579,7 @@ const UnitInformation = [
                 evoawk: "An opponent of the Gods in the Ancient War who was called the Deathbringer of Corpse Mountain. In truth, she was a Human girl who turned her hatred into a continual search for power. Once the Deathdealer had her target, she would pursue it without cease, even to death. Once, when she came again against a swordswoman who had ducked her demonic sickle once before, she took on the demeanor of a death-dealing force of nature to kill her foe. For some reason, the swordswoman merely complained under her breath and readied her sword. History does not record what happened next."
             }
     },
-    { //Rayas - Missing Lore, Evolution, TW Image
+    { //Rayas - Missing Evolution, TW Image
         id: 101016411,
         name: "Rayas",
         attribute: "Light",
@@ -1635,7 +1635,7 @@ const UnitInformation = [
                     mat1: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
                     mat1amt: 2,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_light1.png",
-                    mat2amt: 5
+                    mat2amt: 2
                 },
                 evo34: 
                 {
@@ -1644,7 +1644,7 @@ const UnitInformation = [
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
                     mat2amt: 5
                 },
-                evo45:
+                evo45: //reym how do crystal thing
                 {
                     mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
                     mat1amt: 2,
@@ -1654,18 +1654,12 @@ const UnitInformation = [
                 evo5awk:
                 {
                     mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
-                    mat1amt: 30,
+                    mat1amt: 10,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragRayas.png",
+                    mat3amt: 1,
+                    hover3: "Rayas",
                 }
             },
         trueweapon: 
@@ -1700,9 +1694,9 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo2: "Missing Lore Information, please contact site owner",
-                evo3: "Missing Lore Information, please contact site owner",
-                evo4: "Missing Lore Information, please contact site owner",
+                evo2: "A new recruit at the Isliid Adventurer's Guild. An orphan from the surrounding area, Rayas has been friends with imperial knight Roy for as long as he can remember. His interest in history and ancient ruins inspired him to become an adventurer, and he dreams of making a never-before-seen historical discovery. His skills with a sword are above average, but Roy often chastises him for a lack of effort.",
+                evo3: "An adventurer from the Isliid Adventurer's Guild, Rayas became involved in the battle against the Demons after encountering the amnesiac Iris during a training exercise with Ganan, his guildmaster. While protecting Iris, the power to summon the spirits of ancient heroes awoke within him, allowing him to successfully summon one of the legendary Blade Masters. His abilities with sword and summon will only grow stronger.",
+                evo4: "During his travels to defeat the Demons, Rayas encountered the Demon Suppression Corps composed of members from the Great Nations. His old friend Roy, is there as well, and the group's strength proves inspiring enough to further draw out his latent abilities (not that he noticed). Now a part of the Corps, Rayas returns to his journey with expectations of further growth.",
                 evo5: "An adventurer journeying with friends to end the Demon menace. Contrary to his great strength, few know of his name and exploits, but even the handpicked warriors he journeys with have their eyes on him. Real experience has sharpened his talent with a sword and he’s managed to summon just Blade Masters, but incredible heroes from all of the eight races. Rayas still wants more, however, and so his journey continues.",
                 evoawk: "Currently unreleased in Global."
             }
@@ -3957,7 +3951,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Zechsia - Missing Lore
+    { //Zechsia - Complete
         id: 101316412,
         name: "Zechsia",
         attribute: "Light",
@@ -4028,9 +4022,9 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo4: "A knight who was part of a company of God knights in ancient times. She despised being underestimated and was always seen wearing a full suit of armour. As a knight in service to the higher Gods of order, she saw the commands of the higher Gods and order itself as absolute. Her sternness was so great that she would cut down any knight who expressed a lack of faith where they stood. Zechsia, ever loyal, was given a divine mission: to slay a mercenary whose intervention in battles caused chaos and confusion.",
+                evo5: "As a God knight dedicated to preserving order, Zechsia's rage was directed at a Dragon mercenary who fought and created chaos for his own enjoyment. Unleashing the power of the jewelled sword given to her by the high Gods, she began a furious assault in the name of her divine mission. The battle soon reached a fever pitch. Right as two Giants entered the fray, a tearful young girl appeared and unleashed tremendous magical power, swallowing up all in the vicinity.",
+                evoawk: "Zechsia pursued the Dragon mercenary, but grew skeptical of the justness of her orders upon seeing a kind young girl travelling happily with him. Her doubts about slaying the supposedly wicked Dragon were comfirmed when she witnessed him fearlessly protect the girl from a beast. Zechsia drew her sword against the beast to save the wounded mercenary, marking the first time in her entire life that she disobeyed a divine order."
             }
     },
     { //Zecht - Missing Lore
@@ -4266,7 +4260,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Rhodia - Missing Lore
+    { //Rhodia - Complete
         id: 101316412,
         name: "Rhodia",
         attribute: "Light",
@@ -4336,9 +4330,9 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo4: "A legendary Dragon blacksmith. Single-mindedly obsessed with creating powerful equipment, Rhodia cared little about who used the tools she created. One day, a young man appeared, asking about the whereabouts of a Machine she had done upgrades to. She sensed a powerful will behind his words and decided to teach him Dragon martial arts so that he might realise his mission. From that day forward, Rhodia supposedly acted more warmly to others.",
+                evo5: "A Dragon blacksmith spoken of in legend. She taught a half-Beast and half-Demon fighter Dragon martial arts so that he might save a witch. Rhodia began acting on her own and discovered a dark plot involving the witch. While she went after the young man to make sure he knew the truth, she ended up finding the Demon who was responsible for the plot in the first place. To put an end to things for good, she unleashed the power of her transforming scythe and challenged Leon to a duel.",
+                evoawk: "The Dragon blacksmith Rhodia and her former student Saar, a young half-Beast half-Demon man, fought a desperate battle against Demon warrior Leon. When Leon struck down with his great axe, Rhodia rushed in to take the blow for Saar, but she suffered a fatal injury. Rhodia knew that her end was nigh, so she confirmed that her student was safe and gave him the armour that she had spent half her life to create. Afterwards, she smiled contentedly and closed her eyes."
     }
     },
     { //Olgeth - Missing Lore
