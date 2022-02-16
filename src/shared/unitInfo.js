@@ -1385,7 +1385,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Elfalla - Missing Lore, Evolution
+    { //Elfalla - Missing Lore
         id: 100646412,
         name: "Elfalla",
         attribute: "Light",
@@ -1435,13 +1435,6 @@ const UnitInformation = [
             }, 
         evolution: 
             {
-                evo23: 
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light1.png",
-                    mat2amt: 5
-                },
                 evo34: 
                 {
                     mat1: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
@@ -1463,22 +1456,16 @@ const UnitInformation = [
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
                     mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
+                    mat3amt: 2,
                     hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
                 }
             },
         lore: 
             {   
-                evo3: "Missing Lore Information, please contact site owner",
+                evo3: "A hero of the Beasts later known as the Azure Saint. Much hope was placed in him from an early age... perhaps because he defeated a lion with his bare hands at age 10. Belying his fierce appearance was a surprising warmth, and his gentle smile provided inspiration for many. One day, word arrived of a Machine attack on a settlement in a nearby region. Unbeknownst to him, one of these machines would influence the rest of his life...",
                 evo4: "Missing Lore Information, please contact site owner",
                 evo5: "A Beast hero renowned as the Azure Saint, Elfalla attempted to put a stop to a machine weapon of mass destruction, only for the weapon to inform him of a great sin he had committed during an earlier mission. Barely managing to escape, Elfalla found his actions clouded, but was stirred to act once more upon seeing his fellow soldiers doing their best to repay him. He would stop at nothing to stop the rampaging weapon.",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evoawk: "A hero praised as the Empyreal Beast. After realising his mistake in fleeing from the Machine weapon, he rushed back to the battlefield. Though afraid he was too late to stop the inevitable slaughter, he arrived to see his brothers-in-arms fighting against the menace, empowered by the belief that he would return. That was the inspiration he needed to shed his past regrets and face his destined foe."
             }
     },
     { //Lily - Missing Lore, Evolution
@@ -3718,7 +3705,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Pola - Missing Lore
+    { //Pola - Complete
         id: 101246312,
         name: "Pola",
         attribute: "Earth",
@@ -3796,10 +3783,9 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo3: "Missing Lore Information, please contact site owner",
-                evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo4: "One of the six witches in "Grim Stella", Pola possesses incredible power and is feared as the "Funereal Bloom". With a unique set of values, Pola believed the singing voice of a young Spirit boy she knew was the definition of beauty. However, a bandit she was chasing unleashed a curse on this boy, stealing his voice and vanishing without warning. Having been deprived of that which she loved most, she began an indiscriminate rampage on the world.",
+                evo5: "A witch feared as the "Funereal Bloom". As her rampage continued, a female Machine appeared before Pola and commenced a furious assault against her. In response, Pola unleashed her previously sealed true power. To her surprise, she realised that she preceived this automaton fighting heedlessly for its life as beautiful. Her lips curled into a smile. As the flames drew closer, Pola slowly closed her eyes.",
+                evoawk: "Her protector is a half-Beast half-Demon youth who saved her on a whim. She was completely dumbfounded by this, but she used her special plant based defensive magic to protect an overwhelmed automaton that had changed its target to the Demons. Until then, their only choice had been to fight alongside their enemy. And for some reason, this helped her power grow far beyong her previous limits. No one knows how the battle ended or what happened to her later, but the name Witch of Funeral Flowers never appeared in the histories again."
             }
     },
     { //Leon - Missing Lore
@@ -5022,7 +5008,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Nerim - Missing Lore
+    { //Nerim - Complete
         id: 101416312,
         name: "Nerim",
         attribute: "Earth",
@@ -5099,9 +5085,9 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo4: "A God who protected a certain village after the end of the Great War. To realise their sword dream, she remained in the village even after her friends had left on their own journeys. Though she was willing to unleash her slumbering power to defend the village, she was fundamentally very calm. and despised conflict. So calm and kind, in fact, that she was willing to shelter her friends when they became implicated in the grave crime of assassinating one of Bamint's VIPs.",
+                evo5: "A God who did everything in her power to protect her precious village and childhood friends. She was requested to keep the presence of her old friend, now criminals, a secret. After much soul-searching, she agreed... They were her childhood friends, after all, and they promised not to harm anyone. But in the end, she couldn't avoid a confrontation. Regretting the decision, she threw herself into the fray, ending the conflict at the expense of her life.",
+                evoawk: "Regretting all she'd done, she shared tears with the knight who hunted her down. Gasping, she murmured kindly to him. "I brought all this down on myself, you musn't regret ending me. Be proud of all you've done as a knight to defend your village. And I am truly glad to die in your arms... You, who have cared more for me than any other." With her sacrifice, childhood friends long scattered were able to come together to revisit their younger days."
             }
     },
     { //Quon - Missing Lore, Evolution
