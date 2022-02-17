@@ -7526,11 +7526,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Onfuan - Missing Lore, Stats, Slots, Evolution
+    { //Onfuan - Missing Lore
         id: 101886512,
         name: "Onfuan",
-        attribute: ,
-        type: ,
+        attribute: "Dark",
+        type: "Demon",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_101885512.png",
@@ -7541,34 +7541,35 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/defLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/physLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 6721,
+                hpplus: 999,
+                atk: 2521,
+                atkplus: 388,
+                def: 2099,
+                defplus: 324
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "7s CT - 1500% Dark DMG (PHY).",
+                skillbreak: 800,
+                arts: "7200% Dark DMG (PHY). For 25s, Allies gain a DMG barrier that negates 3000 DMG.",
+                artsbreak: 1900,
+                truearts: "14000% Dark DMG (PHY). For 25s, increase Allies' DEF by 30%, Allies gain a DMG barrier that negates 4000 DMG.",
+                trueartsbreak: 2500
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "When near-death, increase DMG RES by 10%. Does not stack with Abilities of the same name.",
+                ability2: "Increase Curse RES by 100%.",
+                ability3: "Increase all Allies' DEF and Blind RES by 30%. Does not stack with Abilities of the same name."
             }, 
         evolution: 
             {
@@ -7578,15 +7579,15 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragMavroskia.png",
+                    mat3amt: 5,
+                    hover3: "Mavroskia",
+                    mat4: "/db/Icons/dungeon_drops/fragOldeus.png",
+                    mat4amt: 5,
+                    hover4: "Oldeus",
+                    mat5: "/db/Icons/dungeon_drops/fragRagsherumPhantom.png",
+                    mat5amt: 3,
+                    hover5: "Ragsherum Phantom"
                 }
             },
         lore: 
@@ -7595,11 +7596,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Kayas - Missing Lore, Stats, Slots, Evolution
+    { //Kayas - Missing Lore, Evolution
         id: 101896512,
         name: "Kayas",
-        attribute: ,
-        type: ,
+        attribute: "Dark",
+        type: "God",
         image: 
             {
                 detail4: "/db/Units/Detail/unit_detail_101894512.png",
@@ -7614,32 +7615,33 @@ const UnitInformation = [
                 slot1: 5,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/healLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 6827,
+                hpplus: 999,
+                atk: 3264,
+                atkplus: 499,
+                def: 2028,
+                defplus: 314
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "1800% Dark DMG (MAG). Increase own BE generation by 80%.",
+                skillbreak: 1150,
+                arts: "19000% Dark DMG (MAG). Increase own Arts by 100 against Enemies in BREAK.",
+                artsbreak: 2200,
+                truearts: "32000% Dark DMG (MAG). For 15s, decrease God Enemies' MAG RES by 30%. If this unit has taken 5000 DMG since its last Arts/True Arts, increase own Arts DMG by 250% for 30s.",
+                trueartsbreak: 2700
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase DMG by 1% every 3s (maximum of 60% DMG increase).",
+                ability2: "Increase Arts DMG every time damage is taken - 1000 DMG taken will increase Arts DMG dealt by 10%. Buff resets after using Arts or True Arts (maximum of 50% Arts DMG increase).",
+                ability3: "Increase DMG to God Enemies by 50%."
             }, 
         evolution: 
             {
@@ -7656,15 +7658,9 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragMavroskia.png",
+                    mat3amt: 2,
+                    hover3: "Mavroskia",
                 }
             },
         lore: 
@@ -7677,8 +7673,8 @@ const UnitInformation = [
     { //End - Missing Lore, Stats, Slots, Evolution
         id: 101906412,
         name: "End",
-        attribute: ,
-        type: ,
+        attribute: "Light",
+        type: "Human",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_101905412.png",
@@ -7691,23 +7687,23 @@ const UnitInformation = [
                 slot1: 5,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/magLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 5440,
+                hpplus: 826,
+                atk: 1840,
+                atkplus: 286,
+                def: 2200,
+                defplus: 340
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
+                skill: "8s CT - 1800% Light DMG (MAG). Increase own Arts by 5.",
+                skillbreak: 1000,
                 arts: "",
                 artsbreak: ,
                 truearts: "",
