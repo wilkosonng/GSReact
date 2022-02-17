@@ -20224,7 +20224,2449 @@ const UnitInformation = [
                 evo5: "Missing Lore Information, please contact site owner",
                 evoawk: "Missing Lore Information, please contact site owner"
             }
-    }            
+    },
+    { //Sonic - Missing Lore, Stats, Slots, Evolution
+        id: 107216512,
+        name: "Sonic",
+        attribute: ,
+        type: ,
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_107215512.png",
+                detailawk: "/db/Units/Detail/unit_detail_107216512.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_107215512.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107216512.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: ,
+                hpplus: ,
+                atk: ,
+                atkplus: ,
+                def: ,
+                defplus: 
+            },
+        skillset: 
+            {
+                skill: "",
+                skillbreak: ,
+                arts: "",
+                artsbreak: ,
+                truearts: "",
+                trueartsbreak: 
+            },
+        passive: 
+            {
+                ability1: "",
+                ability2: ""
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3amt: 4,
+                    hover3: "Fosradius",
+                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat4amt: 4,
+                    hover4: "Code-XTF",
+                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                    mat5amt: 5,
+                    hover5: "Aerugraxes"
+                }
+            },
+        lore: 
+            {   
+                evo5: "Missing Lore Information, please contact site owner",
+                evoawk: "Missing Lore Information, please contact site owner"
+            }
+    },
+    { //Hellish Blizzard - Missing Lore, Stats, Slots, Evolution
+        id: 107226212,
+        name: "Hellish Blizzard",
+        attribute: ,
+        type: ,
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_107225212.png",
+                detailawk: "/db/Units/Detail/unit_detail_107226212.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_107225212.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107226212.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: ,
+                hpplus: ,
+                atk: ,
+                atkplus: ,
+                def: ,
+                defplus: 
+            },
+        skillset: 
+            {
+                skill: "",
+                skillbreak: ,
+                arts: "",
+                artsbreak: ,
+                truearts: "",
+                trueartsbreak: 
+            },
+        passive: 
+            {
+                ability1: "",
+                ability2: ""
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3amt: 4,
+                    hover3: "Fosradius",
+                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat4amt: 4,
+                    hover4: "Code-XTF",
+                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                    mat5amt: 5,
+                    hover5: "Aerugraxes"
+                }
+            },
+        lore: 
+            {   
+                evo5: "Missing Lore Information, please contact site owner",
+                evoawk: "Missing Lore Information, please contact site owner"
+            }
+    },
+    { //Garou - Missing Lore, Stats, Slots, Evolution
+        id: 107236512,
+        name: "Garou",
+        attribute: ,
+        type: ,
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_107235512.png",
+                detailawk: "/db/Units/Detail/unit_detail_107236512.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_107235512.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107236512.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: ,
+                hpplus: ,
+                atk: ,
+                atkplus: ,
+                def: ,
+                defplus: 
+            },
+        skillset: 
+            {
+                skill: "",
+                skillbreak: ,
+                arts: "",
+                artsbreak: ,
+                truearts: "",
+                trueartsbreak: 
+            },
+        passive: 
+            {
+                ability1: "",
+                ability2: ""
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3amt: 4,
+                    hover3: "Fosradius",
+                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat4amt: 4,
+                    hover4: "Code-XTF",
+                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                    mat5amt: 5,
+                    hover5: "Aerugraxes"
+                }
+            },
+        lore: 
+            {   
+                evo5: "Missing Lore Information, please contact site owner",
+                evoawk: "Missing Lore Information, please contact site owner"
+            }
+    },
+    { //Naofumi - Missing Lore, Stats, Slots, Evolution, True WeaponS, TW Images
+        id: 107256411,
+        name: "Naofumi",
+        attribute: ,
+        type: ,
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_107255411.png",
+                detailawk: "/db/Units/Detail/unit_detail_107256411.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_107255411.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107256411.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: ,
+                hpplus: ,
+                atk: ,
+                atkplus: ,
+                def: ,
+                defplus: 
+            },
+        skillset: 
+            {
+                skill: "",
+                skillbreak: ,
+                arts: "",
+                artsbreak: ,
+                truearts: "",
+                trueartsbreak: 
+            },
+        passive: 
+            {
+                ability1: "",
+                ability2: ""
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3amt: 4,
+                    hover3: "Fosradius",
+                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat4amt: 4,
+                    hover4: "Code-XTF",
+                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                    mat5amt: 5,
+                    hover5: "Aerugraxes"
+                }
+            },
+        trueweapon: //If no TW, may delete this section
+            {
+                true1: 
+                {
+                    name: "",
+                    slot: "/db/Mines/thumbnail/physLB.png",
+                    detail: "",
+                    skill: "",
+                    skillbreak: ,
+                    passive: 
+                        {
+                            ability1: 
+                            ability2: 
+                        }
+                },
+                true2: 
+                {
+                    name: "",
+                    slot: "/db/Mines/thumbnail/physLB.png",
+                    detail: "",
+                    skill: "",
+                    skillbreak: ,
+                    passive: 
+                        {
+                            ability1: 
+                            ability2: 
+                        }
+                }
+                
+            },
+        lore: 
+            {   
+                evo5: "Missing Lore Information, please contact site owner",
+                evoawk: "Missing Lore Information, please contact site owner"
+            }
+    },
+    { //Raphtalia - Missing Lore, Stats, Slots, Evolution, True Weapon, TW Image
+        id: 107266412,
+        name: "Raphtalia",
+        attribute: ,
+        type: ,
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_107265412.png",
+                detailawk: "/db/Units/Detail/unit_detail_107266412.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_107265412.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107266412.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: ,
+                hpplus: ,
+                atk: ,
+                atkplus: ,
+                def: ,
+                defplus: 
+            },
+        skillset: 
+            {
+                skill: "",
+                skillbreak: ,
+                arts: "",
+                artsbreak: ,
+                truearts: "",
+                trueartsbreak: 
+            },
+        passive: 
+            {
+                ability1: "",
+                ability2: ""
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3amt: 4,
+                    hover3: "Fosradius",
+                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat4amt: 4,
+                    hover4: "Code-XTF",
+                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                    mat5amt: 5,
+                    hover5: "Aerugraxes"
+                }
+            },
+        trueweapon: //If no TW, may delete this section
+            {
+                name: "",
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "",
+                skill: "",
+                skillbreak: ,
+                passive: 
+                    {
+                        ability1: 
+                        ability2: 
+                    }
+            },
+        lore: 
+            {   
+                evo5: "Missing Lore Information, please contact site owner",
+                evoawk: "Missing Lore Information, please contact site owner"
+            }
+    },
+    { //Filo - Missing Lore, Stats, Slots, Evolution
+        id: 107276312,
+        name: "Filo",
+        attribute: ,
+        type: ,
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_107275312.png",
+                detailawk: "/db/Units/Detail/unit_detail_107276312.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_107275312.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107276312.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: ,
+                hpplus: ,
+                atk: ,
+                atkplus: ,
+                def: ,
+                defplus: 
+            },
+        skillset: 
+            {
+                skill: "",
+                skillbreak: ,
+                arts: "",
+                artsbreak: ,
+                truearts: "",
+                trueartsbreak: 
+            },
+        passive: 
+            {
+                ability1: "",
+                ability2: ""
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3amt: 4,
+                    hover3: "Fosradius",
+                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat4amt: 4,
+                    hover4: "Code-XTF",
+                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                    mat5amt: 5,
+                    hover5: "Aerugraxes"
+                }
+            },
+        lore: 
+            {   
+                evo5: "Missing Lore Information, please contact site owner",
+                evoawk: "Missing Lore Information, please contact site owner"
+            }
+    },
+    { //Melty - Missing Lore, Stats, Slots, Evolution
+        id: 107286212,
+        name: "Melty",
+        attribute: ,
+        type: ,
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_107285212.png",
+                detailawk: "/db/Units/Detail/unit_detail_107286212.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_107285212.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107286212.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: ,
+                hpplus: ,
+                atk: ,
+                atkplus: ,
+                def: ,
+                defplus: 
+            },
+        skillset: 
+            {
+                skill: "",
+                skillbreak: ,
+                arts: "",
+                artsbreak: ,
+                truearts: "",
+                trueartsbreak: 
+            },
+        passive: 
+            {
+                ability1: "",
+                ability2: ""
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3amt: 4,
+                    hover3: "Fosradius",
+                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat4amt: 4,
+                    hover4: "Code-XTF",
+                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                    mat5amt: 5,
+                    hover5: "Aerugraxes"
+                }
+            },
+        lore: 
+            {   
+                evo5: "Missing Lore Information, please contact site owner",
+                evoawk: "Missing Lore Information, please contact site owner"
+            }
+    },
+    { //Yusuke - Missing Lore, Stats, Slots, Evolution
+        id: 107296212,
+        name: "Yusuke",
+        attribute: ,
+        type: ,
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_107295212.png",
+                detailawk: "/db/Units/Detail/unit_detail_107296212.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_107295212.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107296212.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: ,
+                hpplus: ,
+                atk: ,
+                atkplus: ,
+                def: ,
+                defplus: 
+            },
+        skillset: 
+            {
+                skill: "",
+                skillbreak: ,
+                arts: "",
+                artsbreak: ,
+                truearts: "",
+                trueartsbreak: 
+            },
+        passive: 
+            {
+                ability1: "",
+                ability2: ""
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3amt: 4,
+                    hover3: "Fosradius",
+                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat4amt: 4,
+                    hover4: "Code-XTF",
+                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                    mat5amt: 5,
+                    hover5: "Aerugraxes"
+                }
+            },
+        lore: 
+            {   
+                evo5: "Missing Lore Information, please contact site owner",
+                evoawk: "Missing Lore Information, please contact site owner"
+            }
+    },
+    { //Kazuma - Missing Lore, Stats, Slots, Evolution
+        id: 107306412,
+        name: "Kazuma",
+        attribute: ,
+        type: ,
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_107305412.png",
+                detailawk: "/db/Units/Detail/unit_detail_107306412.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_107305412.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107306412.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: ,
+                hpplus: ,
+                atk: ,
+                atkplus: ,
+                def: ,
+                defplus: 
+            },
+        skillset: 
+            {
+                skill: "",
+                skillbreak: ,
+                arts: "",
+                artsbreak: ,
+                truearts: "",
+                trueartsbreak: 
+            },
+        passive: 
+            {
+                ability1: "",
+                ability2: ""
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3amt: 4,
+                    hover3: "Fosradius",
+                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat4amt: 4,
+                    hover4: "Code-XTF",
+                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                    mat5amt: 5,
+                    hover5: "Aerugraxes"
+                }
+            },
+        lore: 
+            {   
+                evo5: "Missing Lore Information, please contact site owner",
+                evoawk: "Missing Lore Information, please contact site owner"
+            }
+    },
+    { //Kurama - Missing Lore, Stats, Slots, Evolution
+        id: 107316312,
+        name: "Kurama",
+        attribute: ,
+        type: ,
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_107315312.png",
+                detailawk: "/db/Units/Detail/unit_detail_107316312.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_107315312.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107316312.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: ,
+                hpplus: ,
+                atk: ,
+                atkplus: ,
+                def: ,
+                defplus: 
+            },
+        skillset: 
+            {
+                skill: "",
+                skillbreak: ,
+                arts: "",
+                artsbreak: ,
+                truearts: "",
+                trueartsbreak: 
+            },
+        passive: 
+            {
+                ability1: "",
+                ability2: ""
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3amt: 4,
+                    hover3: "Fosradius",
+                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat4amt: 4,
+                    hover4: "Code-XTF",
+                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                    mat5amt: 5,
+                    hover5: "Aerugraxes"
+                }
+            },
+        lore: 
+            {   
+                evo5: "Missing Lore Information, please contact site owner",
+                evoawk: "Missing Lore Information, please contact site owner"
+            }
+    },
+    { //Hiei - Missing Lore, Stats, Slots, Evolution
+        id: 107326512,
+        name: "Hiei",
+        attribute: ,
+        type: ,
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_107325512.png",
+                detailawk: "/db/Units/Detail/unit_detail_107326512.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_107325512.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107326512.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: ,
+                hpplus: ,
+                atk: ,
+                atkplus: ,
+                def: ,
+                defplus: 
+            },
+        skillset: 
+            {
+                skill: "",
+                skillbreak: ,
+                arts: "",
+                artsbreak: ,
+                truearts: "",
+                trueartsbreak: 
+            },
+        passive: 
+            {
+                ability1: "",
+                ability2: ""
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3amt: 4,
+                    hover3: "Fosradius",
+                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat4amt: 4,
+                    hover4: "Code-XTF",
+                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                    mat5amt: 5,
+                    hover5: "Aerugraxes"
+                }
+            },
+        lore: 
+            {   
+                evo5: "Missing Lore Information, please contact site owner",
+                evoawk: "Missing Lore Information, please contact site owner"
+            }
+    },
+    { //Toguro - Missing Lore, Stats, Slots, Evolution
+        id: 107336512,
+        name: "Toguro",
+        attribute: ,
+        type: ,
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_107335512.png",
+                detailawk: "/db/Units/Detail/unit_detail_107336512.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_107335512.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107336512.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: ,
+                hpplus: ,
+                atk: ,
+                atkplus: ,
+                def: ,
+                defplus: 
+            },
+        skillset: 
+            {
+                skill: "",
+                skillbreak: ,
+                arts: "",
+                artsbreak: ,
+                truearts: "",
+                trueartsbreak: 
+            },
+        passive: 
+            {
+                ability1: "",
+                ability2: ""
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3amt: 4,
+                    hover3: "Fosradius",
+                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat4amt: 4,
+                    hover4: "Code-XTF",
+                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                    mat5amt: 5,
+                    hover5: "Aerugraxes"
+                }
+            },
+        lore: 
+            {   
+                evo5: "Missing Lore Information, please contact site owner",
+                evoawk: "Missing Lore Information, please contact site owner"
+            }
+    },
+    { //Emilia - Missing Lore, Stats, Slots, Evolution, True Weapon, TW Image
+        id: 107346212,
+        name: "Emilia",
+        attribute: ,
+        type: ,
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_107345212.png",
+                detailawk: "/db/Units/Detail/unit_detail_107346212.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_107345212.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107346212.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: ,
+                hpplus: ,
+                atk: ,
+                atkplus: ,
+                def: ,
+                defplus: 
+            },
+        skillset: 
+            {
+                skill: "",
+                skillbreak: ,
+                arts: "",
+                artsbreak: ,
+                truearts: "",
+                trueartsbreak: 
+            },
+        passive: 
+            {
+                ability1: "",
+                ability2: ""
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3amt: 4,
+                    hover3: "Fosradius",
+                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat4amt: 4,
+                    hover4: "Code-XTF",
+                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                    mat5amt: 5,
+                    hover5: "Aerugraxes"
+                }
+            },
+        trueweapon: //If no TW, may delete this section
+            {
+                name: "",
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "",
+                skill: "",
+                skillbreak: ,
+                passive: 
+                    {
+                        ability1: 
+                        ability2: 
+                    }
+            },
+        lore: 
+            {   
+                evo5: "Missing Lore Information, please contact site owner",
+                evoawk: "Missing Lore Information, please contact site owner"
+            }
+    },
+    { //Rem (RE:ZERO) - Missing Lore, Stats, Slots, Evolution, True Weapon, TW Image
+        id: 107356212,
+        name: "Rem (RE:ZERO)",
+        attribute: ,
+        type: ,
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_107355212.png",
+                detailawk: "/db/Units/Detail/unit_detail_107356212.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_107355212.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107356212.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: ,
+                hpplus: ,
+                atk: ,
+                atkplus: ,
+                def: ,
+                defplus: 
+            },
+        skillset: 
+            {
+                skill: "",
+                skillbreak: ,
+                arts: "",
+                artsbreak: ,
+                truearts: "",
+                trueartsbreak: 
+            },
+        passive: 
+            {
+                ability1: "",
+                ability2: ""
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3amt: 4,
+                    hover3: "Fosradius",
+                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat4amt: 4,
+                    hover4: "Code-XTF",
+                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                    mat5amt: 5,
+                    hover5: "Aerugraxes"
+                }
+            },
+        trueweapon: //If no TW, may delete this section
+            {
+                name: "",
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "",
+                skill: "",
+                skillbreak: ,
+                passive: 
+                    {
+                        ability1: 
+                        ability2: 
+                    }
+            },
+        lore: 
+            {   
+                evo5: "Missing Lore Information, please contact site owner",
+                evoawk: "Missing Lore Information, please contact site owner"
+            }
+    },
+    { //Ram - Missing Lore, Stats, Slots, Evolution, True Weapon, TW Image
+        id: 107366312,
+        name: "Ram",
+        attribute: ,
+        type: ,
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_107365312.png",
+                detailawk: "/db/Units/Detail/unit_detail_107366312.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_107365312.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107366312.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: ,
+                hpplus: ,
+                atk: ,
+                atkplus: ,
+                def: ,
+                defplus: 
+            },
+        skillset: 
+            {
+                skill: "",
+                skillbreak: ,
+                arts: "",
+                artsbreak: ,
+                truearts: "",
+                trueartsbreak: 
+            },
+        passive: 
+            {
+                ability1: "",
+                ability2: ""
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3amt: 4,
+                    hover3: "Fosradius",
+                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat4amt: 4,
+                    hover4: "Code-XTF",
+                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                    mat5amt: 5,
+                    hover5: "Aerugraxes"
+                }
+            },
+        trueweapon: //If no TW, may delete this section
+            {
+                name: "",
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "",
+                skill: "",
+                skillbreak: ,
+                passive: 
+                    {
+                        ability1: 
+                        ability2: 
+                    }
+            },
+        lore: 
+            {   
+                evo5: "Missing Lore Information, please contact site owner",
+                evoawk: "Missing Lore Information, please contact site owner"
+            }
+    },
+    { //Beatrice - Missing Lore, Stats, Slots, Evolution, True Weapon , TW Image
+        id: 107376512,
+        name: "Beatrice",
+        attribute: ,
+        type: ,
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_107375512.png",
+                detailawk: "/db/Units/Detail/unit_detail_107376512.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_107375512.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107376512.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: ,
+                hpplus: ,
+                atk: ,
+                atkplus: ,
+                def: ,
+                defplus: 
+            },
+        skillset: 
+            {
+                skill: "",
+                skillbreak: ,
+                arts: "",
+                artsbreak: ,
+                truearts: "",
+                trueartsbreak: 
+            },
+        passive: 
+            {
+                ability1: "",
+                ability2: ""
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3amt: 4,
+                    hover3: "Fosradius",
+                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat4amt: 4,
+                    hover4: "Code-XTF",
+                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                    mat5amt: 5,
+                    hover5: "Aerugraxes"
+                }
+            },
+        trueweapon: //If no TW, may delete this section
+            {
+                name: "",
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "",
+                skill: "",
+                skillbreak: ,
+                passive: 
+                    {
+                        ability1: 
+                        ability2: 
+                    }
+            },
+        lore: 
+            {   
+                evo5: "Missing Lore Information, please contact site owner",
+                evoawk: "Missing Lore Information, please contact site owner"
+            }
+    },
+    { //Santa Rimuru - Missing Lore, Stats, Slots, Evolution
+        id: 107396212,
+        name: "Santa Rimuru",
+        attribute: ,
+        type: ,
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_107395212.png",
+                detailawk: "/db/Units/Detail/unit_detail_107396212.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_107395212.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107396212.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: ,
+                hpplus: ,
+                atk: ,
+                atkplus: ,
+                def: ,
+                defplus: 
+            },
+        skillset: 
+            {
+                skill: "",
+                skillbreak: ,
+                arts: "",
+                artsbreak: ,
+                truearts: "",
+                trueartsbreak: 
+            },
+        passive: 
+            {
+                ability1: "",
+                ability2: ""
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3amt: 4,
+                    hover3: "Fosradius",
+                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat4amt: 4,
+                    hover4: "Code-XTF",
+                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                    mat5amt: 5,
+                    hover5: "Aerugraxes"
+                }
+            },
+        lore: 
+            {   
+                evo5: "Missing Lore Information, please contact site owner",
+                evoawk: "Missing Lore Information, please contact site owner"
+            }
+    },
+    { //Santa Shion - Missing Lore, Stats, Slots, Evolution
+        id: 107416512,
+        name: "Santa Shion",
+        attribute: ,
+        type: ,
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_107415512.png",
+                detailawk: "/db/Units/Detail/unit_detail_107416512.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_107415512.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107416512.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: ,
+                hpplus: ,
+                atk: ,
+                atkplus: ,
+                def: ,
+                defplus: 
+            },
+        skillset: 
+            {
+                skill: "",
+                skillbreak: ,
+                arts: "",
+                artsbreak: ,
+                truearts: "",
+                trueartsbreak: 
+            },
+        passive: 
+            {
+                ability1: "",
+                ability2: ""
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3amt: 4,
+                    hover3: "Fosradius",
+                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat4amt: 4,
+                    hover4: "Code-XTF",
+                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                    mat5amt: 5,
+                    hover5: "Aerugraxes"
+                }
+            },
+        lore: 
+            {   
+                evo5: "Missing Lore Information, please contact site owner",
+                evoawk: "Missing Lore Information, please contact site owner"
+            }
+    },
+    { //New Years Rimuru - Missing Lore, Stats, Slots, Evolution
+        id: 107426512,
+        name: "New Years Rimuru",
+        attribute: ,
+        type: ,
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_107425512.png",
+                detailawk: "/db/Units/Detail/unit_detail_107426512.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_107425512.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107426512.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: ,
+                hpplus: ,
+                atk: ,
+                atkplus: ,
+                def: ,
+                defplus: 
+            },
+        skillset: 
+            {
+                skill: "",
+                skillbreak: ,
+                arts: "",
+                artsbreak: ,
+                truearts: "",
+                trueartsbreak: 
+            },
+        passive: 
+            {
+                ability1: "",
+                ability2: ""
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3amt: 4,
+                    hover3: "Fosradius",
+                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat4amt: 4,
+                    hover4: "Code-XTF",
+                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                    mat5amt: 5,
+                    hover5: "Aerugraxes"
+                }
+            },
+        lore: 
+            {   
+                evo5: "Missing Lore Information, please contact site owner",
+                evoawk: "Missing Lore Information, please contact site owner"
+            }
+    },
+    { //New Years Milim - Missing Lore, Stats, Slots, Evolution
+        id: 107436412,
+        name: "New Years Milim",
+        attribute: ,
+        type: ,
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_107435412.png",
+                detailawk: "/db/Units/Detail/unit_detail_107436412.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_107435412.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107436412.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: ,
+                hpplus: ,
+                atk: ,
+                atkplus: ,
+                def: ,
+                defplus: 
+            },
+        skillset: 
+            {
+                skill: "",
+                skillbreak: ,
+                arts: "",
+                artsbreak: ,
+                truearts: "",
+                trueartsbreak: 
+            },
+        passive: 
+            {
+                ability1: "",
+                ability2: ""
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3amt: 4,
+                    hover3: "Fosradius",
+                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat4amt: 4,
+                    hover4: "Code-XTF",
+                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                    mat5amt: 5,
+                    hover5: "Aerugraxes"
+                }
+            },
+        lore: 
+            {   
+                evo5: "Missing Lore Information, please contact site owner",
+                evoawk: "Missing Lore Information, please contact site owner"
+            }
+    },
+    { //Hatsune Miku - Missing Lore, Stats, Slots, Evolution
+        id: 107456212,
+        name: "Hatsune Miku",
+        attribute: ,
+        type: ,
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_107455212.png",
+                detailawk: "/db/Units/Detail/unit_detail_107456212.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_107455212.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107456212.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: ,
+                hpplus: ,
+                atk: ,
+                atkplus: ,
+                def: ,
+                defplus: 
+            },
+        skillset: 
+            {
+                skill: "",
+                skillbreak: ,
+                arts: "",
+                artsbreak: ,
+                truearts: "",
+                trueartsbreak: 
+            },
+        passive: 
+            {
+                ability1: "",
+                ability2: ""
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3amt: 4,
+                    hover3: "Fosradius",
+                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat4amt: 4,
+                    hover4: "Code-XTF",
+                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                    mat5amt: 5,
+                    hover5: "Aerugraxes"
+                }
+            },
+        lore: 
+            {   
+                evo5: "Missing Lore Information, please contact site owner",
+                evoawk: "Missing Lore Information, please contact site owner"
+            }
+    },
+    { //Sakura Miku - Missing Lore, Stats, Slots, Evolution
+        id: 107466312,
+        name: "Sakura Miku",
+        attribute: ,
+        type: ,
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_107465312.png",
+                detailawk: "/db/Units/Detail/unit_detail_107466312.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_107465312.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107466312.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: ,
+                hpplus: ,
+                atk: ,
+                atkplus: ,
+                def: ,
+                defplus: 
+            },
+        skillset: 
+            {
+                skill: "",
+                skillbreak: ,
+                arts: "",
+                artsbreak: ,
+                truearts: "",
+                trueartsbreak: 
+            },
+        passive: 
+            {
+                ability1: "",
+                ability2: ""
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3amt: 4,
+                    hover3: "Fosradius",
+                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat4amt: 4,
+                    hover4: "Code-XTF",
+                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                    mat5amt: 5,
+                    hover5: "Aerugraxes"
+                }
+            },
+        lore: 
+            {   
+                evo5: "Missing Lore Information, please contact site owner",
+                evoawk: "Missing Lore Information, please contact site owner"
+            }
+    },
+    { //Yoh - Missing Lore, Stats, Slots, Evolution
+        id: 107476112,
+        name: "Yoh",
+        attribute: ,
+        type: ,
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_107475112.png",
+                detailawk: "/db/Units/Detail/unit_detail_107476112.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_107475112.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107476112.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: ,
+                hpplus: ,
+                atk: ,
+                atkplus: ,
+                def: ,
+                defplus: 
+            },
+        skillset: 
+            {
+                skill: "",
+                skillbreak: ,
+                arts: "",
+                artsbreak: ,
+                truearts: "",
+                trueartsbreak: 
+            },
+        passive: 
+            {
+                ability1: "",
+                ability2: ""
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3amt: 4,
+                    hover3: "Fosradius",
+                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat4amt: 4,
+                    hover4: "Code-XTF",
+                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                    mat5amt: 5,
+                    hover5: "Aerugraxes"
+                }
+            },
+        lore: 
+            {   
+                evo5: "Missing Lore Information, please contact site owner",
+                evoawk: "Missing Lore Information, please contact site owner"
+            }
+    },
+    { //Anna - Missing Lore, Stats, Slots, Evolution
+        id: 107486312,
+        name: "Anna",
+        attribute: ,
+        type: ,
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_107485312.png",
+                detailawk: "/db/Units/Detail/unit_detail_107486312.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_107485312.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107486312.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: ,
+                hpplus: ,
+                atk: ,
+                atkplus: ,
+                def: ,
+                defplus: 
+            },
+        skillset: 
+            {
+                skill: "",
+                skillbreak: ,
+                arts: "",
+                artsbreak: ,
+                truearts: "",
+                trueartsbreak: 
+            },
+        passive: 
+            {
+                ability1: "",
+                ability2: ""
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3amt: 4,
+                    hover3: "Fosradius",
+                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat4amt: 4,
+                    hover4: "Code-XTF",
+                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                    mat5amt: 5,
+                    hover5: "Aerugraxes"
+                }
+            },
+        lore: 
+            {   
+                evo5: "Missing Lore Information, please contact site owner",
+                evoawk: "Missing Lore Information, please contact site owner"
+            }
+    },
+    { //Ren - Missing Lore, Stats, Slots, Evolution
+        id: 107496512,
+        name: "Ren",
+        attribute: ,
+        type: ,
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_107495512.png",
+                detailawk: "/db/Units/Detail/unit_detail_107496512.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_107495512.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107496512.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: ,
+                hpplus: ,
+                atk: ,
+                atkplus: ,
+                def: ,
+                defplus: 
+            },
+        skillset: 
+            {
+                skill: "",
+                skillbreak: ,
+                arts: "",
+                artsbreak: ,
+                truearts: "",
+                trueartsbreak: 
+            },
+        passive: 
+            {
+                ability1: "",
+                ability2: ""
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3amt: 4,
+                    hover3: "Fosradius",
+                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat4amt: 4,
+                    hover4: "Code-XTF",
+                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                    mat5amt: 5,
+                    hover5: "Aerugraxes"
+                }
+            },
+        lore: 
+            {   
+                evo5: "Missing Lore Information, please contact site owner",
+                evoawk: "Missing Lore Information, please contact site owner"
+            }
+    },
+    { //Hao - Missing Lore, Stats, Slots, Evolution
+        id: 107506112,
+        name: "Hao",
+        attribute: ,
+        type: ,
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_107505112.png",
+                detailawk: "/db/Units/Detail/unit_detail_107506112.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_107505112.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107506112.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: ,
+                hpplus: ,
+                atk: ,
+                atkplus: ,
+                def: ,
+                defplus: 
+            },
+        skillset: 
+            {
+                skill: "",
+                skillbreak: ,
+                arts: "",
+                artsbreak: ,
+                truearts: "",
+                trueartsbreak: 
+            },
+        passive: 
+            {
+                ability1: "",
+                ability2: ""
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3amt: 4,
+                    hover3: "Fosradius",
+                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat4amt: 4,
+                    hover4: "Code-XTF",
+                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                    mat5amt: 5,
+                    hover5: "Aerugraxes"
+                }
+            },
+        lore: 
+            {   
+                evo5: "Missing Lore Information, please contact site owner",
+                evoawk: "Missing Lore Information, please contact site owner"
+            }
+    },
+    { //Rudeus - Missing Lore, Stats, Slots, Evolution
+        id: 107516312,
+        name: "Rudeus",
+        attribute: ,
+        type: ,
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_107515312.png",
+                detailawk: "/db/Units/Detail/unit_detail_107516312.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_107515312.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107516312.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: ,
+                hpplus: ,
+                atk: ,
+                atkplus: ,
+                def: ,
+                defplus: 
+            },
+        skillset: 
+            {
+                skill: "",
+                skillbreak: ,
+                arts: "",
+                artsbreak: ,
+                truearts: "",
+                trueartsbreak: 
+            },
+        passive: 
+            {
+                ability1: "",
+                ability2: ""
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3amt: 4,
+                    hover3: "Fosradius",
+                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat4amt: 4,
+                    hover4: "Code-XTF",
+                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                    mat5amt: 5,
+                    hover5: "Aerugraxes"
+                }
+            },
+        lore: 
+            {   
+                evo5: "Missing Lore Information, please contact site owner",
+                evoawk: "Missing Lore Information, please contact site owner"
+            }
+    },
+    { //Roxy - Missing Lore, Stats, Slots, Evolution
+        id: 107526212,
+        name: "Roxy",
+        attribute: ,
+        type: ,
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_107525212.png",
+                detailawk: "/db/Units/Detail/unit_detail_107526212.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_107525212.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107526212.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: ,
+                hpplus: ,
+                atk: ,
+                atkplus: ,
+                def: ,
+                defplus: 
+            },
+        skillset: 
+            {
+                skill: "",
+                skillbreak: ,
+                arts: "",
+                artsbreak: ,
+                truearts: "",
+                trueartsbreak: 
+            },
+        passive: 
+            {
+                ability1: "",
+                ability2: ""
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3amt: 4,
+                    hover3: "Fosradius",
+                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat4amt: 4,
+                    hover4: "Code-XTF",
+                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                    mat5amt: 5,
+                    hover5: "Aerugraxes"
+                }
+            },
+        lore: 
+            {   
+                evo5: "Missing Lore Information, please contact site owner",
+                evoawk: "Missing Lore Information, please contact site owner"
+            }
+    },
+    { //Sylphiette - Missing Lore, Stats, Slots, Evolution
+        id: 107536412,
+        name: "Sylphiette",
+        attribute: ,
+        type: ,
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_107535412.png",
+                detailawk: "/db/Units/Detail/unit_detail_107536412.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_107535412.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107536412.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: ,
+                hpplus: ,
+                atk: ,
+                atkplus: ,
+                def: ,
+                defplus: 
+            },
+        skillset: 
+            {
+                skill: "",
+                skillbreak: ,
+                arts: "",
+                artsbreak: ,
+                truearts: "",
+                trueartsbreak: 
+            },
+        passive: 
+            {
+                ability1: "",
+                ability2: ""
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3amt: 4,
+                    hover3: "Fosradius",
+                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat4amt: 4,
+                    hover4: "Code-XTF",
+                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                    mat5amt: 5,
+                    hover5: "Aerugraxes"
+                }
+            },
+        lore: 
+            {   
+                evo5: "Missing Lore Information, please contact site owner",
+                evoawk: "Missing Lore Information, please contact site owner"
+            }
+    },
+    { //Eris - Missing Lore, Stats, Slots, Evolution
+        id: 107546112,
+        name: "Eris",
+        attribute: ,
+        type: ,
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_107545112.png",
+                detailawk: "/db/Units/Detail/unit_detail_107546112.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_107545112.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107546112.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: ,
+                hpplus: ,
+                atk: ,
+                atkplus: ,
+                def: ,
+                defplus: 
+            },
+        skillset: 
+            {
+                skill: "",
+                skillbreak: ,
+                arts: "",
+                artsbreak: ,
+                truearts: "",
+                trueartsbreak: 
+            },
+        passive: 
+            {
+                ability1: "",
+                ability2: ""
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3amt: 4,
+                    hover3: "Fosradius",
+                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat4amt: 4,
+                    hover4: "Code-XTF",
+                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                    mat5amt: 5,
+                    hover5: "Aerugraxes"
+                }
+            },
+        lore: 
+            {   
+                evo5: "Missing Lore Information, please contact site owner",
+                evoawk: "Missing Lore Information, please contact site owner"
+            }
+    },
+    { //Natsu Dragneel - Missing Lore, Stats, Slots, Evolution
+        id: 107556112,
+        name: "Natsu Dragneel",
+        attribute: ,
+        type: ,
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_107555112.png",
+                detailawk: "/db/Units/Detail/unit_detail_107556112.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_107555112.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107556112.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: ,
+                hpplus: ,
+                atk: ,
+                atkplus: ,
+                def: ,
+                defplus: 
+            },
+        skillset: 
+            {
+                skill: "",
+                skillbreak: ,
+                arts: "",
+                artsbreak: ,
+                truearts: "",
+                trueartsbreak: 
+            },
+        passive: 
+            {
+                ability1: "",
+                ability2: ""
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3amt: 4,
+                    hover3: "Fosradius",
+                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat4amt: 4,
+                    hover4: "Code-XTF",
+                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                    mat5amt: 5,
+                    hover5: "Aerugraxes"
+                }
+            },
+        lore: 
+            {   
+                evo5: "Missing Lore Information, please contact site owner",
+                evoawk: "Missing Lore Information, please contact site owner"
+            }
+    },
+    { //Lucy Heartfilia - Missing Lore, Stats, Slots, Evolution
+        id: 107566412,
+        name: "Lucy Heartfilia",
+        attribute: ,
+        type: ,
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_107565412.png",
+                detailawk: "/db/Units/Detail/unit_detail_107566412.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_107565412.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107566412.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: ,
+                hpplus: ,
+                atk: ,
+                atkplus: ,
+                def: ,
+                defplus: 
+            },
+        skillset: 
+            {
+                skill: "",
+                skillbreak: ,
+                arts: "",
+                artsbreak: ,
+                truearts: "",
+                trueartsbreak: 
+            },
+        passive: 
+            {
+                ability1: "",
+                ability2: ""
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3amt: 4,
+                    hover3: "Fosradius",
+                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat4amt: 4,
+                    hover4: "Code-XTF",
+                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                    mat5amt: 5,
+                    hover5: "Aerugraxes"
+                }
+            },
+        lore: 
+            {   
+                evo5: "Missing Lore Information, please contact site owner",
+                evoawk: "Missing Lore Information, please contact site owner"
+            }
+    },
+    { //Gray Fullbuster - Missing Lore, Stats, Slots, Evolution, Images, ID
+        id: ,
+        name: "Gray Fullbuster",
+        attribute: ,
+        type: ,
+        image: 
+            {
+                detail5: ,
+                detailawk: "/db/Units/Detail/unit_detail_.png",
+                thumb5: ,
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: ,
+                hpplus: ,
+                atk: ,
+                atkplus: ,
+                def: ,
+                defplus: 
+            },
+        skillset: 
+            {
+                skill: "",
+                skillbreak: ,
+                arts: "",
+                artsbreak: ,
+                truearts: "",
+                trueartsbreak: 
+            },
+        passive: 
+            {
+                ability1: "",
+                ability2: ""
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3amt: 4,
+                    hover3: "Fosradius",
+                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat4amt: 4,
+                    hover4: "Code-XTF",
+                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                    mat5amt: 5,
+                    hover5: "Aerugraxes"
+                }
+            },
+        lore: 
+            {   
+                evo5: "Missing Lore Information, please contact site owner",
+                evoawk: "Missing Lore Information, please contact site owner"
+            }
+    },
+    { //Erza Scarlet - Missing Lore, Stats, Slots, Evolution, Images, ID
+        id: ,
+        name: "Erza Scarlet",
+        attribute: ,
+        type: ,
+        image: 
+            {
+                detail5: ,
+                detailawk: "/db/Units/Detail/unit_detail_.png",
+                thumb5: ,
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: ,
+                hpplus: ,
+                atk: ,
+                atkplus: ,
+                def: ,
+                defplus: 
+            },
+        skillset: 
+            {
+                skill: "",
+                skillbreak: ,
+                arts: "",
+                artsbreak: ,
+                truearts: "",
+                trueartsbreak: 
+            },
+        passive: 
+            {
+                ability1: "",
+                ability2: ""
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3amt: 4,
+                    hover3: "Fosradius",
+                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat4amt: 4,
+                    hover4: "Code-XTF",
+                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                    mat5amt: 5,
+                    hover5: "Aerugraxes"
+                }
+            },
+        lore: 
+            {   
+                evo5: "Missing Lore Information, please contact site owner",
+                evoawk: "Missing Lore Information, please contact site owner"
+            }
+    }
+
 ];
 
 export function getUnits() {
