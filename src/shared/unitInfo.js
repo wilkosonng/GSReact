@@ -2659,7 +2659,7 @@ const UnitInformation = [
                 evoawk: "The most powerful warrior of the Adventurer's Guild and guild master of Reigard branch. Theroughout the days at Reigard, Ganan interacted with many young adventurers. Being touched by their passion, he reconsidered his own path, together with the unforgettable mistake of his past and the meaning of being a guild master now... Embracing the failure of his past, he takes a step forward to protect the heroes of tomorrow."
             }
     },
-    Gilliam - Missing TW Image
+    { //Gilliam - Missing TW Image
         id: 101126311,
         name: "Gilliam",
         attribute: "Earth",
@@ -5277,11 +5277,11 @@ const UnitInformation = [
                 evo5: "Missing Lore Information, please contact site owner",
             }
     },
-    { //Favelle - Missing Lore, Stats, Slots, Evolution
+    { //Favelle - Missing Lore
         id: 101586312,
         name: "Favelle",
-        attribute: ,
-        type: ,
+        attribute: "Earth",
+        type: "Dragon",
         image: 
             {
                 detail4: "/db/Units/Detail/unit_detail_101584312.png",
@@ -5294,43 +5294,46 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot1type: "/db/Mines/thumbnail/healLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/defLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 6836,
+                hpplus: 999,
+                atk: 2424,
+                atkplus: 373,
+                def: 2743,
+                defplus: 421
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "7s CT - 1800% Earth DMG (PHY).",
+                skillbreak: 1200,
+                arts: "8000% Earth DMG (PHY). For 25s, Allies gain a DMG barrier that negates 3200 DMG.",
+                artsbreak: 2000,
+                truearts: "15000% Earth DMG (PHY). For 30s, Allies gain a DMG barrier that negates 5000 DMG, increase Allies' DMG RES by 15%.",
+                trueartsbreak: 2500
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase Near-Death Allies' DMG RES by 10%.",
+                ability2: "Increase Allies' max HP by 10%.",
+                ability3: "When at 50% HP or more, increase Arts DMG by 50%."
             }, 
         evolution: 
             {
                 evo45:
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_earth4.png",
                     mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat2amt: 5
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_water4.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_earth3.png",
+                    mat3amt: 5
                 },
                 evo5awk:
                 {
@@ -5338,15 +5341,9 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragElpneumas.png",
+                    mat3amt: 2,
+                    hover3: "Elpneumas",
                 }
             },
         lore: 
@@ -5356,11 +5353,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Catilou - Missing Lore, Stats, Slots, Evolution
+    { //Catilou - Missing Lore
         id: 101596312,
         name: "Catilou",
-        attribute: ,
-        type: ,
+        attribute: "Earth",
+        type: "Beast",
         image: 
             {
                 detail4: "/db/Units/Detail/unit_detail_101594312.png",
@@ -5373,43 +5370,45 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot1type: "/db/Mines/thumbnail/defLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/physLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/healLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 7032,
+                hpplus: 999,
+                atk: 2491,
+                atkplus: 357,
+                def: 2580,
+                defplus: 365
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "9s CT - 2000% Earth DMG (PHY). If Skill Crits, increase Break PWR of that hit by 100%.",
+                skillbreak: 2200,
+                arts: "11000% Earth DMG (PHY). For 20s, heal Allies' HP by 120/s. and increase own Skill CT REC by 100%.",
+                artsbreak: 3600,
+                truearts: "32000% Earth DMG (PHY). For 15s, increase Allies' DMG by 30%, increase Allies' DMG to Enemies in BREAK by 30%.",
+                trueartsbreak: 5000
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "When Art Gauge is 50 or more, increase own Critical Rate by 70%.",
+                ability2: "When near-death, heal HP by 60/s."
             }, 
         evolution: 
             {
                 evo45:
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_earth4.png",
                     mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat2amt: 5
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_dark4.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_earth3.png",
+                    mat3amt: 5
                 },
                 evo5awk:
                 {
@@ -5417,15 +5416,9 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3: "/db/Icons/dungeon_drops/fragTonetaurus.png",
                     mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    hover3: "Tonetaurus",
                 }
             },
         lore: 
@@ -5435,11 +5428,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Rasaou - Missing Lore, Stats, Slots, Evolution
+    { //Rasaou - Missing Lore
         id: 101606112,
         name: "Rasaou",
-        attribute: ,
-        type: ,
+        attribute: "Fire",
+        type: "God",
         image: 
             {
                 detail4: "/db/Units/Detail/unit_detail_101604112.png",
@@ -5452,43 +5445,46 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot1type: "/db/Mines/thumbnail/defLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/physLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 7500,
+                hpplus: 999,
+                atk: 4620,
+                atkplus: 841,
+                def: 1260,
+                defplus: 236
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "9s CT - 2100% Fire DMG (PHY). For 5s, increase own Equipment CT REC by 30%.",
+                skillbreak: 1100,
+                arts: "12800% Fire and Dark DMG (PHY). For 5s, increase Allies' RES to the Element they have an Elemental Advantage against by 100%.",
+                artsbreak: 5000,
+                truearts: "15500% Fire DMG (PHY). Increase own DMG RES by 100% during own True Arts.",
+                trueartsbreak: 6000
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase own God's Eye Counter whenever own Skill (1 Count), Arts (1 Count), or True Arts (3 Count) is activated + Increase own Critical Rate by 10% for each God's Eye Count (max. 10 stacks (100% Critical Rate increase)) + When God's Eye Counter is 10, reset God's Eye Count to 0 with next activation of own Arts or True Arts and increase that True/Arts' DMG and Break PWR by 100%.",
+                ability2: "Increase DMG to Dragon Enemies by 50%.",
+                ability3: "Increase DMG to Demon Enemies by 100%."
             }, 
         evolution: 
             {
                 evo45:
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat2amt: 5
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_fire4.png",
+                    mat1amt: 3,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_dark4.png",
+                    mat2amt: 2,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_fire3.png",
+                    mat3amt: 5
                 },
                 evo5awk:
                 {
@@ -5496,15 +5492,12 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragFlogassa.png",
+                    mat3amt: 3,
+                    hover3: "Flogassa",
+                    mat4: "/db/Icons/dungeon_drops/fragMavroskia.png",
+                    mat4amt: 2,
+                    hover4: "Mavroskia",
                 }
             },
         lore: 
@@ -5514,11 +5507,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Yumi - Missing Lore, Stats, Slots, Evolution
+    { //Yumi - Complete
         id: 101616212,
         name: "Yumi",
-        attribute: ,
-        type: ,
+        attribute: "Water",
+        type: "Giant",
         image: 
             {
                 detail4: "/db/Units/Detail/unit_detail_101614212.png",
@@ -5531,43 +5524,46 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot1type: "/db/Mines/thumbnail/defLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/physLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/physLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 8100,
+                hpplus: 999,
+                atk: 2453,
+                atkplus: 380,
+                def: 2409,
+                defplus: 377
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "9s CT - 1800% Water DMG (PHY). Increase own Arts by 5 when this hits an Enemy.",
+                skillbreak: 1900,
+                arts: "14000% Water DMG (PHY). For 15s, increase Allies' Healing Taken (except Lifesteal) by 80%.",
+                artsbreak: 3200,
+                truearts: "27000% Water DMG (PHY). Increase DMG by this True Arts to non-Boss Enemies by 150% + For 15s, increase stats by 50%.",
+                trueartsbreak: 3600
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase Fire RES by 25%.",
+                ability2: "Increase Allies' max HP by 15%.",
+                ability3: "Increase Healing Taken (except Lifesteal) by 20%."
             }, 
         evolution: 
             {
                 evo45:
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_water4.png",
                     mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat2amt: 5
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_earth4.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_water3.png",
+                    mat3amt: 5
                 },
                 evo5awk:
                 {
@@ -5575,29 +5571,23 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3: "/db/Icons/dungeon_drops/fragGeoZagnus.png",
                     mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    hover3: "Geo Zagnus",
                 }
             },
         lore: 
             {   
-                evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo4: "Currently unreleased in Global.",
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
             }
     },
-    { //Keit - Missing Lore, Stats, Slots, Evolution
+    { //Keit - Missing Lore
         id: 101626312,
         name: "Keit",
-        attribute: ,
-        type: ,
+        attribute: "Earth",
+        type: "Human",
         image: 
             {
                 detail4: "/db/Units/Detail/unit_detail_101624312.png",
@@ -5612,41 +5602,44 @@ const UnitInformation = [
                 slot1: 5,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/magLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 6228,
+                hpplus: 999,
+                atk: 2832,
+                atkplus: 434,
+                def: 2258,
+                defplus: 348
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "8s CT - 800% Earth DMG (MAG). 70% chance to inflict Poison.",
+                skillbreak: 500,
+                arts: "14000% Earth DMG (MAG). 100% chance to inflict Paralysis against Poisoned Enemies.",
+                artsbreak: 1450,
+                truearts: "30000% Earth DMG (MAG) For 15s, reduce Enemies' Poison and MAG RES by 35%.",
+                trueartsbreak: 1600
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase Allies' Poison RES by 30%. Increase Allies' Critical Rate by 50% against Poisoned Enemies. Does not stack with Abilities of the same name.",
+                ability2: "Increase Paralysis RES by 70%.",
+                ability3: "Increase Equip CT REC by 10%."
             }, 
         evolution: 
             {
                 evo45:
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_earth4.png",
                     mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat2amt: 5
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_water4.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_earth5.png",
+                    mat3amt: 5
                 },
                 evo5awk:
                 {
@@ -5654,29 +5647,23 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3: "/db/Icons/dungeon_drops/fragElpneumas.png",
                     mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    hover3: "Elpneumas",
                 }
             },
         lore: 
             {   
                 evo4: "Missing Lore Information, please contact site owner",
                 evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evoawk: "Currently unreleased in Global."
             }
     },
-    { //Cathemilla - Missing Lore, Stats, Slots, Evolution
+    { //Cathemilla - Missing Lore
         id: 101646412,
         name: "Cathemilla",
-        attribute: ,
-        type: ,
+        attribute: "Light",
+        type: "Spirit",
         image: 
             {
                 detail4: "/db/Units/Detail/unit_detail_101644412.png",
@@ -5691,41 +5678,44 @@ const UnitInformation = [
                 slot1: 5,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/defLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/magLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 6780,
+                hpplus: 999,
+                atk: 1958,
+                atkplus: 303,
+                def: 2689,
+                defplus: 413
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "9s CT - Heals Allies' HP by 200 and increase Allies' Arts by 10.",
+                skillbreak: 0,
+                arts: "15600% Light DMG (MAG). For 10s, increase Allies' Paralysis and Freeze RES by 100%, and Arts DMG by 20% + If an enemy is Dark, increase Allies' Arts DMG by an additional 50%.",
+                artsbreak: 3200,
+                truearts: "28000% Light DMG (MAG). For 12s, increase Fire, Water and Earth Allies' DMG by [30% × number of unique Elements (excluding Light and Dark) in the Party].",
+                trueartsbreak: 5000
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase Fire Allies' Critical DMG by 40% and Skill CT REC by 60%.",
+                ability2: "Increase Water Allies' Status RES by 60% and Arts DMG RES by 25%.",
+                ability3: "Heal Earth Allies' HP by 40/s. Increase Earth Allies' Break PWR by 40%."
             }, 
         evolution: 
             {
                 evo45:
                 {
                     mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat2amt: 5
+                    mat1amt: 3,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_water4.png",
+                    mat2amt: 2,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
+                    mat3amt: 5
                 },
                 evo5awk:
                 {
@@ -5733,15 +5723,12 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragRadachne.png",
+                    mat3amt: 2,
+                    hover3: "Radachne",
+                    mat4: "/db/Icons/dungeon_drops/fragPalamicia.png",
+                    mat4amt: 2,
+                    hover4: "Palamicia",
                 }
             },
         lore: 
@@ -5751,11 +5738,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Mizyna - Missing Lore, Stats, Slots, Evolution
+    { //Mizyna - Missing Lore
         id: 101656512,
         name: "Mizyna",
-        attribute: ,
-        type: ,
+        attribute: "Dark",
+        type: "Demon",
         image: 
             {
                 detail4: "/db/Units/Detail/unit_detail_101654512.png",
@@ -5768,43 +5755,46 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/physLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 6348,
+                hpplus: 999,
+                atk: 2832,
+                atkplus: 434,
+                def: 2250,
+                defplus: 347
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "7s CT - 1800% Dark DMG (PHY). Heal own HP by 2%.",
+                skillbreak: 1400,
+                arts: "15000% Dark DMG (PHY). For 12s, increase Allies' Skill CT REC by 30%, increase Dark Allies' Skill CT REC by an additional 30%.",
+                artsbreak: 2800,
+                truearts: "34000% Dark DMG (PHY). Increase own Arts by 20 + For 12s, increase Own Critical Rate by 100%.",
+                trueartsbreak: 2800
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "At the start of a Battle, increase own Arts by 100.",
+                ability2: "Increase DMG to God Enemies by 80%.",
+                ability3: "Increase Allies' Critical DMG by 20%."
             }, 
         evolution: 
             {
                 evo45:
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_dark4.png",
                     mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat2amt: 5
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_earth4.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_dark3.png",
+                    mat3amt: 5
                 },
                 evo5awk:
                 {
@@ -5812,17 +5802,11 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3: "/db/Icons/dungeon_drops/fragOldeus.png",
                     mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    hover3: "Oldeus",
                 }
-            }
+            },
         lore: 
             {   
                 evo4: "Missing Lore Information, please contact site owner",
@@ -5830,11 +5814,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Nies - Missing Lore, Stats, Slots, Evolution, True Weapon, TW Image
+    { //Nies - Missing Lore, TW Image
         id: 101666212,
         name: "Nies",
-        attribute: ,
-        type: ,
+        attribute: "Water",
+        type: "God",
         image: 
             {
                 detail4: "/db/Units/Detail/unit_detail_101664212.png",
@@ -5847,43 +5831,46 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/healLB.png",
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/defLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 7596,
+                hpplus: 999,
+                atk: 2756,
+                atkplus: 423,
+                def: 2866,
+                defplus: 439
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "7s CT - 2000% Water DMG (PHY). For 5s, reduce Enemies' ATK by 20%.",
+                skillbreak: 1400,
+                arts: "14500% Water DMG (PHY). For 15s, increase Allies' Fire RES by 15%, heal Allies' HP by 200/s, increase Water Allies' Arts by 2/s.",
+                artsbreak: 2400,
+                truearts: "35000% Water DMG (PHY). For 3s, increase Allies' DMG RES by 80%. For 15s, increase Water Allies' Skill CT REC and Skill DMG by 120%.",
+                trueartsbreak: 4400
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase Allies' DEF by 500 and DMG to Fire Enemies by 25%. Does not stack with Abilities of the same name.",
+                ability2: "Increase Burn RES by 100%.",
+                ability3: "Ignore 35% of Enemies' DEF."
             }, 
         evolution: 
             {
                 evo45:
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat2amt: 5
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_water4.png",
+                    mat1amt: 3,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_dark4.png",
+                    mat2amt: 2,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_water3.png",
+                    mat3amt: 5
                 },
                 evo5awk:
                 {
@@ -5891,28 +5878,25 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragWilkes.png",
+                    mat3amt: 2,
+                    hover3: "Wilkes",
+                    mat4: "/db/Icons/dungeon_drops/fragFreydal.png",
+                    mat4amt: 2,
+                    hover4: "Freydal",
                 }
             },
-        trueweapon: //If no TW, may delete this section
+        trueweapon:
             {
-                name: "",
+                name: "Saint Blaze",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "",
-                skill: "",
-                skillbreak: ,
+                skill: "65s CT - 9500% Water DMG (PHY). For 10s, increase Water Allies' DMG by 40%.",
+                skillbreak: 1000,
                 passive: 
                     {
-                        ability1: 
-                        ability2: 
+                        ability1: "When equipped by Nies, increase DMG by 20%, heal HP by 100/s and increase Arts by 2/s.",
+                        ability2: "Increase Skill DMG by 20%."
                     }
             },
         lore: 
@@ -5925,8 +5909,8 @@ const UnitInformation = [
     { //Sanstone - Missing Lore, Stats, Slots, Evolution, True Weapon, TW Image
         id: 101676112,
         name: "Sanstone",
-        attribute: ,
-        type: ,
+        attribute: "Fire",
+        type: "Human",
         image: 
             {
                 detail4: "/db/Units/Detail/unit_detail_101674112.png",
@@ -5939,43 +5923,46 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot1type: "/db/Mines/thumbnail/defLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/defLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 7416,
+                hpplus: 999,
+                atk: 2275,
+                atkplus: 351,
+                def: 2834,
+                defplus: 435
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "8s CT - 1700% Fire DMG (PHY). Chance to inflict Burn.",
+                skillbreak: 1300,
+                arts: "12400% Fire DMG (PHY). For 25s, Allies gain a DMG barrier that negates 3800 DMG.",
+                artsbreak: 2400,
+                truearts: "24000% Fire DMG (PHY). For 20s, increase Allies' DMG RES by 30% and Critical RES by 20%.",
+                trueartsbreak: 3700
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase Freeze RES and Paralysis RES by 100%.",
+                ability2: "Increase Allies' RES to their Weak Element by 10%.",
+                ability3: "When near-death, increase Arts by 3/s."
             }, 
         evolution: 
             {
                 evo45:
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat2amt: 5
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_fire4.png",
+                    mat1amt: 3,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
+                    mat2amt: 2,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_fire3.png",
+                    mat3amt: 5
                 },
                 evo5awk:
                 {
@@ -5983,28 +5970,25 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragWilkes.png",
+                    mat3amt: 2,
+                    hover3: "Wilkes",
+                    mat4: "/db/Icons/dungeon_drops/fragDegilmagna.png",
+                    mat4amt: 2,
+                    hover4: "Degilmagna",
                 }
             },
-        trueweapon: //If no TW, may delete this section
+        trueweapon: 
             {
-                name: "",
-                slot: "/db/Mines/thumbnail/physLB.png",
+                name: "Flambardo",
+                slot: "/db/Mines/thumbnail/defLB.png",
                 detail: "",
-                skill: "",
-                skillbreak: ,
+                skill: "25s CT - For 12s, increase Allies' DMG RES by 20%. Allies with 50% or less HP gain a 30% increase instead.",
+                skillbreak: 0,
                 passive: 
                     {
-                        ability1: 
-                        ability2: 
+                        ability1: "When equipped by Sanstone, increase Equipment CT REC by 30% and max HP by 20%. Does not stack with Abilities of the same name.",
+                        ability2: "Increase PHY RES by 10%."
                     }
             },
         lore: 
