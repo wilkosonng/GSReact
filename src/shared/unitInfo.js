@@ -5998,11 +5998,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Platina - Missing Lore, Stats, Slots, Evolution, True Weapon, TW Image
+    { //Platina - Missing Lore, TW Image
         id: 101686412,
         name: "Platina",
-        attribute: ,
-        type: ,
+        attribute: "Light",
+        type: "God",
         image: 
             {
                 detail4: "/db/Units/Detail/unit_detail_101684412.png",
@@ -6015,43 +6015,46 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/defLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 7464,
+                hpplus: 943,
+                atk: 2796,
+                atkplus: 359,
+                def: 2640,
+                defplus: 340
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "10s CT - 2000% Light DMG (PHY). For 8s, reduce Enemies' Break RES by 30%.",
+                skillbreak: 2100,
+                arts: "15500% Light DMG (PHY). For 15s, when the Boss' Break Bar is 70% or less, increase own Break PWR by 70%.",
+                artsbreak: 4000,
+                truearts: "34000% Light DMG (PHY). High chance to inflict Faint. For 20s, reduce Enemies' Break Bar by 10% of total Break Bar each time they are hit by own Skill.",
+                trueartsbreak: 8500
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "When an Ally is near-death, cure that Ally's Status Ailments (except Faint) and that Ally gains a DMG barrier that negates 2000 DMG for 10s. Can be activated only once every 70s.",
+                ability2: "Increase own Skill CT REC based on own Break PWR buffs.",
+                ability3: "Increase Allies' Break PWR by 10%. Does not stack with Abilities of the same name."
             }, 
         evolution: 
             {
                 evo45:
                 {
                     mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat2amt: 5
+                    mat1amt: 3,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_water4.png",
+                    mat2amt: 2,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
+                    mat3amt: 5
                 },
                 evo5awk:
                 {
@@ -6059,28 +6062,28 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragWilkes.png",
+                    mat3amt: 2,
+                    hover3: "Wilkes",
+                    mat4: "/db/Icons/dungeon_drops/fragRadachne.png",
+                    mat4amt: 2,
+                    hover4: "Radachne",
+                    mat5: "/db/Icons/dungeon_drops/fragPalamicia.png",
+                    mat5amt: 1,
+                    hover5: "Palamicia"
                 }
             },
-        trueweapon: //If no TW, may delete this section
+        trueweapon: 
             {
-                name: "",
+                name: "Knight's Glow",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "",
-                skill: "",
-                skillbreak: ,
+                skill: "70s CT - 2000% Light DMG (PHY).",
+                skillbreak: 8000,
                 passive: 
                     {
-                        ability1: 
-                        ability2: 
+                        ability1: "When equipped by Platina, increase own Break PWR by 30%. Increase own DMG to Enemies in Break by 30%. Does not stack with Abilities of the same name.",
+                        ability2: "Increase Dark RES by 20%."
                     }
             },
         lore: 
@@ -6090,11 +6093,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Parlot - Missing Lore, Stats, Slots Evolution
+    { //Parlot - Missing Lore
         id: 101696312,
         name: "Parlot",
-        attribute: ,
-        type: ,
+        attribute: "Earth",
+        type: "Spirit",
         image: 
             {
                 detail4: "/db/Units/Detail/unit_detail_101694312.png",
@@ -6107,43 +6110,46 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot1type: "/db/Mines/thumbnail/suppLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/magLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/magLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 6541,
+                hpplus: 991,
+                atk: 2138,
+                atkplus: 330,
+                def: 2388,
+                defplus: 368
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "9s CT - Heal Allies' HP by 200 + Increase Allies' Arts by 3.",
+                skillbreak: 0,
+                arts: "10800% Earth DMG (MAG). Heal Allies by 40% of their max HP + For 15s, increase Allies' Water RES by 15%.",
+                artsbreak: 2100,
+                truearts: "Heal all Allies by 60% of their max HP + Increase Allies' Arts by 30.",
+                trueartsbreak: 0
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase Allies' max HP by 500 and DMG to Water Enemies by 25%. Does not stack with Abilities of the same name.",
+                ability2: "Increase Equipment CT REC by 10%.",
+                ability3: "Increase Freeze RES by 100%."
             }, 
         evolution: 
             {
                 evo45:
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_earth4.png",
                     mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat2amt: 5
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_earth3.png",
+                    mat3amt: 5
                 },
                 evo5awk:
                 {
@@ -6151,15 +6157,9 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3: "/db/Icons/dungeon_drops/fragElpneumas.png",
                     mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    hover3: "Elpneumas",
                 }
             },
         lore: 
@@ -6169,11 +6169,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Dahlia - Missing Lore, Stats, Slots, Evolution
+    { //Dahlia - Missing Lore
         id: 101706512,
         name: "Dahlia",
-        attribute: ,
-        type: ,
+        attribute: "Dark",
+        type: "Demon",
         image: 
             {
                 detail4: "/db/Units/Detail/unit_detail_101704512.png",
@@ -6188,41 +6188,44 @@ const UnitInformation = [
                 slot1: 5,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/magLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/healLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 6844,
+                hpplus: 999,
+                atk: 2997,
+                atkplus: 459,
+                def: 2360,
+                defplus: 364
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "7s CT - 1850% Dark DMG (PHY). For 7s, reduce Enemies' Status RES by 30%.",
+                skillbreak: 1300,
+                arts: "14800% Dark DMG (PHY). Deals more DMG and has a higher Critical Rate the more Status Ailments an Enemy has (damage varies on each individual Enemy and their Statuses).",
+                artsbreak: 3100,
+                truearts: "28800% Dark DMG (MAG). For 20s, increase own Arts by [2 × # of Statuses on Enemy with the most Statuses]/s, and increase Allies' DMG by [40% × # of Statuses on Enemy with the most Statuses].",
+                trueartsbreak: 3600
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase Allies' evasion by 10%.",
+                ability2: "All attacks have a chance to inflict Blind (except equipment).",
+                ability3: "Increase DMG to Human Enemies by 80%."
             }, 
         evolution: 
             {
                 evo45:
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat2amt: 5
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_dark4.png",
+                    mat1amt: 3,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_water4.png",
+                    mat2amt: 2,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_dark3.png",
+                    mat3amt: 5
                 },
                 evo5awk:
                 {
@@ -6230,15 +6233,15 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragRagsherumPhantom.png",
+                    mat3amt: 1,
+                    hover3: "Ragsherum Phantom",
+                    mat4: "/db/Icons/dungeon_drops/fragRadachne.png",
+                    mat4amt: 1,
+                    hover4: "Radachne",
+                    mat5: "/db/Icons/dungeon_drops/fragFreydal.png",
+                    mat5amt: 1,
+                    hover5: "Freydal"
                 }
             },
         lore: 
@@ -6248,11 +6251,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Gaia - Missing Lore, Stats, Slots, Evolution
+    { //Gaia - Missing Lore
         id: 101716211,
         name: "Gaia",
-        attribute: ,
-        type: ,
+        attribute: "Water",
+        type: "God",
         image: 
             {
                 detail4: "/db/Units/Detail/unit_detail_101714211.png",
@@ -6265,7 +6268,7 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot1type: "/db/Mines/thumbnail/defLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/physLB.png",
                 slot3: 4,
@@ -6273,35 +6276,38 @@ const UnitInformation = [
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 6783,
+                hpplus: 999,
+                atk: 2518,
+                atkplus: 387,
+                def: 2840,
+                defplus: 436
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "8s CT - 2050% Water DMG (PHY). Heal own HP by 150.",
+                skillbreak: 1700,
+                arts: "12000% Water DMG (MAG). For 20s,  Allies gain a DMG barrier that negates [# of Water Allies x 1000] DMG.",
+                artsbreak: 2400,
+                truearts: "24000% Water DMG (MAG)  For 20s, increase Allies' DMG RES by 20% and Water Allies' DMG by 30%.",
+                trueartsbreak: 2700
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase Near-Death Allies' DMG RES by 10%.",
+                ability2: "Increase Water Allies' Arts by 1/s.",
+                ability3: "Increase own DEF by 20% when under a DMG barrier."
             }, 
         evolution: 
             {
                 evo45:
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_water4.png",
                     mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat2amt: 5
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_Gaia45.png",
+                    mat3amt: 20
                 },
                 evo5awk:
                 {
@@ -6309,28 +6315,22 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragGaia.png",
+                    mat3amt: 20,
+                    hover3: "Gaia",
                 }
             },
-        trueweapon: //If no TW, may delete this section
+        trueweapon: 
             {
-                name: "",
-                slot: "/db/Mines/thumbnail/physLB.png",
+                name: "Castillo",
+                slot: "/db/Mines/thumbnail/defLB.png",
                 detail: "",
-                skill: "",
-                skillbreak: ,
+                skill: "40s CT - For 10s, increase Allies' DMG RES by 15%, and Water Allies' DEF by 50%.",
+                skillbreak: 0,
                 passive: 
                     {
-                        ability1: 
-                        ability2: 
+                        ability1: "When equipped by Gaia, increase own ATK by 20% and increase own Arts by 2/s. Does not stack with Abilities of the same name.",
+                        ability2: "Increase own DEF by 20% when under a DMG barrier."
                     }
             },
         lore: 
@@ -6340,11 +6340,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Millenia - Missing Lore, Stats, Slots, Evolution
+    { //Millenia - Missing Lore
         id: 101726112,
         name: "Millenia",
-        attribute: ,
-        type: ,
+        attribute: "Fire",
+        type: "Demon",
         image: 
             {
                 detail4: "/db/Units/Detail/unit_detail_101724112.png",
@@ -6357,43 +6357,46 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot1type: "/db/Mines/thumbnail/suppLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/physLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/healLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 6796,
+                hpplus: 859,
+                atk: 2472,
+                atkplus: 319,
+                def: 2388,
+                defplus: 308
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "8s CT - 2000% Fire DMG (PHY). The last Ally to use a Skill/Arts before this Skill gains 20% evasion for 8s.",
+                skillbreak: 1300,
+                arts: "15000% Fire DMG (PHY). Permanently increase Allies' Skill and Arts Critical Rate by 20% (up to 60%).",
+                artsbreak: 2400,
+                truearts: "30400% Fire DMG (PHY). For 7s, increase Allies' Critical DMG by 70%.",
+                trueartsbreak: 3700
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Skill can be used twice after Skill CT is refreshed.",
+                ability2: "Increase Earth RES by 25%.",
+                ability3: "Heal HP by 12/s."
             }, 
         evolution: 
             {
                 evo45:
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat2amt: 5
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_fire4.png",
+                    mat1amt: 3,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_water4.png",
+                    mat2amt: 2,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_fire3.png",
+                    mat3amt: 5
                 },
                 evo5awk:
                 {
@@ -6401,15 +6404,9 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragDegilmagna.png",
+                    mat3amt: 2,
+                    hover3: "Degilmagna",
                 }
             },
         lore: 
