@@ -994,7 +994,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Abaddon - Missing Lore
+    { //Abaddon - Complete
         id: 100606512,
         name: "Abaddon",
         attribute: "Dark",
@@ -1075,10 +1075,10 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo3: "Missing Lore Information, please contact site owner",
-                evo4: "A mechanical lifeform from another world. EDEN worked with the fairies he met to find some was to save his world, but unfortunately stumbled into Demon territory. To protect the fairies, he disabled the limiters on his functions, unleashing his original power in the process. Though the demons were defeated, he had exhausted his energy far faster than expected. His time remaining grew shorter by the moment.",
-                evo5: "With his functions close to ceasing, the worried fairies gave EDEN some of their secret medicine, which also happened to be the substance he was searching for to save his world. Thanking him for being their friend, the fairies gave him all of their medicine. With the last of his power, he transformed for the long-distance jump back to his world. Even now, the legend of these fairies who saved the metal traveler from another world persists.",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo3: "A mad knight spoken of in Demon legend. Records from just before the start of the Great War speak of a masked knight attacking Demon settlements. The Demon military moved to dispatch the criminal, but the killings ended before they were able to ascertain his whereabouts. Rumors began to spread that the mad knight was a new military weapon or just a conspiracy made up by other races. One thing was certain: he was far stronger than your average Demon.",
+                evo4: "A mad knight spoken of in Demon legend. Just as old rumors began to fade, another incident had happened. The masked knight attacked the Demon army. Though thrown into chaos, the military beat back the knight with the help of a knight of their own, who described the attacker as a threat, certainly not a Demon, and questionably a living thing. Soon afterward, the masked knight vanished once more.",
+                evo5: "A mad knight spoken of in Demon legend. Rumors of the masked knight died down after the tumult of the Great War had begun, but he woudl appear once more at the war's end. After falling into a trap, the Demon platoon was about to meet its end. Then suddenly, the knight appeared and annihilated the encroaching Gods. The Demons rejoiced, but the knight soon turned his sword on them, and in a ghostly voice, his armor said it would devour all their souls.",
+                evoawk: "A masked knight spoken of in Demon legend. After countless massacres during the Great War, he had become known as the mad knight. Even those who had survived the bloodshed were engulfed in the insanity of his presence. No one knows where he is now, but if the words of his armor ring true, he will continue to plague the battlefield in search of souls to devour."
             }
     },
     { //Ragna - Missing Evolution, TW Image
@@ -1522,23 +1522,23 @@ const UnitInformation = [
             {
                 evo23: 
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_dark2.png",
                     mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light1.png",
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_dark1.png",
                     mat2amt: 5
                 },
                 evo34: 
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_dark3.png",
                     mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_dark2.png",
                     mat2amt: 5
                 },
                 evo45:
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_dark4.png",
                     mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_dark3.png",
                     mat2amt: 5
                 },
                 evo5awk:
@@ -1547,15 +1547,15 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat3: "/db/Icons/dungeon_drops/fragRagsherumPhantom.png",
+                    mat3amt: 3,
+                    hover3: "RagsherumPhantom",
+                    mat4: "/db/Icons/dungeon_drops/fragOldeus.png",
                     mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    hover4: "Oldeus",
+                    mat5: "/db/Icons/dungeon_drops/fragFlogassa.png",
+                    mat5amt: 2,
+                    hover5: "Flogassa"
                 }
             },
         lore: 
@@ -20332,7 +20332,7 @@ const UnitInformation = [
                 evo5: "Missing Lore Information, please contact site owner",
                 evoawk: "Missing Lore Information, please contact site owner"
             }
-    }
+    }            
 ];
 
 export function getUnits() {
