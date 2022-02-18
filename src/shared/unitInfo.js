@@ -15220,7 +15220,7 @@ const UnitInformation = [
                 artsbreak: 1200,
                 truearts: "65000% Light DMG (PHY). For 15s, increase stats by 50%. When there are 5 stacks of Testament to the King: 65000% Light DMG (PHY). For 15s, increase stats by 50%, ignore 100% of Enemies' DEF.",
                 trueartsbreak: 1900,
-                crossarts: "120000% Water DMG (MAG) and Light DMG (PHY). Increase Orvell's and Virago's Arts by 50. 200000% Water DMG (MAG) and Light DMG (PHY). Increase Orvell's and Virago's Arts by 50.",
+                crossarts: "120000% Water DMG (MAG) and Light DMG (PHY). Increase Orvell's and Virago's Arts by 50. When there are 5 stacks of both Testament to the King and Overlord's Servant: 200000% Water DMG (MAG) and Light DMG (PHY). Increase Orvell's and Virago's Arts by 50.",
                 crossartsbreak: 4700
             },
         passive: 
@@ -15264,11 +15264,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Virago - Missing Lore, Stats, Slots, Evolution
+    { //Virago - Missing Lore
         id: 103036212,
         name: "Virago",
-        attribute: ,
-        type: ,
+        attribute: "Water",
+        type: "Dragon",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_103035212.png",
@@ -15281,52 +15281,48 @@ const UnitInformation = [
                 slot1: 5,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/defLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/healLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 7308,
+                hpplus: 999,
+                atk: 2741,
+                atkplus: 421,
+                def: 2475,
+                defplus: 381
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: ,
-                crossarts: "",
-                crossartsbreak:
+                skill: "12s CT - 2800% Water DMG (MAG). For 5s, decrease Enemies' ATK by 10%.",
+                skillbreak: 700,
+                arts: "15000% Water DMG (MAG). Reduce Enemies' Arts by 10 + For 10s, increase All Allies' DMG RES by 15%.",
+                artsbreak: 1000,
+                truearts: "36000% Water DMG (MAG). For 15s, increase God and Dragon Allies' DMG by 80%.",
+                trueartsbreak: 1500,
+                crossarts: "120000% Water DMG (MAG) & Light DMG (PHY). Increase Orvell's and Virago's Arts by 50. When there are 5 stacks of both Testament to the King and Overlord's Servant: 200000% Water DMG (MAG) and Light DMG (PHY). Increase Orvell's and Virago's Arts by 50.",
+                crossartsbreak: 4700
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "On use of Arts or True Arts, gain one stack of Overlord's Squire (Max 5 stacks). For each stack, increase ATK and DEF by 10%.",
+                ability2: "Heal HP by 16/s.",
+                ability3: "Increase Water RES by 10%.",
+                ability4: "When Orvell is in the party: Increase Arts by 2/s."
             }, 
         evolution: 
             {
                 evo5awk:
                 {
                     mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
-                    mat1amt: 30,
+                    mat1amt: 10,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragVirago.png",
+                    mat3amt: 20,
+                    hover3: "Virago",
                 }
             },
         lore: 
@@ -15335,11 +15331,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Luahn - Missing Lore, Stats, Slots, Evolution, True Weapon, TW Image
+    { //Luahn - Missing Lore, TW Image
         id: 103046512,
         name: "Luahn",
-        attribute: ,
-        type: ,
+        attribute: "Dark",
+        type: "God",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_103045512.png",
@@ -15350,36 +15346,37 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/magLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/magLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 7300,
+                hpplus: 999,
+                atk: 3000,
+                atkplus: 460,
+                def: 2560,
+                defplus: 394
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: ,
-                crossarts: "",
-                crossartsbreak: 
+                skill: "12s CT - 2000% Dark DMG (PHY). Increase own Arts by 30 + Increase own Arts by 20 if this Skill crits.",
+                skillbreak: 600,
+                arts: "20000% Dark DMG (PHY). Inflicts a stack of Bleed (up to 3 stacks).",
+                artsbreak: 1200,
+                truearts: "48000% Dark DMG (PHY). Increase own Arts by 20. For 15s, increase Allies' Critical Rate by 100%.",
+                trueartsbreak: 2700,
+                crossarts: "60000% Dark DMG (PHY). Increase Chloe and Luahn's Arts by 100. Sacrifice 50% of Chloe's maximum HP. For 120s, increase Luahn's Arts by 3/s, Skill CT REC and ATK by 100%.",
+                crossartsbreak: 3000
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase Allies' Critical DMG by 30%. Does not stack with Abilities of the same name.",
+                ability2: "Increase DMG to Enemies with 2 or more stacks of Bleed by 100%.",
+                ability3: "Heal own HP by 1% of DMG dealt to Enemies with 3 stacks of Bleed."
             }, 
         evolution: 
             {
@@ -15389,28 +15386,25 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragRagsherumPhantom.png",
+                    mat3amt: 2,
+                    hover3: "Ragsherum Phantom",
+                    mat4: "/db/Icons/dungeon_drops/fragRadachne.png",
+                    mat4amt: 2,
+                    hover4: "Radachne",
                 }
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: "",
+                name: "Insight",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "",
-                skill: "",
-                skillbreak: ,
+                skill: "45s CT - 10000% Dark DMG (PHY). For 10s, increase Skill CT REC by 30% and Critical Rate by 70%.",
+                skillbreak: 1300,
                 passive: 
                     {
-                        ability1: 
-                        ability2: 
+                        ability1: "When equipped by Luahn, increase own Critical DMG by 50%. Does not stack with Abilities of the same name.",
+                        ability2: "Increase PHY DMG by 20%."
                     }
             },
         lore: 
@@ -15419,11 +15413,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Chloe - Missing Lore, Stats, Slots, Evolution
+    { //Chloe - Missing Lore
         id: 103056511,
         name: "Chloe",
-        attribute: ,
-        type: ,
+        attribute: "Dark",
+        type: "Human",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_103055511.png",
@@ -15434,54 +15428,49 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/defLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 6857,
+                hpplus: 999,
+                atk: 2750,
+                atkplus: 422,
+                def: 2222,
+                defplus: 343
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: ,
-                crossarts: "",
-                crossartsbreak: 
+                skill: "8s CT - 1600% Dark DMG (PHY). For 4s, increase own PHY evasion by 15%.",
+                skillbreak: 300,
+                arts: "15000% Dark DMG (PHY). For 8s, increase Allies' stats and PHY DMG by 20%.",
+                artsbreak: 1200,
+                truearts: "30000% Dark DMG (PHY). For 20s, reduce Enemies' ATK, Dark RES, and PHY RES by 30%.",
+                trueartsbreak: 2000,
+                crossarts: "60000% Dark DMG (PHY). Increase Chloe and Luahn's Arts by 100. Sacrifice 50% of Chloe's maximum HP. For 120s, increase Luahn's Arts by 3/s, Skill CT REC and ATK by 100%.",
+                crossartsbreak: 3000
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Heal HP by 20/s.",
+                ability2: "When Luahn is in party: At the start of a Quest, increase own Arts by 100 + Increase Arts Gauge by 3/s. Does not stack with Abilities of the same name.",
+                ability3: "When this unit takes lethal DMG, revive self with 100% HP. Can only be activated once per Quest."
             }, 
         evolution: 
             {
                 evo5awk:
                 {
                     mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
-                    mat1amt: 30,
+                    mat1amt: 10,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragChloe.png",
+                    mat3amt: 20,
+                    hover3: "Chloe",
                 }
             },
         lore: 
@@ -15490,11 +15479,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Angelas - Missing Lore, Stats, Slots, Evolution, True Weapon, TW Image
+    { //Angelas - Missing Lore, TW Image
         id: 103066112,
         name: "Angelas",
-        attribute: ,
-        type: ,
+        attribute: "Fire",
+        type: "Dragon",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_103065112.png",
@@ -15505,34 +15494,35 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/physLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/magLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 6378,
+                hpplus: 999,
+                atk: 2990,
+                atkplus: 458,
+                def: 2434,
+                defplus: 375
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "11s CT - 2300% Fire DMG (PHY). Increase Dragon Flame Count by 1. Chance to inflict Burn.",
+                skillbreak: 600,
+                arts: "18000% Fire DMG (PHY). Increase Dragon Flame Count by 3. For 15s, reduce Enemies' Burn RES by 50%.",
+                artsbreak: 1000,
+                truearts: "30000% Fire DMG (PHY). Reduce Dragon Flame Count to 0. Increase own Arts Gauge by [Original Dragon Flame Count × 20], increase this True Arts' Multiplier by [Original Dragon Flame Count × 10000%].",
+                trueartsbreak: 1500
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase Critical Rate by 100% against Burned Enemies.",
+                ability2: "Increase own DMG by 30% against Enemies in BREAK.",
+                ability3: "Dragon Flame: Counts disappear after 30s (Max 5 stacks). Decrease Enemies' Fire RES by [Dragon Flame Count × 5%], deal [Dragon Flame Count × 350%]/s Fire DMG (PHY) to Enemies."
             }, 
         evolution: 
             {
@@ -15542,28 +15532,28 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragIfrit.png",
+                    mat3amt: 2,
+                    hover3: "Ifrit",
+                    mat4: "/db/Icons/dungeon_drops/fragDegilmagna.png",
+                    mat4amt: 2,
+                    hover4: "Degilmagna",
+                    mat5: "/db/Icons/dungeon_drops/fragRadachne.png",
+                    mat5amt: 1,
+                    hover5: "Radachne"
                 }
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: "",
+                name: "Drago La'cryma",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "",
-                skill: "",
-                skillbreak: ,
+                skill: "55s CT - 9000% Fire DMG (PHY). 100% chance to inflict Burn. If Enemy was burned by this Skill, for 8s, decrease that Enemy's PHY RES by 35%.",
+                skillbreak: 1600,
                 passive: 
                     {
-                        ability1: 
-                        ability2: 
+                        ability1: "When equipped by Angelas, increase Critical DMG by 60%, and increase Duration of Dragon Flame Counts by 10s. Does not stack with Abilities of the same name.",
+                        ability2: "Increase ATK by 10%."
                     }
             },
         lore: 
@@ -15572,11 +15562,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Eagle - Missing Lore, Stats, Slots, Evolution, True Weapon, TW Image
+    { //Eagle - Missing Lore, TW Image
         id: 103076312,
         name: "Eagle",
-        attribute: ,
-        type: ,
+        attribute: "Earth",
+        type: "Human",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_103075312.png",
@@ -15587,34 +15577,34 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot1type: "/db/Mines/thumbnail/defLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/defLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/physLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 7275,
+                hpplus: 999,
+                atk: 2259,
+                atkplus: 348,
+                def: 3311,
+                defplus: 506
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "10s CT - 2000% Earth DMG (PHY). For 6s, increase own DEF by 20%.",
+                skillbreak: 600,
+                arts: "8000% Earth DMG (PHY). For 25s, redirect Allies' DMG taken to self & gain a DMG barrier that negates 8000 DMG to self. During Avenger Mode: For 25s, redirect Allies' DMG taken to self & gain a DMG barrier that negates 12000 DMG to self.",
+                artsbreak: 1200,
+                truearts: "30000% Earth DMG (PHY). For 15s, increase own DMG RES by 10%. During Avenger Mode: 60000% Earth DMG (PHY). For 15s, increase own DMG RES by 10% + Steal 100% of Enemies' Arts and exit Avenger Mode.",
+                trueartsbreak: 2000
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase Gauge when being attacked. When Animosity Gauge is full, enter Avenger Mode for 60s. Avenger Mode increases ATK by Own DEF, Freeze and Paralysis RES by 100%, and prevents Animosity Gauge from increasing. Animosity Gauge fully drains over 60s, or when True Arts is used during Avenger Mode.",
+                ability2: "Increase DEF by 20% when under a DMG barrier."
             }, 
         evolution: 
             {
@@ -15624,28 +15614,28 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
+                    mat3: "/db/Icons/dungeon_drops/fragValzandeth.png",
+                    mat3amt: 1,
+                    hover3: "Valzandeth",
                     mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
+                    mat4amt: 2,
                     hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat5: "/db/Icons/dungeon_drops/fragGoldola.png",
+                    mat5amt: 2,
+                    hover5: "Goldola"
                 }
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: "",
-                slot: "/db/Mines/thumbnail/physLB.png",
+                name: "Arsenal",
+                slot: "/db/Mines/thumbnail/defLB.png",
                 detail: "",
-                skill: "",
-                skillbreak: ,
+                skill: "25s CT - For 12s, Target gains a DMG barrier that negates 5000 DMG, and increase Target's DEF by 50%.",
+                skillbreak: 0,
                 passive: 
                     {
-                        ability1: 
-                        ability2: 
+                        ability1: "When equipped by Eagle, increase Animosity Gauge Fill Rate by 50% and Arts DMG by 50%. Does not stack with Abilities of the same name.",
+                        ability2: "When near-death, increase DMG RES by 15%."
                     }
             },
         lore: 
@@ -15654,11 +15644,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Bakoo - Missing Lore, Stats, Slots, Evolution, True Weapon, TW Image
+    { //Bakoo - Missing Lore, TW Image
         id: 103086512,
         name: "Bakoo",
-        attribute: ,
-        type: ,
+        attribute: "Dark",
+        type: "Demon",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_103085512.png",
@@ -15671,32 +15661,33 @@ const UnitInformation = [
                 slot1: 5,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/healLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 6666,
+                hpplus: 999,
+                atk: 2677,
+                atkplus: 411,
+                def: 2531,
+                defplus: 389
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "11s CT - 2200% Dark DMG (MAG). For 6s, reduce Enemies' DMG RES by 10%.",
+                skillbreak: 500,
+                arts: "16000% Dark DMG (MAG). For 10s, reduce Enemies' DEF and Dark RES by 30%.",
+                artsbreak: 1100,
+                truearts: "40000% Dark DMG (MAG). Target the Ally that most recently used an Arts/True Arts with Ingested. Increase Allies' (except target) Arts by 30 + For 15s, increase Allies' (except target) Arts by 4/s and MAG DMG by 200%.",
+                trueartsbreak: 1600
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase evasion by 10%.",
+                ability2: "Ingested: Faints the target for 5s, and sacrifice 30% of that target's current HP when the Faint expires.",
+                ability3: "Increase own Arts by 10 for each enemy killed."
             }, 
         evolution: 
             {
@@ -15706,28 +15697,28 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragRagsherumPhantom.png",
+                    mat3amt: 1,
+                    hover3: "Ragsherum Phantom",
+                    mat4: "/db/Icons/dungeon_drops/fragOldeus.png",
+                    mat4amt: 2,
+                    hover4: "Oldeus",
+                    mat5: "/db/Icons/dungeon_drops/fragMavroskia.png",
+                    mat5amt: 2,
+                    hover5: "Mavroskia"
                 }
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: "",
-                slot: "/db/Mines/thumbnail/physLB.png",
+                name: "Discontent",
+                slot: "/db/Mines/thumbnail/magLB.png",
                 detail: "",
-                skill: "",
-                skillbreak: ,
+                skill: "50s CT - 9000% Dark DMG (MAG). Increase own Arts by 30 + For 8s, reduce Enemies' Dark RES by 30%.",
+                skillbreak: 1000,
                 passive: 
                     {
-                        ability1: 
-                        ability2: 
+                        ability1: "When equipped by Bakoo, increase ATK by 30%,  and at the start of a Quest, increase Arts by 50.",
+                        ability2: "Increase MAG DMG by 10%."
                     }
             },
         lore: 
@@ -15736,11 +15727,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Victoire - Missing Lore, Stats, Slots, Evolution, True WEapon, tW Image
+    { //Victoire - Missing Lore, TW Image
         id: 103096412,
         name: "Victoire",
-        attribute: ,
-        type: ,
+        attribute: "Light",
+        type: "Spirit",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_103095412.png",
@@ -15753,32 +15744,32 @@ const UnitInformation = [
                 slot1: 5,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/magLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/healLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 7393,
+                hpplus: 999,
+                atk: 2696,
+                atkplus: 414,
+                def: 2643,
+                defplus: 406
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "9s CT - 1300% Light DMG (MAG). For 10s, increase Allies' DMG by 10% (stackable).",
+                skillbreak: 600,
+                arts: "15000% Light DMG (MAG). For 15s, increase Allies' Skill CT REC by 80%, for Light Allies, increase Skill CT REC by 160% instead.",
+                artsbreak: 1000,
+                truearts: "36000% Light DMG (MAG). For 15s, increase Allies' stats and accuracy by 30%, for Light Allies, increase stats and accuracy by 60% instead.",
+                trueartsbreak: 1300
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "After Skill is used three times, for 10s, reduce Enemies' action speed 20%. Does not stack with Abilities of the same name.",
+                ability2: "Increase DMG to non-Boss Enemies with less than 30% HP by 200%."
             }, 
         evolution: 
             {
@@ -15788,28 +15779,28 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragWilkes.png",
+                    mat3amt: 1,
+                    hover3: "Wilkes",
+                    mat4: "/db/Icons/dungeon_drops/fragRadachne.png",
+                    mat4amt: 3,
+                    hover4: "Radachne",
+                    mat5: "/db/Icons/dungeon_drops/fragOldeus.png",
+                    mat5amt: 1,
+                    hover5: "Oldeus"
                 }
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: "",
-                slot: "/db/Mines/thumbnail/physLB.png",
+                name: "Cantabile",
+                slot: "/db/Mines/thumbnail/magLB.png",
                 detail: "",
-                skill: "",
-                skillbreak: ,
+                skill: "50s CT - 6000% Light DMG (MAG). For 10s, reduce Enemies' Light RES by 50%.",
+                skillbreak: 1000,
                 passive: 
                     {
-                        ability1: 
-                        ability2: 
+                        ability1: "When equipped by Victoire, increase Arts by 2/s + Increase duration of True Art's Buffs by 10s. Does not stack with Abilities of the same name.",
+                        ability2: "Increase MAG RES by 10%."
                     }
             },
         lore: 
@@ -15821,8 +15812,8 @@ const UnitInformation = [
     { //Forte - Missing Lore, Stats, Slots, Evolution, True WEapon, TW Image
         id: 103106512,
         name: "Forte",
-        attribute: ,
-        type: ,
+        attribute: "Dark",
+        type: "Human",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_103105512.png",
@@ -15833,11 +15824,11 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/magLB.png"
             },
         stats: 
             {
