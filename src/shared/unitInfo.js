@@ -15182,11 +15182,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Orvell - Missing Lore, Stats, Slots, Evolution, True Weapon, TW Image
+    { //Orvell - Missing Lore, TW Image
         id: 103026412,
         name: "Orvell",
-        attribute: ,
-        type: ,
+        attribute: "Light",
+        type: "God",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_103025412.png",
@@ -15197,36 +15197,37 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/physLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/physLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 7521,
+                hpplus: 999,
+                atk: 3077,
+                atkplus: 471,
+                def: 2156,
+                defplus: 333
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: ,
-                crossarts: "",
-                crossartsbreak: 
+                skill: "18s CT - 6000% Light DMG (PHY). Increase this Skill's DMG to Non-Boss Enemies by 100%.",
+                skillbreak: 700,
+                arts: "20000% Light DMG (PHY). For 15s, increase own accuracy by 35%, decrease Enemies' PHY RES by 25%.",
+                artsbreak: 1200,
+                truearts: "65000% Light DMG (PHY). For 15s, increase stats by 50%. When there are 5 stacks of Testament to the King: 65000% Light DMG (PHY). For 15s, increase stats by 50%, ignore 100% of Enemies' DEF.",
+                trueartsbreak: 1900,
+                crossarts: "120000% Water DMG (MAG) and Light DMG (PHY). Increase Orvell's and Virago's Arts by 50. 200000% Water DMG (MAG) and Light DMG (PHY). Increase Orvell's and Virago's Arts by 50.",
+                crossartsbreak: 4700
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "On use of Arts, gain a stack of Testament to the King (Max 5 stacks). For each stack, increase DMG by 40% and Skill CT REC by 20%.",
+                ability2: "Increase Freeze and Paralyze RES by 100%. Less likely to be knocked back.",
+                ability3: "When near-death, increase DMG by 10%."
             }, 
         evolution: 
             {
@@ -15236,28 +15237,25 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragWilkes.png",
+                    mat3amt: 1,
+                    hover3: "Wilkes",
+                    mat4: "/db/Icons/dungeon_drops/fragFlogassa.png",
+                    mat4amt: 2,
+                    hover4: "Flogassa",
                 }
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: "",
+                name: "Grand Destin",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "",
-                skill: "",
-                skillbreak: ,
+                skill: "75s CT - 13000% Light DMG (PHY). For 10s, increase Light Allies' DMG by 40%.",
+                skillbreak: 2000,
                 passive: 
                     {
-                        ability1: 
-                        ability2: 
+                        ability1: "When equipped by Orvell, increase ATK by 50%, Equipment DMG by 20%.",
+                        ability2: "Increase BE generation by 10%."
                     }
             },
         lore: 
