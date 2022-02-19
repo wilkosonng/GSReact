@@ -410,7 +410,7 @@ const UnitInformation = [
                 evo3: "A Gramenian swordsman later counted among the 3 Blade Masters. After taking up a twin- bladed style not seen in any school, Arth dueled his father and won. While this lead to his expulsion, his father advised that he open a new school of his own to impart his style to a new generation. Arth rejected this and continued improving his skills, speaking to others only about swords.",
                 evo4: "A Gramenian swordsman later counted among the 3 Blade Masters. The story goes that when he heard of the massive war between Gods and Demons during his sword training, he immediately headed to the battlefield. Aligned with the Gods, Arth achieved many military victories, he once turned and bore witness to the unspeakable devastation that had been wrought. Shocked senseless, his blades dropped to the ground.",
                 evo5: "In the midst of the Great War between Gods and Demons, Arth dropped his blades and returned to his wartorn hometown, but took them up again upon seeing the devastation. This time, his blades would be used not to destroy, but to rebuild, with a pair of blades from his father. Armed with these new earth magic-infused swords, Arth fought to help others, coming to be known as the holy sword.",
-                evoawk: "After he became a teacher of sword skills for Gramenia Republic, other than leaving the leaving the country once, he remained, and people greatly thanked him for his selfless devotion. On the other hand, he sometimes had a look of sorrow on his face. He hated to meet high officials on an extreme degree. He stayed single for his whole life. On his 80th birthday, surrounded by his disciples, he passed away with last words of "Was I forgiven?" His sword skills are still passed won to the next generation."
+                evoawk: "After he became a teacher of sword skills for Gramenia Republic, other than leaving the leaving the country once, he remained, and people greatly thanked him for his selfless devotion. On the other hand, he sometimes had a look of sorrow on his face. He hated to meet high officials on an extreme degree. He stayed single for his whole life. On his 80th birthday, surrounded by his disciples, he passed away with last words of 'Was I forgiven?' His sword skills are still passed won to the next generation."
             }
     },
     { //Feena - Complete
@@ -1108,12 +1108,12 @@ const UnitInformation = [
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 6300,
+                hpplus: 955,
+                atk: 3060,
+                atkplus: 469,
+                def: 2304,
+                defplus: 355
             },
         skillset: 
             {
@@ -1381,7 +1381,7 @@ const UnitInformation = [
             {   
                 evo3: "Missing Lore Information, please contact site owner",
                 evo4: "Missing Lore Information, please contact site owner",
-                evo5: "A machine weapon that fought during the great war. The small module's will won many battles, during which the large module rarely objected. Only once did the modules differ in opinion. After discovering an enemy Beast commander, the small module released all weapons and unleashed a devastating barrage. The commander survived, but the large module refused to attack. "That is your foe. Not mine," it said.",
+                evo5: "A machine weapon that fought during the great war. The small module's will won many battles, during which the large module rarely objected. Only once did the modules differ in opinion. After discovering an enemy Beast commander, the small module released all weapons and unleashed a devastating barrage. The commander survived, but the large module refused to attack. 'That is your foe. Not mine,' it said.",
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
@@ -2838,7 +2838,7 @@ const UnitInformation = [
         lore: 
             {   
                 evo4: "High priestess of the shrine in Reigard, Liese's parents emigrated to Isliid from Famelle in order to spread the teachings of the Guiding Light. At age 4, Liese began training at Famelle's great shrine. Her talents saw her becoming a priestess at age 10, and was assigned to Reigard's shrine at 11. Though she's currently only 13, she's far more dignified and regal in presence than Rayas.",
-                evo5: "Called a genius, her light magic are powerful enough to be termed "miracles", but she still has moments that reveal that yes, she is in fact a teenager. Like when she goes out for ice cream with the other girls in town. her eyes then were not those of a high priestess, but of a regular girl. The moments where Liese acknowledges her own youth are moments that cause her heart to soar, unleashing ever greater power and potential.",
+                evo5: "Called a genius, her light magic are powerful enough to be termed 'miracles', but she still has moments that reveal that yes, she is in fact a teenager. Like when she goes out for ice cream with the other girls in town. her eyes then were not those of a high priestess, but of a regular girl. The moments where Liese acknowledges her own youth are moments that cause her heart to soar, unleashing ever greater power and potential.",
                 evoawk: "Although she had pride in being a priestess, she acknowledged that living in a shrine meant living in a closed world. Since some time or another, an adventurer and his friends started visiting her and telling stories of their journeys. The stories sometimes exciting and at other times terrifying. What kind of judgment should she make as a follower of the Light God? This question and responsibilities led her to a higher dignity and more power as a priestess."
             }
     },
@@ -3283,8 +3283,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo4: "One of the six witches in "Grimm Stella", a coven of witches written about in ancient histories, Selia is a master of powerful ice magic, and possesses a reckless personality that sees curiosity guiding her every action. Oblivious to her surroundings, once she sets her mind to something, it's almost certainly going to cause some serious damage. She caused countless incidents prior to the Great War, receiving the nickname "Trouble Witch".",
-                evo5: "Selia travelled the world, eventually encountering a soldier whose life she had inadvertently saved. Bored of his pleas to kill him, she suddenly realised she had a plan. "He can definitely kill you," she said, pointing at the archer who conveniently walked by. In moments, the dragon soldier and archer began to fight. Happy that her plan had succeeded, she strolled off to observe the furious battle raging on Thaumazein Plain at the peak of summer.",
+                evo4: "One of the six witches in 'Grimm Stella', a coven of witches written about in ancient histories, Selia is a master of powerful ice magic, and possesses a reckless personality that sees curiosity guiding her every action. Oblivious to her surroundings, once she sets her mind to something, it's almost certainly going to cause some serious damage. She caused countless incidents prior to the Great War, receiving the nickname 'Trouble Witch'.",
+                evo5: "Selia travelled the world, eventually encountering a soldier whose life she had inadvertently saved. Bored of his pleas to kill him, she suddenly realised she had a plan. 'He can definitely kill you,' she said, pointing at the archer who conveniently walked by. In moments, the dragon soldier and archer began to fight. Happy that her plan had succeeded, she strolled off to observe the furious battle raging on Thaumazein Plain at the peak of summer.",
                 evoawk: "The fierce battle ended before the eyes of distant watcher Selia. However, the massive flames of the warriors' final clash spread in a great wildfire, threatening to consume the entire wilderness. Selia saw this, and used her Absolute Zero sorcery. The plains were frozen solid, and the rampaging flames died out. This disaster became known as the Thaumazein Winter, when the grain belt was buried in snow. The truth of what happened is recorded nowhere, but she surely doesn't mind."
             }
     },
@@ -3763,8 +3763,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo4: "One of the six witches in "Grim Stella", Pola possesses incredible power and is feared as the "Funereal Bloom". With a unique set of values, Pola believed the singing voice of a young Spirit boy she knew was the definition of beauty. However, a bandit she was chasing unleashed a curse on this boy, stealing his voice and vanishing without warning. Having been deprived of that which she loved most, she began an indiscriminate rampage on the world.",
-                evo5: "A witch feared as the "Funereal Bloom". As her rampage continued, a female Machine appeared before Pola and commenced a furious assault against her. In response, Pola unleashed her previously sealed true power. To her surprise, she realised that she preceived this automaton fighting heedlessly for its life as beautiful. Her lips curled into a smile. As the flames drew closer, Pola slowly closed her eyes.",
+                evo4: "One of the six witches in 'Grim Stella', Pola possesses incredible power and is feared as the 'Funereal Bloom'. With a unique set of values, Pola believed the singing voice of a young Spirit boy she knew was the definition of beauty. However, a bandit she was chasing unleashed a curse on this boy, stealing his voice and vanishing without warning. Having been deprived of that which she loved most, she began an indiscriminate rampage on the world.",
+                evo5: "A witch feared as the 'Funereal Bloom'. As her rampage continued, a female Machine appeared before Pola and commenced a furious assault against her. In response, Pola unleashed her previously sealed true power. To her surprise, she realised that she preceived this automaton fighting heedlessly for its life as beautiful. Her lips curled into a smile. As the flames drew closer, Pola slowly closed her eyes.",
                 evoawk: "Her protector is a half-Beast half-Demon youth who saved her on a whim. She was completely dumbfounded by this, but she used her special plant based defensive magic to protect an overwhelmed automaton that had changed its target to the Demons. Until then, their only choice had been to fight alongside their enemy. And for some reason, this helped her power grow far beyong her previous limits. No one knows how the battle ended or what happened to her later, but the name Witch of Funeral Flowers never appeared in the histories again."
             }
     },
@@ -4735,7 +4735,7 @@ const UnitInformation = [
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_earth4.png",
                     mat2amt: 1,
                     mat3: "/db/Icons/dungeon_drops/material_thumbnail_dark3.png",
-                    mat3amt; 5
+                    mat3amt: 5
                 },
                 evo5awk:
                 {
@@ -4794,7 +4794,8 @@ const UnitInformation = [
                 arts: "13000% Water and Earth DMG (MAG). Increase DMG of this Arts to Fire and Water Enemies by 60%, and swap Blessing of Midori Modes.",
                 artsbreak: 2300,
                 truearts: "When in Water Mode: 35000% Water DMG (MAG). For 12s, increase own Critical Rate by 100%, increase Water Allies' DMG by 50%. When in Earth Mode: 28000% Earth DMG (MAG). Chance to inflict Disease.",
-                trueartsbreak: 2300, 3000 //reym help 
+                trueartsbreak1: 2300,
+                trueartsbreak2: 3000
             },
         passive: 
             {
@@ -4901,7 +4902,7 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo4: "A Beast mercenary who fought many battles after the Ancient War. She was a war orphan, but she had a happy childhood in the Principality of Bamint. Aspiring to become famous, she fought the fiercest battles with her fire and became known as "Lion Fire Lione". She accomplished many missions together with her step-brother Elmessio, but once they accidentally became aware of a secret. In order to prevent the unforgivable plan, the two decided by their own decision to assassinate the key man involved in this plan.",
+                evo4: "A Beast mercenary who fought many battles after the Ancient War. She was a war orphan, but she had a happy childhood in the Principality of Bamint. Aspiring to become famous, she fought the fiercest battles with her fire and became known as 'Lion Fire Lione'. She accomplished many missions together with her step-brother Elmessio, but once they accidentally became aware of a secret. In order to prevent the unforgivable plan, the two decided by their own decision to assassinate the key man involved in this plan.",
                 evo5: "Missing Lore Information, please contact site owner",
                 evoawk: "Missing Lore Information, please contact site owner"
             }
@@ -5067,7 +5068,7 @@ const UnitInformation = [
             {   
                 evo4: "A God who protected a certain village after the end of the Great War. To realise their sword dream, she remained in the village even after her friends had left on their own journeys. Though she was willing to unleash her slumbering power to defend the village, she was fundamentally very calm. and despised conflict. So calm and kind, in fact, that she was willing to shelter her friends when they became implicated in the grave crime of assassinating one of Bamint's VIPs.",
                 evo5: "A God who did everything in her power to protect her precious village and childhood friends. She was requested to keep the presence of her old friend, now criminals, a secret. After much soul-searching, she agreed... They were her childhood friends, after all, and they promised not to harm anyone. But in the end, she couldn't avoid a confrontation. Regretting the decision, she threw herself into the fray, ending the conflict at the expense of her life.",
-                evoawk: "Regretting all she'd done, she shared tears with the knight who hunted her down. Gasping, she murmured kindly to him. "I brought all this down on myself, you musn't regret ending me. Be proud of all you've done as a knight to defend your village. And I am truly glad to die in your arms... You, who have cared more for me than any other." With her sacrifice, childhood friends long scattered were able to come together to revisit their younger days."
+                evoawk: "Regretting all she'd done, she shared tears with the knight who hunted her down. Gasping, she murmured kindly to him. 'I brought all this down on myself, you musn't regret ending me. Be proud of all you've done as a knight to defend your village. And I am truly glad to die in your arms... You, who have cared more for me than any other.' With her sacrifice, childhood friends long scattered were able to come together to revisit their younger days."
             }
     },
     { //Quon - Missing Lore, Evolution
@@ -11104,8 +11105,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "A necromancer who destroyed cities and nations early in the Ancient War. They say that she was capable of undending brutality on the orders of a certain beloved Demoness. Her unusual values system meant she was apt to call the spirits of the dead she used her "friends," and looked down on the living as prisoners in the flesh. Her nature was shaped by the legendary Flame Giant, and this is evidenced by the terrible brutality she showed when dispatched to a certain territory.",
-                evoawk: "Her eyes sparkled at the resurrected Flame Giant of legend. She would not balk at turning an entire nation into a realm of the dead to earn the praise and favor of her beloved Demoness. All that remained was the elimination of a certain irritating sorceress, companion to the Giant. However, the needed Giant only obeyed the girl's orders. The only choice is to turn her into a "friend." With that understanding, she gladly went among the teeming spirtis."
+                evo5: "A necromancer who destroyed cities and nations early in the Ancient War. They say that she was capable of undending brutality on the orders of a certain beloved Demoness. Her unusual values system meant she was apt to call the spirits of the dead she used her 'friends,' and looked down on the living as prisoners in the flesh. Her nature was shaped by the legendary Flame Giant, and this is evidenced by the terrible brutality she showed when dispatched to a certain territory.",
+                evoawk: "Her eyes sparkled at the resurrected Flame Giant of legend. She would not balk at turning an entire nation into a realm of the dead to earn the praise and favor of her beloved Demoness. All that remained was the elimination of a certain irritating sorceress, companion to the Giant. However, the needed Giant only obeyed the girl's orders. The only choice is to turn her into a 'friend.' With that understanding, she gladly went among the teeming spirtis."
             }
     },
     { //Berwick (Magic) - Missing Lore, TW Image
@@ -11474,7 +11475,8 @@ const UnitInformation = [
         skillset: 
             {
                 skill: "12s CT - 2200% Dark DMG (PHY). During Magia Drive: 2200% Dark DMG (PHY). For 8s, reduce Enemies' Break RES by 25% + Increase own Arts by 20.",
-                skillbreak: 2400, 3400,
+                skillbreak1: 2400,
+                skillbreak2: 3400,
                 arts: "18000% Dark DMG (PHY). For 10s, reduce Enemies' DMG RES by 30%, reduce DMG RES of Enemies in Break by 30%.",
                 artsbreak: 3500,
                 truearts: "For 120s, enter Magia Drive. During Magia Drive: 38000% Dark DMG (PHY). Increase own True Arts' Break PWR by 5% of own True Arts' DMG dealt.",
@@ -12251,9 +12253,9 @@ const UnitInformation = [
         type: "Demon",
         image: 
             {
-                detail5: ,
+                detail5: "?",
                 detailawk: "/db/Units/Detail/unit_detail_.png",
-                thumb5: ,
+                thumb5: "?",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_.png"
             },
         slots: 
@@ -15809,7 +15811,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Forte - Missing Lore, Stats, Slots, Evolution, True WEapon, TW Image
+    { //Forte - Missing Lore, TW Image
         id: 103106512,
         name: "Forte",
         attribute: "Dark",
@@ -15832,26 +15834,27 @@ const UnitInformation = [
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 6884,
+                hpplus: 999,
+                atk: 2941,
+                atkplus: 451,
+                def: 2210,
+                defplus: 341
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "9s CT - 2000% Dark DMG (PHY). Increase own Arts by 12.",
+                skillbreak: 800,
+                arts: "10000% Dark DMG (PHY). On hit, increase own Arts by 100 against Enemies in Break (up to once) + For 30s, decrease Enemies' Dark RES by 10% (stackable).",
+                artsbreak: 1100,
+                truearts: "30000% Dark DMG (PHY). For 10s, increase Dark Allies' DMG by 65%, Human Allies' DMG by 65%.",
+                trueartsbreak: 3100
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase Allies' Break PWR by 10%.",
+                ability2: "Increase Allies' Critical DMG by 30%.",
+                ability3: "At the start of a Quest, increase Allies' Arts by 50. Does not stack with Abilities of the same name."
             }, 
         evolution: 
             {
@@ -15861,28 +15864,28 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
+                    mat3: "/db/Icons/dungeon_drops/fragRagsherumPhantom.png",
+                    mat3amt: 1,
+                    hover3: "RagsherumPhantom",
                     mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
+                    mat4amt: 2,
                     hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat5: "/db/Icons/dungeon_drops/fragElpneumas.png",
+                    mat5amt: 1,
+                    hover5: "Elpneumas"
                 }
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: "",
+                name: "Assault Rifle Sable",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "",
-                skill: "",
-                skillbreak: ,
+                skill: "50s CT - 9000% Dark DMG (PHY). For 15s, increase own PHY DMG by 30%; if user is Human, increase own PHY DMG by 60% instead.",
+                skillbreak: 900,
                 passive: 
                     {
-                        ability1: 
-                        ability2: 
+                        ability1: "When equipped by Forte, increase DMG by 30%, Skill CT REC by 50%. Does not stack with Abilities of the same name.",
+                        ability2: "Increase accuracy by 20%."
                     }
             },
         lore: 
@@ -15891,11 +15894,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Sumire - Missing Lore, Stats, Slots, Evolution
+    { //Sumire - Missing Lore
         id: 103116112,
         name: "Sumire",
-        attribute: ,
-        type: ,
+        attribute: "Fire",
+        type: "Human",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_103115112.png",
@@ -15908,32 +15911,33 @@ const UnitInformation = [
                 slot1: 5,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/magLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 6908,
+                hpplus: 999,
+                atk: 2521,
+                atkplus: 388,
+                def: 2470,
+                defplus: 380
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "12s CT - 1500% Fire DMG (MAG). Increase own Arts by 8 + Add one Spirit Fox (max. 10).",
+                skillbreak: 400,
+                arts: "12000% Fire DMG (MAG). For 10s, increase Allies' MAG DMG by [10% + (# of Spirit Foxes × 5%)].",
+                artsbreak: 1000,
+                truearts: "21000% Fire DMG (MAG). For 15s, increase Allies' Arts by 3/s, heal Allies' HP by 120/s. When there are 10 Spirit Foxes: 21000% Fire DMG (MAG). Reduce # of Spirit Foxes by 5 + Increase Allies' Arts by 100 + For 15s, increase Allies' Arts by 3/s, heal Allies' HP by 120/s.",
+                trueartsbreak: 1600
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase Accuracy by [# of Spirit Foxes × 5]%. Does not stack with Abilities of the same name.",
+                ability2: "When near-death, increase Skill CT REC by 15%.",
+                ability3: "Increase DMG to Giant Bosses by 30%."
             }, 
         evolution: 
             {
@@ -15943,15 +15947,15 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragIfrit.png",
+                    mat3amt: 1,
+                    hover3: "Ifrit",
+                    mat4: "/db/Icons/dungeon_drops/fragFlogassa.png",
+                    mat4amt: 2,
+                    hover4: "Flogassa",
+                    mat5: "/db/Icons/dungeon_drops/fragRadachne.png",
+                    mat5amt: 1,
+                    hover5: "Radachne"
                 }
             },
         lore: 
@@ -15960,11 +15964,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Arcana - Missing Lore, Stats, Slots, Evolution
+    { //Arcana - Missing Lore
         id: 103126512,
         name: "Arcana",
-        attribute: ,
-        type: ,
+        attribute: "Dark",
+        type: "Human",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_1031265512.png",
@@ -15977,32 +15981,33 @@ const UnitInformation = [
                 slot1: 5,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/healLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 6711,
+                hpplus: 999,
+                atk: 2243,
+                atkplus: 346,
+                def: 2430,
+                defplus: 374
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "12s CT - 2000% Dark DMG (MAG). For 5s, reduce Enemies' Healing Taken by 20%.",
+                skillbreak: 400,
+                arts: "9999% Dark DMG (MAG). For 12s, reduce Enemies' ATK, DEF and MAG RES by 33%.",
+                artsbreak: 800,
+                truearts: "22000% Dark DMG (MAG) For 25s, reduce Enemies' DMG and Accuracy by 30%, Status RES by 60%.",
+                trueartsbreak: 1300
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase Dark RES by 25%.",
+                ability2: "Increase Light RES by 25%.",
+                ability3: "When near-death, increases evasion by 15%."
             }, 
         evolution: 
             {
@@ -16012,15 +16017,15 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
+                    mat3: "/db/Icons/dungeon_drops/fragRagsherumPhantom.png",
+                    mat3amt: 2,
+                    hover3: "Ragsherum Phantom",
                     mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
+                    mat4amt: 1,
                     hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat5: "/db/Icons/dungeon_drops/fragElpneumas.png",
+                    mat5amt: 1,
+                    hover5: "Elpneumas"
                 }
             },
         lore: 
@@ -16029,11 +16034,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Ashleigh - Missing Lore, Stats, Slots, EVolution, True Weapon, TW Image
+    { //Ashleigh - Missing Lore, TW Image
         id: 103136112,
         name: "Ashleigh",
-        attribute: ,
-        type: ,
+        attribute: "Fire",
+        type: "Human",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_103135112.png",
@@ -16044,34 +16049,34 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/defLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 7301,
+                hpplus: 999,
+                atk: 2624,
+                atkplus: 403,
+                def: 2778,
+                defplus: 426
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "12s CT - 1200% Fire DMG (PHY). Increase own Art Gauge by 50 if this Skill crits.",
+                skillbreak: 400,
+                arts: "14000% Fire DMG (PHY). For 10s, increase Allies' Critical RES by 20% + If this Arts crits, for 5s, reduce Enemies' DMG by 30%.",
+                artsbreak: 800,
+                truearts: "33000% Fire DMG (PHY). For 15s, increase Allies' DMG to Enemies they have an Elemental Advantage against by 60% and increase Allies' RES by 25% against Enemies they have an Elemental Advantage against.",
+                trueartsbreak: 1400
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase Critical Rate by 10%.",
+                ability2: "Increase Allies' HP REC by 30%."
             }, 
         evolution: 
             {
@@ -16082,27 +16087,27 @@ const UnitInformation = [
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
                     mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
+                    mat3amt: 1,
                     hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat4: "/db/Icons/dungeon_drops/fragFlogassa.png",
+                    mat4amt: 2,
+                    hover4: "Flogassa",
+                    mat5: "/db/Icons/dungeon_drops/fragIfrit.png",
+                    mat5amt: 1,
+                    hover5: "Ifrit"
                 }
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: "",
+                name: "Scintilla",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "",
-                skill: "",
-                skillbreak: ,
+                skill: "45s CT - 8000% Fire DMG (PHY). For 10s, Allies gain a DMG barrier that negates 1200 DMG, increase Allies' Critical DMG by 35%.",
+                skillbreak: "?",
                 passive: 
                     {
-                        ability1: 
-                        ability2: 
+                        ability1: "When equipped by Ashleigh, increase Critical Rate by 20% and Skill CT REC by 50%.",
+                        ability2: "Increase DEF by 20%."
                     }
             },
         lore: 
@@ -16114,8 +16119,8 @@ const UnitInformation = [
     { //Salyssa - Missing Lore, Stats, Slots, Evolution, True Weapon, TW Image
         id: 103146312,
         name: "Salyssa",
-        attribute: ,
-        type: ,
+        attribute: "Earth",
+        type: "Human",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_103145312.png",
@@ -16126,34 +16131,34 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/healLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/physLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 6921,
+                hpplus: 999,
+                atk: 2689,
+                atkplus: 413,
+                def: 2555,
+                defplus: 393
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "10s CT - 1700% Earth DMG (PHY). Chance to reduce Enemies' PHY evasion by 10% for 5s.",
+                skillbreak: 400,
+                arts: "15500% Earth DMG (PHY). For 6s, reduce Enemies' Earth RES and PHY RES by 15%. When there are 10 stacks of Effort: For 12s, reduce Enemies' Earth and PHY RES by 15%.",
+                artsbreak: 1400,
+                truearts: "40000% Earth DMG (PHY). For 10s, increase Allies' Skill CT REC by 100%, PHY DMG by 60%. When there are 10 stacks of Effort: For 20s, increase Allies' Skill CT REC by 100%, PHY DMG by 60%.",
+                trueartsbreak: 2200
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Each time own Skill is used, gain 1 stack of Effort (up to 10). Effort: Increase Skill CT REC by [10% × # of Effort stacks] (up to 100%).",
+                ability2: "When 'Miasma' Area Effect is active, increase Arts Over Time Effects by 50%."
             }, 
         evolution: 
             {
