@@ -17077,11 +17077,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Groytz - Missing Lore, Stats, Slots, Evolution, True WeaponS, TW Images
+    { //Groytz - Missing Lore, TW Images
         id: 103256312,
         name: "Groytz",
-        attribute: ,
-        type: ,
+        attribute: "Earth",
+        type: "Human",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_103255312.png",
@@ -17092,34 +17092,35 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/magLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 6696,
+                hpplus: 999,
+                atk: 2950,
+                atkplus: 452,
+                def: 2649,
+                defplus: 407
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "11s CT - 1800% Earth DMG (PHY). 50% chance of inflicting Poison.",
+                skillbreak: 600,
+                arts: "15000% Earth DMG (PHY). For 60s, reduce Enemies' Poison RES by 50%.",
+                artsbreak: 1000,
+                truearts: "For 60s, enter Liberation Mode. While in Liberation Mode, replace Equips with Special Skills, replace Skill with Mega Skill and replace Arts with Special Arts. Other actions cannot be performed while an animation is ongoing.",
+                trueartsbreak: 0
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase accuracy against Poisoned Enemies by 50%.",
+                ability2: "Increase DMG against Poisoned Enemies by 50%.",
+                ability3: "Increase Groytz's DMG by [30% × # of times Skill or Special Skill 3 inflicted Poison] (up to 300%)."
             }, 
         evolution: 
             {
@@ -17129,43 +17130,40 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat3: "/db/Icons/dungeon_drops/fragGoldola.png",
+                    mat3amt: 2,
+                    hover3: "Goldola",
+                    mat4: "/db/Icons/dungeon_drops/fragMavroskia.png",
                     mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    hover4: "Mavroskia",
                 }
             },
             trueweapon: //If no TW, may delete this section
             {
                 true1: 
                 {
-                    name: "",
+                    name: "Cipher",
                     slot: "/db/Mines/thumbnail/physLB.png",
                     detail: "",
-                    skill: "",
-                    skillbreak: ,
+                    skill: "45s CT - 8000% Earth DMG (PHY). For 20s, reduce Enemies' Poison RES by 30%. On first use of this Equip, increase own Arts by 50.",
+                    skillbreak: 800,
                     passive: 
                         {
-                            ability1: 
-                            ability2: 
+                            ability1: "When equipped by Groytz, increase own DMG and Skill CT REC by 30%. Does not stack with Abilities of the same name.",
+                            ability2: "When HP is above 90%, increase ATK by 15%."
                         }
                 },
                 true2: 
                 {
-                    name: "",
-                    slot: "/db/Mines/thumbnail/physLB.png",
+                    name: "Cruvie",
+                    slot: "/db/Mines/thumbnail/magLB.png",
                     detail: "",
-                    skill: "",
-                    skillbreak: ,
+                    skill: "60s CT - 7000% Earth DMG (MAG). For 25s, increase own DMG by 25% and Earth DMG by 25%.",
+                    skillbreak: 900,
                     passive: 
                         {
-                            ability1: 
-                            ability2: 
+                            ability1: "When equipped by Groytz, increase own Arts by 50 after exiting Liberation Mode. Does not stack with Abilities of the same name.",
+                            ability2: "Increase DEF by 10%."
                         }
                 }
                 
@@ -17176,11 +17174,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Hart (Earth) - Missing Lore, Stats, Slots, Evolution, True Weapon, TW Image
+    { //Hart (Earth) - Missing Lore, TW Image
         id: 103276312,
         name: "Hart (Earth)",
-        attribute: ,
-        type: ,
+        attribute: "Earth",
+        type: "Human",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_103275312.png",
@@ -17193,32 +17191,33 @@ const UnitInformation = [
                 slot1: 5,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/healLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 6743,
+                hpplus: 999,
+                atk: 2852,
+                atkplus: 437,
+                def: 2898,
+                defplus: 444
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "9s CT - 1500% Earth DMG (MAG). For 5s, reduce Enemies' accuracy by 10%.",
+                skillbreak: 600,
+                arts: "11000% Earth DMG (MAG). For 20s, increase Allies' Arts DMG by 50%, reduce Enemies' Earth RES by 30%.",
+                artsbreak: 1000,
+                truearts: "36000% Earth DMG (MAG). For 13s, heal Allies' HP by 6%/s and increase Allies' Arts by 5/s. For Human Allies, increase Arts by 7/s instead.",
+                trueartsbreak: 1300
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "On every use of own True Arts, permanently increase Allies' stats by 10% (max 30%). Does not stack with Abilities of the same name.",
+                ability2: "When Hart joins the battle from the 2nd party in Cross Battle, he gains Arts equal to what the unit he replaces had at the time.",
+                ability3: "Increase Earth Allies' DMG by 30%. Does not stack with Abilities of the same name."
             }, 
         evolution: 
             {
@@ -17228,28 +17227,28 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragGoldola.png",
+                    mat3amt: 1,
+                    hover3: "Goldola",
+                    mat4: "/db/Icons/dungeon_drops/fragElpneumas.png",
+                    mat4amt: 2,
+                    hover4: "Elpneumas",
+                    mat5: "/db/Icons/dungeon_drops/fragTonetaurus.png",
+                    mat5amt: 2,
+                    hover5: "Tonetaurus"
                 }
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: "",
-                slot: "/db/Mines/thumbnail/physLB.png",
+                name: "Vertrag",
+                slot: "/db/Mines/thumbnail/magLB.png",
                 detail: "",
-                skill: "",
-                skillbreak: ,
+                skill: "50s CT - 7000% Earth DMG (MAG). For 10s, increase own DMG by 40%, reduce Enemies' Earth RES by 35%.",
+                skillbreak: 500,
                 passive: 
                     {
-                        ability1: 
-                        ability2: 
+                        ability1: "When equipped by Hart, increase stats by 10% and Arts by 2/s. Does not stack with Abilities of the same name.",
+                        ability2: "Increase MAG DMG by 10%."
                     }
             },
         lore: 
@@ -17258,11 +17257,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Hart (Dark) - Missing Lore, Stats, Slots, Evolution, True Weapon, TW Image
+    { //Hart (Dark) - Missing Lore, TW Image
         id: 103286512,
         name: "Hart (Dark)",
-        attribute: ,
-        type: ,
+        attribute: "Dark",
+        type: "Human",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_103285512.png",
@@ -17275,32 +17274,35 @@ const UnitInformation = [
                 slot1: 5,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/magLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/magLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 6392,
+                hpplus: 999,
+                atk: 3033,
+                atkplus: 464,
+                def: 2852,
+                defplus: 437
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "10s CT - 1500% Dark DMG (MAG). 50% chance to inflict a stack of Bleed (up to 3).",
+                skillbreak: 500,
+                arts: "17000% Dark DMG (MAG). Increase own Arts by 20 + For 15s, increase Allies' Skill CT REC by 150%.",
+                artsbreak: 900,
+                truearts: "50000% Dark DMG (MAG). For 20s, increase Allies' Critical DMG by 100%.",
+                trueartsbreak: 1500,
+                phantombullet: "70000% Dark DMG (MAG). For 60s, reduce Enemies' Dark RES by 50%. Phantom Bullet can only be activated three times in a Quest.",
+                phantombulletbreak: 2100
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase Critical Rate against Enemies with 3 stacks of Bleed by 100%.",
+                ability2: "Increase DMG against Enemies under 30% HP by 80%.",
+                ability3: "When near-death, increase Arts by 1/s."
             }, 
         evolution: 
             {
@@ -17310,28 +17312,25 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragRagsherumPhantom.png",
+                    mat3amt: 2,
+                    hover3: "Ragsherum Phantom",
+                    mat4: "/db/Icons/dungeon_drops/fragElpneumas.png",
+                    mat4amt: 3,
+                    hover4: "Elpneumas",
                 }
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: "",
-                slot: "/db/Mines/thumbnail/physLB.png",
+                name: "Belkan",
+                slot: "/db/Mines/thumbnail/magLB.png",
                 detail: "",
-                skill: "",
-                skillbreak: ,
+                skill: "60s CT - 7500% Dark DMG (MAG). If Enemies have 1 or more stacks of Bleed, inflict 1 stack of Bleed (up to 3). For 8s, reduce Enemies' MAG RES by 35%.",
+                skillbreak: 300,
                 passive: 
                     {
-                        ability1: 
-                        ability2: 
+                        ability1: "When equipped by Dark Hart, increase ATK by 30% and Arts by 3/s.",
+                        ability2: "Increase accuracy by 10%."
                     }
             },
         lore: 
@@ -17340,11 +17339,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Miranda - Missing Lore, Stats, Slots, Evolution, True Weapon, TW Image
+    { //Miranda - Missing Lore, TW Image
         id: 103296412,
         name: "Miranda",
-        attribute: ,
-        type: ,
+        attribute: "Light",
+        type: "Human",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_103295412.png",
@@ -17355,34 +17354,35 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot1type: "/db/Mines/thumbnail/defLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/magLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 7171,
+                hpplus: 999,
+                atk: 2525,
+                atkplus: 388,
+                def: 3232,
+                defplus: 494
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "12s CT - 1600% Light DMG (MAG). For 6s, reduce Enemies' evasion by 10%.",
+                skillbreak: 400,
+                arts: "14000% Light DMG (MAG). Cure own Poison and Curse + For 20s, redirect Allies' DMG taken to self and gain a DMG barrier that negates 11000 DMG to self.",
+                artsbreak: 1000,
+                truearts: "35000% Light DMG (MAG). For 30s, increase Allies' MAG DMG by 30% (stackable), redirect Allies' DMG taken to self and gain a DMG barrier that negates 27000 DMG to self.",
+                trueartsbreak: 1600
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase MAG RES by 50%.",
+                ability2: "When an Ally dies (except self), revive that Ally with 50% HP. Ability can only be activated once per Quest.",
+                ability3: "Upon taking direct damage from an Enemy while redirecting DMG to self, stop redirecting DMG to self and gain 50 Arts."
             }, 
         evolution: 
             {
@@ -17392,28 +17392,25 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragRadachne.png",
+                    mat3amt: 3,
+                    hover3: "Radachne",
+                    mat4: "/db/Icons/dungeon_drops/fragWilkes.png",
+                    mat4amt: 1,
+                    hover4: "Wilkes",
                 }
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: "",
-                slot: "/db/Mines/thumbnail/physLB.png",
+                name: "Engaged Shield",
+                slot: "/db/Mines/thumbnail/defLB.png",
                 detail: "",
-                skill: "",
-                skillbreak: ,
+                skill: "30s CT - For 15s, increase own DMG RES by 20%. If used when own HP is above 80%, increase DMG RES by 40% instead.",
+                skillbreak: 0,
                 passive: 
                     {
-                        ability1: 
-                        ability2: 
+                        ability1: "When equipped by Miranda, increase own Arts by 2/s, Paralysis RES and Freeze RES by 100%. Does not stack with Abilities of the same name.",
+                        ability2: "Increase DEF by 30% when under a DMG barrier."
                     }
             },
         lore: 
@@ -17422,11 +17419,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Simon - Missing Lore, Stats, Slots, Evolution, True Weapon, TW Image
+    { //Simon - Missing Lore, TW Image
         id: 103306512,
         name: "Simon",
-        attribute: ,
-        type: ,
+        attribute: "Dark",
+        type: "Human",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_103305512.png",
@@ -17437,34 +17434,37 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/magLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/magLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 6530,
+                hpplus: 999,
+                atk: 2929,
+                atkplus: 449,
+                def: 2809,
+                defplus: 431
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "12s CT - 1800% Dark DMG (PHY). For 8s, reduce Enemies' DMG RES by 10%.",
+                skillbreak: 600,
+                arts: "18000% Dark DMG (PHY). For 20s, increase DMG by 30%. If this Arts is reactivated before this effect expires, refresh the duration of this effect and increase DMG by a further 30% (up to 240%).",
+                artsbreak: 600,
+                truearts: "36000% Dark DMG (PHY). Increase own Arts by 50. For 15s, reduce Enemies' Dark and PHY RES by 30%.",
+                trueartsbreak: 900,
+                phantombullet: "100000% Dark DMG (PHY). Increase own accuracy by 100% and ignore 100% of Enemies' DEF during Phantom Bullet. Phantom Bullet can only be activated three times in a Quest.",
+                phantombulletbreak: 1300
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase DMG to Human Enemies by 40%.",
+                ability2: "Increase DMG against Enemies in BREAK by 40%.",
+                ability3: "Increase ATK by 80% and Art by 3/s while unaffected by status ailments."
             }, 
         evolution: 
             {
@@ -17474,28 +17474,28 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
+                    mat3: "/db/Icons/dungeon_drops/fragRagsherumPhantom.png",
+                    mat3amt: 1,
+                    hover3: "Ragsherum Phantom",
                     mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
+                    mat4amt: 2,
                     hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat5: "/db/Icons/dungeon_drops/fragOldeus.png",
+                    mat5amt: 2,
+                    hover5: "Oldeus"
                 }
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: "",
+                name: "Jaeger",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "",
-                skill: "",
-                skillbreak: ,
+                skill: "45s CT - 10000% Dark DMG (PHY). For 8s, increase own PHY and Dark DMG by 40%.",
+                skillbreak: 600,
                 passive: 
                     {
-                        ability1: 
-                        ability2: 
+                        ability1: "When equipped by Simon, increase ATK by 50% and increase Status RES by 20%.",
+                        ability2: "Increase DMG to Giant Bosses by 10%."
                     }
             },
         lore: 
@@ -17504,11 +17504,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Vultee (Earth) - Missing Lore, Stats, Slots, Evolution, True Weapon, TW Image
+    { //Vultee (Earth) - Missing Lore, TW Image
         id: 103316312,
         name: "Vultee (Earth)",
-        attribute: ,
-        type: ,
+        attribute: "Earth",
+        type: "Human",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_103315312.png",
@@ -17519,34 +17519,37 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/defLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/healLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 6858,
+                hpplus: 999,
+                atk: 2702,
+                atkplus: 415,
+                def: 3240,
+                defplus: 496
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "11s CT - 1500% Earth DMG (PHY). Increase own Arts by 20. If self is not affected by status ailments, increase Arts by an additional 20.",
+                skillbreak: 900,
+                arts: "15000% Earth DMG (PHY). Increase own Arts by 50. Increase Bullet Stacks by 1 (up to # of Phantom Bullet activations left). For 10s, increase ATK by 50%.",
+                artsbreak: 1000,
+                truearts: "30000% Earth DMG (PHY). For 40s, increase Allies' Earth DMG by 30% (stackable), redirect Allies' DMG taken to self and gain a DMG barrier that negates 25000 DMG to self.",
+                trueartsbreak: 1800,
+                phantombullet: "[# of Bullet Stacks × 38000%] Earth DMG (PHY). Reset Bullet Stacks to 1. For 40s, increase own Physical RES by 20% and gain a DMG barrier that negates 25000 to self. Phantom Bullet can only be used 6 times in a Quest. Base # of Bullet Stacks is 1. Each Bullet Stack consumed due to an activation of Phantom Bullet consumes an additional activation of Phantom Bullet.",
+                phantombulletbreak: 2000
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase PHY RES by 20%.",
+                ability2: "Increase DEF by 20% when under a DMG barrier.",
+                ability3: "When own HP is above 50%, increase ATK by 50%. When own HP is below 50%, increase DMG RES by 20%."
             }, 
         evolution: 
             {
@@ -17556,28 +17559,25 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
+                    mat3: "/db/Icons/dungeon_drops/fragGoldola.png",
+                    mat3amt: 2,
+                    hover3: "Goldola",
                     mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
+                    mat4amt: 2,
                     hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
                 }
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: "",
+                name: "Barbatos",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "",
-                skill: "",
-                skillbreak: ,
+                skill: "60s CT - 12000% Earth DMG (PHY). For 15s, reduce Enemies' PHY RES by 20%. If user is Earth, reduce Enemies' PHY RES by 30% instead.",
+                skillbreak: "?",
                 passive: 
                     {
-                        ability1: 
-                        ability2: 
+                        ability1: "Increase own Skill CT REC by 10%.",
+                        ability2: "When equipped by Earth Vultee, increase DMG RES by 10%, and increase Paralysis and Freeze RES by 100%."
                     }
             },
         lore: 
@@ -17586,11 +17586,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Priscilla (Fire) - Missing Lore, Stats, Slots, Evolution, True Weapon, TW Image
+    { //Priscilla (Fire) - Missing Lore, TW Image
         id: 103326112,
         name: "Priscilla (Fire)",
-        attribute: ,
-        type: ,
+        attribute: "Fire",
+        type: "Human",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_103325112.png",
@@ -17601,34 +17601,35 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/magLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 7158,
+                hpplus: 999,
+                atk: 3029,
+                atkplus: 464,
+                def: 2456,
+                defplus: 378
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "9s CT - 1600% Fire DMG (PHY). Increase own Arts by 20 + If own HP is above 90%, increase own Arts by an additional 20.",
+                skillbreak: 300,
+                arts: "16000% Fire DMG (PHY). For 15s, reduce Enemies' Fire RES by 30%.",
+                artsbreak: 1000,
+                truearts: "62000% Fire DMG (PHY). For 20s, increase Allies' Critical Rate by 100%, and increase Allies' Critical DMG by [30% × # of Fire Allies in Party].",
+                trueartsbreak: 1400
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase DMG to Earth Enemies by 10%.",
+                ability2: "When Priscilla joins the battle from the 2nd party in Cross Battle, she gains Arts equal to what the unit she replaces had at the time.",
+                ability3: "Each time Arts is used, increase Allies' ATK by 10% (up to 50%)."
             }, 
         evolution: 
             {
@@ -17638,28 +17639,28 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragIfrit.png",
+                    mat3amt: 1,
+                    hover3: "Ifrit",
+                    mat4: "/db/Icons/dungeon_drops/fragRadachne.png",
+                    mat4amt: 2,
+                    hover4: "Radachne",
+                    mat5: "/db/Icons/dungeon_drops/fragElpneumas.png",
+                    mat5amt: 2,
+                    hover5: "Elpneumas"
                 }
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: "",
+                name: "Ember Bolt",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "",
-                skill: "",
-                skillbreak: ,
+                skill: "45s CT - 4000% Fire DMG (PHY). For 8s, reduce Enemies' PHY RES by 20% + If Enemies' HP is under 50%, reduce Enemies' PHY RES by an additional 20%.",
+                skillbreak: "?",
                 passive: 
                     {
-                        ability1: 
-                        ability2: 
+                        ability1: "When equipped by Priscilla, increase DMG and accuracy by 50%. Does not stack with Abilities of the same name.",
+                        ability2: "Increase ATK by 5%."
                     }
             },
         lore: 
