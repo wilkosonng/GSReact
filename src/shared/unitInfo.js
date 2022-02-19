@@ -16443,11 +16443,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Alulu - Missing Lore, Stats, Slots, Evolution, True Weapon, TW Image
+    { //Alulu - Missing Lore, TW Image
         id: 103186512,
         name: "Alulu",
-        attribute: ,
-        type: ,
+        attribute: "Dark",
+        type: "Human",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_103185512.png",
@@ -16460,32 +16460,32 @@ const UnitInformation = [
                 slot1: 5,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/healLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 7000,
+                hpplus: 999,
+                atk: 2918,
+                atkplus: 451,
+                def: 2649,
+                defplus: 427
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "9s CT - 2000% Dark DMG (MAG). For 5s, increase own MAG DMG by 10%.",
+                skillbreak: 1200,
+                arts: "15000% Dark DMG (MAG). For 15s, reduce Enemies' MAG RES by 15%.",
+                artsbreak: 1400,
+                truearts: "44000% Dark DMG (MAG). For 30s, reduce Allies' DMG RES by 30%, and activations of own Arts will not deplete Arts Gauge.",
+                trueartsbreak: 2300
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase MAG RES by 10%.",
+                ability2: "Increase DMG to Giant Bosses by 20%."
             }, 
         evolution: 
             {
@@ -16495,28 +16495,25 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragRagsherumPhantom.png",
+                    mat3amt: 1,
+                    hover3: "Ragsherum Phantom",
+                    mat4: "/db/Icons/dungeon_drops/fragValzandeth.png",
+                    mat4amt: 2,
+                    hover4: "Valzandeth",
                 }
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: "",
-                slot: "/db/Mines/thumbnail/physLB.png",
+                name: "Bastone",
+                slot: "/db/Mines/thumbnail/magLB.png",
                 detail: "",
-                skill: "",
-                skillbreak: ,
+                skill: "45s CT - For 15s, increase own Dark DMG by 20% and DMG to Giant Bosses by 50%.",
+                skillbreak: "?",
                 passive: 
                     {
-                        ability1: 
-                        ability2: 
+                        ability1: "When equipped by Alulu, increase ATK and MAG DMG by 30%. Does not stack with Abilities of the same name.",
+                        ability2: "Increase Curse RES by 20%."
                     }
             },
         lore: 
@@ -16525,11 +16522,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Marika - Missing Lore, Stats, Slots, Evolution, True WeaponS, TW Images
+    { //Marika - Missing Lore, TW Images
         id: 103196112,
         name: "Marika",
-        attribute: ,
-        type: ,
+        attribute: "Fire",
+        type: "Human",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_103195112.png",
@@ -16542,32 +16539,32 @@ const UnitInformation = [
                 slot1: 5,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/healLB.png",
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/defLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 6890,
+                hpplus: 999,
+                atk: 2855,
+                atkplus: 438,
+                def: 2755,
+                defplus: 423
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "11s CT - 1600% Fire DMG (MAG). For 8s, reduce Enemies' Break RES by 30%.",
+                skillbreak: 1700,
+                arts: "20000% Fire DMG (MAG). For 15s, increase Allies' Break PWR by 25%. When attacking an enemy they have an Elemental Advantage against, increase BREAK PWR by 50% instead.",
+                artsbreak: 4000,
+                truearts: "45000% Fire DMG (MAG). For 20s, increase Allies' DMG by 50% + When activated against an Enemy in BREAK, for 5s, increase Allies' Arts by 10/s.",
+                trueartsbreak: 6600
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase Blind RES by 100%.",
+                ability2: "Increase BE generation by 25%."
             }, 
         evolution: 
             {
@@ -16577,43 +16574,43 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
+                    mat3: "/db/Icons/dungeon_drops/fragIfrit.png",
+                    mat3amt: 1,
+                    hover3: "Ifrit",
                     mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
+                    mat4amt: 2,
                     hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat5: "/db/Icons/dungeon_drops/fragFlogassa.png",
+                    mat5amt: 3,
+                    hover5: "Flogassa"
                 }
             },
         trueweapon: //If no TW, may delete this section
             {
                 true1: 
                 {
-                    name: "",
-                    slot: "/db/Mines/thumbnail/physLB.png",
+                    name: "Scatter 18",
+                    slot: "/db/Mines/thumbnail/magLB.png",
                     detail: "",
-                    skill: "",
-                    skillbreak: ,
+                    skill: "45s CT - 2000% Fire DMG (MAG).",
+                    skillbreak: 6000,
                     passive: 
                         {
-                            ability1: 
-                            ability2: 
+                            ability1: "When equipped by Marika, Increase Break PWR & Arts DMG by 30%. Does not stack with Abilities of the same name.",
+                            ability2: "Increase Skill CT REC by 5%."
                         }
                 },
                 true2: 
                 {
-                    name: "",
-                    slot: "/db/Mines/thumbnail/physLB.png",
+                    name: "Geek Shielder",
+                    slot: "/db/Mines/thumbnail/healLB.png",
                     detail: "",
-                    skill: "",
-                    skillbreak: ,
+                    skill: "60s CT - For 20s, heals Allies' HP by 300/s and Increase PHY RES by 10%.",
+                    skillbreak: 0,
                     passive: 
                         {
-                            ability1: 
-                            ability2: 
+                            ability1: "When equipped by Marika, at the start of a Battle, increase Arts by 100. Does not stack with Abilities of the same name.",
+                            ability2: "Increase Burn RES by 20%."
                         }
                 }
                 
@@ -16624,11 +16621,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Noel - Missing Lore, Stats, Slots, Evolution, True WeaponS, TW Image
+    { //Noel - Missing Lore, TW Image
         id: 103206412,
         name: "Noel",
-        attribute: ,
-        type: ,
+        attribute: "Light",
+        type: "Human",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_103205412.png",
@@ -16639,34 +16636,35 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/physLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 7298,
+                hpplus: 999,
+                atk: 3001,
+                atkplus: 460,
+                def: 2361,
+                defplus: 364
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "10s CT - 1600% Light DMG (PHY). Inflicts a stack of Vector (up to 6 stacks).",
+                skillbreak: 800,
+                arts: "16000% Light DMG (PHY). For 12s, increase own Skill CT REC by 120% and Arts by 3/s.",
+                artsbreak: 1800,
+                truearts: "40000% Light DMG (PHY). Increase DMG of this True Arts by [50% × # of Marked Stacks on Enemy]. Cleanse Enemies' Marked Stacks after this True Arts is concluded.",
+                trueartsbreak: 2500
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase accuracy by 30%.",
+                ability2: "Increases DMG to Enemies under 30% HP by 50%.",
+                ability3: "Reduce Enemies' Evasion by [5% × # of Vector stacks on Enemy]."
             }, 
         evolution: 
             {
@@ -16676,43 +16674,43 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragWilkes.png",
+                    mat3amt: 2,
+                    hover3: "Wilkes",
+                    mat4: "/db/Icons/dungeon_drops/fragFlogassa.png",
+                    mat4amt: 1,
+                    hover4: "Flogassa",
+                    mat5: "/db/Icons/dungeon_drops/fragMavroskia.png",
+                    mat5amt: 1,
+                    hover5: "Mavroskia"
                 }
             },
             trueweapon: //If no TW, may delete this section
             {
                 true1: 
                 {
-                    name: "",
+                    name: "Velocity",
                     slot: "/db/Mines/thumbnail/physLB.png",
                     detail: "",
-                    skill: "",
-                    skillbreak: ,
+                    skill: "45s CT - 8000% Light DMG (PHY). For 10s, reduce Enemies' PHY RES by 20%, Light RES by 30%.",
+                    skillbreak: 800,
                     passive: 
                         {
-                            ability1: 
-                            ability2: 
+                            ability1: "When equipped by Noel, increase ATK by 40%.",
+                            ability2: "Increase DMG to Giant Bosses by 10%."
                         }
                 },
                 true2: 
                 {
-                    name: "",
+                    name: "Scintillation",
                     slot: "/db/Mines/thumbnail/physLB.png",
                     detail: "",
-                    skill: "",
-                    skillbreak: ,
+                    skill: "60s CT - 9000% Light DMG (PHY). For 10s, increase PHY DMG by 30%, if HP is over 80%, increase PHY DMG by 60% instead.",
+                    skillbreak: 700,
                     passive: 
                         {
-                            ability1: 
-                            ability2: 
+                            ability1: "When equipped by Noel, increase Arts DMG by 40%.",
+                            ability2: "Increase DEF by 10%."
                         }
                 }
                 
@@ -16723,11 +16721,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Batiste - Missing Lore, STats, Slots, Evolution , True WeaponS, TW Images
+    { //Batiste - Missing Lore, TW Images
         id: 103216512,
         name: "Batiste",
-        attribute: ,
-        type: ,
+        attribute: "Dark",
+        type: "Human",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_103215512.png",
@@ -16738,7 +16736,7 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/physLB.png",
                 slot3: 4,
@@ -16746,26 +16744,27 @@ const UnitInformation = [
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 7113,
+                hpplus: 999,
+                atk: 2659,
+                atkplus: 408,
+                def: 2719,
+                defplus: 417
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "12s CT - 4000% Dark DMG (PHY). For 5s, reduce Enemies' evasion by 5%.",
+                skillbreak: 800,
+                arts: "20000% Dark DMG (PHY). For 20s, reduce Enemies' Dark RES by 15% (stackable).",
+                artsbreak: 1300,
+                truearts: "40000% Dark DMG (PHY). For 12s, increase own ATK by 100% and own attacks ignore 100% of Enemies' DEF. When Zero no Yaiba is at 6 stacks: 70000% Dark DMG (PHY). For 12s, increase own ATK by 100% and own attacks ignore 100% of Enemies' DEF.",
+                trueartsbreak: 2200
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase DMG to Enemies in BREAK by 20%.",
+                ability2: "Increase DMG to Enemies under 30% HP by 40%.",
+                ability3: "Gain a stack of Zero no Yaiba whenever own Arts is activated (up to 6). For each stack of Zero no Yaiba, increase own DMG by 40%."
             }, 
         evolution: 
             {
@@ -16775,43 +16774,43 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
+                    mat3: "/db/Icons/dungeon_drops/fragRagsherumPhantom.png",
+                    mat3amt: 1,
+                    hover3: "Ragsherum Phantom",
                     mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
+                    mat4amt: 2,
                     hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat5: "/db/Icons/dungeon_drops/fragMavroskia.png",
+                    mat5amt: 2,
+                    hover5: "Mavroskia"
                 }
             },
             trueweapon: //If no TW, may delete this section
             {
                 true1: 
                 {
-                    name: "",
+                    name: "Night Edge",
                     slot: "/db/Mines/thumbnail/physLB.png",
                     detail: "",
-                    skill: "",
-                    skillbreak: ,
+                    skill: "60s CT - 6000% Dark DMG (PHY). If user is Dark, for 8s, reduce Enemies' PHY RES by 20%.",
+                    skillbreak: 600,
                     passive: 
                         {
-                            ability1: 
-                            ability2: 
+                            ability1: "When equipped by Batiste, increase DMG by 40% and increase own Arts by 1/s. Does not stack with Abilities of the same name.",
+                            ability2: "Increase DMG to Enemies under 30% HP by 10%."
                         }
                 },
                 true2: 
                 {
-                    name: "",
+                    name: "Night Jacket",
                     slot: "/db/Mines/thumbnail/physLB.png",
                     detail: "",
-                    skill: "",
-                    skillbreak: ,
+                    skill: "60s CT - 5000% Dark DMG (PHY). For 8s, increase own Dark DMG by 50%. The first time this Equip is used in a Quest, increase own Arts by 30.",
+                    skillbreak: 300,
                     passive: 
                         {
-                            ability1: 
-                            ability2: 
+                            ability1: "When equipped by Batiste, increase ATK by 40% and increase own Arts by 1/s. Does not stack with Abilities of the same name.",
+                            ability2: "When near-death, increase own DEF by 20%."
                         }
                 }
                 
@@ -16822,11 +16821,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Juno - Missing Lore, Stats, Slots, Evolution, True Weapon, TW Image
+    { //Juno - Missing Lore, TW Image
         id: 103226412,
         name: "Juno",
-        attribute: ,
-        type: ,
+        attribute: "Light",
+        type: "Demon",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_103225412.png",
@@ -16839,32 +16838,33 @@ const UnitInformation = [
                 slot1: 5,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 6989,
+                hpplus: 999,
+                atk: 2902,
+                atkplus: 445,
+                def: 2430,
+                defplus: 374
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "10s CT - 1500% Light DMG (MAG). Heal own HP by 5% of DMG dealt by own Skill.",
+                skillbreak: 500,
+                arts: "16000% Light DMG (MAG). For 10s, reduce Enemies' DMG RES by 30%, Status RES by 20%.",
+                artsbreak: 1300,
+                truearts: "Activates Demonic True Eclipse until own HP reaches 20%. When used during Demonic True Eclipse: 52000% Dark DMG (MAG). For 15s, consume 2%/s of own max HP and increase Allies' Arts by 7/s.",
+                trueartsbreak: 1800
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "During Demonic True Eclipse, increase own Arts by 5/s, own DMG and accuracy by 100%.",
+                ability2: "Increase Demon Allies' stats by 10%. Does not stack with Abilities of the same name.",
+                ability3: "Increase own ATK and DMG by [10% × # of Demon Allies in party, excluding self]."
             }, 
         evolution: 
             {
@@ -16874,28 +16874,25 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragWilkes.png",
+                    mat3amt: 2,
+                    hover3: "Wilkes",
+                    mat4: "/db/Icons/dungeon_drops/fragRadachne.png",
+                    mat4amt: 3,
+                    hover4: "Radachne",
                 }
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: "",
-                slot: "/db/Mines/thumbnail/physLB.png",
+                name: "Testament",
+                slot: "/db/Mines/thumbnail/magLB.png",
                 detail: "",
-                skill: "",
-                skillbreak: ,
+                skill: "60s CT - 8000% Light DMG (MAG). For 10s, reduce Enemies' MAG RES by 35%.",
+                skillbreak: 500,
                 passive: 
                     {
-                        ability1: 
-                        ability2: 
+                        ability1: "When equipped by Juno, increase own Arts by 100 and heal own HP by 50% when entering Demonic True Eclipse.",
+                        ability2: "Increase MAG DMG by 20%."
                     }
             },
         lore: 
@@ -16904,11 +16901,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Liese (Dark) - Missing Lore, Stats, Slots, Evolution, True Weapon, TW Image
+    { //Liese (Dark) - Missing Lore, TW Image
         id: 103236512,
         name: "Liese (Dark)",
-        attribute: ,
-        type: ,
+        attribute: "Dark",
+        type: "Human",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_103235512.png",
@@ -16919,34 +16916,35 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/magLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 6755,
+                hpplus: 999,
+                atk: 2888,
+                atkplus: 443,
+                def: 2861,
+                defplus: 439
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "12s CT - 1200% Dark DMG (PHY). On every 3rd use of this Skill, for 20s, summon a Magic Circle. Resets when a battle ends.",
+                skillbreak: 500,
+                arts: "13000% Dark DMG (PHY). For 15s, increase Allies' max HP by 30%.",
+                artsbreak: 1100,
+                truearts: "13000% Dark DMG (PHY). For 15s, increase Allies' max HP by 30%..",
+                trueartsbreak: 2000
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "When a Magic Circle is present, reduce Enemies' DMG RES by 30%. Does not stack with Abilities of the same name.",
+                ability2: "Increase Curse RES by 100%.",
+                ability3: "Increase BE generation by 5%."
             }, 
         evolution: 
             {
@@ -16956,28 +16954,25 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragRagsherumPhantom.png",
+                    mat3amt: 1,
+                    hover3: "Ragsherum Phantom",
+                    mat4: "/db/Icons/dungeon_drops/fragRadachne.png",
+                    mat4amt: 2,
+                    hover4: "Radachne",
                 }
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: "",
+                name: "Mornyan Star",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "",
-                skill: "",
-                skillbreak: ,
+                skill: "50s CT - 9000% Dark DMG (PHY). For 10s, increase own Critical DMG by 70%, reduce own Accuracy by 30%.",
+                skillbreak: 1000,
                 passive: 
                     {
-                        ability1: 
-                        ability2: 
+                        ability1: "When equipped by Dark Liese, increase Skill CT REC by 60%. Does not stack with Abilities of the same name.",
+                        ability2: "When near-death, increase ATK by 20%."
                     }
             },
         lore: 
@@ -16986,11 +16981,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Emmy - Missing Lore, Stats, Slots, Evolution, True Weapon, TW image
+    { //Emmy - Missing Lore, TW image
         id: 103246512,
         name: "Emmy",
-        attribute: ,
-        type: ,
+        attribute: "Dark",
+        type: "Human",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_103245512.png",
@@ -17003,32 +16998,33 @@ const UnitInformation = [
                 slot1: 5,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/magLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/magLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 7199,
+                hpplus: 999,
+                atk: 3041,
+                atkplus: 466,
+                def: 2416,
+                defplus: 372
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "12s CT - 1600% Dark DMG (MAG). For 6s, reduce Enemies' MAG RES by 10%.",
+                skillbreak: 400,
+                arts: "11000% Dark DMG (MAG). For 30s, increase Dark Allies' DMG by 60%.",
+                artsbreak: 600,
+                truearts: "For 70s, enter Liberation Mode. While in Liberation Mode, replace Equips with Special Skills, replace Skill with Mega Skill and replace Arts with Special Arts. Other actions cannot be performed while an animation is ongoing.",
+                trueartsbreak: 0
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase DMG to Humans by 50%.",
+                ability2: "Increase PHY RES by 10%.",
+                ability3: "Increase DMG against Blinded Enemies by 50%."
             }, 
         evolution: 
             {
@@ -17038,43 +17034,39 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat3: "/db/Icons/dungeon_drops/fragRagsherumPhantom.png",
+                    mat3amt: 2,
+                    hover3: "RagsherumPhantom",
+                    mat4: "/db/Icons/dungeon_drops/fragRadachne.png",
                     mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    hover4: "Radachne",
                 }
             },
         trueweapon: //If no TW, may delete this section
             {
                 true1: 
                 {
-                    name: "",
-                    slot: "/db/Mines/thumbnail/physLB.png",
+                    name: "Ninth Oath",
+                    slot: "/db/Mines/thumbnail/magLB.png",
                     detail: "",
-                    skill: "",
-                    skillbreak: ,
+                    skill: "80s CT - 10000% Dark DMG (MAG). For 30s, reduce Enemies' Dark RES by 25%.",
+                    skillbreak: 800,
                     passive: 
                         {
-                            ability1: 
-                            ability2: 
+                            ability1: "When equipped by Emmy, increase the duration of Liberation Mode by 30s. Does not stack with Abilities of the same name.",
+                            ability2: "Increase MAG RES by 5%."
                         }
                 },
                 true2: 
                 {
-                    name: "",
-                    slot: "/db/Mines/thumbnail/physLB.png",
+                    name: "Ancient's Row",
+                    slot: "/db/Mines/thumbnail/magLB.png",
                     detail: "",
-                    skill: "",
-                    skillbreak: ,
+                    skill: "80s CT - 5500% Dark DMG (MAG). Increase own Arts by 35. For 30s, increase own Dark DMG by 30%.",
+                    skillbreak: 900,
                     passive: 
                         {
-                            ability1: 
-                            ability2: 
+                            ability1: "When equipped by Emmy, increase DMG by 20%. At the start of a Quest, increase Emmy's Arts by 100. Does not stack with Abilities of the same name."
                         }
                 }
                 
