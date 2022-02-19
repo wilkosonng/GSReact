@@ -16116,7 +16116,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Salyssa - Missing Lore, Stats, Slots, Evolution, True Weapon, TW Image
+    { //Salyssa - Missing Lore, TW Image
         id: 103146312,
         name: "Salyssa",
         attribute: "Earth",
@@ -16181,15 +16181,15 @@ const UnitInformation = [
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: "",
+                name: "Bandiera",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "",
-                skill: "",
-                skillbreak: ,
+                skill: "45s CT - 8000% Earth DMG (PHY). For 10s, reduce Enemies' PHY RES by 20%, Earth RES by 30%.",
+                skillbreak: 700,
                 passive: 
                     {
-                        ability1: 
-                        ability2: 
+                        ability1: "When equipped by Salyssa, increase ATK by 30% and increase Arts by 10 on own Skill use. Does not stack with Abilities of the same name.",
+                        ability2: "Increase Skill DMG by 20%."
                     }
             },
         lore: 
@@ -16198,11 +16198,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Sharon - Missing Lore, Stats, Slots, Evolution, True Weapon, TW Image
+    { //Sharon - Missing Lore, TW Image
         id: 103156412,
         name: "Sharon",
-        attribute: ,
-        type: ,
+        attribute: "Light",
+        type: "Human",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_103155412.png",
@@ -16215,32 +16215,33 @@ const UnitInformation = [
                 slot1: 5,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/healLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/magLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 7100,
+                hpplus: 999,
+                atk: 2650,
+                atkplus: 407,
+                def: 2463,
+                defplus: 379
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "10s CT - 1200% Light DMG (MAG). Increase own Arts by 10.",
+                skillbreak: 500,
+                arts: "16000% Light DMG (MAG). For 30s, gain 1 stack of Cheer. Cheer increases own MAG DMG by [50% × # of stacks of Cheer].",
+                artsbreak: 800,
+                truearts: "40000% Light DMG (MAG). For 20s, increase Allies' (except self) MAG DMG by [50% × # of stacks of Cheer].",
+                trueartsbreak: 1000
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase DMG to Dark Enemies by 20%.",
+                ability2: "Increase Allies' Healing Taken by 20%.",
+                ability3: "When HP is above 80%, increase ATK by 50%."
             }, 
         evolution: 
             {
@@ -16250,28 +16251,28 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragWilkes.png",
+                    mat3amt: 1,
+                    hover3: "Wilkes",
+                    mat4: "/db/Icons/dungeon_drops/fragRadachne.png",
+                    mat4amt: 2,
+                    hover4: "Radachne",
+                    mat5: "/db/Icons/dungeon_drops/fragElpneumas.png",
+                    mat5amt: 1,
+                    hover5: "Elpneumas"
                 }
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: "",
-                slot: "/db/Mines/thumbnail/physLB.png",
+                name: "Gold Rush",
+                slot: "/db/Mines/thumbnail/magLB.png",
                 detail: "",
-                skill: "",
-                skillbreak: ,
+                skill: "40s CT - 5000% Light DMG (MAG). For 12s, increase own DMG by 50%. If user is Light, increase own accuracy by 30%.",
+                skillbreak: 700,
                 passive: 
                     {
-                        ability1: 
-                        ability2: 
+                        ability1: "When equipped by Sharon, increase own stats by 15% and increase duration of Cheer stacks by 10s.",
+                        ability2: "Increase MAG RES by 5%."
                     }
             },
         lore: 
@@ -16280,11 +16281,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Rits - Missing Lore, Stats, Slots, Evolution, True Weapon, TW Image
+    { //Rits - Missing Lore, TW Image
         id: 103166412,
         name: "Rits",
-        attribute: ,
-        type: ,
+        attribute: "Light",
+        type: "Human",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_103165412.png",
@@ -16297,32 +16298,33 @@ const UnitInformation = [
                 slot1: 5,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/healLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 7113,
+                hpplus: 999,
+                atk: 2659,
+                atkplus: 408,
+                def: 2719,
+                defplus: 417
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "10s CT - 1500% Light DMG (MAG). Increase own Arts by 10.",
+                skillbreak: 600,
+                arts: "8000% Light DMG (MAG). For 50s, increase Light Allies' DMG by 20% (Stackable).",
+                artsbreak: 900,
+                truearts: "44000% Light DMG (MAG). For 10s, increase Allies' Critical Rate and own Critical DMG by 100%.",
+                trueartsbreak: 1800
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase own Healing Taken by 20% (except Lifesteal).",
+                ability2: "When 'Miasma' Area Effect is active, increase Arts Over Time Effects by 60%.",
+                ability3: "Increase ATK by 100% when own HP is above 90%."
             }, 
         evolution: 
             {
@@ -16332,28 +16334,25 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragWilkes.png",
+                    mat3amt: 1,
+                    hover3: "Wilkes",
+                    mat4: "/db/Icons/dungeon_drops/fragTonetaurus.png",
+                    mat4amt: 2,
+                    hover4: "Tonetaurus",
                 }
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: "",
-                slot: "/db/Mines/thumbnail/physLB.png",
+                name: "Wonderful",
+                slot: "/db/Mines/thumbnail/magLB.png",
                 detail: "",
-                skill: "",
-                skillbreak: ,
+                skill: "60s CT - 8000% Light DMG (MAG). For 10s, increase own MAG DMG by 30%. If user is Light, increase MAG DMG by 60% instead.",
+                skillbreak: 1000,
                 passive: 
                     {
-                        ability1: 
-                        ability2: 
+                        ability1: "When equipped by Rits, increase own Skill CT REC by 50%. At the start of a Quest, increase own Arts by 50. Does not stack with Abilities of the same name.",
+                        ability2: "Increase Dark RES by 10%."
                     }
             },
         lore: 
@@ -16362,11 +16361,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Raine - Missing Lore, Stats, Slots, Evolution, True Weapon, TW Image
+    { //Raine - Missing Lore, TW Image
         id: 103176212,
         name: "Raine",
-        attribute: ,
-        type: ,
+        attribute: "Water",
+        type: "Human",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_103175212.png",
@@ -16379,32 +16378,32 @@ const UnitInformation = [
                 slot1: 5,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/healLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 6807,
+                hpplus: 999,
+                atk: 2942,
+                atkplus: 451,
+                def: 2776,
+                defplus: 426
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "9s CT - 1500% Water DMG (MAG). Increase own Arts by 25.",
+                skillbreak: 400,
+                arts: "14000% Water DMG (MAG). For 10s, reduce Enemies' Status RES and MAG RES by 30%.",
+                artsbreak: 1000,
+                truearts: "23000% Water DMG (MAG). For 25s, reduce Enemies' Water RES by 20%, if own HP is above 70%, reduce Enemies' Water RES by an additional 20% (stackable).",
+                trueartsbreak: 1500
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase Water Allies' BE generation by 10%.",
+                ability2: "Each time own Skill, Arts or True Arts is used, consume 15% of own maximum HP. When own HP is above 50%, increase own Arts by 3/s."
             }, 
         evolution: 
             {
@@ -16414,28 +16413,28 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragFreydal.png",
+                    mat3amt: 1,
+                    hover3: "Freydal",
+                    mat4: "/db/Icons/dungeon_drops/fragTonetaurus.png",
+                    mat4amt: 1,
+                    hover4: "Tonetaurus",
+                    mat5: "/db/Icons/dungeon_drops/fragFlogassa.png",
+                    mat5amt: 1,
+                    hover5: "Flogassa"
                 }
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: "",
-                slot: "/db/Mines/thumbnail/physLB.png",
+                name: "Colorly",
+                slot: "/db/Mines/thumbnail/magLB.png",
                 detail: "",
-                skill: "",
-                skillbreak: ,
+                skill: "40s CT - 4500% Water DMG (MAG). For 10s, increase own MAG DMG by 30%, if user is Water, increase own MAG DMG by an additional 30%.",
+                skillbreak: 500,
                 passive: 
                     {
-                        ability1: 
-                        ability2: 
+                        ability1: "When equipped by Raine, increase Skill CT REC by 60%, DMG by 35%.",
+                        ability2: "Increase Skill DMG by 20%."
                     }
             },
         lore: 
