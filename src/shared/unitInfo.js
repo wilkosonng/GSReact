@@ -4832,7 +4832,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Lione - Missing Lore
+    { //Lione - Complete
         id: 101396112,
         name: "Lione",
         attribute: "Fire",
@@ -4903,8 +4903,8 @@ const UnitInformation = [
         lore: 
             {   
                 evo4: "A Beast mercenary who fought many battles after the Ancient War. She was a war orphan, but she had a happy childhood in the Principality of Bamint. Aspiring to become famous, she fought the fiercest battles with her fire and became known as 'Lion Fire Lione'. She accomplished many missions together with her step-brother Elmessio, but once they accidentally became aware of a secret. In order to prevent the unforgivable plan, the two decided by their own decision to assassinate the key man involved in this plan.",
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "A mercenary who controls fire lions. To undermine a secret plan, she got her hands dirty with the murder of a man. Thus, she escaped to her hometown to hide and was welcomed by a God childhood friend. But soon the chaser found her and unexpectedly turned out to be another childhood friend, a Spirit. She would then explain the reason for the murder, to achieve his understanding, but instead, his suspicion grew even bigger. The battle came to an end only when the God friend, who had defended her, fell down.",
+                evoawk: "The Spirit who slashed his childhood friend was now screaming with the lifeless remains in his arms. After all, he was also one of the orphans grown up in this village. After punching him only once, Lione proclaimed she would fulfill her friend’s dying wish and protect their hometown. And then she asked the remaining three childhood friends: “What will you do to accomplish the dream we had as children, and her dying wish?”"
             }
     },
     { //Reyon - Missing Lore
@@ -5212,8 +5212,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
+                evo4: "A Spirit who watched over the ancient forest that spreads across La Riiz, and representative of its master. ever by the master's side, she would employ her considerable powers to defend the forest against any threat. she was also in charge of watching over the girl chosen to become the next master and watched over her like a mother. When a Demoness suddenly appeared intent of making the master of the forest hers, Feld fought against her, day in, day out.",
+                evo5: "A Spirit who fought to protect the master of the ancient forest. Feld fought back, but now had to face an automaton - and its country-obliterating firepower. She stood her ground, drawing out untapped and unthinkably great potential in the name of protecting the forest's master. Feld never so much as faltered... until the master, mad with rage, showed itself before her.",
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
@@ -8017,7 +8017,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Voghan - Missing Lore
+    { //Voghan - Complete
         id: 101956112,
         name: "Voghan",
         attribute: "Fire",
@@ -8083,8 +8083,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "An assassin whose name was renowned during the first period of the Ancient War. His ambition for power was so fierce he didn’t hesitate to alter his own body. Thus, his fighting potential grew significantly, and he became a professional killer to satisfy his willingness to kill. He was totally indifferent towards money, and his only interest was to torture and kill his prey.",
+                evoawk: "He kept slaughtering the monsters that the two tamers summoned, one after another, laughing vulgarly. Screaming in the ecstasy of the massacre, he built a mountain of corpses killing more monsters than the King’s Army. For his unquenchable thirst for blood, the two who kept summoning new preys were the perfect enemy. In front of the Beast Tamers who had finally run out of power, he held his sword licking his chops."
             }
     },
     { //Diaz - Missing Lore, TW Image
@@ -8379,7 +8379,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Gerald - Missing Lore
+    { //Gerald - Complete
         id: 102006112,
         name: "Gerald",
         attribute: "Fire",
@@ -8440,8 +8440,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "A young officer who led a legion under the command of the Dragons, early in the Ancient War. He held his commanding officer in such respect, that he felt deep pride in serving the Dragons hand and foot. He joined his commander in a mission to kill a Maiden Oracle, but he began to doubt the need to slay an innocent girl. He questioned his orders for the first time. His officer explained that sometimes it is necessary to sacrifice one to save one hundred, and so affirmed a Demon, who was there hunting the girl to exploit her power.",
+                evoawk: "The Maiden he was ordered to kill decided to die herself, together with her dangerous power of foreseeing gurure. Gerald, who always followed orders to the letter, now found himself doubting his superior for the first time. His inability to deal with these doubts caused him to question his own worth. However, as his commanding officer said, the Maiden was a sacrifice necessary to save countless lives. So he swore that he would help avoid the war foreseen by the Maiden. And that was the instant he took his first step towards independence."
             }
     },
     { //Zeela - Missing Lore
@@ -10113,7 +10113,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Ifrit - Missing Lore, TW Image
+    { //Ifrit - Missing TW Image
         id: 102326112,
         name: "Ifrit",
         attribute: "Fire",
@@ -10186,8 +10186,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "This being is a manifestation of flame, the rage of the world. It possesses the power to cause any heat source to rage out of control and burn the earth clean, but for some reason it has manifested in the body of a certain God, limiting his powers. Even so, it must be careful to hold back the raging fire that well forth from it, and the seals holding it back are also now ready to burst. As he is a fragment of the world’s consciousness, his actions are likely a warning to Humanity.",
+                evoawk: "A renowned Divine warrior challenged a Divine swordswoman to a battle, and after losing in a fierce fight, the two so admired each others’ techniques they swore to a rematch. Later, the fighter was overcome by his wounds and fell to the ground, but in that instant, he made a compact [?] with the planet to save his life. The swordswoman reappeared before him, this fighter who became a High Demon with the power to burn the world to ash. No one knows the truth of the rumors that he may have survived, despite the swordwoman’s victory."
             }
     },
     { //Nogia - Missing Lore
@@ -22015,8 +22015,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "Currently unreleased in Global",
+                evoawk: "Currently unreleased in Global"
             }
     },
     { //Lucy Heartfilia - Missing Lore
@@ -22079,8 +22079,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "Currently unreleased in Global",
+                evoawk: "Currently unreleased in Global"
             }
     },
     { //Gray Fullbuster - Missing Lore, Images, ID
@@ -22143,8 +22143,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "Currently unreleased in Global",
+                evoawk: "Currently unreleased in Global"
             }
     },
     { //Erza Scarlet - Missing Lore, Stats, Slots, Evolution, Images, ID
@@ -22207,8 +22207,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "Currently unreleased in Global",
+                evoawk: "Currently unreleased in Global"
             }
     }
 
