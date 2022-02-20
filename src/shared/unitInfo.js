@@ -18397,7 +18397,7 @@ const UnitInformation = [
                     skillbreak: 500,
                     passive: 
                         {
-                            ability1: 
+                            ability1: ""
                             ability2: 
                         }
                 },
