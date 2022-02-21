@@ -638,7 +638,7 @@ const UnitInformation = [
                 evoawk: "After the end of the Ancient War, he was known as one of the Twin Knights of the Morning Star, but before that, he was already famous for saving the Magus Empire of La Riiz from great peril. He stood agaisnt the God Eater Mavroskia, which brings calamity wherever it appears, and turned its rampage. This is the only time in history a God Eater's destruction has been limited so far. They say he had the protection of a certain Witch, but his merit in the story is undeniable."
             }
     },
-    { //Dargeon - Missing Lore
+    { //Dargeon - Complete
         id: 100566112,
         name: "Dargeon",
         attribute: "Fire",
@@ -1881,7 +1881,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Mira (Fire) - Missing Lore, Evolution, TW Image
+    { //Mira (Fire) - Missing Evolution, TW Image
         id: 101046111,
         name: "Mira (Fire)",
         attribute: "Fire",
@@ -1982,8 +1982,7 @@ const UnitInformation = [
                     }
             },
         lore: 
-            {   
-                evo3: "Missing Lore Information, please contact site owner",
+            { 
                 evo4: "Vice-commander of the Bamint knight order 'Rose Garden' and member of the Demon extermination squad. Though a princess, she chose the life of a knight instead. Mira refuses to mince words and has a strong sense of justice, resulting in her often acting impulsively and ignoring the actions of others. This has made her some enemies, but her willingness to defend the weak has made her friends to spare.",
                 evo5: "Third princess of Bamint, who travels with her allies to defeat the Demon menace. She ignored the opinions of Bamint's upper echelons, who didn't want to oppose the Demons, and joined the Demon Suppression Squad on her own. She seems aware of the rumor that they let her join just to get rid of her. She finds it difficult to live true to herself while traveling with others, and will continue forcing her way forward to find a place she can call home.",
                 evoawk: "She felt she became stronger ever since the battle at Gormarey, the incident after, and the encounter with numerous people. Her weakness, her goals, what she could only do... these were the things she did not know before. At the same time, she noticed this, she understood that extraordinary possibilities were within her. That enormous power will become the hope of light in this dark world."
@@ -2950,7 +2949,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Sophie - Missing Lore, Evolution, TW Image
+    { //Sophie - Missing Evolution, TW Image
         id: 101156111,
         name: "Sophie",
         attribute: "Fire",
@@ -3531,7 +3530,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Soleil - Missing Lore
+    { //Soleil - Complete
         id: 101226112,
         name: "Soleil",
         attribute: "Fire",
@@ -4604,7 +4603,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Teriodos - Missing Lore
+    { //Teriodos - Complete
         id: 101366112,
         name: "Teriodos",
         attribute: "Fire",
@@ -5143,7 +5142,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Feld - Missing Lore, Evolution
+    { //Feld - Missing Evolution
         id: 101566112,
         name: "Feld",
         attribute: "Fire",
@@ -5428,7 +5427,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Rasaou - Missing Lore
+    { //Rasaou - Complete
         id: 101606112,
         name: "Rasaou",
         attribute: "Fire",
@@ -5504,7 +5503,7 @@ const UnitInformation = [
             {   
                 evo4: "A swordsman who escaped from the Gods in order to attain skills as a swordsman during the early period of the Ancient War. He traveled all over the world to find a strong opponent. Hearing the rumors of the "Destruction Giant" he heads to where the Giants lived. However, who he encountered was a girl running away from Demons. Sensing that the Demon was strong, he fought against it, but disappeared during their fight. He ended up saving the girl, but this will change the rest of his life.",
                 evo5: "The Swordsman who traveled with a girl named Yummi during the early period of the Ancient War. His battles against strong opponents brushed up his magnificent sword skills. However, he still was not able to find the "Destruction Giant." One day, Yummi fell under the trap of a woman of the Spirit race and attacked him. Seeing her horrendous powers, he recognized she was the one he was looking for. Still, he was not able to raise his sword against her.",
-                evoawk: ""Spare the women and children..." This dignified swordsman never wavered in his principles. Perhaps it was this conviction, that let him remain true even when he was under attack, that helped the little girl's heart within the rampaging Giant of Ruin to win out. Although the swordsman could not win, he perhaps found some satisfaction in fighting a worthy adversary. The swordsman had a smile throughout the battle, and when the girl's frenzy abated, he held out his hand and took her on his journey."
+                evoawk: "'Spare the women and children...' This dignified swordsman never wavered in his principles. Perhaps it was this conviction, that let him remain true even when he was under attack, that helped the little girl's heart within the rampaging Giant of Ruin to win out. Although the swordsman could not win, he perhaps found some satisfaction in fighting a worthy adversary. The swordsman had a smile throughout the battle, and when the girl's frenzy abated, he held out his hand and took her on his journey."
             }
     },
     { //Yumi - Complete
@@ -5906,7 +5905,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Sanstone - Missing Lore, Stats, Slots, Evolution, True Weapon, TW Image
+    { //Sanstone - Missing Stats, Slots, Evolution, True Weapon, TW Image
         id: 101676112,
         name: "Sanstone",
         attribute: "Fire",
@@ -6340,7 +6339,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Millenia - Missing Lore
+    { //Millenia - Complete
         id: 101726112,
         name: "Millenia",
         attribute: "Fire",
@@ -6562,7 +6561,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Gran Brave - Missing Lore, TW Img
+    { //Gran Brave - Missing TW Img
         id: 101756111,
         name: "Gran Brave",
         attribute: "Fire",
@@ -6860,7 +6859,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Lian - Missing Lore
+    { //Lian - Complete
         id: 101796112,
         name: "Lian",
         attribute: "Fire",
@@ -7246,7 +7245,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Rishley - Missing Lore
+    { //Rishley - Complete
         id: 101846112,
         name: "Rishley",
         attribute: "Fire",
@@ -7804,7 +7803,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Anna - Missing Lore
+    { //Anna - Complete
         id: 101926112,
         name: "Anna",
         attribute: "Fire",
@@ -9359,7 +9358,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Ryuko - Missing Lore, TW Image
+    { //Ryuko - Missing TW Image
         id: 102226112,
         name: "Ryuko",
         attribute: "Fire",
@@ -9436,7 +9435,7 @@ const UnitInformation = [
                 evoawk: "This is the ultimate form of Kamui reached when Senketsu has combined with all other Goku Uniforms during the last battle. Known as 'Senketsu Kisaragi', its enormous power could be said to be that of all humanity combined. With humanity's hope, she flies into the eternal sky..."
             }
     },
-    { //Pientz - Missing Lore
+    { //Pientz - Complete
         id: 102236111,
         name: "Pientz",
         attribute: "Fire",
@@ -9709,7 +9708,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Tallis - Missing Lore, TW Image
+    { //Tallis - Missing TW Image
         id: 102276112,
         name: "Tallis",
         attribute: "Fire",
@@ -10713,7 +10712,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Badoul - Missing Lore
+    { //Badoul - Complete
         id: 102416111,
         name: "Badoul",
         attribute: "Fire",
@@ -11108,7 +11107,7 @@ const UnitInformation = [
                 evoawk: "Her eyes sparkled at the resurrected Flame Giant of legend. She would not balk at turning an entire nation into a realm of the dead to earn the praise and favor of her beloved Demoness. All that remained was the elimination of a certain irritating sorceress, companion to the Giant. However, the needed Giant only obeyed the girl's orders. The only choice is to turn her into a 'friend.' With that understanding, she gladly went among the teeming spirtis."
             }
     },
-    { //Berwick (Magic) - Missing Lore, TW Image
+    { //Berwick (Magic) - Missing TW Image
         id: 102486112,
         name: "Berwick (Magic)",
         attribute: "Fire",
@@ -12475,7 +12474,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Berwick (Physical) - Missing Lore, TW Image
+    { //Berwick (Physical) - Missing TW Image
         id: 102666112,
         name: "Berwick (Physical)",
         attribute: "Fire",
@@ -12800,7 +12799,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Honoka - Missing Lore
+    { //Honoka - Complete
         id: 102706112,
         name: "Honoka",
         attribute: "Fire",
@@ -12933,7 +12932,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Miri-nyan - Missing Lore
+    { //Miri-nyan - Complete
         id: 102736112,
         name: "Miri-nyan",
         attribute: "Fire",
@@ -12995,8 +12994,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "A Beast warrior who lived in a city where monsters were rampant, in the Magus Empire. Although she was young, she had a talent for military arts and fought with her sister to protect the weak from monsters and bandits. The two became popular. Being a shy person, she wished to leave the town and peacefully live with her sister. However, her sister had a strong sense of justice, so she wanted to stay in the city to protect those in need. Their discrepancies will eventually lead to a certain incident...",
+                evoawk: "The Magus Empire was looking for a subject who could bear the strong magic of their experiment. Having strong magic resistance, the Beast girl was their perfect victim. Promising to make her wish come true, the man from the Cult deceived her. She was separated from her sister and both were kidnapped. The two became victims of a synthesis experiment. In the depth of despair. a man in black reached out to help her. He had lost his brother because of the Cult and swore revenge…"
             }
     },
     { //Tami-nyan - Missing Lore, TW Image
@@ -14006,7 +14005,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Kisaragi - Missing Lore, TW Image
+    { //Kisaragi - Missing TW Image
         id: 102876112,
         name: "Kisaragi",
         attribute: "Fire",
@@ -14164,7 +14163,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Tamae - Missing Lore, TW Image
+    { //Tamae - Missing TW Image
         id: 102896112,
         name: "Tamae",
         attribute: "Fire",
@@ -14247,7 +14246,7 @@ const UnitInformation = [
                 evoawk: "Having been chosen to become the vessel for the soul of the Demon Fox, she stood in the way of her former brethren, the shinobi. The burning Magic of the Demon overwhelmed the skilled shinobi, and this power eventually devoured her, too. "I can see the moon…" Perhaps these final words she whispered were filled with yearning to her old days as a shinobi in her village, when she used to gaze up at the sky every night. lost in thought."
             }
     },
-    { //Orgah - Missing Lore, TW Image
+    { //Orgah - Missing TW Image
         id: 102906112,
         name: "Orgah",
         attribute: "Fire",
@@ -14405,7 +14404,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Vermilia - Missing Lore, TW Image
+    { //Vermilia - Missing TW Image
         id: 102926112,
         name: "Vermilia",
         attribute: "Fire",
@@ -14801,7 +14800,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Roy (Fire) - Missing Lore, TW Image
+    { //Roy (Fire) - Missing TW Image
         id: 102976112,
         name: "Roy (Fire)",
         attribute: "Fre",
@@ -14963,7 +14962,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Radak - Missing Lore
+    { //Radak - Complete
         id: 102996112,
         name: "Radak",
         attribute: "Fire",
@@ -15480,7 +15479,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Angelas - Missing Lore, TW Image
+    { //Angelas - Missing TW Image
         id: 103066112,
         name: "Angelas",
         attribute: "Fire",
@@ -15893,7 +15892,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Sumire - Missing Lore
+    { //Sumire - Complete
         id: 103116112,
         name: "Sumire",
         attribute: "Fire",
@@ -16033,7 +16032,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Ashleigh - Missing Lore, TW Image
+    { //Ashleigh - Missing TW Image
         id: 103136112,
         name: "Ashleigh",
         attribute: "Fire",
@@ -16521,7 +16520,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Marika - Missing Lore, TW Images
+    { //Marika - Missing TW Images
         id: 103196112,
         name: "Marika",
         attribute: "Fire",
@@ -17585,7 +17584,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Priscilla (Fire) - Missing Lore, TW Image
+    { //Priscilla (Fire) - Missing TW Image
         id: 103326112,
         name: "Priscilla (Fire)",
         attribute: "Fire",
@@ -19307,7 +19306,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Sugimoto - Missing Lore
+    { //Sugimoto - Complete
         id: 107116112,
         name: "Sugimoto",
         attribute: "Fire",
@@ -19624,7 +19623,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Milim - Missing Lore
+    { //Milim - Complete
         id: 107166112,
         name: "Milim",
         attribute: "Fire",
@@ -19687,7 +19686,7 @@ const UnitInformation = [
                 evoawk: "One of the Ten Greatest Demon Lords and yet the oldest. She has over ten times more Magicules than Rimuru, and no one can beat her. She feels bored of being a Demon Lord and envies Rimuru because he is having much more fun while not being a Demon Lord."
             }
     },
-    { //Benimaru - Missing Lore
+    { //Benimaru - Complete
         id: 107176112,
         name: "Benimaru",
         attribute: "Fire",
@@ -21442,7 +21441,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Yoh - Missing Lore
+    { //Yoh - Complete
         id: 107476112,
         name: "Yoh",
         attribute: "Fire",
@@ -21634,7 +21633,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Hao - Missing Lore
+    { //Hao - Complete
         id: 107506112,
         name: "Hao",
         attribute: "Fire",
@@ -21890,7 +21889,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Eris - Missing Lore
+    { //Eris - Complete
         id: 107546112,
         name: "Eris",
         attribute: "Fire",
