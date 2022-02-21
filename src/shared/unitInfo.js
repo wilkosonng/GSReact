@@ -4791,7 +4791,8 @@ const UnitInformation = [
                 skillbreak: 1700,
                 arts: "13000% Water and Earth DMG (MAG). Increase DMG of this Arts to Fire and Water Enemies by 60%, and swap Blessing of Midori Modes.",
                 artsbreak: 2300,
-                truearts: "When in Water Mode: 35000% Water DMG (MAG). For 12s, increase own Critical Rate by 100%, increase Water Allies' DMG by 50%. When in Earth Mode: 28000% Earth DMG (MAG). Chance to inflict Disease.",
+                truearts1: "When in Water Mode: 35000% Water DMG (MAG). For 12s, increase own Critical Rate by 100%, increase Water Allies' DMG by 50%. ",
+                truearts2: "When in Earth Mode: 28000% Earth DMG (MAG). Chance to inflict Disease.",
                 trueartsbreak1: 2300,
                 trueartsbreak2: 3000
             },
@@ -17016,7 +17017,14 @@ const UnitInformation = [
                 arts: "11000% Dark DMG (MAG). For 30s, increase Dark Allies' DMG by 60%.",
                 artsbreak: 600,
                 truearts: "For 70s, enter Liberation Mode. While in Liberation Mode, replace Equips with Special Skills, replace Skill with Mega Skill and replace Arts with Special Arts. Other actions cannot be performed while an animation is ongoing.",
-                trueartsbreak: 0
+                trueartsbreak: 0,
+                liberation: 
+                    {
+                        skill1: "",
+                        skill2: "",
+                        skill3: "",
+                        megaskill: ""
+                    }
             },
         passive: 
             {
@@ -17112,7 +17120,14 @@ const UnitInformation = [
                 arts: "15000% Earth DMG (PHY). For 60s, reduce Enemies' Poison RES by 50%.",
                 artsbreak: 1000,
                 truearts: "For 60s, enter Liberation Mode. While in Liberation Mode, replace Equips with Special Skills, replace Skill with Mega Skill and replace Arts with Special Arts. Other actions cannot be performed while an animation is ongoing.",
-                trueartsbreak: 0
+                trueartsbreak: 0,
+                liberation: 
+                    {
+                        skill1: "",
+                        skill2: "",
+                        skill3: "",
+                        megaskill: ""
+                    }
             },
         passive: 
             {
