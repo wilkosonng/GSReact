@@ -16990,7 +16990,8 @@ const UnitInformation = [
                 detail5: "/db/Units/Detail/unit_detail_103245512.png",
                 detailawk: "/db/Units/Detail/unit_detail_103246512.png",
                 thumb5: "/db/Units/Thumbnail/unit_thumbnail_103245512.png",
-                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103246512.png"
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103246512.png",
+                liberation: "/db/Units/Thumbnail/unit_thumbnail_501701513.png"
             },
         slots: 
             {
@@ -17021,9 +17022,13 @@ const UnitInformation = [
                 liberation: 
                     {
                         skill1: "",
+                        skill1break:,
                         skill2: "",
+                        skill2break:,
                         skill3: "",
-                        megaskill: ""
+                        skill3break: ,
+                        megaskill: "",
+                        megaskillbreak: 
                     }
             },
         passive: 
@@ -17093,7 +17098,8 @@ const UnitInformation = [
                 detail5: "/db/Units/Detail/unit_detail_103255312.png",
                 detailawk: "/db/Units/Detail/unit_detail_103256312.png",
                 thumb5: "/db/Units/Thumbnail/unit_thumbnail_103255312.png",
-                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103256312.png"
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103256312.png",
+                liberation: "/db/Unit/Thumbnail/unit_thumbnail_501771313.png"
             },
         slots: 
             {
@@ -17124,9 +17130,13 @@ const UnitInformation = [
                 liberation: 
                     {
                         skill1: "",
+                        skill1break:,
                         skill2: "",
+                        skill2break:,
                         skill3: "",
-                        megaskill: ""
+                        skill3break: ,
+                        megaskill: "",
+                        megaskillbreak: 
                     }
             },
         passive: 
