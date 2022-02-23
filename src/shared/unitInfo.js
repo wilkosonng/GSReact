@@ -1175,7 +1175,7 @@ const UnitInformation = [
             {
                 name: "Day Break",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_103601.png",
                 skill: "55s CT - 6500% Fire DMG (PHY). Increase own Arts by 80 if user is near-death.",
                 skillbreak: 1000,
                 passive: 
@@ -1655,7 +1655,7 @@ const UnitInformation = [
                 {
                     name: "Regracia",
                     slot: "/db/Mines/thumbnail/physLB.png",
-                    detail: "",
+                    detail: "/db/Equipment/Detail/item_detail_103111.png",
                     skill: "50s CT - 6600% Light DMG (PHY).",
                     skillbreak: 1600,
                     passive: 
@@ -1668,7 +1668,7 @@ const UnitInformation = [
                 {
                     name: "Grand Scale",
                     slot: "/db/Mines/thumbnail/physLB.png",
-                    detail: "",
+                    detail: "/db/Equipment/Detail/item_detail_109521.png",
                     skill: "55s CT - 10000% Light DMG (PHY). For 12s, increase own DMG by 60%. If user is Light, increase own ATK by 60%.",
                     skillbreak: 800,
                     passive: 
@@ -1757,7 +1757,7 @@ const UnitInformation = [
             {
                 name: "Raaz",
                 slot: "/db/Mines/thumbnail/defLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_103131.png",
                 skill: "50s CT - For 15s, Allies gain a DMG barrier that negates 1000 DMG, increase Allies' DMG RES by 20% and Status RES (except Faint) by 100%.",
                 skillbreak: 0,
                 passive: 
@@ -1864,12 +1864,12 @@ const UnitInformation = [
             {
                 name: "Gaimalse",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_103121.png",
                 skill: "60s CT - 6000% Water DMG (PHY). For 10s, increase Allies' ATK by 30%.",
                 skillbreak: 2200,
                 passive: 
                     {
-                        ability1: "When equipped by Roy, increase DMG by 20%.",
+                        ability1: "When equipped by Roy (Water), increase DMG by 20%.",
                         ability2: "Increase DMG by 10% when near-death."
                     }
             },
@@ -1972,7 +1972,7 @@ const UnitInformation = [
             {
                 name: "Noble Bamint",
                 slot: "/db/Mines/thumbnail/magLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_103141.png",
                 skill: "70s CT - 8400% Fire DMG (MAG). 70% chance to inflict Burn.",
                 skillbreak: 1000,
                 passive: 
@@ -2068,12 +2068,12 @@ const UnitInformation = [
             {
                 name: "Efkeria",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_103781.png",
                 skill: "35s CT - 5000% Earth DMG (PHY). Heal own HP by 260 and increase own Arts by 20 each time this attack hits an Enemy (only once per enemy, per usage).",
                 skillbreak: 1500,
                 passive: 
                     {
-                        ability1: "When equipped by Fen, increase DMG by 20%. When near-death, increase evasion by 15%. Does not stack with Abilities of the same name.",
+                        ability1: "When equipped by Fen (Earth), increase DMG by 20%. When near-death, increase evasion by 15%. Does not stack with Abilities of the same name.",
                         ability2: "Increase DMG to Enemies with 50% or less HP by 15%. Does not stack with Abilities of the same name."
                     }
             },
@@ -2175,12 +2175,12 @@ const UnitInformation = [
             {
                 name: "Ryude Magus",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_103511.png",
                 skill: "50s CT - 8500% Light DMG (PHY). For 8s, increase Allies' Critical Rate by 60% against Enemies in Break.",
                 skillbreak: 1400,
                 passive: 
                     {
-                        ability1: "When equipped by Zeorg, increase DEF by 50% and DMG by 20%. Does not stack with Abilities of the same name.",
+                        ability1: "When equipped by Zeorg (Light), increase DEF by 50% and DMG by 20%. Does not stack with Abilities of the same name.",
                         ability2: "Increase Allies' Critical DMG against Enemies in Break by 20%. Does not stack with Abilities of the same name."
                     }
             },
@@ -2271,12 +2271,12 @@ const UnitInformation = [
             {
                 name: "Maleficium",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_104051.png",
                 skill: "90s CT - 13000% Dark DMG (MAG).",
                 skillbreak: 1200,
                 passive: 
                     {
-                        ability1: "When equipped by Melia, increase DMG by 20% and heal HP by 10/s. Does not stack with Abilities of the same name.",
+                        ability1: "When equipped by Melia (Dark), increase DMG by 20% and heal HP by 10/s. Does not stack with Abilities of the same name.",
                         ability2: "Increase DMG against Blinded Enemies by 20%. Does not stack with Abilities of the same name."
                     }
             },
@@ -2378,7 +2378,7 @@ const UnitInformation = [
             {
                 name: "Geshpenst",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_103901.png",
                 skill: "50s CT - 7200% Dark DMG (PHY).",
                 skillbreak: 1600,
                 passive: 
@@ -2434,7 +2434,6 @@ const UnitInformation = [
                 artsbreak: 1666,
                 truearts: "44444% Dark DMG (PHY). Consume 50% of own HP + For 30s, reduce own DMG RES by 40%, increase own DMG by 50%, increase own Crit Rate by 100% and heal own HP for 1% of DMG dealt.",
                 trueartsbreak: 2666,
-                //tentative??? reym help do i just write crossarts for the ca 
                 crossarts: "66666% Dark DMG (PHY). For 99s, increase Grad and Nier's DMG by 66%, Critical DMG by 99%.",
                 crossartsbreak: 2666
             },
@@ -2446,7 +2445,7 @@ const UnitInformation = [
             }, 
         evolution: 
             {
-                evo45: //reym how do the funky 20 stone thing
+                evo45:
                 {
                     mat1: "/db/Icons/dungeon_drops/material_thumbnail_dark4.png",
                     mat1amt: 2,
@@ -2468,7 +2467,7 @@ const UnitInformation = [
             {
                 name: "Berserk",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_107661.png",
                 skill: "70s CT - 6666% Dark DMG (PHY). For 10s, decrease Enemies' Dark RES and PHY RES by 20%.",
                 skillbreak: 1666,
                 passive: 
@@ -2535,7 +2534,7 @@ const UnitInformation = [
             }, 
         evolution: 
             {
-                evo45:　//reym how do orb evo mats
+                evo45:
                 {
                     mat1: "/db/Icons/dungeon_drops/material_thumbnail_dark4.png",
                     mat1amt: 2,
@@ -2557,7 +2556,7 @@ const UnitInformation = [
             {
                 name: "Basilisk",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_108521.png",
                 skill: "70s CT - 6666% Dark DMG (PHY). For 10s, increase own Dark DMG by 44%.",
                 skillbreak: 1666,
                 passive: 
@@ -2622,7 +2621,7 @@ const UnitInformation = [
             }, 
         evolution: 
             {
-                evo45: //reym how do i do the funky crystal thing for evo mats
+                evo45: 
                 {
                     mat1: "/db/Icons/dungeon_drops/material_thumbnail_fire4.png",
                     mat1amt: 3,
@@ -2642,7 +2641,7 @@ const UnitInformation = [
             {
                 name: "Shurahalt",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_107561.png",
                 skill: "50s CT - 8000% Fire DMG (PHY). If user is Fire, for 6s, increase own DMG by 50% and Break PWR by 100%.",
                 skillbreak: 2100,
                 passive: 
@@ -2730,7 +2729,7 @@ const UnitInformation = [
             {
                 name: "Hepaistos",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_108861.png",
                 skill: "45s CT - 10000% Earth DMG (PHY). For 8s, increase own Earth DMG by 30%.",
                 skillbreak: 300,
                 passive: 
@@ -2825,12 +2824,12 @@ const UnitInformation = [
             {
                 name: "Rig Arcela",
                 slot: "/db/Mines/thumbnail/healLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_103151.png",
                 skill: "50s CT - Cure Allies' status ailments (except Faint), heal Allies' HP by 1200.",
                 skillbreak: 0,
                 passive: 
                     {
-                        ability1: "When equipped by Liese, increase DMG by 20%.",
+                        ability1: "When equipped by Liese (Light), increase DMG by 20%.",
                         ability2: "Increase Healing Output by 10%."
                     }
             },
@@ -2932,7 +2931,7 @@ const UnitInformation = [
             {
                 name: "Wahrheit",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_104021.png",
                 skill: "90s CT - 10800% Water DMG (PHY). If user is Human, increase Arts DMG by 50%. For 10s, reduce own Arts by 2/s.",
                 skillbreak: 1000,
                 passive: 
@@ -2997,7 +2996,7 @@ const UnitInformation = [
             }, 
         evolution: 
             {
-                evo45: //rEYm how to rocc
+                evo45: 
                 {
                     mat1: "/db/Icons/dungeon_drops/material_thumbnail_fire4.png",
                     mat1amt: 2,
@@ -3019,7 +3018,7 @@ const UnitInformation = [
             {
                 name: "Wild Cat",
                 slot: "/db/Mines/thumbnail/suppLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_108771.png",
                 skill: "60s CT - 1000% Fire DMG (PHY). For 20s, increase Allies' Break PWR by 25%, and Fire Allies' DMG by 15%.",
                 skillbreak: 1000,
                 passive: 
@@ -3111,12 +3110,12 @@ const UnitInformation = [
             {
                 name: "Alchemia",
                 slot: "/db/Mines/thumbnail/magLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_104411.png",
                 skill: "40s CT - 7200% Dark DMG (MAG). For 5s, increase own BE generation by 50%, reduce Enemies' ATK and DEF by 20%.",
                 skillbreak: 700,
                 passive: 
                     {
-                        ability1: "When equipped by Rem, increase DMG by 20% and healing when using Equipment to 3% HP.",
+                        ability1: "When equipped by Rem (Grand Summoners), increase DMG by 20% and healing when using Equipment to 3% HP.",
                         ability2: "Increase MAG DMG by 10%. When near-death, increase Arts by 2/s."
                     }
             },
@@ -3514,7 +3513,7 @@ const UnitInformation = [
             {
                 name: "Fe'Ode",
                 slot: "/db/Mines/thumbnail/magLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_105671.png",
                 skill: "50s CT - 6800% Dark DMG (MAG). For 10s, increase own Arts by 2/s.",
                 skillbreak: 1200,
                 passive: 
@@ -5502,8 +5501,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo4: "A swordsman who escaped from the Gods in order to attain skills as a swordsman during the early period of the Ancient War. He traveled all over the world to find a strong opponent. Hearing the rumors of the "Destruction Giant" he heads to where the Giants lived. However, who he encountered was a girl running away from Demons. Sensing that the Demon was strong, he fought against it, but disappeared during their fight. He ended up saving the girl, but this will change the rest of his life.",
-                evo5: "The Swordsman who traveled with a girl named Yummi during the early period of the Ancient War. His battles against strong opponents brushed up his magnificent sword skills. However, he still was not able to find the "Destruction Giant." One day, Yummi fell under the trap of a woman of the Spirit race and attacked him. Seeing her horrendous powers, he recognized she was the one he was looking for. Still, he was not able to raise his sword against her.",
+                evo4: "A swordsman who escaped from the Gods in order to attain skills as a swordsman during the early period of the Ancient War. He traveled all over the world to find a strong opponent. Hearing the rumors of the \"Destruction Giant\" he heads to where the Giants lived. However, who he encountered was a girl running away from Demons. Sensing that the Demon was strong, he fought against it, but disappeared during their fight. He ended up saving the girl, but this will change the rest of his life.",
+                evo5: "The Swordsman who traveled with a girl named Yummi during the early period of the Ancient War. His battles against strong opponents brushed up his magnificent sword skills. However, he still was not able to find the \"Destruction Giant.\" One day, Yummi fell under the trap of a woman of the Spirit race and attacked him. Seeing her horrendous powers, he recognized she was the one he was looking for. Still, he was not able to raise his sword against her.",
                 evoawk: "'Spare the women and children...' This dignified swordsman never wavered in his principles. Perhaps it was this conviction, that let him remain true even when he was under attack, that helped the little girl's heart within the rampaging Giant of Ruin to win out. Although the swordsman could not win, he perhaps found some satisfaction in fighting a worthy adversary. The swordsman had a smile throughout the battle, and when the girl's frenzy abated, he held out his hand and took her on his journey."
             }
     },
@@ -5890,7 +5889,7 @@ const UnitInformation = [
             {
                 name: "Saint Blaze",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_Detail_106241.png",
                 skill: "65s CT - 9500% Water DMG (PHY). For 10s, increase Water Allies' DMG by 40%.",
                 skillbreak: 1000,
                 passive: 
@@ -5982,7 +5981,7 @@ const UnitInformation = [
             {
                 name: "Flambardo",
                 slot: "/db/Mines/thumbnail/defLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_106361.png",
                 skill: "25s CT - For 12s, increase Allies' DMG RES by 20%. Allies with 50% or less HP gain a 30% increase instead.",
                 skillbreak: 0,
                 passive: 
@@ -5995,7 +5994,7 @@ const UnitInformation = [
             {   
                 evo4: "One of the Divine Knights serving the Divine Guardian Uther in the first part of the Ancient War. Her deep respect for the vice-captain Platina led her to become a close confidant even from her training days. The pairing of attacker Platina and defender Sanstone created an unmatched, perfectly balanced team and their deeds of arms earned unending praise. Even when they captured the assassin sent by the Demons, she didn't hesitate to agree with the vice-captain about the brutal treatment of the perpetrator. She was, on the contrary, the one who blamed the captain the most for protecting the young demon.",
                 evo5: "The knight known as the Invincible Shield of the Divine Knights. After the captain fled, she strongly favored the vice-captain to take his place but was refused. Platina continued to believe that their captain would return, but this caused Sanstone such pain that she proposed to send a force to capture the rebel. She led the assault herself and finally tracked the captain down. She attacked, hoping to break the spell the captain held over her dear Platina. That was the only instant this defending knight had ever shown the desire to go on the offensive.",
-                evoawk: "As a vice-commander of the Divine Guardian Divine Knights, she serves Platina without reserve, and fights ever on the front line to guard her commander and fellow knights without regard to her own safety. She bears the name "Invincible Shield" for her history of withstanding Demonic attacks, and holds herself alone responsible for the safety of the Divine Knights. However, her motivation comes from the deep need to keep one special person safe."
+                evoawk: "As a vice-commander of the Divine Guardian Divine Knights, she serves Platina without reserve, and fights ever on the front line to guard her commander and fellow knights without regard to her own safety. She bears the name \"Invincible Shield\" for her history of withstanding Demonic attacks, and holds herself alone responsible for the safety of the Divine Knights. However, her motivation comes from the deep need to keep one special person safe."
             }
     },
     { //Platina - Missing Lore, TW Image
@@ -6077,7 +6076,7 @@ const UnitInformation = [
             {
                 name: "Knight's Glow",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_106081.png",
                 skill: "70s CT - 2000% Light DMG (PHY).",
                 skillbreak: 8000,
                 passive: 
@@ -6324,7 +6323,7 @@ const UnitInformation = [
             {
                 name: "Castillo",
                 slot: "/db/Mines/thumbnail/defLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_109231.png",
                 skill: "40s CT - For 10s, increase Allies' DMG RES by 15%, and Water Allies' DEF by 50%.",
                 skillbreak: 0,
                 passive: 
@@ -6636,7 +6635,7 @@ const UnitInformation = [
             {
                 name: "Magmation",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_106481.png",
                 skill: "40s CT - 5800% Fire DMG (PHY). If user is Fire, increase own BE generation by 50% for 8s.",
                 skillbreak: 1000,
                 passive: 
@@ -6762,7 +6761,7 @@ const UnitInformation = [
             {
                 name: "Valiant",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_107281.png",
                 skill: "30s CT - 4500% Light DMG (PHY). For 5s, reduce non-God Enemies' DMG RES by 20%.",
                 skillbreak: 1000,
                 passive: 
@@ -6845,7 +6844,7 @@ const UnitInformation = [
             {
                 name: "Peluscia",
                 slot: "/db/Mines/thumbnail/healLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_104471.png",
                 skill: "50s CT - 7000% Typeless DMG (MAG). Heal own HP by 150 each time this attack hits an Enemy.",
                 skillbreak: 1200,
                 passive: 
@@ -7148,7 +7147,7 @@ const UnitInformation = [
             {
                 name: "Siegfried",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_104301.png",
                 skill: "3s CT - 900% Elementless DMG (PHY). Deal 1200% Elementless DMG (PHY) to Demon and God Enemies instead. If this attack hits an Enemy, heal own HP by 50 + For 3s, reduce own DEF by 20%.",
                 skillbreak: 240,
                 passive: 
@@ -7231,7 +7230,7 @@ const UnitInformation = [
             {
                 name: "Gestalt",
                 slot: "/db/Mines/thumbnail/magLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_104311.png",
                 skill: "60s CT - 4444% Dark DMG (MAG). If this attack hits a Boss with Status Ailments, steal 20 Arts from its Arts + For 6s, reduce Enemies' Blind RES by 50%.",
                 skillbreak: 1000,
                 passive: 
@@ -8001,7 +8000,7 @@ const UnitInformation = [
             {
                 name: "Glamerald",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_104461.png",
                 skill: "45s CT - 7200% Earth DMG (PHY). For 8s, increase Earth Allies' Break PWR by 30%.",
                 skillbreak: 2400,
                 passive: 
@@ -8154,7 +8153,7 @@ const UnitInformation = [
             {
                 name: "Proscris",
                 slot: "/db/Mines/thumbnail/magLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_104801.png",
                 skill: "35s CT - 5000% Water DMG (MAG). Heal own HP by 260 and increase own Arts by 20 each time this attack hits an Enemy (only once per enemy, per usage).",
                 skillbreak: 1500,
                 passive: 
@@ -8718,12 +8717,12 @@ const UnitInformation = [
             {
                 name: "Joyeuse",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_104401.png",
                 skill: "70s CT - 8000% Light DMG (PHY). For 8s, ignore 50% of Enemy DEF, and increase DMG RES by 30%.",
                 skillbreak: 1200,
                 passive: 
                     {
-                        ability1: "When equipped by Celia, increase DMG by 20% and increase Freeze and Paralysis RES by 100%. Does not stack with Abilities of the same name.",
+                        ability1: "When equipped by Celia (Light), increase DMG by 20% and increase Freeze and Paralysis RES by 100%. Does not stack with Abilities of the same name.",
                         ability2: "Increase max HP by 1000. When near-death, increase DMG RES by 10%."
                     }
             },
@@ -8801,7 +8800,7 @@ const UnitInformation = [
             {
                 name: "Dos Muertes",
                 slot: "/db/Mines/thumbnail/magLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_105651.png",
                 skill: "30s CT - 6800% Dark DMG (MAG). Heal user's HP by 7% of DMG dealt by this attack.",
                 skillbreak: 1200,
                 passive: 
@@ -8881,7 +8880,7 @@ const UnitInformation = [
             {
                 name: "Griffin",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_105541.png",
                 skill: "45s CT - 7800% Earth DMG (MAG). For 12s, reduce Enemies' Paralysis RES by 60%.",
                 skillbreak: 1500,
                 passive: 
@@ -8960,7 +8959,7 @@ const UnitInformation = [
             {
                 name: "Fatalite",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_104391.png",
                 skill: "25s CT - 4200% Water DMG (PHY). If user is Human, increase DMG and Break PWR of next Skill by 25%.",
                 skillbreak: 1000,
                 passive: 
@@ -9043,12 +9042,12 @@ const UnitInformation = [
             {
                 name: "Glorious",
                 slot: "/db/Mines/thumbnail/magLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_104631.png",
                 skill: "40s CT - 7200% Earth DMG (MAG). 80% chance to inflict Paralysis.",
                 skillbreak: 1200,
                 passive: 
                     {
-                        ability1: "When equipped by Kane, increase DMG by 20% and increase Freeze and Paralysis RES by 100%. Does not stack with Abilities of the same name.",
+                        ability1: "When equipped by Kane (Earth), increase DMG by 20% and increase Freeze and Paralysis RES by 100%. Does not stack with Abilities of the same name.",
                         ability2: "If the user is Human, increase Arts DMG by 10% and increase Arts DMG RES by 15%. Does not stack with Abilities of the same name."
                     }
             },
@@ -9190,7 +9189,7 @@ const UnitInformation = [
             {
                 name: "Vengeance",
                 slot: "/db/Mines/thumbnail/magLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_107291.png",
                 skill: "60s CT - 8000% Dark DMG (PHY). For 8s, increase God Allies' DMG by 40%.",
                 skillbreak: "?",
                 passive: 
@@ -9267,7 +9266,7 @@ const UnitInformation = [
             {
                 name: "Fight Club Goku Uniform",
                 slot: "/db/Mines/thumbnail/suppLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_151341.png",
                 skill: "30s CT - Increase Allies' Arts by 15. For 15s, increase Allies' DMG by 20%.",
                 skillbreak: 0,
                 passive: 
@@ -9344,7 +9343,7 @@ const UnitInformation = [
             {
                 name: "Bakuzan",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_151331.png",
                 skill: "50s CT - 7500% Water DMG (PHY).",
                 skillbreak: 5000,
                 passive: 
@@ -9421,7 +9420,7 @@ const UnitInformation = [
             {
                 name: "Scissor Blade",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_151321.png",
                 skill: "55s CT - 13000% Fire DMG (PHY). For 20s, increase user's Fire DMG by 30%.",
                 skillbreak: 1200,
                 passive: 
@@ -9432,7 +9431,7 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "A girl who transferred to Honnouji Academy. She has a huge scissor blade and is looking for the other half. She meets her friend Mako Mankanshoku, the sentient sailor uniform Senketsu and the mysterious Satsuki Kiryuin. Eventually, Ryuko throws herself into an intense battle. Nobody can stop her once Senketsu reveals his powers using "Life Fiber Synchronize".",
+                evo5: "A girl who transferred to Honnouji Academy. She has a huge scissor blade and is looking for the other half. She meets her friend Mako Mankanshoku, the sentient sailor uniform Senketsu and the mysterious Satsuki Kiryuin. Eventually, Ryuko throws herself into an intense battle. Nobody can stop her once Senketsu reveals his powers using \"Life Fiber Synchronize\".",
                 evoawk: "This is the ultimate form of Kamui reached when Senketsu has combined with all other Goku Uniforms during the last battle. Known as 'Senketsu Kisaragi', its enormous power could be said to be that of all humanity combined. With humanity's hope, she flies into the eternal sky..."
             }
     },
@@ -9564,7 +9563,7 @@ const UnitInformation = [
             {
                 name: "Sans Pluie",
                 slot: "/db/Mines/thumbnail/magLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_104961.png",
                 skill: "40s CT - 7200% Light DMG (MAG). 80% chance to inflict Poison. If user is Demon, increase own Arts by 30.",
                 skillbreak: 1200,
                 passive: 
@@ -9777,7 +9776,7 @@ const UnitInformation = [
             {
                 name: "Dragon Twilight",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_104881.png",
                 skill: "50s CT - 7800% Fire DMG (PHY). For 8s, increase Allies' Break PWR by 30%.",
                 skillbreak: 1500,
                 passive: 
@@ -9860,7 +9859,7 @@ const UnitInformation = [
             {
                 name: "Diamond Chakram",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_104891.png",
                 skill: "40s CT - 6650% Water DMG (PHY). For 8s, increase Allies' Equipment DMG by 25%. If user is Water, increase Equipment DMG by 40% instead.",
                 skillbreak: 1000,
                 passive: 
@@ -9940,7 +9939,7 @@ const UnitInformation = [
             {
                 name: "Viperra",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_104971.png",
                 skill: "50s CT - 8500% Earth DMG (PHY). For 8s, reduce Enemies' Earth RES by 50%.",
                 skillbreak: 1700,
                 passive: 
@@ -10020,7 +10019,7 @@ const UnitInformation = [
             {
                 name: "Draco Hastia",
                 slot: "/db/Mines/thumbnail/magLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_105001.png",
                 skill: "50s CT - 8200% Dark DMG (MAG). For 12s, reduce Enemies' Freeze RES by 50%. If user is Water, increase DMG by 20% for 12s.",
                 skillbreak: 1200,
                 passive: 
@@ -10097,7 +10096,7 @@ const UnitInformation = [
             {
                 name: "Frozen Twin Swords",
                 slot: "/db/Mines/thumbnail/magLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_105061.png",
                 skill: "5s CT - 2200% Water DMG (MAG). Heal own HP by 100.",
                 skillbreak: 500,
                 passive: 
@@ -10174,7 +10173,7 @@ const UnitInformation = [
             {
                 name: "Volkans",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_105071.png",
                 skill: "70s CT - 10000% Fire DMG (PHY). Burns Enemies and Allies.",
                 skillbreak: 3300,
                 passive: 
@@ -10318,7 +10317,7 @@ const UnitInformation = [
             {
                 name: "Atropos",
                 slot: "/db/Mines/thumbnail/magLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_105111.png",
                 skill: "50s CT - 7200% Light DMG (MAG). For 16s, increase own Skill CT REC by 30%. If user is Light, increase Skill CT REC by 80% instead.",
                 skillbreak: 1200,
                 passive: 
@@ -10401,7 +10400,7 @@ const UnitInformation = [
             {
                 name: "Deino",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_105261.png",
                 skill: "45s CT - 7800% Dark DMG (PHY). Heal own HP by 8% of DMG dealt by this attack + For 10s, increase Allies' accuracy by 30%.",
                 skillbreak: 1200,
                 passive: 
@@ -10616,12 +10615,12 @@ const UnitInformation = [
             {
                 name: "IZANAGI",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_105431.png",
                 skill: "10s CT - 2300% Earth DMG (PHY). For 3s, increase own Arts by 2/s.",
                 skillbreak: 300,
                 passive: 
                     {
-                        ability1: "When equipped by Sakura Mira, increase DMG by 20% and increase Arts by 2/s. Does not stack with Abilities of the same name.",
+                        ability1: "When equipped by Mira (Earth), increase DMG by 20% and increase Arts by 2/s. Does not stack with Abilities of the same name.",
                         ability2: "Increase Equipment CT REC by 15%."
                     }
             },
@@ -10698,12 +10697,12 @@ const UnitInformation = [
             {
                 name: "Exceed Zechs",
                 slot: "/db/Mines/thumbnail/magLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_105621.png",
                 skill: "45s CT - 8800% Dark DMG (MAG). If own HP is 75% or more, increase own Arts by 30. For 8s, increase own Arts DMG by 50%.",
                 skillbreak: 1000,
                 passive: 
                     {
-                        ability1: "When equipped by Dark Zeorg, increase DMG and max HP by 20%, Paralysis and Freeze RES by 50%. Does not stack with Abilities of the same name.",
+                        ability1: "When equipped by Zeorg (Dark), increase DMG and max HP by 20%, Paralysis and Freeze RES by 50%. Does not stack with Abilities of the same name.",
                         ability2: "When near-death, heal own HP by 3% of DMG dealt."
                     }
             },
@@ -10773,7 +10772,7 @@ const UnitInformation = [
         lore: 
             {   
                 evo5: "A Giant clad in flames that fought alongside the leader of a feudal domain in a time before the Ancient War. He used his incredible physical strength to support the leader in creating his own nation, and as such came to be revered by the land's people as a Hades Giant. After the country was established and he fulfilled his purpose, he sacrificed his soul and fell into a long slumber in order to become the guardian Giant of the land. Before he fell asleep, he told the people to awaken him again in their time of need with the power of one born underneath a star of fire. It's said that when that time came, he was without a soul, but fought by connecting himself to the soul of the one who awakened him.",
-                evoawk: "He awoke to a gruesome sight: the corpses of the people being enslaved... They were the corpses of the villagers who enshrined and adored him. And, the "key" to his awakening was also born in the same village. Her small body shook in anger, but her soul burned so fervently that it could never be extinguished. Her intense emotions made the flames in his fist burn bright. Knowing he had something left to protect, he prepared to enter the fray once again for the sake of his little master."
+                evoawk: "He awoke to a gruesome sight: the corpses of the people being enslaved... They were the corpses of the villagers who enshrined and adored him. And, the \"key\" to his awakening was also born in the same village. Her small body shook in anger, but her soul burned so fervently that it could never be extinguished. Her intense emotions made the flames in his fist burn bright. Knowing he had something left to protect, he prepared to enter the fray once again for the sake of his little master."
             }
     },
     { //Strife - Missing Lore
@@ -11176,12 +11175,12 @@ const UnitInformation = [
             {
                 name: "Fomalhaut",
                 slot: "/db/Mines/thumbnail/magLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_105711.png",
                 skill: "50s CT - 7200% Fire DMG (MAG). For 10s, reduce Enemies' Fire RES by 50%.",
                 skillbreak: 1200,
                 passive: 
                     {
-                        ability1: "When equipped by Berwick, increase stats and DMG by 30%. Does not stack with Abilities of the same name.",
+                        ability1: "When equipped by Berwick (Magic), increase stats and DMG by 30%. Does not stack with Abilities of the same name.",
                         ability2: "Increase DMG to Earth Enemies by 20%."
                     }
             },
@@ -11259,7 +11258,7 @@ const UnitInformation = [
             {
                 name: "Tempest",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_105741.png",
                 skill: "100s CT - 14000% Earth DMG (PHY). If user is Earth, increase own Arts by 50.",
                 skillbreak: 800,
                 passive: 
@@ -11342,7 +11341,7 @@ const UnitInformation = [
             {
                 name: "Adamas Gear",
                 slot: "/db/Mines/thumbnail/defLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_106001.png",
                 skill: "30s CT - For 15s, increase Target's DMG RES by 35%.",
                 skillbreak: 0,
                 passive: 
@@ -11425,7 +11424,7 @@ const UnitInformation = [
             {
                 name: "ZANKETSU",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_106071.png",
                 skill: "35s CT - 12000% Water DMG (PHY). For 10s, increase own Skill CT REC by 50%.",
                 skillbreak: 2000,
                 passive: 
@@ -11509,7 +11508,7 @@ const UnitInformation = [
             {
                 name: "Vanish",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_106661.png",
                 skill: "50s CT - 9200% Dark DMG (PHY). For 10s, increase Allies' Skill CT REC by 30%.",
                 skillbreak: 5500,
                 passive: 
@@ -11591,7 +11590,7 @@ const UnitInformation = [
             {
                 name: "Maelstrom",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_105911.png",
                 skill: "45s CT - 7800% Water DMG (PHY). If user is Water, increase all Allies' Status RES (Except Faint) by 100% for 12s.",
                 skillbreak: 1500,
                 passive: 
@@ -11674,7 +11673,7 @@ const UnitInformation = [
             {
                 name: "Creation",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_106961.png",
                 skill: "40s CT - 8000% Dark DMG (PHY). For 8s, increase own MAG DMG by 30%, Arts by 3/s.",
                 skillbreak: 2000,
                 passive: 
@@ -11887,7 +11886,7 @@ const UnitInformation = [
             {
                 name: "Ebony Radiance & Ivory Tempest",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_105941.png",
                 skill: "40s CT - 9000% Light DMG (PHY). For 12s, reduce Enemies' Light RES by 35%.",
                 skillbreak: 1500,
                 passive: 
@@ -12230,7 +12229,7 @@ const UnitInformation = [
             {
                 name: "Feronica",
                 slot: "/db/Mines/thumbnail/magLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_106301.png",
                 skill: "60s CT - 7500% Water DMG (MAG). For 10s, increase own MAG DMG by 30% and reduce Enemies' Freeze RES by 30%.",
                 skillbreak: 1000,
                 passive: 
@@ -12246,16 +12245,16 @@ const UnitInformation = [
             }
     },
     { //Shasha - Missing Lore
-        id: "?",
+        id: 102636412,
         name: "Shasha",
         attribute: "Light",
         type: "Demon",
         image: 
             {
-                detail5: "?",
-                detailawk: "/db/Units/Detail/unit_detail_.png",
-                thumb5: "?",
-                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_.png"
+                detail5: "/db/Units/Detail/unit_detail_102635412.png",
+                detailawk: "/db/Units/Detail/unit_detail_102636412.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_102635412.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_102636412.png"
             },
         slots: 
             {
@@ -12378,7 +12377,7 @@ const UnitInformation = [
             {
                 name: "Innocent Noah",
                 slot: "/db/Mines/thumbnail/magLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_106221.png",
                 skill: "55s CT - 8800% Light DMG (MAG). For 10s, increase Allies' ATK and DEF by 50%.",
                 skillbreak: 1500,
                 passive: 
@@ -12460,7 +12459,7 @@ const UnitInformation = [
             {
                 name: "Gran Killer",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_106231.png",
                 skill: "50s CT - 7500% Dark DMG (PHY). For 10s, increase own Critical Rate by 50%.",
                 skillbreak: 900,
                 passive: 
@@ -12555,7 +12554,7 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "The young swordsman of the Leone Templars, once feared as a powerful sorcerer called "The Crimson Marksman". However, when under attack from the Gods Army, he used sorcery that broke through his spiritual limits to save his comrades, and he lost his powers. Having lost power and confidence, he wandered wasted until and encounter with his old commander's beloved sword Zanketsu reawakened his lost passion. Beneath the castle of Granadia, he held a sword for the first time in his life.",
+                evo5: "The young swordsman of the Leone Templars, once feared as a powerful sorcerer called \"The Crimson Marksman\". However, when under attack from the Gods Army, he used sorcery that broke through his spiritual limits to save his comrades, and he lost his powers. Having lost power and confidence, he wandered wasted until and encounter with his old commander's beloved sword Zanketsu reawakened his lost passion. Beneath the castle of Granadia, he held a sword for the first time in his life.",
                 evoawk: "The blazing-fast swordsman of the Leone Templars. A former sorcerer, he began following the path of the sword when he inherited Zanketsu, the beloved blade of his former captain, who had perished on the battlefield. He had long studied the sword techniques used by his old captain, and this imitation helped him become dizzying-fast. His skills with the blade are lightning-quick, but he takes no pride in them; he simply continues to follow his former leader's footsteps."
             }
     },
@@ -12627,12 +12626,12 @@ const UnitInformation = [
             {
                 name: "Asterisk",
                 slot: "/db/Mines/thumbnail/suppLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_106351.png",
                 skill: "60s CT - Increase own Arts by 20, Increase Allies' Arts by 20 + For 10s, increase Allies' Arts by 2/s.",
                 skillbreak: 0,
                 passive: 
                     {
-                        ability1: "When equipped by Rosetta, increase Arts by 1/s. Increase Magia Drive duration by 20s. Increase Arts by 50 when entering Magia Drive. Does not stack with Abilities of the same name.",
+                        ability1: "When equipped by Rosetta (Water), increase Arts by 1/s. Increase Magia Drive duration by 20s. Increase Arts by 50 when entering Magia Drive. Does not stack with Abilities of the same name.",
                         ability2: "Increase MAG DMG by 20%."
                     }
             },
@@ -12706,7 +12705,7 @@ const UnitInformation = [
             {
                 name: "EX Gate",
                 slot: "/db/Mines/thumbnail/suppLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_106581.png",
                 skill: "70s CT - For 15s, increase Target's Arts by 10/s, increase Allies' Critical Rate by 100%.",
                 skillbreak: 0,
                 passive: 
@@ -12785,7 +12784,7 @@ const UnitInformation = [
             {
                 name: "Valtrenis",
                 slot: "/db/Mines/thumbnail/suppLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_106271.png",
                 skill: "30s CT - 100% Earth DMG (MAG). For 10s, reduce Enemies' Earth RES by 20% and increase Allies' DMG to Light Enemies by 50%.",
                 skillbreak: 800,
                 passive: 
@@ -13064,7 +13063,7 @@ const UnitInformation = [
             {
                 name: "Azure Offering",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_108451.png",
                 skill: "60s CT - 3000% Water DMG (PHY). For 10s, increase own Break PWR by 70%.",
                 skillbreak: 3500,
                 passive: 
@@ -13143,12 +13142,12 @@ const UnitInformation = [
             {
                 name: "Stratega",
                 slot: "/db/Mines/thumbnail/magLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_106411.png",
                 skill: "45s CT - 8800% Dark DMG (MAG). For 10s, reduce Enemies' DMG RES by 30%.",
                 skillbreak: 1100,
                 passive: 
                     {
-                        ability1: "When equipped by Dark Fen, increase Critical DMG by 50%.",
+                        ability1: "When equipped by Fen (Dark), increase Critical DMG by 50%.",
                         ability2: "Increase DMG to Giant Bosses by 20%."
                     }
             },
@@ -13222,12 +13221,12 @@ const UnitInformation = [
             {
                 name: "NANASHI",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_106441.png",
                 skill: "70s CT - 12500% Dark DMG (PHY). If user is Dark, increase own DMG by 50% for 10s.",
                 skillbreak: 1500,
                 passive: 
                     {
-                        ability1: "When equipped by Dark Kane, increase DMG by 30% and Arts Gauge by 1/s. Does not stack with Abilities of the same name.",
+                        ability1: "When equipped by Kane (Dark), increase DMG by 30% and Arts Gauge by 1/s. Does not stack with Abilities of the same name.",
                         ability2: "Increase Critical Rate by 20%."
                     }
             },
@@ -13433,7 +13432,7 @@ const UnitInformation = [
             {
                 name: "Saber Arm",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_106491.png",
                 skill: "40s CT - 9000% Water DMG (PHY). For 12s, reduce Enemies' Water and PHY RES by 20%.",
                 skillbreak: 1000,
                 passive: 
@@ -13512,7 +13511,7 @@ const UnitInformation = [
             {
                 name: "Alsol",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_106531.png",
                 skill: "40s CT - 10000% Light DMG (PHY). 70% chance to inflict Paralysis.",
                 skillbreak: "?",
                 passive: 
@@ -13591,7 +13590,7 @@ const UnitInformation = [
             {
                 name: "Starisarta",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "item_detail_106521.png",
                 skill: "45s CT - 10000% Dark DMG (PHY). For 10s, increase Allies' DEF by 50%.",
                 skillbreak: 1800,
                 passive: 
@@ -13673,7 +13672,7 @@ const UnitInformation = [
             {
                 name: "Demonic Seal",
                 slot: "/db/Mines/thumbnail/suppLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_106721.png",
                 skill: "25s CT - For 20s, increase own Arts by 3/s and increase own DMG by 40%.",
                 skillbreak: 0,
                 passive: 
@@ -13752,7 +13751,7 @@ const UnitInformation = [
             {
                 name: "Netherworld Silver",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_106731.png",
                 skill: "60s CT - 13000% Dark DMG (PHY). For 8s, increase own PHY DMG by 50%. Reduce Light Enemies' Dark RES by 20%.",
                 skillbreak: 2000,
                 passive: 
@@ -13831,7 +13830,7 @@ const UnitInformation = [
             {
                 name: "Mirage Kimono",
                 slot: "/db/Mines/thumbnail/magLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_107031.png",
                 skill: "50s CT - 7500% Light DMG (MAG). For 10s, increase Allies' BE generated by 50%. If user is Light, increase own DMG by 30%.",
                 skillbreak: 1300,
                 passive: 
@@ -13911,7 +13910,7 @@ const UnitInformation = [
             {
                 name: "Crimson Talon",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_106991.png",
                 skill: "60s CT - 12500% Dark DMG (PHY). For 10s, increase own Arts by 4/s, reduce own DEF by 30%.",
                 skillbreak: 2300,
                 passive: 
@@ -13991,7 +13990,7 @@ const UnitInformation = [
             {
                 name: "Dual Thunberbolts",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_107011.png",
                 skill: "20s CT - 3800% Light DMG (PHY). For 5s, increase own Critical Rate by [# of times this equip has been used in quest x 25%] (up to 100%).",
                 skillbreak: 500,
                 passive: 
@@ -14070,7 +14069,7 @@ const UnitInformation = [
             {
                 name: "Will-o'-the-Wisp",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_106761.png",
                 skill: "80s CT - 11000% Fire DMG (PHY). For 12s, increase own ATK by 80%. If user is Fire, increase ATK by 150% instead.",
                 skillbreak: 2500,
                 passive: 
@@ -14149,7 +14148,7 @@ const UnitInformation = [
             {
                 name: "TSUJI-KAZE",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_106771.png",
                 skill: "60s CT - 9000% Earth DMG (PHY). For 10s, increase Allies' Earth DMG by 40%.",
                 skillbreak: 2200,
                 passive: 
@@ -14232,7 +14231,7 @@ const UnitInformation = [
             {
                 name: "Blood Moon",
                 slot: "/db/Mines/thumbnail/magLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_107051.png",
                 skill: "65s CT - 10,000% Fire DMG (MAG). For 10s, reduce Enemies' Fire and Dark RES by 40%.",
                 skillbreak: 1800,
                 passive: 
@@ -14244,7 +14243,7 @@ const UnitInformation = [
         lore: 
             {   
                 evo5: "An enigmatic girl from the Far East who served as a spy to the Shogun behind the scenes. It was said that bad things would occur wherever she went, and was even rumored that she had something to do with the fall of the Land of Ena. As an ambassador from the capital, she tricked the people of Imari Village in order to obtain the Divine Blade that served as the key to the seal that imprisoned the Demon Fox, and succeeded in resurrecting it. No one knows of her past, but it is speculated that she might have been a former shinobi from her agility and skill with the sword.",
-                evoawk: "Having been chosen to become the vessel for the soul of the Demon Fox, she stood in the way of her former brethren, the shinobi. The burning Magic of the Demon overwhelmed the skilled shinobi, and this power eventually devoured her, too. "I can see the moon…" Perhaps these final words she whispered were filled with yearning to her old days as a shinobi in her village, when she used to gaze up at the sky every night. lost in thought."
+                evoawk: "Having been chosen to become the vessel for the soul of the Demon Fox, she stood in the way of her former brethren, the shinobi. The burning Magic of the Demon overwhelmed the skilled shinobi, and this power eventually devoured her, too. \"I can see the moon…\" Perhaps these final words she whispered were filled with yearning to her old days as a shinobi in her village, when she used to gaze up at the sky every night. lost in thought."
             }
     },
     { //Orgah - Missing TW Image
@@ -14311,7 +14310,7 @@ const UnitInformation = [
             {
                 name: "Exferia",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_106941.png",
                 skill: "45s CT - 7000% Fire DMG (PHY). For 8s, increase own PHY DMG by 20%, if user is Fire, increase own PHY DMG by 50% instead.",
                 skillbreak: 1000,
                 passive: 
@@ -14390,7 +14389,7 @@ const UnitInformation = [
             {
                 name: "Miserable",
                 slot: "/db/Mines/thumbnail/healLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_106851.png",
                 skill: "50s CT - Heal all Allies' HP by 2000 + For 10s, increase own Skill CT REC by 50%.",
                 skillbreak: 0,
                 passive: 
@@ -14469,7 +14468,7 @@ const UnitInformation = [
             {
                 name: "Fleurnika",
                 slot: "/db/Mines/thumbnail/healLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_107081.png",
                 skill: "50s CT - Heal Allies' HP by 40%, remove Seal.",
                 skillbreak: 0,
                 passive: 
@@ -14548,7 +14547,7 @@ const UnitInformation = [
             {
                 name: "Brodithung",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_107241.png",
                 skill: "50s CT - 5000% Water DMG (PHY). For 10s, increase Allies' PHY DMG by 30% and PHY RES by 10%.",
                 skillbreak: 1500,
                 passive: 
@@ -14628,7 +14627,7 @@ const UnitInformation = [
             {
                 name: "Yulibert",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_107141.png",
                 skill: "80s CT - 10000% Earth DMG (PHY). For 15s, increase own Break PWR by 70%. When used while a Giant Boss is broken, increase Arts by 50.",
                 skillbreak: 3400,
                 passive: 
@@ -14707,7 +14706,7 @@ const UnitInformation = [
             {
                 name: "Leivachka",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_107121.png",
                 skill: "90s CT - 13500% Light DMG (PHY). For 12s, increase own PHY DMG by 50%. If user is Light, increase own Critical Rate by 50%.",
                 skillbreak: 2600,
                 passive: 
@@ -14786,7 +14785,7 @@ const UnitInformation = [
             {
                 name: "Lizaverde",
                 slot: "/db/Mines/thumbnail/magLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_107101.png",
                 skill: "30s CT - 6000% Water DMG (MAG). For 10s, increase own Critical DMG by 30%. If user is Water, increase Critical DMG by 60% instead.",
                 skillbreak: 1200,
                 passive: 
@@ -14866,7 +14865,7 @@ const UnitInformation = [
             {
                 name: "SV61",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_107261.png",
                 skill: "30s CT - 6400% Fire DMG (PHY). For 8s, increase own Skill DMG by 50%, increase own Skill CT REC by 50%.",
                 skillbreak: 1000,
                 passive: 
@@ -14878,7 +14877,7 @@ const UnitInformation = [
         lore: 
             {   
                 evo5: "Captain of the knights of the Empire of Isliid. This skilled warrior has achieved much despite his young age, including the subjugation of the Demons. Roy accepts a sudden joint mission with the information bureau, sacrificing his own vacation to allow his subordinates to take their time off in peace. Despite having a gentle expression in front of his friends, he tends to be very stern at work due to his position and responsibilities. This leads him to isolate himself at times, but he is never truly alone thanks to the trust he has earned from the Emperor and his subordinates.",
-                evoawk: "Roy, clad in the uniform of the Information Bureau. The empire has begun training its knights to be prepared for a myriad of combat situations by instructing them how to use a variety of weapons. The "Imperial Gun Arts" method was developed by Gichin Nanbu with the goal of teaching soldiers how to utilize firearms. It was created to accommodate the knight's affinity for close combat, but many-a-knight threw in the towel due to the hellish training needed to grasp the technique (even taking Roy a few years to master)."
+                evoawk: "Roy, clad in the uniform of the Information Bureau. The empire has begun training its knights to be prepared for a myriad of combat situations by instructing them how to use a variety of weapons. The \"Imperial Gun Arts\" method was developed by Gichin Nanbu with the goal of teaching soldiers how to utilize firearms. It was created to accommodate the knight's affinity for close combat, but many-a-knight threw in the towel due to the hellish training needed to grasp the technique (even taking Roy a few years to master)."
             }
     },
     { //Cestina - Missing Lore, TW Image
@@ -14948,7 +14947,7 @@ const UnitInformation = [
             {
                 name: "Supernova",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_107341.png",
                 skill: "30s CT - 7000% Earth DMG (PHY). If user is Earth, for 12s, increase own Arts Gauge by 1/s and increase own PHY DMG by 30%.",
                 skillbreak: 900,
                 passive: 
@@ -15102,7 +15101,7 @@ const UnitInformation = [
             {
                 name: "Etoile",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_107401.png",
                 skill: "35s CT - For 20s, increase target's Arts by 4/s, if user is Light, increase target's MAG DMG by 30%.",
                 skillbreak: 0,
                 passive: 
@@ -15250,7 +15249,7 @@ const UnitInformation = [
             {
                 name: "Grand Destin",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_107601.png",
                 skill: "75s CT - 13000% Light DMG (PHY). For 10s, increase Light Allies' DMG by 40%.",
                 skillbreak: 2000,
                 passive: 
@@ -15399,7 +15398,7 @@ const UnitInformation = [
             {
                 name: "Insight",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_107971.png",
                 skill: "45s CT - 10000% Dark DMG (PHY). For 10s, increase Skill CT REC by 30% and Critical Rate by 70%.",
                 skillbreak: 1300,
                 passive: 
@@ -15548,7 +15547,7 @@ const UnitInformation = [
             {
                 name: "Drago La'cryma",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_107631.png",
                 skill: "55s CT - 9000% Fire DMG (PHY). 100% chance to inflict Burn. If Enemy was burned by this Skill, for 8s, decrease that Enemy's PHY RES by 35%.",
                 skillbreak: 1600,
                 passive: 
@@ -15630,7 +15629,7 @@ const UnitInformation = [
             {
                 name: "Arsenal",
                 slot: "/db/Mines/thumbnail/defLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_107761.png",
                 skill: "25s CT - For 12s, Target gains a DMG barrier that negates 5000 DMG, and increase Target's DEF by 50%.",
                 skillbreak: 0,
                 passive: 
@@ -15713,7 +15712,7 @@ const UnitInformation = [
             {
                 name: "Discontent",
                 slot: "/db/Mines/thumbnail/magLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_107821.png",
                 skill: "50s CT - 9000% Dark DMG (MAG). Increase own Arts by 30 + For 8s, reduce Enemies' Dark RES by 30%.",
                 skillbreak: 1000,
                 passive: 
@@ -15795,7 +15794,7 @@ const UnitInformation = [
             {
                 name: "Cantabile",
                 slot: "/db/Mines/thumbnail/magLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_107941.png",
                 skill: "50s CT - 6000% Light DMG (MAG). For 10s, reduce Enemies' Light RES by 50%.",
                 skillbreak: 1000,
                 passive: 
@@ -15878,7 +15877,7 @@ const UnitInformation = [
             {
                 name: "Assault Rifle Sable",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_107541.png",
                 skill: "50s CT - 9000% Dark DMG (PHY). For 15s, increase own PHY DMG by 30%; if user is Human, increase own PHY DMG by 60% instead.",
                 skillbreak: 900,
                 passive: 
@@ -15959,7 +15958,7 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Born in the Far-East, this travelling priestess made her living through showcasing her traditional performing arts throughout the land. Her family that has worshipped and passed down the legend of the Fox Deity throughout the generations were apparently originally called "Shinobi". When she would swing around her giant calligraphy brush, everything she drew would pop up off the canvas, and come to life with an actual physical form. She was able to do so because of the golden hairs from a fox spirit what were mixed into the head of the brush. She was also known as a travelling artist, with her illustrations ranging from depictions of regional myths to representations of mundane everyday life. These picture scrolls that she created throughout her whole life were passed down through the ages.",
+                evo5: "Born in the Far-East, this travelling priestess made her living through showcasing her traditional performing arts throughout the land. Her family that has worshipped and passed down the legend of the Fox Deity throughout the generations were apparently originally called \"Shinobi\". When she would swing around her giant calligraphy brush, everything she drew would pop up off the canvas, and come to life with an actual physical form. She was able to do so because of the golden hairs from a fox spirit what were mixed into the head of the brush. She was also known as a travelling artist, with her illustrations ranging from depictions of regional myths to representations of mundane everyday life. These picture scrolls that she created throughout her whole life were passed down through the ages.",
                 evoawk: "It was within the silent grounds of the shrine that the priestess made the finishing touch on her masterpiece. That was the moment when a sparkle of life began to glint within the eyes of the illustration of the Fox Deity she worshiped. The sudden flash of light that emanated from the canvas forced her to shut her eyes. When she opened them, however, the illustration... No, the Fox Deity that had jumped out of the illustration stood before her. This led her to deciding to embark on a journey the next morning, saying farewell to the shrine that had been so good to her. It was through this journey that countless picture scrolls were produced, and would eventually be passed down throughout the generations. One of these scrolls was the 'Legend of the Sealed Fox.'"
             }
     },
@@ -16100,7 +16099,7 @@ const UnitInformation = [
             {
                 name: "Scintilla",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_107681.png",
                 skill: "45s CT - 8000% Fire DMG (PHY). For 10s, Allies gain a DMG barrier that negates 1200 DMG, increase Allies' Critical DMG by 35%.",
                 skillbreak: "?",
                 passive: 
@@ -16112,7 +16111,7 @@ const UnitInformation = [
         lore: 
             {   
                 evo5: "The flexible and flamboyant captain of the Stella Squad. She was once an elite soldier and central figure of the Rose Garden, but she decided to lead the smaller Stella Squad when it formed. Since then, she has committed herself to spreading word of Bamint's policies to its citizens. In her eyes, displays of passion are the most beautiful thing in the world, regardless of form.",
-                evoawk: "The Stella Squad acts as "Defenders of Passion", punishing criminals who prey on artists. Even while participating in plays and concerts, they are always on the lookout for signs of illicit activity. Each member undergoes training specialized to their skills, and she is no exception. However, she finds it difficult to set aside time for that between her acting and singing lessons."
+                evoawk: "The Stella Squad acts as \"Defenders of Passion\", punishing criminals who prey on artists. Even while participating in plays and concerts, they are always on the lookout for signs of illicit activity. Each member undergoes training specialized to their skills, and she is no exception. However, she finds it difficult to set aside time for that between her acting and singing lessons."
             }
     },
     { //Salyssa - Missing Lore, TW Image
@@ -16182,7 +16181,7 @@ const UnitInformation = [
             {
                 name: "Bandiera",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_107711.png",
                 skill: "45s CT - 8000% Earth DMG (PHY). For 10s, reduce Enemies' PHY RES by 20%, Earth RES by 30%.",
                 skillbreak: 700,
                 passive: 
@@ -16265,7 +16264,7 @@ const UnitInformation = [
             {
                 name: "Gold Rush",
                 slot: "/db/Mines/thumbnail/magLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_109021.png",
                 skill: "40s CT - 5000% Light DMG (MAG). For 12s, increase own DMG by 50%. If user is Light, increase own accuracy by 30%.",
                 skillbreak: 700,
                 passive: 
@@ -16345,7 +16344,7 @@ const UnitInformation = [
             {
                 name: "Wonderful",
                 slot: "/db/Mines/thumbnail/magLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_108791.png",
                 skill: "60s CT - 8000% Light DMG (MAG). For 10s, increase own MAG DMG by 30%. If user is Light, increase MAG DMG by 60% instead.",
                 skillbreak: 1000,
                 passive: 
@@ -16427,7 +16426,7 @@ const UnitInformation = [
             {
                 name: "Colorly",
                 slot: "/db/Mines/thumbnail/magLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_108271.png",
                 skill: "40s CT - 4500% Water DMG (MAG). For 10s, increase own MAG DMG by 30%, if user is Water, increase own MAG DMG by an additional 30%.",
                 skillbreak: 500,
                 passive: 
@@ -16506,7 +16505,7 @@ const UnitInformation = [
             {
                 name: "Bastone",
                 slot: "/db/Mines/thumbnail/magLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_108301.png",
                 skill: "45s CT - For 15s, increase own Dark DMG by 20% and DMG to Giant Bosses by 50%.",
                 skillbreak: "?",
                 passive: 
@@ -16590,7 +16589,7 @@ const UnitInformation = [
                 {
                     name: "Scatter 18",
                     slot: "/db/Mines/thumbnail/magLB.png",
-                    detail: "",
+                    detail: "/db/Equipment/Detail/item_detail_107891.png",
                     skill: "45s CT - 2000% Fire DMG (MAG).",
                     skillbreak: 6000,
                     passive: 
@@ -16603,7 +16602,7 @@ const UnitInformation = [
                 {
                     name: "Geek Shielder",
                     slot: "/db/Mines/thumbnail/healLB.png",
-                    detail: "",
+                    detail: "/db/Equipment/Detail/item_detail_107911.png",
                     skill: "60s CT - For 20s, heals Allies' HP by 300/s and Increase PHY RES by 10%.",
                     skillbreak: 0,
                     passive: 
@@ -16690,7 +16689,7 @@ const UnitInformation = [
                 {
                     name: "Velocity",
                     slot: "/db/Mines/thumbnail/physLB.png",
-                    detail: "",
+                    detail: "/db/Equipment/Detail/item_detail_108111.png",
                     skill: "45s CT - 8000% Light DMG (PHY). For 10s, reduce Enemies' PHY RES by 20%, Light RES by 30%.",
                     skillbreak: 800,
                     passive: 
@@ -16703,7 +16702,7 @@ const UnitInformation = [
                 {
                     name: "Scintillation",
                     slot: "/db/Mines/thumbnail/physLB.png",
-                    detail: "",
+                    detail: "/db/Equipment/Detail/item_detail_108121.png",
                     skill: "60s CT - 9000% Light DMG (PHY). For 10s, increase PHY DMG by 30%, if HP is over 80%, increase PHY DMG by 60% instead.",
                     skillbreak: 700,
                     passive: 
@@ -16790,7 +16789,7 @@ const UnitInformation = [
                 {
                     name: "Night Edge",
                     slot: "/db/Mines/thumbnail/physLB.png",
-                    detail: "",
+                    detail: "/db/Equipment/Detail/item_detail_108831.png",
                     skill: "60s CT - 6000% Dark DMG (PHY). If user is Dark, for 8s, reduce Enemies' PHY RES by 20%.",
                     skillbreak: 600,
                     passive: 
@@ -16803,7 +16802,7 @@ const UnitInformation = [
                 {
                     name: "Night Jacket",
                     slot: "/db/Mines/thumbnail/physLB.png",
-                    detail: "",
+                    detail: "/db/Equipment/Detail/item_Detail_108821.png",
                     skill: "60s CT - 5000% Dark DMG (PHY). For 8s, increase own Dark DMG by 50%. The first time this Equip is used in a Quest, increase own Arts by 30.",
                     skillbreak: 300,
                     passive: 
@@ -16885,7 +16884,7 @@ const UnitInformation = [
             {
                 name: "Testament",
                 slot: "/db/Mines/thumbnail/magLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_108001.png",
                 skill: "60s CT - 8000% Light DMG (MAG). For 10s, reduce Enemies' MAG RES by 35%.",
                 skillbreak: 500,
                 passive: 
@@ -16965,7 +16964,7 @@ const UnitInformation = [
             {
                 name: "Mornyan Star",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_108351.png",
                 skill: "50s CT - 9000% Dark DMG (PHY). For 10s, increase own Critical DMG by 70%, reduce own Accuracy by 30%.",
                 skillbreak: 1000,
                 passive: 
@@ -17021,14 +17020,16 @@ const UnitInformation = [
                 trueartsbreak: 0,
                 liberation: 
                     {
-                        skill1: "",
-                        skill1break:,
-                        skill2: "",
-                        skill2break:,
-                        skill3: "",
-                        skill3break: ,
-                        megaskill: "",
-                        megaskillbreak: 
+                        skill1: "10s CT - 10000% Dark DMG (MAG). 80% chance to inflict Blind",
+                        skill1break: 1000,
+                        skill2: "25000% Dark DMG (MAG). For 15s, reduce Enemies' DMG RES by 50%",
+                        skill2break: 1200,
+                        skill3: "25s CT - 48000% Dark DMG (MAG). For 20s, reduce Enemies' CRIT RES by 100%",
+                        skill3break: 1500,
+                        megaskill: "15s CT - 35000% Dark DMG (MAG)",
+                        megaskillbreak: 800,
+                        megaarts: "120000% Dark DMG (MAG). For 15s, increase Allies' Arts DMG By 100%",
+                        megaartsbreak: 2000
                     }
             },
         passive: 
@@ -17059,7 +17060,7 @@ const UnitInformation = [
                 {
                     name: "Ninth Oath",
                     slot: "/db/Mines/thumbnail/magLB.png",
-                    detail: "",
+                    detail: "/db/Equipment/Detail/item_detail_109511.png",
                     skill: "80s CT - 10000% Dark DMG (MAG). For 30s, reduce Enemies' Dark RES by 25%.",
                     skillbreak: 800,
                     passive: 
@@ -17072,7 +17073,7 @@ const UnitInformation = [
                 {
                     name: "Ancient's Row",
                     slot: "/db/Mines/thumbnail/magLB.png",
-                    detail: "",
+                    detail: "/db/Equipment/Detail/item_detail_109501.png",
                     skill: "80s CT - 5500% Dark DMG (MAG). Increase own Arts by 35. For 30s, increase own Dark DMG by 30%.",
                     skillbreak: 900,
                     passive: 
@@ -17129,14 +17130,16 @@ const UnitInformation = [
                 trueartsbreak: 0,
                 liberation: 
                     {
-                        skill1: "",
-                        skill1break:,
-                        skill2: "",
-                        skill2break:,
-                        skill3: "",
-                        skill3break: ,
-                        megaskill: "",
-                        megaskillbreak: 
+                        skill1: "12s CT - 10000% Earth DMG (PHY). For 15s, reduce Enemies' Earth RES by 50%",
+                        skill1break: 1200,
+                        skill2: "14s CT - 20000% Earth DMG (PHY). For 15s, reduce Enemies' PHY RES by 50%",
+                        skill2break: 1500,
+                        skill3: "36000% Earth DMG (PHY). 100% Chance of Inflicting Poison",
+                        skill3break: 1000,
+                        megaskill: "10s CT - 8000% Earth DMG (PHY). Increase Allies' (Except Self) Arts Gauge by 30",
+                        megaskillbreak: 1000,
+                        megaarts: "100000% Earth DMG (PHY). For 15s, reduce Enemies' DMG RES by 50%",
+                        megaartsbreak: 2000
                     }
             },
         passive: 
@@ -17167,7 +17170,7 @@ const UnitInformation = [
                 {
                     name: "Cipher",
                     slot: "/db/Mines/thumbnail/physLB.png",
-                    detail: "",
+                    detail: "/db/Equipment/Detail/item_detail_109661.png",
                     skill: "45s CT - 8000% Earth DMG (PHY). For 20s, reduce Enemies' Poison RES by 30%. On first use of this Equip, increase own Arts by 50.",
                     skillbreak: 800,
                     passive: 
@@ -17180,7 +17183,7 @@ const UnitInformation = [
                 {
                     name: "Cruvie",
                     slot: "/db/Mines/thumbnail/magLB.png",
-                    detail: "",
+                    detail: "/db/Equipment/Detail/item_detail_109671.png",
                     skill: "60s CT - 7000% Earth DMG (MAG). For 25s, increase own DMG by 25% and Earth DMG by 25%.",
                     skillbreak: 900,
                     passive: 
@@ -17265,12 +17268,12 @@ const UnitInformation = [
             {
                 name: "Vertrag",
                 slot: "/db/Mines/thumbnail/magLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_108501.png",
                 skill: "50s CT - 7000% Earth DMG (MAG). For 10s, increase own DMG by 40%, reduce Enemies' Earth RES by 35%.",
                 skillbreak: 500,
                 passive: 
                     {
-                        ability1: "When equipped by Hart, increase stats by 10% and Arts by 2/s. Does not stack with Abilities of the same name.",
+                        ability1: "When equipped by Hart (Earth), increase stats by 10% and Arts by 2/s. Does not stack with Abilities of the same name.",
                         ability2: "Increase MAG DMG by 10%."
                     }
             },
@@ -17347,12 +17350,12 @@ const UnitInformation = [
             {
                 name: "Belkan",
                 slot: "/db/Mines/thumbnail/magLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_109051.png",
                 skill: "60s CT - 7500% Dark DMG (MAG). If Enemies have 1 or more stacks of Bleed, inflict 1 stack of Bleed (up to 3). For 8s, reduce Enemies' MAG RES by 35%.",
                 skillbreak: 300,
                 passive: 
                     {
-                        ability1: "When equipped by Dark Hart, increase ATK by 30% and Arts by 3/s.",
+                        ability1: "When equipped by Hart (Dark), increase ATK by 30% and Arts by 3/s.",
                         ability2: "Increase accuracy by 10%."
                     }
             },
@@ -17427,7 +17430,7 @@ const UnitInformation = [
             {
                 name: "Engaged Shield",
                 slot: "/db/Mines/thumbnail/defLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_108671.png",
                 skill: "30s CT - For 15s, increase own DMG RES by 20%. If used when own HP is above 80%, increase DMG RES by 40% instead.",
                 skillbreak: 0,
                 passive: 
@@ -17512,7 +17515,7 @@ const UnitInformation = [
             {
                 name: "Jaeger",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_108911.png",
                 skill: "45s CT - 10000% Dark DMG (PHY). For 8s, increase own PHY and Dark DMG by 40%.",
                 skillbreak: 600,
                 passive: 
@@ -17594,13 +17597,13 @@ const UnitInformation = [
             {
                 name: "Barbatos",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_109731.png",
                 skill: "60s CT - 12000% Earth DMG (PHY). For 15s, reduce Enemies' PHY RES by 20%. If user is Earth, reduce Enemies' PHY RES by 30% instead.",
-                skillbreak: "?",
+                skillbreak: "700",
                 passive: 
                     {
                         ability1: "Increase own Skill CT REC by 10%.",
-                        ability2: "When equipped by Earth Vultee, increase DMG RES by 10%, and increase Paralysis and Freeze RES by 100%."
+                        ability2: "When equipped by Vultee (Earth), increase DMG RES by 10%, and increase Paralysis and Freeze RES by 100%."
                     }
             },
         lore: 
@@ -17677,7 +17680,7 @@ const UnitInformation = [
             {
                 name: "Ember Bolt",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_108881.png",
                 skill: "45s CT - 4000% Fire DMG (PHY). For 8s, reduce Enemies' PHY RES by 20% + If Enemies' HP is under 50%, reduce Enemies' PHY RES by an additional 20%.",
                 skillbreak: "?",
                 passive: 
@@ -17760,7 +17763,7 @@ const UnitInformation = [
             {
                 name: "Ready Maid",
                 slot: "/db/Mines/thumbnail/suppLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_Detail_108721.png",
                 skill: "40s CT - For 10s, increase Allies' Arts by 3/s and Light Allies' DMG by 30%.",
                 skillbreak: 0,
                 passive: 
@@ -17843,7 +17846,7 @@ const UnitInformation = [
             {
                 name: "Sakura Swallow",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_108971.png",
                 skill: "70s CT - 5000% Earth DMG (PHY). For 10s, increase own DMG by 50% and Earth DMG by 70%.",
                 skillbreak: 600,
                 passive: 
@@ -17926,7 +17929,7 @@ const UnitInformation = [
             {
                 name: "Maximum",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_109241.png",
                 skill: "60s CT - 8800% Light DMG (PHY). For 12s, reduce Enemies' PHY RES by 20%. If user is Light, reduce Enemies' PHY RES by 35% instead.",
                 skillbreak: 1100,
                 passive: 
@@ -18149,7 +18152,7 @@ const UnitInformation = [
             {
                 name: "Gimme Aria",
                 slot: "/db/Mines/thumbnail/magLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_109421.png",
                 skill: "50s CT - 6000% Fire DMG (MAG). For 12s, increase own DMG by 50% and reduce DMG of Enemies afflicted by status ailments by 30%.",
                 skillbreak: 600,
                 passive: 
@@ -18232,12 +18235,12 @@ const UnitInformation = [
             {
                 name: "Inspector",
                 slot: "/db/Mines/thumbnail/magLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_109451.png",
                 skill: "45s CT - 8000% Water DMG (MAG). For 10s, reduce Enemies' Water RES by 30%. If user is Water, for 10s, increase own DMG by 50%.",
                 skillbreak: 800,
                 passive: 
                     {
-                        ability1: "When equipped by Vultee, increase own Arts by 3/s.",
+                        ability1: "When equipped by Vultee (Water), increase own Arts by 3/s.",
                         ability2: "Increase MAG DMG by 10%."
                     }
             },
@@ -18317,7 +18320,7 @@ const UnitInformation = [
             {
                 name: "Astral Bolt",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_109631.png",
                 skill: "60s CT - 10000% Water DMG (PHY). For 12s, reduce Enemies' PHY RES by 20%. If User is Water, reduce Enemies' PHY RES by 35% instead.",
                 skillbreak: 700,
                 passive: 
@@ -18402,7 +18405,7 @@ const UnitInformation = [
                 {
                     name: "Skylight",
                     slot: "/db/Mines/thumbnail/magLB.png",
-                    detail: "",
+                    detail: "/db/Equipment/Detail/item_detail_109771.png",
                     skill: "45s CT - 10000% Light DMG (MAG). For 10s, reduce Enemies' Light RES by 30%. If user is Light, increase own DMG by 50%.",
                     skillbreak: 700,
                     passive: 
@@ -18415,7 +18418,7 @@ const UnitInformation = [
                 {
                     name: "Granveus",
                     slot: "/db/Mines/thumbnail/suppLB.png",
-                    detail: "",
+                    detail: "/db/Equipment/Detail/item_detail_109781.png",
                     skill: "35s CT - 5000% Light DMG (PHY). For 10s, increase Allies' Arts by 3/s, and increase Human Allies' DMG by 35%.",
                     skillbreak: 500,
                     passive: 
@@ -18428,7 +18431,7 @@ const UnitInformation = [
                 {
                     name: "Darkbringer",
                     slot: "/db/Mines/thumbnail/physLB.png",
-                    detail: "",
+                    detail: "/db/Equipment/Detail/item_detail_109791.png",
                     skill: "55s CT - 13000% Light DMG (PHY). For 10s, reduce Enemies' PHY RES by 40%. If user is Light, increase own ATK by 40%.",
                     skillbreak: 1000,
                     passive: 
@@ -18509,12 +18512,12 @@ const UnitInformation = [
             {
                 name: "Assault Architect",
                 slot: "/db/Mines/thumbnail/magLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_109911.png",
                 skill: "45s CT - 7000% Water DMG (MAG). For 10s, Increase own MAG DMG and Water DMG by 40%.",
                 skillbreak: 800,
                 passive: 
                     {
-                        ability1: "When equipped by Joker Selia, increase own Arts by 2/s.",
+                        ability1: "When equipped by Beguiler Selia, increase own Arts by 2/s.",
                         ability2: "Increase Fire RES by 10%."
                     }
             },
@@ -18592,12 +18595,12 @@ const UnitInformation = [
             {
                 name: "Asteroid",
                 slot: "/db/Mines/thumbnail/magLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_109971.png",
                 skill: "45s CT - 7500% Earth DMG (MAG). For 10s, increase own Earth DMG by 50%, reduce Enemies' MAG RES by 30%.",
                 skillbreak: 500,
                 passive: 
                     {
-                        ability1: "When equipped by Earth Rosetta, increase DMG by 40%. When entering Magia Drive, Increase own Arts by 50. Does not stack with Abilities of the same name.",
+                        ability1: "When equipped by Rosetta (Earth), increase DMG by 40%. When entering Magia Drive, Increase own Arts by 50. Does not stack with Abilities of the same name.",
                         ability2: "When near-death, increase Skill CT REC by 20%."
                     }
             },
@@ -20216,7 +20219,7 @@ const UnitInformation = [
                 {
                     name: "Small Shield",
                     slot: "/db/Mines/thumbnail/defLB.png",
-                    detail: "",
+                    detail: "/db/Equipment/Detail/item_detail_150691.png",
                     skill: "45s CT - For 10s, increase target's DEF by 60%, DMG RES by 40%, and target heals for 10% of DMG taken.",
                     skillbreak: 0,
                     passive: 
@@ -20229,7 +20232,7 @@ const UnitInformation = [
                 {
                     name: "Wrath Shield",
                     slot: "/db/Mines/thumbnail/healLB.png",
-                    detail: "",
+                    detail: "/db/Equipment/Detail/item_detail_151191.png",
                     skill: "35s CT - For 20s, heal Target's HP by 3%/s. If user is Light, cure Target's Seal.",
                     skillbreak: 0,
                     passive: 
@@ -20307,7 +20310,7 @@ const UnitInformation = [
             {
                 name: "Raphtalia's Sword",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_150711.png",
                 skill: "35s CT - 4500% Light DMG (PHY). For 8s, increase ATK and Skill CT REC by 100%.",
                 skillbreak: 700,
                 passive: 
@@ -20831,7 +20834,7 @@ const UnitInformation = [
             {
                 name: "Emilia's Cape",
                 slot: "/db/Mines/thumbnail/magLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_150871.png",
                 skill: "55s CT - 6000% Water DMG (MAG). For 12s, increase Water Allies' DMG by 10%, increase own DMG by 30%.",
                 skillbreak: 800,
                 passive: 
@@ -20909,12 +20912,12 @@ const UnitInformation = [
             {
                 name: "Rem's Morningstar",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_150911.png",
                 skill: "40s CT - 7000% Water DMG (PHY). For 20s, increase own ATK by 50%. The first time this is used in a Quest, increase own Arts by 50.",
                 skillbreak: 1000,
                 passive: 
                     {
-                        ability1: "When equipped by Rem, increase Critical DMG by 20%. Whenever Rem uses Arts (not True Arts), heal Rem's HP by 30%. Does not stack with Abilities of the same name.",
+                        ability1: "When equipped by Rem (RE:ZERO), increase Critical DMG by 20%. Whenever Rem uses Arts (not True Arts), heal Rem's HP by 30%. Does not stack with Abilities of the same name.",
                         ability2: "Increase PHY DMG by 10%.",
                         ability3: "Equip is given a random ability on craft."
                     }
@@ -20987,7 +20990,7 @@ const UnitInformation = [
             {
                 name: "Ram's Mop",
                 slot: "/db/Mines/thumbnail/magLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_150931.png",
                 skill: "40s CT - 4000% Earth DMG (MAG). For 15s, increase own DEF and accuracy by 25%.",
                 skillbreak: 700,
                 passive: 
@@ -21066,7 +21069,7 @@ const UnitInformation = [
             {
                 name: "Beatrice's Ribbon",
                 slot: "/db/Mines/thumbnail/suppLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_150891.png",
                 skill: "50s CT - For 20s, increase target's Arts by 5/s. If target is Dark, increase target's Arts DMG by 20% for 20s.",
                 skillbreak: 0,
                 passive: 
@@ -22106,17 +22109,17 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global"
             }
     },
-    { //Gray Fullbuster - Missing Lore, Images, ID
-        id: "?",
+    { //Gray Fullbuster - Missing Lore
+        id: 107576212,
         name: "Gray Fullbuster",
         attribute: "Water",
         type: "Human",
         image: 
             {
-                detail5: "?",
-                detailawk: "/db/Units/Detail/unit_detail_.png",
-                thumb5: "?",
-                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_.png"
+                detail5: "/db/Units/Detail/unit_detail_107575212.png",
+                detailawk: "/db/Units/Detail/unit_detail_107576212.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_107575212.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107576212.png"
             },
         slots: 
             {
@@ -22170,17 +22173,17 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global"
             }
     },
-    { //Erza Scarlet - Missing Lore, Stats, Slots, Evolution, Images, ID
-        id: "?",
+    { //Erza Scarlet - Missing Lore
+        id: 107586412,
         name: "Erza Scarlet",
         attribute: "Light",
         type: "Human",
         image: 
             {
-                detail5: "?",
-                detailawk: "/db/Units/Detail/unit_detail_.png",
-                thumb5: "?",
-                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_.png"
+                detail5: "/db/Units/Detail/unit_detail_107585412.png",
+                detailawk: "/db/Units/Detail/unit_detail_107586412.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_107585412.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107586412.png"
             },
         slots: 
             {
