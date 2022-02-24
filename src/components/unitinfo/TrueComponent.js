@@ -7,7 +7,8 @@ const imageSize ={
 
 export function RenderTrue({unitTrue}) {
     //Tab for True Weapon
-    //POSSIBLY might need to add if statements to check to Passives based on amount
+    //Add if statements to check to Passives based on amount (1 Passive)
+    //Add if statements to check multiple true weapons and create tabs based on number https://www.geeksforgeeks.org/reactjs-reactstrap-tab-component/
     if(unitTrue.trueweapon){
         return (
             <Container>

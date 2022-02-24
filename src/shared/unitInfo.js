@@ -4148,18 +4148,18 @@ const UnitInformation = [
             }
     },
     { //Zoldes - Missing Lore
-        id: 101316412,
+        id: 101306112,
         name: "Zoldes",
         attribute: "Fire",
         type: "Giant",
         image: 
             {
-                detail4: "/db/Units/Detail/unit_detail_101314412.png",
-                detail5: "/db/Units/Detail/unit_detail_101315412.png",
-                detailawk: "/db/Units/Detail/unit_detail_101316412.png",
-                thumb4: "/db/Units/Thumbnail/unit_thumbnail_101314412.png",
-                thumb5: "/db/Units/Thumbnail/unit_thumbnail_101315412.png",
-                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_101316412.png"
+                detail4: "/db/Units/Detail/unit_detail_101304112.png",
+                detail5: "/db/Units/Detail/unit_detail_101305112.png",
+                detailawk: "/db/Units/Detail/unit_detail_101306112.png",
+                thumb4: "/db/Units/Thumbnail/unit_thumbnail_101304112.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_101305112.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_101306112.png"
             },
         slots: 
             {
@@ -17100,7 +17100,7 @@ const UnitInformation = [
                 detailawk: "/db/Units/Detail/unit_detail_103256312.png",
                 thumb5: "/db/Units/Thumbnail/unit_thumbnail_103255312.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103256312.png",
-                liberation: "/db/Unit/Thumbnail/unit_thumbnail_501771313.png"
+                liberation: "/db/Units/Thumbnail/unit_thumbnail_501771313.png"
             },
         slots: 
             {

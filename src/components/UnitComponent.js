@@ -1,5 +1,5 @@
 import React from 'react';
-import { Media, Container, Row, Col } from 'reactstrap';
+import { Media, Container } from 'reactstrap';
 import '../index.css';
 import { useParams, Link, Routes, Route, Outlet } from 'react-router-dom';
 import { getUnitByName } from '../shared/unitInfo';
@@ -41,24 +41,14 @@ function UnitDetails () {
                             <Route path="awaken" element={<RenderAwaken lore={units.lore.evoawk} unitImage={units.image} unitEvo={units.evolution} />} />
                     </Route>
                     <Route path="stats" element={<React.Fragment>
-                                                    <RenderDetail detail={units.image.detailawk} />
                                                     <RenderStats unitName={units.name} unitStats={units.stats} 
                                                     unitAtt={units.attribute} unitType={units.type} unitSkill={units.skillset} 
-                                                    unitPassive={units.passive} unitSlots={units.slots} />
+                                                    unitPassive={units.passive} unitSlots={units.slots} unitImage={units.image}/>
                                                     </React.Fragment>} />
                     <Route path="trueweapon" element={<RenderTrue unitTrue={units} />} />
                 </Routes>
             </Container>
         </React.Fragment>
-    )
-}
-
-function RenderDetail({detail}){
-    //Shows the Unit Detail
-    return(
-            <div className="row justify-content-md-center">
-                        <Media src={detail} style={imageSize} />
-            </div>
     )
 }
 
