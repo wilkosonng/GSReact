@@ -1468,7 +1468,7 @@ const UnitInformation = [
                 evoawk: "A hero praised as the Empyreal Beast. After realising his mistake in fleeing from the Machine weapon, he rushed back to the battlefield. Though afraid he was too late to stop the inevitable slaughter, he arrived to see his brothers-in-arms fighting against the menace, empowered by the belief that he would return. That was the inspiration he needed to shed his past regrets and face his destined foe."
             }
     },
-    { //Lily - Missing Lore, Evolution
+    { //Lily - Missing Evolution
         id: 100656512,
         name: "Lily",
         attribute: "Dark",
@@ -1560,7 +1560,7 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo3: "Missing Lore Information, please contact site owner",
+                evo3: "The Gods destroyed a Human village suspected of rebelling, and she was a survivor. At six years of age, she left the village to get medicine for her mother, and came back to find only devastation. She was brought in by Demons, and agreed to undergo modification experiments so that she might exact revenge on the Gods. Time passed. By 16, Lily had grown into a Demonic weapon feared by the Gods.",
                 evo4: "A murderous weapon that fought for the Demons during the Great War. Lily used her enormous scythe to cut down countless Gods. One day, a swordswoman from another world appeared before her, fighting for the Gods. During the fight, the swordswoman tried to speak to Lily again and again, but to no avail. The swordswoman unleashed hidden magical energy shatter Lily's scythe, promising to save her, someday, somehow.",
                 evo5: "A murderous weapon that fought for the Demons during the Great War. After losing to the otherworldly swordswoman, Lily sought even greater power, and used forbidden Demonic arts to form a pact with the reaper. With unimaginable strength and a new scythe, Lily returned to the battlefield... but her mind was slowly being consumed by the reaper. Those who survived described Lily as the reaper incarnate, desperately searching for her mark.",
                 evoawk: "An opponent of the Gods in the Ancient War who was called the Deathbringer of Corpse Mountain. In truth, she was a Human girl who turned her hatred into a continual search for power. Once the Deathdealer had her target, she would pursue it without cease, even to death. Once, when she came again against a swordswoman who had ducked her demonic sickle once before, she took on the demeanor of a death-dealing force of nature to kill her foe. For some reason, the swordswoman merely complained under her breath and readied her sword. History does not record what happened next."
