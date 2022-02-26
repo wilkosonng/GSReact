@@ -4369,8 +4369,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
+                evo4: "A Giant warrior who fought prior to the Great War. Quiet in nature, he always worked in the shadow of his furious brother. Olgeth affected the course of many battles all by himself, but this simply earned him the title of "The Mad Brother," When his brother left the Giants to wander on his own, he followed along without saying much. But an encounter with a young girl affected a great change on his weak-willed heart.",
+                evo5: "A Giant warrior who made a name for himself prior to the Great War. During his journey, he and his brother were defeated by a girl with incredibly powerful magic. Shocked by this turn of events, Olgeth was filled with an intense desire to join her on her travels. As he grew more powerful, he would end up saving the girl on countless occasions during their journey.",
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
@@ -4598,11 +4598,11 @@ const UnitInformation = [
         lore: 
             {   
                 evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
+                evo5: "A mage who sealed his powers, moving to the forest to raise his dead son's daughter. One day, however, he found that his beloved adopted daughter had left the house. He gave chase, but after seeing how much she was enjoying herself, he hesitated to bring her home. When danger threatened her, however, he unleashed his sealed powers to protect her. From that day forward, he continued protecting her daughter during her journey with his gentle-yet-powerful light.",
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Teriodos - Complete
+    { //Teriodos - Missing Lore
         id: 101366112,
         name: "Teriodos",
         attribute: "Fire",
@@ -4672,8 +4672,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
+                evo4: "The fire dragon that destroyed as much as it could before the Ancient War at Raktehelm. It used to be high-rank intelligent dragon. However, one day it was haunted by a Demon of Destruction and its soul was tortured little by little. The hellish flames that dwelled in it not only burned livings beings but also castles and fortresses. With no signs it showed up and destroyed everything that it wished. Thus, Teriodos left its name in history as a symbol of terror.",
+                evo5: "A fire dragon that united with a Demon and turned into an incarnation of destruction. Its powers merged as Teriodos destroyed places there and here. The flames that dwelled inside it flooded, thus where it landed turned the ground to a waste land. Sooner or later, it was defeated by a musketeer. In its last moments, it was able to control itself and wished to die. However, no one knows the truth...",
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
@@ -4747,8 +4747,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
+                evo4: "A Human knight who fought for Bamint after the Ancient War. A war orphan, Keiones was recognized for his hard work and made a knight along with his childhood friend Reyon. Though his rigorously trained skills with a bow were accurate enough to earn him the nickname "Bullseye," he felt like Reyon was achieving more than him. When a Bamint VIP was assassinated and Reyon volunteered to help search for the culprit, Keiones had to raise his hand too.",
+                evo5: "A Human knight with impeccably trained archery skills. After realizing that the assassin he was chasing was an old friend of his, Keiones felt conflicted. Not only that, the order had been changed from "apprehend" to "kill." He asked his old knight friend why this didn't give him pause, but his mind was made up. Keiones was still conflicted as he faced his old friend's girlfriend. With his heart pulled in multiple directions, he found himself unable to lose his arrow.",
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
@@ -4825,8 +4825,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
+                evo4: "A Spirit mercenary who has roamed all the post-War nations. He was raised in a village in what is now the Principality of Bamint along with his beloved adopted sister Lione, and now they are unrivaled partners in work as well. He usually plays a support role for his attacking sister, but his ever changing attacks are unstoppable, and if he takes the offensive, the enemy forces are doomed. When he learned of danger approaching his home, he and his sister assassinated the ringleader of the plot, a powerful offical.",
+                evo5: "A Spirit mercenary who wields the power of nature. Though wanted for the murder of an official, he explained to the knight pursuing him that the deed was done to protect their home. The knight was not convinced and attacked relentlessly, despite being a childhood friend. Indeed, he once held deep feelings for Lione... And know, the only ones ready to fight are he and this knight. If these two destroy each other, the other 3 present can go on without further death. With that thought, the man readied himself to stop the knight's attack.",
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
@@ -4983,7 +4983,7 @@ const UnitInformation = [
         lore: 
             {   
                 evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
+                evo5: "A Bamint knight who worked tirelessly to make a name for himself. When he found out that the assassin who murdered the person he owed everything to was an old friend, he didn't so much as bat an eye. Not because he was cold and unfeeling, but because he wanted to ask the assassin why the did it, and possibly allow them to escape. When he heard their reasons, however, he grew enraged. To protect the honor of the deceased, he prepared to slay his old friend himself.",
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
@@ -5137,8 +5137,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
+                evo4: "He was once a wizard of La Riiz at the beginning of the Ancient War. He earned high office through quiet dedication and ability, mastering sorcery with ease. However, after an incident with the nation's ancient customs, he left the path of sorcery for a life of seclusion. The Lord of the Ancient Forest, revered as a sacred place, is usually controlled through a holy ritual performed every few years. Once every few years, it goes out of control. Hearing its rumors, he felt something head to the forest.",
+                evo5: "He was famed among the wizards of La Riiz as a master of defense at the beginning of the Ancient War. Yet this he could not defend his only daughter from becoming a sacrifice to the Lord of the Ancient Forest. When he hears rumors of the Lord running amok, a girl riding his back, he realizes he might have a chance to meet the daughter he thought dead. Yet she refuses him. His despondency was only momentary, though as a sudden Demon appeared to attack the Lord and his rider. He stood before the Demon, his true power now unleashed.",
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
@@ -5215,7 +5215,7 @@ const UnitInformation = [
                 evoawk: "The ancient forest's master and its guardian spirit faced a terrible dilemma at the hands of a Demonic invasion. Their rescue, and the automaton's halt, came at the hands of a mage claiming to be the forest master's father. When he pleaded that he wanted to live with his daughter again, the spirit calmlhy asked if he was ready to give up everything and live as the forest's guardian. Questioned about concerns for the forest's future itself rather than for its master, the man shed tears for some time before finally nodding."
             }
     },
-    { //Edram - Missing Lore, Evolution
+    { //Edram - Missing Evolution
         id: 101575412,
         name: "Edram",
         attribute: "Light",
@@ -5272,11 +5272,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
+                evo4: "A mecha doll that was owned by a Demon during the first period of the Ancient War. Especially created for battle, he could wipe out a whole troop by itself. In order to perform efficient massacre, he had no ego and faithfully followed its master's orders. However, his master had vigorous powers and he was hardly used. At the end, he was given as a present to his master's daughter and now she was his new master.",
+                evo5: "The humanoid weapon that a Demon's daughter had during the first period of the Ancient War. For fun, she started to invade an ancient forest and when she was resisted she used him. Although that he was finally being able to use his battle abilities, a Spirit stood in his way and did not give up to fight despite the difference in their powers. This created something like a 'feeling' inside him. Although, he did not know how to handle this 'feeling', once he was ordered to use his last ultimate weapon, he became 'excited.'",
             }
     },
-    { //Favelle - Missing Lore
+    { //Favelle - Complete
         id: 101586312,
         name: "Favelle",
         attribute: "Earth",
@@ -5347,9 +5347,9 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo4: "A girl who served as the symbol of La Riiz ancient forest. As far back as she could remember, Favelle always felt like she was riding on something enormous. She was: the Ancient Dragon, master of the forest. After becoming able to communicate with the Dragon, she dedicated herself to the forest of her own volition. Unified with the Dragon, she fought against threats to the forest.",
+                evo5: "A warrior who became the second master of the ancient forest. A Demoness seeking to make the Ancient Dragon her own used the terrifying power of an automation to push the guardian of the forest to the brink of defeat. Furious, the master of the forest and Favelle flew out to drive away the Demoness. After a fierce battle, the automaton prepared a devastating weapon to obliterate the entire forest, but its flames scorched the Demoness instead. Someone from her youth had saved her...",
+                evoawk: "Having avoided disaster, the man introduced himself to Favelle as her father. He told her that he wanted to live with her together again, as a family. Having decided to live forever in the forest alongside the Ancient Dragon, she refused. However, sensing his strong resolve, she allowed the man to live in the forest under the condition that he would become its protector. She agreed to this because of the faint memories she had of her father, and the determination of the man before her who was prepared to throw away everything if he could live with his daughter."
             }
     },
     { //Catilou - Missing Lore
@@ -5422,8 +5422,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
+                evo4: "A Beast bandit active prior to the Great War. Catilou led bandit gang that robbed greedy businessmen and government officals exclusively. Most of the members of her gang were people who fell in love with Catilou's caring personality. One day, a lone intruder appeared on her turf. She didn't pay him much mind... until he took out some of her men. Taking hammer in hand, she prepared to take on the Human gunslinger who had dared to enter her turf.",
+                evo5: "A Beast bandit active prior to the Great War. Catilou fought against the gunslinger who had shot down her men. Midway through, however, she realized something: her men were unharmed, and had only had their weapons destroyed. Catilou dropped her weapons and admitted defeat, and the gunslinger apologized for mistaking her for the mark he had been chasing for years. They would travel together, and Catilou would eventually save the gunslinger during a fight against the fire dragon.",
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
@@ -5582,7 +5582,7 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
     },
-    { //Keit - Missing Lore
+    { //Keit - Complete
         id: 101626312,
         name: "Keit",
         attribute: "Earth",
@@ -5653,8 +5653,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
+                evo4: "A Human who researched dangerous subjects prior to the Ancient War. Though originally a studious researcher, when he discovered a way to alter the makeup of living things, he strayed from his path. After abandoning experiments on Humans and moving on to other races, a mysterious Spirit appeared with a question: would it be possible to change a Giant girl's size? Keit happily accepted the challenge and headed off to make the girl's wish come true.",
+                evo5: "A researcher who succeeded in changing the bodies of living things prior to the Ancient War. Keit met with a Giant girl who could change the size of her body, and she asked if he knew a way to make it so she would never become Giant-sized again. 'I don't want him to know the truth about me,' she said. 'I want to be small always.' Keit granted her desire... in return for unleashing the power slumbering within her. The power which was enough to change the world.",
                 evoawk: "Currently unreleased in Global."
             }
     },
@@ -5732,9 +5732,9 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo4: "Missing Lore Information, please contact site owner",
+                evo4: "The mysterious girl that appeared here and there and called herself an 'observer' during the early period of the Ancient War. Always having a smile, people thought she was of the God race. The reason she arrived in the country of Giants was for world peace and to seal the powers in the way. However, she noticed that she wasn't the only one after the power of 'The Destruction Giant'.",
                 evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evoawk: "The girl of Spirit who was after the power of 'the Destruction Giant' to become the true mediator. Noticing that the girl who was saved by a God swordsman was 'the Destruction Giant' herself, she teamed up with a researcher to seal and steal the powers. Their plan failed at the very end where they were fought back. Although a failure, seeing the strong powers of the Giant girl, she smiled mysteriously."
             }
     },
     { //Mizyna - Missing Lore
@@ -5808,8 +5808,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
+                evo4: "Having a complete attitude of achieving missions in the army, Mizyna had left a legacy. Recognized as a skilled knight, she was specially sent to capture the 'Destruction Giant' which had power to even destroy the world. She was almost able to get hold of the target, but was interrupted by a mysterious man.",
+                evo5: "An elite knight of the Demon army at the start of the Ancient War. During a mission to capture the 'Destruction Giant,' a swordsman interrupted. As a knight, the giant's capture was the priority. Yet, when the mysterious man appeared, the battle was euphoric.As Mizyna took the upper hand, the man told her, 'I won't kill women,' shaking Mizyna to her core. The most cutting insult to her long-hidden true identity finally made her 'feel' for the first time.",
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
@@ -5900,8 +5900,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
+                evo4: "During the early period of the Ancient War, he was the captain of the Divine Knights of the Divine Guardian Uther, who was one of the Ten Divine Forces of Gods. With exceptional talent and ability, he was regarded as the strongest leader. However, when a Demon girl attempted to kill their guardian, he met a big conflict with the vice-captain about the treatment of the culprit. He suggested that even if a Demon, she was still young and if they put her on the right path without killing her, eventually, their guardian would forgive her. But he couldn't convince the other knights and decided to flee with the young Demon.",
+                evo5: "The former captain of the Divine Knights, who was acknowledged as the strongest. The girl he saved tried to kill him, but in response, he continued patiently to teach her about happiness, sadness and the rightful way to use power. Eventually, she began to show humanity and to open her heart. When their chaser suddenly appeared in front of them, he stood before the girl and declared to his former subordinate: 'Power is what is given to protect what is important'.",
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
@@ -5997,7 +5997,7 @@ const UnitInformation = [
                 evoawk: "As a vice-commander of the Divine Guardian Divine Knights, she serves Platina without reserve, and fights ever on the front line to guard her commander and fellow knights without regard to her own safety. She bears the name \"Invincible Shield\" for her history of withstanding Demonic attacks, and holds herself alone responsible for the safety of the Divine Knights. However, her motivation comes from the deep need to keep one special person safe."
             }
     },
-    { //Platina - Missing Lore, TW Image
+    { //Platina - Missing TW Image
         id: 101686412,
         name: "Platina",
         attribute: "Light",
@@ -6087,12 +6087,12 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo4: "The subhead of the Divine Guardian Ulther's Divine Knights during the early period of the Ancient War. She was praised as the Two Great Knights along with the leader. Born to a high-class God family, she was beautiful and noble, which led her to be the symbol of the Divine Knights. Respecting religious precepts and being strict, her subordinates were afraid of her and often argued with the leader. Her belief 'Master is absolute, we are his sword and shield' led her to the breakdown with the leader considering the Demon who tried to murder Ulther.",
+                evo5: "The high-pride former subhead of the Divine Knights. Although she was the commander of the army searching for the leader, she was planning to convince him. However, he did not answer her feelings. He was protecting the Demon, thus she drew her sword. Outnumbering them, she was about to defeat him but the Demon stood in her way risking her life. Her last words were 'Respect the small knight.' and left the two alive.",
+                evoawk: "The proud knight who became the new commander of the Divine Knights. She holds the safety of the Divine Guardian Uther her top priority, and she will allow none to oppose him. She has trained ceaselessly at the sword to prove her worth as a knight, and is now able to cut light itself. She respects those with honor, and is strict but not heartless, so her way of living has earned her admiration and a name that rings throughtout the land."
             }
     },
-    { //Parlot - Missing Lore
+    { //Parlot - Complete
         id: 101696312,
         name: "Parlot",
         attribute: "Earth",
@@ -6163,9 +6163,9 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo4: "One of the members of the Divine Knights who served the Divine Guardian Uther during the first part of the Ancient War. He was always calm and worked as the right-hand of the captain. He was the oldest of the group and thanks to his friendly personality, was considered as a big brother. He was always the one to sedate the frequent conflicts between the captain and the vice-captain. When the captain was criticized concerning the treatment of a Demon who tried to kill the Divine Guardian, Parlot defended him until the very end and helped him escape.",
+                evo5: "A member of the Divine Knights of the Divine Guardian Uther who made a name for himself in the first half of the Ancient War. He joined the punitive forces formed to chase his captain, who had escaped with the Demon who attempted to the Divine Guardian's life, but his real intentions were different. He wanted the vice-captain not to worry too much and, on the other hand, he was planning to control the defender of the team, who didn't have a good opinion of the captain. In the worst case, he would have even left the Divine Knights, but his priority was to save the captain. But eventually he didn't have the chance to do so, and nobody understood his true intentions.",
+                evoawk: "The severe vice-leader for the first time decided to contrast the boss' orders and intentionally overlooked the leader and the Demon. When the punitive squad came back, Parlor gave the Demon a magical communicating device and told her to contact him whenever she was in trouble. After this, the vice-leader sealed her feelings for the leader and became the new leader of the Holy Knights,protecting the boss for all her life. Nobody knew that she secretly kept contact with the former leader through a confidant."
             }
     },
     { //Dahlia - Missing Lore
@@ -6245,7 +6245,7 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo4: "Missing Lore Information, please contact site owner",
+                evo4: "She was an elite gunwoman, part of the Demonic Intelligence and Assassination Corp, early in the Ancient War. Since childhood, she was taught only about the art of killing and her humanity was suppressed. She once was ordered to kill Uther to topple the Divine Guardian forces. The assassin made her way smoothly into the castle, where her quarry awaited. And yet, the Knights managed to capture her. The captain, however, felt a sense of deep empathy for her and astonishingly turned on his comrades to lead her to safety.",
                 evo5: "Missing Lore Information, please contact site owner",
                 evoawk: "Missing Lore Information, please contact site owner"
             }
@@ -6334,9 +6334,9 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo4: "A divine swordsman during the early period in the Ancient War. He had absolute loyalty to the Higher Gods and paid no heed to personal peril, so he was often sent to the front lines. He was gravely wounded in a surprise attack by a Demon girl during a top-secret investigation of a Dragon research lab. However, his goal just happened to be home to a skilled doctor who saved his life. She saved him against the strong objections of her Dragon superiors, and just as he came to realize his obligation to her. Demons attacked the facility.",
+                evo5: "A swordsman who destroyed a Dragon facility early in Ancient War. His life was saved by a doctor there, yet his wounds still kept him from defending her in a Demon attack. Then, a Dragon researcher appeared and claimed to be able to awaken great power within him. so he agreed immediately with no doubts. His wounds healed before his very eyes. As he felt incredible power filling his body, he stood before the Demons. Though, he did not know that he will go berserk at this moment...",
+                evoawk: "Currently unreleased in Global."
             }
     },
     { //Millenia - Complete
@@ -6486,12 +6486,12 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo4: "Missing Lore Information, please contact site owner",
+                evo4: "A Human doctor during the early period of the Ancient War. She worked at the research Lab of the Dragons as one of the medical team members and was loved by everyone for her devoted spirit. Although Humans were under control of the Dragons, she respected them as a high-rank species. One day she came across a dying God and with no hesitation, she took care of him. She was criticized for bringing in an enemy, but no one could say back anything to her belief in 'all who are injured are equal.' Thus, the Dragons accepted her request.",
                 evo5: "Missing Lore Information, please contact site owner",
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Louvet - Missing Lore
+    { //Louvet - Complete
         id: 101746312,
         name: "Louvet",
         attribute: "Earth",
@@ -6557,8 +6557,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "A scholar of the Grramenia Republic in the era of confusion just after the Ancient War. He was also a member of the Five Freedom Fighters, and a fellow researcher into the true history along with the noble son Freed. The former La Riiz intelligence operative, friend and collaborator joined their journey at Louvet's invitation. The oldest of the Five Freedom Fighters, his vast stores of knowledge and wisdom have earned him deep faith from the others. And as a result, he was the first to understand the true secret history.",
+                evoawk: "After escaping from La Riiz' assassin, he and the noblewoman of the Principality of Bamint finally married. The two lived happily in secret, but he was unable to abandon his research, and he finally did the reach the deepest secrets of the hidden history. But sadly Sonije fell into the relentless assassin's trap, and when he tried to save her he lost his life. A letter he wrote revealing the assassin's identity and the power hidden within the Five Freedom Fighter's leader was never delivered."
             }
     },
     { //Gran Brave - Missing TW Img
@@ -6772,7 +6772,7 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
+                evo5: "The merciful side of God of the Heavens Marzex, one of the Ten Divine Forces, which once led the Gods. During the late period of the Ancient War, he fought alongside with the Humans, who nonetheless tricked him and sealed him. Filled with anger, he eventually came back to life. However, since he could not fully detest the ones he once loved, he manifested in this kind form. But his soul, left in the realm of Gods, regretted the last days of Gods. Embarrassed by his foolishness, he decided to disappear, when he unexpectedly met a warrior of Light.",
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
