@@ -4369,7 +4369,7 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo4: "A Giant warrior who fought prior to the Great War. Quiet in nature, he always worked in the shadow of his furious brother. Olgeth affected the course of many battles all by himself, but this simply earned him the title of "The Mad Brother," When his brother left the Giants to wander on his own, he followed along without saying much. But an encounter with a young girl affected a great change on his weak-willed heart.",
+                evo4: "A Giant warrior who fought prior to the Great War. Quiet in nature, he always worked in the shadow of his furious brother. Olgeth affected the course of many battles all by himself, but this simply earned him the title of 'The Mad Brother,' When his brother left the Giants to wander on his own, he followed along without saying much. But an encounter with a young girl affected a great change on his weak-willed heart.",
                 evo5: "A Giant warrior who made a name for himself prior to the Great War. During his journey, he and his brother were defeated by a girl with incredibly powerful magic. Shocked by this turn of events, Olgeth was filled with an intense desire to join her on her travels. As he grew more powerful, he would end up saving the girl on countless occasions during their journey.",
                 evoawk: "Missing Lore Information, please contact site owner"
             }
@@ -4747,8 +4747,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo4: "A Human knight who fought for Bamint after the Ancient War. A war orphan, Keiones was recognized for his hard work and made a knight along with his childhood friend Reyon. Though his rigorously trained skills with a bow were accurate enough to earn him the nickname "Bullseye," he felt like Reyon was achieving more than him. When a Bamint VIP was assassinated and Reyon volunteered to help search for the culprit, Keiones had to raise his hand too.",
-                evo5: "A Human knight with impeccably trained archery skills. After realizing that the assassin he was chasing was an old friend of his, Keiones felt conflicted. Not only that, the order had been changed from "apprehend" to "kill." He asked his old knight friend why this didn't give him pause, but his mind was made up. Keiones was still conflicted as he faced his old friend's girlfriend. With his heart pulled in multiple directions, he found himself unable to lose his arrow.",
+                evo4: "A Human knight who fought for Bamint after the Ancient War. A war orphan, Keiones was recognized for his hard work and made a knight along with his childhood friend Reyon. Though his rigorously trained skills with a bow were accurate enough to earn him the nickname 'Bullseye,' he felt like Reyon was achieving more than him. When a Bamint VIP was assassinated and Reyon volunteered to help search for the culprit, Keiones had to raise his hand too.",
+                evo5: "A Human knight with impeccably trained archery skills. After realizing that the assassin he was chasing was an old friend of his, Keiones felt conflicted. Not only that, the order had been changed from 'apprehend' to 'kill.' He asked his old knight friend why this didn't give him pause, but his mind was made up. Keiones was still conflicted as he faced his old friend's girlfriend. With his heart pulled in multiple directions, he found himself unable to lose his arrow.",
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
