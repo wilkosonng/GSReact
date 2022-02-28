@@ -1655,6 +1655,7 @@ const UnitInformation = [
                 {
                     name: "Regracia",
                     slot: "/db/Mines/thumbnail/physLB.png",
+                    thumb: "/db/Equipment/Thumbnail/item_thumbnail_103111.png",
                     detail: "/db/Equipment/Detail/item_detail_103111.png",
                     skill: "50s CT - 6600% Light DMG (PHY).",
                     skillbreak: 1600,
@@ -1668,6 +1669,7 @@ const UnitInformation = [
                 {
                     name: "Grand Scale",
                     slot: "/db/Mines/thumbnail/physLB.png",
+                    thumb: "/db/Equipment/Thumbnail/item_thumbnail_109521.png",
                     detail: "/db/Equipment/Detail/item_detail_109521.png",
                     skill: "55s CT - 10000% Light DMG (PHY). For 12s, increase own DMG by 60%. If user is Light, increase own ATK by 60%.",
                     skillbreak: 800,
@@ -11472,7 +11474,8 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "12s CT - 2200% Dark DMG (PHY). During Magia Drive: 2200% Dark DMG (PHY). For 8s, reduce Enemies' Break RES by 25% + Increase own Arts by 20.",
+                skill: "12s CT - 2200% Dark DMG (PHY).",
+                magiaskill:  "During Magia Drive: 2200% Dark DMG (PHY). For 8s, reduce Enemies' Break RES by 25% + Increase own Arts by 20.",
                 skillbreak1: 2400,
                 skillbreak2: 3400,
                 arts: "18000% Dark DMG (PHY). For 10s, reduce Enemies' DMG RES by 30%, reduce DMG RES of Enemies in Break by 30%.",
@@ -16589,6 +16592,7 @@ const UnitInformation = [
                 {
                     name: "Scatter 18",
                     slot: "/db/Mines/thumbnail/magLB.png",
+                    thumb: "/db/Equipment/Thumbnail/item_thumbnail_107891.png",
                     detail: "/db/Equipment/Detail/item_detail_107891.png",
                     skill: "45s CT - 2000% Fire DMG (MAG).",
                     skillbreak: 6000,
@@ -16602,6 +16606,7 @@ const UnitInformation = [
                 {
                     name: "Geek Shielder",
                     slot: "/db/Mines/thumbnail/healLB.png",
+                    thumb: "/db/Equipment/Thumbnail/item_thumbnail_107911.png",
                     detail: "/db/Equipment/Detail/item_detail_107911.png",
                     skill: "60s CT - For 20s, heals Allies' HP by 300/s and Increase PHY RES by 10%.",
                     skillbreak: 0,
@@ -16689,6 +16694,7 @@ const UnitInformation = [
                 {
                     name: "Velocity",
                     slot: "/db/Mines/thumbnail/physLB.png",
+                    thumb: "/db/Equipment/Thumbnail/item_thumbnail_108111.png",
                     detail: "/db/Equipment/Detail/item_detail_108111.png",
                     skill: "45s CT - 8000% Light DMG (PHY). For 10s, reduce Enemies' PHY RES by 20%, Light RES by 30%.",
                     skillbreak: 800,
@@ -16702,6 +16708,7 @@ const UnitInformation = [
                 {
                     name: "Scintillation",
                     slot: "/db/Mines/thumbnail/physLB.png",
+                    thumb: "/db/Equipment/Thumbnail/item_thumbnail_108121.png",
                     detail: "/db/Equipment/Detail/item_detail_108121.png",
                     skill: "60s CT - 9000% Light DMG (PHY). For 10s, increase PHY DMG by 30%, if HP is over 80%, increase PHY DMG by 60% instead.",
                     skillbreak: 700,
@@ -16789,6 +16796,7 @@ const UnitInformation = [
                 {
                     name: "Night Edge",
                     slot: "/db/Mines/thumbnail/physLB.png",
+                    thumb: "/db/Equipment/Thumbnail/item_thumbnail_108831.png",
                     detail: "/db/Equipment/Detail/item_detail_108831.png",
                     skill: "60s CT - 6000% Dark DMG (PHY). If user is Dark, for 8s, reduce Enemies' PHY RES by 20%.",
                     skillbreak: 600,
@@ -16802,6 +16810,7 @@ const UnitInformation = [
                 {
                     name: "Night Jacket",
                     slot: "/db/Mines/thumbnail/physLB.png",
+                    thumb: "/db/Equipment/Thumbnail/item_thumbnail_108821.png",
                     detail: "/db/Equipment/Detail/item_Detail_108821.png",
                     skill: "60s CT - 5000% Dark DMG (PHY). For 8s, increase own Dark DMG by 50%. The first time this Equip is used in a Quest, increase own Arts by 30.",
                     skillbreak: 300,
@@ -17060,6 +17069,7 @@ const UnitInformation = [
                 {
                     name: "Ninth Oath",
                     slot: "/db/Mines/thumbnail/magLB.png",
+                    thumb: "/db/Equipment/Thumbnail/item_thumbnail_109511.png",
                     detail: "/db/Equipment/Detail/item_detail_109511.png",
                     skill: "80s CT - 10000% Dark DMG (MAG). For 30s, reduce Enemies' Dark RES by 25%.",
                     skillbreak: 800,
@@ -17073,6 +17083,7 @@ const UnitInformation = [
                 {
                     name: "Ancient's Row",
                     slot: "/db/Mines/thumbnail/magLB.png",
+                    thumb: "/db/Equipment/Thumbnail/item_thumbnail_109501.png",
                     detail: "/db/Equipment/Detail/item_detail_109501.png",
                     skill: "80s CT - 5500% Dark DMG (MAG). Increase own Arts by 35. For 30s, increase own Dark DMG by 30%.",
                     skillbreak: 900,
@@ -17170,6 +17181,7 @@ const UnitInformation = [
                 {
                     name: "Cipher",
                     slot: "/db/Mines/thumbnail/physLB.png",
+                    thumb: "/db/Equipment/Thumbnail/item_thumbnail_109661.png",
                     detail: "/db/Equipment/Detail/item_detail_109661.png",
                     skill: "45s CT - 8000% Earth DMG (PHY). For 20s, reduce Enemies' Poison RES by 30%. On first use of this Equip, increase own Arts by 50.",
                     skillbreak: 800,
@@ -17183,6 +17195,7 @@ const UnitInformation = [
                 {
                     name: "Cruvie",
                     slot: "/db/Mines/thumbnail/magLB.png",
+                    thumb: "/db/Equipment/Thumbnail/item_thumbnail_109661.png",
                     detail: "/db/Equipment/Detail/item_detail_109671.png",
                     skill: "60s CT - 7000% Earth DMG (MAG). For 25s, increase own DMG by 25% and Earth DMG by 25%.",
                     skillbreak: 900,
@@ -18405,6 +18418,7 @@ const UnitInformation = [
                 {
                     name: "Skylight",
                     slot: "/db/Mines/thumbnail/magLB.png",
+                    thumb: "/db/Equipment/Thumbnail/item_thumbnail_109771.png",
                     detail: "/db/Equipment/Detail/item_detail_109771.png",
                     skill: "45s CT - 10000% Light DMG (MAG). For 10s, reduce Enemies' Light RES by 30%. If user is Light, increase own DMG by 50%.",
                     skillbreak: 700,
@@ -18418,6 +18432,7 @@ const UnitInformation = [
                 {
                     name: "Granveus",
                     slot: "/db/Mines/thumbnail/suppLB.png",
+                    thumb: "/db/Equipment/Thumbnail/item_thumbnail_109781.png",
                     detail: "/db/Equipment/Detail/item_detail_109781.png",
                     skill: "35s CT - 5000% Light DMG (PHY). For 10s, increase Allies' Arts by 3/s, and increase Human Allies' DMG by 35%.",
                     skillbreak: 500,
@@ -18431,6 +18446,7 @@ const UnitInformation = [
                 {
                     name: "Darkbringer",
                     slot: "/db/Mines/thumbnail/physLB.png",
+                    thumb: "/db/Equipment/Thumbnail/item_thumbnail_109791.png",
                     detail: "/db/Equipment/Detail/item_detail_109791.png",
                     skill: "55s CT - 13000% Light DMG (PHY). For 10s, reduce Enemies' PHY RES by 40%. If user is Light, increase own ATK by 40%.",
                     skillbreak: 1000,
@@ -20288,6 +20304,7 @@ const UnitInformation = [
                 {
                     name: "Small Shield",
                     slot: "/db/Mines/thumbnail/defLB.png",
+                    thumb: "/db/Equipment/Thumbnail/item_thumbnail_150691.png",
                     detail: "/db/Equipment/Detail/item_detail_150691.png",
                     skill: "45s CT - For 10s, increase target's DEF by 60%, DMG RES by 40%, and target heals for 10% of DMG taken.",
                     skillbreak: 0,
@@ -20301,6 +20318,7 @@ const UnitInformation = [
                 {
                     name: "Wrath Shield",
                     slot: "/db/Mines/thumbnail/healLB.png",
+                    thumb: "/db/Equipment/Thumbnail/item_thumbnail_151191.png",
                     detail: "/db/Equipment/Detail/item_detail_151191.png",
                     skill: "35s CT - For 20s, heal Target's HP by 3%/s. If user is Light, cure Target's Seal.",
                     skillbreak: 0,
