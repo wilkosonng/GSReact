@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Navbar, NavbarToggler, Nav, NavItem, Collapse } from 'reactstrap';
+import { Navbar, NavbarToggler, Nav, NavItem, Collapse, Container, Row, Col, Media } from 'reactstrap';
 import { NavLink, Outlet } from 'react-router-dom';
 
 class Header extends Component {
@@ -23,9 +23,14 @@ class Header extends Component {
     render() {
         return (
             <React.Fragment>
-                <div className="container">
-                    <div className="row">
-                        <div className="col">
+                <Container>
+                    <Row>
+                        <Col>
+                        <center><Media src="/../../Banner.png" object-fit="cover"/></center>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
                             <Navbar sticky="top" expand="md">
                                 <NavbarToggler onClick={this.navCollapser} />
 
@@ -50,9 +55,9 @@ class Header extends Component {
                                 </Collapse>
                             </Navbar>
                             <Outlet />
-                        </div>
-                    </div>
-                </div>
+                        </Col>
+                    </Row>
+                </Container>
                 
             </React.Fragment>
         );
