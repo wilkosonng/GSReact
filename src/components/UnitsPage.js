@@ -1,37 +1,58 @@
-import React from 'react';
-import { Media } from 'reactstrap';
+import React, {useState} from 'react';
+import { Container, Row, Col, Media, Tooltip } from 'reactstrap';
 import { Link } from 'react-router-dom';
-import { Component } from 'react/cjs/react.production.min';
 import { getUnits } from '../shared/unitInfo';
 
 
-class Units extends Component {
-    constructor(props) {
-        super(props);
-    }
 
-    render() {
-        const units = getUnits();
+function Units () {
+    //Obtain Unit Data
+    const units = getUnits();
 
-        //Display Unit Thumbnails
-        return (
-            <React.Fragment>
-                <div className="container">
-                    <div className="row">            
-                        {units.map(unit => {
+    //Tooltip for Unit Names
+    const [tooltip, setTooltip] = useState(false);
+
+    //Display Unit Thumbnails
+    return (
+        <React.Fragment>
+            <Container>
+                <Row>            
+                    {units.map(unit => {
+                        if(unit.image.thumbawk){
                             return (
                                 <React.Fragment key={unit.name} >
-                                    <Link to={`/units/${unit.name}`} key={unit.name}>
-                                        <Media src={unit.image.thumbawk} alt={unit.name} width="75" height="75" />
-                                    </Link>
+                                    <Col>
+                                        <center>
+                                            <Link to={`/units/${unit.name}`} key={unit.name}>
+                                                <Media src={unit.image.thumbawk} alt={unit.name} width="75" height="75" object-fit="cover" id={`unit-${unit.id}`} />
+                                                <p>{unit.name}</p>
+                                            </Link>
+                                        </center>
+                                    </Col>
                                 </React.Fragment>
                             );
-                        })}
-                    </div>
-                </div>
-            </React.Fragment>
-        );
-    }
+                        }
+
+                        return (
+                            <React.Fragment key={unit.name} >
+                                <Col>
+                                    <center>
+                                        <Link to={`/units/${unit.name}`} key={unit.name}>
+                                            <Media src={unit.image.thumb5} alt={unit.name} width="75" height="75" object-fit="cover" id={`unit-${unit.id}`}/>
+                                            <p>{unit.name}</p>
+                                        </Link>
+                                    </center>
+                                </Col>
+                                
+                            </React.Fragment>
+                        );
+                        
+                    })}
+
+                </Row>
+            </Container>
+        </React.Fragment>
+    );
 }
 
 export default Units;
