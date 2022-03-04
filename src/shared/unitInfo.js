@@ -20172,11 +20172,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Crunchy-HIME
+    { //Crunchyroll-HIME - Complete
         id: 107246112,
-        name: "Crunchy-Hime",
-        attribute: ,
-        type: ,
+        name: "Crunchyroll-Hime",
+        attribute: "Fire",
+        type: "Beast",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_107245112.png",
@@ -20187,34 +20187,35 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/magLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 7042,
+                hpplus: 999,
+                atk: 2220,
+                atkplus: 352,
+                def: 2350,
+                defplus: 392
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "7s CT - 1800% Fire DMG (MAG). Chance to inflict Burn.",
+                skillbreak: 600,
+                arts: "16000% Fire DMG (PHY). For 10s, increase Allies' Critical Rate by 50%, increase Fire Allies' ATK by 50%.",
+                artsbreak: 1700,
+                truearts: "40000% Fire DMG (MAG). For 15s, increase Allies' evasion by 15%, heal Allies' HP by 450/s.",
+                trueartsbreak: 2900
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase Gren gained on Quests by 20%. Does not stack with Abilities of the same name.",
+                ability2: "Increase Player EXP gained on Quests by 10%. Does not stack with Abilities of the same name.",
+                ability3: "When this unit takes lethal DMG, revive with 50% HP. Ability can only be activated once per Quest."
             }, 
         evolution: 
             {
@@ -20224,21 +20225,15 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragFlogassa.png",
+                    mat3amt: 1,
+                    hover3: "Flogassa"
                 }
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "Crunchyroll-Hime is the champion of all things anime, and she's also a fantastic adventurer when duty calls, donning her trusty bow and accompanied by her mortal companion, Yuzu. Born hundreds of years ago, Hime can't remember her real name, or how she looked as a Kitsune, but once you get to know her, it's undeniable that she is one. She loves nothing more than playing tricks on people, and volunteering up riddles.",
+                evoawk: "Crunchyroll-Hime is the champion of all things anime, and she's also a fantastic adventurer when duty calls, donning her trusty bow and accompanied by her mortal companion, Yuzu. Born hundreds of years ago, Hime can't remember her real name, or how she looked as a Kitsune, but she does know the burning fire of her true form rages inside of her. She's able to channel this power and defeat any foe she faces, and save any friend she needs to."
             }
     },
     { //Naofumi - Missing Lore, TW Images
