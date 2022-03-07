@@ -23,7 +23,7 @@ function Units () {
                                 <React.Fragment key={unit.name} >
                                     <Col>
                                         <center>
-                                            <Link to={`/units/${unit.name}`} key={unit.name}>
+                                            <Link to={`/units/${unit.name}`} key={unit.name} style={{textDecoration: 'none'}}>
                                                 <Media src={unit.image.thumbawk} alt={unit.name} width="75" height="75" object-fit="cover" id={`unit-${unit.id}`} />
                                                 <p>{unit.name}</p>
                                             </Link>

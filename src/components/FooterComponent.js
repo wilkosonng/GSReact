@@ -1,5 +1,6 @@
 import React from 'react';
 import { Nav, NavItem, Container, Row, Col } from 'reactstrap';
+import '../App.css';
 
 function Footer () {
     //Display Navigation Links for bottom
@@ -10,7 +11,7 @@ function Footer () {
                     <Col>
                         <Nav fill vertical>
                             <NavItem>
-                            <p>Database</p>
+                            <p style={{color: 'white'}}><strong>Database</strong></p>
                                 <a active href="/">
                                     Home
                                 </a>
@@ -40,7 +41,7 @@ function Footer () {
                     <Col>
                         <Nav fill vertical>  
                             <NavItem>
-                                <p>Official Links</p>
+                                <p style={{color: 'white'}}><strong>Official Links</strong></p>
                                 <a href="https://grandsummoners.com/">
                                     Grand Summoners Home Page
                                 </a>

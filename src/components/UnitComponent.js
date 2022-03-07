@@ -1,16 +1,11 @@
 import React from 'react';
-import { Media, Container } from 'reactstrap';
+import { Media, Container,  Nav, NavItem} from 'reactstrap';
 import '../index.css';
 import { useParams, Link, Routes, Route, Outlet } from 'react-router-dom';
 import { getUnitByName } from '../shared/unitInfo';
 import { RenderTrue } from './unitinfo/TrueComponent';
 import { RenderStats } from './unitinfo/StatsComponent';
 import { RenderTwoStar, RenderThreeStar, RenderFourStar, RenderFiveStar, RenderAwaken } from './unitinfo/LoreComponent';
-
-const imageSize ={
-    maxHeight: 500,
-    maxWidth: 500
-};
 
 function UnitDetails () {
     const selectedUnit = useParams();
@@ -21,17 +16,20 @@ function UnitDetails () {
     */
     return (
         <React.Fragment>
-            <nav>
-                <Link to="" activeClassName="active">Lore</Link>
-                <Link to="stats" activeClassName="active">Stats</Link>
-                <Link to="trueweapon" activeClassName="active">True Weapon</Link>
-            </nav>
+            <center>
+                    <nav>
+                        <Link to="" activeClassName="active">Lore</Link>
+                        <Link to="stats" activeClassName="active">Stats</Link>
+                        <Link to="trueweapon" activeClassName="active">True Weapon</Link>
+                    </nav>
+            </center>
+            
             
 
             <Container>
                 <Routes>
                     <Route path="/" element={<React.Fragment>  
-                        <RenderLore unitLore={units.lore} unitImage={units.image} />
+                        <RenderLore unitLore={units.lore} unitImage={units.image} unitName={units.name} />
                         </React.Fragment>} >
                             <Route index />
                             <Route path="twostar" element={<RenderTwoStar lore={units.lore.evo2} unitImage={units.image} unitEvo={units.evolution} />} />
@@ -52,13 +50,14 @@ function UnitDetails () {
     )
 }
 
-function RenderLore({unitLore, unitImage}) {
+function RenderLore({unitName, unitLore, unitImage}) {
     //Use If statements to check if unitlore.evo# exists? , then display information? https://ui.dev/react-router-nested-routes/
     //Redo Links as NAvbars?
     //Check down list and return based on the earliest available evolution
     if(unitLore.evo2) {
         return (
             <React.Fragment>
+                <center><h1><strong>{unitName}</strong></h1></center>
                 <nav>
                     <center>
                         <Link to="twostar" activeClassName="active">
@@ -87,6 +86,7 @@ function RenderLore({unitLore, unitImage}) {
     if(unitLore.evo3) {
         return (
             <React.Fragment>
+                <center><h1><strong>{unitName}</strong></h1></center>
                 <nav>
                     <center>
                         <Link to="threestar" activeClassName="active">
@@ -112,6 +112,7 @@ function RenderLore({unitLore, unitImage}) {
     if(unitLore.evo4) {
         return (
             <React.Fragment>
+                <center><h1><strong>{unitName}</strong></h1></center>
                 <nav>
                     <center>
                         <Link to="fourstar" activeClassName="active">
@@ -134,6 +135,7 @@ function RenderLore({unitLore, unitImage}) {
     if(unitLore.evo5) {
         return (
             <React.Fragment>
+                <center><h1><strong>{unitName}</strong></h1></center>
                 <nav>
                     <center>
                         <Link to="fivestar" activeClassName="active">

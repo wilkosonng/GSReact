@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import { Navbar, NavbarToggler, Nav, NavItem, Collapse, Container, Row, Col, Media } from 'reactstrap';
+import { Navbar, NavbarToggler, Nav, NavItem, NavbarText, Collapse, Container, Row, Col, Media } from 'reactstrap';
 import { NavLink, Outlet } from 'react-router-dom';
+import { FaDiscord, FaFacebookF, FaTwitterSquare } from 'react-icons/fa';
+
 
 class Header extends Component {
     constructor(props) {
@@ -21,39 +23,63 @@ class Header extends Component {
 
     //Renders a Navbar that collapses under certain viewports
     render() {
+        const imageSize ={
+            maxHeight: 300
+        };
+
+        const iconSize = {
+            maxHeight: 30
+        };
+
         return (
             <React.Fragment>
                 <Container>
                     <Row>
                         <Col>
-                        <center><Media src="/../../Banner.png" object-fit="cover"/></center>
+                        <center>
+                            <a href="/" >
+                            <Media src="/../../Banner.png" style={imageSize}/>
+                            </a>
+                            
+                        </center>
                         </Col>
                     </Row>
                     <Row>
                         <Col>
-                            <Navbar sticky="top" expand="md">
-                                <NavbarToggler onClick={this.navCollapser} />
+                                <Navbar fixed="top" expand="md" color="dark" dark>
+                                    <NavbarToggler onClick={this.navCollapser} />
 
-                                <Collapse isOpen={this.state.navCheck} navbar>
-                                    <Nav navbar>
-                                        <NavItem>
-                                            <NavLink className="nav-link" to="/news" activeClassName="active">
-                                                <b>NEWS</b>
-                                            </NavLink>
-                                        </NavItem>
-                                        <NavItem>
-                                            <NavLink className="nav-link" to="/units" activeClassName="active">
-                                                <b>UNITS</b>
-                                            </NavLink>
-                                        </NavItem>
-                                        <NavItem>
-                                            <NavLink className="nav-link" to="/equips" activeClassName="active">
-                                                <b>EQUIPMENT</b>
-                                            </NavLink>
-                                        </NavItem>
-                                    </Nav>
-                                </Collapse>
-                            </Navbar>
+                                    <Collapse isOpen={this.state.navCheck} navbar>
+                                        <Nav navbar className="me-auto">
+                                            <NavItem>
+                                                <NavLink className="nav-link" to="/news" activeClassName="active">
+                                                    <b>NEWS</b>
+                                                </NavLink>
+                                            </NavItem>
+                                            <NavItem>
+                                                <NavLink className="nav-link" to="/units" activeClassName="active">
+                                                    <b>UNITS</b>
+                                                </NavLink>
+                                            </NavItem>
+                                            <NavItem>
+                                                <NavLink className="nav-link" to="/tierlist" activeClassName="active">
+                                                    <b>TIER LIST</b>
+                                                </NavLink>
+                                            </NavItem>
+                                            <NavItem>
+                                                <NavLink className="nav-link" to="/equips" activeClassName="active">
+                                                    <b>EQUIPMENT</b>
+                                                </NavLink>
+                                            </NavItem>
+                                        </Nav>
+                                        <NavbarText>
+                                            <a href=""><FaFacebookF /></a>
+                                            <a href="https://discord.gg/grandsummoners"><FaDiscord /></a>
+                                            <a href="https://twitter.com/GRANDSUMMONERS"><FaTwitterSquare /></a>
+                                            <a href="https://grandsummoners.com/"><img src="/../../db/Icons/drops/resultbox_close_1_3.png" style={iconSize} /></a>
+                                        </NavbarText>
+                                    </Collapse>
+                                </Navbar>
                             <Outlet />
                         </Col>
                     </Row>

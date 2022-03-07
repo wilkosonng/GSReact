@@ -7,12 +7,15 @@ import Footer from './components/FooterComponent';
 import Units from './components/UnitsPage';
 import UnitDetails from './components/UnitComponent';
 import { Container, Row, Col } from 'reactstrap';
+import './App.css';
 
 class App extends Component {
   render() {
     return (
       <BrowserRouter>
-      <Container className="bg-light border">
+      
+      <Container>
+      <div style={{background: 'rgb(40, 40, 40)', color: 'white'}}>
         <Row>
           <Col>
             <div className="App">
@@ -32,8 +35,9 @@ class App extends Component {
         <Row>
           <Footer />
         </Row>
+        </div>
       </Container>
-        
+      
       </BrowserRouter>
     );
   }

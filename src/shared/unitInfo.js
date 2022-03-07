@@ -8509,7 +8509,7 @@ const UnitInformation = [
         lore: 
             {   
                 evo5: "The descendant of a sorcerer who sealed an Ogre who had destroyed the capital of a Gods' kingdom early in the Ancient War. Although she was born with divine power inherited from her family, her constitution was so weak she almost never left her house. However, when the Ogre returned, she was recruited in a legion to seal it. Her childhood friend opposed and though her family was prohibited to set foot where a Demon is sealed, she inevitably joined the force.",
-                evoawk: "When she saw the sorcerer pierced by a bullet, the Ogre started laughing. The being called "Ogre" was only the flesh, while the soul had been sealed by the sorcerer using his own blood. The Fox God appeared from Zeela's boty was finally trying to reunite with the flesh-part, namely the Ogre. However, because of the Agent Machina's plan, the Fox was sealed once more inside her body."
+                evoawk: "When she saw the sorcerer pierced by a bullet, the Ogre started laughing. The being called \"Ogre\" was only the flesh, while the soul had been sealed by the sorcerer using his own blood. The Fox God appeared from Zeela's boty was finally trying to reunite with the flesh-part, namely the Ogre. However, because of the Agent Machina's plan, the Fox was sealed once more inside her body."
             }
     },
     { //Fosly - Missing Lore
@@ -11353,7 +11353,7 @@ const UnitInformation = [
         lore: 
             {   
                 evo5: "A young warrior who defends Granadia as a member of the Juno Templars. As the son of an armor shop, he was invited by the leader to join the Templars to serve their beloved princess. On the battlefield, he saved his companions several times thanks to his great shield which generates a wall of steel. His character is so honest and gentle, his friends all trust him like a brother. Because of his temperament, he is often subject to other people's will, but he seems to enjoy it anyway.",
-                evoawk: "The Juno Templar known as "Immovable Shield." When one of his companions lost consciousness behind enemy lines, he penetrated the enemy encirclement alone. On the way, he was simultaneously attacked by God army and found himself in a critical situation, but thanks to his willpower he could handle the enemies. He was moved by his duty as a member of the Templars but most importantly by the strong will to save his friends."
+                evoawk: "The Juno Templar known as \"Immovable Shield.\" When one of his companions lost consciousness behind enemy lines, he penetrated the enemy encirclement alone. On the way, he was simultaneously attacked by God army and found himself in a critical situation, but thanks to his willpower he could handle the enemies. He was moved by his duty as a member of the Templars but most importantly by the strong will to save his friends."
             }
     },
     { //Vox - Missing TW Image
@@ -12638,7 +12638,7 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "The self-proclaimed "genius" sorcerer of the Leone Templars. A master of Crest magic, who can achieve incredible results by drawing ancient symbols in the air. As a gifted child, she received special education, which enabled her to become the youngest student to ever graduate the Sorcerer Academy. Together with her various research results, this earned her attention from those around her. Many saw great things in her future and imagined her pursuing her research, but she decided to join the Templars to be reunited with her school friend Princess Leone.",
+                evo5: "The self-proclaimed \"genius\" sorcerer of the Leone Templars. A master of Crest magic, who can achieve incredible results by drawing ancient symbols in the air. As a gifted child, she received special education, which enabled her to become the youngest student to ever graduate the Sorcerer Academy. Together with her various research results, this earned her attention from those around her. Many saw great things in her future and imagined her pursuing her research, but she decided to join the Templars to be reunited with her school friend Princess Leone.",
                 evoawk: "A genius sorcerer, and pride of the Leone Templars. Her success at deciphering and using the previously incomprehensible tomes of Advanced Crest Magic earned her the nickname “Heavenly Witch”. After reuniting with Princess Leone by joining the Templars, she was both overjoyed that her friend became queen and sad for the distance. Yet, when she sensed the princess’s loneliness during the god’s attack on the sky ark, she resolved to support Leone as a Templar and as a friend."
             }
     },
@@ -13684,7 +13684,7 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "The young female leader of the Imari Village, which is located far in the east. All the village's residents were called "shinobi," and once made their living through assassination and other dark means. However, after taking over for her father after his death, Mizuki ordered the villagers to wash their hands of any immoral work. Although the village was able to experience a bit of calm after throwing away the ways of the shinobi, she could not obtain complete peace. Aware of the fact that her village was extremely impoverished, she continued to be a shinobi in the shadows for the sake of all those she ruled.",
+                evo5: "The young female leader of the Imari Village, which is located far in the east. All the village's residents were called \"shinobi,\" and once made their living through assassination and other dark means. However, after taking over for her father after his death, Mizuki ordered the villagers to wash their hands of any immoral work. Although the village was able to experience a bit of calm after throwing away the ways of the shinobi, she could not obtain complete peace. Aware of the fact that her village was extremely impoverished, she continued to be a shinobi in the shadows for the sake of all those she ruled.",
                 evoawk: "A proud shinobi who served as the leader of Imari Village. She has natural talent as a shinobi, and she was very respected because of that. With both pride and the future of the village on her shoulders, she continued to do assassination jobs in secret in order to sustain it. However, she was unable to hide her deeds forever. When she faced off against a Yoma in the depths of a dark cave, her sworn sisters Shiki and Kisaragi were badly hurt, forcing her to unleash her forbidden shinobi technique right in front of them."
             }
     },
