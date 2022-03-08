@@ -1992,6 +1992,7 @@ const UnitInformation = [
     { //Fen (Earth) - Missing TW Image
         id: 101056311,
         name: "Fen (Earth)",
+        rank: "S-",
         attribute: "Earth",
         type: "Human",
         image: 
@@ -3037,6 +3038,7 @@ const UnitInformation = [
     { //Rem (Grand Summoners) - Missing Lore, TW Image
         id: 101166511,
         name: "Rem (Grand Summoners)",
+        rank: "S-",
         attribute: "Dark",
         type: "Human",
         image: 
@@ -5908,6 +5910,7 @@ const UnitInformation = [
     { //Sanstone - Missing Stats, Slots, Evolution, True Weapon, TW Image
         id: 101676112,
         name: "Sanstone",
+        rank: "S-",
         attribute: "Fire",
         type: "Human",
         image: 
@@ -8818,6 +8821,7 @@ const UnitInformation = [
     { //Norn - Missing Lore, TW Image
         id: 102066312,
         name: "Norn",
+        rank: "S-",
         attribute: "Earth",
         type: "Machine",
         image: 
@@ -9207,6 +9211,7 @@ const UnitInformation = [
     { //Mako - Missing Lore, TW Image
         id: 102206412,
         name: "Mako",
+        rank: "SSS",
         attribute: "Light",
         type: "Human",
         image: 
@@ -10842,6 +10847,7 @@ const UnitInformation = [
     { //Weaver - Complete
         id: 102446212,
         name: "Weaver",
+        rank: "S-",
         attribute: "Water",
         type: "Human",
         image: 
@@ -11110,6 +11116,7 @@ const UnitInformation = [
     { //Berwick (Magic) - Missing TW Image
         id: 102486112,
         name: "Berwick (Magic)",
+        rank: "SS",
         attribute: "Fire",
         type: "Demon",
         image: 
@@ -11276,6 +11283,7 @@ const UnitInformation = [
     { //Thetis - Missing Stats, Slots, Evolution, True Weapon, TW Image
         id: 102506212,
         name: "Thetis",
+        rank: "SS",
         attribute: "Water",
         type: "Demon",
         image: 
@@ -11359,6 +11367,7 @@ const UnitInformation = [
     { //Vox - Missing TW Image
         id: 102516212,
         name: "Vox",
+        rank: "SS",
         attribute: "Water",
         type: "Demon",
         image: 
@@ -11609,6 +11618,7 @@ const UnitInformation = [
     { //Celia (Dark) - Missing Lore, TW Image
         id: 102546512,
         name: "Celia (Dark)",
+        rank: "S",
         attribute: "Dark",
         type: "Human",
         image: 
@@ -12478,6 +12488,7 @@ const UnitInformation = [
     { //Berwick (Physical) - Missing TW Image
         id: 102666112,
         name: "Berwick (Physical)",
+        rank: "S-",
         attribute: "Fire",
         type: "Demon",
         image: 
@@ -12562,6 +12573,7 @@ const UnitInformation = [
     { //Rosetta (Water) - Missing TW Image
         id: 102676212,
         name: "Rosetta (Water)",
+        rank: "S+",
         attribute: "Water",
         type: "Demon",
         image: 
@@ -13082,6 +13094,7 @@ const UnitInformation = [
     { //Fen (Dark) - Missing Lore, TW Image
         id: 102756512,
         name: "Fen (Dark)",
+        rank: "S",
         attribute: "Dark",
         type: "Human",
         image: 
@@ -14884,6 +14897,7 @@ const UnitInformation = [
     { //Cestina - Missing Lore, TW Image
         id: 102986312,
         name: "Cestina",
+        rank: "SS",
         attribute: "Earth",
         type: "God",
         image: 
@@ -15038,6 +15052,7 @@ const UnitInformation = [
     { //Liza - Missing Lore, TW Image
         id: 103006412,
         name: "Liza",
+        rank: "SS",
         attribute: "Light",
         type: "God",
         image: 
@@ -15335,6 +15350,7 @@ const UnitInformation = [
     { //Luahn - Missing Lore, TW Image
         id: 103046512,
         name: "Luahn",
+        rank: "S-",
         attribute: "Dark",
         type: "God",
         image: 
@@ -16829,6 +16845,7 @@ const UnitInformation = [
     { //Juno - Missing Lore, TW Image
         id: 103226412,
         name: "Juno",
+        rank: "SSS",
         attribute: "Light",
         type: "Demon",
         image: 
@@ -17213,6 +17230,7 @@ const UnitInformation = [
     },
     { //Hart (Earth) - Missing Lore, TW Image
         id: 103276312,
+        rank: "SSS",
         name: "Hart (Earth)",
         attribute: "Earth",
         type: "Human",
@@ -17379,6 +17397,7 @@ const UnitInformation = [
     { //Miranda - Missing Lore, TW Image
         id: 103296412,
         name: "Miranda",
+        rank: "S+",
         attribute: "Light",
         type: "Human",
         image: 
@@ -17626,6 +17645,7 @@ const UnitInformation = [
     { //Priscilla (Fire) - Missing TW Image
         id: 103326112,
         name: "Priscilla (Fire)",
+        rank: "S-",
         attribute: "Fire",
         type: "Human",
         image: 
@@ -17958,6 +17978,7 @@ const UnitInformation = [
     { //Summer Juno - Complete
         id: 103376212,
         name: "Summer Juno",
+        rank: "S-",
         attribute: "Water",
         type: "Demon",
         image: 
@@ -18464,6 +18485,7 @@ const UnitInformation = [
     { //Beguiler Selia - Missing TW Image
         id: 103436212,
         name: "Beguiler Selia",
+        rank: "S-",
         attribute: "Water",
         type: "Human",
         image: 
@@ -19415,6 +19437,7 @@ const UnitInformation = [
     { //Asirpa - Missing Lore
         id: 107126412,
         name: "Asirpa",
+        rank: "SS",
         attribute: "Light",
         type: "Human",
         image: 
@@ -19606,6 +19629,7 @@ const UnitInformation = [
         id: 107156212,
         name: "Rimuru (Human)",
         attribute: "Water",
+        rank: "S",
         type: "Demon",
         image: 
             {
@@ -19857,6 +19881,7 @@ const UnitInformation = [
     { //Priestess - Missing Lore
         id: 107196412,
         name: "Priestess",
+        rank: "S+",
         attribute: "Light",
         type: "Human",
         image: 
@@ -20471,6 +20496,7 @@ const UnitInformation = [
     { //Melty - Complete
         id: 107286212,
         name: "Melty",
+        rank: "S",
         attribute: "Water",
         type: "Human",
         image: 
@@ -20854,6 +20880,7 @@ const UnitInformation = [
     { //Emilia - Missing TW Image
         id: 107346212,
         name: "Emilia",
+        rank: "S",
         attribute: "Water",
         type: "God",
         image: 
@@ -21168,6 +21195,7 @@ const UnitInformation = [
     { //Santa Rimuru - Complete
         id: 107396212,
         name: "Santa Rimuru",
+        rank: "S+",
         attribute: "Water",
         type: "Demon",
         image: 
@@ -21296,6 +21324,7 @@ const UnitInformation = [
     { //New Years Rimuru - Missing Lore
         id: 107426512,
         name: "New Years Rimuru",
+        rank: "S",
         attribute: "Dark",
         type: "Demon",
         image: 
@@ -21424,6 +21453,7 @@ const UnitInformation = [
     { //Hatsune Miku - Complete
         id: 107456212,
         name: "Hatsune Miku",
+        rank: "S-",
         attribute: "Water",
         type: "Machine",
         image: 
@@ -21488,6 +21518,7 @@ const UnitInformation = [
     { //Sakura Miku - Missing Lore
         id: 107466312,
         name: "Sakura Miku",
+        rank: "S-",
         attribute: "Earth",
         type: "Machine",
         image: 
@@ -21552,6 +21583,7 @@ const UnitInformation = [
     { //Yoh - Complete
         id: 107476112,
         name: "Yoh",
+        rank: "S+",
         attribute: "Fire",
         type: "Human",
         image: 
@@ -21744,6 +21776,7 @@ const UnitInformation = [
     { //Hao - Complete
         id: 107506112,
         name: "Hao",
+        rank: "S",
         attribute: "Fire",
         type: "God",
         image: 
@@ -21936,6 +21969,7 @@ const UnitInformation = [
     { //Sylphiette - Missing Lore, Stats, Slots, Evolution
         id: 107536412,
         name: "Sylphiette",
+        rank: "S+",
         attribute: "Light",
         type: "Spirit",
         image: 
