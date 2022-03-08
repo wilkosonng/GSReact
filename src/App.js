@@ -6,6 +6,7 @@ import Header from './components/HeaderComponent';
 import Footer from './components/FooterComponent';
 import Units from './components/UnitsPage';
 import UnitDetails from './components/UnitComponent';
+import Tierlist from './components/TierlistComponent';
 import { Container, Row, Col } from 'reactstrap';
 import './App.css';
 
@@ -26,6 +27,7 @@ class App extends Component {
                     <Route index />
                   </Route>
                   <Route path="units/:unitName/*" element={<UnitDetails />} />
+                  <Route path="tierlist" element={<Tierlist />} />
                   <Route path="*" element={<p>Under construction</p>} />
                 </Route>
               </Routes>
