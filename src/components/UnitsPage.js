@@ -5,7 +5,7 @@ import { getUnits } from '../shared/unitInfo';
 
 
 
-function Units () {
+export default function Units () {
     //Obtain Unit Data
     const units = getUnits();
 
@@ -55,4 +55,3 @@ function Units () {
     );
 }
 
-export default Units;
