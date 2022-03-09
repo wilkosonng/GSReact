@@ -3880,7 +3880,7 @@ const UnitInformation = [
     { //Zoroas - Missing Lore
         id: 101266512,
         name: "Zoroas",
-        rank: "B"-,
+        rank: "B-",
         attribute: "Dark",
         type: "Dragon",
         image: 
@@ -8747,7 +8747,7 @@ const UnitInformation = [
     },
     { //Celia (Light) - Missing Lore, TW Image
         id: 102046412,
-        name: "Celia (Light)",j
+        name: "Celia (Light)",
         rank: "A",
         attribute: "Light",
         type: "Human",
@@ -21452,12 +21452,12 @@ const UnitInformation = [
                 evoawk: "A slime reincarnated into another world. While Rayas and the others were getting ready for Christmas, a serious crisis caused them to lose most of the food they had prepared, Rimuru, with friends, will use their abilities and wisdom to make the Christmas celebrations everyone is looking forward to."
             }
     },
-    { //Santa Milim
+    { //Santa Milim - Missing Lore
         id: 107406112,
         name: "Santa Milim",
         rank: "A+",
-        attribute: ,
-        type: ,
+        attribute: "Fire",
+        type: "Demon",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_107405112.png",
@@ -21468,34 +21468,35 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/healLB.png",
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/defLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 6494,
+                hpplus: 999,
+                atk: 2820,
+                atkplus: 433,
+                def: 2921,
+                defplus: 448
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "15s CT - Increase own Arts by 10 + For 10s, increase own stats by 10%.",
+                skillbreak: 0,
+                arts: "23000% Fire DMG (PHY). For 10s, reduce Enemies' Fire RES by 30%.",
+                artsbreak:  1600,
+                truearts: "40000% Fire DMG (PHY). For 10s, increase Allies' Critical Rate by 100% + Increase Allies' Arts by 3/s.",
+                trueartsbreak: 3100
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase Critical DMG by 40%.",
+                ability2: "Increase DMG to Enemies under 30% HP by 20%.",
+                ability3: "When HP is above 80%, increases Arts' and True Arts' buff durations by 50%."
             }, 
         evolution: 
             {
@@ -21505,15 +21506,9 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragIfrit.png",
+                    mat3amt: 1,
+                    hover3: "Ifrit",
                 }
             },
         lore: 
