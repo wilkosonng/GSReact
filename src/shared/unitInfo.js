@@ -1906,8 +1906,8 @@ const UnitInformation = [
         type: "Human",
         image: 
             {
-                detail4: "/db/Units/Thumbnail/unit_thumbnail_101044111.png",
-                detail5: "/db/Units/Thumbnail/unit_thumbnail_101045111.png",
+                detail4: "/db/Units/Detail/unit_detail_101044111.png",
+                detail5: "/db/Units/Detail/unit_detail_101045111.png",
                 detailawk: "/db/Units/Detail/unit_detail_101046111.png",
                 thumb4: "/db/Units/Thumbnail/unit_thumbnail_101044111.png",
                 thumb5: "/db/Units/Thumbnail/unit_thumbnail_101045111.png",
@@ -3953,19 +3953,19 @@ const UnitInformation = [
             }
     },
     { //Zechsia - Complete
-        id: 101316412,
+        id: 101276412,
         name: "Zechsia",
         rank: "B-",
         attribute: "Light",
         type: "God",
         image: 
             {
-                detail4: "/db/Units/Detail/unit_detail_101314412.png",
-                detail5: "/db/Units/Detail/unit_detail_101315412.png",
-                detailawk: "/db/Units/Detail/unit_detail_101316412.png",
-                thumb4: "/db/Units/Thumbnail/unit_thumbnail_101314412.png",
-                thumb5: "/db/Units/Thumbnail/unit_thumbnail_101315412.png",
-                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_101316412.png"
+                detail4: "/db/Units/Detail/unit_detail_101274412.png",
+                detail5: "/db/Units/Detail/unit_detail_101275412.png",
+                detailawk: "/db/Units/Detail/unit_detail_101276412.png",
+                thumb4: "/db/Units/Thumbnail/unit_thumbnail_101274412.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_101275412.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_101276412.png"
             },
         slots: 
             {
