@@ -7155,7 +7155,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Freed - Missing Lore, TW Image
+    { //Freed - Missing TW Image
         id: 101826412,
         name: "Freed",
         rank: "B+",
@@ -7235,8 +7235,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "A noble child of the Isliid Empire and one of the Five Freedom Fighters. He was trusted by all due to his kindness and sense of justice, and he mastered both literacy and martial arts. When he was young, his brother disappeared from the Royal Library of Famelle, a place they often visited. He decided to dedicated himself to looking further into the true history... Believing that the disappearance was connected to the true history, he went on a journey with his comrades. As they approached to the core of the matter, they were hindered by an assassin and hunted by every nation. He tried to hide, but the assassin eventually",
+                evoawk: "Thrown into a frenzy after the murder of the one he loved, he was shocked by her last words... The assassin was his lost brother. He fought on, unsure what to believe, but recognized his brother's face behind the mask. In the confusion of love and hate, his enemy was perplexed when called by name by a loved one. Brought to senses by his brother's stilled sword and heartfelt words. Grohl explained of how he was kidnapped, and how is glad that Freed is well. However, the time is brief, and when he went back to madness, the assassin slayed his younger brother without hesitation."
             }
     },
     { //Grohl - Missing Lore, TW Image
