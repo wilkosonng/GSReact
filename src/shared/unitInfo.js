@@ -100,6 +100,7 @@ const UnitInformation = [
         id: 100016111,
         name: "Clyde",
         rank: "B",
+        twrequire: "reliance",
         attribute: "Fire",
         type: "Human",
         image: 
@@ -206,6 +207,7 @@ const UnitInformation = [
     { //Corsair - Complete
         id: 100026211,
         name: "Corsair",
+        twrequire: "reliance",
         attribute: "Water",
         type: "Human",
         image: 
@@ -419,6 +421,7 @@ const UnitInformation = [
         id: 100046411,
         name: "Feena",
         rank: "A+",
+        twrequire: "reliance",
         attribute: "Light",
         type: "God",
         image: 
@@ -533,6 +536,7 @@ const UnitInformation = [
         id: 100056511,
         name: "Regulus",
         rank: "A-",
+        twrequire: "reliance",
         attribute: "Dark",
         type: "Demon",
         image: 
@@ -2600,6 +2604,7 @@ const UnitInformation = [
         id: 101116111,
         name: "Ganan",
         rank: "A-",
+        twrequire: "favorable",
         attribute: "Fire",
         type: "Human",
         image: 
@@ -5878,6 +5883,7 @@ const UnitInformation = [
         id: 101666212,
         name: "Nies",
         rank: "A-",
+        twrequire: "reliance",
         attribute: "Water",
         type: "God",
         image: 
@@ -5971,6 +5977,7 @@ const UnitInformation = [
         id: 101676112,
         name: "Sanstone",
         rank: "S-",
+        twrequire: "favorable",
         attribute: "Fire",
         type: "Human",
         image: 
@@ -6635,6 +6642,7 @@ const UnitInformation = [
         id: 101756111,
         name: "Gran Brave",
         rank: "A",
+        twrequire: "favorable",
         attribute: "Fire",
         type: "Human",
         image: 
@@ -6771,6 +6779,7 @@ const UnitInformation = [
         id: 101776412,
         name: "Marzex",
         rank: "A",
+        twrequire: "favorable",
         attribute: "Light",
         type: "God",
         image: 
@@ -7159,6 +7168,7 @@ const UnitInformation = [
         id: 101826412,
         name: "Freed",
         rank: "B+",
+        twrequire: "favorable",
         attribute: "Light",
         type: "God",
         image: 
@@ -8749,6 +8759,7 @@ const UnitInformation = [
         id: 102046412,
         name: "Celia (Light)",
         rank: "A",
+        twrequire: "favorable",
         attribute: "Light",
         type: "Human",
         image: 
@@ -8833,6 +8844,7 @@ const UnitInformation = [
         id: 102056512,
         name: "Ashe",
         rank: "A+",
+        twrequire: "favorable",
         attribute: "Dark",
         type: "Human",
         image: 
@@ -10669,6 +10681,7 @@ const UnitInformation = [
         id: 102396312,
         name: "Mira (Earth)",
         rank: "A+",
+        twrequire: "favorable",
         attribute: "Earth",
         type: "Human",
         image: 
@@ -10752,6 +10765,7 @@ const UnitInformation = [
         id: 102406512,
         name: "Zeorg (Dark)",
         rank: "A",
+        twrequire: "favorable",
         attribute: "Dark",
         type: "Human",
         image: 
@@ -11234,6 +11248,7 @@ const UnitInformation = [
         id: 102486112,
         name: "Berwick (Magic)",
         rank: "SS",
+        twrequire: "favorable",
         attribute: "Fire",
         type: "Demon",
         image: 
@@ -11402,6 +11417,7 @@ const UnitInformation = [
         id: 102506212,
         name: "Thetis",
         rank: "SS",
+        twrequire: "favorable",
         attribute: "Water",
         type: "Demon",
         image: 
@@ -11739,6 +11755,7 @@ const UnitInformation = [
         id: 102546512,
         name: "Celia (Dark)",
         rank: "S",
+        twrequire: "favorable",
         attribute: "Dark",
         type: "Human",
         image: 
@@ -12701,6 +12718,7 @@ const UnitInformation = [
         id: 102676212,
         name: "Rosetta (Water)",
         rank: "S+",
+        twrequire: "favorable",
         attribute: "Water",
         type: "Demon",
         image: 
@@ -12785,6 +12803,7 @@ const UnitInformation = [
         id: 102686412,
         name: "Leone",
         rank: "B+",
+        twrequire: "favorable",
         attribute: "Light",
         type: "Demon",
         image: 
@@ -13306,6 +13325,7 @@ const UnitInformation = [
         id: 102766512,
         name: "Kane (Dark)",
         rank: "A+",
+        twrequire: "favorable",
         attribute: "Dark",
         type: "Human",
         image: 
@@ -13838,6 +13858,7 @@ const UnitInformation = [
         id: 102836512,
         name: "Ginzo",
         rank: "A-",
+        twrequire: "favorable",
         attribute: "Dark",
         type: "Human",
         image: 
@@ -13998,6 +14019,7 @@ const UnitInformation = [
         id: 102856512,
         name: "Shuri",
         rank: "A+",
+        twrequire: "favorable",
         attribute: "Dark",
         type: "Human",
         image: 
@@ -14079,6 +14101,7 @@ const UnitInformation = [
         id: 102866412,
         name: "Amane",
         rank: "A",
+        twrequire: "favorable",
         attribute: "Light",
         type: "Human",
         image: 
@@ -14160,6 +14183,7 @@ const UnitInformation = [
         id: 102876112,
         name: "Kisaragi",
         rank: "A+",
+        twrequire: "favorable",
         attribute: "Fire",
         type: "Human",
         image: 
@@ -14320,6 +14344,7 @@ const UnitInformation = [
         id: 102896112,
         name: "Tamae",
         rank: "A",
+        twrequire: "favorable",
         attribute: "Fire",
         type: "Demon",
         image: 
@@ -14884,6 +14909,7 @@ const UnitInformation = [
         id: 102966212,
         name: "Veronica",
         rank: "A+",
+        twrequire: "favorable",
         attribute: "Water",
         type: "Human",
         image: 
@@ -15045,6 +15071,7 @@ const UnitInformation = [
         id: 102986312,
         name: "Cestina",
         rank: "SS",
+        twrequire: "favorable",
         attribute: "Earth",
         type: "God",
         image: 
@@ -15502,6 +15529,7 @@ const UnitInformation = [
         id: 103046512,
         name: "Luahn",
         rank: "S-",
+        twrequire: "favorable",
         attribute: "Dark",
         type: "God",
         image: 
@@ -15652,6 +15680,7 @@ const UnitInformation = [
         id: 103066112,
         name: "Angelas",
         rank: "A-",
+        twrequire: "favorable",
         attribute: "Fire",
         type: "Dragon",
         image: 
@@ -15903,6 +15932,7 @@ const UnitInformation = [
         id: 103096412,
         name: "Victoire",
         rank: "A",
+        twrequire: "favorable",
         attribute: "Light",
         type: "Spirit",
         image: 
@@ -16295,6 +16325,7 @@ const UnitInformation = [
         id: 103146312,
         name: "Salyssa",
         rank: "B+",
+        twrequire: "favorable",
         attribute: "Earth",
         type: "Human",
         image: 
@@ -16807,6 +16838,7 @@ const UnitInformation = [
         id: 103206412,
         name: "Noel",
         rank: "A-",
+        twrequire: "favorable",
         attribute: "Light",
         type: "Human",
         image: 
@@ -16910,6 +16942,7 @@ const UnitInformation = [
         id: 103216512,
         name: "Batiste",
         rank: "A+",
+        twrequire: "favorable",
         attribute: "Dark",
         type: "Human",
         image: 
@@ -17013,6 +17046,7 @@ const UnitInformation = [
         id: 103226412,
         name: "Juno",
         rank: "SSS",
+        twrequire: "favorable",
         attribute: "Light",
         type: "Demon",
         image: 
@@ -17399,6 +17433,7 @@ const UnitInformation = [
     { //Hart (Earth) - Missing Lore, TW Image
         id: 103276312,
         rank: "SSS",
+        twrequire: "favorable",
         name: "Hart (Earth)",
         attribute: "Earth",
         type: "Human",
@@ -17566,6 +17601,7 @@ const UnitInformation = [
         id: 103296412,
         name: "Miranda",
         rank: "S+",
+        twrequire: "favorable",
         attribute: "Light",
         type: "Human",
         image: 
@@ -17814,6 +17850,7 @@ const UnitInformation = [
         id: 103326112,
         name: "Priscilla (Fire)",
         rank: "S-",
+        twrequire: "favorable",
         attribute: "Fire",
         type: "Human",
         image: 
@@ -18656,6 +18693,7 @@ const UnitInformation = [
         id: 103436212,
         name: "Beguiler Selia",
         rank: "S-",
+        twrequire: "favorable",
         attribute: "Water",
         type: "Human",
         image: 
@@ -19222,9 +19260,9 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Airou - Missing Lore
+    { //Palico (Using English name) - Missing Lore
         id: 107066112,
-        name: "Airou",
+        name: "Rathalos Armor Palico",
         attribute: "Fire",
         type: "Beast",
         image: 
@@ -20447,6 +20485,7 @@ const UnitInformation = [
         id: 107256411,
         name: "Naofumi",
         rank: "A+",
+        twrequire: "favorable",
         attribute: "Light",
         type: "Human",
         image: 
@@ -21232,6 +21271,7 @@ const UnitInformation = [
         id: 107366312,
         name: "Ram",
         rank: "A-",
+        twrequire: "favorable",
         attribute: "Earth",
         type: "Demon",
         image: 
