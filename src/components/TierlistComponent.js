@@ -10,14 +10,46 @@ export default function Tierlist() {
     return (
         <Container>
             <Row>
-                <h1><center><strong>Global Tierlist</strong></center></h1>
-                <p><center>This tierlist is for GLOBAL units only. Do <strong>not</strong> consider this gospel. This is simply meant to show the general analysis of each unit. Rankings were determined by top players from the Official Discord.</center></p>
+                <Card style={{backgroundColor: "gray"}}>
+                    <CardHeader>
+                        <h1><center><strong>Global Tierlist</strong></center></h1>
+                    </CardHeader>
+                    <CardBody>
+
+                            <Card style={{backgroundColor: "gray"}}>
+                                <CardHeader>
+                                    <center><h4>LEGEND</h4></center>
+                                </CardHeader>
+                                <CardBody>
+                                    <center>
+                                        <p><img src="/db/Icons/skill/thumbnail/skill0.png" style={{maxWidth: "20px"}} /> True Weapon Favorability (Bumped up 0-2 Subtiers)</p>
+                                        <p><img src="/db/Icons/skill/thumbnail/skill5.png" style={{maxWidth: "20px"}} /> True Weapon Reliance (Bumped up 2+ subtiers)</p>
+                                        <p><img src="/db/Icons/skill/thumbnail/damage_up.png" style={{maxWidth: "20px"}} /> Notable Cross Arts Synergy</p>
+                                    </center>
+                                </CardBody>
+                            </Card>
+                            <Card style={{backgroundColor: "gray"}}>
+                                <CardHeader>
+                                    <center><h4>NOTE</h4></center>
+                                </CardHeader>
+                                <p><center>This tierlist is for GLOBAL units only. Do <strong>not</strong> consider this gospel. Each unit may have their own niche, even the lower ranking units</center></p>
+                                <p><center>This is simply meant to show the general analysis of each unit. Rankings were determined by top players from the Official Discord.</center></p>
+                            </Card>
+                    </CardBody>
+                </Card>
+                
+                
             </Row>
             <Row>
-                <Card style={{backgroundColor:"#f291c5", maxHeight: "125px"}}>
+                <Card style={{backgroundColor:"#f291c5"}}>
                     <CardBody>
                         <CardGroup>
-                        <strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>SSS |&nbsp;</strong>
+                            <Col lg="1">
+                                <Card style={{width: "90px", backgroundColor:"#2e2e2e"}}>
+                                    <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>SSS</strong></center>
+                                </Card>
+                            </Col>
+                        
                             {units.map(units => {
                                 if(units.rank === "SSS"){
                                     return (
@@ -33,7 +65,11 @@ export default function Tierlist() {
                 <Card style={{backgroundColor:"#ffc5cf", }}>
                     <CardBody>
                         <CardGroup>
-                        <strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>SS |&nbsp;</strong>
+                            <Col lg="1">
+                                <Card style={{width: "90px", backgroundColor:"#2e2e2e"}}>
+                                    <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>SS</strong></center>
+                                </Card>
+                            </Col>
                             {units.map(units => {
                                 if(units.rank === "SS"){
                                     return (
@@ -49,7 +85,11 @@ export default function Tierlist() {
                 <Card style={{backgroundColor:"#ff97a8"}}>
                     <CardBody>
                         <CardGroup>
-                        <strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>S+ |&nbsp;</strong>
+                            <Col lg="1">
+                                <Card style={{width: "90px", backgroundColor:"#2e2e2e"}}>
+                                    <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>S+</strong></center>
+                                </Card>
+                            </Col>
                             {units.map(units => {
                                 if(units.rank === "S+"){
                                     return (
@@ -65,7 +105,11 @@ export default function Tierlist() {
                 <Card style={{backgroundColor:"#f15b74"}}>
                     <CardBody>
                         <CardGroup>
-                        <strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>S | &nbsp;</strong>
+                            <Col lg="1">
+                                <Card style={{width: "90px", backgroundColor:"#2e2e2e"}}>
+                                    <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>S</strong></center>
+                                </Card>
+                            </Col>
                             {units.map(units => {
                                 if(units.rank === "S"){
                                     return (
@@ -81,7 +125,11 @@ export default function Tierlist() {
                 <Card style={{backgroundColor:"#cf364f"}}>
                     <CardBody>
                         <CardGroup>
-                        <strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>S- | &nbsp;</strong>
+                            <Col lg="1">
+                                <Card style={{width: "90px", backgroundColor:"#2e2e2e"}}>
+                                    <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>S-</strong></center>
+                                </Card>
+                            </Col>
                             {units.map(units => {
                                 if(units.rank === "S-"){
                                     return (
@@ -97,7 +145,12 @@ export default function Tierlist() {
                 <Card style={{backgroundColor:"#f6b990"}}>
                     <CardBody>
                         <CardGroup>
-                        <strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>A+ | &nbsp;</strong>
+                            <Col lg="1">
+                                <Card style={{width: "90px", backgroundColor:"#2e2e2e"}}>
+                                    <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>A+</strong></center>
+                                </Card>
+                            </Col>
+                            
                             {units.map(units => {
                                 if(units.rank === "A+"){
                                     return (
@@ -114,7 +167,11 @@ export default function Tierlist() {
                 <Card style={{backgroundColor:"#f2985c"}}>
                     <CardBody>
                         <CardGroup>
-                        <strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>A | &nbsp;</strong>
+                            <Col lg="1">
+                                <Card style={{width: "90px", backgroundColor:"#2e2e2e"}}>
+                                    <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>A</strong></center>
+                                </Card>
+                            </Col>
                             {units.map(units => {
                                 if(units.rank === "A"){
                                     return (
@@ -130,7 +187,11 @@ export default function Tierlist() {
                 <Card style={{backgroundColor:"#e8731a"}}>
                     <CardBody>
                         <CardGroup>
-                        <strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>A- | &nbsp;</strong>
+                            <Col lg="1">
+                                <Card style={{width: "90px", backgroundColor:"#2e2e2e"}}>
+                                    <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>A-</strong></center>
+                                </Card>
+                            </Col>
                             {units.map(units => {
                                 if(units.rank === "A-"){
                                     return (
@@ -146,7 +207,11 @@ export default function Tierlist() {
                 <Card style={{backgroundColor:"#f2d45c"}}>
                     <CardBody>
                         <CardGroup>
-                        <strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>B+ | &nbsp;</strong>
+                            <Col lg="1">
+                                <Card style={{width: "90px", backgroundColor:"#2e2e2e"}}>
+                                    <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>B+</strong></center>
+                                </Card>
+                            </Col>
                             {units.map(units => {
                                 if(units.rank === "B+"){
                                     return (
@@ -162,7 +227,11 @@ export default function Tierlist() {
                 <Card style={{backgroundColor:"#ebac36"}}>
                     <CardBody>
                         <CardGroup>
-                        <strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>B | &nbsp;</strong>
+                            <Col lg="1">
+                                <Card style={{width: "90px", backgroundColor:"#2e2e2e"}}>
+                                    <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>B</strong></center>
+                                </Card>
+                            </Col>
                             {units.map(units => {
                                 if(units.rank === "B"){
                                     return (
@@ -178,7 +247,11 @@ export default function Tierlist() {
                 <Card style={{backgroundColor:"#e8faac"}}>
                     <CardBody>
                         <CardGroup>
-                        <strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>B- | &nbsp;</strong>
+                            <Col lg="1">
+                                <Card style={{width: "90px", backgroundColor:"#2e2e2e"}}>
+                                    <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>B-</strong></center>
+                                </Card>
+                            </Col>
                             {units.map(units => {
                                 if(units.rank === "B-"){
                                     if(units.image.thumbawk) {
@@ -200,7 +273,11 @@ export default function Tierlist() {
                 <Card style={{backgroundColor:"#4cbd5d"}}>
                     <CardBody>
                         <CardGroup>
-                        <strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>C | &nbsp;</strong>
+                            <Col lg="1">
+                                <Card style={{width: "90px", backgroundColor:"#2e2e2e"}}>
+                                    <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>C</strong></center>
+                                </Card>
+                            </Col>
                             {units.map(units => {
                                 if(units.rank === "C"){
                                     if(units.image.thumbawk) {
@@ -221,7 +298,11 @@ export default function Tierlist() {
                 <Card style={{backgroundColor:"#7ecff2"}}>
                     <CardBody>
                         <CardGroup>
-                        <strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>F | &nbsp;</strong>
+                            <Col lg="1">
+                                <Card style={{width: "90px", backgroundColor:"#2e2e2e"}}>
+                                    <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>F</strong></center>
+                                </Card>
+                            </Col>
                             {units.map(units => {
                                 if(units.rank === "F"){
                                     if(units.image.thumbawk) {
@@ -242,7 +323,11 @@ export default function Tierlist() {
                 <Card style={{backgroundColor:"#d092f4"}}>
                     <CardBody>
                         <CardGroup>
-                        <strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>TBD | &nbsp;</strong>
+                            <Col lg="1">
+                                <Card style={{width: "90px", backgroundColor:"#2e2e2e"}}>
+                                    <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>TBD</strong></center>
+                                </Card>
+                            </Col>
                             {units.map(units => {
                                 if(units.rank === "TBD"){
                                     if(units.image.thumbawk) {
@@ -270,8 +355,61 @@ const thumbnailSize = {
 };
 
 function DisplayUnit({unit, cardColor}) {
+    if(unit.twrequire){
+        if(unit.twrequire === "reliance"){
+            return (
+                <Col lg="1">
+                <Card style={{border: "none", width: "90px", backgroundColor: cardColor}}>
+                    <center>
+                        <a href={`/units/${unit.name}`} style={{textDecoration: "none"}}>
+                            <img src={unit.image.thumbawk} style={thumbnailSize} object-fit="cover" />
+                            <br />
+                            <img src="/db/Icons/skill/thumbnail/skill5.png" style={{maxWidth: "20px", paddingBottom: "2px", marginBottom: "2px"}} />
+                            <p style={{paddingBottom: "2px", marginBottom: "2px", color: "black"}}>
+                                {unit.name}
+                            </p>
+                        </a>
+                    </center>
+                </Card>
+                </Col>
+            )
+        }
+        if(unit.name === "Luahn") {
+            return (
+                <Col lg="1">
+                <Card style={{border: "none", width: "90px", backgroundColor: cardColor}}>
+                    <center>
+                        <a href={`/units/${unit.name}`} style={{textDecoration: "none"}}>
+                            <img src={unit.image.thumbawk} style={thumbnailSize} object-fit="cover" />
+                            <br />
+                            <img src="/db/Icons/skill/thumbnail/skill0.png" style={{maxWidth: "20px", paddingBottom: "2px", marginBottom: "2px"}} />
+                            <img src="/db/Icons/skill/thumbnail/damage_up.png" style={{maxWidth: "20px", paddingBottom: "2px", marginBottom: "2px"}} />
+                            <p style={{paddingBottom: "2px", marginBottom: "2px", color: "black"}}>{unit.name}</p>
+                        </a>
+                    </center>
+                </Card>
+                </Col>
+            )
+        }
+
+        return (
+            <Col lg="1">
+            <Card style={{border: "none", width: "90px", backgroundColor: cardColor}}>
+                <center>
+                    <a href={`/units/${unit.name}`} style={{textDecoration: "none"}}>
+                        <img src={unit.image.thumbawk} style={thumbnailSize} object-fit="cover" />
+                        <br />
+                        <img src="/db/Icons/skill/thumbnail/skill0.png" style={{maxWidth: "20px", paddingTop: "0px", marginTop: "0px", paddingBottom: "0px", marginBottom: "0px"}} />
+                        <p style={{paddingTop: "0px", paddingBottom: "2px", marginTop: "0px", marginBottom: "2px", color: "black"}}>{unit.name}</p>
+                    </a>
+                </center>
+            </Card>
+            </Col>
+        )
+    }
+
     return (
-        <Col m="1">
+        <Col lg="1">
         <Card style={{border: "none", width: "90px", backgroundColor: cardColor}}>
             <center>
                 <a href={`/units/${unit.name}`} style={{textDecoration: "none"}}>
@@ -286,8 +424,9 @@ function DisplayUnit({unit, cardColor}) {
 
 //If Unit does not have Awk
 function DisplayFiveStar({unit, cardColor}) {
+    //No TW favorability
     return (
-        <Col m="1">
+        <Col lg="1">
         <Card style={{border: "none", width: "90px", backgroundColor: cardColor}}>
             <center>
                 <a href={`/units/${unit.name}`} style={{textDecoration: "none"}}>
