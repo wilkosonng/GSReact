@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Card, CardHeader, CardBody, CardGroup } from 'reactstrap';
 import { getNews } from '../shared/news';
+import { Link } from 'react-router-dom';
 
 export default function News () {
     //Obtain Articles
@@ -18,35 +19,33 @@ export default function News () {
                 </Card>
             </Row>
             <Row>
-            <Row>
                 <Card style={{backgroundColor:"blue"}}>
                     <CardBody>
                         <CardGroup>
-                            <Col lg="4">
-                                <Card style={{width: "90px", backgroundColor:"#2e2e2e"}}>
-                                    <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>SSS</strong></center>
-                                </Card>
-                            
-                        
                             {newsTopics.map(theNews => {
                                 const theArticle = theNews.article;
                                 return (
-                                <Card>
-                                    <CardHeader>
-                                        <h3><center><strong>{theNews.title}</strong></center></h3>
-                                    </CardHeader>
-                                    <CardBody>
-                                        <div dangerouslySetInnerHTML={{ __html: theArticle }} />
-                                    </CardBody>
-                                </Card>
+                                    <React.Fragment key={theNews.id}>
+                                        <Col lg="3">
+                                            <Link to={`/news/${theNews.id}`} style={{textDecoration: 'none'}} key={theNews.id}>
+                                                <Card style={{width: "300px", height: "300px"}}>
+                                                    <CardHeader>
+                                                        <h3><center><strong>{theNews.title}</strong></center></h3>
+                                                    </CardHeader>
+                                                    <CardBody>
+                                                        <div dangerouslySetInnerHTML={{ __html: theArticle }} />
+                                                    </CardBody>
+                                                </Card>
+                                            </Link>
+                                        </Col>
+                                    </React.Fragment>
+                                    
                                 )
                                 
                             })}
-                            </Col>
                         </CardGroup>
                     </CardBody>
                 </Card>
-            </Row>
             </Row>
         </Container>
     )
