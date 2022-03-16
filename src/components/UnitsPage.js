@@ -24,7 +24,7 @@ export default function Units () {
                                     <Col>
                                         <center>
                                             <Link to={`/units/${unit.name}`} key={unit.name} style={{textDecoration: 'none'}}>
-                                                <Media src={unit.image.thumbawk} alt={unit.name} width="75" height="75" object-fit="cover" id={`unit-${unit.id}`} />
+                                                <Media src={unit.image.thumbawk} alt={unit.name} width="75" height="75" object-fit="cover"  />
                                                 <p>{unit.name}</p>
                                             </Link>
                                         </center>
@@ -38,7 +38,7 @@ export default function Units () {
                                 <Col>
                                     <center>
                                         <Link to={`/units/${unit.name}`} key={unit.name}>
-                                            <Media src={unit.image.thumb5} alt={unit.name} width="75" height="75" object-fit="cover" id={`unit-${unit.id}`}/>
+                                            <Media src={unit.image.thumb5} alt={unit.name} width="75" height="75" object-fit="cover" />
                                             <p>{unit.name}</p>
                                         </Link>
                                     </center>
