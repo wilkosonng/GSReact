@@ -21043,7 +21043,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Toguro - Missing Lore, Stats, Slots, Evolution
+    { //Toguro - Missing Lore, Stats, Slots, Evolution, test
         id: 107336512,
         name: "Toguro",
         rank: "A",
