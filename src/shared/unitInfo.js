@@ -20159,7 +20159,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //High Elf Archer - Missing Lore, Stats, Slots, Evolution
+    { //High Elf Archer - Complete
         id: 107206312,
         name: "High Elf Archer",
         rank: "A+",
@@ -20202,7 +20202,7 @@ const UnitInformation = [
         passive: 
             {
                 ability1: "Increase Critical DMG by 70%.",
-                ability2: "Increase own evasion by 10% and increase own accuracy by 50%."
+                ability2: "Increase own Evasion by 10% and increase own Accuracy by 50%."
             }, 
         evolution: 
             {
@@ -20219,11 +20219,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "A High Elf adventurer who joined Goblin Slayer's party. She uses the bow in battle, and she's incredibly accurate at long distances. The High Elves are long-lived people, and although she appears quite young, she is in truth 2000 years old. And yet, inside she remains somehow childlike.",
+                evoawk: "A High Elf ranger. She's not skilled at close combat, but he marksmanship and physical abilities offer powerful support from the rear, so her Silver adventurer rank is well-earned. She left her home to see the world as an adventurer, and now her main goal is to show Goblin Slayer the joys of adventuring."
             }
     },
-    { //Sonic - Missing Lore
+    { //Sonic - Complete
         id: 107216512,
         name: "Sonic",
         rank: "A",
@@ -20283,8 +20283,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "A ninja with absolute confidence in speed. He is obsessed with Saitama because he was once defeated by him. His objective is only to beat him as well.",
+                evoawk: "He is the self-proclaimed 'Strongest Ninja'. He is equal in ability as the S-Class Hero, Genos. His obsession to defeat Saitama is so deep, he is prepared to do anything."
             }
     },
     { //Hellish Blizzard - Complete
@@ -20352,7 +20352,7 @@ const UnitInformation = [
                 evoawk: "She is a B-Class Rank 1 Hero. She is a powerful psychic, and biological sister of the S-Class Rank 2 Hero, Terrible Tornado."
             }
     },
-    { //Garou - Missing Lore
+    { //Garou - Complete
         id: 107236512,
         name: "Garou",
         rank: "A",
@@ -20412,8 +20412,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "He is a Human who calls himself a Monster. He trained under a S-Class Hero master but was expelled, so he burns in the obsession of Hero Hunting.",
+                evoawk: "He is a Human who calls himself 'Hero Hunter'. He refuses the common sense of good and evil and he's committed in defeating heroes as a villain."
             }
     },
     { //Crunchyroll-HIME - Complete
@@ -20481,7 +20481,7 @@ const UnitInformation = [
                 evoawk: "Crunchyroll-Hime is the champion of all things anime, and she's also a fantastic adventurer when duty calls, donning her trusty bow and accompanied by her mortal companion, Yuzu. Born hundreds of years ago, Hime can't remember her real name, or how she looked as a Kitsune, but she does know the burning fire of her true form rages inside of her. She's able to channel this power and defeat any foe she faces, and save any friend she needs to."
             }
     },
-    { //Naofumi - Missing Lore, TW Images
+    { //Naofumi - Missing TW Images
         id: 107256411,
         name: "Naofumi",
         rank: "A+",
@@ -20574,11 +20574,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "The Shield Hero, one of the the Four Holy Heroes. Once an ordinary young man, he was summoned to a medieval fantasy world to fight against hordes of monsters, which occurence was known as 'waves'. He was excited to be in a video game-like world but soon was betrayed by several heartless people. Disappointed and depressed, he became unable to believe anyone. Eventually, he found a few people who are now his allies. However, his name is still disgraced, and he remains a fugitive of the kingdom.",
+                evoawk: "When Rayas summoned him, Naofumi was fleeing from the army of Melromarc, accused of kidnapping and murdering the princess. Due to this traumatic experience, he could not open up to other people and kept a distance between Rayas and his friends. However, as he connected with the people of Reigrad, little by little, his frozen heart began to melt. As Naofumi grew closer to his new friends, he made a surprising proposal. Rayas and his friends agreed, but yet little did they know what would follow...!"
             }
     },
-    { //Raphtalia - Missing Lore, TW Image
+    { //Raphtalia - Missing TW Image
         id: 107266412,
         name: "Raphtalia",
         rank: "A-",
@@ -20651,8 +20651,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "The Shield Hero's first companion, who is Demi-human. When Naofumi purchased her from the slave trader, she was just a child. However, the training with Naofumi led to her rapid development, and currently, she looks like an adult. At first, she was afraid of Naofumi as her slave master, but she came to understand his true, kind nature and now admires him. Admittedly, she has feelings for Naofumi, but since he was betrayed by a certain woman, he does not seem to care for romance... leaving Raphtalia somewhat lovelorn by her predicament.",
+                evoawk: "Raphtalia was summoned to Raktehelm along with Naofumi, Filo and Melty. She tries to act as a bridge between Naofumi and others without much success, Rayas and his friends included. However, on the battlefield, Raphtalia's sword skills are not to be outdone by Rayas and his friends as she shows off her techniques proudly."
             }
     },
     { //Filo - Missing Lore
@@ -20715,7 +20715,7 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
+                evo5: "Filo is a 'Filolial', which is a bird-like monster that hatched from the egg Naofumi Iwatani purchased from the slave master. She was born in bird form, but since her caretaker was naofumi, one of the legendary heroes, she was able to change form into a small girl with wings like an angel. Although her personality is quite childish and often can't quite follow difficult conversations, Filo admires Naofumi as her master and Raphtalia as her sister. As soon as she met Melty, Filo instantly became friends with her, and have been besties since.",
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
@@ -20848,7 +20848,7 @@ const UnitInformation = [
                 evoawk: "After rigorous training and life-threatening battles with many worthy opponents, Yusuke Urameshi showed significant growth as the official successor to the Spirit Wave technique. He never turns a blind eye to any wrongdoing, and when he feels anger, even towards himself, he exerts so much power that it makes his opponents quiver. However, he doesn't just fight for the fun of it. The way he puts his whole heart into fighting for the things he wants to protect draws people towards him, friends and enemies alike."
             }
     },
-    { //Kazuma - Missing Lore
+    { //Kazuma - Complete
         id: 107306412,
         name: "Kazuma",
         rank: "B",
@@ -20909,11 +20909,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "Kuwabara is a teenage delinquent who attends Sarayashiki Junior High School and calls himself Yusuke Urameshi's rival. He is an incredibly average human except for his natural sixth sense, but he becomes a good partner for Yusuke when he realizes his own potential. While he is simple and a bit of a clown, the stoic way he never wavers in his ideals draws quite a number of followers to him. Kuwabara always bounces back no matter how hard he's hit, and he isn't afraid of honest hard work either, which wil continue to help him to grow.",
+                evoawk: "Kuwabara has an almost miraculous ability to rebound and sixth sense for a human being--it's almost as if he's immortal. At the Dark Tournament, he took the initiative and inspired his allies, achieving much more that just winning his own battles. His indomitable fighting spirit inspires confidence in many and will probably continue to do so in the future."
             }
     },
-    { //Kurama - Missing Lore
+    { //Kurama - Complete
         id: 107316312,
         name: "Kurama",
         rank: "A+",
@@ -20974,11 +20974,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "A Yoko who has made a name for himself as a thief in the Demon World. In the past, he was fatally injured by one of his pursuers, but he managed to come back to life by implanting his soul into an unborn human child. Kurama has a sharp mind and always seems cool and collected, but he also loves to fight, and when he is angry, hsi brutal Yoko side comes out. It is said that in one battle, Kurama's rage brought him to kill his opponent in such a terrible way that it frightened even his allies.",
+                evoawk: "A Yoko who was so feared as a thief in the Demon World that he was called the Legendary Bandit. After being born again in the Human World, he ends up helping Yusuke and his friends from time to time. his Yoko power is slowly returning to him, and he is a tough opponent even in hand-to-hand combat. When he returns to his brutal Yoko form, his Demonic energy is so powerful that even other Yokai can't lay a finger on him--it can be said that angering Kurama is the same as taking a shortcut to a painful death."
             }
     },
-    { //Hiei - Missing Lore
+    { //Hiei - Complete
         id: 107326512,
         name: "Hiei",
         rank: "A",
@@ -21039,11 +21039,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "A cold-blooded Yokai who makes his living as a bandit in the Demon World. He is a master of the Darkness Flame Fist, and his ominous Jagan Eye--the third eye on his forehead--causes many to fear and shun him. He has the tragic fate of being born as a Glacier Child, but his past does not cast even a single shadow over his incredible power. There are very few people who can fight on the same level as him when he unleashes his vicious Demonic Energy and terrifying flame attacks.",
+                evoawk: "Hiei mastered the Dragon of the Darkness Flame, the greatest technique of the Darkness Flame Fist, and unleashed the true power of the Jagan Eye. He overcame his tragic past and fought many worthy opponents to bring this power to its limits--the overwhelming Demonic Energy alone is enough to make many of his enemies cower. When Hiei invokes the dragon hellfire from the the Demon World and lets its explosive power loose, everything before him is razed to ashes by the overpowering black flames."
             }
     },
-    { //Toguro - Missing Lore, Stats, Slots, Evolution, test
+    { //Toguro - Complete
         id: 107336512,
         name: "Toguro",
         rank: "A",
@@ -21104,8 +21104,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "A Yokai who used to be human. He can manipulate his muscles at will and overwhelms his enemies using only his well-built body. When he uses 80% of his muscle power, run-of-the-mill Yokai would die from from just a brush with his aggressive Demonic Energy. Nobody has ever survived a fight with him at his full power, but he continues to hone his body for the day when somebody might finally be able to give him a challenge.",
+                evoawk: "Younger Toguro rejoices after finally meeting an opponent who can give him a challenge and lets loose his full potential. Most people would die instantly from being hit by Toguro's monstrous levels of Demonic Energy, and any who do manage to escape would then be crushed by his overwhelmingly powerful fists. For someone like Toguro, whose strength goes beyond human understanding, it was very rare to meet an opponent who could actually be a threat to him, so when he finally did, he was filled with joy at the opportunity to give it his all."
             }
     },
     { //Emilia - Missing TW Image
@@ -21267,7 +21267,7 @@ const UnitInformation = [
                 evoawk: "A quiet and skillful maid who works at the Roswaal Mansion. Recently, she has been worrying about how her chest has become bigger than her sister's, so she has taken measures to make sure people don't find out."
             }
     },
-    { //Ram - Missing Lore, TW Image
+    { //Ram - Missing TW Image
         id: 107366312,
         name: "Ram",
         rank: "A-",
@@ -21343,11 +21343,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "A girl who hides her right eye behind her short pink hair. She and her younger sister Rem serve at the Roswaal Mansion. She has a sharp tongue and is very rude. She lets her sister do all the work.",
+                evoawk: "A carefree maid working at the Roswaal Mansion. Her specialty is steamed yams. Her little sister Rem helps her in almost every aspect of her private life, including waking her up and taking care of her hair and nails."
             }
     },
-    { //Beatrice - Missing Lore, TW Image
+    { //Beatrice - Missing TW Image
         id: 107376512,
         name: "Beatrice",
         rank: "A-",
@@ -21423,8 +21423,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "The caretaker of the Roswaal Mansion's Forbidden Library. Her milky white hair is tied up in twin drills. She seems to always be in a bad mood. She looks like a fairy when she walks, her fancy dress trailing behind her.",
+                evoawk: "She calls herself Betty and is the librarian at the Forbidden Library. She lives on her own in a room as the Roswaal Mansion that was hidden with Door Crossing. She is arrogant and does not get along well with others. While she often finds herself at odds with Subaru Natsuki, who happened to break her Door Crossing, they actually get along fairly well."
             }
     },
     { //Santa Rimuru - Complete
@@ -21492,7 +21492,7 @@ const UnitInformation = [
                 evoawk: "A slime reincarnated into another world. While Rayas and the others were getting ready for Christmas, a serious crisis caused them to lose most of the food they had prepared, Rimuru, with friends, will use their abilities and wisdom to make the Christmas celebrations everyone is looking forward to."
             }
     },
-    { //Santa Milim - Missing Lore
+    { //Santa Milim - Complete
         id: 107406112,
         name: "Santa Milim",
         rank: "A+",
@@ -21553,11 +21553,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "One of the oldest Demon Lords. Having once visited Raktehelm with Rimuru before, she demanded to go back and eat Reigrad's cuisine again. Rimuru decided it was better to satisfy her cravings that have her pitch one of her dangerous tantrums.",
+                evoawk: "One of the oldest Demon Lords. When trouble arose as Reigrad was preparing for Christmas, she was enraged at the thought of losing her chance to taste their seasonal dishes. It was a struggle for Rimuru and the others to keep her from destroying the entire city."
             }
     },
-    { //Santa Shion - Missing Lore
+    { //Santa Shion - Complete
         id: 107416512,
         name: "Santa Shion",
         rank: "A",
@@ -21618,11 +21618,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "A Kijin that serves Rimuru as his secretary and bodyguard. Though she did not join him on his last visit to Reigrad, she decided to accompany him on his return trip. She took a keen interest in the Christmas preparations and joined Benimaru in preventing as much loss to their food supply as possible.",
+                evoawk: "A Kijin that serves Rimuru as his secretary and bodyguard. For the sake of Reigrad who lost a great deal of their food supply to beasts, she fought alongside her allies. Just like Benimaru, she is a powerful presence in battle."
             }
     },
-    { //New Years Rimuru - Missing Lore
+    { //New Years Rimuru - Complete
         id: 107426512,
         name: "New Years Rimuru",
         rank: "S",
@@ -21683,11 +21683,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "A slime reincarnated into another world. Learning that Reigrad was still low on food after the Christmas celebration, he decided to help replenish their supplies. He used the full extent of his intelligence to help solve the mountain of problems from increasing crop growth to finding other sources of meat.",
+                evoawk: "A slime reincarnated into another world. He contributed his know-how to Rayas' group and helped gather enough food to celebrate New Year's. Everyone was in awe as he demonstrated the leadership and skillfulness that let him build a country from the ground up in his home land."
             }
     },
-    { //New Years Milim - Missing Lore
+    { //New Years Milim - Complete
         id: 107436412,
         name: "New Years Milim",
         rank: "A+",
@@ -21748,8 +21748,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "One of the oldest Demon Lords. Reigrad had enough food to satisfy her during Christmas, but when she found out they were running low for the New Year's festival, she decided to help gather the necessary ingredients. She set out in high spirits, but something unexpected happened during the hunt...",
+                evoawk: "One of the oldest Demon Lords. She went to hunt beasts and help gather ingredients for the New Year's fest with Rayas. However, when faced with the horde, she was frozen in place. As for why one as strong and powerful as her would hesitate..."
             }
     },
     { //Hatsune Miku - Complete
@@ -21817,7 +21817,7 @@ const UnitInformation = [
                 evoawk: "An electronic diva with a lovely singing voice. It is said that in her world, she is a virtual entity surrounded by music who lives with a higher being called The Maestro. After being summoned to Raktehelm, she was sad to learn the people had forgotten how to sing. Thanks to her moving performance that expressed gratitude for all music, they were reminded of its joy."
             }
     },
-    { //Sakura Miku - Missing Lore
+    { //Sakura Miku - Complete
         id: 107466312,
         name: "Sakura Miku",
         rank: "S-",
@@ -21878,8 +21878,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "An electronic diva summoned to Bamint when a relentless chill griped the entire world. She sang a warming melody to give relief to the Humans and suppress the Giants. Even as the spring thaw began in earnest, it was said the wind was a little fresher and the scenery a little greener if she was nearby.",
+                evoawk: "An electronic diva who restored spring and song to Raktehelm. Clad in the blossoms that announce the chaging of season, she saved Bamint from an endless cold. Her voice not only reminded the people of the joy of singing, but it also called a wind said to have made the flowers sing as well. For this, some believed her to be a priestess of ancient legend. However, before this could be confirmed, she vanished in a flurry of petals wearing a satisfied smile."
             }
     },
     { //Yoh - Complete
@@ -21947,7 +21947,7 @@ const UnitInformation = [
                 evoawk: "A shaman, one who connects the real word with the spirit realm. He pushed his power to a new extreme after intense training, and even Tao Ren admits his superiority as a rival. His fiancée Anna made the battle outfit he wears."
             }
     },
-    { //Anna Kyoyama- Missing Lore
+    { //Anna Kyoyama- Complete
         id: 107486312,
         name: "Anna Kyoyama",
         rank: "A-",
@@ -22008,11 +22008,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "The Itako of Osorezan and Asakura Yoh's fiancée. She can call spirits with her channeling powers. Though stern and fearless, she also has a thoughtful side as shown by the battle outfit she made for Yoh.",
+                evoawk: "The Itako of Osorezan and Asakura Yoh's fiancée. After obtaining the Ultra Senji Ryakketsu, she instantly tamed the Shikigami within, Zenki and Goki, to become her guardian ghosts."
             }
     },
-    { //Ren - Missing Lore
+    { //Ren - Complete
         id: 107496512,
         name: "Ren Tao",
         attribute: "Dark",
@@ -22073,8 +22073,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "The son of a shaman family and Asakura Yoh's rival. Placing great pride in himself, he fights with his ancestral guardian ghost Bason and a weapon called Basontou.",
+                evoawk: "The son of a shaman family and Asakura Yoh's Rival. To prepare for the Shaman Fight, he strengthened the Basontou to perform the powerful Golden Vorpal Dance."
             }
     },
     { //Hao - Complete
@@ -22142,7 +22142,7 @@ const UnitInformation = [
                 evoawk: "The strongest shaman who calls himself the Future King. His guardian ghost is the Spirit of Fire, one of the five Grand Elemental Spirits, which can become more powerful by consuming souls."
             }
     },
-    { //Rudeus - Missing Lore
+    { //Rudeus - Complete
         id: 107516312,
         name: "Rudeus",
         rank: "A+",
@@ -22203,8 +22203,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "A boy who reincarnated into another world after saving students from a runaway truck. Regrets from his pathetic former life convinced him to make the most of his second chance. He started learning magic in early childhood, giving him a vast mana store and the ability to cast high-level spells without chanting. Though he acts polite, his inner thoughts tend to be perverted and impudent.",
+                evoawk: "He bacame Eris' tutor at the age of seven to earn the money to attend the Ronoa University of Magic. However, the day after he turned ten, the two found themselves in the Demon Continent due to the Fittoa Territory Displacement Incident. After becoming allies with a superd named Ruijerd, they formed a party titled Dead End and made their way towards the Central Continent."
             }
     },
     { //Roxy - Complete
@@ -22272,7 +22272,7 @@ const UnitInformation = [
                 evoawk: "After working for the Greyrat family, she was hired as a private tutor for the prince of Shirone. Even so, that care for her former student remained strong. Not only did she send him a self-made textbook on Demon language when he mentioned wanting to learn it, she dropped everything and left for the Demon Continent after hearing he was caught in the Fittoa Territory Displacement Incident."
             }
     },
-    { //Sylphiette - Missing Lore, Stats, Slots, Evolution
+    { //Sylphiette - Missing Lore
         id: 107536412,
         name: "Sylphiette",
         rank: "S+",
