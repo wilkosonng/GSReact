@@ -13,9 +13,9 @@ function Main () {
     return (
         <Container>
             <Row>
-                <center><strong><h1>DATABASE</h1></strong></center>
+                <center><strong><h1>Welcome to the Grand Summoners Database</h1></strong></center>
             </Row>
-            <Row>
+            <Row style={{paddingTop: "50px"}}>
                 <Col>
                     <center>
                         <a href="/news">News</a>
