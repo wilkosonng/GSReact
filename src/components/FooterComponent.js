@@ -1,6 +1,7 @@
 import React from 'react';
-import { Nav, NavItem, Container, Row, Col } from 'reactstrap';
+import { Nav, NavItem, Container, Row, Col, Card, CardGroup } from 'reactstrap';
 import '../App.css';
+import { FaRegCopyright } from 'react-icons/fa';
 
 function Footer () {
     //Display Navigation Links for bottom
@@ -8,61 +9,42 @@ function Footer () {
         <React.Fragment>
             <Container>
                 <Row>
-                    <Col>
-                        <Nav fill vertical>
-                            <NavItem>
-                            <p style={{color: 'white'}}><strong>Database</strong></p>
-                                <a active href="/">
-                                    Home
-                                </a>
-                            </NavItem>
-                            <NavItem>
-                                <a href="/news">
-                                    News
-                                </a>
-                            </NavItem>
-                            <NavItem>
-                                <a href="/tierlist">
-                                    Tierlist
-                                </a>
-                            </NavItem>
-                            <NavItem>
-                                <a href="/units">
-                                    Units
-                                </a>
-                            </NavItem>
-                            <NavItem>
-                                <a href="/equips">
-                                    Equipment
-                                </a>
-                            </NavItem>
-                        </Nav>
-                    </Col>
-                    <Col>
-                        <Nav fill vertical>  
-                            <NavItem>
-                                <p style={{color: 'white'}}><strong>Official Links</strong></p>
-                                <a href="https://grandsummoners.com/">
-                                    Grand Summoners Home Page
-                                </a>
-                            </NavItem>
-                            <NavItem>
-                                <a href="https://discord.gg/grandsummoners">
-                                    Official Discord
-                                </a>
-                            </NavItem>    
-                            <NavItem>
-                                <a href="https://www.facebook.com/GrandSummonersGlobal">
-                                    Facebook Page
-                                </a>
-                            </NavItem>
-                            <NavItem>
-                                <a href="https://twitter.com/GRANDSUMMONERS">
-                                    Twitter
-                                </a>
-                            </NavItem>
-                        </Nav>
-                    </Col>
+                    <script data-ad-client="ca-pub-7386611028385098" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+                        This site is supported by ads. Please consider disabling Adblockers.
+                    </script>
+                </Row>
+                <Row>
+                    <CardGroup >
+                        <Card md="3" style={{backgroundColor: "gray"}}>
+                            <p><center><i>The website grandsummoners.info is not affiliated with nor endorsed by NextNinja. All images belong to NextNinja.</i></center></p> 
+                            <p><center><i><FaRegCopyright /> grandsummoners.info 2022</i></center></p>
+                        </Card>
+                        <Card md="3" style={{backgroundColor: "gray"}}>
+                            <Nav fill vertical>  
+                                <NavItem>
+                                    <p style={{color: 'white'}}><strong>Official Links</strong></p>
+                                    <a href="https://grandsummoners.com/">
+                                        Grand Summoners Home Page
+                                    </a>
+                                </NavItem>
+                                <NavItem>
+                                    <a href="https://discord.gg/grandsummoners">
+                                        Official Discord
+                                    </a>
+                                </NavItem>    
+                                <NavItem>
+                                    <a href="https://www.facebook.com/GrandSummonersGlobal">
+                                        Facebook Page
+                                    </a>
+                                </NavItem>
+                                <NavItem>
+                                    <a href="https://twitter.com/GRANDSUMMONERS">
+                                        Twitter
+                                    </a>
+                                </NavItem>
+                            </Nav>
+                        </Card>
+                    </CardGroup>
                 </Row>
             </Container>
         </React.Fragment>
