@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useLayoutEffect } from 'react';
 import { Tooltip, Navbar, NavbarToggler, Nav, NavItem, NavbarText, Collapse, Container, Row, Col, Media } from 'reactstrap';
 import { NavLink, Outlet } from 'react-router-dom';
 import { FaDiscord, FaFacebookF, FaTwitterSquare } from 'react-icons/fa';
@@ -15,10 +15,6 @@ const [facebookTool, setFacebookTool] = useState(false);
 const [twitterTool, setTwitterTool] = useState(false);
 const [gsTool, setGSTool] = useState(false);
 
-const imageSize ={
-    maxHeight: 300
-};
-
 const iconSize = {
     maxHeight: 30
 };
@@ -28,11 +24,11 @@ return (
         <Container>
             <Row>
                 <Col>
-                <center>
-                    <a href="/" >
-                        <Media src="/../../Banner.png" style={imageSize}/>
-                    </a>
-                </center>
+                    <center>
+                        <a href="/" >
+                            <Media src="/../../Banner.png" style={{height: "500px" , paddingTop: "100px", paddingBottom: "50px"}}/>
+                        </a>
+                    </center>
                 </Col>
             </Row>
             <Row>
@@ -97,7 +93,8 @@ return (
         </Container>
         
     </React.Fragment>
-);
+    );
 }
+
 
 export default Header;
