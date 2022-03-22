@@ -6,7 +6,8 @@ export default function Tierlist() {
     //Obtain Unit Data
     const units = getUnits();
 
-    //Show each row units based on rank
+    //TODO: Add Hook to change Height of tier rankings based on viewport
+    //Show each row units based on rank https://blog.logrocket.com/developing-responsive-layouts-with-react-hooks/
     return (
         <Container>
             <Row>
@@ -15,7 +16,6 @@ export default function Tierlist() {
                         <h1><center><strong>Global Tierlist</strong></center></h1>
                     </CardHeader>
                     <CardBody>
-
                             <Card style={{backgroundColor: "gray"}}>
                                 <CardHeader>
                                     <center><h4>LEGEND</h4></center>
@@ -37,310 +37,391 @@ export default function Tierlist() {
                             </Card>
                     </CardBody>
                 </Card>
-                
-                
             </Row>
             <Row>
-                <Card style={{backgroundColor:"#f291c5"}}>
+                <Card style={{backgroundColor:"#2e2e2e"}}>
                     <CardBody>
-                        <CardGroup>
-                            <Col lg="1">
-                                <Card style={{width: "90px", backgroundColor:"#2e2e2e"}}>
-                                    <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>SSS</strong></center>
-                                </Card>
-                            </Col>
+                        <table>
+                            <tr>
+                                <td>
+                                    <Card style={{width: "90px", backgroundColor:"#f291c5"}}>
+                                        <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>SSS</strong></center>
+                                    </Card>
+                                </td>
+                                <td>
+                                    <CardGroup>
+                                        {units.map(units => {
+                                            if(units.rank === "SSS"){
+                                                return (
+                                                    <DisplayUnit unit={units} cardColor="#2e2e2e" />
+                                                )
+                                            }
+                                        })}
+                                    </CardGroup>
+                                </td>
+                            </tr>
+                        </table>
+                    </CardBody>
+                </Card>
+            </Row>
+            <Row>
+                <Card style={{backgroundColor: "#2e2e2e"}}>
+                    <CardBody>
+                        <table>
+                            <tr>
+                                <td>
+                                    <Card style={{width: "90px", backgroundColor:"#ffc5cf"}}>
+                                        <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>SS</strong></center>
+                                    </Card>
+                                </td>
+                                <td>
+                                    <CardGroup>
+                                        {units.map(units => {
+                                            if(units.rank === "SS"){
+                                                return (
+                                                    <DisplayUnit unit={units} cardColor="#2e2e2e" />
+                                                )
+                                            }
+                                        })}
+                                    </CardGroup>
+                                </td>
+                            </tr>
+                        </table>
+                    </CardBody>
+                </Card>
+            </Row>
+            <Row>
+                <Card style={{backgroundColor:"#2e2e2e"}}>
+                    <CardBody>
+                        <table>
+                            <tr>
+                                <td>
+                                    <Card style={{width: "90px", backgroundColor:"#ff97a8"}}>
+                                        <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>S+</strong></center>
+                                    </Card>
+                                </td>
+                                <td>
+                                    <CardGroup>
+                                        {units.map(units => {
+                                            if(units.rank === "S+"){
+                                                return (
+                                                    <DisplayUnit unit={units} cardColor="#2e2e2e" />
+                                                )
+                                            }
+                                        })}
+                                    </CardGroup>
+                                </td>
+                            </tr>
+                        </table>
+                    </CardBody>
+                </Card>
+            </Row>
+            <Row>
+                <Card style={{backgroundColor:"#2e2e2e"}}>
+                    <CardBody>
+                        <table>
+                            <tr>
+                                <td>
+                                    <Card style={{width: "90px", height: "100%", backgroundColor:"#f15b74"}}>
+                                        <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>S</strong></center>
+                                    </Card>
+                                </td>
+                                <td>
+                                    <CardGroup>
+                                        {units.map(units => {
+                                            if(units.rank === "S"){
+                                                return (
+                                                    <DisplayUnit unit={units} cardColor="#2e2e2e" />
+                                                )
+                                            }
+                                        })}
+                                    </CardGroup>
+                                </td>
+                            </tr>
+                        </table>
+                    </CardBody>
+                </Card>
+            </Row>
+            <Row>
+                <Card style={{backgroundColor:"#2e2e2e"}}>
+                    <CardBody>
+                        <table>
+                            <tr>
+                                <td>
+                                    <Card style={{width: "90px", backgroundColor:"#cf364f"}}>
+                                        <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>S-</strong></center>
+                                    </Card>
+                                </td>
+                                <td>
+                                    <CardGroup>
+                                        {units.map(units => {
+                                            if(units.rank === "S-"){
+                                                return (
+                                                    <DisplayUnit unit={units} cardColor="#2e2e2e" />
+                                                )
+                                            }
+                                        })}
+                                    </CardGroup>
+                                </td>
+                            </tr>
+                        </table>
+                    </CardBody>
+                </Card>
+            </Row>
+            <Row>
+                <Card style={{backgroundColor:"#2e2e2e"}}>
+                    <CardBody>
+                        <table>
+                            <tr>
+                                <td>
+                                    <Card style={{width: "90px", backgroundColor:"#f6b990"}}>
+                                        <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>A+</strong></center>
+                                    </Card>
+                                </td>
+                                <td>
+                                    <CardGroup>
+                                        {units.map(units => {
+                                            if(units.rank === "A+"){
+                                                return (
+                                                    <DisplayUnit unit={units} cardColor="#2e2e2e" />
+                                                )
+                                            }
+                                            
+                                        })}
+                                    </CardGroup>
+                                </td>
+                            </tr>
+                        </table>
+                    </CardBody>
+                </Card>
+            </Row>
+            <Row>
+                <Card style={{backgroundColor:"#2e2e2e"}}>
+                    <CardBody>
+                        <table>
+                            <tr>
+                                <td>
+                                    <Card style={{width: "90px", backgroundColor:"#f2985c"}}>
+                                        <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>A</strong></center>
+                                    </Card>
+                                </td>
+                                <td>
+                                    <CardGroup>
+                                        {units.map(units => {
+                                            if(units.rank === "A"){
+                                                return (
+                                                    <DisplayUnit unit={units} cardColor="#2e2e2e" />
+                                                )
+                                            }
+                                        })}
+                                    </CardGroup>
+                                </td>
+                            </tr>
+                        </table>
+                    </CardBody>
+                </Card>
+            </Row>
+            <Row>
+                <Card style={{backgroundColor:"#2e2e2e"}}>
+                    <CardBody>
+                        <table>
+                            <tr>
+                                <td>
+                                    <Card style={{width: "90px", backgroundColor:"#e8731a"}}>
+                                        <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>A-</strong></center>
+                                    </Card>
+                                </td>
+                                <td>
+                                    <CardGroup>
+                                        {units.map(units => {
+                                            if(units.rank === "A-"){
+                                                return (
+                                                    <DisplayUnit unit={units} cardColor="#2e2e2e" />
+                                                )
+                                            }
+                                        })}
+                                    </CardGroup>
+                                </td>
+                            </tr>
+                        </table>
+                    </CardBody>
+                </Card>
+            </Row>
+            <Row>
+                <Card style={{backgroundColor:"#2e2e2e"}}>
+                    <CardBody>
+                        <table>
+                            <tr>
+                                <td>
+                                    <Card style={{width: "90px", backgroundColor:"#f2d45c"}}>
+                                        <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>B+</strong></center>
+                                    </Card>
+                                </td>
+                                <td>
+                                    <CardGroup>
+                                        {units.map(units => {
+                                            if(units.rank === "B+"){
+                                                return (
+                                                    <DisplayUnit unit={units} cardColor="#2e2e2e" />
+                                                )
+                                            }
+                                        })}
+                                    </CardGroup>
+                                </td>
+                            </tr>
+                        </table>
                         
-                            {units.map(units => {
-                                if(units.rank === "SSS"){
-                                    return (
-                                        <DisplayUnit unit={units} cardColor="#f291c5" />
-                                    )
-                                }
-                            })}
-                        </CardGroup>
                     </CardBody>
                 </Card>
             </Row>
             <Row>
-                <Card style={{backgroundColor:"#ffc5cf", }}>
+                <Card style={{backgroundColor:"#2e2e2e"}}>
                     <CardBody>
-                        <CardGroup>
-                            <Col lg="1">
-                                <Card style={{width: "90px", backgroundColor:"#2e2e2e"}}>
-                                    <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>SS</strong></center>
-                                </Card>
-                            </Col>
-                            {units.map(units => {
-                                if(units.rank === "SS"){
-                                    return (
-                                        <DisplayUnit unit={units} cardColor="#ffc5cf" />
-                                    )
-                                }
-                            })}
-                        </CardGroup>
+                        <table>
+                            <tr>
+                                <td>
+                                    <Card style={{width: "90px", backgroundColor:"#ebac36"}}>
+                                        <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>B</strong></center>
+                                    </Card>
+                                </td>
+                                <td>
+                                    <CardGroup>
+                                        {units.map(units => {
+                                            if(units.rank === "B"){
+                                                return (
+                                                    <DisplayUnit unit={units} cardColor="#2e2e2e" />
+                                                )
+                                            }
+                                        })}
+                                    </CardGroup>
+                                </td>
+                            </tr>
+                        </table>
                     </CardBody>
                 </Card>
             </Row>
             <Row>
-                <Card style={{backgroundColor:"#ff97a8"}}>
+                <Card style={{backgroundColor:"#2e2e2e"}}>
                     <CardBody>
-                        <CardGroup>
-                            <Col lg="1">
-                                <Card style={{width: "90px", backgroundColor:"#2e2e2e"}}>
-                                    <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>S+</strong></center>
-                                </Card>
-                            </Col>
-                            {units.map(units => {
-                                if(units.rank === "S+"){
-                                    return (
-                                        <DisplayUnit unit={units} cardColor="#ff97a8" />
-                                    )
-                                }
-                            })}
-                        </CardGroup>
+                        <table>
+                            <tr>
+                                <td>
+                                    <Card style={{width: "90px", backgroundColor:"#e8faac"}}>
+                                        <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>B-</strong></center>
+                                    </Card>
+                                </td>
+                                <td>
+                                    <CardGroup>
+                                        {units.map(units => {
+                                            if(units.rank === "B-"){
+                                                if(units.image.thumbawk) {
+                                                    return (
+                                                        <DisplayUnit unit={units} cardColor="#2e2e2e" />
+                                                    )
+                                                }
+                                                return (
+                                                    <DisplayFiveStar unit={units} cardColor="#2e2e2e" />
+                                                )
+                                                
+                                            }
+                                        })}
+                                    </CardGroup>
+                                </td>
+                            </tr>
+                        </table>
                     </CardBody>
                 </Card>
             </Row>
             <Row>
-                <Card style={{backgroundColor:"#f15b74"}}>
+                <Card style={{backgroundColor:"#2e2e2e"}}>
                     <CardBody>
-                        <CardGroup>
-                            <Col lg="1">
-                                <Card style={{width: "90px", backgroundColor:"#2e2e2e"}}>
-                                    <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>S</strong></center>
-                                </Card>
-                            </Col>
-                            {units.map(units => {
-                                if(units.rank === "S"){
-                                    return (
-                                        <DisplayUnit unit={units} cardColor="#f15b74" />
-                                    )
-                                }
-                            })}
-                        </CardGroup>
+                        <table>
+                            <tr>
+                                <td>
+                                    <Card style={{width: "90px", backgroundColor:"#4cbd5d"}}>
+                                        <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>C</strong></center>
+                                    </Card>
+                                </td>
+                                <td>
+                                    <CardGroup>
+                                        {units.map(units => {
+                                            if(units.rank === "C"){
+                                                if(units.image.thumbawk) {
+                                                    return (
+                                                        <DisplayUnit unit={units} cardColor="#2e2e2e" />
+                                                    )
+                                                }
+                                                return (
+                                                    <DisplayFiveStar unit={units} cardColor="#2e2e2e" />
+                                                ) 
+                                            }
+                                        })}
+                                    </CardGroup>
+                                </td>
+                            </tr>
+                        </table>
                     </CardBody>
                 </Card>
             </Row>
             <Row>
-                <Card style={{backgroundColor:"#cf364f"}}>
+                <Card style={{backgroundColor:"#2e2e2e"}}>
                     <CardBody>
-                        <CardGroup>
-                            <Col lg="1">
-                                <Card style={{width: "90px", backgroundColor:"#2e2e2e"}}>
-                                    <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>S-</strong></center>
-                                </Card>
-                            </Col>
-                            {units.map(units => {
-                                if(units.rank === "S-"){
-                                    return (
-                                        <DisplayUnit unit={units} cardColor="#cf364f" />
-                                    )
-                                }
-                            })}
-                        </CardGroup>
+                        <table>
+                            <tr>
+                                <td>
+                                    <Card style={{width: "90px", backgroundColor:"#7ecff2"}}>
+                                        <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>F</strong></center>
+                                    </Card>
+                                </td>
+                                <td>
+                                    <CardGroup>
+                                        {units.map(units => {
+                                            if(units.rank === "F"){
+                                                if(units.image.thumbawk) {
+                                                    return (
+                                                        <DisplayUnit unit={units} cardColor="#2e2e2e" />
+                                                    )
+                                                }
+                                                return (
+                                                    <DisplayFiveStar unit={units} cardColor="#2e2e2e" />
+                                                ) 
+                                            }
+                                        })}
+                                    </CardGroup>
+                                </td>
+                            </tr>
+                        </table>
                     </CardBody>
                 </Card>
             </Row>
             <Row>
-                <Card style={{backgroundColor:"#f6b990"}}>
+                <Card style={{backgroundColor:"#2e2e2e"}}>
                     <CardBody>
-                        <CardGroup>
-                            <Col lg="1">
-                                <Card style={{width: "90px", backgroundColor:"#2e2e2e"}}>
-                                    <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>A+</strong></center>
-                                </Card>
-                            </Col>
-                            
-                            {units.map(units => {
-                                if(units.rank === "A+"){
-                                    return (
-                                        <DisplayUnit unit={units} cardColor="#f6b990" />
-                                    )
-                                }
-                                
-                            })}
-                        </CardGroup>
-                    </CardBody>
-                </Card>
-            </Row>
-            <Row>
-                <Card style={{backgroundColor:"#f2985c"}}>
-                    <CardBody>
-                        <CardGroup>
-                            <Col lg="1">
-                                <Card style={{width: "90px", backgroundColor:"#2e2e2e"}}>
-                                    <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>A</strong></center>
-                                </Card>
-                            </Col>
-                            {units.map(units => {
-                                if(units.rank === "A"){
-                                    return (
-                                        <DisplayUnit unit={units} cardColor="#f2985c" />
-                                    )
-                                }
-                            })}
-                        </CardGroup>
-                    </CardBody>
-                </Card>
-            </Row>
-            <Row>
-                <Card style={{backgroundColor:"#e8731a"}}>
-                    <CardBody>
-                        <CardGroup>
-                            <Col lg="1">
-                                <Card style={{width: "90px", backgroundColor:"#2e2e2e"}}>
-                                    <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>A-</strong></center>
-                                </Card>
-                            </Col>
-                            {units.map(units => {
-                                if(units.rank === "A-"){
-                                    return (
-                                        <DisplayUnit unit={units} cardColor="#e8731a" />
-                                    )
-                                }
-                            })}
-                        </CardGroup>
-                    </CardBody>
-                </Card>
-            </Row>
-            <Row>
-                <Card style={{backgroundColor:"#f2d45c"}}>
-                    <CardBody>
-                        <CardGroup>
-                            <Col lg="1">
-                                <Card style={{width: "90px", backgroundColor:"#2e2e2e"}}>
-                                    <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>B+</strong></center>
-                                </Card>
-                            </Col>
-                            {units.map(units => {
-                                if(units.rank === "B+"){
-                                    return (
-                                        <DisplayUnit unit={units} cardColor="#f2d45c" />
-                                    )
-                                }
-                            })}
-                        </CardGroup>
-                    </CardBody>
-                </Card>
-            </Row>
-            <Row>
-                <Card style={{backgroundColor:"#ebac36"}}>
-                    <CardBody>
-                        <CardGroup>
-                            <Col lg="1">
-                                <Card style={{width: "90px", backgroundColor:"#2e2e2e"}}>
-                                    <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>B</strong></center>
-                                </Card>
-                            </Col>
-                            {units.map(units => {
-                                if(units.rank === "B"){
-                                    return (
-                                        <DisplayUnit unit={units} cardColor="#ebac36" />
-                                    )
-                                }
-                            })}
-                        </CardGroup>
-                    </CardBody>
-                </Card>
-            </Row>
-            <Row>
-                <Card style={{backgroundColor:"#e8faac"}}>
-                    <CardBody>
-                        <CardGroup>
-                            <Col lg="1">
-                                <Card style={{width: "90px", backgroundColor:"#2e2e2e"}}>
-                                    <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>B-</strong></center>
-                                </Card>
-                            </Col>
-                            {units.map(units => {
-                                if(units.rank === "B-"){
-                                    if(units.image.thumbawk) {
-                                        return (
-                                            <DisplayUnit unit={units} cardColor="#e8faac" />
-                                        )
-                                    }
-                                    return (
-                                        <DisplayFiveStar unit={units} cardColor="#e8faac" />
-                                    )
-                                    
-                                }
-                            })}
-                        </CardGroup>
-                    </CardBody>
-                </Card>
-            </Row>
-            <Row>
-                <Card style={{backgroundColor:"#4cbd5d"}}>
-                    <CardBody>
-                        <CardGroup>
-                            <Col lg="1">
-                                <Card style={{width: "90px", backgroundColor:"#2e2e2e"}}>
-                                    <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>C</strong></center>
-                                </Card>
-                            </Col>
-                            {units.map(units => {
-                                if(units.rank === "C"){
-                                    if(units.image.thumbawk) {
-                                        return (
-                                            <DisplayUnit unit={units} cardColor="#4cbd5d" />
-                                        )
-                                    }
-                                    return (
-                                        <DisplayFiveStar unit={units} cardColor="#4cbd5d" />
-                                    ) 
-                                }
-                            })}
-                        </CardGroup>
-                    </CardBody>
-                </Card>
-            </Row>
-            <Row>
-                <Card style={{backgroundColor:"#7ecff2"}}>
-                    <CardBody>
-                        <CardGroup>
-                            <Col lg="1">
-                                <Card style={{width: "90px", backgroundColor:"#2e2e2e"}}>
-                                    <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>F</strong></center>
-                                </Card>
-                            </Col>
-                            {units.map(units => {
-                                if(units.rank === "F"){
-                                    if(units.image.thumbawk) {
-                                        return (
-                                            <DisplayUnit unit={units} cardColor="#7ecff2" />
-                                        )
-                                    }
-                                    return (
-                                        <DisplayFiveStar unit={units} cardColor="#7ecff2" />
-                                    ) 
-                                }
-                            })}
-                        </CardGroup>
-                    </CardBody>
-                </Card>
-            </Row>
-            <Row>
-                <Card style={{backgroundColor:"#d092f4"}}>
-                    <CardBody>
-                        <CardGroup>
-                            <Col lg="1">
-                                <Card style={{width: "90px", backgroundColor:"#2e2e2e"}}>
-                                    <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>TBD</strong></center>
-                                </Card>
-                            </Col>
-                            {units.map(units => {
-                                if(units.rank === "TBD"){
-                                    if(units.image.thumbawk) {
-                                        return (
-                                            <DisplayUnit unit={units} cardColor="#d092f4" />
-                                        )
-                                    }
-                                    return (
-                                        <DisplayFiveStar unit={units} cardColor="#d092f4" />
-                                    ) 
-                                }
-                            })}
-                        </CardGroup>
+                        <table>
+                            <tr>
+                                <td>
+                                    <Card style={{width: "90px", backgroundColor:"#d092f4"}}>
+                                        <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>TBD</strong></center>
+                                    </Card>
+                                </td>
+                                <td>
+                                    <CardGroup>
+                                        {units.map(units => {
+                                            if(units.rank === "TBD"){
+                                                if(units.image.thumbawk) {
+                                                    return (
+                                                        <DisplayUnit unit={units} cardColor="#2e2e2e" />
+                                                    )
+                                                }
+                                                return (
+                                                    <DisplayFiveStar unit={units} cardColor="#2e2e2e" />
+                                                ) 
+                                            }
+                                        })}
+                                    </CardGroup>
+                                </td>
+                            </tr>
+                        </table>
                     </CardBody>
                 </Card>
             </Row>
@@ -350,15 +431,15 @@ export default function Tierlist() {
 }
 
 const thumbnailSize = {
-    maxHeight: 75,
-    maxWidth: 75,
+    height: 75,
+    width: 75,
 };
 
 function DisplayUnit({unit, cardColor}) {
     if(unit.twrequire){
         if(unit.twrequire === "reliance"){
             return (
-                <Col lg="1">
+                <Col lg="auto">
                 <Card style={{border: "none", width: "90px", backgroundColor: cardColor}}>
                     <center>
                         <a href={`/units/${unit.name}`} style={{textDecoration: "none"}}>
@@ -376,7 +457,7 @@ function DisplayUnit({unit, cardColor}) {
         }
         if(unit.name === "Luahn") {
             return (
-                <Col lg="1">
+                <Col lg="auto">
                 <Card style={{border: "none", width: "90px", backgroundColor: cardColor}}>
                     <center>
                         <a href={`/units/${unit.name}`} style={{textDecoration: "none"}}>
@@ -393,7 +474,7 @@ function DisplayUnit({unit, cardColor}) {
         }
 
         return (
-            <Col lg="1">
+            <Col lg="auto">
             <Card style={{border: "none", width: "90px", backgroundColor: cardColor}}>
                 <center>
                     <a href={`/units/${unit.name}`} style={{textDecoration: "none"}}>
@@ -409,7 +490,7 @@ function DisplayUnit({unit, cardColor}) {
     }
 
     return (
-        <Col lg="1">
+        <Col lg="auto">
         <Card style={{border: "none", width: "90px", backgroundColor: cardColor}}>
             <center>
                 <a href={`/units/${unit.name}`} style={{textDecoration: "none"}}>
@@ -426,7 +507,7 @@ function DisplayUnit({unit, cardColor}) {
 function DisplayFiveStar({unit, cardColor}) {
     //No TW favorability
     return (
-        <Col lg="1">
+        <Col lg="auto">
         <Card style={{border: "none", width: "90px", backgroundColor: cardColor}}>
             <center>
                 <a href={`/units/${unit.name}`} style={{textDecoration: "none"}}>
