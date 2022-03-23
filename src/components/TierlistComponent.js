@@ -445,10 +445,11 @@ function DisplayUnit({unit, cardColor}) {
                         <a href={`/units/${unit.name}`} style={{textDecoration: "none"}}>
                             <img src={unit.image.thumbawk} style={thumbnailSize} object-fit="cover" />
                             <br />
-                            <img src="/db/Icons/skill/thumbnail/skill5.png" style={{maxWidth: "20px", paddingBottom: "2px", marginBottom: "2px"}} />
                             <p style={{paddingBottom: "2px", marginBottom: "2px", color: "black"}}>
                                 {unit.name}
                             </p>
+                            <br />
+                            <img src="/db/Icons/skill/thumbnail/skill5.png" style={{maxWidth: "20px", paddingBottom: "2px", marginBottom: "2px"}} />
                         </a>
                     </center>
                 </Card>
@@ -463,9 +464,10 @@ function DisplayUnit({unit, cardColor}) {
                         <a href={`/units/${unit.name}`} style={{textDecoration: "none"}}>
                             <img src={unit.image.thumbawk} style={thumbnailSize} object-fit="cover" />
                             <br />
+                            <p style={{paddingBottom: "2px", marginBottom: "2px", color: "black"}}>{unit.name}</p>
+                            <br />
                             <img src="/db/Icons/skill/thumbnail/skill0.png" style={{maxWidth: "20px", paddingBottom: "2px", marginBottom: "2px"}} />
                             <img src="/db/Icons/skill/thumbnail/damage_up.png" style={{maxWidth: "20px", paddingBottom: "2px", marginBottom: "2px"}} />
-                            <p style={{paddingBottom: "2px", marginBottom: "2px", color: "black"}}>{unit.name}</p>
                         </a>
                     </center>
                 </Card>
@@ -480,8 +482,9 @@ function DisplayUnit({unit, cardColor}) {
                     <a href={`/units/${unit.name}`} style={{textDecoration: "none"}}>
                         <img src={unit.image.thumbawk} style={thumbnailSize} object-fit="cover" />
                         <br />
-                        <img src="/db/Icons/skill/thumbnail/skill0.png" style={{maxWidth: "20px", paddingTop: "0px", marginTop: "0px", paddingBottom: "0px", marginBottom: "0px"}} />
                         <p style={{paddingTop: "0px", paddingBottom: "2px", marginTop: "0px", marginBottom: "2px", color: "black"}}>{unit.name}</p>
+                        <br />
+                        <img src="/db/Icons/skill/thumbnail/skill0.png" style={{maxWidth: "20px", paddingTop: "0px", marginTop: "0px", paddingBottom: "0px", marginBottom: "0px"}} />
                     </a>
                 </center>
             </Card>
