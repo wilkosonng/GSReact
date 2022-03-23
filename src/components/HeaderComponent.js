@@ -39,7 +39,7 @@ return (
                             <Nav navbar className="me-auto">
                                 <NavItem>
                                     <NavLink className="nav-link" to="/" activeClassName="active">
-                                        <Media src="./chara_face_1200_1.png" style={{maxHeight: "40px"}} id="homeLink"/>
+                                        <Media src="/chara_face_1200_1.png" style={{maxHeight: "40px"}} />
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
@@ -62,12 +62,17 @@ return (
                                         <b>EQUIPMENT</b>
                                     </NavLink>
                                 </NavItem>
+                                <NavItem>
+                                    <NavLink className="nav-link" to="/guides" activeClassName="active">
+                                        <b>GUIDES</b>
+                                    </NavLink>
+                                </NavItem>
                             </Nav>
                             <NavbarText>
                                 <a href="https://discord.gg/grandsummoners" id="discordLink"><FaDiscord /></a>
                                 <a href="https://www.facebook.com/GrandSummonersGlobal/" id="facebookLink"><FaFacebookF /></a>
                                 <a href="https://twitter.com/GRANDSUMMONERS" id="twitterLink"><FaTwitterSquare /></a>
-                                <a href="https://grandsummoners.com/" id="gsLink"><img src="/../../db/Icons/drops/resultbox_close_1_3.png" style={iconSize} /></a>
+                                <a href="https://global.grandsummoners.com/" id="gsLink"><img src="/../../db/Icons/drops/resultbox_close_1_3.png" style={iconSize} /></a>
                                 <Tooltip isOpen={discordTool}
                                     target="discordLink"
                                     placement="bottom"

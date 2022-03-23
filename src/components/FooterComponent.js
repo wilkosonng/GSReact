@@ -23,7 +23,7 @@ function Footer () {
                             <Nav fill vertical>  
                                 <NavItem>
                                     <p style={{color: 'white'}}><strong>Official Links</strong></p>
-                                    <a href="https://grandsummoners.com/">
+                                    <a href="https://global.grandsummoners.com/">
                                         Grand Summoners Home Page
                                     </a>
                                 </NavItem>
