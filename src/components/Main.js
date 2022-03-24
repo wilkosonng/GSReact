@@ -43,6 +43,13 @@ function Main () {
                     </center>
                 </Col>
             </Row>
+            <Row>
+                <Col>
+                    <center>
+                        <a href="/guides">Guides</a>
+                    </center>
+                </Col>
+            </Row>
         </Container>
     );
 }
