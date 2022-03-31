@@ -1,0 +1,26 @@
+//This file will be for Event Dungeon guides
+const EventGuides = [
+    {
+        id: 0,
+        title: "This is a Test",
+        article: "<><p><i>This is only a Test.</i></p></>",
+        author: "Person 1"
+    },
+    {
+        id: 1,
+        title: "Yet another Guide , but this is a Test",
+        article: "<strong>How could this be a test?</strong>",
+        author: "Person 2"
+    }
+]
+
+export function getEventGuides() {
+    return EventGuides;
+}
+
+//Using == instead of === to match string to num
+export function getEventGuidesByTitle(title) {
+    return EventGuides.find(
+        guide => guide.title == title
+    );
+}

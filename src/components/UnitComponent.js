@@ -1,5 +1,5 @@
 import React from 'react';
-import { Media, Container } from 'reactstrap';
+import { Media, Container, Nav, NavItem} from 'reactstrap';
 import '../index.css';
 import { useParams, Link, Routes, Route, Outlet } from 'react-router-dom';
 import { getUnitByName } from '../shared/unitInfo';
@@ -17,11 +17,17 @@ function UnitDetails () {
     return (
         <React.Fragment>
             <center>
-                    <nav>
+                <Nav card="true" justified>
+                    <NavItem>
                         <Link to="" activeClassName="active">Lore</Link>
+                    </NavItem>
+                    <NavItem>
                         <Link to="stats" activeClassName="active">Stats</Link>
+                    </NavItem>
+                    <NavItem>
                         <Link to="trueweapon" activeClassName="active">True Weapon</Link>
-                    </nav>
+                    </NavItem>
+                </Nav>
             </center>
             
             
@@ -58,6 +64,7 @@ function RenderLore({unitName, unitLore, unitImage}) {
         return (
             <React.Fragment>
                 <center><h1><strong>{unitName}</strong></h1></center>
+                <p><center>Select an Evolution to view the Lore</center></p>
                 <nav>
                     <center>
                         <Link to="twostar" activeClassName="active">
@@ -87,6 +94,7 @@ function RenderLore({unitName, unitLore, unitImage}) {
         return (
             <React.Fragment>
                 <center><h1><strong>{unitName}</strong></h1></center>
+                <p><center>Select an Evolution to view the Lore</center></p>
                 <nav>
                     <center>
                         <Link to="threestar" activeClassName="active">
@@ -113,6 +121,7 @@ function RenderLore({unitName, unitLore, unitImage}) {
         return (
             <React.Fragment>
                 <center><h1><strong>{unitName}</strong></h1></center>
+                <p><center>Select an Evolution to view the Lore</center></p>
                 <nav>
                     <center>
                         <Link to="fourstar" activeClassName="active">
@@ -136,6 +145,7 @@ function RenderLore({unitName, unitLore, unitImage}) {
         return (
             <React.Fragment>
                 <center><h1><strong>{unitName}</strong></h1></center>
+                <p><center>Select an Evolution to view the Lore</center></p>
                 <nav>
                     <center>
                         <Link to="fivestar" activeClassName="active">

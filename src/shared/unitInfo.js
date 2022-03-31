@@ -16938,7 +16938,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Batiste - Missing Lore, TW Images
+    { //Batiste - Missing TW Images
         id: 103216512,
         name: "Batiste",
         rank: "A+",
@@ -17038,11 +17038,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "A member of the Emperor's Zero Guard, a cool realist with a dry wit. His objective, logical, and constructive decisions have made him a good superior and partner to Noel. In combat, he uses countless knives and agility to perplex foes before striking from their blind spot. His one shortcoming is that his focus on efficiency can come off as inconsideration by those unaware of his goal to help as many as possible. He claims to have no hobbies but diligently keeps a journal.",
+                evoawk: "Adopted into a noble family who later arranged for him to become a knight. He was selected for the Zero Guard during the previous emperor's reign. His disgust with the unsavory ruling class grew over time, in part because he knew he himself was not much different. That is why he respects straightforward people like Noel and Rayas who he silently uses to lift his spirit. He keeps his collection of knives in top shape by visiting local blacksmiths between missions."
             }
     },
-    { //Juno - Missing Lore, TW Image
+    { //Juno - Missing TW Image
         id: 103226412,
         name: "Juno",
         rank: "SSS",
@@ -17120,8 +17120,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "Juno was born and raised in a remote village with her younger sister, but tragedy struck when the powers of her demonic blood awoke. Feared from that day as a descendant of the Crimson Blood Maiden, she was relunctantly exiled from the village. However, her awakening gave her a mysterious healing power, so she traveled the battlefields, treating the wounded. Her acts of compassion paved the road to the birth and rule of a new nation.",
+                evoawk: "Juno was the first queen of Granadia, often referred to as the mother of the burgeoning nation. With miraculous powers, she cleansed the land defiled by monsters and founded a new nation. Though mistakenly described as fierce and ambitious in the chronicles, personal accounts from the time paint her as a warm and thoughtful figure. The very prescence of the Templars, devotees who supporter her in every aspect of life, was proof of that."
             }
     },
     { //Liese (Dark) - Missing Lore, TW Image
@@ -17597,7 +17597,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Miranda - Missing Lore, TW Image
+    { //Miranda - Missing TW Image
         id: 103296412,
         name: "Miranda",
         rank: "S+",
@@ -17675,11 +17675,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "Known as the shield of Simon's Hill. She is highly regarded figure of the town as both captain of the Rangers and schoolteacher. Many appreciate her service, particularly after becoming a widow, but the elders fear she will spend the rest of her days alone. However, the broad smile that she gives her students shows nothing but fulfillment.",
+                evoawk: "Miranda was instantly smitten by Simon, fated to be her first and last love. Although he seemed to bear some dark burden, she never hesitated to keep him company. No matter how he sulked, she always talked to him, walked to school with him, and made food for him. Eventually, her sunny disposition reached through, melting his heart of ice."
             }
     },
-    { //Simon - Missing Lore, TW Image
+    { //Simon - Missing z`TW Image
         id: 103306512,
         name: "Simon",
         attribute: "Dark",
@@ -17760,8 +17760,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "An expert sniper who once served as captain of a small Human town's self-defense force. During that time, he fearlessly defeated violent monsters, protected his allies, and gained the population's trust. He pierced the hearts of his targets with unfailing accuracy, but he met his end after taking an equally fatal blow to the chest from a black-winged dragon.",
+                evoawk: "After moving to a small town in the empire at a young age, he met the previous Ranger captain's daughter, Miranda. They eventually became married, and anyone who saw them shopping in the quare on weekends would think of them as a loving couple. Yet as he pointed his gun at her from the edge of town, his gaze was filled with dark intent."
             }
     },
     { //Vultee (Earth) - Missing Lore, TW Image

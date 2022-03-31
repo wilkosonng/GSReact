@@ -16,6 +16,10 @@ export default function Units () {
     return (
         <React.Fragment>
             <Container>
+                <Row>
+                    <p><center><h3>Select a Unit to view the Unit's information.</h3></center></p>
+                    <p><center>Please be aware that ALL units are available, including Units only available in Japan.</center></p>
+                </Row>
                 <Row>            
                     {units.map(unit => {
                         if(unit.image.thumbawk){
