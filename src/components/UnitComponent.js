@@ -1,6 +1,8 @@
 import React from 'react';
-import { Media, Container, Nav, NavItem} from 'reactstrap';
+import { Media, Container, Nav, NavItem
+} from 'reactstrap';
 import '../index.css';
+import '../App.css';
 import { useParams, Link, Routes, Route, Outlet } from 'react-router-dom';
 import { getUnitByName } from '../shared/unitInfo';
 import { RenderTrue } from './unitinfo/TrueComponent';
@@ -17,15 +19,15 @@ function UnitDetails () {
     return (
         <React.Fragment>
             <center>
-                <Nav card="true" justified>
+                <Nav card="true" justified style={{backgroundColor: "#2e9cca"}}>
                     <NavItem>
-                        <Link to="" activeClassName="active">Lore</Link>
+                        <Link to="" activeClassName="active" style={{color: "#25274d"}}>Lore</Link>
                     </NavItem>
                     <NavItem>
-                        <Link to="stats" activeClassName="active">Stats</Link>
+                        <Link to="stats" activeClassName="active" style={{color: "#25274d"}}>Stats</Link>
                     </NavItem>
                     <NavItem>
-                        <Link to="trueweapon" activeClassName="active">True Weapon</Link>
+                        <Link to="trueweapon" activeClassName="active" style={{color: "#25274d"}}>True Weapon</Link>
                     </NavItem>
                 </Nav>
             </center>

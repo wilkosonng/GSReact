@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { Container, Row, Card, CardHeader, CardBody } from 'reactstrap';
-import { getNewsById } from '../../shared/news';
+import { getNewsById } from '../../shared/news/news';
 
 export default function Article () {
     const { articleId } = useParams();

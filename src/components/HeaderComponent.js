@@ -2,7 +2,9 @@ import React, { useState, useLayoutEffect } from 'react';
 import { Tooltip, Navbar, NavbarToggler, Nav, NavItem, NavbarText, Collapse, Container, Row, Col, Media } from 'reactstrap';
 import { NavLink, Outlet } from 'react-router-dom';
 import { FaDiscord, FaFacebookF, FaTwitterSquare } from 'react-icons/fa';
-
+import styled from 'styled-components';
+import Rolly1 from '../assets/chara_face_1200_1.png';
+import Rolly2 from '../assets/chara_face_1200_6.png';
 
 function Header () {
 
@@ -19,6 +21,15 @@ const iconSize = {
     maxHeight: 30
 };
 
+const Rolly = styled.div`
+    background-image: url(${props => props.img});
+
+    &:hover {
+        background-image: url(${props => props.img});
+    }
+`
+
+//<Media src="/chara_face_1200_1.png" style={{maxHeight: "40px"}} />
 return (
     <React.Fragment>
         <Container>
@@ -33,7 +44,7 @@ return (
             </Row>
             <Row>
                 <Col>
-                    <Navbar fixed="top" expand="md" color="dark" dark>
+                    <Navbar fixed="top" expand="md" dark style={{backgroundColor: "#464866"}}>
                         <NavbarToggler onClick={() => { setIsOpen(!isOpen) }} />
                         <Collapse isOpen={isOpen} navbar>
                             <Nav navbar className="me-auto">

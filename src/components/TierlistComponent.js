@@ -2,6 +2,11 @@ import React from 'react';
 import { Container, Row, Col, Card, CardHeader, CardBody, CardGroup } from 'reactstrap';
 import { getUnits } from '../shared/unitInfo';
 
+const cardHeaderColor = {
+    backgroundColor: "#29648a",
+    color: "aaabb8"
+}
+
 export default function Tierlist() {
     //Obtain Unit Data
     const units = getUnits();
@@ -11,16 +16,16 @@ export default function Tierlist() {
     return (
         <Container>
             <Row>
-                <Card style={{backgroundColor: "gray"}}>
+                <Card style={{backgroundColor: "#464866"}}>
                     <CardHeader>
                         <h1><center><strong>Global Tierlist</strong></center></h1>
                     </CardHeader>
                     <CardBody>
-                            <Card style={{backgroundColor: "gray"}}>
-                                <CardHeader>
+                            <Card style={cardHeaderColor}>
+                                <CardHeader style={cardHeaderColor}>
                                     <center><h4>LEGEND</h4></center>
                                 </CardHeader>
-                                <CardBody>
+                                <CardBody style={{backgroundColor: "#464866"}}>
                                     <center>
                                         <p><img src="/db/Icons/skill/thumbnail/skill0.png" style={{maxWidth: "20px"}} /> True Weapon Favorability (Bumped up 0-2 Subtiers)</p>
                                         <p><img src="/db/Icons/skill/thumbnail/skill5.png" style={{maxWidth: "20px"}} /> True Weapon Reliance (Bumped up 2+ subtiers)</p>
@@ -28,12 +33,14 @@ export default function Tierlist() {
                                     </center>
                                 </CardBody>
                             </Card>
-                            <Card style={{backgroundColor: "gray"}}>
+                            <Card style={cardHeaderColor}>
                                 <CardHeader>
                                     <center><h4>NOTE</h4></center>
                                 </CardHeader>
-                                <p><center>This tierlist is for GLOBAL units only. Do <strong>not</strong> consider this gospel. Each unit may have their own niche, even the lower ranking units</center></p>
-                                <p><center>This is simply meant to show the general analysis of each unit. Rankings were determined by top players from the Official Discord.</center></p>
+                                <CardBody style={{backgroundColor: "#464866"}}>
+                                    <p><center>This tierlist is for GLOBAL units only. Do <strong>not</strong> consider this gospel. Each unit may have their own niche, even the lower ranking units</center></p>
+                                    <p><center>This is simply meant to show the general analysis of each unit. Rankings were determined by top players from the Official Discord.</center></p>
+                                </CardBody>
                             </Card>
                     </CardBody>
                 </Card>

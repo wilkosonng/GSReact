@@ -2,6 +2,16 @@ import React from 'react';
 import { Nav, NavItem, Container, Row, Col, Card, CardGroup } from 'reactstrap';
 import '../App.css';
 import { FaRegCopyright } from 'react-icons/fa';
+import styled from 'styled-components';
+
+//Styled Component for Official Links
+const LinkColor = styled.a`
+    text-decoration: none;
+    color: #25272d;
+    &:hover {
+        background-color: #2e9cca
+    }
+`
 
 function Footer () {
     //Display Navigation Links for bottom
@@ -15,32 +25,32 @@ function Footer () {
                 </Row>
                 <Row>
                     <CardGroup style={{paddingTop: "50px"}}>
-                        <Card md="3" style={{backgroundColor: "gray"}}>
+                        <Card md="3" style={{backgroundColor: "#29648a"}}>
                             <p><center><i>The website grandsummoners.info is not affiliated with nor endorsed by NextNinja. All images belong to NextNinja.</i></center></p> 
                             <p><center><i><FaRegCopyright /> grandsummoners.info 2022</i></center></p>
                         </Card>
-                        <Card md="3" style={{backgroundColor: "gray"}}>
+                        <Card md="3" style={{backgroundColor: "#29648a"}}>
                             <Nav fill vertical>  
                                 <NavItem>
-                                    <p style={{color: 'white'}}><strong>Official Links</strong></p>
-                                    <a href="https://global.grandsummoners.com/">
+                                    <p style={{color: '#aaabb8'}}><strong>Official Links</strong></p>
+                                    <LinkColor href="https://global.grandsummoners.com/" >
                                         Grand Summoners Home Page
-                                    </a>
+                                    </LinkColor>
                                 </NavItem>
                                 <NavItem>
-                                    <a href="https://discord.gg/grandsummoners">
+                                    <LinkColor href="https://discord.gg/grandsummoners" >
                                         Official Discord
-                                    </a>
+                                    </LinkColor>
                                 </NavItem>    
                                 <NavItem>
-                                    <a href="https://www.facebook.com/GrandSummonersGlobal">
+                                    <LinkColor href="https://www.facebook.com/GrandSummonersGlobal" >
                                         Facebook Page
-                                    </a>
+                                    </LinkColor>
                                 </NavItem>
                                 <NavItem>
-                                    <a href="https://twitter.com/GRANDSUMMONERS">
+                                    <LinkColor href="https://twitter.com/GRANDSUMMONERS" >
                                         Twitter
-                                    </a>
+                                    </LinkColor>
                                 </NavItem>
                             </Nav>
                         </Card>

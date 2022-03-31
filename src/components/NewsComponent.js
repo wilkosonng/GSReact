@@ -1,7 +1,8 @@
 import React from 'react';
 import { Container, Row, Col, Card, CardHeader, CardBody, CardGroup } from 'reactstrap';
-import { getNews } from '../shared/news';
+import { getNews } from '../shared/news/news';
 import { Link } from 'react-router-dom';
+import { CardColor } from './ColorScheme';
 
 export default function News () {
     //Obtain Articles
@@ -12,14 +13,14 @@ export default function News () {
     return (
         <Container>
             <Row>
-                <Card style={{backgroundColor: "gray"}}>
+                <Card style={{backgroundColor: "#25274d"}}>
                     <CardHeader>
                         <h1><center><strong>Game News</strong></center></h1>
                     </CardHeader>
                 </Card>
             </Row>
             <Row>
-                <Card style={{backgroundColor:"blue"}}>
+                <Card style={{backgroundColor:"#464866", color: "#C5C6C7"}}>
                     <CardBody>
                         <CardGroup>
                             {newsTopics.map(theNews => {
@@ -28,7 +29,7 @@ export default function News () {
                                     <React.Fragment key={theNews.id}>
                                         <Col lg="3">
                                             <Link to={`/news/${theNews.id}`} style={{textDecoration: 'none'}} key={theNews.id}>
-                                                <Card style={{width: "300px", height: "300px"}}>
+                                                <Card style={{width: "300px", height: "300px", backgroundColor: "#aaabb8", color: "#29648a"}}>
                                                     <CardHeader>
                                                         <h3><center><strong>{theNews.title}</strong></center></h3>
                                                     </CardHeader>
