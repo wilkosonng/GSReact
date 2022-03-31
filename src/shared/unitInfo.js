@@ -824,7 +824,7 @@ const UnitInformation = [
                 evoawk: "Grand king of the rare Sea Giants, who ruled the seas during the Ancient War. He had good reason for his unrelenting attacks on his mother's relatives, the Sea Dragons. He wished only to minimize harm to both races. When he sensed the Ancient War would grow only longer and more cruel, his frenzied attack served to restrain the Sea Dragons, and protect his people from further battle. History hides his true intent, though he regrets nothing."
             }
     },
-    { //Valhalla - Missing Lore
+    { //Valhalla - Complete
         id: 100586312,
         name: "Valhalla",
         rank: "B+",
@@ -903,10 +903,10 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo3: "Missing Lore Information, please contact site owner",
+                evo3: "A divine tree that holds the powers of creation and rebirth. Prior to the Great War, a land feud between spirits in Isliid's forests led to the area being razed to the ground. Filled with anguish over the self-inflicted loss of their home, the Spirits offered a prayer to rejuvenate the forest. Hearing this prayer, it is said that Valhalla appeared and restored the forest, which served as a reminder not to repeat the mistakes of the past.",
                 evo4: "A divine tree with the powers of creation and rebirth. The Great War's battles rended the continents of Raktehelm in two, leading to a natural increase in prayers toward Valhalla. However, few firsthand accounts of such behavior remain. Some despaired, thinking Valhalla had abandoned the eight races after their countless mistakes, but current theories suggest that is was merely preparing its true power for the devastation to come.",
                 evo5: "A divine tree representing the world's will. Toward the end of the Great War, with the once-beautiful world of Raktehelm a mere shadow of its former self, Valhalla appeared at last in the skies over a raging battle and released the totality of its power. The world was suffused in a radiant light. the light eventually faded, the war eventually ended. And the survivors still had the earth, whose verdant glory returned, slowly but surely.",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evoawk: "A divine tree from another world with the overwhelming power to create, dominate and destroy life. After quelling the horros that have plagued the continent, this divine tree suddenly vanished with a white flash to spend eternity somewhere far far away in an unknown land. This divine tree has many beings living upon its exuberant treetops, including the seeds thought to have been destroyed ages ago. When the divine tree annihilated all that life that dwelled in this realm, as if being wished upon the stars, it is thought that such destruction sparked new life to be brought forth."
             }
     },
     { //Eden - Missing Lore
@@ -1304,7 +1304,7 @@ const UnitInformation = [
                 evoawk: "A mysterious swordswoman summoned from another world. She once valued loyalty above all, but eventually, she came to doubt her God masters as much as the Demons. Ironically, the more she doubted, the sharper her blade cut. But soon, she will find that this power she sought to defend her home will bring even greater tragedy and hatred. And so she sets out on a journey to discover how to destroy forever her true enemy; War."
             }
     },
-    { //Vaid - Missing Lore, Evolution
+    { //Vaid - Missing Evolution
         id: 100636312,
         name: "Vaid",
         rank: "C",
@@ -1395,10 +1395,10 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo3: "Missing Lore Information, please contact site owner",
-                evo4: "Missing Lore Information, please contact site owner",
+                evo3: "A Machine weapon that fought during the Ancient War. Vaid absorbs the countless spirits that float in the atmosphere to provide energy for flight and weapons. The main body is the small module in the centre which controls the other, larger body, but mysteries about its construction abound. The name 'Vaid' refers to the apparatus as a whole.",
+                evo4: "A Machine weapon that fought during the Ancient War. Vaid was developed in secret to oppose the Gods. The large module is designed to excel in combat, while the smaller module is designed to act as the brain. Working together, they obliterated countless foes of every race. Both units have wills, but the large module is unable to move - it can only speak.",
                 evo5: "A machine weapon that fought during the great war. The small module's will won many battles, during which the large module rarely objected. Only once did the modules differ in opinion. After discovering an enemy Beast commander, the small module released all weapons and unleashed a devastating barrage. The commander survived, but the large module refused to attack. 'That is your foe. Not mine,' it said.",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evoawk: "A Machine weapon that underwent self-evolution after absorbing many spirits. It crushed the strongest of the Gods' soldiers, but the Beasts proved to be formidable threats. When one of them defended against an all-out barrage, its self-defense system sounded the alarm to retreat, but the soldier's will programmed into its core demanded it bring the battle to a conclusion."
             }
     },
     { //Elfalla - Missing Lore
@@ -4346,7 +4346,7 @@ const UnitInformation = [
                 evoawk: "The Dragon blacksmith Rhodia and her former student Saar, a young half-Beast half-Demon man, fought a desperate battle against Demon warrior Leon. When Leon struck down with his great axe, Rhodia rushed in to take the blow for Saar, but she suffered a fatal injury. Rhodia knew that her end was nigh, so she confirmed that her student was safe and gave him the armour that she had spent half her life to create. Afterwards, she smiled contentedly and closed her eyes."
     }
     },
-    { //Olgeth - Missing Lore
+    { //Olgeth - Complete
         id: 101326312,
         name: "Olgeth",
         rank: "B",
@@ -4420,7 +4420,7 @@ const UnitInformation = [
             {   
                 evo4: "A Giant warrior who fought prior to the Great War. Quiet in nature, he always worked in the shadow of his furious brother. Olgeth affected the course of many battles all by himself, but this simply earned him the title of 'The Mad Brother,' When his brother left the Giants to wander on his own, he followed along without saying much. But an encounter with a young girl affected a great change on his weak-willed heart.",
                 evo5: "A Giant warrior who made a name for himself prior to the Great War. During his journey, he and his brother were defeated by a girl with incredibly powerful magic. Shocked by this turn of events, Olgeth was filled with an intense desire to join her on her travels. As he grew more powerful, he would end up saving the girl on countless occasions during their journey.",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evoawk: "Surrounded by a throng of Magibeast, the Giant brothers and their Spirit companion find themselves vastly outnumbered. Against the older brother's demands to save themselves, the younger brother stands and fights alongside him. With a face of certainty and uncharacteristic defiance, the younger brother asserts, 'I'm not leaving my only brother behind.' And with that declaration, they face the Demon horde, side by side."
             }
     },
     { //Riffili - Missing Lore
@@ -5413,7 +5413,7 @@ const UnitInformation = [
                 evoawk: "Having avoided disaster, the man introduced himself to Favelle as her father. He told her that he wanted to live with her together again, as a family. Having decided to live forever in the forest alongside the Ancient Dragon, she refused. However, sensing his strong resolve, she allowed the man to live in the forest under the condition that he would become its protector. She agreed to this because of the faint memories she had of her father, and the determination of the man before her who was prepared to throw away everything if he could live with his daughter."
             }
     },
-    { //Catilou - Missing Lore
+    { //Catilou - Complete
         id: 101596312,
         name: "Catilou",
         rank: "B-",
@@ -5486,7 +5486,7 @@ const UnitInformation = [
             {   
                 evo4: "A Beast bandit active prior to the Great War. Catilou led bandit gang that robbed greedy businessmen and government officals exclusively. Most of the members of her gang were people who fell in love with Catilou's caring personality. One day, a lone intruder appeared on her turf. She didn't pay him much mind... until he took out some of her men. Taking hammer in hand, she prepared to take on the Human gunslinger who had dared to enter her turf.",
                 evo5: "A Beast bandit active prior to the Great War. Catilou fought against the gunslinger who had shot down her men. Midway through, however, she realized something: her men were unharmed, and had only had their weapons destroyed. Catilou dropped her weapons and admitted defeat, and the gunslinger apologized for mistaking her for the mark he had been chasing for years. They would travel together, and Catilou would eventually save the gunslinger during a fight against the fire dragon.",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evoawk: "The fire dragon, thought to have been defeated, let out a bellowing roar. The gunslinger slumped to his knees at the sight of the raging dragon. Realizing that his magical firearm drew power from its user's life force, Catilou took hte gun herself and gave her own energy to the weapon to protect the gunslinger. The gunslinger stood up again after this selfless act and the two defeated the dragon together. For this, Catilou is known as the dragon-slaying Maverick."
             }
     },
     { //Rasaou - Complete
@@ -5719,7 +5719,7 @@ const UnitInformation = [
             {   
                 evo4: "A Human who researched dangerous subjects prior to the Ancient War. Though originally a studious researcher, when he discovered a way to alter the makeup of living things, he strayed from his path. After abandoning experiments on Humans and moving on to other races, a mysterious Spirit appeared with a question: would it be possible to change a Giant girl's size? Keit happily accepted the challenge and headed off to make the girl's wish come true.",
                 evo5: "A researcher who succeeded in changing the bodies of living things prior to the Ancient War. Keit met with a Giant girl who could change the size of her body, and she asked if he knew a way to make it so she would never become Giant-sized again. 'I don't want him to know the truth about me,' she said. 'I want to be small always.' Keit granted her desire... in return for unleashing the power slumbering within her. The power which was enough to change the world.",
-                evoawk: "Currently unreleased in Global."
+                evoawk: "The girl finally being able to control her Giant transformation ability marked the mad scientist's experiment as a success. Despite merely using her desire for his own ambition, he felt a sense of accomplishment, or perhaps a sense of admiration for the girl's display of will. Whichever it was, as he saw her and her beloved walking away in the distance, a satisfied grin flickered across his face."
             }
     },
     { //Cathemilla - Missing Lore
@@ -7083,7 +7083,7 @@ const UnitInformation = [
                 evoawk: "Before she knew it, she admired the Spirit girl she met at the hidden village and tried to take her with her to the outside world. While she hesitated to do so, she became more and important to her. However, one day the village was suddenly invaded by Demons. To protect the one she adored, she rushed out of the army to once she had pledged. Once she arrived, she saw the girl bravely facing the Demons."
             }
     },
-    { //Musse - Missing Lore, Evolution
+    { //Musse - Missing Evolution
         id: 101816312,
         name: "Musse",
         rank: "TBD",
@@ -7159,9 +7159,9 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo4: "She was a magician from a reclusive Spirit village who served as an advisor during the Ancient War. When she went to offer aid in the aftermath of the battle for domination in the region, she adopted a Human war orphan and taught her magic so she could adapt to her new life. As the months passed, she came to think of her as her own daughter, and that attachment made it all the more painful when the girl started showing an interest in the outside world.",
+                evo5: "She earned much fame for her actions during the outside of the Ancient War, but she soon decided to retire to her home village. Unfortunately, she was given no time to rest as Demons attacked in force. Not even one of her incredible talent could oppose such overwhelming numers, but she was determined to protect her adopted daughter at the cost of her own life. Witnessing that deep love, the young girl too made a stand.",
+                evoawk: "She stood against the Demons to protect what she held dear, but death seemed inevitable. However, before the fatal blow fell, there was a bright flash from her adopted daughter's blade. It was that moment she realized the girl she had proected for so long was now strong enough to defend others. Entrusting their back to the other, the pair fought back the huge army. Several days later, their wounds had healed and she gave the young girl her own sword. With the warm, sad gaze of a mother, she then watched her depart into the wide world."
             }
     },
     { //Freed - Missing TW Image
@@ -7475,7 +7475,7 @@ const UnitInformation = [
                 evoawk: "She was once called Lapleh, and was employed as a caretaker and manager at the orphanage where Rayas and Roy were raised. The orphanage records included a person named Lapleh in hte rold of caretaker when it was first founded, and so as time went on the person who raised and ministered to the children was simply called 'Lapleh' which is a mark of tradition. For what it's worth, the person called Lapleh when Rayas was a child has passed on, and there is a new person in that role."
             }
     },
-    { //Alma - Missing Lore
+    { //Alma - Complete
         id: 101866312,
         name: "Alma",
         rank: "B",
@@ -7542,8 +7542,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "A mysterious witch whose name appears all throughout history. The accounts of her presence are spread so wide through the ages that historians of Raktehelm believe these are accounts of different people with the same name. However, if they all are about the same person, she must have possessed unprecedented anti-aging abilities, or have mastered Hyper-time Jumping, a magic thought to be impossible. There are rumors that she instructed one of the Five Freedom Fighters in barrier magic, and aided their escape from the shadows, but they remain just rumors.",
+                evoawk: "This transcendental being who often shows up at critical historical points is called \"The Watcher\" by magical researchers. There is a theory that she is also Elenore, one of the Six Great Witches, but none know if this is true. The final mention of her in the histories implies that she was in contact with the assassin who killed the Five Freedom Fighters. By some coincidence, the records of the orphanage Rayas and Roy grew up in mention someone named Alma present at the founding, possibly the same one."
             }
     },
     { //Sonije - Missing Lore
@@ -8034,7 +8034,7 @@ const UnitInformation = [
                 evoawk: "He was a mercenary and assassin in the first part of the Ancient War. Besides this, he almost did anything for a reward. His abilities were first class and his rationality absolute. He certainly would never accept a job without a proper reward, but he didn't choose his clients, and wouldn't hesistate to cause the collapse of a nation to accomplish his misison. His job let him around the world, and he is also mentioned in hero sagas both as an ally and as an enemy."
             }
     },
-    { //Vogue - Missing Lore, TW Image
+    { //Vogue - Missing TW Image
         id: 101946312,
         name: "Vogue",
         rank: "B-",
@@ -8110,8 +8110,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "A swordsman who was the senior of Arth, of the Twin Blades early in the Ancient War, when the 3 Blade Masters were still training in the Zairyudo Sword school at his parents' house. Everyone there possessed incredible ability, and was respected for their kindness. Yet Arth showed interest only in his own sword training and just opened up to his friend Vogue. As for Vogue himself, he worried deeply for his friend and his endless pursuit of strength.",
+                evoawk: "He continued to watch out for Arth, who had worked so hard he had surpassed his masters and begun his walk on the path of twin blades. Vogue may not have approved, but he still admired the resolution and even pointed out some flaws in techniques. Arth always respected his friend, so listened carefully to the very end. This, along with Arth's natural character, gave some peek into his future. They say to this day, without Vogue's help he never would have mastered his twin blade style."
             }
     },
     { //Voghan - Complete
@@ -8269,7 +8269,7 @@ const UnitInformation = [
                 evoawk: "After his village was vandalized when he was a child, he swore vengeance together with his friend, the son of the village Spirit's leader. The fire of revenge which possessed him was relieved by the light of the Archer. Even if she recognized the reason for their hatred, she told him not to live in the past but think about the future instead. Her words set him free. When the Royal Army and the assassins came for them the Great Circus began: he played his ace in the hold and suddenly countless monsters appeared on his side..."
             }
     },
-    { //Mamori - Missing Lore, TW Image
+    { //Mamori - Missing TW Image
         id: 101976312,
         name: "Mamori",
         rank: "B-",
@@ -8349,8 +8349,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "In the early days of the Ancient War, she was the Archer of the famous \"Crimson Stars\" circus. She was a was orphan who decided to join the group and traveled with them all her life. Inspired from her childhood from the story of the hero Ashe Toto, she decided to learn archery. Her skill is more than enough to please the audience as a performer,and also in the actual fight, she is one in a million. But her best talent is to let fall one arrow like a shooting star, which is also the origin of her name.",
+                evoawk: "The two friends she traveled with founded \"Crimson Stars\" to disguise themselves and revenge on those who destroyed their village during their childhood. Even after knowing their true intentions, she still considered them her family. Not only because they raised her, but also for the time spent together making people laugh all over the world. All that could not be a lie. The two, who had been haunted by hate from their past, turned forward and continued their trip to make the world smile."
             }
     },
     { //Melody - Missing Lore
@@ -8616,7 +8616,7 @@ const UnitInformation = [
                 evoawk: "When she saw the sorcerer pierced by a bullet, the Ogre started laughing. The being called \"Ogre\" was only the flesh, while the soul had been sealed by the sorcerer using his own blood. The Fox God appeared from Zeela's boty was finally trying to reunite with the flesh-part, namely the Ogre. However, because of the Agent Machina's plan, the Fox was sealed once more inside her body."
             }
     },
-    { //Fosly - Missing Lore
+    { //Fosly - Complete
         id: 102026312,
         name: "Fosly",
         rank: "A-",
@@ -8680,8 +8680,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "The head of a group of dark river and mountain Spirits that menaced a certain Divine capital early in the Ancient War. She was eventually sealed away by a sorcerer but has reappeared after her long slumber. Wielding a massive hammer at odds with her childish looks, she is mighty enough to crush even a large army on her own. No one knows her true motive, but she has once again started attacking the capital. The kingdom, sensing the danger, sent out its mightiest army to subdue her, but she laid it to waste.",
+                evoawk: "The ogre long sought out the descendants of the sorcerer who sealed her away. When they were finally discovered, they fell before the assassins hired for the job... and from their bodies a sinister ghostly fox appeared. That was her lost half, the ogre's soul torn from her body by the sorcerer and hidden within his own flesh and blood. The sould was passed down with the sorcerer's blood, and is only a matter of time until it meets its lost flesh, sealed away in the forbidden land. And thus the blue-faced golden haired Fox Goddess seeks ever for resurrection."
             }
     },
     { //Jack - Missing Lore
@@ -8925,7 +8925,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Norn - Missing Lore, TW Image
+    { //Norn - Missing TW Image
         id: 102066312,
         name: "Norn",
         rank: "S-",
@@ -9002,8 +9002,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "This Machine warrior came to Raktehelm from the Sealed Land. Her outstanding mobility and intel gathering capabilities make her an excellent support unit. However, in battle form, her firepower focus makes her a useful attacker as well. Her official name is AHD-03RE, and Norn is her codename. When she first came to Raktehelm, she felt nothing but deep-seated hatred for humans, but apparently among Machines she is one of the more amicable ones.",
+                evoawk: "A young Machine warrior who came to Raktehelm to help Humans. When she first came, she hated Humans, and never imagined the Knight of Isliid could ever become her partner. However, his sincere words and gaze moved her, and she finally realized the true purpose of her mission. She appears to be rather cold with Humans, but she herself seems unaware of this. Her frank way of speaking is a personal issue and has nothing to do with being a Machine."
             }
     },
     { //Riana - Missing TW Image
@@ -9086,7 +9086,7 @@ const UnitInformation = [
                 evoawk: "She is a peerless swordswoman, worthy of her ancestors, the Sword Master dynasty. In order to continue her struggle to become the greatest fighter of her family, she had an anti-aging spell cast on her when she was still a child. Ganan found within her a strength different to the one of her sword and they married, but soon she returned to her world travels. She made an oath that they could never live together until she achieved her goal, and that resolution only grew stronger when she met a certain adventurer."
             }
     },
-    { //Kane (Earth) - Missing Lore, TW Image
+    { //Kane (Earth) - Missing TW Image
         id: 102176312,
         name: "Kane (Earth)",
         attribute: "Earth",
@@ -9165,8 +9165,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "A high official in the Gramenia Republic. Seeing how he orders Fen around makes it look like he is higher ranking, but they also talk to each other like very old friends. He's a rough lady's man with a big personality, but when he's at his work, they say he's so efficient it's like a whole other person. There are very few who actually know what his job is, and despite his outgoing, friendly personality he is still full of hidden facets.",
+                evoawk: "A lonely person from the Republic of Gramenia, dressed in a tentative figure that has endured the world.He climbed to that position at a young age, so many political opponents aren't happy with him, but those opponents are cleverly held down by the most trusted Chief of Staff, Fen. He is the one who once found and promoted Fen."
             }
     },
     { //Courtney - Missing Lore
@@ -9764,7 +9764,7 @@ const UnitInformation = [
                 evoawk: "Despite her best efforts to meet her kindred's expectations at the peace talks, she fell to a Demon assassin's blade. It was only then she realize that mere idealism would not win over her enemies, and she regretted not doing more to prevent that. However, a swordsman of the Gods who formed a connection to the eastern lands said that she was a major inspiration, for no one else had believed in him amidst the tension and intrigue of the conference."
             }
     },
-    { //Vicious - Missing Lore
+    { //Vicious - Complete
         id: 102266311,
         name: "Vicious",
         attribute: "Earth",
@@ -9823,8 +9823,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "She led a Machine nation's army early in the Ancient War. With her overwhelming firepower and ability to command, she was considered a key part of national defense by the government. Her soldiers were specialized for battle, and indeed most had little of what you'd call human emotion. In particular, she considered herself a weapon, and never wavered in that conviction. As a result, she never fretted about kiss of life in battle. She simply pursued her goal single-mindedly.",
+                evoawk: "There was a Machine soldier who worried at her insistence she was a mere weapon. He fled of his own free will, and joined the service of a Divine swordsman. When the news of his death reached her, for the first time she felt an emotion; hatred. She sought out the swordsman to discover the killer, but learned that he had laid down his life in battle in the search for peace. Her life changed, then, to one of sadness over the death of her friend, and one of hope in the ideals he had held."
             }
     },
     { //Tallis - Missing TW Image
@@ -9995,7 +9995,7 @@ const UnitInformation = [
                 evoawk: "He had absolutely no interest in the ideals of peace extolled at the summit he was invited to. Indeed, he considered himself a proud member of a warlike people, and considered it only right to kill those he couldn't get along with. Indeed, the second he decided the Divine swordswoman was his enemy he challenged her to battle, but her unwavering dedication to peace struck a chord within him. Thus, this simple reason led him to stand in defiance before the advancing Demon army."
             }
     },
-    { //Jill - Missing Lore, TW Image
+    { //Jill - Missing TW Image
         id: 102296312,
         name: "Jill",
         rank: "B-",
@@ -10072,8 +10072,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "An official of a nation surrounded by other races who worked hard to maintain peace for her home. She used her gentle nature and feminine charms as weapons to lead other nations to lower their guards. Yet if circumstances called for it she was fully ready to lead armies form the front, and quite effectively too. However, her role in international diplomacy meant she had to keep that skill hidden. They say that no one who uncovered her secret survived long.",
+                evoawk: "They say that the moment the Gods asked her and her nation for help holding a meeting with the neighboring countries, it was doomed to failure. Even as she played innocent, she was putting her strategies into place. She planted the poisonous seeds of dissent, helped in the revenge of the Machines who were playing at being friends with the Demons, and succeeded in setting off the war. She and her co-conspirators had only one purpose. That was to get the other 7 great races apart to destroy each other."
             }
     },
     { //Alvina - Missing TW Image
@@ -10677,7 +10677,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Mira (Earth) - Missing Lore, TW Image
+    { //Mira (Earth) - Missing TW Image
         id: 102396312,
         name: "Mira (Earth)",
         rank: "A+",
@@ -10757,8 +10757,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "The third princess of the Principality of Bamint, who carries a sword inherited from an island country in the Far East. The crest inscribed in the blade resembles that of the \"Radiant Itto-Ryu\", but the shape of the sword differs. One day she starts to have a strange dream. A beautiful kimono, a charming cityscape, a young woman with long black hair. Searching for the source of the dream, she reaches the Far East where she meets two swordswomen with important destinies",
+                evoawk: "The third princess of the principality of Bamint,who was taught the deepest secrets of the \"Sakura Itto-Ryu\" style by two swordswomen who'd once once journeyed to the \"Island of the God's\" to save their country. This unique sword technique engages the enemy in a fight dance with similar form to that of falling cherry blossoms petals in spring. Mira wielded two swords until then, but aftermastering the \"Sakura Itto-Ryu\" she improved her skill and now uses only one blade. After inheriting \"Sakura Itto-Ryu\" and the spirit of the swordswoman from another world. Mira's eyes sparkle with renewed excitement."
             }
     },
     { //Zeorg (Dark) - Missing Lore, TW Image 
@@ -11329,7 +11329,7 @@ const UnitInformation = [
                 evoawk: "His admiration for the Commander and his hunger for further growth drove him to facing the devastating attacks against his foes, and when a mighty Ice dragon appeared, he activated the devastating Magia Drive to defeat the fire-proof beast. His countless battles with his fellow Templars has given him a calm perspective on battle, and he is always waiting for the perfect opponent to lay low with his raging flames."
             }
     },
-    { //Riviera - Missing Lore, TW Image
+    { //Riviera - Missing TW Image
         id: 102496312,
         name: "Riviera",
         rank: "A+",
@@ -11409,8 +11409,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "A female Demon warrior known as \"Brutal War Axe\". She was a bounty hunter who stopped by the small Kingdom of Granadia to heal her battle wounds. There she met Princess Juno and her entourage and became friends with them. She joined the Juno Templars and cast herself into harsh battles to protect the Princess, the Little Lady and the Kingdom of Granadia.",
+                evoawk: "Self-proclaimed commander of the \"Vanguard Battalion\" of the Juno Templars. She was a wandering warrior who traveled to many countries with her double axes and decided to stay in Granadia after a long journey. On the battlefield, she attacks in all directions and knocks down her opponents, but she's well knwon by many people for her bright and lively personality. After the coronation of the Little Lady subsequently to the Princess' death, her intent is to protect the kingdom with no mercy to those who try to take advantage of the situation and attempt to hurt the Royal family."
             }
     },
     { //Thetis - Missing Stats, Slots, Evolution, True Weapon, TW Image
@@ -12118,7 +12118,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Aesis - Missing Lore
+    { //Aesis - Missing Evolution
         id: 102596312,
         name: "Aesis",
         rank: "A-",
@@ -12184,11 +12184,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "A Dragon warrior who led an army of mixed races during the early Ancient War. She was feared for her lack of mercy on the battlefield, but she always stuck to her beliefs and never betrayed her allies, leading many to admire to admire her. Although her unit was famously known as the Indomitable Legion of Dragons, she once left tens of thousands of soldiers stranded during a critical battle. According to one theory, she may have done this to avoid getting her comrade in arms--a mage with a young child--mixed up in the chaos. However, no one knows the truth.",
+                evoawk: "A Dragon warrior spoken of as a goddess on the battlefield. Aesis was filled with regret for going against her own dignity and betraying her allies. Even if it had been to protect a friend from a reckless battle, she had still tricked a comrade in arms into leaving her unit. She had been prepared for her friend's anger when they reunited, but her friend, who understood the situation, readily forgave her and said, \"Thanks to you, I could protect my family.\" When Aesis heard those words, she felt years of unease disappear."
             }
     },
-    { //Luda - Missing Lore
+    { //Luda - Complete
         id: 102606312,
         name: "Luda",
         rank: "B-",
@@ -12248,8 +12248,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "A human swordsman who easily handles a sword as large as his own body. Together with a Spirit fortune teller, he destroyed the seal of a grimoire created by a Demon and became a hero that saved numerous lives. However, he often fell in love with women he met during his journey and was object of gossip. His freewheeling personality which leads him to continue travelling is also noticeable in his sword skills, and even swordmasters had a hard time to deal with his swordsmanship.",
+                evoawk: "Not only a swordmaster but also a hero who saved many lives with his free sword skills. After he destroyed the seal of a grimoire with a Spirit fortune teller,he set out on a journey with his allies. Trough his long journey, his sword skills were improved, and he became a famous great swordmaster who could even slash a dragon in one blow. The legend of his great sword and dragon are passed down until today."
             }
     },
     { //Lygor - Missing Lore
@@ -12880,7 +12880,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Belle - Missing Lore, TW Image
+    { //Belle - Missing TW Image
         id: 102696312,
         name: "Belle",
         rank: "B",
@@ -12956,8 +12956,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "A girl who lived in a small village of Spirits, loved for her earnest positivity. Not even a Demon attack could dim her bright attitude, keeping morale high during the rebuilding effort. A traveling magician both helped awaken her magical powers and taught her the importance of coexistence among the races. She found his vision so moving that she decided to set out on a journey to spread it.",
+                evoawk: "The various experiences on her journey matured into a splendid wizardess. Her words profoundly affected audiences everywhere she went. Some were so motivated as to depict her while giving an impassioned lecture. When she at last returned home, her divine bearing shocked old acquaintances. Recognizing anew her gratitude for the Spirit God's blessing, she left on another trip, this time secretly hoping to find the one who inspired her."
             }
     },
     { //Honoka - Complete
@@ -14260,7 +14260,7 @@ const UnitInformation = [
                 evoawk: "A top-ranked shinobi with extremely powerful ninja technique from Imari Village, located in the east. She fell into despair after losing her apprentice due to her own bad judgement. She grieved, wondering why her apprentice with a bright future died instead of herself, a shinobi stuck in the ways of old. Of course, no matter how much she suffered with this question in her mind, the answer never came. The only thing she knew was that she had to live his share of life in addition to her own. Despite sometimes wavering on the path she had chosen, she continued to tell herself that she must never stop walking."
             }
     },
-    { //Saku - Missing Lore, TW Image
+    { //Saku - Missing TW Image
         id: 102886312,
         name: "Saku",
         rank: "B-",
@@ -14336,8 +14336,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "A shinobi who trained in Imari Village, located far to the east. Though he was born into a fairly ordinary clan, his wholehearted effort and determination allowed him to become a powerful shinobi. According to his master, his greatest talents are his diligence and hard-working personality. Ten years after he began walking the path of a shinobi, his swordmanship with his jade green katana began to resemble that of his master's.",
+                evoawk: "A proud shinobi from Imari Village who lived for the sake of the person he loved. At the end of the battle with Yakuno Village, he was stabbed in the back by the blade of the enemy. Though his consciousness was fading, he found relief in knowing that his master was safe. Held in the arms of his beloved, he smiled softly before slowly closing his eyes as his life ended. The events that occurred during the conflict between the two villages were spoken of through generations as a tragedy embodying the pride and fate of the shinobi."
             }
     },
     { //Tamae - Missing TW Image
@@ -14744,7 +14744,7 @@ const UnitInformation = [
                 evoawk: "Filia studied how to use her blade under the old veteran, gaining remarkable talent after a few years. However, they were suddenly attacked during one training session by an infamous band of thieves who wanted to steal her unique weapon. The fight was won despite overwhelming odds, but her master could never wield a sword again. Returning home to promise her family she would win a major martial arts tournament and its purse, she set out on a new journey."
             }
     },
-    { //Garlan - Missing Lore, TW Image
+    { //Garlan - Missing TW Image
         id: 102946312,
         name: "Garlan",
         rank: "B+",
@@ -14821,8 +14821,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "The only son of a woodcutter family from the mountaineous Ghenen area. The sight of his father's scars after returning from war gave him a stark lesson -- combat skills were essential to a life of security. Ever since, he trained in stoic silence, eventually departing on a journey to become a true warrior. His self-taught technique mirrored his personality: straightforward but stubborn.",
+                evoawk: "With his trusty polearm Yulibert, Garlan continued to refine his considerable technique. His name was known throughout the land as an undefeated duelist, but this meant few were willing to accept his challenge. He decided to cross the ocean to reach the Martial Kingdom of Gitun, where the strong gathered. It was then he had his destined meeting with Filia, and together they defeated the marauding monsters in their way."
             }
     },
     { //Aluze - Missing Lore, TW Image
@@ -15067,7 +15067,7 @@ const UnitInformation = [
                 evoawk: "Roy, clad in the uniform of the Information Bureau. The empire has begun training its knights to be prepared for a myriad of combat situations by instructing them how to use a variety of weapons. The \"Imperial Gun Arts\" method was developed by Gichin Nanbu with the goal of teaching soldiers how to utilize firearms. It was created to accommodate the knight's affinity for close combat, but many-a-knight threw in the towel due to the hellish training needed to grasp the technique (even taking Roy a few years to master)."
             }
     },
-    { //Cestina - Missing Lore, TW Image
+    { //Cestina - Missing TW Image
         id: 102986312,
         name: "Cestina",
         rank: "SS",
@@ -15147,8 +15147,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "The second princess of the Gran Verge Kingdom, who was renowned for both her skill with the sword and her love for her citizens. With her lofty ideals and aspirations, she drew in the people around her, and her presence pushed the kingdom forward. She had two role models: her older sister, highly intelligent and skilled with magic, and her older brother, who carried himself with the majesty of a king. From a young age, Cestina took lessons from the leader of the Gran Verge knights so that she would be able to support her siblings. The Gran Verge sword fighting style was engraved in Cestina's soul, and she became the youngest ever assistant instructor.",
+                evoawk: "The just and righteous second princess of Gran Verge. When she wielded her sword, it was always for somebody else's sake, and she would never hurt somebody for her own gain. However, her strong sense of justice could be taken advantage of, and it was sometimes a weakness. Even so, she held to her beliefs to the very end. Her compassion and benevolence instilled great pride in the people of Gran Verge."
             }
     },
     { //Radak - Complete
@@ -15761,7 +15761,7 @@ const UnitInformation = [
                 evoawk: "A warrior of the Dragons wielding a fearsome axe into battle. Having awoken abilities beyond those of the average Dragon due to her time spent in a hellish environment. Though in part her power came from her youth, her very power was the personification of menace causing those that crossed her path to tremble for their lives. She had always been a solitary figure, but one encounter brought about change to that way of life. The small hand of a heartwarming young girl reached out to her, bringing about change in her way of life."
             }
     },
-    { //Eagle - Missing Lore, TW Image
+    { //Eagle - Missing TW Image
         id: 103076312,
         name: "Eagle",
         rank: "A",
@@ -15840,8 +15840,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "A human warrior relentlessly hunting the scions of Gran Verge. When his hometown on the kingdom's fringes was attacked by Demons, he could do nothing but watch its destruction. This combined with his discontent at the Gods' inadequate response caused his hatred to swell over the years. As a result, when someone invited him to join their plot to seize the throne, he was all too willing to accept.",
+                evoawk: "A warrior with a large, mechanized shield. Burdened with feelings of inferiority, his stubborn mental isolation means neither encouragement nor criticism can reach him. In a sense, the shield he carries also represents that wall between himself and others with its hidden blade piercing anyone who tries to breach it. Even so, it's possible he has not yet forgotten the warmth of comradery."
             }
     },
     { //Bakoo - Missing Lore, TW Image
@@ -16321,7 +16321,7 @@ const UnitInformation = [
                 evoawk: "The Stella Squad acts as \"Defenders of Passion\", punishing criminals who prey on artists. Even while participating in plays and concerts, they are always on the lookout for signs of illicit activity. Each member undergoes training specialized to their skills, and she is no exception. However, she finds it difficult to set aside time for that between her acting and singing lessons."
             }
     },
-    { //Salyssa - Missing Lore, TW Image
+    { //Salyssa - Missing TW Image
         id: 103146312,
         name: "Salyssa",
         rank: "B+",
@@ -16401,8 +16401,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "A new member of the Stella Squad. She wanted to become a knight from childhood after one rescued her from a violent beast. She is hardworking and upfront, which also means she is not afraid to speak out against irrationality. Being raised in the countryside, she is unfamiliar with Minchenne and was unaware of the Stella Squad's existence until she enlisted. Moreover, she has a complex about her lack of aesthetic sense and talent.",
+                evoawk: "A knight aspiring to become the perfect soldier. Small yet resilient, she uses a style of spear work developed since living with her family. She does feel shame about her underdeveloped artistic skill, but that, along with everything else, is forgotten when she starts training. Not even she realizes how deeply she becomes absorbed, since most of her sessions are solo. As expected of a cultural metropolis, those who share her interests in combat are few and far between."
             }
     },
     { //Sharon - Missing Lore, TW Image
@@ -17430,7 +17430,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Hart (Earth) - Missing Lore, TW Image
+    { //Hart (Earth) - Missing TW Image
         id: 103276312,
         rank: "SSS",
         twrequire: "favorable",
@@ -17511,8 +17511,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "A Human youth from a quiet town. Having lost his mother at a young age, his teacher Miranda helped look after him. After turning seventeen, he decided to join the Rangers with his friends Vultee and Priscilla. His mother's sacrifice inspired him to live to help and protect others.",
+                evoawk: "He and his friends went to the forest to hunt a monster and prove their worth. However, the trial was more difficult than they expected, and they found themselves faced with death. It was then he remembered what Miranda said at his mother's funeral. 'You need to survive until your final breath, because your life was given to you by someone special.' This gave him the determination to stand strong and save his friend's lives."
             }
     },
     { //Hart (Dark) - Missing Lore, TW Image
@@ -18252,7 +18252,7 @@ const UnitInformation = [
                 evoawk: "Halfway through the race, her composure vanished. The Templar captain was always right behind her, no matter how fast she went. The finish line approached with them side by side. She then asked what he would command of her. That sudden question shook his focus, and she used that chance to pull ahead. but while she exulted in her imminent victory and pictured his scowl, she came to a certain realization. 'Wait, what did I even want him to do?'"
             }
     },
-    { //Summer Leone - Missing Lore
+    { //Summer Leone - Complete
         id: 103386312,
         name: "Summer Leone",
         rank: "A",
@@ -18319,8 +18319,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "The princess of Granadia, a small country in the east, was brought to an ocean paradise by her sister. She claimed her lack of swimming talent was due to a curse that caused her to sink whenever she took a breath. Choosing instead to read beneath a parasol, the comfortable sea breeze started to convince her the trip was nonetheless enjoyable. all the while, a small group of green monsters was sneaking up on her.",
+                evoawk: "Before she realized what was happening, the Mokyuon had jumped out and shoved her from the pier. She struggled desperately to keep from drowning. Returning to shore after several minutes, the monsters nodded with approval. It appeared their antics had forced her to learn proper breathing. Perhaps they saw the timid girl and knew the sink-or-swim approach was the only way she would succeed."
             }
     },
     { //Elizabeth - Missing Lore, TW Image
@@ -19453,7 +19453,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Terrible Tornado - Missing Lore
+    { //Terrible Tornado - Complete
         id: 107096312,
         name: "Terrible Tornado",
         rank: "A-",
@@ -19514,8 +19514,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "She is registered with the Hero Association. She was given the nickname 'Terrible Tornado' due to her outstanding but terrifying abilities in battle. She is specialized in psychic skills, especially in wide-range telekinesis attacks.",
+                evoawk: "The S-Class Rank-2 Hero in the Hero Association. It's not an overstatement to say she's the Hero Association's last card against threats against humanity. Facing her infinite strength, her enemies cannot even raise a finger after the hurt they find themselves in."
             }
     },
     { //Boros - Missing Lore
@@ -20655,7 +20655,7 @@ const UnitInformation = [
                 evoawk: "Raphtalia was summoned to Raktehelm along with Naofumi, Filo and Melty. She tries to act as a bridge between Naofumi and others without much success, Rayas and his friends included. However, on the battlefield, Raphtalia's sword skills are not to be outdone by Rayas and his friends as she shows off her techniques proudly."
             }
     },
-    { //Filo - Missing Lore
+    { //Filo - Complete
         id: 107276312,
         name: "Filo",
         rank: "B+",
@@ -20716,7 +20716,7 @@ const UnitInformation = [
         lore: 
             {   
                 evo5: "Filo is a 'Filolial', which is a bird-like monster that hatched from the egg Naofumi Iwatani purchased from the slave master. She was born in bird form, but since her caretaker was naofumi, one of the legendary heroes, she was able to change form into a small girl with wings like an angel. Although her personality is quite childish and often can't quite follow difficult conversations, Filo admires Naofumi as her master and Raphtalia as her sister. As soon as she met Melty, Filo instantly became friends with her, and have been besties since.",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evoawk: "Filo was summoned to Raktehelm along with Naofumi. Alghough she is in a different world, she is easy-going as always and warms up to Rayas and his friends right off the bat. It seems that she can understand Rolly's language... and also occasionally shows off her abilities as a monster. Since she was always on the run with Naofumi and his party, she was unable to eat proper meals. But in Reigrad, she's been given delicious meals at every turn and has been able to fully recharge. She'll pick fights with Raphtalia, but that's because Filo knows Naofumi can't attack back."
             }
     },
     { //Melty - Complete
