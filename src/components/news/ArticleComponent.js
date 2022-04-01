@@ -11,11 +11,11 @@ export default function Article () {
     return (
         <Container>
             <Row>
-                <Card style={{backgroundColor: "black"}}>
+                <Card style={{backgroundColor: "#29648a"}}>
                     <CardHeader>
                         <h1><center><strong>{newsArticle.title}</strong></center></h1>
                     </CardHeader>
-                    <CardBody>
+                    <CardBody style={{backgroundColor: "#464866", marginBottom: "1rem"}}>
                         <center>
                             <p><div dangerouslySetInnerHTML={{ __html: newsArticle.article }} /></p>
                         </center>

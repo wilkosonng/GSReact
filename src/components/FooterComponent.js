@@ -24,7 +24,7 @@ function Footer () {
                     </script>
                 </Row>
                 <Row>
-                    <CardGroup style={{paddingTop: "50px"}}>
+                    <CardGroup style={{paddingTop: "50px", marginBottom: "1rem"}}>
                         <Card md="3" style={{backgroundColor: "#29648a"}}>
                             <p><center><i>The website grandsummoners.info is not affiliated with nor endorsed by NextNinja. All images belong to NextNinja.</i></center></p> 
                             <p><center><i><FaRegCopyright /> grandsummoners.info 2022</i></center></p>

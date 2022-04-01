@@ -13,7 +13,7 @@ export default function News () {
     return (
         <Container>
             <Row>
-                <Card style={{backgroundColor: "#25274d"}}>
+                <Card style={{backgroundColor: "#29648a"}}>
                     <CardHeader>
                         <h1><center><strong>Game News</strong></center></h1>
                     </CardHeader>

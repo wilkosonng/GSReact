@@ -11,6 +11,14 @@ const imageSize ={
     maxWidth: 500
 };
 
+const unitCard = {
+    marginTop: "3rem",
+    paddingTop: "10px",
+    backgroundColor: "#464866",
+    color: "#aaabb8",
+    borderColor: "#464866"
+}
+
 export function RenderStats({unitName, unitStats, unitAtt, unitType, unitSkill, unitPassive, unitSlots, unitImage}){
     //Tab for Stats
     //Possibly make if else statements to check if ability3 exists
@@ -64,7 +72,7 @@ export function RenderStats({unitName, unitStats, unitAtt, unitType, unitSkill, 
             if(unitSkill.phantombullet) {
                 return (
                     <Container>
-                        <Card style={{backgroundColor: 'grey', borderColor:'grey'}}>
+                        <Card style={unitCard}>
                             <CardHeader>
                                 <center>
                                     <RenderDetail detail={unitImage.detailawk} />
@@ -163,7 +171,7 @@ export function RenderStats({unitName, unitStats, unitAtt, unitType, unitSkill, 
                 if(unitPassive.ability4) {
                     return (
                         <Container>
-                            <Card style={{backgroundColor: 'grey', borderColor:'grey'}}>
+                            <Card style={unitCard}>
                                 <CardHeader>
                                     <center>
                                         <RenderDetail detail={unitImage.detailawk} />
@@ -259,7 +267,7 @@ export function RenderStats({unitName, unitStats, unitAtt, unitType, unitSkill, 
                 //3 Abilities
                 return (
                         <Container>
-                            <Card style={{backgroundColor: 'grey', borderColor:'grey'}}>
+                            <Card style={unitCard}>
                                 <CardHeader>
                                     <center>
                                         <RenderDetail detail={unitImage.detailawk} />
@@ -355,7 +363,7 @@ export function RenderStats({unitName, unitStats, unitAtt, unitType, unitSkill, 
             if(unitSkill.trueartsbreak2) {
                 return (
                     <Container>
-                        <Card style={{backgroundColor: 'grey', borderColor:'grey'}}>
+                        <Card style={unitCard}>
                             <CardHeader>
                                 <center>
                                     <RenderDetail detail={unitImage.detailawk} />
@@ -447,7 +455,7 @@ export function RenderStats({unitName, unitStats, unitAtt, unitType, unitSkill, 
         //Default 3 Ability Units
         return (
             <Container>
-                <Card style={{backgroundColor: 'grey', borderColor:'grey'}}>
+                <Card style={unitCard}>
                     <CardHeader>
                         <center>
                             <RenderDetail detail={unitImage.detailawk} />
@@ -542,7 +550,7 @@ export function RenderStats({unitName, unitStats, unitAtt, unitType, unitSkill, 
         if(unitSkill.skillbreak1) {
             return (
                 <Container>
-                    <Card style={{backgroundColor: 'grey', borderColor:'grey'}}>
+                    <Card style={unitCard}>
                         <CardHeader>
                             <center>
                                 <RenderDetail detail={unitImage} />
@@ -632,7 +640,7 @@ export function RenderStats({unitName, unitStats, unitAtt, unitType, unitSkill, 
 
         return (
             <Container>
-                <Card style={{backgroundColor: 'grey', borderColor:'grey'}}>
+                <Card style={unitCard}>
                     <CardHeader>
                         <center>
                             <RenderDetail detail={unitImage.detailawk} />
@@ -725,7 +733,7 @@ export function RenderStats({unitName, unitStats, unitAtt, unitType, unitSkill, 
 export function HumanMode ({unitName, unitStats, unitAtt, unitType, unitSkill, unitPassive, unitSlots, unitImage}) {
     return (
         <Container>
-            <Card style={{backgroundColor: 'grey', borderColor:'grey'}}>
+            <Card style={unitCard}>
                 <CardHeader>
                     <center>
                         <RenderDetail detail={unitImage} />
@@ -817,7 +825,7 @@ export function HumanMode ({unitName, unitStats, unitAtt, unitType, unitSkill, u
 export function LiberationMode ({unitName, unitStats, unitAtt, unitType, unitSkill, unitPassive, unitSlots, unitImage}) {
     return (
         <Container>
-            <Card style={{backgroundColor: 'grey', borderColor:'grey'}}>
+            <Card style={unitCard}>
                 <CardHeader>
                     <center>
                         <RenderDetail detail={unitImage} />

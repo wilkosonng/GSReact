@@ -4,12 +4,14 @@ import { Link } from 'react-router-dom';
 
 const cardCategorySize = {
     width: "25rem",
-    height: "10rem"
+    height: "10rem",
+    backgroundColor: "#2e9cca"
 }
 
 const cardSize = {
     width: "20rem", 
-    height: "10rem"
+    height: "10rem",
+    backgroundColor: "#2e9cca"
 }
 export default function GuidesMainPage () {
     //TODO: Replace the Title with an image banner of the article
@@ -17,14 +19,14 @@ export default function GuidesMainPage () {
     return (
         <Container>
             <Row>
-                <Card style={{backgroundColor: "gray"}}>
+                <Card style={{backgroundColor: "#29648a"}}>
                     <CardHeader>
                         <h1><center><strong>Game Guides</strong></center></h1>
                     </CardHeader>
                 </Card>
             </Row>
             <Row>
-                <Card style={{backgroundColor:"blue"}}>
+                <Card style={{backgroundColor:"#464866"}}>
                     <CardBody>
                         <h1><b><center>Popular Guides</center></b></h1>
                         <CardGroup style={{alignItems: "center", justifyContent: "center"}}>

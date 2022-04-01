@@ -2,9 +2,17 @@ import { Container, Row, Col, Badge, Media, NavItem, NavLink, Nav, TabContent, T
 import React, { useState } from 'react';
 
 const imageSize ={
-    maxHeight: 500,
-    maxWidth: 500
+    maxHeight: "400px",
+    maxWidth: "400px"
 };
+
+const trueCard = {
+    marginTop: "3rem",
+    paddingTop: "10px",
+    backgroundColor: "#464866",
+    color: "#aaabb8",
+    borderColor: "#464866"
+}
 
 export function RenderTrue({unitTrue}) {
     //Hook for Tab State
@@ -21,7 +29,7 @@ export function RenderTrue({unitTrue}) {
         if(unitTrue.trueweapon.true3) {
             return (
                 <React.Fragment>
-                    <Card style={{backgroundColor: 'grey', borderColor:'grey'}}>
+                    <Card style={trueCard}>
                         <CardHeader>
                             <Nav tabs>
                                 <NavItem>
@@ -128,7 +136,7 @@ export function RenderTrue({unitTrue}) {
         if(unitTrue.trueweapon.true2) {
             return (
                 <React.Fragment>
-                    <Card style={{backgroundColor: 'grey', borderColor:'grey'}}>
+                    <Card style={trueCard}>
                         <CardHeader>
                             <Nav tabs>
                                 <NavItem>
@@ -205,7 +213,7 @@ export function RenderTrue({unitTrue}) {
         if(unitTrue.trueweapon.passive.ability2){
             return (
                 <Container>
-                    <Card style={{backgroundColor: 'grey', borderColor:'grey'}}>
+                    <Card style={trueCard}>
                         <Row>
                             <CardHeader>
                                 <center><Media src={unitTrue.trueweapon.detail} style={imageSize} /></center>
@@ -235,7 +243,7 @@ export function RenderTrue({unitTrue}) {
         if(unitTrue.trueweapon.passive.ability1){
             return (
                 <Container>
-                    <Card style={{backgroundColor: 'grey', borderColor:'grey'}}>
+                    <Card style={trueCard}>
                         <Row>
                             <CardHeader>
                                 <center><Media src={unitTrue.trueweapon.detail} style={imageSize} /></center>
@@ -265,7 +273,7 @@ export function RenderTrue({unitTrue}) {
     //If Trueweapon is missing
     return (
             <Container>
-                <Card style={{backgroundColor: 'grey', borderColor:'grey'}}>
+                <Card style={trueCard}>
                     <center><h1>This unit does not have a True Weapon</h1></center>
                 </Card>
             </Container>
