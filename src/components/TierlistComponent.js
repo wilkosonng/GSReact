@@ -7,6 +7,10 @@ const cardHeaderColor = {
     color: "aaabb8"
 }
 
+const cardTierColor = {
+    backgroundColor: "#25274d",
+    borderColor: "#29648a"
+}
 export default function Tierlist() {
     //Obtain Unit Data
     const units = getUnits();
@@ -46,7 +50,7 @@ export default function Tierlist() {
                 </Card>
             </Row>
             <Row>
-                <Card style={{backgroundColor:"#2e2e2e"}}>
+                <Card style={cardTierColor}>
                     <CardBody>
                         <table>
                             <tr>
@@ -72,7 +76,7 @@ export default function Tierlist() {
                 </Card>
             </Row>
             <Row>
-                <Card style={{backgroundColor: "#2e2e2e"}}>
+                <Card style={cardTierColor}>
                     <CardBody>
                         <table>
                             <tr>
@@ -98,7 +102,7 @@ export default function Tierlist() {
                 </Card>
             </Row>
             <Row>
-                <Card style={{backgroundColor:"#2e2e2e"}}>
+                <Card style={cardTierColor}>
                     <CardBody>
                         <table>
                             <tr>
@@ -124,7 +128,7 @@ export default function Tierlist() {
                 </Card>
             </Row>
             <Row>
-                <Card style={{backgroundColor:"#2e2e2e"}}>
+                <Card style={cardTierColor}>
                     <CardBody>
                         <table>
                             <tr>
@@ -150,7 +154,7 @@ export default function Tierlist() {
                 </Card>
             </Row>
             <Row>
-                <Card style={{backgroundColor:"#2e2e2e"}}>
+                <Card style={cardTierColor}>
                     <CardBody>
                         <table>
                             <tr>
@@ -176,7 +180,7 @@ export default function Tierlist() {
                 </Card>
             </Row>
             <Row>
-                <Card style={{backgroundColor:"#2e2e2e"}}>
+                <Card style={cardTierColor}>
                     <CardBody>
                         <table>
                             <tr>
@@ -203,7 +207,7 @@ export default function Tierlist() {
                 </Card>
             </Row>
             <Row>
-                <Card style={{backgroundColor:"#2e2e2e"}}>
+                <Card style={cardTierColor}>
                     <CardBody>
                         <table>
                             <tr>
@@ -229,7 +233,7 @@ export default function Tierlist() {
                 </Card>
             </Row>
             <Row>
-                <Card style={{backgroundColor:"#2e2e2e"}}>
+                <Card style={cardTierColor}>
                     <CardBody>
                         <table>
                             <tr>
@@ -255,7 +259,7 @@ export default function Tierlist() {
                 </Card>
             </Row>
             <Row>
-                <Card style={{backgroundColor:"#2e2e2e"}}>
+                <Card style={cardTierColor}>
                     <CardBody>
                         <table>
                             <tr>
@@ -282,7 +286,7 @@ export default function Tierlist() {
                 </Card>
             </Row>
             <Row>
-                <Card style={{backgroundColor:"#2e2e2e"}}>
+                <Card style={cardTierColor}>
                     <CardBody>
                         <table>
                             <tr>
@@ -308,7 +312,7 @@ export default function Tierlist() {
                 </Card>
             </Row>
             <Row>
-                <Card style={{backgroundColor:"#2e2e2e"}}>
+                <Card style={cardTierColor}>
                     <CardBody>
                         <table>
                             <tr>
@@ -340,7 +344,7 @@ export default function Tierlist() {
                 </Card>
             </Row>
             <Row>
-                <Card style={{backgroundColor:"#2e2e2e"}}>
+                <Card style={cardTierColor}>
                     <CardBody>
                         <table>
                             <tr>
@@ -371,7 +375,7 @@ export default function Tierlist() {
                 </Card>
             </Row>
             <Row>
-                <Card style={{backgroundColor:"#2e2e2e"}}>
+                <Card style={cardTierColor}>
                     <CardBody>
                         <table>
                             <tr>
@@ -402,7 +406,7 @@ export default function Tierlist() {
                 </Card>
             </Row>
             <Row>
-                <Card style={{backgroundColor:"#2e2e2e"}}>
+                <Card style={cardTierColor}>
                     <CardBody>
                         <table>
                             <tr>
@@ -417,11 +421,11 @@ export default function Tierlist() {
                                             if(units.rank === "TBD"){
                                                 if(units.image.thumbawk) {
                                                     return (
-                                                        <DisplayUnit unit={units} cardColor="#2e2e2e" />
+                                                        <DisplayUnit unit={units} cardColor="cardTierColor" />
                                                     )
                                                 }
                                                 return (
-                                                    <DisplayFiveStar unit={units} cardColor="#2e2e2e" />
+                                                    <DisplayFiveStar unit={units} cardColor="cardTierColor" />
                                                 ) 
                                             }
                                         })}
@@ -442,20 +446,19 @@ const thumbnailSize = {
     width: 75,
 };
 
-function DisplayUnit({unit, cardColor}) {
+function DisplayUnit({unit}) {
     if(unit.twrequire){
         if(unit.twrequire === "reliance"){
             return (
                 <Col lg="auto">
-                <Card style={{border: "none", width: "90px", backgroundColor: cardColor}}>
+                <Card style={{border: "none", width: "90px", backgroundColor: "#25274d"}}>
                     <center>
                         <a href={`/units/${unit.name}`} style={{textDecoration: "none"}}>
                             <img src={unit.image.thumbawk} style={thumbnailSize} object-fit="cover" />
                             <br />
-                            <p style={{paddingBottom: "2px", marginBottom: "2px", color: "black"}}>
+                            <p style={{paddingBottom: "2px", marginBottom: "2px", color: "#aaabb8"}}>
                                 {unit.name}
                             </p>
-                            <br />
                             <img src="/db/Icons/skill/thumbnail/skill5.png" style={{maxWidth: "20px", paddingBottom: "2px", marginBottom: "2px"}} />
                         </a>
                     </center>
@@ -466,13 +469,12 @@ function DisplayUnit({unit, cardColor}) {
         if(unit.name === "Luahn") {
             return (
                 <Col lg="auto">
-                <Card style={{border: "none", width: "90px", backgroundColor: cardColor}}>
+                <Card style={{border: "none", width: "90px", backgroundColor: "#25274d"}}>
                     <center>
                         <a href={`/units/${unit.name}`} style={{textDecoration: "none"}}>
                             <img src={unit.image.thumbawk} style={thumbnailSize} object-fit="cover" />
                             <br />
-                            <p style={{paddingBottom: "2px", marginBottom: "2px", color: "black"}}>{unit.name}</p>
-                            <br />
+                            <p style={{marginBottom: "0px", color: "#aaabb8"}}>{unit.name}</p>
                             <img src="/db/Icons/skill/thumbnail/skill0.png" style={{maxWidth: "20px", paddingBottom: "2px", marginBottom: "2px"}} />
                             <img src="/db/Icons/skill/thumbnail/damage_up.png" style={{maxWidth: "20px", paddingBottom: "2px", marginBottom: "2px"}} />
                         </a>
@@ -484,13 +486,12 @@ function DisplayUnit({unit, cardColor}) {
 
         return (
             <Col lg="auto">
-            <Card style={{border: "none", width: "90px", backgroundColor: cardColor}}>
+            <Card style={{border: "none", width: "90px", backgroundColor: "#25274d"}}>
                 <center>
                     <a href={`/units/${unit.name}`} style={{textDecoration: "none"}}>
                         <img src={unit.image.thumbawk} style={thumbnailSize} object-fit="cover" />
                         <br />
-                        <p style={{paddingTop: "0px", paddingBottom: "2px", marginTop: "0px", marginBottom: "2px", color: "black"}}>{unit.name}</p>
-                        <br />
+                        <p style={{paddingTop: "0px", marginTop: "0px", marginBottom: "0px", color: "#aaabb8"}}>{unit.name}</p>
                         <img src="/db/Icons/skill/thumbnail/skill0.png" style={{maxWidth: "20px", paddingTop: "0px", marginTop: "0px", paddingBottom: "0px", marginBottom: "0px"}} />
                     </a>
                 </center>
@@ -501,11 +502,11 @@ function DisplayUnit({unit, cardColor}) {
 
     return (
         <Col lg="auto">
-        <Card style={{border: "none", width: "90px", backgroundColor: cardColor}}>
+        <Card style={{border: "none", width: "90px", backgroundColor: "#25274d"}}>
             <center>
                 <a href={`/units/${unit.name}`} style={{textDecoration: "none"}}>
                     <img src={unit.image.thumbawk} style={thumbnailSize} object-fit="cover" />
-                    <p style={{paddingBottom: "2px", marginBottom: "2px", color: "black"}}>{unit.name}</p>
+                    <p style={{paddingBottom: "2px", marginBottom: "2px", color: "#aaabb8"}}>{unit.name}</p>
                 </a>
             </center>
         </Card>
@@ -514,15 +515,15 @@ function DisplayUnit({unit, cardColor}) {
 }
 
 //If Unit does not have Awk
-function DisplayFiveStar({unit, cardColor}) {
+function DisplayFiveStar({unit}) {
     //No TW favorability
     return (
         <Col lg="auto">
-        <Card style={{border: "none", width: "90px", backgroundColor: cardColor}}>
+        <Card style={{border: "none", width: "90px", backgroundColor: "#25274d"}}>
             <center>
                 <a href={`/units/${unit.name}`} style={{textDecoration: "none"}}>
                     <img src={unit.image.thumb5} style={thumbnailSize} object-fit="cover" />
-                    <p style={{paddingBottom: "2px", marginBottom: "2px", color: "black"}}>{unit.name}</p>
+                    <p style={{paddingBottom: "2px", marginBottom: "2px", color: "#aaabb8"}}>{unit.name}</p>
                 </a>
             </center>
         </Card>
