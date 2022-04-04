@@ -573,7 +573,7 @@ export function RenderFourStar({lore, unitImage, unitEvo}) {
                                 <tr>
                                     <td colspan="2"><center><Media src={unitImage.thumb4} style={thumbnailSize}/></center></td>
                                     <td colspan="5">
-                                        <Card style={{backgroundColor: 'black'}}>
+                                        <Card style={evoCard}>
                                             <CardBody>
                                             <h3>
                                                 <table>
@@ -624,7 +624,7 @@ export function RenderFourStar({lore, unitImage, unitEvo}) {
                             <tr>
                                 <td colspan="2"><center><Media src={unitImage.thumb4} style={thumbnailSize}/></center></td>
                                 <td colspan="5">
-                                    <Card style={{backgroundColor: 'black'}}>
+                                    <Card style={evoCard}>
                                         <CardBody>
                                         <h3>
                                             <table>
@@ -680,7 +680,7 @@ export function RenderFiveStar({lore, unitImage, unitEvo}) {
                                 <tr>
                                     <td colspan="2"><center><Media src={unitImage.thumb5} style={thumbnailSize}/></center></td>
                                     <td colspan="5">
-                                        <Card style={unitCard}>
+                                        <Card style={evoCard}>
                                             <CardBody>
                                             <h3>
                                                 <table>

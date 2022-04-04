@@ -1,8 +1,16 @@
 import React, {useState} from 'react';
-import { Container, Row, Col, Media, Tooltip } from 'reactstrap';
+import { Container, Row, Col, Media, Tooltip, Card, CardHeader, CardBody } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import { getUnits } from '../shared/unitInfo';
+import styled from 'styled-components';
 
+const HoverName = styled.p`
+    color: "#aaabb8";
+
+    &:hover{
+        background-color: "#2e9cca"
+    }
+`
 
 
 export default function Units () {
@@ -17,8 +25,14 @@ export default function Units () {
         <React.Fragment>
             <Container>
                 <Row>
-                    <p><center><h3>Select a Unit to view the Unit's information.</h3></center></p>
-                    <p><center>Please be aware that ALL units are available, including Units only available in Japan.</center></p>
+                    <Card style={{backgroundColor: "#29648a", color: "aaabb8", marginBottom: "2rem"}}>
+                        <CardHeader style={{backgroundColor: "#29648a", color: "aaabb8"}}>
+                            <p><center><h3>Select a Unit to view the Unit's information.</h3></center></p>
+                        </CardHeader>
+                        <CardBody style={{backgroundColor: "#464866", marginBottom: "1rem"}}>
+                            <p><center>Please be aware that ALL units are available, including Units only available in Japan.</center></p>
+                        </CardBody>
+                    </Card>
                 </Row>
                 <Row>            
                     {units.map(unit => {
@@ -27,9 +41,9 @@ export default function Units () {
                                 <React.Fragment key={unit.name} >
                                     <Col>
                                         <center>
-                                            <Link to={`/units/${unit.name}`} key={unit.name} style={{textDecoration: 'none'}}>
+                                            <Link to={`/units/${unit.name}`} key={unit.name} style={{textDecoration: 'none', color: "#aaabb8"}}>
                                                 <Media src={unit.image.thumbawk} alt={unit.name} width="75" height="75" object-fit="cover"  />
-                                                <p>{unit.name}</p>
+                                                <HoverName>{unit.name}</HoverName>
                                             </Link>
                                         </center>
                                     </Col>
@@ -41,9 +55,9 @@ export default function Units () {
                             <React.Fragment key={unit.name} >
                                 <Col>
                                     <center>
-                                        <Link to={`/units/${unit.name}`} key={unit.name}>
+                                        <Link to={`/units/${unit.name}`} key={unit.name} style={{textDecoration: 'none', color: "#aaabb8"}}>
                                             <Media src={unit.image.thumb5} alt={unit.name} width="75" height="75" object-fit="cover" />
-                                            <p>{unit.name}</p>
+                                            <HoverName>{unit.name}</HoverName>
                                         </Link>
                                     </center>
                                 </Col>

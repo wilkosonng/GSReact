@@ -27,7 +27,7 @@ export default function News () {
                                 const theArticle = theNews.article;
                                 return (
                                     <React.Fragment key={theNews.id}>
-                                        <Col lg="3">
+                                        <Col>
                                             <Link to={`/news/${theNews.id}`} style={{textDecoration: 'none'}} key={theNews.id}>
                                                 <Card style={{width: "300px", height: "300px", backgroundColor: "#aaabb8", color: "#29648a"}}>
                                                     <CardHeader>
