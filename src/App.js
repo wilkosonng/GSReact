@@ -19,8 +19,8 @@ class App extends Component {
     return (
       <BrowserRouter>
       
-      <Container>
-      <div style={{background: 'rgb(40, 40, 40)', color: 'white'}}>
+      <Container style={{background: '#25274d', color: '#aaabb8'}}>
+      <div >
         <Row>
           <Col>
             <div className="App">

@@ -3,23 +3,12 @@ nav a {
   padding: 1rem;
 }
 
-nav a.active {
-  background-color: #25274d;
-}
-
 nav a:hover {
   background-color: #2e9cca;
 }
 
 body { 
-  background-image: url("background.png");
-  background-size: cover;
-  background-color: #25274d;
-}
-
-a {
-  text-decoration: none;
-  color: white;
+  background-color: #25274d !important;
 }
 
 table, th, td {
