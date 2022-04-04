@@ -7,7 +7,7 @@ import styled from 'styled-components';
 //Styled Component for Official Links
 const LinkColor = styled.a`
     text-decoration: none;
-    color: #25272d;
+    color: #aaabb8;
     &:hover {
         background-color: #2e9cca
     }
@@ -24,15 +24,16 @@ function Footer () {
                     </script>
                 </Row>
                 <Row>
-                    <CardGroup style={{paddingTop: "50px", marginBottom: "1rem"}}>
-                        <Card md="3" style={{backgroundColor: "#29648a"}}>
-                            <p><center><i>The website grandsummoners.info is not affiliated with nor endorsed by NextNinja. All images belong to NextNinja.</i></center></p> 
+                    <CardGroup style={{paddingTop: "10rem", marginBottom: "1rem"}}>
+                        <Card md="3" style={{backgroundColor: "#464866"}}>
+                            <p style={{paddingTop: "1rem", justifyItems: "center"}}><center><i>The website grandsummoners.info is not<br /> affiliated with nor endorsed by NextNinja. 
+                                <br />All images belong to NextNinja.</i></center></p> 
                             <p><center><i><FaRegCopyright /> grandsummoners.info 2022</i></center></p>
                         </Card>
-                        <Card md="3" style={{backgroundColor: "#29648a"}}>
+                        <Card md="3" style={{backgroundColor: "#464866"}}>
                             <Nav fill vertical>  
                                 <NavItem>
-                                    <p style={{color: '#aaabb8'}}><strong>Official Links</strong></p>
+                                    <p style={{color: '#aaabb8', marginBottom: "0rem", marginTop: "6px"}}><strong>Official Links</strong></p>
                                     <LinkColor href="https://global.grandsummoners.com/" >
                                         Grand Summoners Home Page
                                     </LinkColor>
