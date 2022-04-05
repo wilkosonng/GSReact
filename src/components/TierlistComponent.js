@@ -43,7 +43,8 @@ export default function Tierlist() {
                                 </CardHeader>
                                 <CardBody style={{backgroundColor: "#464866"}}>
                                     <p><center>This tierlist is for GLOBAL units only. Do <strong>not</strong> consider this gospel. Each unit may have their own niche, even the lower ranking units</center></p>
-                                    <p><center>This is simply meant to show the general analysis of each unit. Rankings were determined by top players from the Official Discord.</center></p>
+                                    <p><center>This is simply meant to show the general analysis of each unit. Rankings were determined by players from the Grand Summoners 
+                                        <a href="https://discord.gg/grandsummoners">Official Discord</a> Server Staff.</center></p>
                                 </CardBody>
                             </Card>
                     </CardBody>
