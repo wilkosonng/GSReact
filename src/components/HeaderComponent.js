@@ -65,11 +65,11 @@ return (
                                 </NavItem>
                                 <NavItem>
                                     <NavLink className="nav-link" to="/tierlist" activeClassName="active">
-                                        <b><p style={{paddingTop: "3px", marginBottom: "0rem"}}>NEWS</p></b>
+                                        <b><p style={{paddingTop: "3px", marginBottom: "0rem"}}>TIERLIST</p></b>
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link" to="/equips" activeClassName="active">
+                                    <NavLink className="nav-link" to="/equipment" activeClassName="active">
                                         <b><p style={{paddingTop: "3px", marginBottom: "0rem"}}>EQUIPMENT</p></b>
                                     </NavLink>
                                 </NavItem>
