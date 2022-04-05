@@ -1716,8 +1716,8 @@ const UnitInformation = [
         type: "God",
         image: 
             {
-                detail4: "/db/Units/Thumbnail/unit_thumbnail_101024411.png",
-                detail5: "/db/Units/Thumbnail/unit_thumbnail_101025411.png",
+                detail4: "/db/Units/Detail/unit_detail_101024411.png",
+                detail5: "/db/Units/Detail/unit_detail_101025411.png",
                 thumb4: "/db/Units/Thumbnail/unit_thumbnail_101024411.png",
                 thumb5: "/db/Units/Thumbnail/unit_thumbnail_101025411.png"
             },
