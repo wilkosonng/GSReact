@@ -37,7 +37,7 @@ return (
                 <Col>
                     <center>
                         <a href="/" >
-                            <Media src="/../../Banner.png" style={{height: "500px" , paddingTop: "5rem", paddingBottom: "1rem"}}/>
+                            <Media src="/Banner.png" style={{height: "400px" , paddingTop: "5rem", paddingBottom: "1rem"}}/>
                         </a>
                     </center>
                 </Col>
@@ -83,7 +83,7 @@ return (
                                 <a href="https://discord.gg/grandsummoners" id="discordLink"><FaDiscord /></a>
                                 <a href="https://www.facebook.com/GrandSummonersGlobal/" id="facebookLink"><FaFacebookF /></a>
                                 <a href="https://twitter.com/GRANDSUMMONERS" id="twitterLink"><FaTwitterSquare /></a>
-                                <a href="https://global.grandsummoners.com/" id="gsLink"><img src="/../../db/Icons/drops/resultbox_close_1_3.png" style={iconSize} /></a>
+                                <a href="https://global.grandsummoners.com/" id="gsLink"><img src="/db/Icons/drops/resultbox_close_1_3.png" style={iconSize} /></a>
                                 <Tooltip isOpen={discordTool}
                                     target="discordLink"
                                     placement="bottom"
