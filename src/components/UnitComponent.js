@@ -19,7 +19,7 @@ function UnitDetails () {
     return (
         <React.Fragment>
             <center>
-                <Nav card="true" justified style={{backgroundColor: "#2e9cca"}}>
+                <Nav card="true" justified style={{backgroundColor: "#2e9cca", height: "2rem", marginTop: "1rem"}}>
                     <NavItem>
                         <Link to="" activeClassName="active" style={{color: "#25274d"}}>Lore</Link>
                     </NavItem>
@@ -67,28 +67,37 @@ function RenderLore({unitName, unitLore, unitImage}) {
             <React.Fragment>
                 <center><h1><strong>{unitName}</strong></h1></center>
                 <p><center>Select an Evolution to view the Lore</center></p>
-                <nav>
-                    <center>
-                        <Link to="twostar" activeClassName="active">
-                            <Media src={unitImage.thumb2} />
-                        </Link>
-                        <Link to="threestar" activeClassName="active">
-                            <Media src={unitImage.thumb3} />
-                        </Link>
-                        <Link to="fourstar" activeClassName="active">
-                            <Media src={unitImage.thumb4} />
-                        </Link>
+                <center>
+                    <Nav justified>
+                        <NavItem>
+                            <Link to="twostar" activeClassName="active">
+                                <Media src={unitImage.thumb2} />
+                            </Link>
+                        </NavItem>
+                        <NavItem>
+                            <Link to="threestar" activeClassName="active">
+                                <Media src={unitImage.thumb3} />
+                            </Link>
+                        </NavItem>
+                        <NavItem>
+                            <Link to="fourstar" activeClassName="active">
+                                <Media src={unitImage.thumb4} />
+                            </Link>
+                        </NavItem>
+                        <NavItem>
                         <Link to="fivestar" activeClassName="active">
-                            <Media src={unitImage.thumb5} />
-                        </Link>
+                                <Media src={unitImage.thumb5} />
+                            </Link>
+                        </NavItem>
+                        <NavItem>
                         <Link to="awaken" activeClassName="active">
-                            <Media src={unitImage.thumbawk} />
-                        </Link>
-                    </center>
-                </nav>
+                                <Media src={unitImage.thumbawk} />
+                            </Link>
+                        </NavItem>
+                    </Nav>
+                </center>
                 <Outlet />
             </React.Fragment>
-
         )
     }
 
@@ -97,25 +106,32 @@ function RenderLore({unitName, unitLore, unitImage}) {
             <React.Fragment>
                 <center><h1><strong>{unitName}</strong></h1></center>
                 <p><center>Select an Evolution to view the Lore</center></p>
-                <nav>
-                    <center>
-                        <Link to="threestar" activeClassName="active">
-                            <Media src={unitImage.thumb3} />
-                        </Link>
-                        <Link to="fourstar" activeClassName="active">
-                            <Media src={unitImage.thumb4} />
-                        </Link>
+                <center>
+                    <Nav justified>
+                        <NavItem>
+                            <Link to="threestar" activeClassName="active">
+                                <Media src={unitImage.thumb3} />
+                            </Link>
+                        </NavItem>
+                        <NavItem>
+                            <Link to="fourstar" activeClassName="active">
+                                <Media src={unitImage.thumb4} />
+                            </Link>
+                        </NavItem>
+                        <NavItem>
                         <Link to="fivestar" activeClassName="active">
-                            <Media src={unitImage.thumb5} />
-                        </Link>
+                                <Media src={unitImage.thumb5} />
+                            </Link>
+                        </NavItem>
+                        <NavItem>
                         <Link to="awaken" activeClassName="active">
-                            <Media src={unitImage.thumbawk} />
-                        </Link>
-                    </center>
-                </nav>
+                                <Media src={unitImage.thumbawk} />
+                            </Link>
+                        </NavItem>
+                    </Nav>
+                </center>
                 <Outlet />
             </React.Fragment>
-
         )
     }
 
@@ -124,22 +140,27 @@ function RenderLore({unitName, unitLore, unitImage}) {
             <React.Fragment>
                 <center><h1><strong>{unitName}</strong></h1></center>
                 <p><center>Select an Evolution to view the Lore</center></p>
-                <nav>
-                    <center>
-                        <Link to="fourstar" activeClassName="active">
-                            <Media src={unitImage.thumb4} />
-                        </Link>
+                <center>
+                    <Nav justified>
+                        <NavItem>
+                            <Link to="fourstar" activeClassName="active">
+                                <Media src={unitImage.thumb4} />
+                            </Link>
+                        </NavItem>
+                        <NavItem>
                         <Link to="fivestar" activeClassName="active">
-                            <Media src={unitImage.thumb5} />
-                        </Link>
+                                <Media src={unitImage.thumb5} />
+                            </Link>
+                        </NavItem>
+                        <NavItem>
                         <Link to="awaken" activeClassName="active">
-                            <Media src={unitImage.thumbawk} />
-                        </Link>
-                    </center>
-                </nav>
+                                <Media src={unitImage.thumbawk} />
+                            </Link>
+                        </NavItem>
+                    </Nav>
+                </center>
                 <Outlet />
             </React.Fragment>
-
         )
     }
 
@@ -148,19 +169,22 @@ function RenderLore({unitName, unitLore, unitImage}) {
             <React.Fragment>
                 <center><h1><strong>{unitName}</strong></h1></center>
                 <p><center>Select an Evolution to view the Lore</center></p>
-                <nav>
-                    <center>
+                <center>
+                    <Nav justified>
+                        <NavItem>
                         <Link to="fivestar" activeClassName="active">
-                            <Media src={unitImage.thumb5} />
-                        </Link>
+                                <Media src={unitImage.thumb5} />
+                            </Link>
+                        </NavItem>
+                        <NavItem>
                         <Link to="awaken" activeClassName="active">
-                            <Media src={unitImage.thumbawk} />
-                        </Link>
-                    </center>
-                </nav>
+                                <Media src={unitImage.thumbawk} />
+                            </Link>
+                        </NavItem>
+                    </Nav>
+                </center>
                 <Outlet />
             </React.Fragment>
-
         )
     }
 
