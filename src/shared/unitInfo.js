@@ -18854,6 +18854,248 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
+    { // Orvell (Fire) - Missing Lore, Ultra Equip Mechanic, True Weapon
+        id: 103456112,
+        name: "Orvell (Fire)",
+        attribute: "Fire",
+        type: "God",
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_103455112.png",
+                detailawk: "/db/Units/Detail/unit_detail_103456112.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_103455112.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103456112.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/physLB.png"
+            },
+        stats: 
+            {
+                hp: 7249,
+                hpplus: 999,
+                atk: 3051,
+                atkplus: 467,
+                def: 2370,
+                defplus: 365
+            },
+        skillset: 
+            {
+                skill: "10s CT - 2000% Fire DMG (MAG). For 7s, reduce Enemies' DMG RES by 10%.",
+                skillbreak: 800,
+                arts: "18000% Fire DMG (MAG). For 20s, increase Allies' Equipment DMG by 50%, and Fire Allies' Equipment DMG by an additional 50%.",
+                artsbreak: 1200,
+                truearts: "62000% Fire DMG (MAG). For 20s, replace the equipment in his :lbmag: slot with Ultra Equip \"Gramrude\". Additionally, increase Allies' MAG DMG by 100%, and own ATK by 100%.",
+                trueartsbreak: 1800
+            },
+        passive: 
+            {
+                ability1: "Increase Critical RES by 30%.",
+                ability2: "Increase DMG against Enemies under 30% HP by 20%.",
+                ability3: "When own HP is above 80%, increase own Critical Rate by 100% and Arts by 3/s."
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragIfrit.png",
+                    mat3amt: 1,
+                    hover3: "Ifrit",
+                    mat4: "/db/Icons/dungeon_drops/fragFlogassa.png",
+                    mat4amt: 3,
+                    hover4: "Flogassa"
+                }
+            },
+        trueweapon: //If no TW, may delete this section
+            {
+                name: "Gramrude",
+                slot: "/db/Mines/thumbnail/magLB.png",
+                detail: "/db/Equipment/Detail/item_detail_110091.png",
+                skill: "65s CT - 12000% Fire DMG (MAG). For 15s, increase own MAG DMG by 50% and reduce Enemies' Fire RES by 30%.",
+                skillbreak: 1000,
+                passive: 
+                    {
+                        ability1: "When equipped by Fire Orvell, increase own DMG and Status RES by 20%. Does not stack with Abilities of the same name.",
+                        ability2: "Increase Physical RES by 10%."
+                    }
+            },
+            // Ultra Equip code missing
+        lore: 
+            {   
+                evo5: "Missing Lore Information, please contact site owner",
+                evoawk: "Missing Lore Information, please contact site owner"
+            }
+    },
+    { // Cestina (Light) - Missing Lore, Ultra Equip Mechanic, True Weapon
+        id: 103466412,
+        name: "Cestina (Light)",
+        attribute: "Light",
+        type: "God",
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_103465412.png",
+                detailawk: "/db/Units/Detail/unit_detail_103466412.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_103465412.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103466412.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: 6847,
+                hpplus: 999,
+                atk: 2989,
+                atkplus: 458,
+                def: 2489,
+                defplus: 383
+            },
+        skillset: 
+            {
+                skill: "9s CT - 1400% Light DMG (PHY). For 5s, increase own ATK by 15%.",
+                skillbreak: 600,
+                arts: "15000% Light DMG (PHY). For 15s, increase Allies' PHY DMG by 50% and God Allies' Accuracy by 30%.",
+                artsbreak: 800,
+                truearts: "45000% Light DMG (PHY). For 15s, replace the equipment in her :lbphys: slot with Ultra Equip \"Iron Star\". Additionally, for 15s, reduce Enemies' Light RES and Physical RES by 35%.",
+                trueartsbreak: 1500
+            },
+        passive: 
+            {
+                ability1: "Increase DMG to Demon Enemies by 50%.",
+                ability2: "Increase Critical RES by 30%.",
+                ability3: "When unafflicted by status ailments, increase own accuracy by 20% and Arts by 2/s."
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragWilkes.png",
+                    mat3amt: 2,
+                    hover3: "Wilkes",
+                    mat4: "/db/Icons/dungeon_drops/fragRadachne.png",
+                    mat4amt: 2,
+                    hover4: "Radachne"
+                }
+            },
+        trueweapon: //If no TW, may delete this section
+            {
+                name: "Iron Star",
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_110121.png",
+                skill: "60s CT - 11000% Light DMG (PHY). For 20s, increase own DMG and Equipment DMG by 40%.",
+                skillbreak: 900,
+                passive: 
+                    {
+                        ability1: "When equipped by Light Cestina, increase own ATK by 50% and Arts by 1/s. Does not stack with Abilities of the same name.",
+                        ability2: "Increase own Healing Output by 20% (except Lifesteal)."
+                    }
+            },
+            // Ultra Equip code missing
+        lore: 
+            {   
+                evo5: "Missing Lore Information, please contact site owner",
+                evoawk: "Missing Lore Information, please contact site owner"
+            }
+    },
+    { // Charlotte - Missing Lore
+        id: 103476112,
+        name: "Charlotte",
+        attribute: "Fire",
+        type: "Human",
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_103475112.png",
+                detailawk: "/db/Units/Detail/unit_detail_103476112.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_103475112.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103476112.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats: 
+            {
+                hp: 6820,
+                hpplus: 999,
+                atk: 2990,
+                atkplus: 458,
+                def: 2750,
+                defplus: 422
+            },
+        skillset: 
+            {
+                skill: "12s CT - 1600% Fire DMG (PHY). For 8s, increase own accuracy by 20%.",
+                skillbreak: 600,
+                arts: "17000% Fire DMG (PHY). For 15s, increase Allies' max HP by 30% and Fire Allies' ATK by 50%.",
+                artsbreak: 1800,
+                truearts: "50000% Fire DMG (PHY). 80% chance of inflicting Faint. For 18s, increase Allies' Arts DMG by 100%. For Allies unafflicted by Status Ailments, increase Arts DMG by 150% instead.",
+                trueartsbreak: 1800
+            },
+        passive: 
+            {
+                ability1: "Increase own Arts by [1 × # of Human Allies (including self)]/s.",
+                ability2: "When own HP is above 90%, increase DEF by 20%.",
+                ability3: "When own HP is above 90%, increase ATK by 20%."
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragWilkes.png",
+                    mat3amt: 1,
+                    hover3: "Wilkes",
+                    mat4: "/db/Icons/dungeon_drops/fragDegilmagna.png",
+                    mat4amt: 2,
+                    hover4: "Degilmagna"
+                }
+            },
+        trueweapon: //If no TW, may delete this section
+            {
+                name: "Lord of Heroine",
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_110021.png",
+                skill: "50s CT - 7500% Fire DMG (PHY). For 10s, increase own DMG by 50% and reduce Enemies' Fire RES by 30%.",
+                skillbreak: 1300,
+                passive: 
+                    {
+                        ability1: "When equipped by Charlotte, increase Status RES (except Faint) by 30% and Arts by 2/s.",
+                        ability2: "When own HP is above 90%, increase Skill CT REC by 10%."
+                    }
+            },
+        lore: 
+            {   
+                evo5: "Missing Lore Information, please contact site owner",
+                evoawk: "Missing Lore Information, please contact site owner"
+            }
+    },
     { //Zinogre Armor Rayas - Missing Lore
         id: 107006412,
         name: "Zinogre Armor Rayas",
