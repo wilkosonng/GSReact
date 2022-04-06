@@ -1,5 +1,6 @@
 import { Container, Row, Col, Badge, Media, NavItem, NavLink, Nav, TabContent, TabPane, Card, CardHeader, CardBody, CardTitle } from 'reactstrap';
 import React, { useState } from 'react';
+import classnames from 'classnames';
 
 const imageSize ={
     maxHeight: "400px",
@@ -32,22 +33,22 @@ export function RenderTrue({unitTrue}) {
                 <React.Fragment>
                     <Card style={trueCard}>
                         <CardHeader>
-                            <Nav tabs>
+                            <Nav tabs justified>
                                 <NavItem>
-                                    <NavLink className="active"
+                                    <NavLink className={classnames({ active: currentTab === '1' })}
                                         onClick={() => {toggle('1')}} >
                                             <Media src={unitTrue.trueweapon.true1.thumb} object-fit="cover" id="unitTrue"/>
                                     </NavLink>
                                     
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className=""
+                                    <NavLink className={classnames({ active: currentTab === '2' })}
                                         onClick={() => {toggle('2')}} >
                                             <Media src={unitTrue.trueweapon.true2.thumb} object-fit="cover" id="unitTrue"/>
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className=""
+                                    <NavLink className={classnames({ active: currentTab === '3' })}
                                         onClick={() => {toggle('3')}} >
                                             <Media src={unitTrue.trueweapon.true3.thumb} object-fit="cover" id="unitTrue"/>
                                     </NavLink>
@@ -141,14 +142,14 @@ export function RenderTrue({unitTrue}) {
                         <CardHeader>
                             <Nav tabs>
                                 <NavItem>
-                                    <NavLink className="active"
+                                    <NavLink className={classnames({ active: currentTab === '1' })}
                                         onClick={() => {toggle('1')}} >
                                             <Media src={unitTrue.trueweapon.true1.thumb} object-fit="cover" id="unitTrue"/>
                                     </NavLink>
                                     
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className=""
+                                    <NavLink className={classnames({ active: currentTab === '2' })}
                                         onClick={() => {toggle('2')}} >
                                             <Media src={unitTrue.trueweapon.true2.thumb} object-fit="cover" id="unitTrue"/>
                                     </NavLink>
