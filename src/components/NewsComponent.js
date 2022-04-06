@@ -2,7 +2,6 @@ import React from 'react';
 import { Container, Row, Col, Card, CardHeader, CardBody, CardGroup } from 'reactstrap';
 import { getNews } from '../shared/news/news';
 import { Link } from 'react-router-dom';
-import { CardColor } from './ColorScheme';
 
 export default function News () {
     //Obtain Articles
@@ -24,7 +23,7 @@ export default function News () {
                     <CardBody>
                         <Card style={{backgroundColor:"#464866", color: "#C5C6C7", border: "none"}}>
                             <CardHeader style={{backgroundColor: "#aaabb8", color: "#29648a", marginBottom: "1rem"}}>
-                                    <center><h1>Newest News</h1></center>
+                                    <center><h1>Current News</h1></center>
                             </CardHeader>
                         
                             {newsTopics.map(theNews => {
@@ -54,9 +53,6 @@ export default function News () {
                             </Card>
 
                             <Card style={{backgroundColor:"#464866", color: "#C5C6C7", border: "none"}}>
-                                <CardHeader style={{backgroundColor: "#aaabb8", color: "#29648a"}}>
-                                    <center><h1>Older News</h1></center>
-                                </CardHeader>
                                 <CardBody>
                                 <CardGroup>
                                     {newsTopics.map(theNews => {
