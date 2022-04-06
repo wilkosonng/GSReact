@@ -27,22 +27,20 @@ export default function News () {
                                     return (
                                         <React.Fragment key={theNews.id}>
                                             <Col xs="12">
-                                                <center>
                                                     <Link to={`/news/${theNews.id}`} style={{textDecoration: 'none'}} key={theNews.id}>
                                                         <Card style={{maxWidth: "1000rem", backgroundColor: "#25274d", color: "#29648a", overflow: "hidden", marginBottom: "5rem"}}>
-                                                            <CardHeader  style={{backgroundColor: "#29648a", color: "#aaabb8"}}>
-                                                                <h3><center><strong>{theNews.title}</strong></center></h3>
+                                                            <CardHeader  style={{backgroundColor: "#29648a", color: "#aaabb8", padding: "0px"}}>
+                                                            <p style={{fontSize: "20px", marginLeft: "1rem", paddingBottom: "0px"}}><strong>{theNews.category}</strong> <span style={{float:"right", fontSize: "14px", marginRight: "2rem", paddingBottom: "0px"}}>{theNews.date}</span></p>
+                                                            <p style={{paddingTop: "0rem"}}><center><h3>{theNews.title}</h3></center></p>
                                                             </CardHeader>
                                                             <CardBody>
                                                                 <center>
                                                                     <img src={theNews.preview} alt="Preview Image" style={{maxWidth: "400px"}} />
                                                                     <p style={{backgroundColor: "#29648a", color: "#aaabb8", width: "300px", marginTop: "2rem"}}>Read Article</p>
                                                                 </center>
-                                                                
                                                             </CardBody>
                                                         </Card>
                                                     </Link>
-                                                </center>
                                             </Col>
                                         </React.Fragment>
                                     )
@@ -71,7 +69,6 @@ export default function News () {
                                             </React.Fragment>
                                         )
                                     }
-
                                     })}
                                 </CardGroup>
                                 </CardBody>
