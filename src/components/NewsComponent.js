@@ -22,24 +22,23 @@ export default function News () {
                 <Card style={{backgroundColor:"#464866", color: "#C5C6C7"}}>
                     <CardBody>
                         <Card style={{backgroundColor:"#464866", color: "#C5C6C7", border: "none"}}>
-                            <CardHeader style={{backgroundColor: "#aaabb8", color: "#29648a", marginBottom: "1rem"}}>
-                                    <center><h1>Current News</h1></center>
-                            </CardHeader>
-                        
                             {newsTopics.map(theNews => {
-                                const theArticle = theNews.article;
                                 if(theNews.new){
                                     return (
                                         <React.Fragment key={theNews.id}>
                                             <Col xs="12">
                                                 <center>
                                                     <Link to={`/news/${theNews.id}`} style={{textDecoration: 'none'}} key={theNews.id}>
-                                                        <Card style={{height: "300px", maxWidth: "1000rem", backgroundColor: "#25274d", color: "#29648a", overflow: "hidden", marginBottom: "5rem"}}>
+                                                        <Card style={{maxWidth: "1000rem", backgroundColor: "#25274d", color: "#29648a", overflow: "hidden", marginBottom: "5rem"}}>
                                                             <CardHeader  style={{backgroundColor: "#29648a", color: "#aaabb8"}}>
                                                                 <h3><center><strong>{theNews.title}</strong></center></h3>
                                                             </CardHeader>
                                                             <CardBody>
-                                                                <center><div dangerouslySetInnerHTML={{ __html: theArticle }} /></center>
+                                                                <center>
+                                                                    <img src={theNews.preview} alt="Preview Image" style={{maxWidth: "400px"}} />
+                                                                    <p style={{backgroundColor: "#29648a", color: "#aaabb8", width: "300px", marginTop: "2rem"}}>Read Article</p>
+                                                                </center>
+                                                                
                                                             </CardBody>
                                                         </Card>
                                                     </Link>
@@ -56,20 +55,16 @@ export default function News () {
                                 <CardBody>
                                 <CardGroup>
                                     {newsTopics.map(theNews => {
-                                    const theArticle = theNews.article;
 
                                     if(!theNews.new){
                                         return (
                                             <React.Fragment key={theNews.id}>
                                                 <Col>
                                                     <Link to={`/news/${theNews.id}`} style={{textDecoration: 'none'}} key={theNews.id}>
-                                                        <Card style={{height: "300px", backgroundColor: "#25274d", color: "#29648a", overflow: "hidden", marginBottom: "1rem"}}>
-                                                            <CardHeader style={{backgroundColor: "#29648a", color: "#aaabb8"}}>
-                                                                <h3><center><strong>{theNews.title}</strong></center></h3>
-                                                            </CardHeader>
-                                                            <CardBody>
-                                                                <center><div dangerouslySetInnerHTML={{ __html: theArticle }} /></center>
-                                                            </CardBody>
+                                                        <Card style={{height: "200px", backgroundColor: "#25274d", color: "#aaabb8", overflow: "hidden", marginBottom: "1rem"}}>
+                                                                <p style={{float: "left", fontSize: "20px", marginLeft: "1rem"}}><strong>{theNews.category}</strong> <span style={{float:"right", fontSize: "14px", marginRight: "2rem"}}>{theNews.date}</span></p>
+                                                                <p style={{marginTop: "1rem"}}><center><h3>{theNews.title}</h3></center></p>
+                                                                <center><p style={{backgroundColor: "#29648a", color: "#aaabb8", width: "200px", float: "right", marginTop: "3rem", marginRight: "1rem"}}>Read More</p></center>
                                                         </Card>
                                                     </Link>
                                                 </Col>
