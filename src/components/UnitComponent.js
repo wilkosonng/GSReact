@@ -62,132 +62,180 @@ function RenderLore({unitName, unitLore, unitImage}) {
     //Use If statements to check if unitlore.evo# exists? , then display information? https://ui.dev/react-router-nested-routes/
     //Redo Links as NAvbars?
     //Check down list and return based on the earliest available evolution
-    if(unitLore.evo2) {
-        return (
-            <React.Fragment>
-                <center><h1><strong>{unitName}</strong></h1></center>
-                <p><center>Select an Evolution to view the Lore</center></p>
-                <center>
-                    <Nav justified>
-                        <NavItem>
-                            <Link to="twostar" activeClassName="active">
-                                <Media src={unitImage.thumb2} />
-                            </Link>
-                        </NavItem>
-                        <NavItem>
-                            <Link to="threestar" activeClassName="active">
-                                <Media src={unitImage.thumb3} />
-                            </Link>
-                        </NavItem>
-                        <NavItem>
-                            <Link to="fourstar" activeClassName="active">
-                                <Media src={unitImage.thumb4} />
-                            </Link>
-                        </NavItem>
-                        <NavItem>
-                        <Link to="fivestar" activeClassName="active">
-                                <Media src={unitImage.thumb5} />
-                            </Link>
-                        </NavItem>
-                        <NavItem>
-                        <Link to="awaken" activeClassName="active">
-                                <Media src={unitImage.thumbawk} />
-                            </Link>
-                        </NavItem>
-                    </Nav>
-                </center>
-                <Outlet />
-            </React.Fragment>
-        )
+    
+    //Check if Awk Exists
+    if(unitLore.evoawk){
+        if(unitLore.evo2) {
+            return (
+                <React.Fragment>
+                    <center><h1><strong>{unitName}</strong></h1></center>
+                    <p><center>Select an Evolution to view the Lore</center></p>
+                    <center>
+                        <Nav justified>
+                            <NavItem>
+                                <Link to="twostar" activeClassName="active">
+                                    <Media src={unitImage.thumb2} />
+                                </Link>
+                            </NavItem>
+                            <NavItem>
+                                <Link to="threestar" activeClassName="active">
+                                    <Media src={unitImage.thumb3} />
+                                </Link>
+                            </NavItem>
+                            <NavItem>
+                                <Link to="fourstar" activeClassName="active">
+                                    <Media src={unitImage.thumb4} />
+                                </Link>
+                            </NavItem>
+                            <NavItem>
+                            <Link to="fivestar" activeClassName="active">
+                                    <Media src={unitImage.thumb5} />
+                                </Link>
+                            </NavItem>
+                            <NavItem>
+                            <Link to="awaken" activeClassName="active">
+                                    <Media src={unitImage.thumbawk} />
+                                </Link>
+                            </NavItem>
+                        </Nav>
+                    </center>
+                    <Outlet />
+                </React.Fragment>
+            )
+        }
+    
+        if(unitLore.evo3) {
+            return (
+                <React.Fragment>
+                    <center><h1><strong>{unitName}</strong></h1></center>
+                    <p><center>Select an Evolution to view the Lore</center></p>
+                    <center>
+                        <Nav justified>
+                            <NavItem>
+                                <Link to="threestar" activeClassName="active">
+                                    <Media src={unitImage.thumb3} />
+                                </Link>
+                            </NavItem>
+                            <NavItem>
+                                <Link to="fourstar" activeClassName="active">
+                                    <Media src={unitImage.thumb4} />
+                                </Link>
+                            </NavItem>
+                            <NavItem>
+                            <Link to="fivestar" activeClassName="active">
+                                    <Media src={unitImage.thumb5} />
+                                </Link>
+                            </NavItem>
+                            <NavItem>
+                            <Link to="awaken" activeClassName="active">
+                                    <Media src={unitImage.thumbawk} />
+                                </Link>
+                            </NavItem>
+                        </Nav>
+                    </center>
+                    <Outlet />
+                </React.Fragment>
+            )
+        }
+    
+        if(unitLore.evo4) {
+            return (
+                <React.Fragment>
+                    <center><h1><strong>{unitName}</strong></h1></center>
+                    <p><center>Select an Evolution to view the Lore</center></p>
+                    <center>
+                        <Nav justified>
+                            <NavItem>
+                                <Link to="fourstar" activeClassName="active">
+                                    <Media src={unitImage.thumb4} />
+                                </Link>
+                            </NavItem>
+                            <NavItem>
+                            <Link to="fivestar" activeClassName="active">
+                                    <Media src={unitImage.thumb5} />
+                                </Link>
+                            </NavItem>
+                            <NavItem>
+                            <Link to="awaken" activeClassName="active">
+                                    <Media src={unitImage.thumbawk} />
+                                </Link>
+                            </NavItem>
+                        </Nav>
+                    </center>
+                    <Outlet />
+                </React.Fragment>
+            )
+        }
+    
+        if(unitLore.evo5) {
+            return (
+                <React.Fragment>
+                    <center><h1><strong>{unitName}</strong></h1></center>
+                    <p><center>Select an Evolution to view the Lore</center></p>
+                    <center>
+                        <Nav justified>
+                            <NavItem>
+                            <Link to="fivestar" activeClassName="active">
+                                    <Media src={unitImage.thumb5} />
+                                </Link>
+                            </NavItem>
+                            <NavItem>
+                            <Link to="awaken" activeClassName="active">
+                                    <Media src={unitImage.thumbawk} />
+                                </Link>
+                            </NavItem>
+                        </Nav>
+                    </center>
+                    <Outlet />
+                </React.Fragment>
+            )
+        }
     }
+    
+    if(unitLore.evo5){
+        if(unitLore.evo4) {
+            return (
+                <React.Fragment>
+                    <center><h1><strong>{unitName}</strong></h1></center>
+                    <p><center>Select an Evolution to view the Lore</center></p>
+                    <center>
+                        <Nav justified>
+                            <NavItem>
+                                <Link to="fourstar" activeClassName="active">
+                                    <Media src={unitImage.thumb4} />
+                                </Link>
+                            </NavItem>
+                            <NavItem>
+                            <Link to="fivestar" activeClassName="active">
+                                    <Media src={unitImage.thumb5} />
+                                </Link>
+                            </NavItem>
+                        </Nav>
+                    </center>
+                    <Outlet />
+                </React.Fragment>
+            )
+        }
 
-    if(unitLore.evo3) {
-        return (
-            <React.Fragment>
-                <center><h1><strong>{unitName}</strong></h1></center>
-                <p><center>Select an Evolution to view the Lore</center></p>
-                <center>
-                    <Nav justified>
-                        <NavItem>
-                            <Link to="threestar" activeClassName="active">
-                                <Media src={unitImage.thumb3} />
-                            </Link>
-                        </NavItem>
-                        <NavItem>
-                            <Link to="fourstar" activeClassName="active">
-                                <Media src={unitImage.thumb4} />
-                            </Link>
-                        </NavItem>
-                        <NavItem>
-                        <Link to="fivestar" activeClassName="active">
-                                <Media src={unitImage.thumb5} />
-                            </Link>
-                        </NavItem>
-                        <NavItem>
-                        <Link to="awaken" activeClassName="active">
-                                <Media src={unitImage.thumbawk} />
-                            </Link>
-                        </NavItem>
-                    </Nav>
-                </center>
-                <Outlet />
-            </React.Fragment>
-        )
+        if(unitLore.evo5) {
+            return (
+                <React.Fragment>
+                    <center><h1><strong>{unitName}</strong></h1></center>
+                    <p><center>Select an Evolution to view the Lore</center></p>
+                    <center>
+                        <Nav justified>
+                            <NavItem>
+                            <Link to="fivestar" activeClassName="active">
+                                    <Media src={unitImage.thumb5} />
+                                </Link>
+                            </NavItem>
+                        </Nav>
+                    </center>
+                    <Outlet />
+                </React.Fragment>
+            )
+        }
     }
-
-    if(unitLore.evo4) {
-        return (
-            <React.Fragment>
-                <center><h1><strong>{unitName}</strong></h1></center>
-                <p><center>Select an Evolution to view the Lore</center></p>
-                <center>
-                    <Nav justified>
-                        <NavItem>
-                            <Link to="fourstar" activeClassName="active">
-                                <Media src={unitImage.thumb4} />
-                            </Link>
-                        </NavItem>
-                        <NavItem>
-                        <Link to="fivestar" activeClassName="active">
-                                <Media src={unitImage.thumb5} />
-                            </Link>
-                        </NavItem>
-                        <NavItem>
-                        <Link to="awaken" activeClassName="active">
-                                <Media src={unitImage.thumbawk} />
-                            </Link>
-                        </NavItem>
-                    </Nav>
-                </center>
-                <Outlet />
-            </React.Fragment>
-        )
-    }
-
-    if(unitLore.evo5) {
-        return (
-            <React.Fragment>
-                <center><h1><strong>{unitName}</strong></h1></center>
-                <p><center>Select an Evolution to view the Lore</center></p>
-                <center>
-                    <Nav justified>
-                        <NavItem>
-                        <Link to="fivestar" activeClassName="active">
-                                <Media src={unitImage.thumb5} />
-                            </Link>
-                        </NavItem>
-                        <NavItem>
-                        <Link to="awaken" activeClassName="active">
-                                <Media src={unitImage.thumbawk} />
-                            </Link>
-                        </NavItem>
-                    </Nav>
-                </center>
-                <Outlet />
-            </React.Fragment>
-        )
-    }
-
 }
 
 export default UnitDetails;

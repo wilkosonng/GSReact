@@ -31,8 +31,11 @@ export function RenderStats({unitName, unitStats, unitAtt, unitType, unitSkill, 
     const toggle = tab => {
         if(currentTab !== tab) setCurrentTab(tab);
     }
-    //Check if 3rd passive exists
-    if(unitPassive.ability3){
+
+    //Check if Awaken Exists
+    if(unitImage.thumbawk) {
+        //Check if 3rd passive exists
+        if(unitPassive.ability3){
 
             //Check if Liberation Mode exists
             if(unitSkill.liberation) {
@@ -541,10 +544,10 @@ export function RenderStats({unitName, unitStats, unitAtt, unitType, unitSkill, 
                 </Card>
             </Container>
         );
-    }
+        }
 
-    //If 3rd passive does not exist...
-    if(unitPassive.ability2){
+        //If 3rd passive does not exist...
+        if(unitPassive.ability2){
 
         //Check for Multi Break on Skill (Duke)
         if(unitSkill.skillbreak1) {
@@ -725,7 +728,183 @@ export function RenderStats({unitName, unitStats, unitAtt, unitType, unitSkill, 
                 </Card>
             </Container>
         );
+        }
     }
+
+    if(unitImage.thumb5){
+
+        //Two Ability
+        if(unitPassive.ability2) {
+            return (
+                <Container>
+                    <Card style={unitCard}>
+                        <CardHeader>
+                            <center>
+                                <RenderDetail detail={unitImage.detail5} />
+                                <h1><strong>{unitName}</strong></h1>
+                                <p><i>{unitAtt} , {unitType}</i></p>
+                            </center>
+                        </CardHeader>
+                        <CardBody>
+                            <Row>
+                                <Col>
+                                    <Table bordered>
+                                        <tr>
+                                            <th>
+                                            HP
+                                            </th>
+                                            <th>
+                                            ATK
+                                            </th>
+                                            <th>
+                                            DEF
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <td>{unitStats.hp} </td>
+                                            <td>{unitStats.atk} </td>
+                                            <td>{unitStats.def} </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <Badge color="info" pill>+{unitStats.hpplus}</Badge>
+                                            </td>
+                                            <td>
+                                                <Badge color="info" pill>+{unitStats.atkplus}</Badge>
+                                            </td>
+                                            <td>
+                                                <Badge color="info" pill>+{unitStats.defplus}</Badge>
+                                            </td>
+                                        </tr>
+                                    </Table>
+                                </Col>
+                                <Col xs="4">
+                                    <h3><strong>SLOTS</strong></h3>
+                                    <Table bordered>
+                                        <tr>
+                                            <th>
+                                                <h4>{unitSlots.slot1}☆ <Media src={unitSlots.slot1type} style={lbIconSize} /></h4>
+                                            </th>
+                                            <th>
+                                                <h4>{unitSlots.slot2}☆ <Media src={unitSlots.slot2type} style={lbIconSize} /></h4>
+                                            </th>
+                                            <th>
+                                                <h4>{unitSlots.slot3}☆ <Media src={unitSlots.slot3type} style={lbIconSize} /></h4>
+                                            </th>
+                                        </tr>
+                                    </Table>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col xs="4">
+                                    <h3><strong>SKILL</strong></h3>
+                                    <p><Badge color="primary" pill>BREAK {unitSkill.skillbreak}</Badge> {unitSkill.skill}</p>
+                                </Col>
+                                <Col xs="4">
+                                    <h3><strong>ARTS</strong></h3>
+                                    <p><Badge color="primary" pill>BREAK {unitSkill.artsbreak}</Badge> {unitSkill.arts}</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <h3><strong>PASSIVES</strong></h3>
+                                    <ul>
+                                        <li>{unitPassive.ability1}</li>
+                                        <li>{unitPassive.ability2}</li>
+                                    </ul>
+                                </Col>
+                            </Row>
+                        </CardBody>
+                    </Card>
+                </Container>
+            );
+        }
+        
+        //One Ability
+        return (
+            <Container>
+                <Card style={unitCard}>
+                    <CardHeader>
+                        <center>
+                            <RenderDetail detail={unitImage.detail5} />
+                            <h1><strong>{unitName}</strong></h1>
+                            <p><i>{unitAtt} , {unitType}</i></p>
+                        </center>
+                    </CardHeader>
+                    <CardBody>
+                        <Row>
+                            <Col>
+                                <Table bordered>
+                                    <tr>
+                                        <th>
+                                        HP
+                                        </th>
+                                        <th>
+                                        ATK
+                                        </th>
+                                        <th>
+                                        DEF
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <td>{unitStats.hp} </td>
+                                        <td>{unitStats.atk} </td>
+                                        <td>{unitStats.def} </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <Badge color="info" pill>+{unitStats.hpplus}</Badge>
+                                        </td>
+                                        <td>
+                                            <Badge color="info" pill>+{unitStats.atkplus}</Badge>
+                                        </td>
+                                        <td>
+                                            <Badge color="info" pill>+{unitStats.defplus}</Badge>
+                                        </td>
+                                    </tr>
+                                </Table>
+                            </Col>
+                            <Col xs="4">
+                                <h3><strong>SLOTS</strong></h3>
+                                <Table bordered>
+                                    <tr>
+                                        <th>
+                                            <h4>{unitSlots.slot1}☆ <Media src={unitSlots.slot1type} style={lbIconSize} /></h4>
+                                        </th>
+                                        <th>
+                                            <h4>{unitSlots.slot2}☆ <Media src={unitSlots.slot2type} style={lbIconSize} /></h4>
+                                        </th>
+                                        <th>
+                                            <h4>{unitSlots.slot3}☆ <Media src={unitSlots.slot3type} style={lbIconSize} /></h4>
+                                        </th>
+                                    </tr>
+                                </Table>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col xs="4">
+                                <h3><strong>SKILL</strong></h3>
+                                <p><Badge color="primary" pill>BREAK {unitSkill.skillbreak}</Badge> {unitSkill.skill}</p>
+                            </Col>
+                            <Col xs="4">
+                                <h3><strong>ARTS</strong></h3>
+                                <p><Badge color="primary" pill>BREAK {unitSkill.artsbreak}</Badge> {unitSkill.arts}</p>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col>
+                                <h3><strong>PASSIVES</strong></h3>
+                                <ul>
+                                    <li>{unitPassive.ability1}</li>
+                                </ul>
+                            </Col>
+                        </Row>
+                    </CardBody>
+                </Card>
+            </Container>
+        );
+    }
+    
     return <div />
 }
 

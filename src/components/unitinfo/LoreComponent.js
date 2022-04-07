@@ -665,7 +665,7 @@ export function RenderFiveStar({lore, unitImage, unitEvo}) {
     const [tooltip4, setTooltip4] = useState(false);
     const [tooltip5, setTooltip5] = useState(false);
 
-    if(!unitEvo.evo5awk) {
+    if(!unitEvo){
         return (
             <React.Fragment>
                 <Card style={unitCard}>
@@ -680,7 +680,22 @@ export function RenderFiveStar({lore, unitImage, unitEvo}) {
             </React.Fragment>
         )
     }
-    
+
+    if(!unitEvo.evo5awk){
+        return (
+            <React.Fragment>
+                <Card style={unitCard}>
+                    <CardTitle>
+                        <h3><center>This unit has reached max evolution</center></h3>
+                    </CardTitle>
+                    <CardBody>
+                        <center>{lore}</center>
+                    </CardBody>
+                    <center><CardImg src={unitImage.detail5} style={imageSize} /></center>
+                </Card>
+            </React.Fragment>
+        )
+    }
 
     if(unitEvo.evo5awk.mat5) {
         return (
@@ -865,6 +880,8 @@ export function RenderFiveStar({lore, unitImage, unitEvo}) {
             </Card>
         </React.Fragment>
     )
+
+
 
 }
 

@@ -4,9 +4,10 @@ import { Link } from 'react-router-dom';
 import { getUnits } from '../shared/unitInfo';
 import styled from 'styled-components';
 
+//Styled Component currently not working
 const HoverName = styled.p`
     color: "#aaabb8";
-
+    margin-top: "0rem";
     &:hover{
         background-color: "#2e9cca"
     }
@@ -39,12 +40,14 @@ export default function Units () {
                         if(unit.image.thumbawk){
                             return (
                                 <React.Fragment key={unit.name} >
-                                    <Col>
+                                    <Col lg="auto">
                                         <center>
-                                            <Link to={`/units/${unit.name}`} key={unit.name} style={{textDecoration: 'none', color: "#aaabb8"}}>
-                                                <Media src={unit.image.thumbawk} alt={unit.name} width="75" height="75" object-fit="cover"  />
-                                                <HoverName>{unit.name}</HoverName>
-                                            </Link>
+                                            <Card style={{maxWidth: "75px", backgroundColor: "#25274d", border: "none"}}>
+                                                <Link to={`/units/${unit.name}`} key={unit.name} style={{textDecoration: 'none', color: "#aaabb8"}}>
+                                                    <Media src={unit.image.thumbawk} alt={unit.name} width="75" height="75" object-fit="cover"  />
+                                                    <p>{unit.name}</p>
+                                                </Link>
+                                            </Card>
                                         </center>
                                     </Col>
                                 </React.Fragment>
@@ -53,12 +56,14 @@ export default function Units () {
 
                         return (
                             <React.Fragment key={unit.name} >
-                                <Col>
+                                <Col lg="auto">
                                     <center>
-                                        <Link to={`/units/${unit.name}`} key={unit.name} style={{textDecoration: 'none', color: "#aaabb8"}}>
-                                            <Media src={unit.image.thumb5} alt={unit.name} width="75" height="75" object-fit="cover" />
-                                            <HoverName>{unit.name}</HoverName>
-                                        </Link>
+                                        <Card style={{maxWidth: "75px", backgroundColor: "#25274d", border: "none"}}>
+                                            <Link to={`/units/${unit.name}`} key={unit.name} style={{textDecoration: 'none', color: "#aaabb8"}}>
+                                                <Media src={unit.image.thumb5} alt={unit.name} width="75" height="75" object-fit="cover" />
+                                                <HoverName>{unit.name}</HoverName>
+                                            </Link>
+                                        </Card>
                                     </center>
                                 </Col>
                                 

@@ -219,7 +219,7 @@ export function RenderTrue({unitTrue}) {
                         <Row>
                             <CardHeader>
                                 <center><Media src={unitTrue.trueweapon.detail} style={imageSize} /></center>
-                                <center><strong><h1><Media src={unitTrue.trueweapon.slot} />{unitTrue.trueweapon.name}<Media src={unitTrue.slot} /></h1></strong></center>
+                                <center><strong><h1><Media src={unitTrue.trueweapon.slot} />{unitTrue.trueweapon.name}<Media src={unitTrue.trueweapon.slot} /></h1></strong></center>
                             </CardHeader>
                             <CardBody>
                                 <Col>
@@ -249,7 +249,7 @@ export function RenderTrue({unitTrue}) {
                         <Row>
                             <CardHeader>
                                 <center><Media src={unitTrue.trueweapon.detail} style={imageSize} /></center>
-                                <center><strong><h1><Media src={unitTrue.trueweapon.slot} />{unitTrue.trueweapon.name}<Media src={unitTrue.slot} /><Media src={unitTrue.trueweapon.slot} /></h1></strong></center>
+                                <center><strong><h1><Media src={unitTrue.trueweapon.slot} />{unitTrue.trueweapon.name}<Media src={unitTrue.trueweapon.slot} /></h1></strong></center>
                             </CardHeader>
                             <CardBody>
                                 <Col>
