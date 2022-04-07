@@ -1628,10 +1628,12 @@ const UnitInformation = [
                 },
                 evo45: //reym how do crystal thing
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat2amt: 5
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_105750.png",
+                    mat1amt: 5,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
+                    mat2amt: 2,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
+                    mat3amt: 5
                 },
                 evo5awk:
                 {
@@ -2393,10 +2395,12 @@ const UnitInformation = [
             {
                 evo45:
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_dark4.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
-                    mat2amt: 1
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_110550.png",
+                    mat1amt: 20,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_dark4.png",
+                    mat2amt: 2,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
+                    mat3amt: 1
                 },
                 evo5awk:
                 {
@@ -2483,10 +2487,12 @@ const UnitInformation = [
             {
                 evo45:
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_dark4.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_water4.png",
-                    mat2amt: 1
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_112755.png",
+                    mat1amt: 20,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_dark4.png",
+                    mat2amt: 2,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_water4.png",
+                    mat3amt: 1
                 },
                 evo5awk:
                 {
@@ -19467,9 +19473,9 @@ const UnitInformation = [
                     mat1amt: 10,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragLioreus.png",
+                    mat3: "/db/Icons/dungeon_drops/fragRathalos.png",
                     mat3amt: 5,
-                    hover3: "Lioreus",
+                    hover3: "Rathalos",
                 }
             },
         lore: 
