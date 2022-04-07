@@ -17412,7 +17412,7 @@ const UnitInformation = [
                 {
                     name: "Cruvie",
                     slot: "/db/Mines/thumbnail/magLB.png",
-                    thumb: "/db/Equipment/Thumbnail/item_thumbnail_109661.png",
+                    thumb: "/db/Equipment/Thumbnail/item_thumbnail_109671.png",
                     detail: "/db/Equipment/Detail/item_detail_109671.png",
                     skill: "60s CT - 7000% Earth DMG (MAG). For 25s, increase own DMG by 25% and Earth DMG by 25%.",
                     skillbreak: 900,
