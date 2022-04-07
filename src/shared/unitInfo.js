@@ -242,7 +242,7 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "8s CT - 1800% Water DMG (PHYS).",
+                skill: "8s CT - 1800% Water DMG (PHY).",
                 skillbreak: 1300,
                 arts: "10340% Water DMG (MAG).",
                 artsbreak: 2400,
@@ -293,7 +293,7 @@ const UnitInformation = [
                 name: "Froid Rosier",
                 slot: "/db/Mines/thumbnail/magLB.png",
                 detail: "/db/Equipment/Detail/item_detail_103381.png",
-                skill: "40s CT - 5500% Water DMG (MAG). Chance to inflict Freeze.",
+                skill: "40s CT - 5500% Water DMG (MAG). 60% Chance to inflict Freeze.",
                 skillbreak: 1200,
                 passive: 
                     {
@@ -332,11 +332,11 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "7s CT - 1900% Earth DMG (PHYS).",
+                skill: "7s CT - 1900% Earth DMG (PHY).",
                 skillbreak: 2100,
-                arts: "9900% Earth DMG (PHYS)",
+                arts: "9900% Earth DMG (PHY)",
                 artsbreak: 3000,
-                truearts: "21500% Earth DMG (PHYS). Increase all Ally Arts Gauge by 20",
+                truearts: "21500% Earth DMG (PHY). Increase all Ally Arts Gauge by 20",
                 trueartsbreak: 9300
             },
         passive: 
@@ -400,7 +400,7 @@ const UnitInformation = [
                 name: "Arth Lumina",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "/db/Equipment/Detail/item_detail_103391.png",
-                skill: "50s CT - 6000% Earth DMG (PHYS)",
+                skill: "50s CT - 6000% Earth DMG (PHY)",
                 skillbreak: 3000,
                 passive: 
                     {
@@ -515,7 +515,7 @@ const UnitInformation = [
                 name: "Centurion",
                 slot: "/db/Mines/thumbnail/magLB.png",
                 detail: "/db/Equipment/Detail/item_detail_103941.png",
-                skill: "60s CT - 6200% Light DMG (MAG). For 10s, heal all Ally by 30% of DMG taken",
+                skill: "60s CT - 6200% Light DMG (MAG). For 10s, Allies heal for 30% of DMG taken.",
                 skillbreak: 1000,
                 passive: 
                     {
@@ -554,11 +554,11 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "9s CT - 2200% Dark DMG (PHYS). Heal own HP by 5% of DMG dealt by own Skill",
+                skill: "9s CT - 2200% Dark DMG (PHY). Heal own HP by 5% of DMG dealt by own Skill",
                 skillbreak: 1250,
-                arts: "10850% Dark DMG (PHYS). For 5s, increase all Ally Critical Rate by 50%.",
+                arts: "10850% Dark DMG (PHY). For 5s, increase all Ally Critical Rate by 50%.",
                 artsbreak: 2000,
-                truearts: "25550% Dark DMG (PHYS). For 8s, increase all Ally Critical Rate by 100% and DMG to Light Enemy by 50%",
+                truearts: "25550% Dark DMG (PHY). For 8s, increase all Ally Critical Rate by 100% and DMG to Light Enemy by 50%",
                 trueartsbreak: 3800
             },
         passive: 
@@ -665,7 +665,7 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "3000% Fire DMG (PHYS). Chance of inflicting Burn.",
+                skill: "3000% Fire DMG (PHY). Chance of inflicting Burn.",
                 skillbreak: 900,
                 arts: "30000% Fire DMG (MAG)",
                 artsbreak: 1700,
@@ -768,7 +768,7 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "8s CT - 1800% Water DMG (PHYS). Chance to inflict Freeze.",
+                skill: "8s CT - 1800% Water DMG (PHY). Chance to inflict Freeze.",
                 skillbreak: 2050,
                 arts: "12600% Water DMG (MAG). For 15s, increase all Water Ally DMG RES by 10%",
                 artsbreak: 3100,
@@ -808,9 +808,9 @@ const UnitInformation = [
                     mat3: "/db/Icons/dungeon_drops/fragPalamicia.png",
                     mat3amt: 4,
                     hover3: "Palamicia",
-                    mat4: "/db/Icons/dungeon_drops/fragValzendeth.png",
+                    mat4: "/db/Icons/dungeon_drops/fragValzandeth.png",
                     mat4amt: 4,
-                    hover4: "Valzendeth",
+                    hover4: "Valzandeth",
                     mat5: "/db/Icons/dungeon_drops/fragFreydal.png",
                     mat5amt: 3,
                     hover5: "Freydal"
@@ -948,9 +948,9 @@ const UnitInformation = [
             {
                 skill: "10s CT - 1400% Light DMG (MAG). Chance to inflict Seal",
                 skillbreak: 900,
-                arts: "7000% Light DMG (PHYS). For 25s, all allies gain a DMG Barrier that negates 3000 DMG",
+                arts: "7000% Light DMG (PHY). For 25s, all allies gain a DMG Barrier that negates 3000 DMG",
                 artsbreak: 1400,
-                truearts: "For 30s, all allies gain a DMG barrier that negates 4000 DMG. Additionally, increase Barrier strength by [1000 x Lvl of Wave Armor]. If Wave Armor is at Max Level: 35000% Light DMG (PHYS). For 30s, all allies gain a DMG barrier that negates 4000 DMG. Additionally, increase Barrier strength by [1000 x Lvl of Wave Armor]",
+                truearts: "For 30s, all allies gain a DMG barrier that negates 4000 DMG. Additionally, increase Barrier strength by [1000 x Lvl of Wave Armor]. If Wave Armor is at Max Level: 35000% Light DMG (PHY). For 30s, all allies gain a DMG barrier that negates 4000 DMG. Additionally, increase Barrier strength by [1000 x Lvl of Wave Armor]",
                 trueartsbreak: 1800
             },
         passive: 
@@ -1063,7 +1063,7 @@ const UnitInformation = [
                     mat1amt: 2,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_fire3.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_2",
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_dark2",
                     mat3amt: 5
                 },
                 evo45:
@@ -1493,7 +1493,7 @@ const UnitInformation = [
         type: "Demon",
         image: 
             {
-                detail3: "/db/Units/Detail/unit_detail_100653512.png",
+                detail3: "/db/Units/Detail/unit_detail_10065312.png",
                 detail4: "/db/Units/Detail/unit_detail_100654512.png",
                 detail5: "/db/Units/Detail/unit_detail_100655512.png",
                 detailawk: "/db/Units/Detail/unit_detail_100656512.png",
@@ -1708,7 +1708,7 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
     },
-    { //Iris - Missing Lore, Evolution, TW Image
+    { //Iris - Missing Lore
         id: 101025411,
         name: "Iris",
         rank: "F",
@@ -1752,26 +1752,16 @@ const UnitInformation = [
             }, 
         evolution: 
             {
-                evo23: 
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light1.png",
-                    mat2amt: 5
-                },
-                evo34: 
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
-                    mat2amt: 5
-                },
                 evo45:
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat2amt: 5
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_",
+                    mat1amt: 9,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
+                    mat2amt: 2,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_water4.png",
+                    mat3amt: 1,
+                    mat4: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
+                    mat4amt: 5
                 }
             },
         trueweapon: 
@@ -2107,7 +2097,7 @@ const UnitInformation = [
                 evoawk: "The current head of General Staff for Gramenia became a skilled commander despite his underprivileged childhood. Having already changed his whole life to achieve power and status, this stern man once again begins to change when he meets an adventurer who offers the same words he heard in his childhood. Now, his enemies defeated and the strength he sought in hand, he begins little by little to gain control over the power sleeping within him, for his own sake and for those who count on him."
             }
     },
-    { //Zeorg (Light) - Missing Stats, Lore, Slots, Evolution, True Weapon, TW Image
+    { //Zeorg (Light) - Missing Lore
         id: 101066411,
         name: "Zeorg (Light)",
         rank: "C",
@@ -2157,26 +2147,14 @@ const UnitInformation = [
             }, 
         evolution: 
             {
-                evo23: 
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light1.png",
-                    mat2amt: 5
-                },
-                evo34: 
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
-                    mat2amt: 5
-                },
                 evo45:
                 {
                     mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
                     mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat2amt: 5
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_water4.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
+                    mat3amt: 5
                 },
                 evo5awk:
                 {
@@ -2184,15 +2162,15 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3: "/db/Icons/dungeon_drops/fragIfrit.png",
                     mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    hover3: "Ifrit",
+                    mat4: "/db/Icons/dungeon_drops/fragFosradius.png",
                     mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                    hover4: "Fosradius",
+                    mat5: "/db/Icons/dungeon_drops/fragCodeXTF.png",
                     mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    hover5: "Code-XTF"
                 }
             },
         trueweapon: 
@@ -2216,7 +2194,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Melia (Dark) - Missing TW Image
+    { //Melia (Dark) - Complete
         id: 101076511,
         name: "Melia (Dark)",
         rank: "B+",
@@ -2238,7 +2216,7 @@ const UnitInformation = [
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/magLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/magLB.png"
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
             },
         stats: 
             {
@@ -2312,7 +2290,7 @@ const UnitInformation = [
                 evoawk: "A sorcerer who chose to embrace the darkest parts of the Magus Empire of La Riiz. Her particular abilities and tendency toward rash, independent action invited dangerous misunderstandings. She fell into a trap, straining the faith of her friends, yet the unwavering trust of the adventurer broke through to her, and she resolved to face up to her past. Her sorcery thus broke away from her shadowy past to become something brilliant, something greater, something to protect those she held dear."
             }
     },
-    { //Ragsherum - Missing TW Image
+    { //Ragsherum - Missing Special Evolution Material Image
         id: 101086511,
         name: "Ragsherum",
         rank: "A-",
@@ -2362,26 +2340,14 @@ const UnitInformation = [
             }, 
         evolution: 
             {
-                evo23: 
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light1.png",
-                    mat2amt: 5
-                },
-                evo34: 
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
-                    mat2amt: 5
-                },
                 evo45:
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat2amt: 5
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_dark4.png",
+                    mat1amt: 5,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
+                    mat2amt: 3,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_water4.png",
+                    mat3amt: 2
                 },
                 evo5awk:
                 {
@@ -2389,15 +2355,15 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragRagsherumPhantom.png",
+                    mat3amt: 5,
+                    hover3: "Ragsherum Phantom",
+                    mat4: "/db/Icons/dungeon_drops/fragMavroskia.png",
+                    mat4amt: 5,
+                    hover4: "Mavroskia",
+                    mat5: "/db/Icons/dungeon_drops/fragRagsherum.png",
+                    mat5amt: 1,
+                    hover5: "Ragsherum"
                 }
             },
         trueweapon: 
@@ -2600,7 +2566,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Ganan - Missing Evolution, TW Image
+    { //Ganan - Missing Evolution Source Image
         id: 101116111,
         name: "Ganan",
         rank: "A-",
@@ -2653,8 +2619,10 @@ const UnitInformation = [
             {
                 evo45: 
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_fire4.png",
-                    mat1amt: 3,
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_106450.png", // Pride of Almadin
+                    mat1amt: 80,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_fire4.png",
+                    mat2amt: 3
                 },
                 evo5awk:
                 {
@@ -2741,7 +2709,7 @@ const UnitInformation = [
                     mat1amt: 2,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_water4.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_Gilliam45.png",
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_110953.png", // Emerald of Refinement
                     mat3amt: 20
                 },
                 evo5awk:
@@ -2871,7 +2839,7 @@ const UnitInformation = [
                 evoawk: "Although she had pride in being a priestess, she acknowledged that living in a shrine meant living in a closed world. Since some time or another, an adventurer and his friends started visiting her and telling stories of their journeys. The stories sometimes exciting and at other times terrifying. What kind of judgment should she make as a follower of the Light God? This question and responsibilities led her to a higher dignity and more power as a priestess."
             }
     },
-    { //Est - Missing Evolution, TW Image
+    { //Est - Complete
         id: 101146211,
         name: "Est",
         rank: "B+",
@@ -2889,11 +2857,11 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/physLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/physLB.png"
             },
         stats: 
             {
@@ -2921,26 +2889,14 @@ const UnitInformation = [
             }, 
         evolution: 
             {
-                evo23: 
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light1.png",
-                    mat2amt: 5
-                },
-                evo34: 
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
-                    mat2amt: 5
-                },
                 evo45:
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat2amt: 5
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_water4.png",
+                    mat1amt: 3,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_fire4.png",
+                    mat2amt: 2,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_water3.png",
+                    mat3amt: 5
                 },
                 evo5awk:
                 {
@@ -2948,15 +2904,15 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat3: "/db/Icons/dungeon_drops/fragRadachne.png",
+                    mat3amt: 5,
+                    hover3: "Radachne",
+                    mat4: "/db/Icons/dungeon_drops/fragTonetaurus.png",
                     mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    hover4: "Tonetaurus",
+                    mat5: "/db/Icons/dungeon_drops/fragPalamicia.png",
+                    mat5amt: 3,
+                    hover5: "Palamicia"
                 }
             },
         trueweapon: 
@@ -6830,9 +6786,9 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragRagsherum.png",
+                    mat3: "/db/Icons/dungeon_drops/fragRagsherumPhantom.png",
                     mat3amt: 2,
-                    hover3: "Ragsherum",
+                    hover3: "Ragsherum Phantom",
                     mat4: "/db/Icons/dungeon_drops/fragWilkes.png",
                     mat4amt: 2,
                     hover4: "Wilkes"
@@ -6917,9 +6873,9 @@ const UnitInformation = [
                     mat4: "/db/Icons/dungeon_drops/fragAerugraxes.png",
                     mat4amt: 2,
                     hover4: "Aerugraxes",
-                    mat5: "/db/Icons/dungeon_drops/fragRagsherum.png",
+                    mat5: "/db/Icons/dungeon_drops/fragRagsherumPhantom.png",
                     mat5amt: 1,
-                    hover5: "Ragsherum"
+                    hover5: "Ragsherum Phantom"
                 }
             },
         trueweapon: //If no TW, may delete this section
@@ -7219,9 +7175,9 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragRagsherum.png",
+                    mat3: "/db/Icons/dungeon_drops/fragRagsherumPhantom.png",
                     mat3amt: 3,
-                    hover3: "Ragsherum",
+                    hover3: "Ragsherum Phantom",
                     mat4: "/db/Icons/dungeon_drops/fragGeoZagnus.png",
                     mat4amt: 5,
                     hover4: "Geo-Zagnus",
@@ -7309,9 +7265,9 @@ const UnitInformation = [
                     mat4: "/db/Icons/dungeon_drops/fragGoldola.png",
                     mat4amt: 5,
                     hover4: "Goldola",
-                    mat5: "/db/Icons/dungeon_drops/fragRagsherum.png",
+                    mat5: "/db/Icons/dungeon_drops/fragRagsherumPhantom.png",
                     mat5amt: 3,
-                    hover5: "Ragsherum"
+                    hover5: "Ragsherum Phantom"
                 }
             },
         trueweapon: //If no TW, may delete this section
