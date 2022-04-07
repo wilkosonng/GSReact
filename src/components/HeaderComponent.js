@@ -1,7 +1,7 @@
 import React, { useState, useLayoutEffect } from 'react';
 import { Tooltip, Navbar, NavbarToggler, Nav, NavItem, NavbarText, Collapse, Container, Row, Col, Media } from 'reactstrap';
 import { NavLink, Outlet} from 'react-router-dom';
-import { FaDiscord, FaFacebookF, FaTwitterSquare } from 'react-icons/fa';
+import { FaDiscord, FaFacebookF, FaTwitterSquare, FaReddit } from 'react-icons/fa';
 import styled from 'styled-components';
 import Rolly1 from '../assets/chara_face_1200_1.png';
 import Rolly2 from '../assets/chara_face_1200_6.png';
@@ -14,6 +14,7 @@ const [isOpen, setIsOpen] = useState(false);
 //Tooltips for External Links
 const [discordTool, setDiscordTool] = useState(false);
 const [facebookTool, setFacebookTool] = useState(false);
+const [redditTool, setRedditTool] = useState(false);
 const [twitterTool, setTwitterTool] = useState(false);
 const [gsTool, setGSTool] = useState(false);
 
@@ -82,7 +83,8 @@ return (
                             <NavbarText>
                                 <a href="https://discord.gg/grandsummoners" id="discordLink"><FaDiscord /></a>
                                 <a href="https://www.facebook.com/GrandSummonersGlobal/" id="facebookLink"><FaFacebookF /></a>
-                                <a href="https://twitter.com/GRANDSUMMONERS" id="twitterLink"><FaTwitterSquare /></a>
+                                <a href="https://www.reddit.com/r/grandsummoners/" id="redditLink"><FaReddit /></a>
+                                <a href="https://twitter.com/GRDSMN_GLOBAL" id="twitterLink"><FaTwitterSquare /></a>
                                 <a href="https://global.grandsummoners.com/" id="gsLink"><img src="/db/Icons/drops/resultbox_close_1_3.png" style={iconSize} /></a>
                                 <Tooltip isOpen={discordTool}
                                     target="discordLink"
@@ -92,6 +94,10 @@ return (
                                     target="facebookLink"
                                     placement="bottom"
                                     toggle={() => setFacebookTool(!facebookTool)} >Facebook</Tooltip>
+                                    <Tooltip isOpen={redditTool}
+                                    target="redditLink"
+                                    placement="bottom"
+                                    toggle={() => setRedditTool(!redditTool)} >Reddit</Tooltip>
                                 <Tooltip isOpen={twitterTool}
                                     target="twitterLink"
                                     placement="bottom"

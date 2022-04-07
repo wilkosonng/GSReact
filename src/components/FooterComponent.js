@@ -3,6 +3,7 @@ import { Nav, NavItem, Container, Row, Col, Card, CardGroup } from 'reactstrap';
 import '../App.css';
 import { FaRegCopyright } from 'react-icons/fa';
 import styled from 'styled-components';
+import { Adsense } from '@ctrl/react-adsense';
 
 //Styled Component for Official Links
 const LinkColor = styled.a`
@@ -15,14 +16,20 @@ const LinkColor = styled.a`
 
 function Footer () {
     //Display Navigation Links for bottom
+    /**
+     * Add this when Ads are properly connected
+     * <Row>
+                    <Adsense 
+                        client="ca-pub-7386611028385098"
+                        slot=""
+                        style={{ width: "500px" , height: "300px"}}
+                    />
+                </Row>
+     */
     return (
         <React.Fragment>
             <Container>
-                <Row>
-                    <script data-ad-client="ca-pub-7386611028385098" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
-                        This site is supported by ads. Please consider disabling Adblockers.
-                    </script>
-                </Row>
+                
                 <Row>
                     <CardGroup style={{paddingTop: "10rem", marginBottom: "1rem"}}>
                         <Card md="3" style={{backgroundColor: "#464866"}}>
@@ -45,7 +52,12 @@ function Footer () {
                                 </NavItem>    
                                 <NavItem>
                                     <LinkColor href="https://www.facebook.com/GrandSummonersGlobal" >
-                                        Facebook Page
+                                        Facebook
+                                    </LinkColor>
+                                </NavItem>
+                                <NavItem>
+                                    <LinkColor href="https://twitter.com/GRDSMN_GLOBAL">
+                                        Reddit
                                     </LinkColor>
                                 </NavItem>
                                 <NavItem>
