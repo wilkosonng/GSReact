@@ -2143,7 +2143,6 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo3: "Missing Lore Information, please contact site owner",
                 evo4: "Missing Lore Information, please contact site owner",
                 evo5: "Missing Lore Information, please contact site owner",
                 evoawk: "Missing Lore Information, please contact site owner"
@@ -2985,7 +2984,7 @@ const UnitInformation = [
     },
     { //Rem (Grand Summoners) - Missing Lore, TW Image
         id: 101166511,
-        name: "Rem (Grand Summoners)",
+        name: "Rem (GS)",
         rank: "S-",
         attribute: "Dark",
         type: "Human",
@@ -11081,7 +11080,7 @@ const UnitInformation = [
                     mat1amt: 10,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragGranit.png",
+                    mat3: "/db/Icons/dungeon_drops/fragGranith.png",
                     mat3amt: 20,
                     hover3: "Granith",
                 }
