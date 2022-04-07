@@ -1094,7 +1094,7 @@ const UnitInformation = [
                 evoawk: "A masked knight spoken of in Demon legend. After countless massacres during the Great War, he had become known as the mad knight. Even those who had survived the bloodshed were engulfed in the insanity of his presence. No one knows where he is now, but if the words of his armor ring true, he will continue to plague the battlefield in search of souls to devour."
             }
     },
-    { //Ragna - Missing Evolution, TW Image
+    { //Ragna - Complete
         id: 100616112,
         name: "Ragna",
         rank: "C",
@@ -1147,25 +1147,18 @@ const UnitInformation = [
             }, 
         evolution: 
             {
-                evo23: 
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light1.png",
-                    mat2amt: 5
-                },
                 evo34: 
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_fire3.png",
                     mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_fire2.png",
                     mat2amt: 5
                 },
                 evo45:
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_fire4.png",
                     mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_fire3.png",
                     mat2amt: 5
                 },
                 evo5awk:
@@ -1174,15 +1167,15 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3: "/db/Icons/dungeon_drops/fragDegilmagna.png",
                     mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    hover3: "Degilmagna",
+                    mat4: "/db/Icons/dungeon_drops/fragIfrit.png",
                     mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                    hover4: "Ifrit",
+                    mat5: "/db/Icons/dungeon_drops/fragRagsherumPhantom.png",
                     mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    hover5: "Ragsherum Phantom"
                 }
             },
         trueweapon: 
@@ -1206,7 +1199,7 @@ const UnitInformation = [
                 evoawk: "A knight of the Gods whose name lives on only as a word of hope. Hailed as a savior in the Ancient War, he was in truth a brave protector of the weak and warrior for justice. And yet, for non-Humans, he was a figure of fear whose name is spoken even today in hushed tones. Today in Raktehelm, none alive know that the mantra of Ragna, spoken in times of deepest distress, is his true name."
             }
     },
-    { //Yomi - Missing Evolution
+    { //Yomi - Complete
         id: 100626212,
         name: "Yomi",
         rank: "B-",
@@ -1258,25 +1251,18 @@ const UnitInformation = [
             }, 
         evolution: 
             {
-                evo23: 
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light1.png",
-                    mat2amt: 5
-                },
                 evo34: 
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_water3.png",
                     mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_water2.png",
                     mat2amt: 5
                 },
                 evo45:
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_water4.png",
                     mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_water3.png",
                     mat2amt: 5
                 },
                 evo5awk:
@@ -1285,15 +1271,15 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragRadachne.png",
+                    mat3amt: 1,
+                    hover3: "Radachne",
+                    mat4: "/db/Icons/dungeon_drops/fragPalamicia.png",
+                    mat4amt: 1,
+                    hover4: "Palamicia",
+                    mat5: "/db/Icons/dungeon_drops/fragFreydal.png",
+                    mat5amt: 2,
+                    hover5: "Freydal"
                 }
             },
         lore: 
@@ -1304,7 +1290,7 @@ const UnitInformation = [
                 evoawk: "A mysterious swordswoman summoned from another world. She once valued loyalty above all, but eventually, she came to doubt her God masters as much as the Demons. Ironically, the more she doubted, the sharper her blade cut. But soon, she will find that this power she sought to defend her home will bring even greater tragedy and hatred. And so she sets out on a journey to discover how to destroy forever her true enemy; War."
             }
     },
-    { //Vaid - Missing Evolution
+    { //Vaid - Complete
         id: 100636312,
         name: "Vaid",
         rank: "C",
@@ -1355,26 +1341,23 @@ const UnitInformation = [
             }, 
         evolution: 
             {
-                evo23: 
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light1.png",
-                    mat2amt: 5
-                },
                 evo34: 
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_earth3.png",
                     mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
-                    mat2amt: 5
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_earth2.png",
+                    mat3amt: 5
                 },
                 evo45:
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_earth4.png",
                     mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat2amt: 5
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_earth3.png",
+                    mat3amt: 5
                 },
                 evo5awk:
                 {
@@ -1382,15 +1365,9 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragElpneumas.png",
+                    mat3amt: 2,
+                    hover3: "Elpneumas",
                 }
             },
         lore: 
@@ -1754,7 +1731,7 @@ const UnitInformation = [
             {
                 evo45:
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_",
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_Moonshine.png",
                     mat1amt: 9,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
                     mat2amt: 2,
@@ -1784,7 +1761,7 @@ const UnitInformation = [
                 evo5: "A divine girl who has the power to break down the barriers surrounding Gods. Though Iris was unaware she possessed such a rare power, she was discovered by a Demon and held as a research subject for anti-God weaponry. Profound in their cruelty, Iris lost her memories as a result of the experiments, but eventually managed to escape. Her encounter with a young man awakened her true power further.",
             }
     },
-    { //Roy (WateR) - Missing Evolution, TW Image
+    { //Roy (WateR) - Complete
         id: 101036211,
         name: "Roy (Water)",
         rank: "C",
@@ -1834,26 +1811,14 @@ const UnitInformation = [
             }, 
         evolution: 
             {
-                evo23: 
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light1.png",
-                    mat2amt: 5
-                },
-                evo34: 
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
-                    mat2amt: 5
-                },
                 evo45:
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat2amt: 5
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_water4.png",
+                    mat1amt: 3,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
+                    mat2amt: 2,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_water3.png",
+                    mat3amt: 5
                 },
                 evo5awk:
                 {
@@ -1861,15 +1826,15 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat3: "/db/Icons/dungeon_drops/fragIfrit.png",
+                    mat3amt: 3,
+                    hover3: "Ifrit",
+                    mat4: "/db/Icons/dungeon_drops/fragRadachne.png",
                     mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                    hover4: "Radachne",
+                    mat5: "/db/Icons/dungeon_drops/fragFreydal.png",
                     mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    hover5: "Freydal"
                 }
             },
         trueweapon: 
@@ -1892,7 +1857,7 @@ const UnitInformation = [
                 evoawk: "After the mortal combat at Sealed Fortress Gormarey, he has changed his actions. He has been leaving the subhead in charge, taking action on his own, and training even harder than before. For those who know Roy, they see him as if he decided something and is working vigorously towards that. Few know the faces he shows to his best friend. A huge ambition in his heart he will continue become stronger and believe his path he chosen."
             }
     },
-    { //Mira (Fire) - Missing Evolution, TW Image
+    { //Mira (Fire) - Complete
         id: 101046111,
         name: "Mira (Fire)",
         rank: "B-",
@@ -1942,26 +1907,14 @@ const UnitInformation = [
             }, 
         evolution: 
             {
-                evo23: 
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light1.png",
-                    mat2amt: 5
-                },
-                evo34: 
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
-                    mat2amt: 5
-                },
                 evo45:
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_fire4.png",
                     mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat2amt: 5
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_fire3.png",
+                    mat3amt: 5
                 },
                 evo5awk:
                 {
@@ -1969,15 +1922,15 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragIfrit.png",
+                    mat3amt: 1,
+                    hover3: "Ifrit",
+                    mat4: "/db/Icons/dungeon_drops/fragDegilmagna.png",
+                    mat4amt: 1,
+                    hover4: "Degilmagna",
+                    mat5: "/db/Icons/dungeon_drops/fragOldeus.png",
+                    mat5amt: 1,
+                    hover5: "Oldeus"
                 }
             },
         trueweapon: 
@@ -2476,7 +2429,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Nier - Missing Lore, Evolution, TW Image
+    { //Nier - Missing Lore
         id: 101106511,
         name: "Nier",
         rank: "B+",
@@ -2719,7 +2672,7 @@ const UnitInformation = [
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
                     mat3: "/db/Icons/dungeon_drops/fragGilliam.png",
-                    mat3amt: 1,
+                    mat3amt: 20,
                     hover3: "Gilliam",
                 }
             },
@@ -2986,10 +2939,12 @@ const UnitInformation = [
             {
                 evo45: 
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_fire4.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_earth4.png",
-                    mat2amt: 1
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_106950.png", // Sophie's 4* > 5* awaken mats
+                    mat1amt: 20,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_fire4.png",
+                    mat2amt: 2,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_earth4.png",
+                    mat3amt: 1
                 },
                 evo5awk:
                 {
@@ -3260,7 +3215,7 @@ const UnitInformation = [
                     mat2amt: 1,
                     mat3: "/db/Icons/dungeon_drops/fragGeoZagnus.png",
                     mat3amt: 1,
-                    hover3: "Geo Zagnus",
+                    hover3: "Geo-Zagnus",
                     mat4: "/db/Icons/dungeon_drops/fragAerugraxes.png",
                     mat4amt: 3,
                     hover4: "Aerugraxes",
@@ -4133,7 +4088,7 @@ const UnitInformation = [
                     mat2amt: 1,
                     mat3: "/db/Icons/dungeon_drops/fragGeoZagnus.png",
                     mat3amt: 5,
-                    hover3: "Geo Zagnus",
+                    hover3: "Geo-Zagnus",
                     mat4: "/db/Icons/dungeon_drops/fragAerugraxes.png",
                     mat4amt: 4,
                     hover4: "Aerugraxes",
@@ -4283,6 +4238,7 @@ const UnitInformation = [
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_earth4.png",
                     mat2amt: 1,
                     mat3: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
+                    mat3amt: 5
                 },
                 evo5awk:
                 {
@@ -4367,7 +4323,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFElpneumas.png",
+                    mat3: "/db/Icons/dungeon_drops/fragElpneumas.png",
                     mat3amt: 4,
                     hover3: "Elpneumas",
                 }
@@ -5131,12 +5087,14 @@ const UnitInformation = [
             }, 
         evolution: 
             {
-                evo45: //reym how do crystals
+                evo45:
                 {
                     mat1: "/db/Icons/dungeon_drops/material_thumbnail_water4.png",
                     mat1amt: 2,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_earth4.png",
-                    mat2amt: 1
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_112052.png", // quon's 4* > 5* mats
+                    mat3amt: 20
                 },
                 evo5awk:
                 {
@@ -5230,7 +5188,7 @@ const UnitInformation = [
                 evoawk: "The ancient forest's master and its guardian spirit faced a terrible dilemma at the hands of a Demonic invasion. Their rescue, and the automaton's halt, came at the hands of a mage claiming to be the forest master's father. When he pleaded that he wanted to live with his daughter again, the spirit calmlhy asked if he was ready to give up everything and live as the forest's guardian. Questioned about concerns for the forest's future itself rather than for its master, the man shed tears for some time before finally nodding."
             }
     },
-    { //Edram - Missing Evolution
+    { //Edram - Complete
         id: 101575412,
         name: "Edram",
         rank: "B-",
@@ -5238,9 +5196,9 @@ const UnitInformation = [
         type: "Machine",
         image: 
             {
-                detail4: "/db/Units/Detail/unit_detail_101575412.png",
+                detail4: "/db/Units/Detail/unit_detail_101574412.png",
                 detail5: "/db/Units/Detail/unit_detail_101575412.png",
-                thumb4: "/db/Units/Thumbnail/unit_thumbnail_101575412.png",
+                thumb4: "/db/Units/Thumbnail/unit_thumbnail_101574412.png",
                 thumb5: "/db/Units/Thumbnail/unit_thumbnail_101575412.png",
             },
         slots: 
@@ -5278,12 +5236,14 @@ const UnitInformation = [
             }, 
         evolution: 
             {
-                evo45: //crystal????
+                evo45:
                 {
                     mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
                     mat1amt: 2,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_dark4.png",
-                    mat2amt: 1
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_113454.png", // Edram's 4* > 5* mats
+                    mat3amt: 20
                 },
             },
         lore: 
@@ -5591,7 +5551,7 @@ const UnitInformation = [
                     mat2amt: 1,
                     mat3: "/db/Icons/dungeon_drops/fragGeoZagnus.png",
                     mat3amt: 4,
-                    hover3: "Geo Zagnus",
+                    hover3: "Geo-Zagnus",
                 }
             },
         lore: 
@@ -5657,7 +5617,7 @@ const UnitInformation = [
                     mat1amt: 2,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_water4.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_earth5.png",
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_earth3.png",
                     mat3amt: 5
                 },
                 evo5awk:
@@ -6335,7 +6295,7 @@ const UnitInformation = [
                     mat1amt: 2,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_Gaia45.png",
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_114152.png",
                     mat3amt: 20
                 },
                 evo5awk:
@@ -7039,7 +6999,7 @@ const UnitInformation = [
                 evoawk: "Before she knew it, she admired the Spirit girl she met at the hidden village and tried to take her with her to the outside world. While she hesitated to do so, she became more and important to her. However, one day the village was suddenly invaded by Demons. To protect the one she adored, she rushed out of the army to once she had pledged. Once she arrived, she saw the girl bravely facing the Demons."
             }
     },
-    { //Musse - Missing Evolution
+    { //Musse - Complete
         id: 101816312,
         name: "Musse",
         rank: "TBD",
@@ -7091,10 +7051,12 @@ const UnitInformation = [
             {
                 evo45:
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_earth4.png",
                     mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat2amt: 5
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_fire4.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_earth3.png",
+                    mat3amt: 5
                 },
                 evo5awk:
                 {
@@ -7102,15 +7064,9 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragElpneumas.png",
+                    mat3amt: 2,
+                    hover3: "Elpneumas",
                 }
             },
         lore: 
@@ -7975,7 +7931,7 @@ const UnitInformation = [
                     mat2amt: 1,
                     mat3: "/db/Icons/dungeon_drops/fragGeoZagnus.png",
                     mat3amt: 5,
-                    hover3: "Geo Zagnus",
+                    hover3: "Geo-Zagnus",
                     mat4: "/db/Icons/dungeon_drops/fragMavroskia.png",
                     mat4amt: 3,
                     hover4: "Mavroskia",
@@ -8197,7 +8153,7 @@ const UnitInformation = [
                     mat2amt: 1,
                     mat3: "/db/Icons/dungeon_drops/fragGeoZagnus.png",
                     mat3amt: 2,
-                    hover3: "Geo Zagnus",
+                    hover3: "Geo-Zagnus",
                     mat4: "/db/Icons/dungeon_drops/fragFreydal.png",
                     mat4amt: 5,
                     hover4: "Freydal",
@@ -8557,7 +8513,7 @@ const UnitInformation = [
                     mat2amt: 1,
                     mat3: "/db/Icons/dungeon_drops/fragGeoZagnus.png",
                     mat3amt: 2,
-                    hover3: "Geo Zagnus",
+                    hover3: "Geo-Zagnus",
                     mat4: "/db/Icons/dungeon_drops/fragFreydal.png",
                     mat4amt: 2,
                     hover4: "Freydal",
@@ -8702,7 +8658,7 @@ const UnitInformation = [
                     hover4: "Code-XTF",
                     mat5: "/db/Icons/dungeon_drops/fragGeoZagnus.png",
                     mat5amt: 1,
-                    hover5: "Geo Zagnus"
+                    hover5: "Geo-Zagnus"
                 }
             },
         lore: 
@@ -8946,7 +8902,7 @@ const UnitInformation = [
         trueweapon: //If no TW, may delete this section
             {
                 name: "Griffin",
-                slot: "/db/Mines/thumbnail/physLB.png",
+                slot: "/db/Mines/thumbnail/magLB.png",
                 detail: "/db/Equipment/Detail/item_detail_105541.png",
                 skill: "45s CT - 7800% Earth DMG (MAG). For 12s, reduce Enemies' Paralysis RES by 60%.",
                 skillbreak: 1500,
@@ -9274,7 +9230,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Mako - Missing Lore, TW Image
+    { //Mako - Missing Lore
         id: 102206412,
         name: "Mako",
         rank: "SSS",
@@ -10873,9 +10829,9 @@ const UnitInformation = [
         type: "Spirit",
         image: 
             {
-                detail5: "/db/Units/Detail/unit_detail_102436511.png",
+                detail5: "/db/Units/Detail/unit_detail_102435511.png",
                 detailawk: "/db/Units/Detail/unit_detail_102436511.png",
-                thumb5: "/db/Units/Thumbnail/unit_thumbnail_102436511.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_102435511.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_102436511.png"
             },
         slots: 
@@ -10985,7 +10941,7 @@ const UnitInformation = [
                     mat2amt: 1,
                     mat3: "/db/Icons/dungeon_drops/fragGeoZagnus.png",
                     mat3amt: 2,
-                    hover3: "Geo Zagnus",
+                    hover3: "Geo-Zagnus",
                     mat4: "/db/Icons/dungeon_drops/fragAerugraxes.png",
                     mat4amt: 2,
                     hover4: "Aerugraxes"
@@ -11149,7 +11105,7 @@ const UnitInformation = [
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/magLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/phyLB.png"
+                slot3type: "/db/Mines/thumbnail/physLB.png"
             },
         stats: 
             {
@@ -11510,7 +11466,7 @@ const UnitInformation = [
                     mat2amt: 1,
                     mat3: "/db/Icons/dungeon_drops/fragGeoZagnus.png",
                     mat3amt: 2,
-                    hover3: "Geo Zagnus",
+                    hover3: "Geo-Zagnus",
                     mat4: "/db/Icons/dungeon_drops/fragFreydal.png",
                     mat4amt: 3,
                     hover4: "Freydal",
@@ -11679,7 +11635,7 @@ const UnitInformation = [
                     mat2amt: 1,
                     mat3: "/db/Icons/dungeon_drops/fragGeoZagnus.png",
                     mat3amt: 2,
-                    hover3: "Geo Zagnus",
+                    hover3: "Geo-Zagnus",
                     mat4: "/db/Icons/dungeon_drops/fragOldeus.png",
                     mat4amt: 1,
                     hover4: "Oldeus",
@@ -11846,7 +11802,7 @@ const UnitInformation = [
                     mat2amt: 1,
                     mat3: "/db/Icons/dungeon_drops/fragGeoZagnus.png",
                     mat3amt: 3,
-                    hover3: "Geo Zagnus",
+                    hover3: "Geo-Zagnus",
                     mat4: "/db/Icons/dungeon_drops/fragTonetaurus.png",
                     mat4amt: 2,
                     hover4: "Tonetaurus",
@@ -12585,7 +12541,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Berwick (Physical) - Missing TW Image
+    { //Berwick (Physical) - Complete
         id: 102666112,
         name: "Berwick (Physical)",
         rank: "S-",
@@ -12654,7 +12610,7 @@ const UnitInformation = [
             {
                 name: "ZANKETSU",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_106071.png",
                 skill: "35s CT - 12000% Water DMG (PHY). For 10s, increase own Skill CT REC by 50%.",
                 skillbreak: 2000,
                 passive: 
@@ -13105,7 +13061,7 @@ const UnitInformation = [
                     mat3: "/db/Icons/dungeon_drops/fragFlogassa.png",
                     mat3amt: 2,
                     hover3: "Flogassa",
-                    mat4: "/db/Icons/dungeon_drops/fragWIlkes.png",
+                    mat4: "/db/Icons/dungeon_drops/fragWilkes.png",
                     mat4amt: 2,
                     hover4: "Wilkes",
                 }
@@ -13172,7 +13128,7 @@ const UnitInformation = [
                     mat2amt: 1,
                     mat3: "/db/Icons/dungeon_drops/fragGeoZagnus.png",
                     mat3amt: 1,
-                    hover3: "Geo Zagnus",
+                    hover3: "Geo-Zagnus",
                     mat4: "/db/Icons/dungeon_drops/fragAerugraxes.png",
                     mat4amt: 2,
                     hover4: "Aerugraxes"
@@ -13712,7 +13668,7 @@ const UnitInformation = [
             {
                 name: "Starisarta",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "item_detail_106521.png",
+                detail: "/db/Equipment/Detail/item_detail_106521.png",
                 skill: "45s CT - 10000% Dark DMG (PHY). For 10s, increase Allies' DEF by 50%.",
                 skillbreak: 1800,
                 passive: 
@@ -14675,7 +14631,7 @@ const UnitInformation = [
                     mat2amt: 1,
                     mat3: "/db/Icons/dungeon_drops/fragGeoZagnus.png",
                     mat3amt: 2,
-                    hover3: "Geo Zagnus",
+                    hover3: "Geo-Zagnus",
                     mat4: "/db/Icons/dungeon_drops/fragRadachne.png",
                     mat4amt: 1,
                     hover4: "Radachne",
@@ -15180,7 +15136,7 @@ const UnitInformation = [
                 evoawk: "A loyal warrior in the service of the second princess of the Gran Verge Kingdom, Cestina. Their bond was much stronger than that of a mere master and servant, and the trust between them was unparalleled. The connection between them showed its true strength during the turmoil at the tower of Oluon in Gran Verge and has gone down in history."
             }
     },
-    { //Liza - Missing Lore, TW Image
+    { //Liza - Missing Lore
         id: 103006412,
         name: "Liza",
         rank: "SS",
@@ -15247,7 +15203,7 @@ const UnitInformation = [
         trueweapon: //If no TW, may delete this section
             {
                 name: "Etoile",
-                slot: "/db/Mines/thumbnail/physLB.png",
+                slot: "/db/Mines/thumbnail/suppLB.png",
                 detail: "/db/Equipment/Detail/item_detail_107401.png",
                 skill: "35s CT - For 20s, increase target's Arts by 4/s, if user is Light, increase target's MAG DMG by 30%.",
                 skillbreak: 0,
@@ -16331,15 +16287,15 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragFlogassa.png",
+                    mat3amt: 2,
+                    hover3: "Flogassa",
+                    mat4: "/db/Icons/dungeon_drops/fragGoldola.png",
+                    mat4amt: 1,
+                    hover4: "Goldola",
+                    mat5: "/db/Icons/dungeon_drops/fragFreydal.png",
+                    mat5amt: 1,
+                    hover5: "Freydal"
                 }
             },
         trueweapon: //If no TW, may delete this section
@@ -16981,7 +16937,7 @@ const UnitInformation = [
                     name: "Night Jacket",
                     slot: "/db/Mines/thumbnail/physLB.png",
                     thumb: "/db/Equipment/Thumbnail/item_thumbnail_108821.png",
-                    detail: "/db/Equipment/Detail/item_Detail_108821.png",
+                    detail: "/db/Equipment/Detail/item_detail_108821.png",
                     skill: "60s CT - 5000% Dark DMG (PHY). For 8s, increase own Dark DMG by 50%. The first time this Equip is used in a Quest, increase own Arts by 30.",
                     skillbreak: 300,
                     passive: 
@@ -17956,7 +17912,7 @@ const UnitInformation = [
             {
                 name: "Ready Maid",
                 slot: "/db/Mines/thumbnail/suppLB.png",
-                detail: "/db/Equipment/Detail/item_Detail_108721.png",
+                detail: "/db/Equipment/Detail/item_detail_108721.png",
                 skill: "40s CT - For 10s, increase Allies' Arts by 3/s and Light Allies' DMG by 30%.",
                 skillbreak: 0,
                 passive: 
@@ -18702,7 +18658,7 @@ const UnitInformation = [
                     mat2amt: 1,
                     mat3: "/db/Icons/dungeon_drops/fragGeoZagnus.png",
                     mat3amt: 1,
-                    hover3: "Geo Zagnus",
+                    hover3: "Geo-Zagnus",
                     mat4: "/db/Icons/dungeon_drops/fragRadachne.png",
                     mat4amt: 2,
                     hover4: "Radachne",
@@ -19476,7 +19432,7 @@ const UnitInformation = [
                 slot1type: "/db/Mines/thumbnail/suppLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/healLB.png",
-                slot3: 4,
+                slot3: 5,
                 slot3type: "/db/Mines/thumbnail/healLB.png"
             },
         stats: 
@@ -19799,7 +19755,7 @@ const UnitInformation = [
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/physLB.png",
-                slot3: 4,
+                slot3: 5,
                 slot3type: "/db/Mines/thumbnail/defLB.png"
             },
         stats: 
