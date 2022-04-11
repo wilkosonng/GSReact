@@ -18808,7 +18808,10 @@ const UnitInformation = [
                 arts: "18000% Fire DMG (MAG). For 20s, increase Allies' Equipment DMG by 50%, and Fire Allies' Equipment DMG by an additional 50%.",
                 artsbreak: 1200,
                 truearts: "62000% Fire DMG (MAG). For 20s, replace the equipment in his :lbmag: slot with Ultra Equip \"Gramrude\". Additionally, increase Allies' MAG DMG by 100%, and own ATK by 100%.",
-                trueartsbreak: 1800
+                trueartsbreak: 1800,
+                ultra: "2s CT - 5000% Fire DMG (MAG). For 15s, increase own Critical DMG by 30% (stackable).",
+                ultrabreak: 500,
+                ultratype: "/db/Mines/thumbnail/magLB.png"
             },
         passive: 
             {
@@ -18845,7 +18848,6 @@ const UnitInformation = [
                         ability2: "Increase Physical RES by 10%."
                     }
             },
-            // Ultra Equip code missing
         lore: 
             {   
                 evo5: "Missing Lore Information, please contact site owner",
@@ -18889,7 +18891,10 @@ const UnitInformation = [
                 arts: "15000% Light DMG (PHY). For 15s, increase Allies' PHY DMG by 50% and God Allies' Accuracy by 30%.",
                 artsbreak: 800,
                 truearts: "45000% Light DMG (PHY). For 15s, replace the equipment in her :lbphys: slot with Ultra Equip \"Iron Star\". Additionally, for 15s, reduce Enemies' Light RES and Physical RES by 35%.",
-                trueartsbreak: 1500
+                trueartsbreak: 1500,
+                ultra: "2s CT - 3000% Light DMG (PHY). Heal Allies' HP by 1000. For 15s, reduce Enemies' PHY RES by 5% (stackable). ",
+                ultrabreak: 300,
+                ultratype: "/db/Mines/thumbnail/physLB.png"
             },
         passive: 
             {
@@ -18926,7 +18931,6 @@ const UnitInformation = [
                         ability2: "Increase own Healing Output by 20% (except Lifesteal)."
                     }
             },
-            // Ultra Equip code missing
         lore: 
             {   
                 evo5: "Missing Lore Information, please contact site owner",
