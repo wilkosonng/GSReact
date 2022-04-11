@@ -72,8 +72,8 @@ function GettingStarted() {
                 <AccordionHeader targetId="1">
                     <p>Q01. How do I download Grand Summoners?</p>
                 </AccordionHeader>
-                <AccordionItem accordionId="1" >
-                    <AccordionBody style={accordionColor}>
+                <AccordionItem>
+                    <AccordionBody accordionId="1" style={accordionColor}>
                     <p>You can download Grand Summoners from the relevant App Store for your device, or from downloading a .apk for the current update. 
                         If Grand Summoners is not available in your country, you can use <a href="https://www.qoo-app.com/en">QooApp</a> as a workaround.</p>
                     </AccordionBody>
