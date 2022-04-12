@@ -18811,7 +18811,8 @@ const UnitInformation = [
                 trueartsbreak: 1800,
                 ultra: "2s CT - 5000% Fire DMG (MAG). For 15s, increase own Critical DMG by 30% (stackable).",
                 ultrabreak: 500,
-                ultratype: "/db/Mines/thumbnail/magLB.png"
+                ultratype: "/db/Mines/thumbnail/magLB.png",
+                ultraname: "Gramrude"
             },
         passive: 
             {
@@ -18894,7 +18895,8 @@ const UnitInformation = [
                 trueartsbreak: 1500,
                 ultra: "2s CT - 3000% Light DMG (PHY). Heal Allies' HP by 1000. For 15s, reduce Enemies' PHY RES by 5% (stackable). ",
                 ultrabreak: 300,
-                ultratype: "/db/Mines/thumbnail/physLB.png"
+                ultratype: "/db/Mines/thumbnail/physLB.png",
+                ultraname: "Iron Star"
             },
         passive: 
             {
