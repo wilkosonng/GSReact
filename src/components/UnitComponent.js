@@ -1,9 +1,9 @@
 import React from 'react';
-import { Media, Container, Nav, NavItem
+import { Media, Container, Nav, NavItem, Card, CardHeader, CardBody
 } from 'reactstrap';
 import '../index.css';
 import '../App.css';
-import { useParams, Link, Routes, Route, Outlet } from 'react-router-dom';
+import { useParams, Link, Routes, Route, Outlet, NavLink } from 'react-router-dom';
 import { getUnitByName } from '../shared/unitInfo';
 import { RenderTrue } from './unitinfo/TrueComponent';
 import { RenderStats } from './unitinfo/StatsComponent';
@@ -12,49 +12,76 @@ import { RenderTwoStar, RenderThreeStar, RenderFourStar, RenderFiveStar, RenderA
 function UnitDetails () {
     const selectedUnit = useParams();
     const units = getUnitByName(selectedUnit.unitName);
-
-    /*TODO: 
-        Create folder to separate the functions in other files to clean up
-    */
+    
     return (
         <React.Fragment>
-            <center>
-                <Nav card="true" justified style={{backgroundColor: "#2e9cca", height: "2rem", marginTop: "1rem"}}>
-                    <NavItem>
-                        <Link to="" activeClassName="active" style={{color: "#25274d"}}>Lore</Link>
-                    </NavItem>
-                    <NavItem>
-                        <Link to="stats" activeClassName="active" style={{color: "#25274d"}}>Stats</Link>
-                    </NavItem>
-                    <NavItem>
-                        <Link to="trueweapon" activeClassName="active" style={{color: "#25274d"}}>True Weapon</Link>
-                    </NavItem>
-                </Nav>
-            </center>
             
             
 
             <Container>
                 <Routes>
-                    <Route path="/" element={<React.Fragment>  
+                    <Route path="/" element={<UnitHome />} >
+                        <Route path="lore" element={<React.Fragment>  
                         <RenderLore unitLore={units.lore} unitImage={units.image} unitName={units.name} />
-                        </React.Fragment>} >
+                        </React.Fragment>}>
                             <Route index />
                             <Route path="twostar" element={<RenderTwoStar lore={units.lore.evo2} unitImage={units.image} unitEvo={units.evolution} />} />
                             <Route path="threestar" element={<RenderThreeStar lore={units.lore.evo3} unitImage={units.image} unitEvo={units.evolution} />} />
                             <Route path="fourstar" element={<RenderFourStar lore={units.lore.evo4} unitImage={units.image} unitEvo={units.evolution} />} />
                             <Route path="fivestar" element={<RenderFiveStar lore={units.lore.evo5} unitImage={units.image} unitEvo={units.evolution} />} />
                             <Route path="awaken" element={<RenderAwaken lore={units.lore.evoawk} unitImage={units.image} unitEvo={units.evolution} />} />
-                    </Route>
+                            </Route>
                     <Route path="stats" element={<React.Fragment>
                                                     <RenderStats unitName={units.name} unitStats={units.stats} 
                                                     unitAtt={units.attribute} unitType={units.type} unitSkill={units.skillset} 
                                                     unitPassive={units.passive} unitSlots={units.slots} unitImage={units.image}/>
                                                     </React.Fragment>} />
                     <Route path="trueweapon" element={<RenderTrue unitTrue={units} />} />
+                    </Route>
                 </Routes>
             </Container>
         </React.Fragment>
+    )
+}
+
+function UnitHome() {
+    return (
+        <center>
+            <Card style={{backgroundColor: "#25274d", paddingBottom: "2rem"}}>
+                <CardHeader style={{backgroundColor: "#29648a"}}>
+                    <h2>Select a category to view Unit Information</h2>
+                </CardHeader>
+                <CardBody>
+                    <Nav card="true" justified style={{backgroundColor: "#2e9cca", height: "4rem", marginTop: "1rem"}}>
+                    <NavItem>
+                        <NavLink to="lore" style={({ isActive }) => ({
+                                                fontSize: "2rem",
+                                                color: isActive ? '#25274d' : '#aaabb8',
+                                                textDecoration: isActive ? '' : 'none'})}>
+                            Lore
+                        </NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink to="stats" style={({ isActive }) => ({
+                                                    fontSize: "2rem",
+                                                    color: isActive ? '#25274d' : '#aaabb8',
+                                                    textDecoration: isActive ? '' : 'none'})}>
+                            Stats
+                        </NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink to="trueweapon" style={({ isActive }) => ({
+                                                        fontSize: "2rem",
+                                                        color: isActive ? '#25274d' : '#aaabb8',
+                                                        textDecoration: isActive ? '' : 'none'})}>
+                            True Weapon
+                        </NavLink>
+                    </NavItem>
+                    </Nav>
+                </CardBody>
+                <Outlet />
+            </Card>
+        </center>
     )
 }
 
