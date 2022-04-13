@@ -55,7 +55,11 @@ function UnitHome() {
                     <Nav card="true" justified style={{backgroundColor: "#2e9cca", height: "4rem", marginTop: "1rem"}}>
                     <NavItem>
                         <NavLink to="lore" style={({ isActive }) => ({
-                                                fontSize: "2rem",
+                                                display: "flex",
+                                                justifyContent: "center",
+                                                alignItems: "center",
+                                                fontSize: "1.5rem",
+                                                height: "6vh",
                                                 color: isActive ? '#25274d' : '#aaabb8',
                                                 textDecoration: isActive ? '' : 'none'})}>
                             Lore
@@ -63,7 +67,11 @@ function UnitHome() {
                     </NavItem>
                     <NavItem>
                         <NavLink to="stats" style={({ isActive }) => ({
-                                                    fontSize: "2rem",
+                                                    display: "flex",
+                                                    justifyContent: "center",
+                                                    alignItems: "center",
+                                                    fontSize: "1.5rem",
+                                                    height: "6vh",
                                                     color: isActive ? '#25274d' : '#aaabb8',
                                                     textDecoration: isActive ? '' : 'none'})}>
                             Stats
@@ -71,7 +79,11 @@ function UnitHome() {
                     </NavItem>
                     <NavItem>
                         <NavLink to="trueweapon" style={({ isActive }) => ({
-                                                        fontSize: "2rem",
+                                                        display: "flex",
+                                                        justifyContent: "center",
+                                                        alignItems: "center",
+                                                        fontSize: "1.5rem",
+                                                        height: "6vh",
                                                         color: isActive ? '#25274d' : '#aaabb8',
                                                         textDecoration: isActive ? '' : 'none'})}>
                             True Weapon
