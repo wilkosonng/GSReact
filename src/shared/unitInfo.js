@@ -5878,7 +5878,7 @@ const UnitInformation = [
             {
                 name: "Saint Blaze",
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "/db/Equipment/Detail/item_Detail_106241.png",
+                detail: "/db/Equipment/Detail/item_detail_106241.png",
                 skill: "65s CT - 9500% Water DMG (PHY). For 10s, increase Water Allies' DMG by 40%.",
                 skillbreak: 1000,
                 passive: 
