@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Container, Row, Col, Media, Badge, Table, Nav, NavItem, TabContent, TabPane, NavLink, Card, CardHeader, CardBody, CardText, CardTitle } from 'reactstrap';
+import classnames from 'classnames';
 
 const lbIconSize = {
     maxHeight: 40,
@@ -82,7 +83,7 @@ export function RenderStats({unitName, unitStats, unitAtt, unitType, unitSkill, 
                                             </tr>
                                         </Table>
                                     </Col>
-                                    <Col xs="4">
+                                    <Col lg="auto">
                                         <h3><strong>SLOTS</strong></h3>
                                         <Table bordered>
                                             <tr>
@@ -100,21 +101,21 @@ export function RenderStats({unitName, unitStats, unitAtt, unitType, unitSkill, 
                                     </Col>
                                 </Row>
                                 <Row>
-                                    <Col xs="4">
+                                    <Col lg="auto">
                                         <h3><strong>SKILL</strong></h3>
                                         <p><Badge color="primary" pill>BREAK {unitSkill.skillbreak}</Badge> {unitSkill.skill}</p>
                                     </Col>
-                                    <Col xs="4">
+                                    <Col lg="auto">
                                         <h3><strong>ARTS</strong></h3>
                                         <p><Badge color="primary" pill>BREAK {unitSkill.artsbreak}</Badge> {unitSkill.arts}</p>
                                     </Col>
-                                    <Col xs="4">
+                                    <Col lg="auto">
                                         <h3><strong>TRUE ARTS</strong></h3>
                                         <p><Badge color="primary" pill>BREAK {unitSkill.trueartsbreak}</Badge> {unitSkill.truearts}</p>
                                     </Col>
                                 </Row>
                                 <Row>
-                                    <Col xs="6">
+                                    <Col lg="auto">
                                         <h3><strong>Ultra "{unitSkill.ultraname}"</strong></h3>
                                         <h4>5☆ <img src={unitSkill.ultratype} style={lbIconSize} /></h4>
                                         <p><Badge color="primary" pill>BREAK {unitSkill.ultrabreak}</Badge> {unitSkill.ultra}</p>
@@ -126,7 +127,7 @@ export function RenderStats({unitName, unitStats, unitAtt, unitType, unitSkill, 
                                             </ul>
                                         </p>
                                     </Col>
-                                    <Col xs="6">
+                                    <Col lg="auto">
                                         <h3><strong>PASSIVES</strong></h3>
                                         <ul>
                                             <li>{unitPassive.ability1}</li>
@@ -145,16 +146,24 @@ export function RenderStats({unitName, unitStats, unitAtt, unitType, unitSkill, 
                 return (
                     //Create tabs for Human and Liberation
                     <React.Fragment>
-                        <Nav tabs>
+                        <Card style={unitCard}>
+                            <CardHeader>
+                                <center>
+                                    <RenderDetail detail={unitImage.detailawk} />
+                                    <h1><strong>{unitName}</strong></h1>
+                                    <p><i>{unitAtt} , {unitType}</i></p>
+                                </center>
+                            </CardHeader>
+                            <CardBody>
+                            <Nav tabs justified>
                             <NavItem>
-                                <NavLink className="active"
+                                <NavLink className={classnames({ active: currentTab === '1' })}
                                     onClick={() => {toggle('1')}} >
                                         <Media src={unitImage.thumbawk} object-fit="cover" id="unitName"/>
-                                </NavLink>
-                                
+                                </NavLink> 
                             </NavItem>
                             <NavItem>
-                                <NavLink className=""
+                                <NavLink className={classnames({ active: currentTab === '2' })}
                                     onClick={() => {toggle('2')}} >
                                         <Media src={unitImage.liberation} object-fit="cover" id="unitName"/>
                                 </NavLink>
@@ -170,6 +179,8 @@ export function RenderStats({unitName, unitStats, unitAtt, unitType, unitSkill, 
                                     unitPassive={unitPassive} unitSlots={unitSlots} unitImage={unitImage.detailawk}/>
                             </TabPane>
                         </TabContent>
+                            </CardBody>
+                        </Card>
                     </React.Fragment>
                 );
             }
@@ -219,7 +230,7 @@ export function RenderStats({unitName, unitStats, unitAtt, unitType, unitSkill, 
                                             </tr>
                                         </Table>
                                     </Col>
-                                    <Col xs="4">
+                                    <Col lg="auto">
                                         <h3><strong>SLOTS</strong></h3>
                                         <Table bordered>
                                             <tr>
@@ -237,25 +248,25 @@ export function RenderStats({unitName, unitStats, unitAtt, unitType, unitSkill, 
                                     </Col>
                                 </Row>
                                 <Row>
-                                    <Col xs="4">
+                                    <Col lg="auto">
                                         <h3><strong>SKILL</strong></h3>
                                         <p><Badge color="primary" pill>BREAK {unitSkill.skillbreak}</Badge> {unitSkill.skill}</p>
                                     </Col>
-                                    <Col xs="4">
+                                    <Col lg="auto">
                                         <h3><strong>ARTS</strong></h3>
                                         <p><Badge color="primary" pill>BREAK {unitSkill.artsbreak}</Badge> {unitSkill.arts}</p>
                                     </Col>
-                                    <Col xs="4">
+                                    <Col lg="auto">
                                         <h3><strong>TRUE ARTS</strong></h3>
                                         <p><Badge color="primary" pill>BREAK {unitSkill.trueartsbreak}</Badge> {unitSkill.truearts}</p>
                                     </Col>
                                 </Row>
                                 <Row>
-                                    <Col xs="6">
+                                    <Col lg="auto">
                                         <h3><strong>PHANTOM BULLET</strong></h3>
                                         <p><Badge color="primary" pill>BREAK {unitSkill.phantombulletbreak}</Badge> {unitSkill.phantombullet}</p>
                                     </Col>
-                                    <Col xs="6">
+                                    <Col lg="auto">
                                         <h3><strong>PASSIVES</strong></h3>
                                         <ul>
                                             <li>{unitPassive.ability1}</li>
@@ -318,7 +329,7 @@ export function RenderStats({unitName, unitStats, unitAtt, unitType, unitSkill, 
                                                 </tr>
                                             </Table>
                                         </Col>
-                                        <Col xs="4">
+                                        <Col lg="auto">
                                             <h3><strong>SLOTS</strong></h3>
                                             <Table bordered>
                                                 <tr>
@@ -336,25 +347,25 @@ export function RenderStats({unitName, unitStats, unitAtt, unitType, unitSkill, 
                                         </Col>
                                     </Row>
                                     <Row>
-                                        <Col xs="4">
+                                        <Col lg="auto">
                                             <h3><strong>SKILL</strong></h3>
                                             <p><Badge color="primary" pill>BREAK {unitSkill.skillbreak}</Badge> {unitSkill.skill}</p>
                                         </Col>
-                                        <Col xs="4">
+                                        <Col lg="auto">
                                             <h3><strong>ARTS</strong></h3>
                                             <p><Badge color="primary" pill>BREAK {unitSkill.artsbreak}</Badge> {unitSkill.arts}</p>
                                         </Col>
-                                        <Col xs="4">
+                                        <Col lg="auto">
                                             <h3><strong>TRUE ARTS</strong></h3>
                                             <p><Badge color="primary" pill>BREAK {unitSkill.trueartsbreak}</Badge> {unitSkill.truearts}</p>
                                         </Col>
                                     </Row>
                                     <Row>
-                                        <Col xs="6">
+                                        <Col lg="auto">
                                             <h3><strong>CROSS ARTS</strong></h3>
                                             <p><Badge color="primary" pill>BREAK {unitSkill.crossartsbreak}</Badge> {unitSkill.crossarts}</p>
                                         </Col>
-                                        <Col xs="6">
+                                        <Col lg="auto">
                                             <h3><strong>PASSIVES</strong></h3>
                                             <ul>
                                                 <li>{unitPassive.ability1}</li>
@@ -414,7 +425,7 @@ export function RenderStats({unitName, unitStats, unitAtt, unitType, unitSkill, 
                                                 </tr>
                                             </Table>
                                         </Col>
-                                        <Col xs="4">
+                                        <Col lg="auto">
                                             <h3><strong>SLOTS</strong></h3>
                                             <Table bordered>
                                                 <tr>
@@ -432,25 +443,25 @@ export function RenderStats({unitName, unitStats, unitAtt, unitType, unitSkill, 
                                         </Col>
                                     </Row>
                                     <Row>
-                                        <Col xs="4">
+                                        <Col lg="auto">
                                             <h3><strong>SKILL</strong></h3>
                                             <p><Badge color="primary" pill>BREAK {unitSkill.skillbreak}</Badge> {unitSkill.skill}</p>
                                         </Col>
-                                        <Col xs="4">
+                                        <Col lg="auto">
                                             <h3><strong>ARTS</strong></h3>
                                             <p><Badge color="primary" pill>BREAK {unitSkill.artsbreak}</Badge> {unitSkill.arts}</p>
                                         </Col>
-                                        <Col xs="4">    
+                                        <Col lg="auto">    
                                             <h3><strong>TRUE ARTS</strong></h3>
                                             <p><Badge color="primary" pill>BREAK {unitSkill.trueartsbreak}</Badge> {unitSkill.truearts}</p>
                                         </Col>
                                     </Row>
                                     <Row>
-                                        <Col xs="6">
+                                        <Col lg="auto">
                                             <h3><strong>CROSS ARTS</strong></h3>
                                             <p><Badge color="primary" pill>BREAK {unitSkill.crossartsbreak}</Badge> {unitSkill.crossarts}</p>
                                         </Col>
-                                        <Col xs="6">
+                                        <Col lg="auto">
                                             <h3><strong>PASSIVES</strong></h3>
                                             <ul>
                                                 <li>{unitPassive.ability1}</li>
@@ -510,7 +521,7 @@ export function RenderStats({unitName, unitStats, unitAtt, unitType, unitSkill, 
                                             </tr>
                                         </Table>
                                     </Col>
-                                    <Col xs="4">
+                                    <Col lg="auto">
                                         <h3><strong>SLOTS</strong></h3>
                                         <Table bordered>
                                             <tr>
@@ -528,22 +539,22 @@ export function RenderStats({unitName, unitStats, unitAtt, unitType, unitSkill, 
                                     </Col>
                                 </Row>
                                 <Row>
-                                    <Col xs="4">
+                                    <Col lg="auto">
                                         <h3><strong>SKILL</strong></h3>
                                         <p><Badge color="primary" pill>BREAK {unitSkill.skillbreak}</Badge> {unitSkill.skill}</p>
                                     </Col>
-                                    <Col xs="4">
+                                    <Col lg="auto">
                                         <h3><strong>ARTS</strong></h3>
                                         <p><Badge color="primary" pill>BREAK {unitSkill.artsbreak}</Badge> {unitSkill.arts}</p>
                                     </Col>
-                                    <Col xs="4">
+                                    <Col lg="auto">
                                         <h3><strong>TRUE ARTS</strong></h3>
                                         <p><Badge color="primary" pill>BREAK {unitSkill.trueartsbreak1}</Badge> {unitSkill.truearts1}</p>
                                         <p><Badge color="primary" pill>BREAK {unitSkill.trueartsbreak2}</Badge> {unitSkill.truearts2}</p>
                                     </Col>
                                 </Row>
                                 <Row>
-                                    <Col>
+                                    <Col lg="auto">
                                         <h3><strong>PASSIVES</strong></h3>
                                         <ul>
                                             <li>{unitPassive.ability1}</li>
@@ -602,7 +613,7 @@ export function RenderStats({unitName, unitStats, unitAtt, unitType, unitSkill, 
                                     </tr>
                                 </Table>
                             </Col>
-                            <Col xs="4">
+                            <Col lg="auto">
                                 <h3><strong>SLOTS</strong></h3>
                                 <Table bordered>
                                     <tr>
@@ -620,21 +631,21 @@ export function RenderStats({unitName, unitStats, unitAtt, unitType, unitSkill, 
                             </Col>
                         </Row>
                         <Row>
-                            <Col xs="4">
+                            <Col lg="auto">
                                 <h3><strong>SKILL</strong></h3>
                                 <p><Badge color="primary" pill>BREAK {unitSkill.skillbreak}</Badge> {unitSkill.skill}</p>
                             </Col>
-                            <Col xs="4">
+                            <Col lg="auto">
                                 <h3><strong>ARTS</strong></h3>
                                 <p><Badge color="primary" pill>BREAK {unitSkill.artsbreak}</Badge> {unitSkill.arts}</p>
                             </Col>
-                            <Col xs="4">
+                            <Col lg="auto">
                                 <h3><strong>TRUE ARTS</strong></h3>
                                 <p><Badge color="primary" pill>BREAK {unitSkill.trueartsbreak}</Badge> {unitSkill.truearts}</p>
                             </Col>
                         </Row>
                         <Row>
-                            <Col>
+                            <Col lg="auto">
                                 <h3><strong>PASSIVES</strong></h3>
                                 <ul>
                                     <li>{unitPassive.ability1}</li>
@@ -697,7 +708,7 @@ export function RenderStats({unitName, unitStats, unitAtt, unitType, unitSkill, 
                                         </tr>
                                     </Table>
                                 </Col>
-                                <Col xs="4">
+                                <Col lg="auto">
                                     <h3><strong>SLOTS</strong></h3>
                                     <Table bordered>
                                         <tr>
@@ -715,22 +726,22 @@ export function RenderStats({unitName, unitStats, unitAtt, unitType, unitSkill, 
                                 </Col>
                             </Row>
                             <Row>
-                                <Col xs="4">
+                                <Col lg="auto">
                                     <h3><strong>SKILL</strong></h3>
                                     <p><Badge color="primary" pill>BREAK {unitSkill.skillbreak1}</Badge> {unitSkill.skill}</p>
                                     <p><Badge color="primary" pill>BREAK {unitSkill.skillbreak2}</Badge> {unitSkill.magiaskill}</p>
                                 </Col>
-                                <Col xs="4">
+                                <Col lg="auto">
                                     <h3><strong>ARTS</strong></h3>
                                     <p><Badge color="primary" pill>BREAK {unitSkill.artsbreak}</Badge> {unitSkill.arts}</p>
                                 </Col>
-                                <Col xs="4">
+                                <Col lg="auto">
                                     <h3><strong>TRUE ARTS</strong></h3>
                                     <p><Badge color="primary" pill>BREAK {unitSkill.trueartsbreak}</Badge> {unitSkill.truearts}</p>
                                 </Col>
                             </Row>
                             <Row>
-                                <Col>
+                                <Col lg="auto">
                                     <h3><strong>PASSIVES</strong></h3>
                                     <ul>
                                         <li>{unitPassive.ability1}</li>
@@ -787,7 +798,7 @@ export function RenderStats({unitName, unitStats, unitAtt, unitType, unitSkill, 
                                     </tr>
                                 </Table>
                             </Col>
-                            <Col xs="4">
+                            <Col lg="auto">
                                 <h3><strong>SLOTS</strong></h3>
                                 <Table bordered>
                                     <tr>
@@ -805,21 +816,21 @@ export function RenderStats({unitName, unitStats, unitAtt, unitType, unitSkill, 
                             </Col>
                         </Row>
                         <Row>
-                            <Col xs="4">
+                            <Col lg="auto">
                                 <h3><strong>SKILL</strong></h3>
                                 <p><Badge color="primary" pill>BREAK {unitSkill.skillbreak}</Badge> {unitSkill.skill}</p>
                             </Col>
-                            <Col xs="4">
+                            <Col lg="auto">
                                 <h3><strong>ARTS</strong></h3>
                                 <p><Badge color="primary" pill>BREAK {unitSkill.artsbreak}</Badge> {unitSkill.arts}</p>
                             </Col>
-                            <Col xs="4">
+                            <Col lg="auto">
                                 <h3><strong>TRUE ARTS</strong></h3>
                                 <p><Badge color="primary" pill>BREAK {unitSkill.trueartsbreak}</Badge> {unitSkill.truearts}</p>
                             </Col>
                         </Row>
                         <Row>
-                            <Col>
+                            <Col lg="auto">
                                 <h3><strong>PASSIVES</strong></h3>
                                 <ul>
                                     <li>{unitPassive.ability1}</li>
@@ -881,7 +892,7 @@ export function RenderStats({unitName, unitStats, unitAtt, unitType, unitSkill, 
                                         </tr>
                                     </Table>
                                 </Col>
-                                <Col xs="4">
+                                <Col lg="auto">
                                     <h3><strong>SLOTS</strong></h3>
                                     <Table bordered>
                                         <tr>
@@ -899,17 +910,17 @@ export function RenderStats({unitName, unitStats, unitAtt, unitType, unitSkill, 
                                 </Col>
                             </Row>
                             <Row>
-                                <Col xs="4">
+                                <Col lg="auto">
                                     <h3><strong>SKILL</strong></h3>
                                     <p><Badge color="primary" pill>BREAK {unitSkill.skillbreak}</Badge> {unitSkill.skill}</p>
                                 </Col>
-                                <Col xs="4">
+                                <Col lg="auto">
                                     <h3><strong>ARTS</strong></h3>
                                     <p><Badge color="primary" pill>BREAK {unitSkill.artsbreak}</Badge> {unitSkill.arts}</p>
                                 </Col>
                             </Row>
                             <Row>
-                                <Col>
+                                <Col lg="auto">
                                     <h3><strong>PASSIVES</strong></h3>
                                     <ul>
                                         <li>{unitPassive.ability1}</li>
@@ -967,7 +978,7 @@ export function RenderStats({unitName, unitStats, unitAtt, unitType, unitSkill, 
                                     </tr>
                                 </Table>
                             </Col>
-                            <Col xs="4">
+                            <Col lg="auto">
                                 <h3><strong>SLOTS</strong></h3>
                                 <Table bordered>
                                     <tr>
@@ -985,17 +996,17 @@ export function RenderStats({unitName, unitStats, unitAtt, unitType, unitSkill, 
                             </Col>
                         </Row>
                         <Row>
-                            <Col xs="4">
+                            <Col lg="auto">
                                 <h3><strong>SKILL</strong></h3>
                                 <p><Badge color="primary" pill>BREAK {unitSkill.skillbreak}</Badge> {unitSkill.skill}</p>
                             </Col>
-                            <Col xs="4">
+                            <Col lg="auto">
                                 <h3><strong>ARTS</strong></h3>
                                 <p><Badge color="primary" pill>BREAK {unitSkill.artsbreak}</Badge> {unitSkill.arts}</p>
                             </Col>
                         </Row>
                         <Row>
-                            <Col>
+                            <Col lg="auto">
                                 <h3><strong>PASSIVES</strong></h3>
                                 <ul>
                                     <li>{unitPassive.ability1}</li>
@@ -1012,189 +1023,171 @@ export function RenderStats({unitName, unitStats, unitAtt, unitType, unitSkill, 
 }
 
 //Human version of Liberation Units Tab
-export function HumanMode ({unitName, unitStats, unitAtt, unitType, unitSkill, unitPassive, unitSlots, unitImage}) {
+export function HumanMode ({unitStats, unitSkill, unitPassive, unitSlots}) {
     return (
         <Container>
-            <Card style={unitCard}>
-                <CardHeader>
-                    <center>
-                        <RenderDetail detail={unitImage} />
-                        <h1><strong>{unitName}</strong></h1>
-                        <p><i>{unitAtt} , {unitType}</i></p>
-                    </center>
-                </CardHeader>
-                <CardBody>
-                    <Row>
-                        <Col>
-                            <Table bordered>
-                                <tr>
-                                    <th>
-                                    HP
-                                    </th>
-                                    <th>
-                                    ATK
-                                    </th>
-                                    <th>
-                                    DEF
-                                    </th>
-                                </tr>
-                                <tr>
-                                    <td>{unitStats.hp} </td>
-                                    <td>{unitStats.atk} </td>
-                                    <td>{unitStats.def} </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <Badge color="info" pill>+{unitStats.hpplus}</Badge>
-                                    </td>
-                                    <td>
-                                        <Badge color="info" pill>+{unitStats.atkplus}</Badge>
-                                    </td>
-                                    <td>
-                                        <Badge color="info" pill>+{unitStats.defplus}</Badge>
-                                    </td>
-                                </tr>
-                            </Table>
-                        </Col>
-                        <Col xs="4">
-                            <h3><strong>SLOTS</strong></h3>
-                            <Table bordered>
-                                <tr>
-                                    <th>
-                                        <h4>{unitSlots.slot1}☆ <Media src={unitSlots.slot1type} style={lbIconSize} /></h4>
-                                    </th>
-                                    <th>
-                                        <h4>{unitSlots.slot2}☆ <Media src={unitSlots.slot2type} style={lbIconSize} /></h4>
-                                    </th>
-                                    <th>
-                                        <h4>{unitSlots.slot3}☆ <Media src={unitSlots.slot3type} style={lbIconSize} /></h4>
-                                    </th>
-                                </tr>
-                            </Table>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col xs="4">
-                            <h3><strong>SKILL</strong></h3>
-                            <p><Badge color="primary" pill>BREAK {unitSkill.skillbreak}</Badge> {unitSkill.skill}</p>
-                        </Col>
-                        <Col xs="4">
-                            <h3><strong>ARTS</strong></h3>
-                            <p><Badge color="primary" pill>BREAK {unitSkill.artsbreak}</Badge> {unitSkill.arts}</p>
-                        </Col>
-                        <Col xs="4">
-                            <h3><strong>TRUE ARTS</strong></h3>
-                            <p><Badge color="primary" pill>BREAK {unitSkill.trueartsbreak}</Badge> {unitSkill.truearts}</p>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col xs="4">
-                            <h3><strong>PASSIVES</strong></h3>
-                            <ul>
-                                <li>{unitPassive.ability1}</li>
-                                <li>{unitPassive.ability2}</li>
-                                <li>{unitPassive.ability3}</li>
-                            </ul>
-                        </Col>
-                    </Row>
-                </CardBody>
-            </Card>
+            <CardBody>
+                <Row>
+                    <Col>
+                        <Table bordered>
+                            <tr>
+                                <th>
+                                HP
+                                </th>
+                                <th>
+                                ATK
+                                </th>
+                                <th>
+                                DEF
+                                </th>
+                            </tr>
+                            <tr>
+                                <td>{unitStats.hp} </td>
+                                <td>{unitStats.atk} </td>
+                                <td>{unitStats.def} </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <Badge color="info" pill>+{unitStats.hpplus}</Badge>
+                                </td>
+                                <td>
+                                    <Badge color="info" pill>+{unitStats.atkplus}</Badge>
+                                </td>
+                                <td>
+                                    <Badge color="info" pill>+{unitStats.defplus}</Badge>
+                                </td>
+                            </tr>
+                        </Table>
+                    </Col>
+                    <Col lg="auto">
+                        <h3><strong>SLOTS</strong></h3>
+                        <Table bordered>
+                            <tr>
+                                <th>
+                                    <h4>{unitSlots.slot1}☆ <Media src={unitSlots.slot1type} style={lbIconSize} /></h4>
+                                </th>
+                                <th>
+                                    <h4>{unitSlots.slot2}☆ <Media src={unitSlots.slot2type} style={lbIconSize} /></h4>
+                                </th>
+                                <th>
+                                    <h4>{unitSlots.slot3}☆ <Media src={unitSlots.slot3type} style={lbIconSize} /></h4>
+                                </th>
+                            </tr>
+                        </Table>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col lg="auto">
+                        <h3><strong>SKILL</strong></h3>
+                        <p><Badge color="primary" pill>BREAK {unitSkill.skillbreak}</Badge> {unitSkill.skill}</p>
+                    </Col>
+                    <Col lg="auto">
+                        <h3><strong>ARTS</strong></h3>
+                        <p><Badge color="primary" pill>BREAK {unitSkill.artsbreak}</Badge> {unitSkill.arts}</p>
+                    </Col>
+                    <Col lg="auto">
+                        <h3><strong>TRUE ARTS</strong></h3>
+                        <p><Badge color="primary" pill>BREAK {unitSkill.trueartsbreak}</Badge> {unitSkill.truearts}</p>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col lg="auto">
+                        <h3><strong>PASSIVES</strong></h3>
+                        <ul>
+                            <li>{unitPassive.ability1}</li>
+                            <li>{unitPassive.ability2}</li>
+                            <li>{unitPassive.ability3}</li>
+                        </ul>
+                    </Col>
+                </Row>
+            </CardBody>
         </Container>
     );
 }
 
 //Liberation Skill Tab
-export function LiberationMode ({unitName, unitStats, unitAtt, unitType, unitSkill, unitPassive, unitSlots, unitImage}) {
+export function LiberationMode ({unitStats, unitSkill, unitPassive, unitSlots}) {
     return (
         <Container>
-            <Card style={unitCard}>
-                <CardHeader>
-                    <center>
-                        <RenderDetail detail={unitImage} />
-                        <h1><strong>{unitName}</strong></h1>
-                        <p><i>{unitAtt} , {unitType}</i></p>
-                    </center>
-                </CardHeader>
-                <CardBody>
-                    <Row>
-                        <Col>
-                            <Table bordered>
-                                <tr>
-                                    <th>
-                                    HP
-                                    </th>
-                                    <th>
-                                    ATK
-                                    </th>
-                                    <th>
-                                    DEF
-                                    </th>
-                                </tr>
-                                <tr>
-                                    <td>{unitStats.hp} </td>
-                                    <td>{unitStats.atk} </td>
-                                    <td>{unitStats.def} </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <Badge color="info" pill>+{unitStats.hpplus}</Badge>
-                                    </td>
-                                    <td>
-                                        <Badge color="info" pill>+{unitStats.atkplus}</Badge>
-                                    </td>
-                                    <td>
-                                        <Badge color="info" pill>+{unitStats.defplus}</Badge>
-                                    </td>
-                                </tr>
-                            </Table>
-                        </Col>
-                        <Col xs="4">
-                            <h3><strong>SLOTS</strong></h3>
-                            <Table bordered>
-                                <tr>
-                                    <th>
-                                        <h4>{unitSlots.slot1}☆ <Media src={unitSlots.slot1type} style={lbIconSize} /></h4>
-                                    </th>
-                                    <th>
-                                        <h4>{unitSlots.slot2}☆ <Media src={unitSlots.slot2type} style={lbIconSize} /></h4>
-                                    </th>
-                                    <th>
-                                        <h4>{unitSlots.slot3}☆ <Media src={unitSlots.slot3type} style={lbIconSize} /></h4>
-                                    </th>
-                                </tr>
-                            </Table>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col>
-                            <h3><strong>LIBERATION SKILLS</strong></h3>
-                            <ul>
-                                <li><Badge color="primary" pill>BREAK {unitSkill.skill1break}</Badge> {unitSkill.skill1}</li>
-                                <li><Badge color="primary" pill>BREAK {unitSkill.skill2break}</Badge> {unitSkill.skill2}</li>
-                                <li><Badge color="primary" pill>BREAK {unitSkill.skill3break}</Badge> {unitSkill.skill3}</li>
-                            </ul>
-                            <h3><strong>MEGA SKILL</strong></h3>
-                            <p><Badge color="primary" pill>BREAK {unitSkill.megaskillbreak}</Badge> {unitSkill.megaskill}</p>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col>
-                            <h3><strong>MEGA ARTS</strong></h3>
-                            <p><Badge color="primary" pill>BREAK {unitSkill.megaartsbreak}</Badge> {unitSkill.megaarts}</p>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col>
-                            <h3><strong>PASSIVES</strong></h3>
-                            <ul>
-                                <li>{unitPassive.ability1}</li>
-                                <li>{unitPassive.ability2}</li>
-                                <li>{unitPassive.ability3}</li>
-                            </ul>
-                        </Col>
-                    </Row>
-                </CardBody>
-            </Card>
+            <CardBody>
+                <Row>
+                    <Col>
+                        <Table bordered>
+                            <tr>
+                                <th>
+                                HP
+                                </th>
+                                <th>
+                                ATK
+                                </th>
+                                <th>
+                                DEF
+                                </th>
+                            </tr>
+                            <tr>
+                                <td>{unitStats.hp} </td>
+                                <td>{unitStats.atk} </td>
+                                <td>{unitStats.def} </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <Badge color="info" pill>+{unitStats.hpplus}</Badge>
+                                </td>
+                                <td>
+                                    <Badge color="info" pill>+{unitStats.atkplus}</Badge>
+                                </td>
+                                <td>
+                                    <Badge color="info" pill>+{unitStats.defplus}</Badge>
+                                </td>
+                            </tr>
+                        </Table>
+                    </Col>
+                    <Col lg="auto">
+                        <h3><strong>SLOTS</strong></h3>
+                        <Table bordered>
+                            <tr>
+                                <th>
+                                    <h4>{unitSlots.slot1}☆ <Media src={unitSlots.slot1type} style={lbIconSize} /></h4>
+                                </th>
+                                <th>
+                                    <h4>{unitSlots.slot2}☆ <Media src={unitSlots.slot2type} style={lbIconSize} /></h4>
+                                </th>
+                                <th>
+                                    <h4>{unitSlots.slot3}☆ <Media src={unitSlots.slot3type} style={lbIconSize} /></h4>
+                                </th>
+                            </tr>
+                        </Table>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col lg="auto">
+                        <h3><strong>LIBERATION SKILLS</strong></h3>
+                        <ul>
+                            <li><Badge color="primary" pill>BREAK {unitSkill.skill1break}</Badge> {unitSkill.skill1}</li>
+                            <li><Badge color="primary" pill>BREAK {unitSkill.skill2break}</Badge> {unitSkill.skill2}</li>
+                            <li><Badge color="primary" pill>BREAK {unitSkill.skill3break}</Badge> {unitSkill.skill3}</li>
+                        </ul>
+                        <h3><strong>MEGA SKILL</strong></h3>
+                        <p><Badge color="primary" pill>BREAK {unitSkill.megaskillbreak}</Badge> {unitSkill.megaskill}</p>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col lg="auto">
+                        <h3><strong>MEGA ARTS</strong></h3>
+                        <p><Badge color="primary" pill>BREAK {unitSkill.megaartsbreak}</Badge> {unitSkill.megaarts}</p>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col lg="auto">
+                        <h3><strong>PASSIVES</strong></h3>
+                        <ul>
+                            <li>{unitPassive.ability1}</li>
+                            <li>{unitPassive.ability2}</li>
+                            <li>{unitPassive.ability3}</li>
+                        </ul>
+                    </Col>
+                </Row>
+            </CardBody>
         </Container>
     )
 }
