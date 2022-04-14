@@ -15,9 +15,6 @@ function UnitDetails () {
     
     return (
         <React.Fragment>
-            
-            
-
             <Container>
                 <Routes>
                     <Route path="/" element={<UnitHome />} >
@@ -46,15 +43,27 @@ function UnitDetails () {
 
 function UnitHome() {
     return (
-        <center>
-            <Card style={{backgroundColor: "#25274d", paddingBottom: "2rem"}}>
-                <CardHeader style={{backgroundColor: "#29648a"}}>
-                    <h2>Select a category to view Unit Information</h2>
-                </CardHeader>
-                <CardBody>
-                    <Nav card="true" justified style={{backgroundColor: "#2e9cca", height: "4rem", marginTop: "1rem"}}>
-                    <NavItem>
-                        <NavLink to="lore" style={({ isActive }) => ({
+        <Card style={{backgroundColor: "#25274d", paddingBottom: "2rem"}}>
+            <center>
+            <CardHeader style={{backgroundColor: "#29648a"}}>
+                <h2>Select a category to view Unit Information</h2>
+            </CardHeader>
+            <CardBody>
+                <Nav card="true" justified style={{backgroundColor: "#2e9cca", height: "4rem", marginTop: "1rem"}}>
+                <NavItem>
+                    <NavLink to="lore" style={({ isActive }) => ({
+                                            display: "flex",
+                                            justifyContent: "center",
+                                            alignItems: "center",
+                                            fontSize: "1.5rem",
+                                            height: "6vh",
+                                            color: isActive ? '#25274d' : '#aaabb8',
+                                            textDecoration: isActive ? '' : 'none'})}>
+                        Lore
+                    </NavLink>
+                </NavItem>
+                <NavItem>
+                    <NavLink to="stats" style={({ isActive }) => ({
                                                 display: "flex",
                                                 justifyContent: "center",
                                                 alignItems: "center",
@@ -62,11 +71,11 @@ function UnitHome() {
                                                 height: "6vh",
                                                 color: isActive ? '#25274d' : '#aaabb8',
                                                 textDecoration: isActive ? '' : 'none'})}>
-                            Lore
-                        </NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink to="stats" style={({ isActive }) => ({
+                        Stats
+                    </NavLink>
+                </NavItem>
+                <NavItem>
+                    <NavLink to="trueweapon" style={({ isActive }) => ({
                                                     display: "flex",
                                                     justifyContent: "center",
                                                     alignItems: "center",
@@ -74,26 +83,14 @@ function UnitHome() {
                                                     height: "6vh",
                                                     color: isActive ? '#25274d' : '#aaabb8',
                                                     textDecoration: isActive ? '' : 'none'})}>
-                            Stats
-                        </NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink to="trueweapon" style={({ isActive }) => ({
-                                                        display: "flex",
-                                                        justifyContent: "center",
-                                                        alignItems: "center",
-                                                        fontSize: "1.5rem",
-                                                        height: "6vh",
-                                                        color: isActive ? '#25274d' : '#aaabb8',
-                                                        textDecoration: isActive ? '' : 'none'})}>
-                            True Weapon
-                        </NavLink>
-                    </NavItem>
-                    </Nav>
-                </CardBody>
-                <Outlet />
-            </Card>
-        </center>
+                        True Weapon
+                    </NavLink>
+                </NavItem>
+                </Nav>
+            </CardBody>
+            </center>
+            <Outlet />
+        </Card>
     )
 }
 
