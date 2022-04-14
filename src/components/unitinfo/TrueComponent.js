@@ -140,7 +140,7 @@ export function RenderTrue({unitTrue}) {
                 <React.Fragment>
                     <Card style={trueCard}>
                         <CardHeader>
-                            <Nav tabs>
+                            <Nav tabs justified>
                                 <NavItem>
                                     <NavLink className={classnames({ active: currentTab === '1' })}
                                         onClick={() => {toggle('1')}} >
