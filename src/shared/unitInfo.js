@@ -1462,7 +1462,7 @@ const UnitInformation = [
                 evoawk: "A hero praised as the Empyreal Beast. After realising his mistake in fleeing from the Machine weapon, he rushed back to the battlefield. Though afraid he was too late to stop the inevitable slaughter, he arrived to see his brothers-in-arms fighting against the menace, empowered by the belief that he would return. That was the inspiration he needed to shed his past regrets and face his destined foe."
             }
     },
-    { //Lily - Missing Evolution
+    { //Lily - Complete
         id: 100656512,
         name: "Lily",
         rank: "B-",
@@ -1561,7 +1561,7 @@ const UnitInformation = [
                 evoawk: "An opponent of the Gods in the Ancient War who was called the Deathbringer of Corpse Mountain. In truth, she was a Human girl who turned her hatred into a continual search for power. Once the Deathdealer had her target, she would pursue it without cease, even to death. Once, when she came again against a swordswoman who had ducked her demonic sickle once before, she took on the demeanor of a death-dealing force of nature to kill her foe. For some reason, the swordswoman merely complained under her breath and readied her sword. History does not record what happened next."
             }
     },
-    { //Rayas - Missing Evolution, TW Image
+    { //Rayas - Missing Lore
         id: 101016411,
         name: "Rayas",
         attribute: "Light",
@@ -1626,7 +1626,7 @@ const UnitInformation = [
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
                     mat2amt: 5
                 },
-                evo45: //reym how do crystal thing
+                evo45:
                 {
                     mat1: "/db/Icons/dungeon_drops/material_thumbnail_105750.png",
                     mat1amt: 5,
@@ -1763,7 +1763,7 @@ const UnitInformation = [
                 evo5: "A divine girl who has the power to break down the barriers surrounding Gods. Though Iris was unaware she possessed such a rare power, she was discovered by a Demon and held as a research subject for anti-God weaponry. Profound in their cruelty, Iris lost her memories as a result of the experiments, but eventually managed to escape. Her encounter with a young man awakened her true power further.",
             }
     },
-    { //Roy (WateR) - Complete
+    { //Roy (Water) - Complete
         id: 101036211,
         name: "Roy (Water)",
         rank: "C",
@@ -1955,7 +1955,7 @@ const UnitInformation = [
                 evoawk: "She felt she became stronger ever since the battle at Gormarey, the incident after, and the encounter with numerous people. Her weakness, her goals, what she could only do... these were the things she did not know before. At the same time, she noticed this, she understood that extraordinary possibilities were within her. That enormous power will become the hope of light in this dark world."
             }
     },
-    { //Fen (Earth) - Missing TW Image
+    { //Fen (Earth) - Complete
         id: 101056311,
         name: "Fen (Earth)",
         rank: "S-",
@@ -2244,7 +2244,7 @@ const UnitInformation = [
                 evoawk: "A sorcerer who chose to embrace the darkest parts of the Magus Empire of La Riiz. Her particular abilities and tendency toward rash, independent action invited dangerous misunderstandings. She fell into a trap, straining the faith of her friends, yet the unwavering trust of the adventurer broke through to her, and she resolved to face up to her past. Her sorcery thus broke away from her shadowy past to become something brilliant, something greater, something to protect those she held dear."
             }
     },
-    { //Ragsherum - Missing Special Evolution Material Image
+    { //Ragsherum - Complete
         id: 101086511,
         name: "Ragsherum",
         rank: "A-",
@@ -2340,7 +2340,7 @@ const UnitInformation = [
                 evoawk: "The divisional commander of the six great Demon Generals that revived at the Sealed Fortress Gormarey. At first, Demons were reviving sparsely. However, since they considered power the most, they never worked as groups and fought against themselves. One day Ragsherum had suppressed all the others and started his plan to revive Auge at Gormarey. Not only that, he desired to get the heart of Humans, the winner of the Ancient War, and to put them in fear and despair."
             }
     },
-    { //Grad - Missing Lore, Evolution, TW Image
+    { //Grad - Missing Lore
         id: 101096511,
         name: "Grad",
         rank: "A",
@@ -2524,7 +2524,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Ganan - Missing Evolution Source Image
+    { //Ganan - Complete
         id: 101116111,
         name: "Ganan",
         rank: "A-",
@@ -2613,7 +2613,7 @@ const UnitInformation = [
                 evoawk: "The most powerful warrior of the Adventurer's Guild and guild master of Reigard branch. Theroughout the days at Reigard, Ganan interacted with many young adventurers. Being touched by their passion, he reconsidered his own path, together with the unforgettable mistake of his past and the meaning of being a guild master now... Embracing the failure of his past, he takes a step forward to protect the heroes of tomorrow."
             }
     },
-    { //Gilliam - Missing TW Image
+    { //Gilliam - Missing Lore
         id: 101126311,
         name: "Gilliam",
         attribute: "Earth",
@@ -2698,10 +2698,10 @@ const UnitInformation = [
             {   
                 evo4: "A blacksmith who runs a weapons shop in the town of Reigrad. His expertise is known throughout nearby kingdoms, and though many would-be blacksmiths have begged to apprentice under him, only three have met his rigid standards. This means he can't take massive military orders like other blacksmiths, instead tailoring his work to individuals. He's also extremely picky about materials, and will fight monsters to get what he wants. He's drinking buddies with Ganan.",
                 evo5: "Though originally a highborn child of Bamint, Gilliam decided he didn't want to live according to his parents' whims and left the house at age 16 to travel the world. After falling in love with a certain blacksmith and demanding to become their apprentice, he heard tales of the legendary weapons used by the 3 Blade Masters. He set off on a yourney to amass materials to forge an even greater weapon, and the trail lef him to set up shop in Reigrad.",
-                evoawk: "Currently unreleased in Global."
+                evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Liese (Light) - Missing TW Image
+    { //Liese (Light) - Complete
         id: 101136411,
         name: "Liese (Light)",
         rank: "C",
@@ -2893,7 +2893,7 @@ const UnitInformation = [
                 evoawk: "The receptionist at the Arena. In order to settle things between her father and mother, she keeps training to become stronger than the two. Her father worries and tries to stop her. On the other hand, her mother helps her out secretly. She feels that unlike her expectations, the distance of the two are getting even farther. Yet, she still aims for a higher goal. This pure heart releases the strong power from her parents."
             }
     },
-    { //Sophie - Missing Evolution, TW Image
+    { //Sophie - Complete
         id: 101156111,
         name: "Sophie",
         rank: "TBD",
@@ -2982,7 +2982,7 @@ const UnitInformation = [
                 evoawk: "As head chef of the Firecat's Den, she works hard to make sure that her customers stay happy and satisfied. However, she tends to furrow her brow when focusing on her craft. This used to bother her, but the words of a novice adventurer made her concerns fly away. 'A good meal always puts a smile on your face!' was all she needed to hear to gather herself and head back to the kitchen, motivated as ever."
             }
     },
-    { //Rem (Grand Summoners) - Missing Lore, TW Image
+    { //Rem (Grand Summoners) - Missing Lore
         id: 101166511,
         name: "Rem (GS)",
         rank: "S-",
@@ -3076,7 +3076,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Arosdea - Missing Lore
+    { //Arosdea - Complete
         id: 101176112,
         name: "Arosdea",
         rank: "B",
@@ -4411,9 +4411,9 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo4: "Currently unreleased in Global.",
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
             }
     },
     { //Shadie - Complete
@@ -4570,7 +4570,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Teriodos - Missing Lore
+    { //Teriodos - Complete
         id: 101366112,
         name: "Teriodos",
         rank: "B+",
@@ -5043,7 +5043,7 @@ const UnitInformation = [
                 evoawk: "Regretting all she'd done, she shared tears with the knight who hunted her down. Gasping, she murmured kindly to him. 'I brought all this down on myself, you musn't regret ending me. Be proud of all you've done as a knight to defend your village. And I am truly glad to die in your arms... You, who have cared more for me than any other.' With her sacrifice, childhood friends long scattered were able to come together to revisit their younger days."
             }
     },
-    { //Quon - Missing Evolution
+    { //Quon - Complete
         id: 101556212,
         name: "Quon",
         rank: "B-",
@@ -5119,7 +5119,7 @@ const UnitInformation = [
                 evoawk: "After he drove off the danger that came to the forest and its Lord, and his daughter with them, he called out to her once more, but she only shook her head. Understanding that one's past cannot be changed, the man turned to leave. However, a forest Spirit close to the Lord appears to stop him. 'If you have the courage to become the forest's guardian, we will allow you to stay.' The man swore to stay on, protecting hte forest along with the mechanical doll that aided him in the earlier fight."
             }
     },
-    { //Feld - Missing Evolution
+    { //Feld - Complete
         id: 101566112,
         name: "Feld",
         rank: "B+",
@@ -5490,7 +5490,7 @@ const UnitInformation = [
                 evoawk: "'Spare the women and children...' This dignified swordsman never wavered in his principles. Perhaps it was this conviction, that let him remain true even when he was under attack, that helped the little girl's heart within the rampaging Giant of Ruin to win out. Although the swordsman could not win, he perhaps found some satisfaction in fighting a worthy adversary. The swordsman had a smile throughout the battle, and when the girl's frenzy abated, he held out his hand and took her on his journey."
             }
     },
-    { //Yumi - Complete
+    { //Yumi - Missing Lore
         id: 101616212,
         name: "Yumi",
         attribute: "Water",
@@ -5723,7 +5723,7 @@ const UnitInformation = [
                 evoawk: "The girl of Spirit who was after the power of 'the Destruction Giant' to become the true mediator. Noticing that the girl who was saved by a God swordsman was 'the Destruction Giant' herself, she teamed up with a researcher to seal and steal the powers. Their plan failed at the very end where they were fought back. Although a failure, seeing the strong powers of the Giant girl, she smiled mysteriously."
             }
     },
-    { //Mizyna - Missing Lore
+    { //Mizyna - Complete
         id: 101656512,
         name: "Mizyna",
         rank: "TBD",
@@ -5797,10 +5797,10 @@ const UnitInformation = [
             {   
                 evo4: "Having a complete attitude of achieving missions in the army, Mizyna had left a legacy. Recognized as a skilled knight, she was specially sent to capture the 'Destruction Giant' which had power to even destroy the world. She was almost able to get hold of the target, but was interrupted by a mysterious man.",
                 evo5: "An elite knight of the Demon army at the start of the Ancient War. During a mission to capture the 'Destruction Giant,' a swordsman interrupted. As a knight, the giant's capture was the priority. Yet, when the mysterious man appeared, the battle was euphoric.As Mizyna took the upper hand, the man told her, 'I won't kill women,' shaking Mizyna to her core. The most cutting insult to her long-hidden true identity finally made her 'feel' for the first time.",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evoawk: "Enraged by the swordsman's pity, Mizyna focuses solely on becoming stronger than him. However, she realized during their battle that strength alone wouldn't be sufficient. Through rigorous discipline, she pushes her skill to the limits in mastering the art of the spear to one day prove herself worthy."
             }
     },
-    { //Nies - Missing TW Image
+    { //Nies - Complete
         id: 101666212,
         name: "Nies",
         rank: "A-",
@@ -5894,7 +5894,7 @@ const UnitInformation = [
                 evoawk: "An invincible warrior and former leader of the Divine Knights. He fought to carve out the path he felt right, and they say his skill with the blade made him the match for any army. Still, they tell tales of his deeds. His life was often chaotic, and they say that when he saved a Demon because it was the right, he was forced to fight his brethren in arms. His great faith led to endless admiration for deeds surpassing mere race, and his name was honored for eternity throughout the land."
             }
     },
-    { //Sanstone - Missing Stats, Slots, Evolution, True Weapon, TW Image
+    { //Sanstone - Complete
         id: 101676112,
         name: "Sanstone",
         rank: "S-",
@@ -5988,7 +5988,7 @@ const UnitInformation = [
                 evoawk: "As a vice-commander of the Divine Guardian Divine Knights, she serves Platina without reserve, and fights ever on the front line to guard her commander and fellow knights without regard to her own safety. She bears the name \"Invincible Shield\" for her history of withstanding Demonic attacks, and holds herself alone responsible for the safety of the Divine Knights. However, her motivation comes from the deep need to keep one special person safe."
             }
     },
-    { //Platina - Missing TW Image
+    { //Platina - Complete
         id: 101686412,
         name: "Platina",
         rank: "A-",
@@ -6559,7 +6559,7 @@ const UnitInformation = [
                 evoawk: "After escaping from La Riiz' assassin, he and the noblewoman of the Principality of Bamint finally married. The two lived happily in secret, but he was unable to abandon his research, and he finally did the reach the deepest secrets of the hidden history. But sadly Sonije fell into the relentless assassin's trap, and when he tried to save her he lost his life. A letter he wrote revealing the assassin's identity and the power hidden within the Five Freedom Fighter's leader was never delivered."
             }
     },
-    { //Gran Brave - Missing TW Img
+    { //Gran Brave - Complete
         id: 101756111,
         name: "Gran Brave",
         rank: "A",
@@ -6693,10 +6693,10 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
+                evo5: "Currently unreleased in Global.",
             }
     },
-    { //Marzex (Light) - Missing Lore, TW Image
+    { //Marzex (Light) - Missing Lore
         id: 101776412,
         name: "Marzex",
         rank: "A",
@@ -6778,7 +6778,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Number 2 - Missing Lore, TW Image
+    { //Number 2 - Complete
         id: 101786512,
         name: "Number 2",
         rank: "B+",
@@ -6858,8 +6858,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "A mysterious girl who strongly resembles Iris. She works for the Demons and goes by the name “Number 2” for unknown reasons. There are other girls who resembles Iris, each named using a similar numbering scheme. Number 2 being the oldest number, has the authority to command the others. Whenever she and her friends appear, the Demon Nier can’t be far behind. The existence of Number 1 has yet to be confirmed.",
+                evoawk: "The girl who was created by the Demons. She was built to use Iris' true powers. Thus, initially, she does not have any intentions or feelings and will obey any orders. However, when her other copies were defeated her feelings of hatred were unleashed. At that moment, she harmonized with the others, and many feelings filled her which led to gaining her ego."
             }
     },
     { //Lian - Complete
@@ -7081,7 +7081,7 @@ const UnitInformation = [
                 evoawk: "She stood against the Demons to protect what she held dear, but death seemed inevitable. However, before the fatal blow fell, there was a bright flash from her adopted daughter's blade. It was that moment she realized the girl she had proected for so long was now strong enough to defend others. Entrusting their back to the other, the pair fought back the huge army. Several days later, their wounds had healed and she gave the young girl her own sword. With the warm, sad gaze of a mother, she then watched her depart into the wide world."
             }
     },
-    { //Freed - Missing TW Image
+    { //Freed - Complete
         id: 101826412,
         name: "Freed",
         rank: "B+",
@@ -7166,7 +7166,7 @@ const UnitInformation = [
                 evoawk: "Thrown into a frenzy after the murder of the one he loved, he was shocked by her last words... The assassin was his lost brother. He fought on, unsure what to believe, but recognized his brother's face behind the mask. In the confusion of love and hate, his enemy was perplexed when called by name by a loved one. Brought to senses by his brother's stilled sword and heartfelt words. Grohl explained of how he was kidnapped, and how is glad that Freed is well. However, the time is brief, and when he went back to madness, the assassin slayed his younger brother without hesitation."
             }
     },
-    { //Grohl - Missing Lore, TW Image
+    { //Grohl - Missing Lore
         id: 101836512,
         name: "Grohl",
         rank: "B+",
@@ -7463,7 +7463,7 @@ const UnitInformation = [
                 evoawk: "This transcendental being who often shows up at critical historical points is called \"The Watcher\" by magical researchers. There is a theory that she is also Elenore, one of the Six Great Witches, but none know if this is true. The final mention of her in the histories implies that she was in contact with the assassin who killed the Five Freedom Fighters. By some coincidence, the records of the orphanage Rayas and Roy grew up in mention someone named Alma present at the founding, possibly the same one."
             }
     },
-    { //Sonije - Missing Lore
+    { //Sonije - Complete
         id: 101876412,
         name: "Sonije",
         rank: "A+",
@@ -7530,8 +7530,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "A noble daughter of the Principality of Bamint in the era of confusion just after the Ancient War, and one of the Five Freedom Fighters. Granddaughter of a Spirit who befriended the Humans, she hated her strict noble upbringing and so attempted a clandestine journey to escape...but was attacked by monsters on the way. She then fell in love with the scholar who saved her, and forced her way into his traveling companionship. These later became known as the Five Freedom Fighters, the group led by Freed to find her magical power allows her mind's eye to see farther and more clearly than any sighted person.",
+                evoawk: "A sorceress who passed on the true history to future generations. She fled an assassin's attack with her scholar lover, and later they bore a child in secret. Just as they were find true happiness, she was thrown into confusion when she was deceived into believing her old friends were killed by a traitor in their midst. The mention of a name already mistrusted sent her into a rage, leading her right into a trap. She agreed to help catch the \"traitor\" but ended up losing her husband and her right arm. She somehow survived and passed down the secret history to her child."
             }
     },
     { //Onfuan - Missing Lore
@@ -7676,7 +7676,7 @@ const UnitInformation = [
         lore: 
             {   
                 evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
+                evo5: "A mage who was expelled from the Gods during the early period of the Ancient War. He gained tremendous power at the lab of the Dragons, but that was not what he wished for. Holy light powers had inverted into deep dark powers. Being expelled from the Gods, in order to get revenge on the Dragons, he hid himself in the undergrounds of the lab, and waited for the chance. Finally, he got the chance to take revenge!",
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
@@ -7745,7 +7745,7 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
+                evo5: "A girl who is the leader of the Wasetto, a tribe of humans who existed in the early days of the Ancient War who possess the power to see the future. While most tribe members can only see visions of a near future, her powers outclass the rest of the tribe and is sometimes able to see far beyond in the future. Although the lives of the Wasetto tribe were protected by their guardian God, other races discover their existence and try to capture her for their own benefits.",
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
@@ -7812,7 +7812,7 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
+                evo5: "A young warrior who led the massive army of Demons before the Ancient War. Having great pride in being a Demon, she was accepted for her loyalty and high battle skills and made an unusual success. One day, she was ordered to capture a maiden with future vision within the Wasetto Tribe. She fights with a Dragon army whose goal was the same as her. Being a High Demon, the battle between Anna the divine god of Wasetto was a severe one.",
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
@@ -7951,7 +7951,7 @@ const UnitInformation = [
                 evoawk: "He was a mercenary and assassin in the first part of the Ancient War. Besides this, he almost did anything for a reward. His abilities were first class and his rationality absolute. He certainly would never accept a job without a proper reward, but he didn't choose his clients, and wouldn't hesistate to cause the collapse of a nation to accomplish his misison. His job let him around the world, and he is also mentioned in hero sagas both as an ally and as an enemy."
             }
     },
-    { //Vogue - Missing TW Image
+    { //Vogue - Complete
         id: 101946312,
         name: "Vogue",
         rank: "B-",
@@ -8102,7 +8102,7 @@ const UnitInformation = [
                 evoawk: "He kept slaughtering the monsters that the two tamers summoned, one after another, laughing vulgarly. Screaming in the ecstasy of the massacre, he built a mountain of corpses killing more monsters than the King’s Army. For his unquenchable thirst for blood, the two who kept summoning new preys were the perfect enemy. In front of the Beast Tamers who had finally run out of power, he held his sword licking his chops."
             }
     },
-    { //Diaz - Missing TW Image
+    { //Diaz - Complete
         id: 101966212,
         name: "Diaz",
         rank: "A-",
@@ -8186,7 +8186,7 @@ const UnitInformation = [
                 evoawk: "After his village was vandalized when he was a child, he swore vengeance together with his friend, the son of the village Spirit's leader. The fire of revenge which possessed him was relieved by the light of the Archer. Even if she recognized the reason for their hatred, she told him not to live in the past but think about the future instead. Her words set him free. When the Royal Army and the assassins came for them the Great Circus began: he played his ace in the hold and suddenly countless monsters appeared on his side..."
             }
     },
-    { //Mamori - Missing TW Image
+    { //Mamori - Complete
         id: 101976312,
         name: "Mamori",
         rank: "B-",
@@ -8329,7 +8329,7 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
+                evo5: "A saloon dancer who works to restore the Gods' rule in a nation conquered by Demons. As daughter of a high officer, she was once a noblewoman until her family lost their status after the war. Her father was executed on overblown charges of treason, motivating her to become an actual rebel. It is said that she chose her new occupation to better organize an underground resistance group, which also provides an outlet for her exceptional swordsmanship.",
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
@@ -8392,7 +8392,7 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
+                evo5: "A Dragon general during the early period of the Ancient War. Even as the Dragon grew ascendant, he was skeptical of the idea of singular rule over the world and wanted balance among all the people of Raktehelm. So, judging the Maiden's ability to see the future with her Second Sight would destroy the balance, he raised an army of Human subjects to assassinate her. Hus incredible military might and the single-mindedness with which he pursued his vision of the future earned him great respect and faith, and thus the army he raised was overwhelming.",
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
@@ -8668,11 +8668,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
+                evo5: "A Machine who followed the legendary master of Radiant Ittoryu early in the Ancient War. He was originally an intelligence operative in the Royal Army, but his disillusionment with corrupt officials led him to becoming a gentleman thief. After he mistakenly broke into the Royal Fencing Instructor's estates, he met the master's daughter and found her skills and character so charming he decided to serve her. He was feared by the officials because he was considered as a secret agent in her service and he is said to have contributed deeply to the security of the kingdom.",
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Celia (Light) - Missing Lore, TW Image
+    { //Celia (Light) - Complete
         id: 102046412,
         name: "Celia (Light)",
         rank: "A",
@@ -8753,11 +8753,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "The first princess of Bamint. Well versed in letters and arms and possessing both wit and beauty, Celia is a paragon of virtue held in high regard by all. She's also the sister of Demon Suppression Corps member Mira, and worries about her always. Though being close growing up, her overprotectiveness caused Mira to pull away of her own volition. It remains something that Celia feels a twinge of sadness about.",
+                evoawk: "The only noblewoman to stand up to the corruption plaguing the Principality of Bamint. Her unique sense of justice led her to defy others within sense of justice led her to defy others within the government, and she faced head-on their attacks without relying on her noble blood to save her, thus averting true danger. For she had always been one to battle alone for what she felt was right. Yet the thought that the adventurers shared her fight against the Demons, despite their being physically separated, bolstered her spirit and offered her renewed strength."
             }
     },
-    { //Ashe - Missing Lore, TW Image
+    { //Ashe - Complete
         id: 102056512,
         name: "Ashe",
         rank: "A+",
@@ -8838,11 +8838,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "An assassin who works for the Cult, the secret organization that controls the Magus Empire of La Riiz. When only a child, he was taken into the Magic Lab of La Riiz where he was the object of magic experiments which made his body strong over human limits. Most of the experiments executed in the Lab were a failure, except for him and one of his comrades, who were considered as a success, and exploited by the Cult. With his unbreakable body and the murder technique he mastered thanks to his magic weapons, he perfectly accomplished all the missions the Cult assigned.",
+                evoawk: "An assassin who dedicated his life to the Cult that controls La Riiz. When he was expelled, he didn't only lose his mission, but his whole way of life. Wandering, he found himself in the research facility where he had grown up, and where his humanity was deviated to make him an unbreakable assassin. There he remembered the decision he had made many years before, that showed him a new way."
             }
     },
-    { //Norn - Missing TW Image
+    { //Norn - Complete
         id: 102066312,
         name: "Norn",
         rank: "S-",
@@ -8923,7 +8923,7 @@ const UnitInformation = [
                 evoawk: "A young Machine warrior who came to Raktehelm to help Humans. When she first came, she hated Humans, and never imagined the Knight of Isliid could ever become her partner. However, his sincere words and gaze moved her, and she finally realized the true purpose of her mission. She appears to be rather cold with Humans, but she herself seems unaware of this. Her frank way of speaking is a personal issue and has nothing to do with being a Machine."
             }
     },
-    { //Riana - Missing TW Image
+    { //Riana - Complete
         id: 102166212,
         name: "Riana",
         rank: "C",
@@ -9003,7 +9003,7 @@ const UnitInformation = [
                 evoawk: "She is a peerless swordswoman, worthy of her ancestors, the Sword Master dynasty. In order to continue her struggle to become the greatest fighter of her family, she had an anti-aging spell cast on her when she was still a child. Ganan found within her a strength different to the one of her sword and they married, but soon she returned to her world travels. She made an oath that they could never live together until she achieved her goal, and that resolution only grew stronger when she met a certain adventurer."
             }
     },
-    { //Kane (Earth) - Missing TW Image
+    { //Kane (Earth) - Complete
         id: 102176312,
         name: "Kane (Earth)",
         attribute: "Earth",
@@ -9150,11 +9150,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
+                evo5: "A lady thief during the early Ancient War. Using wicked tricks, she stole only from the rich who stuffed their own pockets and gave her awards to the poor. Her wish was only for everyone to be equal and never stole for herself. One day, she got information about a family who has powers to see the future. To grant her wish, she sneaks into the village. That's right... to steal the shrine maiden.",
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Marzex (Dark) - Missing Lore, True Weapon, TW Image
+    { //Marzex (Dark) - Complete
         id: 102196512,
         name: "Marzex (Dark)",
         rank: "A-",
@@ -9231,11 +9231,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "The hateful side of Marzex, born from the grudge consuming him after being sealed at the hands of Humans. The obscurity eventually consumed the mercy of the God and made him a being of pure darkness. The merciful Marzex, as a proud God, entrusted his power to the adventurer who once defeated him, in order to save the world from the abyss. Even the power of the Dark to be used if necessary.",
+                evoawk: "The side of Marzex which embodies hate. The endlessly increasing powers of the Dark could eventually be used by the adventurer, who had been blessed by the merciful Marzex. How did the god feel,to help the adventurer who once defeated him? Hate still grows silently inside him, who stands beside the adventurer..."
             }
     },
-    { //Mako - Missing Lore
+    { //Mako - Complete
         id: 102206412,
         name: "Mako",
         rank: "SSS",
@@ -9313,7 +9313,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Satsuki - Missing TW Image
+    { //Satsuki - Complete
         id: 102216212,
         name: "Satsuki",
         rank: "B+",
@@ -9391,7 +9391,7 @@ const UnitInformation = [
                 evoawk: "The student principal of Honnouji Academy. Through the fight against her true enemies and thanks to her encounter with Ryuko Matoi, she realizes the mistakes made in the past and recognizes the support of those close to her. With this newfound clarity, surely no one can defeat her."
             }
     },
-    { //Ryuko - Missing TW Image
+    { //Ryuko - Complete
         id: 102226112,
         name: "Ryuko",
         rank: "B+",
@@ -9532,7 +9532,7 @@ const UnitInformation = [
                 evoawk: "The true identity of his partner, another beast tamer, remained hidden. Namely, that he was a member of a family of Spirits, supposedly wiped out by the Kingdom. As the oldest son, he remained cautious, and created the Crimson Stars as a way to disguise himself. However, he revealed all when a once-in-a-lifetime chance presented itself. They pull their lives on the line and yet assassins and royal soldiers lay waiting in ambush... Now that they were trapped, the only lay in these countless, oddly familiar arrows."
             }
     },
-    { //Mixie - Missing Lore, TW Image
+    { //Mixie - Complete
         id: 102246412,
         name: "Mixie",
         rank: "B",
@@ -9609,8 +9609,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "This young woman was a highly placed officer supporting the Six Great Demon Generals early in the Ancient War. The courage she showed fighting on the front lines and leading her soldiers into battle meant no one could denounce her for the overweening arrogance she showed in her noble birth. Indeed, many loved her for it, believing such arrogance only seemed fitting for one so high in the Demon ranks. She had indeed once served a truly famous Demon General, but her renown was earned through deed, not on the coat-tails of her betters. She was truly a model Demon who never questioned her superiors and sincerely believed that the Demons were the natural rulers of the world.",
+                evoawk: "Her scheme to destroy a gathering to bring peace between the 8 Races was proceeding perfectly. The Gods were trapped, forced to take arms against their partners. The gathering was destroyed, and yet her meticulously laid plan, built to fulfill her duty of spreading the seeds of war, suddenly fell apart. She reappeared before the crowd, revealing the plot, and when she moved to attack the Gods her body was pierced by unstoppable weapons. Standing there was the Machine General,a quiet being who normally only acted for itself..."
             }
     },
     { //Pheles - Complete
@@ -9744,7 +9744,7 @@ const UnitInformation = [
                 evoawk: "There was a Machine soldier who worried at her insistence she was a mere weapon. He fled of his own free will, and joined the service of a Divine swordsman. When the news of his death reached her, for the first time she felt an emotion; hatred. She sought out the swordsman to discover the killer, but learned that he had laid down his life in battle in the search for peace. Her life changed, then, to one of sadness over the death of her friend, and one of hope in the ideals he had held."
             }
     },
-    { //Tallis - Missing TW Image
+    { //Tallis - Complete
         id: 102276112,
         name: "Tallis",
         rank: "A-",
@@ -9828,7 +9828,7 @@ const UnitInformation = [
                 evoawk: "The first step toward the peace both she and her king desired so fervently was a great summit between all the different neighboring races, but the clash of interests involved doomed it to failure. Animosity and ideology created a vast divide, and hatred built on hatred to sow chaos. And yet, she still strove to stop the senseless fighting and stood between the fighters to take the blows upon her own body. It was if she believed that she could stop all pain and suffering if she could keep the embers of war from bursting into flame."
             }
     },
-    { //Lozze - Missing TW Image
+    { //Lozze - Complete
         id: 102286212,
         name: "Lozze",
         rank: "A",
@@ -9912,7 +9912,7 @@ const UnitInformation = [
                 evoawk: "He had absolutely no interest in the ideals of peace extolled at the summit he was invited to. Indeed, he considered himself a proud member of a warlike people, and considered it only right to kill those he couldn't get along with. Indeed, the second he decided the Divine swordswoman was his enemy he challenged her to battle, but her unwavering dedication to peace struck a chord within him. Thus, this simple reason led him to stand in defiance before the advancing Demon army."
             }
     },
-    { //Jill - Missing TW Image
+    { //Jill - Complete
         id: 102296312,
         name: "Jill",
         rank: "B-",
@@ -9993,7 +9993,7 @@ const UnitInformation = [
                 evoawk: "They say that the moment the Gods asked her and her nation for help holding a meeting with the neighboring countries, it was doomed to failure. Even as she played innocent, she was putting her strategies into place. She planted the poisonous seeds of dissent, helped in the revenge of the Machines who were playing at being friends with the Demons, and succeeded in setting off the war. She and her co-conspirators had only one purpose. That was to get the other 7 great races apart to destroy each other."
             }
     },
-    { //Alvina - Missing TW Image
+    { //Alvina - Complete
         id: 102306212,
         name: "Alvina",
         rank: "A-",
@@ -10074,7 +10074,7 @@ const UnitInformation = [
                 evoawk: "There is only one record of the two sisters fighting side by side. It is believed that they defeated the invading Demons together, but there are also documents establishing they fought fiercely and that Alvina was a fellow of the Demons. They say that she hated both her father, who had abandoned her, and her half-sister born after that, but there is also literature stating that she used the power of darkness to protect her sibling, as well. The truth is not clear, but there are stories stating that the younger sister spent her later years waiting for someone."
             }
     },
-    { //Palamicia - Missing TW Image
+    { //Palamicia - Complete
         id: 102316212,
         name: "Palamicia",
         rank: "B-",
@@ -10152,7 +10152,7 @@ const UnitInformation = [
                 evoawk: "Once known as one of the Gods' greatest sword masters, she had a fierce match with a warrior of the Gods, and the two were so impressed with each other they swore a rematch. Time passed, and she was ordered to subdue a rampaging High Demon. When she faced it, though, she found that it was her former opponent, now changed. No one knows the truth of the rumors that she was overcome with rage at him for abandoning his pride, and cleaved him in two with her mighty blows. They do say that afterward, she continued her endless pursuit of mastery."
             }
     },
-    { //Ifrit - Missing TW Image
+    { //Ifrit - Complete
         id: 102326112,
         name: "Ifrit",
         rank: "A-",
@@ -10230,7 +10230,7 @@ const UnitInformation = [
                 evoawk: "A renowned Divine warrior challenged a Divine swordswoman to a battle, and after losing in a fierce fight, the two so admired each others’ techniques they swore to a rematch. Later, the fighter was overcome by his wounds and fell to the ground, but in that instant, he made a compact [?] with the planet to save his life. The swordswoman reappeared before him, this fighter who became a High Demon with the power to burn the world to ash. No one knows the truth of the rumors that he may have survived, despite the swordwoman’s victory."
             }
     },
-    { //Nogia - Missing Lore
+    { //Nogia - Complete
         id: 102336411,
         name: "Nogia",
         rank: "B-",
@@ -10291,11 +10291,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "A mysterious warrior early in the Ancient War known as \"Edgeless Nogia.\" For some reason, he never drew his sword and preferred to fight empty-handed. Nevertheless, there is no record of him losing a fight, meaning he must have possessed limitless power. He spent his life traveling, searching for \"that which must be slashed.\" He swore to never draw his sword until that moment and kept that promise until the very end...Though none can say if he ever met his target.",
+                evoawk: "A blade master who believed his sword should only be drawn when truly needed. He searched his whole life and found the need when he encountered a Flame Demon possessing the power of the stars. The beast was a personification of the very idea of flame, manifested by the Gods. And yet the first glimpse of his blade seemed to slice the creature in two. However, what he truly cut was not his body, but the link between the body and the flame. Sayingg that there still must be something needed to be slashed, he set out again."
             }
     },
-    { //Daki - Missing Lore, TW Image
+    { //Daki - Missing Lore
         id: 102346412,
         name: "Daki",
         rank: "B+",
@@ -10373,10 +10373,10 @@ const UnitInformation = [
         lore: 
             {   
                 evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evoawk: "A sorcerer God who was a member of the 3rd Dove Brigade. He was revered by his fellow soldiers for his ability to always make sound judgements during combat. His travel companion Spirit Meiol knew Daki since he was just a child. Because of their closeness, Daki showed a side of himself that he would never let anyone else see. He desired to learn the meaning behind his late mother's last words, but didn't know what great events would occur due to his search for the truth..."
             }
     },
-    { //Raki - Missing Lore, TW Image
+    { //Raki - Complete
         id: 102356512,
         name: "Raki",
         rank: "B",
@@ -10456,11 +10456,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "A twin-blade-wielding Demon who was a member of the 3rd Raven Brigade. He was always the life of the party within the brigade with his inherent positivity and unabashed demeanor. However, he was also recognized as a powerful soldier due to his skill with the sword. His companion Gobl was technically his servant, though sometimes the roles seemed to be reversed. He aimed to grant his father's dying wish: to create a world in which the races could co-exist.",
+                evoawk: "Just as Raki had grown enough to unleash the magical power hidden within his twin-blades, he met a man on the battlefield. Unable to accept his words, the two were forced to fight. However, the parting that came at the end of the battle made Raki realize the path he had to go down. Though his fellow soldiers hated to see him leave, Raki resigned from the military, and it's said that he was spotted traveling various countries around the world. However, he no longer had his famous fighting spirit, but instead a peaceful expression on his face."
             }
     },
-    { //Zerkalo - Missing Lore
+    { //Zerkalo - Complete
         id: 102366511,
         name: "Zerkalo",
         attribute: "Dark",
@@ -10520,11 +10520,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "This beast served the ruler of a country controlled by the Gods, that was taken by the Demons during the Ancient war. His master was executed for resisting the Demons, and his family scattered. As he felt his own strength insufficient to protect the master's daughters, he went to a hermit sorcerer to beg for more power, but it ended up consuming him. He was transformed into a creature of darkness, overcome with the need to kill his foes. He was soon feared as the Mad Beast Slayer.",
+                evoawk: "After his master's death, this small Beast man went deep into the woods to ask a hidden sorcerer for the power to protect the master's daughter. The sorcerer gave him the power to protect her, with the admonition that he must not kill out of hate. However, he soon broke this ban and was consumed by the darkness within, becoming a foul slayer of Demons. The Gods and Humans sent forces to put an end to the mad beast's rage, but those forces have disappeared without a trace."
             }
     },
-    { //Valentia - Missing Lore
+    { //Valentia - Complete
         id: 102386411,
         name: "Valentia",
         rank: "B",
@@ -10590,11 +10590,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "A girl who went from being an orphan during the Ancient War to becoming a great sorcerer's apprentice. She lived in peace under the protection of the Gods, but when her country was seized by the Demons she lost her family and position. She was then taken in by her future master, the sorcerer. From then on, as she served the sorcerer hand and foot, she learned everything she could, and developed a true talent for healing. That power, still immature, was so great they say it could even save souls fallen to darkness.",
+                evoawk: "A small Beast servant came to visit her teacher,and claimed to desire power to better perform the tasks left by his deceased master. However this servant was actually consumed by hate over the murder and became a slayer of Demons. Her teacher said... \“Power is there to protect,we must never forget that.\" Hearing the regret in those words,and seeing the heart-breaking sight of that old servant now a mighty swordman. led to her mustering all her power. She struck, to cleanse his soul so that he could see and repent of his crimes."
             }
     },
-    { //Mira (Earth) - Missing TW Image
+    { //Mira (Earth) - Complete
         id: 102396312,
         name: "Mira (Earth)",
         rank: "A+",
@@ -10678,7 +10678,7 @@ const UnitInformation = [
                 evoawk: "The third princess of the principality of Bamint,who was taught the deepest secrets of the \"Sakura Itto-Ryu\" style by two swordswomen who'd once once journeyed to the \"Island of the God's\" to save their country. This unique sword technique engages the enemy in a fight dance with similar form to that of falling cherry blossoms petals in spring. Mira wielded two swords until then, but aftermastering the \"Sakura Itto-Ryu\" she improved her skill and now uses only one blade. After inheriting \"Sakura Itto-Ryu\" and the spirit of the swordswoman from another world. Mira's eyes sparkle with renewed excitement."
             }
     },
-    { //Zeorg (Dark) - Missing Lore, TW Image 
+    { //Zeorg (Dark) - Missing Lore
         id: 102406512,
         name: "Zeorg (Dark)",
         rank: "A",
@@ -10758,7 +10758,7 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
+                evo5: "A living legend, the Hero of Famelle is the subject of countless epic tales. Despite how many adventurers admire and praise him, he holds hidden pain within him. He invited his adventurer friend on a journey to a forbidden territory to deal with a cursed sword in a bid to put paid to his worries. There, he reached out to break the sword's seal, and amid his frenzy, the power and vigor of his youth returned in full force. Having surpassed the bonds of old age, he became an unstoppable force.",
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
@@ -10887,7 +10887,7 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
+                evo5: "A magical Spirit warrior from the early Ancient War. He wore a strange mask and had a unique way of fighting that used magic. He used to teach swordsmanship and magic in his hometown, but he was thrown out due to his abnormality. He was obsessed with making his students fight each other, tossing the losers aside and making the winners fight more. He called the most skilled of his students his \"works of art.\" His masterpiece was a war orphan who grew up to become a commander of a battalion of Dragon knights.",
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
@@ -11025,7 +11025,7 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
+                evo5: "Before the Ancient War, he was the sorcerer swordsman leader of the Black Dragon Knights. He was very earnest, and as a war orphan, he was raised by a Spirit, as his apprentice. However, because of his preceptor's distorted ethic, he eventually ran away. After that, he joined the Black Dragon Knights and became its captain. Besides being a master of daggers, he was also an excellent sorcerer, able to control the shadows of Dragons. Nobody could ever survive his illusory balde.",
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
@@ -11161,7 +11161,7 @@ const UnitInformation = [
                 evoawk: "Her eyes sparkled at the resurrected Flame Giant of legend. She would not balk at turning an entire nation into a realm of the dead to earn the praise and favor of her beloved Demoness. All that remained was the elimination of a certain irritating sorceress, companion to the Giant. However, the needed Giant only obeyed the girl's orders. The only choice is to turn her into a 'friend.' With that understanding, she gladly went among the teeming spirtis."
             }
     },
-    { //Berwick (Magic) - Missing TW Image
+    { //Berwick (Magic) - Complete
         id: 102486112,
         name: "Berwick (Magic)",
         rank: "SS",
@@ -11246,7 +11246,7 @@ const UnitInformation = [
                 evoawk: "His admiration for the Commander and his hunger for further growth drove him to facing the devastating attacks against his foes, and when a mighty Ice dragon appeared, he activated the devastating Magia Drive to defeat the fire-proof beast. His countless battles with his fellow Templars has given him a calm perspective on battle, and he is always waiting for the perfect opponent to lay low with his raging flames."
             }
     },
-    { //Riviera - Missing TW Image
+    { //Riviera - Complete
         id: 102496312,
         name: "Riviera",
         rank: "A+",
@@ -11330,7 +11330,7 @@ const UnitInformation = [
                 evoawk: "Self-proclaimed commander of the \"Vanguard Battalion\" of the Juno Templars. She was a wandering warrior who traveled to many countries with her double axes and decided to stay in Granadia after a long journey. On the battlefield, she attacks in all directions and knocks down her opponents, but she's well knwon by many people for her bright and lively personality. After the coronation of the Little Lady subsequently to the Princess' death, her intent is to protect the kingdom with no mercy to those who try to take advantage of the situation and attempt to hurt the Royal family."
             }
     },
-    { //Thetis - Missing Stats, Slots, Evolution, True Weapon, TW Image
+    { //Thetis - Complete
         id: 102506212,
         name: "Thetis",
         rank: "SS",
@@ -11415,7 +11415,7 @@ const UnitInformation = [
                 evoawk: "The Juno Templar known as \"Immovable Shield.\" When one of his companions lost consciousness behind enemy lines, he penetrated the enemy encirclement alone. On the way, he was simultaneously attacked by God army and found himself in a critical situation, but thanks to his willpower he could handle the enemies. He was moved by his duty as a member of the Templars but most importantly by the strong will to save his friends."
             }
     },
-    { //Vox - Missing TW Image
+    { //Vox - Complete
         id: 102516212,
         name: "Vox",
         rank: "SS",
@@ -11500,7 +11500,7 @@ const UnitInformation = [
                 evoawk: "A lightning-fast swordsman who is the leader of the Juno Templars. He pierced deep into enemy lines to overwhelm the Gods army, but took a sword blow to the back to protect his mistress, Princess Leone. As his consciousness faded, he recalled the promise he made to his former mistress, Princess Juno, and griped the memento she had given him. That feather held the power to accomplish a single miracle, a power destined to change the fate of Granadia."
             }
     },
-    { //Duke - Missing Lore, TW image
+    { //Duke - Complete
         id: 102526512,
         name: "Duke",
         rank: "A-",
@@ -11581,11 +11581,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "The leader of the Leone Templars. Under Princess Juno, he and his sworn friend Vox from their mercenary period founded the Kingdom of Granadia. After the death of Princess Juno, he protected Granadia and the young Princess Leone, fighting with good results in the Famelle Defensive War. Although he is usually quiet, his inner fighting spirit is passionate, and thanks to his bravery, he is of strong support for his team.",
+                evoawk: "He is the leader of the Leone Templars that protect Granadia and a sturdy soldier who fights the enemy in front of him without hesitation. During the great invasion of Granadia by the Gods Army, he confronted the Invincible Shield of the Divine Knights and defeated her. The invasion of the royal capital closes in a spectacular way. The truth he once heard from Juno about the armor entrusted to him on the battlefield will now change his destiny and those of all the Templars."
             }
     },
-    { //Melia (Water) - Missing TW Image
+    { //Melia (Water) - Complete
         id: 102536212,
         name: "Melia (Water)",
         rank: "A",
@@ -11668,7 +11668,7 @@ const UnitInformation = [
                 evoawk: "An assassin of the Cult of La Riiz, feared as the 'Illusory Twin-blades Assassin'. Few know that her true identity is Melia, the Blue-eyed Black Fox. Her vast arsenal of assassin skills allows her to overwhelm the demons without using magic, and the incredible speed she shows with her twin blades has earned her a masterful reputation within the Cult. She was once a mere tool for the Cult, yet now she has found her own path and has given herself to fighting to save others."
             }
     },
-    { //Celia (Dark) - Missing Lore, TW Image
+    { //Celia (Dark) - Complete
         id: 102546512,
         name: "Celia (Dark)",
         rank: "S",
@@ -11748,8 +11748,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "The ruler of the Republic of Bamint, doused in the power of darkness. Celia had lost all hope for her nation, which lead her to deciding to become a dictator with absolute authority. Knowing she had to use any needs necessary in order to bring permanent peace, she stepped into the darkness and began down her path toward military rule.",
+                evoawk: "The ruler of the Republic of Bamint who awakened to the ancient blood flowing within her. Seeing the world filled with those that ignore everything just, her pride turned into despair. She knew she must become a dictator with absolute authority in order to correct the state of the world. Taking her sword into her hand, she disposed of anyone deemed unjust. She sought even greater strength, and eventually came into the possession of power that could even surpass the Gods, both good and evil."
             }
     },
     { //Vitz - Complete
@@ -11889,7 +11889,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Eternia - Missing Lore, Stats, Slots, Evolution, True Weapon, TW Image
+    { //Eternia - Missing Lore
         id: 102576412,
         name: "Eternia",
         rank: "B",
@@ -12031,11 +12031,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
             }
     },
-    { //Aesis - Missing Evolution
+    { //Aesis - Complete
         id: 102596312,
         name: "Aesis",
         rank: "A-",
@@ -12090,10 +12090,10 @@ const UnitInformation = [
                     mat2amt: 1,
                     mat3: "/db/Icons/dungeon_drops/fragGoldola.png",
                     mat3amt: 4,
-                    hover3: "Fosradius",
+                    hover3: "Goldola",
                     mat4: "/db/Icons/dungeon_drops/fragElpneumas.png",
                     mat4amt: 3,
-                    hover4: "Code-XTF",
+                    hover4: "Elpneumas",
                     mat5: "/db/Icons/dungeon_drops/fragMavroskia.png",
                     mat5amt: 2,
                     hover5: "Mavroskia"
@@ -12232,11 +12232,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
+                evo5: "A mage who is loyal to his own desires. He used to trap people within another dimension he created in sorcerous tomes,and used their negative emotions as the source of his magic. He was able to transfer that power to others, which led to people joining him just to have a chance of getting their hands on his magic. He was used to getting all the power he wanted without ever trying, but that sweet life was cut short when he met a certain Spirit fortune-teller.",
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Tia - Missing Lore, TW Image
+    { //Tia - Missing Lore
         id: 102626212,
         name: "Tia",
         attribute: "Water",
@@ -12311,8 +12311,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
             }
     },
     { //Shasha - Missing Lore
@@ -12382,7 +12382,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Kush - Missing Lore, TW Image
+    { //Kush - Missing Lore
         id: 102646412,
         name: "Kush",
         attribute: "Light",
@@ -12460,11 +12460,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
             }
     },
-    { //Rebol - Missing Lore, TW Image
+    { //Rebol - Missing Lore
         id: 102656512,
         name: "Rebol",
         attribute: "Dark",
@@ -12542,8 +12542,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
             }
     },
     { //Berwick (Physical) - Complete
@@ -12631,7 +12631,7 @@ const UnitInformation = [
                 evoawk: "The blazing-fast swordsman of the Leone Templars. A former sorcerer, he began following the path of the sword when he inherited Zanketsu, the beloved blade of his former captain, who had perished on the battlefield. He had long studied the sword techniques used by his old captain, and this imitation helped him become dizzying-fast. His skills with the blade are lightning-quick, but he takes no pride in them; he simply continues to follow his former leader's footsteps."
             }
     },
-    { //Rosetta (Water) - Missing TW Image
+    { //Rosetta (Water) - Complete
         id: 102676212,
         name: "Rosetta (Water)",
         rank: "S+",
@@ -12716,7 +12716,7 @@ const UnitInformation = [
                 evoawk: "A genius sorcerer, and pride of the Leone Templars. Her success at deciphering and using the previously incomprehensible tomes of Advanced Crest Magic earned her the nickname “Heavenly Witch”. After reuniting with Princess Leone by joining the Templars, she was both overjoyed that her friend became queen and sad for the distance. Yet, when she sensed the princess’s loneliness during the god’s attack on the sky ark, she resolved to support Leone as a Templar and as a friend."
             }
     },
-    { //Leone - Missing Lore, TW Image
+    { //Leone - Complete
         id: 102686412,
         name: "Leone",
         rank: "B+",
@@ -12793,11 +12793,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "The Princess of the tiny nation of Demons called Granadia. She took control of the Templars who defended the kingdom after her sister Juno died. She is a kind-hearted person who loves peace and is admired by people all over the country and served with loyalty by her Templars. After the death of the leader Vox during the Famelle Defensive War, she realized her resolution to protect her country wasn't strong enough, so she decided to join her Templars in battle.",
+                evoawk: "The Guardian of Leone Templars and protector of the Kingdom of Granadia. Using the secret of Granadia. \"Magia Drive\" , she can enhance the latent faculties of her Templars, maximizing their powers. This technique utilizes the power of the \"Crimson Blood\" flowing in her family, putting her very body into danger. However, during the bloody battle in the capital with the Gods, she pushed her blood power beyond her limits to save her Templars, without hesitation."
             }
     },
-    { //Belle - Missing TW Image
+    { //Belle - Complete
         id: 102696312,
         name: "Belle",
         rank: "B",
@@ -13007,8 +13007,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
             }
     },
     { //Miri-nyan - Complete
@@ -13077,7 +13077,7 @@ const UnitInformation = [
                 evoawk: "The Magus Empire was looking for a subject who could bear the strong magic of their experiment. Having strong magic resistance, the Beast girl was their perfect victim. Promising to make her wish come true, the man from the Cult deceived her. She was separated from her sister and both were kidnapped. The two became victims of a synthesis experiment. In the depth of despair. a man in black reached out to help her. He had lost his brother because of the Cult and swore revenge…"
             }
     },
-    { //Tami-nyan - Missing TW Image
+    { //Tami-nyan - Complete
         id: 102746212,
         name: "Tami-nyan",
         rank: "A-",
@@ -13158,7 +13158,7 @@ const UnitInformation = [
                 evoawk: "A Beast girl from La Riiz with a strong sense of justice. When the Cult abducted her sister, she broke into the facility alone to save her. There, she learned it was where they were conducting mad experiments to create weapons for the Ancient War. That they would claim a noble cause while spreading death and pain infuriated her. Gripping her tonfas tight, she fought to bring a brighter future to those imprisoned in the darkness."
             }
     },
-    { //Fen (Dark) - Missing Lore, TW Image
+    { //Fen (Dark) - Complete
         id: 102756512,
         name: "Fen (Dark)",
         rank: "S",
@@ -13234,11 +13234,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "Master Strategist of the Gramenian Army. He was summoned alongside his friend to escort Forte to the nation of Garrah. Being planned solely by Kane, the escort mission was classified as top secret, forcing Fen to disguise himself in the local garb. He even chose a gun as his weapon because it was out of line with his image as possible. However, little did Fen know that his choice would open up new doors of possibility for him.",
+                evoawk: "Fen grew as a warrior after overcoming battles and peril in peculiar conditions. His gun that was able to shoot both physical and magical bullets was the \"trigger\" that allowed him to do so. He succeeded in safely escorting Forte to her destination, but the mysterious gunman left a strong impact on the Garrah soldiers. Wanting to hire him as a mercenary, they discreetly attempted to research the man, but not a single soul was able to discover the agent of darkness, Fen."
             }
     },
-    { //Kane (Dark) - Missing Lore, TW Image
+    { //Kane (Dark) - Complete
         id: 102766512,
         name: "Kane (Dark)",
         rank: "A+",
@@ -13315,8 +13315,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "A high-ranking official of the Republic of Gramenia. When he found out that another nation would be having a peace conference with the country of Garrah, he devised a plan in which he would attend the meeting as a bodyguard. His weapon of choice for the mission: a katana. Fen apparently found this choice odd, as Kane normally used guns, tanks, and other high-tech weaponry. Kane never explained why he chose a katana. In fact, only Ru--who noticed the reading material poking out from his pocket on the way home--learned the reason behind Kane's selection of the blade.",
+                evoawk: "Like Fen, Kane was able to open the door to new possibilities in regards to combat at the end of the treacherous journey. \"A genius isn't choosy about his weapon!\" The only reason Fen didn't retort when Kane sang his own praises was most likely because he truly recognized his prowess as a warrior. Kane attempted to carry the sword and use it in his duties as an official as well, but gave up after learning that more people than he expected found out about his role as a bodyguard in the escort mission."
             }
     },
     { //Sybil - Missing Lore
@@ -13378,8 +13378,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
             }
     },
     { //Sai - Missing Lore
@@ -13444,11 +13444,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
             }
     },
-    { //Cynthia - Missing Lore, TW Image
+    { //Cynthia - Missing Lore
         id: 102796212,
         name: "Cynthia",
         attribute: "Water",
@@ -13526,11 +13526,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
             }
     },
-    { //Melissa - Missing Lore, TW Image
+    { //Melissa - Missing Lore
         id: 102806412,
         name: "Melissa",
         attribute: "Light",
@@ -13605,11 +13605,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
             }
     },
-    { //Barossa - Missing Lore, TW Image
+    { //Barossa - Missing Lore
         id: 102816512,
         name: "Barossa",
         attribute: "Dark",
@@ -13684,11 +13684,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "Currently unreleased in Global.",
+                evoawk: "MCurrently unreleased in Global."
             }
     },
-    { //Mizuki - Missing TW Image
+    { //Mizuki - Complete
         id: 102826212,
         name: "Mizuki",
         rank: "A-",
@@ -13771,7 +13771,7 @@ const UnitInformation = [
                 evoawk: "A proud shinobi who served as the leader of Imari Village. She has natural talent as a shinobi, and she was very respected because of that. With both pride and the future of the village on her shoulders, she continued to do assassination jobs in secret in order to sustain it. However, she was unable to hide her deeds forever. When she faced off against a Yoma in the depths of a dark cave, her sworn sisters Shiki and Kisaragi were badly hurt, forcing her to unleash her forbidden shinobi technique right in front of them."
             }
     },
-    { //Ginzo - Missing Lore, TW Image
+    { //Ginzo - Complete
         id: 102836512,
         name: "Ginzo",
         rank: "A-",
@@ -13848,11 +13848,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "Far in the east in a village called Imari, there once lived a silent shinobi who dedicated his life to his duty. He swore absolute loyalty to Mizuki, the leader of Imari Village. He was known as her confidant, and would masterfully use a long spear to wipe out hordes of enemies with monster-like strength. Many people call him \"The Ultimate Shinobi\" because of his extremely refined shinobi techniques, non-existent free will, and dedication to his duty.",
+                evoawk: "A spear-wielding warrior who was feared the among other shinobi as the \"Legend of Imari\" Completing his missions was everything to Ginzo, who had given up all of his sense of self. A single full-force strike from him has the power to smash through an enormous boulder. Serving the leader of Imari Village, his spearhead would glisten in the light of the moon as he sneaked through the night. In order to fulfill the mission assigned to him, and to protect his master, Ginzo continued swing his spear with secret feelings hidden in his heart."
             }
     },
-    { //Shiki - Missing Lore, TW Image
+    { //Shiki - Missing Lore
         id: 102846412,
         name: "Shiki",
         rank: "B",
@@ -13928,11 +13928,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
+                evo5: "A shinobi who has given her life to training, and the princess of the fallen land of Ena. She trained in Imari Village if order to find the one responsible for the destruction of her land and take revenge. However, she lost sight of her path after learning that Imari was involved in Ena's demise. Despite this, she stood up to fight against the Demon Fox after finding out about the tragic event she was planning, as well as the truth behind her birth. This time, she fought not only for revenge, but also to protect the shinobi of the village.",
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Shuri - Missing Lore, TW Image
+    { //Shuri - Complete
         id: 102856512,
         name: "Shuri",
         rank: "A+",
@@ -14010,11 +14010,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "The leader of a place called Yakuno Village, located in the Far East. able to complete any missions flawlessly and given the name \"Crimson Talon,\" she finally became a direct subordinate of the Shogun himself. This was a large success for her, as her dream is to show what a true shinobi should be by using the Divine Blade to bring prosperity to her village. Though she thought it would be smooth sailing, she ended up swallowed by the waves of history, with the red flash of the katana.",
+                evoawk: "When she hurried to flee from the rising flames in front of her, what was waiting for her was the sight of her village destroyed, the culprit unknown. Within this miserable situation, she found the shinobi with prosthetic legs collapsed on the ground, who spoke to her the truth. Shuri cursed herself for not being able to see the true meaning behind the Divine Blade. Having lost so much, she left behind the village burnt to the ground, her eyes filled with rage toward the Demon Fox who took everything from her."
             }
     },
-    { //Amane - Missing Lore, TW Image
+    { //Amane - Complete
         id: 102866412,
         name: "Amane",
         rank: "A",
@@ -14092,11 +14092,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "A shinobi with prosthetic limbs who lived in Yakuno Village, located in the Far East. Although she was born in Imari Village, she was considered useless and abused. She was abandoned in the mountains with both her legs cut off as a form of so called training, but was saved by the leader of Yakuno, a female shinobi with an Oni arm. She invited her to live in the village, and was given prosthetic legs with which she awakened to her full potential. She was eventually able to become a high-ranking shinobi in the village, as well as the right-hand of the leader.",
+                evoawk: "A high-ranking shinobi from Yakuno Village. The demon Fox that destroyed the village easily dodged all her attacks and disappeared, despite all the painful trials she had overcome. She lamented her weakness as she lay awake, half-conscious. However, she swore to become stronger in order to support her master after seeing her eyes burning with the flames of vengeance. She gained power almost on par with her master after going through a multitude of near-death experiences alongside her."
             }
     },
-    { //Kisaragi - Missing TW Image
+    { //Kisaragi - Complete
         id: 102876112,
         name: "Kisaragi",
         rank: "A+",
@@ -14177,7 +14177,7 @@ const UnitInformation = [
                 evoawk: "A top-ranked shinobi with extremely powerful ninja technique from Imari Village, located in the east. She fell into despair after losing her apprentice due to her own bad judgement. She grieved, wondering why her apprentice with a bright future died instead of herself, a shinobi stuck in the ways of old. Of course, no matter how much she suffered with this question in her mind, the answer never came. The only thing she knew was that she had to live his share of life in addition to her own. Despite sometimes wavering on the path she had chosen, she continued to tell herself that she must never stop walking."
             }
     },
-    { //Saku - Missing TW Image
+    { //Saku - Complete
         id: 102886312,
         name: "Saku",
         rank: "B-",
@@ -14257,7 +14257,7 @@ const UnitInformation = [
                 evoawk: "A proud shinobi from Imari Village who lived for the sake of the person he loved. At the end of the battle with Yakuno Village, he was stabbed in the back by the blade of the enemy. Though his consciousness was fading, he found relief in knowing that his master was safe. Held in the arms of his beloved, he smiled softly before slowly closing his eyes as his life ended. The events that occurred during the conflict between the two villages were spoken of through generations as a tragedy embodying the pride and fate of the shinobi."
             }
     },
-    { //Tamae - Missing TW Image
+    { //Tamae - Complete
         id: 102896112,
         name: "Tamae",
         rank: "A",
@@ -14342,7 +14342,7 @@ const UnitInformation = [
                 evoawk: "Having been chosen to become the vessel for the soul of the Demon Fox, she stood in the way of her former brethren, the shinobi. The burning Magic of the Demon overwhelmed the skilled shinobi, and this power eventually devoured her, too. \"I can see the moon…\" Perhaps these final words she whispered were filled with yearning to her old days as a shinobi in her village, when she used to gaze up at the sky every night. lost in thought."
             }
     },
-    { //Orgah - Missing TW Image
+    { //Orgah - Complete
         id: 102906112,
         name: "Orgah",
         rank: "B+",
@@ -14422,7 +14422,7 @@ const UnitInformation = [
                 evoawk: "Orgah never forgot what happened in the abandoned mines that day. He took his master's words to heart and trained until he became a full-fledged warrior. The owner of a weapon shop urged him to join the knights, but he had sworn to defend his hometown. Amidst the tumult of the Ancient War, the sight of him bravely standing alongside the other soldiers was most heartening."
             }
     },
-    { //Adele - Missing Lore, TW Image
+    { //Adele - Missing Lore
         id: 102916212,
         name: "Adele",
         attribute: "Water",
@@ -14497,11 +14497,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
             }
     },
-    { //Vermilia - Missing TW Image
+    { //Vermilia - Complete
         id: 102926112,
         name: "Vermilia",
         rank: "A",
@@ -14581,7 +14581,7 @@ const UnitInformation = [
                 evoawk: "The crucible of the tournament drew out her full potential. This not only applied to her magic, but the ability to lead her comrades. As if in response, Flerunica also revealed a secret of its own: sealed inside of it was a furious beast from an ancient era. It resonated with her earnest emotion and entrusted that power to her gentle yet firm spirit."
             }
     },
-    { //Filia - Missing TW Image
+    { //Filia - Complete
         id: 102936212,
         name: "Filia",
         rank: "A+",
@@ -14661,7 +14661,7 @@ const UnitInformation = [
                 evoawk: "Filia studied how to use her blade under the old veteran, gaining remarkable talent after a few years. However, they were suddenly attacked during one training session by an infamous band of thieves who wanted to steal her unique weapon. The fight was won despite overwhelming odds, but her master could never wield a sword again. Returning home to promise her family she would win a major martial arts tournament and its purse, she set out on a new journey."
             }
     },
-    { //Garlan - Missing TW Image
+    { //Garlan - Complete
         id: 102946312,
         name: "Garlan",
         rank: "B+",
@@ -14742,7 +14742,7 @@ const UnitInformation = [
                 evoawk: "With his trusty polearm Yulibert, Garlan continued to refine his considerable technique. His name was known throughout the land as an undefeated duelist, but this meant few were willing to accept his challenge. He decided to cross the ocean to reach the Martial Kingdom of Gitun, where the strong gathered. It was then he had his destined meeting with Filia, and together they defeated the marauding monsters in their way."
             }
     },
-    { //Aluze - Missing Lore, TW Image
+    { //Aluze - Missing Lore
         id: 102956412,
         name: "Aluze",
         rank: "A-",
@@ -14818,11 +14818,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
+                evo5: "The son of a noble family from the small eastern city-state of Slevin. A strict upbringing and natural talent in both intellect and combat made him a standout from a young age. However, he never knew tenacity since expertise came to him so quickly. When he heard of a martial arts tournament in the distant country of Gitun, he faintly hoped it would provide some form of stimulation. He then ran away from home with only instinct and his light bow Leivachka to guide him on his journey.",
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Veronica - Missing TW Image
+    { //Veronica - Complete
         id: 102966212,
         name: "Veronica",
         rank: "A+",
@@ -14903,7 +14903,7 @@ const UnitInformation = [
                 evoawk: "No one know what Veronicia was after, she wandered the word endlessy, without opening her heart to anyonethose who know her suspected that she was actually a demondue to her appearance never changing over the decade."
             }
     },
-    { //Roy (Fire) - Missing TW Image
+    { //Roy (Fire) - Complete
         id: 102976112,
         name: "Roy (Fire)",
         rank: "A",
@@ -14984,7 +14984,7 @@ const UnitInformation = [
                 evoawk: "Roy, clad in the uniform of the Information Bureau. The empire has begun training its knights to be prepared for a myriad of combat situations by instructing them how to use a variety of weapons. The \"Imperial Gun Arts\" method was developed by Gichin Nanbu with the goal of teaching soldiers how to utilize firearms. It was created to accommodate the knight's affinity for close combat, but many-a-knight threw in the towel due to the hellish training needed to grasp the technique (even taking Roy a few years to master)."
             }
     },
-    { //Cestina - Missing TW Image
+    { //Cestina - Complete
         id: 102986312,
         name: "Cestina",
         rank: "SS",
@@ -15141,7 +15141,7 @@ const UnitInformation = [
                 evoawk: "A loyal warrior in the service of the second princess of the Gran Verge Kingdom, Cestina. Their bond was much stronger than that of a mere master and servant, and the trust between them was unparalleled. The connection between them showed its true strength during the turmoil at the tower of Oluon in Gran Verge and has gone down in history."
             }
     },
-    { //Liza - Missing Lore
+    { //Liza - Complete
         id: 103006412,
         name: "Liza",
         rank: "SS",
@@ -15220,11 +15220,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "The first princess of the Gran Verge Kingdom. This goddess was filled with both magic and wisdom. Her knowledge of magic and her incredible intelligence was unrivaled, and her studies spurred on magic research for generations. In the kingdom, she preferred to stay in the shadows, supporting the people from behind rather than standing in the spotlight, but she still had quite a few enthusiastic fans.",
+                evoawk: "The first princess of the Gran Verge Kingdom. She took the path of magic her whole life as she tried to master it. She was fascinated by the revolutionary power of magic and spent her life studying magic to help brighten people's futures. Even now, her achievements still support people's lives from the shadows. She is said to have been deeply involved in the project to restore the enigmatic Oluon, but very little of this has been written down in history, as the first princess disliked being in the spotlight."
             }
     },
-    { //Cygnet - Missing Lore
+    { //Cygnet - Complete
         id: 103016512,
         name: "Cygnet",
         rank: "B+",
@@ -15287,11 +15287,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "A Machine servant who swore loyalty to Liza, the First Princess of the Gran Verge Kingdom. Cygnet had been a mere gardener, but when the magic sleeping within her suddenly awoke, Liza took notice and she took Cygnet as her servant. Cygnet made a good match for Liza, who disliked formalities and preferred to speak plainly. When Liza couldn't find the words for what she wanted to say, Cygnet would speak for her, becoming an interpreter of sorts for her master's aloof curtness.",
+                evoawk: "An eternal partner and servant to Liza, the First Princess of the Gran Verge Kingdom. The relationship between a master and their servant can take many forms. They may cover for each other's shortcomings or strengthen each other's merits. Cygnet and Liza's relationship leaned overwhelmingly towards the former. Liza's unparalleled focus sometimes came at the expense of her regular life, but Cygnet supported her master through this. Meanwhile, Cygnet lacked self-confidence despite her incredible qualities, but Liza would always push her servant past her insecurities."
             }
     },
-    { //Orvell - Missing Lore, TW Image
+    { //Orvell - Complete
         id: 103026412,
         name: "Orvell",
         rank: "A+",
@@ -15370,8 +15370,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "The brave and benevolent first prince of the Gran Verge Kingdom. Orvell was the first in line to the throne and had a lot of support from the people. As a boy, he ate little and grew slowly, so he had a small frame, but when he saw his equally small-framed father brandish his huge sword, he made up his mind to get stronger and trained until he had a magnificent body that surpassed his father's.",
+                evoawk: "MThe strong and brave Orvell finally took possession of the king's sword, the symbol of the next king. The feel of it in his hand made his royal blood run hot, and he brandished the heavy sword with ease. When Orvell first picked up the sword, he was full of confidence and energy, but soon he realized the true weight of the sword. Within him, a king's resolve had begun to sprout."
             }
     },
     { //Virago - Complete
@@ -15442,7 +15442,7 @@ const UnitInformation = [
                 evoawk: "The brave and fierce Dragon general who served Orvell, the first prince of the Gran Verge Kingdom. Orvell riding on the Dragon's back as they flew through the skies was a sight loved by children and adults. This grand appearance made soldiers revere him and greatly boosted the morale of the knights who guarded the kingdom. When the Dragon cavalry was organized in later years, they based the coat of arms on this imagery."
             }
     },
-    { //Luahn - Missing Lore, TW Image
+    { //Luahn - Complete
         id: 103046512,
         name: "Luahn",
         rank: "S-",
@@ -15522,11 +15522,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "The second prince of Gran Verge. As he came into the world on the night of a red moon, many shunned him in private if not publicly. After a shipwreck in foreign waters, he went missing for almost ten years until news of his whereabouts surfaced. His siblings had prepared a warm welcome, but they were instead shocked by how much he had changed.",
+                evoawk: "Iscator's strange mist slipped into the cracks of his fragile heart, gradually turning his disposition dark and dreary.. All that could get through to his blinded, deafened soul was that blatantly malicious shadow. Surrendering himself to its influence, he finally felt at ease. However, this put him at odds with the righteous nature of his royal blood. The internal struggle continues to tear him apart, sometimes forcing to spit up a thick, viscous miasma."
             }
     },
-    { //Chloe - Missing Lore
+    { //Chloe - Complete
         id: 103056511,
         name: "Chloe",
         rank: "A",
@@ -15589,11 +15589,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "A Human servant who has sworn loyalty to the second prince of Gran verge, Luahn. She was once a thoroughly average housekeeper, but a curse of immortality utterly changed her. It freed her from the bonds of death, but when those she had known as children died of old age, she realized everlasting life was no different from torture.",
+                evoawk: "An attendant of the second prince of Gran verge, Luahn. She had given up on her personality and humanity, only seeking salvation in being used like a tool. This made her the perfect sacrificial pawn for the king of Gran Verge, and the turning point came when she was appointed to serve the detested prince. Finally finding someone with whom she could commiserate, her heart slowly began to open up again."
             }
     },
-    { //Angelas - Missing TW Image
+    { //Angelas - Complete
         id: 103066112,
         name: "Angelas",
         rank: "A-",
@@ -15678,7 +15678,7 @@ const UnitInformation = [
                 evoawk: "A warrior of the Dragons wielding a fearsome axe into battle. Having awoken abilities beyond those of the average Dragon due to her time spent in a hellish environment. Though in part her power came from her youth, her very power was the personification of menace causing those that crossed her path to tremble for their lives. She had always been a solitary figure, but one encounter brought about change to that way of life. The small hand of a heartwarming young girl reached out to her, bringing about change in her way of life."
             }
     },
-    { //Eagle - Missing TW Image
+    { //Eagle - Complete
         id: 103076312,
         name: "Eagle",
         rank: "A",
@@ -15761,7 +15761,7 @@ const UnitInformation = [
                 evoawk: "A warrior with a large, mechanized shield. Burdened with feelings of inferiority, his stubborn mental isolation means neither encouragement nor criticism can reach him. In a sense, the shield he carries also represents that wall between himself and others with its hidden blade piercing anyone who tries to breach it. Even so, it's possible he has not yet forgotten the warmth of comradery."
             }
     },
-    { //Bakoo - Missing Lore, TW Image
+    { //Bakoo - Complete
         id: 103086512,
         name: "Bakoo",
         rank: "A",
@@ -15841,11 +15841,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "A doll that was once well-known throughout Gran verge. No one knows how it can move and talk on its own. Regardless, it's believed to be highly advanced since it has the capability for sarcasm and arrogance, along with its store of knowledge about the Tower of Providence. Its original owner was a girl named Milay, who was overjoyed to finally have a friend.",
+                evoawk: "A stuffed toy that only used to cause trouble with its sharp tongue and unpredictable appearances. Now, its mysterious warmth has been replaced with hatred and malice. It despises anything that lives, regardless of race. Words have no effect as it destroys all in its path."
             }
     },
-    { //Victoire - Missing Lore, TW Image
+    { //Victoire - Complete
         id: 103096412,
         name: "Victoire",
         rank: "A",
@@ -15925,11 +15925,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "A girl of the Spirits who was raised on hatred. She was persecuted from birth for her differently colored eyes as the rest of her kind viewed it as a sign of impurity, but they didn't kill her as they believed it'd release those impurities into the world. This truth was only revealed to her several years later when she obtained a special power. It was then she decided to turn her loneliness into a weapon of vengeance against not only her brethren, but the Gods as well.",
+                evoawk: " master musician who transforms her deep sadness and anger into sound. Born without a family, she was maltreated even at the orphanage, unaware of the reason why. An attempt to take her life ended up changing it, as her brush with death unlocked the ability to read the memories of objects. Finally aware of the stark truth, her suffering became fuel for vengeance."
             }
     },
-    { //Forte - Missing Lore, TW Image
+    { //Forte - Complete
         id: 103106512,
         name: "Forte",
         rank: "A+",
@@ -16009,8 +16009,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "The commander of a squad who successfully completed the mission to form a peace treaty with the Kingdom of Garrah. Despite her young age she has led many troops. Because she does not show her emotions, she is often perceived as cold-hearted, but in fact, she is kind-hearted and cares deeply for her troops. She lost her parents in a war when she was a child, and as a result of this experience, she supports and believes in a solution through communication rather than force. The president of a country with whom she once undertook a mission with was said to have admired her unwavering eyes.",
+                evoawk: "A commander within a small nation's military forces. While being deeply trusted by her subordinates and the King, above all else she is loved by the people of the country. A cool, yet sincere hardworking military officer with incredible physical capabilities, whose abilities in marksmanship leave even the elite soldiers of other nations in awe. When sent on a mission to the kingdom of Garrah, Forte learned of the importance of trust and comradery thanks to the people from the Gramenia Republic who accompanied her on her mission. Upon returning home, Forte with a proud look on her face was greeted with a big smile by the King who assigned these people to escort her."
             }
     },
     { //Sumire - Complete
@@ -16084,7 +16084,7 @@ const UnitInformation = [
                 evoawk: "It was within the silent grounds of the shrine that the priestess made the finishing touch on her masterpiece. That was the moment when a sparkle of life began to glint within the eyes of the illustration of the Fox Deity she worshiped. The sudden flash of light that emanated from the canvas forced her to shut her eyes. When she opened them, however, the illustration... No, the Fox Deity that had jumped out of the illustration stood before her. This led her to deciding to embark on a journey the next morning, saying farewell to the shrine that had been so good to her. It was through this journey that countless picture scrolls were produced, and would eventually be passed down throughout the generations. One of these scrolls was the 'Legend of the Sealed Fox.'"
             }
     },
-    { //Arcana - Missing Lore
+    { //Arcana - Complete
         id: 103126512,
         name: "Arcana",
         rank: "A+",
@@ -16151,11 +16151,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "The professor of the Isliid Imperial Magistone Laboratory. He is disliked by other researchers due to his strange attire and arrogant attitude, but the academic articles he sometimes decides to write on a whim are highly regarded with the scientific community. Both make him a little different from other people... in a variety of ways he is versed in the art of combat despite being an academic, and even fights monsters that appear in the mines when on a expedition.",
+                evoawk: "The mysterious Magistone researcher who lives in the abandoned mines. Since injuring his face during a botched experiment, he has worn a mask to hide the scar.... is what he says, but no one seems to have ever seen his face, so this might be a lie... or not. He understands the words of the strange organism, a Krod - it was given the name \"Serkro\" by his assistant - that assists him in his exploration of the mines' depths. He doesn't have much of a sense of direction, though. His favorite food is fish."
             }
     },
-    { //Ashleigh - Missing TW Image
+    { //Ashleigh - Complete
         id: 103136112,
         name: "Ashleigh",
         rank: "B-",
@@ -16238,7 +16238,7 @@ const UnitInformation = [
                 evoawk: "The Stella Squad acts as \"Defenders of Passion\", punishing criminals who prey on artists. Even while participating in plays and concerts, they are always on the lookout for signs of illicit activity. Each member undergoes training specialized to their skills, and she is no exception. However, she finds it difficult to set aside time for that between her acting and singing lessons."
             }
     },
-    { //Salyssa - Missing TW Image
+    { //Salyssa - Complete
         id: 103146312,
         name: "Salyssa",
         rank: "B+",
@@ -16322,7 +16322,7 @@ const UnitInformation = [
                 evoawk: "A knight aspiring to become the perfect soldier. Small yet resilient, she uses a style of spear work developed since living with her family. She does feel shame about her underdeveloped artistic skill, but that, along with everything else, is forgotten when she starts training. Not even she realizes how deeply she becomes absorbed, since most of her sessions are solo. As expected of a cultural metropolis, those who share her interests in combat are few and far between."
             }
     },
-    { //Sharon - Missing Lore, TW Image
+    { //Sharon - Missing Lore
         id: 103156412,
         name: "Sharon",
         attribute: "Light",
@@ -16401,11 +16401,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
             }
     },
-    { //Rits - Missing Lore, TW Image
+    { //Rits - Missing Lore
         id: 103166412,
         name: "Rits",
         rank: "A",
@@ -16486,7 +16486,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Raine - Missing Lore, TW Image
+    { //Raine - Missing Lore
         id: 103176212,
         name: "Raine",
         rank: "TBD",
@@ -16569,7 +16569,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Alulu - Missing Lore, TW Image
+    { //Alulu - Missing Lore
         id: 103186512,
         name: "Alulu",
         rank: "B+",
@@ -16645,11 +16645,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
+                evo5: "An orphan who was raised by a professor at a magic academy in Minchenne, the capital of Bamint. From a young age, she demonstrated great talent in magic, especially when it came to inorganic matter. She loved her foster parent and the magic he taught her and was the quiet type who'd continuously work on her magic skill. But ironically, the country's pronounced focus on the fine arts made her feel like an outcast.",
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Marika - Missing TW Images
+    { //Marika - Complete
         id: 103196112,
         name: "Marika",
         rank: "TBD",
@@ -16751,7 +16751,7 @@ const UnitInformation = [
                 evoawk: "A girl who recently befriended Rayas and Iris. Mechanically inclined from a yong age, she quickly became one of the Isliid's brightest engineers. However, the unilateral praise for her talent and originality has yet to reach her ears since she is indifferent to the industry at large. Rather, whe values her parents' lessons and works tirelessly (with the help of banana shakes) to create ever more innovations."
             }
     },
-    { //Noel - Missing Lore, TW Image
+    { //Noel - Complete
         id: 103206412,
         name: "Noel",
         rank: "A-",
@@ -16851,11 +16851,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "A young knight serving in the emperor's personal force, the Zero Guard. He carries out his orders with refined swordsmanship and a number of other techniques, and his earnest predisposition guarantees he puts in the maximum effort towards into all of his missions. He is chivalrous to all but his enemies, who may be unfortunate enough to see his ruthless side. His love of sweets, especially doughnuts, is also well known.",
+                evoawk: "A knight serving the emperor of Isliid, born to a high-ranking officer and a librarian. This granted him an advantage in both military and literary arts, not only allowing him to skip grades at the military academy but also graduate as valedictorian. He took full advantage of his status as a prodigy, but jealousy and lack of understanding kept him from making friends. His life of loneliness continued until he met a special someone who turned his life around. He now seriously attends to his duties, putting forth his full effort."
             }
     },
-    { //Batiste - Missing TW Images
+    { //Batiste - Complete
         id: 103216512,
         name: "Batiste",
         rank: "A+",
@@ -16959,7 +16959,7 @@ const UnitInformation = [
                 evoawk: "Adopted into a noble family who later arranged for him to become a knight. He was selected for the Zero Guard during the previous emperor's reign. His disgust with the unsavory ruling class grew over time, in part because he knew he himself was not much different. That is why he respects straightforward people like Noel and Rayas who he silently uses to lift his spirit. He keeps his collection of knives in top shape by visiting local blacksmiths between missions."
             }
     },
-    { //Juno - Missing TW Image
+    { //Juno - Complete
         id: 103226412,
         name: "Juno",
         rank: "SSS",
@@ -17041,7 +17041,7 @@ const UnitInformation = [
                 evoawk: "Juno was the first queen of Granadia, often referred to as the mother of the burgeoning nation. With miraculous powers, she cleansed the land defiled by monsters and founded a new nation. Though mistakenly described as fierce and ambitious in the chronicles, personal accounts from the time paint her as a warm and thoughtful figure. The very prescence of the Templars, devotees who supporter her in every aspect of life, was proof of that."
             }
     },
-    { //Liese (Dark) - Missing Lore, TW Image
+    { //Liese (Dark) - Missing Lore
         id: 103236512,
         name: "Liese (Dark)",
         rank: "A+",
@@ -17118,11 +17118,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
+                evo5: "Another face of Liese, who ardently trained as a priestess from the age of 4, living in the great shrine of Famelle. Despite her farsighted maturity, a gift from a visitor--a detective's outfit and a mystery novel--changed the course of her life forever. With a curious partner disguised as a cat, she would go on to solve a case that threatened Reigrad and had a great impact on her own destiny.",
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Emmy - Missing Lore, TW image
+    { //Emmy - Missing Lore
         id: 103246512,
         name: "Emmy",
         attribute: "Dark",
@@ -17230,11 +17230,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
             }
     },
-    { //Groytz - Missing Lore, TW Images
+    { //Groytz - Missing Lore
         id: 103256312,
         name: "Groytz",
         attribute: "Earth",
@@ -17343,11 +17343,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
             }
     },
-    { //Hart (Earth) - Missing TW Image
+    { //Hart (Earth) - Complete
         id: 103276312,
         rank: "SSS",
         twrequire: "favorable",
@@ -17432,7 +17432,7 @@ const UnitInformation = [
                 evoawk: "He and his friends went to the forest to hunt a monster and prove their worth. However, the trial was more difficult than they expected, and they found themselves faced with death. It was then he remembered what Miranda said at his mother's funeral. 'You need to survive until your final breath, because your life was given to you by someone special.' This gave him the determination to stand strong and save his friend's lives."
             }
     },
-    { //Hart (Dark) - Missing Lore, TW Image
+    { //Hart (Dark) - Missing Lore
         id: 103286512,
         name: "Hart (Dark)",
         attribute: "Dark",
@@ -17510,11 +17510,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
             }
     },
-    { //Miranda - Missing TW Image
+    { //Miranda - Complete
         id: 103296412,
         name: "Miranda",
         rank: "S+",
@@ -17596,7 +17596,7 @@ const UnitInformation = [
                 evoawk: "Miranda was instantly smitten by Simon, fated to be her first and last love. Although he seemed to bear some dark burden, she never hesitated to keep him company. No matter how he sulked, she always talked to him, walked to school with him, and made food for him. Eventually, her sunny disposition reached through, melting his heart of ice."
             }
     },
-    { //Simon - Missing z`TW Image
+    { //Simon - Complete
         id: 103306512,
         name: "Simon",
         attribute: "Dark",
@@ -17681,7 +17681,7 @@ const UnitInformation = [
                 evoawk: "After moving to a small town in the empire at a young age, he met the previous Ranger captain's daughter, Miranda. They eventually became married, and anyone who saw them shopping in the quare on weekends would think of them as a loving couple. Yet as he pointed his gun at her from the edge of town, his gaze was filled with dark intent."
             }
     },
-    { //Vultee (Earth) - Missing Lore, TW Image
+    { //Vultee (Earth) - Missing Lore
         id: 103316312,
         name: "Vultee (Earth)",
         attribute: "Earth",
@@ -17759,11 +17759,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
             }
     },
-    { //Priscilla (Fire) - Missing TW Image
+    { //Priscilla (Fire) - Complete
         id: 103326112,
         name: "Priscilla (Fire)",
         rank: "S-",
@@ -17848,7 +17848,7 @@ const UnitInformation = [
                 evoawk: "An archer from the village of Simon's Hill. She wept bitterly the night her friend Hart fled their home. She believed from the bottom of her heart that he had not killed Miranda, but the fear their relationship would collapse the moment she asked him for confirmation prevented her from doing so. Regret soon taught her what she should have feared instead was losing him forever. Changing that weakness into determination, she set out to find Hart in hopes of undoing her mistake."
             }
     },
-    { //Serah - Missing Lore, TW Image
+    { //Serah - Missing Lore
         id: 103346412,
         name: "Serah",
         rank: "A",
@@ -17932,7 +17932,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Airi - Missing Lore, TW Image
+    { //Airi - Missing Lore
         id: 103356312,
         name: "Airi",
         attribute: "Earth",
@@ -18011,11 +18011,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
             }
     },
-    { //Lyra - Missing Lore, TW Image
+    { //Lyra - Missing Lore
         id: 103366412,
         name: "Lyra",
         attribute: "Light",
@@ -18094,8 +18094,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
             }
     },
     { //Summer Juno - Complete
@@ -18240,7 +18240,7 @@ const UnitInformation = [
                 evoawk: "Before she realized what was happening, the Mokyuon had jumped out and shoved her from the pier. She struggled desperately to keep from drowning. Returning to shore after several minutes, the monsters nodded with approval. It appeared their antics had forced her to learn proper breathing. Perhaps they saw the timid girl and knew the sink-or-swim approach was the only way she would succeed."
             }
     },
-    { //Elizabeth - Missing Lore, TW Image
+    { //Elizabeth - Missing Lore
         id: 103396112,
         name: "Elizabeth",
         attribute: "Fire",
@@ -18319,11 +18319,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
             }
     },
-    { //Vultee (Water) - Missing Lore, TW IMage
+    { //Vultee (Water) - Missing Lore
         id: 103406212,
         name: "Vultee (Water)",
         attribute: "Water",
@@ -18402,11 +18402,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
             }
     },
-    { //Priscilla (Water) - Missing Lore, TW Image
+    { //Priscilla (Water) - Missing Lore
         id: 103416212,
         name: "Priscilla (Water)",
         attribute: "Water",
@@ -18487,11 +18487,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
             }
     },
-    { //Emperor of Isliid - Missing Lore, TW Images
+    { //Emperor of Isliid - Missing Lore
         id: 103426412,
         name: "Emperor of Isliid",
         attribute: "Light",
@@ -18602,11 +18602,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
             }
     },
-    { //Beguiler Selia - Missing TW Image
+    { //Beguiler Selia - Complete
         id: 103436212,
         name: "Beguiler Selia",
         rank: "S-",
@@ -18688,7 +18688,7 @@ const UnitInformation = [
                 evoawk: "A mysterious conjurer who appeared all over Raktehelm with winter's approach. Regardless of her mass popularity, no one ever learned her true origins since she answered every question with a lie. However, her revision of the Grimm Stella works which position her as the central focus contains some measure of truth. She also wrote many poetry collections about winter and practiced lithomancy."
             }
     },
-    { //Rosetta (Earth) - Missing Lore, TW Image
+    { //Rosetta (Earth) - Missing Lore
         id: 103446312,
         name: "Rosetta (Earth)",
         attribute: "Earth",
@@ -18767,11 +18767,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
             }
     },
-    { // Orvell (Fire) - Missing Lore, Ultra Equip Mechanic, True Weapon
+    { // Orvell (Fire) - Missing Lore
         id: 103456112,
         name: "Orvell (Fire)",
         attribute: "Fire",
@@ -18851,11 +18851,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
             }
     },
-    { // Cestina (Light) - Missing Lore, Ultra Equip Mechanic, True Weapon
+    { // Cestina (Light) - Missing Lore
         id: 103466412,
         name: "Cestina (Light)",
         attribute: "Light",
@@ -18935,8 +18935,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
             }
     },
     { // Charlotte - Missing Lore
@@ -19015,8 +19015,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
             }
     },
     { //Zinogre Armor Rayas - Missing Lore
@@ -19083,8 +19083,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
             }
     },
     { //Mizutsune Armor Roy - Missing Lore
@@ -19151,8 +19151,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
             }
     },
     { //Rathian Armor Iris - Missing Lore
@@ -19218,8 +19218,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
             }
     },
     { //Teostra Armor Ganan - Missing Lore
@@ -19285,8 +19285,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
             }
     },
     { //Kirin Armor Liese - Missing Lore
@@ -19353,8 +19353,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
             }
     },
     { //Felyne Armor Sophie - Missing Lore
@@ -19421,8 +19421,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
             }
     },
     { //Palico (Using English name) - Missing Lore
@@ -19485,11 +19485,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
             }
     },
-    { //Saitama - Missing Lore
+    { //Saitama - Complete
         id: 107076412,
         name: "Saitama",
         rank: "A",
@@ -19550,11 +19550,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "Originally only a Hero by hobby, Saitama eventually registered with the Hero Association. When younger, he was extremely weak. But after undergoing training so intense as to lose his hair, he achieved superhuman powers. Saitama is so strong some even say a god resides within his body.",
+                evoawk: "A professional Hero with superhuman powers. His powers are accurately described by his name, since Saitama is the most powerful man to exist, defeating his enemies in ONE PUNCH. However, few acknowledge his true strength."
             }
     },
-    { //Genos - Missing Lore, Stats, Slots, Evolution
+    { //Genos - Complete
         id: 107086512,
         name: "Genos",
         rank: "C",
@@ -19614,8 +19614,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "Not only did Genos pass his exam, he was certified a S-Class Hero on his first try. He is a cyborg with the majority of his body being mechanized, registered with the Hero Association. He's a lone wolf by nature, but after being saved by Saitama against an impossible foe, he vowed allegiance to Saitama as his pupil.",
+                evoawk: "A cyborg S-Class Hero with mechanized weapons of mass destruction embedded all over his body. Any enemy would fear of his destructive attacks that even risk Genos' own life."
             }
     },
     { //Terrible Tornado - Complete
@@ -19683,7 +19683,7 @@ const UnitInformation = [
                 evoawk: "The S-Class Rank-2 Hero in the Hero Association. It's not an overstatement to say she's the Hero Association's last card against threats against humanity. Facing her infinite strength, her enemies cannot even raise a finger after the hurt they find themselves in."
             }
     },
-    { //Boros - Missing Lore
+    { //Boros - Complete
         id: 107106511,
         name: "Boros",
         rank: "B-",
@@ -19743,8 +19743,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "The leader of \"Dark Matter,\" a group of alien invaders that storm the universe in search of a foe of equal strength. Worthy of his own moniker, \"Dominator of the Universe,\" Boros's skills in battle know no limits, thus his needs to seal them within his armor.",
+                evoawk: "The true form of the leader of \"Dark Matter\" and self-proclaimed \"Dominator of the Universe\". The speed and strength of his abilities extend far beyond any living creatures capacity, and the burden of his own powers is extremely taxing on Boros' body. Few dare to fight back after seeing the carnage he is capable of causing."
             }
     },
     { //Sugimoto - Complete
@@ -19812,7 +19812,7 @@ const UnitInformation = [
                 evoawk: "The war veteran who served in the 1st Division of the Imperial Japanese Army. To fulfill the promise he made to his best friend who was killed at war, Sugimoto began searching for Ainu Gold. Aptly nicknamed Sugimoto the Immortal, he is a highly skilled fighter, but Sugimoto's real power may be the strength of his spirit and refusal to be controlled by the fear of death."
             }
     },
-    { //Asirpa - Missing Lore
+    { //Asirpa - Complete
         id: 107126412,
         name: "Asirpa",
         rank: "SS",
@@ -19873,8 +19873,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "An Ainu girl who is a skillful archer and expert hunter with extensive knowledge of surviving in the mountains. She met and saved Sugimoto when he was being attacked by a brown bear, and she has been by his side ever since.",
+                evoawk: "Her given name means both New Year and future, and she calls herself \"an Ainu woman for a new age\". She joined the hunt for Ainu Gold as Sugimoto's partner, but her main goal is to discover the truth about he father, rather than the gold itself."
             }
     },
     { //Hijikata - Missing Lore
@@ -20196,7 +20196,7 @@ const UnitInformation = [
                 evoawk: "A young Kijin who gave his loyalty to Rimuru. He is an Ogre survivor of an attack from the Orcs and seeks revenge. He was appointed as the Samurai General and integrates the country's army. He is like the right-arm of Rimuru and has great popularity."
             }
     },
-    { //Goblin Slayer - Missing Lore
+    { //Goblin Slayer - Complete
         id: 107186512,
         name: "Goblin Slayer",
         rank: "A-",
@@ -20256,11 +20256,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "An adventurer sworn to the eradication of goblins. He always wears an iron helm and a leather armor. He lost his parents when he was a a child, so he grew up with only his sister. However after he was forced to watch as goblins slaughtered her, he became obsessed with their complete annihilation.",
+                evoawk: "A twisted silver-rank adventurer sworn to kill goblins. He possesses a deep understanding of the creatures, and in battle he is ready to use any weapon fitting to his goals. Other adventurers look on his actions with scorn and suspicion, but he has still saved countless lives."
             }
     },
-    { //Priestess - Missing Lore
+    { //Priestess - Complete
         id: 107196412,
         name: "Priestess",
         rank: "S+",
@@ -20320,8 +20320,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "This green adventurer only recently left the temple of the Earth Mother. On her first outing as an adventurer, she was attacked by goblins and was saved by Goblin Slayer at the last minute. Ever since she has joined him on his quests. She is often perplexed by his erratic behavior, but in truth, she trusts him deeply.",
+                evoawk: "A young priestess of the Earth Mother. she has accompanied Goblin Slayer ever since he saved her life. She hates fighting, but she uses the miracles of the Earth Mother to help support her comrades. She is pious and peaceful, and her mutual trust with Goblin Slayer helps her to withstand the hardships of battle."
             }
     },
     { //High Elf Archer - Complete
@@ -20646,7 +20646,7 @@ const UnitInformation = [
                 evoawk: "Crunchyroll-Hime is the champion of all things anime, and she's also a fantastic adventurer when duty calls, donning her trusty bow and accompanied by her mortal companion, Yuzu. Born hundreds of years ago, Hime can't remember her real name, or how she looked as a Kitsune, but she does know the burning fire of her true form rages inside of her. She's able to channel this power and defeat any foe she faces, and save any friend she needs to."
             }
     },
-    { //Naofumi - Missing TW Images
+    { //Naofumi - Complete
         id: 107256411,
         name: "Naofumi",
         rank: "A+",
@@ -20743,7 +20743,7 @@ const UnitInformation = [
                 evoawk: "When Rayas summoned him, Naofumi was fleeing from the army of Melromarc, accused of kidnapping and murdering the princess. Due to this traumatic experience, he could not open up to other people and kept a distance between Rayas and his friends. However, as he connected with the people of Reigrad, little by little, his frozen heart began to melt. As Naofumi grew closer to his new friends, he made a surprising proposal. Rayas and his friends agreed, but yet little did they know what would follow...!"
             }
     },
-    { //Raphtalia - Missing TW Image
+    { //Raphtalia - Complete
         id: 107266412,
         name: "Raphtalia",
         rank: "A-",
@@ -21273,7 +21273,7 @@ const UnitInformation = [
                 evoawk: "Younger Toguro rejoices after finally meeting an opponent who can give him a challenge and lets loose his full potential. Most people would die instantly from being hit by Toguro's monstrous levels of Demonic Energy, and any who do manage to escape would then be crushed by his overwhelmingly powerful fists. For someone like Toguro, whose strength goes beyond human understanding, it was very rare to meet an opponent who could actually be a threat to him, so when he finally did, he was filled with joy at the opportunity to give it his all."
             }
     },
-    { //Emilia - Missing TW Image
+    { //Emilia - Complete
         id: 107346212,
         name: "Emilia",
         rank: "S",
@@ -21353,7 +21353,7 @@ const UnitInformation = [
                 evoawk: "She is a skilled Spiritual Arts User and has a contract with Puck. She has a tendency to put others before herself. She is also kind and good-natured, taking care of others without reserve, while not making them feel indebted to her."
             }
     },
-    { //Rem (RE:ZERO) - Missing TW Image
+    { //Rem (RE:ZERO) - Complete
         id: 107356212,
         name: "Rem (RE:ZERO)",
         rank: "A+",
@@ -21432,7 +21432,7 @@ const UnitInformation = [
                 evoawk: "A quiet and skillful maid who works at the Roswaal Mansion. Recently, she has been worrying about how her chest has become bigger than her sister's, so she has taken measures to make sure people don't find out."
             }
     },
-    { //Ram - Missing TW Image
+    { //Ram - Complete
         id: 107366312,
         name: "Ram",
         rank: "A-",
@@ -21512,7 +21512,7 @@ const UnitInformation = [
                 evoawk: "A carefree maid working at the Roswaal Mansion. Her specialty is steamed yams. Her little sister Rem helps her in almost every aspect of her private life, including waking her up and taking care of her hair and nails."
             }
     },
-    { //Beatrice - Missing TW Image
+    { //Beatrice - Complete
         id: 107376512,
         name: "Beatrice",
         rank: "A-",
@@ -22567,7 +22567,7 @@ const UnitInformation = [
                 evoawk: "In three years, her talent and temperament improved under Rudeus' guidance. However, the day after his tenth birthday was the fateful Fittoa Territory Displacement Incident. They ended up lost in the Demon Continent but were soon taken under the protection of Superd named Ruijerd. Forming the 'Dead End' party, the trio started for the Central Continent."
             }
     },
-    { //Natsu Dragneel - Missing Lore
+    { //Natsu Dragneel - Complete
         id: 107556112,
         name: "Natsu Dragneel",
         attribute: "Fire",
@@ -22627,11 +22627,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global",
-                evoawk: "Currently unreleased in Global"
+                evo5: "A wizard of Fairy Tail. He was raised by the dragon Igneel, taking on his nickname of Salamander. His short-tempered nature makes him the guild's biggest troublemaker.",
+                evoawk: "A wizard of Faity Tail. Known by his title of Dragon Slayer. he is a master of fire-based hand-to-hand combat. Though his impulsiveness gets him into fights, his fortitude lets him overcome any opponent."
             }
     },
-    { //Lucy Heartfilia - Missing Lore
+    { //Lucy Heartfilia - Complete
         id: 107566412,
         name: "Lucy Heartfilia",
         attribute: "Light",
@@ -22691,8 +22691,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global",
-                evoawk: "Currently unreleased in Global"
+                evo5: "A celestial wizard who joined Fairy Tail with Natsu's help. She is simple-minded and cheerful, but her careful budgeting and love of reading reveals a practical side. Usually teams up with Natsu and Happy.",
+                evoawk: "A young celestial wizard. Though she claims to be not too helpful in battle, she can use keys to call celestial spirits to fight in her place. This grants her a wide variety of abilities, and each form is incredibly powerful."
             }
     },
     { //Gray Fullbuster - Missing Lore
@@ -22755,8 +22755,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global",
-                evoawk: "Currently unreleased in Global"
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
             }
     },
     { //Erza Scarlet - Missing Lore
@@ -22819,8 +22819,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global",
-                evoawk: "Currently unreleased in Global"
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
             }
     }
 
