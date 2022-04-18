@@ -1,13 +1,23 @@
 import React from 'react';
 import { Col, Container, Row, Media } from 'reactstrap';
 
-
-const imageSize ={
-    maxHeight: 200
-};
-
-
 //Use this file to conglomerate all the pages
+
+/**
+ * Equip Banner for future use
+ *                 <Col>
+                    <center>
+                        <a href="/equips">
+                            <Media src="equips_banner.png" />
+                        </a>
+                    </center>
+                </Col>
+ */
+
+const imageSize = { 
+    width: "100%",
+    height: "auto"
+}
 
 function Main () {
     return (
@@ -16,37 +26,34 @@ function Main () {
                 <center><strong><h1>Welcome to the Grand Summoners Database</h1></strong></center>
             </Row>
             <Row style={{paddingTop: "50px"}}>
-                <Col>
+                <Col lg="auto">
                     <center>
-                        <a href="/news">News</a>
+                        <a href="/news">
+                            <Media src="news_banner.png" style={imageSize}/>
+                        </a>
                     </center>
                 </Col>
-                <Col>
+                <Col lg="auto">
+                    <center>
+                        <a href="/tierlist">
+                            <Media src="tierlist_banner.png" style={imageSize}/>
+                        </a>
+                    </center>
+                </Col>
+            </Row>
+            <Row>
+                <Col lg="auto">
                     <center>
                         <a href="/units">
-                            <Media src="/../../UnitsBanner.png" style={imageSize}/>
+                            <Media src="units_banner.png" style={imageSize}/>
                         </a>
                     </center>
                 </Col>
-            </Row>
-            <Row>
-                <Col>
+                <Col lg="auto">
                     <center>
-                        <a href="/tierlist">Tierlist</a>
-                    </center>
-                </Col>
-                <Col>
-                    <center>
-                        <a href="/equips">
-                            <Media src="/../../EquipsBanner.png" style={imageSize}/>
+                        <a href="/guides">
+                            <Media src="guides_banner.png" style={imageSize}/>
                         </a>
-                    </center>
-                </Col>
-            </Row>
-            <Row>
-                <Col>
-                    <center>
-                        <a href="/guides">Guides</a>
                     </center>
                 </Col>
             </Row>
