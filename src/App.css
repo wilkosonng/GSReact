@@ -19,3 +19,7 @@ th, tr {
   border-color: white;
 }
 
+.newsImages {
+  width: 100%;
+  height: auto;
+}
