@@ -28,15 +28,26 @@ export default function News () {
                                         <React.Fragment key={theNews.id}>
                                             <Col xs="12">
                                                     <Link to={`/news/${theNews.id}`} style={{textDecoration: 'none'}} key={theNews.id}>
-                                                        <Card style={{maxWidth: "1000rem", backgroundColor: "#25274d", color: "#29648a", overflow: "hidden", marginBottom: "5rem"}}>
+                                                        <Card style={{maxWidth: "1000rem", width: "100%", height: "auto", backgroundColor: "#25274d", color: "#29648a", marginBottom: "5rem"}}>
                                                             <CardHeader  style={{backgroundColor: "#29648a", color: "#aaabb8", padding: "0px"}}>
-                                                            <p style={{fontSize: "20px", marginLeft: "1rem", paddingBottom: "0px"}}><strong>{theNews.category}</strong> <span style={{float:"right", fontSize: "14px", marginRight: "2rem", paddingBottom: "0px"}}>{theNews.date}</span></p>
-                                                            <p style={{paddingTop: "0rem"}}><center><h3>{theNews.title}</h3></center></p>
+                                                                <Container>
+                                                                <Row>
+                                                                    <Col lg="auto">
+                                                                        <p style={{fontSize: "20px", marginLeft: "1rem", paddingBottom: "0px"}}><strong>{theNews.category}</strong></p>
+                                                                    </Col>
+                                                                    <Col lg="8">
+                                                                        <p style={{}}><center><h3>{theNews.title}</h3></center></p>
+                                                                    </Col>
+                                                                    <Col lg="auto">
+                                                                        <p style={{float: "right"}}>{theNews.date}</p>
+                                                                    </Col>
+                                                                </Row>
+                                                                </Container>
                                                             </CardHeader>
                                                             <CardBody>
                                                                 <center>
-                                                                    <img src={theNews.preview} alt="Preview Image" style={{maxWidth: "400px"}} />
-                                                                    <p style={{backgroundColor: "#29648a", color: "#aaabb8", width: "300px", marginTop: "2rem"}}>Read Article</p>
+                                                                    <img src={theNews.preview} alt="Preview Image" style={{maxWidth: "400px", width: "100%", height: "auto"}} />
+                                                                    <p style={{backgroundColor: "#29648a", color: "#aaabb8", maxWidth: "300px", width: "100%", height: "auto",marginTop: "2rem"}}>Read Article</p>
                                                                 </center>
                                                             </CardBody>
                                                         </Card>
@@ -59,10 +70,10 @@ export default function News () {
                                             <React.Fragment key={theNews.id}>
                                                 <Col>
                                                     <Link to={`/news/${theNews.id}`} style={{textDecoration: 'none'}} key={theNews.id}>
-                                                        <Card style={{height: "200px", backgroundColor: "#25274d", color: "#aaabb8", overflow: "hidden", marginBottom: "1rem"}}>
+                                                        <Card style={{height: "auto", backgroundColor: "#25274d", color: "#aaabb8", overflow: "hidden", marginBottom: "1rem"}}>
                                                                 <p style={{float: "left", fontSize: "20px", marginLeft: "1rem"}}><strong>{theNews.category}</strong> <span style={{float:"right", fontSize: "14px", marginRight: "2rem"}}>{theNews.date}</span></p>
                                                                 <p style={{marginTop: "1rem"}}><center><h3>{theNews.title}</h3></center></p>
-                                                                <center><p style={{backgroundColor: "#29648a", color: "#aaabb8", width: "200px", float: "right", marginTop: "3rem", marginRight: "1rem"}}>Read More</p></center>
+                                                                <center><p style={{backgroundColor: "#29648a", color: "#aaabb8", maxWidth: "200px", float: "right", marginTop: "3rem", marginRight: "1rem", width: "100%", height: "auto"}}>Read More</p></center>
                                                         </Card>
                                                     </Link>
                                                 </Col>
