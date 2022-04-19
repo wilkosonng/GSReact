@@ -82,8 +82,8 @@
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "Currently unreleased in Global",
+                evoawk: "Currently unreleased in Global"
             }
     }
 
@@ -4021,8 +4021,8 @@ const UnitInformation = [
         lore: 
             {   
                 evo4: "A Human gunner who became renowned prior to the Great War, who uses Nigreid, the Dark Gun. to hunt monsters across the land. Though his actions earned him renown, none knew his reasons for fighting monsters. One explanation is that Zecht's gun became more powerful for every foe he defeated with it. Though he defeated countless monsters, one fateful occasion found him chasing after a fire Dragon...",
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "Currently unreleased in Global",
+                evoawk: "Currently unreleased in Global"
             }
     },
     { //Aristela - Complete
