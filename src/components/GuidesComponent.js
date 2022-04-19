@@ -3,15 +3,21 @@ import { Container, Row, Col, Card, CardHeader, CardBody, CardGroup } from 'reac
 import { Link } from 'react-router-dom';
 
 const cardCategorySize = {
-    width: "25rem",
+    maxWidth: "25rem",
+    width: "100%",
     height: "10rem",
-    backgroundColor: "#2e9cca"
+    backgroundColor: "#2e9cca",
+    alignItems: "center", 
+    justifyContent: "center"
 }
 
 const cardSize = {
-    width: "20rem", 
+    maxWidth: "20rem", 
+    width: "100%", 
     height: "10rem",
-    backgroundColor: "#2e9cca"
+    backgroundColor: "#2e9cca",
+    alignItems: "center", 
+    justifyContent: "center"
 }
 export default function GuidesMainPage () {
     //TODO: Replace the Title with an image banner of the article
@@ -26,26 +32,26 @@ export default function GuidesMainPage () {
                 </Card>
             </Row>
             <Row>
-                <Card style={{backgroundColor:"#464866"}}>
+                <Card style={{backgroundColor:"#464866", width: "100%"}}>
                     <CardBody>
                         <h1><b><center>Popular Guides</center></b></h1>
-                        <CardGroup style={{alignItems: "center", justifyContent: "center"}}>
+                        <CardGroup style={{alignItems: "center", justifyContent: "center", width: "100%"}}>
                             <Link to="FAQ" activeClassName="active">
-                                <Col lg="3">
+                                <Col lg="auto">
                                     <Card style={cardSize}>
                                         <h1><b><center>F.A.Q.</center></b></h1>
                                     </Card>
                                 </Col>
                             </Link>
                             <Link to="reroll-guide" activeClassName="active">
-                                <Col lg="3">
+                                <Col lg="auto">
                                     <Card style={cardSize}>
                                             <h1><b><center>Current Reroll Recommendations</center></b></h1>
                                     </Card>
                                 </Col>
                             </Link>
                             <Link to="curret-banner" activeClassName="active">
-                                <Col lg="3">
+                                <Col lg="auto">
                                     <Card style={cardSize}>
                                             <h1><b><center>Current Banner Reviews</center></b></h1>
                                     </Card>
@@ -53,7 +59,7 @@ export default function GuidesMainPage () {
                             </Link>
                         </CardGroup>
                         <h1><b><center>Guide Categories</center></b></h1>
-                        <CardGroup style={{alignItems: "center", justifyContent: "center"}}>
+                        <CardGroup style={{alignItems: "center", justifyContent: "center", width: "100%"}}>
                             <Link to="mines-guides" activeClassName="active">
                                 <Col lg="auto">
                                     <Card style={cardCategorySize}>
@@ -79,6 +85,13 @@ export default function GuidesMainPage () {
                                 <Col lg="auto">
                                     <Card style={cardCategorySize}>
                                             <h1><b><center>Event Guides</center></b></h1>
+                                    </Card>
+                                </Col>
+                            </Link>
+                            <Link to="other-guides" activeClassName="active">
+                                <Col lg="auto">
+                                    <Card style={cardCategorySize}>
+                                            <h1><b><center>Other Guides</center></b></h1>
                                     </Card>
                                 </Col>
                             </Link>
