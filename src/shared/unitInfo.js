@@ -7678,7 +7678,7 @@ const UnitInformation = [
                 evoawk: "After using his Godly brethren for his own ends in a successful assault on the Dragons' lab. Kayas was welcomed back into the army of the Gods, fulfilling his long-held ambitions. However, one man stood against him: a knight of the Gods who ought to have been dead as a result of Kayas' schemes. The Mad Mage used his full power to eliminate the knight, but his hands were already stained with darkness."
             }
     },
-    { //End - Missing Lore
+    { //End - Complete
         id: 101906412,
         name: "End",
         rank: "C",
@@ -7744,7 +7744,7 @@ const UnitInformation = [
         lore: 
             {   
                 evo5: "A girl who is the leader of the Wasetto, a tribe of humans who existed in the early days of the Ancient War who possess the power to see the future. While most tribe members can only see visions of a near future, her powers outclass the rest of the tribe and is sometimes able to see far beyond in the future. Although the lives of the Wasetto tribe were protected by their guardian God, other races discover their existence and try to capture her for their own benefits.",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evoawk: "She who swears to remain in isolation in order to fight, suddenly sees a vision of the future. A future in which humans are victorious in the Ancient War and rewrite history. However, mankind will commit a great sin and betray the Gods in this process. After prophesizing this future, she stabs herself with a blade in the hopes that by erasing her own existence, this tragic future can be avoided..."
             }
     },
     { //Coco - Complete
@@ -11820,7 +11820,7 @@ const UnitInformation = [
                 evoawk: "During the deadly battle with his arch-enemy, his kind mother fell on her kneew. In such a desperate situation, he made his decision to save his family. Calling his brother's name, he unleashed his best shot and abandoned himself to his fate. There was no hesitation in his eyes. He entrusted everything to his brother and was clad by the coldness of his Icicle Spear. This was the moment when his power awoken and his name as a sorcerer became legendary."
             }
     },
-    { //Maquiness - Missing Lore
+    { //Maquiness - Complete
         id: 102566312,
         name: "Maquiness",
         rank: "TBD",
@@ -11883,11 +11883,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "She was a Human sorceress said to have been a match for the Dragon champion called the War God. Though she went missing in the aftermath of a huge battle, her daughter, also a talented magician, revealed the Dragons' had turned her into a young girl with a secret potion. However, she did not let that faze her. Continuing to raise her adopted war orphans, she went on a journey to punish the one responsible. She succeeded, but her youthful form remained.",
+                evoawk: "Her daughter told of when the two Dragon brothers, who went on to become reliable allies in battle, first joined the family. They approached them at dinner time after being ejected from their army for their ineptitude. Regarding them with narrowed eyes at first, she welcomed them with a smile to show her children the power of forgiveness. Her travels ended when she founded a nation, and history remembered her as a symbol of affection."
             }
     },
-    { //Eternia - Missing Lore
+    { //Eternia - Complete
         id: 102576412,
         name: "Eternia",
         rank: "B",
@@ -11963,8 +11963,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "A warrior born to a consul of the Gods. Despite her high position, she hated the exclusionary attitude of her race and endeavored to change it. Her strength and talent in combat matched even the Dragons, and legends spoke of how her flashing swords bathed the battlefield in the glorious light of dawn.",
+                evoawk: "A neighboring country of Humans faced crisis, but her father refused to offer aid. Enraged, she came to the realization that only personal action would guarantee change, so she left on a journey to help those in need. Her first accomplishment was joining the cause of a warrior family in battling Dragons, and she felt a true sense of purpose both during and after the feat. It also gave assurance the brighter future she created would vindicate her."
             }
     },
     { //Kurt - Missing Lore
@@ -12313,7 +12313,7 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
     },
-    { //Shasha - Missing Lore
+    { //Shasha - Complete
         id: 102636412,
         name: "Shasha",
         rank: "TBD",
@@ -12376,8 +12376,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "A Demon infamous for sealing away people with her interdimensional tome. In contrast to her casual tone and appearance, she constantly worked to improve her talents. This diligence let her master all kinds of magic and formulate spells used for years to come. However, she experimented purely to satisfy her own curiosity, even if it carried her across moral boundaries. She started trapping souls inside her tome for no reason other than to prove the possibility.",
+                evoawk: "She was shocked when Luda and Tear surpassed her expertly calculated predictions. Their incredible strength of will in the face of crisis piqued her interest, and she decided to join their journey. Her talent and inquisitiveness hindered as much as it helped, even casting them across the dimensional rift at times, yet those very ordeals would make for a series of thrilling adventure tales."
             }
     },
     { //Kush - Missing Lore
@@ -16484,7 +16484,7 @@ const UnitInformation = [
                 evoawk: "The heiress of Muraku Itto-Ryu, a style of musical swordplay with over 400 years of history. She firmly believes in her duty to protect the passion of artists. As a performer herself, her behavior also tends to stand out. This is especially true on days off when she wanders to and fro, guided only by whimsy. Though she seems unpredictable, her new partner Salyssa says there is indeed a definite logic behind her curiosity."
             }
     },
-    { //Raine - Missing Lore
+    { //Raine - Complete
         id: 103176212,
         name: "Raine",
         rank: "TBD",
@@ -16563,8 +16563,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "A knight of the Stella Squad, though she claims her main occupation is court painter. She is a prodigy who has worked on many masterpieces, earning her scores of fans both at home and abroad. Beneath her quiet, cool demeanor is a shy loner, so she treats her squad mates as close family, including how she tends to over-rely on them. Her role in the group is drawing for the royal newsletter and other official circulations.",
+                evoawk: "A court painter affiliated with the Stella Squad. Her main purview is fine art, so she illustrates for government publications and plans museum exhibits. She can also perform on stage if the need arises, but she prefers a supportive role away from the spotlight. Even so, she will take action whenever she sees anyone in trouble like a true Defender of Passion."
             }
     },
     { //Alulu - Complete
@@ -22435,7 +22435,7 @@ const UnitInformation = [
                 evoawk: "After working for the Greyrat family, she was hired as a private tutor for the prince of Shirone. Even so, that care for her former student remained strong. Not only did she send him a self-made textbook on Demon language when he mentioned wanting to learn it, she dropped everything and left for the Demon Continent after hearing he was caught in the Fittoa Territory Displacement Incident."
             }
     },
-    { //Sylphiette - Missing Lore
+    { //Sylphiette - Complete
         id: 107536412,
         name: "Sylphiette",
         rank: "S+",
@@ -22496,8 +22496,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "A kind and obedient quarter-elf girl. She used to be bullied because her hair color was the same as that of the bloodthirsty Superd tribe until Rudeus stood up for her. He mistook her for a boy at first, but they became close friends, and she even learned magic from him.",
+                evoawk: "As she and Rudeus grew up, their parents thought they were becoming too reliant on each other. To put some distance between them, Rudeus father sent him to the Boreas Greyrat household as tutor for his cousin. His absence made her realize she needed to become stronger not just for her sake, but his as well."
             }
     },
     { //Eris - Complete
@@ -22693,7 +22693,7 @@ const UnitInformation = [
                 evoawk: "A young celestial wizard. Though she claims to be not too helpful in battle, she can use keys to call celestial spirits to fight in her place. This grants her a wide variety of abilities, and each form is incredibly powerful."
             }
     },
-    { //Gray Fullbuster - Missing Lore
+    { //Gray Fullbuster - Complete
         id: 107576212,
         name: "Gray Fullbuster",
         attribute: "Water",
@@ -22753,11 +22753,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "A skilled member of the Fairy Tail. Though he's rude towards Natsu, they recognize each other's talent. Has an odd tendency to suddenly strip down.",
+                evoawk: "A skilled member of the Fairy Tail. Called the Ice-Make wizard, he creates ice formations to use as weapons or armor with speed that no one else in his field can match."
             }
     },
-    { //Erza Scarlet - Missing Lore
+    { //Erza Scarlet - Complete
         id: 107586412,
         name: "Erza Scarlet",
         attribute: "Light",
@@ -22775,7 +22775,7 @@ const UnitInformation = [
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/defLB.png",
-                slot3: 4,
+                slot3: 5,
                 slot3type: "/db/Mines/thumbnail/physLB.png"
             },
         stats: 
@@ -22817,8 +22817,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "The strongest woman in Fairy Tail. Her status as an S-Class wizard lets her accept S-Class requests. Her stern, strong-minded personality keeps the other men of the guild at arms' reach, and even Natsu and Gray listen to her commands.",
+                evoawk: "The strongest woman in Fairy Tail. Her status as an S-Class wizard lets her accept S-Class requests. Her nickname means \"queen of the fairies\", and her magic ability \"The Knight\" lets her \"reequip\" arms, instantly changing in the middle of battle."
             }
     }
 
