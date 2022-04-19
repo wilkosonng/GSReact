@@ -10,6 +10,8 @@ import Tierlist from './components/TierlistComponent';
 import News from './components/NewsComponent';
 import Article from './components/news/ArticleComponent';
 import GuidesMainPage from './components/GuidesComponent';
+import OtherGuides from './components/guidecomponents/OtherGuides';
+import DisplayGuides from './components/guidecomponents/otherguides/OtherGuidesComponent';
 import FAQGuide from './components/guidecomponents/DisplayFAQ';
 import { Container, Row, Col } from 'reactstrap';
 import './App.css';
@@ -35,6 +37,8 @@ class App extends Component {
                   <Route path="units/:unitName/*" element={<UnitDetails />} />
                   <Route path="tierlist" element={<Tierlist />} />
                   <Route path="guides" element={<GuidesMainPage />} />
+                  <Route path="guides/other-guides" element={<OtherGuides />} />
+                  <Route path="guides/other-guides/:articleId" element={<DisplayGuides />} />
                   <Route exact path="guides/FAQ" element={<FAQGuide />} />
                   <Route path="*" element={<p><center><h1>Under construction</h1></center></p>} />
                 </Route>
