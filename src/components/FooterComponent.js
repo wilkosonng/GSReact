@@ -56,12 +56,12 @@ function Footer () {
                                     </LinkColor>
                                 </NavItem>
                                 <NavItem>
-                                    <LinkColor href="https://twitter.com/GRDSMN_GLOBAL">
+                                    <LinkColor href="https://www.reddit.com/r/grandsummoners/">
                                         Reddit
                                     </LinkColor>
                                 </NavItem>
                                 <NavItem>
-                                    <LinkColor href="https://twitter.com/GRANDSUMMONERS" >
+                                    <LinkColor href="https://twitter.com/GRDSMN_GLOBAL" >
                                         Twitter
                                     </LinkColor>
                                 </NavItem>
