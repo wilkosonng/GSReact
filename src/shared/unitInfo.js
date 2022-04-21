@@ -3948,7 +3948,7 @@ const UnitInformation = [
                 evoawk: "Zechsia pursued the Dragon mercenary, but grew skeptical of the justness of her orders upon seeing a kind young girl travelling happily with him. Her doubts about slaying the supposedly wicked Dragon were comfirmed when she witnessed him fearlessly protect the girl from a beast. Zechsia drew her sword against the beast to save the wounded mercenary, marking the first time in her entire life that she disobeyed a divine order."
             }
     },
-    { //Zecht - Missing Lore
+    { //Zecht - Complete
         id: 101286512,
         name: "Zecht",
         rank: "B",
@@ -4021,8 +4021,8 @@ const UnitInformation = [
         lore: 
             {   
                 evo4: "A Human gunner who became renowned prior to the Great War, who uses Nigreid, the Dark Gun. to hunt monsters across the land. Though his actions earned him renown, none knew his reasons for fighting monsters. One explanation is that Zecht's gun became more powerful for every foe he defeated with it. Though he defeated countless monsters, one fateful occasion found him chasing after a fire Dragon...",
-                evo5: "Currently unreleased in Global",
-                evoawk: "Currently unreleased in Global"
+                evo5: "A gunner who chased a fire Dragon. After witnessing its symbolic destructive power, Zecht began chasing the fire Dragon, eventually cornering it thanks to the help of friends he met along the way. In accordance with the distant promise it made with the self-destructive Dragon, Nigreid unleashed its full power, unleashing a bullet to end all bullets. As the Dragon fell, the Dark gun consumed its soul, shining brightly.",
+                evoawk: "The slain fire Dragon resurrected as a flame elemental. Zecht fought back, but its massive power was impossible to endure in his wounded state. Defeat seemed certain until his friends risked their lives to lend him strength. Grateful, he used that additional might to awaken Nigreid's true form, allowing it to absorb the Dragon's flames. By combining that energy with his spirit, it released an awesome blast which destroyed his archenemy for good."
             }
     },
     { //Aristela - Complete
