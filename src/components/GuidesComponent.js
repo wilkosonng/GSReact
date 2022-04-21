@@ -74,6 +74,13 @@ export default function GuidesMainPage () {
                                     </Card>
                                 </Col>
                             </Link>
+                            <Link to="crest-guides" activeClassName="active">
+                                <Col lg="auto">
+                                    <Card style={cardCategorySize}>
+                                            <h1><b><center>Crest Boss Guides</center></b></h1>
+                                    </Card>
+                                </Col>
+                            </Link>
                             <Link to="unit-reviews" activeClassName="active">
                                 <Col lg="auto">
                                     <Card style={cardCategorySize}>
