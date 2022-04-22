@@ -131,10 +131,12 @@ const CrestBossGuides = [
                     Arts properly(As Aristela’s Arts does have a delay making timing much easier!)</p>
                 </li>
                 <li>
-                    <b>Vox/Sonije (Accuracy Up units and DMG)</b>
-                    <p>Vox’s innate Accuracy Up to all units, and as usual his own DMG easily makes quick work of the boss. 
-                    Sonije’s Accuracy Up as well as her role as an ArtGen fills a similar role, but as always with 
-                    Light units, a taunt-tank or lots of sustain is needed to keep her health up consistently.</p>
+                    <b>Juno/Simon/Vox/Sonije (Accuracy Up units and DMG)</b>
+                    <p>Juno's one of, if not, the best unit for this stage, able to dish out noticeable damage with her Accuracy passive, 
+                    while generating an impressive amount of Arts for the team, with her HP loss as a slight drawback. Meanwhile, 
+                    Simon is a pure DPS with Accuracy buffs on his Phantom Bullet. Vox’s innate Accuracy Up to all units, and as usual 
+                    his own DMG easily makes quick work of the boss. Sonije’s Accuracy Up as well as her role as an ArtGen fills a similar 
+                    role, but as always with Light units, a taunt-tank or lots of sustain is needed to keep her health up consistently.</p>
                 </li>
         `,
         author: "ebouliben#1234, Jeffers#7056"
@@ -221,6 +223,121 @@ const CrestBossGuides = [
                     <b>Any unit with Status Cleanse and/or burst healing</b>
                     <p>If you're looking to sustain through the fight, it’s relatively simple to sustain through the boss’ mechanics 
                     with good usage of status management and healing from units such as Rimuru and Aristela.</p>
+                </li>
+        `,
+        author: "ebouliben#1234, Jeffers#7056"
+    },
+    {
+        id: 2,
+        title: "Shrine of the Burning Chains",
+        link: "shrine-of-the-burning-chains",
+        article: `
+            <center>
+                <b>The Raging Lord of All Flames</b> [Pro] <br />
+                <img src="/db/CrestGuides/Crest_Ifrit.png" />
+                BOSS: Ifrit <br />
+
+                <b>Appears on Day: Tuesday [PST]</b> <br/>
+                HP: 7,000,000 <br />
+                Element: Fire <br />
+                Race: God <br />
+                150% Paralysis RES <br />
+                100% Poison, Seal, Faint RES <br />
+                70% Freeze RES <br />
+                50% Blind RES <br />
+            </center><br />
+            <h3><center>Mechanics</center></h3>
+            <h4><center><u>Gimmicks</u></center></h4>
+            <ul>
+                <li>Increase DMG to Machine and Spirit Enemies by 200%.</li>
+                <ul>
+                    <li>This means that Machine/Spirit-type units will take three times the DMG taken compared to non-Machine/Spirit-type units. As such, it is recommended to avoid using Machine/Spirit-type units.</li>
+                </ul>
+                <li>At the start of battle, reduce Enemies' HP to 15% of their current HP, and inflict Burn on self and Enemies.</li>
+                <ul>
+                    <li>Similar to Wilkes’s initial nuke. This move is extremely dangerous as Ifrit’s upcoming attacks & burn damage can potentially wipe your team if approached without an appropriate defensive countermeasure. Burst healing is recommended to get your HP back to safe levels.</li>
+                </ul>
+                <li>All attacks have a chance to inflict Burn.</li>
+                <ul>
+                    <li>Units that are able to manage status ailments are invaluable in preventing the Burn from inflicting too much damage onto the team.</li>
+                </ul>
+                <li>Reduce Water RES by 50%. While burning, increase Water RES by 100% and Movement Speed by an unknown magnitude.</li>
+                <ul>
+                    <li>The increase in Movement Speed while burning is undesirable, so units capable of inflicting Freeze that would cleanse the Burn on Ifrit are very much desirable. In addition, Water DPS units are especially useful in this stage if the Burn is dealt with, but less useful than other options if the Burn is not dealt with.</li>
+                </ul>
+                <li>Increase Evasion by ~20% to ~30%.</li>
+                <ul>
+                    <li>This isn’t a very potent Evasion buff, though it would still reduce your DPS by a bit.</li>
+                </ul>
+            </ul>
+
+            <h4><center><u>Normal Attacks</u></center></h4>
+            <ul>
+                <li>Swings chain upwards, then slams it downwards. Reduces Enemies' Healing Taken by 80%.</li>
+                <ul>
+                    <li>This means that healing is quite ineffective for this Crest Boss; Pseudo-healing in the form of All Stats/HP Up would be more desirable as it is not affected by this debuff.</li>
+                </ul>
+                <li>Dives into Enemies. Chance to inflict Faint.</li>
+                <ul>
+                    <li>A bit annoying, as it may interrupt a units’ Arts. The duration is short, though, so there shouldn’t be much impact.</li>
+                </ul>
+                <li>Does an uppercut, and then slams the ground with his fist. Reduces Enemies' Burn RES.
+                </li>
+                <ul>
+                    <li>The reduction in Burn RES means that units could get burned even with Feena's or Rimuru’s Status RES buff, and also that the Burn inflicted would last longer. This means that consistent cleansing of Burn would be ideal.</li>
+                </ul>
+            </ul>
+
+            <center><h4><u>Arts</u></h4></center>
+
+            <ul>
+                <li><b>Latios Chain</b> - No special effects.</li>
+                <ul>
+                    <li>Well… there aren’t any special effects. Just survive through it.</li>
+                </ul>
+                <li><b>Loggis Rage</b> - Burns self (Note: Only used if Ifrit is not Burning).</li>
+                <ul>
+                    <li>Again, it’s recommended to have a unit that is capable of inflicting Freeze to cleanse the Boss’ Burn, to prevent the Water RES and Movement Speed buffs that it’d get.</li>
+                </ul>
+                <li><b>Vulkan Knuckle</b> - Reduces Enemies' Fire RES (Note: Only used if Ifrit is at Low HP).</li>
+                <ul>
+                    <li>A fairly powerful nuke that can easily wipe your team. Make sure to prepare for it with enough damage mitigation, freeze the boss before he flies up, or simply kill the boss before it can use this.</li>
+                </ul>
+            </ul>
+
+            <h3><center>Strategy</center></h3>
+            <p><center>
+            Ifrit Crest isn’t that much different from his Giant Boss counterpart. Freeze will prove paramount to cleanse 
+            his self-burn so as to reduce his high damage output from increased movement speed and to reduce the Water RES 
+            he gains from it. Strong sustain and especially some form of cleanse is highly recommended, most especially against 
+            <b>Vulkan Knuckle</b> if you’re unable to defeat Ifrit before he uses it. 
+            </p></center>
+
+            <b><h4><u>Recommended Units</u></h4></b>
+            <ul>
+                <li>
+                    <b>Any consistent Freeze unit (Selia/Joker Selia >>> Alvina, etc.)</b> 
+                    <p>As mentioned, cleansing Ifrit’s self-burn will ease stress on your team, allowing your Water Units
+                    to deal much more damage than before. Selia/Joker Selia is the best unit for the job as she is able to 
+                    consistently freeze, whilst also cleansing Burn for all allies. It’s also important to remember that Ifrit 
+                    has a modestly high Freeze RES, so being prepared for a failed Freeze proc is essential through a properly 
+                    made team composition.</p>
+                </li>
+                <li>
+                    <b>Vox/Vernoica/Mizuki</b>
+                    <p>Great Water DPS options for dealing with Ifrit. Vox provides teamwide crit whilst dealing considerable 
+                    damage on his own, while Veronica also serves as a very competent DPS with the slight drawback of her increased 
+                    damage taken. Mizuki is also a decent DPS option due to Ifrit being a Fire elemental boss.</p>
+                </li>
+                <li>
+                    <b>Mako/Hart/Asirpa/Rimuru > Nies</b>
+                    <p>The units listed are great healers for this stage. Additionally, they are able to provide Arts alongside 
+                    healing to all allies. Having 1-2 of them would ensure a smooth run. Do note that Nies’ Art Gen only applies 
+                    to Water units, while the other units listed apply regardless of element.</p>
+                </li>
+                <li>
+                <p><b><i><u>Note:</b></i></u> As long as you have a proper unit that can consistently inflict Freeze, any kind of team works provided 
+                you still supply them with the minimal amount of sustain.</p>
                 </li>
         `,
         author: "ebouliben#1234, Jeffers#7056"
