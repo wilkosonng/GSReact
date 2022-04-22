@@ -7,7 +7,7 @@ const CrestBossGuides = [
         article: `
             <center>
                 <b>Denial of the Pest Princess</b> [Pro] <br />
-
+                <img src="/db/CrestGuides/Crest_Radachne.png" />
                 BOSS: Radachne <br />
 
                 Playable 3 times daily <br/>
@@ -58,7 +58,7 @@ const CrestBossGuides = [
 
             <p><b>NOTE:</b> The presence of the Wyrms means you need a way to manage Status effects. In addition, the Big Fraid’s Mega Gigantes may wipe your team if it isn’t killed quickly enough.</p>
 
-            <h3><center><u>Gimmicks</u></center></h3>
+            <h4><center><u>Gimmicks</u></center></h4>
             <ul>
                 <li>At the start of Battle, gain invincibility for a few seconds and a DMG barrier that increases Evasion and heals the Boss’ HP by 5000 per second while present. This occurs again when she reaches 80% and 50% HP.</li>
                 <ul>
@@ -71,7 +71,7 @@ const CrestBossGuides = [
                 </ul>
             </ul>
 
-            <h3><center><u>Normal Attacks</u></center></h3>
+            <h4><center><u>Normal Attacks</u></center></h4>
             <ul>
                 <li>Spear gains a dark aura, and Radachne stabs enemies with it. Chance to inflict Curse. During this Attack, increase DMG to Light Enemies by 200%.</li>
                 <ul>
@@ -89,7 +89,7 @@ const CrestBossGuides = [
             </ul>
 
             <center>
-                <h3><u>Arts</u></h3>
+                <h4><u>Arts</u></h4>
                 <p>When Radachne reaches 5 orbs, she will activate one of two Arts written below, and also summon two random Wyrms.</p>
             </center>
 
@@ -114,7 +114,7 @@ const CrestBossGuides = [
                 for the boss so as to clear it quicker, though not heavily needed.
             </p></center>
 
-            <b><center><u>Recommended Units</u></center></b>
+            <b><h4><u>Recommended Units</u></h4></b>
             <ul>
                 <li>
                     <b>Thetis/Gerald</b> 
@@ -135,6 +135,92 @@ const CrestBossGuides = [
                     <p>Vox’s innate Accuracy Up to all units, and as usual his own DMG easily makes quick work of the boss. 
                     Sonije’s Accuracy Up as well as her role as an ArtGen fills a similar role, but as always with 
                     Light units, a taunt-tank or lots of sustain is needed to keep her health up consistently.</p>
+                </li>
+        `,
+        author: "ebouliben#1234, Jeffers#7056"
+    },
+    {
+        id: 1,
+        title: "Shrine of Oblivion",
+        link: "shrine-of-oblivion",
+        article: `
+            <center>
+                <b>The Reaper's Smile</b> [Pro] <br />
+                <img src="/db/CrestGuides/Crest_Oldeus.png" />
+                BOSS: Oldeus <br />
+
+                <b>Appears on Day: Monday [PST]</b> <br/>
+                HP: 3,000,000 <br />
+                Element: Dark <br />
+                Race: Demon <br />
+                100% RES to all status ailments<br />
+            </center><br />
+            <h3><center>Mechanics</center></h3>
+            <h4><center><u>Gimmicks</u></center></h4>
+            <ul>
+                <li>Increase DMG to Light Enemies by 400%.</li>
+                <ul>
+                    <li>This makes sustaining using Light units in this Crest Boss very dangerous.</li>
+                </ul>
+                <li>Negates Dark DMG (Dark RES is set at a very high value).</li>
+                <ul>
+                    <li>This means that Dark-element units would be fairly useless damage wise in this Crest Boss, though they wouldn’t die as quickly as Light units.</li>
+                </ul>
+                <li>Evades all DMG until Broken (Evasion is set at a very high value).</li>
+                <ul>
+                    <li>This forces players to bring some way of breaking the boss quickly or surviving until they can fully chip down the break bar.</li>
+                </ul>
+            </ul>
+
+            <h4><center><u>Normal Attacks</u></center></h4>
+            <ul>
+                <li>Swings his scythe upwards, then downwards. Removes Barriers. If Enemy had their Barrier removed, chance to inflict Faint on that Enemy.</li>
+                <ul>
+                    <li>This makes units that generate Barriers redundant for this stage.</li>
+                </ul>
+                <li>Swings his scythe downwards. Removes Barriers.</li>
+                <ul>
+                    <li>Same as above.</li>
+                </ul>
+                <li>Releases a purple mist. Chance to inflict Poison. Removes Barriers.</li>
+                <ul>
+                    <li>The poison makes status ailment management more valuable; otherwise, same as above.</li>
+                </ul>
+            </ul>
+
+            <center><h4><u>Arts</u></h4></center>
+
+            <ul>
+                <li><b>Sengoku Resonance</b> - Chance to inflict Poison. Removes Barriers.</li>
+                <ul>
+                    <li>It is in your best interest to cleanse the poison, as it would make your team far easier to wipe.</li>
+                </ul>
+                <li><b>Violent Shaking</b> - Faints Enemies. Sets Enemy with the highest current HP to 1 HP (Note: This ignores taunts and all types of DMG RES effects).</li>
+                <ul>
+                    <li>Burst healing is recommended to get the 1 HP unit to safe levels of HP before the boss can deal damage to kill it.</li>
+                </ul>
+            </ul>
+
+            <h3><center>Strategy</center></h3>
+            <p><center>
+                The innate mechanics of the boss makes using Light-element units very difficult, while Dark-element units are pure deadweight.
+                If it’s simply to clear, a team of units focused on status management and sustain should clear with no trouble,
+                though this boss is very easy to nuke compared to the other crest bosses.
+            </p></center>
+
+            <b><h4><u>Recommended Units</u></h4></b>
+            <ul>
+                <li>
+                    <b>Est >> Duke > Wargul</b> 
+                    <p>If you’re looking to nuke this boss, you’d have to break-nuke it since it evades DMG until it is Broken.
+                    As such, Est and Duke would be ideal considering their passives can halve the Boss’ Break Bar.
+                    That said, Duke and Wargul are far from ideal as they cannot do any damage themselves, though they do provide significant DMG buffs.
+                    As such, most break-nuke compositions for this boss feature Est paired with other nukers and nuke supports.</p>
+                </li>
+                <li>
+                    <b>Any unit with Status Cleanse and/or burst healing</b>
+                    <p>If you're looking to sustain through the fight, it’s relatively simple to sustain through the boss’ mechanics 
+                    with good usage of status management and healing from units such as Rimuru and Aristela.</p>
                 </li>
         `,
         author: "ebouliben#1234, Jeffers#7056"
