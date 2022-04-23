@@ -82,8 +82,8 @@
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global",
-                evoawk: "Currently unreleased in Global"
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
             }
     }
 
@@ -19017,6 +19017,165 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
     },
+    { // 12th Gen Mizuki - Missing Lore
+        id: 103496212,
+        name: "12th Gen Mizuki",
+        attribute: "Water",
+        type: "Human",
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_thumbnail_103495212.png",
+                detailawk: "/db/Units/Detail/unit_detail_103496212.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_103495212.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103496212.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/physLB.png"
+            },
+        stats: 
+            {
+                hp: 7200,
+                hpplus: 999,
+                atk: 2950,
+                atkplus: 429,
+                def: 2542,
+                defplus: 393
+            },
+        skillset: 
+            {
+                skill: "12s CT - 2000% Water DMG (PHY). Increase own Arts by 20.",
+                skillbreak: 300,
+                arts: "18000% Water DMG (PHY). Cure Allies' Status Ailments (except Faint) + For 15s, increase Allies' Status RES (except Faint) by 100%. During True Third Eye, further increase Water Allies' DMG by 100%.",
+                artsbreak: 1200,
+                truearts: "For 120s, enter Third Eye. During Third Eye: 55000% Water DMG (PHY). For 15s, reduce Enemies' PHY RES by 60% and increase >50% HP Allies' Arts by 4/s.",
+                trueartsbreak: 2000
+            },
+        passive: 
+            {
+                ability1: "Increase Hellfire RES by 60%.",
+                ability2: "When entering Third Eye, if enemy is Demon or Dragon Boss, activate True Third Eye instead. During True Third Eye, increase DMG to Demon and Dragon Enemies by 200%.",
+                ability3: "When entering True Third Eye, increase Allies' Arts by 100. During Third Eye/True Third Eye, increase own ATK and Skill CT REC by 100%."
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragFreydal.png",
+                    mat3amt: 2,
+                    hover3: "Freydal",
+                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat4amt: 1,
+                    hover4: "Code-XTF",
+                    mat5: "/db/Icons/dungeon_drops/fragPalamicia.png",
+                    mat5amt: 1,
+                    hover5: "Palamicia"
+                }
+            },
+        trueweapon: //If no TW, may delete this section
+            {
+                name: "Starling",
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_110151.png",
+                skill: "45s CT - 9000% Water DMG (PHY). For 10s, increase own DMG by 50% and reduce Enemies' Water RES by 30%.",
+                skillbreak: 800,
+                passive: 
+                    {
+                        ability1: "Increase PHY RES by 10%.",
+                        ability2: "When equipped by XII Mizuki, at the start of a Quest, increase stats by 20% and Arts by 100. Does not stack with Abilities of the same name."
+                    }
+            },
+        lore: 
+            {   
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
+            }
+    },
+    { // War Ginzo - Missing Stats, Lore
+        id: 103506511,
+        name: "War Ginzo",
+        attribute: "Dark",
+        type: "Human",
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_103505511.png",
+                detailawk: "/db/Units/Detail/unit_detail_103506511.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_103505511.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103506511.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: 6900,
+                hpplus: "Unknown",
+                atk: 2920,
+                atkplus: "Unknown",
+                def: 2528,
+                defplus: "Unknown"
+            },
+        skillset: 
+            {
+                skill: "13s CT - 2000% Dark DMG (PHY). Cure own Blind.",
+                skillbreak: 900,
+                arts: "15000% Dark DMG (PHY). 60% chance to inflict Paralysis. During True Third Eye: Further increase own Arts by 30. ",
+                artsbreak: 1200,
+                truearts: "For 120s, enter Third Eye. During Third Eye: 40000% Dark DMG (PHY). For 20s, increase Allies' Dark DMG by 100%.",
+                trueartsbreak: 1900
+            },
+        passive: 
+            {
+                ability1: "When entering Third Eye, if Enemy is Human or Giant, enter True Third Eye instead. During True Third Eye, increase DMG against Human and Giant Enemies by 200%.",
+                ability2: "When entering True Third Eye, for 40s, reduce Enemies' PHY RES by 50%. During True Third Eye, increase own Arts by 2/s."
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_130150.png",
+                    mat3amt: 20,
+                    hover3: "War Ginzo"
+                }
+            },
+        trueweapon: //If no TW, may delete this section
+            {
+                name: "Throat of the Underworld",
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_110161.png",
+                skill: "50s CT - 6500% Dark DMG (PHY). If user is Dark, for 8s, increase own Critical Rate by 100%. If user is Human, for 8s, increase own Critical DMG by 50%.",
+                skillbreak: 700,
+                passive: 
+                    {
+                        ability1: "When equipped by War Ginzo, increase own stats by 30% and Arts gauge by 1/s. Does not stack with Abilities of the same name.",
+                        ability2: "Increase ATK by 5%."
+                    }
+            },
+        lore: 
+            {   
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
+            }
+    },
     { //Zinogre Armor Rayas - Missing Lore
         id: 107006412,
         name: "Zinogre Armor Rayas",
@@ -22819,6 +22978,83 @@ const UnitInformation = [
             {   
                 evo5: "The strongest woman in Fairy Tail. Her status as an S-Class wizard lets her accept S-Class requests. Her stern, strong-minded personality keeps the other men of the guild at arms' reach, and even Natsu and Gray listen to her commands.",
                 evoawk: "The strongest woman in Fairy Tail. Her status as an S-Class wizard lets her accept S-Class requests. Her nickname means \"queen of the fairies\", and her magic ability \"The Knight\" lets her \"reequip\" arms, instantly changing in the middle of battle."
+            }
+    },
+    { // Nui Harume - Missing Evolution, Lore
+        id: 107596512,
+        name: "Nui Harume",
+        attribute: "Dark",
+        type: "Demon",
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_107595512.png",
+                detailawk: "/db/Units/Detail/unit_detail_107596512.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_107595512.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107596512.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 5,
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats: 
+            {
+                hp: 6810,
+                hpplus: 999,
+                atk: 3038,
+                atkplus: 465,
+                def: 2729,
+                defplus: 419
+            },
+        skillset: 
+            {
+                skill: "10s CT - 1800% Dark DMG (MAG). Increase own Arts by 30.",
+                skillbreak: 500,
+                arts: "17000% Dark DMG (MAG). Every time this Arts is activated, increase Dark Allies' DMG by 30% (up to 120%). When this unit takes damage during this Arts, Enemies take 3000% Elementless DMG (MAG).",
+                artsbreak: 1000,
+                truearts: "68000% Dark DMG (MAG). For 15s, Allies ignore 100% of Enemies' DEF. Increase the Arts of the Ally with the least Arts (except self) by 100.",
+                trueartsbreak: 1300
+            },
+        passive: 
+            {
+                ability1: "Increase all allies' Equipment CT of Defense equipment by 10%.",
+                ability2: "Increase DMG to Human enemies by 60%.",
+                ability3: "Increase Curse RES and Evasion by 70%."
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragOldeus.png",
+                    mat3amt: 1,
+                    hover3: "Oldeus"
+                }
+            },
+        trueweapon: //If no TW, may delete this section
+            {
+                name: "Purple Scissor Blade",
+                slot: "/db/Mines/thumbnail/magLB.png",
+                detail: "/db/Equipment/Detail/item_detail_151771.png",
+                skill: "45s CT - 8000% Dark DMG (MAG). For 10s, increase own Dark DMG by 50%, and DMG to Giant Bosses by 50%.",
+                skillbreak: 800,
+                passive: 
+                    {
+                        ability1: "When equipped by Nui, increase own Skill CT REC and Stats by 20%. Does not stack with Abilities of the same name.",
+                        ability2: "Increase Dark RES by 5%."
+                    }
+            },
+        lore: 
+            {   
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
             }
     }
 
