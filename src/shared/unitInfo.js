@@ -19100,7 +19100,7 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
     },
-    { // War Ginzo - Missing Stats, Lore
+    { // War Ginzo - Missing Lore
         id: 103506511,
         name: "War Ginzo",
         attribute: "Dark",
@@ -19124,11 +19124,11 @@ const UnitInformation = [
         stats: 
             {
                 hp: 6900,
-                hpplus: "Unknown",
+                hpplus: 999,
                 atk: 2920,
-                atkplus: "Unknown",
+                atkplus: 448,
                 def: 2528,
-                defplus: "Unknown"
+                defplus: 389
             },
         skillset: 
             {
@@ -22980,7 +22980,7 @@ const UnitInformation = [
                 evoawk: "The strongest woman in Fairy Tail. Her status as an S-Class wizard lets her accept S-Class requests. Her nickname means \"queen of the fairies\", and her magic ability \"The Knight\" lets her \"reequip\" arms, instantly changing in the middle of battle."
             }
     },
-    { // Nui Harume - Missing Evolution, Lore
+    { // Nui Harume - Missing Lore
         id: 107596512,
         name: "Nui Harume",
         attribute: "Dark",
