@@ -341,6 +341,249 @@ const CrestBossGuides = [
                 </li>
         `,
         author: "ebouliben#1234, Jeffers#7056"
+    },
+    {
+        id: 3,
+        title: "Shrine of Crimson Sea",
+        link: "shrine-of-crimson-sea",
+        article: `
+            <center>
+                <b>Condemning Blaze</b> [Extreme] <br />
+                <img src="/db/CrestGuides/Crest_Ignis.png" />
+                BOSS: Ignis <br />
+
+                <b>Appears on Day: Tuesday [PST]</b> <br/>
+                HP: 3,000,000 <br />
+                Element: Fire <br />
+                Race: Spirit <br />
+                300% Freeze, Burn RES <br />
+                100% Seal RES <br />
+                80% Poison RES <br />
+                50% Paralysis RES <br />
+                30% Blind/Disease RES <br />
+            </center><br />
+            <h3><center>Mechanics</center></h3>
+            <h4><u>Special Mobs</u></h4>
+            <b>Grovogg</b>: Chance to inflict Burn.
+            <ul>
+                <li>Fairly insignificant HP loss over time, can be outhealed easily. However, do note that the pre-boss mobs are also fairly tanky.</li>
+            </ul>
+            <h4><center><u>Gimmicks</u></center></h4>
+            <ul>
+                <li><b>Area Effect:</b> Nerfed Hellfire Effect.</li>
+                <ul>
+                    <li>This effect will reflect 2% of all DMG dealt back to the unit, bypassing all damage reduction, redirection and shields. In short, it is fixed damage which scales according to the magnitude of damage. In addition, all units lose 10% of their MAX HP every 5 seconds.</li>
+                    <li>(<b>NOTE:</b> This effect is active throughout the battle, even before the boss wave)</li>
+                </ul>
+                <li>Negates DMG & Break from Fire Units.</li>
+                <ul>
+                    <li>Pretty self-explanatory. Avoid bringing along Fire units as they will not contribute to the team.</li>
+                </ul>
+                <li>Ignores DEF.</li>
+                <ul>
+                    <li>Avoid relying on DEF buffs. Instead, use DMG Resistance equips as they will reduce the damage output from Ignis.</li>
+                </ul>
+                <li>After 30% HP threshold, gain HP Auto-Recovery & DMG UP</li>
+                <ul>
+                    <li>The HP auto-recovery isn’t very significant and can be easily out-damaged. Do try to finish Ignis off as quickly as possible after this point as stretching the fight out will make the run harder.</li>
+                </ul>
+            </ul>
+
+            <h4><center><u>Normal Attacks</u></center></h4>
+            <ul>
+                <li>Fires a barrage of lasers. Inficts Arts Gauge Down debuff for 4s.</li>
+                <ul>
+                    <li>Fairly insignificant as duration is very short, capable art gen units should render this debuff negligible.</li>
+                </ul>
+                <li>Slam. Inflicts Break Power Down on Enemies.</li>
+                <ul>
+                    <li>Fairly insignificant as Break isn’t needed.</li>
+                </ul>
+                <li>Slams the ground and moves forward. Chance to inflict Faint.</li>
+                <ul>
+                    <li>Nothing too significant as the Faint duration only lasts a few seconds. However, be aware that units may be cancelled out of their Arts by Faint.</li>
+                </ul>
+            </ul>
+
+            <center><h4><u>Arts</u></h4></center>
+
+            <ul>
+                <li><b>Inferno Blast (MAG)</b> - Deals Moderate DMG. Inflicts Fire RES Down & Lights up an orb. After 3 orbs are lit, the next Arts used will be <b>Blazing Impact</b>.</li>
+                <ul>
+                    <li>Well… there aren’t any special effects. Just survive through it.</li>
+                </ul>
+                <li><b>Blazing Impact (MAG).</b> - Deals Massive DMG. Gains 100% Critical Rate UP & DMG UP. Resets lit orbs afterwards. <b>Used at the start of battle</b>.</li>
+                <ul>
+                    <li>Very powerful nuke, you will <b>need</b> some form of DMG RES to survive. Do keep in mind there is a wind up before Ignis’ slam that deals damage.</li>
+                </ul>
+            </ul>
+
+            <h3><center>Strategy</center></h3>
+            <p><center>
+                This crest palace is not recommended for newer players due to its annoying gimmicks. Due to the Hellfire Effect, 
+                lifesteal is important. Equips such as the true and farmable versions of Exceed Zechs and Goblin Slayer Dagger 
+                have lifesteal passives which can be taken advantage of. A general sustain team would generally revolve around a 
+                DPS with lifesteal, art gen units, and a competent healer. Additionally, bring decent DMG RES equipment such as 
+                Little Red Riding Mira, True Flambardo, Ganan’s Sandals, etc. or a competent tank to survive her initial nuke.
+            </p></center>
+            <p><center>
+                As for nuke comps, specific teams will not be included due to the vast amount of them. Instead, Duran’s mechanics 
+                will be covered to elaborate on his unique kit as most nukes are built around him.
+            </p></center>
+            <b><h4><u>Recommended Units</u></h4></b>
+            <ul>
+                <li>
+                    <b>Duran</b> (For Nukes) 
+                    <p>Used in the majority of Ignis crest nukes, there is a reason why he is the undisputed DPS option for this 
+                    crest palace. Duran’s kit centers around reflection. As Ignis always starts with a very powerful nuke, Duran 
+                    can reflect that nuke back at her, essentially taking out all of her HP in the blink of an eye. The easiest 
+                    way to take advantage of him is to use his Normal Arts on wave 2, kill the mobs as quickly as possible, then 
+                    use his True Arts on wave 3. Duran’s reflect on both his Normal and True Arts will stack with each other, 
+                    resulting in massive reflected damage. Do note, Duran would require 300 Arts to pull this off. Lifesteal is 
+                    not required as Duran can reflect Ignis’ damage before dying. <i>tl;dr: 300 Arts required, Duran NA on wave 2, 
+                    followed by TA on wave 3.</i>
+                    </p>
+                </li>
+                <li>
+                    <b>Miranda > Gerald</b>
+                    <p>Running a tank can be risky due to the initial slam from Ignis. However, Miranda’s passive 50% MAG RES 
+                    helps tank the hit relatively easily with the help of her TW. Gerald can also be used as a substitute with 
+                    his unique passive, allowing him to avoid death from the initial slam. However, he might have trouble taunting 
+                    DMG from Ignis after that point without DMG RES help from other units.</p>
+                </li>
+                <li>
+                    <b>Luahn/Veronica/Mizuki</b>
+                    <p>These units are great DPS options for this crest palace. Luahn has the ability to hold Exceed Zechs for passive 
+                    lifesteal, as well as inflicting Bleed stacks to not only increase his DMG output, but also gain more lifesteal. 
+                    Veronica also has the ability to hold Exceed Zechs and/or Goblin Slayer Dagger for passive lifesteal, and deals great 
+                    damage. Lastly, Mizuki has passive lifesteal during Third Eye and his unique passive also allows him to deal 
+                    considerable damage towards Fire enemies such as Ignis.</p>
+                </li>
+                <li>
+                    <b>Asirpa/Mako/Priestess/Hart/Rimuru/Aristela</b>
+                    <p>Great healers to bring as they do not deal enough damage or have lifesteal to put them at risk of killing themselves 
+                    due to reflection gimmick. Furthermore, with the exception of Aristela, these units also act as art genners, fulfilling 
+                    2 key roles.</p>
+                </li>
+        `,
+        author: "ebouliben#1234, Jeffers#7056"
+    },
+    {
+        id: 4,
+        title: "Shrine of the Azul Knight",
+        link: "shrine-of-the-azul-knight",
+        article: `
+            <center>
+                <b>The Solitude Silent Divine</b> [PRO] <br />
+                <img src="/db/CrestGuides/Crest_Palamicia.png" />
+                BOSS: Palamicia <br />
+
+                <b>Appears on Day: Wednesday [PST]</b> <br/>
+                HP: 4,000,000 <br />
+                Element: Water <br />
+                Race: God <br />
+                100% Seal, Faint, Freeze, Burn RES <br />
+                60% Paralysis RES <br />
+                30% Blind RES <br />
+                20% Poison RES <br />
+                <b style="color: red;">Over 700% Critical Resistance</b> (Critical Resistance is set at a very high value)
+            </center><br />
+            <h3><center>Mechanics</center></h3>
+            <h4><center><u>Gimmicks</u></center></h4>
+            <ul>
+                <li>Increase DMG to Human/God-type Enemies by 190%.</li>
+                <ul>
+                    <li>This means that Human/God-type units will take nearly three times the DMG taken by non-Human/God-type units. As such, it is recommended to avoid using Human/God-type units.</li>
+                </ul>
+                <li>From the start of the Battle until first activation of her Arts, heal own HP by 80% of DMG taken.</li>
+                <ul>
+                    <li>This mechanic makes her extremely hard to nuke before she Arts you at least once. Inflicting Disease on Palamicia will make it much easier, but it’ll still be extremely hard.</li>
+                </ul>
+                <li>Each Arts increases her HoT (heal over time) by 5000 (up to 30000).</li>
+                <ul>
+                    <li>This mechanic prolongs the fight a little bit. It shouldn’t be too hard to outdamage this healing.</li>
+                </ul>
+            </ul>
+
+            <h4><center><u>Normal Attacks</u></center></h4>
+            <ul>
+                <li>Chance to inflict Skill CT REC debuff (Stackable).</li>
+                <ul>
+                    <li>Usually not that important as most Units’ Skills aren’t that relevant.</li>
+                </ul>
+            </ul>
+            <h4><center><u>Counterattacks</u></center></h4>
+            <p><i>When Palamicia enters one of two Stances, damaging her with Skills or Equipment will trigger its Counterattack. Damaging her with Arts or True Arts will dispel the Stance without triggering the Counterattack.</i></p>
+            <ul>
+                <li>Heavenly Water Stance (Counterattack: Heavenly Aqua Slash). Decrease Enemies ATK & DEF (Stackable, magnitude unknown).</li>
+                <ul>
+                    <li>The debuffs don’t affect most teams that significantly, though the DEF debuff may impact survivability a bit.</li>
+                </ul>
+                <li>Protective Water Stance (Counterattack: Heavenly Aqua Barrier). Decrease Enemies’ Accuracy. Reduce Enemies' Arts by 100.</li>
+                <ul>
+                    <li>While the Accuracy debuff is mostly trivial, what is important here is the loss of 100 Arts on all Allies hit by this counterattack. That’s a lot of Arts lost, which can make the difference between survival and death. Avoid triggering this as much as possible.</li>
+                </ul>
+            </ul>
+
+            <center><h4><u>Arts</u></h4></center>
+
+            <ul>
+                <li><b>Divine Silent Sword "Saints”</b>. Decrease Enemies' DMG RES and Action Speed (Magnitude unknown). Removes Barriers. Only used when above 50% HP</li>
+                <ul>
+                    <li>A reduction in DMG RES makes this Arts hurt a lot. Additionally, you won’t be able to use barriers to mitigate her Arts, making tanks like Thetis much harder to play.</li>
+                </ul>
+                <li><b>Divine Silent Sword "Silent Finisher"</b>. Faints enemies. Removes barriers. Only used when below 50% HP</li>
+                <ul>
+                    <li>Deals less DMG as compared to her other Arts. While this does not apply any reduction in DMG RES, the Faint (which will last for the duration of the Arts) means that you won’t be able to heal during the duration of this Arts. Make sure you’re at full health before she activates this. Again, her Arts removes barriers, so tanks like Thetis are much harder to play.</li>
+                </ul>
+            </ul>
+
+            <h3><center>Strategy</center></h3>
+            <p><center>
+                This Crest Palace essentially prohibits the use of Human/God units without the use of unconventional methods. As a 
+                lot of very strong supports are of Human type, this may severely limit the amount of options the average player could 
+                bring. Other than that, it’s only her high self-heal and immense damage output you have to deal with, arguably making 
+                it the most straightforward Crest Palace as countering her Unit-Type Killers isn’t that hard.
+            </p></center>
+            <b><h4><u>Recommended Units</u></h4></b>
+            <ul>
+                <li>
+                    <b>Juno > Hart</b>
+                    <p>Juno is by far the best unit to bring into Palamicia crest. Providing an impressive 7 arts/s to all allies after 
+                    entering Demonic True Eclipse, she is able to consistently pump out arts. Furthermore, she does noticeable damage 
+                    as well, fulfilling 2 key roles. Hart, although Human, can also be used with additional support. Due to Palamicia 
+                    dealing additional damage to Humans, he would require DMG resistance from other allies such as Rem, Sanstone, 
+                    Favelle, Ram, etc. With adequate support, he can also provide the team with a huge amount of arts, whilst dealing 
+                    noticeable damage too.</i>
+                    </p>
+                </li>
+                <li>
+                    <b>Any Non-Human/God Art gen unit (Sakura Miku, Rimuru, Rosetta, etc.)</b>
+                    <p>Pretty self-explanatory, as most support units are Humans, the units listed above are great counters to Palamicia’s 
+                    Human & God Killer. Just make sure to not bring art gen units which don’t stack together.</p>
+                </li>
+                <li>
+                    <b>Parlot/Favelle/Ram/Rem</b>
+                    <p>The above listed units are great units to reduce Palamicia’s damage towards the team. Do consider using at least one 
+                    of them if your team is taking too much damage.</p>
+                </li>
+                <li>
+                    <b>Melia/Aqua Melia</b>
+                    <p>The use of these two’s ability to Timestop with their Arts offers a rather cheesy way of countering her completely. 
+                    As evident, being able to stop her from moving means she can hardly hit you, giving ample time to heal and deal damage 
+                    whenever she gets a cheeky hit off in-between Arts uses. This also allows the use of any Human/God type units which may 
+                    make your life easier knowing you can slot them in. This composition isn’t without its need for high support. Being able 
+                    to spam Melia/Aqua Melia’s Arts requires very high ArtsGen which players may not have. Getting hit by her high-damage Arts 
+                    on a Human/God type unit if you’ve slipped on Timestop may kill them instantly without a Blind ailment proc to lessen the 
+                    damage.</p>
+                </li>
+                <li>
+                    <b>Any kind of consistent Blind unit (Wargul, Dark Melia, Dark Fen, etc)</b>
+                    <p>Due to Palamicia’s tremendous damage even on non-Human/God type units, abusing the use of the Blind ailment to cripple 
+                    her damage output would prove extremely helpful given it’s proc’d consistently.</p>
+                </li>
+        `,
+        author: "ebouliben#1234, Jeffers#7056"
     }
 ]
 
