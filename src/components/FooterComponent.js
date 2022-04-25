@@ -16,20 +16,19 @@ const LinkColor = styled.a`
 
 function Footer () {
     //Display Navigation Links for bottom
-    /**
-     * Add this when Ads are properly connected
-     * <Row>
-                    <Adsense 
-                        client="ca-pub-7386611028385098"
-                        slot=""
-                        style={{ width: "500px" , height: "300px"}}
-                    />
-                </Row>
-     */
+
     return (
         <React.Fragment>
             <Container>
-                
+                <Row>
+                    <center>
+                        <Adsense 
+                            style={{display:"block", maxHeight: "4rem"}}
+                            client="ca-pub-7386611028385098"
+                            slot="9172261328"
+                            format="fluid" />
+                    </center>
+                </Row>
                 <Row>
                     <CardGroup style={{paddingTop: "10rem", marginBottom: "1rem"}}>
                         <Card md="3" style={{backgroundColor: "#464866"}}>
