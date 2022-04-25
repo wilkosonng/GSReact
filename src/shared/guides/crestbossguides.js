@@ -8,6 +8,7 @@ const CrestBossGuides = [
             <center>
                 <b>Denial of the Pest Princess</b> [Pro] <br />
                 <img src="/db/CrestGuides/Crest_Radachne.png" />
+                <br />
                 BOSS: Radachne <br />
 
                 Playable 3 times daily <br/>
@@ -149,6 +150,7 @@ const CrestBossGuides = [
             <center>
                 <b>The Reaper's Smile</b> [Pro] <br />
                 <img src="/db/CrestGuides/Crest_Oldeus.png" />
+                <br/>
                 BOSS: Oldeus <br />
 
                 <b>Appears on Day: Monday [PST]</b> <br/>
@@ -213,7 +215,7 @@ const CrestBossGuides = [
             <b><h4><u>Recommended Units</u></h4></b>
             <ul>
                 <li>
-                    <b>Est >> Duke > Wargul</b> 
+                    <b>Est &gt;&gt; Duke &gt; Wargul</b> 
                     <p>If you’re looking to nuke this boss, you’d have to break-nuke it since it evades DMG until it is Broken.
                     As such, Est and Duke would be ideal considering their passives can halve the Boss’ Break Bar.
                     That said, Duke and Wargul are far from ideal as they cannot do any damage themselves, though they do provide significant DMG buffs.
@@ -235,6 +237,7 @@ const CrestBossGuides = [
             <center>
                 <b>The Raging Lord of All Flames</b> [Pro] <br />
                 <img src="/db/CrestGuides/Crest_Ifrit.png" />
+                <br/>
                 BOSS: Ifrit <br />
 
                 <b>Appears on Day: Tuesday [PST]</b> <br/>
@@ -330,7 +333,7 @@ const CrestBossGuides = [
                     damage taken. Mizuki is also a decent DPS option due to Ifrit being a Fire elemental boss.</p>
                 </li>
                 <li>
-                    <b>Mako/Hart/Asirpa/Rimuru > Nies</b>
+                    <b>Mako/Hart/Asirpa/Rimuru &gt; Nies</b>
                     <p>The units listed are great healers for this stage. Additionally, they are able to provide Arts alongside 
                     healing to all allies. Having 1-2 of them would ensure a smooth run. Do note that Nies’ Art Gen only applies 
                     to Water units, while the other units listed apply regardless of element.</p>
@@ -350,6 +353,7 @@ const CrestBossGuides = [
             <center>
                 <b>Condemning Blaze</b> [Extreme] <br />
                 <img src="/db/CrestGuides/Crest_Ignis.png" />
+                <br/>
                 BOSS: Ignis <br />
 
                 <b>Appears on Day: Tuesday [PST]</b> <br/>
@@ -445,7 +449,7 @@ const CrestBossGuides = [
                     </p>
                 </li>
                 <li>
-                    <b>Miranda > Gerald</b>
+                    <b>Miranda &gt; Gerald</b>
                     <p>Running a tank can be risky due to the initial slam from Ignis. However, Miranda’s passive 50% MAG RES 
                     helps tank the hit relatively easily with the help of her TW. Gerald can also be used as a substitute with 
                     his unique passive, allowing him to avoid death from the initial slam. However, he might have trouble taunting 
@@ -476,6 +480,7 @@ const CrestBossGuides = [
             <center>
                 <b>The Solitude Silent Divine</b> [PRO] <br />
                 <img src="/db/CrestGuides/Crest_Palamicia.png" />
+                <br/>
                 BOSS: Palamicia <br />
 
                 <b>Appears on Day: Wednesday [PST]</b> <br/>
@@ -548,7 +553,7 @@ const CrestBossGuides = [
             <b><h4><u>Recommended Units</u></h4></b>
             <ul>
                 <li>
-                    <b>Juno > Hart</b>
+                    <b>Juno &gt; Hart</b>
                     <p>Juno is by far the best unit to bring into Palamicia crest. Providing an impressive 7 arts/s to all allies after 
                     entering Demonic True Eclipse, she is able to consistently pump out arts. Furthermore, she does noticeable damage 
                     as well, fulfilling 2 key roles. Hart, although Human, can also be used with additional support. Due to Palamicia 
