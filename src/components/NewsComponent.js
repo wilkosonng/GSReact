@@ -70,10 +70,10 @@ export default function News () {
                                             <React.Fragment key={theNews.id}>
                                                 <Col>
                                                     <Link to={`/news/${theNews.id}`} style={{textDecoration: 'none'}} key={theNews.id}>
-                                                        <Card style={{height: "auto", backgroundColor: "#25274d", color: "#aaabb8", overflow: "hidden", marginBottom: "1rem"}}>
+                                                        <Card style={{height: "auto", backgroundColor: "#25274d", color: "#aaabb8", marginBottom: "1rem"}}>
                                                                 <p style={{float: "left", fontSize: "20px", marginLeft: "1rem"}}><strong>{theNews.category}</strong> <span style={{float:"right", fontSize: "14px", marginRight: "2rem"}}>{theNews.date}</span></p>
                                                                 <p style={{marginTop: "1rem"}}><center><h3>{theNews.title}</h3></center></p>
-                                                                <center><p style={{backgroundColor: "#29648a", color: "#aaabb8", maxWidth: "200px", float: "right", marginTop: "3rem", marginRight: "1rem", width: "100%", height: "auto"}}>Read More</p></center>
+                                                                <center><p style={{backgroundColor: "#29648a", color: "#aaabb8", maxWidth: "150px", float: "right", marginTop: "3rem", marginRight: "1rem", width: "100%", height: "auto"}}>Read More</p></center>
                                                         </Card>
                                                     </Link>
                                                 </Col>
