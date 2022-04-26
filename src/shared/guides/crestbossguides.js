@@ -4,6 +4,7 @@ const CrestBossGuides = [
         id: 0,
         title: "Temple of Heavenly Light",
         link: "temple-of-heavenly-light",
+        banner: "/db/CrestGuides/Crest_Banner_Radachne.png",
         article: `
             <center>
                 <b>Denial of the Pest Princess</b> [Pro] <br />
@@ -146,6 +147,7 @@ const CrestBossGuides = [
         id: 1,
         title: "Shrine of Oblivion",
         link: "shrine-of-oblivion",
+        banner: "/db/CrestGuides/Crest_Banner_Oldeus.png",
         article: `
             <center>
                 <b>The Reaper's Smile</b> [Pro] <br />
@@ -233,6 +235,7 @@ const CrestBossGuides = [
         id: 2,
         title: "Shrine of the Burning Chains",
         link: "shrine-of-the-burning-chains",
+        banner: "/db/CrestGuides/Crest_Banner_Ifrit.png",
         article: `
             <center>
                 <b>The Raging Lord of All Flames</b> [Pro] <br />
@@ -349,6 +352,7 @@ const CrestBossGuides = [
         id: 3,
         title: "Shrine of Crimson Sea",
         link: "shrine-of-crimson-sea",
+        banner: "/db/CrestGuides/Crest_Banner_Ignis.png",
         article: `
             <center>
                 <b>Condemning Blaze</b> [Extreme] <br />
@@ -476,6 +480,7 @@ const CrestBossGuides = [
         id: 4,
         title: "Shrine of the Azul Knight",
         link: "shrine-of-the-azul-knight",
+        banner: "/db/CrestGuides/Crest_Banner_Palamicia.png",
         article: `
             <center>
                 <b>The Solitude Silent Divine</b> [PRO] <br />
