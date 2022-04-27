@@ -3,7 +3,7 @@ import { Nav, NavItem, Container, Row, Col, Card, CardGroup } from 'reactstrap';
 import '../App.css';
 import { FaRegCopyright } from 'react-icons/fa';
 import styled from 'styled-components';
-import { Adsense } from '@ctrl/react-adsense';
+import Adsense from './AdComponent';
 
 //Styled Component for Official Links
 const LinkColor = styled.a`
@@ -22,15 +22,11 @@ function Footer () {
             <Container>
                 <Row>
                     <center>
-                        <Adsense 
-                            style={{display:"block", maxHeight: "4rem"}}
-                            client="ca-pub-7386611028385098"
-                            slot="9172261328"
-                            format="fluid" />
+                        <Adsense slot="9172261328" />
                     </center>
                 </Row>
                 <Row>
-                    <CardGroup style={{paddingTop: "10rem", marginBottom: "1rem"}}>
+                    <CardGroup style={{paddingTop: "2rem", marginBottom: "1rem"}}>
                         <Card md="3" style={{backgroundColor: "#464866"}}>
                             <p style={{paddingTop: "1rem", justifyItems: "center"}}><center><i>The website grandsummoners.info is not<br /> affiliated with nor endorsed by NextNinja. 
                                 <br />All images belong to NextNinja.</i></center></p> 
