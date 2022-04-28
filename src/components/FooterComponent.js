@@ -22,7 +22,7 @@ function Footer () {
             <Container>
                 <Row>
                     <center>
-                        <Adsense slot="9172261328" />
+                        <Adsense/>
                     </center>
                 </Row>
                 <Row>
