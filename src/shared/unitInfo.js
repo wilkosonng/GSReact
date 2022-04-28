@@ -17205,9 +17205,9 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Emmy - Missing Lore, TW image
+    { // Emi - Missing Lore, TW image
         id: 103246512,
-        name: "Emmy",
+        name: "Emi",
         attribute: "Dark",
         type: "Human",
         image: 
@@ -17292,7 +17292,7 @@ const UnitInformation = [
                     skillbreak: 800,
                     passive: 
                         {
-                            ability1: "When equipped by Emmy, increase the duration of Liberation Mode by 30s. Does not stack with Abilities of the same name.",
+                            ability1: "When equipped by Emi, increase the duration of Liberation Mode by 30s. Does not stack with Abilities of the same name.",
                             ability2: "Increase MAG RES by 5%."
                         }
                 },
@@ -17306,7 +17306,7 @@ const UnitInformation = [
                     skillbreak: 900,
                     passive: 
                         {
-                            ability1: "When equipped by Emmy, increase DMG by 20%. At the start of a Quest, increase Emmy's Arts by 100. Does not stack with Abilities of the same name."
+                            ability1: "When equipped by Emi, increase DMG by 20%. At the start of a Quest, increase Emmy's Arts by 100. Does not stack with Abilities of the same name."
                         }
                 }
                 
