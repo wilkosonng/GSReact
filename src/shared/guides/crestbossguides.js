@@ -20,7 +20,7 @@ const CrestBossGuides = [
                 100% Faint RES <br />
             </center><br />
             <h3><center>Mechanics</center></h3>
-            <h4><u>Special Mobs</u></h4>
+            <b><u>Special Mobs</u></b>
             Mobs randomly spawned.<br/><br/>
 
             <b style="color: red;">Inferno Wyrm</b>:
@@ -371,7 +371,7 @@ const CrestBossGuides = [
                 30% Blind/Disease RES <br />
             </center><br />
             <h3><center>Mechanics</center></h3>
-            <h4><u>Special Mobs</u></h4>
+            <b><u>Special Mobs</u></b>
             <b>Grovogg</b>: Chance to inflict Burn.
             <ul>
                 <li>Fairly insignificant HP loss over time, can be outhealed easily. However, do note that the pre-boss mobs are also fairly tanky.</li>
@@ -602,7 +602,7 @@ const CrestBossGuides = [
         banner: "/db/CrestGuides/Crest_Banner_Freydal.png",
         article: `
             <center>
-                <b>Subzero Stormraptor</b> [EXTREME] <br />
+                <b>Subzero Stormraptor</b> [Extreme] <br />
                 <img src="/db/CrestGuides/Crest_Freydal.png" />
                 <br/>
                 BOSS: Freydal <br />
@@ -611,8 +611,8 @@ const CrestBossGuides = [
                 HP: 5,000,000 <br />
                 Element: Water <br />
                 Race: Beast <br />
-                50% Resistance to Blind <br />
                 1000% Resistance to Paralysis/Faint/Seal/Freeze <br />
+                50% Resistance to Blind <br />
             </center><br />
             <h4><center><u>Gimmicks</u></center></h4>
             <ul>
@@ -784,7 +784,7 @@ const CrestBossGuides = [
                 Race: Spirit <br />
             </center><br />
             <h3><center>Mechanics</center></h3>
-            <b><u>Special Mobs</b></u>
+            <b><u>Special Mobs</u></b>
             <ul>
                 <li>Dulah: Chance to inflict Seal with Skill.</li>
                 <li>Logbord: Reduces Enemies’ DEF with Skill.</li>
@@ -857,7 +857,228 @@ const CrestBossGuides = [
                 </li>
         `,
         author: "ebouliben#1234, Jeffers#7056"
-    }
+    },
+    {
+        id: 7,
+        title: "Shrine of Eternity",
+        link: "shrine-of-eternity",
+        banner: "/db/CrestGuides/Crest_Banner_Elpneumas.png",
+        article: `
+            <center>
+                <b>Eternal Nature Dragon</b> [Extreme] <br />
+                <img src="/db/CrestGuides/Crest_Elpneumas.png" />
+                <br/>
+                BOSS: Elpneumas <br />
+
+                <b>Appears on Day: Thursday [PST]</b> <br/>
+                HP: 7,000,000 <br />
+                Element: Earth <br />
+                Race: Dragon <br />
+                1000% Blind, Seal, Parlysis, Freeze, Faint RES <br />
+                50% Disease RES <br />
+                20% Burn RES <br />
+            </center><br />
+            <h3><center>Mechanics</center></h3>
+            <b><u>Special Mobs</u></b>
+            <ul>
+                <li><b>Noble Sardine</b> (Has 2 Skills):</li>
+                <ul>
+                    <li><b>Everyone’s Dissatisfaction:</b> Chance to Inflict potent and long-lasting Blind.</li>
+                    <li><b>Everyone’s Anger:</b> Inflicts Status Ailment Resistance Down.</li>
+                </ul>
+            </ul>
+            <p>One Noble Sardine will spawn on each wave leading up to the boss. It is extremely tanky and negates all Dark elemental 
+            DMG taken. Furthermore, the blind debuff is extremely potent and long-lasting. Hence, make sure to deal with it quickly or 
+            bring along a taunt tank to prevent other allies from getting Blinded.</p>
+
+            <h4><center><u>Gimmicks</u></center></h4>
+            <ul>
+                <li>DMG Taken UP when Burning.</li>
+                <ul>
+                    <li>The increased damage while Elpneumas is burning is noticeable, so burn equips and/or units can help to increase overall team damage.</li>
+                </ul>
+                <li>Negates Water and Magic Damage.</li>
+                <ul>
+                    <li>This means meta units such as Vox, Juno, Hart, etc. will not deal any damage to Elpneumas.</li>
+                </ul>
+                <li>At 70% HP, gains Critical Rate UP & HP Recovery Amount UP.</li>
+                <ul>
+                    <li>Expect Elpneumas to start dealing more damage, the HP recovery up isn’t too significant.</li>
+                </ul>
+                <li>At 50% HP, gains Critical Rate UP & HP Recovery Amount UP.</li>
+                <ul>
+                    <li>Again, expect Elpneumas to hit even harder, the HP recovery up isn’t too significant.</li>
+                </ul>
+                <li>At 30% HP, gains Action Speed UP & HP Recovery Amount UP.</li>
+                <ul>
+                    <li>Past this threshold, you should prioritise killing it as quickly as possible as its attacks/arts become more frequent and harder to deal with. Additionally, expect Elpneumas’ digging move and Arts to hurt <b>a lot</b>.</li>
+                </ul>
+            </ul>
+
+            <h4><center><u>Normal Attacks</u></center></h4>
+            <ul>
+                <li>Digs down and pops back up - Inflicts potent and long-lasting Disease on Enemies.</li>
+                <ul>
+                    <li>Very annoying mechanic overall. Elpneumas will gain a few seconds of invincibility while underground. When it pops back up, it deals noticeable damage and the Disease inflicted reduces Healing by 100%.</li>
+                </ul>
+                <li>Shoots out Green Projectile - Chance to inflict Poison.</li>
+                <ul>
+                    <li>Can be dangerous when units are Diseased as well. The combination of Disease and Poison will result in steady HP loss that cannot be easily recovered. Cleansing Poison is recommended, especially for slow rolling.</li>
+                </ul>
+                <li>Slam - Chance to inflict Paralysis.</li>
+                <ul>
+                    <li>Strangely, the Paralysis inflicted does not ‘Paralyse’ your unit(s), allowing them to still use their equipment and Arts whilst ‘Paralysed’. As such, the paralysis debuff isn’t significant at all.</li>
+                </ul>
+
+            <center><h4><u>Arts</u></h4></center>
+
+            <ul>
+                <li><b>Gale Breath (MAG)</b> - Deals Moderate MAG DMG.</li>
+                <ul>
+                    <li>Before the 30% threshold, Elpneumas will use Gale Breath as its Arts. It does moderate damage, which a taunt tank should have no issue dealing with.</li>
+                </ul>
+                <li><b>Gaia Grief (MAG)</b> - Deals Massive MAG DMG.</li>
+                <ul>
+                    <li>After the 30% threshold, Elpneumas will switch to Gale Grief as its Arts. This is a stronger version of Gale Breath. Similar to Gale Breath, no debuffs or buffs are applied, but it does more damage.</li>
+                </ul>
+            </ul>
+
+            <h3><center>Strategy</center></h3>
+            <p><center>
+                Do note, Elpneumas is considered harder than the other crest bosses in this document. Without a decent unit and equipment box, 
+                newer players will struggle due to both the Boss’ and pre-stage mobs’ annoying gimmicks. A general sustain composition would 
+                consist of a taunt tank, a non-magic and non-water attacker and 1 to 2 art generation units. The key to beating the boss is 
+                to Burn it for extra damage and finish it off after its 30% HP threshold as quickly as possible. Nuke compositions will not 
+                be listed here, do check out the in-game leaderboards for ideas.
+            </p></center>
+            <b><h4><u>Recommended Units</u></h4></b>
+            <ul>
+                <li>
+                    <b>Thetis/Miranda/Gerald &gt; Naofumi/Celia/b>
+                    <p>With Thetis being one of the best Taunt tanks in the game, he is a very capable tank to deal with Elpneumas’ hard-hitting 
+                    attacks, with his only downside being the 200 Arts needed to enter Magia. On the other hand, Miranda serves as a great 
+                    alternative as well with her MAG DMG RES passive due to Elpneumas’ Arts dealing Magic damage. Gerald is also a great tank 
+                    for this stage. Unlike Thetis, he does not require any start up and can start taunting immediately. Furthermore, his unique 
+                    passive allows him to avoid death once, giving the team enough time to finish Elpneumas off.</p>
+                </li>
+                <li>
+                    <b>Ganan/NY Rimuru/Erza/Fire Roy/Dark Celia/Angelas</b>
+                    <p>These units are great attackers, dealing non-magic and non-water damage. Ganan, NY Rimuru, Erza, and Fire Roy are heavy 
+                    hitters due to their respective kits. Dark Celia is a great attacker and art generation unit after she is able to ramp. 
+                    Angelas’ Burn RES Down on Arts and Burn on Skill allows her to consistently keep Elpneumas burning, whilst dealing noticeable 
+                    damage on her own.</p>
+                </li>
+                <li>
+                    <b>Mako/Hart/Asirpa/Juno/Yoh</b>
+                    <p>Great Art generation units which can be used to support the other roles in the team. Do note that the art generation from 
+                    Hart, Juno (and Dark Celia from earlier) do not stack with each other, so use them interchangeably. </p>
+                </li>
+        `,
+        author: "ebouliben#1234, Jeffers#7056"
+    },
+    {
+        id: 8,
+        title: "Shrine of Adamantine",
+        link: "shrine-of-adamantine",
+        banner: "/db/CrestGuides/Crest_Banner_Fosradius.png",
+        article: `
+            <center>
+                <b>Glittering Dragon Defense</b> [PRO] <br />
+                <img src="/db/CrestGuides/Crest_Fosradius.png" />
+                <br/>
+                BOSS: Fosradius <br />
+
+                <b>Appears on Day: Friday [PST]</b> <br/>
+                HP: 6,200,000 <br />
+                Element: Light <br />
+                Race: Dragon <br />
+                <b style="color: red;">Over 400% Critical Resistance</b> (True Magnitude unknown)
+            </center><br />
+            <h3><center>Mechanics</center></h3>
+            <h4><center><u>Gimmicks</u></center></h4>
+            <ul>
+                <li>Increase DMG to Fire, Water and Earth Enemies by 200%.</li>
+                <ul>
+                    <li>This means that using Fire, Water or Earth units in this Crest Boss is not recommended unless the player has a way of mitigating the damage.</li>
+                </ul>
+                <li>Increase Fire, Water and Earth RES by 80%. When above 50% HP, increase Dark RES by 50%. When below 50% HP, increase Light RES by 50%.</li>
+                <ul>
+                    <li>Again, using Fire, Water or Earth units in this Crest Boss is not recommended as they simply wouldn’t do much damage compared to Light and Dark units. The temporary RES buffs against Light and Dark doesn’t discount the fact that the two elements are the best for this boss.</li>
+                </ul>
+                <li>When below 50% HP, increase DMG by 100%.</li>
+                <ul>
+                    <li>The potent DMG buff means that it may be ideal to attempt to clear as fast as possible after reaching 50% HP.</li>
+                </ul>
+                <li>Negates Critical Rate.</li>
+                <ul>
+                    <li>Disallows any of your units from hitting a Critical regardless of the value of your Critical Rate. Evidently, this cripples units that rely on Crit to deal effective damage.</li>
+                </ul>
+            </ul>
+
+            <h4><center><u>Normal Attacks</u></center></h4>
+            <ul>
+                <li>Stands up on hind legs, slams the ground - Chance to inflict Paralysis.</li>
+                <ul>
+                    <li>Very annoying, as this can paralyze-lock your units.</li>
+                </ul>
+                <li>Bites enemies - Chance to inflict Blind.</li>
+                <ul>
+                    <li>Hurts your DPS, but doesn’t do much more than that.</li>
+                </ul>
+                <li>Slams the ground with one paw, creating a small explosion - Reduces Enemies' DMG RES. Chance to reduce Enemies' DEF.</li>
+                <ul>
+                    <li>A dangerous attack, considering the fact that Fosradius Crest hits hard even without the debuffs from this attack.</li>
+                </ul>
+
+            <center><h4><u>Arts</u></h4></center>
+
+            <ul>
+                <li><b>Shining Cry - Reduces Enemies' Accuracy.</li>
+                <ul>
+                    <li>Does a significant amount of damage, and the Accuracy debuff reduces your DPS; in combination with the Blind debuff, your DPS may suffer.</li>
+                </ul>
+                <li><b>Judgement Breath - Faints Enemies. Reduces Enemies' Arts Gauges (Used at 50% and 20% HP).</li>
+                <ul>
+                    <li>This attack may cause a team wipe if preparation is not made, as the Faint will prevent the player from doing anything during the attack.</li>
+                </ul>
+            </ul>
+
+            <h3><center>Strategy</center></h3>
+            <p><center>
+                As the boss completely disallows the use of anything other than Light & Dark due to potent Element-Killers, you’re only able 
+                to use any other element with the use of taunt-tanks. Proper use of DEF equipment is highly encouraged as the boss does a 
+                disgusting amount of damage even to Light & Dark past 50% HP, especially if you decide to use a taunt-tank such as Naofumi 
+                or Thetis. Nuke compositions will not be detailed here.
+            </p></center>
+            <b><h4><u>Recommended Units</u></h4></b>
+            <ul>
+                <li>
+                    <b>Miranda &gt;&gt; Naofumi/Celia &gt; Thetis &gt; Dark Zeorg/b>
+                    <p>Taunt-tanks which allow you to use your special Earth/Water/Fire units. They need massive amounts of support, most especially 
+                    Thetis and Dark Zeorg, the former still subject to the massive damage increase to his element, and the latter lacking innate 
+                    DEF slots. Miranda, being the best taunt tank to counter Fosradius’ MAG based attacks due to her passive, huge shield amount, 
+                    and MAG DMG buffs. Naofumi and Celia are also great picks due to their element and decent shield amounts.</p>
+                </li>
+                <li>
+                    <b>Rem</b>
+                    <p>Utilising Rem’s Astrology passive makes the quest much easier to deal with. Pairing Rem with a taunt-tank such as Naofumi 
+                    or Celia lets them tank the boss without a problem given you’re still able to supply them with proper DEF equipment alongside 
+                    her passive. Even without a taunt-tank, she’s still a go to unit for the boss additionally with her slots and debuffs.</p>
+                </li>
+                <li>
+                    <b>Juno/Dark Fen &gt; Lygor/Zenon</b>
+                    <p>Great dark/light art gen units suited for this stage since they won’t take increased damage from Fosradius’ Fire, Water, and 
+                    Earth Killer. Juno being the best, able to both dish out noticeable damage and generate noticeable Arts for the team.</p>
+                </li>
+                <li>
+                    <b>Mako/Feena/Asirpa/Liza</b>
+                    <p>They’re simply very capable and notable sustain units for use in any type of composition for this quest. Mako and Asirpa act 
+                    as great art genners/healers, Liza can act as an art genner and/or a debuffer, while Feena acts as a great healer able to negate 
+                    Paralysis from your units.</p>
+                </li>
+        `,
+        author: "ebouliben#1234, Jeffers#7056"
+    },
 ]
 
 export function getCrestBossGuides() {
