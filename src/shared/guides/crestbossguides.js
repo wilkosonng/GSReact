@@ -784,7 +784,7 @@ const CrestBossGuides = [
                 Race: Spirit <br />
             </center><br />
             <h3><center>Mechanics</center></h3>
-            <b><u>Special Mobs<b><u>
+            <b><u>Special Mobs</b></u>
             <ul>
                 <li>Dulah: Chance to inflict Seal with Skill.</li>
                 <li>Logbord: Reduces Enemies’ DEF with Skill.</li>
