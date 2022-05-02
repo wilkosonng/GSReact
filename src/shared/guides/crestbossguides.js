@@ -1079,6 +1079,308 @@ const CrestBossGuides = [
         `,
         author: "ebouliben#1234, Jeffers#7056"
     },
+    {
+        id: 9,
+        title: "Shrine of Whirlwind",
+        link: "shrine-of-whirlwind",
+        banner: "/db/CrestGuides/Crest_Banner_Belgiras.png",
+        article: `
+            <center>
+                <b>Heretic Beast</b> [PRO] <br />
+                <img src="/db/CrestGuides/Crest_Belgiras.png" />
+                <br/>
+                BOSS: Belgiras <br />
+
+                <b>Appears on Day: Saturday [PST]</b> <br/>
+                HP: 5,000,000 <br />
+                Element: Earth <br />
+                Race: Beast <br />
+                50%(?) Poison RES
+            </center><br />
+            <h3><center>Mechanics</center></h3>
+            <b><u>Special Mobs</u></b>
+            <ul>
+                <li><b>Magibeast Gaul</b></li>
+                <ul>
+                    <li>Inflicts Action Speed Down. Has I-frames during its attack animation where all damage taken is capped at 1.</li>
+                </ul>
+                <li><b>Corogan</b></li>
+                <ul>
+                    <li>Inflicts ATK Down. Kills itself after doing so.</li>
+                </ul>
+            </ul>
+            <p>The pre-boss mobs are fairly tanky and their debuffs can hurt the team’s damage during the boss wave. Especially for 
+            nukes, it is highly recommended to kill the mobs before they are able to inflict their respective debuffs.</p>
+
+            <h4><center><u>Gimmicks</u></center></h4>
+            <ul>
+                <li>Only takes Damage when Poisoned.</li>
+                <ul>
+                    <li>This is the most annoying gimmick of Belgiras. All damage dealt while Belgiras is not poisoned is capped at 1 damage. Hence, poison is a requirement to beat Belgiras.</li>
+                </ul>
+                <li>Water Killer.</li>
+                <ul>
+                    <li>This means that water units take significantly more damage than other elemental units. It is highly recommended to not use water units (Vox bad).</li>
+                </ul>
+                <li>Unknown mangitude of Break RES.</li>
+                <ul>
+                    <li>Fairly insignificant as break isn't required.</li>
+                </ul>
+            </ul>
+
+            <h4><center><u>Normal Attacks</u></center></h4>
+            <ul>
+                <li>Claw Swipe - Chance to inflict Poison.</li>
+                <ul>
+                    <li>Nothing too significant, but the HP loss can build up over time if not cleansed or healed.</li>
+                </ul>
+
+            <center><h4><u>Arts</u></h4></center>
+
+            <ul>
+                <li><b>Somersault - Reduces Enemies' Arts Gauge by 100.</li>
+                <ul>
+                    <li>Does Moderate damage. Without sufficient art generation, 100 arts instantly removed from the team could spell disaster. Make sure to bring enough art generation from equips or units to make up for this deficit.</li>
+                </ul>
+                <li><b>Roar - Inflicts Art Guage Down by 20 for 5s.</li>
+                <ul>
+                    <li>Does Moderate damage. Similar to Belgiras' other arts, but rather than an instant 100 art down, it is prolonged over 5s. Make sure to bring enough art generation from equips or units to make up for this deficit.</li>
+                </ul>
+            </ul>
+
+            <h3><center>Strategy</center></h3>
+            <p><center>
+                As the boss has a very potent water killer, water units should be avoided. Belgiras also does noticeable damage from its 
+                arts, hence taunt tanks should be avoided unless additional support is provided. A consistent poison unit is also highly 
+                recommended for non-nukes such as Pola, Kurama, etc. Nuke compositions will not be detailed here as there are a wide 
+                variety of them.            
+            </p></center>
+            <b><h4><u>Recommended Units</u></h4></b>
+            <ul>
+                <li>
+                    <b>Pola/Kurama/Saku/Keit/Mixie &gt; Aesis/b>
+                    <p>These units are the go-to poison dealers for sustain teams due to either their great slots, consistent poison chance, or a combination of both.</p>
+                </li>
+                <li>
+                    <b>Hart &gt; Mako/Asirpa</b>
+                    <p>These units provide an excellent source of healing and art generation to counteract the art gauge down from Belgiras arts. Hart provides more art 
+                    generation, while Asirpa provides more defense. Do note that more than 1 of these units can be used in a team.</p>
+                </li>
+        `,
+        author: "ebouliben#1234, Jeffers#7056"
+    },
+    {
+        id: 10,
+        title: "Shrine of Cursed Claw",
+        link: "shrine-of-cursed-claw",
+        banner: "/db/CrestGuides/Crest_Banner_Y2.png",
+        article: `
+            <center>
+                <b>Heretic Beast</b> [PRO] <br />
+                <img src="/db/CrestGuides/Crest_Y2.png" />
+                <br/>
+                BOSS: Subject γ-2 <br />
+
+                <b>Appears on Day: Saturday [PST]</b> <br/>
+                HP: 3,000,000 <br />
+                Element: Water <br />
+                Race: Machine <br />
+                150% Seal, Paralysis, Faint, Freeze RES
+                100% Burn RES
+                50% Blind RES
+            </center><br />
+            <h3><center>Mechanics</center></h3>
+            <b><u>Special Mobs</u></b>
+            <ul>
+                <li><b>Gernose</b></li>
+                <ul>
+                    <li>Chance to inflict Freeze with Skill.</li>
+                </ul>
+                <li><b>Blue Skeleton</b></li>
+                <ul>
+                    <li>IChance to inflict Disease with Skill.</li>
+                </ul>
+            </ul>
+            <p>Pre-boss mobs are very tanky, and have annoying debuffs listed above. They do moderate damage, but be wary of the combination 
+            of Freeze and Disease which will not only reduce healing, but also disable the use of skills, equips, and arts to stay alive.</p>
+
+            <h4><center><u>Gimmicks</u></center></h4>
+            <ul>
+                <li>Increase DMG to Gods & Demons by ~75%.</li>
+                <ul>
+                    <li>Pretty self-explanatory. Try to avoid using Gods & Demons unless you bring along a competent taunt tank or barrier unit to redirect or reduce damage.</li>
+                </ul>
+                <li>Reflection RES & Arts Gauge Down RES.</li>
+                <ul>
+                    <li>No reflect cheese strats using Milims/Duran. Additionally, units/equips which reduce the enemy's Arts such as Ashe are rendered useless.</li>
+                </ul>
+                <li>DMG Taken Up for Each Break.</li>
+                <ul>
+                    <li>The most <b>annoying</b> gimmick of γ-2 by far. Damage dealt to γ-2 starts off extremely weak and scales the more times γ-2 is broken. This one gimmick requires any team, sustain or nuke, to break γ-2 at least <u>twice</u> in order to deal enough damage to clear.</li>
+                </ul>
+                <li>Break DMG UP from Fire Units.</li>
+                <ul>
+                    <li>This means Fire unit(s) are preferable in order to break γ-2 as quickly as possible as Fire units affect γ-2’s break bar more than other elements.</li>
+                </ul>
+                <li>After 50% HP threshold, freeze all Enemies and gain Crit Rate UP.</li>
+                <ul>
+                    <li>Having a tank to soak the freeze and bulk of damage would be the easiest way to deal with this. Otherwise, prepare a freeze resistance equip such as Ces’ Wavy Frill, Diez Jade, Raaz or a cleanse unit to avoid getting frozen.</li>
+                </ul>
+                <li>After 25% HP threshold, freeze all Enemies, gain Crit Rate UP & Action Speed UP.</li>
+                <ul>
+                    <li>DMG RES equip(s) are <b>required</b> to survive past this point. Do not stall the battle as γ-2’s damage is now very worrisome due to his buffs/debuffs applied. Aim to wear down its HP as quickly as possible, whilst keeping the team safe. Its Arts becomes very lethal from this point on.</li>
+                </ul>
+            </ul>
+
+            <h4><center><u>Normal Attacks</u></center></h4>
+            <ul>
+                <li>Grabs an Enemy and throws them - Faints the highest Arts gauge unit. Reduce its Arts by 100 and chance to Freeze upon impact.</li>
+                <ul>
+                    <li>A taunt will not redirect the faint effect, but will redirect the damage dealt to the fainted target to itself. At the start, the damage dealt upon impact is fairly insignificant. However, as γ-2 stacks more buffs, it gets increasingly more troublesome to deal with.</li>
+                </ul>
+
+            <center><h4><u>Arts</u></h4></center>
+
+            <ul>
+                <li><b>Mad Predator (PHY) - Inflicts DMG RES Down on Enemies (Stackable).</li>
+                <ul>
+                    <li>Fairly insignificant at first, but becomes very troublesome to deal with the more stacks are applied. Try to avoid longer fights as much as possible.</li>
+                </ul>
+                <li><b>Crimson Beating (PHY) - Gains DMG UP (Stackable)</li>
+                <ul>
+                    <li>Similarly, fairly insignificant at first, but becomes very troublesome to deal with the more stacks are applied. Try to avoid longer fights as much as possible.</li>
+                </ul>
+            </ul>
+            <p><u>Subject γ-2 will alternate between the above 2 Arts, starting with Mad Predator (PHY).</u></p>
+
+            <h3><center>Strategy</center></h3>
+            <p><center>
+                This crest boss is NOT recommended for newer players. Being one of the hardest currently available crest bosses in Global, it requires 
+                a well developed unit and equipment box. A general tip would be not to drag the fight on, and try to wear the boss down ASAP. It is 
+                recommended to check out the recent clears for some team ideas as this boss is not very flexible, requiring high-end units and equips. 
+                Nuke compositions will not be detailed here due to the very high requirements needed.                       
+            </p></center>
+            <b><h4><u>Recommended Units</u></h4></b>
+            <ul>
+                <li>
+                    <b>Voghan</b>
+                    <p>The one stage this unit will ever see good use on. His True Arts is built to counter γ-2’s most annoying gimmick, which is his break requirement. 
+                    Additionally, being a Fire unit, it will deal much more break to γ-2 compared to other non-fire breakers. The general strategy running Voghan would 
+                    be to use break equips on him to break γ-2’s first break bar as quickly as possible. After which, his job is to spam Arts until γ-2 is broken for 
+                    the second time. From this point on, he uses his True Arts to reset γ-2’s break bar back to 0, essentially breaking γ-2 for the third time. 
+                    The rest of the team should then unload as much damage as possible. This usually will kill γ-2 or take him down past his 25% HP threshold.</p>
+                </li>
+                <li>
+                    <b>Terrible Tornado/Tami-Nyan</b>
+                    <p>Due to γ-2’s annoying break requirement, breakers are <u>required</u> to clear this palace. The breakers listed above are recommended 
+                    as they not only increase the team’s break power, but also apply a break resistance down debuff on γ-2, which is essential to allow the 
+                    team to deal more break. However, as they are non-Fire breakers, their break power alone is reduced to an extent.</p>
+                </li>
+                <li>
+                    <b>Gerald/Miranda &gt; Naofumi/Celia</b>
+                    <p>Bringing a tank along will help deal with a lot of γ-2’s annoying gimmicks. Gerald would be the most preferred due to his very useful 
+                    immortality passive, coupled with him being a Fire unit, dealing more break to γ-2. Miranda is also a decent replacement as she gains 
+                    passive 100% Freeze RES from her TW, allowing her to be unaffected by γ-2’s Freezes during its 50% and 25% HP thresholds. Naofumi and 
+                    Celia are also decent tanks for the stage. Naofumi using his Heal TW will gain passive 25% PHY RES which is useful for surviving γ-2’s 
+                    Physical Arts. Celia using her TW, on the other hand, will gain passive 100% Freeze RES, which allows her to avoid γ-2’s Freezes during 
+                    its 50% and 25% HP thresholds.</p>
+                </li>
+                <li>
+                    <b>Ganan</b>
+                    <p>Great DPS, whilst having relatively large break numbers. Coupled with a dedicated breaker, he is able to dish out massive damage in 
+                    Berserk mode, while also dealing significant break to γ-2.</p>
+                </li>
+                <li>
+                    <b>Dark Celia/Juno/Hart/Mako/Cestina/Asirpa</b>
+                    <p>The units listed above are great art gen units. Dark Celia, although required to ramp beforehand, deals massive damage whilst also 
+                    generating lots of Arts for the team. Juno, although does not need to ramp, loses HP over time. Nevertheless, her damage and art gen 
+                    is very noticeable. Hart, although dealing less damage than the aforementioned two, does not need to ramp. Its art gen numbers are 
+                    also large on Humans and he is able to provide strong healing over time. Do note that Dark Celia’s, Juno’s, and Hart’s art gen do 
+                    <u>not</u> stack. Mako, Cestina, and Asirpa are also great art gen units which can be paired with any of the 3 units mentioned earlier.</p>
+                </li>
+        `,
+        author: "ebouliben#1234, Jeffers#7056"
+    },
+    {
+        id: 11,
+        title: "Shrine of Discordia",
+        link: "shrine-of-discordia",
+        banner: "/db/CrestGuides/Crest_Banner_B3.png",
+        article: `
+            <center>
+                <b>The Subject in Trance</b> [PRO] <br />
+                <img src="/db/CrestGuides/Crest_B3.png" />
+                <br/>
+                BOSS: Subject β-3<br />
+
+                <b>Appears on Day: Sunday [PST]</b> <br/>
+                HP: 4,000,000 <br />
+                Element: Non-Elemental <br />
+                Race: Machine <br />
+                100% Seal RES
+                75% Paralysis, Freeze, Faint RES
+            </center><br />
+            <h3><center>Mechanics</center></h3>
+            <h4><center><u>Gimmicks</u></center></h4>
+            <ul>
+                <li>Increase Accuracy by an unknown amount.</li>
+                <ul>
+                    <li>This means that Evasion is likely not a viable option for clearing this Crest Boss (though who uses Evasion anyway?).</li>
+                </ul>
+                <li>Increase Fire, Water, Earth, Light, and Dark RES by 50%.</li>
+                <ul>
+                    <li>While this does mean that Non-Elemental DMG becomes more valuable, don’t pull out your Marzexes just yet. DMG RES debuffers such as Ashe also become more valuable and would massively increase the DPS of normal units.</li>
+                </ul>
+                <li>When below 50% HP, increase DMG by 35%, Action Speed by an unknown amount, and all attacks have a chance to inflict Curse.</li>
+                <ul>
+                    <li>The DMG buff in combination with its very high-damage throw attacks makes β-3’s under-50% HP phase very dangerous to all teams that don’t utilise Thetis. The attacks causing Curse also makes it essential to have some form of status management (like Thetis!).</li>
+                </ul>
+            </ul>
+
+            <h4><center><u>Normal Attacks</u></center></h4>
+            <ul>
+                <li>Grabs an Enemy and throws them - Faints the target Enemy. Reduce target Enemy’s Arts by 50, and DMG RES by 20%.</li>
+                <ul>
+                    <li>This is Subject β-3’s notoriously powerful nuke that forces players to bring some form of DMG mitigation, lest their units be killed instantly by this attack.</li>
+                </ul>
+                <li>Swipes at Enemy 3 times - Reduce Enemies’ Skill CT REC by 50%.</li>
+                <ul>
+                    <li>Not very significant, as most units don’t rely on their Skill to do what they need to do.</li>
+                </ul>
+
+            <center><h4><u>Arts</u></h4></center>
+
+            <ul>
+                <li><b>Mad Bladder - Reduces Enemies’ Arts by 100, and ATK by 66%. Used at the start of battle.</li>
+                <ul>
+                    <li>This heavily incentivises the use of a taunt tank (like Thetis, for instance), to prevent the other units from losing their Arts and being affected by a potent ATK debuff.</li>
+                </ul>
+            </ul>
+
+            <h3><center>Strategy</center></h3>
+            <p><center>
+                Mechanics are very straightforward, but clearing is not. This crest is essentially just a bulky boss that deals a lot of damage and not much else. His Arts Drain will be your worst nightmare as well as occasional Faint inflictions on your units. As usual, taunt-tanks can limit his Arts Drain to only the tank, but massive sustain is required to tank β-3’s damage, especially past 50% HP.            
+            </p></center>
+            <p><center>
+                <b>Note:</b> The ArtsDrain and Damage past 50% HP is immense. It’s highly recommended you defeat the boss as fast as possible once passed this threshold or even Thetis will have trouble sustaining unless you quite literally supply him with a mountain of ArtsGen to combat the ArtsDrain.            
+            </p></center>
+            <b><h4><u>Recommended Units</u></h4></b>
+            <ul>
+                <li>
+                    <b>Thetis/Naofumi &gt; Gerald</b>
+                    <p>Proper use of DEF equipment and with enough support, and Thetis will be able to tank all of the boss’ damage easily, as usual. Naofumi should be 
+                    able to do the same as well with his passive buffs from his True Weapons. Gerald might have some trouble soaking the brutal damage past the boss’ 
+                    50% HP threshold, but his revive passive can still keep him alive till the end of the fight.</p>
+                </li>
+                <li>
+                    <b>Literally any good team (Any strong unit, if you will.)</b>
+                    <p>β-3 does not have any gimmicks to require bending a team composition other than taunt-tanks. All you have to worry about is having enough damage 
+                    sustain as well as ArtGen to combat the boss’ heavily Increased damage and Arts Drain respectively. Though due to the potency of these two gimmicks, 
+                    that’s easier said than done.</p>
+                </li>
+        `,
+        author: "ebouliben#1234, Jeffers#7056"
+    },
 ]
 
 export function getCrestBossGuides() {
