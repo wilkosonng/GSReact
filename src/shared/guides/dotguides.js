@@ -1,13 +1,17 @@
 const TrialGuides = [
     {
-        id: 0,
-        title: "This is a Test",
-        article: "<><p><i>This is only a Test.</i></p></>"
+        id: 20,
+        title: "Floor 20",
+        article: `
+            Put stuff here
+        `
     },
     {
-        id: 1,
-        title: "Yet another Guide , but this is a Test",
-        article: "<strong>How could this be a test?</strong>"
+        id: 21,
+        title: "Floor 21",
+        article: `
+            Put stuff here
+        `
     }
 ]
 
