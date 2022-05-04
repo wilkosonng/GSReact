@@ -929,6 +929,7 @@ const CrestBossGuides = [
                 <ul>
                     <li>Strangely, the Paralysis inflicted does not ‘Paralyse’ your unit(s), allowing them to still use their equipment and Arts whilst ‘Paralysed’. As such, the paralysis debuff isn’t significant at all.</li>
                 </ul>
+            </ul>
 
             <center><h4><u>Arts</u></h4></center>
 
@@ -1029,6 +1030,7 @@ const CrestBossGuides = [
                 <ul>
                     <li>A dangerous attack, considering the fact that Fosradius Crest hits hard even without the debuffs from this attack.</li>
                 </ul>
+            </ul>
 
             <center><h4><u>Arts</u></h4></center>
 
@@ -1134,6 +1136,7 @@ const CrestBossGuides = [
                 <ul>
                     <li>Nothing too significant, but the HP loss can build up over time if not cleansed or healed.</li>
                 </ul>
+            </ul>
 
             <center><h4><u>Arts</u></h4></center>
 
@@ -1238,6 +1241,7 @@ const CrestBossGuides = [
                 <ul>
                     <li>A taunt will not redirect the faint effect, but will redirect the damage dealt to the fainted target to itself. At the start, the damage dealt upon impact is fairly insignificant. However, as γ-2 stacks more buffs, it gets increasingly more troublesome to deal with.</li>
                 </ul>
+            </ul>
 
             <center><h4><u>Arts</u></h4></center>
 
@@ -1347,11 +1351,11 @@ const CrestBossGuides = [
                 <ul>
                     <li>Not very significant, as most units don’t rely on their Skill to do what they need to do.</li>
                 </ul>
+            </ul>
 
             <center><h4><u>Arts</u></h4></center>
-
             <ul>
-                <li><b>Mad Bladder - Reduces Enemies’ Arts by 100, and ATK by 66%. Used at the start of battle.</li>
+                <li><b>Mad Bladder - Reduces Enemies’ Arts by 100, and ATK by 66%. Used at the start of battle.</b></li>
                 <ul>
                     <li>This heavily incentivises the use of a taunt tank (like Thetis, for instance), to prevent the other units from losing their Arts and being affected by a potent ATK debuff.</li>
                 </ul>
