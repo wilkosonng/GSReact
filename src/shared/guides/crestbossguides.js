@@ -929,6 +929,7 @@ const CrestBossGuides = [
                 <ul>
                     <li>Strangely, the Paralysis inflicted does not ‘Paralyse’ your unit(s), allowing them to still use their equipment and Arts whilst ‘Paralysed’. As such, the paralysis debuff isn’t significant at all.</li>
                 </ul>
+            </ul>
 
             <center><h4><u>Arts</u></h4></center>
 
@@ -1029,15 +1030,16 @@ const CrestBossGuides = [
                 <ul>
                     <li>A dangerous attack, considering the fact that Fosradius Crest hits hard even without the debuffs from this attack.</li>
                 </ul>
+            </ul>
 
             <center><h4><u>Arts</u></h4></center>
 
             <ul>
-                <li><b>Shining Cry - Reduces Enemies' Accuracy.</li>
+                <li><b>Shining Cry - Reduces Enemies' Accuracy.</b></li>
                 <ul>
                     <li>Does a significant amount of damage, and the Accuracy debuff reduces your DPS; in combination with the Blind debuff, your DPS may suffer.</li>
                 </ul>
-                <li><b>Judgement Breath - Faints Enemies. Reduces Enemies' Arts Gauges (Used at 50% and 20% HP).</li>
+                <li><b>Judgement Breath - Faints Enemies. Reduces Enemies' Arts Gauges (Used at 50% and 20% HP).</b></li>
                 <ul>
                     <li>This attack may cause a team wipe if preparation is not made, as the Faint will prevent the player from doing anything during the attack.</li>
                 </ul>
@@ -1134,15 +1136,16 @@ const CrestBossGuides = [
                 <ul>
                     <li>Nothing too significant, but the HP loss can build up over time if not cleansed or healed.</li>
                 </ul>
+            </ul>
 
             <center><h4><u>Arts</u></h4></center>
 
             <ul>
-                <li><b>Somersault - Reduces Enemies' Arts Gauge by 100.</li>
+                <li><b>Somersault - Reduces Enemies' Arts Gauge by 100.</b></li>
                 <ul>
                     <li>Does Moderate damage. Without sufficient art generation, 100 arts instantly removed from the team could spell disaster. Make sure to bring enough art generation from equips or units to make up for this deficit.</li>
                 </ul>
-                <li><b>Roar - Inflicts Art Guage Down by 20 for 5s.</li>
+                <li><b>Roar - Inflicts Art Guage Down by 20 for 5s.</b></li>
                 <ul>
                     <li>Does Moderate damage. Similar to Belgiras' other arts, but rather than an instant 100 art down, it is prolonged over 5s. Make sure to bring enough art generation from equips or units to make up for this deficit.</li>
                 </ul>
@@ -1238,15 +1241,16 @@ const CrestBossGuides = [
                 <ul>
                     <li>A taunt will not redirect the faint effect, but will redirect the damage dealt to the fainted target to itself. At the start, the damage dealt upon impact is fairly insignificant. However, as γ-2 stacks more buffs, it gets increasingly more troublesome to deal with.</li>
                 </ul>
+            </ul>
 
             <center><h4><u>Arts</u></h4></center>
 
             <ul>
-                <li><b>Mad Predator (PHY) - Inflicts DMG RES Down on Enemies (Stackable).</li>
+                <li><b>Mad Predator (PHY) - Inflicts DMG RES Down on Enemies (Stackable).</b></li>
                 <ul>
                     <li>Fairly insignificant at first, but becomes very troublesome to deal with the more stacks are applied. Try to avoid longer fights as much as possible.</li>
                 </ul>
-                <li><b>Crimson Beating (PHY) - Gains DMG UP (Stackable)</li>
+                <li><b>Crimson Beating (PHY) - Gains DMG UP (Stackable).</b></li>
                 <ul>
                     <li>Similarly, fairly insignificant at first, but becomes very troublesome to deal with the more stacks are applied. Try to avoid longer fights as much as possible.</li>
                 </ul>
@@ -1339,19 +1343,19 @@ const CrestBossGuides = [
 
             <h4><center><u>Normal Attacks</u></center></h4>
             <ul>
-                <li>Grabs an Enemy and throws them - Faints the target Enemy. Reduce target Enemy’s Arts by 50, and DMG RES by 20%.</li>
+                <li>Grabs an Enemy and throws them - Faints the target Enemy. Reduce target Enemy’s Arts by 50, and DMG RES by 20%.</b></li>
                 <ul>
                     <li>This is Subject β-3’s notoriously powerful nuke that forces players to bring some form of DMG mitigation, lest their units be killed instantly by this attack.</li>
                 </ul>
-                <li>Swipes at Enemy 3 times - Reduce Enemies’ Skill CT REC by 50%.</li>
+                <li>Swipes at Enemy 3 times - Reduce Enemies’ Skill CT REC by 50%.</b></li>
                 <ul>
                     <li>Not very significant, as most units don’t rely on their Skill to do what they need to do.</li>
                 </ul>
+            </ul>
 
             <center><h4><u>Arts</u></h4></center>
-
             <ul>
-                <li><b>Mad Bladder - Reduces Enemies’ Arts by 100, and ATK by 66%. Used at the start of battle.</li>
+                <li><b>Mad Bladder - Reduces Enemies’ Arts by 100, and ATK by 66%. Used at the start of battle.</b></li>
                 <ul>
                     <li>This heavily incentivises the use of a taunt tank (like Thetis, for instance), to prevent the other units from losing their Arts and being affected by a potent ATK debuff.</li>
                 </ul>

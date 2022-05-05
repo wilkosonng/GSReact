@@ -18843,7 +18843,7 @@ const UnitInformation = [
                 skillbreak: 1000,
                 passive: 
                     {
-                        ability1: "When equipped by Fire Orvell, increase own DMG and Status RES by 20%. Does not stack with Abilities of the same name.",
+                        ability1: "When equipped by Fire Orvell, increase own DMG and All Status by 20%. Does not stack with Abilities of the same name.",
                         ability2: "Increase Physical RES by 10%."
                     }
             },
