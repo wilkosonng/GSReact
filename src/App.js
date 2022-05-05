@@ -16,6 +16,8 @@ import CrestGuides from './components/guidecomponents/CrestGuides'
 import DisplayCrestGuide from './components/guidecomponents/crestbossguides/CrestGuidesComponent';
 import FAQGuide from './components/guidecomponents/DisplayFAQ';
 import { Container, Row, Col } from 'reactstrap';
+import DotGuide from './components/guidecomponents/DotGuides';
+import DisplayTrialGuide from './components/guidecomponents/dotguides/DotGuidesComponent';
 import './App.css';
 
 class App extends Component {
@@ -43,6 +45,8 @@ class App extends Component {
                   <Route path="guides/other-guides/:articleId" element={<DisplayGuides />} />
                   <Route path="guides/crest-guides" element={<CrestGuides />} />
                   <Route path="guides/crest-guides/:articleId" element={<DisplayCrestGuide />} />
+                  <Route path="guides/dungeon-of-trials" element={<DotGuide />} />
+                  <Route path="guides/dungeon-of-trials/:articleId" element={<DisplayTrialGuide />} />
                   <Route exact path="guides/FAQ" element={<FAQGuide />} />
                   <Route path="*" element={<p><center><h1>Under construction</h1></center></p>} />
                 </Route>
