@@ -233,6 +233,138 @@ const CrestBossGuides = [
     },
     {
         id: 2,
+        title: "Shrine of Perdition",
+        link: "shrine-of-perdition",
+        banner: "/db/CrestGuides/Crest_Banner_Valzandeth.png",
+        article: `
+            <center>
+                <b>???</b> [Extreme] <br />
+                <img src="/db/CrestGuides/Crest_Valzandeth.png" />
+                <br/>
+                BOSS: Valzandeth <br />
+
+                <b>Appears on Day: Monday [PST]</b> <br/>
+                HP: 16,000,000 <br />
+                Element: Dark <br />
+                Race: Dragon <br />
+                200% Blind, Seal RES
+                120% Paralysis, Freeze, Burn RES
+                60% Poison, Disease RES
+                50% Faint RES
+
+            </center><br />
+            <h3><center>Mechanics</center></h3>
+            <b><u>Special Mobs</u></b>
+            <ul>
+                <li><b>Grangarrod</b></li>
+                <ul>
+                    <li>Very High HP. Takes increased Damage while Burning. After every 15s, inflict a stackable Paralysis RES debuff to all enemies for 50s (Ignores Taunt effects).</li>
+                </ul>
+                <li><b>Cyclops</b></li>
+                <ul>
+                    <li>Very High HP & 100% CRI rate. Takes increased Damage while Blinded. After every 15s, drains ~60 Arts from all enemies (Ignores Taunt effects).</li>
+                </ul>
+            </ul>
+            <p>1 Grangarrod will spawn on wave 1, followed by 1 Cyclops on wave 2, and 1 Grangarrod and 1 Cyclops on wave 3. Although it is possible, 
+            albeit slow, to kill these special mobs without inflicting them with their respective ailments, it is best to bring some form of Burn 
+            and Blind in the form of equipment or units. Take note that these mobs also spawn during the boss wave, and it is dangerous to let them 
+            inflict their debuffs continuously.</p>
+
+            <h4><center><u>Gimmicks</u></center></h4>
+            <ul>
+                <li>Reflection RES & Arts Drain RES</li>
+                <ul>
+                    <li>No reflect cheese strats using Milims/Duran. Additionally, units/equips which reduce the enemy's Arts such as Ashe are rendered useless.</li>
+                </ul>
+                <li>High CRI Resistance</li>
+                <ul>
+                    <li>Do not confuse this with CRI DMG Immunity. This simply means regardless of a unit’s CRI rate, it will not be able to deal CRI DMG to Valzandeth. Nothing much else to add, besides bringing along CRI buffers such as Vox will be useless.</li>
+                </ul>
+                <li>Each time Roar of Ruin (MAG) is used, spawn 2 random Special Mobs listed earlier.</li>
+                <ul>
+                    <li>It is important to deal with these mobs quickly before they overwhelm you with their debuffs, namely Grangarrod’s Paralysis RES debuff, which will increase the chances and duration of your units getting Paralysed from Valzandeth’s regular attacks and Arts, and Cyclops’ Arts Drain, which might cause issues with units’ Arts Gauge. As a side note, these debuffs ignore all Taunt effects.</li>
+                </ul>
+                <li>At 70% HP, gains a permanent DMG & Action Speed UP buff and uses Roar of Ruin (MAG).</li>
+                <ul>
+                    <li>Self-explanatory. Valzandeth will start to deal more damage more quickly from this point forth. As a side note, be wary that 2 additional special mobs will spawn at this point as well.</li>
+                </ul>
+                <li>At 30% HP, permanently increases Arts Refill rate and gains an Action Speed UP buff and uses Roar of Ruin (MAG).</li>
+                <ul>
+                    <li>Self-explanatory as well. From this point forth, Valzandeth will use its Arts more frequently and move more quickly. It is advised to not stall the fight too long as the damage can get overwhelming. As a side note, be wary that 2 additional special mobs will spawn at this point as well.</li>
+                </ul>
+                <li>At 0% HP, gains invulnerability while charging orbs. At 5 orbs, uses Shadow Lightning (MAG). Kills itself afterwards.</li>
+                <ul>
+                    <li>Very lethal final nuke. Do prepare some form of DMG RES/MAG RES in order to live through this final hurdle. As long as you are able to survive, the quest will still clear regardless of any additional special mobs still left standing.</li>
+                </ul>
+            </ul>
+
+            <h4><center><u>Normal Attacks</u></center></h4>
+            <ul>
+                <li>Slam Down - Inflict a stackable DMG RES debuff for 40s.</li>
+                <ul>
+                    <li>Realistically, you will constantly be dealing with 3 - 4 DMG RES debuffs due to the long-lasting nature of the debuffs. As such, be prepared to deal with the increased damage being dealt.</li>
+                </ul>
+                <li>Ram Forward - Chance to inflict Paralysis.</li>
+                <ul>
+                    <li>All the more reason to kill Grangarrod within 15s to avoid its Paralysis RES debuffs. Can be dangerous, locking units from moving and interrupting their Arts.</li>
+                </ul>
+            </ul>
+
+            <center><h4><u>Arts</u></h4></center>
+
+            <ul>
+                <li><b>Roar of Ruin (MAG) - Chance to inflict Paralysis.</b></li>
+                <ul>
+                    <li>Powerful Arts, made even more deadly from the stackable DMG RES debuffs accumulated from its regular attacks. Make sure to prepare some form of DMG RES/MAG RES as usual.</li>
+                </ul>
+                <li><b>Shadow Lightning (MAG) - Gains 100% CRI rate for the duration of this Arts. <u>Only used at 0% HP.</u></b></li>
+                <ul>
+                    <li>Very lethal Arts. Due to the 100% CRI rate gained, it is crucial to prepare sufficient DMG RES/MAG RES buffs in order to survive this. Nothing much else to say, besides it being a very strong final nuke…</li>
+                </ul>
+            </ul>
+            <p><u>Subject γ-2 will alternate between the above 2 Arts, starting with Mad Predator (PHY).</u></p>
+
+            <h3><center>Strategy</center></h3>
+            <p><center>
+                This crest palace is <b><u>NOT</u></b> for newer players. Similar to other Extreme Crest palaces, strict equipment and units are required to attempt it. 
+                The general strategy would be to bring Burn and Blind units/equips in order to deal with the special mobs spawned throughout the fight, while using a 
+                capable Taunt tank to redirect Valzandeth’s hard-hitting attacks. The run can also be reliant on RNG due to unlucky instances where 5 stacks of DMG RES 
+                debuffs, followed by an untimely Arts can obliterate even the most prepared.
+                Nuke compositions will not be detailed here due to the very high requirements needed.                                   
+            </p></center>
+            <b><h4><u>Recommended Units</u></h4></b>
+            <ul>
+                <li>
+                    <b>Miranda &gt; Thetis</b>
+                    <p>Due to Valzandeth’s hard-hitting Arts dealing Magic damage, Miranda is, by far, the best Taunt tank to deal with its absurd damage. 
+                    Coupled with her 100% Paralysis RES, she will not be affected by Valzandeth’s Paralysis as long as there are no Paralysis RES debuffs 
+                    on her. Thetis, on the other hand, although a weaker pick compared to Miranda, can also be used, albeit with more risk involved. Due 
+                    to Thetis’ Magia Drive duration of 2 minutes, be wary of it running out in the middle of the boss fight, which can easily ruin the run. 
+                    As a tip, make sure Thetis is carrying an Erial.</p>
+                </li>
+                <li>
+                    <b>Juno &gt;&gt; Hart &gt; Dark Celia</b>
+                    <p>Best ArtsGen unit capable of dealing noticeable damage. Not much else to say about her majesty. Hart, despite dealing much lesser damage, 
+                    can still be useful, especially in a Human-oriented team. Dark Celia would be a lot harder to use here, requiring her to stack 5 Arts, 
+                    before being able to generate noticeable Arts. As such, Dark Celia would have to be run alongside other ArtGen units.</p>
+                </li>
+                <li>
+                    <b>Hao/Priestess/Dark Fen/Ashe</b>
+                    <p>These units are great in their own rights at dealing with the pesky special mobs (Grangarrod & Cyclops) which spawn throughout the fight. 
+                    Hao is able to inflict Burn with his True Arts, and Priestess, Dark Fen, and Ashe are able to inflict Blind with their Arts, Skill, and 
+                    True Arts respectively. As a side note, although Ashe’s Arts Drain will be rendered useless here, his hefty DMG RES debuff and Blind RES 
+                    debuff on Arts can allow him to be useful to a certain extent.</p>
+                </li>
+                <li>
+                    <b>Liza</b>
+                    <p>Due to the overwhelming damage, Liza is a great pick, allowing DEF equips to be used more regularly. Furthermore, if relying on Burn 
+                    and Blind equips, Liza will also allow those to be used more frequently.</p>
+                </li>
+        `,
+        author: "ebouliben#1234, Jeffers#7056"
+    },
+    {
+        id: 3,
         title: "Shrine of the Burning Chains",
         link: "shrine-of-the-burning-chains",
         banner: "/db/CrestGuides/Crest_Banner_Ifrit.png",
@@ -349,7 +481,7 @@ const CrestBossGuides = [
         author: "ebouliben#1234, Jeffers#7056"
     },
     {
-        id: 3,
+        id: 4,
         title: "Shrine of Crimson Sea",
         link: "shrine-of-crimson-sea",
         banner: "/db/CrestGuides/Crest_Banner_Ignis.png",
@@ -477,7 +609,7 @@ const CrestBossGuides = [
         author: "ebouliben#1234, Jeffers#7056"
     },
     {
-        id: 4,
+        id: 5,
         title: "Shrine of the Azul Knight",
         link: "shrine-of-the-azul-knight",
         banner: "/db/CrestGuides/Crest_Banner_Palamicia.png",
@@ -596,7 +728,7 @@ const CrestBossGuides = [
         author: "ebouliben#1234, Jeffers#7056"
     },
     {
-        id: 5,
+        id: 6,
         title: "Shrine of Diamond Dust",
         link: "shrine-of-diamond-dust",
         banner: "/db/CrestGuides/Crest_Banner_Freydal.png",
@@ -767,7 +899,7 @@ const CrestBossGuides = [
         author: "ebouliben#1234, Jeffers#7056"
     },
     {
-        id: 6,
+        id: 7,
         title: "Shrine of Aberration",
         link: "shrine-of-aberration",
         banner: "/db/CrestGuides/Crest_Banner_Goldola.png",
@@ -859,7 +991,7 @@ const CrestBossGuides = [
         author: "ebouliben#1234, Jeffers#7056"
     },
     {
-        id: 7,
+        id: 8,
         title: "Shrine of Eternity",
         link: "shrine-of-eternity",
         banner: "/db/CrestGuides/Crest_Banner_Elpneumas.png",
@@ -978,7 +1110,7 @@ const CrestBossGuides = [
         author: "ebouliben#1234, Jeffers#7056"
     },
     {
-        id: 8,
+        id: 9,
         title: "Shrine of Adamantine",
         link: "shrine-of-adamantine",
         banner: "/db/CrestGuides/Crest_Banner_Fosradius.png",
@@ -1082,7 +1214,7 @@ const CrestBossGuides = [
         author: "ebouliben#1234, Jeffers#7056"
     },
     {
-        id: 9,
+        id: 10,
         title: "Shrine of Whirlwind",
         link: "shrine-of-whirlwind",
         banner: "/db/CrestGuides/Crest_Banner_Belgiras.png",
@@ -1161,7 +1293,7 @@ const CrestBossGuides = [
             <b><h4><u>Recommended Units</u></h4></b>
             <ul>
                 <li>
-                    <b>Pola/Kurama/Saku/Keit/Mixie &gt; Aesis/b>
+                    <b>Pola/Kurama/Saku/Keit/Mixie &gt; Aesis</b>
                     <p>These units are the go-to poison dealers for sustain teams due to either their great slots, consistent poison chance, or a combination of both.</p>
                 </li>
                 <li>
@@ -1173,7 +1305,7 @@ const CrestBossGuides = [
         author: "ebouliben#1234, Jeffers#7056"
     },
     {
-        id: 10,
+        id: 11,
         title: "Shrine of Cursed Claw",
         link: "shrine-of-cursed-claw",
         banner: "/db/CrestGuides/Crest_Banner_Y2.png",
@@ -1201,7 +1333,7 @@ const CrestBossGuides = [
                 </ul>
                 <li><b>Blue Skeleton</b></li>
                 <ul>
-                    <li>IChance to inflict Disease with Skill.</li>
+                    <li>Chance to inflict Disease with Skill.</li>
                 </ul>
             </ul>
             <p>Pre-boss mobs are very tanky, and have annoying debuffs listed above. They do moderate damage, but be wary of the combination 
@@ -1306,7 +1438,7 @@ const CrestBossGuides = [
         author: "ebouliben#1234, Jeffers#7056"
     },
     {
-        id: 11,
+        id: 12,
         title: "Shrine of Discordia",
         link: "shrine-of-discordia",
         banner: "/db/CrestGuides/Crest_Banner_B3.png",
