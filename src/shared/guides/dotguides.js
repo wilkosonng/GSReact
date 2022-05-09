@@ -54,8 +54,8 @@ const TrialGuides = [
 
             <br />
             <br />
-            <b><h2><center>First Stage</center></h2></b>
-            <p>Enemy: <br /><img src="/db/Units/Thumbnail/unit_thumbnail_500111113.png" alt="Degilmagna" /></p>
+            <b><h2><center>Featured Enemy - First Stage</center></h2></b>
+            <center><img src="/db/Units/Thumbnail/unit_thumbnail_500111113.png" alt="Degilmagna" /></center>
             <p>You fight the Fire Dragon, Degilmagna, in the first stage. There isn't anything massive about this stage other 
             than it instant killing your team if you've stayed in it for too long(25s~.) Additionally, <b>Hellfire</b> will be in effect at the start of the stage.</p>
             <ul>
@@ -63,13 +63,13 @@ const TrialGuides = [
                 <li>Degilmagna is exceedingly squishy. You can defeat him in one Arts for most units.</li>
             </ul>
             <br />
-            <b><h2><center>Second Stage</center></h2></b>
-            <p>Enemy: <br /><img src="/db/Units/Thumbnail/unit_thumbnail_501281113.png" alt="Ignis" /></p>
+            <b><h2><center>Featured Enemy - Second Stage</center></h2></b>
+            <center><img src="/db/Units/Thumbnail/unit_thumbnail_501281113.png" alt="Ignis" /></center>
             <p>Normal DPS isn't too severe, though as always, Hellfire will be in effect and really mess up your unit's HP. 
             Proper mitigations with the use of Shields will help to mitigate Ignis' normal damage, though don't forget to heal your units thoroughly against Hellfire!</p>
 
             <br />
-            <b>Thresholds and Other Mechanics:</b>
+            <b><h2><center>Thresholds and Other Mechanics:</center></h2></b>
             <ul>
                 <li>Ignis will use Arts right at the start. As always, her Arts will inflict Burn, so don't forget to pop a Status RES Up so you don't get wiped.</li>
                 <li>Along with her threshold nukes, Ignis will Arts as usual on a regular interval - inflicting Burn as always if not resisted with Status RES. 
@@ -94,7 +94,7 @@ const TrialGuides = [
 
             <b><h2><center>Recommended Units</center></h2></b>
             <a href="https://www.grandsummoners.info/units/Mizuki">
-                <img src="/db/Units/Thumbnail/unit_thumbnail_102826212.png" alt="Mizuki" />
+                <img src="/db/Units/Thumbnail/unit_thumbnail_102826212.png" alt="Mizuki" class="unitThumb"/>
             </a>
             <p>Mizuki's passive is a complete and specific counter to Hellfire, making the reflection more bearable to herself, 
             allowing for more reckless damage without too much worry. Additionally, her potent increase DMG on Fire Enemies and 
@@ -103,7 +103,7 @@ const TrialGuides = [
             <br />
 
             <a href="https://www.grandsummoners.info/units/Rimuru%20(Human)">
-                <img src="/db/Units/Thumbnail/unit_thumbnail_107156212.png" alt="Rimuru Human"/>
+                <img src="/db/Units/Thumbnail/unit_thumbnail_107156212.png" alt="Rimuru Human" class="unitThumb"/>
             </a>
             <p>Rimuru's Status RES and general team utility lets you rely less on Status RES equipment. 
             He works well in any team composition whether Mono-Water or not as long as you let him do his job.</p>
@@ -116,31 +116,31 @@ const TrialGuides = [
             <br />
 
             <a href="https://www.grandsummoners.info/units/Diaz">
-                <img src="/db/Units/Thumbnail/unit_thumbnail_101966212.png" alt="Diaz" />
+                <img src="/db/Units/Thumbnail/unit_thumbnail_101966212.png" alt="Diaz" class="unitThumb"/>
             </a>
             <a href="https://www.grandsummoners.info/units/Nies">
-                <img src="/db/Units/Thumbnail/unit_thumbnail_101666212.png" alt="Nies" />
+                <img src="/db/Units/Thumbnail/unit_thumbnail_101666212.png" alt="Nies" class="unitThumb"/>
             </a>
             <p>As Mono-water teams are very prominent for this quest, both Nies and Diaz are great supporting units for such compositions - 
             the former offering highly defensive utility for the boss and the latter greatly increasing the efficacy of your units with powerful ArtGen support.</p>
             <a href="https://www.grandsummoners.info/units/Mako">
-                <img src="/db/Units/Thumbnail/unit_thumbnail_102206412.png" alt="Mako" />
+                <img src="/db/Units/Thumbnail/unit_thumbnail_102206412.png" alt="Mako" class="unitThumb"/>
             </a>
             <a href="https://www.grandsummoners.info/units/Asirpa">
-                <img src="/db/Units/Thumbnail/unit_thumbnail_107126412.png" alt="Asirpa" />
+                <img src="/db/Units/Thumbnail/unit_thumbnail_107126412.png" alt="Asirpa" class="unitThumb"/>
             </a>
             <a href="https://www.grandsummoners.info/units/Sylphiette">
-                <img src="/db/Units/Thumbnail/unit_thumbnail_107536412.png" alt="Sylphiette" />
+                <img src="/db/Units/Thumbnail/unit_thumbnail_107536412.png" alt="Sylphiette" class="unitThumb"/>
             </a>
             <a href="https://www.grandsummoners.info/units/Hart">
-                <img src="/db/Units/Thumbnail/unit_thumbnail_103276312.png" alt="Hart Earth" />
+                <img src="/db/Units/Thumbnail/unit_thumbnail_103276312.png" alt="Hart Earth" class="unitThumb"/>
             </a>
             <p>They are just annoyingly good.</p>
             <br />
             <br />
 
             <a href="https://www.grandsummoners.info/units/Aristela">
-                <img src="/db/Units/Thumbnail/unit_thumbnail_101296212.png" alt="Aristela" />
+                <img src="/db/Units/Thumbnail/unit_thumbnail_101296212.png" alt="Aristela" class="unitThumb"/>
             </a>
             <p>With very potent heals and great slots for the quest, this is the place where Aristela truly shines. 
             An extra DEF slot allows more Status RES equips, and her potent heals will essentially keep your units at 
@@ -149,10 +149,10 @@ const TrialGuides = [
             <br />
 
             <a href="https://www.grandsummoners.info/units/Celia%20(Light)">
-                <img src="/db/Units/Thumbnail/unit_thumbnail_102046412.png" alt="Celia Light" />
+                <img src="/db/Units/Thumbnail/unit_thumbnail_102046412.png" alt="Celia Light" class="unitThumb"/>
             </a>
             <a href="https://www.grandsummoners.info/units/Naofumi">
-                <img src="/db/Units/Thumbnail/unit_thumbnail_107256411.png" alt="Naofumi" />
+                <img src="/db/Units/Thumbnail/unit_thumbnail_107256411.png" alt="Naofumi" class="unitThumb"/>
             </a>
             <p>Given enough support, these two can facetank most of Ignis' normal damage, 
             most especially when abusing their Heal Slots with revive equipment like Sounding 
@@ -161,10 +161,10 @@ const TrialGuides = [
             <br />
 
             <a href="https://www.grandsummoners.info/units/Norn">
-                <img src="/db/Units/Thumbnail/unit_thumbnail_102066312.png" alt="Norn" />
+                <img src="/db/Units/Thumbnail/unit_thumbnail_102066312.png" alt="Norn" class="unitThumb"/>
             </a>
             <a href="https://www.grandsummoners.info/units/Weaver">
-                <img src="/db/Units/Thumbnail/unit_thumbnail_102446212.png" alt="Weaver" />
+                <img src="/db/Units/Thumbnail/unit_thumbnail_102446212.png" alt="Weaver" class="unitThumb"/>
             </a>
             <p>Honorable mentions for their general aptitude at team support still making them very much viable for this quest.</p>
             <br />
@@ -172,47 +172,186 @@ const TrialGuides = [
 
             <b><center><h3>Sample Team Compositions</h3></center></b>
             <a href="https://www.grandsummoners.info/units/Mako">
-                <img src="/db/Units/Thumbnail/unit_thumbnail_102206412.png" alt="Mako" />
+                <img src="/db/Units/Thumbnail/unit_thumbnail_102206412.png" alt="Mako" class="unitThumb"/>
             </a>
             <a href="https://www.grandsummoners.info/units/Mizuki">
-                <img src="/db/Units/Thumbnail/unit_thumbnail_102826212.png" alt="Mizuki" />
+                <img src="/db/Units/Thumbnail/unit_thumbnail_102826212.png" alt="Mizuki" class="unitThumb"/>
             </a>
             <a href="https://www.grandsummoners.info/units/Norn">
-                <img src="/db/Units/Thumbnail/unit_thumbnail_102066312.png" alt="Norn" />
+                <img src="/db/Units/Thumbnail/unit_thumbnail_102066312.png" alt="Norn" class="unitThumb"/>
             </a>
             <a href="https://www.grandsummoners.info/units/Asirpa">
-                <img src="/db/Units/Thumbnail/unit_thumbnail_107126412.png" alt="Asirpa" />
+                <img src="/db/Units/Thumbnail/unit_thumbnail_107126412.png" alt="Asirpa" class="unitThumb"/>
             </a> 
             (NOTE: Mira Hood HIGHLY recommended for Burn RES)
             <br />
             <br />
             <a href="https://www.grandsummoners.info/units/Fen%20(Earth)">
-                <img src="/db/Units/Thumbnail/unit_thumbnail_101056311.png" alt="Fen Earth" />
+                <img src="/db/Units/Thumbnail/unit_thumbnail_101056311.png" alt="Fen Earth" class="unitThumb"/>
             </a>
             <a href="https://www.grandsummoners.info/units/Aristela">
-                <img src="/db/Units/Thumbnail/unit_thumbnail_101296212.png" alt="Aristela" />
+                <img src="/db/Units/Thumbnail/unit_thumbnail_101296212.png" alt="Aristela" class="unitThumb"/>
             </a>
             <a href="https://www.grandsummoners.info/units/Priestess">
-                <img src="/db/Units/Thumbnail/unit_thumbnail_107196412.png" alt="Priestess" />
+                <img src="/db/Units/Thumbnail/unit_thumbnail_107196412.png" alt="Priestess" class="unitThumb"/>
             </a>
             <a href="https://www.grandsummoners.info/units/Mizuki">
-                <img src="/db/Units/Thumbnail/unit_thumbnail_102826212.png" alt="Mizuki" />
+                <img src="/db/Units/Thumbnail/unit_thumbnail_102826212.png" alt="Mizuki" class="unitThumb"/>
             </a>
             <br />
             <br />
             <a href="https://www.grandsummoners.info/units/Rimuru%20(Human)">
-                <img src="/db/Units/Thumbnail/unit_thumbnail_107156212.png" alt="Rimuru Human"/>
+                <img src="/db/Units/Thumbnail/unit_thumbnail_107156212.png" alt="Rimuru Human" class="unitThumb"/>
             </a>
             <a href="https://www.grandsummoners.info/units/Aristela">
-                <img src="/db/Units/Thumbnail/unit_thumbnail_101296212.png" alt="Aristela" />
+                <img src="/db/Units/Thumbnail/unit_thumbnail_101296212.png" alt="Aristela" class="unitThumb"/>
             </a>
             <a href="https://www.grandsummoners.info/units/Mizuki">
-                <img src="/db/Units/Thumbnail/unit_thumbnail_102826212.png" alt="Mizuki" />
+                <img src="/db/Units/Thumbnail/unit_thumbnail_102826212.png" alt="Mizuki" class="unitThumb"/>
             </a>
             <a href="https://www.grandsummoners.info/units/Diaz">
-                <img src="/db/Units/Thumbnail/unit_thumbnail_101966212.png" alt="Diaz" />
+                <img src="/db/Units/Thumbnail/unit_thumbnail_101966212.png" alt="Diaz" class="unitThumb" />
             </a>
             `
+    },
+    { //Floor 27
+        id: 27,
+        title: "Floor 27",
+        article: `
+            <center><h3>Overview</h3></center>
+            <p>Buffed Palamicia crest without her type-killers and more emphasis on her <b>Counterattack</b> mechanic. Disease is an absolutely essential ailment to clear the floor. 
+            As usual with Palamicia bosses, her high damage Arts will necessitate barrier units and high-end Defense equipment.</p>
+            <br/>
+
+            <b><h2><center>Before you begin...</center></h2></b>
+            <p>Disease is paramount for this floor as Palamicia will start healing 120% of damage dealt to her at a certain point. 
+            The easiest units to procure for this are either <b>Nier</b> or <b>Aesis</b>. Others units you can use are <b>Kurama</b> and <b>Alvina</b>.
+            <br/>
+            Other than that, there isn’t a large requirement on Defence equipment or anything else. Look out for the rest of her counterattacks and Arts and you’ll be fine.</p>
+
+            <br/>
+            <br/>
+
+            <b><h2><center>Featured Enemy</center></h2></b>
+            <center><img src="/db/Units/Thumbnail/unit_thumbnail_500651213.png" /></center>
+
+            <br/>
+            <b><h2><center>Featured Enemy</center></h2></b>
+            <ul>
+                <li>Counterattack</li>
+                    <ul>
+                        <li>Randomly, Palamicia will conduct a Counterattack stance(Noticeable visually with a large blue shield appearing.)</li>
+                        <li>During these periods, she will counterattack when attacked with either a Skill or an Equipment, and will be canceled when attacked with a True Arts/Arts. </li>
+                        <li>Counterattack will deal damage and inflict ailments when triggered, so some form of Cleanse would be appreciated just in-case. </li>
+                    </ul>
+                <li>Status Effects</li>
+                    <ul>
+                        <li>Ailments are randomly inflicted and can be the following: Paralysis, Freeze, Burn(Very potent), Poison(Very potent), Curse, and Seal.</li>
+                    </ul>
+                <li>Passives</li>
+                    <ul>
+                        <li>Starts the battle with a passive healing her <b>80%</b> of damage taken. Increases to <b>120%</b> at 70% HP. Healing can be reduced with the use of the <span class="buffDebuff">Disease</span> ailment - an essential requirement for the floor.</li>
+                        <li>Starts the battle with a <b>Shield Unit Killer</b> passive. Significantly increases damage against Taunt-Tanks when redirecting damage to themselves. Evidently, this means no using tanks for this floor.</li>
+                        <li>Randomly inflicts your units with <span class="buffDebuff">Skill CT Recovery Down.</span> Additionally, inflicts herself with <span class="buffDebuff">Status Ailment RES Down</span> randomly.</li>
+                        <li>Has an <span class="buffDebuff">ArtRegen Down</span> debuff that will slow down Art/sec buffs on your units inflicted on her Arts use. This will require you to bring a good amount of ArtGen, though it isn’t too potent to offset. This debuff <b>does not</b> affect Instant ArtsGen.</li>
+                    </ul>
+            </ul>
+            <br />
+            <br/>
+            <b><h2><center>Thresholds and Other Mechanics:</center></h2></b>
+            <ul>
+                <li>At 80% HP - Uses True Arts</li>
+                    <ul>
+                        <li>As usual with Palamicia Arts, it deals significant damage, but it’s not too nasty at this stage.</li>
+                        <li>Additionally passed this threshold, all attacks start to inflict <span class="buffDebuff">ArtRegen Down</span>.</li>
+                    </ul>
+                <li>At 70% HP - Increases heal from damage taken from 80% to <b>120%</b>. 
+                    <ul>
+                        <li> At this stage, <span class="buffDebuff">Disease</span> is essential to continue chipping down her health.
+                    </ul>
+                <li>At 60% HP - Gain <span class="buffDebuff">DMG Up</span></li>
+                <li>At 50% HP - Gain Arts <span class="buffDebuff">Recovery Up</span></li>
+                    <ul>
+                        <li>This will drastically increase the frequency of her Arts</li>
+                    </ul>
+                <li>At 40% HP - Gain <span class="buffDebuff">DMG Up</span> and a slight <span class="buffDebuff">Critical Rate Up</span></li>
+                <li>At 30~% HP - Gains <span class="buffDebuff">Action Speed Up</span></li>
+                <li>At 20% HP - Uses True Arts</li>
+                    <ul>
+                        <li>Gains <span class="buffDebuff">DMG Up</span>, further <span class="buffDebuff">Critical Rate Up</span>, and <span class="buffDebuff">Accuracy Up</span> during the duration of the True Arts; otherwise, similar to the True Arts used at 80% HP. Inflicts <span class="buffDebuff">Critical DMG RES Down</span>. </li>
+                        <li>Due to the amount of buffs Palamicia would have at this threshold along with the temporary buffs she gets, this TA would hurt a lot.</li>
+                    </ul>
+                <li>Below 20% HP - No more thresholds</li>
+                    <ul>
+                        <li>Attacks will be ferocious with the amount of buffs she has accumulated</li>
+                        <li>It would be in your best interest to clear quickly passed this</li>
+                    </ul>
+            </ul>
+            <b><h2><center>Strategy</center></h2></b>
+            <ul>
+                <li>Team compositions for this floor depend on building around your Disease inflicting unit. Both sustain and ArtsGen will be a large part of your composition; the former due to her high damage output passed 20% HP, and the latter to offset the ArtsRegen Down debuff.</li>
+                <li>Disease</li>
+                    <ul>
+                        <li>A Unit that can inflict Disease is required</li>
+                        <li>Recommended units include <b>Nier</b>, <b>Aesis</b>, <b>Kurama</b>, and <b>Alvina</b>
+                            <br />
+                            <b>NOTE:</b> Though it’s important to note that <b>Nier</b> is rather difficult to keep alive due to her inherent low base health and defence!</li>
+                    </ul>
+                <li>Other Recommendations</li>
+                    <ul>
+                        <li>Barrier Units - Will prove the most useful in parallel with a healer. <b>Favelle</b> is an easily accessible barrier unit. Any other unit at a similar potency works just as well.</li>
+                        <li>Arts Gen Units - Allows your team to repeatedly use their Arts quickly</li>
+                    </ul>
+            </ul>
+
+            <br/>
+            <br/>
+
+            <b><center><h3>Sample Team Compositions</h3></center></b>
+            <center>
+            <a href="https://www.grandsummoners.info/units/Fen">
+                <img src="/db/Units/Thumbnail/unit_thumbnail_101056311.png" alt="Fen" class="unitThumb"/>
+            </a>
+            <a href="https://www.grandsummoners.info/units/Mira%20(Earth)">
+                <img src="/db/Units/Thumbnail/unit_thumbnail_102396312.png" alt="Mira Earth" class="unitThumb"/>
+            </a>
+            <a href="https://www.grandsummoners.info/units/Norn">
+                <img src="/db/Units/Thumbnail/unit_thumbnail_102066312.png" alt="Norn" class="unitThumb"/>
+            </a>
+            <span style="font-size: 40px" > + Disease Unit</span>
+
+            <br/>
+            <br/>
+
+            <a href="https://www.grandsummoners.info/units/Favelle">
+                <img src="/db/Units/Thumbnail/unit_thumbnail_101586312.png" alt="Favelle" class="unitThumb"/>
+            </a>
+            <a href="https://www.grandsummoners.info/units/Celia%20(Dark)">
+                <img src="/db/Units/Thumbnail/unit_thumbnail_102546512.png" alt="Celia Dark" class="unitThumb"/>
+            </a>
+            <a href="https://www.grandsummoners.info/units/Mako">
+                <img src="/db/Units/Thumbnail/unit_thumbnail_102206412.png" alt="Mako" class="unitThumb"/>
+            </a>
+            <span style="font-size: 40px" > + Disease Unit</span>
+
+            <br/>
+            <br/>
+
+            <a href="https://www.grandsummoners.info/units/Priestess">
+                <img src="/db/Units/Thumbnail/unit_thumbnail_107196412.png" alt="Priestess" class="unitThumb"/>
+            </a>
+            <a href="https://www.grandsummoners.info/units/Celia%20(Dark)">
+                <img src="/db/Units/Thumbnail/unit_thumbnail_102546512.png" alt="Celia Dark" class="unitThumb"/>
+            </a>
+            <a href="https://www.grandsummoners.info/units/Mako">
+                <img src="/db/Units/Thumbnail/unit_thumbnail_102206412.png" alt="Mako" class="unitThumb"/>
+            </a>
+            <span style="font-size: 40px" > + Disease Unit</span>
+            </center>
+            <br/>
+            <br/>
+            <p> Achieve a sufficient amount of sustain and ArtsGen along with your Disease unit, and you’ll be fine. Any player that can reach F27 should(?!) have basic team building knowledge, so have a go yourself at building a team that can fit the bill.</p>
+        `
     }
 ]
 
