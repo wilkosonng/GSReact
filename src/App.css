@@ -28,3 +28,12 @@ th, tr {
   width: 100%;
   height: 1000px;
 }
+
+.unitThumb {
+  width: 75px;
+  height: 75px;
+}
+
+.buffDebuff {
+  border: 1px solid;
+}
