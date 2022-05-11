@@ -17,27 +17,17 @@ const TrialGuides = [
         id: 26,
         title: "Floor 26",
         article: `
-            <center><h3>Overview</h3></center>
-            <p>A rather tricky floor incorporating intense mechanics. 
+            <center><h2>Overview</h2></center>
+            <center><p>A rather tricky floor incorporating intense mechanics. 
             A complete counter to almost all of the Blood Knights; requiring more specific compositions 
             to tackle it's annoying niches. This floor isn't something you can just brute force, but is perfectly 
             clearable given you can counter her mechanics properly, though perhaps with a bit of luck if you're at the bare minimum.</p>
+            </center>
             <br />
 
-            <b>Field Effect - Hellfire</b>
-            <ul>
-                <li>Hellfire reflect 5% of the damage you deal to the unit, <b>bypassing damage reduction, 
-            damage redirection, and shields</b>. In other words, complete fixed damage that can't be 
-            mitigated in any way.</li>
-                <li>To visualize how massive this is, a single Vox TA slash will get him 
-            killed instantly. 200,000 DMG will reflect 10k DMG to him after all. Because of this field mechanic, 
-            it's paramount to control your DPS efficiently so as not to get your units killed quickly. 
-            Evidently, it also disallows the use of a lot of meta units that deal too much damage (Even Thetis is likely to die from one TA!) </li>
-                <li>Additionally, your units will lose 20% of their MAX HP every 5s. Very potent heals are required so as not to get overtaken by this constant damage.</li>
-            </ul>
 
             <br />
-            <b>Before you Begin...</b>
+            <b><h2><center>Before you begin...</center></h2></b>
             <p> Proper equipment and team composition are essential for the floor. Here are some things to consider about the boss as you build up your team:</p>
             <ul>
                 <li>You need Status RES! Ignis gains heavily increased DMG on units that are Burned. 
@@ -52,9 +42,23 @@ const TrialGuides = [
                 from Equipment or a Unit as long as it can freeze; the chance infliction does not matter.</li>
             </ul>
 
+            <br/>
+            <b><h2><center>Field Effect - Hellfire</center></h2></b>
+            <ul>
+                <li>Hellfire reflect 5% of the damage you deal to the unit, <b>bypassing damage reduction, 
+            damage redirection, and shields</b>. In other words, complete fixed damage that can't be 
+            mitigated in any way.</li>
+                <li>To visualize how massive this is, a single Vox TA slash will get him 
+            killed instantly. 200,000 DMG will reflect 10k DMG to him after all. Because of this field mechanic, 
+            it's paramount to control your DPS efficiently so as not to get your units killed quickly. 
+            Evidently, it also disallows the use of a lot of meta units that deal too much damage (Even Thetis is likely to die from one TA!) </li>
+                <li>Additionally, your units will lose 20% of their MAX HP every 5s. Very potent heals are required so as not to get overtaken by this constant damage.</li>
+            </ul>
+
             <br />
             <br />
-            <b><h2><center>Featured Enemy - First Stage</center></h2></b>
+            <b><h2><center>Stage Mechanics</center></h2></b>
+            <b><h3><center>First Stage - Degilmagna</center></h3></b>
             <center><img src="/db/Units/Thumbnail/unit_thumbnail_500111113.png" alt="Degilmagna" /></center>
             <p>You fight the Fire Dragon, Degilmagna, in the first stage. There isn't anything massive about this stage other 
             than it instant killing your team if you've stayed in it for too long(25s~.) Additionally, <b>Hellfire</b> will be in effect at the start of the stage.</p>
@@ -63,7 +67,7 @@ const TrialGuides = [
                 <li>Degilmagna is exceedingly squishy. You can defeat him in one Arts for most units.</li>
             </ul>
             <br />
-            <b><h2><center>Featured Enemy - Second Stage</center></h2></b>
+            <b><h3><center>Boss Stage - Ignis</center></h3></b>
             <center><img src="/db/Units/Thumbnail/unit_thumbnail_501281113.png" alt="Ignis" /></center>
             <p>Normal DPS isn't too severe, though as always, Hellfire will be in effect and really mess up your unit's HP. 
             Proper mitigations with the use of Shields will help to mitigate Ignis' normal damage, though don't forget to heal your units thoroughly against Hellfire!</p>
@@ -93,6 +97,7 @@ const TrialGuides = [
             <br />
 
             <b><h2><center>Recommended Units</center></h2></b>
+            
             <a href="https://www.grandsummoners.info/units/Mizuki">
                 <img src="/db/Units/Thumbnail/unit_thumbnail_102826212.png" alt="Mizuki" class="unitThumb"/>
             </a>
@@ -114,6 +119,7 @@ const TrialGuides = [
             (Especially with OP supports like Asirpa/Mako or if used in Mono-Light with Asirpa.)</p>
             <br />
             <br />
+            
 
             <a href="https://www.grandsummoners.info/units/Diaz">
                 <img src="/db/Units/Thumbnail/unit_thumbnail_101966212.png" alt="Diaz" class="unitThumb"/>
@@ -170,73 +176,76 @@ const TrialGuides = [
             <br />
             <br />
 
-            <b><center><h3>Sample Team Compositions</h3></center></b>
-            <a href="https://www.grandsummoners.info/units/Mako">
-                <img src="/db/Units/Thumbnail/unit_thumbnail_102206412.png" alt="Mako" class="unitThumb"/>
-            </a>
-            <a href="https://www.grandsummoners.info/units/Mizuki">
-                <img src="/db/Units/Thumbnail/unit_thumbnail_102826212.png" alt="Mizuki" class="unitThumb"/>
-            </a>
-            <a href="https://www.grandsummoners.info/units/Norn">
-                <img src="/db/Units/Thumbnail/unit_thumbnail_102066312.png" alt="Norn" class="unitThumb"/>
-            </a>
-            <a href="https://www.grandsummoners.info/units/Asirpa">
-                <img src="/db/Units/Thumbnail/unit_thumbnail_107126412.png" alt="Asirpa" class="unitThumb"/>
-            </a> 
-            (NOTE: Mira Hood HIGHLY recommended for Burn RES)
-            <br />
-            <br />
-            <a href="https://www.grandsummoners.info/units/Fen%20(Earth)">
-                <img src="/db/Units/Thumbnail/unit_thumbnail_101056311.png" alt="Fen Earth" class="unitThumb"/>
-            </a>
-            <a href="https://www.grandsummoners.info/units/Aristela">
-                <img src="/db/Units/Thumbnail/unit_thumbnail_101296212.png" alt="Aristela" class="unitThumb"/>
-            </a>
-            <a href="https://www.grandsummoners.info/units/Priestess">
-                <img src="/db/Units/Thumbnail/unit_thumbnail_107196412.png" alt="Priestess" class="unitThumb"/>
-            </a>
-            <a href="https://www.grandsummoners.info/units/Mizuki">
-                <img src="/db/Units/Thumbnail/unit_thumbnail_102826212.png" alt="Mizuki" class="unitThumb"/>
-            </a>
-            <br />
-            <br />
-            <a href="https://www.grandsummoners.info/units/Rimuru%20(Human)">
-                <img src="/db/Units/Thumbnail/unit_thumbnail_107156212.png" alt="Rimuru Human" class="unitThumb"/>
-            </a>
-            <a href="https://www.grandsummoners.info/units/Aristela">
-                <img src="/db/Units/Thumbnail/unit_thumbnail_101296212.png" alt="Aristela" class="unitThumb"/>
-            </a>
-            <a href="https://www.grandsummoners.info/units/Mizuki">
-                <img src="/db/Units/Thumbnail/unit_thumbnail_102826212.png" alt="Mizuki" class="unitThumb"/>
-            </a>
-            <a href="https://www.grandsummoners.info/units/Diaz">
-                <img src="/db/Units/Thumbnail/unit_thumbnail_101966212.png" alt="Diaz" class="unitThumb" />
-            </a>
+            <b><center><h2>Sample Team Compositions</h2></center></b>
+            <center>
+                <a href="https://www.grandsummoners.info/units/Mako">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_102206412.png" alt="Mako" class="unitThumb"/>
+                </a>
+                <a href="https://www.grandsummoners.info/units/Mizuki">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_102826212.png" alt="Mizuki" class="unitThumb"/>
+                </a>
+                <a href="https://www.grandsummoners.info/units/Norn">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_102066312.png" alt="Norn" class="unitThumb"/>
+                </a>
+                <a href="https://www.grandsummoners.info/units/Asirpa">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_107126412.png" alt="Asirpa" class="unitThumb"/>
+                </a> 
+                (NOTE: Mira Hood HIGHLY recommended for Burn RES)
+                <br />
+                <br />
+                <a href="https://www.grandsummoners.info/units/Fen%20(Earth)">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_101056311.png" alt="Fen Earth" class="unitThumb"/>
+                </a>
+                <a href="https://www.grandsummoners.info/units/Aristela">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_101296212.png" alt="Aristela" class="unitThumb"/>
+                </a>
+                <a href="https://www.grandsummoners.info/units/Priestess">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_107196412.png" alt="Priestess" class="unitThumb"/>
+                </a>
+                <a href="https://www.grandsummoners.info/units/Mizuki">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_102826212.png" alt="Mizuki" class="unitThumb"/>
+                </a>
+                <br />
+                <br />
+                <a href="https://www.grandsummoners.info/units/Rimuru%20(Human)">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_107156212.png" alt="Rimuru Human" class="unitThumb"/>
+                </a>
+                <a href="https://www.grandsummoners.info/units/Aristela">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_101296212.png" alt="Aristela" class="unitThumb"/>
+                </a>
+                <a href="https://www.grandsummoners.info/units/Mizuki">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_102826212.png" alt="Mizuki" class="unitThumb"/>
+                </a>
+                <a href="https://www.grandsummoners.info/units/Diaz">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_101966212.png" alt="Diaz" class="unitThumb" />
+                </a>
+            </center>
             `
     },
     { //Floor 27
         id: 27,
         title: "Floor 27",
         article: `
-            <center><h3>Overview</h3></center>
+            <center><h2>Overview</h2></center>
             <p>Buffed Palamicia crest without her type-killers and more emphasis on her <b>Counterattack</b> mechanic. Disease is an absolutely essential ailment to clear the floor. 
             As usual with Palamicia bosses, her high damage Arts will necessitate barrier units and high-end Defense equipment.</p>
             <br/>
 
             <b><h2><center>Before you begin...</center></h2></b>
+            <center>
             <p>Disease is paramount for this floor as Palamicia will start healing 120% of damage dealt to her at a certain point. 
             The easiest units to procure for this are either <b>Nier</b> or <b>Aesis</b>. Others units you can use are <b>Kurama</b> and <b>Alvina</b>.
             <br/>
             Other than that, there isn’t a large requirement on Defence equipment or anything else. Look out for the rest of her counterattacks and Arts and you’ll be fine.</p>
-
+            </center>
             <br/>
             <br/>
 
-            <b><h2><center>Featured Enemy</center></h2></b>
+            <b><h2><center>Stage Mechanics</center></h2></b>
+            <b><h3><center>Boss Stage - Palamicia</center></h3></b>
             <center><img src="/db/Units/Thumbnail/unit_thumbnail_500651213.png" /></center>
 
             <br/>
-            <b><h2><center>Featured Enemy</center></h2></b>
             <ul>
                 <li>Counterattack</li>
                     <ul>
@@ -287,6 +296,7 @@ const TrialGuides = [
                         <li>It would be in your best interest to clear quickly passed this</li>
                     </ul>
             </ul>
+            <br/>
             <b><h2><center>Strategy</center></h2></b>
             <ul>
                 <li>Team compositions for this floor depend on building around your Disease inflicting unit. Both sustain and ArtsGen will be a large part of your composition; the former due to her high damage output passed 20% HP, and the latter to offset the ArtsRegen Down debuff.</li>
@@ -307,7 +317,7 @@ const TrialGuides = [
             <br/>
             <br/>
 
-            <b><center><h3>Sample Team Compositions</h3></center></b>
+            <b><center><h2>Sample Team Compositions</h2></center></b>
             <center>
             <a href="https://www.grandsummoners.info/units/Fen">
                 <img src="/db/Units/Thumbnail/unit_thumbnail_101056311.png" alt="Fen" class="unitThumb"/>
@@ -351,6 +361,161 @@ const TrialGuides = [
             <br/>
             <br/>
             <p> Achieve a sufficient amount of sustain and ArtsGen along with your Disease unit, and you’ll be fine. Any player that can reach F27 should(?!) have basic team building knowledge, so have a go yourself at building a team that can fit the bill.</p>
+        `
+    },
+    { //Floor 28
+        id: 28,
+        title: "Floor 28",
+        article: `
+            <center><h2>Overview</h2></center>
+            <p>The Giant Boss Dragons you once knew and abused for Relics are now back for blood in the new Floor 28! 
+            Mavro-halos and the boys In the new floor packs an interesting gimmick revolving around being able to kill the 
+            pre-stage’ Dragons before they unleash their arts in order to gain massive HP buffs on your Team necessary 
+            to survive the tough fight against Mavro Halos.</p>
+            <br/>
+
+            <b><h2><center>Before you begin...</center></h2></b>
+            <center>
+            <p><b>HP%</b> heal is an absolute necessity, your Units will shoot up to 40-60k HP 
+            in this stage in order to sustain the large blows of damage Mavro Halos can inflict, the typical fixed healing from Mako/Feena, 
+            etc are rather insignificant in this stage.</p>
+            <p><b>Arts drain</b> units are also very favorable for the 
+            pre-stages to completely negate the Dragons’ Arts in order to 
+            guarantee your huge HP buff. (Although not necessary as killing 
+                them fast enough before they can use their Arts works too!)</p>
+            <p>Having a mix of both Physical and Magic Damage is very important in order to even get 
+            through the Pre-Stages, other then that 2 to 3 Defense Items are also favorable in order 
+            to survive against Mavro-halos.</p>
+            </center>
+
+            <b><h2><center>Stage Mechanics</center></h2></b>
+            <b><h3><center>First Stage - Degilmagna</center></h3></b>
+            <center><img src="/db/Units/Thumbnail/unit_thumbnail_500111113.png" alt="Degilmagna"/></center>
+
+            <br/>
+            <ul>
+                <li>Immune to <b>Physical</b> damage</li>
+                <li>If killed before using Arts, increase all Units HP by 250%</b>
+                <li>Inflicts <span class="buffDebuff">Burn</span> (Not Potent)</li>
+            </ul>
+
+            <b><h3><center>Second Stage - Aerugraxes</center></h3></b>
+            <center><img src="/db/Units/Thumbnail/unit_thumbnail_500122213.png" alt="Aerugraxes"/></center>
+            <br/>
+
+            <ul>
+                <li>Immune to <b>Magic</b> damage</li>
+                <li>If killed before using Arts, increase all Units HP by 250%</li>
+                <li>Inflicts <span class="buffDebuff">Freeze</span>
+            </ul>
+
+            <b><h3><center>Third Stage - Elpneumas</center></h3></b>
+            <center><img src="/db/Units/Thumbnail/unit_thumbnail_500133313.png" alt="Elpneumas"/></center>
+            <br/>
+
+            <ul>
+                <li>Immune to Damage from <b>Demon</b> Race Units</li>
+                <li>If killed before using Arts, increase all Units HP by 250%</li>
+                <li><li>Inflicts <span class="buffDebuff">Poison</span> (Not Potent)</li>
+            </ul>
+
+            <p><b>NOTE:</b> Floor 28 has the clear requirement of dealing 100k Break Damage, it’s recommended to break one of the Pre-Stage Dragons instead of Mavro-halos as he has one chunky break bar!</b>
+
+            <br/>
+            <br/>
+            <b><h3><center>Boss Stage - Mavro Halos</center></h3></b>
+            <center><img src="/db/Units/Thumbnail/unit_thumbnail_500155513.png" alt="Mavro Halos"/></center>
+            <br/>
+
+            <ul> 
+                <li>Notable Attacks</li>
+                    <ul>
+                        <li>Has an attack able to <b>drain</b> 50 Arts from Units</li>
+                        <li>Mavro has an Art able to inflicts <span class="buffDebuff">Disease</span> and deals 30k Dmg that cannot be mitigated. You will need at least 2 of pre-stage Dragon’s HP buffs in order to survive.</li>
+                    </ul>
+                <li>Status Effects</li>
+                    <ul>
+                        <li>Randomly inflicts <span class="buffDebuff">Poison</span> and <span class="buffDebuff">Faint</span></li>
+                    </ul>
+                <li>Passives</li>
+                    <ul>
+                        <li>Starts off with <span class="buffDebuff">Atk Up</span>, <span class="buffDebuff">Action Speed Up</span>, <span class="buffDebuff">Accuracy Up</span></li>
+                    </ul>
+            </ul>
+
+            <br />
+            <br/>
+
+            <b><h2><center>Thresholds and Other Mechanics:</center></h2></b>
+            <ul>
+                <li>At 80% HP - Gains <span class="buffDebuff">Action Speed Up</span></li>
+                <li>At 60% HP - Gains <span class="buffDebuff">DMG Up</span></li>
+                <li>At 50% HP - Gains a new attack. Causes <span class="buffDebuff">Hitstun</span> during duration of the attack</li>
+                <li>At 40% HP - Gains <span class="buffDebuff">DMG Up</span> and <span class="buffDebuff">Action Up</span></li>
+                <li>At 30% HP - Gains faster Arts Gauge speed. After this point, it's near impossible to maintain permanent Arts Drain on Mavro Halos.</li>
+                <li>Below 30% HP - At this point you want to clear the stage as soon as possible due to all the deadly buffs Mavro has accumulated. Especially with his Arts Speed increase, you’re likely to be blast away by his unmitigatable Art if you’re not quick enough!</li>
+            </ul>
+
+            <br/>
+            <b><h2><center>Strategy</center></h2></b>
+            <ul>
+                <li>As mentioned before, <b>HP%</b> Heals are your best friend, or else you will be inevitably 
+                trampled by Mavro-halos despite your new massive amount of HP with the given Buffs. (With enough shielding and Dmg RES it’s possible to bring just HP% Heal Equipment rather then a dedicated Healer)</li>
+                <li>A strong source of Artsgen is very important as well, as Mavro-halos’s Arts Drain attack can become a problem with the abundant <span class="buffDebuff">Action Speed Up</span> he gains if you’re not prepared.</li>
+                <li><span class="buffDebuff">DMG Res</span> buffs are especially useful in this stage as well due to Mavro-halos inflicting no Dmg RES debuffs, Defense Equipment such as <b>Gargantua</b>, <b>Elastomer Suit</b> and <b>Spike Helmet Agni</b> and Units that can increase Dmg RES will massively help in mitigating most of it's damage.</li>
+                <li>If Dmg RES items and units aren't an option for you. As mentioned before, <b>Arts Drain</b> Units will be able to help in making majority of the fight easily manageable until Mavro-halos’s final threshold.</li>
+            </ul>
+
+            <br/>
+            <br/>
+
+            <b><center><h2>Sample Team Compositions</h2></center></b>
+            <center>
+                <a href="https://www.grandsummoners.info/units/Celia%20(Dark)">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_102546512.png" alt="Celia Dark" class="unitThumb"/>
+                </a>
+                <a href="https://www.grandsummoners.info/units/Cestina">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_102986312.png" alt="Cestina" class="unitThumb"/>
+                </a>
+                <a href="https://www.grandsummoners.info/units/Sanstone">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_101676112.png" alt="Sanstone" class="unitThumb"/>
+                </a>
+                <a href="https://www.grandsummoners.info/units/Liza">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_103006412.png" alt="Liza" class="unitThumb"/>
+                </a>
+
+                <br/>
+                <br/>
+
+                <a href="https://www.grandsummoners.info/units/Cestina">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_102986312.png" alt="Cestina" class="unitThumb"/>
+                </a>
+                <a href="https://www.grandsummoners.info/units/Sanstone">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_101676112.png" alt="Sanstone" class="unitThumb"/>
+                </a>
+                <a href="https://www.grandsummoners.info/units/Asirpa">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_107126412.png" alt="Asirpa" class="unitThumb"/>
+                </a>
+                <a href="https://www.grandsummoners.info/units/Juno">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_103226412.png" alt="Juno" class="unitThumb"/>
+                </a>
+
+                <br/>
+                <br/>
+
+                <a href="https://www.grandsummoners.info/units/Asirpa">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_107126412.png" alt="Asirpa" class="unitThumb"/>
+                </a>
+                <a href="https://www.grandsummoners.info/units/Juno">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_103226412.png" alt="Juno" class="unitThumb"/>
+                </a>
+                <a href="https://www.grandsummoners.info/units/Ashe">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_102056512.png" alt="Ashe" class="unitThumb"/>
+                </a>
+                <span style="font-size: 40px" > + (Flex)</span>
+            </center>
+
+
         `
     }
 ]
