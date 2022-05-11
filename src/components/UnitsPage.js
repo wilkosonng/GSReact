@@ -40,11 +40,11 @@ export default function Units () {
                         if(unit.image.thumbawk){
                             return (
                                 <React.Fragment key={unit.name} >
-                                    <Col lg="auto">
+                                    <Col xs="4" sm="auto">
                                         <center>
                                             <Card style={{maxWidth: "75px", backgroundColor: "#25274d", border: "none"}}>
                                                 <Link to={`/units/${unit.name}`} key={unit.name} style={{textDecoration: 'none', color: "#aaabb8"}}>
-                                                    <Media src={unit.image.thumbawk} alt={unit.name} width="75" height="75" object-fit="cover"  />
+                                                    <Media src={unit.image.thumbawk} alt={unit.name} width="100%" height="auto" object-fit="cover"  />
                                                     <p>{unit.name}</p>
                                                 </Link>
                                             </Card>
@@ -56,7 +56,7 @@ export default function Units () {
 
                         return (
                             <React.Fragment key={unit.name} >
-                                <Col lg="auto">
+                                <Col xs="4" sm="auto">
                                     <center>
                                         <Card style={{maxWidth: "75px", backgroundColor: "#25274d", border: "none"}}>
                                             <Link to={`/units/${unit.name}`} key={unit.name} style={{textDecoration: 'none', color: "#aaabb8"}}>

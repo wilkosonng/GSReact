@@ -20,7 +20,7 @@ const CrestBossGuides = [
                 100% Faint RES <br />
             </center><br />
             <h3><center>Mechanics</center></h3>
-            <h4><u>Special Mobs</u></h4>
+            <b><u>Special Mobs</u></b>
             Mobs randomly spawned.<br/><br/>
 
             <b style="color: red;">Inferno Wyrm</b>:
@@ -233,6 +233,138 @@ const CrestBossGuides = [
     },
     {
         id: 2,
+        title: "Shrine of Perdition",
+        link: "shrine-of-perdition",
+        banner: "/db/CrestGuides/Crest_Banner_Valzandeth.png",
+        article: `
+            <center>
+                <b>???</b> [Extreme] <br />
+                <img src="/db/CrestGuides/Crest_Valzandeth.png" />
+                <br/>
+                BOSS: Valzandeth <br />
+
+                <b>Appears on Day: Monday [PST]</b> <br/>
+                HP: 16,000,000 <br />
+                Element: Dark <br />
+                Race: Dragon <br />
+                200% Blind, Seal RES
+                120% Paralysis, Freeze, Burn RES
+                60% Poison, Disease RES
+                50% Faint RES
+
+            </center><br />
+            <h3><center>Mechanics</center></h3>
+            <b><u>Special Mobs</u></b>
+            <ul>
+                <li><b>Grangarrod</b></li>
+                <ul>
+                    <li>Very High HP. Takes increased Damage while Burning. After every 15s, inflict a stackable Paralysis RES debuff to all enemies for 50s (Ignores Taunt effects).</li>
+                </ul>
+                <li><b>Cyclops</b></li>
+                <ul>
+                    <li>Very High HP & 100% CRI rate. Takes increased Damage while Blinded. After every 15s, drains ~60 Arts from all enemies (Ignores Taunt effects).</li>
+                </ul>
+            </ul>
+            <p>1 Grangarrod will spawn on wave 1, followed by 1 Cyclops on wave 2, and 1 Grangarrod and 1 Cyclops on wave 3. Although it is possible, 
+            albeit slow, to kill these special mobs without inflicting them with their respective ailments, it is best to bring some form of Burn 
+            and Blind in the form of equipment or units. Take note that these mobs also spawn during the boss wave, and it is dangerous to let them 
+            inflict their debuffs continuously.</p>
+
+            <h4><center><u>Gimmicks</u></center></h4>
+            <ul>
+                <li>Reflection RES & Arts Drain RES</li>
+                <ul>
+                    <li>No reflect cheese strats using Milims/Duran. Additionally, units/equips which reduce the enemy's Arts such as Ashe are rendered useless.</li>
+                </ul>
+                <li>High CRI Resistance</li>
+                <ul>
+                    <li>Do not confuse this with CRI DMG Immunity. This simply means regardless of a unit’s CRI rate, it will not be able to deal CRI DMG to Valzandeth. Nothing much else to add, besides bringing along CRI buffers such as Vox will be useless.</li>
+                </ul>
+                <li>Each time Roar of Ruin (MAG) is used, spawn 2 random Special Mobs listed earlier.</li>
+                <ul>
+                    <li>It is important to deal with these mobs quickly before they overwhelm you with their debuffs, namely Grangarrod’s Paralysis RES debuff, which will increase the chances and duration of your units getting Paralysed from Valzandeth’s regular attacks and Arts, and Cyclops’ Arts Drain, which might cause issues with units’ Arts Gauge. As a side note, these debuffs ignore all Taunt effects.</li>
+                </ul>
+                <li>At 70% HP, gains a permanent DMG & Action Speed UP buff and uses Roar of Ruin (MAG).</li>
+                <ul>
+                    <li>Self-explanatory. Valzandeth will start to deal more damage more quickly from this point forth. As a side note, be wary that 2 additional special mobs will spawn at this point as well.</li>
+                </ul>
+                <li>At 30% HP, permanently increases Arts Refill rate and gains an Action Speed UP buff and uses Roar of Ruin (MAG).</li>
+                <ul>
+                    <li>Self-explanatory as well. From this point forth, Valzandeth will use its Arts more frequently and move more quickly. It is advised to not stall the fight too long as the damage can get overwhelming. As a side note, be wary that 2 additional special mobs will spawn at this point as well.</li>
+                </ul>
+                <li>At 0% HP, gains invulnerability while charging orbs. At 5 orbs, uses Shadow Lightning (MAG). Kills itself afterwards.</li>
+                <ul>
+                    <li>Very lethal final nuke. Do prepare some form of DMG RES/MAG RES in order to live through this final hurdle. As long as you are able to survive, the quest will still clear regardless of any additional special mobs still left standing.</li>
+                </ul>
+            </ul>
+
+            <h4><center><u>Normal Attacks</u></center></h4>
+            <ul>
+                <li>Slam Down - Inflict a stackable DMG RES debuff for 40s.</li>
+                <ul>
+                    <li>Realistically, you will constantly be dealing with 3 - 4 DMG RES debuffs due to the long-lasting nature of the debuffs. As such, be prepared to deal with the increased damage being dealt.</li>
+                </ul>
+                <li>Ram Forward - Chance to inflict Paralysis.</li>
+                <ul>
+                    <li>All the more reason to kill Grangarrod within 15s to avoid its Paralysis RES debuffs. Can be dangerous, locking units from moving and interrupting their Arts.</li>
+                </ul>
+            </ul>
+
+            <center><h4><u>Arts</u></h4></center>
+
+            <ul>
+                <li><b>Roar of Ruin (MAG) - Chance to inflict Paralysis.</b></li>
+                <ul>
+                    <li>Powerful Arts, made even more deadly from the stackable DMG RES debuffs accumulated from its regular attacks. Make sure to prepare some form of DMG RES/MAG RES as usual.</li>
+                </ul>
+                <li><b>Shadow Lightning (MAG) - Gains 100% CRI rate for the duration of this Arts. <u>Only used at 0% HP.</u></b></li>
+                <ul>
+                    <li>Very lethal Arts. Due to the 100% CRI rate gained, it is crucial to prepare sufficient DMG RES/MAG RES buffs in order to survive this. Nothing much else to say, besides it being a very strong final nuke…</li>
+                </ul>
+            </ul>
+            <p><u>Subject γ-2 will alternate between the above 2 Arts, starting with Mad Predator (PHY).</u></p>
+
+            <h3><center>Strategy</center></h3>
+            <p><center>
+                This crest palace is <b><u>NOT</u></b> for newer players. Similar to other Extreme Crest palaces, strict equipment and units are required to attempt it. 
+                The general strategy would be to bring Burn and Blind units/equips in order to deal with the special mobs spawned throughout the fight, while using a 
+                capable Taunt tank to redirect Valzandeth’s hard-hitting attacks. The run can also be reliant on RNG due to unlucky instances where 5 stacks of DMG RES 
+                debuffs, followed by an untimely Arts can obliterate even the most prepared.
+                Nuke compositions will not be detailed here due to the very high requirements needed.                                   
+            </p></center>
+            <b><h4><u>Recommended Units</u></h4></b>
+            <ul>
+                <li>
+                    <b>Miranda &gt; Thetis</b>
+                    <p>Due to Valzandeth’s hard-hitting Arts dealing Magic damage, Miranda is, by far, the best Taunt tank to deal with its absurd damage. 
+                    Coupled with her 100% Paralysis RES, she will not be affected by Valzandeth’s Paralysis as long as there are no Paralysis RES debuffs 
+                    on her. Thetis, on the other hand, although a weaker pick compared to Miranda, can also be used, albeit with more risk involved. Due 
+                    to Thetis’ Magia Drive duration of 2 minutes, be wary of it running out in the middle of the boss fight, which can easily ruin the run. 
+                    As a tip, make sure Thetis is carrying an Erial.</p>
+                </li>
+                <li>
+                    <b>Juno &gt;&gt; Hart &gt; Dark Celia</b>
+                    <p>Best ArtsGen unit capable of dealing noticeable damage. Not much else to say about her majesty. Hart, despite dealing much lesser damage, 
+                    can still be useful, especially in a Human-oriented team. Dark Celia would be a lot harder to use here, requiring her to stack 5 Arts, 
+                    before being able to generate noticeable Arts. As such, Dark Celia would have to be run alongside other ArtGen units.</p>
+                </li>
+                <li>
+                    <b>Hao/Priestess/Dark Fen/Ashe</b>
+                    <p>These units are great in their own rights at dealing with the pesky special mobs (Grangarrod & Cyclops) which spawn throughout the fight. 
+                    Hao is able to inflict Burn with his True Arts, and Priestess, Dark Fen, and Ashe are able to inflict Blind with their Arts, Skill, and 
+                    True Arts respectively. As a side note, although Ashe’s Arts Drain will be rendered useless here, his hefty DMG RES debuff and Blind RES 
+                    debuff on Arts can allow him to be useful to a certain extent.</p>
+                </li>
+                <li>
+                    <b>Liza</b>
+                    <p>Due to the overwhelming damage, Liza is a great pick, allowing DEF equips to be used more regularly. Furthermore, if relying on Burn 
+                    and Blind equips, Liza will also allow those to be used more frequently.</p>
+                </li>
+        `,
+        author: "ebouliben#1234, Jeffers#7056"
+    },
+    {
+        id: 3,
         title: "Shrine of the Burning Chains",
         link: "shrine-of-the-burning-chains",
         banner: "/db/CrestGuides/Crest_Banner_Ifrit.png",
@@ -349,7 +481,7 @@ const CrestBossGuides = [
         author: "ebouliben#1234, Jeffers#7056"
     },
     {
-        id: 3,
+        id: 4,
         title: "Shrine of Crimson Sea",
         link: "shrine-of-crimson-sea",
         banner: "/db/CrestGuides/Crest_Banner_Ignis.png",
@@ -371,7 +503,7 @@ const CrestBossGuides = [
                 30% Blind/Disease RES <br />
             </center><br />
             <h3><center>Mechanics</center></h3>
-            <h4><u>Special Mobs</u></h4>
+            <b><u>Special Mobs</u></b>
             <b>Grovogg</b>: Chance to inflict Burn.
             <ul>
                 <li>Fairly insignificant HP loss over time, can be outhealed easily. However, do note that the pre-boss mobs are also fairly tanky.</li>
@@ -477,7 +609,7 @@ const CrestBossGuides = [
         author: "ebouliben#1234, Jeffers#7056"
     },
     {
-        id: 4,
+        id: 5,
         title: "Shrine of the Azul Knight",
         link: "shrine-of-the-azul-knight",
         banner: "/db/CrestGuides/Crest_Banner_Palamicia.png",
@@ -594,7 +726,797 @@ const CrestBossGuides = [
                 </li>
         `,
         author: "ebouliben#1234, Jeffers#7056"
-    }
+    },
+    {
+        id: 6,
+        title: "Shrine of Diamond Dust",
+        link: "shrine-of-diamond-dust",
+        banner: "/db/CrestGuides/Crest_Banner_Freydal.png",
+        article: `
+            <center>
+                <b>Subzero Stormraptor</b> [Extreme] <br />
+                <img src="/db/CrestGuides/Crest_Freydal.png" />
+                <br/>
+                BOSS: Freydal <br />
+
+                <b>Appears on Day: Wednesday [PST]</b> <br/>
+                HP: 5,000,000 <br />
+                Element: Water <br />
+                Race: Beast <br />
+                1000% Resistance to Paralysis/Faint/Seal/Freeze <br />
+                50% Resistance to Blind <br />
+            </center><br />
+            <h4><center><u>Gimmicks</u></center></h4>
+            <ul>
+                <li><b>Area Effect</b>: Icicle Cage - Reduce all Stats by 30%. Reset Skill gauge and reduce Skill CT Speed by 80% every 10s.</li>
+                <ul>
+                    <li>The area effect essentially renders all unit skills useless as they will not be able to refresh in time. Furthermore, the 30% Stats DOWN debuff applied throughout leave most units at 6-7k HP.</li>
+                </ul>
+                <li>ATK & CRI DMG UP</li>
+                <ul>
+                    <li>Self-explanatory, Freydal will hit harder due to these buffs, which it gains at the start of the fight.</li>
+                </ul>
+                <li><b>Storm Mode</b>: - Evasion Rate UP & Break Negated, cancelled when Bar is broken by status ailment DMG</li>
+                <ul>
+                    <li>It is recommended to reduce Freydal’s Evasion by ~60% or increase unit(s)’ Accuracy rate by ~60%. </li>
+                    <li>Alternatively, running a Poison/Burn inflictor will help damage Freydal’s bar. After its bar is broken, Freydal will lose its evasion buffs.</li>
+                    <li><b>NOTE:</b>  Freydal will re-enter into Storm Mode after using Blau Vortex</li>
+                </ul>
+                <li>At 70% HP threshold, gains Action Speed UP & immediately uses a random Arts</li>
+                <ul>
+                    <li>Self-explanatory, Freydal will attack faster past this point. Do be prepared for one of its 3 Arts as well.</li>
+                </ul>
+                <li>After 50% HP threshold, enter <b>Ultra Storm Mode</b> Evasion Rate UP & Break Negated, cancelled when Bar is broken by status ailment DMG</li>
+                <ul>
+                    <li>Ultra Storm Mode is a stronger version of Storm Mode. </li>
+                    <li>Units will require &gt;100% Accuracy buff to have a chance at landing a hit on Freydal past this point. </li>
+                    <li>Running a Poison/Burn inflictor will still be able to damage Freydal’s bar, causing Freydal to lose its Evasion buffs after its bar is broken.</li>
+                    <li><b>NOTE:</b> Freydal will re-enter into Ultra Storm Mode after using Blau Vortex
+                </ul>
+                <li>At 40% HP threshold, gains DMG UP buff, inflicts DMG RES DOWN debuff & immediately uses a random Arts</li>
+                <ul>
+                    <li>After this point, do not try to stall the fight longer than needed. The DMG UP buff gained by Freydal paired with the DMG RES debuff inflicted will cause units to take noticeable increased DMG. As such, its random Arts at this point will also be stronger than before, so make sure to be prepared.</li>
+                </ul>
+                <li>At 20% HP threshold, fills own Arts gauge at double the speed</li>
+                <ul>
+                    <li>Self-explanatory, Freydal now fills 2 orbs at a time.</li>
+                </ul>
+            </ul>
+
+            <h4><center><u>Normal Attacks</u></center></h4>
+            <b>Used during Storm/Ultra Strom Mode:</b>
+            <ul>
+                <li>Dives down using claws - Chance to Poison enemies</li>
+                <ul>
+                    <li>Coupled with the unique area effect reducing all allies’ Stats by 30%, leaving Poison DMG unchecked without adequate Healing will be very disastrous as the run progresses. As such, it is highly recommended to counter Freydal’s Poison with some form of healing.</li>
+                </ul>
+                <li>Flaps wings & fires ice projectiles - Chance to Freeze enemies</li>
+                <ul>
+                    <li>Although its Freeze only lasts for a few seconds, be wary that frozen units are unable to use any skills, arts or equipment.</li>
+                </ul>
+            </ul>
+            <b>Used while not in Storm/Ultra Strom Mode:</b>
+            <ul>
+                <li>Howl - For 8s, Reduce Enemies' Evasion Rate</li>
+                <ul>
+                    <li>It is only used before Freydal re-enters into Storm/Ultra Storm Mode. It does moderate single-hit DMG and can be lethal, especially right after its hard-hitting Blau Vortex Arts.</li>
+                </ul>
+                <li>Peck - Gains lifesteal for a few seconds</li>
+                <ul>
+                    <li>Deals insignificant damage, HP gained is also quite negligible.</li>
+                </ul>
+                <li>Scream - For 4s, ignore enemies' DEF</li>
+                <ul>
+                    <li>Deals insignificant damage.</li>
+                </ul>
+                <li>Stomp - Chance to Faint enemies</li>
+                <ul>
+                    <li>Deals insignificant damage.</li>
+                </ul>
+            </ul>
+
+            <center><h4><u>Arts</u></h4></center>
+
+            <ul>
+                <li><b>Raging Blizzard (PHY)</b> - Becomes invulnerable for a few seconds, disappears, and performs a dive attack</li>
+                <ul>
+                    <li>Deals moderate DMG. Nothing special about this Arts, besides the DMG dealt.</li>
+                </ul>
+                <li><b>Dart Wing (PHY)</b> - Chance to Poison enemies</li>
+                <ul>
+                    <li>Deals moderate DMG. Do note that this Poison is able to stack with the Poison inflicted from one of Freydal’s above mentioned normal attacks as well.</li>
+                </ul>
+                <li><b>Blau Vortex (MAG)</b> - Increases own CRI rate by 100% for the duration of this Arts, chance to Freeze at the end</li>
+                <ul>
+                    <li>Deals heavy DMG. Make sure to be prepared with some form of DMG RES and/or healing as the Freeze inflicted after might cause issues.</li>
+                    <li>Additionally, Freydal will perform its Howl move after this Arts. From testing, this Arts will <b>always</b> be used when Freydal is out of Storm/Ultra Storm Mode.</li>
+                </ul>
+            </ul>
+
+            <h3><center>Strategy</center></h3>
+            <p><center>
+            This crest boss is NOT recommended for newer players. Being one of the hardest currently available crest bosses in Global, 
+            it requires a well developed unit and equipment box. A general tip would be to either use Accuracy buffs/Evasion debuffs 
+            to counter Freydal’s high evasion or use a Burn/Poison unit to slowly chip away at its bar.
+            Nuke compositions will not be detailed here due to the high requirements needed.
+            </p></center>
+            <b><h4><u>Recommended Units</u></h4></b>
+            <ul>
+                <li>
+                    <b>Miranda/Thetis</b>
+                    <p>The best tanks for this stage if you decide to run one. 
+                    With Miranda’s MAG RES passive, it allows her to tank Freydal’s Blau 
+                    Vortex Arts much easier. Additionally, with her TW equipped, she gains 
+                    passive 100% Freeze RES, allowing her to be unaffected by Freydal’s Freeze. 
+                    On the other hand, Thetis is also a great option. With his TW equipped, 
+                    he also gains passive 100% Freeze RES, along with the added benefit of 
+                    being able to cleanse Poison from himself using his TA. His only slight 
+                    downside would be the extra Arts needed to get him into Magia Drive, 
+                    however this can be easily managed with proper equipment.</i>
+                    </p>
+                </li>
+                <li>
+                    <b>Hart/Mako/Asirpa/Cestina &gt; Sakura Mira</b>
+                    <p>These units are great ArtGen which also help provide safety to the team in various ways. 
+                    Hart and Mako both have great ArtGen capabilities, while being able to provide consistent 
+                    Healing over time to the team, with Mako having the added benefit of boosting teamwide DMG. 
+                    Asirpa functions similarly to the earlier two, but also provides a nice DEF boost for 
+                    extra safety. Cestina is able to provide great ArtGen, while having a 5☆ DEF slot and 
+                    being able to put up a barrier for the team. Lastly, Sakura Mira also works fine, 
+                    although she contributes by providing Healing over time and a barrier instead of ArtGen.</p>
+                </li>
+                <li>
+                    <b>Juno &gt;&gt;&gt; Shion </b>
+                    <p>As usual, Juno is the queen for this stage, gaining a whopping 100% 
+                    Accuracy UP after entering Demonic True Eclipse. To add on, she is also 
+                    able to generate a considerable amount of Arts for the team as long as she 
+                    has sufficient support to counteract her HP drain over time. Shion, on the 
+                    other hand, also gains 100% Accuracy UP on her TA. However, she is a pure DPS, 
+                    and does not help generate Arts for the team unlike Juno, which makes her a much 
+                    less desirable option. DO NOTE that additional Accuracy buffs and/or Evasion 
+                    debuffs are needed to damage Freydal after its 50% threshold.</p>
+                </li>
+                <li>
+                    <b>Victoire/Zeela</b>
+                    <p>When running a DPS without enough innate Accuracy, additional Accuracy buffs/Evasion 
+                    debuffs will be needed to damage Freydal past 50% HP. Considering the absence of equipment 
+                    and/or units with teamwide Accuracy UP passives, these units are solid options for 
+                    boosting Accuracy. Victoire requires the DPS to be a Light elemental in order to take 
+                    full advantage of her buffs on True Arts. On the other hand, Zeela is able to provide 
+                    teamwide CRI rate, Accuracy, and MAG DMG buffs from her NA.</p>
+                </li>
+                <li>
+                    <b>Pola &gt; Angelas &gt; Keit </b>
+                    <p>If you don’t want to deal with the annoying evasion gimmick of Freydal, 
+                    these units are great picks for chipping away at its bar over time. Pola 
+                    would be the best pick, dealing consistent and noticeable Poison DMG 
+                    especially when Freydal’s HP is high. Angelas is also a decent pick, 
+                    being able to inflict Burn from her skill and reduce Burn RES from her Arts. 
+                    Lastly, Keit can also work, however, as he is an unawoken unit, more support 
+                    will be required with him on the team.</p>
+                </li>
+        `,
+        author: "ebouliben#1234, Jeffers#7056"
+    },
+    {
+        id: 7,
+        title: "Shrine of Aberration",
+        link: "shrine-of-aberration",
+        banner: "/db/CrestGuides/Crest_Banner_Goldola.png",
+        article: `
+            <center>
+                <b>The Brutal Botanical Beast</b> [PRO] <br />
+                <img src="/db/CrestGuides/Crest_Goldola.png" />
+                <br/>
+                BOSS: Gorondola <br />
+
+                <b>Appears on Day: Thursday [PST]</b> <br/>
+                HP: 5,200,000 <br />
+                Element: Earth <br />
+                Race: Spirit <br />
+            </center><br />
+            <h3><center>Mechanics</center></h3>
+            <b><u>Special Mobs</u></b>
+            <ul>
+                <li>Dulah: Chance to inflict Seal with Skill.</li>
+                <li>Logbord: Reduces Enemies’ DEF with Skill.</li>
+                <li>Cocogran: Reduces Enemies’ Action Speed with Skill.</li>
+                <li>Ragvelon: Reduces Enemies’ Arts by 20 with Skill.</li>
+                <li>Moldola: Chance to inflict Poison with Skill.</li>
+                <li>Spirit Meiol: Heal Allies’ HP by 20000 with Skill.</li>
+                <li>King Mokyuon: Chance to inflict Curse with Skill.</li>
+            </ul>
+            <p>These mobs will appear in the pre-stages leading up to the boss, and the boss will summon them 
+            throughout the battle. Ragvelon’s reduction of Enemies’ Arts by 20 makes taunt tanks incredibly useful 
+            in this stage, while the mobs that inflict status ailments mean a way to mitigate status ailments is essential for clearing this boss.</p>
+
+            <h4><center><u>Normal Attacks</u></center></h4>
+            <b>Used during Storm/Ultra Strom Mode:</b>
+            <ul>
+                <li>Jumps up, lands, and releases a purple mist - Chance to Poison enemies</li>
+                <ul>
+                    <li>Not much of an issue unless you aren’t bringing a way to cleanse it.</li>
+                </ul>
+                <li>Sucks in air - Reduces Enemies’ Arts by 100</li>
+                <ul>
+                    <li>Without a taunt tank, this would take 100 Arts from every member of your team, once again reinforcing the usefulness of taunt tanks for this boss.</li>
+                </ul>
+            </ul>
+
+            <center><h4><u>Arts</u></h4></center>
+
+            <ul>
+                <li><b>Chewing Rose</b> - Heals own HP by 350 each time this Arts hits an Enemy</li>
+                <ul>
+                    <li>The healing is fairly insignificant, so it’s simply a matter of not dying to the raw damage.</li>
+                </ul>
+            </ul>
+
+            <h3><center>Strategy</center></h3>
+            <p><center>
+            An integral part of surviving through the boss stage is managing the large amount of ailments 
+            Gorondola and his minions inflict on your party. This is preferably done with the use of 
+            Taunt-Tanks, but units capable of applying Status RES are also more than capable given you 
+            can properly loop them. It’s also important to remember that the boss deals rather potent damage, 
+            so slacking on sustain would be highly detrimental.
+            </p></center>
+            <b><h4><u>Recommended Units</u></h4></b>
+            <ul>
+                <li>
+                    <b>Thetis</b>
+                    <p>An obvious top choice for your taunt-tank. Thetis is more than capable of 
+                    redirecting all Ailments onto himself not to mention gaining immunity to the 
+                    most irritating of them given he is equipped with his True Weapon. Proper use 
+                    of DEF equipment will also allow him to tank all the damage no problem.</i>
+                    </p>
+                </li>
+                <li>
+                    <b>Gerald/Naofumi &gt; Celia &gt; Dark Zeorg</b>
+                    <p>Similarly with Thetis, proper management with the use of the rest of the 
+                    taunt-tanks is more than able of sustaining and eating all ailments inflicted 
+                    by enemies. Though as they lack innate Seal(Silence) RES unlike Thetis with 
+                    his True Weapon, you will need to bring additional units/equipment capable 
+                    of cleansing ailments off them.</p>
+                </li>
+                <li>
+                    <b>Feena/Rimuru</b>
+                    <p>An alternative to taunt-tanks with the use of their Status RES buffs. 
+                    It’s worth mentioning that while they’re capable of resisting ailments, 
+                    they are unable to mitigate the Arts drain of Gorondola and Ragvelon. 
+                    This leaves your whole team more susceptible to being disrupted, potentially 
+                    when you require an Arts use the most. They are still, however, very strong 
+                    units with a proper team comp.</p>
+                </li>
+        `,
+        author: "ebouliben#1234, Jeffers#7056"
+    },
+    {
+        id: 8,
+        title: "Shrine of Eternity",
+        link: "shrine-of-eternity",
+        banner: "/db/CrestGuides/Crest_Banner_Elpneumas.png",
+        article: `
+            <center>
+                <b>Eternal Nature Dragon</b> [Extreme] <br />
+                <img src="/db/CrestGuides/Crest_Elpneumas.png" />
+                <br/>
+                BOSS: Elpneumas <br />
+
+                <b>Appears on Day: Thursday [PST]</b> <br/>
+                HP: 7,000,000 <br />
+                Element: Earth <br />
+                Race: Dragon <br />
+                1000% Blind, Seal, Parlysis, Freeze, Faint RES <br />
+                50% Disease RES <br />
+                20% Burn RES <br />
+            </center><br />
+            <h3><center>Mechanics</center></h3>
+            <b><u>Special Mobs</u></b>
+            <ul>
+                <li><b>Noble Sardine</b> (Has 2 Skills):</li>
+                <ul>
+                    <li><b>Everyone’s Dissatisfaction:</b> Chance to Inflict potent and long-lasting Blind.</li>
+                    <li><b>Everyone’s Anger:</b> Inflicts Status Ailment Resistance Down.</li>
+                </ul>
+            </ul>
+            <p>One Noble Sardine will spawn on each wave leading up to the boss. It is extremely tanky and negates all Dark elemental 
+            DMG taken. Furthermore, the blind debuff is extremely potent and long-lasting. Hence, make sure to deal with it quickly or 
+            bring along a taunt tank to prevent other allies from getting Blinded.</p>
+
+            <h4><center><u>Gimmicks</u></center></h4>
+            <ul>
+                <li>DMG Taken UP when Burning.</li>
+                <ul>
+                    <li>The increased damage while Elpneumas is burning is noticeable, so burn equips and/or units can help to increase overall team damage.</li>
+                </ul>
+                <li>Negates Water and Magic Damage.</li>
+                <ul>
+                    <li>This means meta units such as Vox, Juno, Hart, etc. will not deal any damage to Elpneumas.</li>
+                </ul>
+                <li>At 70% HP, gains Critical Rate UP & HP Recovery Amount UP.</li>
+                <ul>
+                    <li>Expect Elpneumas to start dealing more damage, the HP recovery up isn’t too significant.</li>
+                </ul>
+                <li>At 50% HP, gains Critical Rate UP & HP Recovery Amount UP.</li>
+                <ul>
+                    <li>Again, expect Elpneumas to hit even harder, the HP recovery up isn’t too significant.</li>
+                </ul>
+                <li>At 30% HP, gains Action Speed UP & HP Recovery Amount UP.</li>
+                <ul>
+                    <li>Past this threshold, you should prioritise killing it as quickly as possible as its attacks/arts become more frequent and harder to deal with. Additionally, expect Elpneumas’ digging move and Arts to hurt <b>a lot</b>.</li>
+                </ul>
+            </ul>
+
+            <h4><center><u>Normal Attacks</u></center></h4>
+            <ul>
+                <li>Digs down and pops back up - Inflicts potent and long-lasting Disease on Enemies.</li>
+                <ul>
+                    <li>Very annoying mechanic overall. Elpneumas will gain a few seconds of invincibility while underground. When it pops back up, it deals noticeable damage and the Disease inflicted reduces Healing by 100%.</li>
+                </ul>
+                <li>Shoots out Green Projectile - Chance to inflict Poison.</li>
+                <ul>
+                    <li>Can be dangerous when units are Diseased as well. The combination of Disease and Poison will result in steady HP loss that cannot be easily recovered. Cleansing Poison is recommended, especially for slow rolling.</li>
+                </ul>
+                <li>Slam - Chance to inflict Paralysis.</li>
+                <ul>
+                    <li>Strangely, the Paralysis inflicted does not ‘Paralyse’ your unit(s), allowing them to still use their equipment and Arts whilst ‘Paralysed’. As such, the paralysis debuff isn’t significant at all.</li>
+                </ul>
+            </ul>
+
+            <center><h4><u>Arts</u></h4></center>
+
+            <ul>
+                <li><b>Gale Breath (MAG)</b> - Deals Moderate MAG DMG.</li>
+                <ul>
+                    <li>Before the 30% threshold, Elpneumas will use Gale Breath as its Arts. It does moderate damage, which a taunt tank should have no issue dealing with.</li>
+                </ul>
+                <li><b>Gaia Grief (MAG)</b> - Deals Massive MAG DMG.</li>
+                <ul>
+                    <li>After the 30% threshold, Elpneumas will switch to Gale Grief as its Arts. This is a stronger version of Gale Breath. Similar to Gale Breath, no debuffs or buffs are applied, but it does more damage.</li>
+                </ul>
+            </ul>
+
+            <h3><center>Strategy</center></h3>
+            <p><center>
+                Do note, Elpneumas is considered harder than the other crest bosses in this document. Without a decent unit and equipment box, 
+                newer players will struggle due to both the Boss’ and pre-stage mobs’ annoying gimmicks. A general sustain composition would 
+                consist of a taunt tank, a non-magic and non-water attacker and 1 to 2 art generation units. The key to beating the boss is 
+                to Burn it for extra damage and finish it off after its 30% HP threshold as quickly as possible. Nuke compositions will not 
+                be listed here, do check out the in-game leaderboards for ideas.
+            </p></center>
+            <b><h4><u>Recommended Units</u></h4></b>
+            <ul>
+                <li>
+                    <b>Thetis/Miranda/Gerald &gt; Naofumi/Celia/b>
+                    <p>With Thetis being one of the best Taunt tanks in the game, he is a very capable tank to deal with Elpneumas’ hard-hitting 
+                    attacks, with his only downside being the 200 Arts needed to enter Magia. On the other hand, Miranda serves as a great 
+                    alternative as well with her MAG DMG RES passive due to Elpneumas’ Arts dealing Magic damage. Gerald is also a great tank 
+                    for this stage. Unlike Thetis, he does not require any start up and can start taunting immediately. Furthermore, his unique 
+                    passive allows him to avoid death once, giving the team enough time to finish Elpneumas off.</p>
+                </li>
+                <li>
+                    <b>Ganan/NY Rimuru/Erza/Fire Roy/Dark Celia/Angelas</b>
+                    <p>These units are great attackers, dealing non-magic and non-water damage. Ganan, NY Rimuru, Erza, and Fire Roy are heavy 
+                    hitters due to their respective kits. Dark Celia is a great attacker and art generation unit after she is able to ramp. 
+                    Angelas’ Burn RES Down on Arts and Burn on Skill allows her to consistently keep Elpneumas burning, whilst dealing noticeable 
+                    damage on her own.</p>
+                </li>
+                <li>
+                    <b>Mako/Hart/Asirpa/Juno/Yoh</b>
+                    <p>Great Art generation units which can be used to support the other roles in the team. Do note that the art generation from 
+                    Hart, Juno (and Dark Celia from earlier) do not stack with each other, so use them interchangeably. </p>
+                </li>
+        `,
+        author: "ebouliben#1234, Jeffers#7056"
+    },
+    {
+        id: 9,
+        title: "Shrine of Adamantine",
+        link: "shrine-of-adamantine",
+        banner: "/db/CrestGuides/Crest_Banner_Fosradius.png",
+        article: `
+            <center>
+                <b>Glittering Dragon Defense</b> [PRO] <br />
+                <img src="/db/CrestGuides/Crest_Fosradius.png" />
+                <br/>
+                BOSS: Fosradius <br />
+
+                <b>Appears on Day: Friday [PST]</b> <br/>
+                HP: 6,200,000 <br />
+                Element: Light <br />
+                Race: Dragon <br />
+                <b style="color: red;">Over 400% Critical Resistance</b> (True Magnitude unknown)
+            </center><br />
+            <h3><center>Mechanics</center></h3>
+            <h4><center><u>Gimmicks</u></center></h4>
+            <ul>
+                <li>Increase DMG to Fire, Water and Earth Enemies by 200%.</li>
+                <ul>
+                    <li>This means that using Fire, Water or Earth units in this Crest Boss is not recommended unless the player has a way of mitigating the damage.</li>
+                </ul>
+                <li>Increase Fire, Water and Earth RES by 80%. When above 50% HP, increase Dark RES by 50%. When below 50% HP, increase Light RES by 50%.</li>
+                <ul>
+                    <li>Again, using Fire, Water or Earth units in this Crest Boss is not recommended as they simply wouldn’t do much damage compared to Light and Dark units. The temporary RES buffs against Light and Dark doesn’t discount the fact that the two elements are the best for this boss.</li>
+                </ul>
+                <li>When below 50% HP, increase DMG by 100%.</li>
+                <ul>
+                    <li>The potent DMG buff means that it may be ideal to attempt to clear as fast as possible after reaching 50% HP.</li>
+                </ul>
+                <li>Negates Critical Rate.</li>
+                <ul>
+                    <li>Disallows any of your units from hitting a Critical regardless of the value of your Critical Rate. Evidently, this cripples units that rely on Crit to deal effective damage.</li>
+                </ul>
+            </ul>
+
+            <h4><center><u>Normal Attacks</u></center></h4>
+            <ul>
+                <li>Stands up on hind legs, slams the ground - Chance to inflict Paralysis.</li>
+                <ul>
+                    <li>Very annoying, as this can paralyze-lock your units.</li>
+                </ul>
+                <li>Bites enemies - Chance to inflict Blind.</li>
+                <ul>
+                    <li>Hurts your DPS, but doesn’t do much more than that.</li>
+                </ul>
+                <li>Slams the ground with one paw, creating a small explosion - Reduces Enemies' DMG RES. Chance to reduce Enemies' DEF.</li>
+                <ul>
+                    <li>A dangerous attack, considering the fact that Fosradius Crest hits hard even without the debuffs from this attack.</li>
+                </ul>
+            </ul>
+
+            <center><h4><u>Arts</u></h4></center>
+
+            <ul>
+                <li><b>Shining Cry - Reduces Enemies' Accuracy.</b></li>
+                <ul>
+                    <li>Does a significant amount of damage, and the Accuracy debuff reduces your DPS; in combination with the Blind debuff, your DPS may suffer.</li>
+                </ul>
+                <li><b>Judgement Breath - Faints Enemies. Reduces Enemies' Arts Gauges (Used at 50% and 20% HP).</b></li>
+                <ul>
+                    <li>This attack may cause a team wipe if preparation is not made, as the Faint will prevent the player from doing anything during the attack.</li>
+                </ul>
+            </ul>
+
+            <h3><center>Strategy</center></h3>
+            <p><center>
+                As the boss completely disallows the use of anything other than Light & Dark due to potent Element-Killers, you’re only able 
+                to use any other element with the use of taunt-tanks. Proper use of DEF equipment is highly encouraged as the boss does a 
+                disgusting amount of damage even to Light & Dark past 50% HP, especially if you decide to use a taunt-tank such as Naofumi 
+                or Thetis. Nuke compositions will not be detailed here.
+            </p></center>
+            <b><h4><u>Recommended Units</u></h4></b>
+            <ul>
+                <li>
+                    <b>Miranda &gt;&gt; Naofumi/Celia &gt; Thetis &gt; Dark Zeorg/b>
+                    <p>Taunt-tanks which allow you to use your special Earth/Water/Fire units. They need massive amounts of support, most especially 
+                    Thetis and Dark Zeorg, the former still subject to the massive damage increase to his element, and the latter lacking innate 
+                    DEF slots. Miranda, being the best taunt tank to counter Fosradius’ MAG based attacks due to her passive, huge shield amount, 
+                    and MAG DMG buffs. Naofumi and Celia are also great picks due to their element and decent shield amounts.</p>
+                </li>
+                <li>
+                    <b>Rem</b>
+                    <p>Utilising Rem’s Astrology passive makes the quest much easier to deal with. Pairing Rem with a taunt-tank such as Naofumi 
+                    or Celia lets them tank the boss without a problem given you’re still able to supply them with proper DEF equipment alongside 
+                    her passive. Even without a taunt-tank, she’s still a go to unit for the boss additionally with her slots and debuffs.</p>
+                </li>
+                <li>
+                    <b>Juno/Dark Fen &gt; Lygor/Zenon</b>
+                    <p>Great dark/light art gen units suited for this stage since they won’t take increased damage from Fosradius’ Fire, Water, and 
+                    Earth Killer. Juno being the best, able to both dish out noticeable damage and generate noticeable Arts for the team.</p>
+                </li>
+                <li>
+                    <b>Mako/Feena/Asirpa/Liza</b>
+                    <p>They’re simply very capable and notable sustain units for use in any type of composition for this quest. Mako and Asirpa act 
+                    as great art genners/healers, Liza can act as an art genner and/or a debuffer, while Feena acts as a great healer able to negate 
+                    Paralysis from your units.</p>
+                </li>
+        `,
+        author: "ebouliben#1234, Jeffers#7056"
+    },
+    {
+        id: 10,
+        title: "Shrine of Whirlwind",
+        link: "shrine-of-whirlwind",
+        banner: "/db/CrestGuides/Crest_Banner_Belgiras.png",
+        article: `
+            <center>
+                <b>Heretic Beast</b> [PRO] <br />
+                <img src="/db/CrestGuides/Crest_Belgiras.png" />
+                <br/>
+                BOSS: Belgiras <br />
+
+                <b>Appears on Day: Saturday [PST]</b> <br/>
+                HP: 5,000,000 <br />
+                Element: Earth <br />
+                Race: Beast <br />
+                50%(?) Poison RES
+            </center><br />
+            <h3><center>Mechanics</center></h3>
+            <b><u>Special Mobs</u></b>
+            <ul>
+                <li><b>Magibeast Gaul</b></li>
+                <ul>
+                    <li>Inflicts Action Speed Down. Has I-frames during its attack animation where all damage taken is capped at 1.</li>
+                </ul>
+                <li><b>Corogan</b></li>
+                <ul>
+                    <li>Inflicts ATK Down. Kills itself after doing so.</li>
+                </ul>
+            </ul>
+            <p>The pre-boss mobs are fairly tanky and their debuffs can hurt the team’s damage during the boss wave. Especially for 
+            nukes, it is highly recommended to kill the mobs before they are able to inflict their respective debuffs.</p>
+
+            <h4><center><u>Gimmicks</u></center></h4>
+            <ul>
+                <li>Only takes Damage when Poisoned.</li>
+                <ul>
+                    <li>This is the most annoying gimmick of Belgiras. All damage dealt while Belgiras is not poisoned is capped at 1 damage. Hence, poison is a requirement to beat Belgiras.</li>
+                </ul>
+                <li>Water Killer.</li>
+                <ul>
+                    <li>This means that water units take significantly more damage than other elemental units. It is highly recommended to not use water units (Vox bad).</li>
+                </ul>
+                <li>Unknown mangitude of Break RES.</li>
+                <ul>
+                    <li>Fairly insignificant as break isn't required.</li>
+                </ul>
+            </ul>
+
+            <h4><center><u>Normal Attacks</u></center></h4>
+            <ul>
+                <li>Claw Swipe - Chance to inflict Poison.</li>
+                <ul>
+                    <li>Nothing too significant, but the HP loss can build up over time if not cleansed or healed.</li>
+                </ul>
+            </ul>
+
+            <center><h4><u>Arts</u></h4></center>
+
+            <ul>
+                <li><b>Somersault - Reduces Enemies' Arts Gauge by 100.</b></li>
+                <ul>
+                    <li>Does Moderate damage. Without sufficient art generation, 100 arts instantly removed from the team could spell disaster. Make sure to bring enough art generation from equips or units to make up for this deficit.</li>
+                </ul>
+                <li><b>Roar - Inflicts Art Guage Down by 20 for 5s.</b></li>
+                <ul>
+                    <li>Does Moderate damage. Similar to Belgiras' other arts, but rather than an instant 100 art down, it is prolonged over 5s. Make sure to bring enough art generation from equips or units to make up for this deficit.</li>
+                </ul>
+            </ul>
+
+            <h3><center>Strategy</center></h3>
+            <p><center>
+                As the boss has a very potent water killer, water units should be avoided. Belgiras also does noticeable damage from its 
+                arts, hence taunt tanks should be avoided unless additional support is provided. A consistent poison unit is also highly 
+                recommended for non-nukes such as Pola, Kurama, etc. Nuke compositions will not be detailed here as there are a wide 
+                variety of them.            
+            </p></center>
+            <b><h4><u>Recommended Units</u></h4></b>
+            <ul>
+                <li>
+                    <b>Pola/Kurama/Saku/Keit/Mixie &gt; Aesis</b>
+                    <p>These units are the go-to poison dealers for sustain teams due to either their great slots, consistent poison chance, or a combination of both.</p>
+                </li>
+                <li>
+                    <b>Hart &gt; Mako/Asirpa</b>
+                    <p>These units provide an excellent source of healing and art generation to counteract the art gauge down from Belgiras arts. Hart provides more art 
+                    generation, while Asirpa provides more defense. Do note that more than 1 of these units can be used in a team.</p>
+                </li>
+        `,
+        author: "ebouliben#1234, Jeffers#7056"
+    },
+    {
+        id: 11,
+        title: "Shrine of Cursed Claw",
+        link: "shrine-of-cursed-claw",
+        banner: "/db/CrestGuides/Crest_Banner_Y2.png",
+        article: `
+            <center>
+                <b>Heretic Beast</b> [PRO] <br />
+                <img src="/db/CrestGuides/Crest_Y2.png" />
+                <br/>
+                BOSS: Subject γ-2 <br />
+
+                <b>Appears on Day: Saturday [PST]</b> <br/>
+                HP: 3,000,000 <br />
+                Element: Water <br />
+                Race: Machine <br />
+                150% Seal, Paralysis, Faint, Freeze RES
+                100% Burn RES
+                50% Blind RES
+            </center><br />
+            <h3><center>Mechanics</center></h3>
+            <b><u>Special Mobs</u></b>
+            <ul>
+                <li><b>Gernose</b></li>
+                <ul>
+                    <li>Chance to inflict Freeze with Skill.</li>
+                </ul>
+                <li><b>Blue Skeleton</b></li>
+                <ul>
+                    <li>Chance to inflict Disease with Skill.</li>
+                </ul>
+            </ul>
+            <p>Pre-boss mobs are very tanky, and have annoying debuffs listed above. They do moderate damage, but be wary of the combination 
+            of Freeze and Disease which will not only reduce healing, but also disable the use of skills, equips, and arts to stay alive.</p>
+
+            <h4><center><u>Gimmicks</u></center></h4>
+            <ul>
+                <li>Increase DMG to Gods & Demons by ~75%.</li>
+                <ul>
+                    <li>Pretty self-explanatory. Try to avoid using Gods & Demons unless you bring along a competent taunt tank or barrier unit to redirect or reduce damage.</li>
+                </ul>
+                <li>Reflection RES & Arts Gauge Down RES.</li>
+                <ul>
+                    <li>No reflect cheese strats using Milims/Duran. Additionally, units/equips which reduce the enemy's Arts such as Ashe are rendered useless.</li>
+                </ul>
+                <li>DMG Taken Up for Each Break.</li>
+                <ul>
+                    <li>The most <b>annoying</b> gimmick of γ-2 by far. Damage dealt to γ-2 starts off extremely weak and scales the more times γ-2 is broken. This one gimmick requires any team, sustain or nuke, to break γ-2 at least <u>twice</u> in order to deal enough damage to clear.</li>
+                </ul>
+                <li>Break DMG UP from Fire Units.</li>
+                <ul>
+                    <li>This means Fire unit(s) are preferable in order to break γ-2 as quickly as possible as Fire units affect γ-2’s break bar more than other elements.</li>
+                </ul>
+                <li>After 50% HP threshold, freeze all Enemies and gain Crit Rate UP.</li>
+                <ul>
+                    <li>Having a tank to soak the freeze and bulk of damage would be the easiest way to deal with this. Otherwise, prepare a freeze resistance equip such as Ces’ Wavy Frill, Diez Jade, Raaz or a cleanse unit to avoid getting frozen.</li>
+                </ul>
+                <li>After 25% HP threshold, freeze all Enemies, gain Crit Rate UP & Action Speed UP.</li>
+                <ul>
+                    <li>DMG RES equip(s) are <b>required</b> to survive past this point. Do not stall the battle as γ-2’s damage is now very worrisome due to his buffs/debuffs applied. Aim to wear down its HP as quickly as possible, whilst keeping the team safe. Its Arts becomes very lethal from this point on.</li>
+                </ul>
+            </ul>
+
+            <h4><center><u>Normal Attacks</u></center></h4>
+            <ul>
+                <li>Grabs an Enemy and throws them - Faints the highest Arts gauge unit. Reduce its Arts by 100 and chance to Freeze upon impact.</li>
+                <ul>
+                    <li>A taunt will not redirect the faint effect, but will redirect the damage dealt to the fainted target to itself. At the start, the damage dealt upon impact is fairly insignificant. However, as γ-2 stacks more buffs, it gets increasingly more troublesome to deal with.</li>
+                </ul>
+            </ul>
+
+            <center><h4><u>Arts</u></h4></center>
+
+            <ul>
+                <li><b>Mad Predator (PHY) - Inflicts DMG RES Down on Enemies (Stackable).</b></li>
+                <ul>
+                    <li>Fairly insignificant at first, but becomes very troublesome to deal with the more stacks are applied. Try to avoid longer fights as much as possible.</li>
+                </ul>
+                <li><b>Crimson Beating (PHY) - Gains DMG UP (Stackable).</b></li>
+                <ul>
+                    <li>Similarly, fairly insignificant at first, but becomes very troublesome to deal with the more stacks are applied. Try to avoid longer fights as much as possible.</li>
+                </ul>
+            </ul>
+            <p><u>Subject γ-2 will alternate between the above 2 Arts, starting with Mad Predator (PHY).</u></p>
+
+            <h3><center>Strategy</center></h3>
+            <p><center>
+                This crest boss is NOT recommended for newer players. Being one of the hardest currently available crest bosses in Global, it requires 
+                a well developed unit and equipment box. A general tip would be not to drag the fight on, and try to wear the boss down ASAP. It is 
+                recommended to check out the recent clears for some team ideas as this boss is not very flexible, requiring high-end units and equips. 
+                Nuke compositions will not be detailed here due to the very high requirements needed.                       
+            </p></center>
+            <b><h4><u>Recommended Units</u></h4></b>
+            <ul>
+                <li>
+                    <b>Voghan</b>
+                    <p>The one stage this unit will ever see good use on. His True Arts is built to counter γ-2’s most annoying gimmick, which is his break requirement. 
+                    Additionally, being a Fire unit, it will deal much more break to γ-2 compared to other non-fire breakers. The general strategy running Voghan would 
+                    be to use break equips on him to break γ-2’s first break bar as quickly as possible. After which, his job is to spam Arts until γ-2 is broken for 
+                    the second time. From this point on, he uses his True Arts to reset γ-2’s break bar back to 0, essentially breaking γ-2 for the third time. 
+                    The rest of the team should then unload as much damage as possible. This usually will kill γ-2 or take him down past his 25% HP threshold.</p>
+                </li>
+                <li>
+                    <b>Terrible Tornado/Tami-Nyan</b>
+                    <p>Due to γ-2’s annoying break requirement, breakers are <u>required</u> to clear this palace. The breakers listed above are recommended 
+                    as they not only increase the team’s break power, but also apply a break resistance down debuff on γ-2, which is essential to allow the 
+                    team to deal more break. However, as they are non-Fire breakers, their break power alone is reduced to an extent.</p>
+                </li>
+                <li>
+                    <b>Gerald/Miranda &gt; Naofumi/Celia</b>
+                    <p>Bringing a tank along will help deal with a lot of γ-2’s annoying gimmicks. Gerald would be the most preferred due to his very useful 
+                    immortality passive, coupled with him being a Fire unit, dealing more break to γ-2. Miranda is also a decent replacement as she gains 
+                    passive 100% Freeze RES from her TW, allowing her to be unaffected by γ-2’s Freezes during its 50% and 25% HP thresholds. Naofumi and 
+                    Celia are also decent tanks for the stage. Naofumi using his Heal TW will gain passive 25% PHY RES which is useful for surviving γ-2’s 
+                    Physical Arts. Celia using her TW, on the other hand, will gain passive 100% Freeze RES, which allows her to avoid γ-2’s Freezes during 
+                    its 50% and 25% HP thresholds.</p>
+                </li>
+                <li>
+                    <b>Ganan</b>
+                    <p>Great DPS, whilst having relatively large break numbers. Coupled with a dedicated breaker, he is able to dish out massive damage in 
+                    Berserk mode, while also dealing significant break to γ-2.</p>
+                </li>
+                <li>
+                    <b>Dark Celia/Juno/Hart/Mako/Cestina/Asirpa</b>
+                    <p>The units listed above are great art gen units. Dark Celia, although required to ramp beforehand, deals massive damage whilst also 
+                    generating lots of Arts for the team. Juno, although does not need to ramp, loses HP over time. Nevertheless, her damage and art gen 
+                    is very noticeable. Hart, although dealing less damage than the aforementioned two, does not need to ramp. Its art gen numbers are 
+                    also large on Humans and he is able to provide strong healing over time. Do note that Dark Celia’s, Juno’s, and Hart’s art gen do 
+                    <u>not</u> stack. Mako, Cestina, and Asirpa are also great art gen units which can be paired with any of the 3 units mentioned earlier.</p>
+                </li>
+        `,
+        author: "ebouliben#1234, Jeffers#7056"
+    },
+    {
+        id: 12,
+        title: "Shrine of Discordia",
+        link: "shrine-of-discordia",
+        banner: "/db/CrestGuides/Crest_Banner_B3.png",
+        article: `
+            <center>
+                <b>The Subject in Trance</b> [PRO] <br />
+                <img src="/db/CrestGuides/Crest_B3.png" />
+                <br/>
+                BOSS: Subject β-3<br />
+
+                <b>Appears on Day: Sunday [PST]</b> <br/>
+                HP: 4,000,000 <br />
+                Element: Non-Elemental <br />
+                Race: Machine <br />
+                100% Seal RES
+                75% Paralysis, Freeze, Faint RES
+            </center><br />
+            <h3><center>Mechanics</center></h3>
+            <h4><center><u>Gimmicks</u></center></h4>
+            <ul>
+                <li>Increase Accuracy by an unknown amount.</li>
+                <ul>
+                    <li>This means that Evasion is likely not a viable option for clearing this Crest Boss (though who uses Evasion anyway?).</li>
+                </ul>
+                <li>Increase Fire, Water, Earth, Light, and Dark RES by 50%.</li>
+                <ul>
+                    <li>While this does mean that Non-Elemental DMG becomes more valuable, don’t pull out your Marzexes just yet. DMG RES debuffers such as Ashe also become more valuable and would massively increase the DPS of normal units.</li>
+                </ul>
+                <li>When below 50% HP, increase DMG by 35%, Action Speed by an unknown amount, and all attacks have a chance to inflict Curse.</li>
+                <ul>
+                    <li>The DMG buff in combination with its very high-damage throw attacks makes β-3’s under-50% HP phase very dangerous to all teams that don’t utilise Thetis. The attacks causing Curse also makes it essential to have some form of status management (like Thetis!).</li>
+                </ul>
+            </ul>
+
+            <h4><center><u>Normal Attacks</u></center></h4>
+            <ul>
+                <li>Grabs an Enemy and throws them - Faints the target Enemy. Reduce target Enemy’s Arts by 50, and DMG RES by 20%.</b></li>
+                <ul>
+                    <li>This is Subject β-3’s notoriously powerful nuke that forces players to bring some form of DMG mitigation, lest their units be killed instantly by this attack.</li>
+                </ul>
+                <li>Swipes at Enemy 3 times - Reduce Enemies’ Skill CT REC by 50%.</b></li>
+                <ul>
+                    <li>Not very significant, as most units don’t rely on their Skill to do what they need to do.</li>
+                </ul>
+            </ul>
+
+            <center><h4><u>Arts</u></h4></center>
+            <ul>
+                <li><b>Mad Bladder - Reduces Enemies’ Arts by 100, and ATK by 66%. Used at the start of battle.</b></li>
+                <ul>
+                    <li>This heavily incentivises the use of a taunt tank (like Thetis, for instance), to prevent the other units from losing their Arts and being affected by a potent ATK debuff.</li>
+                </ul>
+            </ul>
+
+            <h3><center>Strategy</center></h3>
+            <p><center>
+                Mechanics are very straightforward, but clearing is not. This crest is essentially just a bulky boss that deals a lot of damage and not much else. His Arts Drain will be your worst nightmare as well as occasional Faint inflictions on your units. As usual, taunt-tanks can limit his Arts Drain to only the tank, but massive sustain is required to tank β-3’s damage, especially past 50% HP.            
+            </p></center>
+            <p><center>
+                <b>Note:</b> The ArtsDrain and Damage past 50% HP is immense. It’s highly recommended you defeat the boss as fast as possible once passed this threshold or even Thetis will have trouble sustaining unless you quite literally supply him with a mountain of ArtsGen to combat the ArtsDrain.            
+            </p></center>
+            <b><h4><u>Recommended Units</u></h4></b>
+            <ul>
+                <li>
+                    <b>Thetis/Naofumi &gt; Gerald</b>
+                    <p>Proper use of DEF equipment and with enough support, and Thetis will be able to tank all of the boss’ damage easily, as usual. Naofumi should be 
+                    able to do the same as well with his passive buffs from his True Weapons. Gerald might have some trouble soaking the brutal damage past the boss’ 
+                    50% HP threshold, but his revive passive can still keep him alive till the end of the fight.</p>
+                </li>
+                <li>
+                    <b>Literally any good team (Any strong unit, if you will.)</b>
+                    <p>β-3 does not have any gimmicks to require bending a team composition other than taunt-tanks. All you have to worry about is having enough damage 
+                    sustain as well as ArtGen to combat the boss’ heavily Increased damage and Arts Drain respectively. Though due to the potency of these two gimmicks, 
+                    that’s easier said than done.</p>
+                </li>
+        `,
+        author: "ebouliben#1234, Jeffers#7056"
+    },
 ]
 
 export function getCrestBossGuides() {

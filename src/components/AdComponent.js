@@ -11,7 +11,7 @@ class Adsense extends Component {
                 <ins className='adsbygoogle'
                     style={{ display: 'inline-block', paddingTop: "1rem", maxHeight: "250px", width: "100%" }}
                     data-ad-client= 'ca-pub-7386611028385098'
-                    data-ad-slot={this.props.slot}
+                    data-ad-slot='9172261328'
                     data-ad-format= 'auto'
                     data-full-width-responsive="true"
                 >

@@ -45,7 +45,7 @@ return (
                 <Col>
                     <center>
                         <a href="/" >
-                            <Media src="/Banner.png" style={{maxHeight: "400px", width: "100%" , paddingTop: "5rem", paddingBottom: "1rem"}}/>
+                            <Media src="/Banner.png" style={{height: "auto", width: "100%" , paddingTop: "5rem", paddingBottom: "1rem"}}/>
                         </a>
                     </center>
                 </Col>
