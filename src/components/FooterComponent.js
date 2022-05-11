@@ -2,45 +2,63 @@ import React from 'react';
 import { Nav, NavItem, Container, Row, Col, Card, CardGroup } from 'reactstrap';
 import '../App.css';
 import { FaRegCopyright } from 'react-icons/fa';
+import styled from 'styled-components';
+import Adsense from './AdComponent';
+
+//Styled Component for Official Links
+const LinkColor = styled.a`
+    text-decoration: none;
+    color: #aaabb8;
+    &:hover {
+        background-color: #2e9cca
+    }
+`
 
 function Footer () {
     //Display Navigation Links for bottom
+
     return (
         <React.Fragment>
             <Container>
                 <Row>
-                    <script data-ad-client="ca-pub-7386611028385098" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
-                        This site is supported by ads. Please consider disabling Adblockers.
-                    </script>
+                    <center>
+                        <Adsense slot="9172261328" />
+                    </center>
                 </Row>
                 <Row>
-                    <CardGroup style={{paddingTop: "50px"}}>
-                        <Card md="3" style={{backgroundColor: "gray"}}>
-                            <p><center><i>The website grandsummoners.info is not affiliated with nor endorsed by NextNinja. All images belong to NextNinja.</i></center></p> 
+                    <CardGroup style={{paddingTop: "2rem", marginBottom: "1rem"}}>
+                        <Card md="3" style={{backgroundColor: "#464866"}}>
+                            <p style={{paddingTop: "1rem", justifyItems: "center"}}><center><i>The website grandsummoners.info is not<br /> affiliated with nor endorsed by NextNinja. 
+                                <br />All images belong to NextNinja.</i></center></p> 
                             <p><center><i><FaRegCopyright /> grandsummoners.info 2022</i></center></p>
                         </Card>
-                        <Card md="3" style={{backgroundColor: "gray"}}>
+                        <Card md="3" style={{backgroundColor: "#464866"}}>
                             <Nav fill vertical>  
                                 <NavItem>
-                                    <p style={{color: 'white'}}><strong>Official Links</strong></p>
-                                    <a href="https://global.grandsummoners.com/">
+                                    <p style={{color: '#aaabb8', marginBottom: "0rem", marginTop: "6px"}}><strong>Official Links</strong></p>
+                                    <LinkColor href="https://global.grandsummoners.com/" >
                                         Grand Summoners Home Page
-                                    </a>
+                                    </LinkColor>
                                 </NavItem>
                                 <NavItem>
-                                    <a href="https://discord.gg/grandsummoners">
+                                    <LinkColor href="https://discord.gg/grandsummoners" >
                                         Official Discord
-                                    </a>
+                                    </LinkColor>
                                 </NavItem>    
                                 <NavItem>
-                                    <a href="https://www.facebook.com/GrandSummonersGlobal">
-                                        Facebook Page
-                                    </a>
+                                    <LinkColor href="https://www.facebook.com/GrandSummonersGlobal" >
+                                        Facebook
+                                    </LinkColor>
                                 </NavItem>
                                 <NavItem>
-                                    <a href="https://twitter.com/GRANDSUMMONERS">
+                                    <LinkColor href="https://www.reddit.com/r/grandsummoners/">
+                                        Reddit
+                                    </LinkColor>
+                                </NavItem>
+                                <NavItem>
+                                    <LinkColor href="https://twitter.com/GRDSMN_GLOBAL" >
                                         Twitter
-                                    </a>
+                                    </LinkColor>
                                 </NavItem>
                             </Nav>
                         </Card>

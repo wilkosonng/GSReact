@@ -10,6 +10,10 @@ import Tierlist from './components/TierlistComponent';
 import News from './components/NewsComponent';
 import Article from './components/news/ArticleComponent';
 import GuidesMainPage from './components/GuidesComponent';
+import OtherGuides from './components/guidecomponents/OtherGuides';
+import DisplayGuides from './components/guidecomponents/otherguides/OtherGuidesComponent';
+import CrestGuides from './components/guidecomponents/CrestGuides'
+import DisplayCrestGuide from './components/guidecomponents/crestbossguides/CrestGuidesComponent';
 import FAQGuide from './components/guidecomponents/DisplayFAQ';
 import { Container, Row, Col } from 'reactstrap';
 import './App.css';
@@ -19,8 +23,8 @@ class App extends Component {
     return (
       <BrowserRouter>
       
-      <Container>
-      <div style={{background: 'rgb(40, 40, 40)', color: 'white'}}>
+      <Container style={{background: '#25274d', color: '#aaabb8'}}>
+      <div >
         <Row>
           <Col>
             <div className="App">
@@ -35,6 +39,10 @@ class App extends Component {
                   <Route path="units/:unitName/*" element={<UnitDetails />} />
                   <Route path="tierlist" element={<Tierlist />} />
                   <Route path="guides" element={<GuidesMainPage />} />
+                  <Route path="guides/other-guides" element={<OtherGuides />} />
+                  <Route path="guides/other-guides/:articleId" element={<DisplayGuides />} />
+                  <Route path="guides/crest-guides" element={<CrestGuides />} />
+                  <Route path="guides/crest-guides/:articleId" element={<DisplayCrestGuide />} />
                   <Route exact path="guides/FAQ" element={<FAQGuide />} />
                   <Route path="*" element={<p><center><h1>Under construction</h1></center></p>} />
                 </Route>

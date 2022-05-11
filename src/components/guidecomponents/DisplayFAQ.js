@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Accordion, AccordionHeader, AccordionItem, AccordionBody, Card } from 'reactstrap';
 
 const accordionColor = {
-    backgroundColor: "gray"
+    backgroundColor: "#464866", color: "aaabb8"
 }
 //Component to display FAQ
 export default function FAQGuide () {
@@ -66,14 +66,14 @@ function GettingStarted() {
     }
 
     return (
-        <Card style={{backgroundColor: "gray"}}>
+        <Card style={{backgroundColor: "#29648a", color: "aaabb8"}}>
             <h2><center>Getting Started</center></h2>
             <Accordion flush open={accordion} toggle={toggle}>
                 <AccordionHeader targetId="1">
                     <p>Q01. How do I download Grand Summoners?</p>
                 </AccordionHeader>
-                <AccordionItem accordionId="1" >
-                    <AccordionBody style={accordionColor}>
+                <AccordionItem>
+                    <AccordionBody accordionId="1" style={accordionColor}>
                     <p>You can download Grand Summoners from the relevant App Store for your device, or from downloading a .apk for the current update. 
                         If Grand Summoners is not available in your country, you can use <a href="https://www.qoo-app.com/en">QooApp</a> as a workaround.</p>
                     </AccordionBody>
@@ -155,7 +155,7 @@ function ImprovingYourAccount() {
 
 
     return (
-        <Card style={{backgroundColor: "gray"}} >
+        <Card style={{backgroundColor: "#29648a", color: "aaabb8"}} >
             <h2><center>Improving Your Account</center></h2>
             <Accordion flush open={accordion} toggle={toggle}>
                 <AccordionHeader targetId="6">
@@ -351,7 +351,7 @@ function BattleMechanics () {
     
     
         return (
-            <Card style={{backgroundColor: "gray"}} >
+            <Card style={{backgroundColor: "#29648a", color: "aaabb8"}} >
                 <h2><center>Battle Mechanics</center></h2>
                 <Accordion flush open={accordion} toggle={toggle}>
                     <AccordionHeader targetId="17">
@@ -492,7 +492,7 @@ function Multiplayer() {
 
 
     return (
-        <Card style={{backgroundColor: "gray"}} >
+        <Card style={{backgroundColor: "#29648a", color: "aaabb8"}} >
             <h2><center>Category</center></h2>
             <Accordion flush open={accordion} toggle={toggle}>
                 <AccordionHeader targetId="25">
@@ -640,7 +640,7 @@ function Arena() {
 
 
     return (
-        <Card style={{backgroundColor: "gray"}} >
+        <Card style={{backgroundColor: "#29648a", color: "aaabb8"}} >
             <h2><center>Arena</center></h2>
             <Accordion flush open={accordion} toggle={toggle}>
                 <AccordionHeader targetId="34">
@@ -702,7 +702,7 @@ function Events() {
 
 
     return (
-        <Card style={{backgroundColor: "gray"}} >
+        <Card style={{backgroundColor: "#29648a", color: "aaabb8"}} >
             <h2><center>Events</center></h2>
             <Accordion flush open={accordion} toggle={toggle}>
                 <AccordionHeader targetId="37">
@@ -815,7 +815,7 @@ function GiantBoss() {
 
 
     return (
-        <Card style={{backgroundColor: "gray"}} >
+        <Card style={{backgroundColor: "#29648a", color: "aaabb8"}} >
             <h2><center>Giant Bosses</center></h2>
             <Accordion flush open={accordion} toggle={toggle}>
                 <AccordionHeader targetId="44">
@@ -904,7 +904,7 @@ function Miscellaneous() {
 
 
     return (
-        <Card style={{backgroundColor: "gray"}} >
+        <Card style={{backgroundColor: "#29648a", color: "aaabb8"}} >
             <h2><center>Miscellaneous</center></h2>
             <Accordion flush open={accordion} toggle={toggle}>
                 <AccordionHeader targetId="49">
@@ -1081,7 +1081,7 @@ function Abbreviations() {
     }
 
     return (
-        <Card style={{backgroundColor: "gray"}} >
+        <Card style={{backgroundColor: "#29648a", color: "aaabb8"}} >
         
         <Accordion flush open={accordion} toggle={toggle}>
             <h2><center>Common Abbreviations</center></h2>

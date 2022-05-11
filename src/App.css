@@ -3,19 +3,12 @@ nav a {
   padding: 1rem;
 }
 
-nav a.active {
-  background-color: rgb(24, 40, 136);
+nav a:hover {
+  background-color: #2e9cca;
 }
 
 body { 
-  background-image: url("background.png");
-  background-size: cover;
-  background-color: rgb(39, 38, 38);
-  color: rgb(255, 255, 255);
-}
-
-a {
-  text-decoration: none;
+  background-color: #25274d !important;
 }
 
 table, th, td {
@@ -24,4 +17,14 @@ table, th, td {
 
 th, tr {
   border-color: white;
+}
+
+.newsImages {
+  width: 100%;
+  height: auto;
+}
+
+.guidesContent {
+  width: 100%;
+  height: 1000px;
 }

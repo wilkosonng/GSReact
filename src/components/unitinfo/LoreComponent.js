@@ -11,11 +11,23 @@ const imageSize ={
     maxWidth: 500
 };
 
+const unitCard = {
+    backgroundColor: "#464866",
+    color: "#aaabb8",
+    borderColor: "#464866"
+}
+
+const evoCard = {
+    backgroundColor: "#25274d",
+    color: "#aaabb8",
+    borderColor: "#25274d"
+}
+
 export function RenderTwoStar({lore, unitImage, unitEvo}) {
     if(unitEvo.evo23.mat5){
         return (
             <React.Fragment>
-                <Card style={{backgroundColor: 'grey', borderColor:'grey'}}>
+                <Card style={unitCard}>
                     <CardTitle>
                         <center>
                             <table>
@@ -27,7 +39,7 @@ export function RenderTwoStar({lore, unitImage, unitEvo}) {
                                 <tr>
                                     <td colspan="2"><center><Media src={unitImage.thumb2} style={thumbnailSize}/></center></td>
                                     <td colspan="5">
-                                        <Card style={{backgroundColor: 'black'}}>
+                                        <Card style={evoCard}>
                                             <CardBody>
                                             <h3>
                                                 <table>
@@ -71,7 +83,7 @@ export function RenderTwoStar({lore, unitImage, unitEvo}) {
     if(unitEvo.evo23.mat4) {
         return (
             <React.Fragment>
-                <Card style={{backgroundColor: 'grey', borderColor:'grey'}}>
+                <Card style={unitCard}>
                     <CardTitle>
                         <center>
                             <table>
@@ -83,7 +95,7 @@ export function RenderTwoStar({lore, unitImage, unitEvo}) {
                                 <tr>
                                     <td colspan="2"><center><Media src={unitImage.thumb2} style={thumbnailSize}/></center></td>
                                     <td colspan="5">
-                                        <Card style={{backgroundColor: 'black'}}>
+                                        <Card style={evoCard}>
                                             <CardBody>
                                             <h3>
                                                 <table>
@@ -125,7 +137,7 @@ export function RenderTwoStar({lore, unitImage, unitEvo}) {
     if(unitEvo.evo23.mat3) {
         return (
             <React.Fragment>
-                <Card style={{backgroundColor: 'grey', borderColor:'grey'}}>
+                <Card style={unitCard}>
                     <CardTitle>
                         <center>
                             <table>
@@ -137,7 +149,7 @@ export function RenderTwoStar({lore, unitImage, unitEvo}) {
                                 <tr>
                                     <td colspan="2"><center><Media src={unitImage.thumb2} style={thumbnailSize}/></center></td>
                                     <td colspan="5">
-                                        <Card style={{backgroundColor: 'black'}}>
+                                        <Card style={evoCard}>
                                             <CardBody>
                                             <h3>
                                                 <table>
@@ -176,7 +188,7 @@ export function RenderTwoStar({lore, unitImage, unitEvo}) {
 
     return (
         <React.Fragment>
-            <Card style={{backgroundColor: 'grey', borderColor:'grey'}}>
+            <Card style={unitCard}>
                 <CardTitle>
                     <center>
                         <table>
@@ -188,7 +200,7 @@ export function RenderTwoStar({lore, unitImage, unitEvo}) {
                             <tr>
                                 <td colspan="2"><center><Media src={unitImage.thumb2} style={thumbnailSize}/></center></td>
                                 <td colspan="5">
-                                    <Card style={{backgroundColor: 'black'}}>
+                                    <Card style={evoCard}>
                                         <CardBody>
                                         <h3>
                                             <table>
@@ -227,7 +239,7 @@ export function RenderThreeStar({lore, unitImage, unitEvo}) {
     if(unitEvo.evo34.mat5) {
         return (
             <React.Fragment>
-                <Card style={{backgroundColor: 'grey', borderColor:'grey'}}>
+                <Card style={unitCard}>
                     <CardTitle>
                         <center>
                             <table>
@@ -239,7 +251,7 @@ export function RenderThreeStar({lore, unitImage, unitEvo}) {
                                 <tr>
                                     <td colspan="2"><center><Media src={unitImage.thumb3} style={thumbnailSize}/></center></td>
                                     <td colspan="5">
-                                        <Card style={{backgroundColor: 'black'}}>
+                                        <Card style={evoCard}>
                                             <CardBody>
                                             <h3>
                                                 <table>
@@ -283,7 +295,7 @@ export function RenderThreeStar({lore, unitImage, unitEvo}) {
     if(unitEvo.evo34.ma4) {
         return (
             <React.Fragment>
-                <Card style={{backgroundColor: 'grey', borderColor:'grey'}}>
+                <Card style={unitCard}>
                     <CardTitle>
                         <center>
                             <table>
@@ -295,7 +307,7 @@ export function RenderThreeStar({lore, unitImage, unitEvo}) {
                                 <tr>
                                     <td colspan="2"><center><Media src={unitImage.thumb3} style={thumbnailSize}/></center></td>
                                     <td colspan="5">
-                                        <Card style={{backgroundColor: 'black'}}>
+                                        <Card style={evoCard}>
                                             <CardBody>
                                             <h3>
                                                 <table>
@@ -337,7 +349,7 @@ export function RenderThreeStar({lore, unitImage, unitEvo}) {
     if(unitEvo.evo34.mat3) {
         return (
             <React.Fragment>
-                <Card style={{backgroundColor: 'grey', borderColor:'grey'}}>
+                <Card style={unitCard}>
                     <CardTitle>
                         <center>
                             <table>
@@ -349,7 +361,7 @@ export function RenderThreeStar({lore, unitImage, unitEvo}) {
                                 <tr>
                                     <td colspan="2"><center><Media src={unitImage.thumb3} style={thumbnailSize}/></center></td>
                                     <td colspan="5">
-                                        <Card style={{backgroundColor: 'black'}}>
+                                        <Card style={evoCard}>
                                             <CardBody>
                                             <h3>
                                                 <table>
@@ -388,7 +400,7 @@ export function RenderThreeStar({lore, unitImage, unitEvo}) {
 
     return (
         <React.Fragment>
-            <Card style={{backgroundColor: 'grey', borderColor:'grey'}}>
+            <Card style={unitCard}>
                 <CardTitle>
                     <center>
                         <table>
@@ -400,7 +412,7 @@ export function RenderThreeStar({lore, unitImage, unitEvo}) {
                             <tr>
                                 <td colspan="2"><center><Media src={unitImage.thumb3} style={thumbnailSize}/></center></td>
                                 <td colspan="5">
-                                    <Card style={{backgroundColor: 'black'}}>
+                                    <Card style={evoCard}>
                                         <CardBody>
                                         <h3>
                                             <table>
@@ -439,7 +451,7 @@ export function RenderFourStar({lore, unitImage, unitEvo}) {
     if(unitEvo.evo45.mat5) {
         return (
             <React.Fragment>
-                <Card style={{backgroundColor: 'grey', borderColor:'grey'}}>
+                <Card style={unitCard}>
                     <CardTitle>
                         <center>
                             <table>
@@ -451,7 +463,7 @@ export function RenderFourStar({lore, unitImage, unitEvo}) {
                                 <tr>
                                     <td colspan="2"><center><Media src={unitImage.thumb4} style={thumbnailSize}/></center></td>
                                     <td colspan="5">
-                                        <Card style={{backgroundColor: 'black'}}>
+                                        <Card style={evoCard}>
                                             <CardBody>
                                             <h3>
                                                 <table>
@@ -495,7 +507,7 @@ export function RenderFourStar({lore, unitImage, unitEvo}) {
     if(unitEvo.evo45.mat4) {
         return (
             <React.Fragment>
-                <Card style={{backgroundColor: 'grey', borderColor:'grey'}}>
+                <Card style={unitCard}>
                     <CardTitle>
                         <center>
                             <table>
@@ -507,7 +519,7 @@ export function RenderFourStar({lore, unitImage, unitEvo}) {
                                 <tr>
                                     <td colspan="2"><center><Media src={unitImage.thumb4} style={thumbnailSize}/></center></td>
                                     <td colspan="5">
-                                        <Card style={{backgroundColor: 'black'}}>
+                                        <Card style={evoCard}>
                                             <CardBody>
                                             <h3>
                                                 <table>
@@ -549,7 +561,7 @@ export function RenderFourStar({lore, unitImage, unitEvo}) {
     if(unitEvo.evo45.mat3) {
         return (
             <React.Fragment>
-                <Card style={{backgroundColor: 'grey', borderColor:'grey'}}>
+                <Card style={unitCard}>
                     <CardTitle>
                         <center>
                             <table>
@@ -561,7 +573,7 @@ export function RenderFourStar({lore, unitImage, unitEvo}) {
                                 <tr>
                                     <td colspan="2"><center><Media src={unitImage.thumb4} style={thumbnailSize}/></center></td>
                                     <td colspan="5">
-                                        <Card style={{backgroundColor: 'black'}}>
+                                        <Card style={evoCard}>
                                             <CardBody>
                                             <h3>
                                                 <table>
@@ -600,7 +612,7 @@ export function RenderFourStar({lore, unitImage, unitEvo}) {
 
     return (
         <React.Fragment>
-            <Card style={{backgroundColor: 'grey', borderColor:'grey'}}>
+            <Card style={unitCard}>
                 <CardTitle>
                     <center>
                         <table>
@@ -612,7 +624,7 @@ export function RenderFourStar({lore, unitImage, unitEvo}) {
                             <tr>
                                 <td colspan="2"><center><Media src={unitImage.thumb4} style={thumbnailSize}/></center></td>
                                 <td colspan="5">
-                                    <Card style={{backgroundColor: 'black'}}>
+                                    <Card style={evoCard}>
                                         <CardBody>
                                         <h3>
                                             <table>
@@ -653,10 +665,42 @@ export function RenderFiveStar({lore, unitImage, unitEvo}) {
     const [tooltip4, setTooltip4] = useState(false);
     const [tooltip5, setTooltip5] = useState(false);
 
+    if(!unitEvo){
+        return (
+            <React.Fragment>
+                <Card style={unitCard}>
+                    <CardTitle>
+                        <h3><center>This unit has reached max evolution</center></h3>
+                    </CardTitle>
+                    <CardBody>
+                        <center>{lore}</center>
+                    </CardBody>
+                    <center><CardImg src={unitImage.detail5} style={imageSize} /></center>
+                </Card>
+            </React.Fragment>
+        )
+    }
+
+    if(!unitEvo.evo5awk){
+        return (
+            <React.Fragment>
+                <Card style={unitCard}>
+                    <CardTitle>
+                        <h3><center>This unit has reached max evolution</center></h3>
+                    </CardTitle>
+                    <CardBody>
+                        <center>{lore}</center>
+                    </CardBody>
+                    <center><CardImg src={unitImage.detail5} style={imageSize} /></center>
+                </Card>
+            </React.Fragment>
+        )
+    }
+
     if(unitEvo.evo5awk.mat5) {
         return (
             <React.Fragment>
-                <Card style={{backgroundColor: 'grey', borderColor:'grey'}}>
+                <Card style={unitCard}>
                     <CardTitle>
                         <center>
                             <table>
@@ -668,7 +712,7 @@ export function RenderFiveStar({lore, unitImage, unitEvo}) {
                                 <tr>
                                     <td colspan="2"><center><Media src={unitImage.thumb5} style={thumbnailSize}/></center></td>
                                     <td colspan="5">
-                                        <Card style={{backgroundColor: 'black'}}>
+                                        <Card style={evoCard}>
                                             <CardBody>
                                             <h3>
                                                 <table>
@@ -724,7 +768,7 @@ export function RenderFiveStar({lore, unitImage, unitEvo}) {
     if(unitEvo.evo5awk.mat4) {
         return (
             <React.Fragment>
-                <Card style={{backgroundColor: 'grey', borderColor:'grey'}}>
+                <Card style={unitCard}>
                     <CardTitle>
                         <center>
                             <table>
@@ -736,7 +780,7 @@ export function RenderFiveStar({lore, unitImage, unitEvo}) {
                                 <tr>
                                     <td colspan="2"><center><Media src={unitImage.thumb5} style={thumbnailSize}/></center></td>
                                     <td colspan="5">
-                                        <Card style={{backgroundColor: 'black'}}>
+                                        <Card style={evoCard}>
                                             <CardBody>
                                             <h3>
                                                 <table>
@@ -785,7 +829,7 @@ export function RenderFiveStar({lore, unitImage, unitEvo}) {
 
     return (
         <React.Fragment>
-            <Card style={{backgroundColor: 'grey', borderColor:'grey'}}>
+            <Card style={unitCard}>
                 <CardTitle>
                     <center>
                         <table>
@@ -797,7 +841,7 @@ export function RenderFiveStar({lore, unitImage, unitEvo}) {
                             <tr>
                                 <td colspan="2"><center><Media src={unitImage.thumb5} style={thumbnailSize}/></center></td>
                                 <td colspan="5">
-                                    <Card style={{backgroundColor: 'black'}}>
+                                    <Card style={evoCard}>
                                         <CardBody>
                                         <h3>
                                             <table>
@@ -836,12 +880,15 @@ export function RenderFiveStar({lore, unitImage, unitEvo}) {
             </Card>
         </React.Fragment>
     )
+
+
+
 }
 
 export function RenderAwaken({lore, unitImage}) {
     return (
         <React.Fragment>
-            <Card style={{backgroundColor: 'grey', borderColor:'grey'}}>
+            <Card style={unitCard}>
                 <CardTitle>
                     <h3><center>This unit has reached max evolution</center></h3>
                 </CardTitle>

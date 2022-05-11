@@ -1,10 +1,19 @@
 import { Container, Row, Col, Badge, Media, NavItem, NavLink, Nav, TabContent, TabPane, Card, CardHeader, CardBody, CardTitle } from 'reactstrap';
 import React, { useState } from 'react';
+import classnames from 'classnames';
 
 const imageSize ={
-    maxHeight: 500,
-    maxWidth: 500
+    maxHeight: "400px",
+    maxWidth: "400px"
 };
+
+const trueCard = {
+    marginTop: "3rem",
+    paddingTop: "10px",
+    backgroundColor: "#464866",
+    color: "#aaabb8",
+    borderColor: "#464866"
+}
 
 export function RenderTrue({unitTrue}) {
     //Hook for Tab State
@@ -15,30 +24,31 @@ export function RenderTrue({unitTrue}) {
         if(currentTab !== tab) setCurrentTab(tab);
     }
 
+    //TODO: Fix Tabs so active is properly showing
     //Check if True Weapon Exists
     if(unitTrue.trueweapon){
         //Three TWs (2 Passive each)
         if(unitTrue.trueweapon.true3) {
             return (
                 <React.Fragment>
-                    <Card style={{backgroundColor: 'grey', borderColor:'grey'}}>
+                    <Card style={trueCard}>
                         <CardHeader>
-                            <Nav tabs>
+                            <Nav tabs justified>
                                 <NavItem>
-                                    <NavLink className="active"
+                                    <NavLink className={classnames({ active: currentTab === '1' })}
                                         onClick={() => {toggle('1')}} >
                                             <Media src={unitTrue.trueweapon.true1.thumb} object-fit="cover" id="unitTrue"/>
                                     </NavLink>
                                     
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className=""
+                                    <NavLink className={classnames({ active: currentTab === '2' })}
                                         onClick={() => {toggle('2')}} >
                                             <Media src={unitTrue.trueweapon.true2.thumb} object-fit="cover" id="unitTrue"/>
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className=""
+                                    <NavLink className={classnames({ active: currentTab === '3' })}
                                         onClick={() => {toggle('3')}} >
                                             <Media src={unitTrue.trueweapon.true3.thumb} object-fit="cover" id="unitTrue"/>
                                     </NavLink>
@@ -128,18 +138,18 @@ export function RenderTrue({unitTrue}) {
         if(unitTrue.trueweapon.true2) {
             return (
                 <React.Fragment>
-                    <Card style={{backgroundColor: 'grey', borderColor:'grey'}}>
+                    <Card style={trueCard}>
                         <CardHeader>
-                            <Nav tabs>
+                            <Nav tabs justified>
                                 <NavItem>
-                                    <NavLink className="active"
+                                    <NavLink className={classnames({ active: currentTab === '1' })}
                                         onClick={() => {toggle('1')}} >
                                             <Media src={unitTrue.trueweapon.true1.thumb} object-fit="cover" id="unitTrue"/>
                                     </NavLink>
                                     
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className=""
+                                    <NavLink className={classnames({ active: currentTab === '2' })}
                                         onClick={() => {toggle('2')}} >
                                             <Media src={unitTrue.trueweapon.true2.thumb} object-fit="cover" id="unitTrue"/>
                                     </NavLink>
@@ -205,11 +215,11 @@ export function RenderTrue({unitTrue}) {
         if(unitTrue.trueweapon.passive.ability2){
             return (
                 <Container>
-                    <Card style={{backgroundColor: 'grey', borderColor:'grey'}}>
+                    <Card style={trueCard}>
                         <Row>
                             <CardHeader>
                                 <center><Media src={unitTrue.trueweapon.detail} style={imageSize} /></center>
-                                <center><strong><h1><Media src={unitTrue.trueweapon.slot} />{unitTrue.trueweapon.name}<Media src={unitTrue.slot} /></h1></strong></center>
+                                <center><strong><h1><Media src={unitTrue.trueweapon.slot} />{unitTrue.trueweapon.name}<Media src={unitTrue.trueweapon.slot} /></h1></strong></center>
                             </CardHeader>
                             <CardBody>
                                 <Col>
@@ -235,11 +245,11 @@ export function RenderTrue({unitTrue}) {
         if(unitTrue.trueweapon.passive.ability1){
             return (
                 <Container>
-                    <Card style={{backgroundColor: 'grey', borderColor:'grey'}}>
+                    <Card style={trueCard}>
                         <Row>
                             <CardHeader>
                                 <center><Media src={unitTrue.trueweapon.detail} style={imageSize} /></center>
-                                <center><strong><h1><Media src={unitTrue.trueweapon.slot} />{unitTrue.trueweapon.name}<Media src={unitTrue.slot} /></h1></strong></center>
+                                <center><strong><h1><Media src={unitTrue.trueweapon.slot} />{unitTrue.trueweapon.name}<Media src={unitTrue.trueweapon.slot} /></h1></strong></center>
                             </CardHeader>
                             <CardBody>
                                 <Col>
@@ -265,7 +275,7 @@ export function RenderTrue({unitTrue}) {
     //If Trueweapon is missing
     return (
             <Container>
-                <Card style={{backgroundColor: 'grey', borderColor:'grey'}}>
+                <Card style={trueCard}>
                     <center><h1>This unit does not have a True Weapon</h1></center>
                 </Card>
             </Container>
