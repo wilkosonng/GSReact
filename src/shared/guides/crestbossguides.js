@@ -247,10 +247,10 @@ const CrestBossGuides = [
                 HP: 16,000,000 <br />
                 Element: Dark <br />
                 Race: Dragon <br />
-                200% Blind, Seal RES
-                120% Paralysis, Freeze, Burn RES
-                60% Poison, Disease RES
-                50% Faint RES
+                200% Blind, Seal RES <br />
+                120% Paralysis, Freeze, Burn RES <br />
+                60% Poison, Disease RES <br />
+                50% Faint RES <br />
 
             </center><br />
             <h3><center>Mechanics</center></h3>
@@ -322,7 +322,6 @@ const CrestBossGuides = [
                     <li>Very lethal Arts. Due to the 100% CRI rate gained, it is crucial to prepare sufficient DMG RES/MAG RES buffs in order to survive this. Nothing much else to say, besides it being a very strong final nuke…</li>
                 </ul>
             </ul>
-            <p><u>Subject γ-2 will alternate between the above 2 Arts, starting with Mad Predator (PHY).</u></p>
 
             <h3><center>Strategy</center></h3>
             <p><center>
@@ -330,7 +329,7 @@ const CrestBossGuides = [
                 The general strategy would be to bring Burn and Blind units/equips in order to deal with the special mobs spawned throughout the fight, while using a 
                 capable Taunt tank to redirect Valzandeth’s hard-hitting attacks. The run can also be reliant on RNG due to unlucky instances where 5 stacks of DMG RES 
                 debuffs, followed by an untimely Arts can obliterate even the most prepared.
-                Nuke compositions will not be detailed here due to the very high requirements needed.                                   
+                Nuke compositions will not be detailed here as it is impossible to do so.                                   
             </p></center>
             <b><h4><u>Recommended Units</u></h4></b>
             <ul>
@@ -349,16 +348,19 @@ const CrestBossGuides = [
                     before being able to generate noticeable Arts. As such, Dark Celia would have to be run alongside other ArtGen units.</p>
                 </li>
                 <li>
-                    <b>Hao/Priestess/Dark Fen/Ashe</b>
+                    <b>Hao/Natsu/Priestess/Dark Fen/Ashe</b>
                     <p>These units are great in their own rights at dealing with the pesky special mobs (Grangarrod & Cyclops) which spawn throughout the fight. 
-                    Hao is able to inflict Burn with his True Arts, and Priestess, Dark Fen, and Ashe are able to inflict Blind with their Arts, Skill, and 
-                    True Arts respectively. As a side note, although Ashe’s Arts Drain will be rendered useless here, his hefty DMG RES debuff and Blind RES 
+                    Hao and Natsu are able to inflict Burn with his True Arts, and Priestess, Dark Fen, and Ashe are able to inflict Blind with their Arts, Skill, 
+                    and True Arts respectively. As a side note, although Ashe’s Arts Drain will be rendered useless here, his hefty DMG RES debuff and Blind RES 
                     debuff on Arts can allow him to be useful to a certain extent.</p>
                 </li>
                 <li>
                     <b>Liza</b>
-                    <p>Due to the overwhelming damage, Liza is a great pick, allowing DEF equips to be used more regularly. Furthermore, if relying on Burn 
-                    and Blind equips, Liza will also allow those to be used more frequently.</p>
+                    <p>Liza is a great pick, allowing DEF equips or Burn and Blind equips to be used more frequently. Debuffs help as well!</p>
+                </li>
+                <li>
+                    <b>Erza</b>
+                    <p>Another strategy would just be to ignore the special mobs’ mechanics altogether by using brute force to deal with them. Although they might inflict their debuffs, Erza should be able to dish out enough damage where there will not be a build-up of mobs. Still risky though!</p>
                 </li>
         `,
         author: "ebouliben#1234, Jeffers#7056"
