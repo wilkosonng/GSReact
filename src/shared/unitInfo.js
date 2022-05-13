@@ -17120,11 +17120,7 @@ const UnitInformation = [
                 evoawk: "Liese was committed to her duties as a priestess, but her heart longed to follow her childish dreams, in the same way her peers were taken by the awakenings of love. Cutting through the dark underbelly of Reigrad, she found the release she desired while clad in a trenchcoat and cap. As she saw how her alter ego put the people at ease, she gradually felt a new sense of purpose."
             }
     },
-<<<<<<< HEAD
-    { // Emi - Missing Lore, TW image
-=======
-    { //Emmy - Missing Lore
->>>>>>> 19de4de66dc5c0fa94298260a360231ff37aa484
+    { //Emi - Missing Lore
         id: 103246512,
         name: "Emi",
         attribute: "Dark",

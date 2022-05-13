@@ -368,10 +368,12 @@ const TrialGuides = [
         title: "Floor 28",
         article: `
             <center><h2>Overview</h2></center>
+            <center>
             <p>The Giant Boss Dragons you once knew and abused for Relics are now back for blood in the new Floor 28! 
             Mavro-halos and the boys In the new floor packs an interesting gimmick revolving around being able to kill the 
             pre-stage’ Dragons before they unleash their arts in order to gain massive HP buffs on your Team necessary 
             to survive the tough fight against Mavro Halos.</p>
+            </center>
             <br/>
 
             <b><h2><center>Before you begin...</center></h2></b>
@@ -514,8 +516,121 @@ const TrialGuides = [
                 </a>
                 <span style="font-size: 40px" > + (Flex)</span>
             </center>
+        `
+    },
+    { //Floor 29
+        id: 29,
+        title: "Floor 29",
+        article: `
+            <center><h2>Overview</h2></center>
+            <center>
+            <p>This stage truthfully isn't too difficult, a good team with solid equips can easily handle it.<p>
+            <p>The boss' main mechanic is that she disables all normal means of damage. Instead, <b>Break Damage</b> (Not Damage dealt to the broken boss, but damage dealt to its break bar) will function as your normal damage. <b>Status ailments</b> are an easy work around to this.</p>
+            </center>
 
+            <br/>
+            <br/>
 
+            <b><h2><center>Field Effect - Miasma</center></h2></b>
+            <ul>
+                <li>Arts Generation is negated (Passive, BE, Equipment, Unit Arts)</li>
+                <li>Units gain 5 Arts Gauge per second, and 10 Arts Gauge for every skill use</li>
+            </ul>
+
+            <br/>
+            <br/>
+
+            <b><h2><center>Stage Mechanics</center></h2></b>
+            <b><h3><center>Boss Stage - Raydis</center></h3></b>
+            <center><img src="/db/Units/Thumbnail/unit_thumbnail_501281113.png" alt="Raydix" /></center>
+            [Image Missing, Boss is actually Earth Element]
+
+            <ul>
+                <li>Notable Attacks</li>
+                    <ul>
+                        <li>Normal attacks can apply a <b>Special Debuff</b>, negating the passive art gen from Miasma for ~5s </li>
+                        <li><b>Arts #1</b> - Deals MAG DMG and inflicts <span class="buffDebuff">Paralysis</span>. When used after 50% threshold, inflict an additional <span class="buffDebuff">DMG RES Down</span> Debuff for ~15s.</li>
+                        <li><b>Arts #2</b> - Deals MAG DMG. Selects a random unit, ignores taunt effects and <span class="buffDebuff">Faints</span> them. Inflict an additional <span class="buffDebuff">DMG RES Down</span> Debuff and deal 400 DMG per tick for ~10s. Has I-frames until slam.</li>
+                    </ul>
+                <li>Status Effects</li>
+                    <ul>
+                        <li>Normal attacks can also <span class="buffDebuff">Faint</span> or <span class="buffDebuff">Poison</span> (200 DMG per tick)</li>
+                    </ul>
+                <li>Passives</li>
+                    <ul>
+                        <li>When in <b>Break State</b>, boss takes 2x DMG</li>
+                        <li>When all 3 crystals are lit, boss gains the ability to use Arts #2</li>
+                    </ul>
+            </ul>
+
+            <br />
+            <br/>
+            <b><h2><center>Thresholds and Other Mechanics:</center></h2></b>
+            <ul>
+                <li>At 75% HP - Gains <span class="buffDebuff">ATK</span> and <span class="buffDebuff">Accuracy UP</span>. Light up a crystal.</li>
+                <li>At 50% HP - Gains <span class="buffDebuff">Break RES UP</span> and <span class="buffDebuff">DMG UP</span>. Light up a crystal.</li>
+                <li>At 25% HP - gains Double Arts Gauge speed and immediately fills Arts Gauge to full. Light up a crystal.</li>
+            </ul>
+
+            <br/>
+
+            <b><h2><center>Strategy</center></h2></b>
+            <ul>
+                <li>Poison is quite strong against Raydis. <b>Pola</b> is one of the stronger DPS option for this stage due to her Poison DMG scaling with the boss' HP</li>
+                <li>Bring a <b>Taunt Tank</b>. With how much the boss paralyzes and with the danger of her Arts #2, using a taunt tank such as <b>Gerald</b> is the safest option.</li>
+                <li>Bring a <b>Breaker</b>. Since <b>Pola's</b> poison gets weaker the lower the boss' HP is, the end of the fight will be risky and drawn out without one. <b>Platina</b> is a safe option as she has a Defense slot, however, any will suffice.</li>
+                <li>Make sure to have <span class="buffDebuff">Cleanse</span> or some form of <span class="buffDebuff">Paralyze immunity</span> ready for each Art.</li>
+                <li>Take it slow. This fight doesn't have a timer and will take some time to clear, no reason to rush and risk dying!</li>
+            </ul>
+
+            <br/>
+            <br/>
+
+            <b><center><h2>Sample Team Compositions</h2></center></b>
+            <center>
+                <a href="https://www.grandsummoners.info/units/Gerald">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_102006112.png" alt="Gerald" class="unitThumb"/>
+                </a>
+                <a href="https://www.grandsummoners.info/units/Sanstone">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_101676112.png" alt="Sanstone" class="unitThumb"/>
+                </a>
+                <a href="https://www.grandsummoners.info/units/Platina">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_101686412.png" alt="Platina" class="unitThumb"/>
+                </a>
+                <a href="https://www.grandsummoners.info/units/Pola">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_101246312.png" alt="Pola" class="unitThumb"/>
+                </a>
+
+                <br/>
+                <br/>
+
+                <a href="https://www.grandsummoners.info/units/Gerald">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_102006112.png" alt="Gerald" class="unitThumb"/>
+                </a>
+                <a href="https://www.grandsummoners.info/units/Pola">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_101246312.png" alt="Pola" class="unitThumb"/>
+                </a>
+                <a href="https://www.grandsummoners.info/units/Tallis">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_102276112.png" alt="Tallis" class="unitThumb"/>
+                </a>
+                <a href="https://www.grandsummoners.info/units/Ram">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_107366312.png" alt="Ram" class="unitThumb"/>
+                </a>
+
+                <br/>
+                <br/>
+
+                <a href="https://www.grandsummoners.info/units/Gerald">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_102006112.png" alt="Gerald" class="unitThumb"/>
+                </a>
+                <a href="https://www.grandsummoners.info/units/Pola">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_101246312.png" alt="Pola" class="unitThumb"/>
+                </a>
+                <a href="https://www.grandsummoners.info/units/Sanstone">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_101676112.png" alt="Sanstone" class="unitThumb"/>
+                </a>
+                <span style="font-size: 40px" > + (Flex Taunt)</span>
+            </center>
         `
     }
 ]
