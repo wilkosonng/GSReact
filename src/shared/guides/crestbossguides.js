@@ -238,7 +238,7 @@ const CrestBossGuides = [
         banner: "/db/CrestGuides/Crest_Banner_Valzandeth.png",
         article: `
             <center>
-                <b>???</b> [Extreme] <br />
+                <b>Wings of the Abyss</b> [Extreme] <br />
                 <img src="/db/CrestGuides/Crest_Valzandeth.png" />
                 <br/>
                 BOSS: Valzandeth <br />
