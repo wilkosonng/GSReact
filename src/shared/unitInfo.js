@@ -439,7 +439,7 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "9s CT - 2600% Light DMG (MAG). For 5s, heal own HP by 100/s.",
+                skill: "9s CT - 2600% Light DMG (MAG). For 5s, heal own HP by 20/s.",
                 skillbreak: 1000,
                 arts: "11500% Light DMG (MAG). Cure all Ally Status Ailments (except Faint). For 10s, increase all Ally Status RES (except Faint) by 100%",
                 artsbreak: 2600,
