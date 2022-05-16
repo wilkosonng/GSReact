@@ -16320,7 +16320,7 @@ const UnitInformation = [
                 evoawk: "A knight aspiring to become the perfect soldier. Small yet resilient, she uses a style of spear work developed since living with her family. She does feel shame about her underdeveloped artistic skill, but that, along with everything else, is forgotten when she starts training. Not even she realizes how deeply she becomes absorbed, since most of her sessions are solo. As expected of a cultural metropolis, those who share her interests in combat are few and far between."
             }
     },
-    { //Sharon - Missing Lore
+    { //Sharon - Complete
         id: 103156412,
         name: "Sharon",
         attribute: "Light",
@@ -16399,8 +16399,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "A member of the Stella Squad. Famous for her performances in comedies, operas, and musicals, she has fans of all kinds. Beneath her charm and poise is a shrewd mind that will not hesitate to speak out. As the oldest member of the squad, she will help the others but always with a cutting remark or two. Her favorite phrase is 'cash-in-hand payment', born from her love of money.",
+                evoawk: "A popular actress who works as even hostess for the Stella Squad. The wealth of connections provided by her acting career makes her the most informed of the group. As such, she is usually first to know when some scheme is afoot, and she is no stranger to the early-morning bar scene as a result. Much of her income goes towards her troupe, leaving little if anything to line her purse."
             }
     },
     { //Rits - Complete
@@ -17930,7 +17930,7 @@ const UnitInformation = [
                 evoawk: "A young girl who works with Professor Arcana in the Magistone Laboratory. Her rude words can give a cold and indifferent impression, but she has genuine enthusiasm for magistone research. This comes from a number of sources, with the greatest of all being the wordless joy from performing experiments. The first time she felt that, she knew she had found her ideal job."
             }
     },
-    { //Airi - Missing Lore
+    { //Airi - Complete
         id: 103356312,
         name: "Airi",
         attribute: "Earth",
@@ -17996,7 +17996,7 @@ const UnitInformation = [
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: "Sakura Swallow",
+                name: "Ouen",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "/db/Equipment/Detail/item_detail_108971.png",
                 skill: "70s CT - 5000% Earth DMG (PHY). For 10s, increase own DMG by 50% and Earth DMG by 70%.",
@@ -18009,8 +18009,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "A soldier of the Valkia army whose talent with the sword is seen only once a generation. She dotes on Forte, but the younger officer finds her unchecked optimism disagreeable. Though this causes her some amount of concern, she has not yet felt the need to explain the reason for her behavior.",
+                evoawk: "The greatest swordswoman in Valkia. She consistently achieves top-class results during military exercises, so everyone expects her to become the next sergeant. The fact that Forte responds coldly to her doting is one of her few worries. She read 'Bonds Beyond Races', the biography of two warrior brothers, at a young age, which greatly influenced her personal moral code."
             }
     },
     { //Lyra - Missing Lore
