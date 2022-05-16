@@ -542,8 +542,7 @@ const TrialGuides = [
 
             <b><h2><center>Stage Mechanics</center></h2></b>
             <b><h3><center>Boss Stage - Raydis</center></h3></b>
-            <center><img src="/db/Units/Thumbnail/unit_thumbnail_501281113.png" alt="Raydix" /></center>
-            [Image Missing, Boss is actually Earth Element]
+            <center><img src="/db/Units/Thumbnail/unit_thumbnail_Raydis.png" alt="Raydis" /></center>
 
             <ul>
                 <li>Notable Attacks</li>
@@ -631,6 +630,121 @@ const TrialGuides = [
                 </a>
                 <span style="font-size: 40px" > + (Flex Taunt)</span>
             </center>
+        `
+    },
+    { //Floor 30
+        id: 30,
+        title: "Floor 30",
+        article: `
+            <center><h2>Overview</h2></center>
+            <center>
+                <p>This stage has a 200-second hard timer. However, due to Iframes, your actual timer is closer to <b>100 seconds</b>. </p>
+                <p>Due to the extreme difficulty of this stage, this guide will be broken down into 4 phases. </p>
+            </center>
+
+            <br/>
+            <br/>
+
+            <b><h2><center>Stage Mechanics</center></h2></b>
+            <b><h3><center>Boss Stage - Marzex</center></h3></b>
+
+            <ul>
+                <li><b><u>Phase 1, 100% HP - 50% HP</u></b></li>
+                    <ul>
+                        <li>Arts can inflict a potent <span class="buffDebuff">Poison</span> or <span class="buffDebuff">Burn</span>.</li>
+                        <li>Marzex is invincible during Arts</li>
+                        <li>This is the most simplistic stage, it’s more so used to show you how much health Marzex has(25 million HP) and give you the ability to get started. </li>
+                        <li><b>NOTE: </b><i>You want to clear this stage around the 1-minute mark, <b>Anything over 1:10</b> will be too slow to clear the stage.</i></li>
+                    </ul>
+                <li><b><u>Phase 2, 50% HP - 30% HP</u></b></li>
+                    <ul>
+                        <li><b>Instantly does an Endless</b> upon entering this phase</li>
+                        <li>He can either do Endless X or Endless Z, if he does Endless X he will quickly use Endless Z after, while if he does Endless Z he won't do the second Endless.</li>
+                        <li>We currently dont know what decides if its going to be Endless X or Endless Z, if you get a run with Endless X and cant nuke him to 30% before he does Endless Z, you'd be best resetting.</li>
+                        <li>Gains a <span class="buffDebuff">DMG Up</span></li>
+                        <li>Outside of the Endless nothing special happens in this stage, Immediately after the Iframes of his Endless end quickly bring him into Phase 3.</li>
+                        <li><b>NOTE: </b><i>You want to clear this stage around the 1:40 mark, <b>Anything over 1:50</b> will be too slow to clear the stage.</i></li>
+                    </ul>
+                <li><b><u>Phase 3, 30% HP - 15% HP</u></b></li>
+                    <ul>
+                        <li><b>Instantly does an Endless</b> upon entering this phase</li>
+                        <li>Has roughly a 5-second timer after his endless before he will do another. You must do all your damage in this few-second window. </li>
+                        <li>You <b>must</b> finish this stage in <b>only 2 Endlesses</b> anything more than that will be too slow.</li>
+                        <li><b>NOTE: </b><i>You want to clear this stage around the 2:40 mark, <b>Anything over 2:50</b> will be too slow to clear the stage.</i></li>
+                    </ul>
+                <li><b><u>Phase 4, 15% HP - 0% HP</u></b></li>
+                    <ul>
+                        <li><b>Instantly does an Endless</b> upon entering this phase</li>
+                        <li>After his endless has finished he won’t do anything else, you must kill him with however much time you have left. </li>
+                    </ul>
+            </ul>
+
+            <br/>
+
+            <br/>
+
+            <b><h2><center>Strategy</center></h2></b>
+            <ul>
+                <li>Damage is king in this fight, units who can do large damage while also performing their main role are required. </li>
+                <li>Slow ramping units outside of Luahn <b>should not</b> be used. </li>
+                <li>Phase 1 is the most important with it being the only one that someone can speed up their run by more than a few seconds.</li>
+                <li>Each Endless lasts for around <b>26 seconds</b>. You’ll need to deal with 4 of these so plan your time accordingly. </li>
+                <li>The time layout during the phases are a rough guide made with the assumption someone will take 2 Endlesses to clear stage 3, if you can clear in 1 endless you’d have a much larger window. </li>
+                <li>Only his first Endless, "Endless Z" does substantial damage, the other 3, "Endless"  are much weaker.</li>
+                <li>You can cleanse the seal he applies during endless with an equip such as <b>Force Keratos</b>.</li>
+            </ul>
+
+            <br/>
+            <br/>
+
+            <b><center><h2>Sample Team Compositions</h2></center></b>
+            <center>
+                <a href="https://www.grandsummoners.info/units/Mako">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_102206412.png" alt="Mako" class="unitThumb"/>
+                </a>
+                <a href="https://www.grandsummoners.info/units/Juno">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_103226412.png" alt="Juno" class="unitThumb"/>
+                </a>
+                <a href="https://www.grandsummoners.info/units/Liza">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_103006412.png" alt="Liza" class="unitThumb"/>
+                </a>
+                <a href="https://www.grandsummoners.info/units/Hiei">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_107326512.png" alt="Hiei" class="unitThumb"/>
+                </a>
+
+                <br/>
+                <br/>
+
+                <a href="https://www.grandsummoners.info/units/Vox">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_102516212.png" alt="Vox" class="unitThumb"/>
+                </a>
+                <a href="https://www.grandsummoners.info/units/Weaver">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_102446212.png" alt="Weaver" class="unitThumb"/>
+                </a>
+                <a href="https://www.grandsummoners.info/units/Veronica">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_102966212.png" alt="Veronica" class="unitThumb"/>
+                </a>
+                <a href="https://www.grandsummoners.info/units/Hart">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_103276312.png" alt="Hart" class="unitThumb"/>
+                </a>
+
+                <br/>
+                <br/>
+
+                <a href="https://www.grandsummoners.info/units/Liza">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_103006412.png" alt="Liza" class="unitThumb"/>
+                </a>
+                <a href="https://www.grandsummoners.info/units/Daki">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_102346412.png" alt="Daki" class="unitThumb"/>
+                </a>
+                <a href="https://www.grandsummoners.info/units/Saitama">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_107076412.png" alt="Saitama" class="unitThumb"/>
+                </a>
+                <a href="https://www.grandsummoners.info/units/Mako">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_102206412.png" alt="Mako" class="unitThumb"/>
+                </a>
+            </center>
+
         `
     }
 ]
