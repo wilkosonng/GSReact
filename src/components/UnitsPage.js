@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { Container, Row, Col, Media, Tooltip, Card, CardHeader, CardBody } from 'reactstrap';
+import { Container, Row, Col, Media, Card, CardHeader, CardBody } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import { getUnits } from '../shared/unitInfo';
 import styled from 'styled-components';
@@ -19,7 +19,7 @@ export default function Units () {
     const units = getUnits();
 
     //Tooltip for Unit Names
-    const [tooltip, setTooltip] = useState(false);
+    const [query, setQuery] = useState("");
 
     //Display Unit Thumbnails
     return (
@@ -35,8 +35,29 @@ export default function Units () {
                         </CardBody>
                     </Card>
                 </Row>
+                <Row>
+                    <center>
+                        <input placeholder="Search Unit Name" onChange={e => setQuery(e.target.value)} style={{
+                            display: "flex",
+                            width: "100%",
+                            maxWidth: "790px",
+                            height: "auto",
+                            marginBottom: "2rem",
+                            flexDirection: "column",
+                            justifyContent: "center",
+                            alignItems: "center"
+                        }} />
+                    </center>
+                </Row>
                 <Row>            
-                    {units.map(unit => {
+                    {units.filter(unit => {
+                        if(query === ''){
+                            return unit;
+                        } else if (unit.name.toLowerCase().includes(query.toLowerCase())) {
+                            return unit;
+                        }
+                    })
+                    .map(unit => {
                         if(unit.image.thumbawk){
                             return (
                                 <React.Fragment key={unit.name} >
