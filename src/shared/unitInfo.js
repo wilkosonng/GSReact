@@ -19024,7 +19024,7 @@ const UnitInformation = [
         type: "Human",
         image: 
             {
-                detail5: "/db/Units/Detail/unit_thumbnail_103495212.png",
+                detail5: "/db/Units/Detail/unit_detail_103495212.png",
                 detailawk: "/db/Units/Detail/unit_detail_103496212.png",
                 thumb5: "/db/Units/Thumbnail/unit_thumbnail_103495212.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103496212.png"
