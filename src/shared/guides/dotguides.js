@@ -3,7 +3,86 @@ const TrialGuides = [
         id: 20,
         title: "Floor 20",
         article: `
-            Put stuff here
+            <center><h2>Overview</h2></center>
+            <center><p>The beginning of more intricate Mechanics and Challenges within the Dungeon of Trials, 
+            no longer being a simple DPS Race. From this point forth, you will be required to bring proper equipment and teams. 
+            Rest assured though as F20 is still generally easy with the main gimmick of this Floor being the Paralysis at the start of Wave 2.</p></center>
+            <br/>
+            <br/>
+
+            <b><h2><center>Before you begin...</center></h2></b>
+            <ul>
+                <li>Clear Chapter 5 to unlock Side Stories and farm enough materials in the Iris Side Stories to craft a Sacred Crown 
+                “Raaz” OR obtain “Diez Jade” from Arena Rewards. Either one of these equips single-handedly carries most players through 
+                this stage evading Tonetaurus’ paralysis at the start of Wave 2.</li>
+                <li>Run a Status/Paralyze Resistance buffing unit like Feena/Sylphiette/HumanRimuru/Filia</li>
+            </ul>
+
+            <br />
+            <br />
+
+            <b><h2><center>Stage Mechanics</center></h2></b>
+            <b><h3><center>First Stage - Moldoras</center></h3></b>
+            <p>They die within seconds to non-skill attacks, not much to elaborate on here aside from using your ArtsGen equipment and skills for a boost</p>
+            <br/>
+
+            <b><h3><center>Second Stage - Tonetaurus</center></h3></b>
+            <center><img src="/db/Units/Thumbnail/unit_thumbnail_500921313.png" alt="Tonetaurus" /></center>
+            <ul>
+                <li>Arts</li>
+                    <ul>
+                        <li>Starts the battle with Arts</li>
+                        <li>Inflicts long-lasting <span class="buffDebuff">Paralysis</span></li>
+                        <li>It is recommended to se your <span class="buffDebuff">Status Resistance</span> Buff as soon as Tonetaurus uses its Arts to avoid the paralysis, and then focus on killing the bird as quickly as possible.</li>
+                    </ul>
+                <li>Status Effects - Normal Attacks</li>
+                    <ul>
+                        <li>Can inflict <span class="buffDebuff">Arts Drain</span> and <span class="buffDebuff">Paralysis</span> for 5 seconds</li>
+                    </ul>
+                <li>Passives</li>
+                    <ul>
+                        <li>Light Elemental Killer</li>
+                        <li>Negate Light Damage</li>
+                        <li>Negate Status Ailment</li>
+                        <li>Critical Resistance</li>
+                    </ul>
+            </ul>
+            <br />
+
+            <b><h2><center>Thresholds and Other Mechanics:</center></h2></b>
+            <ul>
+                <li>30% HP - Tonetaurus gains <span class="buffDebuff">DMG UP</span> and <span class="buffDebuff">Action Speed UP</span></li>
+            </ul>
+
+            <br />
+
+            <b><h3><center>Boss Stage - Goldolda</center></h3></b>
+            <center><img src="/db/Units/Thumbnail/unit_thumbnail_500981313.png" alt="Goldola" /></center>
+            <ul>
+                <li>Arts</li>
+                    <ul>
+                        <li>Starts the battle with Arts</li>
+                        <li>Inflicts <span class="buffDebuff">Poison</span></li>
+                    </ul>
+                <li>Status Effects - Normal Attacks</li>
+                    <ul>
+                        <li>Can inflict <span class="buffDebuff">Curse</span>, <span class="buffDebuff">Poison</span>, <span class="buffDebuff">Blind</span>, or <span class="buffDebuff">Disease</span></li>
+                    </ul>
+                <li>Passives</li>
+                    <ul>
+                        <li>Dark Elemental Killer</li>
+                        <li>Negate Dark Damage</li>
+                        <li>Negate Status Ailment</li>
+                        <li>Critical Resistance</li>
+                    </ul>
+            </ul>
+
+            <b><h2><center>Thresholds and Other Mechanics:</center></h2></b>
+            <ul>
+                <li>50% HP - Goldola gains <span class="buffDebuff">Lifesteal UP</span> and <span class="buffDebuff">Action Speed UP</span></li>
+            </ul>
+
+            <br />
         `
     },
     { //Floor 21
