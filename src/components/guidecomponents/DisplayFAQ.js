@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Accordion, AccordionHeader, AccordionItem, AccordionBody, Card } from 'reactstrap';
 
 const accordionColor = {
-    backgroundColor: "#464866", color: "aaabb8"
+    backgroundColor: "#464866", color: "#aaabb8"
 }
 //Component to display FAQ
 export default function FAQGuide () {
@@ -196,10 +196,7 @@ function ImprovingYourAccount() {
                     from selling units summoned from crystals, selling equipment, some quest missions, from playing 
                     multiplayer with friends, and as random gifts from events. They can be used for purchasing Limit 
                     Break stones, or for performing ‘Alch Summons’, taking 5000 Alchemy Stones for a guaranteed Hyper Rare 
-                    unit from a given pool of units (this pool of pullable units is called the “Alch Pool” and does not contain 
-                    Hero Fest-exclusives or other limited-run units). This is normally a poor option, as often there are limited-pool 
-                    ‘Alch Summons’ banners that contain a much more limited pool of amazing units, but take 10,000 Alch Stones to summon; 
-                    these are often worth pulling from and are your best use of stones.
+                    unit from a given pool of units (this pool of pullable units is called the “Alch Pool”). 
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionHeader targetId="9">
