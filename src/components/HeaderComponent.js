@@ -57,28 +57,28 @@ return (
                         <Collapse isOpen={isOpen} navbar>
                             <Nav navbar className="me-auto">
                                 <NavItem>
-                                    <NavLink className="nav-link" to="/" activeClassName="active">
+                                    <NavLink className="nav-link" to="/" activeClassName="active" onClick={() => { setIsOpen(!isOpen) }}>
                                         <Media src="/chara_face_1200_1.png" style={{maxHeight: "35px", marginTop: "0rem"}} />
                                         <b>HOME</b>
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link" to="/news" activeClassName="active">
+                                    <NavLink className="nav-link" to="/news" activeClassName="active" onClick={() => { setIsOpen(!isOpen) }}>
                                         <b><p style={{paddingTop: "3px", marginBottom: "0rem"}}>NEWS</p></b>
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link" to="/tierlist" activeClassName="active">
+                                    <NavLink className="nav-link" to="/tierlist" activeClassName="active" onClick={() => { setIsOpen(!isOpen) }}>
                                         <b><p style={{paddingTop: "3px", marginBottom: "0rem"}}>TIERLIST</p></b>
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link" to="/units" activeClassName="active">
+                                    <NavLink className="nav-link" to="/units" activeClassName="active" onClick={() => { setIsOpen(!isOpen) }}>
                                         <b><p style={{paddingTop: "3px", marginBottom: "0rem"}}>UNITS</p></b>
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link" to="/guides" activeClassName="active">
+                                    <NavLink className="nav-link" to="/guides" activeClassName="active" onClick={() => { setIsOpen(!isOpen) }}>
                                         <b><p style={{paddingTop: "3px", marginBottom: "0rem"}}>GUIDES</p></b>
                                     </NavLink>
                                 </NavItem>
