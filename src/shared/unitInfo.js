@@ -19176,6 +19176,166 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
     },
+    { //Riviera (Dark) - Missing Lore
+        id: 103576512,
+        name: "Riviera (Dark)",
+        attribute: "Dark",
+        type: "Demon",
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_103575512.png",
+                detailawk: "/db/Units/Detail/unit_detail_103576512.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_103575512.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103576512.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/magLB.png"
+            },
+        stats: 
+            {
+                hp: 7101,
+                hpplus: 999,
+                atk: 2803,
+                atkplus: 430,
+                def: 2548,
+                defplus: 392
+            },
+        skillset: 
+            {
+                skill: "13s CT - 1800% Dark DMG (MAG). For 6s, reduce Enemies' DMG RES by 20%.",
+                skillbreak: 400,
+                arts: "16000% Dark DMG (PHY). For 30s, reduce Enemies' Dark RES by 20% (stackable). During Magia Drive: 16000% Dark DMG (PHY). Activate Magia Drive: Unlimited for the duration of the current Magia Drive. For 30s, reduce Enemies' Dark RES by 20% (stackable). During Magia Drive: Unlimited: 16000% Dark DMG (PHY). For 30s, reduce Enemies' Dark RES by 40% (stackable).",
+                artsbreak: 800,
+                truearts: "For 180s, enter Magia Drive. During Magia Drive: 60000% Dark DMG (MAG). For 20s, increase Allies' Arts by 4/s and reduce Enemies' MAG RES by 60%.",
+                trueartsbreak: 1200
+            },
+        passive: 
+            {
+                ability1: "During Magia Drive, increase own DMG to Demons by 50%.",
+                ability2: "During Magia Drive: Unlimited, increase Allies' Arts by 3/s. Does not stack with Abilities of the same name.",
+                ability3: "Increase Paralysis RES by 90%."
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragRagsherumPhantom.png",
+                    mat3amt: 2,
+                    hover3: "Ragsherum Phantom",
+                    mat4: "/db/Icons/dungeon_drops/fragElpneumas.png",
+                    mat4amt: 2,
+                    hover4: "Elpneumas"
+                }
+            },
+        trueweapon: //If no TW, may delete this section
+            {
+                name: "Noble Blood",
+                slot: "/db/Mines/thumbnail/magLB.png",
+                detail: "/db/Equipment/Detail/item_detail_110231.png",
+                skill: "50s CT - 8000% Dark DMG (MAG). For 20s, increase own Dark DMG by 70%.",
+                skillbreak: 700,
+                passive: 
+                    {
+                        ability1: "When equipped by Dark Riviera, increase own Skill CT REC by 30%, and increase Arts by 100 at the Start of a Quest. Does not stack with Abilities of the same name.",
+                        ability2: "Increase MAG DMG by 10%."
+                    }
+            },
+        lore: 
+            {   
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
+            }
+    },
+    { //Thetis (Light) - Missing Lore
+        id: 103586412,
+        name: "Thetis (Light)",
+        attribute: "Light",
+        type: "Demon",
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_103585412.png",
+                detailawk: "/db/Units/Detail/unit_detail_103586412.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_103585412.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103586412.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/healLB.png"
+            },
+        stats: 
+            {
+                hp: 6961,
+                hpplus: 999,
+                atk: 3210,
+                atkplus: 491,
+                def: 2505,
+                defplus: 385
+            },
+        skillset: 
+            {
+                skill: "10s CT - 2000% Light DMG (PHY). Increase own Arts by 10.",
+                skillbreak: 300,
+                arts: "17000% Light DMG (PHY). During Magia Drive: 17000% Light DMG (PHY). Activate Magia Drive: Unlimited for the duration of the current Magia Drive. During Magia Drive: Unlimited: 17000% Light DMG (PHY). For 25s, increase Allies' PHY DMG by 80%.",
+                artsbreak: 700,
+                truearts: "For 120s, enter Magia Drive. During Magia Drive: 100000% Light DMG (PHY).",
+                trueartsbreak: 1000
+            },
+        passive: 
+            {
+                ability1: "During Magia Drive, increase own ATK and DEF by 50%.",
+                ability2: "During Magia Drive: Unlimited, increase own Critical Rate by 150%.",
+                ability3: "Increase Accuracy by 20%."
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragWilkes.png",
+                    mat3amt: 2,
+                    hover3: "Wilkes",
+                    mat4: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                    mat4amt: 2,
+                    hover4: "Aerugraxes"
+                }
+            },
+        trueweapon: //If no TW, may delete this section
+            {
+                name: "Heaven's Thunder Armour",
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_110221.png",
+                skill: "50s CT - 8000% Light DMG (PHY). For 20s, increase own Light DMG by 70%.",
+                skillbreak: 700,
+                passive: 
+                    {
+                        ability1: "When equipped by Light Thetis, increase Arts by 2/s, Paralysis and Freeze RES by 100%. Does not stack with Abilities of the same name.",
+                        ability2: "ncrease Skill DMG by 20%."
+                    }
+            },
+        lore: 
+            {   
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
+            }
+    },
     { //Zinogre Armor Rayas - Missing Lore
         id: 107006412,
         name: "Zinogre Armor Rayas",
@@ -20977,7 +21137,7 @@ const UnitInformation = [
                 evoawk: "Raphtalia was summoned to Raktehelm along with Naofumi, Filo and Melty. She tries to act as a bridge between Naofumi and others without much success, Rayas and his friends included. However, on the battlefield, Raphtalia's sword skills are not to be outdone by Rayas and his friends as she shows off her techniques proudly."
             }
     },
-    { //Filo - Complete
+    { //Filo - Missing TW
         id: 107276312,
         name: "Filo",
         rank: "B+",
@@ -21041,7 +21201,7 @@ const UnitInformation = [
                 evoawk: "Filo was summoned to Raktehelm along with Naofumi. Alghough she is in a different world, she is easy-going as always and warms up to Rayas and his friends right off the bat. It seems that she can understand Rolly's language... and also occasionally shows off her abilities as a monster. Since she was always on the run with Naofumi and his party, she was unable to eat proper meals. But in Reigrad, she's been given delicious meals at every turn and has been able to fully recharge. She'll pick fights with Raphtalia, but that's because Filo knows Naofumi can't attack back."
             }
     },
-    { //Melty - Complete
+    { //Melty - Missing TW
         id: 107286212,
         name: "Melty",
         rank: "S",
@@ -21103,6 +21263,83 @@ const UnitInformation = [
             {   
                 evo5: "The Second Princess of Melromarc, which is the country Naofumi must protect as a hero. She is the first in line to the throne, even higher than her older sister. She is furious at her father and sister, who tried to frame Naofumi. Yet, they are her family and she suffers silently as she cannot sever her ties. She is typically a kind girl, but due to her royal stature she is forced to be strict and more adult-like than she actually feels. She was almost murdered in a succession conflict between her older sister and she has not gotten a good night's rest since finding out the crime against her was blamed on Naofumi.",
                 evoawk: "Melty was summoned to Raktehelm along with Naofumi, Raphtalia, and Filo. She is against Naofumi's opinion of remaining in Raktehelm because she wishes to return to Melromarc as soon as possible. However, knowing Naofumi feels more at home than ever in Raktehelm, she cannot deny his request outright and feels anxious."
+            }
+    },
+    { // Fitoria - Missing Lore
+        id: 107606312,
+        name: "Fitoria",
+        attribute: "Earth",
+        type: "Demon",
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_107605312.png",
+                detailawk: "/db/Units/Detail/unit_detail_107606312.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_107605312.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107606312.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 5,
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats: 
+            {
+                hp: 7180,
+                hpplus: 999,
+                atk: 2710,
+                atkplus: 416,
+                def: 2840,
+                defplus: 436
+            },
+        skillset: 
+            {
+                skill: "12s CT - For 7s, heal Allies' HP by 200/s and increase Allies' Arts by 3/s.",
+                skillbreak: 0,
+                arts: "For 15s, increase Allies' DMG RES by 30%, Allies' Water RES by 20%, and Allies gain a DMG barrier that negates 2000 DMG.",
+                artsbreak: 0,
+                truearts: "65000% Earth DMG (MAG). Increase this True Arts's Critical Rate by 100%. For 15s, increase Allies' DMG by 60% and DMG to Giant Bosses by 60%.",
+                trueartsbreak: 2200
+            },
+        passive: 
+            {
+                ability1: "Increase Poison RES by 30%.",
+                ability2: "Increase DEF by 20% when under a DMG barrier.",
+                ability3: "Increase Demon Allies' Max HP by 20%."
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragOldeus.png",
+                    mat3amt: 1,
+                    hover3: "Oldeus"
+                }
+            },
+        trueweapon: //If no TW, may delete this section
+            {
+                name: "Fitoria's Clothes",
+                slot: "/db/Mines/thumbnail/magLB.png",
+                detail: "/db/Equipment/Detail/item_detail_151811.png",
+                skill: "50s CT - 8300% Earth DMG (MAG). For 15s, reduce Enemies' MAG RES by 35%.",
+                skillbreak: 800,
+                passive: 
+                    {
+                        ability1: "When equipped by Fitoria, increase her DMG, accuracy and Healing Output by 20%, and increase her Arts by 2/s.",
+                        ability2: "Increase DEF by 5%."
+                    }
+            },
+        lore: 
+            {   
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
             }
     },
     { //Yusuke - Complete
@@ -23050,6 +23287,326 @@ const UnitInformation = [
                         ability1: "When equipped by Nui, increase own Skill CT REC and Stats by 20%. Does not stack with Abilities of the same name.",
                         ability2: "Increase Dark RES by 5%."
                     }
+            },
+        lore: 
+            {   
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
+            }
+    },
+    { // Takemichi - Missing Lore
+        id: 107616111,
+        name: "Takemichi",
+        attribute: "Fire",
+        type: "Human",
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_107615111.png",
+                detailawk: "/db/Units/Detail/unit_detail_107616111.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_107615111.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107616111.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/healLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/physLB.png"
+            },
+        stats: 
+            {
+                hp: 6415,
+                hpplus: 999,
+                atk: 2889,
+                atkplus: 443,
+                def: 2608,
+                defplus: 401
+            },
+        skillset: 
+            {
+                skill: "12s CT - 1600% Fire DMG (PHY). Increase Paralysis and Freeze RES by 100% during Skill animation.",
+                skillbreak: 400,
+                arts: "17000% Fire DMG (PHY). When this Arts is activated, permanently increase own DMG by 40% (up to 400%).",
+                artsbreak: 1000,
+                truearts: "Increase Allies' Arts by 30. For 30s, increase Human Allies' ATK by 100%.",
+                trueartsbreak: 0
+            },
+        passive: 
+            {
+                ability1: "Increase own Arts by own LUCK at start of quest.",
+                ability2: "Increase own Arts by 10/s when near-death.",
+                ability3: "Increase Rank EXP gained by 30%."
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragTakemichi.png",
+                    mat3amt: 20,
+                    hover3: "Takemichi"
+                }
+            },
+        lore: 
+            {   
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
+            }
+    },
+    { // Mikey - Missing Lore
+        id: 107626512,
+        name: "Mikey",
+        attribute: "Dark",
+        type: "Human",
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_107625512.png",
+                detailawk: "/db/Units/Detail/unit_detail_107626512.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_107625512.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107626512.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 5,
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats: 
+            {
+                hp: 6885,
+                hpplus: 999,
+                atk: 3070,
+                atkplus: 470,
+                def: 2650,
+                defplus: 407
+            },
+        skillset: 
+            {
+                skill: "10s CT - 1800% Dark DMG (PHY). Increase own Arts by 30. 30% chance of inflicting Faint against non-boss Enemies.",
+                skillbreak: 500,
+                arts: "21000% Dark DMG (PHY). For 15s, increase Human Allies' DMG by 70%.",
+                artsbreak: 1000,
+                truearts: "70000% Dark DMG (PHY). For 15s, increase Allies' Critical Rate by 100%.",
+                trueartsbreak: 1800
+            },
+        passive: 
+            {
+                ability1: "Increase own Critical DMG with respect to how high own % of HP is (up to 200%).",
+                ability2: "Increase DMG to Human Enemies by 30%.",
+                ability3: "Increase Arts by 3/s."
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragOldeus.png",
+                    mat3amt: 1,
+                    hover3: "Oldeus"
+                }
+            },
+        lore: 
+            {   
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
+            }
+    },
+    { // Draken - Missing Lore
+        id: 107636412,
+        name: "Draken",
+        attribute: "Light",
+        type: "Human",
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_107635412.png",
+                detailawk: "/db/Units/Detail/unit_detail_107636412.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_107635412.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107636412.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 5,
+                slot3type: "/db/Mines/thumbnail/magLB.png"
+            },
+        stats: 
+            {
+                hp: 6852,
+                hpplus: 999,
+                atk: 3029,
+                atkplus: 464,
+                def: 2701,
+                defplus: 415
+            },
+        skillset: 
+            {
+                skill: "12s CT - 1700% Light DMG (PHY). Increase own Arts by 30. For 7s, reduce Enemies' DEF by 10%.",
+                skillbreak: 500,
+                arts: "22000% Light DMG (PHY). For 20s, reduce Enemies' DMG RES by 30%.",
+                artsbreak: 1000,
+                truearts: "50000% Light DMG (PHY). For 40s, reduce Enemies' PHY RES by 30% (stackable). For 15s, increase Allies' Arts by 2/s.",
+                trueartsbreak: 1500
+            },
+        passive: 
+            {
+                ability1: "Increase Allies' PHY DMG based on how high this unit's HP is (up to 100%). Does not stack with Abilities of the same name.",
+                ability2: "At the start of a Quest, increase Allies' Arts by 30. Does not stack with Abilities of the same name.",
+                ability3: "Increase Paralysis RES by 100%."
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3amt: 1,
+                    hover3: "Fosradius"
+                }
+            },
+        lore: 
+            {   
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
+            }
+    },
+    { // Chifuyu - Missing Lore
+        id: 107646312,
+        name: "Chifuyu",
+        attribute: "Earth",
+        type: "Human",
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_107645312.png",
+                detailawk: "/db/Units/Detail/unit_detail_107646312.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_107645312.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107646312.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/magLB.png"
+            },
+        stats: 
+            {
+                hp: 7077,
+                hpplus: 999,
+                atk: 2800,
+                atkplus: 430,
+                def: 2801,
+                defplus: 430
+            },
+        skillset: 
+            {
+                skill: "8s CT - 2000% Earth DMG (PHY). For 6s, increase own BE Output by 30%.",
+                skillbreak: 400,
+                arts: "17000% Earth DMG (PHY). Revives Fallen Allies with 100% HP. After this Arts revives an Ally, this Arts will be unable to revive any Allies for 50s. For 10s, increase Allies' stats by 30%.",
+                artsbreak: 800,
+                truearts: "35000% Earth DMG (PHY). For 20s, Allies gain a DMG Barrier that negates 6000 DMG. Additionally, for 20s, increase Allies' Crit RES by 30% and DMG RES by 20%.",
+                trueartsbreak: 1200
+            },
+        passive: 
+            {
+                ability1: "Increase Allies' Support Equip CT REC by 10%. Does not stack with Abilities of the same name.",
+                ability2: "Increase Freeze RES by 100%.",
+                ability3: "Increase DEF by 20% when under a DMG Barrier."
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragTonetaurus.png",
+                    mat3amt: 1,
+                    hover3: "Tonetaurus"
+                }
+            },
+        lore: 
+            {   
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
+            }
+    },
+    { // Mitsuya - Missing Lore
+        id: 107656212,
+        name: "Mitsuya",
+        attribute: "Water",
+        type: "Human",
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_107655212.png",
+                detailawk: "/db/Units/Detail/unit_detail_107656212.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_107655212.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107656212.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/healLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats: 
+            {
+                hp: 7080,
+                hpplus: 999,
+                atk: 2943,
+                atkplus: 451,
+                def: 2670,
+                defplus: 410
+            },
+        skillset: 
+            {
+                skill: "13s CT - 1500% Water DMG (PHY). For 6s, reduce Enemies' evasion by 15%.",
+                skillbreak: 600,
+                arts: "18000% Water DMG (PHY). For 20 seconds, increase Allies' Physical Equipment CT REC by 40%.",
+                artsbreak: 1100,
+                truearts: "55000% Water DMG (PHY). For 20s, increase Allies' Arts by 4/s and ATK by 120%.",
+                trueartsbreak: 1700
+            },
+        passive: 
+            {
+                ability1: "When near-death, increase own Arts by 200 and heal own HP by 50%. Ability can only be activated once per Quest.",
+                ability2: "Increase Arts by 5/s when own HP is above 90%.",
+                ability3: "Increase Paralysis RES by 40%."
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragFreydal.png",
+                    mat3amt: 1,
+                    hover3: "Freydal"
+                }
             },
         lore: 
             {   
