@@ -11,17 +11,16 @@ body {
   background-color: #25274d !important;
 }
 
+a {
+  text-decoration: none;
+}
+
 table, th, td {
   color: white;
 }
 
 th, tr {
   border-color: white;
-}
-
-.newsImages {
-  width: 100%;
-  height: auto;
 }
 
 .guidesContent {
@@ -36,4 +35,16 @@ th, tr {
 
 .buffDebuff {
   border: 1px solid;
+}
+
+.newsImages {
+  width: auto;
+  max-height: 400px
+}
+
+@media (max-width: 768px){
+  .newsImages {
+    width: 100%;
+    height: auto;
+  }
 }
