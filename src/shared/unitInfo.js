@@ -6242,7 +6242,7 @@ const UnitInformation = [
                 evoawk: "Her life changed the moment when she protected the Captain of the Divine Knights from his former subordinates, who was trying to kill him. While once she had been a mere weapon, a mindless follower of orders, in that instant her own will began to flourish. She soon grew proud that she was able to pull the trigger for her own reasons. And tonight, she would need to open fire once more, to save her life, and the life of the one she wanted to protect..."
             }
     },
-    { //Gaia - Missing Lore (add AWK lore when available in GL)
+    { //Gaia - Complete
         id: 101716211,
         name: "Gaia",
         rank: "B-",
@@ -6329,7 +6329,7 @@ const UnitInformation = [
             {   
                 evo4: "A divine swordsman during the early period in the Ancient War. He had absolute loyalty to the Higher Gods and paid no heed to personal peril, so he was often sent to the front lines. He was gravely wounded in a surprise attack by a Demon girl during a top-secret investigation of a Dragon research lab. However, his goal just happened to be home to a skilled doctor who saved his life. She saved him against the strong objections of her Dragon superiors, and just as he came to realize his obligation to her. Demons attacked the facility.",
                 evo5: "A swordsman who destroyed a Dragon facility early in Ancient War. His life was saved by a doctor there, yet his wounds still kept him from defending her in a Demon attack. Then, a Dragon researcher appeared and claimed to be able to awaken great power within him. so he agreed immediately with no doubts. His wounds healed before his very eyes. As he felt incredible power filling his body, he stood before the Demons. Though, he did not know that he will go berserk at this moment...",
-                evoawk: "Currently unreleased in Global."
+                evoawk: "A God knight who agreed to undergo an augmenting operation. It indeed let him fulfill his mission to destroy the invading Demon soldiers, but that moment of triumph was short-lived as he realized he could not control his new strength. That was why he ignored the outstretched hand of the girl who saved him and left without a word -- his very presence had become a threat to those he meant to protect."
             }
     },
     { //Millenia - Complete
@@ -13528,7 +13528,7 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
     },
-    { //Melissa - Missing Lore
+    { //Melissa - Complete
         id: 102806412,
         name: "Melissa",
         attribute: "Light",
@@ -13590,7 +13590,7 @@ const UnitInformation = [
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: "Alsol",
+                name: "Arbasol",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "/db/Equipment/Detail/item_detail_106531.png",
                 skill: "40s CT - 10000% Light DMG (PHY). 70% chance to inflict Paralysis.",
@@ -13598,13 +13598,13 @@ const UnitInformation = [
                 passive: 
                     {
                         ability1: "When equipped by Melissa, increase Critical Rate by 20% and heal by an additional 2% of own True Arts' Critical DMG dealt.",
-                        ability2: "Increase DMG by 15%."
+                        ability2: "Increase ATK by 15%."
                     }
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "A Human knight who forged a new era out of the ensuing chaos in the Isliid Empire. Spending her childhood in an orphanage, she became apprenticed to the founder, who was a seasoned Dragon general. Her potential with the lance earned her the nickname \"Dragoon Princess\". Despite being Human, she fought with ferociousness reminiscent of her master to prove she was worthy of her title.",
+                evoawk: "Quite some time has passed since the veteran general fell to his pupil's sword. This young girl gained much during her time at his orphanage: a dragon spear, a sharp wit, a cheerful soul, and unbreakable bonds. Her master's death brought great sadness, but the treasure he gave her lives on. Hearing the laughter of the other orphans, the girl, later known as the Dragoon Princess, perseveres towards a brighter future."
             }
     },
     { //Barossa - Missing Lore
@@ -17120,7 +17120,7 @@ const UnitInformation = [
                 evoawk: "Liese was committed to her duties as a priestess, but her heart longed to follow her childish dreams, in the same way her peers were taken by the awakenings of love. Cutting through the dark underbelly of Reigrad, she found the release she desired while clad in a trenchcoat and cap. As she saw how her alter ego put the people at ease, she gradually felt a new sense of purpose."
             }
     },
-    { //Emi - Missing Lore
+    { //Emi - Complete
         id: 103246512,
         name: "Emi",
         attribute: "Dark",
@@ -17157,7 +17157,7 @@ const UnitInformation = [
                 skillbreak: 400,
                 arts: "11000% Dark DMG (MAG). For 30s, increase Dark Allies' DMG by 60%.",
                 artsbreak: 600,
-                truearts: "For 70s, enter Liberation Mode. While in Liberation Mode, replace Equips with Special Skills, replace Skill with Mega Skill and replace Arts with Special Arts. Other actions cannot be performed while an animation is ongoing.",
+                truearts: "For 70s, enter Revelation Mode. While in Revelation Mode, replace Equips with Morph Skills, replace Skill with Mega Skill and replace Arts with Mega Arts. Other actions cannot be performed while an animation is ongoing.",
                 trueartsbreak: 0,
                 liberation: 
                     {
@@ -17199,7 +17199,7 @@ const UnitInformation = [
             {
                 true1: 
                 {
-                    name: "Ninth Oath",
+                    name: "Nine Oaths",
                     slot: "/db/Mines/thumbnail/magLB.png",
                     thumb: "/db/Equipment/Thumbnail/item_thumbnail_109511.png",
                     detail: "/db/Equipment/Detail/item_detail_109511.png",
@@ -17207,13 +17207,13 @@ const UnitInformation = [
                     skillbreak: 800,
                     passive: 
                         {
-                            ability1: "When equipped by Emi, increase the duration of Liberation Mode by 30s. Does not stack with Abilities of the same name.",
+                            ability1: "When equipped by Emi, increase the duration of Revelation Mode by 30s. Does not stack with Abilities of the same name.",
                             ability2: "Increase MAG RES by 5%."
                         }
                 },
                 true2: 
                 {
-                    name: "Ancient's Row",
+                    name: "Ancient Law",
                     slot: "/db/Mines/thumbnail/magLB.png",
                     thumb: "/db/Equipment/Thumbnail/item_thumbnail_109501.png",
                     detail: "/db/Equipment/Detail/item_detail_109501.png",
@@ -17221,15 +17221,15 @@ const UnitInformation = [
                     skillbreak: 900,
                     passive: 
                         {
-                            ability1: "When equipped by Emi, increase DMG by 20%. At the start of a Quest, increase Emmy's Arts by 100. Does not stack with Abilities of the same name."
+                            ability1: "When equipped by Emi, increase DMG by 20%. At the start of a Quest, increase Emi's Arts by 100. Does not stack with Abilities of the same name."
                         }
                 }
                 
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "A young woman who claims to be an Ancient. She fights Rayas and his allies with her ability to transform into a huge monster. Her distrustful and antisocial nature has kept her from making friends even within Shadow. The only reason she obeys orders is because their objective to create a new world ruled by the Ancients falls in line with her domineering tendencies.",
+                evoawk: "A young woman who claims the world belongs to her. She is able to use the powers of those she absorbs, and they also influence her transformed state. She holds Rayas in great contempt but does not understand why."
             }
     },
     { //Groytz - Missing Lore
@@ -17269,7 +17269,7 @@ const UnitInformation = [
                 skillbreak: 600,
                 arts: "15000% Earth DMG (PHY). For 60s, reduce Enemies' Poison RES by 50%.",
                 artsbreak: 1000,
-                truearts: "For 60s, enter Liberation Mode. While in Liberation Mode, replace Equips with Special Skills, replace Skill with Mega Skill and replace Arts with Special Arts. Other actions cannot be performed while an animation is ongoing.",
+                truearts: "For 60s, enter Revelation Mode. While in Revelation Mode, replace Equips with Morph Skills, replace Skill with Mega Skill and replace Arts with Mega Arts. Other actions cannot be performed while an animation is ongoing.",
                 trueartsbreak: 0,
                 liberation: 
                     {
@@ -17289,7 +17289,7 @@ const UnitInformation = [
             {
                 ability1: "Increase accuracy against Poisoned Enemies by 50%.",
                 ability2: "Increase DMG against Poisoned Enemies by 50%.",
-                ability3: "Increase Groytz's DMG by [30% × # of times Skill or Special Skill 3 inflicted Poison] (up to 300%)."
+                ability3: "Increase Groytz's DMG by [30% × # of times Skill or Morph Skill 3 inflicted Poison] (up to 300%)."
             }, 
         evolution: 
             {
@@ -17333,7 +17333,7 @@ const UnitInformation = [
                     skillbreak: 900,
                     passive: 
                         {
-                            ability1: "When equipped by Groytz, increase own Arts by 50 after exiting Liberation Mode. Does not stack with Abilities of the same name.",
+                            ability1: "When equipped by Groytz, increase own Arts by 50 after exiting Revelation Mode. Does not stack with Abilities of the same name.",
                             ability2: "Increase DEF by 10%."
                         }
                 }
