@@ -17163,7 +17163,7 @@ const UnitInformation = [
                     {
                         skill1: "10s CT - 10000% Dark DMG (MAG). 80% chance to inflict Blind",
                         skill1break: 1000,
-                        skill2: "25000% Dark DMG (MAG). For 15s, reduce Enemies' DMG RES by 50%",
+                        skill2: "15s CT - 25000% Dark DMG (MAG). For 15s, reduce Enemies' DMG RES by 50%",
                         skill2break: 1200,
                         skill3: "25s CT - 48000% Dark DMG (MAG). For 20s, reduce Enemies' CRIT RES by 100%",
                         skill3break: 1500,
