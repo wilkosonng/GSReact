@@ -20999,9 +20999,9 @@ const UnitInformation = [
             {
                 skill: "12s CT - For 12s, heal for 10% of DMG taken, increase Freeze and Paralysis RES by 100%.",
                 skillbreak: 0,
-                arts: "For 20s, increase Allies' DMG by 25%, redirect Allies' DMG taken to self and gain a DMG barrier that negates 9000 DMG to self.",
+                arts: "For 20s, increase Allies' DMG by 25%, redirect Allies' DMG taken to self and gain a DMG barrier that negates 11000 DMG to self. 0 BREAK",
                 artsbreak: 0,
-                truearts: "High chance to inflict Faint. If at least 1 enemy is inflicted with Faint: 33000% Dark DMG (PHY). This attack ignores 100% of enemy DEF. If no enemies are inflicted with Faint: On hit, heal self by 60% + Increase own Arts by 100 (this deals no BREAK to the enemy as well).",
+                truearts: "High chance to inflict Faint. If at least 1 enemy is inflicted with Faint: 55000% Dark DMG (PHY). This attack ignores 100% of enemy DEF. If no enemies are inflicted with Faint: On hit, heal self by 60% + Increase own Arts by 100 (this deals no BREAK to the enemy as well).",
                 trueartsbreak: 4000
             },
         passive: 
@@ -21048,7 +21048,7 @@ const UnitInformation = [
                     skillbreak: 0,
                     passive: 
                         {
-                            ability1: "When equipped by Naofumi, increase PHY RES by 25%, and increase barrier gained from own Arts by 4000.",
+                            ability1: "When equipped by Naofumi, increase PHY RES by 35%, and increase barrier gained from own Arts by 4000.",
                             ability2: "Increase DEF by 10%."
                         }
                 }
@@ -21095,15 +21095,15 @@ const UnitInformation = [
             {
                 skill: "10s CT - 1500% Light DMG (PHY). Increase Arts by 15 + If this Skill crits, increase Arts by an additional 15.",
                 skillbreak: 400,
-                arts: "15000% Light DMG (PHY). When this attack Crits, increase Arts by 70 (only once per Arts). For 15s, if an Ally is redirecting DMG, increase Max HP of that Ally by 33% and heal that Ally by 150/s.",
+                arts: "15000% Light DMG (PHY). When this attack Crits, increase Arts by 70 (only once per Arts). For 20s, if an Ally is redirecting DMG, increase Max HP of that Ally by 50% and heal that Ally by 150/s.",
                 artsbreak: 800,
-                truearts: "45000% Light DMG (PHY). For 35s, increase Critical Rate and Skill CT REC by 50%.",
+                truearts: "65000% Light DMG (PHY). For 35s, increase Critical Rate and Skill CT REC by 50%.",
                 trueartsbreak: 1500
             },
         passive: 
             {
                 ability1: "Increase Critical Rate by 20%.",
-                ability2: "Increase Accuracy by 20%. If an Ally is redirecting DMG, increase DMG by 60%."
+                ability2: "Increase Accuracy by 20%. If an Ally is redirecting DMG, increase DMG by 100%."
             }, 
         evolution: 
             {
@@ -21137,7 +21137,7 @@ const UnitInformation = [
                 evoawk: "Raphtalia was summoned to Raktehelm along with Naofumi, Filo and Melty. She tries to act as a bridge between Naofumi and others without much success, Rayas and his friends included. However, on the battlefield, Raphtalia's sword skills are not to be outdone by Rayas and his friends as she shows off her techniques proudly."
             }
     },
-    { //Filo - Missing TW
+    { //Filo - Complete
         id: 107276312,
         name: "Filo",
         rank: "B+",
@@ -21174,12 +21174,12 @@ const UnitInformation = [
                 skillbreak: 800,
                 arts: "20000% Earth DMG (MAG). For 15s, reduce Enemies' Action Speed by 20% and DEF by 50%.",
                 artsbreak: 1500,
-                truearts: "55000% Earth DMG (PHY). The lower Enemies' health, the greater the increase in DMG of this True Arts (up to 250%).",
+                truearts: "68000% Earth DMG (PHY). The lower Enemies' health, the greater the increase in DMG of this True Arts (up to 350%).",
                 trueartsbreak: 3000
             },
         passive: 
             {
-                ability1: "Increase PHY RES by 20%. Increase Art Gauge by 2/s.",
+                ability1: "Increase PHY RES by 20% and Increase own Arts by 2/s. If own HP is above 80%, increase Arts by 4/s instead.",
                 ability2: "Increase DMG to Dragon Enemies by 50%."
             }, 
         evolution: 
@@ -21195,13 +21195,26 @@ const UnitInformation = [
                     hover3: "Tonetaurus",
                 }
             },
+        trueweapon: //If no TW, may delete this section
+            {
+                name: "Filo's Hairpin",
+                slot: "/db/Mines/thumbnail/magLB.png",
+                detail: "/db/Equipment/Detail/item_detail_151801.png",
+                skill: "55s CT - 7000% Earth DMG (MAG). For 10s, increase own Critical Rate by 70%. If user is Earth, increase own Critical Rate by 100% instead.",
+                skillbreak: 700,
+                passive: 
+                    {
+                        ability1: "When equipped by Filo, increase DMG by 30% and Arts by 1/s.",
+                        ability2: "Increase Skill DMG by 10%."
+                    }
+            },
         lore: 
             {   
                 evo5: "Filo is a 'Filolial', which is a bird-like monster that hatched from the egg Naofumi Iwatani purchased from the slave master. She was born in bird form, but since her caretaker was naofumi, one of the legendary heroes, she was able to change form into a small girl with wings like an angel. Although her personality is quite childish and often can't quite follow difficult conversations, Filo admires Naofumi as her master and Raphtalia as her sister. As soon as she met Melty, Filo instantly became friends with her, and have been besties since.",
                 evoawk: "Filo was summoned to Raktehelm along with Naofumi. Alghough she is in a different world, she is easy-going as always and warms up to Rayas and his friends right off the bat. It seems that she can understand Rolly's language... and also occasionally shows off her abilities as a monster. Since she was always on the run with Naofumi and his party, she was unable to eat proper meals. But in Reigrad, she's been given delicious meals at every turn and has been able to fully recharge. She'll pick fights with Raphtalia, but that's because Filo knows Naofumi can't attack back."
             }
     },
-    { //Melty - Missing TW
+    { //Melty - Complete
         id: 107286212,
         name: "Melty",
         rank: "S",
@@ -21238,7 +21251,7 @@ const UnitInformation = [
                 skillbreak: 0,
                 arts: "15000% Water DMG (MAG). For 13s, increase Allies’ ATK by 40%, Arts by 3/s.",
                 artsbreak: 1000,
-                truearts: "35000% Water DMG (MAG). For 15s, increase Allies’ Fire RES by 20%, reduce Enemies' DMG RES by 50%.",
+                truearts: "35000% Water DMG (MAG). For 15s, increase Allies’ Fire RES by 20%, reduce Enemies' DMG RES by 60%.",
                 trueartsbreak: 1500
             },
         passive: 
@@ -21258,6 +21271,19 @@ const UnitInformation = [
                     mat3amt: 1,
                     hover3: "Aerugraxes"
                 }
+            },
+        trueweapon: //If no TW, may delete this section
+            {
+                name: "Melty's Dress",
+                slot: "/db/Mines/thumbnail/suppLB.png",
+                detail: "/db/Equipment/Detail/item_detail_151791.png",
+                skill: "40s CT - For 8s, increase Allies' DMG RES by 10% and Arts gauge by 3/s.",
+                skillbreak: 700,
+                passive: 
+                    {
+                        ability1: "When equipped by Melty, the DMG RES and Arts generation buff of this Equip's Skill is doubled. Does not stack with Abilities of the same name.",
+                        ability2: "Increase DEF by 5%."
+                    }
             },
         lore: 
             {   
@@ -21325,7 +21351,7 @@ const UnitInformation = [
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: "Fitoria's Clothes",
+                name: "Fitoria's Gown",
                 slot: "/db/Mines/thumbnail/magLB.png",
                 detail: "/db/Equipment/Detail/item_detail_151811.png",
                 skill: "50s CT - 8300% Earth DMG (MAG). For 15s, reduce Enemies' MAG RES by 35%.",
