@@ -207,6 +207,7 @@ const UnitInformation = [
     { //Corsair - Complete
         id: 100026211,
         name: "Corsair",
+        rank: "B+",
         twrequire: "reliance",
         attribute: "Water",
         type: "Human",
@@ -1009,7 +1010,7 @@ const UnitInformation = [
     { //Abaddon - Complete
         id: 100606512,
         name: "Abaddon",
-        rank: "TBD",
+        rank: "B",
         attribute: "Dark",
         type: "Demon",
         image: 
@@ -2615,6 +2616,7 @@ const UnitInformation = [
     { //Gilliam - Complete
         id: 101126311,
         name: "Gilliam",
+        rank: "B",
         attribute: "Earth",
         type: "Human",
         image: 
@@ -2895,7 +2897,7 @@ const UnitInformation = [
     { //Sophie - Complete
         id: 101156111,
         name: "Sophie",
-        rank: "TBD",
+        rank: "B",
         attribute: "Fire",
         type: "Human",
         image: 
@@ -3799,7 +3801,7 @@ const UnitInformation = [
     { //Zoroas - Complete
         id: 101266512,
         name: "Zoroas",
-        rank: "B-",
+        rank: "B",
         attribute: "Dark",
         type: "Dragon",
         image: 
@@ -4494,7 +4496,7 @@ const UnitInformation = [
     { //Rhiothis - Complete
         id: 101356412,
         name: "Rhiothis",
-        rank: "F",
+        rank: "B-",
         attribute: "Light",
         type: "God",
         image: 
@@ -5567,7 +5569,7 @@ const UnitInformation = [
     { //Keit - Complete
         id: 101626312,
         name: "Keit",
-        rank: "TBD",
+        rank: "B",
         attribute: "Earth",
         type: "Human",
         image: 
@@ -5724,7 +5726,7 @@ const UnitInformation = [
     { //Mizyna - Complete
         id: 101656512,
         name: "Mizyna",
-        rank: "TBD",
+        rank: "B",
         attribute: "Dark",
         type: "Demon",
         image: 
@@ -6245,7 +6247,7 @@ const UnitInformation = [
     { //Gaia - Missing Lore (add AWK lore when available in GL)
         id: 101716211,
         name: "Gaia",
-        rank: "B-",
+        rank: "TBD",
         attribute: "Water",
         type: "God",
         image: 
@@ -7005,7 +7007,7 @@ const UnitInformation = [
     { //Musse - Complete
         id: 101816312,
         name: "Musse",
-        rank: "TBD",
+        rank: "A-",
         attribute: "Earth",
         type: "Spirit",
         image: 
@@ -9004,6 +9006,7 @@ const UnitInformation = [
     { //Kane (Earth) - Complete
         id: 102176312,
         name: "Kane (Earth)",
+        rank: "B",
         attribute: "Earth",
         type: "Human",
         image: 
@@ -9314,7 +9317,7 @@ const UnitInformation = [
     { //Satsuki - Complete
         id: 102216212,
         name: "Satsuki",
-        rank: "B+",
+        rank: "A-",
         attribute: "Water",
         type: "Human",
         image: 
@@ -9392,7 +9395,8 @@ const UnitInformation = [
     { //Ryuko - Complete
         id: 102226112,
         name: "Ryuko",
-        rank: "B+",
+        rank: "A-",
+        twrequire: "favorable",
         attribute: "Fire",
         type: "Human",
         image: 
@@ -11823,7 +11827,7 @@ const UnitInformation = [
     { //Maquiness - Complete
         id: 102566312,
         name: "Maquiness",
-        rank: "TBD",
+        rank: "B",
         attribute: "Earth",
         type: "Human",
         image: 
@@ -12316,7 +12320,7 @@ const UnitInformation = [
     { //Shasha - Complete
         id: 102636412,
         name: "Shasha",
-        rank: "TBD",
+        rank: "B",
         attribute: "Light",
         type: "Demon",
         image: 
@@ -12547,7 +12551,7 @@ const UnitInformation = [
     { //Berwick (Physical) - Complete
         id: 102666112,
         name: "Berwick (Physical)",
-        rank: "S-",
+        rank: "S",
         attribute: "Fire",
         type: "Demon",
         image: 
@@ -13531,6 +13535,7 @@ const UnitInformation = [
     { //Melissa - Missing Lore
         id: 102806412,
         name: "Melissa",
+        rank: "TBD",
         attribute: "Light",
         type: "Human",
         image: 
@@ -14423,6 +14428,7 @@ const UnitInformation = [
     { //Adele - Missing Lore
         id: 102916212,
         name: "Adele",
+        rank: "A-",
         attribute: "Water",
         type: "Human",
         image: 
@@ -16323,6 +16329,7 @@ const UnitInformation = [
     { //Sharon - Complete
         id: 103156412,
         name: "Sharon",
+        rank: "B+",
         attribute: "Light",
         type: "Human",
         image: 
@@ -16487,7 +16494,7 @@ const UnitInformation = [
     { //Raine - Complete
         id: 103176212,
         name: "Raine",
-        rank: "TBD",
+        rank: "B",
         attribute: "Water",
         type: "Human",
         image: 
@@ -16650,7 +16657,7 @@ const UnitInformation = [
     { //Marika - Complete
         id: 103196112,
         name: "Marika",
-        rank: "TBD",
+        rank: "A-",
         attribute: "Fire",
         type: "Human",
         image: 
@@ -17123,6 +17130,7 @@ const UnitInformation = [
     { //Emi - Missing Lore
         id: 103246512,
         name: "Emi",
+        rank: "TBD",
         attribute: "Dark",
         type: "Human",
         image: 
@@ -17597,6 +17605,7 @@ const UnitInformation = [
     { //Simon - Complete
         id: 103306512,
         name: "Simon",
+        rank: "S-",
         attribute: "Dark",
         type: "Human",
         image: 
@@ -17933,6 +17942,7 @@ const UnitInformation = [
     { //Airi - Complete
         id: 103356312,
         name: "Airi",
+        rank: "A+",
         attribute: "Earth",
         type: "Human",
         image: 
@@ -18015,7 +18025,8 @@ const UnitInformation = [
     },
     { //Lyra - Missing Lore
         id: 103366412,
-        name: "Lyra",
+        name: "Lyla",
+        rank: "A+",
         attribute: "Light",
         type: "Human",
         image: 
@@ -18241,6 +18252,7 @@ const UnitInformation = [
     { //Elizabeth - Missing Lore
         id: 103396112,
         name: "Elizabeth",
+        rank: "A-",
         attribute: "Fire",
         type: "Human",
         image: 
@@ -21268,6 +21280,7 @@ const UnitInformation = [
     { // Fitoria - Missing Lore
         id: 107606312,
         name: "Fitoria",
+        rank: "TBD",
         attribute: "Earth",
         type: "Demon",
         image: 
@@ -22964,6 +22977,7 @@ const UnitInformation = [
     { //Natsu Dragneel - Complete
         id: 107556112,
         name: "Natsu Dragneel",
+        rank: "A+",
         attribute: "Fire",
         type: "Demon",
         image: 
@@ -23028,6 +23042,7 @@ const UnitInformation = [
     { //Lucy Heartfilia - Complete
         id: 107566412,
         name: "Lucy Heartfilia",
+        rank: "A+",
         attribute: "Light",
         type: "Human",
         image: 
@@ -23092,6 +23107,7 @@ const UnitInformation = [
     { //Gray Fullbuster - Complete
         id: 107576212,
         name: "Gray Fullbuster",
+        rank: "A",
         attribute: "Water",
         type: "Human",
         image: 
@@ -23156,6 +23172,7 @@ const UnitInformation = [
     { //Erza Scarlet - Complete
         id: 107586412,
         name: "Erza Scarlet",
+        rank: "S-",
         attribute: "Light",
         type: "Human",
         image: 
@@ -23220,6 +23237,7 @@ const UnitInformation = [
     { // Nui Harume - Missing Lore
         id: 107596512,
         name: "Nui Harume",
+        rank: "A+",
         attribute: "Dark",
         type: "Demon",
         image: 
