@@ -16,7 +16,7 @@ export default function News () {
             <Row>
                 <Card style={{backgroundColor: "#29648a"}}>
                     <CardHeader>
-                        <h1><center><strong>Game News</strong></center></h1>
+                        <h1><center><strong>Site News</strong></center></h1>
                     </CardHeader>
                 </Card>
             </Row>
@@ -79,7 +79,28 @@ export default function News () {
                                 </Card>
                             </Col>
                         </Row>
-                            <Card style={{backgroundColor:"#464866", color: "#C5C6C7", border: "none"}}>
+                        <Row>
+                            <Card style={{backgroundColor: "#25274d", color: "#29648a", maxHeight: "500px"}}>
+                                <CardHeader style={{backgroundColor: "#29648a", color: "#aaabb8"}}><center><h2>Discord</h2></center></CardHeader>
+                                <CardBody>
+                                    <center>
+                                        Visit the Grand Summoners Official Discord for older news and Unit Reviews!
+                                        <br />
+                                        <a href="https://discord.gg/grandsummoners" id="discordLink">Click Here</a>
+                                    </center>
+                                </CardBody>
+                            </Card>
+                        </Row>
+                    </CardBody>
+                </Card>
+            </Row>
+        </Container>
+    )
+}
+
+/**
+ * Old News 
+ * <Card style={{backgroundColor:"#464866", color: "#C5C6C7", border: "none"}}>
                                 <CardBody>
                                 <CardGroup>
                                     {newsTopics.map(theNews => {
@@ -103,9 +124,4 @@ export default function News () {
                                 </CardGroup>
                                 </CardBody>
                             </Card>
-                    </CardBody>
-                </Card>
-            </Row>
-        </Container>
-    )
-}
+ */
