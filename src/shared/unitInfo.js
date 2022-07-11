@@ -6244,7 +6244,7 @@ const UnitInformation = [
                 evoawk: "Her life changed the moment when she protected the Captain of the Divine Knights from his former subordinates, who was trying to kill him. While once she had been a mere weapon, a mindless follower of orders, in that instant her own will began to flourish. She soon grew proud that she was able to pull the trigger for her own reasons. And tonight, she would need to open fire once more, to save her life, and the life of the one she wanted to protect..."
             }
     },
-    { //Gaia - Missing Lore (add AWK lore when available in GL)
+    { //Gaia - Complete
         id: 101716211,
         name: "Gaia",
         rank: "TBD",
@@ -6331,7 +6331,7 @@ const UnitInformation = [
             {   
                 evo4: "A divine swordsman during the early period in the Ancient War. He had absolute loyalty to the Higher Gods and paid no heed to personal peril, so he was often sent to the front lines. He was gravely wounded in a surprise attack by a Demon girl during a top-secret investigation of a Dragon research lab. However, his goal just happened to be home to a skilled doctor who saved his life. She saved him against the strong objections of her Dragon superiors, and just as he came to realize his obligation to her. Demons attacked the facility.",
                 evo5: "A swordsman who destroyed a Dragon facility early in Ancient War. His life was saved by a doctor there, yet his wounds still kept him from defending her in a Demon attack. Then, a Dragon researcher appeared and claimed to be able to awaken great power within him. so he agreed immediately with no doubts. His wounds healed before his very eyes. As he felt incredible power filling his body, he stood before the Demons. Though, he did not know that he will go berserk at this moment...",
-                evoawk: "Currently unreleased in Global."
+                evoawk: "A God knight who agreed to undergo an augmenting operation. It indeed let him fulfill his mission to destroy the invading Demon soldiers, but that moment of triumph was short-lived as he realized he could not control his new strength. That was why he ignored the outstretched hand of the girl who saved him and left without a word -- his very presence had become a threat to those he meant to protect."
             }
     },
     { //Millenia - Complete
@@ -13532,7 +13532,7 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
     },
-    { //Melissa - Missing Lore
+    { //Melissa - Complete
         id: 102806412,
         name: "Melissa",
         rank: "TBD",
@@ -13595,7 +13595,7 @@ const UnitInformation = [
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: "Alsol",
+                name: "Arbasol",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "/db/Equipment/Detail/item_detail_106531.png",
                 skill: "40s CT - 10000% Light DMG (PHY). 70% chance to inflict Paralysis.",
@@ -13603,13 +13603,13 @@ const UnitInformation = [
                 passive: 
                     {
                         ability1: "When equipped by Melissa, increase Critical Rate by 20% and heal by an additional 2% of own True Arts' Critical DMG dealt.",
-                        ability2: "Increase DMG by 15%."
+                        ability2: "Increase ATK by 15%."
                     }
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "A Human knight who forged a new era out of the ensuing chaos in the Isliid Empire. Spending her childhood in an orphanage, she became apprenticed to the founder, who was a seasoned Dragon general. Her potential with the lance earned her the nickname \"Dragoon Princess\". Despite being Human, she fought with ferociousness reminiscent of her master to prove she was worthy of her title.",
+                evoawk: "Quite some time has passed since the veteran general fell to his pupil's sword. This young girl gained much during her time at his orphanage: a dragon spear, a sharp wit, a cheerful soul, and unbreakable bonds. Her master's death brought great sadness, but the treasure he gave her lives on. Hearing the laughter of the other orphans, the girl, later known as the Dragoon Princess, perseveres towards a brighter future."
             }
     },
     { //Barossa - Missing Lore
@@ -17127,7 +17127,7 @@ const UnitInformation = [
                 evoawk: "Liese was committed to her duties as a priestess, but her heart longed to follow her childish dreams, in the same way her peers were taken by the awakenings of love. Cutting through the dark underbelly of Reigrad, she found the release she desired while clad in a trenchcoat and cap. As she saw how her alter ego put the people at ease, she gradually felt a new sense of purpose."
             }
     },
-    { //Emi - Missing Lore
+    { //Emi - Complete
         id: 103246512,
         name: "Emi",
         rank: "TBD",
@@ -17165,13 +17165,13 @@ const UnitInformation = [
                 skillbreak: 400,
                 arts: "11000% Dark DMG (MAG). For 30s, increase Dark Allies' DMG by 60%.",
                 artsbreak: 600,
-                truearts: "For 70s, enter Liberation Mode. While in Liberation Mode, replace Equips with Special Skills, replace Skill with Mega Skill and replace Arts with Special Arts. Other actions cannot be performed while an animation is ongoing.",
+                truearts: "For 70s, enter Revelation Mode. While in Revelation Mode, replace Equips with Morph Skills, replace Skill with Mega Skill and replace Arts with Mega Arts. Other actions cannot be performed while an animation is ongoing.",
                 trueartsbreak: 0,
                 liberation: 
                     {
                         skill1: "10s CT - 10000% Dark DMG (MAG). 80% chance to inflict Blind",
                         skill1break: 1000,
-                        skill2: "25000% Dark DMG (MAG). For 15s, reduce Enemies' DMG RES by 50%",
+                        skill2: "15s CT - 25000% Dark DMG (MAG). For 15s, reduce Enemies' DMG RES by 50%",
                         skill2break: 1200,
                         skill3: "25s CT - 48000% Dark DMG (MAG). For 20s, reduce Enemies' CRIT RES by 100%",
                         skill3break: 1500,
@@ -17207,7 +17207,7 @@ const UnitInformation = [
             {
                 true1: 
                 {
-                    name: "Ninth Oath",
+                    name: "Nine Oaths",
                     slot: "/db/Mines/thumbnail/magLB.png",
                     thumb: "/db/Equipment/Thumbnail/item_thumbnail_109511.png",
                     detail: "/db/Equipment/Detail/item_detail_109511.png",
@@ -17215,13 +17215,13 @@ const UnitInformation = [
                     skillbreak: 800,
                     passive: 
                         {
-                            ability1: "When equipped by Emi, increase the duration of Liberation Mode by 30s. Does not stack with Abilities of the same name.",
+                            ability1: "When equipped by Emi, increase the duration of Revelation Mode by 30s. Does not stack with Abilities of the same name.",
                             ability2: "Increase MAG RES by 5%."
                         }
                 },
                 true2: 
                 {
-                    name: "Ancient's Row",
+                    name: "Ancient Law",
                     slot: "/db/Mines/thumbnail/magLB.png",
                     thumb: "/db/Equipment/Thumbnail/item_thumbnail_109501.png",
                     detail: "/db/Equipment/Detail/item_detail_109501.png",
@@ -17229,15 +17229,15 @@ const UnitInformation = [
                     skillbreak: 900,
                     passive: 
                         {
-                            ability1: "When equipped by Emi, increase DMG by 20%. At the start of a Quest, increase Emmy's Arts by 100. Does not stack with Abilities of the same name."
+                            ability1: "When equipped by Emi, increase DMG by 20%. At the start of a Quest, increase Emi's Arts by 100. Does not stack with Abilities of the same name."
                         }
                 }
                 
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "A young woman who claims to be an Ancient. She fights Rayas and his allies with her ability to transform into a huge monster. Her distrustful and antisocial nature has kept her from making friends even within Shadow. The only reason she obeys orders is because their objective to create a new world ruled by the Ancients falls in line with her domineering tendencies.",
+                evoawk: "A young woman who claims the world belongs to her. She is able to use the powers of those she absorbs, and they also influence her transformed state. She holds Rayas in great contempt but does not understand why."
             }
     },
     { //Groytz - Missing Lore
@@ -17277,7 +17277,7 @@ const UnitInformation = [
                 skillbreak: 600,
                 arts: "15000% Earth DMG (PHY). For 60s, reduce Enemies' Poison RES by 50%.",
                 artsbreak: 1000,
-                truearts: "For 60s, enter Liberation Mode. While in Liberation Mode, replace Equips with Special Skills, replace Skill with Mega Skill and replace Arts with Special Arts. Other actions cannot be performed while an animation is ongoing.",
+                truearts: "For 60s, enter Revelation Mode. While in Revelation Mode, replace Equips with Morph Skills, replace Skill with Mega Skill and replace Arts with Mega Arts. Other actions cannot be performed while an animation is ongoing.",
                 trueartsbreak: 0,
                 liberation: 
                     {
@@ -17297,7 +17297,7 @@ const UnitInformation = [
             {
                 ability1: "Increase accuracy against Poisoned Enemies by 50%.",
                 ability2: "Increase DMG against Poisoned Enemies by 50%.",
-                ability3: "Increase Groytz's DMG by [30% × # of times Skill or Special Skill 3 inflicted Poison] (up to 300%)."
+                ability3: "Increase Groytz's DMG by [30% × # of times Skill or Morph Skill 3 inflicted Poison] (up to 300%)."
             }, 
         evolution: 
             {
@@ -17341,7 +17341,7 @@ const UnitInformation = [
                     skillbreak: 900,
                     passive: 
                         {
-                            ability1: "When equipped by Groytz, increase own Arts by 50 after exiting Liberation Mode. Does not stack with Abilities of the same name.",
+                            ability1: "When equipped by Groytz, increase own Arts by 50 after exiting Revelation Mode. Does not stack with Abilities of the same name.",
                             ability2: "Increase DEF by 10%."
                         }
                 }
@@ -21011,9 +21011,9 @@ const UnitInformation = [
             {
                 skill: "12s CT - For 12s, heal for 10% of DMG taken, increase Freeze and Paralysis RES by 100%.",
                 skillbreak: 0,
-                arts: "For 20s, increase Allies' DMG by 25%, redirect Allies' DMG taken to self and gain a DMG barrier that negates 9000 DMG to self.",
+                arts: "For 20s, increase Allies' DMG by 25%, redirect Allies' DMG taken to self and gain a DMG barrier that negates 11000 DMG to self. 0 BREAK",
                 artsbreak: 0,
-                truearts: "High chance to inflict Faint. If at least 1 enemy is inflicted with Faint: 33000% Dark DMG (PHY). This attack ignores 100% of enemy DEF. If no enemies are inflicted with Faint: On hit, heal self by 60% + Increase own Arts by 100 (this deals no BREAK to the enemy as well).",
+                truearts: "High chance to inflict Faint. If at least 1 enemy is inflicted with Faint: 55000% Dark DMG (PHY). This attack ignores 100% of enemy DEF. If no enemies are inflicted with Faint: On hit, heal self by 60% + Increase own Arts by 100 (this deals no BREAK to the enemy as well).",
                 trueartsbreak: 4000
             },
         passive: 
@@ -21060,7 +21060,7 @@ const UnitInformation = [
                     skillbreak: 0,
                     passive: 
                         {
-                            ability1: "When equipped by Naofumi, increase PHY RES by 25%, and increase barrier gained from own Arts by 4000.",
+                            ability1: "When equipped by Naofumi, increase PHY RES by 35%, and increase barrier gained from own Arts by 4000.",
                             ability2: "Increase DEF by 10%."
                         }
                 }
@@ -21107,15 +21107,15 @@ const UnitInformation = [
             {
                 skill: "10s CT - 1500% Light DMG (PHY). Increase Arts by 15 + If this Skill crits, increase Arts by an additional 15.",
                 skillbreak: 400,
-                arts: "15000% Light DMG (PHY). When this attack Crits, increase Arts by 70 (only once per Arts). For 15s, if an Ally is redirecting DMG, increase Max HP of that Ally by 33% and heal that Ally by 150/s.",
+                arts: "15000% Light DMG (PHY). When this attack Crits, increase Arts by 70 (only once per Arts). For 20s, if an Ally is redirecting DMG, increase Max HP of that Ally by 50% and heal that Ally by 150/s.",
                 artsbreak: 800,
-                truearts: "45000% Light DMG (PHY). For 35s, increase Critical Rate and Skill CT REC by 50%.",
+                truearts: "65000% Light DMG (PHY). For 35s, increase Critical Rate and Skill CT REC by 50%.",
                 trueartsbreak: 1500
             },
         passive: 
             {
                 ability1: "Increase Critical Rate by 20%.",
-                ability2: "Increase Accuracy by 20%. If an Ally is redirecting DMG, increase DMG by 60%."
+                ability2: "Increase Accuracy by 20%. If an Ally is redirecting DMG, increase DMG by 100%."
             }, 
         evolution: 
             {
@@ -21149,7 +21149,7 @@ const UnitInformation = [
                 evoawk: "Raphtalia was summoned to Raktehelm along with Naofumi, Filo and Melty. She tries to act as a bridge between Naofumi and others without much success, Rayas and his friends included. However, on the battlefield, Raphtalia's sword skills are not to be outdone by Rayas and his friends as she shows off her techniques proudly."
             }
     },
-    { //Filo - Missing TW
+    { //Filo - Complete
         id: 107276312,
         name: "Filo",
         rank: "B+",
@@ -21186,12 +21186,12 @@ const UnitInformation = [
                 skillbreak: 800,
                 arts: "20000% Earth DMG (MAG). For 15s, reduce Enemies' Action Speed by 20% and DEF by 50%.",
                 artsbreak: 1500,
-                truearts: "55000% Earth DMG (PHY). The lower Enemies' health, the greater the increase in DMG of this True Arts (up to 250%).",
+                truearts: "68000% Earth DMG (PHY). The lower Enemies' health, the greater the increase in DMG of this True Arts (up to 350%).",
                 trueartsbreak: 3000
             },
         passive: 
             {
-                ability1: "Increase PHY RES by 20%. Increase Art Gauge by 2/s.",
+                ability1: "Increase PHY RES by 20% and Increase own Arts by 2/s. If own HP is above 80%, increase Arts by 4/s instead.",
                 ability2: "Increase DMG to Dragon Enemies by 50%."
             }, 
         evolution: 
@@ -21207,13 +21207,26 @@ const UnitInformation = [
                     hover3: "Tonetaurus",
                 }
             },
+        trueweapon: //If no TW, may delete this section
+            {
+                name: "Filo's Hairpin",
+                slot: "/db/Mines/thumbnail/magLB.png",
+                detail: "/db/Equipment/Detail/item_detail_151801.png",
+                skill: "55s CT - 7000% Earth DMG (MAG). For 10s, increase own Critical Rate by 70%. If user is Earth, increase own Critical Rate by 100% instead.",
+                skillbreak: 700,
+                passive: 
+                    {
+                        ability1: "When equipped by Filo, increase DMG by 30% and Arts by 1/s.",
+                        ability2: "Increase Skill DMG by 10%."
+                    }
+            },
         lore: 
             {   
                 evo5: "Filo is a 'Filolial', which is a bird-like monster that hatched from the egg Naofumi Iwatani purchased from the slave master. She was born in bird form, but since her caretaker was naofumi, one of the legendary heroes, she was able to change form into a small girl with wings like an angel. Although her personality is quite childish and often can't quite follow difficult conversations, Filo admires Naofumi as her master and Raphtalia as her sister. As soon as she met Melty, Filo instantly became friends with her, and have been besties since.",
                 evoawk: "Filo was summoned to Raktehelm along with Naofumi. Alghough she is in a different world, she is easy-going as always and warms up to Rayas and his friends right off the bat. It seems that she can understand Rolly's language... and also occasionally shows off her abilities as a monster. Since she was always on the run with Naofumi and his party, she was unable to eat proper meals. But in Reigrad, she's been given delicious meals at every turn and has been able to fully recharge. She'll pick fights with Raphtalia, but that's because Filo knows Naofumi can't attack back."
             }
     },
-    { //Melty - Missing TW
+    { //Melty - Complete
         id: 107286212,
         name: "Melty",
         rank: "S",
@@ -21250,7 +21263,7 @@ const UnitInformation = [
                 skillbreak: 0,
                 arts: "15000% Water DMG (MAG). For 13s, increase Allies’ ATK by 40%, Arts by 3/s.",
                 artsbreak: 1000,
-                truearts: "35000% Water DMG (MAG). For 15s, increase Allies’ Fire RES by 20%, reduce Enemies' DMG RES by 50%.",
+                truearts: "35000% Water DMG (MAG). For 15s, increase Allies’ Fire RES by 20%, reduce Enemies' DMG RES by 60%.",
                 trueartsbreak: 1500
             },
         passive: 
@@ -21270,6 +21283,19 @@ const UnitInformation = [
                     mat3amt: 1,
                     hover3: "Aerugraxes"
                 }
+            },
+        trueweapon: //If no TW, may delete this section
+            {
+                name: "Melty's Dress",
+                slot: "/db/Mines/thumbnail/suppLB.png",
+                detail: "/db/Equipment/Detail/item_detail_151791.png",
+                skill: "40s CT - For 8s, increase Allies' DMG RES by 10% and Arts gauge by 3/s.",
+                skillbreak: 700,
+                passive: 
+                    {
+                        ability1: "When equipped by Melty, the DMG RES and Arts generation buff of this Equip's Skill is doubled. Does not stack with Abilities of the same name.",
+                        ability2: "Increase DEF by 5%."
+                    }
             },
         lore: 
             {   
@@ -21338,7 +21364,7 @@ const UnitInformation = [
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: "Fitoria's Clothes",
+                name: "Fitoria's Gown",
                 slot: "/db/Mines/thumbnail/magLB.png",
                 detail: "/db/Equipment/Detail/item_detail_151811.png",
                 skill: "50s CT - 8300% Earth DMG (MAG). For 15s, reduce Enemies' MAG RES by 35%.",
