@@ -21451,7 +21451,7 @@ const UnitInformation = [
                 evoawk: "Melty was summoned to Raktehelm along with Naofumi, Raphtalia, and Filo. She is against Naofumi's opinion of remaining in Raktehelm because she wishes to return to Melromarc as soon as possible. However, knowing Naofumi feels more at home than ever in Raktehelm, she cannot deny his request outright and feels anxious."
             }
     },
-    { // Fitoria - Missing Lore
+    { // Fitoria - Complete
         id: 107606312,
         name: "Fitoria",
         rank: "TBD",
@@ -21525,8 +21525,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "The queen of all the world's Filolials. She rescued the Shield Hero's party after they freed Tyrant Dragon Rex. Though she possesses immense power, she believed only the Cardinal Heroes could fend off the Waves of Catastrophe, which is why she was so critical of Naofumi's refusal to cooperate with the others.",
+                evoawk: "Adamant that Naofumi reconcile with the other Heroes, she took Melty hostage and demanded a duel with Filo. Naofumi still hesitated, but Filo gladly accepted to help her friend. As for why the Filolial Queen took such drastic measures, she had a different reason..."
             }
     },
     { //Yusuke - Complete
