@@ -19329,7 +19329,7 @@ const UnitInformation = [
                     hover4: "Aerugraxes"
                 }
             },
-        trueweapon: //If no TW, may delete this section
+        trueweapon: //If no TW, may delete this section 
             {
                 name: "Heaven's Thunder Armour",
                 slot: "/db/Mines/thumbnail/physLB.png",
@@ -19347,6 +19347,154 @@ const UnitInformation = [
                 evo5: "Currently unreleased in Global.",
                 evoawk: "Currently unreleased in Global."
             }
+    },
+    { // Sakuya - Missing Lore
+        id: 103516312,
+        name: "Sakuya",
+        attribute: "Earth",
+        type: "Human",
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_103515312.png",
+                detailawk: "/db/Units/Detail/unit_detail_103516312.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_103515312.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103516312.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats: 
+            {
+                hp: 6750,
+                hpplus: 999,
+                atk: 2998,
+                atkplus: 459,
+                def: 2801,
+                defplus: 430
+            },
+        skillset: 
+            {
+                skill: "12s CT- 2200% Earth DMG (PHY). Plant 3 bombs (up to 6).",
+                skillbreak: 500,
+                arts: "16000% Earth DMG (PHY). For 10s, increase Allies' evasion by [5% × # of bombs planted].",
+                artsbreak: 900,
+                truearts: "For 120s, enter Third Eye. During Third Eye: [40000% + 10000% × # of bombs planted] Earth DMG (PHY). Remove all planted bombs. For 15s, increase Allies' PHY DMG by 100%.",
+                trueartsbreak: 1500
+            },
+        passive: 
+            {
+                ability1: "During Third Eye or True Third Eye, ignore 100% of Enemies' DEF and increase Arts by 5/s.",
+                ability2: "When entering Third Eye or True Third Eye, if enemy boss is God/Spirit, activate True Third Eye instead. During True Third Eye, increase DMG to God and Spirit enemies by 200%.",
+                ability3: "Increase Accuracy by 10%."
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragGoldola.png",
+                    mat3amt: 2,
+                    hover3: "Goldola",
+                    mat4: "/db/Icons/dungeon_drops/fragRadachne.png",
+                    mat4amt: 1,
+                    hover4: "Radachne"
+                }
+            },
+        trueweapon: //If no TW, may delete this section
+            {
+                name: "Hyakka",
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_110281.png",
+                skill: "50s CT - 7500% Earth DMG (PHY). For 10s, increase own DMG by 50% and reduce Enemies' Earth RES by 30%.",
+                skillbreak: 700,
+                passive: 
+                    {
+                        ability1: "When equipped by Sakuya, increase Skill CT REC by 30% and increase max # of possible planted bombs by 1. Does not stack with Abilities of the same name.",
+                        ability2: "Increase Evasion by 10%."
+                    }
+            },
+        lore: 
+            {   
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
+            }
+    },
+    { // Summer Cestina - Missing Lore
+        id: 103596112,
+        name: "Summer Cestina",
+        attribute: "Fire",
+        type: "God",
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_103595112.png",
+                detailawk: "/db/Units/Detail/unit_detail_103596112.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_103595112.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103596112.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: 7000,
+                hpplus: 999,
+                atk: 3003,
+                atkplus: 460,
+                def: 2598,
+                defplus: 399
+            },
+        skillset: 
+            {
+                skill: "10s CT - 1200% Fire DMG (PHY). For 6s, increase own accuracy by 20%.",
+                skillbreak: 300,
+                arts: "15000% Fire DMG (PHY). For 10s, reduce Enemies' Fire RES by 30% and increase Allies with >50% HP's Arts by 2/s.",
+                artsbreak: 1000,
+                truearts: "[Current HP x 20]% Fire DMG (PHY).",
+                trueartsbreak: 1200
+            },
+        passive: 
+            {
+                ability1: "Increase own ATK by 15% when HP is above 90%.",
+                ability2: "Increase own Arts by 2/s when HP is above 90%.",
+                ability3: "When near-death, increase own Arts by 200 and restore own HP by 100%. Only once and Does not stack with Abilities of the same name."
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragFlogassa.png",
+                    mat3amt: 2,
+                    hover3: "Flogassa",
+                    mat4: "/db/Icons/dungeon_drops/fragDegilmagna.png",
+                    mat4amt: 2,
+                    hover4: "Degilmagna"
+                }
+            },
+        lore: 
+            {   
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
+            }
+            
     },
     { //Zinogre Armor Rayas - Missing Lore
         id: 107006412,
@@ -21303,7 +21451,7 @@ const UnitInformation = [
                 evoawk: "Melty was summoned to Raktehelm along with Naofumi, Raphtalia, and Filo. She is against Naofumi's opinion of remaining in Raktehelm because she wishes to return to Melromarc as soon as possible. However, knowing Naofumi feels more at home than ever in Raktehelm, she cannot deny his request outright and feels anxious."
             }
     },
-    { // Fitoria - Missing Lore
+    { // Fitoria - Complete
         id: 107606312,
         name: "Fitoria",
         rank: "TBD",
@@ -21377,8 +21525,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "The queen of all the world's Filolials. She rescued the Shield Hero's party after they freed Tyrant Dragon Rex. Though she possesses immense power, she believed only the Cardinal Heroes could fend off the Waves of Catastrophe, which is why she was so critical of Naofumi's refusal to cooperate with the others.",
+                evoawk: "Adamant that Naofumi reconcile with the other Heroes, she took Melty hostage and demanded a duel with Filo. Naofumi still hesitated, but Filo gladly accepted to help her friend. As for why the Filolial Queen took such drastic measures, she had a different reason..."
             }
     },
     { //Yusuke - Complete
