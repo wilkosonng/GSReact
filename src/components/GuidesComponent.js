@@ -19,6 +19,12 @@ const cardSize = {
     alignItems: "center", 
     justifyContent: "center"
 }
+
+const imageSize = { 
+    width: "100%",
+    height: "auto"
+}
+
 export default function GuidesMainPage () {
     //TODO: Replace the Title with an image banner of the article
     //TODO: Route Guides
@@ -38,24 +44,18 @@ export default function GuidesMainPage () {
                         <CardGroup style={{alignItems: "center", justifyContent: "center", width: "100%"}}>
                             <Link to="FAQ" activeClassName="active">
                                 <Col lg="auto">
-                                    <Card style={cardSize}>
-                                        <h1><b><center>F.A.Q.</center></b></h1>
-                                    </Card>
+                                    <img src="/db/guides/FAQBanner.png" style={imageSize} />
                                 </Col>
                             </Link>
 
                         </CardGroup>
                         <h1><b><center>Guide Categories</center></b></h1>
                         <CardGroup style={{alignItems: "center", justifyContent: "center", width: "100%"}}>
-
                             <Link to="crest-guides" activeClassName="active">
                                 <Col lg="auto">
-                                    <Card style={cardCategorySize}>
-                                            <h1><b><center>Crest Boss Guides</center></b></h1>
-                                    </Card>
+                                    <img src="/db/guides/CrestGuidesBanner.png" style={imageSize} />
                                 </Col>
                             </Link>
-                            
                         </CardGroup>
                     </CardBody>
                 </Card>
