@@ -29,18 +29,18 @@ export default function GuidesMainPage () {
     //TODO: Replace the Title with an image banner of the article
     //TODO: Route Guides
     return (
-        <Container>
+        <Container style={{marginTop: "5rem"}}>
             <Row>
-                <Card style={{backgroundColor: "#29648a"}}>
-                    <CardHeader>
+                <Card style={{backgroundColor: "#292930", color: "#e7f9fc", padding: "0px"}}>
+                    <CardHeader style={{backgroundColor: "#22bbff", color: "#292930", padding: "0"}}>
                         <h1><center><strong>Game Guides</strong></center></h1>
                     </CardHeader>
                 </Card>
             </Row>
             <Row>
-                <Card style={{backgroundColor:"#464866", width: "100%"}}>
-                    <CardBody>
-                        <h1><b><center>Popular Guides</center></b></h1>
+                <Card style={{backgroundColor: "#292930", color: "#e7f9fc", padding: "0px"}}>
+                    <CardBody >
+                        <h1 style={{color: "#e7f9fc"}}><b><center>Popular Guides</center></b></h1>
                         <CardGroup style={{alignItems: "center", justifyContent: "center", width: "100%"}}>
                             <Link to="FAQ" activeClassName="active">
                                 <Col lg="auto">
@@ -49,7 +49,7 @@ export default function GuidesMainPage () {
                             </Link>
 
                         </CardGroup>
-                        <h1><b><center>Guide Categories</center></b></h1>
+                        <h1 style={{color: "#e7f9fc"}}><b><center>Guide Categories</center></b></h1>
                         <CardGroup style={{alignItems: "center", justifyContent: "center", width: "100%"}}>
                             <Link to="crest-guides" activeClassName="active">
                                 <Col lg="auto">

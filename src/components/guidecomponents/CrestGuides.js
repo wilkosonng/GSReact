@@ -8,16 +8,16 @@ export default function CrestGuides () {
     const guideTopics = getCrestBossGuides();
 
     return (
-        <Container>
+        <Container style={{marginTop: "5rem"}}>
             <Row>
-                <Card style={{backgroundColor: "#29648a"}}>
-                    <CardHeader>
+                <Card style={{backgroundColor: "#292930", color: "#e7f9fc", padding: "0px"}}>
+                    <CardHeader style={{backgroundColor: "#22bbff", color: "#292930", padding: "0"}}>
                         <h1><center><strong>Crest Boss Guides</strong></center></h1>
                     </CardHeader>
                 </Card>
             </Row>
             <Row>
-                <Card style={{backgroundColor:"#464866", color: "#C5C6C7"}}>
+                <Card style={{backgroundColor: "#292930", color: "#e7f9fc", padding: "0px"}}>
                     <CardBody>
                         {guideTopics.map(theGuides => {
                             return (

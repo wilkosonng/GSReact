@@ -12,32 +12,32 @@ export default function News () {
     //innerHTML usually unsafe, but there's no user-submitted content so no javascript injections
     //TODO: Create unique links for each article, then make a new component that displays the full article. Also limit card size to make a preview-like design
     return (
-        <Container>
+        <Container style={{marginTop: "5rem"}}>
             <Row>
-                <Card style={{backgroundColor: "#29648a", padding: "0"}}>
-                    <CardHeader style={{padding: "0px"}}>
+                <Card style={{backgroundColor: "#292930", padding: "0" }}>
+                    <CardHeader style={{padding: "1rem"}}>
                         <h1><center><strong>Site News</strong></center></h1>
                     </CardHeader>
                 </Card>
             </Row>
             <Row>
-                <Card style={{backgroundColor:"#464866", color: "#C5C6C7"}}>
-                    <CardBody style={{padding: "0px", height: "100%", color: "#25274d"}}>
+                <Card style={{backgroundColor: "#292930", color: "#e7f9fc"}}>
+                    <CardBody style={{padding: "0px", height: "100%"}}>
                         <Row>
                             <CardGroup style={{padding: "0px"}}>
                                 {newsTopics.map(theNews => {
                                         if(theNews.new){
                                             return (
                                                 <React.Fragment key={theNews.id}>
-                                                    <Card style={{maxWidth: "1000rem", width: "100%", height: "500px", maxHeight: "700px" ,backgroundColor: "#25274d", color: "#29648a", padding: "0px", margin: "0px"}}>
-                                                        <CardHeader style={{backgroundColor: "#29648a", color: "#aaabb8", padding: "0px", height: "80px"}}>
-                                                        <Link to={`/news/${theNews.id}`} style={{textDecoration: 'none', color: "#aaabb8"}} key={theNews.id}><center><h2>{theNews.title}</h2></center></Link>
+                                                    <Card style={{maxWidth: "1000rem", width: "100%", height: "500px", maxHeight: "700px" ,backgroundColor: "#292930", color: "#e7f9fc", padding: "0px", margin: "0px"}}>
+                                                        <CardHeader style={{backgroundColor: "#22bbff", color: "#292930", padding: "0px", height: "80px"}}>
+                                                            <Link to={`/news/${theNews.id}`} style={{textDecoration: 'none', color: "#292930"}} key={theNews.id}><center><h2>{theNews.title}</h2></center></Link>
                                                         </CardHeader>
                                                         <CardBody style={{marginTop: "30px"}}>
                                                             <center>
                                                                 <img src={theNews.preview} alt="Preview Image" style={{maxWidth: "200px", width: "auto", height: "auto", maxHeight: "400px"}} />
                                                                 <Link to={`/news/${theNews.id}`} style={{textDecoration: 'none', color: "#aaabb8"}} key={theNews.id}>
-                                                                    <p style={{backgroundColor: "#29648a", color: "#aaabb8", maxWidth: "300px", width: "100%", height: "auto",marginTop: "2rem"}}>Read Article</p>
+                                                                    <p style={{backgroundColor: "#22bbff", color: "#292930", maxWidth: "300px", width: "100%", height: "auto",marginTop: "2rem"}}>Read Article</p>
                                                                 </Link>
                                                             </center>
                                                         </CardBody>
@@ -47,8 +47,8 @@ export default function News () {
                                         }
 
                                     })}
-                                <Card style={{backgroundColor: "#25274d", color: "#29648a", height: "500px", width: "100%", padding: "0px", margin: "0px"}}>
-                                    <CardHeader style={{backgroundColor: "#29648a", color: "#aaabb8", padding: "0", height: "80px"}}><h2 style={{paddingTop: "15px"}}><center>Twitter Feed</center></h2></CardHeader>
+                                <Card style={{backgroundColor: "#292930", color: "#e7f9fc", height: "500px", width: "100%", padding: "0px", margin: "0px"}}>
+                                    <CardHeader style={{backgroundColor: "#22bbff", color: "#292930", padding: "0", height: "80px"}}><h2 style={{paddingTop: "15px"}}><center>Twitter Feed</center></h2></CardHeader>
                                     <CardBody style={{marginTop: "15px"}}>
                                         <center>
                                             <TwitterTimelineEmbed
@@ -68,8 +68,8 @@ export default function News () {
                 </Card>
                 </Row>
                 <Row>
-                    <Card style={{backgroundColor: "#25274d", color: "#29648a", padding: "0px"}}>
-                        <CardHeader style={{backgroundColor: "#29648a", color: "#aaabb8", width: "100%", padding: "0px", margin: "0px"}}><center><h2>Discord</h2></center></CardHeader>
+                    <Card style={{backgroundColor: "#292930", color: "#e7f9fc", padding: "0px"}}>
+                        <CardHeader style={{backgroundColor: "#22bbff", color: "#292930", width: "100%", padding: "0px", margin: "0px"}}><center><h2>Discord</h2></center></CardHeader>
                         <CardBody style={{width :"100%", margin: "10px"}}>
                             <center>
                                 Visit the Grand Summoners Official Discord for older news and Unit Reviews!

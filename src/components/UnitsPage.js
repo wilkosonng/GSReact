@@ -24,13 +24,13 @@ export default function Units () {
     //Display Unit Thumbnails
     return (
         <React.Fragment>
-            <Container>
+            <Container style={{marginTop: "5rem"}}>
                 <Row>
-                    <Card style={{backgroundColor: "#29648a", color: "aaabb8", marginBottom: "2rem"}}>
-                        <CardHeader style={{backgroundColor: "#29648a", color: "aaabb8"}}>
+                    <Card style={{backgroundColor: "#292930", color: "#e7f9fc", marginBottom: "2rem", padding: "0"}}>
+                        <CardHeader style={{backgroundColor: "#22bbff", color: "#292930", padding: "0"}}>
                             <p><center><h3>Select a Unit to view the Unit's information.</h3></center></p>
                         </CardHeader>
-                        <CardBody style={{backgroundColor: "#464866", marginBottom: "1rem"}}>
+                        <CardBody>
                             <p><center>Please be aware that ALL units are available, including Units only available in Japan.</center></p>
                         </CardBody>
                     </Card>
@@ -63,7 +63,7 @@ export default function Units () {
                                 <React.Fragment key={unit.name} >
                                     <Col xs="4" sm="auto">
                                         <center>
-                                            <Card style={{maxWidth: "75px", backgroundColor: "#25274d", border: "none"}}>
+                                            <Card style={{maxWidth: "75px", backgroundColor: "#202022", border: "none"}}>
                                                 <Link to={`/units/${unit.name}`} key={unit.name} style={{textDecoration: 'none', color: "#aaabb8"}}>
                                                     <Media src={unit.image.thumbawk} alt={unit.name} width="100%" height="auto" object-fit="cover"  />
                                                     <p>{unit.name}</p>
@@ -79,7 +79,7 @@ export default function Units () {
                             <React.Fragment key={unit.name} >
                                 <Col xs="4" sm="auto">
                                     <center>
-                                        <Card style={{maxWidth: "75px", backgroundColor: "#25274d", border: "none"}}>
+                                        <Card style={{maxWidth: "75px", backgroundColor: "#202022", border: "none"}}>
                                             <Link to={`/units/${unit.name}`} key={unit.name} style={{textDecoration: 'none', color: "#aaabb8"}}>
                                                 <Media src={unit.image.thumb5} alt={unit.name} width="75" height="75" object-fit="cover" />
                                                 <HoverName>{unit.name}</HoverName>

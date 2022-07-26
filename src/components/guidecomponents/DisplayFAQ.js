@@ -2,7 +2,15 @@ import React, { useState } from 'react';
 import { Accordion, AccordionHeader, AccordionItem, AccordionBody, Card } from 'reactstrap';
 
 const accordionColor = {
-    backgroundColor: "#464866", color: "#aaabb8"
+    backgroundColor: "#202022", 
+    color: "#e7f9fc", 
+    padding: "0"
+}
+
+const accordiongHeader = {
+    backgroundColor: "#22bbff", 
+    color: "#292930", 
+    padding: "0"
 }
 //Component to display FAQ
 export default function FAQGuide () {
@@ -11,7 +19,7 @@ export default function FAQGuide () {
     //TODO: Figure out how to change overall accordion color, including Header
     return (
         <React.Fragment>
-            <center>
+            <center style={{marginTop: "5rem"}}>
                 <p>
                     <h1>FAQ</h1>
                     <h4>Click each question to show the answer.</h4>
@@ -66,7 +74,7 @@ function GettingStarted() {
     }
 
     return (
-        <Card style={{backgroundColor: "#29648a", color: "aaabb8"}}>
+        <Card style={accordiongHeader}>
             <h2><center>Getting Started</center></h2>
             <Accordion flush open={accordion} toggle={toggle}>
                 <AccordionHeader targetId="1">
@@ -155,7 +163,7 @@ function ImprovingYourAccount() {
 
 
     return (
-        <Card style={{backgroundColor: "#29648a", color: "aaabb8"}} >
+        <Card style={accordiongHeader}>
             <h2><center>Improving Your Account</center></h2>
             <Accordion flush open={accordion} toggle={toggle}>
                 <AccordionHeader targetId="6">
@@ -348,7 +356,7 @@ function BattleMechanics () {
     
     
         return (
-            <Card style={{backgroundColor: "#29648a", color: "aaabb8"}} >
+            <Card style={accordiongHeader} >
                 <h2><center>Battle Mechanics</center></h2>
                 <Accordion flush open={accordion} toggle={toggle}>
                     <AccordionHeader targetId="17">
@@ -489,7 +497,7 @@ function Multiplayer() {
 
 
     return (
-        <Card style={{backgroundColor: "#29648a", color: "aaabb8"}} >
+        <Card style={accordiongHeader} >
             <h2><center>Category</center></h2>
             <Accordion flush open={accordion} toggle={toggle}>
                 <AccordionHeader targetId="25">
@@ -637,7 +645,7 @@ function Arena() {
 
 
     return (
-        <Card style={{backgroundColor: "#29648a", color: "aaabb8"}} >
+        <Card style={accordiongHeader} >
             <h2><center>Arena</center></h2>
             <Accordion flush open={accordion} toggle={toggle}>
                 <AccordionHeader targetId="34">
@@ -699,7 +707,7 @@ function Events() {
 
 
     return (
-        <Card style={{backgroundColor: "#29648a", color: "aaabb8"}} >
+        <Card style={accordiongHeader} >
             <h2><center>Events</center></h2>
             <Accordion flush open={accordion} toggle={toggle}>
                 <AccordionHeader targetId="37">
@@ -812,7 +820,7 @@ function GiantBoss() {
 
 
     return (
-        <Card style={{backgroundColor: "#29648a", color: "aaabb8"}} >
+        <Card style={accordiongHeader} >
             <h2><center>Giant Bosses</center></h2>
             <Accordion flush open={accordion} toggle={toggle}>
                 <AccordionHeader targetId="44">
@@ -901,7 +909,7 @@ function Miscellaneous() {
 
 
     return (
-        <Card style={{backgroundColor: "#29648a", color: "aaabb8"}} >
+        <Card style={accordiongHeader} >
             <h2><center>Miscellaneous</center></h2>
             <Accordion flush open={accordion} toggle={toggle}>
                 <AccordionHeader targetId="49">
@@ -1078,7 +1086,7 @@ function Abbreviations() {
     }
 
     return (
-        <Card style={{backgroundColor: "#29648a", color: "aaabb8"}} >
+        <Card style={accordiongHeader} >
         
         <Accordion flush open={accordion} toggle={toggle}>
             <h2><center>Common Abbreviations</center></h2>

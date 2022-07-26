@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import classnames from 'classnames';
 
 const imageSize ={
+    width: "100%",
+    height: "auto",
     maxHeight: "400px",
     maxWidth: "400px"
 };
@@ -10,9 +12,8 @@ const imageSize ={
 const trueCard = {
     marginTop: "3rem",
     paddingTop: "10px",
-    backgroundColor: "#464866",
-    color: "#aaabb8",
-    borderColor: "#464866"
+    backgroundColor: "#292930", 
+    color: "#e7f9fc"
 }
 
 export function RenderTrue({unitTrue}) {

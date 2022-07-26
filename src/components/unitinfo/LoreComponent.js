@@ -12,15 +12,14 @@ const imageSize ={
 };
 
 const unitCard = {
-    backgroundColor: "#464866",
-    color: "#aaabb8",
-    borderColor: "#464866"
+    backgroundColor: "#292930", 
+    color: "#e7f9fc",
+    paddingTop: "1rem"
 }
 
 const evoCard = {
-    backgroundColor: "#25274d",
-    color: "#aaabb8",
-    borderColor: "#25274d"
+    backgroundColor: "#202022",
+    color: "#e7f9fc"
 }
 
 export function RenderTwoStar({lore, unitImage, unitEvo}) {

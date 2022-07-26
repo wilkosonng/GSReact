@@ -8,10 +8,10 @@ export default function DotGuide() {
     const guideTopics = getTrialGuides();
 
     return (
-        <Container>
+        <Container style={{marginTop: "5rem"}}>
             <Row>
-                <Card style={{backgroundColor: "#29648a", color: "aaabb8"}}>
-                    <CardHeader>
+                <Card style={{backgroundColor: "#292930", color: "#e7f9fc", padding: "0px"}}>
+                    <CardHeader style={{backgroundColor: "#22bbff", color: "#292930", padding: "0"}}>
                         <h1><center>Dungeon of Trials</center></h1>
                     </CardHeader>
                     <CardBody>
@@ -23,7 +23,7 @@ export default function DotGuide() {
                 </Card>
             </Row>
             <Row>
-                <Card style={{backgroundColor:"#464866", color: "#C5C6C7"}}>
+                <Card style={{backgroundColor: "#292930", color: "#e7f9fc", padding: "0px"}}>
                     <CardBody>
                         <CardGroup>
                             {guideTopics.map(theGuides => {
@@ -31,7 +31,7 @@ export default function DotGuide() {
                                     <React.Fragment key={theGuides.id}>
                                         <Col>
                                             <Link to={`/guides/dungeon-of-trials/${theGuides.id}`} style={{textDecoration: 'none'}} key={theGuides.id}>
-                                                <Card style={{height: "75px", width: "75px", backgroundColor: "#25274d", color: "#aaabb8", marginBottom: "1rem"}}>
+                                                <Card style={{height: "75px", width: "75px", backgroundColor: "#202022", color: "#e7f9fc", marginBottom: "1rem"}}>
                                                     <center><h1>{theGuides.id}</h1></center>
                                                 </Card>
                                             </Link>

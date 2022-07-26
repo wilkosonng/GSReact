@@ -9,13 +9,13 @@ export default function DisplayGuide () {
     const guideArticle = getGuidesByLink(articleId);
 
     return (
-        <Container>
+        <Container style={{marginTop: "5rem"}}>
             <Row>
-                <Card style={{backgroundColor: "#29648a"}}>
-                    <CardHeader>
+                <Card style={{backgroundColor: "#292930", color: "#e7f9fc", padding: "0px"}}>
+                    <CardHeader style={{backgroundColor: "#22bbff", color: "#292930", padding: "0"}}>
                         <h1><center><strong>{guideArticle.title}</strong></center></h1>
                     </CardHeader>
-                    <CardBody style={{backgroundColor: "#464866", marginBottom: "1rem"}}>
+                    <CardBody>
                         <center>
                             <p style={{height: "auto"}}><div dangerouslySetInnerHTML={{ __html: guideArticle.article }} /></p>
                             <a href="/guides/other-guides" style={{backgroundColor: "#29648a", color: "#aaabb8", textDecoration: "none"}}>Return to Guides</a>

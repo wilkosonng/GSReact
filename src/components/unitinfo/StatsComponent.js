@@ -15,9 +15,8 @@ const imageSize ={
 const unitCard = {
     marginTop: "3rem",
     paddingTop: "10px",
-    backgroundColor: "#464866",
-    color: "#aaabb8",
-    borderColor: "#464866"
+    backgroundColor: "#292930", 
+    color: "#e7f9fc"
 }
 
 export function RenderStats({unitName, unitStats, unitAtt, unitType, unitSkill, unitPassive, unitSlots, unitImage}){

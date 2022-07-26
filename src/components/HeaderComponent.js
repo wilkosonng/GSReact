@@ -43,16 +43,7 @@ return (
         <Container>
             <Row>
                 <Col>
-                    <center>
-                        <a href="/" >
-                            <Media src="/Banner.png" style={{height: "auto", width: "100%" , paddingTop: "5rem", paddingBottom: "1rem"}}/>
-                        </a>
-                    </center>
-                </Col>
-            </Row>
-            <Row>
-                <Col>
-                    <Navbar fixed="top" expand="md" dark style={{backgroundColor: "#464866"}}>
+                    <Navbar fixed="top" expand="md" dark style={{backgroundColor: "black"}}>
                         <NavbarToggler onClick={() => { setIsOpen(!isOpen) }} />
                         <Collapse isOpen={isOpen} navbar>
                             <Nav navbar className="me-auto">

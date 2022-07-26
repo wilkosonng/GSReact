@@ -15,7 +15,7 @@ function UnitDetails () {
     
     return (
         <React.Fragment>
-            <Container>
+            <Container style={{marginTop: "5rem"}}>
                 <Routes>
                     <Route path="/" element={<UnitHome />} >
                         <Route path="lore" element={<React.Fragment>  
@@ -43,13 +43,13 @@ function UnitDetails () {
 
 function UnitHome() {
     return (
-        <Card style={{backgroundColor: "#25274d", paddingBottom: "2rem"}}>
+        <Card style={{backgroundColor: "#292930", color: "#e7f9fc", paddingBottom: "2rem"}}>
             <center>
-            <CardHeader style={{backgroundColor: "#29648a"}}>
+            <CardHeader style={{backgroundColor: "#22bbff", color: "#292930"}}>
                 <h2>Select a category to view Unit Information</h2>
             </CardHeader>
             <CardBody>
-                <Nav card="true" justified style={{backgroundColor: "#2e9cca", height: "4rem", marginTop: "1rem"}}>
+                <Nav card="true" justified style={{backgroundColor: "#22bbff", color: "#292930", height: "4rem", marginTop: "1rem"}}>
                 <NavItem>
                     <NavLink to="lore" style={({ isActive }) => ({
                                             display: "flex",
@@ -57,7 +57,7 @@ function UnitHome() {
                                             alignItems: "center",
                                             fontSize: "1.5rem",
                                             height: "6vh",
-                                            color: isActive ? '#25274d' : '#aaabb8',
+                                            color: isActive ? '#292930' : '#e7f9fc',
                                             textDecoration: isActive ? '' : 'none'})}>
                         Lore
                     </NavLink>
@@ -69,7 +69,7 @@ function UnitHome() {
                                                 alignItems: "center",
                                                 fontSize: "1.5rem",
                                                 height: "6vh",
-                                                color: isActive ? '#25274d' : '#aaabb8',
+                                                color: isActive ? '#292930' : '#e7f9fc',
                                                 textDecoration: isActive ? '' : 'none'})}>
                         Stats
                     </NavLink>
@@ -81,7 +81,7 @@ function UnitHome() {
                                                     alignItems: "center",
                                                     fontSize: "1.5rem",
                                                     height: "6vh",
-                                                    color: isActive ? '#25274d' : '#aaabb8',
+                                                    color: isActive ? '#292930' : '#e7f9fc',
                                                     textDecoration: isActive ? '' : 'none'})}>
                         True Weapon
                     </NavLink>

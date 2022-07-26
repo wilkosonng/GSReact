@@ -9,16 +9,16 @@ export default function Article () {
     const newsArticle = getNewsById(articleId);
 
     return (
-        <Container>
+        <Container style={{marginTop: "5rem"}}>
             <Row>
-                <Card style={{backgroundColor: "#29648a"}}>
-                    <CardHeader>
+                <Card style={{backgroundColor: "#292930", color: "#e7f9fc", padding: "0px"}}>
+                    <CardHeader style={{backgroundColor: "#22bbff", color: "#292930", padding: "0"}}>
                         <h1><center><strong>{newsArticle.title}</strong></center></h1>
                     </CardHeader>
-                    <CardBody style={{backgroundColor: "#464866", marginBottom: "1rem"}}>
+                    <CardBody>
                         <center>
                             <p><div dangerouslySetInnerHTML={{ __html: newsArticle.article }} /></p>
-                            <a href="/news" style={{backgroundColor: "#29648a", color: "#aaabb8", textDecoration: "none"}}>Return to News</a>
+                            <a href="/news" style={{backgroundColor: "#22bbff", color: "#292930", textDecoration: "none"}}>Return to News</a>
                         </center>
                     </CardBody>
                 </Card>
