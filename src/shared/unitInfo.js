@@ -2775,7 +2775,7 @@ const UnitInformation = [
                     hover4: "Radachne",
                     mat5: "/db/Icons/dungeon_drops/fragCodeXTF.png",
                     mat5amt: 4,
-                    hover5: "CodeXTF"
+                    hover5: "Code-XTF"
                 }
             },
         trueweapon: 
@@ -3460,7 +3460,7 @@ const UnitInformation = [
                     hover4: "Oldeus",
                     mat5: "/db/Icons/dungeon_drops/fragCodeXTF.png",
                     mat5amt: 2,
-                    hover5: "CodeXTF"
+                    hover5: "Code-XTF"
                 }
             },
         trueweapon: 
@@ -19487,6 +19487,73 @@ const UnitInformation = [
                     mat4: "/db/Icons/dungeon_drops/fragDegilmagna.png",
                     mat4amt: 2,
                     hover4: "Degilmagna"
+                }
+            },
+        lore: 
+            {   
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
+            }
+            
+    },{ // Summer Liza - Missing Lore
+        id: 103606212,
+        name: "Summer Liza",
+        attribute: "Water",
+        type: "God",
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_103605212.png",
+                detailawk: "/db/Units/Detail/unit_detail_103606212.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_103605212.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103606212.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats: 
+            {
+                hp: 6391,
+                hpplus: 968,
+                atk: 2547,
+                atkplus: 392,
+                def: 2843,
+                defplus: 436
+            },
+        skillset: 
+            {
+                skill: "13s CT - 1200% Water DMG (MAG). Heal Water Allies' HP by 1000.",
+                skillbreak: 200,
+                arts: "10000% Water DMG (MAG). Increase own Arts by 20. For 40s, reduce Enemies' DMG RES by 15% (Stackable)",
+                artsbreak: 2200,
+                truearts: "36000% Water DMG (MAG). For 15s, increase Allies' MAG and Critical DMG by 100%.",
+                trueartsbreak: 1300
+            },
+        passive: 
+            {
+                ability1: "At the start of a Quest, increase own Arts by 100. When HP is above 80%, increase own Critical Rate by 100%.",
+                ability2: "Increase own Paralysis RES by 80%.",
+                ability3: "Increase own Arts by 3/s."
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat3amt: 3,
+                    hover3: "Code-XTF",
+                    mat4: "/db/Icons/dungeon_drops/fragPalamicia.png",
+                    mat4amt: 2,
+                    hover4: "Palamicia"
                 }
             },
         lore: 
