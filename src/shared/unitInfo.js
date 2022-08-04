@@ -23872,6 +23872,198 @@ const UnitInformation = [
                 evo5: "Currently unreleased in Global.",
                 evoawk: "Currently unreleased in Global."
             }
+    },
+    { // Empress - Missing Lore
+        id: 107666212,
+        name: "Empress",
+        attribute: "Water",
+        type: "Machine",
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_107665212.png",
+                detailawk: "/db/Units/Detail/unit_detail_107666212.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_107665212.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107666212.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats: 
+            {
+                hp: 6606,
+                hpplus: 999,
+                atk: 2980,
+                atkplus: 457,
+                def: 2705,
+                defplus: 415
+            },
+        skillset: 
+            {
+                skill: "12s CT - 1600% Water DMG (PHY). For 8s, increase own ATK by 20%.",
+                skillbreak: 300,
+                arts: "20000% Water DMG (PHY). For 60s, reduce Enemies' PHY and Water RES by 10% (Stackable).",
+                artsbreak: 1200,
+                truearts: "78000% Water DMG (PHY). For 15s, reduce Enemies' Critical RES by 100%. For 7s, increase Allies' Arts by [2 × # of Water Allies in the party]/s.",
+                trueartsbreak: 1900
+            },
+        passive: 
+            {
+                ability1: "Increase own Arts by 3/s when HP is above 80%. When unafflicted by status ailments, increase own Arts by 3/s.",
+                ability2: "Increase Machine Allies' stats by 10%.",
+                ability3: "Increase DMG to Fire Enemies by 15%."
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragAerugraxes.png",
+                    mat3amt: 1,
+                    hover3: "Aerugraxes"
+                }
+            },
+        lore: 
+            {   
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
+            }
+    },
+    { // Dead Master - Missing Lore
+        id: 107676312,
+        name: "Dead Master",
+        attribute: "Earth",
+        type: "Machine",
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_107675312.png",
+                detailawk: "/db/Units/Detail/unit_detail_107676312.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_107675312.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107676312.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats: 
+            {
+                hp: 6748,
+                hpplus: 999,
+                atk: 3119,
+                atkplus: 477,
+                def: 2730,
+                defplus: 419
+            },
+        skillset: 
+            {
+                skill: "11s CT - 1900% Earth DMG (PHY). Increase own Arts by 30.",
+                skillbreak: 400,
+                arts: "25000% Earth DMG (PHY). For 15s, reduce Enemies' Earth RES by 35%.",
+                artsbreak: 800,
+                truearts: "115000% Earth DMG (PHY). Reduce Enemies' evasion by 50% and increases own accuracy by 50% during this True Arts.",
+                trueartsbreak: 1800
+            },
+        passive: 
+            {
+                ability1: "Ignore 100% of Enemies' DEF when HP is above 80%.",
+                ability2: "Increases Paralysis RES by 80%",
+                ability3: "Increase own ATK by 30% when HP is above 90%."
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragTonetaurus.png",
+                    mat3amt: 1,
+                    hover3: "Tonetaurus"
+                }
+            },
+        lore: 
+            {   
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
+            }
+    },
+    { // Strength - Missing Lore
+        id: 107686112,
+        name: "Strength",
+        attribute: "Fire",
+        type: "Machine",
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_107685112.png",
+                detailawk: "/db/Units/Detail/unit_detail_107686112.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_107685112.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107686112.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/physLB.png"
+            },
+        stats: 
+            {
+                hp: 7100,
+                hpplus: 999,
+                atk: 2950,
+                atkplus: 452,
+                def: 2450,
+                defplus: 377
+            },
+        skillset: 
+            {
+                skill: "13s CT - 1900% Fire DMG (PHY). For 10s, reduce Enemies' Break RES by 30%.",
+                skillbreak: 1000,
+                arts: "18000% Fire DMG (PHY). Permanently increase Allies' Break PWR by 20% (up to 100%).",
+                artsbreak: 4000,
+                truearts: "65000% Fire DMG (PHY). For 20s, increase Allies' Arts DMG and DMG to Enemies in BREAK by 130%.",
+                trueartsbreak: 8000
+            },
+        passive: 
+            {
+                ability1: "Increase DMG to Enemies in BREAK by 200%.",
+                ability2: "When own HP is over 90%, increase own Arts by 3/s.",
+                ability3: "When own HP is over 90%, increase own Skill CT REC by 30%."
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragDegilmagna.png",
+                    mat3amt: 1,
+                    hover3: "Degilmagna"
+                }
+            },
+        lore: 
+            {   
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
+            }
     }
 
 ];
