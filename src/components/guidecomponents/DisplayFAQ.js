@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Accordion, AccordionHeader, AccordionItem, AccordionBody, Card } from 'reactstrap';
+import '../../App.css';
 
 const accordionColor = {
     backgroundColor: "#202022", 
@@ -12,6 +13,13 @@ const accordiongHeader = {
     color: "#292930", 
     padding: "0"
 }
+
+const accordionPColor = {
+    color: "#e7f9fc", 
+    padding: "0",
+    margin: "0"
+}
+
 //Component to display FAQ
 export default function FAQGuide () {
     //Change Accordion Content Color 
@@ -77,8 +85,8 @@ function GettingStarted() {
         <Card style={accordiongHeader}>
             <h2><center>Getting Started</center></h2>
             <Accordion flush open={accordion} toggle={toggle}>
-                <AccordionHeader targetId="1">
-                    <p>Q01. How do I download Grand Summoners?</p>
+                <AccordionHeader targetId="1" >
+                    <p style={accordionPColor}>Q01. How do I download Grand Summoners?</p>
                 </AccordionHeader>
                 <AccordionItem>
                     <AccordionBody accordionId="1" style={accordionColor}>
@@ -87,7 +95,7 @@ function GettingStarted() {
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionHeader targetId="2">
-                    <p>Q02. Do I need to reroll to play this game? If so, how?</p>
+                    <p style={accordionPColor}>Q02. Do I need to reroll to play this game? If so, how?</p>
                 </AccordionHeader>
                 <AccordionItem >
                     <AccordionBody accordionId="2" style={accordionColor}>
@@ -98,7 +106,7 @@ function GettingStarted() {
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionHeader targetId="3">
-                Q03. Which Starter should I choose?
+                    <p style={accordionPColor}>Q03. Which Starter should I choose?</p>
                 </AccordionHeader>
                 <AccordionItem >
                     <AccordionBody accordionId="3" style={accordionColor}>
@@ -114,7 +122,7 @@ function GettingStarted() {
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionHeader targetId="4">
-                Q04. How do I get Crystals? How should I spend them in the beginning?
+                    <p style={accordionPColor}>Q04. How do I get Crystals? How should I spend them in the beginning?</p>
                 </AccordionHeader>
                 <AccordionItem>
                     <AccordionBody accordionId="4" style={accordionColor}>
@@ -134,7 +142,7 @@ function GettingStarted() {
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionHeader targetId="5">
-                Q05. What should I do when I begin? What missions should I be doing?
+                    <p style={accordionPColor}>Q05. What should I do when I begin? What missions should I be doing?</p>
                 </AccordionHeader>
                 <AccordionItem>
                     <AccordionBody accordionId="5" style={accordionColor}>
@@ -167,7 +175,7 @@ function ImprovingYourAccount() {
             <h2><center>Improving Your Account</center></h2>
             <Accordion flush open={accordion} toggle={toggle}>
                 <AccordionHeader targetId="6">
-                Q06. How do I increase my Rank? Is it important?
+                    <p style={accordionPColor}>Q06. How do I increase my Rank? Is it important?</p>
                 </AccordionHeader>
                 <AccordionItem>
                     <AccordionBody accordionId="6" style={accordionColor}>
@@ -176,7 +184,7 @@ function ImprovingYourAccount() {
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionHeader targetId="7">
-                Q07. When should I summon more units?
+                    <p style={accordionPColor}>Q07. When should I summon more units?</p>
                 </AccordionHeader>
                 <AccordionItem>
                     <AccordionBody accordionId="7" style={accordionColor}>
@@ -196,7 +204,7 @@ function ImprovingYourAccount() {
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionHeader targetId="8">
-                Q08. What are ‘Alchemy Stones’? What do I want to do with them?
+                    <p style={accordionPColor}>Q08. What are ‘Alchemy Stones’? What do I want to do with them?</p>
                 </AccordionHeader>
                 <AccordionItem>
                     <AccordionBody accordionId="8" style={accordionColor}>
@@ -208,7 +216,7 @@ function ImprovingYourAccount() {
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionHeader targetId="9">
-                Q09. How do I increase my unit’s level? What does this do?
+                    <p style={accordionPColor}>Q09. How do I increase my unit’s level? What does this do?</p>
                 </AccordionHeader>
                 <AccordionItem>
                     <AccordionBody accordionId="9" style={accordionColor}>
@@ -221,7 +229,7 @@ function ImprovingYourAccount() {
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionHeader targetId="10">
-                Q10. How do I evolve my units? What does this do?
+                    <p style={accordionPColor}>Q10. How do I evolve my units? What does this do?</p>
                 </AccordionHeader>
                 <AccordionItem>
                     <AccordionBody accordionId="10" style={accordionColor}>
@@ -232,7 +240,7 @@ function ImprovingYourAccount() {
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionHeader targetId="11">
-                Q11. What is Awakening? How do I do that?
+                    <p style={accordionPColor}>Q11. What is Awakening? How do I do that?</p>
                 </AccordionHeader>
                 <AccordionItem>
                     <AccordionBody accordionId="11" style={accordionColor}>
@@ -250,7 +258,7 @@ function ImprovingYourAccount() {
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionHeader targetId="12">
-                Q12. What does Luck do? How do I increase my unit’s Luck?
+                    <p style={accordionPColor}>Q12. What does Luck do? How do I increase my unit’s Luck?</p>
                 </AccordionHeader>
                 <AccordionItem>
                     <AccordionBody accordionId="12" style={accordionColor}>
@@ -272,7 +280,7 @@ function ImprovingYourAccount() {
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionHeader targetId="13">
-                Q13. What is Limit Breaking? How do I do it? Do I need it?
+                    <p style={accordionPColor}>Q13. What is Limit Breaking? How do I do it? Do I need it?</p>
                 </AccordionHeader>
                 <AccordionItem>
                     <AccordionBody accordionId="13" style={accordionColor}>
@@ -289,7 +297,7 @@ function ImprovingYourAccount() {
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionHeader targetId="14">
-                Q14. What are Tasmons? How do I use them?
+                    <p style={accordionPColor}>Q14. What are Tasmons? How do I use them?</p>
                 </AccordionHeader>
                 <AccordionItem>
                     <AccordionBody accordionId="14" style={accordionColor}>
@@ -306,7 +314,7 @@ function ImprovingYourAccount() {
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionHeader targetId="15">
-                Q15. How important is Equipment? How do I get more equipment?
+                    <p style={accordionPColor}>Q15. How important is Equipment? How do I get more equipment?</p>
                 </AccordionHeader>
                 <AccordionItem>
                     <AccordionBody accordionId="15" style={accordionColor}>
@@ -321,7 +329,7 @@ function ImprovingYourAccount() {
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionHeader targetId="16">
-                Q16. How do I improve my Equipment? What does this do?
+                    <p style={accordionPColor}>Q16. How do I improve my Equipment? What does this do?</p>
                 </AccordionHeader>
                 <AccordionItem>
                     <AccordionBody accordionId="16" style={accordionColor}>
@@ -360,7 +368,7 @@ function BattleMechanics () {
                 <h2><center>Battle Mechanics</center></h2>
                 <Accordion flush open={accordion} toggle={toggle}>
                     <AccordionHeader targetId="17">
-                    Q17. What are Arts? How do I use them?
+                        <p style={accordionPColor}>Q17. What are Arts? How do I use them?</p>
                     </AccordionHeader>
                     <AccordionItem>
                         <AccordionBody accordionId="17" style={accordionColor}>
@@ -374,7 +382,7 @@ function BattleMechanics () {
                         </AccordionBody>
                     </AccordionItem>
                     <AccordionHeader targetId="18">
-                    Q18. What are True Arts? How do I use them?
+                        <p style={accordionPColor}>Q18. What are True Arts? How do I use them?</p>
                     </AccordionHeader>
                     <AccordionItem>
                         <AccordionBody accordionId="18" style={accordionColor}>
@@ -386,7 +394,7 @@ function BattleMechanics () {
                         </AccordionBody>
                     </AccordionItem>
                     <AccordionHeader targetId="19">
-                    Q19. What is Battle Ether (BE)? Are they related to the little orbs that pop up?
+                        <p style={accordionPColor}>Q19. What is Battle Ether (BE)?</p>
                     </AccordionHeader>
                     <AccordionItem>
                         <AccordionBody accordionId="19" style={accordionColor}>
@@ -403,7 +411,7 @@ function BattleMechanics () {
                         </AccordionBody>
                     </AccordionItem>
                     <AccordionHeader targetId="20">
-                    Q20. What is Breaking? What does it do? Is it important?
+                        <p style={accordionPColor}>Q20. What is Breaking? What does it do? Is it important?</p>
                     </AccordionHeader>
                     <AccordionItem>
                         <AccordionBody accordionId="20" style={accordionColor}>
@@ -418,7 +426,7 @@ function BattleMechanics () {
                         </AccordionBody>
                     </AccordionItem>
                     <AccordionHeader targetId="21">
-                    Q21. How do buffs/debuffs work? Do they stack? Are they relevant?
+                        <p style={accordionPColor}>Q21. How do buffs/debuffs work? Do they stack? Are they relevant?</p>
                     </AccordionHeader>
                     <AccordionItem>
                         <AccordionBody accordionId="21" style={accordionColor}>
@@ -433,7 +441,7 @@ function BattleMechanics () {
                         </AccordionBody>
                     </AccordionItem>
                     <AccordionHeader targetId="22">
-                    Q22. What status effects are in this game? What do they do?
+                        <p style={accordionPColor}>Q22. What status effects are in this game? What do they do?</p>
                     </AccordionHeader>
                     <AccordionItem>
                         <AccordionBody accordionId="22" style={accordionColor}>
@@ -454,7 +462,7 @@ function BattleMechanics () {
                         </AccordionBody>
                     </AccordionItem>
                     <AccordionHeader targetId="23">
-                    Q23. What does a basic team look like? What should it have?
+                        <p style={accordionPColor}>Q23. What does a basic team look like? What should it have?</p>
                     </AccordionHeader>
                     <AccordionItem>
                         <AccordionBody accordionId="23" style={accordionColor}>
@@ -468,7 +476,7 @@ function BattleMechanics () {
                         </AccordionBody>
                     </AccordionItem>
                     <AccordionHeader targetId="24">
-                    Q24. Is using Auto bad? Can I make Auto better for using?
+                        <p style={accordionPColor}>Q24. Is using Auto bad? Can I make Auto better for using?</p>
                     </AccordionHeader>
                     <AccordionItem>
                         <AccordionBody accordionId="24" style={accordionColor}>
@@ -501,7 +509,7 @@ function Multiplayer() {
             <h2><center>Category</center></h2>
             <Accordion flush open={accordion} toggle={toggle}>
                 <AccordionHeader targetId="25">
-                Q25. How does Multiplayer work in this game? Why would I want to do it?
+                    <p style={accordionPColor}>Q25. How does Multiplayer work in this game? Why would I want to do it?</p>
                 </AccordionHeader>
                 <AccordionItem>
                     <AccordionBody accordionId="25" style={accordionColor}>
@@ -516,7 +524,7 @@ function Multiplayer() {
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionHeader targetId="26">
-                Q26. Does everyone get the same loot in a multi lobby?
+                    <p style={accordionPColor}>Q26. Does everyone get the same loot in a multi lobby?</p>
                 </AccordionHeader>
                 <AccordionItem>
                     <AccordionBody accordionId="26" style={accordionColor}>
@@ -528,7 +536,7 @@ function Multiplayer() {
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionHeader targetId="27">
-                Q27. Why do I get kicked from lobbies a lot?
+                    <p style={accordionPColor}>Q27. Why do I get kicked from lobbies a lot?</p>
                 </AccordionHeader>
                 <AccordionItem>
                     <AccordionBody accordionId="27" style={accordionColor}>
@@ -542,7 +550,7 @@ function Multiplayer() {
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionHeader targetId="28">
-                Q28. How does Luck work in multiplayer lobbies?
+                    <p style={accordionPColor}>Q28. How does Luck work in multiplayer lobbies?</p>
                 </AccordionHeader>
                 <AccordionItem>
                     <AccordionBody accordionId="28" style={accordionColor}>
@@ -554,7 +562,7 @@ function Multiplayer() {
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionHeader targetId="29">
-                Q29. I see a lot of people using the same food as one another, why is that?
+                    <p style={accordionPColor}>Q29. I see a lot of people using the same food as one another, why is that?</p>
                 </AccordionHeader>
                 <AccordionItem>
                     <AccordionBody accordionId="29" style={accordionColor}>
@@ -567,7 +575,7 @@ function Multiplayer() {
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionHeader targetId="30">
-                Q30. What do friends do in this game? How do I get more friends?
+                    <p style={accordionPColor}>Q30. What do friends do in this game? How do I get more friends?</p>
                 </AccordionHeader>
                 <AccordionItem>
                     <AccordionBody accordionId="30" style={accordionColor}>
@@ -587,7 +595,7 @@ function Multiplayer() {
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionHeader targetId="31">
-                Q31. Does my leader affect anything?
+                    <p style={accordionPColor}>Q31. Does my leader affect anything?</p>
                 </AccordionHeader>
                 <AccordionItem>
                     <AccordionBody accordionId="31" style={accordionColor}>
@@ -599,7 +607,7 @@ function Multiplayer() {
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionHeader targetId="32">
-                Q32. What are the Stickers for? Can I change them?
+                    <p style={accordionPColor}>Q32. What are the Stickers for? Can I change them?</p>
                 </AccordionHeader>
                 <AccordionItem>
                     <AccordionBody accordionId="32" style={accordionColor}>
@@ -613,7 +621,7 @@ function Multiplayer() {
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionHeader targetId="33">
-                Q33. How do I invite friends to my multiplayer lobby?
+                    <p style={accordionPColor}>Q33. How do I invite friends to my multiplayer lobby?</p>
                 </AccordionHeader>
                 <AccordionItem>
                     <AccordionBody accordionId="33" style={accordionColor}>
@@ -649,7 +657,7 @@ function Arena() {
             <h2><center>Arena</center></h2>
             <Accordion flush open={accordion} toggle={toggle}>
                 <AccordionHeader targetId="34">
-                Q34. What is the Arena? How do I play in it?
+                    <p style={accordionPColor}>Q34. What is the Arena? How do I play in it?</p>
                 </AccordionHeader>
                 <AccordionItem>
                     <AccordionBody accordionId="34" style={accordionColor}>
@@ -660,7 +668,7 @@ function Arena() {
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionHeader targetId="35">
-                Q35. Is the Arena worth doing? What rewards do I get from it?
+                    <p style={accordionPColor}>Q35. Is the Arena worth doing? What rewards do I get from it?</p>
                 </AccordionHeader>
                 <AccordionItem>
                     <AccordionBody accordionId="35" style={accordionColor}>
@@ -677,7 +685,7 @@ function Arena() {
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionHeader targetId="36">
-                Q36. I got to Masters and I keep dying. What kind of team do I need?
+                    <p style={accordionPColor}>Q36. I got to Masters and I keep dying. What kind of team do I need?</p>
                 </AccordionHeader>
                 <AccordionItem>
                     <AccordionBody accordionId="36" style={accordionColor}>
@@ -711,7 +719,7 @@ function Events() {
             <h2><center>Events</center></h2>
             <Accordion flush open={accordion} toggle={toggle}>
                 <AccordionHeader targetId="37">
-                Q37. How are events handled in this game? What do they normally bring?
+                    <p style={accordionPColor}>Q37. How are events handled in this game? What do they normally bring?</p>
                 </AccordionHeader>
                 <AccordionItem>
                     <AccordionBody accordionId="37" style={accordionColor}>
@@ -723,7 +731,7 @@ function Events() {
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionHeader targetId="38">
-                Q38. What are these drops that I am getting from the quests? What do they do?
+                    <p style={accordionPColor}>Q38. What are these drops that I am getting from the quests? What do they do?</p>
                 </AccordionHeader>
                 <AccordionItem>
                     <AccordionBody accordionId="38" style={accordionColor}>
@@ -736,7 +744,7 @@ function Events() {
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionHeader targetId="39">
-                Q39. What units should I bring to an event?
+                    <p style={accordionPColor}>Q39. What units should I bring to an event?</p>
                 </AccordionHeader>
                 <AccordionItem>
                     <AccordionBody accordionId="39" style={accordionColor}>
@@ -751,7 +759,7 @@ function Events() {
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionHeader targetId="40">
-                Q40. I can’t clear the highest level difficulty of the quest, should I bother farming?
+                    <p style={accordionPColor}>Q40. I can’t clear the highest level difficulty of the quest, should I bother farming?</p>
                 </AccordionHeader>
                 <AccordionItem>
                     <AccordionBody accordionId="40" style={accordionColor}>
@@ -766,7 +774,7 @@ function Events() {
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionHeader targetId="41">
-                Q41. How many of each equipment should I get from an event?
+                    <p style={accordionPColor}>Q41. How many of each equipment should I get from an event?</p>
                 </AccordionHeader>
                 <AccordionItem>
                     <AccordionBody accordionId="41" style={accordionColor}>
@@ -779,7 +787,7 @@ function Events() {
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionHeader targetId="42">
-                Q42. Why are there no Crystals when I clear this event’s missions? Where is the other loot that is normally in the store?
+                    <p style={accordionPColor}>Q42. Why are there no Crystals when I clear this event’s missions? Where is the other loot that is normally in the store?</p>
                 </AccordionHeader>
                 <AccordionItem>
                     <AccordionBody accordionId="42" style={accordionColor}>
@@ -792,7 +800,7 @@ function Events() {
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionHeader targetId="43">
-                Q43. Will every event return? I wasn’t able to get everything I wanted.
+                    <p style={accordionPColor}>Q43. Will every event return? I wasn’t able to get everything I wanted.</p>
                 </AccordionHeader>
                 <AccordionItem>
                     <AccordionBody accordionId="43" style={accordionColor}>
@@ -824,7 +832,7 @@ function GiantBoss() {
             <h2><center>Giant Bosses</center></h2>
             <Accordion flush open={accordion} toggle={toggle}>
                 <AccordionHeader targetId="44">
-                Q44. What are Giant Bosses? What are they good for?
+                    <p style={accordionPColor}>Q44. What are Giant Bosses? What are they good for?</p>
                 </AccordionHeader>
                 <AccordionItem>
                     <AccordionBody accordionId="44" style={accordionColor}>
@@ -834,7 +842,7 @@ function GiantBoss() {
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionHeader targetId="45">
-                Q45. How do I defeat a Giant Boss? What units do I need to use?
+                    <p style={accordionPColor}>Q45. How do I defeat a Giant Boss? What units do I need to use?</p>
                 </AccordionHeader>
                 <AccordionItem>
                     <AccordionBody accordionId="45" style={accordionColor}>
@@ -848,7 +856,7 @@ function GiantBoss() {
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionHeader targetId="46">
-                Q46. Which level of the boss should I farm for a certain drop?
+                    <p style={accordionPColor}>Q46. Which level of the boss should I farm for a certain drop?</p>
                 </AccordionHeader>
                 <AccordionItem>
                     <AccordionBody accordionId="46" style={accordionColor}>
@@ -861,7 +869,7 @@ function GiantBoss() {
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionHeader targetId="47">
-                Q47. How do I fight the Awoken version of a boss? Do I need to?
+                    <p style={accordionPColor}>Q47. How do I fight the Awoken version of a boss?</p>
                 </AccordionHeader>
                 <AccordionItem>
                     <AccordionBody accordionId="47" style={accordionColor}>
@@ -877,7 +885,7 @@ function GiantBoss() {
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionHeader targetId="48">
-                Q48. I can’t find a certain Boss in the Giant Boss tab, where are they? When will they show up?
+                    <p style={accordionPColor}>Q48. I can’t find a certain Boss in the Giant Boss tab, where are they? When will they show up?</p>
                 </AccordionHeader>
                 <AccordionItem>
                     <AccordionBody accordionId="48" style={accordionColor}>
@@ -913,7 +921,7 @@ function Miscellaneous() {
             <h2><center>Miscellaneous</center></h2>
             <Accordion flush open={accordion} toggle={toggle}>
                 <AccordionHeader targetId="49">
-                Q49. Is this game Pay to Win? How far can I expect to get if I decide to play free?
+                    <p style={accordionPColor}>Q49. Is this game Pay to Win? How far can I expect to get if I decide to play free?</p>
                 </AccordionHeader>
                 <AccordionItem>
                     <AccordionBody accordionId="49" style={accordionColor}>
@@ -930,7 +938,7 @@ function Miscellaneous() {
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionHeader targetId="50">
-                Q50. What should I spend my energy on? Should I use my Stamina Potions?
+                    <p style={accordionPColor}>Q50. What should I spend my energy on? Should I use my Stamina Potions?</p>
                 </AccordionHeader>
                 <AccordionItem>
                     <AccordionBody accordionId="50" style={accordionColor}>
@@ -948,7 +956,7 @@ function Miscellaneous() {
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionHeader targetId="51">
-                Q51. What are Rainbow Gems? How do I get them? Do I need them?
+                    <p style={accordionPColor}>Q51. What are Rainbow Gems? How do I get them? Do I need them?</p>
                 </AccordionHeader>
                 <AccordionItem>
                     <AccordionBody accordionId="51" style={accordionColor}>
@@ -963,7 +971,7 @@ function Miscellaneous() {
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionHeader targetId="52">
-                Q52. What are ‘True’ Weapons? How do I get them? Do I need them?
+                    <p style={accordionPColor}>Q52. What are ‘True’ Weapons? How do I get them? Do I need them?</p>
                 </AccordionHeader>
                 <AccordionItem>
                     <AccordionBody accordionId="52" style={accordionColor}>
@@ -984,7 +992,7 @@ function Miscellaneous() {
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionHeader targetId="53">
-                Q53. What are Secret Weapons? Where do I get them?
+                    <p style={accordionPColor}>Q53. What are Secret Weapons? Where do I get them?</p>
                 </AccordionHeader>
                 <AccordionItem>
                     <AccordionBody accordionId="53" style={accordionColor}>
@@ -997,7 +1005,7 @@ function Miscellaneous() {
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionHeader targetId="54">
-                Q54. What are ‘First Friends’? How can I benefit from this?
+                    <p style={accordionPColor}>Q54. What are ‘First Friends’? How can I benefit from this?</p>
                 </AccordionHeader>
                 <AccordionItem>
                     <AccordionBody accordionId="54" style={accordionColor}>
@@ -1012,7 +1020,7 @@ function Miscellaneous() {
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionHeader targetId="55">
-                Q55. If I were to spend on this game, what is the best use of my money?
+                    <p style={accordionPColor}>Q55. If I were to spend on this game, what is the best use of my money?</p>
                 </AccordionHeader>
                 <AccordionItem>
                     <AccordionBody accordionId="55" style={accordionColor}>
@@ -1030,7 +1038,7 @@ function Miscellaneous() {
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionHeader targetId="56">
-                Q56. Where do I find the Battering Gale or Poison Ring?
+                    <p style={accordionPColor}>Q56. Where do I find the Battering Gale or Poison Ring?</p>
                 </AccordionHeader>
                 <AccordionItem>
                     <AccordionBody accordionId="56" style={accordionColor}>
@@ -1048,7 +1056,7 @@ function Miscellaneous() {
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionHeader targetId="57">
-                Q57. How do I access different missions in the Materials tab in Exploring?
+                    <p style={accordionPColor}>Q57. How do I access different missions in the Materials tab in Exploring?</p>
                 </AccordionHeader>
                 <AccordionItem>
                     <AccordionBody accordionId="57" style={accordionColor}>
@@ -1091,7 +1099,7 @@ function Abbreviations() {
         <Accordion flush open={accordion} toggle={toggle}>
             <h2><center>Common Abbreviations</center></h2>
             <AccordionHeader targetId="58">
-            Show Abbreviations
+                <p style={accordionPColor}>Show Abbreviations</p>
             </AccordionHeader>
             <AccordionItem>
                 <AccordionBody accordionId="58" style={accordionColor}>
