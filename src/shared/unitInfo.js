@@ -6247,7 +6247,7 @@ const UnitInformation = [
     { //Gaia - Complete
         id: 101716211,
         name: "Gaia",
-        rank: "TBD",
+        rank: "A+",
         attribute: "Water",
         type: "God",
         image: 
@@ -6698,7 +6698,7 @@ const UnitInformation = [
     },
     { //Marzex (Light) - Complete
         id: 101776412,
-        name: "Marzex",
+        name: "Marzex (Light)",
         rank: "A",
         twrequire: "favorable",
         attribute: "Light",
@@ -13535,7 +13535,7 @@ const UnitInformation = [
     { //Melissa - Complete
         id: 102806412,
         name: "Melissa",
-        rank: "TBD",
+        rank: "B-",
         attribute: "Light",
         type: "Human",
         image: 
@@ -17130,7 +17130,7 @@ const UnitInformation = [
     { //Emi - Complete
         id: 103246512,
         name: "Emi",
-        rank: "TBD",
+        rank: "A+",
         attribute: "Dark",
         type: "Human",
         image: 
@@ -17441,6 +17441,7 @@ const UnitInformation = [
     { //Hart (Dark) - Missing Lore
         id: 103286512,
         name: "Hart (Dark)",
+        rank: "A+",
         attribute: "Dark",
         type: "Human",
         image: 
@@ -21193,7 +21194,7 @@ const UnitInformation = [
     { //Naofumi - Complete
         id: 107256411,
         name: "Naofumi",
-        rank: "A+",
+        rank: "S+",
         twrequire: "favorable",
         attribute: "Light",
         type: "Human",
@@ -21290,7 +21291,7 @@ const UnitInformation = [
     { //Raphtalia - Complete
         id: 107266412,
         name: "Raphtalia",
-        rank: "A-",
+        rank: "A",
         attribute: "Light",
         type: "Beast",
         image: 
@@ -21367,7 +21368,7 @@ const UnitInformation = [
     { //Filo - Complete
         id: 107276312,
         name: "Filo",
-        rank: "B+",
+        rank: "A",
         attribute: "Earth",
         type: "Demon",
         image: 
@@ -21444,7 +21445,7 @@ const UnitInformation = [
     { //Melty - Complete
         id: 107286212,
         name: "Melty",
-        rank: "S",
+        rank: "S+",
         attribute: "Water",
         type: "Human",
         image: 
@@ -21521,7 +21522,7 @@ const UnitInformation = [
     { // Fitoria - Complete
         id: 107606312,
         name: "Fitoria",
-        rank: "TBD",
+        rank: "S+",
         attribute: "Earth",
         type: "Demon",
         image: 
@@ -23556,6 +23557,7 @@ const UnitInformation = [
     { // Takemichi - Missing Lore
         id: 107616111,
         name: "Takemichi",
+        rank: "TBD",
         attribute: "Fire",
         type: "Human",
         image: 
@@ -23620,6 +23622,7 @@ const UnitInformation = [
     { // Mikey - Missing Lore
         id: 107626512,
         name: "Mikey",
+        rank: "S-",
         attribute: "Dark",
         type: "Human",
         image: 
@@ -23684,6 +23687,7 @@ const UnitInformation = [
     { // Draken - Missing Lore
         id: 107636412,
         name: "Draken",
+        rank: "TBD",
         attribute: "Light",
         type: "Human",
         image: 
@@ -23748,6 +23752,7 @@ const UnitInformation = [
     { // Chifuyu - Missing Lore
         id: 107646312,
         name: "Chifuyu",
+        rank: "TBD",
         attribute: "Earth",
         type: "Human",
         image: 
@@ -23812,6 +23817,7 @@ const UnitInformation = [
     { // Mitsuya - Missing Lore
         id: 107656212,
         name: "Mitsuya",
+        rank: "S-",
         attribute: "Water",
         type: "Human",
         image: 
