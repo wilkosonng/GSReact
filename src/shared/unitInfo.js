@@ -23476,7 +23476,7 @@ const UnitInformation = [
                 evoawk: "The strongest woman in Fairy Tail. Her status as an S-Class wizard lets her accept S-Class requests. Her nickname means \"queen of the fairies\", and her magic ability \"The Knight\" lets her \"reequip\" arms, instantly changing in the middle of battle."
             }
     },
-    { // Nui Harume - Missing Lore
+    { // Nui Harume - Complete
         id: 107596512,
         name: "Nui Harume",
         rank: "A+",
@@ -23550,11 +23550,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "A girl born from an artificial womb made out of the Primordial Life Fiber. After Satsuki Kiryuin fell into her mother Ragyo's grasp, she wove the enormous Shinra-Koketsu garment. Her commitment to Ragyo was so great as to willingly become one with the Kiryuin matron later.",
+                evoawk: "Grand Couturier of the REVOCS Corporation. Beneath her cute appearance lies a haughty, sadistic personality. After killing Ryuko's father, Isshin Matoi, she took one of the two Scissor Blades. Among her superhuman techniques is the ability to remove the Banshi from Goku Uniforms, destroying them instantly."
             }
     },
-    { // Takemichi - Missing Lore
+    { // Takemichi - Complete
         id: 107616111,
         name: "Takemichi",
         rank: "TBD",
@@ -23615,11 +23615,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "After being shoved in front of an oncoming train, Takemichi Hanegaki suddenly found himself back in his middle school days. Determination to change his fate as a weak, witless delinquent led him to meet Mikey and Draken.",
+                evoawk: "To save his former girlfriend, Hinata Tachibana, from the violent Tokyo Manji Gang in the present, he decided to guide their formative days in the past. That unbreakable tenacity altered the paths of both himself and his fellow Toman members."
             }
     },
-    { // Mikey - Missing Lore
+    { // Mikey - Complete
         id: 107626512,
         name: "Mikey",
         rank: "S-",
@@ -23680,8 +23680,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "The Leader of the Tokyo Manji Gang, real name Manjiro Sano. Known as the Invincible Mikey, he rules over other hoodlums of the city with his incredible strength and charisma. When it comes to protecting his members, no foe is too tough.",
+                evoawk: "Though his strength is uncontested, he lost the ability to control his emotions with the death of his older brother, Shinichiro. Only with Takemichi and Draken's support can he keep the darkness in his heart at bay."
             }
     },
     { // Draken - Missing Lore
