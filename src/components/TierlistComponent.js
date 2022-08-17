@@ -11,12 +11,17 @@ const cardTierColor = {
     backgroundColor: "#292930"
 }
 
+const rankSize = {
+    fontSize: "60px", 
+    webkitTextStroke: "1px black"
+}
+
 export default function Tierlist() {
     //Obtain Unit Data
     const units = getUnits();
 
     //TODO: Add Hook to change Height of tier rankings based on viewport
-    //Show each row units based on rank https://blog.logrocket.com/developing-responsive-layouts-with-react-hooks/
+    //Potentially try Colspan or Rowspan for Mobile?
     return (
         <Container style={{marginTop: "5rem"}}>
             <Row>
@@ -53,11 +58,11 @@ export default function Tierlist() {
             <Row>
                 <Card style={cardTierColor}>
                     <CardBody>
-                        <table>
+                        <table style={{height: "100%"}}>
                             <tr>
                                 <td>
-                                    <Card style={{width: "90px", backgroundColor:"#f291c5"}}>
-                                        <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>SSS</strong></center>
+                                    <Card style={{width: "100%", height: "100%", backgroundColor:"#f291c5", justifyContent: "center", alignItems: "center"}}>
+                                        <center><strong style={rankSize}>SSS</strong></center>
                                     </Card>
                                 </td>
                                 <td>
@@ -79,11 +84,11 @@ export default function Tierlist() {
             <Row>
                 <Card style={cardTierColor}>
                     <CardBody>
-                        <table>
+                        <table style={{height: "100%"}}>
                             <tr>
                                 <td>
-                                    <Card style={{width: "90px", backgroundColor:"#ffc5cf"}}>
-                                        <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>SS</strong></center>
+                                    <Card style={{width: "90px", backgroundColor:"#ffc5cf", height: "100%", justifyContent: "center", alignItems: "center"}}>
+                                        <center><strong style={rankSize}>SS</strong></center>
                                     </Card>
                                 </td>
                                 <td>
@@ -105,11 +110,11 @@ export default function Tierlist() {
             <Row>
                 <Card style={cardTierColor}>
                     <CardBody>
-                        <table>
+                        <table style={{height: "100%"}}>
                             <tr>
                                 <td>
-                                    <Card style={{width: "90px", backgroundColor:"#ff97a8"}}>
-                                        <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>S+</strong></center>
+                                    <Card style={{width: "90px",height: "100%", backgroundColor:"#ff97a8", justifyContent: "center", alignItems: "center"}}>
+                                        <center><strong style={rankSize}>S+</strong></center>
                                     </Card>
                                 </td>
                                 <td>
@@ -131,11 +136,11 @@ export default function Tierlist() {
             <Row>
                 <Card style={cardTierColor}>
                     <CardBody>
-                        <table>
+                        <table style={{height: "100%"}}>
                             <tr>
                                 <td>
-                                    <Card style={{width: "90px", height: "100%", backgroundColor:"#f15b74"}}>
-                                        <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>S</strong></center>
+                                    <Card style={{width: "90px", height: "100%", backgroundColor:"#f15b74", justifyContent: "center", alignItems: "center"}}>
+                                        <center><strong style={rankSize}>S</strong></center>
                                     </Card>
                                 </td>
                                 <td>
@@ -157,11 +162,11 @@ export default function Tierlist() {
             <Row>
                 <Card style={cardTierColor}>
                     <CardBody>
-                        <table>
+                        <table style={{height: "100%"}}>
                             <tr>
                                 <td>
-                                    <Card style={{width: "90px", backgroundColor:"#cf364f"}}>
-                                        <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>S-</strong></center>
+                                    <Card style={{width: "90px", height: "100%", backgroundColor:"#cf364f", justifyContent: "center", alignItems: "center"}}>
+                                        <center><strong style={rankSize}>S-</strong></center>
                                     </Card>
                                 </td>
                                 <td>
@@ -183,11 +188,11 @@ export default function Tierlist() {
             <Row>
                 <Card style={cardTierColor}>
                     <CardBody>
-                        <table>
+                        <table style={{height: "100%"}}>
                             <tr>
                                 <td>
-                                    <Card style={{width: "90px", backgroundColor:"#f6b990"}}>
-                                        <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>A+</strong></center>
+                                    <Card style={{width: "90px", backgroundColor:"#f6b990", height: "100%", justifyContent: "center", alignItems: "center"}}>
+                                        <center><strong style={rankSize}>A+</strong></center>
                                     </Card>
                                 </td>
                                 <td>
@@ -210,11 +215,11 @@ export default function Tierlist() {
             <Row>
                 <Card style={cardTierColor}>
                     <CardBody>
-                        <table>
+                        <table style={{height: "100%"}}>
                             <tr>
                                 <td>
-                                    <Card style={{width: "90px", backgroundColor:"#f2985c"}}>
-                                        <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>A</strong></center>
+                                    <Card style={{width: "90px", backgroundColor:"#f2985c", height: "100%", justifyContent: "center", alignItems: "center"}}>
+                                        <center><strong style={rankSize}>A</strong></center>
                                     </Card>
                                 </td>
                                 <td>
@@ -236,11 +241,11 @@ export default function Tierlist() {
             <Row>
                 <Card style={cardTierColor}>
                     <CardBody>
-                        <table>
+                        <table style={{height: "100%"}}>
                             <tr>
                                 <td>
-                                    <Card style={{width: "90px", backgroundColor:"#e8731a"}}>
-                                        <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>A-</strong></center>
+                                    <Card style={{width: "90px", backgroundColor:"#e8731a", height: "100%", justifyContent: "center", alignItems: "center"}}>
+                                        <center><strong style={rankSize}>A-</strong></center>
                                     </Card>
                                 </td>
                                 <td>
@@ -262,11 +267,11 @@ export default function Tierlist() {
             <Row>
                 <Card style={cardTierColor}>
                     <CardBody>
-                        <table>
+                        <table style={{height: "100%"}}>
                             <tr>
                                 <td>
-                                    <Card style={{width: "90px", backgroundColor:"#f2d45c"}}>
-                                        <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>B+</strong></center>
+                                    <Card style={{width: "90px", backgroundColor:"#f2d45c", height:"100%", justifyContent: "center", alignItems: "center"}}>
+                                        <center><strong style={rankSize}>B+</strong></center>
                                     </Card>
                                 </td>
                                 <td>
@@ -289,11 +294,11 @@ export default function Tierlist() {
             <Row>
                 <Card style={cardTierColor}>
                     <CardBody>
-                        <table>
+                        <table style={{height: "100%"}}>
                             <tr>
                                 <td>
-                                    <Card style={{width: "90px", backgroundColor:"#ebac36"}}>
-                                        <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>B</strong></center>
+                                    <Card style={{width: "90px", backgroundColor:"#ebac36", height:"100%", justifyContent: "center", alignItems: "center"}}>
+                                        <center><strong style={rankSize}>B</strong></center>
                                     </Card>
                                 </td>
                                 <td>
@@ -315,11 +320,11 @@ export default function Tierlist() {
             <Row>
                 <Card style={cardTierColor}>
                     <CardBody>
-                        <table>
+                        <table style={{height: "100%"}}>
                             <tr>
                                 <td>
-                                    <Card style={{width: "90px", backgroundColor:"#e8faac"}}>
-                                        <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>B-</strong></center>
+                                    <Card style={{width: "90px", backgroundColor:"#e8faac", height:"100%", justifyContent: "center", alignItems: "center"}}>
+                                        <center><strong style={rankSize}>B-</strong></center>
                                     </Card>
                                 </td>
                                 <td>
@@ -347,11 +352,11 @@ export default function Tierlist() {
             <Row>
                 <Card style={cardTierColor}>
                     <CardBody>
-                        <table>
+                        <table style={{height: "100%"}}>
                             <tr>
                                 <td>
-                                    <Card style={{width: "90px", backgroundColor:"#4cbd5d"}}>
-                                        <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>C</strong></center>
+                                    <Card style={{width: "90px", backgroundColor:"#4cbd5d", height:"100%", justifyContent: "center", alignItems: "center"}}>
+                                        <center><strong style={rankSize}>C</strong></center>
                                     </Card>
                                 </td>
                                 <td>
@@ -378,11 +383,11 @@ export default function Tierlist() {
             <Row>
                 <Card style={cardTierColor}>
                     <CardBody>
-                        <table>
+                        <table style={{height: "100%"}}>
                             <tr>
                                 <td>
-                                    <Card style={{width: "90px", backgroundColor:"#7ecff2"}}>
-                                        <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>F</strong></center>
+                                    <Card style={{width: "90px", backgroundColor:"#7ecff2", height:"100%", justifyContent: "center", alignItems: "center"}}>
+                                        <center><strong style={rankSize}>F</strong></center>
                                     </Card>
                                 </td>
                                 <td>
@@ -409,11 +414,11 @@ export default function Tierlist() {
             <Row>
                 <Card style={cardTierColor}>
                     <CardBody>
-                        <table>
+                        <table style={{height: "100%"}}>
                             <tr>
                                 <td>
-                                    <Card style={{width: "90px", backgroundColor:"#d092f4"}}>
-                                        <center><strong style={{fontSize: "40px", webkitTextStroke: "2px black"}}>TBD</strong></center>
+                                    <Card style={{width: "100%", backgroundColor:"#d092f4", height:"100%", justifyContent: "center", alignItems: "center"}}>
+                                        <center><strong style={rankSize}>TBD</strong></center>
                                     </Card>
                                 </td>
                                 <td>
@@ -451,7 +456,7 @@ function DisplayUnit({unit}) {
     if(unit.twrequire){
         if(unit.twrequire === "reliance"){
             return (
-                <Col lg="auto">
+                <Col md="auto" xs="3">
                 <Card style={{border: "none", width: "90px", backgroundColor: "#292930"}}>
                     <center>
                         <a href={`/units/${unit.name}`} style={{textDecoration: "none"}}>
@@ -469,7 +474,7 @@ function DisplayUnit({unit}) {
         }
         if(unit.name === "Luahn") {
             return (
-                <Col lg="auto">
+                <Col md="auto" xs="4">
                 <Card style={{border: "none", width: "90px", backgroundColor: "#292930"}}>
                     <center>
                         <a href={`/units/${unit.name}`} style={{textDecoration: "none"}}>
@@ -486,7 +491,7 @@ function DisplayUnit({unit}) {
         }
 
         return (
-            <Col lg="auto">
+            <Col md="auto">
             <Card style={{border: "none", width: "90px", backgroundColor: "#292930"}}>
                 <center>
                     <a href={`/units/${unit.name}`} style={{textDecoration: "none"}}>
@@ -502,7 +507,7 @@ function DisplayUnit({unit}) {
     }
 
     return (
-        <Col lg="auto">
+        <Col md="auto" xs="3">
         <Card style={{border: "none", width: "90px", backgroundColor: "#292930"}}>
             <center>
                 <a href={`/units/${unit.name}`} style={{textDecoration: "none"}}>
@@ -519,7 +524,7 @@ function DisplayUnit({unit}) {
 function DisplayFiveStar({unit}) {
     //No TW favorability
     return (
-        <Col lg="auto">
+        <Col md="auto" xs="3">
         <Card style={{border: "none", width: "90px", backgroundColor: "#292930"}}>
             <center>
                 <a href={`/units/${unit.name}`} style={{textDecoration: "none"}}>
