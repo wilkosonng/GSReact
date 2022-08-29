@@ -4,6 +4,7 @@ import { StyledComponent } from 'styled-components';
 import { TwitterTimelineEmbed } from 'react-twitter-embed';
 import { getNews } from '../shared/news/news';
 import { Link } from 'react-router-dom';
+import TwitterContainer from './TwitterComponent';
 
 export default function News () {
     //Obtain Articles
@@ -35,9 +36,9 @@ export default function News () {
                                                         </CardHeader>
                                                         <CardBody style={{marginTop: "30px"}}>
                                                             <center>
-                                                                <img src={theNews.preview} alt="Preview Image" style={{maxWidth: "200px", width: "auto", height: "auto", maxHeight: "400px"}} />
+                                                                <img src={theNews.preview} alt="Preview Image" style={{maxWidth: "200px", width: "auto", height: "auto", maxHeight: "400px"}} /><br/><br/>
                                                                 <Link to={`/news/${theNews.id}`} style={{textDecoration: 'none', color: "#aaabb8"}} key={theNews.id}>
-                                                                    <p style={{backgroundColor: "#22bbff", color: "#292930", maxWidth: "300px", width: "100%", height: "auto",marginTop: "2rem"}}>Read Article</p>
+                                                                    <button style={{backgroundColor: "#22bbff", color: "#292930", maxWidth: "200px", width: "100%", height: "auto",marginTop: "2rem"}}>Read Article</button>
                                                                 </Link>
                                                             </center>
                                                         </CardBody>
@@ -49,15 +50,9 @@ export default function News () {
                                     })}
                                 <Card style={{backgroundColor: "#292930", color: "#e7f9fc", height: "500px", width: "100%", padding: "0px", margin: "0px"}}>
                                     <CardHeader style={{backgroundColor: "#22bbff", color: "#292930", padding: "0", height: "80px"}}><h2 style={{paddingTop: "15px"}}><center>Twitter Feed</center></h2></CardHeader>
-                                    <CardBody style={{marginTop: "15px"}}>
+                                    <CardBody style={{marginTop: "15px", height: "300px"}}>
                                         <center>
-                                            <TwitterTimelineEmbed
-                                            sourceType="profile"
-                                            screenName="GRDSMN_GLOBAL"
-                                            theme="dark"
-                                            noHeader="true"
-                                            noFooter="true" 
-                                            options={{height: "335px", maxHeight: "700px"}}/>
+                                            <TwitterContainer />
                                         </center>
                                     </CardBody>
                                 </Card>
@@ -85,6 +80,16 @@ export default function News () {
 
 /**
  * Old News 
+ * 
+ * <TwitterTimelineEmbed
+                                            sourceType="profile"
+                                            screenName="GRDSMN_GLOBAL"
+                                            theme="dark"
+                                            noHeader="true"
+                                            noFooter="true" 
+                                            autoHeight 
+                                            />
+
  * <Card style={{backgroundColor:"#464866", color: "#C5C6C7", border: "none"}}>
                                 <CardBody>
                                 <CardGroup>
