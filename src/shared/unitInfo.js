@@ -1562,7 +1562,7 @@ const UnitInformation = [
                 evoawk: "An opponent of the Gods in the Ancient War who was called the Deathbringer of Corpse Mountain. In truth, she was a Human girl who turned her hatred into a continual search for power. Once the Deathdealer had her target, she would pursue it without cease, even to death. Once, when she came again against a swordswoman who had ducked her demonic sickle once before, she took on the demeanor of a death-dealing force of nature to kill her foe. For some reason, the swordswoman merely complained under her breath and readied her sword. History does not record what happened next."
             }
     },
-    { //Rayas - Missing Lore
+    { //Rayas - Complete
         id: 101016411,
         name: "Rayas",
         attribute: "Light",
@@ -1600,16 +1600,18 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "8s CT - 1550% Light DMG (PHY).",
-                skillbreak: 1450,
-                arts: "7200% Light DMG (PHY). For 20s, increase Allies' ATK by 30%.",
-                artsbreak: 1800
+                skill: "7s CT - 1800% Light DMG (PHY). Increase own Arts by 10. During Ex-Force: 10s CT - 2000% Light DMG (PHY) Increase own Arts by 30.",
+                skillbreak: "1450 (800)",
+                arts: "9000% Light DMG (PHY). For 40s, increase Allies' ATK by 50%. During Ex-Force mode: 17000% Light DMG (PHY). For 15s, increase Allies' max HP by 20% and Allies gain a DMG barrier that negates 1000 DMG.",
+                artsbreak: "1800 (1200)",
+                truearts: "For 60s, enter Ex-Force mode. During Ex-Force mode: 52000% Light DMG (PHY). For 20s, increase Allies' PHY DMG by 120% and increase own Arts by 3/s.",
+                trueartsbreak: 1800
             },
         passive: 
             {
                 ability1: "Increase Dark RES by 25%.",
-                ability2: "Increase DMG to God Enemies by 30%.",
-                ability3: "Increase DMG to Demon Enemies by 30%."
+                ability2: "Increase DMG to God Enemies by 50%.",
+                ability3: "Increase DMG to Demon Enemies by 50%."
             }, 
         evolution: 
             {
@@ -1644,7 +1646,7 @@ const UnitInformation = [
                     mat2amt: 1,
                     mat3: "/db/Icons/dungeon_drops/fragRayas.png",
                     mat3amt: 1,
-                    hover3: "Rayas",
+                    hover3: "Spirit of Adventure",
                 }
             },
         trueweapon: 
@@ -1673,7 +1675,7 @@ const UnitInformation = [
                     skillbreak: 800,
                     passive: 
                         {
-                            ability1: "When equipped by Rayas, increase the duration of X-PHOSE mode by 30s. Increase Arts by 100 when entering X-PHOSE mode.",
+                            ability1: "When equipped by Rayas, increase the duration of Ex-Force mode by 30s. Increase Arts by 100 when entering Ex-Force mode.",
                             ability2: "Increase ATK by 10%."
                         }
                 }
@@ -1685,7 +1687,7 @@ const UnitInformation = [
                 evo3: "An adventurer from the Isliid Adventurer's Guild, Rayas became involved in the battle against the Demons after encountering the amnesiac Iris during a training exercise with Ganan, his guildmaster. While protecting Iris, the power to summon the spirits of ancient heroes awoke within him, allowing him to successfully summon one of the legendary Blade Masters. His abilities with sword and summon will only grow stronger.",
                 evo4: "During his travels to defeat the Demons, Rayas encountered the Demon Suppression Corps composed of members from the Great Nations. His old friend Roy, is there as well, and the group's strength proves inspiring enough to further draw out his latent abilities (not that he noticed). Now a part of the Corps, Rayas returns to his journey with expectations of further growth.",
                 evo5: "An adventurer journeying with friends to end the Demon menace. Contrary to his great strength, few know of his name and exploits, but even the handpicked warriors he journeys with have their eyes on him. Real experience has sharpened his talent with a sword and he’s managed to summon just Blade Masters, but incredible heroes from all of the eight races. Rayas still wants more, however, and so his journey continues.",
-                evoawk: "Lore coming soon."
+                evoawk: "A member of the Reigrad branch of the Adventurer's Guild. Although his contributions in ending both the Second Battle of Gomarey and the Bamint Princess' uprising earned recognition from key international figures, he is far from a household name. His self-taught bladework is, according to a freind with the imperial army, at major officer level. While journeying through La Riiz to defeat the Ancients, he unlocked the memories of the knight within Grand Scale and thus the blade's true power."
             }
     },
     { //Iris - Complete
@@ -13482,16 +13484,16 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "8s CT - 2400% Water DMG (PHY). During own Skill, increase Paralysis and Freeze RES by 100%.",
+                skill: "8s CT - 2400% Water DMG (PHY). Invulnerable to DMG during Skill.",
                 skillbreak: 1200,
-                arts: "12800% Water DMG (PHY). Permanently increase the Hit Counter cap to 198 + For 10s, increase Allies' ATK and DEF by 50%.",
+                arts: "12800% Water DMG (PHY). Hit Count for this Arts is doubled + For 10s, increase Allies' ATK and DEF by 50%.",
                 artsbreak: 2000,
-                truearts: "34800% Water DMG (PHY). For 10s, increase own stats by 30%, increase own Arts by 3/s. When own Hit Counter is at 99 or higher: Reduce Hit Counter by 77 + For 20s, increase all Allies' stats by 30%, increase own Arts by 3/s.",
+                truearts: "34800% Water DMG (PHY). For 10s, increase own stats by 30%, increase own Arts by 3/s. When own Hit Counter is at 99: Reduce Hit Counter by 77 + For 20s, increase all Allies' stats by 30% and all Allies' Arts gauge by 3/s.",
                 trueartsbreak: 3000
             },
         passive: 
             {
-                ability1: "Add a Hit Counter that gains Count based on hits to enemies by own Skill, Arts and True Arts. Increase own accuracy and Critical Rate based on Hit Count. Hit Counter caps at 99 hits.",
+                ability1: "Add a Hit Counter that gains Count based on hits to enemies by own Skill, Arts and True Arts. Increase own Accuracy and Critical Rate based on Hit Count. Hit Counter caps at 99 hits.",
                 ability2: "Increase DMG to Giant Bosses by 30%."
             }, 
         evolution: 
@@ -13515,7 +13517,7 @@ const UnitInformation = [
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: "Saber Arm",
+                name: "Sabertooth Gauntlets",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "/db/Equipment/Detail/item_detail_106491.png",
                 skill: "40s CT - 9000% Water DMG (PHY). For 12s, reduce Enemies' Water and PHY RES by 20%.",
@@ -17139,7 +17141,7 @@ const UnitInformation = [
                 detailawk: "/db/Units/Detail/unit_detail_103246512.png",
                 thumb5: "/db/Units/Thumbnail/unit_thumbnail_103245512.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103246512.png",
-                liberation: "/db/Units/Thumbnail/unit_thumbnail_501701513.png"
+                revelation: "/db/Units/Thumbnail/unit_thumbnail_501701513.png"
             },
         slots: 
             {
@@ -17167,7 +17169,7 @@ const UnitInformation = [
                 artsbreak: 600,
                 truearts: "For 70s, enter Revelation Mode. While in Revelation Mode, replace Equips with Morph Skills, replace Skill with Mega Skill and replace Arts with Mega Arts. Other actions cannot be performed while an animation is ongoing.",
                 trueartsbreak: 0,
-                liberation: 
+                revelation: 
                     {
                         skill1: "10s CT - 10000% Dark DMG (MAG). 80% chance to inflict Blind",
                         skill1break: 1000,
@@ -17240,7 +17242,7 @@ const UnitInformation = [
                 evoawk: "A young woman who claims the world belongs to her. She is able to use the powers of those she absorbs, and they also influence her transformed state. She holds Rayas in great contempt but does not understand why."
             }
     },
-    { //Groytz - Missing Lore
+    { //Groitz - Missing Lore
         id: 103256312,
         name: "Groitz",
         attribute: "Earth",
@@ -17251,7 +17253,7 @@ const UnitInformation = [
                 detailawk: "/db/Units/Detail/unit_detail_103256312.png",
                 thumb5: "/db/Units/Thumbnail/unit_thumbnail_103255312.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103256312.png",
-                liberation: "/db/Units/Thumbnail/unit_thumbnail_501771313.png"
+                revelation: "/db/Units/Thumbnail/unit_thumbnail_501771313.png"
             },
         slots: 
             {
@@ -17279,7 +17281,7 @@ const UnitInformation = [
                 artsbreak: 1000,
                 truearts: "For 60s, enter Revelation Mode. While in Revelation Mode, replace Equips with Morph Skills, replace Skill with Mega Skill and replace Arts with Mega Arts. Other actions cannot be performed while an animation is ongoing.",
                 trueartsbreak: 0,
-                liberation: 
+                revelation: 
                     {
                         skill1: "12s CT - 10000% Earth DMG (PHY). For 15s, reduce Enemies' Earth RES by 50%",
                         skill1break: 1200,
@@ -17297,7 +17299,7 @@ const UnitInformation = [
             {
                 ability1: "Increase accuracy against Poisoned Enemies by 50%.",
                 ability2: "Increase DMG against Poisoned Enemies by 50%.",
-                ability3: "Increase Groitz's DMG by [30% × # of times Skill or Morph Skill 3 inflicted Poison] (up to 300%)."
+                ability3: "Increase Groitz's DMG by [30% × # of times Skill or Revelation Skill 3 inflicted Poison] (up to 300%)."
             }, 
         evolution: 
             {
@@ -17319,7 +17321,7 @@ const UnitInformation = [
             {
                 true1: 
                 {
-                    name: "Cipher",
+                    name: "Cypher",
                     slot: "/db/Mines/thumbnail/physLB.png",
                     thumb: "/db/Equipment/Thumbnail/item_thumbnail_109661.png",
                     detail: "/db/Equipment/Detail/item_detail_109661.png",
@@ -19496,7 +19498,8 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
             
-    },{ // Summer Liza - Missing Lore
+    },
+    { // Summer Liza - Missing Lore
         id: 103606212,
         name: "Summer Liza",
         attribute: "Water",
@@ -19563,6 +19566,86 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
             
+    },
+    { // Valerie - Missing Lore
+        id: 103486212,
+        name: "Valerie",
+        attribute: "Water",
+        type: "Human",
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_103485212.png",
+                detailawk: "/db/Units/Detail/unit_detail_103486212.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_103485212.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103486212.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats: 
+            {
+                hp: 6990,
+                hpplus: 999,
+                atk: 2990,
+                atkplus: 458,
+                def: 2614,
+                defplus: 402
+            },
+        skillset: 
+            {
+                skill: "10s CT - 1800% Water DMG (PHY). Increase own Arts by 20.",
+                skillbreak: 600,
+                arts: "20000% Water DMG (PHY). Permanently increase Allies' stats by 10% (up to 30%). For 15s, reduce Enemies' PHY RES by 20%.",
+                artsbreak: 1200,
+                truearts: "70000% Water DMG (PHY). For 15s, increases Water Allies' DMG by 120%. If Water Ally's HP is above 70% upon activation of this True Arts, increase their DMG by 240% instead.",
+                trueartsbreak: 1800
+            },
+        passive: 
+            {
+                ability1: "When near-death, increase own Arts by 200 and recover 100% of own HP. Can only be activated once per quest.",
+                ability2: "Increase DMG to Demons by 50%.",
+                ability3: "Increase own Accuracy by 30%."
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragWilkes.png",
+                    mat3amt: 1,
+                    hover3: "Wilkes",
+                    mat4: "/db/Icons/dungeon_drops/fragFreydal.png",
+                    mat4amt: 2,
+                    hover4: "Freydal"
+                }
+            },
+        trueweapon: //If no TW, may delete this section
+            {
+                name: "Shooting Star",
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_110451.png",
+                skill: "50s CT - 9000% Water DMG (PHY). For 12s, reduce Enemies' PHY RES by 40%. On first use of this Equip, for 12s, increase Allies' Stats by 30%.",
+                skillbreak: 500,
+                passive: 
+                    {
+                        ability1: "When equipped by Valerie, increase own DMG by 30%, and increase own Arts by 2/s. Does not stack with Abilities of the same name.",
+                        ability2: "Increase PHY RES by 5%."
+                    }
+            },
+        lore: 
+            {   
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
+            }
     },
     { //Zinogre Armor Rayas - Missing Lore
         id: 107006412,
@@ -23684,7 +23767,7 @@ const UnitInformation = [
                 evoawk: "Though his strength is uncontested, he lost the ability to control his emotions with the death of his older brother, Shinichiro. Only with Takemichi and Draken's support can he keep the darkness in his heart at bay."
             }
     },
-    { // Draken - Missing Lore
+    { // Draken - Complete
         id: 107636412,
         name: "Draken",
         rank: "TBD",
@@ -23745,8 +23828,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "The Vice Leader of Tokyo Manji Gang, real name Ken Ryuguji. Second only to Mikey in sheer strength, he is able to turn the tide of a brawl all by himself. He also has keen judgement and empathy, reflected in his personal policy to not cause trouble for outsiders.",
+                evoawk: "He was supposed to be killed by Kiyomasa during the battle of 8/3, but Takemichi saved him in the nick of time. For that and his invaluable ability to give Mikey emotional support, he places great trust in the seemingly weak boy."
             }
     },
     { // Chifuyu - Missing Lore
@@ -23814,7 +23897,7 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
     },
-    { // Mitsuya - Missing Lore
+    { // Mitsuya - Complete
         id: 107656212,
         name: "Mitsuya",
         rank: "S-",
@@ -23875,8 +23958,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "The Second Division Captain of the Tokyo Manji Gang. He is always there to help out a fellow member in need. To show his thanks to Takemichi for resolving Mikey and Draken's dispute, he presented him with a custom-made outfit.",
+                evoawk: "While acting as a Toman captain, he also leads his school's crafting club. He impressed the other members with his top notch sewing skills, and the founders' uniforms were all handmade by him."
             }
     },
     { // Empress - Missing Lore
