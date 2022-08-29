@@ -141,7 +141,7 @@ export function RenderStats({unitName, unitStats, unitAtt, unitType, unitSkill, 
                 );
             }
             //Check if Liberation Mode exists
-            if(unitSkill.liberation) {
+            if(unitSkill.revelation) {
                 return (
                     //Create tabs for Human and Liberation
                     <React.Fragment>
@@ -164,7 +164,7 @@ export function RenderStats({unitName, unitStats, unitAtt, unitType, unitSkill, 
                             <NavItem>
                                 <NavLink className={classnames({ active: currentTab === '2' })}
                                     onClick={() => {toggle('2')}} >
-                                        <Media src={unitImage.liberation} object-fit="cover" id="unitName"/>
+                                        <Media src={unitImage.revelation} object-fit="cover" id="unitName"/>
                                 </NavLink>
                             </NavItem>
                         </Nav>
@@ -174,7 +174,7 @@ export function RenderStats({unitName, unitStats, unitAtt, unitType, unitSkill, 
                                     unitType={unitType} unitSkill={unitSkill} unitPassive={unitPassive} unitSlots={unitSlots} unitImage={unitImage.detailawk}/>
                             </TabPane>
                             <TabPane tabId="2">
-                                <LiberationMode unitName={unitName} unitStats={unitStats} unitAtt={unitAtt} unitType={unitType} unitSkill={unitSkill.liberation} 
+                                <RevelationMode unitName={unitName} unitStats={unitStats} unitAtt={unitAtt} unitType={unitType} unitSkill={unitSkill.revelation} 
                                     unitPassive={unitPassive} unitSlots={unitSlots} unitImage={unitImage.detailawk}/>
                             </TabPane>
                         </TabContent>
@@ -1105,7 +1105,7 @@ export function HumanMode ({unitStats, unitSkill, unitPassive, unitSlots}) {
 }
 
 //Liberation Skill Tab
-export function LiberationMode ({unitStats, unitSkill, unitPassive, unitSlots}) {
+export function RevelationMode ({unitStats, unitSkill, unitPassive, unitSlots}) {
     return (
         <Container>
             <CardBody>
@@ -1160,7 +1160,7 @@ export function LiberationMode ({unitStats, unitSkill, unitPassive, unitSlots}) 
                 </Row>
                 <Row>
                     <Col lg="auto">
-                        <h3><strong>LIBERATION SKILLS</strong></h3>
+                        <h3><strong>REVELATION SKILLS</strong></h3>
                         <ul>
                             <li><Badge color="primary" pill>BREAK {unitSkill.skill1break}</Badge> {unitSkill.skill1}</li>
                             <li><Badge color="primary" pill>BREAK {unitSkill.skill2break}</Badge> {unitSkill.skill2}</li>
