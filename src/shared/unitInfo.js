@@ -1685,7 +1685,7 @@ const UnitInformation = [
                 evo3: "An adventurer from the Isliid Adventurer's Guild, Rayas became involved in the battle against the Demons after encountering the amnesiac Iris during a training exercise with Ganan, his guildmaster. While protecting Iris, the power to summon the spirits of ancient heroes awoke within him, allowing him to successfully summon one of the legendary Blade Masters. His abilities with sword and summon will only grow stronger.",
                 evo4: "During his travels to defeat the Demons, Rayas encountered the Demon Suppression Corps composed of members from the Great Nations. His old friend Roy, is there as well, and the group's strength proves inspiring enough to further draw out his latent abilities (not that he noticed). Now a part of the Corps, Rayas returns to his journey with expectations of further growth.",
                 evo5: "An adventurer journeying with friends to end the Demon menace. Contrary to his great strength, few know of his name and exploits, but even the handpicked warriors he journeys with have their eyes on him. Real experience has sharpened his talent with a sword and he’s managed to summon just Blade Masters, but incredible heroes from all of the eight races. Rayas still wants more, however, and so his journey continues.",
-                evoawk: "Currently unreleased in Global."
+                evoawk: "Lore coming soon."
             }
     },
     { //Iris - Complete
@@ -17242,7 +17242,7 @@ const UnitInformation = [
     },
     { //Groytz - Missing Lore
         id: 103256312,
-        name: "Groytz",
+        name: "Groitz",
         attribute: "Earth",
         type: "Human",
         image: 
@@ -17297,7 +17297,7 @@ const UnitInformation = [
             {
                 ability1: "Increase accuracy against Poisoned Enemies by 50%.",
                 ability2: "Increase DMG against Poisoned Enemies by 50%.",
-                ability3: "Increase Groytz's DMG by [30% × # of times Skill or Morph Skill 3 inflicted Poison] (up to 300%)."
+                ability3: "Increase Groitz's DMG by [30% × # of times Skill or Morph Skill 3 inflicted Poison] (up to 300%)."
             }, 
         evolution: 
             {
@@ -17327,13 +17327,13 @@ const UnitInformation = [
                     skillbreak: 800,
                     passive: 
                         {
-                            ability1: "When equipped by Groytz, increase own DMG and Skill CT REC by 30%. Does not stack with Abilities of the same name.",
+                            ability1: "When equipped by Groitz, increase own DMG and Skill CT REC by 30%. Does not stack with Abilities of the same name.",
                             ability2: "When HP is above 90%, increase ATK by 15%."
                         }
                 },
                 true2: 
                 {
-                    name: "Cruvie",
+                    name: "Crew V",
                     slot: "/db/Mines/thumbnail/magLB.png",
                     thumb: "/db/Equipment/Thumbnail/item_thumbnail_109671.png",
                     detail: "/db/Equipment/Detail/item_detail_109671.png",
@@ -17341,7 +17341,7 @@ const UnitInformation = [
                     skillbreak: 900,
                     passive: 
                         {
-                            ability1: "When equipped by Groytz, increase own Arts by 50 after exiting Revelation Mode. Does not stack with Abilities of the same name.",
+                            ability1: "When equipped by Groitz, increase own Arts by 50 after exiting Revelation Mode. Does not stack with Abilities of the same name.",
                             ability2: "Increase DEF by 10%."
                         }
                 }
@@ -17349,8 +17349,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "Lore coming soon.",
+                evoawk: "Lore coming soon."
             }
     },
     { //Hart (Earth) - Complete
