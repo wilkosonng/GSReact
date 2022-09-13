@@ -13452,7 +13452,7 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
     },
-    { //Cynthia - Missing Lore
+    { //Cynthia - Complete
         id: 102796212,
         name: "Cynthia",
         attribute: "Water",
@@ -13530,8 +13530,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "A Beast warrior determined to become a knight of the Isliid Empire. The champion Gran Brave, impressed by her fighting aptitude, enlisted her into his brigade. Childish innocence and charming looks lent to her popularity, and she also inspired her allies by ferociously punching through the enemy lines.",
+                evoawk: "Sinister ambition and evil schemes cost many lives in the civil war. However, this brave fighter resolutely struggled to save both friend and foe, regardless of affiliation. Her devotion to the people earned her their adoration, leaving her mark on history as the \"Beastly Keeper of Peace\"."
             }
     },
     { //Melissa - Complete
@@ -14427,7 +14427,7 @@ const UnitInformation = [
                 evoawk: "Orgah never forgot what happened in the abandoned mines that day. He took his master's words to heart and trained until he became a full-fledged warrior. The owner of a weapon shop urged him to join the knights, but he had sworn to defend his hometown. Amidst the tumult of the Ancient War, the sight of him bravely standing alongside the other soldiers was most heartening."
             }
     },
-    { //Adele - Missing Lore
+    { //Adele - Missing Lore (Global)
         id: 102916212,
         name: "Adele",
         rank: "A-",
@@ -17242,7 +17242,7 @@ const UnitInformation = [
                 evoawk: "A young woman who claims the world belongs to her. She is able to use the powers of those she absorbs, and they also influence her transformed state. She holds Rayas in great contempt but does not understand why."
             }
     },
-    { //Groitz - Missing Lore
+    { //Groitz - Missing Lore (Global)
         id: 103256312,
         name: "Groitz",
         attribute: "Earth",
@@ -17440,7 +17440,7 @@ const UnitInformation = [
                 evoawk: "He and his friends went to the forest to hunt a monster and prove their worth. However, the trial was more difficult than they expected, and they found themselves faced with death. It was then he remembered what Miranda said at his mother's funeral. 'You need to survive until your final breath, because your life was given to you by someone special.' This gave him the determination to stand strong and save his friend's lives."
             }
     },
-    { //Hart (Dark) - Missing Lore
+    { //Hart (Dark) - Complete
         id: 103286512,
         name: "Hart (Dark)",
         rank: "A+",
@@ -17506,7 +17506,7 @@ const UnitInformation = [
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: "Belkan",
+                name: "Bel Canto",
                 slot: "/db/Mines/thumbnail/magLB.png",
                 detail: "/db/Equipment/Detail/item_detail_109051.png",
                 skill: "60s CT - 7500% Dark DMG (MAG). If Enemies have 1 or more stacks of Bleed, inflict 1 stack of Bleed (up to 3). For 8s, reduce Enemies' MAG RES by 35%.",
@@ -17519,8 +17519,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "Hart left home while clutching the gun of his beloved Miranda. The imperial hero Simon, long presumed dead, had murdered her. Hart's chance at revenge finally arrived two years later in a dim cavern outside the capital. Controlled by rage, he reached for Miranda's keepsake with his right hand as his left held the very thing that had taken her life: the Phantom Bullet.",
+                evoawk: "A magic gunner who works under Azvan. Though he succeeded in eliminating the legendary sniper Simon with his own Phantom Bullet, the anger and frustration did not fade. He decided to direct it at the empire and their ruthless efforts to kill E-Factor holders like Miranda. No matter how great a threat they posed, the fact they died in utter secrecy was unacceptable to him."
             }
     },
     { //Miranda - Complete
@@ -18026,7 +18026,7 @@ const UnitInformation = [
                 evoawk: "The greatest swordswoman in Valkia. She consistently achieves top-class results during military exercises, so everyone expects her to become the next sergeant. The fact that Forte responds coldly to her doting is one of her few worries. She read 'Bonds Beyond Races', the biography of two warrior brothers, at a young age, which greatly influenced her personal moral code."
             }
     },
-    { //Lyra - Missing Lore
+    { //Lyla - Complete
         id: 103366412,
         name: "Lyla",
         rank: "A+",
@@ -18106,8 +18106,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "A heavy gunner of Valkia's army. Her hobby is collecting stuffed toys. She impresses everyone with her outstanding performance during military exercises, but she tends to lose herself in the thrill of combat. Younger than Forte and Airi, she values both as respected role models. A terrible experience soon after she enlisted taught her how weak she was then, but only a handful of others know exactly what happened.",
+                evoawk: "The best gunner in Valkia's army. She overcame her past trauma during a particularly tough training session. That mental fortitude later allowed her to support the promoted Forte. The influence of her closest comrades can be seen in her serious yet considerate personality. After Airi's disappearance, she took the initiative to form a search team that is active to this day, demonstrating her belief they will meet again."
             }
     },
     { //Summer Juno - Complete
@@ -18319,7 +18319,7 @@ const UnitInformation = [
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: "Gimme Aria",
+                name: "Selfish Aria",
                 slot: "/db/Mines/thumbnail/magLB.png",
                 detail: "/db/Equipment/Detail/item_detail_109421.png",
                 skill: "50s CT - 6000% Fire DMG (MAG). For 12s, increase own DMG by 50% and reduce DMG of Enemies afflicted by status ailments by 30%.",
@@ -18336,7 +18336,7 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
     },
-    { //Vultee (Water) - Missing Lore
+    { //Vultee (Water) - Complete
         id: 103406212,
         name: "Vultee (Water)",
         attribute: "Water",
@@ -18415,8 +18415,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "A gunner born in Simon's Hill and childhood friend of Hart and Priscilla. The hand-eye coordination and reflexes which let him catch beetles barehanded transferred well to marksmanship. Although he mostly lazed in school, joining the Rangers motivated him to self learn self-discipline, and he quickly rose to vice captain through hard work and dependability.",
+                evoawk: "A shooting specialist who bears his hometown's hopes and dreams. The other imperial knights also believe he could be the second coming of Simon, one of Isliid's greatest modern heroes. He has matured greatly since arriving in the capital, replacing most of his flippancy for diligence. At his core is now unshakable resolve... with a tinge of unease."
             }
     },
     { //Priscilla (Water) - Missing Lore
@@ -19015,7 +19015,7 @@ const UnitInformation = [
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: "Lord of Heroine",
+                name: "Heroic Path",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "/db/Equipment/Detail/item_detail_110021.png",
                 skill: "50s CT - 7500% Fire DMG (PHY). For 10s, increase own DMG by 50% and reduce Enemies' Fire RES by 30%.",
@@ -23832,7 +23832,7 @@ const UnitInformation = [
                 evoawk: "He was supposed to be killed by Kiyomasa during the battle of 8/3, but Takemichi saved him in the nick of time. For that and his invaluable ability to give Mikey emotional support, he places great trust in the seemingly weak boy."
             }
     },
-    { // Chifuyu - Missing Lore
+    { // Chifuyu - Missing Lore (Global)
         id: 107646312,
         name: "Chifuyu",
         rank: "TBD",
