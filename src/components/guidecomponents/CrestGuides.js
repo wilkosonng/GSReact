@@ -19,20 +19,29 @@ export default function CrestGuides () {
             <Row>
                 <Card style={{backgroundColor: "#292930", color: "#e7f9fc", padding: "0px"}}>
                     <CardBody>
-                        {guideTopics.map(theGuides => {
-                            return (
-                                <React.Fragment key={theGuides.id}>
-                                    <Col lg="auto">
-                                        <center>
-                                        <Link to={`/guides/crest-guides/${theGuides.link}`} style={{textDecoration: 'none'}} key={theGuides.id}>
-                                            <img src={theGuides.banner} style={{height: "auto", width: "100%", maxWidth: "400px"}}/>
-                                        </Link></center>
-                                    </Col>
-                                </React.Fragment>
-                            )
-                        }
-                        )}
+                        <center>
+                            <a href="/guides"><button style={{backgroundColor: "#22bbff", color: "#292930", marginBottom: "2rem"}}>Return to Guides</button></a>
+                        </center>
+                        <CardGroup>
+                            {guideTopics.map(theGuides => {
+                                return (
+                                    <React.Fragment key={theGuides.id}>
+                                        <Col md="4">
+                                            <center>
+                                            <Link to={`/guides/crest-guides/${theGuides.link}`} style={{textDecoration: 'none'}} key={theGuides.id}>
+                                                <img src={theGuides.banner} style={{height: "auto", width: "100%", maxWidth: "400px"}}/>
+                                            </Link></center>
+                                        </Col>
+                                    </React.Fragment>
+                                )
+                            }
+                            )}
+                        </CardGroup>
+                        <center>
+                            <a href="/guides"><button style={{backgroundColor: "#22bbff", color: "#292930"}}>Return to Guides</button></a>
+                        </center>
                     </CardBody>
+                    
                 </Card>
             </Row>
         </Container>

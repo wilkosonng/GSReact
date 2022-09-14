@@ -16,10 +16,13 @@ export default function DisplayCrestGuide () {
                         <h1><center><strong>{guideArticle.title}</strong></center></h1>
                     </CardHeader>
                     <CardBody style={{marginBottom: "1rem"}}>
-                            <p style={{height: "auto"}}><div dangerouslySetInnerHTML={{ __html: guideArticle.article }} /></p>
-                            <center>
-                                <a href="/guides/crest-guides" style={{backgroundColor: "#22bbff", color: "#292930", textDecoration: "none"}}>Return to Crest Guides</a>
-                            </center>
+                        <center>
+                            <a href="/guides/crest-guides"><button style={{backgroundColor: "#22bbff", color: "#292930"}}>Return to Crest Guides</button></a>
+                        </center>
+                        <p style={{height: "auto", marginTop: "2rem"}}><div dangerouslySetInnerHTML={{ __html: guideArticle.article }} /></p>
+                        <center>
+                            <a href="/guides/crest-guides"><button style={{backgroundColor: "#22bbff", color: "#292930"}}>Return to Crest Guides</button></a>
+                        </center>
                     </CardBody>
                 </Card>
             </Row>

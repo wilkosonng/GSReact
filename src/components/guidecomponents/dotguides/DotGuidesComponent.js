@@ -16,9 +16,12 @@ export default function DisplayTrialGuide() {
                         <h1><center><strong>{guideArticle.title}</strong></center></h1>
                     </CardHeader>
                     <CardBody>
-                        <p style={{height: "auto"}}><div dangerouslySetInnerHTML={{ __html: guideArticle.article }} /></p>
                         <center>
-                            <a href="/guides/dungeon-of-trials" style={{backgroundColor: "#22bbff", color: "#292930", textDecoration: "none"}}>Return to DoT Guides</a>
+                            <a href="/guides/dungeon-of-trials"><button style={{backgroundColor: "#22bbff", color: "#292930"}}>Return to DoT Guides</button></a>
+                        </center>
+                        <p style={{height: "auto", marginTop: "2rem"}}><div dangerouslySetInnerHTML={{ __html: guideArticle.article }} /></p>
+                        <center>
+                            <a href="/guides/dungeon-of-trials"><button style={{backgroundColor: "#22bbff", color: "#292930"}}>Return to DoT Guides</button></a>
                         </center>
                     </CardBody>
                 </Card>

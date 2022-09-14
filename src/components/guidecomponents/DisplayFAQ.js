@@ -31,6 +31,7 @@ export default function FAQGuide () {
                 <p>
                     <h1>FAQ</h1>
                     <h4>Click each question to show the answer.</h4>
+                    <a href="/guides"><button style={{backgroundColor: "#22bbff", color: "#292930"}}>Return to Guides</button></a>
                 </p>
             </center>
             <GettingStarted />
@@ -42,6 +43,9 @@ export default function FAQGuide () {
             <GiantBoss />
             <Miscellaneous />
             <Abbreviations />
+            <center>
+                <a href="/guides"><button style={{backgroundColor: "#22bbff", color: "#292930", marginTop: "2rem"}}>Return to Guides</button></a>
+            </center>
         </React.Fragment>
     )
     
