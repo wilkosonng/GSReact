@@ -1566,6 +1566,7 @@ const UnitInformation = [
         id: 101016411,
         name: "Rayas",
         attribute: "Light",
+        rank: "TBD",
         type: "Human",
         image: 
             {
@@ -13456,6 +13457,7 @@ const UnitInformation = [
         id: 102796212,
         name: "Cynthia",
         attribute: "Water",
+        rank: "TBD",
         type: "Beast",
         image: 
             {
@@ -17246,6 +17248,7 @@ const UnitInformation = [
         id: 103256312,
         name: "Groitz",
         attribute: "Earth",
+        rank: "TBD",
         type: "Human",
         image: 
             {
@@ -23770,7 +23773,7 @@ const UnitInformation = [
     { // Draken - Complete
         id: 107636412,
         name: "Draken",
-        rank: "TBD",
+        rank: "S",
         attribute: "Light",
         type: "Human",
         image: 
@@ -23835,7 +23838,7 @@ const UnitInformation = [
     { // Chifuyu - Missing Lore
         id: 107646312,
         name: "Chifuyu",
-        rank: "TBD",
+        rank: "B",
         attribute: "Earth",
         type: "Human",
         image: 
