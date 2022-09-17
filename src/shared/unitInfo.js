@@ -18255,7 +18255,7 @@ const UnitInformation = [
                 evoawk: "Before she realized what was happening, the Mokyuon had jumped out and shoved her from the pier. She struggled desperately to keep from drowning. Returning to shore after several minutes, the monsters nodded with approval. It appeared their antics had forced her to learn proper breathing. Perhaps they saw the timid girl and knew the sink-or-swim approach was the only way she would succeed."
             }
     },
-    { //Elizabeth - Missing Lore
+    { //Elizabeth - Missing Lore (Global)
         id: 103396112,
         name: "Elizabeth",
         rank: "A-",
@@ -18955,7 +18955,7 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
     },
-    { // Charlotte - Missing Lore
+    { // Charlotte - Complete
         id: 103476112,
         name: "Charlotte",
         attribute: "Fire",
@@ -19031,8 +19031,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "The young granddaughter of Zeorg, Hero of Famelle. She boasts of his incredible deeds to anyone who will listen. Her days are spent in knight training along with her best friend Valerie. She surpassed the order's standards for swordplay when she was only eleven years old. The aspiration to become a great warrior like her grandfather carries her through the toughest drills with an upbeat attitude.",
+                evoawk: "Although sturdy enough in mind and body to undergo knight training, she threw a tantrum when Zeorg said he was joining the Demon Suppression Corps. So great was her dissent that she clung to his legs on the day he departed. This expression of both the fear he would not return and the anger she was not strong enough to replace the elderly soldier was, if nothing else, age-appropriate."
             }
     },
     { // 12th Gen Mizuki - Missing Lore
@@ -19108,8 +19108,9 @@ const UnitInformation = [
                 skillbreak: 800,
                 passive: 
                     {
-                        ability1: "Increase PHY RES by 10%.",
-                        ability2: "When equipped by XII Mizuki, at the start of a Quest, increase stats by 20% and Arts by 100. Does not stack with Abilities of the same name."
+                        ability1: "When equipped by XII Mizuki, at the start of a Quest, increase stats by 20% and Arts by 100. Does not stack with Abilities of the same name.",
+                        ability2: "Increase PHY RES by 10%."
+                        
                     }
             },
         lore: 
@@ -19641,6 +19642,87 @@ const UnitInformation = [
                 passive: 
                     {
                         ability1: "When equipped by Valerie, increase own DMG by 30%, and increase own Arts by 2/s. Does not stack with Abilities of the same name.",
+                        ability2: "Increase PHY RES by 5%."
+                    }
+            },
+        lore: 
+            {   
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
+            }
+    },
+    ,
+    { // Cosmo - Missing Lore
+        id: 103626412,
+        name: "Cosmo",
+        attribute: "Light",
+        type: "Human",
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_103625412.png",
+                detailawk: "/db/Units/Detail/unit_detail_103626412.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_103625412.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103626412.png"
+            },
+        slots: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: 6800,
+                hpplus: 999,
+                atk: 2900,
+                atkplus: 445,
+                def: 2820,
+                defplus: 433
+            },
+        skillset: 
+            {
+                skill: "13s CT - 1800% Light DMG (MAG). 40% chance to inflict Paralysis.",
+                skillbreak: 300,
+                arts: "18000% Light DMG (MAG). For 15s, reduce Enemies' Paralysis and MAG RES by 30%.",
+                artsbreak: 800,
+                truearts: "80000% Light DMG (MAG). 100% chance to inflict Paralysis. For 20s, increase own Critical Rate by 100%. ",
+                trueartsbreak: 1200
+            },
+        passive: 
+            {
+                ability1: "Whenever Cosmo's Skill or True Arts inflicts Paralysis on an enemy, permanently increase all Light allies' DMG by 20% (up to 200%).",
+                ability2: "Increase DMG to Dark enemies by 30%.",
+                ability3: "Increase Critical DMG by 30%."
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragWilkes.png",
+                    mat3amt: 1,
+                    hover3: "Wilkes",
+                    mat4: "/db/Icons/dungeon_drops/fragFlogassa.png",
+                    mat4amt: 2,
+                    hover4: "Flogassa"
+                }
+            },
+        trueweapon: //If no TW, may delete this section
+            {
+                name: "Rising Z",
+                slot: "/db/Mines/thumbnail/magLB.png",
+                detail: "/db/Equipment/Detail/item_detail_110551.png",
+                skill: "40s CT - 8000% Light DMG (MAG). For 10s, increase own Light DMG and Skill CT REC by 50%.",
+                skillbreak: 500,
+                passive: 
+                    {
+                        ability1: "When equipped by Cosmo, increase own DMG by 30% and Arts by 3/s. Does not stack with Abilities of the same name.",
                         ability2: "Increase PHY RES by 5%."
                     }
             },
