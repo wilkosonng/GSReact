@@ -24047,7 +24047,7 @@ const UnitInformation = [
                 evoawk: "While acting as a Toman captain, he also leads his school's crafting club. He impressed the other members with his top notch sewing skills, and the founders' uniforms were all handmade by him."
             }
     },
-    { // Empress - Missing Lore
+    { // Empress - Complete
         id: 107666212,
         name: "Empress",
         attribute: "Water",
@@ -24107,11 +24107,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "One of the surviving Hemiteos Units, nano-enhanced soldiers tasked to protect humanity from the rogue AI Artemis. Despite her amnesia and deadpan expression, she still has a powerful instinct to help others.",
+                evoawk: "Although she lost her memories, she dreamt of a place called Light House No. 8 during her long slumber. She fought her way there and reactivated the Hemiteos proteins in her body, restoring her former power."
             }
     },
-    { // Dead Master - Missing Lore
+    { // Dead Master - Complete
         id: 107676312,
         name: "Dead Master",
         attribute: "Earth",
@@ -24171,8 +24171,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "One of the surviving Hemiteos Units. Prolonged fighting has left her with an instable mind. She is greatly attached to Empress and wants to keep her all to herself. Her specialty is sniping from super long range.",
+                evoawk: "Her overwhelming desire for Empress led them to fight, but she later agreed to join her cause to protect humanity. Besides her talent as a sniper, she has keen scouting sense and decision-making."
             }
     },
     { // Strength - Missing Lore
