@@ -1,14 +1,13 @@
 /**
  * FORMAT, do not forget COMMAS
  * 
- * TODO: TW Images
- * TODO: Add Evo Mat 1 to 5, and Amount for each 
+ * Anything between the `` can be put on separate lines, if needed
  * 
  * {
         id: ,
-        name: ,
-        attribute: ,
-        type: ,
+        name: ``,
+        attribute: ``,
+        type: ``,
         image: 
             {
                 detail5: ,
@@ -17,13 +16,14 @@
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_.png"
             },
         slots: 
-            {
+            { //For supers, use slot31 and slot32 for the types (can keep the star number as slot3)
                 slot1: 5,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/physLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot31type: "/db/Mines/thumbnail/defLB.png",
+                slot32type: "/db/Mines/thumbnail/defLB.png"
             },
         stats: 
             {
@@ -36,17 +36,19 @@
             },
         skillset: 
             {
-                skill: "",
+                skill: ``,
                 skillbreak: ,
-                arts: "",
+                arts: ``,
                 artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                truearts: ``,
+                trueartsbreak: ,
+                superarts: ``,
+                superartsbreak ``
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: ``,
+                ability2: ``
             }, 
         evolution: 
             {
@@ -69,21 +71,21 @@
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: "",
+                name: ``,
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "",
-                skill: "",
+                skill: ``,
                 skillbreak: ,
                 passive: 
                     {
-                        ability1: 
-                        ability2: 
+                        ability1: ``
+                        ability2: ``
                     }
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: `Currently unreleased in Global.`,
+                evoawk: `Currently unreleased in Global.`
             }
     }
 
@@ -19570,6 +19572,87 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
             
+    },
+    { // War God Fen - Missing Lore
+        id: 103617312,
+        name: "War God Fen",
+        attribute: "Earth",
+        type: "Human",
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_103616312.png",
+                detailsuper: "/db/Units/Detail/unit_detail_103617312.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103616312.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103617312.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/defLB.png",
+                slot32type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats: 
+            {
+                hp: 7843,
+                hpplus: 1414,
+                atk: 3289,
+                atkplus: 648,
+                def: 3162,
+                defplus: 600
+            },
+        skillset: 
+            {
+                skill: `12s CT - 2300% Earth DMG (PHY). Increase own Arts by 50`,
+                skillbreak: 300,
+                arts: `26000% Earth DMG (PHY). For 20s, increase Allies' accuracy and Equipment CT REC by 40%`,
+                artsbreak: 1300,
+                truearts: `60000% Earth DMG (PHY). Increase own Super Critical Rate by 20% during True Arts. For 20s, increase Allies' Arts by 4/s and Critical Rate by 100%.
+                            Note: This unit's Arts Gen is Type A and will not stack with other Type A Arts Gen. `,
+                trueartsbreak: 2600
+            },
+        passive: 
+            {
+                ability1: `When self is Leader, at the start of a Quest, increase Allies' DMG RES by 30% for 45s. Does not stack with Abilities of the same name.`,
+                ability2: `At the start of a Quest, increase Allies' Arts by 50. Does not stack with Abilities of the same name.`,
+                ability3: `Increase Allies' DMG to Enemies with 50% or less HP by 30%. Does not stack with Abilities of the same name. `
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/fragWilkes.png",
+                    mat1amt: 1,
+                    hover1: "Wilkes",
+                    mat2: "/db/Icons/dungeon_drops/fragFlogassa.png",
+                    mat2amt: 2,
+                    hover2: "Flogassa",
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_Poison_Dragon_Spirit_Orb.png",
+                    mat3amt: 220,
+                    hover3: "Poison Dragon Spirit Orb"
+                }
+            },
+        trueweapon: //If no TW, may delete this section
+            {
+                name: `Euthanasia`,
+                slot: "/db/Mines/thumbnail/suppLB.png",
+                detail: "/db/Equipment/Detail/item_detail_110601.png",
+                skill: `30s CT - Increase Allies' Arts by 25. For 15s, increase Human Allies' DMG by 40%`,
+                skillbreak: 0,
+                passive: 
+                    {
+                        ability1: `When equipped by War God Fen, increase own Skill CT REC and Arts DMG by 20%`,
+                        ability2: `Increase DMG to Human enemies by 10%`
+                    }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
     },
     { // Valerie - Missing Lore
         id: 103486212,
