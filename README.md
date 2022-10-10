@@ -14,4 +14,5 @@ This website is hosted on https://www.grandsummoners.info/ and is made using `HT
 
 ## Future Features
 * Equipment Information
-* Search Bar
+* Filters
+* Sorting Options
