@@ -37,6 +37,102 @@ export function RenderStats({unitName, unitStats, unitAtt, unitType, unitSkill, 
         //Check if 3rd passive exists
         if(unitPassive.ability3){
 
+            //Check if Super exists 
+            if(unitSkill.superarts) {
+                return (
+                    <Container>
+                        <Card style={unitCard}>
+                            <CardHeader>
+                                <center>
+                                    <RenderDetail detail={unitImage.detailsuper} />
+                                    <h1><strong>{unitName}</strong></h1>
+                                    <p><i>{unitAtt} , {unitType}</i></p>
+                                </center>
+                            </CardHeader>
+                            <CardBody>
+                                <Row>
+                                    <Col>
+                                        <Table bordered>
+                                            <tr>
+                                                <th>
+                                                HP
+                                                </th>
+                                                <th>
+                                                ATK
+                                                </th>
+                                                <th>
+                                                DEF
+                                                </th>
+                                            </tr>
+                                            <tr>
+                                                <td>{unitStats.hp} </td>
+                                                <td>{unitStats.atk} </td>
+                                                <td>{unitStats.def} </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <Badge color="info" pill>+{unitStats.hpplus}</Badge>
+                                                </td>
+                                                <td>
+                                                    <Badge color="info" pill>+{unitStats.atkplus}</Badge>
+                                                </td>
+                                                <td>
+                                                    <Badge color="info" pill>+{unitStats.defplus}</Badge>
+                                                </td>
+                                            </tr>
+                                        </Table>
+                                    </Col>
+                                    <Col lg="auto">
+                                        <h3><strong>SLOTS</strong></h3>
+                                        <Table bordered>
+                                            <tr>
+                                                <th>
+                                                    <h4>{unitSlots.slot1}☆ <Media src={unitSlots.slot1type} style={lbIconSize} /></h4>
+                                                </th>
+                                                <th>
+                                                    <h4>{unitSlots.slot2}☆ <Media src={unitSlots.slot2type} style={lbIconSize} /></h4>
+                                                </th>
+                                                <th>
+                                                    <h4>{unitSlots.slot3}☆ <Media src={unitSlots.slot31type} style={lbIconSize} /> / <Media src={unitSlots.slot32type} style={lbIconSize} /></h4>
+                                                </th>
+                                            </tr>
+                                        </Table>
+                                    </Col>
+                                </Row>
+                                <Row>
+                                    <Col lg="auto">
+                                        <h3><strong>SKILL</strong></h3>
+                                        <p><Badge color="primary" pill>BREAK {unitSkill.skillbreak}</Badge> {unitSkill.skill}</p>
+                                    </Col>
+                                    <Col lg="auto">
+                                        <h3><strong>ARTS</strong></h3>
+                                        <p><Badge color="primary" pill>BREAK {unitSkill.artsbreak}</Badge> {unitSkill.arts}</p>
+                                    </Col>
+                                    <Col lg="auto">
+                                        <h3><strong>TRUE ARTS</strong></h3>
+                                        <p><Badge color="primary" pill>BREAK {unitSkill.trueartsbreak}</Badge> {unitSkill.truearts}</p>
+                                    </Col>
+                                </Row>
+                                <Row>
+                                    <Col lg="auto">
+                                        <h3><strong>SUPER ARTS</strong></h3>
+                                        <p><Badge color="primary" pill>BREAK {unitSkill.superartsbreak}</Badge> {unitSkill.superarts}</p>
+                                    </Col>
+                                    <Col lg="auto">
+                                        <h3><strong>PASSIVES</strong></h3>
+                                        <ul>
+                                            <li>{unitPassive.ability1}</li>
+                                            <li>{unitPassive.ability2}</li>
+                                            <li>{unitPassive.ability3}</li>
+                                        </ul>
+                                    </Col>
+                                </Row>
+                            </CardBody>
+                        </Card>
+                    </Container>
+                );
+            }
+
             //Check if Ultra Equip Exists
             if(unitSkill.ultra) {
                 return (

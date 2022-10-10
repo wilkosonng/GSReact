@@ -884,7 +884,93 @@ export function RenderFiveStar({lore, unitImage, unitEvo}) {
 
 }
 
-export function RenderAwaken({lore, unitImage}) {
+export function RenderAwaken({lore, unitImage, unitEvo}) {
+    const [tooltip1, setTooltip1] = useState(false);
+    const [tooltip2, setTooltip2] = useState(false);
+    const [tooltip3, setTooltip3] = useState(false);
+
+    if(unitImage.detailsuper) {
+        return (
+            <React.Fragment>
+                <Card style={unitCard}>
+                    <CardTitle>
+                        <center>
+                            <table>
+                                <tr>
+                                    <th colspan="2"><center>Current</center></th>
+                                    <th colspan="5"><center>Evolution Materials</center></th>
+                                    <th colspan="2"><center>Next Evolution</center></th>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"><center><Media src={unitImage.thumbawk} style={thumbnailSize}/></center></td>
+                                    <td colspan="5">
+                                        <Card style={evoCard}>
+                                            <CardBody>
+                                            <h3>
+                                                <table>
+                                                    <tr>
+                                                        <th><Media src={unitEvo.evoawksuper.mat1} style={thumbnailSize} id="hover1"/></th>
+                                                        <th><Media src={unitEvo.evoawksuper.mat2} style={thumbnailSize} id="hover2"/></th>
+                                                        <th><Media src={unitEvo.evoawksuper.mat3} style={thumbnailSize} id="hover3"/></th>
+                                                        <Tooltip isOpen={tooltip1} 
+                                                                target="hover1"
+                                                                placement="top"
+                                                                toggle={() => setTooltip1(!tooltip1)} >{unitEvo.evoawksuper.hover1}</Tooltip>
+                                                        <Tooltip isOpen={tooltip2} 
+                                                                target="hover2"
+                                                                placement="top"
+                                                                toggle={() => setTooltip2(!tooltip2)} >{unitEvo.evoawksuper.hover2}</Tooltip>
+                                                        <Tooltip isOpen={tooltip3} 
+                                                                target="hover3"
+                                                                placement="top"
+                                                                toggle={() => setTooltip3(!tooltip3)} >{unitEvo.evoawksuper.hover3}</Tooltip>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><center>X{unitEvo.evoawksuper.mat1amt}</center></td>
+                                                        <td><center>X{unitEvo.evoawksuper.mat2amt}</center></td>
+                                                        <td><center>X{unitEvo.evoawksuper.mat3amt}</center></td>
+                                                    </tr>
+                                                </table>
+                                            </h3>
+                                            </CardBody>
+                                        </Card>
+                                        
+                                    </td>
+                                    <td colspan="2"><center><Media src={unitImage.thumbawk} style={thumbnailSize} /></center></td>
+                                </tr>
+                            </table>
+                        </center>
+                        
+                    </CardTitle>
+                    <CardBody>
+                        <CardText>
+                            <center>{lore}</center>
+                        </CardText>
+                    </CardBody>
+                    <center><CardImg src={unitImage.detailawk} style={imageSize} /></center>     
+                </Card>
+            </React.Fragment>
+        )
+    }
+    else {
+        return (
+            <React.Fragment>
+                <Card style={unitCard}>
+                    <CardTitle>
+                        <h3><center>This unit has reached max evolution</center></h3>
+                    </CardTitle>
+                    <CardBody>
+                        <center>{lore}</center>
+                    </CardBody>
+                    <center><CardImg src={unitImage.detailawk} style={imageSize} /></center>
+                </Card>
+            </React.Fragment>
+        )
+    }
+    
+}
+
+export function RenderSuper({lore, unitImage}) {
     return (
         <React.Fragment>
             <Card style={unitCard}>
@@ -894,7 +980,7 @@ export function RenderAwaken({lore, unitImage}) {
                 <CardBody>
                     <center>{lore}</center>
                 </CardBody>
-                <center><CardImg src={unitImage.detailawk} style={imageSize} /></center>
+                <center><CardImg src={unitImage.detailsuper} style={imageSize} /></center>
             </Card>
         </React.Fragment>
     )
