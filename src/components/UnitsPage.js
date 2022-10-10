@@ -58,7 +58,23 @@ export default function Units () {
                         }
                     })
                     .map(unit => {
-                        if(unit.image.thumbawk){
+                        if(unit.image.thumbsuper){
+                            return (
+                                <React.Fragment key={unit.name} >
+                                    <Col xs="4" sm="auto">
+                                        <center>
+                                            <Card style={{maxWidth: "75px", backgroundColor: "#202022", border: "none"}}>
+                                                <Link to={`/units/${unit.name}`} key={unit.name} style={{textDecoration: 'none', color: "#aaabb8"}}>
+                                                    <Media src={unit.image.thumbsuper} alt={unit.name} width="100%" height="auto" object-fit="cover"  />
+                                                    <p>{unit.name}</p>
+                                                </Link>
+                                            </Card>
+                                        </center>
+                                    </Col>
+                                </React.Fragment>
+                            );
+                        }
+                        else if(unit.image.thumbawk){
                             return (
                                 <React.Fragment key={unit.name} >
                                     <Col xs="4" sm="auto">
@@ -74,25 +90,24 @@ export default function Units () {
                                 </React.Fragment>
                             );
                         }
-
-                        return (
-                            <React.Fragment key={unit.name} >
-                                <Col xs="4" sm="auto">
-                                    <center>
-                                        <Card style={{maxWidth: "75px", backgroundColor: "#202022", border: "none"}}>
-                                            <Link to={`/units/${unit.name}`} key={unit.name} style={{textDecoration: 'none', color: "#aaabb8"}}>
-                                                <Media src={unit.image.thumb5} alt={unit.name} width="75" height="75" object-fit="cover" />
-                                                <HoverName>{unit.name}</HoverName>
-                                            </Link>
-                                        </Card>
-                                    </center>
-                                </Col>
-                                
-                            </React.Fragment>
-                        );
-                        
+                        else {
+                            return (
+                                <React.Fragment key={unit.name} >
+                                    <Col xs="4" sm="auto">
+                                        <center>
+                                            <Card style={{maxWidth: "75px", backgroundColor: "#202022", border: "none"}}>
+                                                <Link to={`/units/${unit.name}`} key={unit.name} style={{textDecoration: 'none', color: "#aaabb8"}}>
+                                                    <Media src={unit.image.thumb5} alt={unit.name} width="75" height="75" object-fit="cover" />
+                                                    <HoverName>{unit.name}</HoverName>
+                                                </Link>
+                                            </Card>
+                                        </center>
+                                    </Col>
+                                    
+                                </React.Fragment>
+                            );
+                        }
                     })}
-
                 </Row>
             </Container>
         </React.Fragment>

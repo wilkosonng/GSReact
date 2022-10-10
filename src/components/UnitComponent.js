@@ -7,7 +7,7 @@ import { useParams, Link, Routes, Route, Outlet, NavLink } from 'react-router-do
 import { getUnitByName } from '../shared/unitInfo';
 import { RenderTrue } from './unitinfo/TrueComponent';
 import { RenderStats } from './unitinfo/StatsComponent';
-import { RenderTwoStar, RenderThreeStar, RenderFourStar, RenderFiveStar, RenderAwaken } from './unitinfo/LoreComponent';
+import { RenderTwoStar, RenderThreeStar, RenderFourStar, RenderFiveStar, RenderAwaken, RenderSuper } from './unitinfo/LoreComponent';
 
 function UnitDetails () {
     const selectedUnit = useParams();
@@ -27,6 +27,7 @@ function UnitDetails () {
                             <Route path="fourstar" element={<RenderFourStar lore={units.lore.evo4} unitImage={units.image} unitEvo={units.evolution} />} />
                             <Route path="fivestar" element={<RenderFiveStar lore={units.lore.evo5} unitImage={units.image} unitEvo={units.evolution} />} />
                             <Route path="awaken" element={<RenderAwaken lore={units.lore.evoawk} unitImage={units.image} unitEvo={units.evolution} />} />
+                            <Route path="super" element={<RenderSuper lore={units.lore.evosuper} unitImage={units.image} unitEvo={units.evolution} />} />
                             </Route>
                     <Route path="stats" element={<React.Fragment>
                                                     <RenderStats unitName={units.name} unitStats={units.stats} 
@@ -218,6 +219,30 @@ function RenderLore({unitName, unitLore, unitImage}) {
                             <NavItem>
                             <Link to="awaken" activeClassName="active">
                                     <Media src={unitImage.thumbawk} />
+                                </Link>
+                            </NavItem>
+                        </Nav>
+                    </center>
+                    <Outlet />
+                </React.Fragment>
+            )
+        }
+
+        if(unitLore.evosuper) {
+            return (
+                <React.Fragment>
+                    <center><h1><strong>{unitName}</strong></h1></center>
+                    <p><center>Select an Evolution to view the Lore</center></p>
+                    <center>
+                        <Nav justified>
+                            <NavItem>
+                            <Link to="awaken" activeClassName="active">
+                                    <Media src={unitImage.thumbawk} />
+                                </Link>
+                            </NavItem>
+                            <NavItem>
+                            <Link to="super" activeClassName="active">
+                                    <Media src={unitImage.thumbsuper} />
                                 </Link>
                             </NavItem>
                         </Nav>
