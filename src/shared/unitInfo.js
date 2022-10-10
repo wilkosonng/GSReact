@@ -19738,7 +19738,6 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
     },
-    ,
     { // Cosmo - Missing Lore
         id: 103626412,
         name: "Cosmo",
