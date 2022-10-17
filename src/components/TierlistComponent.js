@@ -65,8 +65,8 @@ function DisplayHeader(){
 }
 
 function DisplayAccordion({unit}) {
-    const desktopWidth = "75px";
-    const mobileWidth = "60px";
+    const desktopWidth = "80%";//"75px";
+    const mobileWidth = "60%";//"60px";
     const desktopFont = "15px";
     const mobileFont = "12px";
 
@@ -1626,7 +1626,6 @@ function DisplayAccordion({unit}) {
 function DisplayUnit({unit, imageSize, fontSizing}) {
 
     const thumbnailSize = {
-        height: "100%",
         width: `${imageSize}`,
         maxWidth: "75px",
         margin: "0px",
@@ -1694,7 +1693,6 @@ function DisplayUnit({unit, imageSize, fontSizing}) {
 //If Unit does not have Awk
 function DisplayFiveStar({unit, imageSize, fontSizing}) {
     const thumbnailSize = {
-        height: "100%",
         width: `${imageSize}`,
         maxWidth: "75px",
         margin: "0px",
