@@ -64,7 +64,7 @@ export default function Units () {
                                     <Col xs="4" sm="auto">
                                         <center>
                                             <Card style={{maxWidth: "75px", backgroundColor: "#202022", border: "none"}}>
-                                                <Link to={`/units/${unit.name}`} key={unit.name} style={{textDecoration: 'none', color: "#aaabb8"}}>
+                                                <Link to={`/units/${unit.name}/stats`} key={unit.name} style={{textDecoration: 'none', color: "#aaabb8"}}>
                                                     <Media src={unit.image.thumbsuper} alt={unit.name} width="100%" height="auto" object-fit="cover"  />
                                                     <p>{unit.name}</p>
                                                 </Link>
@@ -80,7 +80,7 @@ export default function Units () {
                                     <Col xs="4" sm="auto">
                                         <center>
                                             <Card style={{maxWidth: "75px", backgroundColor: "#202022", border: "none"}}>
-                                                <Link to={`/units/${unit.name}`} key={unit.name} style={{textDecoration: 'none', color: "#aaabb8"}}>
+                                                <Link to={`/units/${unit.name}/stats`} key={unit.name} style={{textDecoration: 'none', color: "#aaabb8"}}>
                                                     <Media src={unit.image.thumbawk} alt={unit.name} width="100%" height="auto" object-fit="cover"  />
                                                     <p>{unit.name}</p>
                                                 </Link>
@@ -96,7 +96,7 @@ export default function Units () {
                                     <Col xs="4" sm="auto">
                                         <center>
                                             <Card style={{maxWidth: "75px", backgroundColor: "#202022", border: "none"}}>
-                                                <Link to={`/units/${unit.name}`} key={unit.name} style={{textDecoration: 'none', color: "#aaabb8"}}>
+                                                <Link to={`/units/${unit.name}/stats`} key={unit.name} style={{textDecoration: 'none', color: "#aaabb8"}}>
                                                     <Media src={unit.image.thumb5} alt={unit.name} width="75" height="75" object-fit="cover" />
                                                     <HoverName>{unit.name}</HoverName>
                                                 </Link>
