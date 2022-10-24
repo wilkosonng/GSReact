@@ -19818,6 +19818,160 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
     },
+    { // Kirisame - Missing Lore
+        id: 103527112,
+        name: "Kirisame",
+        attribute: "Fire",
+        type: "Human",
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_103616312.png",
+                detailsuper: "/db/Units/Detail/unit_detail_103526112.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103616312.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103526112.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/defLB.png",
+                slot32type: "/db/Mines/thumbnail/healLB.png"
+            },
+        stats: 
+            {
+                hp: 7480,
+                hpplus: 1410,
+                atk: 3045,
+                atkplus: 630,
+                def: 3500,
+                defplus: 610
+            },
+        skillset: 
+            {
+                skill: `12s CT - 2200% Fire DMG (PHY). Increase own Arts by 30. For 8s, reduce Enemies' Burn RES by 30%.`,
+                skillbreak: 700,
+                arts: `18000% Fire DMG (PHY). 70% chance to inflict Burn.`,
+                artsbreak: 1200,
+                truearts: `For 180s, enter Third Eye. During Third Eye/True Third Eye: 52000% Fire DMG (PHY). For 25s, redirect Allies' DMG taken to self and gain a DMG barrier that negates 35000 DMG to self.`,
+                trueartsbreak: 1800,
+                superarts: `70000% Fire DMG (PHY). For 40s, redirect Allies' DMG taken to self and gain a DMG barrier that negates 50000 DMG to self. During Third Eye/True Third Eye: 70000% Fire DMG (PHY). For 40s, redirect Allies' DMG taken to self and gain a DMG barrier that negates 50000 DMG to self + Cleanse 2 DMG RES debuffs from self.`,
+                superartsbreak: 2600
+            },
+        passive: 
+            {
+                ability1: `When in Third Eye or True Third Eye, increase DMG RES by 30%. Additionally, increase DMG RES against Burning Enemies by 20%. Does not stack with Abilities of the same name.`,
+                ability2: `When entering Third Eye, if there is a human ally other than himself, he will enter True Third Eye. During True Third Eye, increase PHY RES by 20%. Does not stack with Abilities of the same name.`,
+                ability3: `At the start of a Quest, increase own Arts by 50. Does not stack with Abilities of the same name.`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_130853.png",
+                    mat2amt: 220,
+                    hover2: "Flame Fox Reiju "
+                }
+            },
+        trueweapon: //If no TW, may delete this section
+            {
+                name: `Karura`,
+                slot: "/db/Mines/thumbnail/defLB.png",
+                detail: "/db/Equipment/Detail/item_detail_110621.png",
+                skill: `40s CT - 3000% Fire DMG (PHY). For 10s, increase own Fire DMG by 30% and DMG RES by 20%.`,
+                skillbreak: 700,
+                passive: 
+                    {
+                        ability1: `When equipped by Kirisame, increase own Paralysis and Freeze RES by 100%. Additionally, increase Third Eye or True Third Eye duration by 60s.`,
+                        ability2: `Increase ATK by 5%.`
+                    }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { // Hakurou - Missing Lore
+        id: 103566311,
+        name: "Hakurou",
+        attribute: "Earth",
+        type: "Human",
+        image: 
+            {
+                detail5: "/db/Units/Detail/unit_detail_103565311.png",
+                detailawk: "/db/Units/Detail/unit_detail_103566311.png",
+                thumb5: "/db/Units/Thumbnail/unit_thumbnail_103565311.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103566311.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/healLB.png"
+            },
+        stats: 
+            {
+                hp: 6442,
+                hpplus: 976,
+                atk: 2812,
+                atkplus: 431,
+                def: 2759,
+                defplus: 423
+            },
+        skillset: 
+            {
+                skill: "12s CT - 1800% Earth DMG (MAG). Cures own Poison & Burn. If this skill cures Poison/Burn, increase own Arts by 50.",
+                skillbreak: 500,
+                arts: "17000% Earth DMG (MAG). 50% chance of inflicting Blind.",
+                artsbreak: 1000,
+                truearts: "For 120s, enter Third Eye. During Third Eye/True Third Eye: 42000% Earth DMG (MAG). For 20s, increase Earth Allies' DMG by 100%.",
+                trueartsbreak: 2100
+            },
+        passive: 
+            {
+                ability1: "When Third Eye is activated, for 40s, reduce Enemies' MAG RES by 40%. When in Third Eye or True Third Eye, increase own Arts by 2/s.",
+                ability2: "When activating Third Eye, if enemy is Demon or Beast Boss, activate True Third Eye instead. During True Third Eye, increase DMG to Demon and Beast Enemies by 200%."
+            }, 
+        evolution: 
+            {
+                evo5awk:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/fragHakurou.png",
+                    mat3amt: 20,
+                    hover3: "Hakurou"
+                }
+            },
+        trueweapon: //If no TW, may delete this section
+            {
+                name: "Celestial Tears",
+                slot: "/db/Mines/thumbnail/magLB.png",
+                detail: "/db/Equipment/Detail/item_detail_110651.png",
+                skill: "65s CT - 8000% Earth DMG (MAG). For 10s, reduce Enemies' Blind RES and Evasion rate by 30%.",
+                skillbreak: 600,
+                passive: 
+                    {
+                        ability1: "When Equipped by Hakurou, increase own Arts DMG by 30%.",
+                        ability2: "Increase DEF by 5%."
+                    }
+            },
+        lore: 
+            {   
+                evo5: "Currently unreleased in Global.",
+                evoawk: "Currently unreleased in Global."
+            }
+    },
     { //Zinogre Armor Rayas - Missing Lore
         id: 107006412,
         name: "Zinogre Armor Rayas",
