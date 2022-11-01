@@ -57,7 +57,9 @@ function UnitHome() {
                                             justifyContent: "center",
                                             alignItems: "center",
                                             fontSize: "1.5rem",
-                                            height: "6vh",
+                                            height: "100%",
+                                            width: "100%",
+                                            padding: 0,
                                             color: isActive ? '#292930' : '#e7f9fc',
                                             textDecoration: isActive ? '' : 'none'})}>
                         Lore
@@ -69,7 +71,9 @@ function UnitHome() {
                                                 justifyContent: "center",
                                                 alignItems: "center",
                                                 fontSize: "1.5rem",
-                                                height: "6vh",
+                                                height: "100%",
+                                                width: "100%",
+                                                padding: 0,
                                                 color: isActive ? '#292930' : '#e7f9fc',
                                                 textDecoration: isActive ? '' : 'none'})}>
                         Stats
@@ -81,7 +85,9 @@ function UnitHome() {
                                                     justifyContent: "center",
                                                     alignItems: "center",
                                                     fontSize: "1.5rem",
-                                                    height: "6vh",
+                                                    height: "100%",
+                                                    width: "100%",
+                                                    padding: 0,
                                                     color: isActive ? '#292930' : '#e7f9fc',
                                                     textDecoration: isActive ? '' : 'none'})}>
                         True Weapon
@@ -93,6 +99,12 @@ function UnitHome() {
             <Outlet />
         </Card>
     )
+}
+
+const unitSize = {
+    width: "80%",
+    maxWidth: "100px",
+    height: "auto"
 }
 
 function RenderLore({unitName, unitLore, unitImage}) {
@@ -111,27 +123,27 @@ function RenderLore({unitName, unitLore, unitImage}) {
                         <Nav justified>
                             <NavItem>
                                 <Link to="twostar" activeClassName="active">
-                                    <Media src={unitImage.thumb2} />
+                                    <Media src={unitImage.thumb2} style={unitSize}/>
                                 </Link>
                             </NavItem>
                             <NavItem>
                                 <Link to="threestar" activeClassName="active">
-                                    <Media src={unitImage.thumb3} />
+                                    <Media src={unitImage.thumb3} style={unitSize}/>
                                 </Link>
                             </NavItem>
                             <NavItem>
                                 <Link to="fourstar" activeClassName="active">
-                                    <Media src={unitImage.thumb4} />
+                                    <Media src={unitImage.thumb4} style={unitSize}/>
                                 </Link>
                             </NavItem>
                             <NavItem>
                             <Link to="fivestar" activeClassName="active">
-                                    <Media src={unitImage.thumb5} />
+                                    <Media src={unitImage.thumb5} style={unitSize}/>
                                 </Link>
                             </NavItem>
                             <NavItem>
                             <Link to="awaken" activeClassName="active">
-                                    <Media src={unitImage.thumbawk} />
+                                    <Media src={unitImage.thumbawk} style={unitSize}/>
                                 </Link>
                             </NavItem>
                         </Nav>
@@ -150,22 +162,22 @@ function RenderLore({unitName, unitLore, unitImage}) {
                         <Nav justified>
                             <NavItem>
                                 <Link to="threestar" activeClassName="active">
-                                    <Media src={unitImage.thumb3} />
+                                    <Media src={unitImage.thumb3} style={unitSize}/>
                                 </Link>
                             </NavItem>
                             <NavItem>
                                 <Link to="fourstar" activeClassName="active">
-                                    <Media src={unitImage.thumb4} />
+                                    <Media src={unitImage.thumb4} style={unitSize}/>
                                 </Link>
                             </NavItem>
                             <NavItem>
                             <Link to="fivestar" activeClassName="active">
-                                    <Media src={unitImage.thumb5} />
+                                    <Media src={unitImage.thumb5} style={unitSize}/>
                                 </Link>
                             </NavItem>
                             <NavItem>
                             <Link to="awaken" activeClassName="active">
-                                    <Media src={unitImage.thumbawk} />
+                                    <Media src={unitImage.thumbawk} style={unitSize}/>
                                 </Link>
                             </NavItem>
                         </Nav>
@@ -184,17 +196,17 @@ function RenderLore({unitName, unitLore, unitImage}) {
                         <Nav justified>
                             <NavItem>
                                 <Link to="fourstar" activeClassName="active">
-                                    <Media src={unitImage.thumb4} />
+                                    <Media src={unitImage.thumb4} style={unitSize}/>
                                 </Link>
                             </NavItem>
                             <NavItem>
                             <Link to="fivestar" activeClassName="active">
-                                    <Media src={unitImage.thumb5} />
+                                    <Media src={unitImage.thumb5} style={unitSize}/>
                                 </Link>
                             </NavItem>
                             <NavItem>
                             <Link to="awaken" activeClassName="active">
-                                    <Media src={unitImage.thumbawk} />
+                                    <Media src={unitImage.thumbawk} style={unitSize}/>
                                 </Link>
                             </NavItem>
                         </Nav>
@@ -213,12 +225,12 @@ function RenderLore({unitName, unitLore, unitImage}) {
                         <Nav justified>
                             <NavItem>
                             <Link to="fivestar" activeClassName="active">
-                                    <Media src={unitImage.thumb5} />
+                                    <Media src={unitImage.thumb5} style={unitSize}/>
                                 </Link>
                             </NavItem>
                             <NavItem>
                             <Link to="awaken" activeClassName="active">
-                                    <Media src={unitImage.thumbawk} />
+                                    <Media src={unitImage.thumbawk} style={unitSize}/>
                                 </Link>
                             </NavItem>
                         </Nav>
@@ -237,12 +249,12 @@ function RenderLore({unitName, unitLore, unitImage}) {
                         <Nav justified>
                             <NavItem>
                             <Link to="awaken" activeClassName="active">
-                                    <Media src={unitImage.thumbawk} />
+                                    <Media src={unitImage.thumbawk} style={unitSize}/>
                                 </Link>
                             </NavItem>
                             <NavItem>
                             <Link to="super" activeClassName="active">
-                                    <Media src={unitImage.thumbsuper} />
+                                    <Media src={unitImage.thumbsuper} style={unitSize}/>
                                 </Link>
                             </NavItem>
                         </Nav>
@@ -263,12 +275,12 @@ function RenderLore({unitName, unitLore, unitImage}) {
                         <Nav justified>
                             <NavItem>
                                 <Link to="fourstar" activeClassName="active">
-                                    <Media src={unitImage.thumb4} />
+                                    <Media src={unitImage.thumb4} style={unitSize}/>
                                 </Link>
                             </NavItem>
                             <NavItem>
                             <Link to="fivestar" activeClassName="active">
-                                    <Media src={unitImage.thumb5} />
+                                    <Media src={unitImage.thumb5} style={unitSize}/>
                                 </Link>
                             </NavItem>
                         </Nav>
@@ -287,7 +299,7 @@ function RenderLore({unitName, unitLore, unitImage}) {
                         <Nav justified>
                             <NavItem>
                             <Link to="fivestar" activeClassName="active">
-                                    <Media src={unitImage.thumb5} />
+                                    <Media src={unitImage.thumb5} style={unitSize}/>
                                 </Link>
                             </NavItem>
                         </Nav>
