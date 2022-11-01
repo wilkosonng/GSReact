@@ -19,47 +19,48 @@ import { Container, Row, Col } from 'reactstrap';
 import DotGuide from './components/guidecomponents/DotGuides';
 import DisplayTrialGuide from './components/guidecomponents/dotguides/DotGuidesComponent';
 import './App.css';
+import ScrollToTop from './components/ScrollComponent';
 
 class App extends Component {
   render() {
     return (
       <BrowserRouter>
-      
-      <Container style={{background: '#25274d', color: '#aaabb8'}}>
-      <div >
-        <Row>
-          <Col>
-            <div className="App">
-              <Routes>
-                <Route path="/" element={<Header />}>
-                  <Route path="/" element={<Main />} />
-                  <Route path="news" element={<News />} />
-                  <Route path="news/:articleId" element={<Article />} />
-                  <Route path="units" element={<Units />} >
-                    <Route index />
+      <ScrollToTop>
+      <Container style={{backgroundColor: '#202022', color: '#aaabb8'}}>
+        <div >
+          <Row>
+            <Col>
+              <div className="App">
+                <Routes>
+                  <Route path="/" element={<Header />} >
+                    <Route path="/" element={<Main />} />
+                    <Route path="news" element={<News />} />
+                    <Route path="news/:articleId" element={<Article />} />
+                    <Route path="units" element={<Units />} >
+                      <Route index />
+                    </Route>
+                    <Route path="units/:unitName/*" element={<UnitDetails />} />
+                    <Route path="tierlist" element={<Tierlist />} />
+                    <Route path="guides" element={<GuidesMainPage />} />
+                    <Route path="guides/other-guides" element={<OtherGuides />} />
+                    <Route path="guides/other-guides/:articleId" element={<DisplayGuides />} />
+                    <Route path="guides/crest-guides" element={<CrestGuides />} />
+                    <Route path="guides/crest-guides/:articleId" element={<DisplayCrestGuide />} />
+                    <Route path="guides/dungeon-of-trials" element={<DotGuide />} />
+                    <Route path="guides/dungeon-of-trials/:articleId" element={<DisplayTrialGuide />} />
+                    <Route exact path="guides/FAQ" element={<FAQGuide />} />
+                    <Route path="*" element={<p><center><h1>Under construction</h1></center></p>} />
                   </Route>
-                  <Route path="units/:unitName/*" element={<UnitDetails />} />
-                  <Route path="tierlist" element={<Tierlist />} />
-                  <Route path="guides" element={<GuidesMainPage />} />
-                  <Route path="guides/other-guides" element={<OtherGuides />} />
-                  <Route path="guides/other-guides/:articleId" element={<DisplayGuides />} />
-                  <Route path="guides/crest-guides" element={<CrestGuides />} />
-                  <Route path="guides/crest-guides/:articleId" element={<DisplayCrestGuide />} />
-                  <Route path="guides/dungeon-of-trials" element={<DotGuide />} />
-                  <Route path="guides/dungeon-of-trials/:articleId" element={<DisplayTrialGuide />} />
-                  <Route exact path="guides/FAQ" element={<FAQGuide />} />
-                  <Route path="*" element={<p><center><h1>Under construction</h1></center></p>} />
-                </Route>
-              </Routes>
-            </div>
-          </Col>
-        </Row>
-        <Row>
-          <Footer />
-        </Row>
+                </Routes>
+              </div>
+            </Col>
+          </Row>
+          <Row>
+            <Footer />
+          </Row>
         </div>
       </Container>
-      
+      </ScrollToTop>
       </BrowserRouter>
     );
   }
