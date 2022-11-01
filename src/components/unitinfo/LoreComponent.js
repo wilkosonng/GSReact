@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import { Tooltip, Card, CardTitle, CardBody, CardText, CardImg, Media } from 'reactstrap'; 
+import { Tooltip, Card, CardTitle, CardBody, CardText, CardImg, Media, Table, CardHeader } from 'reactstrap'; 
 
 const thumbnailSize = {
     maxHeight: 75,
-    maxWidth: 75
+    maxWidth: 75,
+    width: "100%"
 };
 
 const imageSize ={
@@ -14,12 +15,14 @@ const imageSize ={
 const unitCard = {
     backgroundColor: "#292930", 
     color: "#e7f9fc",
-    paddingTop: "1rem"
+    marginTop: "2rem",
+    width: "100%"
 }
 
 const evoCard = {
     backgroundColor: "#202022",
-    color: "#e7f9fc"
+    color: "#e7f9fc",
+    width: "100%"
 }
 
 export function RenderTwoStar({lore, unitImage, unitEvo}) {
@@ -29,44 +32,32 @@ export function RenderTwoStar({lore, unitImage, unitEvo}) {
                 <Card style={unitCard}>
                     <CardTitle>
                         <center>
-                            <table>
-                                <tr>
-                                    <th colspan="2"><center>Current</center></th>
-                                    <th colspan="5"><center>Evolution Materials</center></th>
-                                    <th colspan="2"><center>Next Evolution</center></th>
-                                </tr>
-                                <tr>
-                                    <td colspan="2"><center><Media src={unitImage.thumb2} style={thumbnailSize}/></center></td>
-                                    <td colspan="5">
-                                        <Card style={evoCard}>
-                                            <CardBody>
-                                            <h3>
-                                                <table>
-                                                    <tr>
-                                                        <th><Media src={unitEvo.evo23.mat1} style={thumbnailSize}/></th>
-                                                        <th><Media src={unitEvo.evo23.mat2} style={thumbnailSize}/></th>
-                                                        <th><Media src={unitEvo.evo23.mat3} style={thumbnailSize}/></th>
-                                                        <th><Media src={unitEvo.evo23.mat4} style={thumbnailSize}/></th>
-                                                        <th><Media src={unitEvo.evo23.mat5} style={thumbnailSize}/></th>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><center>X{unitEvo.evo23.mat1amt}</center></td>
-                                                        <td><center>X{unitEvo.evo23.mat2amt}</center></td>
-                                                        <td><center>X{unitEvo.evo23.mat3amt}</center></td>
-                                                        <td><center>X{unitEvo.evo23.mat4amt}</center></td>
-                                                        <td><center>X{unitEvo.evo23.mat5amt}</center></td>
-                                                    </tr>
-                                                </table>
-                                            </h3>
-                                            </CardBody>
-                                        </Card>
-                                        
-                                    </td>
-                                    <td colspan="2"><center><Media src={unitImage.thumb3} style={thumbnailSize} /></center></td>
-                                </tr>
-                            </table>
+                            <Card style={evoCard}>
+                                <CardHeader>
+                                    <h2>Evolution Materials</h2>
+                                </CardHeader>
+                                <CardBody>
+                                <h3>
+                                    <Table>
+                                        <tr>
+                                            <th><center><Media src={unitEvo.evo23.mat1} style={thumbnailSize}/></center></th>
+                                            <th><center><Media src={unitEvo.evo23.mat2} style={thumbnailSize}/></center></th>
+                                            <th><center><Media src={unitEvo.evo23.mat3} style={thumbnailSize}/></center></th>
+                                            <th><center><Media src={unitEvo.evo23.mat4} style={thumbnailSize}/></center></th>
+                                            <th><center><Media src={unitEvo.evo23.mat5} style={thumbnailSize}/></center></th>
+                                        </tr>
+                                        <tr>
+                                            <td><center>X{unitEvo.evo23.mat1amt}</center></td>
+                                            <td><center>X{unitEvo.evo23.mat2amt}</center></td>
+                                            <td><center>X{unitEvo.evo23.mat3amt}</center></td>
+                                            <td><center>X{unitEvo.evo23.mat4amt}</center></td>
+                                            <td><center>X{unitEvo.evo23.mat5amt}</center></td>
+                                        </tr>
+                                    </Table>
+                                </h3>
+                                </CardBody>
+                            </Card>
                         </center>
-                        
                     </CardTitle>
                     <CardBody>
                         <CardText>
@@ -85,42 +76,30 @@ export function RenderTwoStar({lore, unitImage, unitEvo}) {
                 <Card style={unitCard}>
                     <CardTitle>
                         <center>
-                            <table>
-                                <tr>
-                                    <th colspan="2"><center>Current</center></th>
-                                    <th colspan="5"><center>Evolution Materials</center></th>
-                                    <th colspan="2"><center>Next Evolution</center></th>
-                                </tr>
-                                <tr>
-                                    <td colspan="2"><center><Media src={unitImage.thumb2} style={thumbnailSize}/></center></td>
-                                    <td colspan="5">
-                                        <Card style={evoCard}>
-                                            <CardBody>
-                                            <h3>
-                                                <table>
-                                                    <tr>
-                                                        <th><Media src={unitEvo.evo23.mat1} style={thumbnailSize}/></th>
-                                                        <th><Media src={unitEvo.evo23.mat2} style={thumbnailSize}/></th>
-                                                        <th><Media src={unitEvo.evo23.mat3} style={thumbnailSize}/></th>
-                                                        <th><Media src={unitEvo.evo23.mat4} style={thumbnailSize}/></th>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><center>X{unitEvo.evo23.mat1amt}</center></td>
-                                                        <td><center>X{unitEvo.evo23.mat2amt}</center></td>
-                                                        <td><center>X{unitEvo.evo23.mat3amt}</center></td>
-                                                        <td><center>X{unitEvo.evo23.mat4amt}</center></td>
-                                                    </tr>
-                                                </table>
-                                            </h3>
-                                            </CardBody>
-                                        </Card>
-                                        
-                                    </td>
-                                    <td colspan="2"><center><Media src={unitImage.thumb3} style={thumbnailSize} /></center></td>
-                                </tr>
-                            </table>
+                            <Card style={evoCard}>
+                                <CardHeader>
+                                    <h2>Evolution Materials</h2>
+                                </CardHeader>
+                                <CardBody>
+                                <h3>
+                                    <Table>
+                                        <tr>
+                                            <th><center><Media src={unitEvo.evo23.mat1} style={thumbnailSize}/></center></th>
+                                            <th><center><Media src={unitEvo.evo23.mat2} style={thumbnailSize}/></center></th>
+                                            <th><center><Media src={unitEvo.evo23.mat3} style={thumbnailSize}/></center></th>
+                                            <th><center><Media src={unitEvo.evo23.mat4} style={thumbnailSize}/></center></th>
+                                        </tr>
+                                        <tr>
+                                            <td><center>X{unitEvo.evo23.mat1amt}</center></td>
+                                            <td><center>X{unitEvo.evo23.mat2amt}</center></td>
+                                            <td><center>X{unitEvo.evo23.mat3amt}</center></td>
+                                            <td><center>X{unitEvo.evo23.mat4amt}</center></td>
+                                        </tr>
+                                    </Table>
+                                </h3>
+                                </CardBody>
+                            </Card>
                         </center>
-                        
                     </CardTitle>
                     <CardBody>
                         <CardText>
@@ -139,40 +118,28 @@ export function RenderTwoStar({lore, unitImage, unitEvo}) {
                 <Card style={unitCard}>
                     <CardTitle>
                         <center>
-                            <table>
-                                <tr>
-                                    <th colspan="2"><center>Current</center></th>
-                                    <th colspan="5"><center>Evolution Materials</center></th>
-                                    <th colspan="2"><center>Next Evolution</center></th>
-                                </tr>
-                                <tr>
-                                    <td colspan="2"><center><Media src={unitImage.thumb2} style={thumbnailSize}/></center></td>
-                                    <td colspan="5">
-                                        <Card style={evoCard}>
-                                            <CardBody>
-                                            <h3>
-                                                <table>
-                                                    <tr>
-                                                        <th><Media src={unitEvo.evo23.mat1} style={thumbnailSize}/></th>
-                                                        <th><Media src={unitEvo.evo23.mat2} style={thumbnailSize}/></th>
-                                                        <th><Media src={unitEvo.evo23.mat3} style={thumbnailSize}/></th>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><center>X{unitEvo.evo23.mat1amt}</center></td>
-                                                        <td><center>X{unitEvo.evo23.mat2amt}</center></td>
-                                                        <td><center>X{unitEvo.evo23.mat3amt}</center></td>
-                                                    </tr>
-                                                </table>
-                                            </h3>
-                                            </CardBody>
-                                        </Card>
-                                        
-                                    </td>
-                                    <td colspan="2"><center><Media src={unitImage.thumb3} style={thumbnailSize} /></center></td>
-                                </tr>
-                            </table>
+                            <Card style={evoCard}>
+                                <CardHeader>
+                                    <h2>Evolution Materials</h2>
+                                </CardHeader>
+                                <CardBody>
+                                <h3>
+                                    <Table>
+                                        <tr>
+                                            <th><center><Media src={unitEvo.evo23.mat1} style={thumbnailSize}/></center></th>
+                                            <th><center><Media src={unitEvo.evo23.mat2} style={thumbnailSize}/></center></th>
+                                            <th><center><Media src={unitEvo.evo23.mat3} style={thumbnailSize}/></center></th>
+                                        </tr>
+                                        <tr>
+                                            <td><center>X{unitEvo.evo23.mat1amt}</center></td>
+                                            <td><center>X{unitEvo.evo23.mat2amt}</center></td>
+                                            <td><center>X{unitEvo.evo23.mat3amt}</center></td>
+                                        </tr>
+                                    </Table>
+                                </h3>
+                                </CardBody>
+                            </Card>
                         </center>
-                        
                     </CardTitle>
                     <CardBody>
                         <CardText>
@@ -190,36 +157,25 @@ export function RenderTwoStar({lore, unitImage, unitEvo}) {
             <Card style={unitCard}>
                 <CardTitle>
                     <center>
-                        <table>
-                            <tr>
-                                <th colspan="2"><center>Current</center></th>
-                                <th colspan="5"><center>Evolution Materials</center></th>
-                                <th colspan="2"><center>Next Evolution</center></th>
-                            </tr>
-                            <tr>
-                                <td colspan="2"><center><Media src={unitImage.thumb2} style={thumbnailSize}/></center></td>
-                                <td colspan="5">
-                                    <Card style={evoCard}>
-                                        <CardBody>
-                                        <h3>
-                                            <table>
-                                                <tr>
-                                                    <th><Media src={unitEvo.evo23.mat1} style={thumbnailSize}/></th>
-                                                    <th><Media src={unitEvo.evo23.mat2} style={thumbnailSize}/></th>
-                                                </tr>
-                                                <tr>
-                                                    <td><center>X{unitEvo.evo23.mat1amt}</center></td>
-                                                    <td><center>X{unitEvo.evo23.mat2amt}</center></td>
-                                                </tr>
-                                            </table>
-                                        </h3>
-                                        </CardBody>
-                                    </Card>
-                                    
-                                </td>
-                                <td colspan="2"><center><Media src={unitImage.thumb3} style={thumbnailSize} /></center></td>
-                            </tr>
-                        </table>
+                        <Card style={evoCard}>
+                            <CardHeader>
+                                <h2>Evolution Materials</h2>
+                            </CardHeader>
+                            <CardBody>
+                            <h3>
+                                <Table>
+                                    <tr>
+                                        <th><center><Media src={unitEvo.evo23.mat1} style={thumbnailSize}/></center></th>
+                                        <th><center><Media src={unitEvo.evo23.mat2} style={thumbnailSize}/></center></th>
+                                    </tr>
+                                    <tr>
+                                        <td><center>X{unitEvo.evo23.mat1amt}</center></td>
+                                        <td><center>X{unitEvo.evo23.mat2amt}</center></td>
+                                    </tr>
+                                </Table>
+                            </h3>
+                            </CardBody>
+                        </Card>
                     </center>
                     
                 </CardTitle>
@@ -241,42 +197,31 @@ export function RenderThreeStar({lore, unitImage, unitEvo}) {
                 <Card style={unitCard}>
                     <CardTitle>
                         <center>
-                            <table>
-                                <tr>
-                                    <th colspan="2"><center>Current</center></th>
-                                    <th colspan="5"><center>Evolution Materials</center></th>
-                                    <th colspan="2"><center>Next Evolution</center></th>
-                                </tr>
-                                <tr>
-                                    <td colspan="2"><center><Media src={unitImage.thumb3} style={thumbnailSize}/></center></td>
-                                    <td colspan="5">
-                                        <Card style={evoCard}>
-                                            <CardBody>
-                                            <h3>
-                                                <table>
-                                                    <tr>
-                                                        <th><Media src={unitEvo.evo34.mat1} style={thumbnailSize}/></th>
-                                                        <th><Media src={unitEvo.evo34.mat2} style={thumbnailSize}/></th>
-                                                        <th><Media src={unitEvo.evo34.mat3} style={thumbnailSize}/></th>
-                                                        <th><Media src={unitEvo.evo34.mat4} style={thumbnailSize}/></th>
-                                                        <th><Media src={unitEvo.evo34.mat5} style={thumbnailSize}/></th>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><center>X{unitEvo.evo34.mat1amt}</center></td>
-                                                        <td><center>X{unitEvo.evo34.mat2amt}</center></td>
-                                                        <td><center>X{unitEvo.evo34.mat3amt}</center></td>
-                                                        <td><center>X{unitEvo.evo34.mat4amt}</center></td>
-                                                        <td><center>X{unitEvo.evo34.mat5amt}</center></td>
-                                                    </tr>
-                                                </table>
-                                            </h3>
-                                            </CardBody>
-                                        </Card>
-                                        
-                                    </td>
-                                    <td colspan="2"><center><Media src={unitImage.thumb4} style={thumbnailSize} /></center></td>
-                                </tr>
-                            </table>
+                            <Card style={evoCard}>
+                                <CardHeader>
+                                    <h2>Evolution Materials</h2>
+                                </CardHeader>
+                                <CardBody>
+                                <h3>
+                                    <Table>
+                                        <tr>
+                                            <th><center><Media src={unitEvo.evo34.mat1} style={thumbnailSize}/></center></th>
+                                            <th><center><Media src={unitEvo.evo34.mat2} style={thumbnailSize}/></center></th>
+                                            <th><center><Media src={unitEvo.evo34.mat3} style={thumbnailSize}/></center></th>
+                                            <th><center><Media src={unitEvo.evo34.mat4} style={thumbnailSize}/></center></th>
+                                            <th><center><Media src={unitEvo.evo34.mat5} style={thumbnailSize}/></center></th>
+                                        </tr>
+                                        <tr>
+                                            <td><center>X{unitEvo.evo34.mat1amt}</center></td>
+                                            <td><center>X{unitEvo.evo34.mat2amt}</center></td>
+                                            <td><center>X{unitEvo.evo34.mat3amt}</center></td>
+                                            <td><center>X{unitEvo.evo34.mat4amt}</center></td>
+                                            <td><center>X{unitEvo.evo34.mat5amt}</center></td>
+                                        </tr>
+                                    </Table>
+                                </h3>
+                                </CardBody>
+                            </Card>
                         </center>
                         
                     </CardTitle>
@@ -297,42 +242,30 @@ export function RenderThreeStar({lore, unitImage, unitEvo}) {
                 <Card style={unitCard}>
                     <CardTitle>
                         <center>
-                            <table>
-                                <tr>
-                                    <th colspan="2"><center>Current</center></th>
-                                    <th colspan="5"><center>Evolution Materials</center></th>
-                                    <th colspan="2"><center>Next Evolution</center></th>
-                                </tr>
-                                <tr>
-                                    <td colspan="2"><center><Media src={unitImage.thumb3} style={thumbnailSize}/></center></td>
-                                    <td colspan="5">
-                                        <Card style={evoCard}>
-                                            <CardBody>
-                                            <h3>
-                                                <table>
-                                                    <tr>
-                                                        <th><Media src={unitEvo.evo34.mat1} style={thumbnailSize}/></th>
-                                                        <th><Media src={unitEvo.evo34.mat2} style={thumbnailSize}/></th>
-                                                        <th><Media src={unitEvo.evo34.mat3} style={thumbnailSize}/></th>
-                                                        <th><Media src={unitEvo.evo34.mat4} style={thumbnailSize}/></th>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><center>X{unitEvo.evo34.mat1amt}</center></td>
-                                                        <td><center>X{unitEvo.evo34.mat2amt}</center></td>
-                                                        <td><center>X{unitEvo.evo34.mat3amt}</center></td>
-                                                        <td><center>X{unitEvo.evo34.mat4amt}</center></td>
-                                                    </tr>
-                                                </table>
-                                            </h3>
-                                            </CardBody>
-                                        </Card>
-                                        
-                                    </td>
-                                    <td colspan="2"><center><Media src={unitImage.thumb4} style={thumbnailSize} /></center></td>
-                                </tr>
-                            </table>
+                            <Card style={evoCard}>
+                                <CardHeader>
+                                    <h2>Evolution Materials</h2>
+                                </CardHeader>
+                                <CardBody>
+                                <h3>
+                                    <Table>
+                                        <tr>
+                                            <th><center><Media src={unitEvo.evo34.mat1} style={thumbnailSize}/></center></th>
+                                            <th><center><Media src={unitEvo.evo34.mat2} style={thumbnailSize}/></center></th>
+                                            <th><center><Media src={unitEvo.evo34.mat3} style={thumbnailSize}/></center></th>
+                                            <th><center><Media src={unitEvo.evo34.mat4} style={thumbnailSize}/></center></th>
+                                        </tr>
+                                        <tr>
+                                            <td><center>X{unitEvo.evo34.mat1amt}</center></td>
+                                            <td><center>X{unitEvo.evo34.mat2amt}</center></td>
+                                            <td><center>X{unitEvo.evo34.mat3amt}</center></td>
+                                            <td><center>X{unitEvo.evo34.mat4amt}</center></td>
+                                        </tr>
+                                    </Table>
+                                </h3>
+                                </CardBody>
+                            </Card>
                         </center>
-                        
                     </CardTitle>
                     <CardBody>
                         <CardText>
@@ -351,38 +284,27 @@ export function RenderThreeStar({lore, unitImage, unitEvo}) {
                 <Card style={unitCard}>
                     <CardTitle>
                         <center>
-                            <table>
-                                <tr>
-                                    <th colspan="2"><center>Current</center></th>
-                                    <th colspan="5"><center>Evolution Materials</center></th>
-                                    <th colspan="2"><center>Next Evolution</center></th>
-                                </tr>
-                                <tr>
-                                    <td colspan="2"><center><Media src={unitImage.thumb3} style={thumbnailSize}/></center></td>
-                                    <td colspan="5">
-                                        <Card style={evoCard}>
-                                            <CardBody>
-                                            <h3>
-                                                <table>
-                                                    <tr>
-                                                        <th><Media src={unitEvo.evo34.mat1} style={thumbnailSize}/></th>
-                                                        <th><Media src={unitEvo.evo34.mat2} style={thumbnailSize}/></th>
-                                                        <th><Media src={unitEvo.evo34.mat3} style={thumbnailSize}/></th>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><center>X{unitEvo.evo34.mat1amt}</center></td>
-                                                        <td><center>X{unitEvo.evo34.mat2amt}</center></td>
-                                                        <td><center>X{unitEvo.evo34.mat3amt}</center></td>
-                                                    </tr>
-                                                </table>
-                                            </h3>
-                                            </CardBody>
-                                        </Card>
-                                        
-                                    </td>
-                                    <td colspan="2"><center><Media src={unitImage.thumb4} style={thumbnailSize} /></center></td>
-                                </tr>
-                            </table>
+                            <Card style={evoCard}>
+                                <CardHeader>
+                                    <h2>Evolution Materials</h2>
+                                </CardHeader>
+                                <CardBody>
+                                <h3>
+                                    <Table>
+                                        <tr>
+                                            <th><center><Media src={unitEvo.evo34.mat1} style={thumbnailSize}/></center></th>
+                                            <th><center><Media src={unitEvo.evo34.mat2} style={thumbnailSize}/></center></th>
+                                            <th><center><Media src={unitEvo.evo34.mat3} style={thumbnailSize}/></center></th>
+                                        </tr>
+                                        <tr>
+                                            <td><center>X{unitEvo.evo34.mat1amt}</center></td>
+                                            <td><center>X{unitEvo.evo34.mat2amt}</center></td>
+                                            <td><center>X{unitEvo.evo34.mat3amt}</center></td>
+                                        </tr>
+                                    </Table>
+                                </h3>
+                                </CardBody>
+                            </Card>
                         </center>
                         
                     </CardTitle>
@@ -402,38 +324,26 @@ export function RenderThreeStar({lore, unitImage, unitEvo}) {
             <Card style={unitCard}>
                 <CardTitle>
                     <center>
-                        <table>
-                            <tr>
-                                <th colspan="2"><center>Current</center></th>
-                                <th colspan="5"><center>Evolution Materials</center></th>
-                                <th colspan="2"><center>Next Evolution</center></th>
-                            </tr>
-                            <tr>
-                                <td colspan="2"><center><Media src={unitImage.thumb3} style={thumbnailSize}/></center></td>
-                                <td colspan="5">
-                                    <Card style={evoCard}>
-                                        <CardBody>
-                                        <h3>
-                                            <table>
-                                                <tr>
-                                                    <th><Media src={unitEvo.evo34.mat1} style={thumbnailSize}/></th>
-                                                    <th><Media src={unitEvo.evo34.mat2} style={thumbnailSize}/></th>
-                                                </tr>
-                                                <tr>
-                                                    <td><center>X{unitEvo.evo34.mat1amt}</center></td>
-                                                    <td><center>X{unitEvo.evo34.mat2amt}</center></td>
-                                                </tr>
-                                            </table>
-                                        </h3>
-                                        </CardBody>
-                                    </Card>
-                                    
-                                </td>
-                                <td colspan="2"><center><Media src={unitImage.thumb4} style={thumbnailSize} /></center></td>
-                            </tr>
-                        </table>
+                        <Card style={evoCard}>
+                        <CardHeader>
+                            <h2>Evolution Materials</h2>
+                        </CardHeader>
+                            <CardBody>
+                            <h3>
+                                <Table>
+                                    <tr>
+                                        <th><center><Media src={unitEvo.evo34.mat1} style={thumbnailSize}/></center></th>
+                                        <th><center><Media src={unitEvo.evo34.mat2} style={thumbnailSize}/></center></th>
+                                    </tr>
+                                    <tr>
+                                        <td><center>X{unitEvo.evo34.mat1amt}</center></td>
+                                        <td><center>X{unitEvo.evo34.mat2amt}</center></td>
+                                    </tr>
+                                </Table>
+                            </h3>
+                            </CardBody>
+                        </Card>
                     </center>
-                    
                 </CardTitle>
                 <CardBody>
                     <CardText>
@@ -453,44 +363,32 @@ export function RenderFourStar({lore, unitImage, unitEvo}) {
                 <Card style={unitCard}>
                     <CardTitle>
                         <center>
-                            <table>
-                                <tr>
-                                    <th colspan="2"><center>Current</center></th>
-                                    <th colspan="5"><center>Evolution Materials</center></th>
-                                    <th colspan="2"><center>Next Evolution</center></th>
-                                </tr>
-                                <tr>
-                                    <td colspan="2"><center><Media src={unitImage.thumb4} style={thumbnailSize}/></center></td>
-                                    <td colspan="5">
-                                        <Card style={evoCard}>
-                                            <CardBody>
-                                            <h3>
-                                                <table>
-                                                    <tr>
-                                                        <th><Media src={unitEvo.evo45.mat1} style={thumbnailSize}/></th>
-                                                        <th><Media src={unitEvo.evo45.mat2} style={thumbnailSize}/></th>
-                                                        <th><Media src={unitEvo.evo45.mat3} style={thumbnailSize}/></th>
-                                                        <th><Media src={unitEvo.evo45.mat4} style={thumbnailSize}/></th>
-                                                        <th><Media src={unitEvo.evo45.mat5} style={thumbnailSize}/></th>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><center>X{unitEvo.evo45.mat1amt}</center></td>
-                                                        <td><center>X{unitEvo.evo45.mat2amt}</center></td>
-                                                        <td><center>X{unitEvo.evo45.mat3amt}</center></td>
-                                                        <td><center>X{unitEvo.evo45.mat4amt}</center></td>
-                                                        <td><center>X{unitEvo.evo45.mat5amt}</center></td>
-                                                    </tr>
-                                                </table>
-                                            </h3>
-                                            </CardBody>
-                                        </Card>
-                                        
-                                    </td>
-                                    <td colspan="2"><center><Media src={unitImage.thumb5} style={thumbnailSize} /></center></td>
-                                </tr>
-                            </table>
+                            <Card style={evoCard}>
+                                <CardHeader>
+                                    <h2>Evolution Materials</h2>
+                                </CardHeader>
+                                <CardBody>
+                                <h3>
+                                    <Table>
+                                        <tr>
+                                            <th><center><Media src={unitEvo.evo45.mat1} style={thumbnailSize}/></center></th>
+                                            <th><center><Media src={unitEvo.evo45.mat2} style={thumbnailSize}/></center></th>
+                                            <th><center><Media src={unitEvo.evo45.mat3} style={thumbnailSize}/></center></th>
+                                            <th><center><Media src={unitEvo.evo45.mat4} style={thumbnailSize}/></center></th>
+                                            <th><center><Media src={unitEvo.evo45.mat5} style={thumbnailSize}/></center></th>
+                                        </tr>
+                                        <tr>
+                                            <td><center>X{unitEvo.evo45.mat1amt}</center></td>
+                                            <td><center>X{unitEvo.evo45.mat2amt}</center></td>
+                                            <td><center>X{unitEvo.evo45.mat3amt}</center></td>
+                                            <td><center>X{unitEvo.evo45.mat4amt}</center></td>
+                                            <td><center>X{unitEvo.evo45.mat5amt}</center></td>
+                                        </tr>
+                                    </Table>
+                                </h3>
+                                </CardBody>
+                            </Card>
                         </center>
-                        
                     </CardTitle>
                     <CardBody>
                         <CardText>
@@ -509,42 +407,30 @@ export function RenderFourStar({lore, unitImage, unitEvo}) {
                 <Card style={unitCard}>
                     <CardTitle>
                         <center>
-                            <table>
-                                <tr>
-                                    <th colspan="2"><center>Current</center></th>
-                                    <th colspan="5"><center>Evolution Materials</center></th>
-                                    <th colspan="2"><center>Next Evolution</center></th>
-                                </tr>
-                                <tr>
-                                    <td colspan="2"><center><Media src={unitImage.thumb4} style={thumbnailSize}/></center></td>
-                                    <td colspan="5">
-                                        <Card style={evoCard}>
-                                            <CardBody>
-                                            <h3>
-                                                <table>
-                                                    <tr>
-                                                        <th><Media src={unitEvo.evo45.mat1} style={thumbnailSize}/></th>
-                                                        <th><Media src={unitEvo.evo45.mat2} style={thumbnailSize}/></th>
-                                                        <th><Media src={unitEvo.evo45.mat3} style={thumbnailSize}/></th>
-                                                        <th><Media src={unitEvo.evo45.mat4} style={thumbnailSize}/></th>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><center>X{unitEvo.evo45.mat1amt}</center></td>
-                                                        <td><center>X{unitEvo.evo45.mat2amt}</center></td>
-                                                        <td><center>X{unitEvo.evo45.mat3amt}</center></td>
-                                                        <td><center>X{unitEvo.evo45.mat4amt}</center></td>
-                                                    </tr>
-                                                </table>
-                                            </h3>
-                                            </CardBody>
-                                        </Card>
-                                        
-                                    </td>
-                                    <td colspan="2"><center><Media src={unitImage.thumb5} style={thumbnailSize} /></center></td>
-                                </tr>
-                            </table>
+                            <Card style={evoCard}>
+                                <CardHeader>
+                                    <h2>Evolution Materials</h2>
+                                </CardHeader>
+                                <CardBody>
+                                <h3>
+                                    <Table>
+                                        <tr>
+                                            <th><center><Media src={unitEvo.evo45.mat1} style={thumbnailSize}/></center></th>
+                                            <th><center><Media src={unitEvo.evo45.mat2} style={thumbnailSize}/></center></th>
+                                            <th><center><Media src={unitEvo.evo45.mat3} style={thumbnailSize}/></center></th>
+                                            <th><center><Media src={unitEvo.evo45.mat4} style={thumbnailSize}/></center></th>
+                                        </tr>
+                                        <tr>
+                                            <td><center>X{unitEvo.evo45.mat1amt}</center></td>
+                                            <td><center>X{unitEvo.evo45.mat2amt}</center></td>
+                                            <td><center>X{unitEvo.evo45.mat3amt}</center></td>
+                                            <td><center>X{unitEvo.evo45.mat4amt}</center></td>
+                                        </tr>
+                                    </Table>
+                                </h3>
+                                </CardBody>
+                            </Card>
                         </center>
-                        
                     </CardTitle>
                     <CardBody>
                         <CardText>
@@ -563,40 +449,28 @@ export function RenderFourStar({lore, unitImage, unitEvo}) {
                 <Card style={unitCard}>
                     <CardTitle>
                         <center>
-                            <table>
-                                <tr>
-                                    <th colspan="2"><center>Current</center></th>
-                                    <th colspan="5"><center>Evolution Materials</center></th>
-                                    <th colspan="2"><center>Next Evolution</center></th>
-                                </tr>
-                                <tr>
-                                    <td colspan="2"><center><Media src={unitImage.thumb4} style={thumbnailSize}/></center></td>
-                                    <td colspan="5">
-                                        <Card style={evoCard}>
-                                            <CardBody>
-                                            <h3>
-                                                <table>
-                                                    <tr>
-                                                        <th><Media src={unitEvo.evo45.mat1} style={thumbnailSize}/></th>
-                                                        <th><Media src={unitEvo.evo45.mat2} style={thumbnailSize}/></th>
-                                                        <th><Media src={unitEvo.evo45.mat3} style={thumbnailSize}/></th>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><center>X{unitEvo.evo45.mat1amt}</center></td>
-                                                        <td><center>X{unitEvo.evo45.mat2amt}</center></td>
-                                                        <td><center>X{unitEvo.evo45.mat3amt}</center></td>
-                                                    </tr>
-                                                </table>
-                                            </h3>
-                                            </CardBody>
-                                        </Card>
-                                        
-                                    </td>
-                                    <td colspan="2"><center><Media src={unitImage.thumb5} style={thumbnailSize} /></center></td>
-                                </tr>
-                            </table>
+                            <Card style={evoCard}>
+                                <CardHeader>
+                                    <h2>Evolution Materials</h2>
+                                </CardHeader>
+                                <CardBody>
+                                <h3>
+                                    <Table>
+                                        <tr>
+                                            <th><center><Media src={unitEvo.evo45.mat1} style={thumbnailSize}/></center></th>
+                                            <th><center><Media src={unitEvo.evo45.mat2} style={thumbnailSize}/></center></th>
+                                            <th><center><Media src={unitEvo.evo45.mat3} style={thumbnailSize}/></center></th>
+                                        </tr>
+                                        <tr>
+                                            <td><center>X{unitEvo.evo45.mat1amt}</center></td>
+                                            <td><center>X{unitEvo.evo45.mat2amt}</center></td>
+                                            <td><center>X{unitEvo.evo45.mat3amt}</center></td>
+                                        </tr>
+                                    </Table>
+                                </h3>
+                                </CardBody>
+                            </Card>
                         </center>
-                        
                     </CardTitle>
                     <CardBody>
                         <CardText>
@@ -614,38 +488,26 @@ export function RenderFourStar({lore, unitImage, unitEvo}) {
             <Card style={unitCard}>
                 <CardTitle>
                     <center>
-                        <table>
-                            <tr>
-                                <th colspan="2"><center>Current</center></th>
-                                <th colspan="5"><center>Evolution Materials</center></th>
-                                <th colspan="2"><center>Next Evolution</center></th>
-                            </tr>
-                            <tr>
-                                <td colspan="2"><center><Media src={unitImage.thumb4} style={thumbnailSize}/></center></td>
-                                <td colspan="5">
-                                    <Card style={evoCard}>
-                                        <CardBody>
-                                        <h3>
-                                            <table>
-                                                <tr>
-                                                    <th><Media src={unitEvo.evo45.mat1} style={thumbnailSize}/></th>
-                                                    <th><Media src={unitEvo.evo45.mat2} style={thumbnailSize}/></th>
-                                                </tr>
-                                                <tr>
-                                                    <td><center>X{unitEvo.evo45.mat1amt}</center></td>
-                                                    <td><center>X{unitEvo.evo45.mat2amt}</center></td>
-                                                </tr>
-                                            </table>
-                                        </h3>
-                                        </CardBody>
-                                    </Card>
-                                    
-                                </td>
-                                <td colspan="2"><center><Media src={unitImage.thumb5} style={thumbnailSize} /></center></td>
-                            </tr>
-                        </table>
+                        <Card style={evoCard}>
+                            <CardHeader>
+                                <h2>Evolution Materials</h2>
+                            </CardHeader>
+                            <CardBody>
+                            <h3>
+                                <Table>
+                                    <tr>
+                                        <th><center><Media src={unitEvo.evo45.mat1} style={thumbnailSize}/></center></th>
+                                        <th><center><Media src={unitEvo.evo45.mat2} style={thumbnailSize}/></center></th>
+                                    </tr>
+                                    <tr>
+                                        <td><center>X{unitEvo.evo45.mat1amt}</center></td>
+                                        <td><center>X{unitEvo.evo45.mat2amt}</center></td>
+                                    </tr>
+                                </Table>
+                            </h3>
+                            </CardBody>
+                        </Card>
                     </center>
-                    
                 </CardTitle>
                 <CardBody>
                     <CardText>
@@ -702,56 +564,44 @@ export function RenderFiveStar({lore, unitImage, unitEvo}) {
                 <Card style={unitCard}>
                     <CardTitle>
                         <center>
-                            <table>
-                                <tr>
-                                    <th colspan="2"><center>Current</center></th>
-                                    <th colspan="5"><center>Evolution Materials</center></th>
-                                    <th colspan="2"><center>Next Evolution</center></th>
-                                </tr>
-                                <tr>
-                                    <td colspan="2"><center><Media src={unitImage.thumb5} style={thumbnailSize}/></center></td>
-                                    <td colspan="5">
-                                        <Card style={evoCard}>
-                                            <CardBody>
-                                            <h3>
-                                                <table>
-                                                    <tr>
-                                                        <th><Media src={unitEvo.evo5awk.mat1} style={thumbnailSize}/></th>
-                                                        <th><Media src={unitEvo.evo5awk.mat2} style={thumbnailSize}/></th>
-                                                        <th><Media src={unitEvo.evo5awk.mat3} style={thumbnailSize} id="hover3"/></th>
-                                                        <th><Media src={unitEvo.evo5awk.mat4} style={thumbnailSize} id="hover4"/></th>
-                                                        <th><Media src={unitEvo.evo5awk.mat5} style={thumbnailSize} id="hover5"/></th>
-                                                        <Tooltip isOpen={tooltip3} 
-                                                            target="hover3"
-                                                            placement="top"
-                                                            toggle={() => setTooltip3(!tooltip3)} >{unitEvo.evo5awk.hover3}</Tooltip>
-                                                        <Tooltip isOpen={tooltip4} 
-                                                            target="hover4"
-                                                            placement="top"
-                                                            toggle={() => setTooltip4(!tooltip4)} >{unitEvo.evo5awk.hover4}</Tooltip>
-                                                        <Tooltip isOpen={tooltip5} 
-                                                            target="hover5"
-                                                            placement="top"
-                                                            toggle={() => setTooltip5(!tooltip5)} >{unitEvo.evo5awk.hover5}</Tooltip>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><center>X{unitEvo.evo5awk.mat1amt}</center></td>
-                                                        <td><center>X{unitEvo.evo5awk.mat2amt}</center></td>
-                                                        <td><center>X{unitEvo.evo5awk.mat3amt}</center></td>
-                                                        <td><center>X{unitEvo.evo5awk.mat4amt}</center></td>
-                                                        <td><center>X{unitEvo.evo5awk.mat5amt}</center></td>
-                                                    </tr>
-                                                </table>
-                                            </h3>
-                                            </CardBody>
-                                        </Card>
-                                        
-                                    </td>
-                                    <td colspan="2"><center><Media src={unitImage.thumbawk} style={thumbnailSize} /></center></td>
-                                </tr>
-                            </table>
+                            <Card style={evoCard}>
+                                <CardHeader>
+                                    <h2>Evolution Materials</h2>
+                                </CardHeader>
+                                <CardBody>
+                                <h3>
+                                    <Table>
+                                        <tr>
+                                            <th><center><Media src={unitEvo.evo5awk.mat1} style={thumbnailSize}/></center></th>
+                                            <th><center><Media src={unitEvo.evo5awk.mat2} style={thumbnailSize}/></center></th>
+                                            <th><center><Media src={unitEvo.evo5awk.mat3} style={thumbnailSize} id="hover3"/></center></th>
+                                            <th><center><Media src={unitEvo.evo5awk.mat4} style={thumbnailSize} id="hover4"/></center></th>
+                                            <th><center><Media src={unitEvo.evo5awk.mat5} style={thumbnailSize} id="hover5"/></center></th>
+                                            <Tooltip isOpen={tooltip3} 
+                                                target="hover3"
+                                                placement="top"
+                                                toggle={() => setTooltip3(!tooltip3)} >{unitEvo.evo5awk.hover3}</Tooltip>
+                                            <Tooltip isOpen={tooltip4} 
+                                                target="hover4"
+                                                placement="top"
+                                                toggle={() => setTooltip4(!tooltip4)} >{unitEvo.evo5awk.hover4}</Tooltip>
+                                            <Tooltip isOpen={tooltip5} 
+                                                target="hover5"
+                                                placement="top"
+                                                toggle={() => setTooltip5(!tooltip5)} >{unitEvo.evo5awk.hover5}</Tooltip>
+                                        </tr>
+                                        <tr>
+                                            <td><center>X{unitEvo.evo5awk.mat1amt}</center></td>
+                                            <td><center>X{unitEvo.evo5awk.mat2amt}</center></td>
+                                            <td><center>X{unitEvo.evo5awk.mat3amt}</center></td>
+                                            <td><center>X{unitEvo.evo5awk.mat4amt}</center></td>
+                                            <td><center>X{unitEvo.evo5awk.mat5amt}</center></td>
+                                        </tr>
+                                    </Table>
+                                </h3>
+                                </CardBody>
+                            </Card>
                         </center>
-                        
                     </CardTitle>
                     <CardBody>
                         <CardText>
@@ -770,50 +620,38 @@ export function RenderFiveStar({lore, unitImage, unitEvo}) {
                 <Card style={unitCard}>
                     <CardTitle>
                         <center>
-                            <table>
-                                <tr>
-                                    <th colspan="2"><center>Current</center></th>
-                                    <th colspan="5"><center>Evolution Materials</center></th>
-                                    <th colspan="2"><center>Next Evolution</center></th>
-                                </tr>
-                                <tr>
-                                    <td colspan="2"><center><Media src={unitImage.thumb5} style={thumbnailSize}/></center></td>
-                                    <td colspan="5">
-                                        <Card style={evoCard}>
-                                            <CardBody>
-                                            <h3>
-                                                <table>
-                                                    <tr>
-                                                        <th><Media src={unitEvo.evo5awk.mat1} style={thumbnailSize}/></th>
-                                                        <th><Media src={unitEvo.evo5awk.mat2} style={thumbnailSize}/></th>
-                                                        <th><Media src={unitEvo.evo5awk.mat3} style={thumbnailSize} id="hover3"/></th>
-                                                        <th><Media src={unitEvo.evo5awk.mat4} style={thumbnailSize} id="hover4"/></th>
-                                                        <Tooltip isOpen={tooltip3} 
-                                                            target="hover3"
-                                                            placement="top"
-                                                            toggle={() => setTooltip3(!tooltip3)} >{unitEvo.evo5awk.hover3}</Tooltip>
-                                                        <Tooltip isOpen={tooltip4} 
-                                                            target="hover4"
-                                                            placement="top"
-                                                            toggle={() => setTooltip4(!tooltip4)} >{unitEvo.evo5awk.hover4}</Tooltip>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><center>X{unitEvo.evo5awk.mat1amt}</center></td>
-                                                        <td><center>X{unitEvo.evo5awk.mat2amt}</center></td>
-                                                        <td><center>X{unitEvo.evo5awk.mat3amt}</center></td>
-                                                        <td><center>X{unitEvo.evo5awk.mat4amt}</center></td>
-                                                    </tr>
-                                                </table>
-                                            </h3>
-                                            </CardBody>
-                                        </Card>
-                                        
-                                    </td>
-                                    <td colspan="2"><center><Media src={unitImage.thumbawk} style={thumbnailSize} /></center></td>
-                                </tr>
-                            </table>
+                            <Card style={evoCard}>
+                            <CardHeader>
+                                <h2>Evolution Materials</h2>
+                            </CardHeader>
+                                <CardBody>
+                                <h3>
+                                    <Table>
+                                        <tr>
+                                            <th><center><Media src={unitEvo.evo5awk.mat1} style={thumbnailSize}/></center></th>
+                                            <th><center><Media src={unitEvo.evo5awk.mat2} style={thumbnailSize}/></center></th>
+                                            <th><center><Media src={unitEvo.evo5awk.mat3} style={thumbnailSize} id="hover3"/></center></th>
+                                            <th><center><Media src={unitEvo.evo5awk.mat4} style={thumbnailSize} id="hover4"/></center></th>
+                                            <Tooltip isOpen={tooltip3} 
+                                                target="hover3"
+                                                placement="top"
+                                                toggle={() => setTooltip3(!tooltip3)} >{unitEvo.evo5awk.hover3}</Tooltip>
+                                            <Tooltip isOpen={tooltip4} 
+                                                target="hover4"
+                                                placement="top"
+                                                toggle={() => setTooltip4(!tooltip4)} >{unitEvo.evo5awk.hover4}</Tooltip>
+                                        </tr>
+                                        <tr>
+                                            <td><center>X{unitEvo.evo5awk.mat1amt}</center></td>
+                                            <td><center>X{unitEvo.evo5awk.mat2amt}</center></td>
+                                            <td><center>X{unitEvo.evo5awk.mat3amt}</center></td>
+                                            <td><center>X{unitEvo.evo5awk.mat4amt}</center></td>
+                                        </tr>
+                                    </Table>
+                                </h3>
+                                </CardBody>
+                            </Card>
                         </center>
-                        
                     </CardTitle>
                     <CardBody>
                         <CardText>
@@ -831,44 +669,32 @@ export function RenderFiveStar({lore, unitImage, unitEvo}) {
             <Card style={unitCard}>
                 <CardTitle>
                     <center>
-                        <table>
-                            <tr>
-                                <th colspan="2"><center>Current</center></th>
-                                <th colspan="5"><center>Evolution Materials</center></th>
-                                <th colspan="2"><center>Next Evolution</center></th>
-                            </tr>
-                            <tr>
-                                <td colspan="2"><center><Media src={unitImage.thumb5} style={thumbnailSize}/></center></td>
-                                <td colspan="5">
-                                    <Card style={evoCard}>
-                                        <CardBody>
-                                        <h3>
-                                            <table>
-                                                <tr>
-                                                    <th><Media src={unitEvo.evo5awk.mat1} style={thumbnailSize}/></th>
-                                                    <th><Media src={unitEvo.evo5awk.mat2} style={thumbnailSize}/></th>
-                                                    <th><Media src={unitEvo.evo5awk.mat3} style={thumbnailSize} id="hover3"/></th>
-                                                    <Tooltip isOpen={tooltip3} 
-                                                            target="hover3"
-                                                            placement="top"
-                                                            toggle={() => setTooltip3(!tooltip3)} >{unitEvo.evo5awk.hover3}</Tooltip>
-                                                </tr>
-                                                <tr>
-                                                    <td><center>X{unitEvo.evo5awk.mat1amt}</center></td>
-                                                    <td><center>X{unitEvo.evo5awk.mat2amt}</center></td>
-                                                    <td><center>X{unitEvo.evo5awk.mat3amt}</center></td>
-                                                </tr>
-                                            </table>
-                                        </h3>
-                                        </CardBody>
-                                    </Card>
-                                    
-                                </td>
-                                <td colspan="2"><center><Media src={unitImage.thumbawk} style={thumbnailSize} /></center></td>
-                            </tr>
-                        </table>
+                        <Card style={evoCard}>
+                        <CardHeader>
+                            <h2>Evolution Materials</h2>
+                        </CardHeader>
+                            <CardBody>
+                            <h3>
+                                <Table>
+                                    <tr>
+                                        <th><center><Media src={unitEvo.evo5awk.mat1} style={thumbnailSize}/></center></th>
+                                        <th><center><Media src={unitEvo.evo5awk.mat2} style={thumbnailSize}/></center></th>
+                                        <th><center><Media src={unitEvo.evo5awk.mat3} style={thumbnailSize} id="hover3"/></center></th>
+                                        <Tooltip isOpen={tooltip3} 
+                                                target="hover3"
+                                                placement="top"
+                                                toggle={() => setTooltip3(!tooltip3)} >{unitEvo.evo5awk.hover3}</Tooltip>
+                                    </tr>
+                                    <tr>
+                                        <td><center>X{unitEvo.evo5awk.mat1amt}</center></td>
+                                        <td><center>X{unitEvo.evo5awk.mat2amt}</center></td>
+                                        <td><center>X{unitEvo.evo5awk.mat3amt}</center></td>
+                                    </tr>
+                                </Table>
+                            </h3>
+                            </CardBody>
+                        </Card>
                     </center>
-                    
                 </CardTitle>
                 <CardBody>
                     <CardText>
@@ -895,50 +721,39 @@ export function RenderAwaken({lore, unitImage, unitEvo}) {
                 <Card style={unitCard}>
                     <CardTitle>
                         <center>
-                            <table>
-                                <tr>
-                                    <th colspan="2"><center>Current</center></th>
-                                    <th colspan="5"><center>Evolution Materials</center></th>
-                                    <th colspan="2"><center>Next Evolution</center></th>
-                                </tr>
-                                <tr>
-                                    <td colspan="2"><center><Media src={unitImage.thumbawk} style={thumbnailSize}/></center></td>
-                                    <td colspan="5">
-                                        <Card style={evoCard}>
-                                            <CardBody>
-                                            <h3>
-                                                <table>
-                                                    <tr>
-                                                        <th><Media src={unitEvo.evoawksuper.mat1} style={thumbnailSize} id="hover1"/></th>
-                                                        <th><Media src={unitEvo.evoawksuper.mat2} style={thumbnailSize} id="hover2"/></th>
-                                                        <th><Media src={unitEvo.evoawksuper.mat3} style={thumbnailSize} id="hover3"/></th>
-                                                        <Tooltip isOpen={tooltip1} 
-                                                                target="hover1"
-                                                                placement="top"
-                                                                toggle={() => setTooltip1(!tooltip1)} >{unitEvo.evoawksuper.hover1}</Tooltip>
-                                                        <Tooltip isOpen={tooltip2} 
-                                                                target="hover2"
-                                                                placement="top"
-                                                                toggle={() => setTooltip2(!tooltip2)} >{unitEvo.evoawksuper.hover2}</Tooltip>
-                                                        <Tooltip isOpen={tooltip3} 
-                                                                target="hover3"
-                                                                placement="top"
-                                                                toggle={() => setTooltip3(!tooltip3)} >{unitEvo.evoawksuper.hover3}</Tooltip>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><center>X{unitEvo.evoawksuper.mat1amt}</center></td>
-                                                        <td><center>X{unitEvo.evoawksuper.mat2amt}</center></td>
-                                                        <td><center>X{unitEvo.evoawksuper.mat3amt}</center></td>
-                                                    </tr>
-                                                </table>
-                                            </h3>
-                                            </CardBody>
-                                        </Card>
-                                        
-                                    </td>
-                                    <td colspan="2"><center><Media src={unitImage.thumbawk} style={thumbnailSize} /></center></td>
-                                </tr>
-                            </table>
+                            <Card style={evoCard}>
+                                <CardHeader>
+                                    <h2>Evolution Materials</h2>
+                                </CardHeader>
+                                <CardBody>
+                                <h3>
+                                    <Table>
+                                        <tr>
+                                            <th><center><Media src={unitEvo.evoawksuper.mat1} style={thumbnailSize} id="hover1"/></center></th>
+                                            <th><center><Media src={unitEvo.evoawksuper.mat2} style={thumbnailSize} id="hover2"/></center></th>
+                                            <th><center><Media src={unitEvo.evoawksuper.mat3} style={thumbnailSize} id="hover3"/></center></th>
+                                            <Tooltip isOpen={tooltip1} 
+                                                    target="hover1"
+                                                    placement="top"
+                                                    toggle={() => setTooltip1(!tooltip1)} >{unitEvo.evoawksuper.hover1}</Tooltip>
+                                            <Tooltip isOpen={tooltip2} 
+                                                    target="hover2"
+                                                    placement="top"
+                                                    toggle={() => setTooltip2(!tooltip2)} >{unitEvo.evoawksuper.hover2}</Tooltip>
+                                            <Tooltip isOpen={tooltip3} 
+                                                    target="hover3"
+                                                    placement="top"
+                                                    toggle={() => setTooltip3(!tooltip3)} >{unitEvo.evoawksuper.hover3}</Tooltip>
+                                        </tr>
+                                        <tr>
+                                            <td><center>X{unitEvo.evoawksuper.mat1amt}</center></td>
+                                            <td><center>X{unitEvo.evoawksuper.mat2amt}</center></td>
+                                            <td><center>X{unitEvo.evoawksuper.mat3amt}</center></td>
+                                        </tr>
+                                    </Table>
+                                </h3>
+                                </CardBody>
+                            </Card>
                         </center>
                         
                     </CardTitle>
