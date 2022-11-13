@@ -19972,6 +19972,84 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
     },
+    { // Sword Demon Berwick - Missing Lore
+        id: 103636112,
+        name: "Sword Demon Berwick",
+        attribute: "Fire",
+        type: "Demon",
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_103637112.png",
+                detailsuper: "/db/Units/Detail/unit_detail_103636112.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103637112.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103636112.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/magLB.png",
+                slot32type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: 7174,
+                hpplus: 1354,
+                atk: 4086,
+                atkplus: 703,
+                def: 2962,
+                defplus: 614
+            },
+        skillset: 
+            {
+                skill: `12s CT - 2700% Fire DMG (PHY). For 8s, reduce Enemies' Fire RES by 50%.`,
+                skillbreak: 700,
+                arts: `17000% Fire DMG (PHY). Increase Fire Allies' Arts by 20. For 12s, increase Allies' stats by 30%. When this Arts is used during Magia Drive, activate Magia Drive: Unlimited for the remaining duration of Magia Drive.`,
+                artsbreak: 1200,
+                truearts: `For 180s, enter Magia Drive. When used during Magia Drive/Magia Drive: Unlimited: 70000% Fire DMG (PHY). For 30s, increase Allies' PHY DMG by 200%.`,
+                trueartsbreak: 1900,
+                superarts: `180000% Fire DMG (PHY). During own Super Arts, ignore 100% of Enemies' DEF. For 40s, increase own DMG by 50%.`,
+                superartsbreak: 2200
+            },
+        passive: 
+            {
+                ability1: `Increase DMG against Earth Enemies by 25%.`,
+                ability2: `When in Magia Drive, increase own ATK by 100%.`,
+                ability3: `When in Magia Drive: Unlimited, increase own Arts DMG by 50%.`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_130853.png",
+                    mat2amt: 220,
+                    hover2: "Flame Fox Reiju "
+                }
+            },
+        trueweapon: //If no TW, may delete this section
+            {
+                name: `Flame Crest Zanketsu`,
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_110761.png",
+                skill: `60s CT - 10000% Fire DMG (PHY). For 12s, reduce Enemies' PHY RES by 20%. If user is Fire, reduce Enemies' PHY RES by an additional 15%.`,
+                skillbreak: 700,
+                passive: 
+                    {
+                        ability1: `When equipped by Sword Demon Berwick, increase Arts by 5/s and Max HP by 1000. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase ATK by 5%.`
+                    }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
     { //Zinogre Armor Rayas - Missing Lore
         id: 107006412,
         name: "Zinogre Armor Rayas",
