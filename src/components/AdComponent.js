@@ -9,7 +9,7 @@ class Adsense extends Component {
     render() {
         return (
                 <ins className='adsbygoogle'
-                    style={{ display: 'inline-block', paddingTop: "1rem", maxHeight: "250px", width: "100%" }}
+                    style={{ display: 'inline-block', paddingTop: "2rem", maxHeight: "200px", width: "100%" }}
                     data-ad-client= 'ca-pub-7386611028385098'
                     data-ad-slot='9172261328'
                     data-ad-format= 'auto'
