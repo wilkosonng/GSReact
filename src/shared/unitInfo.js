@@ -19830,10 +19830,10 @@ const UnitInformation = [
         type: "Human",
         image: 
             {
-                detailawk: "/db/Units/Detail/unit_detail_103616312.png",
-                detailsuper: "/db/Units/Detail/unit_detail_103526112.png",
-                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103616312.png",
-                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103526112.png"
+                detailawk: "/db/Units/Detail/unit_detail_103526112.png",
+                detailsuper: "/db/Units/Detail/unit_detail_103527112.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103526112.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103527112.png"
             },
         slots: 
             {
@@ -20047,6 +20047,84 @@ const UnitInformation = [
                     {
                         ability1: `When equipped by Sword Demon Berwick, increase Arts by 5/s and Max HP by 1000. Does not stack with Abilities of the same name.`,
                         ability2: `Increase ATK by 5%.`
+                    }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { // Hazuki - Missing Lore
+        id: 103547412,
+        name: "Hazuki",
+        attribute: "Light",
+        type: "Human",
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_103546412.png",
+                detailsuper: "/db/Units/Detail/unit_detail_103547412.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103546412.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103547412.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/suppLB.png",
+                slot32type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: 8050,
+                hpplus: 1450,
+                atk: 3058,
+                atkplus: 606,
+                def: 3128,
+                defplus: 594
+            },
+        skillset: 
+            {
+                skill: `12s CT - 2000% Light DMG (PHY). For 10s, reduce Enemies' DMG RES by 20%.`,
+                skillbreak: 500,
+                arts: `20000% Light DMG (PHY). Permanently increase Allies' PHY DMG by 30% (up to 150%).`,
+                artsbreak: 1500,
+                truearts: `For 120s, enter Third Eye. During Third Eye: 55000% Light DMG (PHY). For 30s, increase Allies' Arts DMG by 130% and DMG RES by 30%.`,
+                trueartsbreak: 1800,
+                superarts: `120000% Light DMG (PHY). For 15s, Increase Allies' Accuracy by 50% and reduce Enemies' Light RES by 100%.`,
+                superartsbreak: 2500
+            },
+        passive: 
+            {
+                ability1: `When in Third Eye or True Third Eye, increase own DMG by 100% and increase own Arts by 5/s.`,
+                ability2: `When entering Third Eye, if all Allies' HP is 90% or higher, activate True Third Eye instead. During True Third Eye, increase own ATK and Accuracy by 100%.`,
+                ability3: `Increase Paralysis RES by 100%.`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_130853.png",
+                    mat2amt: 220,
+                    hover2: "God's Spirit Orb"
+                }
+            },
+        trueweapon: //If no TW, may delete this section
+            {
+                name: `Lightning Strike`,
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_110801.png",
+                skill: `50s CT - 10000% Light DMG (PHY). For 10s, increase own DMG by 50% and increase Light Allies' DMG by 30%.`,
+                skillbreak: 800,
+                passive: 
+                    {
+                        ability1: `When equipped by Hazuki, increase stats by 20% and increase own Arts by 100 when entering Third Eye or True Third Eye.`,
+                        ability2: `Increase Skill CT REC by 5%.`
                     }
             },
         lore: 
