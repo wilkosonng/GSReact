@@ -18428,6 +18428,8 @@ const UnitInformation = [
     { //Priscilla (Water) - Missing Lore
         id: 103416212,
         name: "Priscilla (Water)",
+        rank: "A+",
+        twrequire: "favorable",
         attribute: "Water",
         type: "Human",
         image: 
@@ -18510,10 +18512,11 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
     },
-    { //Emperor of Isliid - Missing Lore
+    { //Emperor Isliid - Missing Lore
         id: 103426412,
-        name: "Emperor of Isliid",
+        name: "Emperor Isliid",
         attribute: "Light",
+        rank: "SSS",
         type: "Human",
         image: 
             {
@@ -19442,6 +19445,7 @@ const UnitInformation = [
     { // Summer Cestina - Missing Lore
         id: 103596112,
         name: "Summer Cestina",
+        rank: "A+",
         attribute: "Fire",
         type: "God",
         image: 
@@ -19510,6 +19514,7 @@ const UnitInformation = [
     { // Summer Liza - Missing Lore
         id: 103606212,
         name: "Summer Liza",
+        rank: "A+",
         attribute: "Water",
         type: "God",
         image: 
@@ -24303,7 +24308,7 @@ const UnitInformation = [
     { // Mitsuya - Complete
         id: 107656212,
         name: "Mitsuya",
-        rank: "S",
+        rank: "A+",
         attribute: "Water",
         type: "Human",
         image: 
