@@ -14917,7 +14917,7 @@ const UnitInformation = [
         id: 102976112,
         name: "Roy (Fire)",
         rank: "A-",
-        attribute: "Fre",
+        attribute: "Fire",
         type: "Human",
         image: 
             {
