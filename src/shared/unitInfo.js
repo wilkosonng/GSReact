@@ -20406,7 +20406,6 @@ const UnitInformation = [
     { //Kirin Armor Liese - Missing Lore
         id: 107046412,
         name: "Kirin Armor Liese",
-        rank: "TBD",
         attribute: "Light",
         type: "Human",
         image: 
