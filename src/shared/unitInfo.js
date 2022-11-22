@@ -18257,7 +18257,7 @@ const UnitInformation = [
                 evoawk: "Before she realized what was happening, the Mokyuon had jumped out and shoved her from the pier. She struggled desperately to keep from drowning. Returning to shore after several minutes, the monsters nodded with approval. It appeared their antics had forced her to learn proper breathing. Perhaps they saw the timid girl and knew the sink-or-swim approach was the only way she would succeed."
             }
     },
-    { //Elizabeth - Missing Lore (Global)
+    { //Elizabeth - Complete
         id: 103396112,
         name: "Elizabeth",
         rank: "B",
@@ -18337,8 +18337,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "A girl born on an island country in the northeast of Raktehelm. Forbidden experiments gave her the power over enchanted light at the cost of her memories. Over half of her body was turned into magical machinery in the process, so she is heaver than she looks. For a century after the dawn of La Riiz, she was hailed as the founder of the Riizism.",
+                evoawk: "A cunning priest set her up as the founder of a religion until she escaped. She then travelled around the world to rescue her lost relatives, eventually joining the lithomancer Yulong's crew. Long isolation gave her a stunted vocabulary, and she often punctuates her sentences with \"rawr\"."
             }
     },
     { //Vultee (Water) - Complete
@@ -24318,7 +24318,7 @@ const UnitInformation = [
                 evoawk: "He was supposed to be killed by Kiyomasa during the battle of 8/3, but Takemichi saved him in the nick of time. For that and his invaluable ability to give Mikey emotional support, he places great trust in the seemingly weak boy."
             }
     },
-    { // Chifuyu - Missing Lore (Global)
+    { // Chifuyu - Complete
         id: 107646312,
         name: "Chifuyu",
         rank: "B",
@@ -24379,8 +24379,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "The First Division Vice Captain of the Tokyo Manji Gang. Although he was beaten up by Keisuke Baji during his initiation ceremony to join a rival gang, he believed in the former captain until his death. That show of unshakable trust inspired Takemichi.",
+                evoawk: "After Bloody Halloween, Takemichi was appointed First Division Captain to replace the dead Keisuke, so he agreed to support him as partner. The decision to watch out for Takemichi only intensified when he became one of the few people to know about his time travel ability."
             }
     },
     { // Mitsuya - Complete
