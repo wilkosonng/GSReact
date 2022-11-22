@@ -14431,7 +14431,7 @@ const UnitInformation = [
                 evoawk: "Orgah never forgot what happened in the abandoned mines that day. He took his master's words to heart and trained until he became a full-fledged warrior. The owner of a weapon shop urged him to join the knights, but he had sworn to defend his hometown. Amidst the tumult of the Ancient War, the sight of him bravely standing alongside the other soldiers was most heartening."
             }
     },
-    { //Adele - Missing Lore (Global)
+    { //Adele - Complete
         id: 102916212,
         name: "Adele",
         rank: "B",
@@ -14494,7 +14494,7 @@ const UnitInformation = [
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: "Miserable",
+                name: "Empath",
                 slot: "/db/Mines/thumbnail/healLB.png",
                 detail: "/db/Equipment/Detail/item_detail_106851.png",
                 skill: "50s CT - Heal all Allies' HP by 2000 + For 10s, increase own Skill CT REC by 50%.",
@@ -14507,8 +14507,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "A cheerful, earnest young girl who lived in a castle town with her twin brother, Orgah. Both wished to protect their home full of kind people, so they asked the wandering swordsman Raki to teach them how to fight. However, he sensed great magic potential within her and suggested she foster that instead. Yet his true preference was that of the townsfolks's watching the orphaned siblings play without a care in the world.",
+                evoawk: "Little time passed before Raki's tutelage brought her latent mastery bursting forth. As she felt herself growing stronger by the day, she also felt herself wishing to protect not only her home but her brother as well. However, the path he chose made fulfilling that wish much more difficult."
             }
     },
     { //Vermilia - Complete
@@ -18512,7 +18512,7 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
     },
-    { //Emperor Isliid - Missing Lore
+    { //Emperor Isliid - Complete
         id: 103426412,
         name: "Emperor Isliid",
         attribute: "Light",
@@ -18554,9 +18554,9 @@ const UnitInformation = [
             },
         passive: 
             {
-                ability1: "When in Skylight Sword Mode,  activations of own True Arts increase Allies' accuracy by 30% for 15s, and DMG of own True Arts against Gods is increased by 150%. If Emperor of Isliid is in the 1st position, he will only use this mode.",
-                ability2: "When in Granveus Sword Mode, activations of own True Arts increase Allies' DMG RES by 20% for 15s, and DMG of own True Arts against Humans is increased by 150%. If the Emperor of Isliid is in the 2nd position, he will only use this mode.",
-                ability3: "When in Darkbringer Sword Mode, activations of own True Arts increase Allies' ATK by 50% for 15s, and DMG of own True Arts against Demons is increased by 150%. If the Emperor of Isliid is in the 3rd position, he will only use this mode."
+                ability1: "When in Sky Light Sword Mode,  activations of own True Arts increase Allies' accuracy by 30% for 15s, and DMG of own True Arts against Gods is increased by 150%. If Emperor of Isliid is in the 1st position, he will only use this mode.",
+                ability2: "When in Terra Master Sword Mode, activations of own True Arts increase Allies' DMG RES by 20% for 15s, and DMG of own True Arts against Humans is increased by 150%. If the Emperor of Isliid is in the 2nd position, he will only use this mode.",
+                ability3: "When in Dark Bringer Sword Mode, activations of own True Arts increase Allies' ATK by 50% for 15s, and DMG of own True Arts against Demons is increased by 150%. If the Emperor of Isliid is in the 3rd position, he will only use this mode."
             }, 
         evolution: 
             {
@@ -18581,7 +18581,7 @@ const UnitInformation = [
             {
                 true1: 
                 {
-                    name: "Skylight",
+                    name: "Sky Light",
                     slot: "/db/Mines/thumbnail/magLB.png",
                     thumb: "/db/Equipment/Thumbnail/item_thumbnail_109771.png",
                     detail: "/db/Equipment/Detail/item_detail_109771.png",
@@ -18595,7 +18595,7 @@ const UnitInformation = [
                 },
                 true2: 
                 {
-                    name: "Granveus",
+                    name: "Terra Master",
                     slot: "/db/Mines/thumbnail/suppLB.png",
                     thumb: "/db/Equipment/Thumbnail/item_thumbnail_109781.png",
                     detail: "/db/Equipment/Detail/item_detail_109781.png",
@@ -18609,7 +18609,7 @@ const UnitInformation = [
                 },
                 true3: 
                 {
-                    name: "Darkbringer",
+                    name: "Dark Bringer",
                     slot: "/db/Mines/thumbnail/physLB.png",
                     thumb: "/db/Equipment/Thumbnail/item_thumbnail_109791.png",
                     detail: "/db/Equipment/Detail/item_detail_109791.png",
@@ -18624,8 +18624,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "The young ruler of the Isliid Empire, enthroned in secret with the passing of his predecessor. Though he was a figure of exceptional valor, imperial men have historically short lifespans. As a result, no one doubts the legitimacy of his ascension, but very few are privy to the finer details, and much about him is still shrouded in mystery.",
+                evoawk: "Like all who ruled Isliid, he is a direct descendant of the original Human born from Yggdrasil. They are considered the ultimate prototypes, blessed with the ability to realize mankind's limitless possibilities. Across each generation, the emperors worked to free the sealed Races, and some even exercised authority over all Raktehelm. However, he is different, for he looks past such purposes."
             }
     },
     { //Beguiler Selia - Complete
@@ -19442,7 +19442,7 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
     },
-    { // Summer Cestina - Missing Lore
+    { // Summer Cestina - Complete
         id: 103596112,
         name: "Summer Cestina",
         rank: "A+",
@@ -19506,12 +19506,12 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "Cestina was looking forward to the summer vacation. What made her happiest was how all of her siblings were going -- the first time in years. Her younger brother Luahn, long unable to join due to his busy schedule, would finally see their island. She wanted to show him the pristine beach and introduce him to her favorite ice cream as soon as possible. Her excitement made each minute feel like an eternity as the billowing sails carried their boat southwards.",
+                evoawk: "The second princess of Gran Verge keenly anticipated her vacation on the tropical Twilight Isle. It would be rare chance the royal family could forget their worries and enjoy some quality time together. As the ship neared those sunny shores, visions of past events reemerged in her dreams. She would never tell a soul, but the memories of her late father amidst the tumult and the strife of their voyage were those she treasured most."
             }
             
     },
-    { // Summer Liza - Missing Lore
+    { // Summer Liza - Missing Lore (Global)
         id: 103606212,
         name: "Summer Liza",
         rank: "A+",
