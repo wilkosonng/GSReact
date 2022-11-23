@@ -17246,7 +17246,7 @@ const UnitInformation = [
                 evoawk: "A young woman who claims the world belongs to her. She is able to use the powers of those she absorbs, and they also influence her transformed state. She holds Rayas in great contempt but does not understand why."
             }
     },
-    { //Groitz - Missing Lore (Global)
+    { //Groitz - Complete
         id: 103256312,
         name: "Groitz",
         attribute: "Earth",
@@ -17356,8 +17356,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Lore coming soon.",
-                evoawk: "Lore coming soon."
+                evo5: "A self-proclaimed Ancient who antagonizes Rayas and his allies. After his latent abilities activated, he absorbed numerous creatures which allowed him to transform into an enormous monster. In contrast to the detached Emi, he enjoys the company of others to an unnatural degree. However, this interest only extends to how they can further his goals.",
+                evoawk: "An assassin who belongs to a secret society bent on restoring the Ancients to power. A member of that organization took him in as an orphan, and his abilities as an Ancient awoke after he was initiated. Consuming others to steal their qualities pairs with his experience as a famished youth to make him the ultimate predator."
             }
     },
     { //Hart (Earth) - Complete
@@ -18425,7 +18425,7 @@ const UnitInformation = [
                 evoawk: "A shooting specialist who bears his hometown's hopes and dreams. The other imperial knights also believe he could be the second coming of Simon, one of Isliid's greatest modern heroes. He has matured greatly since arriving in the capital, replacing most of his flippancy for diligence. At his core is now unshakable resolve... with a tinge of unease."
             }
     },
-    { //Priscilla (Water) - Missing Lore
+    { //Priscilla (Water) - Complete
         id: 103416212,
         name: "Priscilla (Water)",
         rank: "A+",
@@ -18508,8 +18508,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "In the course of her struggles after leaving Simon's Hill to find and help Hart, she met with the misfortune of losing her eyesight. However, another strange turn of events led to her coming in contact with the Seed. Its magic began to mend her damaged optic nerves, but not before the true wound festering deep in her heart swallowed her whole.",
+                evoawk: "Her ideal form as a master archer. Having honed the power of vision granted by the Seed, she strikes her target without mistake or hesitance. However, no trace remains of her original innocence, warmth, and vivacity. She has become a killing machine, deaf to all... except him."
             }
     },
     { //Emperor Isliid - Complete
@@ -19511,7 +19511,7 @@ const UnitInformation = [
             }
             
     },
-    { // Summer Liza - Missing Lore (Global)
+    { // Summer Liza - Complete
         id: 103606212,
         name: "Summer Liza",
         rank: "A+",
@@ -19575,8 +19575,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "Liza declared that this summer, everyone in the family would go on a vacation. This meant they needed to depart later in the season to accommodate for Luahn's busy schedule and miss the bulk of the festivities, but she was not disappointed in the least. There was still plenty of enjoyment to be had swimming, barbequing, and more with her beloved siblings, including a special surprise of her own...",
+                evoawk: "Liza surprised the others with an extra-loud, extra-dazzling fireworks display. The only downside was it needed a stable source of magical energy, which was rare on the isolated island. Although there was a low-powered variety, she wanted to remain true to the technique her late father taught her. She listened to everyone's laughter and cheers, hoping he was enjoying them just as much."
             }
             
     },
