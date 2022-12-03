@@ -16,15 +16,17 @@ const LinkColor = styled.a`
 
 function Footer () {
     //Display Navigation Links for bottom
-
-    return (
-        <React.Fragment>
-            <Container>
-                <Row>
+/**
+ *              <Row>
                     <center>
                         <Adsense/>
                     </center>
                 </Row>
+ */
+    return (
+        <React.Fragment>
+            <Container>
+
                 <Row>
                     <CardGroup style={{paddingTop: "2rem", marginBottom: "1rem"}}>
                         <Card md="3" style={{backgroundColor: "#292930", color: "#e7f9fc", padding: "0px"}}>
