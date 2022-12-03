@@ -18098,14 +18098,14 @@ const UnitInformation = [
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: "Maximum",
+                name: "Maximus",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "/db/Equipment/Detail/item_detail_109241.png",
                 skill: "60s CT - 8800% Light DMG (PHY). For 12s, reduce Enemies' PHY RES by 20%. If user is Light, reduce Enemies' PHY RES by 35% instead.",
                 skillbreak: 1100,
                 passive: 
                     {
-                        ability1: "When equipped by Lyra, increase Critical DMG by 60%. Does not stack with Abilities of the same name.",
+                        ability1: "When equipped by Lyla, increase Critical DMG by 60%. Does not stack with Abilities of the same name.",
                         ability2: "Increase Skill DMG by 20%."
                     }
             },
@@ -18150,9 +18150,9 @@ const UnitInformation = [
             {
                 skill: "15s CT - 3000% Water DMG (MAG). For 10s, increase own DMG by 20%.",
                 skillbreak: 800,
-                arts: "20000% Water DMG (MAG). For 15s, Increase Allies' Skill CT REC by 100% and reduce Enemies' Water RES by 20%.",
+                arts: "20000% Water DMG (MAG). For 15s, Increase Allies' Skill CT REC by 100% and reduce Enemies' Water RES by 30%.",
                 artsbreak: 1300,
-                truearts: "65000% Water DMG (MAG). For 50s, increase Allies' MAG DMG by 30% and Water Allies' DMG by 30% (stackable).",
+                truearts: "75000% Water DMG (MAG). For 50s, increase Allies' MAG DMG by 40% and Water Allies' DMG by 40% (stackable).",
                 trueartsbreak: 2200
             },
         passive: 
@@ -18179,6 +18179,19 @@ const UnitInformation = [
                     mat5amt: 2,
                     hover5: "Flogassa"
                 }
+            },
+        trueweapon: //If no TW, may delete this section
+            {
+                name: "Juno's Pareo",
+                slot: "/db/Mines/thumbnail/magLB.png",
+                detail: "/db/Equipment/Detail/item_detail_110431.png",
+                skill: "40s CT - 9000% Water DMG (MAG). Increase own Arts by 30. If user is Water, for 10s, increase own stats by 30%.",
+                skillbreak: 800,
+                passive: 
+                    {
+                        ability1: "When equipped by Summer Juno, increase duration of True Art's effects by 20s. Does not stack with Abilities of the same name.",
+                        ability2: "Increase Skill CT REC by 5%."
+                    }
             },
         lore: 
             {   
@@ -18221,9 +18234,9 @@ const UnitInformation = [
             {
                 skill: "15s CT - 1500% Earth DMG (MAG). Increase own Arts by 15.",
                 skillbreak: 500,
-                arts: "12000% Earth DMG (MAG). Increase Allies' next True Arts' DMG by 50%. Increase Earth Allies' True Arts DMG by 100% instead.",
+                arts: "12000% Earth DMG (MAG). Increase Allies' next True Arts' DMG by 50%. Increase Earth Allies' next True Arts' DMG by 200% instead.",
                 artsbreak: 1000,
-                truearts: "35000% Earth DMG (MAG). Increase Allies' Arts by 20. For 15s, Increase Allies' Critical Rate by 100% and Earth Allies' Arts by 3/s.",
+                truearts: "58000% Earth DMG (MAG). Increase Allies' Arts by 20. For 20s, Increase Allies' Critical Rate by 100% and Earth Allies' Arts by 3/s.",
                 trueartsbreak: 2200
             },
         passive: 
@@ -18250,6 +18263,19 @@ const UnitInformation = [
                     mat5amt: 2,
                     hover5: "Fosradius"
                 }
+            },
+        trueweapon: //If no TW, may delete this section
+            {
+                name: "Leone's One-Piece",
+                slot: "/db/Mines/thumbnail/suppLB.png",
+                detail: "/db/Equipment/Detail/item_detail_110441.png",
+                skill: "40s CT - Increase target's Arts by 80. For 12s, increase target's Earth DMG by 50%.",
+                skillbreak: 0,
+                passive: 
+                    {
+                        ability1: "When equipped by Summer Leone, increase own Arts by 3/s. Does not stack with Abilities of the same name.",
+                        ability2: "When near-death, increase DEF by 40%."
+                    }
             },
         lore: 
             {   
@@ -20125,6 +20151,84 @@ const UnitInformation = [
                     {
                         ability1: `When equipped by Hazuki, increase stats by 20% and increase own Arts by 100 when entering Third Eye or True Third Eye.`,
                         ability2: `Increase Skill CT REC by 5%.`
+                    }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { // Star God Liza
+        id: 103647412,
+        name: "Star God Liza",
+        attribute: "Light",
+        type: "God",
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_103646412.png",
+                detailsuper: "/db/Units/Detail/unit_detail_103647412.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103646412.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103647412.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/magLB.png",
+                slot32type: "/db/Mines/thumbnail/healLB.png"
+            },
+        stats: 
+            {
+                hp: 8165,
+                hpplus: 1470,
+                atk: 3080,
+                atkplus: 610,
+                def: 2990,
+                defplus: 570
+            },
+        skillset: 
+            {
+                skill: `12s CT - 1800% Light DMG (MAG). Increase own Arts by 30. For 8s, increase Allies' Arts by 3/s.`,
+                skillbreak: 500,
+                arts: `23000% Light DMG (MAG). For 25s, reduce Enemies' MAG RES by 50%.`,
+                artsbreak: 900,
+                truearts: `70000% Light DMG (MAG). For 30s, increase Allies' Equipment CT REC by 60% and increase Light allies' DMG by 150%.`,
+                trueartsbreak: 1300,
+                superarts: `130000% Light DMG (MAG). For 15s, increase Allies' MAG DMG based on own current HP% (MAX: 300%).`,
+                superartsbreak: 2000
+            },
+        passive: 
+            {
+                ability1: `Ether Recast: Long-press on an equipment to reset its cooldown, allowing you to use it again (Only once per equipment).`,
+                ability2: `Increase own HP Recovery Amount by 20%.`,
+                ability3: `Increase own Arts Gauge by 50 at Start of Quest.`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
+                    mat2amt: 220,
+                    hover2: "God's Spirit Orb"
+                }
+            },
+        trueweapon: //If no TW, may delete this section
+            {
+                name: `Mercury`,
+                slot: "/db/Mines/thumbnail/suppLB.png",
+                detail: "/db/Equipment/Detail/item_detail_110851.png",
+                skill: `50s CT - For 10s, increase Allies' Arts by 4/s and Allies' Light DMG by 40% (stackable).`,
+                skillbreak: 800,
+                passive: 
+                    {
+                        ability1: `When equipped by Star God Liza, increase all stats and Skill CT REC by 20%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase MAG RES by 5%.`
                     }
             },
         lore: 
