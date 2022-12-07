@@ -14431,7 +14431,7 @@ const UnitInformation = [
                 evoawk: "Orgah never forgot what happened in the abandoned mines that day. He took his master's words to heart and trained until he became a full-fledged warrior. The owner of a weapon shop urged him to join the knights, but he had sworn to defend his hometown. Amidst the tumult of the Ancient War, the sight of him bravely standing alongside the other soldiers was most heartening."
             }
     },
-    { //Adele - Missing Lore (Global)
+    { //Adele - Complete
         id: 102916212,
         name: "Adele",
         rank: "B",
@@ -14494,7 +14494,7 @@ const UnitInformation = [
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: "Miserable",
+                name: "Empath",
                 slot: "/db/Mines/thumbnail/healLB.png",
                 detail: "/db/Equipment/Detail/item_detail_106851.png",
                 skill: "50s CT - Heal all Allies' HP by 2000 + For 10s, increase own Skill CT REC by 50%.",
@@ -14507,8 +14507,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "A cheerful, earnest young girl who lived in a castle town with her twin brother, Orgah. Both wished to protect their home full of kind people, so they asked the wandering swordsman Raki to teach them how to fight. However, he sensed great magic potential within her and suggested she foster that instead. Yet his true preference was that of the townsfolks's watching the orphaned siblings play without a care in the world.",
+                evoawk: "Little time passed before Raki's tutelage brought her latent mastery bursting forth. As she felt herself growing stronger by the day, she also felt herself wishing to protect not only her home but her brother as well. However, the path he chose made fulfilling that wish much more difficult."
             }
     },
     { //Vermilia - Complete
@@ -17246,7 +17246,7 @@ const UnitInformation = [
                 evoawk: "A young woman who claims the world belongs to her. She is able to use the powers of those she absorbs, and they also influence her transformed state. She holds Rayas in great contempt but does not understand why."
             }
     },
-    { //Groitz - Missing Lore (Global)
+    { //Groitz - Complete
         id: 103256312,
         name: "Groitz",
         attribute: "Earth",
@@ -17356,8 +17356,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Lore coming soon.",
-                evoawk: "Lore coming soon."
+                evo5: "A self-proclaimed Ancient who antagonizes Rayas and his allies. After his latent abilities activated, he absorbed numerous creatures which allowed him to transform into an enormous monster. In contrast to the detached Emi, he enjoys the company of others to an unnatural degree. However, this interest only extends to how they can further his goals.",
+                evoawk: "An assassin who belongs to a secret society bent on restoring the Ancients to power. A member of that organization took him in as an orphan, and his abilities as an Ancient awoke after he was initiated. Consuming others to steal their qualities pairs with his experience as a famished youth to make him the ultimate predator."
             }
     },
     { //Hart (Earth) - Complete
@@ -18098,14 +18098,14 @@ const UnitInformation = [
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: "Maximum",
+                name: "Maximus",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "/db/Equipment/Detail/item_detail_109241.png",
                 skill: "60s CT - 8800% Light DMG (PHY). For 12s, reduce Enemies' PHY RES by 20%. If user is Light, reduce Enemies' PHY RES by 35% instead.",
                 skillbreak: 1100,
                 passive: 
                     {
-                        ability1: "When equipped by Lyra, increase Critical DMG by 60%. Does not stack with Abilities of the same name.",
+                        ability1: "When equipped by Lyla, increase Critical DMG by 60%. Does not stack with Abilities of the same name.",
                         ability2: "Increase Skill DMG by 20%."
                     }
             },
@@ -18150,9 +18150,9 @@ const UnitInformation = [
             {
                 skill: "15s CT - 3000% Water DMG (MAG). For 10s, increase own DMG by 20%.",
                 skillbreak: 800,
-                arts: "20000% Water DMG (MAG). For 15s, Increase Allies' Skill CT REC by 100% and reduce Enemies' Water RES by 20%.",
+                arts: "20000% Water DMG (MAG). For 15s, Increase Allies' Skill CT REC by 100% and reduce Enemies' Water RES by 30%.",
                 artsbreak: 1300,
-                truearts: "65000% Water DMG (MAG). For 50s, increase Allies' MAG DMG by 30% and Water Allies' DMG by 30% (stackable).",
+                truearts: "75000% Water DMG (MAG). For 50s, increase Allies' MAG DMG by 40% and Water Allies' DMG by 40% (stackable).",
                 trueartsbreak: 2200
             },
         passive: 
@@ -18179,6 +18179,19 @@ const UnitInformation = [
                     mat5amt: 2,
                     hover5: "Flogassa"
                 }
+            },
+        trueweapon: //If no TW, may delete this section
+            {
+                name: "Juno's Pareo",
+                slot: "/db/Mines/thumbnail/magLB.png",
+                detail: "/db/Equipment/Detail/item_detail_110431.png",
+                skill: "40s CT - 9000% Water DMG (MAG). Increase own Arts by 30. If user is Water, for 10s, increase own stats by 30%.",
+                skillbreak: 800,
+                passive: 
+                    {
+                        ability1: "When equipped by Summer Juno, increase duration of True Art's effects by 20s. Does not stack with Abilities of the same name.",
+                        ability2: "Increase Skill CT REC by 5%."
+                    }
             },
         lore: 
             {   
@@ -18221,14 +18234,14 @@ const UnitInformation = [
             {
                 skill: "15s CT - 1500% Earth DMG (MAG). Increase own Arts by 15.",
                 skillbreak: 500,
-                arts: "12000% Earth DMG (MAG). Increase Allies' next True Arts' DMG by 50%. Increase Earth Allies' True Arts DMG by 100% instead.",
+                arts: "12000% Earth DMG (MAG). Increase Allies' next True Arts' DMG by 50%. Increase Earth Allies' next True Arts' DMG by 200% instead.",
                 artsbreak: 1000,
-                truearts: "35000% Earth DMG (MAG). Increase Allies' Arts by 20. For 15s, Increase Allies' Critical Rate by 100% and Earth Allies' Arts by 3/s.",
+                truearts: "58000% Earth DMG (MAG). Increase Allies' Arts by 20. For 20s, Increase Allies' Critical Rate by 100% and Earth Allies' Arts by 3/s.",
                 trueartsbreak: 2200
             },
         passive: 
             {
-                ability1: "When HP is above 90%, increase Equip CT REC by 20%.",
+                ability1: "When HP is above 70%, increase Equip CT REC by 20%.",
                 ability2: "Increase Blind RES by 10%.",
                 ability3: "Increase Demon Allies' stats by 10%."
             }, 
@@ -18251,13 +18264,26 @@ const UnitInformation = [
                     hover5: "Fosradius"
                 }
             },
+        trueweapon: //If no TW, may delete this section
+            {
+                name: "Leone's One-Piece",
+                slot: "/db/Mines/thumbnail/suppLB.png",
+                detail: "/db/Equipment/Detail/item_detail_110441.png",
+                skill: "40s CT - Increase target's Arts by 80. For 12s, increase target's Earth DMG by 50%.",
+                skillbreak: 0,
+                passive: 
+                    {
+                        ability1: "When equipped by Summer Leone, increase own Arts by 3/s. Does not stack with Abilities of the same name.",
+                        ability2: "When near-death, increase DEF by 40%."
+                    }
+            },
         lore: 
             {   
                 evo5: "The princess of Granadia, a small country in the east, was brought to an ocean paradise by her sister. She claimed her lack of swimming talent was due to a curse that caused her to sink whenever she took a breath. Choosing instead to read beneath a parasol, the comfortable sea breeze started to convince her the trip was nonetheless enjoyable. all the while, a small group of green monsters was sneaking up on her.",
                 evoawk: "Before she realized what was happening, the Mokyuon had jumped out and shoved her from the pier. She struggled desperately to keep from drowning. Returning to shore after several minutes, the monsters nodded with approval. It appeared their antics had forced her to learn proper breathing. Perhaps they saw the timid girl and knew the sink-or-swim approach was the only way she would succeed."
             }
     },
-    { //Elizabeth - Missing Lore (Global)
+    { //Elizabeth - Complete
         id: 103396112,
         name: "Elizabeth",
         rank: "B",
@@ -18337,8 +18363,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "A girl born on an island country in the northeast of Raktehelm. Forbidden experiments gave her the power over enchanted light at the cost of her memories. Over half of her body was turned into magical machinery in the process, so she is heaver than she looks. For a century after the dawn of La Riiz, she was hailed as the founder of the Riizism.",
+                evoawk: "A cunning priest set her up as the founder of a religion until she escaped. She then travelled around the world to rescue her lost relatives, eventually joining the lithomancer Yulong's crew. Long isolation gave her a stunted vocabulary, and she often punctuates her sentences with \"rawr\"."
             }
     },
     { //Vultee (Water) - Complete
@@ -18425,7 +18451,7 @@ const UnitInformation = [
                 evoawk: "A shooting specialist who bears his hometown's hopes and dreams. The other imperial knights also believe he could be the second coming of Simon, one of Isliid's greatest modern heroes. He has matured greatly since arriving in the capital, replacing most of his flippancy for diligence. At his core is now unshakable resolve... with a tinge of unease."
             }
     },
-    { //Priscilla (Water) - Missing Lore
+    { //Priscilla (Water) - Complete
         id: 103416212,
         name: "Priscilla (Water)",
         rank: "A+",
@@ -18508,11 +18534,11 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "In the course of her struggles after leaving Simon's Hill to find and help Hart, she met with the misfortune of losing her eyesight. However, another strange turn of events led to her coming in contact with the Seed. Its magic began to mend her damaged optic nerves, but not before the true wound festering deep in her heart swallowed her whole.",
+                evoawk: "Her ideal form as a master archer. Having honed the power of vision granted by the Seed, she strikes her target without mistake or hesitance. However, no trace remains of her original innocence, warmth, and vivacity. She has become a killing machine, deaf to all... except him."
             }
     },
-    { //Emperor Isliid - Missing Lore
+    { //Emperor Isliid - Complete
         id: 103426412,
         name: "Emperor Isliid",
         attribute: "Light",
@@ -18554,9 +18580,9 @@ const UnitInformation = [
             },
         passive: 
             {
-                ability1: "When in Skylight Sword Mode,  activations of own True Arts increase Allies' accuracy by 30% for 15s, and DMG of own True Arts against Gods is increased by 150%. If Emperor of Isliid is in the 1st position, he will only use this mode.",
-                ability2: "When in Granveus Sword Mode, activations of own True Arts increase Allies' DMG RES by 20% for 15s, and DMG of own True Arts against Humans is increased by 150%. If the Emperor of Isliid is in the 2nd position, he will only use this mode.",
-                ability3: "When in Darkbringer Sword Mode, activations of own True Arts increase Allies' ATK by 50% for 15s, and DMG of own True Arts against Demons is increased by 150%. If the Emperor of Isliid is in the 3rd position, he will only use this mode."
+                ability1: "When in Sky Light Sword Mode,  activations of own True Arts increase Allies' accuracy by 30% for 15s, and DMG of own True Arts against Gods is increased by 150%. If Emperor of Isliid is in the 1st position, he will only use this mode.",
+                ability2: "When in Terra Master Sword Mode, activations of own True Arts increase Allies' DMG RES by 20% for 15s, and DMG of own True Arts against Humans is increased by 150%. If the Emperor of Isliid is in the 2nd position, he will only use this mode.",
+                ability3: "When in Dark Bringer Sword Mode, activations of own True Arts increase Allies' ATK by 50% for 15s, and DMG of own True Arts against Demons is increased by 150%. If the Emperor of Isliid is in the 3rd position, he will only use this mode."
             }, 
         evolution: 
             {
@@ -18581,7 +18607,7 @@ const UnitInformation = [
             {
                 true1: 
                 {
-                    name: "Skylight",
+                    name: "Sky Light",
                     slot: "/db/Mines/thumbnail/magLB.png",
                     thumb: "/db/Equipment/Thumbnail/item_thumbnail_109771.png",
                     detail: "/db/Equipment/Detail/item_detail_109771.png",
@@ -18595,7 +18621,7 @@ const UnitInformation = [
                 },
                 true2: 
                 {
-                    name: "Granveus",
+                    name: "Terra Master",
                     slot: "/db/Mines/thumbnail/suppLB.png",
                     thumb: "/db/Equipment/Thumbnail/item_thumbnail_109781.png",
                     detail: "/db/Equipment/Detail/item_detail_109781.png",
@@ -18609,7 +18635,7 @@ const UnitInformation = [
                 },
                 true3: 
                 {
-                    name: "Darkbringer",
+                    name: "Dark Bringer",
                     slot: "/db/Mines/thumbnail/physLB.png",
                     thumb: "/db/Equipment/Thumbnail/item_thumbnail_109791.png",
                     detail: "/db/Equipment/Detail/item_detail_109791.png",
@@ -18624,8 +18650,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "The young ruler of the Isliid Empire, enthroned in secret with the passing of his predecessor. Though he was a figure of exceptional valor, imperial men have historically short lifespans. As a result, no one doubts the legitimacy of his ascension, but very few are privy to the finer details, and much about him is still shrouded in mystery.",
+                evoawk: "Like all who ruled Isliid, he is a direct descendant of the original Human born from Yggdrasil. They are considered the ultimate prototypes, blessed with the ability to realize mankind's limitless possibilities. Across each generation, the emperors worked to free the sealed Races, and some even exercised authority over all Raktehelm. However, he is different, for he looks past such purposes."
             }
     },
     { //Beguiler Selia - Complete
@@ -19442,7 +19468,7 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
     },
-    { // Summer Cestina - Missing Lore
+    { // Summer Cestina - Complete
         id: 103596112,
         name: "Summer Cestina",
         rank: "A+",
@@ -19506,12 +19532,12 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "Cestina was looking forward to the summer vacation. What made her happiest was how all of her siblings were going -- the first time in years. Her younger brother Luahn, long unable to join due to his busy schedule, would finally see their island. She wanted to show him the pristine beach and introduce him to her favorite ice cream as soon as possible. Her excitement made each minute feel like an eternity as the billowing sails carried their boat southwards.",
+                evoawk: "The second princess of Gran Verge keenly anticipated her vacation on the tropical Twilight Isle. It would be rare chance the royal family could forget their worries and enjoy some quality time together. As the ship neared those sunny shores, visions of past events reemerged in her dreams. She would never tell a soul, but the memories of her late father amidst the tumult and the strife of their voyage were those she treasured most."
             }
             
     },
-    { // Summer Liza - Missing Lore
+    { // Summer Liza - Complete
         id: 103606212,
         name: "Summer Liza",
         rank: "A+",
@@ -19575,8 +19601,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "Liza declared that this summer, everyone in the family would go on a vacation. This meant they needed to depart later in the season to accommodate for Luahn's busy schedule and miss the bulk of the festivities, but she was not disappointed in the least. There was still plenty of enjoyment to be had swimming, barbequing, and more with her beloved siblings, including a special surprise of her own...",
+                evoawk: "Liza surprised the others with an extra-loud, extra-dazzling fireworks display. The only downside was it needed a stable source of magical energy, which was rare on the isolated island. Although there was a low-powered variety, she wanted to remain true to the technique her late father taught her. She listened to everyone's laughter and cheers, hoping he was enjoying them just as much."
             }
             
     },
@@ -20125,6 +20151,84 @@ const UnitInformation = [
                     {
                         ability1: `When equipped by Hazuki, increase stats by 20% and increase own Arts by 100 when entering Third Eye or True Third Eye.`,
                         ability2: `Increase Skill CT REC by 5%.`
+                    }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { // Star God Liza
+        id: 103647412,
+        name: "Star God Liza",
+        attribute: "Light",
+        type: "God",
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_103646412.png",
+                detailsuper: "/db/Units/Detail/unit_detail_103647412.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103646412.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103647412.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/magLB.png",
+                slot32type: "/db/Mines/thumbnail/healLB.png"
+            },
+        stats: 
+            {
+                hp: 8165,
+                hpplus: 1470,
+                atk: 3080,
+                atkplus: 610,
+                def: 2990,
+                defplus: 570
+            },
+        skillset: 
+            {
+                skill: `12s CT - 1800% Light DMG (MAG). Increase own Arts by 30. For 8s, increase Allies' Arts by 3/s.`,
+                skillbreak: 500,
+                arts: `23000% Light DMG (MAG). For 25s, reduce Enemies' MAG RES by 50%.`,
+                artsbreak: 900,
+                truearts: `70000% Light DMG (MAG). For 30s, increase Allies' Equipment CT REC by 60% and increase Light allies' DMG by 150%.`,
+                trueartsbreak: 1300,
+                superarts: `130000% Light DMG (MAG). For 15s, increase Allies' MAG DMG based on own current HP% (MAX: 300%).`,
+                superartsbreak: 2000
+            },
+        passive: 
+            {
+                ability1: `Ether Recast: Long-press on an equipment to reset its cooldown, allowing you to use it again (Only once per equipment).`,
+                ability2: `Increase own HP Recovery Amount by 20%.`,
+                ability3: `Increase own Arts Gauge by 50 at Start of Quest.`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
+                    mat2amt: 220,
+                    hover2: "God's Spirit Orb"
+                }
+            },
+        trueweapon: //If no TW, may delete this section
+            {
+                name: `Mercury`,
+                slot: "/db/Mines/thumbnail/suppLB.png",
+                detail: "/db/Equipment/Detail/item_detail_110851.png",
+                skill: `50s CT - For 10s, increase Allies' Arts by 4/s and Allies' Light DMG by 40% (stackable).`,
+                skillbreak: 800,
+                passive: 
+                    {
+                        ability1: `When equipped by Star God Liza, increase all stats and Skill CT REC by 20%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase MAG RES by 5%.`
                     }
             },
         lore: 
@@ -24318,7 +24422,7 @@ const UnitInformation = [
                 evoawk: "He was supposed to be killed by Kiyomasa during the battle of 8/3, but Takemichi saved him in the nick of time. For that and his invaluable ability to give Mikey emotional support, he places great trust in the seemingly weak boy."
             }
     },
-    { // Chifuyu - Missing Lore (Global)
+    { // Chifuyu - Complete
         id: 107646312,
         name: "Chifuyu",
         rank: "B",
@@ -24379,8 +24483,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "The First Division Vice Captain of the Tokyo Manji Gang. Although he was beaten up by Keisuke Baji during his initiation ceremony to join a rival gang, he believed in the former captain until his death. That show of unshakable trust inspired Takemichi.",
+                evoawk: "After Bloody Halloween, Takemichi was appointed First Division Captain to replace the dead Keisuke, so he agreed to support him as partner. The decision to watch out for Takemichi only intensified when he became one of the few people to know about his time travel ability."
             }
     },
     { // Mitsuya - Complete
