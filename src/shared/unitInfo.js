@@ -18270,7 +18270,7 @@ const UnitInformation = [
             },
         passive: 
             {
-                ability1: "When HP is above 90%, increase Equip CT REC by 20%.",
+                ability1: "When HP is above 70%, increase Equip CT REC by 20%.",
                 ability2: "Increase Blind RES by 10%.",
                 ability3: "Increase Demon Allies' stats by 10%."
             }, 
