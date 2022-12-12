@@ -1567,6 +1567,7 @@ const UnitInformation = [
     { //Rayas - Complete
         id: 101016411,
         name: "Rayas",
+        luckrank: "B",
         attribute: "Light",
         rank: "A",
         type: "Human",
@@ -2348,6 +2349,7 @@ const UnitInformation = [
     { //Grad - Complete
         id: 101096511,
         name: "Grad",
+        luckrank: "A",
         rank: "A-",
         attribute: "Dark",
         type: "Demon",
@@ -2441,6 +2443,7 @@ const UnitInformation = [
         id: 101106511,
         name: "Nier",
         rank: "B+",
+        luckrank: "B",
         attribute: "Dark",
         type: "Demon",
         image: 
@@ -2533,6 +2536,7 @@ const UnitInformation = [
         id: 101116111,
         name: "Ganan",
         rank: "A-",
+        luckrank: "A",
         twrequire: "favorable",
         attribute: "Fire",
         type: "Human",
@@ -2621,6 +2625,7 @@ const UnitInformation = [
     { //Gilliam - Complete
         id: 101126311,
         name: "Gilliam",
+        luckrank: "B",
         rank: "B-",
         attribute: "Earth",
         type: "Human",
@@ -2902,6 +2907,7 @@ const UnitInformation = [
     { //Sophie - Complete
         id: 101156111,
         name: "Sophie",
+        luckrank: "B",
         rank: "B",
         attribute: "Fire",
         type: "Human",
@@ -5051,6 +5057,7 @@ const UnitInformation = [
     { //Quon - Complete
         id: 101556212,
         name: "Quon",
+        luckrank: "F",
         rank: "B-",
         attribute: "Water",
         type: "Human",
@@ -5201,6 +5208,7 @@ const UnitInformation = [
     { //Edram - Complete
         id: 101575412,
         name: "Edram",
+        luckrank: "B",
         rank: "B-",
         attribute: "Light",
         type: "Machine",
@@ -6253,6 +6261,7 @@ const UnitInformation = [
         id: 101716211,
         name: "Gaia",
         rank: "A-",
+        luckrank: "C",
         attribute: "Water",
         type: "God",
         image: 
@@ -8278,6 +8287,7 @@ const UnitInformation = [
     { //Melody - Complete
         id: 101986412,
         name: "Melody",
+        luckrank: "F",
         attribute: "Light",
         type: "God",
         image: 
@@ -8342,6 +8352,7 @@ const UnitInformation = [
         id: 101996511,
         name: "Rohst",
         attribute: "Dark",
+        luckrank: "F",
         type: "Dragon",
         image: 
             {
@@ -9244,6 +9255,7 @@ const UnitInformation = [
     { //Mako - Complete
         id: 102206412,
         name: "Mako",
+        luckrank: "S",
         rank: "SSS",
         attribute: "Light",
         type: "Human",
@@ -9323,6 +9335,7 @@ const UnitInformation = [
         id: 102216212,
         name: "Satsuki",
         rank: "B+",
+        luckrank: "B",
         attribute: "Water",
         type: "Human",
         image: 
@@ -9401,6 +9414,7 @@ const UnitInformation = [
         id: 102226112,
         name: "Ryuko",
         rank: "A-",
+        luckrank: "A",
         twrequire: "favorable",
         attribute: "Fire",
         type: "Human",
@@ -9480,6 +9494,7 @@ const UnitInformation = [
         id: 102236111,
         name: "Pientz",
         attribute: "Fire",
+        luckrank: "C",
         type: "Spirit",
         image: 
             {
@@ -9691,6 +9706,7 @@ const UnitInformation = [
     { //Vicious - Complete
         id: 102266311,
         name: "Vicious",
+        luckrank: "F",
         attribute: "Earth",
         type: "Machine",
         image: 
@@ -10241,6 +10257,7 @@ const UnitInformation = [
         id: 102336411,
         name: "Nogia",
         rank: "B-",
+        luckrank: "B",
         attribute: "Light",
         type: "Spirit",
         image: 
@@ -10470,6 +10487,7 @@ const UnitInformation = [
     { //Zerkalo - Complete
         id: 102366511,
         name: "Zerkalo",
+        luckrank: "F",
         attribute: "Dark",
         type: "Beast",
         image: 
@@ -10772,6 +10790,7 @@ const UnitInformation = [
     { //Badoul - Complete
         id: 102416111,
         name: "Badoul",
+        luckrank: "F",
         rank: "B+",
         attribute: "Fire",
         type: "Giant",
@@ -10836,6 +10855,7 @@ const UnitInformation = [
     { //Strife - Complete
         id: 102436511,
         name: "Strife",
+        luckrank: "F",
         rank: "B-",
         attribute: "Dark",
         type: "Spirit",
@@ -11040,6 +11060,7 @@ const UnitInformation = [
         id: 102466211,
         name: "Granith",
         attribute: "Water",
+        luckrank: "C",
         type: "Dragon",
         image: 
             {
@@ -11101,6 +11122,7 @@ const UnitInformation = [
     { //Altie - Complete
         id: 102476511,
         name: "Altie",
+        luckrank: "C",
         attribute: "Dark",
         type: "Demon",
         image: 
@@ -11762,6 +11784,7 @@ const UnitInformation = [
     { //Vitz - Complete
         id: 102556211,
         name: "Vitz",
+        luckrank: "B",
         rank: "B-",
         attribute: "Water",
         type: "Human",
@@ -12045,6 +12068,7 @@ const UnitInformation = [
     { //Aesis - Complete
         id: 102596312,
         name: "Aesis",
+        luckrank: "A",
         rank: "B",
         attribute: "Earth",
         type: "Dragon",
@@ -13021,6 +13045,7 @@ const UnitInformation = [
     { //Miri-nyan - Complete
         id: 102736112,
         name: "Miri-nyan",
+        luckrank: "F",
         attribute: "Fire",
         type: "Beast",
         image: 
@@ -14996,7 +15021,7 @@ const UnitInformation = [
     },
     { //Cestina - Complete
         id: 102986312,
-        name: "Cestina",
+        name: "Cestina (Earth)",
         rank: "S",
         twrequire: "favorable",
         attribute: "Earth",
@@ -15082,6 +15107,7 @@ const UnitInformation = [
         id: 102996112,
         name: "Radak",
         rank: "B+",
+        luckrank: "C",
         attribute: "Fire",
         type: "Beast",
         image: 
@@ -15238,6 +15264,7 @@ const UnitInformation = [
         id: 103016512,
         name: "Cygnet",
         rank: "C",
+        luckrank: "C",
         attribute: "Dark",
         type: "Machine",
         image: 
@@ -15388,6 +15415,7 @@ const UnitInformation = [
         id: 103036212,
         name: "Virago",
         rank: "B-",
+        luckrank: "B",
         attribute: "Water",
         type: "Dragon",
         image: 
@@ -15539,6 +15567,7 @@ const UnitInformation = [
     { //Chloe - Complete
         id: 103056511,
         name: "Chloe",
+        luckrank: "A",
         rank: "B+",
         attribute: "Dark",
         type: "Human",
@@ -20710,6 +20739,7 @@ const UnitInformation = [
     { //Saitama - Complete
         id: 107076412,
         name: "Saitama",
+        luckrank: "S",
         rank: "A",
         attribute: "Light",
         type: "Human",
@@ -20776,6 +20806,7 @@ const UnitInformation = [
         id: 107086512,
         name: "Genos",
         rank: "C",
+        luckrank: "C",
         attribute: "Dark",
         type: "Machine",
         image: 
@@ -20839,6 +20870,7 @@ const UnitInformation = [
     { //Terrible Tornado - Complete
         id: 107096312,
         name: "Terrible Tornado",
+        luckrank: "A",
         rank: "B+",
         attribute: "Earth",
         type: "Human",
@@ -20904,6 +20936,7 @@ const UnitInformation = [
     { //Boros - Complete
         id: 107106511,
         name: "Boros",
+        luckrank: "C",
         rank: "B-",
         attribute: "Dark",
         type: "Demon",
@@ -21099,6 +21132,7 @@ const UnitInformation = [
         id: 107136512,
         name: "Hijikata",
         rank: "B-",
+        luckrank: "B",
         attribute: "Dark",
         type: "Human",
         image: 
@@ -21162,6 +21196,7 @@ const UnitInformation = [
     { //Rimuru (Slime) - Complete
         id: 107146212,
         name: "Rimuru (Slime)",
+        luckrank: "F",
         attribute: "Water",
         type: "Demon",
         image: 
@@ -21418,6 +21453,7 @@ const UnitInformation = [
         id: 107186512,
         name: "Goblin Slayer",
         rank: "A-",
+        luckrank: "B",
         attribute: "Dark",
         type: "Human",
         image: 
@@ -21481,6 +21517,7 @@ const UnitInformation = [
     { //Priestess - Complete
         id: 107196412,
         name: "Priestess",
+        luckrank: "SS",
         rank: "S",
         attribute: "Light",
         type: "Human",
@@ -21545,6 +21582,7 @@ const UnitInformation = [
     { //High Elf Archer - Complete
         id: 107206312,
         name: "High Elf Archer",
+        luckrank: "SS",
         rank: "A-",
         attribute: "Earth",
         type: "Spirit",
@@ -21609,6 +21647,7 @@ const UnitInformation = [
     { //Sonic - Complete
         id: 107216512,
         name: "Sonic",
+        luckrank: "A",
         rank: "A-",
         attribute: "Dark",
         type: "Human",
@@ -21673,6 +21712,7 @@ const UnitInformation = [
     { //Hellish Blizzard - Complete
         id: 107226212,
         name: "Hellish Blizzard",
+        luckrank: "A",
         rank: "B+",
         attribute: "Water",
         type: "Human",
@@ -21739,6 +21779,7 @@ const UnitInformation = [
         id: 107236512,
         name: "Garou",
         rank: "A-",
+        luckrank: "B",
         attribute: "Dark",
         type: "Human",
         image: 
@@ -21868,6 +21909,7 @@ const UnitInformation = [
         id: 107256411,
         name: "Naofumi",
         rank: "A+",
+        luckrank: "B",
         twrequire: "favorable",
         attribute: "Light",
         type: "Human",
@@ -21964,6 +22006,7 @@ const UnitInformation = [
     { //Raphtalia - Complete
         id: 107266412,
         name: "Raphtalia",
+        luckrank: "A",
         rank: "A",
         attribute: "Light",
         type: "Beast",
@@ -22041,6 +22084,7 @@ const UnitInformation = [
     { //Filo - Complete
         id: 107276312,
         name: "Filo",
+        luckrank: "S",
         rank: "A",
         attribute: "Earth",
         type: "Demon",
@@ -22119,6 +22163,7 @@ const UnitInformation = [
         id: 107286212,
         name: "Melty",
         rank: "SS",
+        luckrank: "SSS",
         attribute: "Water",
         type: "Human",
         image: 
@@ -22195,6 +22240,7 @@ const UnitInformation = [
     { // Fitoria - Complete
         id: 107606312,
         name: "Fitoria",
+        luckrank: "SS",
         rank: "S",
         attribute: "Earth",
         type: "Demon",
@@ -22273,6 +22319,7 @@ const UnitInformation = [
     { //Yusuke - Complete
         id: 107296212,
         name: "Yusuke",
+        luckrank: "S",
         rank: "B+",
         attribute: "Water",
         type: "Human",
@@ -22338,6 +22385,7 @@ const UnitInformation = [
     { //Kazuma - Complete
         id: 107306412,
         name: "Kazuma",
+        luckrank: "S",
         rank: "B-",
         attribute: "Light",
         type: "Human",
@@ -22403,6 +22451,7 @@ const UnitInformation = [
     { //Kurama - Complete
         id: 107316312,
         name: "Kurama",
+        luckrank: "S",
         rank: "B+",
         attribute: "Earth",
         type: "Human",
@@ -22468,6 +22517,7 @@ const UnitInformation = [
     { //Hiei - Complete
         id: 107326512,
         name: "Hiei",
+        luckrank: "S",
         rank: "A-",
         attribute: "Dark",
         type: "Demon",
@@ -22534,6 +22584,7 @@ const UnitInformation = [
         id: 107336512,
         name: "Toguro",
         rank: "B+",
+        luckrank: "A",
         attribute: "Dark",
         type: "Demon",
         image: 
@@ -22598,6 +22649,7 @@ const UnitInformation = [
     { //Emilia - Complete
         id: 107346212,
         name: "Emilia",
+        luckrank: "SS",
         rank: "A+",
         attribute: "Water",
         type: "God",
@@ -22678,6 +22730,7 @@ const UnitInformation = [
     { //Rem (RE:ZERO) - Complete
         id: 107356212,
         name: "Rem (RE:ZERO)",
+        luckrank: "A",
         rank: "A-",
         attribute: "Water",
         type: "Demon",
@@ -22758,6 +22811,7 @@ const UnitInformation = [
         id: 107366312,
         name: "Ram",
         rank: "B+",
+        luckrank: "B",
         twrequire: "favorable",
         attribute: "Earth",
         type: "Demon",
@@ -22837,6 +22891,7 @@ const UnitInformation = [
     { //Beatrice - Complete
         id: 107376512,
         name: "Beatrice",
+        luckrank: "S",
         rank: "B+",
         attribute: "Dark",
         type: "Spirit",
@@ -23242,6 +23297,7 @@ const UnitInformation = [
     { //Hatsune Miku - Complete
         id: 107456212,
         name: "Hatsune Miku",
+        luckrank: "B",
         rank: "A",
         attribute: "Water",
         type: "Machine",
@@ -23307,6 +23363,7 @@ const UnitInformation = [
     { //Sakura Miku - Complete
         id: 107466312,
         name: "Sakura Miku",
+        luckrank: "S",
         rank: "A+",
         attribute: "Earth",
         type: "Machine",
@@ -23892,6 +23949,7 @@ const UnitInformation = [
     { //Natsu Dragneel - Complete
         id: 107556112,
         name: "Natsu Dragneel",
+        luckrank: "A",
         rank: "A-",
         attribute: "Fire",
         type: "Demon",
@@ -23957,6 +24015,7 @@ const UnitInformation = [
     { //Lucy Heartfilia - Complete
         id: 107566412,
         name: "Lucy Heartfilia",
+        luckrank: "SS",
         rank: "A",
         attribute: "Light",
         type: "Human",
@@ -24023,6 +24082,7 @@ const UnitInformation = [
         id: 107576212,
         name: "Gray Fullbuster",
         rank: "A-",
+        luckrank: "SSS",
         attribute: "Water",
         type: "Human",
         image: 
@@ -24087,6 +24147,7 @@ const UnitInformation = [
     { //Erza Scarlet - Complete
         id: 107586412,
         name: "Erza Scarlet",
+        luckrank: "S",
         rank: "S",
         attribute: "Light",
         type: "Human",
@@ -24153,6 +24214,7 @@ const UnitInformation = [
         id: 107596512,
         name: "Nui Harume",
         rank: "A",
+        luckrank: "SS",
         attribute: "Dark",
         type: "Demon",
         image: 
@@ -24231,6 +24293,7 @@ const UnitInformation = [
         id: 107616111,
         name: "Takemichi",
         rank: "F",
+        luckrank: "C",
         attribute: "Fire",
         type: "Human",
         image: 
