@@ -17725,7 +17725,7 @@ const UnitInformation = [
                 evoawk: "After moving to a small town in the empire at a young age, he met the previous Ranger captain's daughter, Miranda. They eventually became married, and anyone who saw them shopping in the quare on weekends would think of them as a loving couple. Yet as he pointed his gun at her from the edge of town, his gaze was filled with dark intent."
             }
     },
-    { //Vultee (Earth) - Missing Lore
+    { //Vultee (Earth) - Missing Lore (GLB)
         id: 103316312,
         name: "Vultee (Earth)",
         attribute: "Earth",
@@ -24808,6 +24808,136 @@ const UnitInformation = [
             {   
                 evo5: "Currently unreleased in Global.",
                 evoawk: "Currently unreleased in Global."
+            }
+    },
+    { // Albedo - Missing Lore
+        id: 107707512,
+        name: "Albedo",
+        attribute: "Dark",
+        type: "Demon",
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_107706512.png",
+                detailsuper: "/db/Units/Detail/unit_detail_107707512.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107706512.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107707512.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/physLB.png",
+                slot32type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: 7095,
+                hpplus: 1340,
+                atk: 3045,
+                atkplus: 630,
+                def: 3625,
+                defplus: 630
+            },
+        skillset: 
+            {
+                skill: `12s CT - 2000% Dark DMG (PHY). Increase own Arts by 30. If HP is above 70%, increase Arts by 60 instead.`,
+                skillbreak: 400,
+                arts: `23000% Dark DMG (PHY). Permanently increase Demon Allies' DMG & DMG RES by 10% (up to 30%).`,
+                artsbreak: 600,
+                truearts: `42000% Dark DMG (PHY). For 30s, increase Allies' PHY Res by 20% + Allies gain a DMG Barrier that negates 10000 DMG.`,
+                trueartsbreak: 1000,
+                superarts: `120000% Dark DMG (PHY). For 10s, increase own Critical Rate by 100% and Allies' DMG Res by 60%.`,
+                superartsbreak: 2000
+            },
+        passive: 
+            {
+                ability1: `When near-death, increase own Arts by 300 & heal Allies' HP by 50%.`,
+                ability2: `Increase Paralysis RES by 100%.`,
+                ability3: `Increase Freeze RES by 100%.`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131455.png",
+                    mat2amt: 100,
+                    hover2: "Sinful Pearls"
+                }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { // Shalltear - Missing Lore
+        id: 107717412,
+        name: "Shalltear",
+        attribute: "Light",
+        type: "Demon",
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_107716412.png",
+                detailsuper: "/db/Units/Detail/unit_detail_107717412.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107716412.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107717412.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/magLB.png",
+                slot32type: "/db/Mines/thumbnail/physLB.png"
+            },
+        stats: 
+            {
+                hp: 7590,
+                hpplus: 1430,
+                atk: 3975,
+                atkplus: 686,
+                def: 2700,
+                defplus: 564
+            },
+        skillset: 
+            {
+                skill: `11s CT - 2500% Light DMG (MAG). For 10s, increase own Lifesteal by 3%.`,
+                skillbreak: 600,
+                arts: `26000% Light DMG (MAG). For 20s, reduce Enemies' Dark & Light RES by 40%.`,
+                artsbreak: 1300,
+                truearts: `90000% Light DMG (MAG). For 20s, increase own Critical DMG by 200%.`,
+                trueartsbreak: 2000,
+                superarts: `For 80s, increase own Arts by 5/s & summon a Double that mimics all of own attacks (including Arts and Skill, but not including Equipment).`,
+                superartsbreak: 0
+            },
+        passive: 
+            {
+                ability1: `If HP is above 70%, increase own Critical Rate by 100%.`,
+                ability2: `Increase DMG to Enemies under 30% HP by 30%.`,
+                ability3: `Increase own Arts by 50 at the start of a Quest.`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
+                    mat2amt: 100,
+                    hover2: "God's Spirit Orb"
+                }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
             }
     }
 
