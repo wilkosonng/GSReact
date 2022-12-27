@@ -1,48 +1,36 @@
-import React from 'react';
-import { Media, Container, Nav, NavItem, Card, CardHeader, CardBody
+import React, { useState } from 'react';
+import { Media, Container, Nav, NavItem, NavLink, Card, CardHeader, CardBody, TabPane, TabContent
 } from 'reactstrap';
 import '../index.css';
 import '../App.css';
-import { useParams, Link, Routes, Route, Outlet, NavLink } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { getUnitByName } from '../shared/unitInfo';
 import { RenderTrue } from './unitinfo/TrueComponent';
 import { RenderStats } from './unitinfo/StatsComponent';
 import { RenderTwoStar, RenderThreeStar, RenderFourStar, RenderFiveStar, RenderAwaken, RenderSuper } from './unitinfo/LoreComponent';
+import classNames from 'classnames';
 
-function UnitDetails () {
-    const selectedUnit = useParams();
-    const units = getUnitByName(selectedUnit.unitName);
-    
+function UnitDetails () {  
     return (
         <React.Fragment>
             <Container style={{marginTop: "5rem"}}>
-                <Routes>
-                    <Route path="/" element={<UnitHome />} >
-                        <Route path="lore" element={<React.Fragment>  
-                        <RenderLore unitLore={units.lore} unitImage={units.image} unitName={units.name} />
-                        </React.Fragment>}>
-                            <Route index />
-                            <Route path="twostar" element={<RenderTwoStar lore={units.lore.evo2} unitImage={units.image} unitEvo={units.evolution} />} />
-                            <Route path="threestar" element={<RenderThreeStar lore={units.lore.evo3} unitImage={units.image} unitEvo={units.evolution} />} />
-                            <Route path="fourstar" element={<RenderFourStar lore={units.lore.evo4} unitImage={units.image} unitEvo={units.evolution} />} />
-                            <Route path="fivestar" element={<RenderFiveStar lore={units.lore.evo5} unitImage={units.image} unitEvo={units.evolution} />} />
-                            <Route path="awaken" element={<RenderAwaken lore={units.lore.evoawk} unitImage={units.image} unitEvo={units.evolution} />} />
-                            <Route path="super" element={<RenderSuper lore={units.lore.evosuper} unitImage={units.image} unitEvo={units.evolution} />} />
-                            </Route>
-                    <Route path="stats" element={<React.Fragment>
-                                                    <RenderStats unitName={units.name} unitStats={units.stats} 
-                                                    unitAtt={units.attribute} unitType={units.type} unitSkill={units.skillset} 
-                                                    unitPassive={units.passive} unitSlots={units.slots} unitImage={units.image}/>
-                                                    </React.Fragment>} />
-                    <Route path="trueweapon" element={<RenderTrue unitTrue={units} />} />
-                    </Route>
-                </Routes>
+                <UnitHome />
             </Container>
         </React.Fragment>
     )
 }
 
 function UnitHome() {
+    //Unit Info
+    const selectedUnit = useParams();
+    const units = getUnitByName(selectedUnit.unitName);
+
+    //Tabs
+    const [currentTab, setCurrentTab] = useState('2');
+    const toggle = tab => {
+        if (currentTab !== tab) setCurrentTab(tab);
+    }
+
     return (
         <Card style={{backgroundColor: "#292930", color: "#e7f9fc", paddingBottom: "2rem"}}>
             <center>
@@ -50,53 +38,45 @@ function UnitHome() {
                 <h2>Select a category to view Unit Information</h2>
             </CardHeader>
             <CardBody>
-                <Nav card="true" justified style={{backgroundColor: "#22bbff", color: "#292930", height: "4rem", marginTop: "1rem"}}>
-                <NavItem>
-                    <NavLink to="lore" style={({ isActive }) => ({
-                                            display: "flex",
-                                            justifyContent: "center",
-                                            alignItems: "center",
-                                            fontSize: "1.5rem",
-                                            height: "100%",
-                                            width: "100%",
-                                            padding: 0,
-                                            color: isActive ? '#292930' : '#e7f9fc',
-                                            textDecoration: isActive ? '' : 'none'})}>
-                        Lore
-                    </NavLink>
-                </NavItem>
-                <NavItem>
-                    <NavLink to="stats" style={({ isActive }) => ({
-                                                display: "flex",
-                                                justifyContent: "center",
-                                                alignItems: "center",
-                                                fontSize: "1.5rem",
-                                                height: "100%",
-                                                width: "100%",
-                                                padding: 0,
-                                                color: isActive ? '#292930' : '#e7f9fc',
-                                                textDecoration: isActive ? '' : 'none'})}>
-                        Stats
-                    </NavLink>
-                </NavItem>
-                <NavItem>
-                    <NavLink to="trueweapon" style={({ isActive }) => ({
-                                                    display: "flex",
-                                                    justifyContent: "center",
-                                                    alignItems: "center",
-                                                    fontSize: "1.5rem",
-                                                    height: "100%",
-                                                    width: "100%",
-                                                    padding: 0,
-                                                    color: isActive ? '#292930' : '#e7f9fc',
-                                                    textDecoration: isActive ? '' : 'none'})}>
-                        True Weapon
-                    </NavLink>
-                </NavItem>
+                <Nav pills justified>
+                    <NavItem>
+                        <NavLink 
+                            className={classNames({ active: currentTab === '1' })}
+                            onClick={() => { toggle('1') }}
+                            >
+                            Lore
+                        </NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink 
+                            className={classNames({ active: currentTab === '2' })}
+                            onClick={() => { toggle('2') }}>
+                            Stats
+                        </NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink 
+                            className={classNames({ active: currentTab === '3' })}
+                            onClick={() => { toggle('3') }}>
+                            True Weapon
+                        </NavLink>
+                    </NavItem>
                 </Nav>
+                <TabContent activeTab={currentTab} >
+                    <TabPane tabId="1">
+                        <RenderLore unitLore={units.lore} unitImage={units.image} unitName={units.name} unitEvolution={units.evolution} />
+                    </TabPane>
+                    <TabPane tabId="2">
+                        <RenderStats unitName={units.name} unitStats={units.stats} 
+                                                    unitAtt={units.attribute} unitType={units.type} unitSkill={units.skillset} 
+                                                    unitPassive={units.passive} unitSlots={units.slots} unitImage={units.image}/>
+                    </TabPane>
+                    <TabPane tabId="3">
+                        <RenderTrue unitTrue={units} />
+                    </TabPane>
+                </TabContent>
             </CardBody>
             </center>
-            <Outlet />
         </Card>
     )
 }
@@ -107,208 +87,326 @@ const unitSize = {
     height: "auto"
 }
 
-function RenderLore({unitName, unitLore, unitImage}) {
-    //Use If statements to check if unitlore.evo# exists? , then display information? https://ui.dev/react-router-nested-routes/
-    //Redo Links as NAvbars?
-    //Check down list and return based on the earliest available evolution
-    
-    //Check if Awk Exists
-    if(unitLore.evoawk){
-        if(unitLore.evo2) {
-            return (
-                <React.Fragment>
-                    <center><h1><strong>{unitName}</strong></h1></center>
-                    <p><center>Select an Evolution to view the Lore</center></p>
-                    <center>
-                        <Nav justified>
+function RenderLore({unitName, unitLore, unitImage, unitEvolution}) {
+    //Tabs
+    const [currentTab, setCurrentTab] = useState('1');
+    const toggle = tab => {
+        if (currentTab !== tab) setCurrentTab(tab);
+    }
+
+    return (
+        <>
+            <center><h1><strong>{unitName}</strong></h1></center>
+            <p><center>Select an Evolution to view the Lore</center></p>
+
+            <Nav pills justified>
+                { unitImage.thumb2 ? 
                             <NavItem>
-                                <Link to="twostar" activeClassName="active">
+                                <NavLink 
+                                    className={classNames({ active: currentTab === '2' })}
+                                    onClick={() => { toggle('2') }}>
                                     <Media src={unitImage.thumb2} style={unitSize}/>
-                                </Link>
-                            </NavItem>
-                            <NavItem>
-                                <Link to="threestar" activeClassName="active">
-                                    <Media src={unitImage.thumb3} style={unitSize}/>
-                                </Link>
-                            </NavItem>
-                            <NavItem>
-                                <Link to="fourstar" activeClassName="active">
-                                    <Media src={unitImage.thumb4} style={unitSize}/>
-                                </Link>
-                            </NavItem>
-                            <NavItem>
-                            <Link to="fivestar" activeClassName="active">
-                                    <Media src={unitImage.thumb5} style={unitSize}/>
-                                </Link>
-                            </NavItem>
-                            <NavItem>
-                            <Link to="awaken" activeClassName="active">
-                                    <Media src={unitImage.thumbawk} style={unitSize}/>
-                                </Link>
-                            </NavItem>
-                        </Nav>
-                    </center>
-                    <Outlet />
-                </React.Fragment>
-            )
-        }
-    
-        if(unitLore.evo3) {
-            return (
-                <React.Fragment>
-                    <center><h1><strong>{unitName}</strong></h1></center>
-                    <p><center>Select an Evolution to view the Lore</center></p>
-                    <center>
-                        <Nav justified>
-                            <NavItem>
-                                <Link to="threestar" activeClassName="active">
-                                    <Media src={unitImage.thumb3} style={unitSize}/>
-                                </Link>
-                            </NavItem>
-                            <NavItem>
-                                <Link to="fourstar" activeClassName="active">
-                                    <Media src={unitImage.thumb4} style={unitSize}/>
-                                </Link>
-                            </NavItem>
-                            <NavItem>
-                            <Link to="fivestar" activeClassName="active">
-                                    <Media src={unitImage.thumb5} style={unitSize}/>
-                                </Link>
-                            </NavItem>
-                            <NavItem>
-                            <Link to="awaken" activeClassName="active">
-                                    <Media src={unitImage.thumbawk} style={unitSize}/>
-                                </Link>
-                            </NavItem>
-                        </Nav>
-                    </center>
-                    <Outlet />
-                </React.Fragment>
-            )
-        }
-    
-        if(unitLore.evo4) {
-            return (
-                <React.Fragment>
-                    <center><h1><strong>{unitName}</strong></h1></center>
-                    <p><center>Select an Evolution to view the Lore</center></p>
-                    <center>
-                        <Nav justified>
-                            <NavItem>
-                                <Link to="fourstar" activeClassName="active">
-                                    <Media src={unitImage.thumb4} style={unitSize}/>
-                                </Link>
-                            </NavItem>
-                            <NavItem>
-                            <Link to="fivestar" activeClassName="active">
-                                    <Media src={unitImage.thumb5} style={unitSize}/>
-                                </Link>
-                            </NavItem>
-                            <NavItem>
-                            <Link to="awaken" activeClassName="active">
-                                    <Media src={unitImage.thumbawk} style={unitSize}/>
-                                </Link>
-                            </NavItem>
-                        </Nav>
-                    </center>
-                    <Outlet />
-                </React.Fragment>
-            )
-        }
-    
-        if(unitLore.evo5) {
-            return (
-                <React.Fragment>
-                    <center><h1><strong>{unitName}</strong></h1></center>
-                    <p><center>Select an Evolution to view the Lore</center></p>
-                    <center>
-                        <Nav justified>
-                            <NavItem>
-                            <Link to="fivestar" activeClassName="active">
-                                    <Media src={unitImage.thumb5} style={unitSize}/>
-                                </Link>
-                            </NavItem>
-                            <NavItem>
-                            <Link to="awaken" activeClassName="active">
-                                    <Media src={unitImage.thumbawk} style={unitSize}/>
-                                </Link>
-                            </NavItem>
-                        </Nav>
-                    </center>
-                    <Outlet />
-                </React.Fragment>
-            )
-        }
+                                </NavLink>
+                            </NavItem> 
+                            : null
+                }
 
-        if(unitLore.evosuper) {
-            return (
-                <React.Fragment>
-                    <center><h1><strong>{unitName}</strong></h1></center>
-                    <p><center>Select an Evolution to view the Lore</center></p>
-                    <center>
-                        <Nav justified>
+                { unitImage.thumb3 ? 
                             <NavItem>
-                            <Link to="awaken" activeClassName="active">
+                                <NavLink 
+                                    className={classNames({ active: currentTab === '3' })}
+                                    onClick={() => { toggle('3') }}>
+                                    <Media src={unitImage.thumb3} style={unitSize}/>
+                                </NavLink>
+                            </NavItem> 
+                            : null
+                }
+
+                { unitImage.thumb4 ? 
+                            <NavItem>
+                                <NavLink 
+                                    className={classNames({ active: currentTab === '4' })}
+                                    onClick={() => { toggle('4') }}>
+                                    <Media src={unitImage.thumb4} style={unitSize}/>
+                                </NavLink>
+                            </NavItem> 
+                            : null
+                }
+
+                { unitImage.thumb5 ? 
+                            <NavItem>
+                                <NavLink 
+                                    className={classNames({ active: currentTab === '5' })}
+                                    onClick={() => { toggle('5') }}>
+                                    <Media src={unitImage.thumb5} style={unitSize}/>
+                                </NavLink>
+                            </NavItem> 
+                            : null
+                }
+
+                { unitImage.thumbawk ? 
+                            <NavItem>
+                                <NavLink 
+                                    className={classNames({ active: currentTab === '6' })}
+                                    onClick={() => { toggle('6') }}>
                                     <Media src={unitImage.thumbawk} style={unitSize}/>
-                                </Link>
-                            </NavItem>
+                                </NavLink>
+                            </NavItem> 
+                            : null
+                }
+
+                { unitImage.thumbsuper ? 
                             <NavItem>
-                            <Link to="super" activeClassName="active">
+                                <NavLink 
+                                    className={classNames({ active: currentTab === '7' })}
+                                    onClick={() => { toggle('7') }}>
                                     <Media src={unitImage.thumbsuper} style={unitSize}/>
-                                </Link>
-                            </NavItem>
-                        </Nav>
-                    </center>
-                    <Outlet />
-                </React.Fragment>
-            )
-        }
-    }
-    
-    if(unitLore.evo5){
-        if(unitLore.evo4) {
-            return (
-                <React.Fragment>
-                    <center><h1><strong>{unitName}</strong></h1></center>
-                    <p><center>Select an Evolution to view the Lore</center></p>
-                    <center>
-                        <Nav justified>
-                            <NavItem>
-                                <Link to="fourstar" activeClassName="active">
-                                    <Media src={unitImage.thumb4} style={unitSize}/>
-                                </Link>
-                            </NavItem>
-                            <NavItem>
-                            <Link to="fivestar" activeClassName="active">
-                                    <Media src={unitImage.thumb5} style={unitSize}/>
-                                </Link>
-                            </NavItem>
-                        </Nav>
-                    </center>
-                    <Outlet />
-                </React.Fragment>
-            )
-        }
+                                </NavLink>
+                            </NavItem> 
+                            : null
+                }
+            </Nav>
+            <TabContent activeTab={currentTab}>
+                { unitImage.thumb2 ? 
+                            <TabPane tabId="2">
+                                <RenderTwoStar lore={unitLore.evo2} unitImage={unitImage} unitEvo={unitEvolution} />
+                            </TabPane>
+                            : null            
+                }
 
-        if(unitLore.evo5) {
-            return (
-                <React.Fragment>
-                    <center><h1><strong>{unitName}</strong></h1></center>
-                    <p><center>Select an Evolution to view the Lore</center></p>
-                    <center>
-                        <Nav justified>
-                            <NavItem>
-                            <Link to="fivestar" activeClassName="active">
-                                    <Media src={unitImage.thumb5} style={unitSize}/>
-                                </Link>
-                            </NavItem>
-                        </Nav>
-                    </center>
-                    <Outlet />
-                </React.Fragment>
-            )
-        }
-    }
+                { unitImage.thumb3 ? 
+                            <TabPane tabId="3">
+                                <RenderThreeStar lore={unitLore.evo3} unitImage={unitImage} unitEvo={unitEvolution} />
+                            </TabPane>
+                            : null            
+                }
+
+                { unitImage.thumb4 ? 
+                            <TabPane tabId="4">
+                                <RenderFourStar lore={unitLore.evo4} unitImage={unitImage} unitEvo={unitEvolution} />
+                            </TabPane>
+                            : null            
+                }
+
+                { unitImage.thumb5 ? 
+                            <TabPane tabId="5">
+                                <RenderFiveStar lore={unitLore.evo5} unitImage={unitImage} unitEvo={unitEvolution} />
+                            </TabPane>
+                            : null            
+                }
+
+                { unitImage.thumbawk ? 
+                            <TabPane tabId="6">
+                                <RenderAwaken lore={unitLore.evoawk} unitImage={unitImage} unitEvo={unitEvolution} />
+                            </TabPane>
+                            : null            
+                }
+
+                { unitImage.thumbsuper ? 
+                            <TabPane tabId="7">
+                                <RenderSuper lore={unitLore.evosuper} unitImage={unitImage} unitEvo={unitEvolution} />
+                            </TabPane>
+                            : null            
+                }
+            </TabContent>
+        </>
+    )
+    // if(unitLore.evoawk){
+    //     if(unitLore.evo2) {
+    //         return (
+    //             <React.Fragment>
+    //                 <center><h1><strong>{unitName}</strong></h1></center>
+    //                 <p><center>Select an Evolution to view the Lore</center></p>
+    //                 <center>
+    //                     <Nav justified>
+    //                         <NavItem>
+    //                             <Link to="twostar" activeClassName="active">
+    //                                 <Media src={unitImage.thumb2} style={unitSize}/>
+    //                             </Link>
+    //                         </NavItem>
+    //                         <NavItem>
+    //                             <Link to="threestar" activeClassName="active">
+    //                                 <Media src={unitImage.thumb3} style={unitSize}/>
+    //                             </Link>
+    //                         </NavItem>
+    //                         <NavItem>
+    //                             <Link to="fourstar" activeClassName="active">
+    //                                 <Media src={unitImage.thumb4} style={unitSize}/>
+    //                             </Link>
+    //                         </NavItem>
+    //                         <NavItem>
+    //                         <Link to="fivestar" activeClassName="active">
+    //                                 <Media src={unitImage.thumb5} style={unitSize}/>
+    //                             </Link>
+    //                         </NavItem>
+    //                         <NavItem>
+    //                         <Link to="awaken" activeClassName="active">
+    //                                 <Media src={unitImage.thumbawk} style={unitSize}/>
+    //                             </Link>
+    //                         </NavItem>
+    //                     </Nav>
+    //                 </center>
+    //                 <Outlet />
+    //             </React.Fragment>
+    //         )
+    //     }
+    
+    //     if(unitLore.evo3) {
+    //         return (
+    //             <React.Fragment>
+    //                 <center><h1><strong>{unitName}</strong></h1></center>
+    //                 <p><center>Select an Evolution to view the Lore</center></p>
+    //                 <center>
+    //                     <Nav justified>
+    //                         <NavItem>
+    //                             <Link to="threestar" activeClassName="active">
+    //                                 <Media src={unitImage.thumb3} style={unitSize}/>
+    //                             </Link>
+    //                         </NavItem>
+    //                         <NavItem>
+    //                             <Link to="fourstar" activeClassName="active">
+    //                                 <Media src={unitImage.thumb4} style={unitSize}/>
+    //                             </Link>
+    //                         </NavItem>
+    //                         <NavItem>
+    //                         <Link to="fivestar" activeClassName="active">
+    //                                 <Media src={unitImage.thumb5} style={unitSize}/>
+    //                             </Link>
+    //                         </NavItem>
+    //                         <NavItem>
+    //                         <Link to="awaken" activeClassName="active">
+    //                                 <Media src={unitImage.thumbawk} style={unitSize}/>
+    //                             </Link>
+    //                         </NavItem>
+    //                     </Nav>
+    //                 </center>
+    //                 <Outlet />
+    //             </React.Fragment>
+    //         )
+    //     }
+    
+    //     if(unitLore.evo4) {
+    //         return (
+    //             <React.Fragment>
+    //                 <center><h1><strong>{unitName}</strong></h1></center>
+    //                 <p><center>Select an Evolution to view the Lore</center></p>
+    //                 <center>
+    //                     <Nav justified>
+    //                         <NavItem>
+    //                             <Link to="fourstar" activeClassName="active">
+    //                                 <Media src={unitImage.thumb4} style={unitSize}/>
+    //                             </Link>
+    //                         </NavItem>
+    //                         <NavItem>
+    //                         <Link to="fivestar" activeClassName="active">
+    //                                 <Media src={unitImage.thumb5} style={unitSize}/>
+    //                             </Link>
+    //                         </NavItem>
+    //                         <NavItem>
+    //                         <Link to="awaken" activeClassName="active">
+    //                                 <Media src={unitImage.thumbawk} style={unitSize}/>
+    //                             </Link>
+    //                         </NavItem>
+    //                     </Nav>
+    //                 </center>
+    //                 <Outlet />
+    //             </React.Fragment>
+    //         )
+    //     }
+    
+    //     if(unitLore.evo5) {
+    //         return (
+    //             <React.Fragment>
+    //                 <center><h1><strong>{unitName}</strong></h1></center>
+    //                 <p><center>Select an Evolution to view the Lore</center></p>
+    //                 <center>
+    //                     <Nav justified>
+    //                         <NavItem>
+    //                         <Link to="fivestar" activeClassName="active">
+    //                                 <Media src={unitImage.thumb5} style={unitSize}/>
+    //                             </Link>
+    //                         </NavItem>
+    //                         <NavItem>
+    //                         <Link to="awaken" activeClassName="active">
+    //                                 <Media src={unitImage.thumbawk} style={unitSize}/>
+    //                             </Link>
+    //                         </NavItem>
+    //                     </Nav>
+    //                 </center>
+    //                 <Outlet />
+    //             </React.Fragment>
+    //         )
+    //     }
+
+    //     if(unitLore.evosuper) {
+    //         return (
+    //             <React.Fragment>
+    //                 <center><h1><strong>{unitName}</strong></h1></center>
+    //                 <p><center>Select an Evolution to view the Lore</center></p>
+    //                 <center>
+    //                     <Nav justified>
+    //                         <NavItem>
+    //                         <Link to="awaken" activeClassName="active">
+    //                                 <Media src={unitImage.thumbawk} style={unitSize}/>
+    //                             </Link>
+    //                         </NavItem>
+    //                         <NavItem>
+    //                         <Link to="super" activeClassName="active">
+    //                                 <Media src={unitImage.thumbsuper} style={unitSize}/>
+    //                             </Link>
+    //                         </NavItem>
+    //                     </Nav>
+    //                 </center>
+    //                 <Outlet />
+    //             </React.Fragment>
+    //         )
+    //     }
+    // }
+    
+    // if(unitLore.evo5){
+    //     if(unitLore.evo4) {
+    //         return (
+    //             <React.Fragment>
+    //                 <center><h1><strong>{unitName}</strong></h1></center>
+    //                 <p><center>Select an Evolution to view the Lore</center></p>
+    //                 <center>
+    //                     <Nav justified>
+    //                         <NavItem>
+    //                             <Link to="fourstar" activeClassName="active">
+    //                                 <Media src={unitImage.thumb4} style={unitSize}/>
+    //                             </Link>
+    //                         </NavItem>
+    //                         <NavItem>
+    //                         <Link to="fivestar" activeClassName="active">
+    //                                 <Media src={unitImage.thumb5} style={unitSize}/>
+    //                             </Link>
+    //                         </NavItem>
+    //                     </Nav>
+    //                 </center>
+    //                 <Outlet />
+    //             </React.Fragment>
+    //         )
+    //     }
+
+    //     if(unitLore.evo5) {
+    //         return (
+    //             <React.Fragment>
+    //                 <center><h1><strong>{unitName}</strong></h1></center>
+    //                 <p><center>Select an Evolution to view the Lore</center></p>
+    //                 <center>
+    //                     <Nav justified>
+    //                         <NavItem>
+    //                         <Link to="fivestar" activeClassName="active">
+    //                                 <Media src={unitImage.thumb5} style={unitSize}/>
+    //                             </Link>
+    //                         </NavItem>
+    //                     </Nav>
+    //                 </center>
+    //                 <Outlet />
+    //             </React.Fragment>
+    //         )
+    //     }
+    // }
 }
 
 export default UnitDetails;
