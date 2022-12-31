@@ -24939,6 +24939,136 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global.",
                 evosuper: "Currently unreleased in Global."
             }
+    },
+    { // Ainz - Missing Lore
+        id: 107697512,
+        name: "Ainz",
+        attribute: "Dark",
+        type: "Demon",
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_107696512.png",
+                detailsuper: "/db/Units/Detail/unit_detail_107697512.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107696512.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107697512.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/healLB.png",
+                slot32type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats: 
+            {
+                hp: 7040,
+                hpplus: 1330,
+                atk: 4062,
+                atkplus: 700,
+                def: 3076,
+                defplus: 636
+            },
+        skillset: 
+            {
+                skill: `12s CT - 2500% Dark DMG (MAG). For 10s, reduce enemies' MAG RES by 20%.`,
+                skillbreak: 400,
+                arts: `20000% Dark DMG (MAG). 100% chance to inflict Burn. If enemy is burned by this Arts, for 15s, reduce burned enemies' Fire RES and Dark RES by 40%.`,
+                artsbreak: 900,
+                truearts: `50000% Dark DMG (MAG). For 20s, increase Allies' Arts gauge by 4/s. For Demon Allies, increase Arts gauge by 6/s instead. For 25s, reduce Enemies' CRIT RES by 100%.`,
+                trueartsbreak: 1200,
+                superarts: `150000% Dark DMG (MAG). For 15s, increase all allies' CRI DMG by 100%. Increase Dark allies' CRI DMG by 200% instead.`,
+                superartsbreak: 2000
+            },
+        passive: 
+            {
+                ability1: `When HP is above 80%, increase own Arts by 5/s.`,
+                ability2: `Increase MAG RES by 20%.`,
+                ability3: `Increase Allies' Critical Rate by 20%. `
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131455.png",
+                    mat2amt: 100,
+                    hover2: "Sinful Pearls"
+                }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { // Narberal - Missing Lore
+        id: 107727412,
+        name: "Narberal",
+        attribute: "Light",
+        type: "Demon",
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_107726412.png",
+                detailsuper: "/db/Units/Detail/unit_detail_107727412.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107726412.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107727412.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/suppLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/magLB.png",
+                slot32type: "/db/Mines/thumbnail/healLB.png"
+            },
+        stats: 
+            {
+                hp: 8118,
+                hpplus: 1474,
+                atk: 3168,
+                atkplus: 626,
+                def: 2875,
+                defplus: 550
+            },
+        skillset: 
+            {
+                skill: `10s CT - 1800% Light DMG (MAG). For 8s, increase Demon Allies' DMG by 30%.`,
+                skillbreak: 400,
+                arts: `13000% Light DMG (MAG). Increase Allies' Arts by 20. Increase Demon Allies' Arts by 30 instead. For 20s, increase Allies' MAG RES by 30%.`,
+                artsbreak: 600,
+                truearts: `940000% Light DMG (MAG). For 25s, increase Allies' stats by 30%, and increase Leader Unit's Arts DMG by 200% & DMG RES by 30%.`,
+                trueartsbreak: 1200,
+                superarts: `130000% Light DMG (MAG). For 20s, reduce enemies' MAG RES by 100%.`,
+                superartsbreak: 1400
+            },
+        passive: 
+            {
+                ability1: `At the start of a Quest, increase Demon Allies' Arts gauge by 50.`,
+                ability2: `Increase Paralysis RES by 70%.`,
+                ability3: `Increase DMG to Dragon Enemies by 30%.`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
+                    mat2amt: 100,
+                    hover2: "God's Spirit Orb"
+                }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
     }
 
 ];
