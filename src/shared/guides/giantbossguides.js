@@ -15,7 +15,7 @@ const GiantBossGuides = [
 ]
 
 export function getGiantBossGuides() {
-    return BossGuides;
+    return GiantBossGuides;
 }
 
 //Using == instead of === to match string to num
