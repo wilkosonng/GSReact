@@ -34,7 +34,7 @@ export function RenderTrue({unitTrue}) {
                 <React.Fragment>
                     <Card style={trueCard}>
                         <CardHeader>
-                            <Nav tabs justified>
+                            <Nav pills justified>
                                 <NavItem>
                                     <NavLink className={classnames({ active: currentTab === '1' })}
                                         onClick={() => {toggle('1')}} >
@@ -141,7 +141,7 @@ export function RenderTrue({unitTrue}) {
                 <React.Fragment>
                     <Card style={trueCard}>
                         <CardHeader>
-                            <Nav tabs justified>
+                            <Nav pills justified>
                                 <NavItem>
                                     <NavLink className={classnames({ active: currentTab === '1' })}
                                         onClick={() => {toggle('1')}} >
