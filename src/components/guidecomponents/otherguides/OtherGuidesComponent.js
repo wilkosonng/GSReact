@@ -18,7 +18,7 @@ export default function DisplayGuide () {
                     <CardBody>
                         <center>
                             <p style={{height: "auto"}}><div dangerouslySetInnerHTML={{ __html: guideArticle.article }} /></p>
-                            <a href="/guides/other-guides" style={{backgroundColor: "#29648a", color: "#aaabb8", textDecoration: "none"}}>Return to Guides</a>
+                            <a href="/guides/other-guides"><button style={{backgroundColor: "#29648a", color: "#aaabb8", textDecoration: "none"}}>Return to Guides</button></a>
                         </center>
                     </CardBody>
                 </Card>
