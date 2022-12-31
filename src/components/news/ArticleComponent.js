@@ -18,7 +18,7 @@ export default function Article () {
                     <CardBody>
                         <center>
                             <p><div dangerouslySetInnerHTML={{ __html: newsArticle.article }} /></p>
-                            <a href="/news" style={{backgroundColor: "#22bbff", color: "#292930", textDecoration: "none"}}>Return to News</a>
+                            <a href="/news"><button style={{backgroundColor: "#22bbff", color: "#292930" }}>Return to News</button></a>
                         </center>
                     </CardBody>
                 </Card>
