@@ -1473,11 +1473,11 @@ const UnitInformation = [
         type: "Demon",
         image: 
             {
-                detail3: "/db/Units/Detail/unit_detail_10065312.png",
+                detail3: "/db/Units/Detail/unit_detail_100653512.png",
                 detail4: "/db/Units/Detail/unit_detail_100654512.png",
                 detail5: "/db/Units/Detail/unit_detail_100655512.png",
                 detailawk: "/db/Units/Detail/unit_detail_100656512.png",
-                thumb3: "/db/Units/Thumbnail/unit_thumbnail_10065312.png",
+                thumb3: "/db/Units/Thumbnail/unit_thumbnail_100653512.png",
                 thumb4: "/db/Units/Thumbnail/unit_thumbnail_100654512.png",
                 thumb5: "/db/Units/Thumbnail/unit_thumbnail_100655512.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_100656512.png"
