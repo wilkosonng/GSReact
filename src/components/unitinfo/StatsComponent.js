@@ -66,7 +66,7 @@ function RenderSlots({ unitSlots }) {
                         <center><h4>{unitSlots.slot3}☆<br/>
                             {
                             unitSlots.slot31type ? <><Media src={unitSlots.slot31type} style={lbIconSize} /><br />/ <br/><Media src={unitSlots.slot32type} style={lbIconSize} /></>
-                            : <Media src={unitSlots.slot2type} style={lbIconSize} /> 
+                            : <Media src={unitSlots.slot3type} style={lbIconSize} /> 
                             }
                         </h4></center>
                     </th>
@@ -97,7 +97,7 @@ function RenderSkills({ unitSkill }) {
             </Row>
 
 
-            { unitSkill.trueartsbreak ? 
+            { unitSkill.trueartsbreak || unitSkill.trueartsbreak === 0 ? 
                 <Row>
                     <h3><strong>TRUE ARTS</strong></h3>
                     <p><Badge color="primary" pill>BREAK {unitSkill.trueartsbreak}</Badge> {unitSkill.truearts}</p>
