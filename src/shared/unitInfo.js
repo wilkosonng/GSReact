@@ -19798,7 +19798,7 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
     },
-    { // Cosmo - Missing Lore
+    { // Cosmo - Complete
         id: 103626412,
         name: "Cosmo",
         attribute: "Light",
@@ -19861,7 +19861,7 @@ const UnitInformation = [
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: "Rising Z",
+                name: "Soaring Z",
                 slot: "/db/Mines/thumbnail/magLB.png",
                 detail: "/db/Equipment/Detail/item_detail_110551.png",
                 skill: "40s CT - 8000% Light DMG (MAG). For 10s, increase own Light DMG and Skill CT REC by 50%.",
@@ -19874,8 +19874,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "A soldier of the Bamint Principality. Formerly affiliated with the Rose Garden Knights, Mira reassigned her to the general affairs bureau where she now oversees everything from budgeting to large-scale construction projects. As competent as she is, her solicitous nature causes her to shoulder too many tasks. She claims playing the guitar is a mere hobby, but it ends up taking most of her free time since she relieves stress that way. Just the thought of laying down sweet licks with her trusty Soaring Z sustains her through the daily grind.",
+                evoawk: "A Bamint military officer and aspiring guitarist. Personal lessons from underground rock legend Kane has seen her talent improve by leaps and bounds. Her performances are more emotional than technical, but they have an undeniable groove that even leaves her tutor gobsmacked at times. She respect their student-teacher relationship, but that has not cooled her desire to challenge him to a head-to-head guitar duel one day."
             }
     },
     { // Kirisame - Missing Lore
