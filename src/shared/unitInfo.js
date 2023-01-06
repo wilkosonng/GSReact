@@ -17118,7 +17118,7 @@ const UnitInformation = [
                 skillbreak: 500,
                 arts: "13000% Dark DMG (PHY). For 15s, increase Allies' max HP by 30%.",
                 artsbreak: 1100,
-                truearts: "13000% Dark DMG (PHY). For 15s, increase Allies' max HP by 30%..",
+                truearts: "40000% Dark DMG (PHY). For 15s, increase own Critical Rate and DMG by 100% + If a Magic Circle is present, increase Allies' Arts by 30.",
                 trueartsbreak: 2000
             },
         passive: 
