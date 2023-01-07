@@ -19801,6 +19801,8 @@ const UnitInformation = [
     { // Cosmo - Complete
         id: 103626412,
         name: "Cosmo",
+        rank: "A+",
+        twrequire: "favorable", 
         attribute: "Light",
         type: "Human",
         image: 
