@@ -20,6 +20,7 @@ import DotGuide from './components/guidecomponents/DotGuides';
 import DisplayTrialGuide from './components/guidecomponents/dotguides/DotGuidesComponent';
 import './App.css';
 import ScrollToTop from './components/ScrollComponent';
+import Equips from './components/equipment/EquipPage';
 
 class App extends Component {
   render() {
@@ -39,7 +40,8 @@ class App extends Component {
                     <Route path="units" element={<Units />} >
                       <Route index />
                     </Route>
-                    <Route path="units/:unitName/*" element={<UnitDetails />} />
+                    <Route path="units/:unitName" element={<UnitDetails />} />
+                    <Route path="testingrealmofequips/equips" element={<Equips />} />
                     <Route path="tierlist" element={<Tierlist />} />
                     <Route path="guides" element={<GuidesMainPage />} />
                     <Route path="guides/other-guides" element={<OtherGuides />} />
@@ -49,7 +51,7 @@ class App extends Component {
                     <Route path="guides/dungeon-of-trials" element={<DotGuide />} />
                     <Route path="guides/dungeon-of-trials/:articleId" element={<DisplayTrialGuide />} />
                     <Route exact path="guides/FAQ" element={<FAQGuide />} />
-                    <Route path="*" element={<p><center><h1>Under construction</h1></center></p>} />
+                    <Route path="*" element={<p><center><h1>Incorrect Link. Check to make sure the URL is correct</h1></center></p>} />
                   </Route>
                 </Routes>
               </div>
