@@ -21195,9 +21195,9 @@ const UnitInformation = [
                 evoawk: "A swordsman of the old shogunate army searching for the Ainu Gold. Despite being over 70 years old, his sword skills remain as sharp as in his youth. With a violent and thorny personality, he was nicknamed Baragaki as a child, after the Japanese word for thorns."
             }
     },
-    { //Rimuru (Slime) - Complete
+    { //Rimuru (Slime form) - Complete
         id: 107146212,
-        name: "Rimuru (Slime)",
+        name: "Rimuru (Slime form)",
         luckrank: "F",
         attribute: "Water",
         type: "Demon",
@@ -21259,9 +21259,9 @@ const UnitInformation = [
                 evoawk: "One who was reincarnated to a different world. By using his unique skills 'Great Sage' and 'Predator,' he gains various monsters' skills. Unexpectedly, he becomes the ruler of a Goblin village. Soon, he meets Shizue Izawa who comes from the same world and carries her fate."
             }
     },
-    { //Rimuru (Human) - Complete
+    { //Rimuru (Human form) - Complete
         id: 107156212,
-        name: "Rimuru (Human)",
+        name: "Rimuru (Human form)",
         attribute: "Water",
         rank: "A",
         type: "Demon",
@@ -21292,17 +21292,18 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "10s CT - 2800% Fire DMG (MAG).",
+                skill: "10s CT - 2800% Fire DMG (MAG). Increase own Arts gauge by 20.",
                 skillbreak: 1200,
-                arts: "Refresh Skill CT for all Allies + Cure Allies' status ailments (except Faint) and heal Allies by 30% of their max HP + For 10s, increase Allies' Status RES (except Faint) by 100%.",
+                arts: "Refresh Skill CT for all Allies + Cure Allies' status ailments (except Faint) and heal Allies by 35% of their max HP + For 10s, increase Allies' Status RES (except Faint) by 100%.",
                 artsbreak: 0,
-                truearts: "33000% Water DMG (MAG). Heal own HP by 3% of DMG dealt by this True Arts + For 15s, increase Allies' stats by 30%, increase Allies' Arts by 3/s.",
+                truearts: "40000% Water DMG (MAG). Heal own HP by 3% of DMG dealt by this True Arts + For 15s, increase Allies' stats by 30%, increase Allies' Arts by 4/s.",
                 trueartsbreak: 3700
             },
         passive: 
             {
                 ability1: "Increase Fire RES by 30%.",
-                ability2: "Increase Arts by 2/s. Increase Status RES (except Faint) by 30%."
+                ability2: "Increase Arts by 2/s. Increase Status RES (except Faint) by 30%.",
+                ability3: "Increase own Equip CT speed by 5%."
             }, 
         evolution: 
             {
@@ -21358,15 +21359,16 @@ const UnitInformation = [
             {
                 skill: "8s CT - 2500% Fire DMG (MAG). For 6s, increase own ATK by 30%.",
                 skillbreak: 1000,
-                arts: "13000% Fire DMG (MAG). For 4s, Enemies take [250 × DMG they inflict on this unit] DMG. For 15s, increase own Arts by 2/s.",
-                artsbreak: 2300,
-                truearts: "44000% Fire DMG (MAG). Increase DMG of this True Arts to Enemies in Break by 200% + For 15s, increase own Critical Rate by 100%.",
-                trueartsbreak: 4000
+                arts: "22000% Fire DMG (MAG). For 10s, Enemies take [250 × DMG they inflict on this unit] DMG. For 15s, increase own Arts by 2/s.",
+                artsbreak: 3500,
+                truearts: "60000% Fire DMG (MAG). Increase DMG of this True Arts to Enemies in Break by 200% + For 15s, increase own Critical Rate by 100%.",
+                trueartsbreak: 7000
             },
         passive: 
             {
                 ability1: "Whenever this unit takes damage more than 10% of its HP, increase Arts by 5.",
-                ability2: "Increase Freeze and Paralysis RES by 100%. DMG increases as HP of this unit decreases (up to a maximum of 50%)."
+                ability2: "Increase Freeze and Paralysis RES by 100%. DMG increases as HP of this unit decreases (up to a maximum of 50%).",
+                ability3: "Increase own DMG by 50% during Break."
             }, 
         evolution: 
             {
@@ -21420,17 +21422,18 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "8s CT - 1800% Fire DMG (PHY). Increase own Arts by 10.",
+                skill: "8s CT - 1800% Fire DMG (PHY). Increase own Arts by 30.",
                 skillbreak: 900,
-                arts: "15500% Fire DMG (MAG). For 20s, increase own Skill CT REC by 50%, increase own DMG by 30%.",
+                arts: "23000% Fire DMG (MAG). For 20s, increase own Skill CT REC by 50%, increase own DMG by 30%.",
                 artsbreak: 1800,
-                truearts: "42000% Fire DMG (MAG). High chance to inflict Burn + If this True Arts inflicts Burn, for 15s, reduce Burnt Enemies' MAG RES by 70%.",
+                truearts: "62000% Fire DMG (MAG). 100% chance to inflict Burn + If this True Arts inflicts Burn, for 20s, reduce Burnt Enemies' MAG RES by 80%.",
                 trueartsbreak: 3900
             },
         passive: 
             {
                 ability1: "When near-death, increase Arts by 2/s.",
-                ability2: "Increase Critical Rate by 50%. Heal HP by 100/s."
+                ability2: "Increase Critical Rate by 50%. Heal HP by 100/s.",
+                ability3: "At Start of Quest, increase own Arts gauge by 50."
             }, 
         evolution: 
             {
