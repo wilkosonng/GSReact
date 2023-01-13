@@ -17728,6 +17728,7 @@ const UnitInformation = [
     { //Vultee (Earth) - Missing Lore (GLB)
         id: 103316312,
         name: "Vultee (Earth)",
+        rank: "S",
         attribute: "Earth",
         type: "Human",
         image: 
@@ -18231,7 +18232,7 @@ const UnitInformation = [
     { //Summer Leone - Complete
         id: 103386312,
         name: "Summer Leone",
-        rank: "B+",
+        rank: "A-",
         attribute: "Earth",
         type: "Demon",
         image: 
