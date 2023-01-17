@@ -2,20 +2,21 @@
  * BASIC FORMAT
  * 
  * DO NOT FORGET COMMAS.
- * Add / Remove passives as needed
- * Types can be Physical, Magic, Defense, Support, or Healing
+ * Add / Remove passives as needed, but do NOT remove "ability1". 
+ * If no passive, either leave ability1 as ``, OR as "This Equip does not have a passive"
+ * Types can be physLB, magLB, defLB, suppLB, or healLB
  *         
     {
         id: 0,
         name: `Heal Ring`,
-        type: `Heal`,
+        type: `/db/Mines/thumbnail/healLB.png`,
         star: 3,
         image: 
             {
-                detail: `/db/Equipment/Detail/item_detail_100010`,
-                detailmax: `/db/Equipment/Detail/item_detail_100011`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100010`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100011`
+                detail: `/db/Equipment/Detail/item_detail_100010.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100011.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100010.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100011.png`
             },
         stats:
             {
@@ -40,16 +41,16 @@
 
 const EquipInformation = [
     { //Heal Ring - Missing Stats, Skillset, Star, Passive, Lore
-        id: 0,
+        id: 100010,
         name: `Heal Ring`,
-        type: `Heal`,
+        type: `/db/Mines/thumbnail/healLB.png`,
         star: 3,
         image: 
             {
-                detail: `/db/Equipment/Detail/item_detail_100010`,
-                detailmax: `/db/Equipment/Detail/item_detail_100011`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100010`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100011`
+                detail: `/db/Equipment/Detail/item_detail_100010.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100011.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100010.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100011.png`
             },
         stats:
             {
@@ -59,15 +60,14 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: ``,
-                break: ``
+                skill: `Does something`,
+                break: 0
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: `This Equip does not have any passive`
             },
-        lore: ``
+        lore: `Oh there is a lore`
     },
 ]
 
