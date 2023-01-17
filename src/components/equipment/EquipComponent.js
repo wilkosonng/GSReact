@@ -56,7 +56,7 @@ const EquipHome = () => {
 
             <TabContent activeTab={currentTab}>
                 <TabPane tabId="1">
-                    <EquipStats type={equips.type} skillset={equips.skillset} stats={equips.stats} passive={equips.passive} />
+                    <EquipStats type={equips.type} skillset={equips.skillset} stats={equips.stats} passive={equips.passive} star={equips.star} />
                 </TabPane>
                 <TabPane tabId="2">
                     <EquipLore lore={equips.lore} />

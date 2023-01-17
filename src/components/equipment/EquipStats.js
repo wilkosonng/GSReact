@@ -1,12 +1,10 @@
 import { Container, Badge, Row, Table, List } from 'reactstrap';
 
-const EquipStats = ({ skillset, stats, passive }) => {
+const EquipStats = ({ skillset, stats, passive, star }) => {
     return (
         <Container style={{marginTop: "1rem"}}>
             <center>
-                
-                
-                <RenderStats hp={stats.hp} atk={stats.atk} def={stats.def} />
+                <RenderStats hp={stats.hp} atk={stats.atk} def={stats.def} star={star} />
                 <RenderSkill skillbreak={skillset.break} skilleffect={skillset.skill} />
                 <RenderPassives passive={passive} />
             </center>
@@ -14,7 +12,7 @@ const EquipStats = ({ skillset, stats, passive }) => {
     )
 }
 
-const RenderStats = ({ hp, atk, def }) => {
+const RenderStats = ({ hp, atk, def, star }) => {
     return (
         <Row style={{ marginTop: "1rem" , marginBottom: "1rem"}}>
             <i>Stats and Skillset shown are based on Max Level and Max Limit Break</i>
@@ -30,15 +28,52 @@ const RenderStats = ({ hp, atk, def }) => {
                     <th>
                         <center>DEF</center>
                     </th>
+                    <th>
+                        <center>Rarity</center>
+                    </th>
                 </tr>
                 <tr>
                     <td><center>{hp}</center></td>
                     <td><center>{atk}</center></td>
                     <td><center>{def}</center></td>
+                    <td><center><RenderRarity rarity={star} /></center></td>
                 </tr>
             </Table></center>
         </Row>
     )
+}
+
+const RenderRarity = ({ rarity }) => {
+    switch(rarity) {
+        case 1: 
+            return (
+                <>
+                    ☆
+                </>
+            )
+        case 2:
+            return (
+                <>☆☆</>
+            )
+        case 3: 
+            return (
+                <>☆☆☆</>
+            )
+        case 4:
+            return (
+                <>☆☆☆☆</>
+            )
+        case 5:
+            return (
+                <>☆☆☆☆☆</>
+            )
+        case 6:
+            return (
+                <>☆☆☆☆☆☆</>
+            )
+        default:
+            return null;
+    }
 }
 
 const RenderSkill = ({ skillbreak, skilleffect }) => {
