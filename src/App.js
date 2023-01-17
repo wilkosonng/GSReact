@@ -21,6 +21,7 @@ import DisplayTrialGuide from './components/guidecomponents/dotguides/DotGuidesC
 import './App.css';
 import ScrollToTop from './components/ScrollComponent';
 import Equips from './components/equipment/EquipPage';
+import EquipDetails from './components/equipment/EquipComponent';
 
 class App extends Component {
   render() {
@@ -42,6 +43,7 @@ class App extends Component {
                     </Route>
                     <Route path="units/:unitName" element={<UnitDetails />} />
                     <Route path="testingrealmofequips/equips" element={<Equips />} />
+                    <Route path="testingrealmofequips/equips/:equipName" element={<EquipDetails />} />
                     <Route path="tierlist" element={<Tierlist />} />
                     <Route path="guides" element={<GuidesMainPage />} />
                     <Route path="guides/other-guides" element={<OtherGuides />} />
