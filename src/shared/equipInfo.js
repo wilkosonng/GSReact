@@ -283,7 +283,7 @@ const EquipInformation = [
         id: 100090,
         name: `Saint's Medal`,
         type: `/db/Mines/thumbnail/defLB.png`,
-        star: 3=1,
+        star: 1,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_100090.png`,
