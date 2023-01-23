@@ -20191,7 +20191,7 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
-    { // Star God Liza
+    { // Star God Liza - Missing Lore
         id: 103647412,
         name: "Star God Liza",
         attribute: "Light",
@@ -20261,6 +20261,84 @@ const UnitInformation = [
                     {
                         ability1: `When equipped by Star God Liza, increase all stats and Skill CT REC by 20%. Does not stack with Abilities of the same name.`,
                         ability2: `Increase MAG RES by 5%.`
+                    }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { // Long - Missing Lore
+        id: 103557212,
+        name: "Long",
+        attribute: "Water",
+        type: "Demon",
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_103556212.png",
+                detailsuper: "/db/Units/Detail/unit_detail_103557212.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103556212.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103557212.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/physLB.png",
+                slot32type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: 7056,
+                hpplus: 1333,
+                atk: 3725,
+                atkplus: 646,
+                def: 3234,
+                defplus: 666
+            },
+        skillset: 
+            {
+                skill: `10s CT - 2500% Water DMG (PHY). Increase own Arts by 30.`,
+                skillbreak: 600,
+                arts: `27000% Water DMG (PHY). 80% chance to inflict Disease if enemy is Bleeding.`,
+                artsbreak: 1000,
+                truearts: `80000% Water DMG (PHY). 100% chance to inflict Bleed. If the enemy is already Bleeding, increase its Bleed level by 1 (MAX: 3).`,
+                trueartsbreak: 1800,
+                superarts: `180000% Water DMG (PHY). For 25s, increase own ATK by 100% and reduce enemies' Water RES by 100%.`,
+                superartsbreak: 2500
+            },
+        passive: 
+            {
+                ability1: `Increase own DMG by 150% against enemies with Bleed Lv.2 or higher.`,
+                ability2: `Increase own Accuracy by 100% against enemies with Bleed Lv.3.`,
+                ability3: `Increase own Blind RES by 80%.`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_132152.png",
+                    mat2amt: 220,
+                    hover2: "Ice Spirit Orb"
+                }
+            },
+        trueweapon: //If no TW, may delete this section
+            {
+                name: `Yamata`,
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_111041.png",
+                skill: `45s CT - 8000% Water DMG (PHY). For 10s, reduce enemies' PHY RES by 30%. If user is Water, increase own Arts gauge by 20.`,
+                skillbreak: 500,
+                passive: 
+                    {
+                        ability1: `When equipped by Long, increase own DMG by 40%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase PHY RES by 5%.`
                     }
             },
         lore: 
