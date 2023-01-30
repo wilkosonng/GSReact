@@ -2,7 +2,7 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import { Container, Row, Card, CardHeader, CardBody } from  'reactstrap'
 import { getTrialGuidesById } from '../../../shared/guides/dotguides';
-import '../../../App.css'
+import './Dot.css'
 
 export default function DisplayTrialGuide() {
     const { articleId } = useParams();
@@ -19,6 +19,8 @@ export default function DisplayTrialGuide() {
                         <center>
                             <a href="/guides/dungeon-of-trials"><button style={{backgroundColor: "#22bbff", color: "#292930"}}>Return to DoT Guides</button></a>
                         </center>
+                        <br/>
+                        { guideArticle.author ? <center><i>Written by {guideArticle.author}</i></center> : null}
                         <p style={{height: "auto", marginTop: "2rem"}}><div dangerouslySetInnerHTML={{ __html: guideArticle.article }} /></p>
                         <center>
                             <a href="/guides/dungeon-of-trials"><button style={{backgroundColor: "#22bbff", color: "#292930"}}>Return to DoT Guides</button></a>
