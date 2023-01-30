@@ -31,8 +31,8 @@ export default function DotGuide() {
                                     <React.Fragment key={theGuides.id}>
                                         <Col>
                                             <Link to={`/guides/dungeon-of-trials/${theGuides.id}`} style={{textDecoration: 'none'}} key={theGuides.id}>
-                                                <Card style={{height: "75px", width: "75px", backgroundColor: "#202022", color: "#e7f9fc", marginBottom: "1rem"}}>
-                                                    <center><h1>{theGuides.id}</h1></center>
+                                                <Card style={{height: "75px", width: "75px", backgroundColor: "#202022", color: "#e7f9fc", marginBottom: "1rem", display: "flex", justifyContent: "center", alignItems: "center"}}>
+                                                    <h1>{theGuides.id}</h1>
                                                 </Card>
                                             </Link>
                                         </Col>
