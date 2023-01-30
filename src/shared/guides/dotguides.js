@@ -88,19 +88,398 @@ const TrialGuides = [
     { //Floor 21
         id: 21,
         title: "Floor 21",
+        author: `Nepko`,
         article: `
-            Put stuff here
+            <center><h2>Overview</h2></center>
+            <center><p>F21 is an old piece of content that used to be significantly harder in the past, but with the release of so many strong units today, 
+            it shouldn't be an issue as long as you adhere to the mechanics and at least have a decent pool of units and equipment. 
+            </center></p>
+            <br/>
+            <br/>
+
+            <b><h2><center>Before you begin...</center></h2></b>
+            <ul>
+                <li>All mobs in the waves before the boss have <span class="buffDebuff">High Evasion</span>. Accuracy-raising equipment are a recommendation, but not required</li>
+                <li>All mobs are immune to Physical Damage and have <span clas="buffDebuff">HP Regen</span>. Bring Magic units and ensure high damage or else the enemies will never die</li>
+            </ul>
+            <br/>
+            <br/>
+
+            <b><h2><center>Stage Mechanics</center></h2></b>
+            <b><h3><center>Mob Stages - Number 2</center></h3></b>
+            <p>You'll be fighting multiple Number 2 Units with increasing amount each stage</p>
+            <ul>
+                <li>Number 2 will <b>ONLY</b> take damage from Magic Attacks</li>
+                <li>Number 2 has <span class="buffDebuff">High Evasion</span> and <span class="buffDebuff">HP Regeneration</span></li>
+            </ul>
+            <br/>
+            <b><h3><center>Boss Stage - Number 2</center></h3></b>
+            <center><img src="/db/Units/Thumbnail/unit_thumbnail_101786512.png" alt="Number 2" /></center>
+            <ul>
+                <li>Notable Attacks</li>
+                    <ul>
+                        <li><b>True Arts - Endless</b> - Deals TYPELESS and ELEMENTLESS DMG
+                        <li><b>NOTE: </b>- Specific Type/Element Damage-decreasing equipment and effects will NOT work here</li>
+                    </ul>
+                <li>Passives</li>
+                    <ul>
+                        <li>High Evasion</li>
+                        <li>Physical Damage Immunity</li>
+                    </ul>
+            </ul>
+            <br/>
+            <br/>
+            <b><h2><center>Thresholds and Other Mechanics:</center></h2></b>
+            <ul>
+                <li>At Stage Entry - Immediately uses Endless. Ensure you use Damage Decreasing equipment</li>
+                <li>At Low HP - All arts attacks become Endless instead. Defeat her quickly once you get to this point</li>
+            </ul>
+
+            <br/>
+
+            <b><h2><center>Strategy</center></h2></b>
+            <ul>
+                <li>Taunt-Tanks will make this stage very easy as you can just stack Def equipment on them. </li>
+                <li>Bring potent damage reduction equipment and use them to tank Endless and bring Magic dps.</li>
+                <li>Having Accuracy Up will make things significantly easier so as to clear faster as the boss powers up at low health and you definitely want to clear as quickly as possible by then. </li>
+            </ul>
         `
+    },
+    { //Floor 22
+        id: 22,
+        title: "Floor 22",
+        author: "Nepko",
+        article: `
+            <center><h2>Overview</h2></center>
+            <center>
+                <p>Boss' main mechanic is increased damage against NOT burned targets.
+                Be sure to keep track of your status afflictions.</p>
+            </center>
+            <br/>
+
+            <b><h2><center>Before you begin...</center></h2></b>
+            <center>
+                <p>In this floor, it is essential to keep your units inflicted with Burn so they won't get destroyed by Clyde's Critical hits.</p>
+                <p>Do <b>NOT</b> bring any Cleanse of any sort or you risk cleansing the Burn and making your team vulnerable to Clyde's crits. </p>
+            </center>
+
+            <br/>
+            <br/>
+
+            <b><h2><center>Stage Mechanics</center></h2></b>
+            <b><h3><center>Mob Stages</center></h3></b>
+            <ul>
+                <li>Nothing special here. Use these mobs to prepare for Boss</li>
+            </ul>
+            <b><h3><center>Boss Stage - Clyde</center></h3></b>
+            <center><img src="/db/Units/Thumbnail/unit_thumbnail_100016111.png" alt="Clyde"/></center>
+            <br/>
+
+            <ul>
+                <li>Notable Attacks</li>
+                    <ul>
+                        <li>True Arts - Clyde will do immense damage. Be sure to use Defense Equips</li>
+                    </ul>
+                <li>Passives</li>
+                    <ul>
+                        <li>God Killer</li>
+                        <li>Demon Killer</li>
+                        <li>Guaranteed Critical on Burned units</li>
+                    </ul>
+            </ul>
+
+            <br/>
+            <br/>
+
+            <b><h2><center>Thresholds and Other Mechanics:</center></h2></b>
+            <ul>
+                <li>At 100% HP - 50% HP</li>
+                    <ul>
+                        <li>Able to be Damaged by <b>CRITICAL</b> attacks</li>
+                        <li>Immune to Non-critical Attacks</li>
+                    </ul>
+                <li>At 50% HP - 0% HP</li>
+                    <ul>
+                        <li>Able to be Damaged by <b>NON</b>-Critical attacks</li>
+                        <li>Immune to Critical Attacks</li>
+                    </ul>
+                <li>At 25% HP - Uses True Arts</li>
+                    <ul>
+                        <li>Very high damage. Be sure to use Defense Equipment</li>
+                    </ul>
+            </ul>
+            <br/>
+
+            <b><h2><center>Strategy</center></h2></b>
+            <ul>
+                <li>Volkans is the standard equipment to self-burn your tean, so it's nice to bring one or more of them though Clyde also burns your team periodically.</li>
+                <li>Be wary of Arts and True Arts that add 100% critical rate, as your units will be unable to damage Clyde after 50% HP</li>
+            </ul>
+        `
+    },
+    { //Floor 23
+        id: 23,
+        title: "Floor 23",
+        author: "Nepko",
+        article: `
+            <center><h2>Overview</h2></center>
+            <center><p>A floor with an HP flipping mechanic. It's important to NOT stay at 100% HP</p></center>
+
+            <br/>
+
+            <b><h2><center>Before you begin...</center></h2></b>
+            <center>
+                <p>Be wary of healing items and healing units as reaching 100% HP at the wrong time can cause you to potentially die</p>
+            </center>
+
+            <b><h2><center>Stage Mechanics</center></h2></b>
+            <b><h3><center>Mob Stages</center></h3></b>
+            <ul>
+                <li>Nothing special here. Use these stages to prepare for Boss</li>
+            </ul>
+            <b><h3><center>Boss Stage - Radachne</h3></b>
+            <center><img src="/db/Units/Thumbnail/unit_thumbnail_500101413.png" /></center>
+
+            <br/>
+
+            <ul>
+                <li>Notable Attacks</li>
+                    <ul>
+                        <li>Arts: Fallen Light - High Damage</li>
+                        <li>Arts: Heaven’s Shadow Needle “Rinne” - Inverts Unit's HP</li>
+                            <ul>
+                                <li>Example: If Unit is at 97% HP, it will invert to 3% HP</li>
+                                <li>NOTE: If Unit is at 100% HP, it will invert to 0% HP and kill your unit</li>
+                            </ul>
+                    </ul>
+                <li>Passives</li>
+                    <ul>
+                        <li>Human Killer</li>
+                        <li>Beast Killer</li>
+                        <li>Increase Critical Rate Resist by 100%</li>
+                        <li>Arts Drain - Attacks will sometimes drain units' arts gauge. Bypasses Barriers and Ignores Defense</li>
+                    </ul>
+            </ul>
+
+            <br/>
+            <br/>
+
+            <b><h2><center>Thresholds and Other Mechanics:</center></h2></b>
+            <ul>
+                <li>At 30% HP</li>
+                    <ul>
+                        <li>Gains <span class="buffDebuff">DMG UP</span></li>
+                        <li>Gains <span class="buffDebuff">Break Resist UP</span></li>
+                        <li>Gains <span class="buffDebuff">Action Speed UP</span></li>
+                        <li>Gains <span class="buffDebuff">Hit Stun Immunity</span></li>
+                        <li>Gains <span class="buffDebuff">Increased Arts Damage</span></li>
+                    </ul>
+            </ul>
+            <br/>
+
+            <b><h2><center>Strategy</center></h2></b>
+            <ul>
+                <li>Ensure units are NOT at 100% HP as it may suddenly flip to 0%</li>
+                <li>Burst down Radachne after the 30% HP threshold, as the damage increase is significant</li>
+            </ul>
+        `
+    },
+    { //Floor 24
+        id: 24,
+        title: "Floor 24",
+        author: "Nepko",
+        article: `
+            <center><h2>Overview</h2></center>
+            <p>Oldeus main mechanic in this fight is his Shield bar that prevents him from dying unless depleted. Bringing his HP to 0 while his Shield Bar is still up, additionally, results in your team getting oneshot. This floor will be a matter of depleting his Shield in the few times it's vulnerable to attack.</p>
+            <br/>
+
+            <b><h2><center>Before you begin...</center></h2></b>
+            <center>
+                <p>A well-balanced team is recommended here. Understand your Units' skillsets and this should prove no challenge to you</p>
+            </center>
+
+            <br/>
+            <br/>
+
+            <b><h2><center>Stage Mechanics</center></h2></b>
+            <b><h3><center>Mob Stages</center></h3></b>
+            <ul>
+                <li>Nothing special here. Use these stages to prepare for the boss</li>
+            </ul>
+
+            <b><h3><center>Boss Stage - Oldeus</center></h3></b>
+            <center><img src="/db/Units/Thumbnail/unit_thumbnail_500061513.png" alt="Oldeus" /></center>
+
+            <br/>
+
+            <ul>
+                <li>Notable Attacks</li>
+                    <ul>
+                        <li>Arts: Sengoku Resistance - Oldeus lifesteals HP on use, and has a chance of inflicting <span class="buffDebuff>Blind</span> status.</li>
+                        <li>Arts: Violet Shaking - Accumulates damage taken, then sends it back to units</li>
+                        <li>Arts: Soul Erase - Instantly kills all units. Used if final Shield is not broken in time.</li>
+                    </ul>
+                <li>Passives</li>
+                    <ul>
+                        <li>Accuracy UP</li>
+                        <li>Chance to Critical</li>
+                        <li>Lifesteal - Only when Oldeus uses Arts</li>
+                        <li>Arts Drain</li>
+                    </ul>
+            </ul>
+
+            <br/>
+            <br/>
+
+            <b><h2><center>Thresholds and Other Mechanics:</center></h2></b>
+            <ul>
+                <li>At 75% HP & 50% HP - Oldeus reveals his Shield for a short duration and starts counting DMG taken.</li>
+                <ul>
+                    <li>After the duration is over, uses <b>Arts: Violet Shaking</b>.</li>
+                    <li>Damage dealt increases proportional to the damage you inflicted on the Shield and ignores everything including barriers and damage reduction.</li>
+                    <li>This can oneshot your whole team if you deal too much damage, so control your dps output.</li>
+                </ul>
+                <li>At 30% HP - Gains <span class="buffDebuff">DMG UP</span> and <span class="buffDebuff">Break Resist UP</span></li>
+                <li>At 0% HP - Reveals his Shield one last time</li>
+                <ul>
+                    <li>You are free to hit it as hard as you can without fear of damage reflection as Oldeus does not use Violet Shaking after this. </li>
+                    <li>Fail to deplete the shield at this point and the boss will oneshot you with Soul Erase.</li>
+                </ul>
+            </ul>
+
+            <br/>
+
+            <b><h2><center>Strategy</center></h2></b>
+            <ul>
+                <li>The shield mechanic of this boss is the only complicated part of this fight. </li>
+                    <ul>
+                        <li>NOTE: The boss will not count DMG taken while in BREAK if you break the boss <b>BEFORE</b> the shield reveals. A good strategy is to Break the boss before the Shield comes up so you can hit it with everything you've got while he is in a BREAK state.</li>
+                    </ul>
+                <li>The boss' regular attacks and arts don't do too much damage, so all you have to do is control your damage when depleting the shield whenever it is revealed.</li>
+            </ul>
+        `
+    },
+    { //Floor 25
+        id: 25,
+        title: "Floor 25",
+        author: "Nepko",
+        article: `
+            <center><h2>Overview</h2></center>
+            <center>
+                <p>Floor 25 has two bosses that utilize Poison and Blind and have somewhat opposing benefits.</p>
+            </center>
+
+            <br/>
+
+            <b><h2><center>Before you begin...</center></h2></b>
+            <p>Recommended to bring some form of Status Removal.</p>
+            <p>Be wary of Units that regularly remove Status afflictions, as the Statuses are beneficial to have in the Boss stage</p>
+
+            <br/>
+            <br/>
+
+            <b><h2><center>Stage Mechanics</center></h2></b>
+            <b><h3><center>Stage 1 - Villakurz</center></h3></b>
+            <center><img src="/db/Units/Thumbnail/unit_thumbnail_500011513.png" alt="Villakurz" /></center>
+            <br/>
+
+            <ul>
+                <li>Notable Attacks</li>
+                <ul>
+                    <li>Arts: Kurzen Roar - High Damage. Inflicts <span class="buffDebuff">Blind Resist DOWN</span> and <span class="buffDebuff>ATK DOWN</span></li>
+                    <li>Arts: Invisible Cannon - Usable below 50% HP. Inflicts <span class="buffDebuff">Blind</span> and <span class="buffDebuff>Poison</span> Status ailments.</li>
+                    <li>Arts: Prize Mist - Usable at 0% HP. Inflicts <span class="buffDebuff">Blind</span> and <span class="buffDebuff>Poison</span> Status ailments.</li>
+                </ul>
+                <li>Passives</li>
+                <ul>
+                    <li>Accuracy UP</li>
+                    <li>Critical Attack against units with <span class="buffDebuff">Poison</span> Status</li>
+                    <li>Critical DMG UP against units with <span class="buffDebuff">Blind</span> Status</li>
+                </ul>
+            </ul>
+
+            <b><h3><center>Stage 1 Thresholds</center></h3></b>
+            <ul>
+                <li>At 50% HP - Uses Invisible Cannon</li>
+                <ul>
+                    <li>Inflicts <b>BOTH</b> <span class="buffDebuff">Blind</span> and <span class="buffDebuff">Poison</span></li>
+                    <li>Immediately cleanse this or put up Status RES before this Arts, or he will wipe your team with the increased Critical DMG he inflicts on units with <span class="buffDebuff">Blind</span></li>
+                    <li>Villakurz will additionally gain passive increased Critical Rate passed at this point.
+                </ul>
+                <li>At 0% HP - Uses Prize Mist</li>
+                <ul>
+                    <li>Inflicts <b>BOTH</b> <span class="buffDebuff">Blind</span> and <span class="buffDebuff">Poison</span></li>
+                    <li>Do <b>NOT</b> cleanse these status ailments, as they will be needed for the next stage</li>
+                    <li>NOTE: Sometimes the Status Ailments do not apply. Restart the battle if you are not afflicted</li>
+                </ul>
+            </ul>
+
+            <b><h3><center>Stage 1 Strategy</center></h3></b>
+            <ul>
+                <li>Villakurz has fairly potent damage, especially to units with <span class="buffDebuff">Poison</span> and/or <span class="buffDebuff">Blind</span></li>
+                <li>Make sure to bring some form of cleanse or Status RES on this floor so as to not get oneshot by Invisible Cannon, but do not bring any units that cleanse regularly as it is highly recommended to not cleanse debuffs in the Second Stage.</li>
+            </ul>
+
+            <b><h3><center>Boss Stage - Flogassa</center></h3></b>
+            <center><img src="/db/Units/Thumbnail/unit_thumbnail_500071113.png" alt="Flogassa" /></center>
+            <br/>
+
+            <ul>
+                <li>Notable Attacks</li>
+                    <ul>
+                        <li>Arts: Phoenix Tornado - Does Damage</li>
+                        <li>Arts: Crimson Phoenix Attack - Does High Damage. Boss is invincible while off-screen</li>
+                    </ul>
+                <li>Unique - Mode Change</li>
+                    <ul>
+                        <li>Storm Mode - Activated when Arts used below 65% HP</li>
+                            <ul>
+                                <li>Gains <span class="buffDebuff">Evasion UP</span> and <span class="buffDebuff">Break Resist UP</span></li>
+                                <li>Removed when put into <span class="buffDebuff">BREAK STATE</span></li>
+                                <li>Temporarily removed when using an Arts</li>
+                            </ul>
+                        <li>Anger Mode - Activated when HP at 50%</li>
+                            <ul>
+                                <li>Gains <span class="buffDebuff">Damage UP</span></li>
+                            </ul>
+                        <li>Heat Mode - Activated when HP at 25%</li>
+                            <ul>
+                                <li>Gains <span class="buffDebuff">Damage UP</span></li>
+                            </ul>
+                    </ul>
+                <li>Passives</li>
+                    <ul>
+                        <li>Attacks Ignore Defense</li>
+                        <li>Doubles Damage to Units <b>WITHOUT</b> <span class="buffDebuff">Poison</span></li>
+                        <li>Triples Damage to Units <b>WITHOUT</b> <span class="buffDebuff">Blind</span></li>
+                        <li>Cleanses a random Status Ailment on Unit every 6 minutes</li>
+                    </ul>
+            </ul>
+
+            <b><h3><center>Boss Stage Thresholds</center></h3></b>
+            <ul>
+                <li>At 50% HP - Enters Anger Mode, increasing Damage</li>
+                <li>At 25% HP - Enters Heat Mode, increase Damage</li>
+            </ul>
+
+            <b><h3><center>Boss Stage Strategy</center></h3></b>
+            <ul>
+                <li>Flogassa itself isn't complicated other than having to keep these two debuffs on you.</li>
+                <li>The rest that this boss does is just straightforward damage, so all you have to do is have a balanced team with enough healing to live through it and the damage to defeat Flogassa quickly -- not a big issue with all the strong units now available.</li>
+                <li>Units with <span class="buffDebuff">Accuracy UP</span> like Vox and Juno will make quick work of this boss as they won't be as hindered by the <span class="buffDebuff">Blind</span> debuff and the Evasion of the boss. </li>
+            </ul>
+                `
     },
     { //Floor 26
         id: 26,
         title: "Floor 26",
         article: `
             <center><h2>Overview</h2></center>
-            <center><p>A rather tricky floor incorporating intense mechanics. 
-            A complete counter to almost all of the Blood Knights; requiring more specific compositions 
-            to tackle it's annoying niches. This floor isn't something you can just brute force, but is perfectly 
-            clearable given you can counter her mechanics properly, though perhaps with a bit of luck if you're at the bare minimum.</p>
+            <center><p>Where Dungeon of Trials starts to spike in difficulty, and thus the length of the guides will reflect this. 
+            F26 brings unique and challenging mechanics to tackle, 
+            including the first "Field Effect" that persists throughout the battle. Very specific compositions 
+            and equipment will be required for this floor and passed this floor, so a player without a developed account to 
+            combat certain niches will start to struggle.</p>
             </center>
             <br />
 
@@ -177,18 +556,22 @@ const TrialGuides = [
 
             <b><h2><center>Recommended Units</center></h2></b>
             
+            <center>
             <a href="https://www.grandsummoners.info/units/Mizuki">
                 <img src="/db/Units/Thumbnail/unit_thumbnail_102826212.png" alt="Mizuki" class="unitThumb"/>
             </a>
+            </center>
             <p>Mizuki's passive is a complete and specific counter to Hellfire, making the reflection more bearable to herself, 
             allowing for more reckless damage without too much worry. Additionally, her potent increase DMG on Fire Enemies and 
             innate Accuracy Up with TW makes her a unit tailor-made to combat Floor 26's Ignis.</p>
             <br />
             <br />
 
+            <center>
             <a href="https://www.grandsummoners.info/units/Rimuru%20(Human)">
                 <img src="/db/Units/Thumbnail/unit_thumbnail_107156212.png" alt="Rimuru Human" class="unitThumb"/>
             </a>
+            </center>
             <p>Rimuru's Status RES and general team utility lets you rely less on Status RES equipment. 
             He works well in any team composition whether Mono-Water or not as long as you let him do his job.</p>
             <p><b>NOTE: Why not Feena?</b> -  Feena's heal over time is typically unable to keep up with Hellfire on her own. 
@@ -199,15 +582,19 @@ const TrialGuides = [
             <br />
             <br />
             
-
+            <center>
             <a href="https://www.grandsummoners.info/units/Diaz">
                 <img src="/db/Units/Thumbnail/unit_thumbnail_101966212.png" alt="Diaz" class="unitThumb"/>
             </a>
+            
             <a href="https://www.grandsummoners.info/units/Nies">
                 <img src="/db/Units/Thumbnail/unit_thumbnail_101666212.png" alt="Nies" class="unitThumb"/>
             </a>
+            </center>
             <p>As Mono-water teams are very prominent for this quest, both Nies and Diaz are great supporting units for such compositions - 
             the former offering highly defensive utility for the boss and the latter greatly increasing the efficacy of your units with powerful ArtGen support.</p>
+            
+            <center>
             <a href="https://www.grandsummoners.info/units/Mako">
                 <img src="/db/Units/Thumbnail/unit_thumbnail_102206412.png" alt="Mako" class="unitThumb"/>
             </a>
@@ -220,37 +607,44 @@ const TrialGuides = [
             <a href="https://www.grandsummoners.info/units/Hart">
                 <img src="/db/Units/Thumbnail/unit_thumbnail_103276312.png" alt="Hart Earth" class="unitThumb"/>
             </a>
-            <p>They are just annoyingly good.</p>
+            
+            <p>They are just annoyingly good.</p></center>
             <br />
             <br />
 
+            <center>
             <a href="https://www.grandsummoners.info/units/Aristela">
                 <img src="/db/Units/Thumbnail/unit_thumbnail_101296212.png" alt="Aristela" class="unitThumb"/>
             </a>
+            </center>
             <p>With very potent heals and great slots for the quest, this is the place where Aristela truly shines. 
             An extra DEF slot allows more Status RES equips, and her potent heals will essentially keep your units at 
             full 24/7 as long as you don't overdo it. A great budget pick</p>
             <br />
             <br />
 
+            <center>
             <a href="https://www.grandsummoners.info/units/Celia%20(Light)">
                 <img src="/db/Units/Thumbnail/unit_thumbnail_102046412.png" alt="Celia Light" class="unitThumb"/>
             </a>
             <a href="https://www.grandsummoners.info/units/Naofumi">
                 <img src="/db/Units/Thumbnail/unit_thumbnail_107256411.png" alt="Naofumi" class="unitThumb"/>
             </a>
+            </center>
             <p>Given enough support, these two can facetank most of Ignis' normal damage, 
             most especially when abusing their Heal Slots with revive equipment like Sounding 
             Staff and Blessed Necklace giving a great windfall if things slip up.</p>
             <br />
             <br />
 
+            <center>
             <a href="https://www.grandsummoners.info/units/Norn">
                 <img src="/db/Units/Thumbnail/unit_thumbnail_102066312.png" alt="Norn" class="unitThumb"/>
             </a>
             <a href="https://www.grandsummoners.info/units/Weaver">
                 <img src="/db/Units/Thumbnail/unit_thumbnail_102446212.png" alt="Weaver" class="unitThumb"/>
             </a>
+            </center>
             <p>Honorable mentions for their general aptitude at team support still making them very much viable for this quest.</p>
             <br />
             <br />
@@ -269,6 +663,7 @@ const TrialGuides = [
                 <a href="https://www.grandsummoners.info/units/Asirpa">
                     <img src="/db/Units/Thumbnail/unit_thumbnail_107126412.png" alt="Asirpa" class="unitThumb"/>
                 </a> 
+                <br/>
                 (NOTE: Mira Hood HIGHLY recommended for Burn RES)
                 <br />
                 <br />
