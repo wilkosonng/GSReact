@@ -18,7 +18,6 @@ import FAQGuide from './components/guidecomponents/DisplayFAQ';
 import { Container, Row, Col } from 'reactstrap';
 import DotGuide from './components/guidecomponents/DotGuides';
 import DisplayTrialGuide from './components/guidecomponents/dotguides/DotGuidesComponent';
-import './App.css';
 import ScrollToTop from './components/ScrollComponent';
 import Equips from './components/equipment/EquipPage';
 import EquipDetails from './components/equipment/EquipComponent';

@@ -24,6 +24,10 @@ th, tr {
   border-color: white;
 }
 
+.nav-item {
+  margin: 0px;
+}
+
 .accordion-button {
   background-color: #292930 !important;
 }
