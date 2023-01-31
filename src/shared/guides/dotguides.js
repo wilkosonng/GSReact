@@ -1173,52 +1173,204 @@ const TrialGuides = [
 
             <b><center><h2>Sample Team Compositions</h2></center></b>
             <center>
-                <a href="https://www.grandsummoners.info/units/Mako">
-                    <img src="/db/Units/Thumbnail/unit_thumbnail_102206412.png" alt="Mako" class="unitThumb"/>
-                </a>
-                <a href="https://www.grandsummoners.info/units/Juno">
-                    <img src="/db/Units/Thumbnail/unit_thumbnail_103226412.png" alt="Juno" class="unitThumb"/>
-                </a>
-                <a href="https://www.grandsummoners.info/units/Liza">
-                    <img src="/db/Units/Thumbnail/unit_thumbnail_103006412.png" alt="Liza" class="unitThumb"/>
-                </a>
-                <a href="https://www.grandsummoners.info/units/Hiei">
-                    <img src="/db/Units/Thumbnail/unit_thumbnail_107326512.png" alt="Hiei" class="unitThumb"/>
-                </a>
-
-                <br/>
-                <br/>
-
-                <a href="https://www.grandsummoners.info/units/Vox">
-                    <img src="/db/Units/Thumbnail/unit_thumbnail_102516212.png" alt="Vox" class="unitThumb"/>
-                </a>
-                <a href="https://www.grandsummoners.info/units/Weaver">
-                    <img src="/db/Units/Thumbnail/unit_thumbnail_102446212.png" alt="Weaver" class="unitThumb"/>
-                </a>
-                <a href="https://www.grandsummoners.info/units/Veronica">
-                    <img src="/db/Units/Thumbnail/unit_thumbnail_102966212.png" alt="Veronica" class="unitThumb"/>
-                </a>
                 <a href="https://www.grandsummoners.info/units/Hart">
                     <img src="/db/Units/Thumbnail/unit_thumbnail_103276312.png" alt="Hart" class="unitThumb"/>
                 </a>
+                <a href="https://www.grandsummoners.info/units/Yoh">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_107476112.png" alt="Yoh" class="unitThumb"/>
+                </a>
+                <a href="https://www.grandsummoners.info/units/Hao">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_107506112.png" alt="Hao" class="unitThumb"/>
+                </a>
+                <a href="https://www.grandsummoners.info/units/Priscilla%20(Fire)">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_103326112.png" alt="Priscilla (Fire)" class="unitThumb"/>
+                </a>
 
                 <br/>
                 <br/>
 
-                <a href="https://www.grandsummoners.info/units/Liza">
-                    <img src="/db/Units/Thumbnail/unit_thumbnail_103006412.png" alt="Liza" class="unitThumb"/>
+                <a href="https://www.grandsummoners.info/units/Emperor%20Isliid">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_103426412.png" alt="Emperor Isliid" class="unitThumb"/>
                 </a>
-                <a href="https://www.grandsummoners.info/units/Daki">
-                    <img src="/db/Units/Thumbnail/unit_thumbnail_102346412.png" alt="Daki" class="unitThumb"/>
+                <a href="https://www.grandsummoners.info/units/Mako">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_102206412.png" alt="Mako" class="unitThumb"/>
                 </a>
-                <a href="https://www.grandsummoners.info/units/Saitama">
-                    <img src="/db/Units/Thumbnail/unit_thumbnail_107076412.png" alt="Saitama" class="unitThumb"/>
+                <a href="https://www.grandsummoners.info/units/Summer%20Cestina">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_103596112.png" alt="Summer Cestina" class="unitThumb"/>
+                </a>
+                <a href="https://www.grandsummoners.info/units/Lucy%20Heartfilia">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_107566412.png" alt="Lucy Heartfilia" class="unitThumb"/>
+                </a>
+
+                <br/>
+                <br/>
+
+                <a href="https://www.grandsummoners.info/units/Emperor%20Isliid">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_103426412.png" alt="Emperor Isliid" class="unitThumb"/>
+                </a>
+                <a href="https://www.grandsummoners.info/units/Draken">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_107636412.png" alt="Draken" class="unitThumb"/>
+                </a>
+                <a href="https://www.grandsummoners.info/units/Mikey">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_107626512.png" alt="Mikey" class="unitThumb"/>
                 </a>
                 <a href="https://www.grandsummoners.info/units/Mako">
                     <img src="/db/Units/Thumbnail/unit_thumbnail_102206412.png" alt="Mako" class="unitThumb"/>
                 </a>
             </center>
 
+        `
+    },
+    { //Floor 31
+        id: 31,
+        title: "Floor 31",
+        author: "Zanster",
+        article: `
+            <center><h2>Overview</h2></center>
+            <center>
+                <p>The boss of this stage gains multiple elemental immunities depending on the damage type it receives. Be prepared to bring in multi-element teams.</p>
+            </center>
+
+            <br/>
+            <br/>
+
+            <b><h2><center>Stage Mechanics</center></h2></b>
+            <b><h3><center>Stage 1 - Lily</center></h3></b>
+            <center><img src="/db/Units/Thumbnail/unit_thumbnail_100656512.png" /></center>
+
+            <ul>
+                <li>Notable Attacks</li>
+                    <ul>
+                        <li>Arts - Permanent <span class="buffDebuff">Damage Over Time</span> Debuff. Able to stack</li>
+                        <li>True Arts - Reduces Units' Damage RES for 20 seconds</li>
+                    </ul>
+                <li>Passives</li>
+                    <ul>
+                        <li>Negates Barriers</li>
+                        <li>Receives reduced damage from Demons</li>
+                    </ul>
+                <li>Stage 1 Thresholds</li>
+                    <ul>
+                        <li>At 90% HP - Does True Arts. Gains <span class="buffDebuff">ATK UP</span> and <span class="buffDebuff">Physical Evasion UP</span>.</li>
+                        <li>At 60% HP - Does True Arts. Gains <span class="buffDebuff">ATK UP</span> and <span class="buffDebuff">Physical Evasion UP</span>.</li>
+                        <li>At 30% HP - Does True Arts. Gains <span class="buffDebuff">ATK UP</span> and <span class="buffDebuff">Physical Evasion UP</span>.</li>
+                    </ul>
+            </ul>
+
+            <b><h4><center>Stage 1 Strategy</center></h4></b>
+            <p>Overall this stage is nothing to special, just make sure to clear it semi fast to limit how many stacks she applies to you. However, Make sure to delay going between her HP intervals till after the dmg res down has gone away.</p>
+
+            <br/>
+            <b><h3><center>Stage 2 - Mobs</centers></h3></b>
+            
+            <ul>
+                <li>Stage lasts 45 Seconds with infinitely spawning mobs</li>
+                <li>For each enemy killed, your units gain <span class="buffDebuff">ATK UP</span> and <span class="buffDebuff">HP UP</span></li>
+                <li>Mobs can inflict <span class="buffDebuff">Blind</span></li>
+                <li>Mobs cannot be hit by Critical Attacks</li>
+            </ul>
+
+            <b><h4><center>Stage 2 Strategy</center></h4></b>
+            <p>Nothing too special about this. Just make sure to kill as many as you can for extra stats against the boss.</p>
+
+            <br/>
+            <b><h3><center>Boss Stage - Sealed God Auge</center></h3></b>
+            <center><img src="/db/Units/Thumbnail/unit_thumbnail_500221413.png" alt="Sealed God Auge"/></center>
+
+            <ul>
+                <li>Notable Attacks</li>
+                    <ul>
+                        <li>Arts: Chaos on Fire - Gains permanent <span class="buffDebuff">DMG UP</span>. Stackable</li>
+                        <li>Arts: Dystopia - Applies <span class="buffDebuff">Faint</span> to entire team</li>
+                        <li>True Arts - Does damage to team. Targets a unit, whom receives extra damage from True Arts.</li>
+                    </ul>
+                <li>Passives</li>
+                    <ul>
+                        <li>Taunt Killer</li>
+                        <li>Heal-over-time Killer</li>
+                        <li>Chance to apply <span class="buffDebuff">Faint</span> and <span class="buffDebuff">DMG Resist DOWN</span> on each hit</li>
+                        <li>Guaranteed critical attack against targeted unit</li>
+                    </ul>
+            </ul>
+
+            <br/>
+            <br/>
+
+            <b><h2><center>Thresholds and Other Mechanics:</center></h2></b>
+            <ul>
+                <li>Focus Targets a unit. Does critical attack to targeted unit</li>
+                <li>At 85% HP - Gains <span class="buffDebuff">Damage Immunity</span> based on <b>target unit's element.</b></li>
+                <li>At 85% HP - Does a True Arts. Targeted unit receives extra true arts damage.</li>
+                <li>At 50% HP - Once again gains <span class="buffDebuff">Damage Immunity</span> based on <b>target unit's element</b></li>
+                <li>At 50% HP - Does a True Arts. Targeted unit receives extra true arts damage.</li>
+                <li>At 50% HP - Gains <span class="buffDebuff">Arts Gauge Fill Speed UP</span>.</li>
+                <li>At 15% HP - Once again gains <span class="buffDebuff">Damage Immunity</span> based on <b>target unit's element</b></li>
+                <li>At 15% HP - Does a True Arts. Targeted unit receives extra true arts damage.</li>
+                <li>At 15% HP - Gains <span class="buffDebuff">Arts Gauge Fill Speed UP</span>.</li>
+            </ul>
+
+            <br/>
+
+            <b><h2><center>Strategy</center></h2></b>
+            <ul>
+                <li>Due to this boss gaining damage immunity to 3 elements you need 4 units of different elements capable of doing good damage while performing other roles. </li>
+                <li>An all stats up unit such as Vox is very useful since they can perform a second function after they can't damage the boss. </li>
+                <li>A tip for full clearing, have your weaker dps units get negated during the first and last interval as there's less HP to go through.</li>
+            </ul>
+
+            <br/>
+            <br/>
+
+            <b><center><h2>Sample Team Compositions</h2></center></b>
+            <center>
+                <p>Only including potential full clear teams. It also goes without saying that optimal equips/timing are also needed to Full Clear the stage. </p>
+
+                <br/>
+                <a href="https://www.grandsummoners.info/units/Celia%20(Dark)">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_102546512.png" alt="Celia Dark" class="unitThumb"/>
+                </a>
+                <a href="https://www.grandsummoners.info/units/Cestina">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_102986312.png" alt="Cestina" class="unitThumb"/>
+                </a>
+                <a href="https://www.grandsummoners.info/units/Melty">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_107286212.png" alt="Melty" class="unitThumb"/>
+                </a>
+                <a href="https://www.grandsummoners.info/units/Victoire">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_103096412.png" alt="Victoire" class="unitThumb"/>
+                </a>
+
+                <br/>
+                <br/>
+
+                <a href="https://www.grandsummoners.info/units/Yoh">
+                <img src="/db/Units/Thumbnail/unit_thumbnail_107476112.png" alt="Yoh" class="unitThumb"/>
+                </a>
+                <a href="https://www.grandsummoners.info/units/Cestina">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_102986312.png" alt="Cestina" class="unitThumb"/>
+                </a>
+                <a href="https://www.grandsummoners.info/units/Vox">
+                    <img src=""/db/Units/Thumbnail/unit_thumbnail_102516212.png" alt="Vox" class="unitThumb"/>
+                </a>
+                <a href="https://www.grandsummoners.info/units/Liza">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_103006412.png" alt="Liza" class="unitThumb"/>
+                </a>
+
+                <br/>
+                <br/>
+
+                <a href="https://www.grandsummoners.info/units/Norn">
+                <img src="/db/Units/Thumbnail/unit_thumbnail_102066312.png" alt="Norn" class="unitThumb"/>
+                </a>
+                <a href="https://www.grandsummoners.info/units/Mikey">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_107626512.png" alt="Mikey" class="unitThumb"/>
+                </a>
+                <a href="https://www.grandsummoners.info/units/Vox">
+                    <img src=""/db/Units/Thumbnail/unit_thumbnail_102516212.png" alt="Vox" class="unitThumb"/>
+                </a>
+                <a href="https://www.grandsummoners.info/units/Liza">
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_103006412.png" alt="Liza" class="unitThumb"/>
+                </a>
+            </center>
         `
     }
 ]
