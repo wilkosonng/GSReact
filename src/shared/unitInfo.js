@@ -21342,7 +21342,8 @@ const UnitInformation = [
         id: 107156212,
         name: "Rimuru (Human form)",
         attribute: "Water",
-        rank: "A",
+        rank: "S",
+        luckrank: "S",
         type: "Demon",
         image: 
             {
@@ -21407,6 +21408,7 @@ const UnitInformation = [
         id: 107166112,
         name: "Milim",
         rank: "B+",
+        luckrank: "S",
         attribute: "Fire",
         type: "Demon",
         image: 
@@ -21471,7 +21473,8 @@ const UnitInformation = [
     { //Benimaru - Complete
         id: 107176112,
         name: "Benimaru",
-        rank: "B+",
+        rank: "A",
+        luckrank: "S",
         attribute: "Fire",
         type: "Demon",
         image: 
@@ -23057,6 +23060,7 @@ const UnitInformation = [
         id: 107396212,
         name: "Santa Rimuru",
         rank: "A+",
+        luckrank: "SSS",
         attribute: "Water",
         type: "Demon",
         image: 
@@ -23121,7 +23125,8 @@ const UnitInformation = [
     { //Santa Milim - Complete
         id: 107406112,
         name: "Santa Milim",
-        rank: "B+",
+        rank: "A-",
+        luckrank: "A",
         attribute: "Fire",
         type: "Demon",
         image: 
@@ -23186,7 +23191,8 @@ const UnitInformation = [
     { //Santa Shion - Complete
         id: 107416512,
         name: "Santa Shion",
-        rank: "A-",
+        rank: "A",
+        luckrank: "A",
         attribute: "Dark",
         type: "Demon",
         image: 
