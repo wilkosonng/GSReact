@@ -40,7 +40,7 @@
  */
 
 const EquipInformation = [
-    { //Heal Ring - Missing Stats, Skillset, Star, Passive, Lore
+    { //Heal Ring - Complete
         id: 100010,
         name: `Heal Ring`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -54,22 +54,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
+                hp: 20,
                 atk: 0,
                 def: 0
             },
         skillset:  
             {
-                skill: `Does something`,
+                skill: `60s CT - Heals Target's HP by 480.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: `Oh there is a lore`
+        lore: `A ring that allows the wearer to heal themselves and others. These rings were created by a great wizard after the Ancient War, in recompense to all the allies he was unable to save. Easy to obtain and very effective, they remain a popular piece of equipment. Being able to find such rings on ancient battlefields also speaks to how long they have been used.`
     },
-    { //Detox Ring - Missing Stats, Skillset, Passive, Lore
+    { //Detox Ring - Complete
         id: 1000020,
         name: `Detox Ring`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -83,23 +83,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
+                hp: 20,
                 atk: 0,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: ``
+                skill: `60s CT - Heals Target's HP by 96. Heals Target's Poison.`,
+                break: 0
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: ``
             },
-        lore: ``
+        lore: `A ring that grants protection from poison to the wearer and their allies. First created by a wizard to protect soldiers wielding poison weapons, there rings became a terrible reminder for those men of the horrors of their use. The use of poison weapons was eventually strictly prohibited as part of later peace accords between the Five Great Nations.`
     },
-    { //Lightkeeper Ring - Missing Stats, Skillset, Passives, Lore
+    { //Lightkeeper Ring - Complete
         id: 100030,
         name: `Lightkeeper Ring`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -113,23 +112,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
+                hp: 20,
                 atk: 0,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: ``
+                skill: `60s CT - Heals Target's HP by 96. Heals Target's Blind.`,
+                break: 0
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: ``
             },
-        lore: ``
+        lore: `Created during the Ancient War to defend against demonic magic that steals away the power of sight. The benefits of the ring extend to thew wearer and those around them. Considered vital when facing a powerful wizard, there were some who yet shunned reliance on such trinkets, instead honing their skills to the point that they simply did not rely on sight.`
     },
-    { //Vivacious Ring - Missing Stats, Skillset, Passives, Lore
+    { //Vivacious Ring - Complete
         id: 100040,
         name: `Vivacious Ring`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -143,23 +141,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
+                hp: 20,
                 atk: 0,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: ``
+                skill: `60s CT - Heals Target's HP by 96. Heals Target's Seal.`,
+                break: 0
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: ``
             },
-        lore: ``
+        lore: `Having chanting interrupted in battle is often fatal, making rings such as these prized since before the the Ancient War. On old battlefields you may even find one of these with a finger bone still inside, a grisly hint at the best way to cancel their protection, while no other bones in the vicinity indicates the subsequent eradication of the original owner.`
     },
-    { //Monster Fang Charm - Missing Stats, Skillset, Passive, Lore
+    { //Monster Fang Charm - Missing Lore
         id: 100050,
         name: `Monster Fang Charm`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -174,22 +171,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 20,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: ``
+                skill: `20s CT - 550% DMG (Physical).`,
+                break: 200
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: ``
             },
         lore: ``
     },
-    { //Giant Battle Shield - Missing Stats, Skillset, Passives, Lore
+    { //Giant Battle Shield - Complete
         id: 100060,
         name: `Giant Battle Shield`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -205,21 +201,20 @@ const EquipInformation = [
             {
                 hp: 0,
                 atk: 0,
-                def: 0
+                def: 20
             },
         skillset:  
             {
-                skill: ``,
-                break: ``
+                skill: `60s CT - Reduces Target's DMG Taken by 20% and Earth DMG taken by 40% for 5s.`,
+                break: 0
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: ``
             },
-        lore: ``
+        lore: `A massive shield loved by giant warriors. Multiple giants equipped with these could form up into a veritable mobile fortress. Of particular note is a shield from the Ancient War now found in the east of the Gramenia Republic, where it is worshipped in a human village. Legends even say that the giant Radigan once protected the village using the shield.`
     },
-    { //Merfolk Trident - Missing Stats, Skillset, Passives, Lore
+    { //Merfolk Trident - Missing Lore
         id: 100070,
         name: `Merfolk Trident`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -234,22 +229,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 20,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: ``
+                skill: `20s CT - 500% Water DMG (Physical).`,
+                break: 200
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: ``
             },
         lore: ``
     },
-    { //Regeneration Staff - Missing Stats, Skillset, Passives, Lore
+    { //Regeneration Staff - Complete
         id: 100080,
         name: `Regeneration Staff`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -264,22 +258,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 20,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: ``
+                skill: `20s CT - 500% Earth DMG (Magic).`,
+                break: 200
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: ``
             },
-        lore: ``
+        lore: `A staff made from the limb of a tree brimming with the power of life. Even after being cut from the tree its life force is such that it continues to slowly grow, and can be knitted back together in a single night if broken. It's prodigious power can be transmitted around it, too, and it can even create an oasis of greenery if plunged down into arid dirt.`
     },
-    {
+    { //Saint's Medal - Complete
         id: 100090,
         name: `Saint's Medal`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -295,21 +288,20 @@ const EquipInformation = [
             {
                 hp: 0,
                 atk: 0,
-                def: 0
+                def: 20
             },
         skillset:  
             {
-                skill: ``,
-                break: ``
+                skill: `60s CT - Reduces all Allies' DMG Taken by 3% and Light DMG Taken by 6% for 20s.`,
+                break: 0
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: ``
             },
-        lore: ``
+        lore: `A medal awarded to those who seek to do only good. It was created for Alistair, a wizard and military doctor for the Isliid Empire during the Ancient War, who headed out alone to save a handful of demons and wounded men trapped on the slopes of an erupting volcano. The lava claimed his life, but the wounded were saved by the protective spell he left behind.`
     },
-    { //Lightning Branch Baton - Missing Stats, Skillset, Passives, Lore
+    { //Lightning Branch Baton - Complete
         id: 100100,
         name: `Lightning Branch Baton`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -324,22 +316,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 20,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: ``
+                skill: `20s CT - 500% Light DMG (Magic).`,
+                break: 200
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: ``
             },
-        lore: ``
+        lore: `Carved from an ancient tree that continued to grow even after being struck by lightning. A craftsman who made conductor's batons happened to use a limb from it and ended up making a baton that can control lightning. Hiding it away, it turned up again when his studio was destroyed during the Ancient War, and has since proven to be a formidable weapon.`
     },
-    { //Abyss Scarf - Missing Stats, Skillset, Passives, Lore
+    { //Abyss Scarf - Complete
         id: 100110,
         name: `Abyss Scarf`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -355,21 +346,20 @@ const EquipInformation = [
             {
                 hp: 0,
                 atk: 0,
-                def: 0
+                def: 20
             },
         skillset:  
             {
-                skill: ``,
-                break: ``
+                skill: `60s CT - Reduces Target's DMG Taken by 5% and Water DMG Taken by 10% for 20s.`,
+                break: 0
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: ``
             },
-        lore: ``
+        lore: `A scarf made from a plant that grows deep in the lakes of Raktehelm. Anyone wearing this scarf can walk into blazing fire without harm or even pain. Originally used by merfolk active on land, having been caught up in the chaos after the war they shared the garments with humans who aided them and this facilitated their spread across the lands.`
     },
-    { //Gale Headband - Missing Stats, Skillset, Passives, Lore
+    { //Gale Headband - Complete
         id: 100120,
         name: `Gale Headband`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -383,23 +373,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 10,
+                atk: 5,
+                def: 5
             },
         skillset:  
             {
-                skill: ``,
-                break: ``
+                skill: `30s CT - Increases Target's Skill CT Speed by 20% for 10s.`,
+                break: 0
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: ``
             },
-        lore: ``
+        lore: `A headband created in part from an old tree weathered by the wind. Any who wear it become light as a feather and can move like a literal gale. Said to carry the memories of that old tree, so loved by the wind, and enhanced by the crystal set into it. One wearing it is said it have run a week long horseback journey in just one day during the Ancient War.`
     },
-    { //Holy Whistle - Missing Stats, Skillset, Passives, Lore
+    { //Holy Whistle - Complete
         id: 100131,
         name: `Holy Whistle`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -413,23 +402,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 10,
+                atk: 5,
+                def: 5
             },
         skillset:  
             {
-                skill: ``,
-                break: ``
+                skill: `20s CT - Increases Target's DMG Inflicted by 10% for 10s.`,
+                break: 0
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: ``
             },
-        lore: ``
+        lore: `A musical whistle that soothes all who hear it. During the Ancient War, there was a unit besieged by ally betrayal and enemy attacks. Facing despair, suspicion and low morale, all of them expected death. The army minstrel then played this whistle, soothing away all their fears and restoring their courage. The unit fought bravely and managed to survive.`
     },
-    { //Alluring Earring - Missing Stats, Skillset, Passives, Lore
+    { //Alluring Earring - Complete
         id: 100140,
         name: `Alluring Earring`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -443,23 +431,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 10,
+                atk: 5,
+                def: 5
             },
         skillset:  
             {
-                skill: ``,
-                break: ``
+                skill: `30s CT - Increases Target's Arts Gauge by 5.`,
+                break: 0
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: ``
             },
-        lore: ``
+        lore: `An earring created to look like the eye of a demon with a thousand pupils. When he died he ordered that his eye be used to create a piece of equipment. The energy from it boasts a strange attraction, alluring the souls of not only people but also demons. Copies created later have a similar effect, but none have yet matched the power of the original.`
     },
-    { //Healing Necklace - Missing Stats, Skillset, Passives, Lore
+    { //Healing Necklace - Complete
         id: 100150,
         name: `Healing Necklace`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -473,21 +460,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
+                hp: 40,
                 atk: 0,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: ``
+                skill: `60s CT - Heals Target's HP by 100/s for 10s.`,
+                break: 0
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: ``
             },
-        lore: ``
+        lore: `A relic given by a wizard to the knight who was his master. This wizard was too weak to go into battle, leading to the knight's other retainer's mocking him for failure to aid in defending his master - yet the knight still kept him close. In response to that kindness the power of this item is incredible, and it kept the knight alive through countless battles.`
     },
     { //Soul Recovery - Missing Stats, Skillset, Passives, Lore
         id: 100160,
@@ -504,7 +490,7 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 40,
                 def: 0
             },
         skillset:  
@@ -514,12 +500,11 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: ``
             },
         lore: ``
     },
-    { //Fairytale - Missing Stats, Skillset, Passives, Lore
+    { //Fairytale - Complete
         id: 100170,
         name: `Fairytale`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -534,20 +519,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 40,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: ``
+                skill: `20s CT - 825% Non-Elemental DMG (Magic).`,
+                break: 240
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: ``
             },
-        lore: ``
+        lore: `A type of magical tome that allows anyone to cast spells. The words, rhymes and phrases required for spell chanting are arranged in a storybook format that anyone can follow. Originally made as a fun toy for children by a wizard who loved writing, during the Ancient War many examples were created that allow far more powerful magic to be cast.`
     },
     { //Dragon Blade - Missing Stats, Skillset, Passives, Lore
         id: 100180,
@@ -564,7 +548,7 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 60,
                 def: 0
             },
         skillset:  
@@ -579,7 +563,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-    { //Ouroboros
+    { //Ouroboros - Complete
         id: 100190,
         name: `Ouroboros`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -594,22 +578,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 120,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: ``
+                skill: `20s CT - 1500% Dark DMG (Physical).`,
+                break: 400
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: ``
             },
-        lore: ``
+        lore: `A long spear named for a phenomena in alchemy meaning "complete" or "source". During the Ancient War the alchemist Georig sent this weapon to his friend Parakels. At first, Parakels thought it only a fine weapon, but then he started to dream about fighting himself. By the time he stopped having those dreams , no one could touch him in spear combat.`
     },
-    { //Sword Breaker - Missing Stats, Skillset, Passives, Lore
+    { //Sword Breaker - Complete
         id: 100200,
         name: `Sword Breaker`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -625,21 +608,20 @@ const EquipInformation = [
             {
                 hp: 0,
                 atk: 0,
-                def: 0
+                def: 40
             },
         skillset:  
             {
-                skill: ``,
-                break: ``
+                skill: `60s CT - 200% Non-Elemental DMG (Physical). Reduces Enemies' ATK by 10% for 10s.`,
+                break: 150
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: ``
             },
-        lore: ``
+        lore: `Also known as the "sword killer". Snapping or smashing down countless weapons, skilled users can fight and survive without even using a shield. "Sword Hunter Chan" was especially famous for using one of these during the Ancient War. He was motivated solely to find expensive weapons to destroy in battle, leading him to eventually be targeted by all sides.`
     },
-    { //Mystic Arrow - Missing Stats, Skillset, Passives, Lore
+    { //Mystic Arrow - Complete
         id: 100210,
         name: `Mystic Arrow`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -654,22 +636,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 60,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: ``
+                skill: `40s CT - 2500% Dark DMG (Magic).`,
+                break: 600
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: ``
             },
-        lore: ``
+        lore: `A magical bow that can fire "flying" arrows. Carved from the horn of a succubus, its branding magic allows its arrows to always reach their target. those targeted talk of having seen the archer, raised their defenses in plenty of time, but then getting shot from behind - even if there was no one behind them at all.`
     },
-    { //Mighty Brace - Missing Stats, Skillset, Passives, Lore
+    { //Mighty Brace - Complete
         id: 100220,
         name: `Mighty Brace`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -683,23 +664,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 20,
+                atk: 10,
+                def: 10
             },
         skillset:  
             {
-                skill: ``,
-                break: ``
+                skill: `30s CT - Increases Target's Break Power by 20% for 10s.`,
+                break: 0
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: ``
             },
-        lore: ``
+        lore: `An arm brace made using the fur from powerful yeti beasts. Although the yeti had no specific weapons or magic of their own, their strength was such that a single yeti could destroy an entire armed unit alone. Indeed, it was even said that they could fight oon an equal footing with the gods. One wearing this brace obtains some of that yeti strength.`
     },
-    { //Crimson Mantle - Missing Stats, Skillset, Passives, Lore
+    { //Crimson Mantle - Complete
         id: 100230,
         name: `Crimson Mantle`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -715,19 +695,18 @@ const EquipInformation = [
             {
                 hp: 0,
                 atk: 0,
-                def: 0
+                def: 40
             },
         skillset:  
             {
-                skill: ``,
-                break: ``
+                skill: `60s CT - Reduces Target's DMG taken by 5% and Fire DMG Taken by 14% for 20s.`,
+                break: 0
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: ``
             },
-        lore: ``
+        lore: `"Defeat me, if you can!" The words of the duelist Ronmel, who fought during the Ancient War wearing this cape. He tore across the battlefield, leaving a red trail as he cut down foes and without a single one able to lay a finger on his mantle. In later life Ronmel left a record stating that he wore the cape to aid his allies by distracting the enemy.`
     },
     { //Numbless Ring - Missing Stats, Skillset, Passives, Lore
         id: 100240,
