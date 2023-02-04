@@ -20347,6 +20347,71 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
+    { // Miranda (Valentines) - Missing Lore
+        id: 103667412,
+        name: "Miranda (Valentines)",
+        attribute: "Light",
+        type: "Human",
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_103666412.png",
+                detailsuper: "/db/Units/Detail/unit_detail_103667412.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103666412.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103667412.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/magLB.png",
+                slot32type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats: 
+            {
+                hp: 6927,
+                hpplus: 1309,
+                atk: 3486,
+                atkplus: 607,
+                def: 3452,
+                defplus: 707
+            },
+        skillset: 
+            {
+                skill: `12s CT - Heal all allies' HP by 1000. For 6s, increase own Arts by 7/s.`,
+                skillbreak: 0,
+                arts: `20000% Light DMG (PHY). For 60s, reduce Enemies' Status RES by 30%.`,
+                artsbreak: 600,
+                truearts: `66666% Light DMG (PHY). 100% chance to inflict Poison. For 25s, Allies ignore 100% of Enemies' DEF.`,
+                trueartsbreak: 1500,
+                superarts: `144444% Light DMG (PHY). For 20s, reduce Enemies' PHY RES by 80%. If enemy is Poisoned when Super Arts is used, reduce Enemies' PHY RES by 160% instead.`,
+                superartsbreak: 21600
+            },
+        passive: 
+            {
+                ability1: `Increase own DMG by 120% against Poisoned Enemies.`,
+                ability2: `Increase own Disease RES by 70%.`,
+                ability3: `Increase Healing Taken by 10%.`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
+                    mat2amt: 220,
+                    hover2: "God's Spirit Orb"
+                }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
     { //Zinogre Armor Rayas - Missing Lore
         id: 107006412,
         name: "Zinogre Armor Rayas",
@@ -23090,11 +23155,11 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "15s CT - On first use, increase Allies' Arts by 1/s for 7s. On second use, increase Allies' ATK by 10% for 7s. On third use, heal Allies' HP by 1%/s for 7s. Cycle repeats afterwards.",
+                skill: "12s CT - On first use, increase Allies' Arts by 1/s for 7s. On second use, increase Allies' ATK by 10% for 7s. On third use, heal Allies' HP by 1%/s for 7s. Cycle repeats afterwards.",
                 skillbreak: 0,
-                arts: "19000% Water DMG (MAG). Increase Allies' Arts by 20 + For 15s, increase Allies' DMG RES against Giant Bosses by 30%.",
+                arts: "22000% Water DMG (MAG). Increase Allies' Arts by 25 + For 15s, increase Allies' DMG RES against Giant Bosses by 30%.",
                 artsbreak: 1200,
-                truearts: "38000% Water DMG (MAG). For 20s, increase Allies' DMG by 60%, and Allies' MAG DMG by 60%.",
+                truearts: "45000% Water DMG (MAG). For 20s, increase Allies' DMG by 60%, and Allies' MAG DMG by 60%.",
                 trueartsbreak: 2300
             },
         passive: 
@@ -23156,9 +23221,9 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "15s CT - Increase own Arts by 10 + For 10s, increase own stats by 10%.",
+                skill: "15s CT - Increase own Arts by 20 + For 10s, increase own stats by 10%.",
                 skillbreak: 0,
-                arts: "23000% Fire DMG (PHY). For 10s, reduce Enemies' Fire RES by 30%.",
+                arts: "28000% Fire DMG (PHY). For 15s, reduce Enemies' Fire RES by 30%.",
                 artsbreak:  1600,
                 truearts: "40000% Fire DMG (PHY). For 10s, increase Allies' Critical Rate by 100% + Increase Allies' Arts by 3/s.",
                 trueartsbreak: 3100
@@ -23167,7 +23232,7 @@ const UnitInformation = [
             {
                 ability1: "Increase Critical DMG by 40%.",
                 ability2: "Increase DMG to Enemies under 30% HP by 20%.",
-                ability3: "When HP is above 80%, increases Arts' and True Arts' buff durations by 50%."
+                ability3: "When HP is above 50%, increases Arts' and True Arts' buff durations by 50%."
             }, 
         evolution: 
             {
@@ -23222,18 +23287,18 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "15s CT - 5000% Dark DMG (PHY). Increase BE generation of this Skill by 30%.",
+                skill: "15s CT - 5000% Dark DMG (PHY). Increase BE generation of this Skill by 100%.",
                 skillbreak: 400,
-                arts: "17000% Dark DMG (PHY). For 20s, increase own Skill CT REC by 100%.",
+                arts: "22000% Dark DMG (PHY). For 20s, increase own Skill CT REC by 100%.",
                 artsbreak: 1600,
-                truearts: "63000% Dark DMG (PHY). For 10s, increase own accuracy by 100%.",
+                truearts: "100000% Dark DMG (PHY). For 15s, increase own accuracy by 100%.",
                 trueartsbreak: 3500
             },
         passive: 
             {
                 ability1: "Increase Freeze RES by 100%.",
                 ability2: "While near-death, increase DMG RES by 10%.",
-                ability3: "On every use of Arts or True Arts, permanently increase own ATK and DMG by 30% (up to 150%)."
+                ability3: "On every use of Arts or True Arts, permanently increase own ATK and DMG by 40% (up to 200%)."
             }, 
         evolution: 
             {
@@ -23289,9 +23354,9 @@ const UnitInformation = [
             {
                 skill: "10s CT - 1700% Dark DMG (PHY). If this skill crits, increase own Arts by 50.",
                 skillbreak: 500,
-                arts: "20000% Dark DMG (PHY). For 10s, increase Allies' stats by 30%.",
+                arts: "20000% Dark DMG (PHY). For 10s, increase Allies' stats by 35%.",
                 artsbreak: 1600,
-                truearts: "50000% Dark DMG (PHY). For 50s, increase Allies' PHY DMG by 50% (stackable).",
+                truearts: "60000% Dark DMG (PHY). For 60s, increase Allies' PHY DMG by 60% (stackable).",
                 trueartsbreak: 2800
             },
         passive: 
@@ -23354,14 +23419,14 @@ const UnitInformation = [
             {
                 skill: "10s CT - 2000% Light DMG (PHY). For 7s, increase own ATK by 10%.",
                 skillbreak: 500,
-                arts: "18000% Light DMG (PHY). For 20s, increase own accuracy by 20%, and own DMG by 60%.",
+                arts: "20000% Light DMG (PHY). For 20s, increase own accuracy by 50%, and own DMG by 80%.",
                 artsbreak: 1300,
-                truearts: "65000% Light DMG (PHY). For 12s, reduce Enemies' Light RES by 50%.",
+                truearts: "85000% Light DMG (PHY). For 12s, reduce Enemies' Light RES by 50%.",
                 trueartsbreak: 2000
             },
         passive: 
             {
-                ability1: "At the start of a Quest, for 60s, increase Allies' ATK by 40%.",
+                ability1: "At the start of a Quest, for 60s, increase Allies' ATK by 50%.",
                 ability2: "At the start of a Quest, increase Allies' Arts by 50.",
                 ability3: "Increase MAG RES by 10%."
             }, 
