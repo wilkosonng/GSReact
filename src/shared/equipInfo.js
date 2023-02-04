@@ -176,7 +176,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `20s CT - 550% DMG (Physical).`,
+                skill: `20s CT - 550% DMG (PHY).`,
                 break: 200
             },
         passive: 
@@ -234,7 +234,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `20s CT - 500% Water DMG (Physical).`,
+                skill: `20s CT - 500% Water DMG (PHY).`,
                 break: 200
             },
         passive: 
@@ -263,7 +263,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `20s CT - 500% Earth DMG (Magic).`,
+                skill: `20s CT - 500% Earth DMG (MAG).`,
                 break: 200
             },
         passive: 
@@ -321,7 +321,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `20s CT - 500% Light DMG (Magic).`,
+                skill: `20s CT - 500% Light DMG (MAG).`,
                 break: 200
             },
         passive: 
@@ -524,7 +524,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `20s CT - 825% Non-Elemental DMG (Magic).`,
+                skill: `20s CT - 825% Non-Elemental DMG (MAG).`,
                 break: 240
             },
         passive: 
@@ -583,7 +583,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `20s CT - 1500% Dark DMG (Physical).`,
+                skill: `20s CT - 1500% Dark DMG (PHY).`,
                 break: 400
             },
         passive: 
@@ -612,7 +612,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `60s CT - 200% Non-Elemental DMG (Physical). Reduces Enemies' ATK by 10% for 10s.`,
+                skill: `60s CT - 200% Non-Elemental DMG (PHY). Reduces Enemies' ATK by 10% for 10s.`,
                 break: 150
             },
         passive: 
@@ -641,7 +641,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `40s CT - 2500% Dark DMG (Magic).`,
+                skill: `40s CT - 2500% Dark DMG (MAG).`,
                 break: 600
             },
         passive: 
@@ -738,7 +738,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-    { //Winged Boots - Missing Stats, Skillset, Passives, Lore
+    { //Winged Boots - Complete
         id: 100250,
         name: `Winged Boots`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -752,21 +752,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 20,
+                atk: 10,
+                def: 10
             },
         skillset:  
             {
-                skill: ``,
-                break: ``
+                skill: `30s CT - Increases Target's Skill CT Speed by 40% for 10s.`,
+                break: 0
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: ``
             },
-        lore: ``
+        lore: `Footwear made from the powerful wings of the monstrous bird Algantavis. Even a gentle step in these boots will cause a breeze to sweep the wearer high up into the air. Records of the Ancient War state that monstrous birds rarely came into battle, but mistakenly step in their territory and a flock of them would literally blow the transgressors away.`
     },
     { //Berserker Gloves - Missing Stats, Skillset, Passives, Lore
         id: 100260,
@@ -798,7 +797,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-    { //Steel Goggles - Missing Stats, Skillset, Passives, Lore
+    { //Steel Goggles - Complete
         id: 100270,
         name: `Steel Goggles`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -812,23 +811,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 10,
+                atk: 5,
+                def: 5
             },
         skillset:  
             {
-                skill: ``,
-                break: ``
+                skill: `60s CT - Increases Target's Critical Rate by 100% for 3s.`,
+                break: 0
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: ``
             },
-        lore: ``
+        lore: `Goggles prized by volcano workers and explorers of taxing climes. Originally designed to protect the eyes, the narrowing of the visual field was considered a tradeoff for a clear view. In recent years, however, this restriction has also been noted to provide greater focus, and fighters have started to wear them regardless of the battle environment.`
     },
-    { //Maiden's Water Jug - Missing Stats, Skillset, Passives, Lore
+    { //Maiden's Water Jug - Complete
         id: 100280,
         name: `Maiden's Water Jug`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -842,23 +840,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 30,
+                atk: 15,
+                def: 15
             },
         skillset:  
             {
-                skill: ``,
-                break: ``
+                skill: `30s CT - Increases Target's Arts Gauge by 20.`,
+                break: 0
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: ``
             },
-        lore: ``
+        lore: `A jug used by maidens in the service of the divine for holding holy water. Coroc in the Gramenia Republic was especially devastated by the Ancient War, and was slowly slipping back into the desert. Maidens appeared there, praying and spreading water from these jugs. The people were skeptical, but within just one month Coroc was a green oasis again.`
     },
-    { //Great Tree Sparksap
+    { //Great Tree Sparksap - Complete
         id: 100290,
         name: `Great Tree Sparksap`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -872,23 +869,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
+                hp: 40,
                 atk: 0,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: ``
+                skill: `60s CT - Heals Target's HP by 840.`,
+                break: 0
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: ``
             },
-        lore: ``
+        lore: `Hardened sap sometimes found at the foot of a gigantic tree. People living close to the forest call them "tree gifts" and welcome them as a sign of a bountiful harvest. They are also highly prized aesthetically, often selling for more than gemstones, and this has led the villagers to create a self defense force to drive away any potential poachers.`
     },
-    { //Unihorn Staff - Missing Stats, Skillset, Passives, Lore
+    { //Unihorn Staff - Complete
         id: 100300,
         name: `Unihorn Staff`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -903,22 +899,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 40,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: ``
+                skill: `20s CT - 750% Light DMG (MAG).`,
+                break: 240
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: ``
             },
-        lore: ``
+        lore: `A staff made from the horn of a unihorn, an especially rare and fabled beast. Reflecting the beast's pure nature, a single wave of this staff is all it takes to eradicate any miasma. However, this also means the staff will shatter if held by anyone with evil in their heart. As only a few remain, their locations are kept by a select handful of individuals.`
     },
-    { //Creativity Brush - Missing Stats, Skillset, Passives, Lore
+    { //Creativity Brush - Complete
         id: 100310,
         name: `Creativity Brush`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -933,22 +928,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 40,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: ``
+                skill: `20s CT - 750% Dark DMG (MAG).`,
+                break: 240
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: ``
             },
-        lore: ``
+        lore: `A magical brush that makes anything it draws real. Oldelia, a spirit artist, was driven mad by his desire to use the brush, eventually stealing it from a demon temple. He used it to create an otherworldly army and almost wiped out Magia in the west of the Magus Empire. Although foiled at last, the beasts he created went on to inspire a new branch of art.`
     },
-    { //Fairy Teardrop - Missing Stats, Skillset, Passives, Lore
+    { //Fairy Teardrop - Complete
         id: 100320,
         name: `Fairy Teardrop`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -962,23 +956,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
+                hp: 60,
                 atk: 0,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: ``
+                skill: `60s CT - Heals all Allies' HP by 250. Heals all Allies' Disease.`,
+                break: 0
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: ``
             },
-        lore: ``
+        lore: `Mystical medicine created from morning mist in the Fairy Forest. A concentration of the healing power of the trees, it can even save patients with a terminal prognosis, but a healthy person will suffer hallucinations and other side effects. Therefore, in order to prevent mistaken imbibing, in the Isliid Empire it can only be prescribed by doctors.`
     },
-    { //Prayer Wine "Soma" - Missing Stats, skillset, Passives, Lore
+    { //Prayer Wine "Soma" - Complete
         id: 100330,
         name: `Prayer Wine "Soma"`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -992,23 +985,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
+                hp: 120,
                 atk: 0,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: ``
+                skill: `30s CT - Heals all Allies' HP by 300. Heals all Allies' Poison and Curse.`,
+                break: 0
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: ``
             },
-        lore: ``
+        lore: `Holy wine extracted from the sap of the divine tree Soma, where the spirits of departed fairies gather. Sweet, refreshing, and a powerful analeptic. Originally created as an offering to the divine, during the Ancient War it was used to bring courage to fighting men. Records state that not a single combatant who drank this wine fell in battle.`
     },
-    { //Blessed Wine "Amurita" - Missing Stats, Skillset, Passives, Lore
+    { //Blessed Wine "Amurita" - Complete
         id: 100340,
         name: `Blessed Wine "Amurita"`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -1022,23 +1014,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
+                hp: 60,
                 atk: 0,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: ``
+                skill: `60s CT - Heals Target's HP by 250. Heals all Allies' Seal and Blind.`,
+                break: 0
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: ``
             },
-        lore: ``
+        lore: `A type of holy wine brewed in temples. Said to have originally been used to purify the singing voices of a holy choir prior to ritual performances. Clear and delicious, with a hint of floral fragrance. Singers who have imbibed this wine can move listeners to tears with their song, and it is therefore also much loved by people in the performing arts.`
     },
-    { //Oracle Flower - Missing Stats, Skillset, Passives, Lore
+    { //Oracle Flower - Complete
         id: 100350,
         name: `Oracle Flower`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -1052,23 +1043,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
+                hp: 40,
                 atk: 0,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: ``
+                skill: `60s CT - Heals Target's HP by 200. If User is Earth Elemental then Healing x 1.5.`,
+                break: 0
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: ``
             },
-        lore: ``
+        lore: `A flower said to forewarn its owner. Major General Salbatol of the Gramenia Republic once received one from a young girl as he set out to battle. Thinking little more of it, just before a raid he noticed the flower had died. He called the attack off, and they later found his plan had been leaked to the enemy; the flower had saved him and all his men.`
     },
-    { //Heavenly Robe "Michael" - Missing Stats, Skillset, Passives, Lore
+    { //Heavenly Robe "Michael" - Complete
         id: 100360,
         name: `Heavenly Robe "Michael"`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -1084,21 +1074,20 @@ const EquipInformation = [
             {
                 hp: 0,
                 atk: 0,
-                def: 0
+                def: 120
             },
         skillset:  
             {
-                skill: ``,
-                break: ``
+                skill: `30s CT - Negates 400 DMG Dealt to all Allies' for 8s. Reduces all Allies' Light Elemental DMG Taken by 35% for 8s.`,
+                break: 0
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: ``
             },
-        lore: ``
+        lore: `A holy garment named for the highest of the angels. Created under the holiest conditions, it can repel all magic. Once, during battle with demons, High Priest Nephilim of the Kingdom of Famelle wrapped a fleeing child in one of these robes. Raging fighting consumed the temple but the child survived, and this led them to the robes being shared with all believers.`
     },
-    { //Amulet of Affection - Missing Stats, Skillset, Passives, Lore
+    { //Amulet of Affection - Complete
         id: 100370,
         name: `Amulet of Affection`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -1112,23 +1101,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
+                hp: 120,
                 atk: 0,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: ``
+                skill: `60s CT - Heal all Allies' HP by 500. If User is Light Elemental then Healing x 1.5.`,
+                break: 0
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: ``
             },
-        lore: ``
+        lore: `A jeweled amulet sometimes found in divine ruins. In a time when the gods still lived there, legend tells of how the daughter of a priest prayed to a jewel in order to save the mortally wounded young man whom she loved. Miraculously, he was saved, and now family members of those who must send loved ones into battle come to ruins looking for similar jewels.`
     },
-    { //Angel's Harp - Missing Stats, Skillset, Passives, Lore
+    { //Angel's Harp - Complete
         id: 100380,
         name: `Angel's Harp`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -1142,21 +1130,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
+                hp: 500,
                 atk: 0,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: ``
+                skill: `60s CT - Heals all Allies' HP by 1200.`,
+                break: 0
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: ``
             },
-        lore: ``
+        lore: `A relic that only angels were one allowed to own and play. Its music can touch the very soul, healing and purifying all. During the Ancient War, an angel who couldn’t bear to see the other races fighting took his ritual harp onto the battlefield and started to play. Before long, his soothing melody had calmed, then stilled the raging conflict.`
     },
 ]
 
