@@ -260,14 +260,14 @@ const RenderEvolution = ({ mat }) => {
                     { mat.hover4 ? <Tooltip isOpen={tooltip4} 
                             target="hover4"
                             placement="top"
-                            toggle={() => setTooltip3(!tooltip4)} >{mat.hover4}</Tooltip>
+                            toggle={() => setTooltip4(!tooltip4)} >{mat.hover4}</Tooltip>
                         : null
                     }
 
                     { mat.hover5 ? <Tooltip isOpen={tooltip5} 
                             target="hover5"
                             placement="top"
-                            toggle={() => setTooltip3(!tooltip5)} >{mat.hover5}</Tooltip>
+                            toggle={() => setTooltip5(!tooltip5)} >{mat.hover5}</Tooltip>
                         : null
                     }
                     
