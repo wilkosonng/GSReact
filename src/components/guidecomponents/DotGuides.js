@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Card, CardHeader, CardBody, CardGroup, Container, Row, Col } from 'reactstrap';
 import { getTrialGuides } from '../../shared/guides/dotguides';
 import { Link } from 'react-router-dom';
@@ -41,6 +41,9 @@ export default function DotGuide() {
                             }
                             )}
                         </CardGroup>
+                        <center>
+                            <a href="/guides"><button style={{backgroundColor: "#22bbff", color: "#292930"}}>Return to Guides</button></a>
+                        </center>
                     </CardBody>
                 </Card>
             </Row>
