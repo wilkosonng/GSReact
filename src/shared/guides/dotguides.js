@@ -1275,7 +1275,7 @@ const TrialGuides = [
 
             <br/>
             <b><h3><center>Boss Stage - Sealed God Auge</center></h3></b>
-            <center><img src="/db/Units/Thumbnail/unit_thumbnail_500221413.png" alt="Sealed God Auge"/></center>
+            <center><img src="/db/Units/Thumbnail/unit_thumbnail_500232513.png" alt="Sealed God Auge"/></center>
 
             <ul>
                 <li>Notable Attacks</li>
@@ -1349,7 +1349,7 @@ const TrialGuides = [
                     <img src="/db/Units/Thumbnail/unit_thumbnail_102986312.png" alt="Cestina" class="unitThumb"/>
                 </a>
                 <a href="https://www.grandsummoners.info/units/Vox">
-                    <img src=""/db/Units/Thumbnail/unit_thumbnail_102516212.png" alt="Vox" class="unitThumb"/>
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_102516212.png" alt="Vox" class="unitThumb"/>
                 </a>
                 <a href="https://www.grandsummoners.info/units/Liza">
                     <img src="/db/Units/Thumbnail/unit_thumbnail_103006412.png" alt="Liza" class="unitThumb"/>
@@ -1365,7 +1365,7 @@ const TrialGuides = [
                     <img src="/db/Units/Thumbnail/unit_thumbnail_107626512.png" alt="Mikey" class="unitThumb"/>
                 </a>
                 <a href="https://www.grandsummoners.info/units/Vox">
-                    <img src=""/db/Units/Thumbnail/unit_thumbnail_102516212.png" alt="Vox" class="unitThumb"/>
+                    <img src="/db/Units/Thumbnail/unit_thumbnail_102516212.png" alt="Vox" class="unitThumb"/>
                 </a>
                 <a href="https://www.grandsummoners.info/units/Liza">
                     <img src="/db/Units/Thumbnail/unit_thumbnail_103006412.png" alt="Liza" class="unitThumb"/>
