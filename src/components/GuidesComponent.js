@@ -2,26 +2,9 @@ import React from 'react';
 import { Container, Row, Col, Card, CardHeader, CardBody, CardGroup } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
-const cardCategorySize = {
-    maxWidth: "25rem",
-    width: "100%",
-    height: "10rem",
-    backgroundColor: "#2e9cca",
-    alignItems: "center", 
-    justifyContent: "center"
-}
-
-const cardSize = {
-    maxWidth: "20rem", 
-    width: "100%", 
-    height: "10rem",
-    backgroundColor: "#2e9cca",
-    alignItems: "center", 
-    justifyContent: "center"
-}
-
 const imageSize = { 
     width: "100%",
+    maxWidth: "25rem",
     height: "auto"
 }
 
@@ -44,7 +27,7 @@ export default function GuidesMainPage () {
                         <CardGroup style={{alignItems: "center", justifyContent: "center", width: "100%"}}>
                             <Link to="FAQ" activeClassName="active">
                                 <Col lg="auto">
-                                    <img src="/db/guides/FAQBanner.png" style={imageSize} />
+                                    <img src="/db/guides/FAQBanner.png" style={imageSize} alt="FAQ" />
                                 </Col>
                             </Link>
 
@@ -53,7 +36,12 @@ export default function GuidesMainPage () {
                         <CardGroup style={{alignItems: "center", justifyContent: "center", width: "100%"}}>
                             <Link to="crest-guides" activeClassName="active">
                                 <Col lg="auto">
-                                    <img src="/db/guides/CrestGuidesBanner.png" style={imageSize} />
+                                    <img src="/db/guides/CrestGuidesBanner.png" style={imageSize} alt="Crest Guides" />
+                                </Col>
+                            </Link>
+                            <Link to="dungeon-of-trials">
+                                <Col lg="auto">
+                                    <img src="/db/guides/DOTBanner.png" style={imageSize} alt="Dungeon of Trials" />
                                 </Col>
                             </Link>
                         </CardGroup>
