@@ -23,7 +23,7 @@ function UnitDetails () {
 function UnitHome() {
     //Unit Info
     const selectedUnit = useParams();
-    const units = getUnitByName(selectedUnit.unitName);
+    const units = getUnitByName(selectedUnit.unitName); //unitName from Route
 
     //Tabs
     const [currentTab, setCurrentTab] = useState('2');
@@ -37,6 +37,7 @@ function UnitHome() {
             <CardHeader style={{backgroundColor: "#22bbff", color: "#292930"}}>
                 <h2>Select a category to view Unit Information</h2>
             </CardHeader>
+            </center>
             <CardBody>
                 <Nav pills justified>
                     <NavItem>
@@ -76,7 +77,7 @@ function UnitHome() {
                     </TabPane>
                 </TabContent>
             </CardBody>
-            </center>
+            
         </Card>
     )
 }
@@ -211,202 +212,6 @@ function RenderLore({unitName, unitLore, unitImage, unitEvolution}) {
             </TabContent>
         </>
     )
-    // if(unitLore.evoawk){
-    //     if(unitLore.evo2) {
-    //         return (
-    //             <React.Fragment>
-    //                 <center><h1><strong>{unitName}</strong></h1></center>
-    //                 <p><center>Select an Evolution to view the Lore</center></p>
-    //                 <center>
-    //                     <Nav justified>
-    //                         <NavItem>
-    //                             <Link to="twostar" activeClassName="active">
-    //                                 <Media src={unitImage.thumb2} style={unitSize}/>
-    //                             </Link>
-    //                         </NavItem>
-    //                         <NavItem>
-    //                             <Link to="threestar" activeClassName="active">
-    //                                 <Media src={unitImage.thumb3} style={unitSize}/>
-    //                             </Link>
-    //                         </NavItem>
-    //                         <NavItem>
-    //                             <Link to="fourstar" activeClassName="active">
-    //                                 <Media src={unitImage.thumb4} style={unitSize}/>
-    //                             </Link>
-    //                         </NavItem>
-    //                         <NavItem>
-    //                         <Link to="fivestar" activeClassName="active">
-    //                                 <Media src={unitImage.thumb5} style={unitSize}/>
-    //                             </Link>
-    //                         </NavItem>
-    //                         <NavItem>
-    //                         <Link to="awaken" activeClassName="active">
-    //                                 <Media src={unitImage.thumbawk} style={unitSize}/>
-    //                             </Link>
-    //                         </NavItem>
-    //                     </Nav>
-    //                 </center>
-    //                 <Outlet />
-    //             </React.Fragment>
-    //         )
-    //     }
-    
-    //     if(unitLore.evo3) {
-    //         return (
-    //             <React.Fragment>
-    //                 <center><h1><strong>{unitName}</strong></h1></center>
-    //                 <p><center>Select an Evolution to view the Lore</center></p>
-    //                 <center>
-    //                     <Nav justified>
-    //                         <NavItem>
-    //                             <Link to="threestar" activeClassName="active">
-    //                                 <Media src={unitImage.thumb3} style={unitSize}/>
-    //                             </Link>
-    //                         </NavItem>
-    //                         <NavItem>
-    //                             <Link to="fourstar" activeClassName="active">
-    //                                 <Media src={unitImage.thumb4} style={unitSize}/>
-    //                             </Link>
-    //                         </NavItem>
-    //                         <NavItem>
-    //                         <Link to="fivestar" activeClassName="active">
-    //                                 <Media src={unitImage.thumb5} style={unitSize}/>
-    //                             </Link>
-    //                         </NavItem>
-    //                         <NavItem>
-    //                         <Link to="awaken" activeClassName="active">
-    //                                 <Media src={unitImage.thumbawk} style={unitSize}/>
-    //                             </Link>
-    //                         </NavItem>
-    //                     </Nav>
-    //                 </center>
-    //                 <Outlet />
-    //             </React.Fragment>
-    //         )
-    //     }
-    
-    //     if(unitLore.evo4) {
-    //         return (
-    //             <React.Fragment>
-    //                 <center><h1><strong>{unitName}</strong></h1></center>
-    //                 <p><center>Select an Evolution to view the Lore</center></p>
-    //                 <center>
-    //                     <Nav justified>
-    //                         <NavItem>
-    //                             <Link to="fourstar" activeClassName="active">
-    //                                 <Media src={unitImage.thumb4} style={unitSize}/>
-    //                             </Link>
-    //                         </NavItem>
-    //                         <NavItem>
-    //                         <Link to="fivestar" activeClassName="active">
-    //                                 <Media src={unitImage.thumb5} style={unitSize}/>
-    //                             </Link>
-    //                         </NavItem>
-    //                         <NavItem>
-    //                         <Link to="awaken" activeClassName="active">
-    //                                 <Media src={unitImage.thumbawk} style={unitSize}/>
-    //                             </Link>
-    //                         </NavItem>
-    //                     </Nav>
-    //                 </center>
-    //                 <Outlet />
-    //             </React.Fragment>
-    //         )
-    //     }
-    
-    //     if(unitLore.evo5) {
-    //         return (
-    //             <React.Fragment>
-    //                 <center><h1><strong>{unitName}</strong></h1></center>
-    //                 <p><center>Select an Evolution to view the Lore</center></p>
-    //                 <center>
-    //                     <Nav justified>
-    //                         <NavItem>
-    //                         <Link to="fivestar" activeClassName="active">
-    //                                 <Media src={unitImage.thumb5} style={unitSize}/>
-    //                             </Link>
-    //                         </NavItem>
-    //                         <NavItem>
-    //                         <Link to="awaken" activeClassName="active">
-    //                                 <Media src={unitImage.thumbawk} style={unitSize}/>
-    //                             </Link>
-    //                         </NavItem>
-    //                     </Nav>
-    //                 </center>
-    //                 <Outlet />
-    //             </React.Fragment>
-    //         )
-    //     }
-
-    //     if(unitLore.evosuper) {
-    //         return (
-    //             <React.Fragment>
-    //                 <center><h1><strong>{unitName}</strong></h1></center>
-    //                 <p><center>Select an Evolution to view the Lore</center></p>
-    //                 <center>
-    //                     <Nav justified>
-    //                         <NavItem>
-    //                         <Link to="awaken" activeClassName="active">
-    //                                 <Media src={unitImage.thumbawk} style={unitSize}/>
-    //                             </Link>
-    //                         </NavItem>
-    //                         <NavItem>
-    //                         <Link to="super" activeClassName="active">
-    //                                 <Media src={unitImage.thumbsuper} style={unitSize}/>
-    //                             </Link>
-    //                         </NavItem>
-    //                     </Nav>
-    //                 </center>
-    //                 <Outlet />
-    //             </React.Fragment>
-    //         )
-    //     }
-    // }
-    
-    // if(unitLore.evo5){
-    //     if(unitLore.evo4) {
-    //         return (
-    //             <React.Fragment>
-    //                 <center><h1><strong>{unitName}</strong></h1></center>
-    //                 <p><center>Select an Evolution to view the Lore</center></p>
-    //                 <center>
-    //                     <Nav justified>
-    //                         <NavItem>
-    //                             <Link to="fourstar" activeClassName="active">
-    //                                 <Media src={unitImage.thumb4} style={unitSize}/>
-    //                             </Link>
-    //                         </NavItem>
-    //                         <NavItem>
-    //                         <Link to="fivestar" activeClassName="active">
-    //                                 <Media src={unitImage.thumb5} style={unitSize}/>
-    //                             </Link>
-    //                         </NavItem>
-    //                     </Nav>
-    //                 </center>
-    //                 <Outlet />
-    //             </React.Fragment>
-    //         )
-    //     }
-
-    //     if(unitLore.evo5) {
-    //         return (
-    //             <React.Fragment>
-    //                 <center><h1><strong>{unitName}</strong></h1></center>
-    //                 <p><center>Select an Evolution to view the Lore</center></p>
-    //                 <center>
-    //                     <Nav justified>
-    //                         <NavItem>
-    //                         <Link to="fivestar" activeClassName="active">
-    //                                 <Media src={unitImage.thumb5} style={unitSize}/>
-    //                             </Link>
-    //                         </NavItem>
-    //                     </Nav>
-    //                 </center>
-    //                 <Outlet />
-    //             </React.Fragment>
-    //         )
-    //     }
-    // }
 }
 
 export default UnitDetails;
