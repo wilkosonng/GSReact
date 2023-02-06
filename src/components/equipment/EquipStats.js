@@ -1,14 +1,14 @@
-import { Container, Badge, Row, Table, List } from 'reactstrap';
+import { Badge, Row, Table, List } from 'reactstrap';
 
 const EquipStats = ({ skillset, stats, passive, star }) => {
     return (
-        <Container style={{marginTop: "1rem"}}>
-            <center>
+        <>
+            <center style={{ marginTop: "1rem"}}>
                 <RenderStats hp={stats.hp} atk={stats.atk} def={stats.def} star={star} />
                 <RenderSkill skillbreak={skillset.break} skilleffect={skillset.skill} />
                 <RenderPassives passive={passive} />
             </center>
-        </Container>
+        </>
     )
 }
 
@@ -17,7 +17,7 @@ const RenderStats = ({ hp, atk, def, star }) => {
         <Row style={{ marginTop: "1rem" , marginBottom: "1rem"}}>
             <i>Stats and Skillset shown are based on Max Level and Max Limit Break</i>
             <center>
-            <Table bordered style={{ width: "15rem", marginTop: "1rem"}}>
+            <Table bordered style={{ width: "15em", marginTop: "1rem"}}>
                 <tr>
                     <th>
                         <center>HP</center>
@@ -80,7 +80,7 @@ const RenderSkill = ({ skillbreak, skilleffect }) => {
     return (
         <Row style={{ marginBottom: "1rem"}}>
             <h4><strong>SKILL</strong></h4>
-            <p><Badge color="primary" pill>BREAK {skillbreak}</Badge> {skilleffect}</p>
+            <center><p><Badge color="primary" pill>BREAK {skillbreak}</Badge> {skilleffect}</p></center>
         </Row>
     )
 }
