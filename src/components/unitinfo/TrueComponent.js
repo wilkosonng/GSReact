@@ -1,4 +1,4 @@
-import { Container, Row, Col, Badge, Media, NavItem, NavLink, Nav, TabContent, TabPane, Card, CardHeader, CardBody, CardTitle } from 'reactstrap';
+import { Container, Row, Badge, Media, NavItem, NavLink, Nav, TabContent, TabPane, List } from 'reactstrap';
 import React, { useState } from 'react';
 import classnames from 'classnames';
 
@@ -9,12 +9,11 @@ const imageSize ={
     maxWidth: "400px"
 };
 
-const trueCard = {
-    marginTop: "3rem",
-    paddingTop: "10px",
-    backgroundColor: "#292930", 
-    color: "#e7f9fc"
-}
+const thumbnailSize = {
+    maxHeight: 75,
+    maxWidth: 75,
+    width: "100%"
+};
 
 export function RenderTrue({unitTrue}) {
     //Hook for Tab State
@@ -25,261 +24,124 @@ export function RenderTrue({unitTrue}) {
         if(currentTab !== tab) setCurrentTab(tab);
     }
 
-    //TODO: Fix Tabs so active is properly showing
-    //Check if True Weapon Exists
-    if(unitTrue.trueweapon){
-        //Three TWs (2 Passive each)
-        if(unitTrue.trueweapon.true3) {
-            return (
-                <React.Fragment>
-                    <Card style={trueCard}>
-                        <CardHeader>
-                            <Nav pills justified>
-                                <NavItem>
-                                    <NavLink className={classnames({ active: currentTab === '1' })}
-                                        onClick={() => {toggle('1')}} >
-                                            <Media src={unitTrue.trueweapon.true1.thumb} object-fit="cover" id="unitTrue"/>
-                                    </NavLink>
-                                    
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink className={classnames({ active: currentTab === '2' })}
-                                        onClick={() => {toggle('2')}} >
-                                            <Media src={unitTrue.trueweapon.true2.thumb} object-fit="cover" id="unitTrue"/>
-                                    </NavLink>
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink className={classnames({ active: currentTab === '3' })}
-                                        onClick={() => {toggle('3')}} >
-                                            <Media src={unitTrue.trueweapon.true3.thumb} object-fit="cover" id="unitTrue"/>
-                                    </NavLink>
-                                </NavItem>
-                            </Nav>
-                        </CardHeader>
-                        <TabContent activeTab={currentTab}>
-                            <TabPane tabId="1">
-                                <Container>
-                                    <Row>
-                                        <CardTitle>
-                                            <center><Media src={unitTrue.trueweapon.true1.detail} style={imageSize} /></center>
-                                            <center><strong><h1><Media src={unitTrue.trueweapon.true1.slot} />{unitTrue.trueweapon.true1.name}<Media src={unitTrue.trueweapon.true1.slot} /></h1></strong></center>
-                                        </CardTitle>
-                                        <CardBody>
-                                            <Col>
-                                                <h3><strong>SKILL</strong></h3>
-                                                <p><Badge color="secondary">BREAK {unitTrue.trueweapon.true1.skillbreak}</Badge> {unitTrue.trueweapon.true1.skill} </p>
-                                            </Col>
-                                            <Col>
-                                                <p><h3><strong>PASSIVE</strong></h3>
-                                                    <ul>
-                                                        <li>{unitTrue.trueweapon.true1.passive.ability1}</li>
-                                                        <li>{unitTrue.trueweapon.true1.passive.ability2}</li>
-                                                    </ul>
-                                                </p>
-                                            </Col>
-                                        </CardBody>
-                                    </Row>
-                                </Container>
-                            </TabPane>
-                            <TabPane tabId="2">
-                                <Container>
-                                    <Row>
-                                        <CardTitle>
-                                            <center><Media src={unitTrue.trueweapon.true2.detail} style={imageSize} /></center>
-                                            <center><strong><h1><Media src={unitTrue.trueweapon.true2.slot} />{unitTrue.trueweapon.true2.name}<Media src={unitTrue.trueweapon.true2.slot} /></h1></strong></center>
-                                        </CardTitle>
-                                        <CardBody>
-                                            <Col>
-                                                <h3><strong>SKILL</strong></h3>
-                                                <p><Badge color="secondary">BREAK {unitTrue.trueweapon.true2.skillbreak}</Badge> {unitTrue.trueweapon.true2.skill} </p>
-                                            </Col>
-                                            <Col>
-                                                <p><h3><strong>PASSIVE</strong></h3>
-                                                    <ul>
-                                                        <li>{unitTrue.trueweapon.true2.passive.ability1}</li>
-                                                        <li>{unitTrue.trueweapon.true2.passive.ability2}</li>
-                                                    </ul>
-                                                </p>
-                                            </Col>
-                                        </CardBody>
-                                    </Row>
-                                </Container>
-                            </TabPane>
-                            <TabPane tabId="3">
-                                <Container>
-                                    <Row>
-                                        <CardTitle>
-                                            <center><Media src={unitTrue.trueweapon.true3.detail} style={imageSize} /></center>
-                                            <center><strong><h1><Media src={unitTrue.trueweapon.true3.slot} />{unitTrue.trueweapon.true3.name}<Media src={unitTrue.trueweapon.true3.slot} /></h1></strong></center>
-                                        </CardTitle>
-                                        <CardBody>
-                                            <Col>
-                                                <h3><strong>SKILL</strong></h3>
-                                                <p><Badge color="secondary">BREAK {unitTrue.trueweapon.true3.skillbreak}</Badge> {unitTrue.trueweapon.true3.skill} </p>
-                                            </Col>
-                                            <Col>
-                                                <p><h3><strong>PASSIVE</strong></h3>
-                                                    <ul>
-                                                        <li>{unitTrue.trueweapon.true3.passive.ability1}</li>
-                                                        <li>{unitTrue.trueweapon.true3.passive.ability2}</li>
-                                                    </ul>
-                                                </p>
-                                            </Col>
-                                        </CardBody>
-                                    </Row>
-                                </Container>
-                            </TabPane>
-                        </TabContent>
-                    </Card>
-                </React.Fragment>
-            )
-        }
+    const tw = unitTrue.trueweapon;
 
-        //Two TWs (2 Passive each)
-        if(unitTrue.trueweapon.true2) {
-            return (
-                <React.Fragment>
-                    <Card style={trueCard}>
-                        <CardHeader>
-                            <Nav pills justified>
-                                <NavItem>
-                                    <NavLink className={classnames({ active: currentTab === '1' })}
-                                        onClick={() => {toggle('1')}} >
-                                            <Media src={unitTrue.trueweapon.true1.thumb} object-fit="cover" id="unitTrue"/>
-                                    </NavLink>
-                                    
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink className={classnames({ active: currentTab === '2' })}
-                                        onClick={() => {toggle('2')}} >
-                                            <Media src={unitTrue.trueweapon.true2.thumb} object-fit="cover" id="unitTrue"/>
-                                    </NavLink>
-                                </NavItem>
-                            </Nav>
-                        </CardHeader>
-                        <TabContent activeTab={currentTab}>
-                            <TabPane tabId="1">
-                                <Container>
-                                    <Row>
-                                        <CardTitle>
-                                            <center><Media src={unitTrue.trueweapon.true1.detail} style={imageSize} /></center>
-                                            <center><strong><h1><Media src={unitTrue.trueweapon.true1.slot} />{unitTrue.trueweapon.true1.name}<Media src={unitTrue.trueweapon.true1.slot} /></h1></strong></center>
-                                        </CardTitle>
-                                        <CardBody>
-                                            <Col>
-                                                <h3><strong>SKILL</strong></h3>
-                                                <p><Badge color="secondary">BREAK {unitTrue.trueweapon.true1.skillbreak}</Badge> {unitTrue.trueweapon.true1.skill} </p>
-                                            </Col>
-                                            <Col>
-                                                <p><h3><strong>PASSIVE</strong></h3>
-                                                    <ul>
-                                                        <li>{unitTrue.trueweapon.true1.passive.ability1}</li>
-                                                        <li>{unitTrue.trueweapon.true1.passive.ability2}</li>
-                                                    </ul>
-                                                </p>
-                                            </Col>
-                                        </CardBody>
-                                    </Row>
-                                </Container>
-                            </TabPane>
-                            <TabPane tabId="2">
-                                <Container>
-                                    <Row>
-                                        <CardTitle>
-                                            <center><Media src={unitTrue.trueweapon.true2.detail} style={imageSize} /></center>
-                                            <center><strong><h1><Media src={unitTrue.trueweapon.true2.slot} />{unitTrue.trueweapon.true2.name}<Media src={unitTrue.trueweapon.true2.slot} /></h1></strong></center>
-                                        </CardTitle>
-                                        <CardBody>
-                                            <Col>
-                                                <h3><strong>SKILL</strong></h3>
-                                                <p><Badge color="secondary">BREAK {unitTrue.trueweapon.true2.skillbreak}</Badge> {unitTrue.trueweapon.true2.skill} </p>
-                                            </Col>
-                                            <Col>
-                                                <p><h3><strong>PASSIVE</strong></h3>
-                                                    <ul>
-                                                        <li>{unitTrue.trueweapon.true2.passive.ability1}</li>
-                                                        <li>{unitTrue.trueweapon.true2.passive.ability2}</li>
-                                                    </ul>
-                                                </p>
-                                            </Col>
-                                        </CardBody>
-                                    </Row>
-                                </Container>
-                            </TabPane>
-                        </TabContent>
-                    </Card>
-                </React.Fragment>
-            )
-        }
-
-        //2 Passives
-        if(unitTrue.trueweapon.passive.ability2){
-            return (
-                <Container>
-                    <Card style={trueCard}>
-                        <Row>
-                            <CardHeader>
-                                <center><Media src={unitTrue.trueweapon.detail} style={imageSize} /></center>
-                                <center><strong><h1><Media src={unitTrue.trueweapon.slot} />{unitTrue.trueweapon.name}<Media src={unitTrue.trueweapon.slot} /></h1></strong></center>
-                            </CardHeader>
-                            <CardBody>
-                                <Col>
-                                    <h3><strong>SKILL</strong></h3>
-                                    <p><Badge color="secondary">BREAK {unitTrue.trueweapon.skillbreak}</Badge> {unitTrue.trueweapon.skill} </p>
-                                </Col>
-                                <Col>
-                                    <p><h3><strong>PASSIVE</strong></h3>
-                                        <ul>
-                                            <li>{unitTrue.trueweapon.passive.ability1}</li>
-                                            <li>{unitTrue.trueweapon.passive.ability2}</li>
-                                        </ul>
-                                    </p>
-                                </Col>
-                            </CardBody>
-                        </Row>
-                    </Card>
-                </Container>
-            )
-        } 
-
-        //Just 1 Passive
-        if(unitTrue.trueweapon.passive.ability1){
-            return (
-                <Container>
-                    <Card style={trueCard}>
-                        <Row>
-                            <CardHeader>
-                                <center><Media src={unitTrue.trueweapon.detail} style={imageSize} /></center>
-                                <center><strong><h1><Media src={unitTrue.trueweapon.slot} />{unitTrue.trueweapon.name}<Media src={unitTrue.trueweapon.slot} /></h1></strong></center>
-                            </CardHeader>
-                            <CardBody>
-                                <Col>
-                                    <h3><strong>SKILL</strong></h3>
-                                    <p><Badge color="secondary">BREAK {unitTrue.trueweapon.skillbreak}</Badge> {unitTrue.trueweapon.skill} </p>
-                                </Col>
-                                <Col>
-                                    <p><h3><strong>PASSIVE</strong></h3>
-                                        <ul>
-                                            <li>{unitTrue.trueweapon.passive.ability1}</li>
-                                        </ul>
-                                    </p>
-                                </Col>
-                            </CardBody>
-                        </Row>
-                    </Card>
-                </Container>
-            )
-        } 
-    }
-    
-
-    //If Trueweapon is missing
     return (
-            <Container>
-                <Card style={trueCard}>
-                    <center><h1>This unit does not have a True Weapon</h1></center>
-                </Card>
+        <>
+            <Container style={{marginTop: "1rem"}}>
+            { tw ? 
+                <>
+                    { tw.true1 ? 
+                        <>
+                            <Nav pills justified>
+                                <NavItem>
+                                    <NavLink className={classnames({ active: currentTab === '1' })}
+                                        onClick={() => {toggle('1')}}>
+                                        <Media src={tw.true1.thumb} object-fit="cover" id="unitTrue" style={thumbnailSize}/>
+                                    </NavLink>
+                                </NavItem>
+                                <NavItem>
+                                    <NavLink className={classnames({ active: currentTab === '2' })}
+                                        onClick={() => {toggle('2')}}>
+                                        <Media src={tw.true2.thumb} object-fit="cover" id="unitTrue" style={thumbnailSize}/>
+                                    </NavLink>
+                                </NavItem>
+                                {
+                                    tw.true3 ? 
+                                    <NavItem>
+                                        <NavLink className={classnames({ active: currentTab === '3' })}
+                                            onClick={() => {toggle('3')}}>
+                                            <Media src={tw.true2.thumb} object-fit="cover" id="unitTrue" style={thumbnailSize}/>
+                                        </NavLink>
+                                    </NavItem>
+                                    :
+                                    null
+                                }
+                            </Nav>
+                            <TabContent activeTab={currentTab}>
+                                <TabPane tabId="1">
+                                    <RenderAll detail={tw.true1.detail} slot={tw.true1.slot} name={tw.true1.name} 
+                                    skill={tw.true1.skill} skillbreak={tw.true1.skillbreak} passive={tw.true1.passive} />
+                                </TabPane>
+                            </TabContent>
+                            <TabContent activeTab={currentTab}>
+                                <TabPane tabId="2">
+                                    <RenderAll detail={tw.true2.detail} slot={tw.true2.slot} name={tw.true2.name} 
+                                    skill={tw.true2.skill} skillbreak={tw.true2.skillbreak} passive={tw.true2.passive} />
+                                </TabPane>
+                            </TabContent>
+                            {
+                                tw.true3 ? 
+                                <TabContent activeTab={currentTab}>
+                                    <TabPane tabId="3">
+                                        <RenderAll detail={tw.true3.detail} slot={tw.true3.slot} name={tw.true3.name} 
+                                        skill={tw.true3.skill} skillbreak={tw.true3.skillbreak} passive={tw.true3.passive} />
+                                    </TabPane>
+                                </TabContent>
+                                : null
+                            }
+                        </>
+                        : 
+                        <>
+                            <RenderAll detail={tw.detail} slot={tw.slot} name={tw.name} 
+                                skill={tw.skill} skillbreak={tw.skillbreak} passive={tw.passive} />
+                        </>
+                    }
+                    
+                </>
+            : <center><h1>This unit does not have a True Weapon</h1></center>}
             </Container>
-        )
+        </>
+        
+    )
     
+}
+
+const RenderAll = ({ detail, slot, name, skill, skillbreak, passive }) => {
+    return (
+        <center>
+            <RenderImage detail={detail} />
+            <RenderName name={name} slot={slot} />
+            <RenderSkill skillbreak={skillbreak} skill={skill} />
+            <RenderPassive passive={passive} />
+        </center>
+    )
+}
+const RenderImage = ({ detail }) => {
+    return (
+        <Row>
+            <center><Media src={detail} style={imageSize} /></center>
+        </Row>
+    )
+}
+
+const RenderName = ({ slot, name }) => {
+    return (
+        <Row>
+            <strong><h1><Media src={slot} />{name}<Media src={slot} /></h1></strong>
+        </Row>
+    )
+}
+
+const RenderSkill = ({ skill, skillbreak }) => {
+    return (
+        <Row>
+            <h3><strong>SKILL</strong></h3>
+            <center><p><Badge color="primary">BREAK {skillbreak}</Badge> {skill} </p></center>
+        </Row>
+    )
+}
+
+const RenderPassive = ({ passive }) => {
+    return (
+        <Row>
+            <h3><strong>PASSIVE</strong></h3>
+            <List type="unstyled">
+                <li>{passive.ability1}</li>
+                { passive.ability2 ? <li>{passive.ability2}</li> : null }
+                { passive.ability3 ? <li>{passive.ability3}</li> : null }
+                { passive.ability4 ? <li>{passive.ability4}</li> : null }
+            </List>
+        </Row>
+    )
 }
