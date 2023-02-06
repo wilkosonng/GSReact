@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Media, Row, Nav, NavItem, NavLink,
+import { Media, Container, Row, Nav, NavItem, NavLink,
         Card, CardHeader, CardBody, TabPane, TabContent 
     } from 'reactstrap';
 import '../../index.css';
@@ -12,9 +12,9 @@ import EquipLore from './EquipLore';
 
 const EquipDetails = () =>{
     return (
-        <>
+        <Container>
             <EquipHome />
-        </>
+        </Container>
     )
 }
 
@@ -94,10 +94,10 @@ const RenderImage = ({ thumb, thumbmax, detail, detailmax }) => {
             </Nav>
             <TabContent activeTab={currentTab}>
                 <TabPane tabId="1">
-                    <Media src={detail} style={{ width: "15rem" }} />
+                    <Media src={detail} style={{ width: "15em" }} />
                 </TabPane>
                 <TabPane tabId="2">
-                    <Media src={detailmax} style={{ width: "15rem" }} />
+                    <Media src={detailmax} style={{ width: "15em" }} />
                 </TabPane>
             </TabContent>
             </center>
