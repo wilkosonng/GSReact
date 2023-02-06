@@ -78,75 +78,75 @@ function RenderSlots({ unitSlots }) {
 
 function RenderSkills({ unitSkill }) {
     return (
-        <>
+        <center>
             { unitSkill.skill1break ? 
                 <Row>
                     <h3><strong>SKILL</strong></h3>
-                    <p><Badge color="primary" pill>BREAK {unitSkill.skillbreak1}</Badge> {unitSkill.skill}</p>
-                    <p><Badge color="primary" pill>BREAK {unitSkill.skillbreak2}</Badge> {unitSkill.magiaskill}</p>
+                    <center><p><Badge color="primary" pill>BREAK {unitSkill.skillbreak1}</Badge> {unitSkill.skill}</p></center>
+                    <center><p><Badge color="primary" pill>BREAK {unitSkill.skillbreak2}</Badge> {unitSkill.magiaskill}</p></center>
                 </Row> : 
                 <Row>
                     <h3><strong>SKILL</strong></h3>
-                    <p><Badge color="primary" pill>BREAK {unitSkill.skillbreak}</Badge> {unitSkill.skill}</p>
+                    <center><p><Badge color="primary" pill>BREAK {unitSkill.skillbreak}</Badge> {unitSkill.skill}</p></center>
                 </Row>
             }
             
             <Row>
                 <h3><strong>ARTS</strong></h3>
-                <p><Badge color="primary" pill>BREAK {unitSkill.artsbreak}</Badge> {unitSkill.arts}</p>
+                <center><p><Badge color="primary" pill>BREAK {unitSkill.artsbreak}</Badge> {unitSkill.arts}</p></center>
             </Row>
 
 
             { unitSkill.trueartsbreak || unitSkill.trueartsbreak === 0 ? 
                 <Row>
                     <h3><strong>TRUE ARTS</strong></h3>
-                    <p><Badge color="primary" pill>BREAK {unitSkill.trueartsbreak}</Badge> {unitSkill.truearts}</p>
+                    <center><p><Badge color="primary" pill>BREAK {unitSkill.trueartsbreak}</Badge> {unitSkill.truearts}</p></center>
                 </Row>
             : null }
 
             { unitSkill.trueartsbreak1 ? 
                 <Row>
                     <h3><strong>TRUE ARTS</strong></h3>
-                    <p><Badge color="primary" pill>BREAK {unitSkill.trueartsbreak1}</Badge> {unitSkill.truearts1}</p>
-                    <p><Badge color="primary" pill>BREAK {unitSkill.trueartsbreak2}</Badge> {unitSkill.truearts2}</p>
+                    <center><p><Badge color="primary" pill>BREAK {unitSkill.trueartsbreak1}</Badge> {unitSkill.truearts1}</p></center>
+                    <center><p><Badge color="primary" pill>BREAK {unitSkill.trueartsbreak2}</Badge> {unitSkill.truearts2}</p></center>
                 </Row> : null }
 
             { unitSkill.crossarts ? 
                 <Row>
                     <h3><strong>CROSS ARTS</strong></h3>
-                    <p><Badge color="primary" pill>BREAK {unitSkill.crossartsbreak}</Badge> {unitSkill.crossarts}</p>
+                    <center><p><Badge color="primary" pill>BREAK {unitSkill.crossartsbreak}</Badge> {unitSkill.crossarts}</p></center>
                 </Row> : null
             }
 
             { unitSkill.phantombullet ? 
                 <Row>
                     <h3><strong>PHANTOM BULLET</strong></h3>
-                    <p><Badge color="primary" pill>BREAK {unitSkill.phantombulletbreak}</Badge> {unitSkill.phantombullet}</p>
+                    <center><p><Badge color="primary" pill>BREAK {unitSkill.phantombulletbreak}</Badge> {unitSkill.phantombullet}</p></center>
                 </Row> : null
             }
 
             { unitSkill.ultraname ? 
                 <Row>
                     <h3><strong>Ultra "{unitSkill.ultraname}"</strong></h3>
-                    <h4>5☆ <img src={unitSkill.ultratype} style={lbIconSize} /></h4>
-                    <p><Badge color="primary" pill>BREAK {unitSkill.ultrabreak}</Badge> {unitSkill.ultra}</p>
-                    <p>
+                    <h4>5☆ <img src={unitSkill.ultratype} style={lbIconSize} alt="Ultra Slot Type" /></h4>
+                    <center><p><Badge color="primary" pill>BREAK {unitSkill.ultrabreak}</Badge> {unitSkill.ultra}</p></center>
+                    <center>
                         <b>NOTES:</b>
-                        <ul>
-                            <li>The Abilities of the Equip originally in the <img src={unitSkill.ultratype} style={{maxWidth: "25px"}}/> slot will be retained.</li>
-                            <li>The active of the Equip originall in the <img src={unitSkill.ultratype} style={{maxWidth: "25px"}}/> slot cannot be activated while this Equip replaces it. If it was on cooldown when this Equip replaces it, the cooldown will continue counting down while this Equip is replacing it.</li>
-                        </ul>
-                    </p>
+                        <List type="unstyled">
+                            <li>The Abilities of the Equip originally in the <img src={unitSkill.ultratype} style={{maxWidth: "25px"}} alt="Ultra Slot Type" /> slot will be retained.</li>
+                            <li>The active of the Equip originally in the <img src={unitSkill.ultratype} style={{maxWidth: "25px"}} alt="Ultra Slot Type" /> slot cannot be activated while this Equip replaces it. If it was on cooldown when this Equip replaces it, the cooldown will continue counting down while this Equip is replacing it.</li>
+                        </List>
+                    </center>
                 </Row> : null }
             {
                 unitSkill.superarts ? 
                 <Row>
                     <h3><strong>SUPER ARTS</strong></h3>
-                    <p><Badge color="primary" pill>BREAK {unitSkill.superartsbreak}</Badge> {unitSkill.superarts}</p>
+                    <center><p><Badge color="primary" pill>BREAK {unitSkill.superartsbreak}</Badge> {unitSkill.superarts}</p></center>
                 </Row> : null
             }
             
-        </>
+        </center>
     )
 }
 
@@ -235,12 +235,12 @@ export function RenderStats({unitName, unitStats, unitAtt, unitType, unitSkill, 
                             unitPassive={unitPassive} unitSlots={unitSlots} unitImage={unitImage.detailawk}/>
                     </TabPane>
                 </TabContent></> : 
-                <>
+                <center>
                     <RenderStat unitStats={unitStats} />
                     <RenderSlots unitSlots={unitSlots} />
                     <RenderSkills unitSkill={unitSkill} />
                     <RenderPassives unitPassive={unitPassive} />
-                </>
+                </center>
             }
             
             
