@@ -57,7 +57,7 @@ const Equips = () => {
                                         <center>
                                             <Card style={{maxWidth: "75px", backgroundColor: "#202022", border: "none"}}>
                                                 <Link to={`/testingrealmofequips/equips/${equip.name}`} style={{textDecoration: "none", color: "#aaabb8"}} >
-                                                    <Media src={equip.image.thumb} alt={equip.name} width="100%" height="auto" object-fit="cover" />
+                                                    <Media src={equip.image.thumbmax} alt={equip.name} width="100%" height="auto" object-fit="cover" />
                                                     <p>{equip.name}</p>
                                                 </Link>
                                             </Card>
