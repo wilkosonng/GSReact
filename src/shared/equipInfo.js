@@ -3406,6 +3406,3138 @@ const EquipInformation = [
                 ability1: ``
             },
         lore: ``
+    },
+    { //Yumil Ice Fragment - Complete
+        id: 100521,
+        name: `Yumil Ice Fragment`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_100520.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100521.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100520.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100521.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 60,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `20s CT - 1000% Water DMG (Magic).`,
+                break: 300
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `There was once a merfolk princess called Yumil who fell in love with a human youth. They met in secret, but then the queen learnt about their forbidden relations. To protect her love Yumil chose banishment to the depths of the icy seas. Whe she finally breathed her last, all alone, the unmeltable crystallization of her feelings was left behind.`
+    },
+    { //Three-Headed Dog's Chain - Complete
+        id: 100531,
+        name: `Three-Headed Dog's Chain`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_100530.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100531.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100530.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100531.png`
+            },
+        stats:
+            {
+                hp: 30,
+                atk: 15,
+                def: 15
+            },
+        skillset:  
+            {
+                skill: `30s CT - Increases Target's DMG Inflicted by 30% for 10s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A collar and chain used to control a demon-made living weapon called Cerberus. Without this attached the beast would tear anyone to shreds, even its creator. In the Ancient War even the most powerful warriors all feared the Cerberus. On the other hand, legend also says that the canine fiend let a baker escape after he piled the beast with treats.`
+    },
+    { //Luminous Orb - Complete
+        id: 100541,
+        name: `Luminous Orb`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_100540.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100541.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100540.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100541.png`
+            },
+        stats:
+            {
+                hp: 60,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - Heals all Allies' HP by 440.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Magical, lifesaving items gifted by angels to their allies during the Ancient War. Many of those fighting for the angels had no medical experience, and wounds suffered in battle were often fatal. This led the angels to provide them with these orbs, which can heal any injury just by holding them. Examples that still work can be found in Raktehelm even today.`
+    },
+    { //Mountain Hammer Gaiaslave - Missing .....
+        id: 100551,
+        name: `Mountain Hammer Gaiaslave`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_100550.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100551.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100550.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100551.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 60,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `20s CT - 1000% Earth DMG (Physical).`,
+                break: 300
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A massive hammer once owned by a mountain god. Harboring the power of creation, striking the ground with it allows terrain to be changed at will. Long ago, tribes living in the mountains squabbled over territory. The god summoned the elders of each tribe and swung this hammer to change the shape of the mountains, making territory boundaries clear.`
+    },
+    { //Holy Staff 'Dominion' - Complete
+        id: 100561,
+        name: `Holy Staff 'Dominion'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_100560.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100561.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100560.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100561.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `20s CT - 1650% Non-Elemental DMG (Magic).`,
+                break: 400
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A ringed staff bequeathed by the gods to the high priest. Nothing evil can exist within range of its rattling sound. Normally the high priest would never go into battle, let alone fight on the front lines. However, when the demons revived during the unification of Raktehelm, High Priest Franchess took to the field and eradicated the demons in an instant.`
+    },
+    { //Healing Statue 'Panakeia' - Complete
+        id: 100571,
+        name: `Healing Statue 'Panakeia'`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_100570.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100571.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100570.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100571.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - Heals all Allies' HP by 1000. If User is Light Elemental then Healing x 1.5.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A statue imbued with the power of the healing goddess Panakeia. It can cure not only the sick but also purify the earth and even miasma. She created these statues as safe places for her followers during the Ancient War, and the areas around them remained sickness and starvation free. Many were destroyed in the chaos after the war, leaving few intact today.`
+    },
+    { //Blazing Blade 'Ragnavelga' - Complete
+        id: 100581,
+        name: `Blazing Blade 'Ragnavelga'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_100580.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100581.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100580.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100581.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 2500% Fire DMG (Physical). 70% chance of Burning enemy.`,
+                break: 1200
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A massive blade forged from fire left by the blazing god Ragnarok, known as the "one who burned the world". During the Ancient War Ragnarok reduced his foes to ash left and right, and even his allies gave him a wide berth. The fire he started would not burn out even after the war ended, and swinging this sword can unleash that destructive power once again.`
+    },
+    { //Magic Armor 'Gargantua' - Complete
+        id: 100591,
+        name: `Magic Armor 'Gargantua'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_100590.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100591.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100590.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100591.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `30s CT - Reduces all Allies' DMG Taken by 10% and Dark Elemental DMG Taken by 20% for 20s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `The demon Gargantua was so evil, he would kill even his allies to meet his own ends. Eventually other demons laid a trap and sealed his soul within this armor. Any who now wear it receive incredible strength but also an insatiable desire to do evil, as though possessed; a voice telling them more sacrifices are required in numbers of deaths equal to the stars.`
+    },
+    { //God Life Sword 'Seraph' - Missing .....
+        id: 100601,
+        name: `God Life Sword 'Seraph'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_100600.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100601.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100600.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100601.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //Calming Sword 'Stillness' - Complete
+        id: 100611,
+        name: `Calming Sword 'Stillness'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_100610.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100611.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100610.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100611.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `20s CT - 1650% DMG (Physical).`,
+                break: 400
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A single-edged sword used only in the far east of the Gramenia Republic. This is the oldest of all currently confirmed examples. Records from the Ancient War say it was used by a warrior who lived only by the sword, not relying on magic or alchemy. The moment anyone picks it up their heart calms like still water and they can read enemy movements with ease.`
+    },
+    { //Soultaker Stone 'Demonica' - Complete
+        id: 100621,
+        name: `Soultaker Stone 'Demonica'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_100620.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100621.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100620.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100621.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 1500% Dark DMG (Magic). Chance of Blinding Enemy.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A man was enjoying chatting with an artist friend. As the night drew on, the artist presented him with a recently acquired gemstone. Although perhaps sensing something in the allure of the stone, the man thought no more of it and went home. Months later, he visited again to find an empty house devoid of life and the stone, gleaming even more brilliantly.`
+    },
+    { //Cocytus Arc - Missing Lore
+        id: 100631,
+        name: `Cocytus Arc`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 2,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_100630.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100631.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100630.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100631.png`
+            },
+        stats:
+            {
+                hp: 20,
+                atk: 10,
+                def: 10
+            },
+        skillset:  
+            {
+                skill: `30s CT - Auto-fills Target's Arts gauge by 3 for 10s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //Fox Fan 'White Nine Tails' - Complete
+        id: 100641,
+        name: `Fox Fan 'White Nine Tails'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_100640.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100641.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100640.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100641.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `60s CT - Increases Target's Break Power by 100% for 10s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Legend says that the fox fan will appear at turning points in history. As these also generally involve conflict, the fan is seen as a sign of turmoil, but for the one who comes to rule the chaos it can also be a good omen. What did the fan bring when it appeared during the Ancient War? No one knows. The only clear thing is that it was a branching of fate.`
+    },
+    { //Cruze's Pocket Watch - Complete
+        id: 100651,
+        name: `Cruze's Pocket Watch`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_100650.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100651.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100650.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100651.png`
+            },
+        stats:
+            {
+                hp: 30,
+                atk: 15,
+                def: 15
+            },
+        skillset:  
+            {
+                skill: `30s CT - Increases all Allies' Skill CT Speed by 50% for 6s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `A watch that renowned alchemist Baron Cruze kept locked away in his workshop safe. When activated it allows for brief travel through time. Cruze had a heated rivalry with the alchemist Alishis, creator of a similar device called the Terra Conjunction. Records of Alchemist Associations meetings attended by them both are filled mainly with cursing.`
+            },
+        lore: ``
+    },
+    { //Summon Skeletal Wings - Missing .....
+        id: 100661,
+        name: `Summon Skeletal Wings`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_100660.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100661.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100660.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100661.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //Monster Summonstone - Complete
+        id: 100671,
+        name: `Monster Summonstone`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_100670.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100671.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100670.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100671.png`
+            },
+        stats:
+            {
+                hp: 30,
+                atk: 15,
+                def: 15
+            },
+        skillset:  
+            {
+                skill: `120s CT - 1000% Non-Elemental DMG (Physical). Summon Gem Blessing: Recovers 30 HP to all Allies' for 20s (only once).`,
+                break: 300
+            },
+        passive: 
+            {
+                ability1: `Summon Gem Blessing Lv1: Only the highest level effect of the Summon Gem Blessing is effective.`
+            },
+        lore: `A summonstone indicating a contract with a monster. Beasts always show respect to those they consider superior, and will serve them faithfully. The attacks from their powerful limbs and claws can shred steel like paper. Terrifying when mature, as cubs they are cute and playful. Those who bring a cub home often regret it before too long, however.`
+    },
+    { //Flicker Bow Heavy Rain - Complete
+        id: 100681,
+        name: `Flicker Bow Heavy Rain`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_100680.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100681.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100680.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100681.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `20s CT - 1500% Light DMG (Magic).`,
+                break: 400
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A battle bow that fires arrows at incredible speed. Numerous records concerning it smashing away multiple incoming foes in a single shot speak to its sheer destructive power. However, that power comes at a cost, meaning few can use it. "Flicker Hand" Lezetta is its most famous owner, handling it like an extra limb and filling her foes with merciless arrows.`
+    },
+    { //Igneet Axe - Missing .....
+        id: 100691,
+        name: `Igneet Axe`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_100690.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100691.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100690.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100691.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //Phoenix Feather Duster - Complete
+        id: 100701,
+        name: `Phoenix Feather Duster`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_100700.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100701.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100700.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100701.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 1500% Fire DMG (Magic). 70% chance of Burning Enemy.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A duster named for the phoenix, a bird that spreads fire as it flies and brings glory to a chosen few. Hearing such legends, greedy noble Jildera paid a hunter to capture him one of the birds. The feathers the hunter eventually brought back were used to make this duster. The moment it was used, however, Jildera's fortune went up on smoke.`
+    },
+    { //Holy Blue Staff - Complete
+        id: 100711,
+        name: `Holy Blue Staff`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_100710.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100711.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100710.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100711.png`
+            },
+        stats:
+            {
+                hp: 60,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - Heals Target's HP by 1000. If User is Water Elemental then Healing x 1.5.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A staff used by a female monk from the Principality of Bamint to aid the injured during the Ancient War. After the war ended she gave the staff to her pupil and said, "This world is made of suffering. But we must not despair. Have a heart filled with mercy, and share it with those you meet. That will bring the light of hope into this world."`
+    },
+    { //Chaos Rod - Complete
+        id: 100721,
+        name: `Chaos Rod`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_100720.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100721.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100720.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100721.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 60,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `20s CT - 1000% Dark DMG (Magic).`,
+                break: 300
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `There was a witch during the Ancient War who chose to serve the demons and fight other humans. She appeared in human villages in a cloud of black mist to spread curses and sickness, and became known and feared as the "witch of chaos". Eventually seen an as enemy by all races, she shared the fate of her beloved demons at the end of a terrible battle.`
+    },
+    { //Demonsickle Evilscythe - Missing Lore
+        id: 100731,
+        name: `Demonsickle Evilscythe`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_100730.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100731.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100730.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100731.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 6250% Dark DMG (Magic).`,
+                break: 1200
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //Magitome 'Log Vida' - Missing .....
+        id: 100741,
+        name: `Magitome 'Log Vida'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_100740.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100741.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100740.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100741.png`
+            },
+        stats:
+            {
+                hp: 30,
+                atk: 15,
+                def: 15
+            },
+        skillset:  
+            {
+                skill: `40s CT - Increases all Allies' Critical Rate by 50% for 11s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A book containing verses written by ancient humans in praise of natural phenomena as "gods". A treasure-trove of ancient knowledge, the beautiful text sounds like magical chanting when read aloud. The longest passages, loaded with primal power and dedicated to the almighty god of destruction, have been known to burn inattentive inscribers to ash.`
+    },
+    { //Brilliant Blade 'Regracia' - Missing .....
+        id: 100751,
+        name: `	Brilliant Blade 'Regracia'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_100750.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100751.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100750.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100751.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //Sacred Crown 'Raaz' - Missing Lore
+        id: 100761,
+        name: `Sacred Crown 'Raaz'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_100760.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100761.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100760.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100761.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `50s CT - Reduces all Allies' DMG Taken by 15% and Negates all Allies' Status Ailments except Faint for 10s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increases Own Status Ailment (except Faint) Time Reduction and Evasion Rate by 30%.`
+            },
+        lore: ``
+    },
+    { //Ice Wolf Blade 'Gaimalse' - Complete
+        id: 100771,
+        name: `Ice Wolf Blade 'Gaimalse'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_100770.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100771.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100770.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100771.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `70s CT - 5000% Water DMG (Physical). Increases all allies' ATK by 25% for 5s (Only once).`,
+                break: 2000
+            },
+        passive: 
+            {
+                ability1: `Own DMG 10% UP when Near-Death.`
+            },
+        lore: `A long sword owned by Roy, and imperial knight. Starting as a regular blade from an imperial smith, Roy's long days of training led to it being pitted many times, and every time he honed it himself. This process eventually made it gleam as though reflecting the soul of the one using it, and the Ice Wolf Blade finally became just as famous as Roy.`
+    },
+    { //Twin Flames 'Rose Garden' - Complete
+        id: 100780,
+        name: `Twin Flames 'Rose Garden'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_100780.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100781.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100780.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100781.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - 6500% Fire DMG (Physical). 100% chance of Burning enemy.`,
+                break: 1500
+            },
+        passive: 
+            {
+                ability1: `Own ATK 20% UP when Near-Death.`
+            },
+        lore: `Twin swords loved by Mira, Vice-Commander of the Royal Knights in the Principality of Bamint. Part of becoming of a knight meant she has to use the best equipment the Principality could offer. Taking the ritual knives used when she was born as a princess, powerful fire magic was cast over them and then she gave them the same name as her knight unit.`
+    },
+    { //Spirit Sword 'Efkeria' - Complete
+        id: 100791,
+        name: `Spirit Sword 'Efkeria'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_100790.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100791.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100790.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100791.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 3500% Earth DMG (Physical). Heals own HP by 240 & increases own Arts gauge by 20.`,
+                break: 1200
+            },
+        passive: 
+            {
+                ability1: `Own DMG 15% UP when enemy's HP is under 50% (Only once).`
+            },
+        lore: `A dagger long used by Fen, Head of General Staff in the Gramenia Republic. Although he will not reveal where it came from, apparently it was a rare race with whom he has some familiarity. Blessed by the spirits, it is light as paper but can cut as the wind. It's true protection, however, is the prayers for "luck that it brings the one who holds it.`
+    },
+    { //Treasure Blade 'Ryude Magus' - Complete
+        id: 100801,
+        name: `Treasure Blade 'Ryude Magus'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_100800.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100801.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100800.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100801.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 7500% Light DMG (Physical). Increases all allies' CRI rate by 50% during Break for 8s.`,
+                break: 1200
+            },
+        passive: 
+            {
+                ability1: `DMG to Dragons 20% UP.`
+            },
+        lore: `A legendary blade from the Kingdom of Famelle and currently carried by the "Hero of Famelle", the aged general Zeorg. Said to be self-aware, and capable of detecting threats to the country. Zeorg himself has used such warnings to protect his homeland numerous times. His battle with a dragon that led to him obtaining the blade is still spoken of today.`
+    },
+    { //??? - Missing .....
+        id: 100811,
+        name: `???`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 1,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_100810.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100811.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100810.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100811.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //Battle Axe 'Shurahalt' - Missing .....
+        id: 100821,
+        name: `Battle Axe 'Shurahalt'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_100820.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100821.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100820.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100821.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //Forge Hammer 'Hepaistos' - Missing .....
+        id: 100831,
+        name: `Forge Hammer 'Hepaistos'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_100830.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100831.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100830.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100831.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //??? - Missing .....
+        id: 100841,
+        name: `???`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 1,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_100840.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100841.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100840.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100841.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //??? - Missing .....
+        id: 100851,
+        name: `???`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 1,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_100850.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100851.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100850.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100851.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //??? - Missing .....
+        id: 100861,
+        name: `???`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 1,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_100860.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100861.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100860.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100861.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //Super Pan 'Wild Cat' - Complete
+        id: 100871,
+        name: `Super Pan 'Wild Cat'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_100870.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100871.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100870.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100871.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `70s CT - 100% Fire DMG (Physical).`,
+                break: 7000
+            },
+        passive: 
+            {
+                ability1: `Increases Unit's Skill CT Speed by 5%.`
+            },
+        lore: `The battle frying pan used by head chef Sophie from Firecat’s Den. On the day she took over the establishment from her father, which was also her birthday, he gifted her this pan and the following advice: “You must be a chef, even in battle. Just keep your cooking and fighting tools separate.” This pan is at her side on every expedition for ingredients.`
+    },
+    { //Relic 'Funeral Scythe' - Missing .....
+        id: 100881,
+        name: `Relic 'Funeral Scythe'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_100880.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100881.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100880.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100881.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 250,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //Relic 'Cloak of Grief' - Missing .....
+        id: 100891,
+        name: `Relic 'Cloak of Grief'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_100890.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100891.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100890.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100891.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 250
+            },
+        skillset:  
+            {
+                skill: `60s CT - Reduces all Allies' Light Elemental DMG Taken by 30% for 20s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increases DMG to Demons by 10%.`
+            },
+        lore: `The black mantle worn by the death god Oldeus. Sewn from the sinful souls he has reaped, which continue to howl even in death. As these cries disrupt all casting, the wearer is granted powerful resistance to magic. Care is also required, however, as paying attention to those cries for even a moment will curse your soul to wander beyond the veil for eternity.`
+    },
+    { //Relic 'Empty Heart' - Complete
+        id: 100901,
+        name: `Relic 'Empty Heart'`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_100900.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100901.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100900.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100901.png`
+            },
+        stats:
+            {
+                hp: 60,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `80s CT - Heals Target's HP by 2500.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increases Curse Time Reduction by 10%. Increases Curse Evasion Rate by 10%.`
+            },
+        lore: `A strange substance that gives off an irregular sparkle. It was long thought to be the source of the death god's power. However, tests in the Magus Empire of La Riiz after the Ancient War proved that it gives off no magic, spirit energy, heat, or anything else at all. It is now believed to connect Oldeus, who exists in a different world, with this one.`
+    },
+    { //Relic 'End Times Ring' - Missing .....
+        id: 100911,
+        name: `Relic 'End Times Ring'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_100910.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100911.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100910.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100911.png`
+            },
+        stats:
+            {
+                hp: 15,
+                atk: 8,
+                def: 8
+            },
+        skillset:  
+            {
+                skill: `60s CT - Increases all Allies' Critical Rate by 100% for 4s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increases DMG to Gods by 10%.`
+            },
+        lore: `A beautiful ring belonging to the death god Oldeus. In one region it is deeply believed that being given this ring is a sign of impeding death, but one may survive by using its curse to take 100 other lives. When a terminally ill man came into possession of the ring, he therefore wiped out his entire village, but still died screaming the death god's name.`
+    },
+    { //Relic 'Bleak Prophet' - Missing .....
+        id: 100921,
+        name: `Relic 'Bleak Prophet'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_100920.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100921.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100920.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100921.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 250,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //Relic 'Crimson Coat' - Complete
+        id: 100931,
+        name: `Relic 'Crimson Coat'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_100930.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100931.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100930.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100931.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 250
+            },
+        skillset:  
+            {
+                skill: `70s CT - 	Reduces Target's Fire Elemental DMG Taken by 50% for 20s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increases DMG to Giants by 10%.`
+            },
+        lore: `A relic created from the wings of insectoid queen Radachne. Making use of the strong yet supple quality of those wings, even the most famous blades in the world can never hope to pierce it. Debate on Radachne has raged since ancient times, with some saying - but with little solid evidence - that her giving this to her children is a sign of a merciful side.`
+    },
+    { //Relic 'Abyssal Hairpin' - Complete
+        id: 100941,
+        name: `Relic 'Abyssal Hairpin'`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_100940.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100941.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100940.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100941.png`
+            },
+        stats:
+            {
+                hp: 60,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `100s CT - Heals Target's HP by 2500. If User is Water Elemental then Healing x 1.5.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increases DMG to Machines by 10%.`
+            },
+        lore: `A relic made from underworld butterflies. These purple insects only appear once in the real world, to allow the departed to say farewell to those they leave behind. After imparting those words they quietly fade out of existence by a lake in the underworld. Created from the beautiful wings they leave behind, this relic gifts the wearer intense healing power.`
+    },
+    { //Relic 'Dark White Spear' - Complete
+        id: 100951,
+        name: `Relic 'Dark White Spear'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_100950.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100951.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100950.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100951.png`
+            },
+        stats:
+            {
+                hp: 15,
+                atk: 8,
+                def: 8
+            },
+        skillset:  
+            {
+                skill: `90s CT - Increases all Allies' Arts Gauge by 20.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increases DMG to Spirits by 10%.`
+            },
+        lore: `The holy spear of insectoid queen Radachne. The tip shines with a permanent white light, which intensifies with each kill. Also famous for being used by the hero Elnis. When Elnis had to defend against the Demon Baron Megiola, he focused all his energy into the spear and destroyed he foe in a single attack, earning himself the nickname "Moonlight Knight".`
+    },
+    { //??? - Missing .....
+        id: 100961,
+        name: `???`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 1,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_100960.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100961.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100960.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100961.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //??? - Missing .....
+        id: 100971,
+        name: `???`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 1,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_100970.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100971.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100970.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100971.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //??? - Missing .....
+        id: 100981,
+        name: `???`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 1,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_100980.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100981.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100980.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100981.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //Relic 'Machina Core' - Complete
+        id: 100991,
+        name: `Relic 'Machina Core'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_100990.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_100991.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100990.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100991.png`
+            },
+        stats:
+            {
+                hp: 125,
+                atk: 62,
+                def: 62
+            },
+        skillset:  
+            {
+                skill: `5s CT - ATK Mode: Increases all Allies' ATK by 25%. Break Mode: Increases all Allies' Break by 25%.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increases DMG to Beasts by 10%.`
+            },
+        lore: `A relic that powers self defense and combat systems created by machines. A perfect sphere with no joins or welds, its composition is a complete mystery. It comes as close as possible to the human dream of an eternal engine, being able to create matter from zero and never stopping. It can even attack on its own, unleashing a chain of crater-making explosions.`
+    },
+    { //Lockdown Shield Jildoth - Complete
+        id: 101001,
+        name: `Lockdown Shield Jildoth`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101000.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101001.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101000.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101001.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `40s CT - Reduces all Allies' DMG Taken by 15% for 10s. Heals all Allies' HP by 25/s for 10s. If User is Light Elemental then Healing x2.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A shield used by the hero Duran during the Ancient War, and a symbol of his creed of fighting to protect the innocent. Facing a man possessed by a magic blade, the hero defended his town with just this shield, it's sparkling light stopping the incoming wave destructive. the true root of this miracle, of course, was the hero's desire to protect others.`
+    },
+    { //Blade of Sorrow 'Fe'Ode' - Complete
+        id: 101011,
+        name: `Blade of Sorrow 'Fe'Ode'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101010.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101011.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101010.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101011.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - 4100% Dark DMG (Magic).`,
+                break: 900
+            },
+        passive: 
+            {
+                ability1: `Increases BE Gained by 20%.`
+            },
+        lore: `A sword summoned by the demon Zenon, one of the personal guard of the Six Demon Generals who yet betrayed his own kind. It feeds on the rage and hatred of its user, leading them to eradicate friend and foe alike in a rampage that goes far beyond their desire for revenge - because they have become an empty vessel that can only be filled with blood.`
+    },
+    { //Temis Egg - Complete
+        id: 101021,
+        name: `Temis Egg`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101020.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101021.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101020.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101021.png`
+            },
+        stats:
+            {
+                hp: 60,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - Heals Target's HP by 1200.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A gemstone that heals just by holding it. Pained by the vast number of lives lost in the Ancient War, the gods created these as gifts in order to save as many as they could. The eggs came to be worshipped as miracles and are now housed in temples across the land. Few humans know that only a small number of gods were behind these gifts.`
+    },
+    { //Conquering Dragon Sword 'Gelmed' - Missing .....
+        id: 101031,
+        name: `Conquering Dragon Sword 'Gelmed'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101030.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101031.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101030.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101031.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //Blessed Necklace - Complete
+        id: 101041,
+        name: `Blessed Necklace`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101040.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101041.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101040.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101041.png`
+            },
+        stats:
+            {
+                hp: 120,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `90s CT - Adds a token to revive Target Unit with 50% HP for 120s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A wizard unable to fight alongside his lord, a knight, due to a congenital defect created this at the cost of his life. The knight mourned the wizard's death and kept the necklace with him always. After a major battle, the knight was knocked into a ravine. He was amazed to open his eyes and find himself still alive, thanks to the light of the necklace.`
+    },
+    { //Divine Green Staff 'Keion' - Complete
+        id: 101051,
+        name: `Divine Green Staff 'Keion'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101050.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101051.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101050.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101051.png`
+            },
+        stats:
+            {
+                hp: 60,
+                atk: 30,
+                def: 30
+            },
+        skillset:  
+            {
+                skill: `30s CT - Increases all Allies' Break Power by 28% for 20s and Arts Gauge by 1 for 20s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A staff held by a goddess who deeply loved nature and chose to dwell in the forest. The spirits of the forest accepted her as their goddess, came to love her, and called her Keion. She spoke of friendship and understanding across the races and blessed many people, and her staff is now a symbol of the growth and glory of the forest.`
+    },
+    { //Ice Magic Sword 'Almas' - Complete
+        id: 101061,
+        name: `Ice Magic Sword 'Almas'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101060.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101061.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101060.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101061.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 6250% Water DMG (Magic).`,
+                break: 1200
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A sword created by the wizard master Almadroth, a key figure in the Ancient War. When more powerful weapons were required to defeat the demons, Almadroth decided to use forbidden arts. At the end of a grueling ritual the sword he created constantly emitted ice magic. Although he spent almost all his magic in its creation, his name lived on through it.`
+    },
+    { //Demon Axe Exolia - Complete
+        id: 101081,
+        name: `Demon Axe Exolia`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101080.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101081.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101080.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101081.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `30s CT - 2800% Dark DMG (Physical). Increases own Arts gauge by 10.`,
+                break: 600
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `An axe used by the demon Leon, who sought to unseal the demon god to whom it originally belonged. Few know the truth about the axe, which is said to be because as a tactician Leon rarely fought: actually, it is because any who faced the axe in battle never lived to tell the tale. As it turns out, even the supposed owner is no exception to this rule.`
+    },
+    { //??? - Missing .....
+        id: 101091,
+        name: `???`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 1,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101090.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101091.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101090.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101091.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //??? - Missing .....
+        id: 101121,
+        name: `???`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 1,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101120.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101121.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101120.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101121.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //Hell's Spit 'Karks' - Missing .....
+        id: 101131,
+        name: `Hell's Spit 'Karks'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101130.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101131.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101130.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101131.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //Gem Blade 'Gloria' - Complete
+        id: 101141,
+        name: `Gem Blade 'Gloria'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101140.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101141.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101140.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101141.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 60,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `30s CT - 1500% Light DMG (Magic). Reduces Enemy's Paralyze Resistance by 30% for 5s.`,
+                break: 600
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `The divine blade of Zexia, head of the ancient God Knights, received this weapon from on high. Adorned with words praising god, fighting while chanting them unleashes the true power of the weapon. Although this suggests a connection between the user and god, in reality the user's own faith and determination in themselves is more important than the poems.`
+    },
+    { //Burn Book 'Aguni' - Complete
+        id: 101151,
+        name: `Burn Book 'Aguni'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101150.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101151.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101150.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101151.png`
+            },
+        stats:
+            {
+                hp: 60,
+                atk: 30,
+                def: 30
+            },
+        skillset:  
+            {
+                skill: `30s CT - Increases all Allies' Skill CT Speed by 100% for 6s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A magical tome containing the crimsons arts of fire demon Agni. Simply chanting the words within allows even those weak in magic to borrow Agni's strength and execute powerful fire-based magic. Known for his cunning, however, the demon mixed in the phrase “I offer my soul to Agni” to catch the unwary off guard, making all due care required.`
+    },
+    { //Saint's Medal - Complete
+        id: 101161,
+        name: `Saint's Medal`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 1,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101160.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101161.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101160.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101161.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 20
+            },
+        skillset:  
+            {
+                skill: `60s CT - Reduces all Allies' DMG Taken by 3% and Light Elemental DMG Taken by 6% for 20s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A medal awarded to those who seek to do only good. It was created for Alistair, a wizard and military doctor for the Isliid Empire during the Ancient War, who headed out alone to save a handful of demons and wounded men trapped on the slopes of an erupting volcano. The lava claimed his life, but the wounded were saved by the protective spell he left behind.`
+    },
+    { //Lost Arms - Complete
+        id: 101201,
+        name: `Lost Arms`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101200.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101201.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101200.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101201.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 350,
+                def: 350
+            },
+        skillset:  
+            {
+                skill: `45s CT - 2800% Water DMG (Physical). Reduces Enemy's ATK by 40% for 8s.`,
+                break: 3150
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A sword created as a weapon in defiance of weapons. "What is true strength?" is the question of all who fight must ask. Facing countless trials, warriors have everything protecting them stripped away. The weapon they choose must become nothing less than a part of them. The conviction that remains after everything else is gone is the key to true strength.`
+    },
+    { //Heaven Blade Klusos - Complete
+        id: 101211,
+        name: `Heaven Blade Klusos`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101210.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101211.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101210.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101211.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 60,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `20s CT - 700% Light DMG (Physical). Heals own HP by 200 when HIT.`,
+                break: 300
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A weapon used by god soldiers during the later part of the Ancient War. Heavily decorated yet exceptionally light, and with the capacity to heal the user as they fight, it was a valued support weapon. It is also famous as the sword appearing in a fairytale in the kingdom of Famelle, in which a younger brother uses it to save his older brother from demons.`
+    },
+    { //Water Scale Blade Kyuma - Complete
+        id: 101221,
+        name: `Water Scale Blade Kyuma`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101220.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101221.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101220.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101221.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 6250% Water DMG (Physical).`,
+                break: 1200
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `The water dragon Kyuma can shred anything it touches, and this is a sword made from its scales.Sealed with magical power, it is popular among infantry who can't use magic. First created during the Ancient War, the complexity of its forging means only a small number have been made. They are also so beautiful that they are often displayed as works of art.`
+    },
+    { //Holy Spear Hudkenos - Complete
+        id: 101231,
+        name: `Holy Spear Hudkenos`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101230.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101231.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101230.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101231.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 60,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 1000% Water DMG (Physical). 30% chance of Freezing enemy.`,
+                break: 600
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `The ice beast Hudnekos dwells in the frozen region in the north-east of the Principality of Bamint, with horns so hard they can pierce a dragon. An adventurer once saw such a battle. While the ice beast won, it's horn was snapped off at the base, allowing the man to collect it after the beast departed. The spear made from it can pierce any material.`
+    },
+    { //Darkclaw Aetoth - Complete
+        id: 101241,
+        name: `Darkclaw Aetoth`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101240.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101241.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101240.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101241.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 60,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `20s CT - 1000% Dark DMG (Physical).`,
+                break: 300
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A weapon described in texts kept in the Magus Empire of La Riiz. these claws, used by the Aetoth Bandits, are capable of enveloping foes in darkness. This allowed them to steal many treasures without alerting anyone. A wizard from the Magus Empire captured the thieves and confiscated these claws, but Aetoth himself managed to escape to whereabouts unknown.`
+    },
+    { //Divine Robe Erial - Complete
+        id: 101251,
+        name: `Divine Robe Erial`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101250.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101251.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101250.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101251.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 60
+            },
+        skillset:  
+            {
+                skill: `30s CT - Reduces Target's DMG Taken by 25% and Magical DMG Taken by 50% for 8s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A holy garment named for the highest of the gods. Created in the most sacred area of the temple, it can ward off all magic. The high cost means few ever saw one, until one was recovered from a sunken ship after the Ancient War. The fact it remained beautiful after so many years beneath the sea speaks to the incredible quality of its workmanship.`
+    },
+    { //Holy Knight's Gauntlets - Complete
+        id: 101261,
+        name: `Holy Knight's Gauntlets`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101260.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101261.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101260.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101261.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 60
+            },
+        skillset:  
+            {
+                skill: `30s CT - Reduces Target's DMG Taken by 30% and Light Elemental DMG Taken by 55% for 8s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Gauntlets worn by a Holy Knight in a Raktehelm myth. Blessed by the protection of light, the central gemstones also heal the wearer. While the process to make them is included in the book, it was also considered a fiction - until someone actually made a pair. That doesn't diminish the difficulty of the feat, however, and their cost is astronomical.`
+    },
+    { //Lamia's Harp - Complete
+        id: 101271,
+        name: `Lamia's Harp`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101270.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101271.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101270.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101271.png`
+            },
+        stats:
+            {
+                hp: 60,
+                atk: 30,
+                def: 30
+            },
+        skillset:  
+            {
+                skill: `30s CT - Increases all Allies' Arts Gauge by 10.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `An instrument maker was once so captivated by the sound of Lamia's harp, he devoted his life to recreating it. The completed harp gave power to those around the player, but was so accurate that it also caused the same curse as Lamia. It is therefore rarely used; records even state that were sometimes taken into battle to play it.`
+    },
+    { //Petra Crown - Complete
+        id: 101281,
+        name: `Petra Crown`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101280.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101281.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101280.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101281.png`
+            },
+        stats:
+            {
+                hp: 30,
+                atk: 15,
+                def: 15
+            },
+        skillset:  
+            {
+                skill: `30s CT - Increases Target's Skill CT Speed by 100% for 10s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A crown gifted by the Emperor of Isliid to the adventurer Vetra, marking his ascension to the top of an unexplored volcano. Those who wear it are protected by the tenacious god of fire, and it greatly aided Vetra in his further adventures. After his death, the volume of copies created speaks to the desire of other explorers to follow in his footsteps.`
+    },
+    { //Metal Bangle - Complete
+        id: 101291,
+        name: `Metal Bangle`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101290.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101291.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101290.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101291.png`
+            },
+        stats:
+            {
+                hp: 60,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - Heals Target's HP by 1000. If User is Light Elemental then Healing x 1.5.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `An investigator became lost in the Dara Desert. Faced with a terrible sandstorm, the search party was about to give up when of them noticed a strange light. Following it, they found the missing man wearing this bangle. When he spoke of being enveloped in a warm light before it was placed on his arm, his rescuers offered a prayer to the desert god.`
+    },
+    {//Burnclaw Alestron - Missing .....
+        id: 101301,
+        name: `Burnclaw Alestron`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101300.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101301.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101300.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101301.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //Jade Axe Zeuskia - Complete
+        id: 101311,
+        name: `Jade Axe Zeuskia`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101310.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101311.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101310.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101311.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `20s CT - 1500% Earth DMG (Physical).`,
+                break: 400
+            },
+        passive: 
+            {
+                ability1: `An axe long passed down by the spirits. Legend states that a wizard sacrificed his own magic to create this for their protection. Decorated with leaves from the undying holy tree, it brings its user the power and protection of the forest. Master weapon smith Rodia is said to have taken one look and immediately lamented that he could never create its equal.`
+            },
+        lore: ``
+    },
+    { //Bold Dark Spear Nukteris - Complete
+        id: 101321,
+        name: `Bold Dark Spear Nukteris`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101320.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101321.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101320.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101321.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 3750% Dark DMG (Magic).`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Riznelo was one of the richest men alive. After he died, this dark spear was found under the runs of his house. The one who found it is said to have fled in terror from just a glance at its hideous form. Riznelo's diary detailed obtaining it from an "obsidian knight", and how he considered it his mission to never allow it out into the world again.`
+    },
+    { //Ornith Bow - Complete
+        id: 101331,
+        name: `Ornith Bow`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101330.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101331.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101330.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101331.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 3750% Earth DMG (Magic).`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A concealed weapon used by the legendary hunter Olnith. His hunting style was to shoot from hiding, but if he happened across his prey unexpectedly this was what he used, which can be fired simply by raising the arm with it equipped. It is also blessed by spirits, and many scholars believe Olnith hunted not only beasts but also those who would harm the forest.`
+    },
+    { //Phantom Mask - Complete
+        id: 101361,
+        name: `Phantom Mask`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101360.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101361.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101360.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101361.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 120
+            },
+        skillset:  
+            {
+                skill: `30s CT - Negates 400 DMG Dealt to all Allies and Reduces all Allies' Dark Elemental DMG Taken by 35% for 8s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A mask worn by a mysterious figure who appeared in front of a scholar investigating a demon castle after the end of the Ancient War. They said nothing, simply removing the mask and leaving it behind. Only the scholar knows who the person was, and why he gave him the mask. The mask itself is tough and harbors dark magic, protecting the wearer.`
+    },
+    { //Holy Mother's Necklace - Complete
+        id: 101371,
+        name: `Holy Mother's Necklace`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101370.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101371.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101370.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101371.png`
+            },
+        stats:
+            {
+                hp: 120,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - Heals Target's HP by 1500. If User is Water Elemental then Healing x 1.5.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A necklace created for a nun who once ran an orphanage in Isliid. Those who wear it are given the protection of light, receiving not only healing but also liberation from mental troubles. As it includes gemstones, the children were actually kidnapped as they made it, but the nun saved them herself. This earned her the name "holy mother".`
+    },
+    { //Azure Ring - Complete
+        id: 101381,
+        name: `Azure Ring`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101380.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101381.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101380.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101381.png`
+            },
+        stats:
+            {
+                hp: 60,
+                atk: 30,
+                def: 30
+            },
+        skillset:  
+            {
+                skill: `30s CT - Increases Target's DMG Inflicted by 50% for 10s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A ring made from a deep sea ore only found off the coast of Isliid. The beautiful azure color has captivated the hearts of many people, and no artist has ever successfully recreated it. The stone also contains magic, heightening the consciousness of the wearer. Many therefore desire one of them, but the ore itself is rare, making them expensive.`
+    },
+    { //Holy Tree Spear Dendron - Missing .....
+        id: 101391,
+        name: `Holy Tree Spear Dendron`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101390.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101391.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101390.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101391.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //God Flicker Bow Kyuknoth - Complete
+        id: 101401,
+        name: `God Flicker Bow Kyuknoth`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101400.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101401.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101400.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101401.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 2500% Light DMG (Magic). 80% chance of Paralyzing Enemy.`,
+                break: 1200
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `The great bow of Raktehelm, and equal to the Devil Shadow Bow Meranpatl. A god once visited a village plunged into darkness by demons and fired a arrow from this bow to clear the heavens. Due to its incredible power it is now under guard in a shrine in the west of the Isliid Empire, but travelers still come from around the world to catch a glimpse of it.`
+    },
+    { //Devil Shadow Bow Meranpatl - Missing .....
+        id: 101411,
+        name: `Devil Shadow Bow Meranpatl`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101410.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101411.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101410.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101411.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //Ascension Staff Antoth - Complete
+        id: 101421,
+        name: `Ascension Staff Antoth`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101420.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101421.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101420.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101421.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - Heals Target's HP by 3600.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Antoth, a priest in a temple in the south west of Gramenia, created his staff to heal his beloved after she was left in a coma from injuries sustained defending him. If the user wants it badly enough, it can even overcome death, but as a result Antoth was banished for practicing necromancy. It is therefore unknown if he was ever reunited with his beloved.`
+    },
+    { //Netherblade Rodgalos - Missing .....
+        id: 101431,
+        name: `Netherblade Rodgalos`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101430.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101431.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101430.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101431.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //Burnspear Eluonith - Complete
+        id: 101441,
+        name: `Burnspear Eluonith`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101440.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101441.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101440.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101441.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `20s CT - 2500% Fire DMG (Magic).`,
+                break: 600
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A spear made from the wings and bones of the burn beast Eluolnith. Harbors magic enough to evaporate an entire lake with a single thrust. Those who can use it without being burned to ash earn the name Fire Lance God. Only five have done so in recorded history, one who was Dalnith in his youth, defeating an Eluolnith alone and offering it up in tribute.`
+    },
+    { //Divine Robe Radoel - Complete
+        id: 101451,
+        name: `Divine Robe Radoel`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101450.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101451.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101450.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101451.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `30s CT - Reduces all Allies' DMG Taken by 10% and Earth Elemental DMG Taken by 20% for 20s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `The ultimate holy robe, created in a temple deep in the forests of eastern Famelle from the fur of a divine beast that only appears once a year. If the rites cast over it fail then the entire piece is destroyed, making it extremely rare. Ancient records in the Isliid Empire refer to this as a "fabled, mythic robe," speaking to the length of its history.`
+    },
+    { //Flickerblade Scythe - Complete
+        id: 101491,
+        name: `Flickerblade Scythe`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101490.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101491.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101490.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101491.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 60,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 1000% Light DMG (Physical). 30% chance of Paralyzing Enemy.`,
+                break: 600
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A shining, razor-sharp scythe used by the weather goddess Meltina in Raktehelm myth. The duality of this goddess is expressed in her provision of gentle sunlight and bountiful harvests juxtaposed with raging storms and drought. Her scythe is not different, unleashing destructive winds on enemies while also healing the one using it.`
+    },
+    { //??? - Missing .....
+        id: 101501,
+        name: `???`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 1,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101500.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101501.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101500.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101501.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //Coldian Scarf - Complete
+        id: 101511,
+        name: `Coldian Scarf`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101510.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101511.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101510.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101511.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 60
+            },
+        skillset:  
+            {
+                skill: `30s CT - Reduces all Allies' DMG Taken by 5% and Dark Elemental DMG Taken by 10% for 20s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A scarf worn by the the members of the legendary Coldia Thieves. Secret magic allows the wearer to become one with the darkness, and allowed the thieves to complete many robberies completely unseen. Coldia is even said to have used such a scarf to walk the underworld undetected, where he stole a great treasure, but the truth remains wreathed in darkness.`
+    },
+    { //Frozen Beauty Dance Fan - Complete
+        id: 101521,
+        name: `Frozen Beauty Dance Fan`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101520.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101521.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101520.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101521.png`
+            },
+        stats:
+            {
+                hp: 30,
+                atk: 15,
+                def: 15
+            },
+        skillset:  
+            {
+                skill: `40s CT - Increases Target's Critical Rate by 100% for 5s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A legendary fan said to have blown away an ice storm. After the Ancient War, the Principality of Bamint became locked in ice, and the people despaired at the endless winter. One of the shrine maidens took up this fan and danced, causing the blizzard to cease and the snows to melt. A festival celebrating the coming of spring is still held in Bamint.`
+    },
+    { //Drakkeus Bolt - Complete
+        id: 101531,
+        name: `Drakkeus Bolt`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101530.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101531.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101530.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101531.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 60,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 2500% Earth DMG (Physical).`,
+                break: 600
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A long gun made by a machine who was saved by spirits during the Ancient War. It was designed to keep foes as far as possible, and the resulting gun has range and accuracy far beyond other firearms. Although lethal even at long range, the spirits used them only for warning and defense, and never once used one to take a life.`
+    },
+    { //Saltcleaver Axe - Complete
+        id: 101541,
+        name: `Saltcleaver Axe`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101540.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101541.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101540.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101541.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 60,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 2500% Water DMG (Physical).`,
+                break: 600
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `An axe used by giants for sea battles. Incredibly heavy, as expected from a giant weapon, meaning other races can rarely even lift it. Those who can wield it, however, find the power to crush armor and shield with ease. Legends still tell of how a giant warrior used one to part the very sea in two with a single attack during the Ancient War.`
+    },
+    { //Shield of Dawn - Complete
+        id: 101551,
+        name: `Shield of Dawn`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101550.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101551.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101550.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101551.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 60
+            },
+        skillset:  
+            {
+                skill: `30s CT - Reduces all Allies' DMG Taken by 15% and Light Elemental DMG Taken by 30% for 8s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Shields made by the gods. Blessed by light, it can protect the bearer from all evil. known for being used by the Dawn Knights, a unit particularly specialized for fighting demons. The sight of them advancing with shields ablaze was much like the breaking of the dawn. demons in the Ancient War came to despise both these shield and the name of the knights.`
+    },
+    { //Fortress Breaker Daltarion - Complete
+        id: 101561,
+        name: `Fortress Breaker Daltarion`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101560.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101561.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101560.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101561.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 3750% Earth DMG (Physical).`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A hammer created by the demons during the Ancient War. Created as a siege weapon for assaults on fortress and castle walls, and indeed it turned multiple supposedly impregnable defenses into rubble. While appearing too unwieldy for single combat at a glance, hammering the ground once is often more than enough to knock any adversary off their feet.`
+    },
+    { //Scorch Lance Vehelm - Complete
+        id: 101571,
+        name: `Scorch Lance Vehelm`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101570.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101571.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101570.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101571.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 3750% Fire DMG (Magic).`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A lance named for "Dragon Killer" Velhelm. Starting out as a regular lance, being dipped in so much dragon blood imbued it with the power of fire. Having killed so many dragons, Velhelm purchased the wrath of the entire species. He only rose to the challenge, however, and slew countless attackers who sought him out seeking revenge.`
+    },
+    { //Earth Headband Yakshutori - Complete
+        id: 101581,
+        name: `Earth Headband Yakshutori`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101580.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101581.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101580.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101581.png`
+            },
+        stats:
+            {
+                hp: 120,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - Heals all Allies' HP by 400. Heals all Allies' Disease.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A headband worn by those who live alongside the earth and control the basic elements of nature. Wearing it provides the vitality of the earth itself. Such individuals dwell apart from the world, shrouding them in mystery. During the Ancient War they came to provide healing for the injured, however. Their motivations are unknown, but they saved many lives.`
+    },
+    { //Holy Mist Earring - Complete
+        id: 101591,
+        name: `Holy Mist Earring`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101590.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101591.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101590.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101591.png`
+            },
+        stats:
+            {
+                hp: 60,
+                atk: 30,
+                def: 30
+            },
+        skillset:  
+            {
+                skill: `30s CT - Increases Target's Arts Gauge by 30.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `The spirits hold an annual festival in honor of their ancestors, which many races come from across Raktehelm to witness. At the end of the solemn ceremony they offer a prayer to the heavens and the stars all shine brightly in response. This earring houses mist from the following night inside it, and those who wear it remain pure of body at all times.`
+    },
+    { //Galju Necklace - Complete
+        id: 101601,
+        name: `Galju Necklace`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101600.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101601.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101600.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101601.png`
+            },
+        stats:
+            {
+                hp: 60,
+                atk: 30,
+                def: 30
+            },
+        skillset:  
+            {
+                skill: `30s CT - Increases Target's Break Power by 800 for 15s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `The Galju tribe appear often in legends. Their chief wore this necklace, to which he would add the teeth of the beasts he defeated. Any who now wear it suffer the rage and pain of those slain beasts, but beyond that they are also buoyed by the bold strength of the Galju. The reason the tribes hated the beasts so harshly remains a mystery.`
+    },
+    { //Cursed Hammer 'Bardrade' - Complete
+        id: 101611,
+        name: `Cursed Hammer 'Bardrade'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101610.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101611.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101610.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101611.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 3750% Dark DMG (Physical).`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A massive hammer used by the giants. Embedded in its center is the skull of the hero Baldred. Known for defeating countless dragons, he eventually succumbed to sickness. Fearing dragon reprisals, he asked his blacksmith friend to turn his skull into a weapon after he died, and the resulting hammer continued to crush dragons long after his passing`
+    },
+    { //Gale Spear Rey Vie - Complete
+        id: 101621,
+        name: `Gale Spear Rey Vie`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101620.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101621.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101620.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101621.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `20s CT - 1500% Earth DMG (Magic).`,
+                break: 400
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A treasure spear of the Famelle royal family, and particularly known for being used by "warrior king" Maglagan. There has been much debate on why he named it "Rey Vie". A recently discovered diary from royal aide Beil sheds some light on the matter; on secret trips out of the castle to help people, Maglagan was accompanied by a spirit called Rey.`
+    },
+    { //Underking Spear 'Hellfire' - Missing .....
+        id: 101631,
+        name: `Underking Spear 'Hellfire'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101630.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101631.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101630.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101631.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //Magic Bow Logiageiz - Complete
+        id: 101641,
+        name: `Magic Bow Logiageiz`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101640.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101641.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101640.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101641.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 2500% Water DMG (Magic). 80% chance of Freezing enemy.`,
+                break: 1200
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A weapon used by spirits. Although shaped like a bow it's material strength as a weapon is low; rather, it is used to concentrate and then fire a wizard's magic. The more they focus as they draw the string, the stronger the attack becomes. Legends still tell of how a spirit wizard charged a shot all night and then proceeded to level a mountain when he fired.`
+    },
+    { //Seaband Elgilkrone - Complete
+        id: 101651,
+        name: `Seaband Elgilkrone`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101650.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101651.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101650.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101651.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `30s CT - Reduces Target's DMG Taken by 33% and Fire Elemental DMG Taken by 66% for 8s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A headband infused with the power of the sea god. Once the dwellers in the seas of Raktehelm forged an alliance beyond the bounds of races, and their leader wore this. As the alliance grew the leader became the true king of the seas. The Ancient War tore the alliance apart, however, and the original headband was lost in the ensuing chaos.`
+    },
+    { //Insane Bracer Amaltia - Complete
+        id: 101661,
+        name: `Insane Bracer Amaltia`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101660.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101661.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101660.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101661.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `15s CT - Increases Target's Critical Rate by 100% for 10s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `The powerful devil collected sinners who have been sent to hell and made them fight, telling the winner they could return to life. He gave each of them one of these bracers, which temporarily brought them back to life while still in hell. No records exist of those who won such duels, so the origin of these bracers in Raktehelm is unknown.`
+    },
+    { //Goldias Goggles - Complete
+        id: 101671,
+        name: `Goldias Goggles`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101670.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101671.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101670.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101671.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `30s CT - Reduces Target's DMG Taken by 33% and Light Elemental DMG Taken by 66% for 8s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `When first discovered, these goggles were thought to be functionless oddities. However, one researcher read the incantation carved on the back and their secret power was unleashed with a flash, revealing that they were originally created by a skilled alchemist. The spell reads as follows: "Goldias, warrior of the sun, arrives in a flash of JUSTICE!"`
+    },
+    { //Chrono Dominator - Complete
+        id: 101681,
+        name: `Chrono Dominator`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101680.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101681.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101680.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101681.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `30s CT - Increases all Allies' DMG Inflicted by 34% for 10s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A relic, created by the alchemist Alishis, that can control the flow of time around it. It was completed just as his bitter rival Baron Cruze also unveiled a watch-based device of a similar nature. It is said that a woman was deeply involved in getting both of them into the control of time, but more detailed records have never been uncovered.`
+    },
+    { //Flicker Bow Heavy Rain - Complete
+        id: 101691,
+        name: `Flicker Bow Heavy Rain`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101690.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101691.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101690.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101691.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `20s CT - 1500% Light DMG (Magic).`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A battle bow that fires arrows at incredible speed. Numerous records concerning it smashing away multiple incoming foes in a single shot speak to its sheer destructive power. However, that power comes at a cost, meaning few can use it. "Flicker Hand" Lezetta is its most famous owner, handling it like an extra limb and filling her foes with merciless arrows.`
+    },
+    { //Relic 'Framshilt' - Complete
+        id: 101701,
+        name: `Relic 'Framshilt'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101700.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101701.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101700.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101701.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `60s CT - Reduces all Allies' DMG Taken by 20% for 5s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increases Fire Elemental Resistance by 5%.`
+            },
+        lore: `A divine shield created from scales of the blazing dragon Degilmagna. It became famous when found pristine in ruins dating from the Ancient War, and became worshipped as a symbol of the battle with Degilmagna. The king of Famelle at the time tried to obtain it, but when he reached the temple the shield had already been taken by a mysterious organization.`
     }
 ]
 
