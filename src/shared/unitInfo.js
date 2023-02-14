@@ -19937,7 +19937,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_130853.png",
                     mat2amt: 220,
-                    hover2: "Flame Fox Reiju "
+                    hover2: "Flame Fox Spirit Orb"
                 }
             },
         trueweapon: //If no TW, may delete this section
@@ -20091,7 +20091,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_130853.png",
                     mat2amt: 220,
-                    hover2: "Flame Fox Reiju "
+                    hover2: "Flame Fox Spirit Orb"
                 }
             },
         trueweapon: //If no TW, may delete this section
@@ -20387,7 +20387,7 @@ const UnitInformation = [
                 truearts: `66666% Light DMG (PHY). 100% chance to inflict Poison. For 25s, Allies ignore 100% of Enemies' DEF.`,
                 trueartsbreak: 1500,
                 superarts: `144444% Light DMG (PHY). For 20s, reduce Enemies' PHY RES by 80%. If enemy is Poisoned when Super Arts is used, reduce Enemies' PHY RES by 160% instead.`,
-                superartsbreak: 21600
+                superartsbreak: 1600
             },
         passive: 
             {
@@ -20404,6 +20404,71 @@ const UnitInformation = [
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
                     mat2amt: 220,
                     hover2: "God's Spirit Orb"
+                }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { // Priscilla (Valentines) - Missing Lore
+        id: 103677112,
+        name: "Priscilla (Valentines)",
+        attribute: "Fire",
+        type: "Human",
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_103676112.png",
+                detailsuper: "/db/Units/Detail/unit_detail_103677112.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103676112.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103677112.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/healLB.png",
+                slot32type: "/db/Mines/thumbnail/magLB.png"
+            },
+        stats: 
+            {
+                hp: 8242,
+                hpplus: 1423,
+                atk: 2857,
+                atkplus: 569,
+                def: 2986,
+                defplus: 589
+            },
+        skillset: 
+            {
+                skill: `13s CT - 1300% Fire DMG (PHY). For 6s, increase Allies' accuracy by 20%.`,
+                skillbreak: 400,
+                arts: `Heal Allies by 50% of their Max HP + Cure Allies' status ailments (except Faint and Disease).`,
+                artsbreak: 0,
+                truearts: `40000% Fire DMG (PHY). For 25s, reduce Enemies' Fire RES by 50% and increase >50% HP Allies' Arts by 4/s.`,
+                trueartsbreak: 1200,
+                superarts: `80000% Fire DMG (PHY). For 30s, increase Allies' PHY DMG by 150% and DMG RES by 30%.`,
+                superartsbreak: 1500
+            },
+        passive: 
+            {
+                ability1: `Increase own Arts by 4/s. If own HP is 80% or above, increase own Freeze & Paralysis RES by 100%.`,
+                ability2: `Increase own Accuracy by 30%.`,
+                ability3: `Increase Allies' Fire DMG by 30%. Does not stack with Abilities of the same name.`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
+                    mat2amt: 220,
+                    hover2: "Flame Fox Spirit Orb"
                 }
             },
         lore: 

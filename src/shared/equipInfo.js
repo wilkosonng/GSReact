@@ -6538,6 +6538,1195 @@ const EquipInformation = [
                 ability1: `Increases Fire Elemental Resistance by 5%.`
             },
         lore: `A divine shield created from scales of the blazing dragon Degilmagna. It became famous when found pristine in ruins dating from the Ancient War, and became worshipped as a symbol of the battle with Degilmagna. The king of Famelle at the time tried to obtain it, but when he reached the temple the shield had already been taken by a mysterious organization.`
+    },
+    { //Relic 'Wisfiraft' - Complete
+        id: 101711,
+        name: `Relic 'Wisfiraft'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101710.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101711.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101710.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101711.png`
+            },
+        stats:
+            {
+                hp: 30,
+                atk: 15,
+                def: 15
+            },
+        skillset:  
+            {
+                skill: `60s CT - Increases Target's DMG Inflicted by 15% for 30s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increases Curse Time Reduction by 10%. Increases Curse Evasion Rate by 10%`
+            },
+        lore: `A necklace that gives the power of a blazing dragon to the one who wears it. It was found by three children exploring some ruins. When they were then attacked by demons, they used this to fight back and drive them off. Perhaps hard to believe, but this also proved the power of this relic, Many have tried to discover its power source, but none have succeeded.`
+    },
+    { //Relic 'Sakredpose' - Complete
+        id: 101721,
+        name: `Relic 'Sakredpose'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101720.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101721.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101720.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101721.png`
+            },
+        stats:
+            {
+                hp: 15,
+                atk: 8,
+                def: 8
+            },
+        skillset:  
+            {
+                skill: `60s CT - Increases all Allies' DMG Inflicted by 18% for 5s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increases Fire Elemental Resistance by 5%.`
+            },
+        lore: `A relic created by a powerful wizard. It contains the magma that flows inside the body of the blazing dragon Deglmagna. The heat it gives off is magically enhanced, heightening the power of those around it. A robber king who's love of it cost him his life said only this upon his execution: "May the sacred sparkle last forever".`
+    },
+    { //Relic 'Radeus' - Missing .....
+        id: 101801,
+        name: `Relic 'Radeus'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101800.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101801.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101800.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101801.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 250,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //Relic 'Force Keratos' - Complete
+        id: 101821,
+        name: `Relic 'Force Keratos'`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101820.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101821.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101820.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101821.png`
+            },
+        stats:
+            {
+                hp: 60,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `30s CT - 	Heals all Allies' HP by 200. Heals all Allies' Status Ailments except for Faint and Disease.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Reduces Physical DMG Taken by 5%.`
+            },
+        lore: `The Light Dragon Fosradius once sought interaction with humans, and gave this this relic to the most innocent girl he could find. She became an object of worship, and gave blessings to many people. However, not satisfied, the people started to make demands of the girl. The dragon despaired at the depth of human greed, and the girl left the relic and disappeared.`
+    },
+    { //??? - Missing .....
+        id: 101831,
+        name: `???`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 1,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101830.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101831.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101830.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101831.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //Relic 'Lesser Demonheart' - Complete
+        id: 101841,
+        name: `Relic 'Lesser Demonheart'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101840.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101841.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101840.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101841.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `40s CT - Increases target's Arts gauge by 5 for 20s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Arts Gauge Regenerates by 1 when Near-Death.`
+            },
+        lore: `A demon sphere containing the loyalty of the ultimate monster Valzandeath. This beast served his master like a true knight, resisting all urges for destruction. However, upon his master's defeat he unleashed his true power in vengeance, scorching the very earth. He then cut out his own heart, in order not to further defile the life he lived with his master.`
+    },
+    { //Relic 'Mavlocalypse' - Complete
+        id: 101851,
+        name: `Relic 'Mavlocalypse'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101850.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101851.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101850.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101851.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 60,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 4500% Dark DMG (Physical). Poisons ownself. Increases own Break power by 100% for 4s.`,
+                break: 1800
+            },
+        passive: 
+            {
+                ability1: `Increases Own MAX HP by 10% (Only once).`
+            },
+        lore: `A axe spat out by the weapon devouring dragon Mavlosgia. Already powerful, exposure to pure dark magic inside his body proceeded to warp and twist it. The central gemstone is charged with magic, allowing each swing to cause massive shockwaves. Those drawn to its power are fated to die, however, as the weapon always calls Mavlosgia back to it.`
+    },
+    { //Relic 'Diablos' - Complete
+        id: 101861,
+        name: `Relic 'Diablos'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101860.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101861.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101860.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101861.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 250,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `70s CT - 6800% Dark DMG (Magic). Uses 10% of current HP. Increases own Dark DMG by 50% for 5s.`,
+                break: 700
+            },
+        passive: 
+            {
+                ability1: `Increases Own MAX HP by 10% (Only once).`
+            },
+        lore: `A staff created in the battle between the dragon Mavlosgia and a woman from the Magus Empire of La Riiz during the Ancient War. The breath of death from the beast washed over her as they fought, and afterward her staff had been completely warped. Sensing its dark power she immediately sealed it away, but eventually it was stolen by a unknown party.`
+    },
+    { //Relic 'Skeletooth' - Complete
+        id: 101871,
+        name: `Relic 'Skeletooth'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101870.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101871.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101870.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101871.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 30
+            },
+        skillset:  
+            {
+                skill: `50s CT - Substitutes Target's DMG Taken for 6s. If used on self, reduces Own DMG Taken by 10% for 6s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Arts Gauge Regenerates by 1 when Near-Death.`
+            },
+        lore: `A shield made from the exceptionally tough bones of a Valzandeath, and in particular the wing bones. The beam the beast can fire from its mouth is formed of magic collected from the air using his wings as antenna, which means the wing bones can absorb and store massive volumes of magic. These properties allow this shield to defend against any magic attack.`
+    },
+    { //Relic 'Frost Killer' - Complete
+        id: 101921,
+        name: `Relic 'Frost Killer'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101920.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101921.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101920.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101921.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 30,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 3400% Water DMG (Magic).`,
+                break: 1000
+            },
+        passive: 
+            {
+                ability1: `Increases DMG to Machines by 10%.`
+            },
+        lore: `A scythe possessed of the magic of the gale Fledal. Quite literally a feather that can form ice, it is not only made from the wing of a bird with snow magic but has that same magic infused into the blade, earning it the name "relic". It brings the power of a blizzard to the user, allowing them to transform any season into winter with a single swipe.`
+    },
+    { //Relic 'Zero = Recorder' - Complete
+        id: 101941,
+        name: `Relic 'Zero = Recorder'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_101940.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_101941.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101940.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101941.png`
+            },
+        stats:
+            {
+                hp: 30,
+                atk: 15,
+                def: 15
+            },
+        skillset:  
+            {
+                skill: `60s CT - Adds Freeze Effect to all Allies' Attack for 10s. Increases all Allies' Arts Gauge by 20.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increases Paralysis Time Reduction by 10%. Increases Paralysis Evasion Rate by 10%.`
+            },
+        lore: `A magic recorder imbued with the power of the gale Fledal. Possessed of the freezing ice magic, it allows the user to create absolute zero conditions as they please. These properties can also be used to provide protection to allies from ice, making this instrument a textbook example of how the way something is used all comes down to the user.`
+    },
+    { //Relic 'Blaze Staff' - Missing .....
+        id: 102001,
+        name: `Relic 'Blaze Staff'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102000.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102001.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102000.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102001.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //Relic 'Blaze Gauntlets' - Missing Lore
+        id: 102011,
+        name: `Relic 'Blaze Gauntlets'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102010.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102011.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102010.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102011.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 250
+            },
+        skillset:  
+            {
+                skill: `30s CT - Reduces Target's Physical DMG Taken by 90% for 5s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increases Earth Elemental Resistance by 5%.`
+            },
+        lore: ``
+    },
+    { //Relic 'Blaze Ring' - Missing Lore
+        id: 102021,
+        name: `Relic 'Blaze Ring'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102020.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102021.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102020.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102021.png`
+            },
+        stats:
+            {
+                hp: 30,
+                atk: 15,
+                def: 15
+            },
+        skillset:  
+            {
+                skill: `30s CT - Increases Own Skill CT by 200% for 6s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increases DMG to Humans by 10%.`
+            },
+        lore: ``
+    },
+    { //Relic 'Blaze Medicine' - Complete
+        id: 102031,
+        name: `Relic 'Blaze Medicine'`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102030.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102031.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102030.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102031.png`
+            },
+        stats:
+            {
+                hp: 30,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `30s CT - Heal's Target's HP by 300. Increases Target's DMG Inflicted by 10% for 10s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increases Burning Time Reduction by 10%. Increases Burning Evasion Rate by 10%`
+            },
+        lore: `This medicine is detailed in a forbidden text kept in a light bringer god temple. When the water beast Juroga attacked Bamint, the gods taught a priest how to make a number of relics. As this medicine uses the power of fire to heal, those with strong fire power themselves can boost its effects. The relics Kalon possessed were just copies of the originals.`
+    },
+    { //Ex Gloria - Missing .....
+        id: 102041,
+        name: `Ex Gloria`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102040.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102041.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102040.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102041.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //Agio Lamuz - Complete
+        id: 102051,
+        name: `Agio Lamuz`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102050.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102051.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102050.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102051.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - 7200% Non-Elemental DMG (Magic).`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increases all Light Elemental Allies' DMG by 10% (only once).`
+            },
+        lore: `A rod created in Isliid with aid from the Magus Empire in order to be gifted to skilled retainers and wizards, and with a focus on practical use in battle. It is modeled on an item used in coronations to represent the "holiness" received from the previous Emperor. The way it responds to positive energy also means none with evil in their hearts can use it.`
+    },
+    { //Diez Jade - Missing Passive
+        id: 102061,
+        name: `Diez Jade`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102060.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102061.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102060.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102061.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `50s CT - Reduces all Allies' DMG Taken by 15% for 10s. Evades all Status Ailments except for Faint.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A replica of the sparkling shield used by the legendary "Hero King" Emperor of Isliid. Once, when marching with 500 men to take his pregnant queen to rest in her hometown, the Hero King was set upon by 2000 enemy. He fought on the frontline to protect her, and from the legend this shield engraved with "A Knight Protects" started to be given as a reward.`
+    },
+    { //Claria Health - Complete
+        id: 102071,
+        name: `Claria Health`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102070.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102071.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102070.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102071.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - Heals all Allies' HP by 1200.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increases all Allies' Max HP by 5% (only once).`
+            },
+        lore: `A treasure given to Isliid knight captains upon receiving direct orders from the Emperor. Although only a figurehead now, the Emperor must still decree large scale military action. Accepting this item means taking on the defense of the empire. It’s sparkling blue stone contains not only raw magic but also the Emperor's wishes for the bearer to return alive.`
+    },
+    { //Optima Rade - Complete
+        id: 102081,
+        name: `Optima Rade`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102080.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102081.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102080.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102081.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `40s CT - Increases Target's Arts Gauge by 5 for 20s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Regenerates all Allies' Arts Gauge by 1 when KO'd (only once).`
+            },
+        lore: `Water drawn from the holy pool defended by the Isliid Empire, under the auspices of the Emperor and to which only strictly authorized knights have access. If the waters in the spring lower, it is an omen of ill portent. Also called “natural holy water”, a single sip can energize the use, making it much sought after by all knights everywhere.`
+    },
+    { //Fenrir Gauntlets - Complete
+        id: 102101,
+        name: `Fenrir Gauntlets`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102100.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102101.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102100.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102101.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 120
+            },
+        skillset:  
+            {
+                skill: `30s CT - 	Negates 600 DMG Dealt to all Allies' for 8s (only once). Reduces all Allies' Physical DMG Taken by 25% for 8s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Reduces DMG Taken by 10% when near-death.`
+            },
+        lore: `Gauntlets used by Roy. Immediately after his appointment as Caption to the 3rd, he distinguished himself in fighting with some monsters and earned these along with the name "Silver Wolf". They are engraved with Fenrir, the symbol of his unit. Easy to use and very though, the special protection cast over them is activated when the wearer needs it the most.`
+    },
+    { //Fenrir Crest - Complete
+        id: 102111,
+        name: `Fenrir Crest`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102110.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102111.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102110.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102111.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - Heals all Allies' HP by 1000. If User is Water Elemental then Healing x 1.5.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Reduces DMG Taken by 10% when near-death.`
+            },
+        lore: `A crest worn by the Isliid Empire 3rd Division "Fenrir" Corps. It serves as proof of their appointment and also a reminder of belonging to a proud history of knights. Blessed with healing magic the crest always shines silver, perhaps a sign of the proud wolf watching over these knights. Its real power is revealed when the life of the wearer is in danger.`
+    },
+    { //Relic 'Volkans' - Complete
+        id: 102121,
+        name: `Relic 'Volkans'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102120.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102121.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102120.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102121.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 60,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `90s CT - 8000% Fire DMG (Physical). Burns all allies and enemies.`,
+                break: 2800
+            },
+        passive: 
+            {
+                ability1: `Reduces own Skill CT by 20% when Burning.`
+            },
+        lore: `Gauntlets worn by the fire god Ifrit in manifested form. He used them to defend enemy attacks and also to seal in some of his own heat. At full power he was capable of scorching a battlefield with a single hand, but these gauntlets let him unleash less intense fire magic. Suited to the violence of the fire god, they can crush any enemy with a single blow.`
+    },
+    { //Relic 'Logislett' - Complete
+        id: 102131,
+        name: `Relic 'Logislett'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102130.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102131.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102130.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102131.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 250
+            },
+        skillset:  
+            {
+                skill: `45s CT - Reduces all Allies' DMG Taken by 25% for 12s. Adds Burning Effect to all Allies' Attack for 12s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increases own Skill CT Speed by 20% when Burning.`
+            },
+        lore: `A sealing relic that the fire god Ifrit bound around himself to restrain his fire powers. Where normally he would burn everything in sight, with this he could meet and speak with people. While these chains bind all physical, magical and mental powers, they can also repel any incoming force and so many invincible armor if wrapped around the body.`
+    },
+    { //Relic 'Puneumath' - Complete
+        id: 102141,
+        name: `Relic 'Puneumath'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102140.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102141.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102140.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102141.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 250
+            },
+        skillset:  
+            {
+                skill: `35s CT - Increases all Allies' Healing Amount by 50% for 7s (except lifesteal). Unlikely to get knocked back.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Regenerates own HP by 4.`
+            },
+        lore: `The verdant dragon Elpuneumath grew trees on his body, and this robe is created from the threads of silkworms living in such forests. Light as a breeze and tough as steel, it also allows the wearer to waether all environmental conditions. Furthermore, they even hear the gentle voice of nature, making it almost impossible for them to fall in battle.`
+    },
+    { //Relic 'Benomopis' - Missing .....
+        id: 102151,
+        name: `Relic 'Benomopis'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102150.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102151.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102150.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102151.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //Custom Order 'Toc Blanche' - Complete
+        id: 102161,
+        name: `Custom Order 'Toc Blanche'`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102160.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102161.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102160.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102161.png`
+            },
+        stats:
+            {
+                hp: 120,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - Heals all Allies' HP by 100/s for 7s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increases Skill CT Speed by 5%.`
+            },
+        lore: `A special order cook's hat that only the head chef at the Firecat's Den, Sophie, is allowed to wear. Her father wore a more orthodox design, but when Sophie's turn came she really glitzed it up. The reasons are unknown, but her fashion sense clearly shines through. Compliment it she'll say "Praise my cooking, not the hat," but she looks happy about it too.`
+    },
+    { //Beloved 'Flame Meat Knife' - Missing .....
+        id: 102171,
+        name: `Beloved 'Flame Meat Knife'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102170.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102171.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102170.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102171.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 60,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //Relic 'Eraser Bit' - Complete
+        id: 102181,
+        name: `Relic 'Eraser Bit'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102180.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102181.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102180.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102181.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 60,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - 4500% Non-Elemental DMG (Magic). Reduces Enemy's Paralyze Resistance by 30% for 8s.`,
+                break: 1500
+            },
+        passive: 
+            {
+                ability1: `Increases DMG Dealt to Beasts by 10%.`
+            },
+        lore: `Once a combination of three relics, this machine is now capable of operating alone. It tails the user, identifies threats and attacks with lasers so powerful they may even pose a threat to the user. The reduced output setting is said to offer the best (safest) performance, spinning around the user while bathing enemies an endless stream of death.`
+    },
+    { //Relic 'Machina Core' - Complete
+        id: 102191,
+        name: `Relic 'Machina Core'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102190.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102191.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102190.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102191.png`
+            },
+        stats:
+            {
+                hp: 125,
+                atk: 62,
+                def: 62
+            },
+        skillset:  
+            {
+                skill: `5s CT - ATK Mode: Increases all Allies' ATK by 25%. Break Mode: Increases all Allies' Break by 25%.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increases DMG to Beasts by 10%`
+            },
+        lore: `A relic that powers self defense and combat systems created by machines. A perfect sphere with no joins or welds, its composition is a complete mystery. It comes as close as possible to the human dream of an eternal engine, being able to create matter from zero and never stopping. It can even attack on its own, unleashing a chain of crater-making explosions.`
+    },
+    { //Burn Armor 'Noble Bamint' - Complete
+        id: 102301,
+        name: `Burn Armor 'Noble Bamint'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102300.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102301.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102300.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102301.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `70s CT - 7000% Fire DMG (Magic). 70% chance of Burning Enemy.`,
+                break: 1000
+            },
+        passive: 
+            {
+                ability1: `Increases DMG to Earth Elemental Units by 5%.`
+            },
+        lore: `Armor made for Mira, third princess of the Principality of Bamint. Even fighting is part of her duties, and this armor is made to reflect that, including wear during ceremonies and holy rites. Made from tough materials and blessed with Mira's most compatible element, fire, it is a fine piece of work intended to ensure she always returns from battle alive.`
+    },
+    { //Beautiful Robe 'Grace Barmint' - Complete
+        id: 102311,
+        name: `Beautiful Robe 'Grace Barmint'`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102310.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102311.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102310.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102311.png`
+            },
+        stats:
+            {
+                hp: 120,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `300s CT - Revives all Allies at 15% HP. If User is Fire Elemental then Healing x 2.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increases Own Status Ailment (not Faint) Time Reduction and Evasion Rate by 10%.`
+            },
+        lore: `A robe made for Mira the third princess of Bamint. It has been designed with the intention of reminding her that she is still a princess and therefore has the durability of blocking sword attacks while still preventing it from making clattering sounds while walking. it is light, has good ventilation, and easy to walk in, giving it an excellent comfortability as well as preventing fatigue or stuffiness.`
+    },
+    { //Holy Shield of Wings - Complete
+        id: 102321,
+        name: `Holy Shield of Wings`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102320.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102321.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102320.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102321.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `30s CT - Continuously Increases Target's HP Healing amount by 20% (Max 100%) (except lifesteal).`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Reduces Arts DMG taken by 10% (only once).`
+            },
+        lore: `A shield shaped like the wings of the goddess Palamacia. Known as the "white swan of the battlefield", she would first raise this shield high to boost the morale of allies and call for the surrender of the enemy. Using twin blades, she did not even need a shield, and yet this one helped her achieve many victories for the gods entirely free from bloodshed.`
+    },
+    { //Frozen Twin Swords - Complete
+        id: 102331,
+        name: `Frozen Twin Swords`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102330.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102331.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102330.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102331.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 30,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `10s CT - 1000% Water DMG (Magic).`,
+                break: 350
+            },
+        passive: 
+            {
+                ability1: `Reduces Arts DMG Taken by 10% (only once).`
+            },
+        lore: `The sword of Palamacia, the greatest swordswomen of the gods. It has a clear purity, equal to her own as she danced through battle like a graceful swan. The blade always shines, never stained by blood regardless of the numbers it kills, and its attacks feel like nothing more than "ice across the skin", leaving the departed unaware they have even been cut.`
+    },
+    { //Evil Spear 'Berserk' - Missing .....
+        id: 102341,
+        name: `Evil Spear 'Berserk'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102340.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102341.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102340.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102341.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //Evil Helmet 'Nightmare' - Complete
+        id: 102351,
+        name: `Evil Helmet 'Nightmare'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102350.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102351.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102350.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102351.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 60,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `35s CT - 1900% Dark DMG (Magic). Heals Own HP by 120 for each Enemy Unit hit`,
+                break: 900
+            },
+        passive: 
+            {
+                ability1: `Increases Critical DMG by 10%.`
+            },
+        lore: `A magical helm worn by the demon Grad, an elite member of the Sin Emperor's forces during the Ancient War. A blue helmeted berserker who only sought battle and blood, he was a true nightmare, which is how the helmet got its name. Until it was finally sealed away, it was never touched by a single blade; a nightmare forged by the blood and screams of battle.`
+    },
+    { //Magic Sword 'Geshpenst' - Complete
+        id: 102361,
+        name: `Magic Sword 'Geshpenst'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102360.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102361.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102360.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102361.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `55s CT - 6000% Dark DMG (Physical).`,
+                break: 1000
+            },
+        passive: 
+            {
+                ability1: `All allies' ATK 15% UP (Only once).`
+            },
+        lore: `The sword used by Ragsherum, leader of the demons who attacked every region after reviving in Gormarey. He was skilled at using the pulse of his magic and soul to influence objects, and could make this sword fly back to his hand from anywhere on the battlefield. Unaware of what was happening, people soon came to believe this sword was possessed by a ghost.`
+    },
+    { //Magic Fists 'Hellshaft' - Complete
+        id: 102371,
+        name: `Magic Fists 'Hellshaft'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102370.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102371.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102370.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102371.png`
+            },
+        stats:
+            {
+                hp: 60,
+                atk: 30,
+                def: 30
+            },
+        skillset:  
+            {
+                skill: `40s CT - Increases Target's Critical Rate by 100% for 9s. If User is Dark Elemental then increases Target's Arts Gauge by 30.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Reduces Max HP by 30% and increases ATK by 30% (only once).`
+            },
+        lore: `Gauntlets worn by Ragsherum. His goal was to revive every sealed demon and take over the world, and each time he swore to achieve this his fist bunched in these very gloves. Defeated before he could do so, it was only a matter of time before these gauntlets, exposed for so long to such powerful intent, combined with other relics to achieve those same goals.`
+    },
+    { //Cursed Armor 'Ragsherum' - Complete
+        id: 102381,
+        name: `Cursed Armor 'Ragsherum'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102380.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102381.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102380.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102381.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `95s CT - 9500% Dark DMG (Magic).`,
+                break: 700
+            },
+        passive: 
+            {
+                ability1: `Increases all Dark Elemental Allies' DMG by 5%.`
+            },
+        lore: `Armor that became the medium for Ragsherum's vengeful spirit to materialize. After being exposed to the pulse of his magic and soul for so long, the armor became capable of containing his vast energy. It also provides an outer shell and gives his ghost form as Ragsherum Phantom. He has learned much since his death, making him an even more fearsome foe.`
+    },
+    { //??? - Missing .....
+        id: 102391,
+        name: `???`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 1,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102390.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102391.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102390.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102391.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //Relic 'Punish Fireblade' - Complete
+        id: 102402,
+        name: `Relic 'Punish Fireblade'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102401.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102402.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102401.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102402.png`
+            },
+        stats:
+            {
+                hp: 150,
+                atk: 150,
+                def: 150
+            },
+        skillset:  
+            {
+                skill: `50s CT - 3000% Fire DMG (Physical). Reduces Enemy's Fire Resistance by 30% for 15s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `Increases ATK gradually for 120s to a MAX of 30% (only once).`
+            },
+        lore: `Forbidden fire used by the God of the Heavens Marzex, leader of one of the sealed Ten Divine Forces. Representing the fiercest side of this punishing god, this blade is capable of burning even souls to nothing, meaning complete eradication from the world. Gentle enough to aid a lower race such as the humans, when angered the heavens themselves would tremble.`
     }
 ]
 
