@@ -5842,7 +5842,1196 @@ const EquipInformation = [
                 ability1: `Increases ATK gradually for 120s to a MAX of 30% (only once).`
             },
         lore: `Forbidden fire used by the God of the Heavens Marzex, leader of one of the sealed Ten Divine Forces. Representing the fiercest side of this punishing god, this blade is capable of burning even souls to nothing, meaning complete eradication from the world. Gentle enough to aid a lower race such as the humans, when angered the heavens themselves would tremble.`
-    }
+    },
+    { //Relic 'Repent Lance' - Complete
+        id: 102411,
+        name: `Relic 'Repent Lance'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102410.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102411.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102410.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102411.png`
+            },
+        stats:
+            {
+                hp: 150,
+                atk: 150,
+                def: 150
+            },
+        skillset:  
+            {
+                skill: `50s CT - 3000% Water DMG (Magic). Reduces Enemy's Water Resistance by 30% for 15s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `Increases DEF gradually for 120s to a MAX of 30% (only once).`
+            },
+        lore: `A divine lance formed from the benevolence of God of the Heavens Marzex, leader of one of the legendary Ten Divine Forces during the Ancient War. He swing it to make foolish sinners repent, ending their current lives but purifying their souls and allowing them to be reborn. Those souls that would not repent, however, vanished into the ether for eternity.`
+    },
+    { //Relic 'Fallen Bow' - Complete
+        id: 102421,
+        name: `Relic 'Fallen Bow'`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102420.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102421.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102420.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102421.png`
+            },
+        stats:
+            {
+                hp: 150,
+                atk: 150,
+                def: 150
+            },
+        skillset:  
+            {
+                skill: `50s CT - 3000% Earth DMG (Magic). Reduces Enemy's Earth Resistance by 30% for 15s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `Increases MAX HP gradually for 120s to a MAX of 30% (only once).`
+            },
+        lore: `The battle bow of God of the Heavens Marzex, leader of one of the Ten Divine Forces that fought alongside the humans against the demons. Uses his powers as the god of judgement to destroy evil. As demons are personified "sin" for him, it offered incredible demon killing power. The bolts it fired were more like modern cannon fire than arrows from a bow.`
+    },
+    { //Alchemy Tool 'Hastia' - Complete
+        id: 102451,
+        name: `Alchemy Tool 'Hastia'`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102450.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102451.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102450.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102451.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - Heals all Allies' HP by 400. If User is Earth Elemental then Healing x 1.5.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Goggles used by the blacksmith Gilliam as he works. He created them in his youth with the help of an alchemist. Only needing to protect a small area, they offer great performance from a small volume of materials. He named them and his hammer for fire gods from overseas, but a chef friend eventually told him "That one's more like the god of the cook pot".`
+    },
+    { //Alchemy Tool 'Shurain' - Complete
+        id: 102461,
+        name: `Alchemy Tool 'Shurain'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102460.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102461.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102460.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102461.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 120
+            },
+        skillset:  
+            {
+                skill: `70s CT - Reduces all Allies' DMG Taken by 20% for 8s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Boots that journeyed with Giliam around the world in his impassioned youth. Traveling as he did with many heavy tools and materials he burned through footwear pretty fast. A cobbler finally created these for him in thanks for his work adjusting his cobbling tools. Since then a new pair arrive from his friend at regular intervals.`
+    },
+    { //Gem of Ragsherum's Grudge - Missing Lore
+        id: 102471,
+        name: `Gem of Ragsherum's Grudge`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102470.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102471.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102470.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102471.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `120s CT - 7000% Non-Elemental DMG (Physical). Summon Gem Blessing: Increases all allies' Arts DMG by 50% for 20s (Only once).`,
+                break: 1200
+            },
+        passive: 
+            {
+                ability1: `Summon Gem Blessing Lv5: The highest Level effect of the Summon Gem Blessing is effective.`
+            },
+        lore: ``
+    },
+    { //Magic Sword 'Geshpenst Type-0' - Complete
+        id: 102481,
+        name: `Magic Sword 'Geshpenst Type-0'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102480.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102481.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102480.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102481.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `90s CT - Increases all Allies' Arts Gauge by 50.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increases DMG to Enemy by 15% during the first 30 seconds of a quest (only once).`
+            },
+        lore: `The twin sword of Magic Sword 'Geshpenst' which Ragsherum, the divisional commander of the six great Demon Generals, used. This magical sword moved as if it had its own will, thus he left this at battlefields turning it into chaos. It is said that he only used this sword before its twin returned so he could avoid being unarmed. Thus, it hardly was used in battles but those who know the true value of this sword will never speak about it.`
+    },
+    { //Divine Armor Olgrio - Complete
+        id: 102491,
+        name: `Divine Armor Olgrio`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102490.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102491.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102490.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102491.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `30s CT - Reduces all Allies' DMG Taken and Light Elemental DMG Taken by 20% for 20s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Armor worn long ago by the divine blade Zexia. Serving the gods was her greatest joy, and she wore this armor at all times and worked incredibly hard so as to never purchase their ire. However, when she finally disobeyed divine orders and spared a target, she also cast off this armor in order to draw a clear line from the past.`
+    },
+    { //Guardian Bow of Providence - Complete
+        id: 102501,
+        name: `Guardian Bow of Providence`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102500.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102501.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102500.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102501.png`
+            },
+        stats:
+            {
+                hp: 60,
+                atk: 30,
+                def: 30
+            },
+        skillset:  
+            {
+                skill: `50s CT - 3000% Earth DMG (Physical). Increases all Allies' Evasion Rate by 30% for 12s.`,
+                break: 700
+            },
+        passive: 
+            {
+                ability1: `Regenerates HP by 8/s.`
+            },
+        lore: `The bow used by the bow master Ashe Toto to end the "Thaumazein Winter". He unleashed a shot of fury at the "Disaster Witch" who had twisted the providence of nature and frozen the plains. The awakening of his own abilities aided in severing such powerful magic, but it was also the bow itself transforming to aid him that allowed this miracle to take place.`
+    },
+    { //Eternal Flower Brace - Complete
+        id: 102511,
+        name: `Eternal Flower Brace`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102510.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102511.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102510.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102511.png`
+            },
+        stats:
+            {
+                hp: 120,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - Heal all Allies' HP by 100 for 5s. If user is Earth Elemental then Healing x 2.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A brace worn by bow master Ash Toto, defender of providence. All flowers must eventually wither, but this is purely a function of their place in the greater framework of the cycle of the seasons. This brace reflects this everlasting circle of blooming and fading, bringing countless blessings to the wearer like the coming of new seasons to their heart.`
+    },
+    { //Transcythe Ilzion - Complete
+        id: 102521,
+        name: `Transcythe Ilzion`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102520.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102521.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102520.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102521.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 1800% Light DMG (Physical). 50% chance of Paralyzing Enemy.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A weapon made by the legendary blacksmith Rhodia. A master smith, she was also skilled in a dragon martial art, but she rarely used it after taking up her hammer. In her later years, however, after her only pupil has completed their training, she headed to her final battle. Her greatest work, the Transcythe Ilzion, is sharp enough to enthrall even those it cuts.`
+    },
+    { //Iris' Summer Parasol - Complete
+        id: 102571,
+        name: `Iris' Summer Parasol`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102570.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102571.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102570.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102571.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 3750% Light DMG (Magic).`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A parasol used by Iris on vacation. Her first time at the beach, she knew nothing of the dangers of the sun. Rushing out without protection, the others stopped her and gave her this. Quickly taking to it, she had it close the rest of the time, running along the beach and dashing into the waves. It then shaded her the rest of the time.`
+    },
+    { //Iris' Bikini - Complete
+        id: 102581,
+        name: `Iris' Bikini`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102580.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102581.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102580.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102581.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `40s CT - Negates 1000 DMG Dealt to all Allies. Reduces all Allies' DMG Taken by 10% for 8s. If User is Light Elemental then Reduces all Allies' Dark Elemental DMG Taken by 30% for 8s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `The swimwear purchased by the young girl Iris for her first dip in the sea. She was aided by Mira of Bamint, Sophie of the Firecat's Den, and the Priestess Liese, while the unthinking adventurer Rayas got a slap when he tried to come along. On the day she finally wore it, however, she was the one embarrassing Rayas by continually asking how she looked.`
+    },
+    { //Iris' Beach Sandals - Complete
+        id: 102591,
+        name: `Iris' Beach Sandals`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102590.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102591.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102590.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102591.png`
+            },
+        stats:
+            {
+                hp: 60,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - Heals all Allies' HP by 440.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Sandals gifted to the young girl Iris by Mira of Bamint, to allow her to play freely on the beach. To start with she didn't even want to get them dirty, but Mira just watched with a smile, knowing she would wear them as soon as she touched the hot sand. After arriving at the beach, however, the only thing Mira learned was how hardy Iris' feet are.`
+    },
+    { //Liese' Naval Hat - Complete
+        id: 102601,
+        name: `Liese' Naval Hat`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102600.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102601.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102600.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102601.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 3050% Light DMG (Magic).`,
+                break: 1500
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A hat used to defend the head of Priestess Liese of Reigrad from the summer sun. Holy priestess or not, as a 13 year old girl she hasn't given up on having some beach fun, and her god would surely not deny her some innocent frolicking. Her safety is the highest priority, however, and she can only enjoy the height of summer once completely protected.`
+    },
+    { //Liese' Naval Swimsuit - Complete
+        id: 102611,
+        name: `Liese' Naval Swimsuit`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102610.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102611.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102610.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102611.png`
+            },
+        stats:
+            {
+                hp: 120,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - Heal all Allies' HP by 500. If User is Light Elemental then Healing x 1.5.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A swimsuit selected by the 13 year old Priestess Liese, in the hope of a memorable summer. Normally having to wear heavy robes, putting this on marked both the start of a brief vacation and her chance to spend some time as a normal girl. Even for her first visit to the beach, she wanted something as cute as possible, and gave her all to this selection.`
+    },
+    { //Liese' Lifesaver - Complete
+        id: 102621,
+        name: `Liese' Lifesaver`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102620.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102621.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102620.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102621.png`
+            },
+        stats:
+            {
+                hp: 30,
+                atk: 15,
+                def: 15
+            },
+        skillset:  
+            {
+                skill: `30s CT - Increases Target's Arts Gauge by 20.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A float used by Priestess Liese of Reigrad when she made her debut on the beach. Plucking up all her courage, this was her first time in the sea. Without even knowing if she could swim, this rubber ring put her 13 year old heart at ease. She had to enjoy this chance, no matter what. A full day of play, and then ice cream for dessert! Her summer starts here!`
+    },
+    { //Floating Mikyuon - Complete
+        id: 102631,
+        name: `Floating Mikyuon`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102630.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102631.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102630.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102631.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 60,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `20s CT - 1000% Water DMG (Magic).`,
+                break: 300
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `The most popular beach item in Reigrad this summer. Gentle or not, Mikyuon is still a monster. For all the regular people who simply lack the strength to hug the real thing, this beauty provides their chance. It's even 1/1 scale! Hug it, ride it, enjoy it however you like. Just don't mistake the real thing wandering onto the beach for one of these.`
+    },
+    { //Liese' Secret Adventure - Complete
+        id: 102641,
+        name: `Liese' Secret Adventure`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102640.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102641.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102640.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102641.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 7500% Light DMG (Magic). 80% chance of inflicting Paralysis to enemy.`,
+                break: 600
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `The highly respected Priestess Liese of Reigrad snuck this swimwear into her luggage. Although she has position and ability, she's still so young. If only she could grow up faster! Unable to wear it on front of others, she just looks at herself in the mirror. Even an all seeing god surely doesn't watch girls changing. A summer secret, then, just for her.`
+    },
+    { //Mira's Disguise Glasses - Complete
+        id: 102651,
+        name: `Mira's Disguise Glasses`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102650.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102651.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102650.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102651.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 1500% Fire DMG (Magic). 70% chance of Burning Enemy.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `The eyewear used by Mira, third princess of the Principality of Bamint, to both protect her eyes from harmful rays and disguise her prominent features. In her high-ranking position, being recognized offers zero advantages, making these glasses vital to enjoying a true vacation. Of course, they are unable to hide her overwhelming aura.`
+    },
+    { //Mira's Halter Neck - Complete
+        id: 102661,
+        name: `Mira's Halter Neck`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102660.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102661.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102660.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102661.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 5300% Fire DMG (Physical).`,
+                break: 3500
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A swimsuit worn by Mira, the Rose Garden knight, after casting off her heavy armor. Highlighting her figure in provocative ways, it catches the gaze of men all along the beach and would make her older sister, the first princess, faint completely. She isn't wearing it for anyone in particular, but she may be caught casting glances at men she once adventured with.`
+    },
+    { //Mira's Summer Float - Complete
+        id: 102671,
+        name: `Mira's Summer Float`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102670.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102671.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102670.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102671.png`
+            },
+        stats:
+            {
+                hp: 120,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - Heals Target's HP by 1500. If User is Fire Elemental then Healing x 1.5.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `The third princess of the Principality of Bamint cannot be seen having fun at the beach. Use of an order-made float is tradition. On a secret vacation, however, there is no need to play the noble, and no need to hide her assets. This float design shows no desire to remain hidden, but she loves it so much as to push past the concerns of her friends.`
+    },
+    { //Mira's Summer Sandals - Complete
+        id: 102681,
+        name: `Mira's Summer Sandals`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102680.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102681.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102680.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102681.png`
+            },
+        stats:
+            {
+                hp: 30,
+                atk: 15,
+                def: 15
+            },
+        skillset:  
+            {
+                skill: `30s CT - Increases all Allies' DMG Inflicted by 10% for 10s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Sandals to protect the feet of Mira, third princess of the Principality of Bamint, from sun-warmed sand. Not really suited to walking on the beach, they are designed only to accentuate her legs. She definitely won't be playing in the waves with a special someone, certainly not! Meanwhile, her male friends are left hoping she doesn't fall and break something.`
+    },
+    { //Rayas' Straw Hat - Complete
+        id: 102691,
+        name: `Rayas' Straw Hat`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102690.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102691.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102690.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102691.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 120
+            },
+        skillset:  
+            {
+                skill: `5s CT - Negates 150 Dark Elemental DMG Dealt to all Allies' for 5s (only once).`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A straw hat that the adventurer Rayas purchased to wear at the beach. "This is the only thing for summer!" he laughed with Iris, while Ganan of the Adventurer's Guild and other adults around him looked on somewhat bemused (which went completely unnoticed by Rayas). Upon reaching the beach, the way he used the hat as a makeshift throwing disk only bemused them further.`
+    },
+    { //Rayas' Summer Pants - Complete
+        id: 102701,
+        name: `Rayas' Summer Pants`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102700.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102701.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102700.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102701.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 6250% Light DMG (Physical). Reduces enemy's Light resistance by 30% for 15s.`,
+                break: 1200
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A swimsuit that the adventurer Rayas prepared for swimming in the sea. While he carefully selected both the design and the colors, Ganan of the Adventurer's Guild and other adults around him consider it "supremely childish". Mira of Bamint warned him that "Those ties better never come loose!", while Iris simply said "It suits Rayas perfectly."`
+    },
+    { //Rayas' Beach Sandals - Complete
+        id: 102711,
+        name: `Rayas' Beach Sandals`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102710.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102711.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102710.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102711.png`
+            },
+        stats:
+            {
+                hp: 60,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - Heals Target's HP by 1200.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `The sandals selected by the adventurer Rayas in order to run along the summer sands at full speed. They easily slip on and off, even allowing for such games as launching them into the sea. Of course, in respect to the looks he would get from the adults around him, he would never do that. He still looks like a child just running around wildly, anyway.`
+    },
+    { //Roy's Swimwear - Complete
+        id: 102721,
+        name: `Roy's Swimwear`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102720.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102721.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102720.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102721.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `70s CT - Heals all Allies' HP by 2000.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `The swimwear worn by Roy, Captain of the Isliid Empire Fenrir Knights. Still partly on duty even at the beach, he chose this functional design in case any lifesaving was required of him. His friend Rayas was jealous of its striking design and motif showing off his pride as a knight, while Roy had to stifle laughter when he saw the outfit Rayas selected.`
+    },
+    { //Roy's Blue Water Dragon - Complete
+        id: 102731,
+        name: `Roy's Blue Water Dragon`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102730.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102731.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102730.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102731.png`
+            },
+        stats:
+            {
+                hp: 60,
+                atk: 30,
+                def: 30
+            },
+        skillset:  
+            {
+                skill: `30s CT - Increases Target's Arts Gauge by 30.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A beach ball selected by Roy, Captain of the Isliid Empire Fenrir knights, for training at the beach. What may look like a game is actually serious exercise once adults get involved, with the serves and spikes launched by trained knights turning the beach into a battlefield. Yet this is still intended as a vacation; the losers treat the winners to ice cream.`
+    },
+    { //Ganan's Burning Soul - Complete
+        id: 102741,
+        name: `Ganan's Burning Soul`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102740.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102741.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102740.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102741.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 5850% Fire DMG (Physical). Increases all Allies' DEF by 20% for 20s.`,
+                break: 1000
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Ganan, Guild Master of the Reigrad Branch of the Adventurer's Guild, getting serious about summer wear. He shows off his forge-sculpted body to an excessive degree, overwhelming all on the beach. As a result, many new members throng to join the guild during the summer months, making this unlikely seaside promotion more effective than one might initially think.`
+    },
+    { //Ganan's Wooden Sandals - Complete
+        id: 102751,
+        name: `Ganan's Wooden Sandals`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102750.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102751.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102750.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102751.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 60
+            },
+        skillset:  
+            {
+                skill: `30s CT - Reduces all Allies' DMG Taken by 15% and Fire Elemental DMG Taken by 30% for 8s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Wooden sandals worn by Guild Master Ganan when he trains new summertime recruits. His summer training school is known for being exceptionally tough, but those who make t through end up with a physique of steel. This also attracts many keeping to get in shape for some summer fun. Many say that, just like the sun, summer is when Ganan shines the brightest.`
+    },
+    { //Est's Vacation - Complete
+        id: 102761,
+        name: `Est's Vacation`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102760.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102761.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102760.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102761.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 3750% Water DMG (Physical).`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A straw hat used by the Reigrad Arena receptionist Est to protect herself from the sun. She cuts a true figure of a lady as she walks on the beach, holding her hat on head with one hand and with a sparkling smile on her lips. While a gaggle of men follow behind her, those who actually know her can only mutter about such foolish recklessness.`
+    },
+    { //Est's Mild Fever - Complete
+        id: 102771,
+        name: `Est's Mild Fever`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102770.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102771.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102770.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102771.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - 7500% Water DMG (Physical). Increases own DMG by 30% for 5s during Break.`,
+                break: 100
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `The swimwear selected by Est, the idol of all who visit the Arena. Subtly hiding the curves of her chiseled body, it depicts a calm and elegant presence. Keeping her wraparound skirt in check and walking daintily across the sand, when her father asked her "Why didn't you pick something easier to swim in?" he was rewarded with a nasty body blow.`
+    },
+    { //Est's Warmth - Complete
+        id: 102781,
+        name: `Est's Warmth`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102780.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102781.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102780.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102781.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 60,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 1000% Water DMG (Physical). 30% chance of Freezing Enemy.`,
+                break: 600
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Est, the face of the Arena where she works as the receptionist, must remain elegant at all times. This is no different even on the exciting summer beach. Of course, she chooses her shoes to coordinate with her outfit, but she also selects ones that are harder to walk in on purpose. This will stop her wanting to run off into the sunset like she did as a child.`
+    },
+    { //Melia's Allure - Complete
+        id: 102791,
+        name: `Melia's Allure`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102790.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102791.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102790.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102791.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 3750% Dark DMG (Magic).`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `The sunglasses used by the high-ranking Magus Empire Captain Melia, supposedly to hide her identity but really just making her stand out all the more. Feared as the "Blue-eyed Black fox", a top-class spy, here she chooses to hide nothing. Add in the third princess of Bamint and they are sure to turn some heads, but maybe that's just what she wants.`
+    },
+    { //Melia's Bewitchment - Complete
+        id: 102801,
+        name: `Melia's Bewitchment`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102800.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102801.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102800.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102801.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - Increases Arts Gauge by 20 for each Enemy Unit hit.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `The swimwear selected by the spy-among-spies, the "Blue-eyed Black Fox" Melia, for this summer. A firm believer in hiding nothing in the ocean, she attracts attention from across the beach and delights in toying with the hearts of men. What she likes more than anything is to mock her male friends after they've been swimming around after her all day.`
+    },
+    { //Melia's Lust - Complete
+        id: 102811,
+        name: `Melia's Lust`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102810.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102811.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102810.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102811.png`
+            },
+        stats:
+            {
+                hp: 30,
+                atk: 15,
+                def: 15
+            },
+        skillset:  
+            {
+                skill: `30s CT - Increases all Allies' Skill CT Speed by 50% for 6s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Melia, skilled at disguising herself for missions in enemy territory, selected these sandals for the beach using all of her clothing knowledge. With a heel height to accentuate her legs, a sensual design to compliment her swimwear, and even considering how she looks from behind while walking in them, all Rayas had to say was "Melia, you look beautiful!"`
+    },
+    { //Rem's Glamour - Complete
+        id: 102821,
+        name: `Rem's Glamour`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102820.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102821.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102820.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102821.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `60s CT - 100% Non-Elemental DMG (Magic). Increases Enemies' Weakness Elemental DMG by 20% for 10s.`,
+                break: 250
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `The swimwear worn by the Reigrad alchemist Rem. Rarely showing her face normally, she caused quite a stir among her friends by suddenly appearing in this. The men could barely speak, the women were shocked at this unexpected rival, and Rayas just happily said "Rem's here!" When Melia who was disappointed that she chose the same color swimwear, asked why she chose this, Rem simply replied "It's just what I ended up making".`
+    },
+    { //Wind Chime Rolly - Complete
+        id: 102831,
+        name: `Wind Chime Rolly`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102830.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102831.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102830.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102831.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 60
+            },
+        skillset:  
+            {
+                skill: `30s CT - 	Reduces all Allies' DMG Taken by 5% and Dark Elemental DMG Taken by 10% for 20s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A wind chime shaped like Rolly that helps you forget the heat of the summer. The young girl Iris was having trouble sleeping in the summer heat. Dashing around to try and help her, the adventurer Rayas eventually got the blacksmith Giliam to make these chimes. Iris immediately hung them in her room and slept like a log from that night onward.`
+    },
+    { //Chicken Water Gun - Complete
+        id: 102841,
+        name: `Chicken Water Gun`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102840.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102841.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102840.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102841.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 2000% Dark DMG (Magic). 30% chance of Blinding Enemy.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `This is a popular item among all kids on the beach this summer. Sold using the catchphrase "The Water Pistol Experience", they have incited many raging water battles. Not to be underestimated, they offer water pressure and range far greater than regular toys. When the adventurer Rayas purchased one to test it out, he was soon embroiled in a major water fight.`
+    },
+    { //Firecat's Passion - Complete
+        id: 102851,
+        name: `Firecat's Passion`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102850.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102851.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102850.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102851.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 60,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 1000% Fire DMG (Physical). 30% chance of Burning enemy.`,
+                break: 600
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Dining at the seaside is all about hotplate cooking. Sophie, the head chef of the popular Reigrad establishment "The Firecat's Den," knows this all too well. Seeing her sweating in the sun as she fries up some noodles has become a summer tradition, and she always attracts an impressive queue of young suitors. The special mushroom topping comes especially recommended.`
+    },
+    { //Sophie's Gluttony - Complete
+        id: 102861,
+        name: `Sophie's Gluttony`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102860.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102861.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102860.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102861.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `65s CT - Increases all Allies' Break Power by 50% for 6s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `The swimwear worn by head chef Sophie from the Reigrad restaurant called the Firecat's Den. "All I need is to be able to swim in it!" she explained, but was then seen glancing at the swimwear worn by the other girls. Perhaps she also has to take working at her summer job into account? When Rayas said "It suits you perfectly!" he got a spatula in the face.`
+    },
+    { //Summer Firecat's Den - Complete
+        id: 102871,
+        name: `Summer Firecat's Den`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102870.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102871.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102870.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102871.png`
+            },
+        stats:
+            {
+                hp: 120,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `30s CT - Heals all Allies' HP by 300. Heals all Allies' Poison and Burn.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `An apron worn by head Sophie at her summer spinoff restaurant, the Seacat's Den. While she uses it to get into cooking mode, she also secretly wants to use it to protect her swimwear. Her companions were concerned at the impression created by wearing an apron over a swimsuit, but with so many customers she hasn't had much time to think about it.`
+    },
 ]
 
 export function getEquips() {
