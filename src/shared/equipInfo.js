@@ -7032,6 +7032,586 @@ const EquipInformation = [
             },
         lore: `An apron worn by head Sophie at her summer spinoff restaurant, the Seacat's Den. While she uses it to get into cooking mode, she also secretly wants to use it to protect her swimwear. Her companions were concerned at the impression created by wearing an apron over a swimsuit, but with so many customers she hasn't had much time to think about it.`
     },
+    { //Gilliam - Man of the Sea - Complete
+        id: 102881,
+        name: `Gilliam - Man of the Sea`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102880.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102881.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102880.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102881.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 120
+            },
+        skillset:  
+            {
+                skill: `30s CT - Negates 400 DMG Dealt to all Allies' for 8s. Reduces all Allies' Earth Elemental DMG Taken by 35% for 8s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `The goggles worn by the Reigrad blacksmith Giliam to conquer the seas. Unlike forging goggles, these are designed to be completely waterproof. "The rolling sea! Every man's true love!" After jumping in and starting to swim, he eventually returned at sunset to wax lyrical for far too long about how his goggles never once let in a drop of water.`
+    },
+    { //Gilliam's Guts - Complete
+        id: 102891,
+        name: `Gilliam's Guts`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102890.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102891.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102890.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102891.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `90s CT - Heals all Allies' HP by 2500. Heals all Allies' Status Ailments except for Faint and Disease.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `The tightly fitted loincloth of Reigrad blacksmith Giliam. He stands, arms crossed, on the shore with another strong looking guy at his side. "I'll destroy you this year, Ganan!" "Hahaha, you can't beat me, Giliam!" Their goal? The flag standing on a distant dune. Drinks and food at the Seacat's Den are staked on the outcome of this annual battle!`
+    },
+    { //Toy Sword 'Charlotte' - Complete
+        id: 102901,
+        name: `Toy Sword 'Charlotte'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102900.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102901.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102900.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102901.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `5s CT - 1700% Light DMG (Physical). 30% chance of reducing enemy's DEF by 10% for 10s.`,
+                break: 300
+            },
+        passive: 
+            {
+                ability1: `DMG to Demons 20% UP.`
+            },
+        lore: `The only sword aged general Zeorg will use other than the Ryude Magus. It looks unsuited to such a hero because it was made as a special order based on a toy he gave to his granddaughter, after who it is also named. He claimed it was just for decoration, but gave the blacksmith detailed instructions and ended up with a sword better than most blades.`
+    },
+    { //Holy Cape 'Hero's Triumph' - Complete
+        id: 102911,
+        name: `Holy Cape 'Hero's Triumph'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102910.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102911.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102910.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102911.png`
+            },
+        stats:
+            {
+                hp: 60,
+                atk: 30,
+                def: 30
+            },
+        skillset:  
+            {
+                skill: `40s CT - Increases all Allies' Evasion Rate by 15% for 8s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `DMG to Gods 20% UP.`
+            },
+        lore: `When the hero Zeorg was young, he received this cape for defeating an evil dragon. Wearing it upon his return to the capital after fighting more monsters or a major battle became one of his duties, bringing reassurance to the hearts of the people, but he never had time to wear it for anything else. It is still known as the trademark of this great hero.`
+    },
+    { //The Legend of Ganan - Complete
+        id: 102921,
+        name: `The Legend of Ganan`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102920.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102921.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102920.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102921.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 6500% Fire DMG (Physical). Increases own Break Power by 30% for 9s.`,
+                break: 2200
+            },
+        passive: 
+            {
+                ability1: `Negates Paralysis, Freeze & will not Flinch.`
+            },
+        lore: `The Guidlmaster's final form! Headmaster of summer school at the Adventurer's Guild Reigrad branch. Seeing this, every aspiring adventurer finds their resolve tested. "And so begins hell!" he calls, and trainees drop one after another under his harsh tutelage. But every year, as his pupils are ready to break, he offers them his wisdom. "Stand up! Believe in yourself! Your body will never betray you!" Surely, this year will see the birth of a new legend...`
+    },
+    { //Ryude Magus (Versus) - Complete
+        id: 102951,
+        name: `Ryude Magus (Versus)`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102950.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102951.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102950.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102951.png`
+            },
+        stats:
+            {
+                hp: 60,
+                atk: 30,
+                def: 30
+            },
+        skillset:  
+            {
+                skill: `60s CT - 3600% Light DMG (Physical). Increases all allies' Arts gauge by 20.`,
+                break: 700
+            },
+        passive: 
+            {
+                ability1: `Increases all allies' CRI rate by 20% during Break.`
+            },
+        lore: `The sword hidden in the shadows of the legend "the Warrior and the Blade" in Raktehelm. When pulling out the sword, Ryude Magus from the stomach of a magical dragon, there was another shining sword. By swallowing strong weapons, this dragon increased its own powers. However, when it swallowed the Ryude Magus, it reacted with its magical powers inside its body and created another sword. This sword has been kept as a secret even up to now...`
+    },
+    { //Super Shinobi Bee (超必殺忍蜂) - Complete (JP)
+        id: 102961,
+        name: `Super Shinobi Bee (超必殺忍蜂)`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102960.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102961.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102960.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102961.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `100s CT - 2500% DMG (Physical). Increases all Allies' DMG and Break Power by 20% for 5s.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: `Increase Skill CT Speed and Evasion rate by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //Phoenix Dance (鳳凰の舞) - Complete (JP)
+        id: 102971,
+        name: `Phoenix Dance (鳳凰の舞)`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102970.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102971.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102970.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102971.png`
+            },
+        stats:
+            {
+                hp: 60,
+                atk: 30,
+                def: 30
+            },
+        skillset:  
+            {
+                skill: `65s CT - 1000% DMG (Physical). Increases all Allies' DMG by 20% for 8s.`,
+                break: 400
+            },
+        passive: 
+            {
+                ability1: `Increase Skill CT Speed and Evasion rate by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //Dragon Flame Dance (龍炎舞) - Complete (JP)
+        id: 102981,
+        name: `Dragon Flame Dance (龍炎舞)`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102980.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102981.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102980.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102981.png`
+            },
+        stats:
+            {
+                hp: 30,
+                atk: 15,
+                def: 15
+            },
+        skillset:  
+            {
+                skill: `30s CT - 800% DMG (MAG). Increases all Allies' Break Power by 8% for 10s.`,
+                break: 300
+            },
+        passive: 
+            {
+                ability1: `Increase Skill CT Speed and Evasion rate by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //Ura Hundred Eight Styles・Ojanagi (裏百八式・大蛇薙) - Complete (JP)
+        id: 102991,
+        name: `Ura Hundred Eight Styles・Ojanagi (裏百八式・大蛇薙)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_102990.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_102991.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_102990.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_102991.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `100s CT - 4800% DMG (Physical). 80% chance to inflict Burn on enemies.`,
+                break: 2000
+            },
+        passive: 
+            {
+                ability1: `Increase DEF and CRI rate by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //900-Style・Nue Picking (九百拾式・鵺摘み) - Complete (JP)
+        id: 103001,
+        name: `900-Style・Nue Picking (九百拾式・鵺摘み)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103000.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103001.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103000.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103001.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 2000% DMG (Physical). 50% chance to inflict Burn on enemies.`,
+                break: 1300
+            },
+        passive: 
+            {
+                ability1: `Increase DEF and CRI rate by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //104-Style・Rough Biting (百拾四式・荒咬み) - Complete (JP)
+        id: 103011,
+        name: `104-Style・Rough Biting (百拾四式・荒咬み)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103010.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103011.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103010.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103011.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 60,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `30s CT - 800% DMG (Physical). 30% chance to inflict Burn on enemies.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: `Increase DEF and CRI rate by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //1,000,200,110 Girls (禁千弐百拾壱式・八稚女) - Complete (JP)
+        id: 103021,
+        name: `1,000,200,110 Girls (禁千弐百拾壱式・八稚女)`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103020.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103021.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103020.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103021.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `100s CT - 6300% DMG (Magic). 60% chance to inflict Blind on enemies.`,
+                break: 600
+            },
+        passive: 
+            {
+                ability1: `Increase ATK and CRI DMG by 5%.`
+            },
+        lore: `Currently unreleasd in Global.`
+    },
+    { //Hyakushiki・Oniyaki (百式・鬼焼き) - Complete (JP)
+        id: 103031,
+        name: `Hyakushiki・Oniyaki (百式・鬼焼き)`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103030.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103031.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103030.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103031.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 2500% DMG (Magic). 40% chance to inflict Blind on enemies.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `Increase ATK and CRI DMG by 5%.`
+            },
+        lore: `Currently unreleasd in Global.`
+    },
+    { //Type 108・Yamiharai (百八式・闇払い) - Complete (JP)
+        id: 103041,
+        name: `Type 108・Yamiharai (百八式・闇払い)`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103040.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103041.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103040.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103041.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 60,
+                def: 0
+            },
+        skillset:
+            {
+                skill: `30s CT - 1500% DMG (Magic). 20% chance to inflict Blind on enemies.`,
+                break: 300
+            },
+        passive: 
+            {
+                ability1: `Increase ATK and CRI DMG by 5%.`
+            },
+        lore: `Currently unreleasd in Global.`
+    },
+    { //Grad's Devil Summer - Complete
+        id: 103051,
+        name: `Grad's Devil Summer`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103050.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103051.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103050.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103051.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `80s CT - 6666% Dark DMG (Physical). Increases all allies' CRI rate by 50% for 3s.`,
+                break: 1500
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `The demon leader Grad, revived from his sealing during the Ancient War, selected this swimwear in order to blend in on the human-infested beach. His muscular, beautiful body attracted plenty of attention, starting to feed his sense of superiority. All he needed was Nier to attract even more eyes, but upon asking her she only said "With you? Never."`
+    },
+    { //Snorkel of Darkness - Complete
+        id: 103061,
+        name: `Snorkel of Darkness`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103060.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103061.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103060.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103061.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 60,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 1900% Dark DMG (Magic). Heals Own HP by 120 for each Enemy Unit hit.`,
+                break: 900
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `The equipment prepared by Grad in order to get close to his hated rival during a beach vacation. Those sharp eyes weren't focused on his rival, however, but the fish swimming around them. "I'll show you how to fish!" His harpoon flashed and, while extremely happy with his fishing trip, he completely forgot the reason he was originally there.`
+    },
+    { //Nier's Greed - Complete
+        id: 103071,
+        name: `Nier's Greed`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103070.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103071.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103070.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103071.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `70s CT - 6160% Dark DMG (Magic). 80% chance of Poisoning enemy.`,
+                break: 1000
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `The swimwear selected by the revived demon leader Nier to blend in among humans on the beach. Choosing one overlapping with the swimwear of her targets, she aimed to maximize her voluptuous figure to exert her dominance over them. When Grad asked her "What if it comes untied?" she only replied "Then it will be easier to oil up." While looking at the adventurer with a smile.`
+    },
+    { //Temptation Sunscreen - Complete
+        id: 103081,
+        name: `Temptation Sunscreen`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103080.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103081.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103080.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103081.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 2000% Dark DMG (Magic). Reduces Enemy's Poison & Burn Resistance by 30% for 15s.`,
+                break: 600
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `The tool selected by the conniving Demon, Nier, to get close to her desired target. A certain adventurer was watching the waves when a red-haired woman approached him. "Would you oil me up?" she breathed into his ear. Checking to be sure she meant him, he then followed her away behind some rocks... at least, this is what she is planning.`
+    },
+    { //Nier's Summer Flower - Complete
+        id: 103091,
+        name: `Nier's Summer Flower`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103090.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103091.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103090.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103091.png`
+            },
+        stats:
+            {
+                hp: 30,
+                atk: 15,
+                def: 15
+            },
+        skillset:  
+            {
+                skill: `50s CT - Increases all Allies' Poison, Paralyze, and Burn Resistance by 20% for 10s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `The cruel and violent demon Nier selected this flower to decorate her blood-red hair. Alongside her provocative summer swimwear, she looks like nothing less than a brilliant, primary tropical flower. Looking too hot to touch, she stood watching an adventurer and a girl in a white swimsuit having fun in the distance: a swimsuit that would never suit her, of course.`
+    }
 ]
 
 export function getEquips() {
