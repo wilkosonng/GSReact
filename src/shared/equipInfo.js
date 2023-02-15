@@ -176,7 +176,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `20s CT - 550% DMG (PHY).`,
+                skill: `20s CT - 550% DMG (Physical).`,
                 break: 200
             },
         passive: 
@@ -234,7 +234,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `20s CT - 500% Water DMG (PHY).`,
+                skill: `20s CT - 500% Water DMG (Physical).`,
                 break: 200
             },
         passive: 
@@ -263,7 +263,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `20s CT - 500% Earth DMG (MAG).`,
+                skill: `20s CT - 500% Earth DMG (Magic).`,
                 break: 200
             },
         passive: 
@@ -321,7 +321,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `20s CT - 500% Light DMG (MAG).`,
+                skill: `20s CT - 500% Light DMG (Magic).`,
                 break: 200
             },
         passive: 
@@ -524,7 +524,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `20s CT - 825% Non-Elemental DMG (MAG).`,
+                skill: `20s CT - 825% Non-Elemental DMG (Magic).`,
                 break: 240
             },
         passive: 
@@ -583,7 +583,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `20s CT - 1500% Dark DMG (PHY).`,
+                skill: `20s CT - 1500% Dark DMG (Physical).`,
                 break: 400
             },
         passive: 
@@ -612,7 +612,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `60s CT - 200% Non-Elemental DMG (PHY). Reduces Enemies' ATK by 10% for 10s.`,
+                skill: `60s CT - 200% Non-Elemental DMG (Physical). Reduces Enemies' ATK by 10% for 10s.`,
                 break: 150
             },
         passive: 
@@ -641,7 +641,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `40s CT - 2500% Dark DMG (MAG).`,
+                skill: `40s CT - 2500% Dark DMG (Magic).`,
                 break: 600
             },
         passive: 
@@ -904,7 +904,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `20s CT - 750% Light DMG (MAG).`,
+                skill: `20s CT - 750% Light DMG (Magic).`,
                 break: 240
             },
         passive: 
@@ -933,7 +933,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `20s CT - 750% Dark DMG (MAG).`,
+                skill: `20s CT - 750% Dark DMG (Magic).`,
                 break: 240
             },
         passive: 
@@ -1290,7 +1290,7 @@ const EquipInformation = [
             },
         lore: `A celestial globe used for astrological magic. The vicinity of the user is treated as a single heavenly body, providing control over the flow of time. Requiring vast magic to use, even experienced wizards can struggle. Originally created by the alchemist Alishis in order to travel through time, in the end control of only a short period proved possible.`
     },
-    { //Stigmata Diategh - Missing ....
+    { //Stigmata Diategh - Complete
         id: 100441,
         name: `Stigmata Diategh`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -1310,14 +1310,14 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `20s CT - 1000% Light DMG (Physical).`,
+                break: 300
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `A claw-like relic containing the power of the lightning god. Once activated the wearer obtains speed beyond the reaction times of any living creature. Those who see the flicker of this relic will be dead before they even know it. However, such speed also damages the one who uses it, and the wounds thus inflicted led to the "stigmata" being added to the name.`
     },
     { //Phantom Knight Shield - Complete
         id: 100451,
@@ -1348,7 +1348,7 @@ const EquipInformation = [
             },
         lore: `A shield forged from the armor of knights who died in battle. Harboring remnant energy from multiple knights, the shield itself is said to possess consciousness. For any it does not deem worthy, it remains heavy and hard to use. However, for those whom it does approve it becomes light as a feather, and offers the protection of all the fallen phantoms.`
     },
-    { //Warrior's Dagger - Missing ....
+    { //Warrior's Dagger -  Complete
         id: 100461,
         name: `Warrior's Dagger`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -1368,14 +1368,14 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `20s CT - 1100% DMG (Physical).`,
+                break: 300
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `"Take this. Fight... on..." The words cutting short, the resulting silence, told me that my master had passed. I held the dagger he had given me to my chest, and could do naught by grieve. - "Hill of Warrior's Slumber", Final Chapter. The dagger received by that student is now said to provide any who hold it with the protection of his fallen master.`
     },
     { //Shield Core - Complete
         id: 100471,
@@ -1522,1891 +1522,6 @@ const EquipInformation = [
             },
         lore: `A mask created by the fire demon Ifrit. Although it is always aflame, it will never burn the one it considers its owner. The original mask thought lost after the Ancient War, but during a performance of The Phantom of the Library at the Famelle Royal Theatre the mask of the actor playing the phantom, revealed itself as the original when it burst into flame.`
     },
-    { //Yumil Ice Fragment - Missing .....
-        id: 100521,
-        name: `Yumil Ice Fragment`,
-        type: `/db/Mines/thumbnail/magLB.png`,
-        star: 3,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_100520.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_100521.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100520.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100521.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Three-Headed Dog's Chain - Missing .....
-        id: 100531,
-        name: `Three-Headed Dog's Chain`,
-        type: `/db/Mines/thumbnail/suppLB.png`,
-        star: 3,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_100530.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_100531.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100530.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100531.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Luminous Orb - Missing .....
-        id: 100541,
-        name: `Luminous Orb`,
-        type: `/db/Mines/thumbnail/healLB.png`,
-        star: 3,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_100540.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_100541.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100540.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100541.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Mountain Hammer Gaiaslave - Missing .....
-        id: 100551,
-        name: `Mountain Hammer Gaiaslave`,
-        type: `/db/Mines/thumbnail/physLB.png`,
-        star: 3,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_100550.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_100551.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100550.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100551.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Holy Staff 'Dominion' - Missing .....
-        id: 100561,
-        name: `Holy Staff 'Dominion'`,
-        type: `/db/Mines/thumbnail/magLB.png`,
-        star: 4,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_100560.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_100561.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100560.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100561.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Healing Statue 'Panakeia' - Missing .....
-        id: 100571,
-        name: `Healing Statue 'Panakeia'`,
-        type: `/db/Mines/thumbnail/healLB.png`,
-        star: 5,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_100570.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_100571.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100570.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100571.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Blazing Blade 'Ragnavelga' - Missing .....
-        id: 100581,
-        name: `Blazing Blade 'Ragnavelga'`,
-        type: `/db/Mines/thumbnail/physLB.png`,
-        star: 5,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_100580.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_100581.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100580.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100581.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Magic Armor 'Gargantua' - Missing .....
-        id: 100591,
-        name: `Magic Armor 'Gargantua'`,
-        type: `/db/Mines/thumbnail/defLB.png`,
-        star: 5,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_100590.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_100591.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100590.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100591.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //God Life Sword 'Seraph' - Missing .....
-        id: 100601,
-        name: `God Life Sword 'Seraph'`,
-        type: `/db/Mines/thumbnail/physLB.png`,
-        star: 5,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_100600.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_100601.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100600.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100601.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Calming Sword 'Stillness' - Missing .....
-        id: 100611,
-        name: `Calming Sword 'Stillness'`,
-        type: `/db/Mines/thumbnail/physLB.png`,
-        star: 4,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_100610.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_100611.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100610.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100611.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Soultaker Stone 'Demonica' - Missing .....
-        id: 100621,
-        name: `Soultaker Stone 'Demonica'`,
-        type: `/db/Mines/thumbnail/magLB.png`,
-        star: 4,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_100620.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_100621.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100620.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100621.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Cocytus Arc - Missing Lore
-        id: 100631,
-        name: `Cocytus Arc`,
-        type: `/db/Mines/thumbnail/suppLB.png`,
-        star: 2,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_100630.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_100631.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100630.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100631.png`
-            },
-        stats:
-            {
-                hp: 20,
-                atk: 10,
-                def: 10
-            },
-        skillset:  
-            {
-                skill: `30s CT - Auto-fills Target's Arts gauge by 3 for 10s.`,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Fox Fan 'White Nine Tails' - Missing .....
-        id: 100641,
-        name: `Fox Fan 'White Nine Tails'`,
-        type: `/db/Mines/thumbnail/suppLB.png`,
-        star: 5,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_100640.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_100641.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100640.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100641.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Cruze's Pocket Watch - Missing .....
-        id: 100651,
-        name: `Cruze's Pocket Watch`,
-        type: `/db/Mines/thumbnail/suppLB.png`,
-        star: 3,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_100650.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_100651.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100650.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100651.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Summon Skeletal Wings - Missing .....
-        id: 100661,
-        name: `Summon Skeletal Wings`,
-        type: `/db/Mines/thumbnail/magLB.png`,
-        star: 5,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_100660.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_100661.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100660.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100661.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Monster Summonstone - Missing .....
-        id: 100671,
-        name: `Monster Summonstone`,
-        type: `/db/Mines/thumbnail/suppLB.png`,
-        star: 3,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_100670.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_100671.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100670.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100671.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Flicker Bow Heavy Rain - Missing .....
-        id: 100681,
-        name: `Flicker Bow Heavy Rain`,
-        type: `/db/Mines/thumbnail/magLB.png`,
-        star: 4,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_100680.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_100681.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100680.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100681.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Igneet Axe - Missing .....
-        id: 100691,
-        name: `Igneet Axe`,
-        type: `/db/Mines/thumbnail/physLB.png`,
-        star: 4,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_100690.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_100691.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100690.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100691.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Phoenix Feather Duster - Missing .....
-        id: 100701,
-        name: `Phoenix Feather Duster`,
-        type: `/db/Mines/thumbnail/magLB.png`,
-        star: 4,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_100700.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_100701.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100700.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100701.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Holy Blue Staff - Missing .....
-        id: 100711,
-        name: `Holy Blue Staff`,
-        type: `/db/Mines/thumbnail/healLB.png`,
-        star: 3,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_100710.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_100711.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100710.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100711.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Chaos Rod - Missing .....
-        id: 100721,
-        name: `Chaos Rod`,
-        type: `/db/Mines/thumbnail/magLB.png`,
-        star: 3,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_100720.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_100721.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100720.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100721.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Demonsickle Evilscythe - Missing .....
-        id: 100731,
-        name: `Demonsickle Evilscythe`,
-        type: `/db/Mines/thumbnail/magLB.png`,
-        star: 5,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_100730.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_100731.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100730.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100731.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Magitome 'Log Vida' - Missing .....
-        id: 100741,
-        name: `Magitome 'Log Vida'`,
-        type: `/db/Mines/thumbnail/suppLB.png`,
-        star: 3,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_100740.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_100741.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100740.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100741.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Brilliant Blade 'Regracia' - Missing .....
-        id: 100751,
-        name: `	Brilliant Blade 'Regracia'`,
-        type: `/db/Mines/thumbnail/physLB.png`,
-        star: 5,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_100750.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_100751.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100750.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100751.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Sacred Crown 'Raaz' - Missing .....
-        id: 100761,
-        name: `Sacred Crown 'Raaz'`,
-        type: `/db/Mines/thumbnail/defLB.png`,
-        star: 5,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_100760.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_100761.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100760.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100761.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Ice Wolf Blade 'Gaimalse' - Missing .....
-        id: 100771,
-        name: `Ice Wolf Blade 'Gaimalse'`,
-        type: `/db/Mines/thumbnail/physLB.png`,
-        star: 5,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_100770.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_100771.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100770.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100771.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Twin Flames 'Rose Garden' - Missing .....
-        id: 100780,
-        name: `Twin Flames 'Rose Garden'`,
-        type: `/db/Mines/thumbnail/physLB.png`,
-        star: 5,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_100780.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_100781.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100780.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100781.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Spirit Sword 'Efkeria' - Missing .....
-        id: 100791,
-        name: `Spirit Sword 'Efkeria'`,
-        type: `/db/Mines/thumbnail/physLB.png`,
-        star: 5,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_100790.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_100791.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100790.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100791.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Treasure Blade 'Ryude Magus' - Missing .....
-        id: 100801,
-        name: `Treasure Blade 'Ryude Magus'`,
-        type: `/db/Mines/thumbnail/physLB.png`,
-        star: 5,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_100800.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_100801.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100800.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100801.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //??? - Missing .....
-        id: 100811,
-        name: `???`,
-        type: `/db/Mines/thumbnail/magLB.png`,
-        star: 1,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_100810.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_100811.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100810.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100811.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Battle Axe 'Shurahalt' - Missing .....
-        id: 100821,
-        name: `Battle Axe 'Shurahalt'`,
-        type: `/db/Mines/thumbnail/physLB.png`,
-        star: 5,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_100820.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_100821.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100820.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100821.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Forge Hammer 'Hepaistos' - Missing .....
-        id: 100831,
-        name: `Forge Hammer 'Hepaistos'`,
-        type: `/db/Mines/thumbnail/physLB.png`,
-        star: 5,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_100830.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_100831.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100830.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100831.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //??? - Missing .....
-        id: 100841,
-        name: `???`,
-        type: `/db/Mines/thumbnail/suppLB.png`,
-        star: 1,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_100840.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_100841.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100840.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100841.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //??? - Missing .....
-        id: 100851,
-        name: `???`,
-        type: `/db/Mines/thumbnail/physLB.png`,
-        star: 1,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_100850.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_100851.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100850.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100851.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //??? - Missing .....
-        id: 100861,
-        name: `???`,
-        type: `/db/Mines/thumbnail/magLB.png`,
-        star: 1,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_100860.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_100861.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100860.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100861.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Super Pan 'Wild Cat' - Missing .....
-        id: 100871,
-        name: `Super Pan 'Wild Cat'`,
-        type: `/db/Mines/thumbnail/suppLB.png`,
-        star: 5,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_100870.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_100871.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100870.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100871.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Relic 'Funeral Scythe' - Missing .....
-        id: 100881,
-        name: `Relic 'Funeral Scythe'`,
-        type: `/db/Mines/thumbnail/physLB.png`,
-        star: 5,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_100880.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_100881.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100880.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100881.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Relic 'Cloak of Grief' - Missing .....
-        id: 100891,
-        name: `Relic 'Cloak of Grief'`,
-        type: `/db/Mines/thumbnail/defLB.png`,
-        star: 5,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_100890.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_100891.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100890.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100891.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Relic 'Empty Heart' - Missing .....
-        id: 100901,
-        name: `Relic 'Empty Heart'`,
-        type: `/db/Mines/thumbnail/healLB.png`,
-        star: 5,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_100900.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_100901.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100900.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100901.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Relic 'End Times Ring' - Missing .....
-        id: 100911,
-        name: `Relic 'End Times Ring'`,
-        type: `/db/Mines/thumbnail/suppLB.png`,
-        star: 3,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_100910.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_100911.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100910.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100911.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Relic 'Bleak Prophet' - Missing .....
-        id: 100921,
-        name: `Relic 'Bleak Prophet'`,
-        type: `/db/Mines/thumbnail/physLB.png`,
-        star: 5,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_100920.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_100921.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100920.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100921.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Relic 'Crimson Coat' - Missing .....
-        id: 100931,
-        name: `Relic 'Crimson Coat'`,
-        type: `/db/Mines/thumbnail/defLB.png`,
-        star: 5,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_100930.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_100931.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100930.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100931.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Relic 'Abyssal Hairpin' - Missing .....
-        id: 100941,
-        name: `Relic 'Abyssal Hairpin'`,
-        type: `/db/Mines/thumbnail/healLB.png`,
-        star: 5,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_100940.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_100941.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100940.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100941.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Relic 'Dark White Spear' - Missing .....
-        id: 100951,
-        name: `Relic 'Dark White Spear'`,
-        type: `/db/Mines/thumbnail/suppLB.png`,
-        star: 3,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_100950.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_100951.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100950.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100951.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //??? - Missing .....
-        id: 100961,
-        name: `???`,
-        type: `/db/Mines/thumbnail/magLB.png`,
-        star: 1,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_100960.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_100961.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100960.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100961.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //??? - Missing .....
-        id: 100971,
-        name: `???`,
-        type: `/db/Mines/thumbnail/defLB.png`,
-        star: 1,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_100970.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_100971.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100970.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100971.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //??? - Missing .....
-        id: 100981,
-        name: `???`,
-        type: `/db/Mines/thumbnail/magLB.png`,
-        star: 1,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_100980.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_100981.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100980.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100981.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Relic 'Machina Core' - Missing .....
-        id: 100991,
-        name: `Relic 'Machina Core'`,
-        type: `/db/Mines/thumbnail/suppLB.png`,
-        star: 5,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_100990.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_100991.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_100990.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_100991.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Lockdown Shield Jildoth - Missing .....
-        id: 101001,
-        name: `Lockdown Shield Jildoth`,
-        type: `/db/Mines/thumbnail/defLB.png`,
-        star: 5,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_101000.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_101001.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101000.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101001.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Blade of Sorrow 'Fe'Ode' - Missing .....
-        id: 101011,
-        name: `Blade of Sorrow 'Fe'Ode'`,
-        type: `/db/Mines/thumbnail/magLB.png`,
-        star: 4,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_101010.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_101011.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101010.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101011.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Temis Egg - Missing .....
-        id: 101021,
-        name: `Temis Egg`,
-        type: `/db/Mines/thumbnail/healLB.png`,
-        star: 3,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_101020.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_101021.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101020.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101021.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Conquering Dragon Sword 'Gelmed' - Missing .....
-        id: 101031,
-        name: `Conquering Dragon Sword 'Gelmed'`,
-        type: `/db/Mines/thumbnail/physLB.png`,
-        star: 5,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_101030.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_101031.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101030.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101031.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Blessed Necklace - Missing .....
-        id: 101041,
-        name: `Blessed Necklace`,
-        type: `/db/Mines/thumbnail/healLB.png`,
-        star: 4,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_101040.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_101041.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101040.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101041.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Divine Green Staff 'Keion' - Missing .....
-        id: 101051,
-        name: `Divine Green Staff 'Keion'`,
-        type: `/db/Mines/thumbnail/suppLB.png`,
-        star: 4,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_101050.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_101051.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101050.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101051.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Ice Magic Sword 'Almas' - Missing .....
-        id: 101061,
-        name: `Ice Magic Sword 'Almas'`,
-        type: `/db/Mines/thumbnail/magLB.png`,
-        star: 5,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_101060.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_101061.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101060.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101061.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Demon Axe Exolia - Missing .....
-        id: 101081,
-        name: `Demon Axe Exolia`,
-        type: `/db/Mines/thumbnail/physLB.png`,
-        star: 5,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_101080.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_101081.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101080.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101081.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //??? - Missing .....
-        id: 101091,
-        name: `???`,
-        type: `/db/Mines/thumbnail/defLB.png`,
-        star: 1,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_101090.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_101091.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101090.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101091.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //??? - Missing .....
-        id: 101121,
-        name: `???`,
-        type: `/db/Mines/thumbnail/suppLB.png`,
-        star: 1,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_101120.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_101121.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101120.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101121.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Hell's Spit 'Karks' - Missing .....
-        id: 101131,
-        name: `Hell's Spit 'Karks'`,
-        type: `/db/Mines/thumbnail/physLB.png`,
-        star: 3,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_101130.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_101131.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101130.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101131.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Gem Blade 'Gloria' - Missing .....
-        id: 101141,
-        name: `Gem Blade 'Gloria'`,
-        type: `/db/Mines/thumbnail/magLB.png`,
-        star: 3,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_101140.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_101141.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101140.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101141.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Burn Book 'Aguni' - Missing .....
-        id: 101151,
-        name: `Burn Book 'Aguni'`,
-        type: `/db/Mines/thumbnail/suppLB.png`,
-        star: 4,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_101150.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_101151.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101150.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101151.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Saint's Medal - Missing .....
-        id: 101161,
-        name: `Saint's Medal`,
-        type: `/db/Mines/thumbnail/defLB.png`,
-        star: 1,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_101160.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_101161.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101160.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101161.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Lost Arms - Missing .....
-        id: 101201,
-        name: `Lost Arms`,
-        type: `/db/Mines/thumbnail/defLB.png`,
-        star: 5,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_101200.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_101201.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101200.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101201.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Heaven Blade Klusos - Missing .....
-        id: 101211,
-        name: `Heaven Blade Klusos`,
-        type: `/db/Mines/thumbnail/physLB.png`,
-        star: 3,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_101210.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_101211.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101210.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101211.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
-    { //Water Scale Blade Kyuma - Missing .....
-        id: 101221,
-        name: `Water Scale Blade Kyuma`,
-        type: `/db/Mines/thumbnail/physLB.png`,
-        star: 5,
-        image: 
-            {
-                detail: `/db/Equipment/Detail/item_detail_101220.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_101221.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_101220.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_101221.png`
-            },
-        stats:
-            {
-                hp: 0,
-                atk: 0,
-                def: 0
-            },
-        skillset:  
-            {
-                skill: ``,
-                break: 0
-            },
-        passive: 
-            {
-                ability1: ``
-            },
-        lore: ``
-    },
     { //Yumil Ice Fragment - Complete
         id: 100521,
         name: `Yumil Ice Fragment`,
@@ -3494,7 +1609,7 @@ const EquipInformation = [
             },
         lore: `Magical, lifesaving items gifted by angels to their allies during the Ancient War. Many of those fighting for the angels had no medical experience, and wounds suffered in battle were often fatal. This led the angels to provide them with these orbs, which can heal any injury just by holding them. Examples that still work can be found in Raktehelm even today.`
     },
-    { //Mountain Hammer Gaiaslave - Missing .....
+    { //Mountain Hammer Gaiaslave - Complete
         id: 100551,
         name: `Mountain Hammer Gaiaslave`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -3717,7 +1832,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `40s CT - 1500% Dark DMG (Magic). Chance of Blinding Enemy.`,
+                skill: `40s CT - 1500% Dark DMG (Magic). Randomly Blinds Enemy.`,
                 break: 800
             },
         passive: 
@@ -3809,9 +1924,9 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `A watch that renowned alchemist Baron Cruze kept locked away in his workshop safe. When activated it allows for brief travel through time. Cruze had a heated rivalry with the alchemist Alishis, creator of a similar device called the Terra Conjunction. Records of Alchemist Associations meetings attended by them both are filled mainly with cursing.`
+                ability1: ``
             },
-        lore: ``
+        lore: `A watch that renowned alchemist Baron Cruze kept locked away in his workshop safe. When activated it allows for brief travel through time. Cruze had a heated rivalry with the alchemist Alishis, creator of a similar device called the Terra Conjunction. Records of Alchemist Associations meetings attended by them both are filled mainly with cursing.`
     },
     { //Summon Skeletal Wings - Missing .....
         id: 100661,
@@ -3856,14 +1971,14 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 30,
-                atk: 15,
-                def: 15
+                hp: 0,
+                atk: 0,
+                def: 0
             },
         skillset:  
             {
                 skill: `120s CT - 1000% Non-Elemental DMG (Physical). Summon Gem Blessing: Recovers 30 HP to all Allies' for 20s (only once).`,
-                break: 300
+                break: 0
             },
         passive: 
             {
@@ -3915,7 +2030,7 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 120,
+                atk: 0,
                 def: 0
             },
         skillset:  
@@ -4045,7 +2160,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-    { //Magitome 'Log Vida' - Missing .....
+    { //Magitome 'Log Vida' - Complete
         id: 100741,
         name: `Magitome 'Log Vida'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -4089,7 +2204,7 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 500,
+                atk: 0,
                 def: 0
             },
         skillset:  
@@ -4292,7 +2407,7 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 500,
+                atk: 0,
                 def: 0
             },
         skillset:  
@@ -4321,7 +2436,7 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 500,
+                atk: 0,
                 def: 0
             },
         skillset:  
@@ -4466,7 +2581,7 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 250,
+                atk: 0,
                 def: 0
             },
         skillset:  
@@ -4480,7 +2595,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-    { //Relic 'Cloak of Grief' - Missing .....
+    { //Relic 'Cloak of Grief' - Complete
         id: 100891,
         name: `Relic 'Cloak of Grief'`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -4496,7 +2611,7 @@ const EquipInformation = [
             {
                 hp: 0,
                 atk: 0,
-                def: 250
+                def: 500
             },
         skillset:  
             {
@@ -4513,7 +2628,7 @@ const EquipInformation = [
         id: 100901,
         name: `Relic 'Empty Heart'`,
         type: `/db/Mines/thumbnail/healLB.png`,
-        star: 4,
+        star: 5,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_100900.png`,
@@ -4538,7 +2653,7 @@ const EquipInformation = [
             },
         lore: `A strange substance that gives off an irregular sparkle. It was long thought to be the source of the death god's power. However, tests in the Magus Empire of La Riiz after the Ancient War proved that it gives off no magic, spirit energy, heat, or anything else at all. It is now believed to connect Oldeus, who exists in a different world, with this one.`
     },
-    { //Relic 'End Times Ring' - Missing .....
+    { //Relic 'End Times Ring' - Complete
         id: 100911,
         name: `Relic 'End Times Ring'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -4582,7 +2697,7 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 250,
+                atk: 0,
                 def: 0
             },
         skillset:  
@@ -4616,7 +2731,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `70s CT - 	Reduces Target's Fire Elemental DMG Taken by 50% for 20s.`,
+                skill: `70s CT - Reduces Target's Fire Elemental DMG Taken by 50% for 20s.`,
                 break: 0
             },
         passive: 
@@ -4629,7 +2744,7 @@ const EquipInformation = [
         id: 100941,
         name: `Relic 'Abyssal Hairpin'`,
         type: `/db/Mines/thumbnail/healLB.png`,
-        star: 4,
+        star: 5,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_100940.png`,
@@ -4819,7 +2934,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `40s CT - Reduces all Allies' DMG Taken by 15% for 10s. Heals all Allies' HP by 25/s for 10s. If User is Light Elemental then Healing x2.`,
+                skill: `40s CT - Reduces all Allies' DMG Taken by 15% and Heals all Allies' HP by 25/s for 10s. If User is Light Elemental then Healing x2.`,
                 break: 0
             },
         passive: 
@@ -4901,7 +3016,7 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 500,
+                atk: 0,
                 def: 0
             },
         skillset:  
@@ -4964,7 +3079,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `30s CT - Increases all Allies' Break Power by 28% for 20s and Arts Gauge by 1 for 20s.`,
+                skill: `30s CT - Increases all Allies' Break Power by 28% for 20s. Increases all Allies' Arts Gauge by 1 for 20s.`,
                 break: 0
             },
         passive: 
