@@ -88,7 +88,7 @@
             {   
                 evo5: `Currently unreleased in Global.`,
                 evoawk: `Currently unreleased in Global.`
-            }
+            },
         review:
         {
             skill: ``,
@@ -105,50 +105,7 @@
             overall: ``,
             lastupdated: `December 31, 2022`,
             author: `Zanster`
-        },
-        equiprec:
-            {
-                slot1: 
-                {
-                    new: 
-                    [
-                        `True "Soaring Z" [Cosmo True Weapon]`,
-                        `Magical Hat "Akashic Eye” [Freedom Fighters Pt2 Side Story Farmable]`
-                    ],
-                    optimal:
-                    [
-                        `True "Soaring Z"`,
-                        `True "Exceed Zechs" [Dark Zeorg True Weapon]`,
-                        `Dark Blade "Exceed Zechs" [Dark Zeorg Event Farmable]`,
-                        `Magical Hat "Akashic Eye” [Freedom Fighters Pt2 Side Story Farmable]`
-                    ]
-                },
-                slot2:
-                {
-                    new:
-                    [
-                        `Same as above`
-                    ],
-                    optimal:
-                    [
-                        `Same as above`
-                    ]
-                },
-                slot3:
-                {
-                    new:
-                    [
-                        ``,
-                        ``
-                    ],
-                    optimal:
-                    [
-                        ``,
-                        ``,
-                        ``
-                    ]
-                }
-            }
+        }
     }
 
     /db/Mines/thumbnail/physLB.png
@@ -19861,7 +19818,7 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
     },
-    { // Cosmo - Complete
+    { // Cosmo - Complete, Review Complete
         id: 103626412,
         name: "Cosmo",
         rank: "A+",
@@ -19924,7 +19881,7 @@ const UnitInformation = [
                     hover4: "Flogassa"
                 }
             },
-        trueweapon: //If no TW, may delete this section
+        trueweapon: 
             {
                 name: "Soaring Z",
                 slot: "/db/Mines/thumbnail/magLB.png",
@@ -19958,49 +19915,6 @@ const UnitInformation = [
                 overall: `Cosmo's Viability can be described in a flow chart, do you need to paralyze? Yes, she's cracked. No, She's still a solid DPS. With Cosmo's only real competition for best paralyze option being Norn and Elfalla, she blows them both out the water in both consistency and damage. Although her lack of self sufficiency does hurt a bit, the 3 aps she gets from her TW helps. However, what helps her the most is the surplus of amazing light units to pair up with to make the most of her passive dmg up per paralyze.`,
                 lastupdated: `December 31, 2022`,
                 author: `Zanster`
-            },
-        equiprec:
-            {
-                slot1: 
-                {
-                    new: 
-                    [
-                        `True "Soaring Z" [Cosmo True Weapon]`,
-                        `Magical Hat "Akashic Eye” [Freedom Fighters Pt2 Side Story Farmable]`
-                    ],
-                    optimal:
-                    [
-                        `True "Soaring Z"`,
-                        `True "Exceed Zechs" [Dark Zeorg True Weapon]`,
-                        `Dark Blade "Exceed Zechs" [Dark Zeorg Event Farmable]`,
-                        `Magical Hat "Akashic Eye” [Freedom Fighters Pt2 Side Story Farmable]`
-                    ]
-                },
-                slot2:
-                {
-                    new:
-                    [
-                        `Same as above`
-                    ],
-                    optimal:
-                    [
-                        `Same as above`
-                    ]
-                },
-                slot3:
-                {
-                    new:
-                    [
-                        `Magical Sword “Siegel” [Freedom Fighters: "Last Wishes Passed to the Future" (Grohl & Onfuan) Side Story Farmable]`,
-                        `Armor “Dragon Scale” [“The Dragon General’s Sword” (Rohst) Trial Event Farmable]`
-                    ],
-                    optimal:
-                    [
-                        `Rem’s Sexy Lace Bikini [Summer Equipment Banner]`,
-                        `Magical Sword “Siegel”`,
-                        `Benimaru’s Clothes” [TenSura Equipment Banner]`
-                    ]
-                }
             }
     },
     { // Kirisame - Missing Lore
@@ -23571,7 +23485,7 @@ const UnitInformation = [
                 evoawk: "A slime reincarnated into another world. He contributed his know-how to Rayas' group and helped gather enough food to celebrate New Year's. Everyone was in awe as he demonstrated the leadership and skillfulness that let him build a country from the ground up in his home land."
             }
     },
-    { //New Years Milim - Complete
+    { //New Years Milim - Complete, Review Complete
         id: 107436412,
         name: "New Years Milim",
         rank: "A-",
@@ -23634,6 +23548,28 @@ const UnitInformation = [
             {   
                 evo5: "One of the oldest Demon Lords. Reigrad had enough food to satisfy her during Christmas, but when she found out they were running low for the New Year's festival, she decided to help gather the necessary ingredients. She set out in high spirits, but something unexpected happened during the hunt...",
                 evoawk: "One of the oldest Demon Lords. She went to hunt beasts and help gather ingredients for the New Year's fest with Rayas. However, when faced with the horde, she was frozen in place. As for why one as strong and powerful as her would hesitate..."
+            },
+        review:
+            {
+                skill: `Minor Atk buff, but better than nothing.`,
+                arts: `A nice accuracy buff of 50%, which is niche. On the other hand, the 80% DMG is a huge buff for New Year Milim damage output. However, you will not use this Art over her True Art in most cases.`,
+                truearts: `A huge Light res debuff with a good multiplier and a decent uptime. Makes New Year Milim a competent Light Nuke Support and a good dps unit.`,
+                ability1: `A huge ATK buff, which is tied to 60s. However, her main purpose will be a Light Nuke support where 60s is more than enough to nuke. Although a damage buff would be appreciated over it.`,
+                ability2: `Free 50 Arts for the whole team, which is appreciated especially for nuking. To take note, it doesn’t stack with Forte’s Ability.`,
+                ability3: `A rather small amount of RES, but better than nothing.`,
+                trueweapon: {
+                    skill: ``,
+                    ability1: ``,
+                    ability2: ``
+                },
+                overall: `New Year Milim is overall, a very competent Light Nuke Support with her 50% Atk up passive, 
+                and the 50% Light Res Down on TA. The increase of 50 Arts for all allies is a nice bonus as well as 
+                her slots are great for nuking. On the other hand, she can act as a good dps unit, which is able to 
+                dish out a huge amount of damage, if being able to use her Art before using her True Art. Although 
+                her main role is being a Nuke Support for Light nukes. For either Newer or Veterans she’s a great 
+                addition to your boxes. As she fulfills the role of being a Nuke Support and a DPS unit very well.`,
+                lastupdated: `February 2, 2023`,
+                author: `Alice`
             }
     },
     { //Hatsune Miku - Complete
