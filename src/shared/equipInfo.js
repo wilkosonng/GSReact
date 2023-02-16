@@ -7496,17 +7496,46 @@ const EquipInformation = [
             },
         lore: `The demon leader Grad, revived from his sealing during the Ancient War, selected this swimwear in order to blend in on the human-infested beach. His muscular, beautiful body attracted plenty of attention, starting to feed his sense of superiority. All he needed was Nier to attract even more eyes, but upon asking her she only said "With you? Never."`
     },
-    { //Snorkel of Darkness - Complete
+    { //G.R.A.D Harpoon - Complete
         id: 103061,
-        name: `Snorkel of Darkness`,
-        type: `/db/Mines/thumbnail/magLB.png`,
-        star: 3,
+        name: `G.R.A.D Harpoon`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_103060.png`,
                 detailmax: `/db/Equipment/Detail/item_detail_103061.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_103060.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103061.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - 3000% Dark DMG (Physical). 50% chance of Blinding enemy.`,
+                break: 1000
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A weapon selected by the Sin Emperor's elite guard, Grad, to attack his hated rival during a trip to the beach. Unaware of being watched, his target was celebrating having finally caught a single fish. With a confident laugh, Grad set out to do better, and moments later the demons in his retinue were faced with a veritable mountain of fresh fish.`
+    },
+    { //Snorkel of Darkness - Complete
+        id: 103071,
+        name: `Snorkel of Darkness`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103070.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103071.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103070.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103071.png`
             },
         stats:
             {
@@ -7526,16 +7555,16 @@ const EquipInformation = [
         lore: `The equipment prepared by Grad in order to get close to his hated rival during a beach vacation. Those sharp eyes weren't focused on his rival, however, but the fish swimming around them. "I'll show you how to fish!" His harpoon flashed and, while extremely happy with his fishing trip, he completely forgot the reason he was originally there.`
     },
     { //Nier's Greed - Complete
-        id: 103071,
+        id: 103081,
         name: `Nier's Greed`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
-                detail: `/db/Equipment/Detail/item_detail_103070.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_103071.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103070.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103071.png`
+                detail: `/db/Equipment/Detail/item_detail_103080.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103081.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103080.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103081.png`
             },
         stats:
             {
@@ -7555,16 +7584,16 @@ const EquipInformation = [
         lore: `The swimwear selected by the revived demon leader Nier to blend in among humans on the beach. Choosing one overlapping with the swimwear of her targets, she aimed to maximize her voluptuous figure to exert her dominance over them. When Grad asked her "What if it comes untied?" she only replied "Then it will be easier to oil up." While looking at the adventurer with a smile.`
     },
     { //Temptation Sunscreen - Complete
-        id: 103081,
+        id: 103091,
         name: `Temptation Sunscreen`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
             {
-                detail: `/db/Equipment/Detail/item_detail_103080.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_103081.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103080.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103081.png`
+                detail: `/db/Equipment/Detail/item_detail_103090.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103091.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103090.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103091.png`
             },
         stats:
             {
@@ -7584,16 +7613,16 @@ const EquipInformation = [
         lore: `The tool selected by the conniving Demon, Nier, to get close to her desired target. A certain adventurer was watching the waves when a red-haired woman approached him. "Would you oil me up?" she breathed into his ear. Checking to be sure she meant him, he then followed her away behind some rocks... at least, this is what she is planning.`
     },
     { //Nier's Summer Flower - Complete
-        id: 103091,
+        id: 103101,
         name: `Nier's Summer Flower`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 3,
         image: 
             {
-                detail: `/db/Equipment/Detail/item_detail_103090.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_103091.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103090.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103091.png`
+                detail: `/db/Equipment/Detail/item_detail_103100.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103101.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103100.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103101.png`
             },
         stats:
             {
@@ -7611,6 +7640,1173 @@ const EquipInformation = [
                 ability1: ``
             },
         lore: `The cruel and violent demon Nier selected this flower to decorate her blood-red hair. Alongside her provocative summer swimwear, she looks like nothing less than a brilliant, primary tropical flower. Looking too hot to touch, she stood watching an adventurer and a girl in a white swimsuit having fun in the distance: a swimsuit that would never suit her, of course.`
+    },
+    { //True 'Regracia' - Complete
+        id: 103111,
+        name: `True 'Regracia'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103110.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103111.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103110.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103111.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 6600% Light DMG (Physical).`,
+                break: 1600
+            },
+        passive: 
+            {
+                ability1: `When Equipped by Rayas, increases own DMG by 20% (only once).`,
+                ability2: `Increases all Allies' ATK by 15% (only once).`
+            },
+        lore: `A sword that waited, forgotten in a rock deep in a cave. After removing it, Rayas became an adventurer, learnt to summon, and started to get close to the truth of the world. Was this all just a coincidence, or was it fate? In either case, as the sword grows more powerful alongside him, he has started to sense the larger purpose in his owning it.`
+    },
+    { //True 'Gaimalse' - Missing .....
+        id: 103121,
+        name: `True 'Gaimalse'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103120.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103121.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103120.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103121.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `When equipped by Roy. Own DMG 20% UP (only once).`,
+                ability2: `Own DMG 10% UP when Near-Death.`
+            },
+        lore: ``
+    },
+    { //True 'Raaz' - Complete
+        id: 103131,
+        name: `True 'Raaz'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103130.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103131.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103130.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103131.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `50s CT - `,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `When Equipped by Iris, increases own Evasion Rate by 50% (only once).`,
+                ability2: `Increases Own Status Ailment (not Faint) Time Reduction and Evasion Rate by 30%.`
+            },
+        lore: `A circlet likely created by the gods. The reason Iris owns it is still unknown, and she didn't like it much herself at first. She has realized that its strange power is also protecting her, however, and now happily keeps it with her - without yet realizing that her positive desire to keep pace with a certain adventurer has unlocked new power within it.`
+    },
+    { //True 'Noble Bamint' - Missing .....
+        id: 103141,
+        name: `True 'Noble Bamint'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103140.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103141.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103140.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103141.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //True 'Rig Arcela' - Complete
+        id: 103151,
+        name: `True 'Rig Arcela'`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103150.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103151.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103150.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103151.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - Heals all Allies' HP by 1200. Heals all Allies' Status Ailments except for Faint and Disease.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `When Equipped by Liese, increases own DMG by 20% (only once).`,
+                ability2: `Increases Healing performed by yourself by 10% (excludes absorbed ATK).`
+            },
+        lore: `A holy book carried around by Priestess Liese, explaining the teachings of the god of light. It also represents her bond with her parents, who gave it to her when she was four. She has already memorized it all, but she still opens it to read from often. Her feelings toward the text has given the very pages power, and as she grows so too does its strength.`
+    },
+    { //Beloved Specs 'Pronimos' - Complete
+        id: 103161,
+        name: `Beloved Specs 'Pronimos'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103160.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103161.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103160.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103161.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `5s CT - Mode Changes: Increases all Allies' Arts Gauge by 1 for 15s OR all Allies' Equipment CT by 10% for 15s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increases All Allies' Accuracy by 30% (only once).`
+            },
+        lore: `Glasses worn by Fen of the Gramenia Republic, known for his trademark cool and collected nature. The rumors that they allow him to read minds or see through lies more reflect his incredible powers of observation than any semblance of the truth. He never denies such talk, however, and at least one adventurer he has traveled with still believes all of it.`
+    },
+    { //Ru Doll - Complete
+        id: 103171,
+        name: `Ru Doll`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103170.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103171.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103170.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103171.png`
+            },
+        stats:
+            {
+                hp: 60,
+                atk: 30,
+                def: 30
+            },
+        skillset:  
+            {
+                skill: `35s CT - Increases Target's Arts Gauge by 20. Increases Target's Equipment CT by 10% for 10s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increases Skill CT Speed by 10%.`
+            },
+        lore: `A doll said to be found in the private rooms of nihilistic Head of General Staff Fen. Based in close detail on a particular Paw Person, it should be noted here specifically that Fen most certainly does not have a hidden love of all things cute and charming. If you want to know what he uses it for, you'll have to pluck up the courage to ask him yourself.`
+    },
+    { //Divination Cards Devan - Complete
+        id: 103221,
+        name: `Divination Cards Devan`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103220.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103221.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103220.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103221.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `75s CT - 7000% Water DMG (Magic).`,
+                break: 1200
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Talismans of Divination used by the former sorcerer of La Riiz, Quon. The keys to powerful rites Quon wove himself, the powerful magic inside allows them to dance in the air like living things. With their movement totally unrestricted, they can cut like the sharpest knife or become and impenetrable shield at his whim. Though this may appear far from their original use, at the same time he can use them to read his opponents' future and thus create unbeatable battle strategies.`
+    },
+    { //Vestment Regal Mantle - Complete
+        id: 103231,
+        name: `Vestment Regal Mantle`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103230.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103231.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103230.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103231.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `60s CT - Reduces all Allies' DMG Taken by 20% for 10s. All Allies Evade Burn effect for 10s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `The secluded sorcerer of La Riiz Quon has donned this mantle as he rises once again. Once his uniform of duty, now it tells of his true elevated rank. He once threw away his status and power to refute the Church which had broken his soul. However, now that he has resolved to to face the Ancient Dragon, he resumed this mantle. Imbued with the puissant techniques of La Riiz, it elevates its wearer's power to their ultimate limits.`
+    },
+    { //Reward La Riizilian - Complete
+        id: 103241,
+        name: `Reward La Riizilian`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103240.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103241.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103240.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103241.png`
+            },
+        stats:
+            {
+                hp: 120,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - Heals all Allies' HP by 500. If User is Water Elemental then Healing x 1.5.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `The secluded sorcerer Quon bears this pendant again to rewrite his past. Once his symbol as an official of the Magus Empire of La Riiz, he threw it away in despair. Yet now he has chosen to resume his former status to serve the forest. Although he could not escape his past, perhaps this trial is needed to awaken his true hidden self, as he faces up the choice of throwing away that which was most important.`
+    },
+    { //Star-Spangled Liese - Complete
+        id: 103251,
+        name: `Star-Spangled Liese`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103250.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103251.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103250.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103251.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 3500% Light DMG (Magic). 80% chance of Paralyzing enemy. Heals all allies' HP by 800.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Liese caused quite a commotion at the beach near Reigrad when she wore this swimsuit. Her companions were speechless at the sight. The cook was over come with motherly concern, worrying where Liese's upbringing had gone wrong. The Guildmaster and Blacksmith just grinned! The noblewoman threw her a towel, the receptionist averted her eyes, and the sorceress smiled. The Knight Captain and the adventurer trembled, and as the alchemist prepared a different swimsuit, young Iris laughed. "I picked it out for her."`
+    },
+    { //Iris' Change of Pace - Complete
+        id: 103261,
+        name: `Iris' Change of Pace`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103260.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103261.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103260.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103261.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `55s CT - Reduces all Allies' DMG Taken by 15% for 12s. Increases all Allies' Stats by 30% for 12s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `The adventurer Rayas was looking for for Iris. She was right beside him, but suddenly vanished. Just when he was getting anxious... Iris reappears, led by the noblewoman and sorceress, wearing a new swimsuit. It appears she had more than one ready to go! Rayas cried out, unthinking. "I'm so glad you're OK! I looked everywhere for you." Earning him a thorough talking-to from the other two women.`
+    },
+    { //The Legend of Ganan - Complete
+        id: 103271,
+        name: `The Legend of Ganan`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103270.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103271.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103270.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103271.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 6500% Fire DMG (Physical). Increases own Break Power by 30% for 9s.`,
+                break: 2200
+            },
+        passive: 
+            {
+                ability1: `Negates Paralysis, Freeze & will not Flinch.`
+            },
+        lore: `The Guidlmaster's final form! Headmaster of summer school at the Adventurer's Guild Reigrad branch. Seeing this, every aspiring adventurer finds their resolve tested. "And so begins hell!" he calls, and trainees drop one after another under his harsh tutelage. But every year, as his pupils are ready to break, he offers them his wisdom. "Stand up! Believe in yourself! Your body will never betray you!" Surely, this year will see the birth of a new legend...`
+    },
+    { //Demon Whip 'Basilisk' - Missing .....
+        id: 103281,
+        name: `Demon Whip 'Basilisk'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103280.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103281.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103280.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103281.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //Demon Gear 'Kalkinion' - Missing Lore
+        id: 103291,
+        name: `Demon Gear 'Kalkinion'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103290.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103291.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103290.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103291.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 6200% Dark DMG (Magic). If User is Dark Elemental, drains 5% HP.`,
+                break: 1200
+            },
+        passive: 
+            {
+                ability1: `Ignores Enemies' DEF by 15%.`
+            },
+        lore: ``
+    },
+    { //Demon Armor 'Episumia' - Complete
+        id: 103301,
+        name: `Demon Armor 'Episumia'`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103300.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103301.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103300.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103301.png`
+            },
+        stats:
+            {
+                hp: 120,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - Increases Target's MAX HP by 1800 for 15s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Ignores Enemies' DEF by 15%.`
+            },
+        lore: `The Demon Armor that protects Nier who is an executive of the Demons who revived at the Sealed Fortress Gormarey. Being an extreme sadist, she feels pleasure in fights and gets excited. Her body temperature rises sharply, so she wished for an armor with high heat dissipation. As for an armor it shows her skin too much, thus Grad made fun of it, but she just said it makes her "excited".`
+    },
+    { //Twin Hammers Orthros - Complete
+        id: 103311,
+        name: `Twin Hammers Orthros`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103310.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103311.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103310.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103311.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `100s CT - 1500% Earth DMG (Physical). Absorbs Enemies' Arts gauge by 60% when attack hits.`,
+                break: 100
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `The twin hammers that represent Catilou, the strongest bandit, during the first period of the Ancient War. Having a lot of followers, thousands of rare items and mystery items were gathered for her. Among the collection she favored the mysterious twin hammers that were decorated with bones of a two-headed magical monster the most. She only thought of these as a topic for a good chat, but people were terrified of the overwhelming powers, thus rumors said that powers were drawn out from the magical monster's soul inside the bones.`
+    },
+    { //Giant Zolda Helmet - Complete
+        id: 103321,
+        name: `Giant Zolda Helmet`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103320.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103321.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103320.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103321.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 60
+            },
+        skillset:  
+            {
+                skill: `30s CT - Negates 600 DMG Dealt to Target for 8s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `The helmet that represents Zoldes, a famous brave warrior of Giants during the first period of the Ancient War. One after another, warriors ran away once they saw his figure, so there were times that battles did not even start. thus, his helmet is always shining without any scratches which showed off his majesty in battles. However, it seems that he was pretty unhappy that there were few chances to show off the true powers of the helmet made out of the best material.`
+    },
+    { //Crimson Hammer Zoldavalcan - Complete
+        id: 103331,
+        name: `Crimson Hammer Zoldavalcan`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103330.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103331.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103330.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103331.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `70s CT - 5800% Fire DMG (Physical). If User is Fire Elemental, increases Critical Rate by 50% for 4s.`,
+                break: 2400
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `The hammer that Zoldes, a famous brave warrior of Giants that people feared, used during the first period of the Ancient War. No matter how many times he used his hammer with his endless powers, it never broke. Both his helmet and hammer were made by a nameless blacksmith, so the two were named after Zoldes. But he did not like to be the only one praised. "This victory came not from my powers, it came from this helmet and this hammer."`
+    },
+    { //Flower Cane Irurose - Complete
+        id: 103341,
+        name: `Flower Cane Irurose`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103340.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103341.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103340.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103341.png`
+            },
+        stats:
+            {
+                hp: 120,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - Heals all Allies' HP by 20%.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `This is the rod used by Pola, the "Witch of Funereal Bloom", part of the "Grimm Stella" covenant. The force of life inside it is enough to fill the whole area with rose ivy and flowers every time it is shaken, but as described by her name, Pola never used its powers for saving people but only to carry death. It's not well known, but it seems that the the reason why she could cast a spell in such short words, which is the reason why she became this famous, was actually possible because of the rod.`
+    },
+    { //Frozen Robe Taumaizen - Complete
+        id: 103351,
+        name: `Frozen Robe Taumaizen`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103350.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103351.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103350.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103351.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `40s CT - Reduces Own DMG Taken by 30% for 15s. Evades Freezing effect for 15s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `The magical robe that the "Witch of Disaster" had created on a whim. This witch was the cause of "Winter of Taumaizen" which turned summer fields into frozen hellscape in an instant. By wearing this robe, you won't need to worry about freezing in even the coldest places. Not only does it have defense abilities against snow magic, it also keeps the constancy of one's body by harmonizing to the cold air. However, once she noticed that this was unnecessary for her, she lost interest, and hung the robe on a tree and left.`
+    },
+    { //Firebird 'Alle Rouge' - Complete
+        id: 103361,
+        name: `Firebird 'Alle Rouge'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103360.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103361.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103360.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103361.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - 7777% Fire DMG (Physical). Reduces enemy's Burn resistance by 50% for 4s.`,
+                break: 1000
+            },
+        passive: 
+            {
+                ability1: `DMG & Break power 30% UP while enemy is Burning (Only once).`
+            },
+        lore: `One of the rare beasts that have existed from ancient times in Raktehelm. It used to be a Spirit that ruled all fire birds and became a God, thus it is more of a conception rather than an existence. Those who are excepted by it receives the protection of the flames, and it burns out anything or anyone that stands in their way. It is the symbol of regeneration, but only a few have actually seen it.`
+    },
+    { //True 'Gradion' - Missing .....
+        id: 103371,
+        name: `True 'Gradion'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103370.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103371.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103370.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103371.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //True 'Froid Rosier' - Complete
+        id: 103381,
+        name: `True 'Froid Rosier'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103380.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103381.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103380.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103381.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 5500% Water DMG (Magic). 60% chance of Freezing Enemy.`,
+                break: 1200
+            },
+        passive: 
+            {
+                ability1: `When Equipped by Corsair, increases own DMG by 75% and increases Own Arts Gauge automatically (only once).`,
+                ability2: `Increases DMG to Fire Elemental Units by 25%.`
+            },
+        lore: `The sword used by Corsair, one of the 3 Blade Masters during the Ancient War. It is said that she used this sword for her whole life. There are numerous legends that one could not imagine that about this beautiful sword. It was created to amplify Corsair's strength, but becoming too strong, she remade it to match her abilities. As a result, just by drawing the sword, it freezes even roses around her.`
+    },
+    { //True 'Arth Lumina' - Complete
+        id: 103391,
+        name: `True 'Arth Lumina'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103390.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103391.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103390.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103391.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 6000% Earth DMG (Physical).`,
+                break: 3000
+            },
+        passive: 
+            {
+                ability1: `When Equipped by Arth, increases own DMG by 75% and increases Own Arts Gauge automatically (only once).`,
+                ability2: `Increases DMG to Water Elemental Units by 25%.`
+            },
+        lore: `The twin blades that Arth, one of the 3 Blade Masters and left his name in history, used during the Ancient War. It was created by Gods to amplify his sword skills, thus the sword was named after him. A symbol of strength, it became a lesson for him not to forget the war. Being a weapon of destruction and regeneration, it can be said that it was a mirror that reflected his glory and amends.`
+    },
+    { //Relic 'Deus Volta' - Complete
+        id: 103401,
+        name: `Relic 'Deus Volta'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103400.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103401.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103400.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103401.png`
+            },
+        stats:
+            {
+                hp: 30,
+                atk: 15,
+                def: 15
+            },
+        skillset:  
+            {
+                skill: `50s CT - Increases all Allies' DMG Inflicted by 20% and adds Paralyze effect for all Allies' for 8s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Regenerates own HP by 10 (only once).`
+            },
+        lore: `The source behind the 'Tonetaurus' ability to create infinite bolts of lightning. The particles themselves are too small to be used practically, but from the sheer quantity the Tonetaurus needs, it was possible to transform into a relic. Its enormous power is said to match that of ancient gods.`
+    },
+    { //Relic 'Pteraturus' - Complete
+        id: 103411,
+        name: `Relic 'Pteraturus'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103410.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103411.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103410.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103411.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 250
+            },
+        skillset:  
+            {
+                skill: `50s CT - Negates 800 DMG Dealt to all Allies' for 12s. Increases all Allies' Paralyze and Freeze resistance by 70% for 12s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Regenerates own HP by 10 (only once).`
+            },
+        lore: `A divine shield made from the 'Tonetaurus' feather which emits lightning bolts. The feathers themselves don't hold a charge, but rather the feathers' unique power converts the atoms in the surrounding air into electricity. A blow like a bolt of lightning has left many to warn of its dangers: "Lest not touch, for death awaits."`
+    },
+    { //Axioma 'Valheight' - Missing .....
+        id: 103421,
+        name: `Axioma 'Valheight'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103420.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103421.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103420.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103421.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //Oathtaker 'Shivlet' - Missing .....
+        id: 103431,
+        name: `Oathtaker 'Shivlet'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103430.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103431.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103430.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103431.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //Peacemaker 'Leighto' - Missing .....
+        id: 103441,
+        name: `Peacemaker 'Leighto'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103440.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103441.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103440.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103441.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //Grimoire SHIN-RA-BAN-SHO - Complete
+        id: 103451,
+        name: `Grimoire SHIN-RA-BAN-SHO`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103450.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103451.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103450.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103451.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - Heals all Allies' HP by 100/s for 10s. If User is Water Elemental then Healing x 1.5. Heals all Allies' Status Ailments except Faint or Disease.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `This is an extremely precious book inherited from the famous "Witch of Destruction". The content changes every time you open it and inside it, you may find everything from valuable wisdom to useless jokes. It contains very valuable information such as the truth about the hidden history and far futures, but it is very not likely that anybody in the world can select the knowledge inside it to use it properly.`
+    },
+    { //Twin Magical Guns Zecht - Missing .....
+        id: 103461,
+        name: `Twin Magical Guns Zecht`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103460.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103461.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103460.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103461.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //Phantom Robe Hollow Graph - Complete
+        id: 103471,
+        name: `Phantom Robe Hollow Graph`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103470.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103471.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103470.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103471.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 120
+            },
+        skillset:  
+            {
+                skill: `35s CT - Negates 600 DMG Dealt to all Allies' for 10s. Increases all Allies' DEF by 30% for 10s (only once).`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `The mantle that a famous gunman used before the Ancient War. Not only does it contain Dark Magic that protects the user from enemy attacks, but it also has the ability to camouflage with the background to confuse enemies. He was indeed a quick and accurate gunman thanks to this mantle. However, in his very last moments he took off this mantle with his own will.`
+    },
+    { //Necklace 'Barbelun' - Complete
+        id: 103481,
+        name: `Necklace 'Barbelun'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103480.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103481png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103480.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103481.png`
+            },
+        stats:
+            {
+                hp: 30,
+                atk: 15,
+                def: 15
+            },
+        skillset:  
+            {
+                skill: `20s CT - Increases all Allies' Arts Gauge by 1 for 5s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `This was the necklace that a certain witch always put on. It affects the owner's mind to think clearly, and to become full of curiosity. Later, called as "Destruction Witch", she is said to have read books from all ages and countries, thus this was a treasure for her. However, this must have been the key to the misfortune that happened to her and others close to her.`
+    },
+    { //Dark Soul Pendant 'Necrocles' - Complete
+        id: 103491,
+        name: `Dark Soul Pendant 'Necrocles'`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103490.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103491.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103490.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103491.png`
+            },
+        stats:
+            {
+                hp: 120,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - Heals all Allies' HP by 15%. If Dark unit, increases Heal amount by 10%. If Demon, increases own Arts gauge by 20.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increases own Blind Resistance by 100%. Increase own Curse Resistance by 100%.`
+            },
+        lore: `A pendant belonging to the Special Unit "Aegis Raven" of La Riiz, that Regulus received from the Cult. Despite he was the personification of the saying "A good attack is the best defense" and his achievements were extraordinary, her didn't have any magical power, so during magic battles, he was often in danger. Thus, the Cult decided to endow him with this pendant, which is catalyzed by the invulnerability of the feared Necromancer's skull, to protect him.`
+    },
+    { //True 'Nemesis Crow' - Complete
+        id: 103501,
+        name: `True 'Nemesis Crow'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103500.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103501.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103500.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103501.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 7000% Dark DMG (Magic). Reduces enemies' Dark Resistance by 50% for 10s.`,
+                break: 1000
+            },
+        passive: 
+            {
+                ability1: `When Equipped by Regulus, increases own Critical DMG by 50% and increases own Arts Gauge automatically (only once).`,
+                ability2: `Increases DMG to Dragons by 50%.`
+            },
+        lore: `This is the blade once wielded by Regulus, member of the Twin Knights of the Morning Star and of the Raven's Aegis of the Magus Empire of La Riiz. The incredible strikes he was known for are the result of the advanced design of this weapon. During his long journey, he fought many tough fighters and famous blades, but he never met anyone who could break his sword, the one that once defeated the fire of the Flamewyrm Dargeon.`
+    },
+    { //True 'Ryude Magus' - Missing .....
+        id: 103511,
+        name: `True 'Ryude Magus'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103510.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103511.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103510.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103511.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //Ultimate Magic Canon 'Infinite' - Missing .....
+        id: 103521,
+        name: `Ultimate Magic Canon 'Infinite'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103520.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103521.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103520.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103521.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //End Circuit 'Judgement' - Complete
+        id: 103531,
+        name: `End Circuit 'Judgement'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103530.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103531.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103530.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103531.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `40s CT - Increases all Allies' DEF by 30% for 15s. Heals all Light Elemental Allies' Status Ailments except for Faint and Disease.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increases Paralyze Time Reduction by 20%. Increases Paralyze Evasion Rate by 20%.`
+            },
+        lore: `The device that was put into the mecha doll. This allows the doll to judge objectively and also works as the safety system for the magic canon. It is impossible for the doll to make decisions on its own and it is created to always obey his master's orders. Rumors say that this circuit is where the dolls mind and feelings are, but there is no way to prove that for now...`
+    },
+    { //Phantasmagoric 'Cavalry' - Complete
+        id: 103541,
+        name: `Phantasmagoric 'Cavalry'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103540.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103541.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103540.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103541.png`
+            },
+        stats:
+            {
+                hp: 60,
+                atk: 30,
+                def: 30
+            },
+        skillset:  
+            {
+                skill: `40s CT - Increases all Allies' Skill CT Speed by 50% and Arts gauge by 1 for 5s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increases Paralyze Time Reduction by 10%. Increases Paralyze Evasion Rate by 10%.`
+            },
+        lore: `The battle support device that the mecha doll used. As the name tells, it moved freely in the battlefields like a horse and supported its owner. It is possible to set it to move based on rules or to make it move depending on the current situation. In past wars, Machine used this device and by itself, its work equaled up to a hundred people.`
     }
 ]
 
