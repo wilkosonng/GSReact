@@ -3,6 +3,8 @@
  * 
  * Anything between the `` can be put on separate lines, if needed
  * 
+ * For supers, use slot31 and slot32 for the slot types (can keep the star number as slot3)
+ * If Unit has no TW, can delete TW section
  * {
         id: ,
         name: ``,
@@ -16,7 +18,7 @@
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_.png"
             },
         slots: 
-            { //For supers, use slot31 and slot32 for the types (can keep the star number as slot3)
+            {
                 slot1: 5,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
@@ -69,7 +71,7 @@
                     hover5: "Aerugraxes"
                 }
             },
-        trueweapon: //If no TW, may delete this section
+        trueweapon: 
             {
                 name: ``,
                 slot: "/db/Mines/thumbnail/physLB.png",
@@ -86,6 +88,66 @@
             {   
                 evo5: `Currently unreleased in Global.`,
                 evoawk: `Currently unreleased in Global.`
+            }
+        review:
+        {
+            skill: ``,
+            arts: ``,
+            truearts: ``,
+            ability1: ``,
+            ability2: ``,
+            ability3: ``,
+            trueweapon: {
+                skill: ``,
+                ability1: ``,
+                ability2: ``
+            },
+            overall: ``,
+            lastupdated: `December 31, 2022`,
+            author: `Zanster`
+        },
+        equiprec:
+            {
+                slot1: 
+                {
+                    new: 
+                    [
+                        `True "Soaring Z" [Cosmo True Weapon]`,
+                        `Magical Hat "Akashic Eye” [Freedom Fighters Pt2 Side Story Farmable]`
+                    ],
+                    optimal:
+                    [
+                        `True "Soaring Z"`,
+                        `True "Exceed Zechs" [Dark Zeorg True Weapon]`,
+                        `Dark Blade "Exceed Zechs" [Dark Zeorg Event Farmable]`,
+                        `Magical Hat "Akashic Eye” [Freedom Fighters Pt2 Side Story Farmable]`
+                    ]
+                },
+                slot2:
+                {
+                    new:
+                    [
+                        `Same as above`
+                    ],
+                    optimal:
+                    [
+                        `Same as above`
+                    ]
+                },
+                slot3:
+                {
+                    new:
+                    [
+                        ``,
+                        ``
+                    ],
+                    optimal:
+                    [
+                        ``,
+                        ``,
+                        ``
+                    ]
+                }
             }
     }
 
