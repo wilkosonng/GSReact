@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Container, Row, Media, Badge, Table, Nav, NavItem, TabContent, TabPane, NavLink, List } from 'reactstrap';
 import classnames from 'classnames';
+import UnitReviews from './ReviewComponent';
 
 const lbIconSize = {
     maxHeight: 40,
@@ -76,7 +77,7 @@ function RenderSlots({ unitSlots }) {
     )
 }
 
-function RenderSkills({ unitSkill }) {
+function RenderSkills({ unitSkill, unitReview, isReview }) {
     return (
         <center>
             { unitSkill.skill1break ? 
@@ -88,12 +89,18 @@ function RenderSkills({ unitSkill }) {
                 <Row>
                     <h3><strong>SKILL</strong></h3>
                     <center><p><Badge color="primary" pill>BREAK {unitSkill.skillbreak}</Badge> {unitSkill.skill}</p></center>
+                    {
+                        unitReview.skill && isReview && <UnitReviews review={unitReview.skill} /> 
+                    }
                 </Row>
             }
             
             <Row>
                 <h3><strong>ARTS</strong></h3>
                 <center><p><Badge color="primary" pill>BREAK {unitSkill.artsbreak}</Badge> {unitSkill.arts}</p></center>
+                {
+                    unitReview.arts && isReview && <UnitReviews review={unitReview.arts} /> 
+                }
             </Row>
 
 
@@ -101,31 +108,35 @@ function RenderSkills({ unitSkill }) {
                 <Row>
                     <h3><strong>TRUE ARTS</strong></h3>
                     <center><p><Badge color="primary" pill>BREAK {unitSkill.trueartsbreak}</Badge> {unitSkill.truearts}</p></center>
+                    {
+                    unitReview.truearts && isReview  && <UnitReviews review={unitReview.truearts} /> 
+                    }
                 </Row>
             : null }
 
-            { unitSkill.trueartsbreak1 ? 
+            { unitSkill.trueartsbreak1 &&
                 <Row>
                     <h3><strong>TRUE ARTS</strong></h3>
                     <center><p><Badge color="primary" pill>BREAK {unitSkill.trueartsbreak1}</Badge> {unitSkill.truearts1}</p></center>
                     <center><p><Badge color="primary" pill>BREAK {unitSkill.trueartsbreak2}</Badge> {unitSkill.truearts2}</p></center>
-                </Row> : null }
+                </Row> 
+            }
 
-            { unitSkill.crossarts ? 
+            { unitSkill.crossarts &&
                 <Row>
                     <h3><strong>CROSS ARTS</strong></h3>
                     <center><p><Badge color="primary" pill>BREAK {unitSkill.crossartsbreak}</Badge> {unitSkill.crossarts}</p></center>
-                </Row> : null
+                </Row> 
             }
 
-            { unitSkill.phantombullet ? 
+            { unitSkill.phantombullet && 
                 <Row>
                     <h3><strong>PHANTOM BULLET</strong></h3>
                     <center><p><Badge color="primary" pill>BREAK {unitSkill.phantombulletbreak}</Badge> {unitSkill.phantombullet}</p></center>
-                </Row> : null
+                </Row> 
             }
 
-            { unitSkill.ultraname ? 
+            { unitSkill.ultraname && 
                 <Row>
                     <h3><strong>Ultra "{unitSkill.ultraname}"</strong></h3>
                     <h4>5☆ <img src={unitSkill.ultratype} style={lbIconSize} alt="Ultra Slot Type" /></h4>
@@ -137,28 +148,45 @@ function RenderSkills({ unitSkill }) {
                             <li>The active of the Equip originally in the <img src={unitSkill.ultratype} style={{maxWidth: "25px"}} alt="Ultra Slot Type" /> slot cannot be activated while this Equip replaces it. If it was on cooldown when this Equip replaces it, the cooldown will continue counting down while this Equip is replacing it.</li>
                         </List>
                     </center>
-                </Row> : null }
+                </Row> 
+            }
             {
-                unitSkill.superarts ? 
+                unitSkill.superarts && 
                 <Row>
                     <h3><strong>SUPER ARTS</strong></h3>
                     <center><p><Badge color="primary" pill>BREAK {unitSkill.superartsbreak}</Badge> {unitSkill.superarts}</p></center>
-                </Row> : null
+                </Row> 
             }
             
         </center>
     )
 }
 
-function RenderPassives({ unitPassive }) {
+function RenderPassives({ unitPassive, isReview, unitReview }) {
     return (
         <Row>
             <h3><strong>PASSIVES</strong></h3>
             <List type="unstyled">
                 <li>{unitPassive.ability1}</li>
-                { unitPassive.ability2 ? <li>{unitPassive.ability2}</li> : null }
-                { unitPassive.ability3 ? <li>{unitPassive.ability3}</li> : null }
-                { unitPassive.ability4 ? <li>{unitPassive.ability4}</li> : null }
+                {isReview && unitReview && <UnitReviews review={unitReview.ability1} />}
+                { unitPassive.ability2 && 
+                    <>
+                        <li>{unitPassive.ability2}</li>
+                        {isReview && unitReview && <UnitReviews review={unitReview.ability2} />}
+                    </> 
+                }
+                { unitPassive.ability3 && 
+                    <>
+                        <li>{unitPassive.ability3}</li>
+                        {isReview && unitReview && <UnitReviews review={unitReview.ability3} />}
+                    </> 
+                }
+                { unitPassive.ability4 && 
+                    <>
+                        <li>{unitPassive.ability4}</li>
+                        {isReview && unitReview && <UnitReviews review={unitReview.ability4} />}
+                    </> 
+                }
             </List>
         </Row>
     )
@@ -195,7 +223,7 @@ function RenderImageAndTypes({ unitImage, unitAtt, unitType, unitName }) {
         )
     }
 }
-export function RenderStats({unitName, unitStats, unitAtt, unitType, unitSkill, unitPassive, unitSlots, unitImage}){
+export function RenderStats({unitName, unitStats, unitAtt, unitType, unitSkill, unitPassive, unitSlots, unitImage, unitReview = false}){
     //Hook for Tab State
     const [currentTab, setCurrentTab] = useState('1');
 
@@ -203,6 +231,9 @@ export function RenderStats({unitName, unitStats, unitAtt, unitType, unitSkill, 
     const toggle = tab => {
         if(currentTab !== tab) setCurrentTab(tab);
     }
+
+    //Review Button Toggle
+    const [review, setReview] = useState(false)
 
     return (
         <Container style={{marginTop: "1rem"}}>
@@ -238,8 +269,23 @@ export function RenderStats({unitName, unitStats, unitAtt, unitType, unitSkill, 
                 <center>
                     <RenderStat unitStats={unitStats} />
                     <RenderSlots unitSlots={unitSlots} />
-                    <RenderSkills unitSkill={unitSkill} />
-                    <RenderPassives unitPassive={unitPassive} />
+                    {unitReview &&
+                    <button onClick={() => setReview(!review)} style={{marginTop: ".3rem", marginBottom: ".3rem"}}>
+                        { review ?  <>Hide Review</>  : <>Show Review</>}
+                    
+                    </button> 
+                    }
+                    <RenderSkills unitSkill={unitSkill} unitReview={unitReview} isReview={review}/>
+                    <RenderPassives unitPassive={unitPassive} unitReview={unitReview} isReview={review}/>
+                    {
+                        review ? 
+                        <>
+                            <h3><strong>SUMMARY</strong></h3>
+                            <UnitReviews review={unitReview.overall} />
+                            <center><i>Review Last Updated {unitReview.lastupdated}</i></center>
+                        </> 
+                        : null
+                    }
                 </center>
             }
             
