@@ -23286,6 +23286,23 @@ const UnitInformation = [
             {   
                 evo5: "A slime reincarnated into another world. Having once visited Raktehelm with allies once before, Rimuru was able to use special skills to return. Seeing the people of Reigrad preparing to celebrate Christmas, Rimuru decides to help out.",
                 evoawk: "A slime reincarnated into another world. While Rayas and the others were getting ready for Christmas, a serious crisis caused them to lose most of the food they had prepared, Rimuru, with friends, will use their abilities and wisdom to make the Christmas celebrations everyone is looking forward to."
+            },
+        review:
+            {
+                skill: `A marginally useful skill which utility is hampered by its rotating nature. The CT has been shortened by 3s, enabling somewhat faster rotation.`,
+                arts: `Great utility, teamwide artgen which now has been buffed to 25 arts, along with a 30% dmg res buff against giant bosses. Because it is conditional to the enemy being a giant boss (which includes over 70% of bosses, including all raids and mines bosses), it stacks with other dmg res buffs.`,
+                truearts: `Sizable teamwide dmg buffs (especially for magic units). The multiplier itself, while buffed, is nothing to get too excited by 2023 standards, but the buffs themselves help increase Santa Rimuru’s damage output.`,
+                ability1: `Somewhat useful ability, especially with a 5 star support slot.`,
+                ability2: `Another ability that increases Santa Rimuru’s damage output against the vast majority of bosses in the game.`,
+                ability3: `More passive dmg buffing abilities, this time increasing dmg for water and demon units.`,
+                trueweapon: {
+                    skill: ``,
+                    ability1: ``,
+                    ability2: ``
+                },
+                overall: `Santa Rimuru was already one of the best magic nuke supports, as well as a solid sustain unit against giant bosses. His buffs strengthen slightly his own damage output with higher multipliers, but the most relevant buff overall is his NA artgen that increases to 25 teamwide arts, which will improve his role in sustain. `,
+                lastupdated: `January 24, 2023`,
+                author: `Zanster`
             }
     },
     { //Santa Milim - Complete
@@ -23352,6 +23369,23 @@ const UnitInformation = [
             {   
                 evo5: "One of the oldest Demon Lords. Having once visited Raktehelm with Rimuru before, she demanded to go back and eat Reigrad's cuisine again. Rimuru decided it was better to satisfy her cravings that have her pitch one of her dangerous tantrums.",
                 evoawk: "One of the oldest Demon Lords. When trouble arose as Reigrad was preparing for Christmas, she was enraged at the thought of losing her chance to taste their seasonal dishes. It was a struggle for Rimuru and the others to keep her from destroying the entire city."
+            },
+        review:
+            {
+                skill: `Self sufficient artgen is always appreciated. While the 10% status for 10 is a nice bonus.`,
+                arts: `A nice fire resistance down with a decent multiplier and uptime, which might find uses for fire nuking, or to burst a boss with a fire dps.`,
+                truearts: `With a decent multiplier, and a teamwide crit rate up of 100% Santa Milim is able to do some decent damage. The 30 total art is small, but artgen is appreciated as always.`,
+                ability1: `A huge damage buff, if the boss doesn’t negate Crit, which increases Santa Milim damage output.`,
+                ability2: `A little bonus to increase the damage output of Santa Milim furthermore.`,
+                ability3: `A good buff to Santa Milim’s Fire resistance debuff duration on NA, which is increased by 7,5s and her True Art duration to 15s which make her total arts being 45 tied to keeping her above 50% HP which shouldn’t be too hard.`,
+                trueweapon: {
+                    skill: ``,
+                    ability1: ``,
+                    ability2: ``
+                },
+                overall: `Santa Milim is overall a decent unit, which can provide some nuke support with her 30% Fire Resistance down, or the increase of 100% Crit Rate up on TA. However, for nuking her slots hold hers back. As for general use, with the buffs Santa Milim becomes a more reliable unit to rely on to increase your team's artgen especially for newer players. For veterans, where the box is more developed they won't find much use out of her, as they have better options to use over.`,
+                lastupdated: `January 24, 2023`,
+                author: `Zanster`
             }
     },
     { //Santa Shion - Complete
@@ -23418,7 +23452,25 @@ const UnitInformation = [
             {   
                 evo5: "A Kijin that serves Rimuru as his secretary and bodyguard. Though she did not join him on his last visit to Reigrad, she decided to accompany him on his return trip. She took a keen interest in the Christmas preparations and joined Benimaru in preventing as much loss to their food supply as possible.",
                 evoawk: "A Kijin that serves Rimuru as his secretary and bodyguard. For the sake of Reigrad who lost a great deal of their food supply to beasts, she fought alongside her allies. Just like Benimaru, she is a powerful presence in battle."
-            }
+            },
+        review:
+        {
+            skill: `Not much to say about this, it has a good multiplier and the increase to BE generation on skill is nice to have.`,
+            arts: `Nothing too special about this, a sizable increase to skill CT recovery is a nice addition. You would only use this over Shion's true art to get her ramped quicker.`,
+            truearts: `This is where Shion really shines. With a large DMG multiplier allowing her to deal impressive damage. As well as boasting a substantial, albeit, niche accuracy increase to herself.
+            `,
+            ability1: `Pretty straight forward, isn't anything special just a nice addition.`,
+            ability2: `An infamous near death passive, this will rarely activate and even if it does it won't change much.`,
+            ability3: `This is where Shion's kit gets good. Being able to ramp up and get a large increase to her ATK and DMG up to 200% each.`,
+            trueweapon: {
+                skill: ``,
+                ability1: ``,
+                ability2: ``
+            },
+            overall: `Shion is a selfish dps who needs a lot of support in order to function since she lacking any form of self sufficency. Although her multipliers make her look like the top tier DPS option, which she can be, the lack of innate crit or defense ignore hurts almost as much as her nonexistant self sufficency. In terms of damage, at max stacks Santa Shion is only beaten by Erza which is by no means something to be ashamed about.`,
+            lastupdated: `January 24, 2023`,
+            author: `Zanster`
+        }
     },
     { //New Years Rimuru - Complete
         id: 107426512,
@@ -23483,7 +23535,26 @@ const UnitInformation = [
             {   
                 evo5: "A slime reincarnated into another world. Learning that Reigrad was still low on food after the Christmas celebration, he decided to help replenish their supplies. He used the full extent of his intelligence to help solve the mountain of problems from increasing crop growth to finding other sources of meat.",
                 evoawk: "A slime reincarnated into another world. He contributed his know-how to Rayas' group and helped gather enough food to celebrate New Year's. Everyone was in awe as he demonstrated the leadership and skillfulness that let him build a country from the ground up in his home land."
-            }
+            },
+        review:
+        {
+            skill: `Given NYRim's 100% crit rate out of status ailment, this is a free 50 arts fairly frequently what with the pretty short cooldown.
+            `,
+            arts: `While the buff won't be too noticible, this is still a decent pseudo heal for those cases when you need to top up on hp or cannot use healing over time.`,
+            truearts: `A very strong and long lasting stackable buff paired with a decent multiplier allows NYRim to function very well as a DPS on his own while also being able to provide ample damage support for the rest of the team.`,
+            ability1: `A nice DPS buff to help NYRim's personal damage and let him hit harder than he already does.`,
+            ability2: `While his lore does give this ability a bit more context, it's still rather odd. But a little extra survivability is always appreciated.`,
+            ability3: `This ability is part of what makes NYRim such a good DPS, and while the status ailment restriction might hinder him against bosses who like to apply a lot of status, this can usually be remidied with a taunt or cleansing equipment.
+            `,
+            trueweapon: {
+                skill: ``,
+                ability1: ``,
+                ability2: ``
+            },
+            overall: `Unlike Vox, NYRim is comperable to some of our less cracked-out-of-their-mind but still good modern DPS options what with his artsgen and damage self sufficiencies and no need to activate Magia Drive. In addition to this, assuming everything isn't dead already, he can also maintain at least 2-3 stacks of his damage buff for the whole team as long as he has a good supply of arts and no statuses. This paired with his good slots and decent pseudo heal for when you need it, this makes NYRim a great option for pure damage support, and even a slot mule / support for nuking if one wants. And no, he by no means makes Vox useless.`,
+            lastupdated: `February 2, 2023`,
+            author: `Pula`
+        }
     },
     { //New Years Milim - Complete, Review Complete
         id: 107436412,
