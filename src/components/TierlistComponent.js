@@ -37,7 +37,7 @@ export default function Tierlist() {
                             className={classNames({ active: currentTab === '1' })}
                             onClick={() => { toggle('1') }}
                             >
-                            All Units
+                            General Units
                         </NavLink>
                     </NavItem>
                     <NavItem>
@@ -91,6 +91,8 @@ function DisplayHeader(){
                                 <p><center>This is simply meant to show the general analysis of each unit. </center></p>
                                 <p><center>Rankings were determined by players from the Grand Summoners <a href="https://discord.gg/grandsummoners">Official Discord</a> Server Staff.</center></p>
                                 <p><center>Be aware that the Rankings are based on their <b>most optimized</b> scenarios.</center></p>
+                                <p><center><b>NOTE: </b>The "General Unit's" tab does not include all Luck units. Only impactful Luck units will be displayed.</center></p>
+                                <p><center>The Luck Unit's tab will show all available (farmable) Luck Units.</center></p>
                             </CardBody>
                         </Card>
                 </CardBody>
