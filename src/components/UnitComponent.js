@@ -70,7 +70,9 @@ function UnitHome() {
                     <TabPane tabId="2">
                         <RenderStats unitName={units.name} unitStats={units.stats} 
                                                     unitAtt={units.attribute} unitType={units.type} unitSkill={units.skillset} 
-                                                    unitPassive={units.passive} unitSlots={units.slots} unitImage={units.image}/>
+                                                    unitPassive={units.passive} unitSlots={units.slots} unitImage={units.image}
+                                                    unitReview={units.review}
+                                                    />
                     </TabPane>
                     <TabPane tabId="3">
                         <RenderTrue unitTrue={units} />
