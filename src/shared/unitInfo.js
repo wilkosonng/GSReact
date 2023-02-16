@@ -19879,6 +19879,66 @@ const UnitInformation = [
             {   
                 evo5: "A soldier of the Bamint Principality. Formerly affiliated with the Rose Garden Knights, Mira reassigned her to the general affairs bureau where she now oversees everything from budgeting to large-scale construction projects. As competent as she is, her solicitous nature causes her to shoulder too many tasks. She claims playing the guitar is a mere hobby, but it ends up taking most of her free time since she relieves stress that way. Just the thought of laying down sweet licks with her trusty Soaring Z sustains her through the daily grind.",
                 evoawk: "A Bamint military officer and aspiring guitarist. Personal lessons from underground rock legend Kane has seen her talent improve by leaps and bounds. Her performances are more emotional than technical, but they have an undeniable groove that even leaves her tutor gobsmacked at times. She respect their student-teacher relationship, but that has not cooled her desire to challenge him to a head-to-head guitar duel one day."
+            },
+        review:
+            {
+                skill: `Nothing too special about this, helps her get stacks up faster but otherwise is too inconsistent to be used reliably.`,
+                arts: `Decent uptime and res down effects for a Normal Art, helping boost her damage and on True Art and paralysis chance if the boss has any res to it.`,
+                truearts: `With a high multiplier, guaranteed paralyze chance if the boss doesn't have any res, and crit rate she's a solid DPS and the best paralyze option without question.`,
+                ability1: `A very powerful passive capable boosting light allies dmg by up to 200%. It's especially strong given the current state of light units being top tier. Although being locked behind landing up to 10 paralyzes, for content where cosmo will be used such as mines, this conditional effect is negligible.`,
+                ability2: `Well, it's something. Never know when it might be helpful.`,
+                ability3: `Minor Crit DMG boost just helps out her True Arts damage a bit.`,
+                trueweapon: {
+                    skill: `While it's active effect isn't the main reason you'd want to run her TW, the 50% light dmg and skill CT up are a nice boost although it's uptime is rather low does hurt quite a bit.`,
+                    ability1: `This is the main reason you'd run her TW, the passive 3aps greatly helps her self sufficiency since she doesn't have any other self artgen in her kit. The 30% dmg up is just another solid boost.`,
+                    ability2: `A little bit of bonus physical res never hurt.`
+                },
+                overall: `Cosmo's Viability can be described in a flow chart, do you need to paralyze? Yes, she's cracked. No, She's still a solid DPS. With Cosmo's only real competition for best paralyze option being Norn and Elfalla, she blows them both out the water in both consistency and damage. Although her lack of self sufficiency does hurt a bit, the 3 aps she gets from her TW helps. However, what helps her the most is the surplus of amazing light units to pair up with to make the most of her passive dmg up per paralyze.`,
+                lastupdated: `December 31, 2022`,
+                author: `Zanster`
+            },
+        equiprec:
+            {
+                slot1: 
+                {
+                    new: 
+                    [
+                        `True "Soaring Z" [Cosmo True Weapon]`,
+                        `Magical Hat "Akashic Eye” [Freedom Fighters Pt2 Side Story Farmable]`
+                    ],
+                    optimal:
+                    [
+                        `True "Soaring Z"`,
+                        `True "Exceed Zechs" [Dark Zeorg True Weapon]`,
+                        `Dark Blade "Exceed Zechs" [Dark Zeorg Event Farmable]`,
+                        `Magical Hat "Akashic Eye” [Freedom Fighters Pt2 Side Story Farmable]`
+                    ]
+                },
+                slot2:
+                {
+                    new:
+                    [
+                        `Same as above`
+                    ],
+                    optimal:
+                    [
+                        `Same as above`
+                    ]
+                },
+                slot3:
+                {
+                    new:
+                    [
+                        `Magical Sword “Siegel” [Freedom Fighters: "Last Wishes Passed to the Future" (Grohl & Onfuan) Side Story Farmable]`,
+                        `Armor “Dragon Scale” [“The Dragon General’s Sword” (Rohst) Trial Event Farmable]`
+                    ],
+                    optimal:
+                    [
+                        `Rem’s Sexy Lace Bikini [Summer Equipment Banner]`,
+                        `Magical Sword “Siegel”`,
+                        `Benimaru’s Clothes” [TenSura Equipment Banner]`
+                    ]
+                }
             }
     },
     { // Kirisame - Missing Lore
