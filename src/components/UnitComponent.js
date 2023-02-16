@@ -75,7 +75,7 @@ function UnitHome() {
                                                     />
                     </TabPane>
                     <TabPane tabId="3">
-                        <RenderTrue unitTrue={units} />
+                        <RenderTrue unitTrue={units} trueReview={units.review} />
                     </TabPane>
                 </TabContent>
             </CardBody>

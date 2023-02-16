@@ -1,6 +1,7 @@
 import { Container, Row, Badge, Media, NavItem, NavLink, Nav, TabContent, TabPane, List } from 'reactstrap';
 import React, { useState } from 'react';
 import classnames from 'classnames';
+import UnitReviews from './ReviewComponent';
 
 const imageSize ={
     width: "100%",
@@ -15,7 +16,7 @@ const thumbnailSize = {
     width: "100%"
 };
 
-export function RenderTrue({unitTrue}) {
+export function RenderTrue({unitTrue, trueReview = false}) {
     //Hook for Tab State
     const [currentTab, setCurrentTab] = useState('1');
 
@@ -84,7 +85,7 @@ export function RenderTrue({unitTrue}) {
                         : 
                         <>
                             <RenderAll detail={tw.detail} slot={tw.slot} name={tw.name} 
-                                skill={tw.skill} skillbreak={tw.skillbreak} passive={tw.passive} />
+                                skill={tw.skill} skillbreak={tw.skillbreak} passive={tw.passive} trueReview={trueReview.trueweapon} />
                         </>
                     }
                     
@@ -97,13 +98,22 @@ export function RenderTrue({unitTrue}) {
     
 }
 
-const RenderAll = ({ detail, slot, name, skill, skillbreak, passive }) => {
+const RenderAll = ({ detail, slot, name, skill, skillbreak, passive, trueReview = false }) => {
+    //Review Button Toggle
+    const [review, setReview] = useState(false)
+
     return (
         <center>
             <RenderImage detail={detail} />
             <RenderName name={name} slot={slot} />
-            <RenderSkill skillbreak={skillbreak} skill={skill} />
-            <RenderPassive passive={passive} />
+            {trueReview &&
+                <button onClick={() => setReview(!review)} style={{marginTop: ".3rem", marginBottom: ".3rem"}}>
+                    { review ?  <>Hide Review</>  : <>Show Review</>}
+                
+                </button> 
+            }
+            <RenderSkill skillbreak={skillbreak} skill={skill} review={trueReview} isReview={review} />
+            <RenderPassive passive={passive} review={trueReview} isReview={review} />
         </center>
     )
 }
@@ -123,24 +133,51 @@ const RenderName = ({ slot, name }) => {
     )
 }
 
-const RenderSkill = ({ skill, skillbreak }) => {
+const RenderSkill = ({ skill, skillbreak, review, isReview }) => {
     return (
         <Row>
             <h3><strong>SKILL</strong></h3>
             <center><p><Badge color="primary">BREAK {skillbreak}</Badge> {skill} </p></center>
+            { 
+                isReview && review.skill && <UnitReviews review={review.skill} />
+            }
         </Row>
     )
 }
 
-const RenderPassive = ({ passive }) => {
+const RenderPassive = ({ passive, review, isReview }) => {
     return (
         <Row>
             <h3><strong>PASSIVE</strong></h3>
             <List type="unstyled">
                 <li>{passive.ability1}</li>
-                { passive.ability2 ? <li>{passive.ability2}</li> : null }
-                { passive.ability3 ? <li>{passive.ability3}</li> : null }
-                { passive.ability4 ? <li>{passive.ability4}</li> : null }
+                { 
+                    isReview && review && <UnitReviews review={review.ability1} />
+                }
+                { passive.ability2 && 
+                    <>
+                        <li>{passive.ability2}</li> 
+                        { 
+                            isReview && review && <UnitReviews review={review.ability2} />
+                        }
+                    </>
+                }
+                { passive.ability3 && 
+                    <>
+                        <li>{passive.ability3}</li> 
+                        { 
+                            isReview && review && <UnitReviews review={review.ability3} />
+                        }
+                    </>
+                }
+                { passive.ability4 && 
+                    <>
+                        <li>{passive.ability4}</li> 
+                        { 
+                            isReview && review && <UnitReviews review={review.ability4} />
+                        }
+                    </>
+                }
             </List>
         </Row>
     )
