@@ -8807,6 +8807,1697 @@ const EquipInformation = [
                 ability1: `Increases Paralyze Time Reduction by 10%. Increases Paralyze Evasion Rate by 10%.`
             },
         lore: `The battle support device that the mecha doll used. As the name tells, it moved freely in the battlefields like a horse and supported its owner. It is possible to set it to move based on rules or to make it move depending on the current situation. In past wars, Machine used this device and by itself, its work equaled up to a hundred people.`
+    },
+    { //X Marks the Spot - Complete
+        id: 103551,
+        name: `X Marks the Spot`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103550.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103551.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103550.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103551.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `180s CT - 9999% Non-Elemental DMG (Magic). Increases all allies' BE Output & CRI rate by 50% for 5s`,
+                break: 999
+            },
+        passive: 
+            {
+                ability1: `Own stats 10% UP (Only once).`
+            },
+        lore: `This is when Rolly and Ru, which Rayas met during his journey, unleash their true powers. Both do not have high battle skills, but through their magical powers and cooperation have improved. Originally, Fairies and Spirits have enormous powers, and these two cute buddies are not an exception. Their powers should become massive through their adventures.`
+    },
+    { //Help me Rolly! - Complete
+        id: 103561,
+        name: `Help me Rolly!`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103560.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103561.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103560.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103561.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `15s CT - 2200% Light DMG (Physical). 5% Chance of Fainting enemy.`,
+                break: 300
+            },
+        passive: 
+            {
+                ability1: `BE Output from Equipment 10% UP (Only once).`
+            },
+        lore: `The Fairy that Iris, a girl who lost her memories, had encountered and saved. Although he looks similar to Kyuons, his fur and other aspects make him a different race, or maybe a new species. But no one knows the truth yet... His intelligence is extremely high and rumors are it might be the same as the adventurer Rayas. His battle abilities are not that high, but a Fairy as he is, his tackle with full speed hurts a lot.`
+    },
+    { //Show 'em Ru - Complete
+        id: 103571,
+        name: `Show 'em Ru`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103570.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103571.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103570.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103571.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 100% Earth DMG (Magic). 60% chance of Paralyzing Enemy.`,
+                break: 100
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A young Spirit of the Paw People. He says that he was saved by Fen, the Head of General Staff in Gramenia, but Fen says he didn't. Ru has his own way and is a curious fellow so that might be the reason he gets along with Gen in some ways. His battle abilities are not so high, but Fen has a high opinion on him due to his quick moves and using his small body to do spying that Humans cannot do.`
+    },
+    { //Rolly Plush - Complete
+        id: 103581,
+        name: `Rolly Plush`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103580.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103581.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103580.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103581.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `70s CT - Heals all Allies' HP by 1000. If User is Light Elemental then Heals all Allies' HP by 30 for 10s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increases Skill CT Speed and HP Recovery amount by 10% (excludes absorbed ATK) (only once).`
+            },
+        lore: `The plush toy of Rolly which Iris, a girl who lost her memories, has in her room. She asked the blacksmith in her town to make this. If you look at it from a far distance, it looks just like the real Rolly. By the way, when Rolly saw this toy for his first time, he tackled it full of hostility. However, the moment he was told that it was a toy, he left the room quite embarrassed.`
+    },
+    { //Poison Spear 'Goroncharge' - Missing .....
+        id: 103591,
+        name: `Poison Spear 'Goroncharge'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103590.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103591.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103590.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103591.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //True 'Day Break' - Complete
+        id: 103601,
+        name: `True 'Day Break'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103600.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103601.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103600.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103601.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `55s CT - 6500% Fire DMG (Physical). Increases own Arts Gauge by 80 when near-death.`,
+                break: 1000
+            },
+        passive: 
+            {
+                ability1: `When Equipped by Ragna, increases own DMG by 20% and negates all Status Ailments except Faint.`,
+                ability2: `Increases DMG to Demons by 50%.`
+            },
+        lore: `This is the true form of the beloved sword of Ragna, a knight who offered his life for Humans despite being a God himself. This blade, tempered by the Gods, possesses an unbelievable edge, and its power unleashes blazing flames. However, this blade was more than a mere weapon to Ragna. For it held true to its name, offering hope no matter how desperate the situation became. No matter how dark the night, daybreak would come and light the way.`
+    },
+    { //Melia's Sorceress' Hat - Complete
+        id: 103611,
+        name: `Melia's Sorceress' Hat`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103610.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103611.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103610.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103611.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 60
+            },
+        skillset:  
+            {
+                skill: `60s CT - Negates 500 DMG Dealt to Target for 10s. Reduces Target's Fire Elemental DMG Taken by 30% for 10s (only once).`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `This is the Reigrad Autumn Festival costume hat chosen by Melia, intelligence officer and commander of the 3rd Magus Division of the Empire of La Riiz. The sight of her in her so-called witch's hat brings a wry grin to the face of the male soldiers around her. Her friends the intellectual and the knight-commander sarcastically commented "Oh, a witch... How out of character." Yet the Guildmaster and the Smith got chills down their spines. Only the Adventurer laughed and said, "That's perfect for you!" Which earned him an hour long lecture on exactly what she thought of that!`
+    },
+    { //Melia's Enchantment - Complete
+        id: 103621,
+        name: `Melia's Enchantment`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103620.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103621.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103620.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103621.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 5000% Dark DMG (Magic). Reduces all allies' Skill CT by 30% & Equipment CT by 20% for 8s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `This is the Autumn Festival costume of Melia, the Blue-eyed Black Fox. With it's adult appeal and scent of danger, it has the men of the town saying "Trick, please!" when she goes walking past. Her male comrades look on from a safe distance, while the young noblewoman casts sidelong jealous glances at the satisfied looking Blue-eyed Black Fox. She deliberately takes the adventurer's arm and says, with a grin, "Oh, a witch and a vampire do make a wonderful couple!"`
+    },
+    { //Melia's Broomstick - Complete
+        id: 103631,
+        name: `Melia's Broomstick`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103630.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103631.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103630.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103631.png`
+            },
+        stats:
+            {
+                hp: 60,
+                atk: 30,
+                def: 30
+            },
+        skillset:  
+            {
+                skill: `50s CT - Increases Target's DMG Inflicted by 20% and Break Power by 10% for 20s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `This is a little something Melia prepared for her Autumn Festival with her costume. Every witch needs a broom, and Melia loved swooping in with a cry of "Here's your witch girl Melia!" The mysterious girl, the priestess and the adventurer all yell for a flyover. The chef, though, just goes red with anger and yells about how her skirt is too short to go flying around over everyone's head. But the other members just look on and mutters "Can't fathom calling yourself a 'witch girl' at that age..." over his drink.`
+    },
+    { //Nurse-Liese' Cap - Complete
+        id: 103641,
+        name: `Nurse-Liese' Cap`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103640.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103641.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103640.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103641.png`
+            },
+        stats:
+            {
+                hp: 120,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - Heals all Allies' HP by 90/s for 7s. Completely evades Blind and Curse for all Allies for 7s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `This is Priestess Liese' costume hat for the Reigrad Autumn Festival. But she had a real struggle in front of the mirror. A nurse must keep her hair tightly bound and covered with a hat for hygienic reasons. Since she almost never does her hair up, she just couldn't get it right. All the grown-ups told her she should not get so stressed over a costume, but her obstinate nature took over and wouldn't let it rest.`
+    },
+    { //Nurse-Liese' Gown - Complete
+        id: 103651,
+        name: `Nurse-Liese' Gown`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103650.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103651.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103650.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103651.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `300s CT - Revives all Allies with 25% HP. If User is Light Elemental then Healing x 2.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `When all the adults heard that the Priestess Liese would be dressing up with Iris' help, they all felt a chill. The Chef gave her a serious talking-to, making sure she picked something fitting to avoid a repeat of the summer swimsuit fiasco. And with her help, the holy woman settled on a very appropriate nurse's uniform. And yet, even this outfit clearly had its allure for some. Ever since this day, more than a few call her Angel instead of Priestess.`
+    },
+    { //Liese' Medicine Time - Complete
+        id: 103661,
+        name: `Liese' Medicine Time`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103660.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103661.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103660.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103661.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `70s CT - 100% Non-Elemental DMG (Magic).`,
+                break: 8000
+            },
+        passive: 
+            {
+                ability1: `Increases Unit's Equipment CT Speed by 5%.`
+            },
+        lore: `This is a syringe to go with the Priestess Liese' Reigrad Autumn Festival costume. Seeing her in her nurse's costume gave her a different kind of divine aura, and drew those suffering unusual pangs to flock to the shrine. The adults watched on, charmed as she did her best to play nurse for all who came by. However, the mood took a dark turn when she picked up her syringe. It was filled with a sparkling, obviously magical fluid. And sitting across from her was the oblivious adventurer...`
+    },
+    { //Iris' Bunny Ears - Complete
+        id: 103671,
+        name: `Iris' Bunny Ears`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103670.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103671.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103670.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103671.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 60,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `10s CT - 1500% Light DMG (Magic).`,
+                break: 300
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `These are the bunny ears to go along with Iris' Autumn Festival costume. Apparently, she'd fallen in love at first sight, and according to her shopping partner Chef, she'd thrown a rare tantrum to get her way. When she wore the whole costume, she was the very image of a bunny rabbit, yet the dress itself is so revealing all the adults cannot help but worry. But surely the innocent young thing will be safe with her large, shaven-headed bodyguard behind her.`
+    },
+    { //Iris' Bunny Dress - Complete
+        id: 103681,
+        name: `Iris' Bunny Dress`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103680.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103681.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103680.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103681.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `50s CT - Reduces all Allies' DMG Taken by 50% for 5s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `This is Iris' costume dress for the Autumn Festival. The noblewoman had strongly recommended something cute, but she could say nothing when Iris smiled widely and exclaimed: "This is the cutest costume ever!" Every flutter of the short skirt strikes fear into the hearts of the older women. Iris, blissfully unaware of this, goes hopping around and asks the adventurer what he thinks, at which point the ladies fix him with piercing glares, daring him not to screw up.`
+    },
+    { //Count Rayas' Cape - Complete
+        id: 103691,
+        name: `Count Rayas' Cape`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103690.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103691.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103690.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103691.png`
+            },
+        stats:
+            {
+                hp: 60,
+                atk: 30,
+                def: 30
+            },
+        skillset:  
+            {
+                skill: `30s CT - Increases Target's Skill CT Speed by 70% and ignores enemies' DEF by 30% for 6s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `This is the cape for Rayas' Autumn Festival costume. He is going for a vampire theme, and he takes on an air of insufferable self-satisfaction with his fake fangs and overblown aristocratic dress. The noblewoman, who knows a thing or two about aristocracy, is hard put to suppress her smile and finds the pathetic display hard to take. Just when she's about to say something, his old friends lets our a huge sigh, "The only thing he knows about the nobility is what he learned in kids' picture books..."`
+    },
+    { //Count Rayas' Rapier - Complete
+        id: 103701,
+        name: `Count Rayas' Rapier`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103700.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103701.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103700.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103701.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - 5500% Light DMG (Physical). Increases all allies' ATK by 50% for 8s.`,
+                break: 3000
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `This a sword Rayas plans to carry for Reigrad's Autumn Festival. He has been putting in his fangs, tying on his cape and practicing his poses nonstop! It is not clear where he is going to be showing it off, but he is so intense he does not notice that everyone other than Iris is totally turned off. The noblewoman finally couldn't take it anymore and was about to say something, but his old friend stopped her, saying "This is hilarious, let him go!"`
+    },
+    { //Jack-O-Penst - Complete
+        id: 103711,
+        name: `Jack-O-Penst`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103710.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103711.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103710.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103711.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `70s CT - 7000% Dark DMG (Physical). 100% chance of Blinding enemy.`,
+                break: 1000
+            },
+        passive: 
+            {
+                ability1: `Arts DMG 10% UP (Only once).`
+            },
+        lore: `This is the evil sword wielded by the Ragsherum Phantom in his twisted form of Jack-O-Sherum. This sword has a pumpkin pattern just like the Jack-O-Sherum's head, and though its a fearful Demonic weapon, it's also kind of cute. Yet it is imbued with deep hatred and dark Demonic magic, so it should never be used without the greatest care.`
+    },
+    { //Jack-O-Sherum - Complete
+        id: 103721,
+        name: `Jack-O-Sherum`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103720.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103721.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103720.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103721.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `90s CT - 6666% Dark DMG (Physical). Ignores enemy's DEF by 50% for 6s.`,
+                break: 700
+            },
+        passive: 
+            {
+                ability1: `Auto-fills Arts gauge by 2 when Near-Death.`
+            },
+        lore: `This is the armor of Jack-O-Sherum, created when the Ragsherum Phantom somehow became fused with a pumpkin. The helm has a pumpkin design, just like Jack-O-Sherum's head. It appears as if it was created with Ragsherum fused with a mysterious pumpkin spirit, but no one knows for sure. The only thing we know is that the power sleeping within this Demon Armor is every bit as great as the original.`
+    },
+    { //Jack-O-Shaft - Complete
+        id: 103731,
+        name: `Jack-O-Shaft`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103730.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103731.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103730.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103731.png`
+            },
+        stats:
+            {
+                hp: 60,
+                atk: 30,
+                def: 30
+            },
+        skillset:  
+            {
+                skill: `40s CT - Increases all Allies' Arts Gauge by 20. Reduces all Allies' HP recovery amount by 30% for 10s (except lifesteal).`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increases all Allies' DMG to Light Elemental Units by 5% (only once).`
+            },
+        lore: `These are the gauntlets of Jack-O-Sherum, a twisted version of Ragsherum Phantom that appeared here. The elbow sections have large round pumpkin decorations. These are intended to protect both hands, but actually wearing them on the battlefield might require another kind of courage... Naturally, they are quite effective as a defensive armor, but not quite often enough to keep you safe from that kind of hellfire.`
+    },
+    { //Furious Ru - Complete
+        id: 103741,
+        name: `Furious Ru`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103740.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103741.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103740.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103741.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - 8500% Earth DMG (Physical). If enemy is of Water element, increases own CRI rate by 50% for 5s.`,
+                break: 3000
+            },
+        passive: 
+            {
+                ability1: `DMG 10% UP & DMG from enemy 10% DOWN when Near-Death (Only once).`
+            },
+        lore: `This is when Ru, the young Spirit of the Paw People, is in deep fury. Usually he controls his magical powers, but once they are unleashed, he uses strong attacks which no one can imagine. Although he is a naughty boy, he is pretty calm. Thus it is scarce for him to show his anger. Once something has happened to the ones he loves, he will show this form.`
+    },
+    { //Shadow Blades 'Euthanasia' - Complete
+        id: 103751,
+        name: `Shadow Blades 'Euthanasia'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103750.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103751.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103750.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103751.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `40s CT - 1111% Earth Physical DMG. If user is Earth, increases all allies' Arts gauge by 5 for 5s.`,
+                break: 100
+            },
+        passive: 
+            {
+                ability1: `DMG 15% UP & Auto-fills Arts gauge when Boss' HP is under 30% (Only once).`
+            },
+        lore: `The greater the magical power of the user, the more of these throwing knives there are. It has been many years since anyone could use them well, so they lay dormant in the republic treasury until the young Fen found them and mastered them in a matter of days, thus laying claim to their power for himself. Yet watching him using these difficult weapons so self assuredly left no one able to deny his egotistical nature.`
+    },
+    { //Relic 'Goron Knuckle' - Missing .....
+        id: 103761,
+        name: `Relic 'Goron Knuckle'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103760.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103761.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103760.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103761.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increases all Allies' ATK by 15% (only once).`
+            },
+        lore: ``
+    },
+    { //Relic 'Dola Armor' - Complete
+        id: 103771,
+        name: `Relic 'Dola Armor'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103770.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103771.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103770.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103771.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 120
+            },
+        skillset:  
+            {
+                skill: `30s CT - Negates 400 DMG Dealt to all Allies' for 8s. Reduces all Allies' Water Elemental DMG Taken by 35% for 8s (only once).`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increases all Allies' ATK by 15% (only once).`
+            },
+        lore: `This armor was woven from the bark fibers of the Botanical Beast, Gorondola and sections carved from whole roots. It's something any competent armorer could whip up once they knew where to find the materials, but this armor fell into the hands of an eccentric curio collector. It is top class in terms of power, but any who wear it develop an odd fascination with trinkets. Before they know it, they're walking around with a team of underlings like some kind of gang capo.`
+    },
+    { //True 'Efkeria' - Complete
+        id: 103781,
+        name: `True 'Efkeria'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103780.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103781.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103780.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103781.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `35s CT - 5000% Earth DMG (Physical). Heals own HP by 260 & increases own Arts gauge by 20 for each enemy hit.`,
+                break: 1500
+            },
+        passive: 
+            {
+                ability1: `When equipped by Fen (Earth), DMG 20% UP & Evasion rate 15% UP when Near-Death (Only once).`,
+                ability2: `Own DMG 15% UP when enemy's HP is under 50% (Only once).`
+            },
+        lore: `The magical short sword that has been passed on within the Paw People. It is also the favorite sword of Fen, the strategist of Gramenia Republic, which he keeps using despite his promotion. He says that there isn't anything better that suits him. However, it seems that the true reason is because he is aware of the divine protection of it. The powers of the sword are unleashed when Fen feels the trust and feelings of his "friends." Every time he might be thinking about his rare species friend.`
+    },
+    { //Divine Sword 'Justicia' - Missing .....
+        id: 103791,
+        name: `Divine Sword 'Justicia'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103790.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103791.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103790.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103791.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //Divine Shield 'Castillo' - Complete
+        id: 103801,
+        name: `Divine Shield 'Castillo'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103800.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103801.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103800.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103801.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `50s CT - Negates 800 DMG Dealt to all Allies' for 10s (only once). All Allies' evade Burning effect for 10s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increases DEF by 20% when unit is Negating DMG.`
+            },
+        lore: `This was the shield borne by Gaia, Shining God Warrior and one of the Divine Knights, early in the Ancient War. It turned his water elemental divine protection into powerful defense. Shield usually protect only the bearer, but in his hands this shield creates a wall of water to defend his comrades as well. Each time, it puts him under great spiritual strain, yet he never hesitated to use it, and thus saved the lives of many comrades.`
+    },
+    { //Divine Ornament 'Amlethal' - Complete
+        id: 103811,
+        name: `Divine Ornament 'Amlethal'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103810.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103811.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103810.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103811.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 120
+            },
+        skillset:  
+            {
+                skill: `40s CT - Reduces all Allies' Fire Elemental DMG Taken by 15% for 10s. Heals all Allies' HP by 20/s for 10s. If User is Water Elemental then Healing x 1.5.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increases DEF by 10% when unit is negating DMG.`
+            },
+        lore: `This ring bound Shining God Warrior Gaia's long hair. As bearer of the blessing of water, he kept his hair uncut to serve as a reservoir for magical power. It grew down to his knees, and to keep it from interfering in battle he bound it into one long tail. This item is inscribed with prayers and loyalty oaths, and when worn on the hair it amplifies magical power to create a boundary of water around the wearer.`
+    },
+    { //Kaiju Gem - Complete
+        id: 103821,
+        name: `Kaiju Gem`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103820.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103821.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103820.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103821.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 60,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `100s CT - 4500% Non-Elemental DMG (Physical). Increases all allies' Physical DMG by 20% for 30s.`,
+                break: 600
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A unique summoning stone discovered in the ruins where Godzilla appeared. It calls that massive Kaiju, a creature far superior to God Beasts and Demon Beasts. However, not even the most skilled Summoner can control it, meaning they might also be on the receiving end of its powerful heat blasts. Confronting this deity of destruction will only result in destruction.`
+    },
+    { //Godzilla Earth - Complete
+        id: 103831,
+        name: `Godzilla Earth`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103830.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103831.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103830.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103831.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `100s CT - 12000% Non-Elemental DMG (Physical). Increases all allies Physical DMG by 50% for 30s.`,
+                break: 1000
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Summons Godzilla, who cannot be stopped until it has destroyed everything in sight. To support its ponderous bulk, Godzilla's body is composed of muscle similar to metal. This not only makes it impervious to blades and projectiles, it can generate electromagnetic fields at will. Anyone who stands before such might can only realize their own powerlessness and retreat in order to survive.`
+    },
+    { //Induction Rifle - Complete
+        id: 103841,
+        name: `Induction Rifle`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103840.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103841.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103840.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103841.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `5s CT - 1700% Non-Elemental DMG (Magic). 30% chance of reducing enemy's DEF by 10% for 10s.`,
+                break: 300
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A rifle more powerful than any found in Raktehelm. Since it is made from a material that does not exist in this world, it cannot be reproduced. It fires bullets with superconductivity, letting them pierce through almost anything. Though its original owner is unknown, the bloodstains speak of a deadly battle against an unimaginably powerful foe.`
+    },
+    { //Artillery Tank - Complete
+        id: 103851,
+        name: `Artillery Tank`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103850.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103851.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103850.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103851.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `70s CT - 5000% Non-Elemental DMG (Physical).`,
+                break: 4000
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A mobile Weapon that can smoothly travel over even the roughest terrain. Not made of any material native to Raktehelm, it was discovered near the ruins where the giant kaiju was summoned. It can carry several passangers at high speed, but it's true value lies in the twin barrels capable of leveling mountains.`
+    },
+    { //Elastomer Suit - Complete
+        id: 103861,
+        name: `Elastomer Suit`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103860.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103861.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103860.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103861.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 120
+            },
+        skillset:  
+            {
+                skill: `30s CT - Increases all allies' Poison, Paralysis & Disease resistance by 100% & reduces all allies' Magic DMG taken by 30% for 15s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `A full-body suit of resilient material found nowhere on Raktehelm. It does not tear even after prolonged exposure to harsh conditions and is easy to move in, making it indispensable for combat. However, one cannot help but imagine the brutal circumstances that required its invention.`
+    },
+    { //Induction Pistol - Missing .....
+        id: 103871,
+        name: `Induction Pistol`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103870.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103871.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103870.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103871.png`
+            },
+        stats:
+            {
+                hp: 60,
+                atk: 30,
+                def: 30
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //Relic 'Cylentium' - Missing .....
+        id: 103881,
+        name: `Relic 'Cylentium'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103880.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103881.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103880.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103881.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //Relic 'Lacus Aurora' - Complete
+        id: 103891,
+        name: `Relic 'Lacus Aurora'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103890.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103891.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103890.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103891.png`
+            },
+        stats:
+            {
+                hp: 30,
+                atk: 15,
+                def: 15
+            },
+        skillset:  
+            {
+                skill: `30s CT - 	Increases DMG Inflicted from Water Elemental Units to Fire Elemental Units by 20% and Skill CT Speed by 100% for 10s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increases Fire Elemental Resistance by 10% (only once).`
+            },
+        lore: `The boots of an adventurer who explored the ice lands the Frozen Dragon Auregraxes created before becoming a Relic. Being exposed to the magical powers left in the frozen ground, the boots were transformed into a curse charm that freezes the ground it touches. The boat she boarded home was caught in a storm and was wrecked. She was expected to die but had worn the boots. Upon touching the waves, her soles froze the water surface immediately, and she survived.`
+    },
+    { //True 'Geshpenst' - Complete
+        id: 103901,
+        name: `True 'Geshpenst'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103900.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103901.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103900.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103901.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 7200% Dark DMG (Physical).`,
+                break: 1600
+            },
+        passive: 
+            {
+                ability1: `When equipped by Ragsherum, DMG 20% UP & Skill CT 50% DOWN (Only once).`,
+                ability2: `All allies' ATK 15% UP (Only once).`
+            },
+        lore: `Ragsherum's trusted sword that never left his side when he tried to unseal the Demons in Gormarey. The sword cuts through its foes as if it has a mind of its own, soaking up any magical power from its victims to complete itself. Despite Ragsherum's passionate research, the "True" Geshpenst absorbed and perfected its master's moves without any intervention. Once reunited with its former master's armor, it will be an unstoppable force once again.`
+    },
+    { //Cursed Axe 'Hell Galgen' - Missing Lore & Passive
+        id: 103911,
+        name: `Cursed Axe 'Hell Galgen'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103910.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103911.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103910.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103911.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 6666% Dark DMG (Magic).`,
+                break: 600
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //Sacred Tome 'Truth of the Morning Star' - Complete
+        id: 103921,
+        name: `Sacred Tome 'Truth of the Morning Star'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103920.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103921.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103920.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103921.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 3800% Light DMG (Magic). Reduces Light Elemental Resistance of Dark Elemental Units by 20% for 10s.`,
+                break: 600
+            },
+        passive: 
+            {
+                ability1: `Regenerates Own HP by 4/s.`
+            },
+        lore: `This ancient tome lain dormant long years in the depths of Lagan, the Royal Library of Famelle. It was mysteriously sealed, but they say that someone possessed of the power to unlock its secrets. It contains the story of the later days of the heroes known as the Twin Knights of the Morning Star. Who could have written this story of their final days, which only they could have known? And why can only the chosen one read what lies within? Those answers still lay ahead for our adventurers.`
+    },
+    { //Holy Shield 'Lux Feena' - Missing Lore
+        id: 103931,
+        name: `Holy Shield 'Lux Feena'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103930.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103931.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103930.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103931.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 6000% Light DMG (Magic). If User is Light Elemental, completely Evades all Status Ailments except for Faint for 8s.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: `Regenerates HP by 6/s.`
+            },
+        lore: ``
+    },
+    { //True 'Centurion' - Complete
+        id: 103941,
+        name: `True 'Centurion'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103940.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103941.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103940.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103941.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - 6200% Light DMG (Magic). Heals 30% of the DMG all allies took for 10s.`,
+                break: 1000
+            },
+        passive: 
+            {
+                ability1: `When Equipped by Feena, increases own DMG by 20% and increases own Arts Gauge automatically (only once).`,
+                ability2: `Increases Dark Elemental Resistance by 20%.`
+            },
+        lore: `This is the sacred sword of the Knight of Light Feena, one of the Twin Knights of the Morning Star. This weapon was truly appropriate, for though she was a Human she shone with brilliance equal to the Gods, and all who stood before her blazing light gave up their will to fight and bowed to her glory. She received this weapon in Famelle, but then the Gods blessed it and it was reborn as a divine weapon. For some reason, history books do not record its true value.`
+    },
+    { //Aqua Sword 'IZANAMI' - MIssing .....
+        id: 103951,
+        name: `Aqua Sword 'IZANAMI'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103950.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103951.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103950.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103951.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //HIME-AJISAI - Complete
+        id: 103961,
+        name: `HIME-AJISAI`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103960.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103961.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103960.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103961.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `80s CT - Heal all Allies' HP by 1800. Heals all Allies' Status Ailments except Faint or Disease.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `The hair accessory that the swordswoman Yomi, who is said to come from a different world, wore. It is modeled after a flower that does not exist in Raktehelm, and added a fragile sadness to her mysterious image. To her, it was her formal dress and battle dress so she wore it to her important battles. The name "Aqua Lord" comes from the silence pressure she released when she wore this hair accessory held people in awe.`
+    },
+    { //Air Gun 'Ordonnanz' - Complete
+        id: 103971,
+        name: `Air Gun 'Ordonnanz'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103970.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103971.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103970.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103971.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 4200% Light DMG (Magic). Increases all Allies' Light Elemental DMG Dealt by 15% for 6s.`,
+                break: 600
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `The aircraft that looks like a machine gun which Ameru, a girl who ran about the battlefields during the Ancient War, used. The principle of how it flew is not solved, but it is said that it used the power from the machine gun. It seems that this hypothesis is ridiculous, but the reason why this cannot be completely denied is because this gun could even destroy fortresses. It may be possible to blow a small girl easily.`
+    },
+    { //Ameru's Letter Bag - Complete
+        id: 103981,
+        name: `Ameru's Letter Bag`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103980.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103981.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103980.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103981.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `180s CT - Increases all Allies' DMG Inflicted by 25% and Critical Rate by 100% for 12s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `The bag which Ameru, a girl who ran about delivering letters during the Ancient War, favored. The bag was full with love letters between different races. She was often attacked by mistake, but because of her Air Gun "Ordonnanz", the letters were never stolen. But she did lock her bag so only she could open it just in case. Her bag was hard enough to even swing around the bag and fight.`
+    },
+    { //Magic Rod 'Maleficium' - Missing .....
+        id: 103991,
+        name: `Magic Rod 'Maleficium'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_103990.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_103991.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_103990.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_103991.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //Magic Earrings 'Temptation' - Complete
+        id: 104001,
+        name: `Magic Earrings 'Temptation'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104000.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104001.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104000.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104001.png`
+            },
+        stats:
+            {
+                hp: 60,
+                atk: 30,
+                def: 30
+            },
+        skillset:  
+            {
+                skill: `40s CT - Increases Target's Magic DMG, Equipment CT Speed, and Skill CT Speed by 20% for 12s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increases Blind Time Reduction by 20%. Increases Blind Evasion Rate by 20%.`
+            },
+        lore: `Melia ia a lady with constant rumors who is from Magis Empire of La Riiz. Being so attractive, countless men have fallen for her, and her earrings are fascinating as well. These glowing earrings emphasise her mysteriousness. It's not surprising, because a charm spell has been chanted on it. With Melia's one word, it activates its powers immediately. Not knowing this, countless men have whispered top secret information to her.`
+    },
+    { //Magic Robe 'Orbscuritas' - Missing .....
+        id: 104011,
+        name: `Magic Robe 'Orbscuritas'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104010.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104011.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104010.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104011.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //True 'Valheight' - Complete
+        id: 104021,
+        name: `True 'Valheight'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104020.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104021.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104020.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104021.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `90s CT - 10800% Water DMG (Physical). When equipped by a Human, Arts DMG increases 50% once, then Arts Gauge decreases for 10s.`,
+                break: 1000
+            },
+        passive: 
+            {
+                ability1: `When Equipped by Est, increases own DMG and Break by 20%.`,
+                ability2: `Increases Physical DMG by 15% (only once).`
+            },
+        lore: `When Est, the daughter of the "Holy Swordmaster" came to understand her lineage and destiny, her guardian angel shows its true form. "Allow me to turn all matter to your trusted blade," so says this armor. Faced with the immense power of this armor and the cruel inability to harness it, Est pushed herself well past her limit, proving her likeness to her mother along her path.`
+    },
+    { //Relic 'Hrungnir' - Complete
+        id: 104031,
+        name: `Relic 'Hrungnir'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104030.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104031.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104030.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104031.png`
+            },
+        stats:
+            {
+                hp: 125,
+                atk: 62,
+                def: 62
+            },
+        skillset:  
+            {
+                skill: `65s CT - 500% Water DMG (Physical). Increases all Allies' Break Power by 30% for 6s.`,
+                break: 2000
+            },
+        passive: 
+            {
+                ability1: `Increases own ATK by 10% (only once).`
+            },
+        lore: `This massive hammer was used by the Ice Fortress Geo Zagnus, known as the Polar Calamity. It boasts incredible durability, as it was made to withstand the Giant's incredible strength as it destroyed all it saw, even hammering massive glaciers to dust. As it was long wielded by a Giant bearing the magical power of Absolute Zero, it possesses the power to instantly freeze anything that draws near. If the crushing blow doesn’t annihilate its target, the frigid wind and shock of its passing will freeze enemies to ice and shatter them.`
+    },
+    { //Relic 'Bracchium' - Complete
+        id: 104041,
+        name: `Relic 'Bracchium'`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104040.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104041.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104040.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104041.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `250s CT - Revives all Allies at 30% HP. Increases all Allies' Arts Gauge by 20. Increases all Allies' DMG Inflicted by 10% for 20s`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increases own ATK by 10% (only once).`
+            },
+        lore: `These gauntlets were worn by the Ice Fortress Geo Zagnus, Giant of Absolute Zero. The Giant's life was dominated by destruction, and so it avoided danger by pure instinct. It may sound like a mindless berserker, but it still made sure to wear mighty armor. It could block any attack with these gauntlets, and even if it was cut the bitter cold of these gauntlets would freeze the wound shut. The only way to fell this Giant is to completely shatter its powerful armor.`
+    },
+    { //True 'Maleficium' - Complete
+        id: 104051,
+        name: `True 'Maleficium'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104050.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104051.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104050.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104051.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `90s CT - 130000% Dark DMG (Magic).`,
+                break: 1200
+            },
+        passive: 
+            {
+                ability1: `When equipped by Melia (Dark), DMG 20% UP & HP Auto-recovery to all allies by 10 (Only once).`,
+                ability2: `DMG 20% UP when enemy is Blind (Only once).`
+            },
+        lore: `The rod especially made for fighting that Melia, the vice-commander of the La Riiz 3rd Magus Division, uses. She had tried not to use her dark magic as much as she could because she sealed off her dark past. However, once she decided to prove worthy to her friends, the rod started to answer her will and released its power. As a result, she hardly needs to chant spells and made it possible to use Anti-Army magic over and over which normal people cannot do.`
+    },
+    { //Divine Sword 'Balmung' - Missing .....
+        id: 104131,
+        name: `Divine Sword 'Balmung'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104130.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104131.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104130.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104131.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+    { //Cursed Sword 'Gram' - Complete
+        id: 104141,
+        name: `Cursed Sword 'Gram'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104140.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104141.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104140.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104141.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - 6000% Dark DMG (Physical). Increases all allies' CRI rate by 30% for 6s.`,
+                break: 1000
+            },
+        passive: 
+            {
+                ability1: `DMG to Gods 20% UP.`
+            },
+        lore: `One of the twin blades wielded by Freed, leaderof the mysterious terrorist group that rocked the world of Raktehelm, the Five Freedom Fighters. This blade is the dark twin of the divine sword made by the Gods early in the Ancient War. It holds the evil power to convert the bearer's very life force into power, but it will consume the very soul of any deemed unworthy to touch it. When this cursed sword's true potential is unleashed, it can pierce the walls of space and time to create a dimensional rip that consumes all around it.`
+    },
+    { //Magic Mask 'Gestalt' - Complete
+        id: 104151,
+        name: `Magic Mask 'Gestalt'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104150.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104151.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104150.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104151.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 5500% Dark DMG (Magic). 30% chance of Blinding enemy.`,
+                break: 900
+            },
+        passive: 
+            {
+                ability1: `DMG to Gods 20% UP.`
+            },
+        lore: `This is the unbridled form of the mask Grohl, the La Riiz assassin who slew the terrorists of the Five Freedom Fighters, wore over his face. It was designed to dramatically boost the natural abilities of the wearer, but due to his uncommon bloodline, it called up unimaginable power. This mask was consumed by the incredible power he unleashed and became a demonic tool to channel his limitless power into pure destruction.`
+    },
+    { //Fire Relic 'Bible of the Flaming Knight' - Complete
+        id: 104171,
+        name: `Fire Relic 'Bible of the Flaming Knight'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104170.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104171.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104170.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104171.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 7500% Fire DMG (Physical). Increases all allies' Skill CT speed by 80% for 8s.`,
+                break: 1200
+            },
+        passive: 
+            {
+                ability1: `Increases all Fire Elemental Allies' stats by 20% (Only once).`,
+                ability2: `Flaming Knight Returns: "When the Flaming Knight returns, the power will..."`
+            },
+        lore: `In this bible, anecdotes of a fallen country which praised flames as god. There was only one knight who protected this country. He wore red armor and coat, and with one slash of his sword he could burn away his enemies. On the back cover it says "When the Flaming Knight returns the power will..." but the rest cannot be read. Mysterious powers are flowing from it, but no one knows how to truly use it.`
+    },
+    { //Water Relic 'Aqua Dragon's Quartz' - Complete
+        id: 104181,
+        name: `Water Relic 'Aqua Dragon's Quartz'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104180.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104181.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104180.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104181.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `70s CT - Increases all Water Elemental units' Arts Gauge by 10 for 5s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increases all Water Elemental Allies' stats by 20% (Only once).`,
+                ability2: `True Value of the Blue Crystal: "The crystal remains silent..."`
+            },
+        lore: `This was given powers of the legendary Aqua Dragon that controls the oceans. It is clear that the country which praised the ocean as the origin of life possessed this treasure in ancient times. Its powers are said to overwhelm all countries, but ti can only be used when the three shining weapons gather. However, it is too much of a masterpiece for Humans so it will take extraordinary time to solve all the mysteries.`
+    },
+    { //Earth Relic 'Gran Forde' - Complete
+        id: 104191,
+        name: `Earth Relic 'Gran Forde'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104190.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104191.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104190.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104191.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 6000% Earth DMG (Magic). Increases Accuracy rate and Evasion rate by 20% for 8s.`,
+                break: 1200
+            },
+        passive: 
+            {
+                ability1: `Increases all Earth Elemental Allies' stats by 20% (Only once).`,
+                ability2: `Territory of Verdure: The main part of a machine. It does not work by itself.`
+            },
+        lore: `It is some king of machine parts found in the Aqua ruins. Tremendous power flows from it. There seems to be three parts to the machine, but no one knows what it is or what it is used for. The parts for connection are not found thus it is difficult to understand the structure of it. If all parts are found, will this mystery be solved?`
+    },
+    { //Holy Night of Fenrir - Complete
+        id: 104201,
+        name: `Holy Night of Fenrir`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104200.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104201.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104200.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104201.png`
+            },
+        stats:
+            {
+                hp: 120,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - Heals all Allies' HP by 10%. Heals all Allies' Status Ailments except for Faint and Disease.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `After hearing about the otherworld festival of Christmas, Roy had his 3rd "Fenrir" division of the Imperial Knights of Isliid dress up an0d give out presents to children. In that other world, Christmas is considered a holy night, so out of respect for the night he prepared a special crest. While the Fenrir knights are out distributing present, the captain and his childhood friend the adventurer went to their orphanage.`
     }
 ]
 
