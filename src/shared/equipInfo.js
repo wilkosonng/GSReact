@@ -156,7 +156,7 @@ const EquipInformation = [
             },
         lore: `Having chanting interrupted in battle is often fatal, making rings such as these prized since before the the Ancient War. On old battlefields you may even find one of these with a finger bone still inside, a grisly hint at the best way to cancel their protection, while no other bones in the vicinity indicates the subsequent eradication of the original owner.`
     },
-    { //Monster Fang Charm - Missing Lore
+    { //Monster Fang Charm - Complete
         id: 100051,
         name: `Monster Fang Charm`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -183,7 +183,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `A fang charm containing the fighting spirit of a terrible monster. Owning such a charm was once proof of defeating such a beast, while it's soul would also continue to inspire the holder. However, when a monster dies it is completely consumed by other monsters, meaning the holder of such a charm also becomes a target for this cannibalistic custom.`
     },
     { //Giant Battle Shield - Complete
         id: 100061,
@@ -214,7 +214,7 @@ const EquipInformation = [
             },
         lore: `A massive shield loved by giant warriors. Multiple giants equipped with these could form up into a veritable mobile fortress. Of particular note is a shield from the Ancient War now found in the east of the Gramenia Republic, where it is worshipped in a human village. Legends even say that the giant Radigan once protected the village using the shield.`
     },
-    { //Merfolk Trident - Missing Lore
+    { //Merfolk Trident - Complete
         id: 100071,
         name: `Merfolk Trident`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -241,7 +241,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `A three pronged spear given to members of sea-dwelling merfolk after they prove themselves in a tribal test. This trial is so difficult that some even lose their lives in the attempt. The merfolk use of this trident in both everyday life and in war is a clear indication of their trust in it. Sometimes, it may even mean more to them than their own lives.`
     },
     { //Regeneration Staff - Complete
         id: 100081,
@@ -475,7 +475,7 @@ const EquipInformation = [
             },
         lore: `A relic given by a wizard to the knight who was his master. This wizard was too weak to go into battle, leading to the knight's other retainer's mocking him for failure to aid in defending his master - yet the knight still kept him close. In response to that kindness the power of this item is incredible, and it kept the knight alive through countless battles.`
     },
-    { //Soul Recovery - Missing Stats, Skillset, Passives, Lore
+    { //Soul Recovery - Complete
         id: 100161,
         name: `Soul Recovery`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -495,14 +495,14 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: ``,
-                break: ``
+                skill: `20s CT - 500% DMG (Physical). Heals own HP by 100 every HIT.`,
+                break: `150`
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `A dagger for assassins proposed by a wizard. The pseudo-soul blade can link with the soul of the wielder when bloodied, allowing them to drain the life-force from the one they cut, meaning even a scratch can lead to death. During the disturbances in Raktehelm spies disguised as barbers used these blades to kill many high ranking personnel.`
     },
     { //Fairytale - Complete
         id: 100171,
@@ -533,7 +533,7 @@ const EquipInformation = [
             },
         lore: `A type of magical tome that allows anyone to cast spells. The words, rhymes and phrases required for spell chanting are arranged in a storybook format that anyone can follow. Originally made as a fun toy for children by a wizard who loved writing, during the Ancient War many examples were created that allow far more powerful magic to be cast.`
     },
-    { //Dragon Blade - Missing Stats, Skillset, Passives, Lore
+    { //Dragon Blade - Complete
         id: 100181,
         name: `Dragon Blade`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -553,15 +553,14 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: ``,
-                break: ``
+                skill: `20s CT - 1000% Fire DMG (Physical).`,
+                break: `300`
             },
         passive: 
             {
-                ability1: ``,
-                ability2: ``
+                ability1: ``
             },
-        lore: ``
+        lore: `A sword made from the bones of a dragon capable of killing any attacker in a single strike. Any who wield it obtain that same power. However, those without sufficient training will lose their mind to the blade and simply attack anyone they see. Therefore only the most highly trained warriors in both body and mind are allowed to even touch it.`
     },
     { //Ouroboros - Complete
         id: 100191,
@@ -708,7 +707,7 @@ const EquipInformation = [
             },
         lore: `"Defeat me, if you can!" The words of the duelist Ronmel, who fought during the Ancient War wearing this cape. He tore across the battlefield, leaving a red trail as he cut down foes and without a single one able to lay a finger on his mantle. In later life Ronmel left a record stating that he wore the cape to aid his allies by distracting the enemy.`
     },
-    { //Numbless Ring - Missing Stats, Skillset, Passives, Lore
+    { //Numbless Ring - Complete
         id: 100241,
         name: `Numbless Ring`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -722,13 +721,13 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
+                hp: 20,
                 atk: 0,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
+                skill: `60s CT - Heals Target's Paralyze and HP by 96.`,
                 break: ``
             },
         passive: 
@@ -736,7 +735,7 @@ const EquipInformation = [
                 ability1: ``,
                 ability2: ``
             },
-        lore: ``
+        lore: `A ring worn by wizards studying paralytics in order to escape their effects. The materials are themselves paralytic and so poorly made examples can have the opposite of the desired effect - in spades! The first example was created by the apothecary Clifford, famous for his personality issues, and so some think that risk was entirely intentional.`
     },
     { //Winged Boots - Complete
         id: 100251,
@@ -767,7 +766,7 @@ const EquipInformation = [
             },
         lore: `Footwear made from the powerful wings of the monstrous bird Algantavis. Even a gentle step in these boots will cause a breeze to sweep the wearer high up into the air. Records of the Ancient War state that monstrous birds rarely came into battle, but mistakenly step in their territory and a flock of them would literally blow the transgressors away.`
     },
-    { //Berserker Gloves - Missing Stats, Skillset, Passives, Lore
+    { //Berserker Gloves - Complete
         id: 100261,
         name: `Berserker Gloves`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -782,20 +781,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 40,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: ``
+                skill: `20s CT - 750% Fire DMG (Physical).`,
+                break: `240`
             },
         passive: 
             {
                 ability1: ``,
                 ability2: ``
             },
-        lore: ``
+        lore: `There was once a mighty human warrior, even hired by the gods for his overwhelming strength. However, he was also excessively violent. Although his end remains a mystery, one theory is that the gods themselves exploited the chaos of battle to kill him. As his gloves drive those who wear them into a frenzy, his spirit is said to linger inside them still.`
     },
     { //Steel Goggles - Complete
         id: 100271,
@@ -1406,7 +1405,7 @@ const EquipInformation = [
             },
         lore: `During the Ancient War, there was a wizard too old to go into battle. One day, after seeing families grieving for their lost loved ones at the town graveyard, he returned home and created magical equipment to protect the lives of other soldiers. He continued to make them until he died of old age, and the procession of mourners at his funeral was long indeed.`
     },
-    { //Enril Scythe - Missing .....
+    { //Enril Scythe - Complete
         id: 100481,
         name: `Enril Scythe`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -1426,14 +1425,14 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `20s CT - 825% DMG (Physical).`,
+                break: 240
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `During the Ancient War, the storm god Enril is said to have wandered the lands as a human. He would join the losing side or fight for those whom he took a liking to, swinging his vast scythe to cut down foes with blades of air. He quickly became known as an ally to the weak, but none of those he fought with ever learned that he was actually a god.`
     },
     { //Oracle Panflute - Complete
         id: 100491,
