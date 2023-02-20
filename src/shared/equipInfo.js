@@ -10498,6 +10498,19060 @@ const EquipInformation = [
                 ability1: ``
             },
         lore: `After hearing about the otherworld festival of Christmas, Roy had his 3rd "Fenrir" division of the Imperial Knights of Isliid dress up an0d give out presents to children. In that other world, Christmas is considered a holy night, so out of respect for the night he prepared a special crest. While the Fenrir knights are out distributing present, the captain and his childhood friend the adventurer went to their orphanage.`
+    },
+    { //Stuffed Merry Rolly - Complete
+        id: 104211,
+        name: `Stuffed Merry Rolly`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104210.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104211.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104210.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104211.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `5s CT - Break Mode: Increases all Allies' Break Power by 30% for 10s. Heal Mode: Heals all Allies' HP by 20 for 10s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `This is a stuffed toy Iris brought to the Firecat's Den party for Christmas, an otherworld festival. Iris herself made everything, apparently, and now it sits right alongside the Ru doll like they're best friends watching over the party. When Rolly saw it, though, he was clearly bothered. It turns out he thought it very odd that the doll had a present while the real Rolly did not, and was unhappy with the situation. And when Rayas tried to explain, he was answered only with a swift kick.`
+    },
+{ //Liese' Santa Dress - Complete
+        id: 104221,
+        name: `Liese' Santa Dress`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104220.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104221.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104220.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104221.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `70s CT - Heals all Allies' HP by 240/s for 10s. Negates Flinch for all Allies for 10s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `This is a dress Reigrad's Priestess Liese chose to celebrate Christmas, an otherworld festival. Liese was filled with envy seeing young Iris racing through the streets in her Santa suit. The chef saw her trying to keep those feelings bottled up, and took her to see the Alchemist out of pity. The outfit started out nice and warm to keep her from catching a cold, but Liese' teary puppy-dog eyes convinced her to make this dress.`
+    },
+{ //Iris' Santa Hat - Complete
+        id: 104231,
+        name: `Iris' Santa Hat`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104230.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104231.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104230.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104231.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 	4200% Light DMG (Magic). Reduces Enemies' Freeze Resistance by 30% for 8s.`,
+                break: 1500
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `This is a hat Iris chose for a party celebrating Christmas, an otherworld festival. She rushed to the Alchemist and burst in to show her all about the person Santa Claus in her picture book. When she was done talking, the Alchemist put this hat on her head. Iris was clearly overjoyed and went rushing out, but soon came back asking for a matching dress.`
+    },
+{ //Iris' Santa Dress - Complete
+        id: 104241,
+        name: `Iris' Santa Dress`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104240.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104241.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104240.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104241.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `30s CT - Negates 1000 DMG Dealt to all Allies. Increases all Allies' Healing Amount by 30% for 8s (only once).`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `This is a dress Iris had made for a party celebrating Christmas, an otherworld festival. When she puts it on with a matching hat, she truly embodies the spirit of Christmas. She put a bunch of sweets in a sack the Guildmaster gave her and went out around town. Whenever she saw any children, she'd run over shouting Merry Christmas, then give them a treat. Later that evening, there was a lovely Christmas Party.`
+    },
+{ //Merry Rolly Hat - Complete
+        id: 104251,
+        name: `Merry Rolly Hat`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104250.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104251.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104250.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104251.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 60
+            },
+        skillset:  
+            {
+                skill: `30s CT - Reduces all Allies' DMG Taken by 5% and Light Elemental DMG Taken by 10% for 20s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `This is a hat that Rayas made for the Firecat's Den party for Christmas, an otherworld festival. It was so cute, it was a particular hit with Iris. The others all had a laugh acting like Rayas was actually Rolly. However, when the real Rolly showed up, his face showed only astonishment, which soon turned to enraged trembling, a low growl, and a full-on attack on the poor adventurer.`
+    },
+{ //Shurahalt Tree - Missing .....
+        id: 104261,
+        name: `Shurahalt Tree`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104260.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104261.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104260.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104261.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ //Holy Night Sword 'Charlotte' - Complete
+        id: 104271,
+        name: `Holy Night Sword 'Charlotte'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104270.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104271.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104270.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104271.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 8000% Light DMG (Physical).`,
+                break: 100
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `This is a sword just so the Santa Claus that was supposed to surprise Iris wouldn't have to go empty-handed. Despite all the care taken before preparations, though, the secret was out and so Santa ended up just going along with the others to the Christmas party. The people of Reigrad all gathered at the Firecat's Den, and no one seemed to notice that the gentleman this adorable sword was a grizzled veteran of countless battles. Oh, and apparently his granddaughter was in charge of decorating the blade.`
+    },
+{ //Toy Santa Ru - Complete
+        id: 104281,
+        name: `Toy Santa Ru`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104280.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104281.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104280.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104281.png`
+            },
+        stats:
+            {
+                hp: 30,
+                atk: 15,
+                def: 15
+            },
+        skillset:  
+            {
+                skill: `30s CT - Increases Target's BE Output by 50% and Skill CT Speed by 80% for 10s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `This is a stuffed animal put up as a decoration at the Firecat's Dan to celebrate the otherworld festival of Christmas. The more you look, the more it looks just like Ru... enough that it convinced Rayas to try talking to it. This led to a fun little game where everyone talked to the doll to get the real deal's goat. The toy's clothing is made from top-quality materials, and it has been clearly will cared for... yet no one knows who left it behind.`
+    },
+{ //Basilisk Wreath - Complete
+        id: 104291,
+        name: `Basilisk Wreath`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104290.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104291.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104290.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104291.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 6250% Dark DMG (Magic). 100% chance of Poisoning a Human type enemy. If user is Dark Elemental, increases Arts gauge by 20 for each Enemy Unit hit.`,
+                break: 1200
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Some kind of decoration for the otherworld festival of Christmas... Apparently? The adventurers decorated the Firecat's Den based on a picture book they found. Iris wanted a decoration known as a "wreath" but there was no time to track down the appropriate plants. The young girl seemed quite sad, but soon perked up and came running in saying she'd found the perfect thing. Everyone grew pale at the sight, but no one had the heart to ask where she'd got it.`
+    },
+{ //True 'Siegfried' - Missing .....
+        id: 104301,
+        name: `True 'Siegfried'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104300.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104301.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104300.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104301.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ //True 'Gestalt' - Complete
+        id: 104311,
+        name: `True 'Gestalt'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104310.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104311.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104310.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104311.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ //Holy Armor 'Eldrange' - Complete
+        id: 104321,
+        name: `Holy Armor 'Eldrange'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104320.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104321.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104320.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104321.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `30s CT - Reduces Target's DMG Taken by 50% for 6s. Heals Target for 10% of DMG Taken for 6s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Auto-Recovery for 20 HP. Increases ATK by 30% of DEF (only once).`
+            },
+        lore: `The armor especially made for Celia, the next monarch of the Principality of Bamint. It was made elegant, so she could wear it during official work. At first glance, it might seem undependable, but thousands of protection magic is woven within the armor. It is also called "Angel Wings" for it veils her in a thin and shining power.`
+    },
+{ //Princess Bamint - Complete
+        id: 104331,
+        name: `Princess Bamint`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104330.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104331.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104330.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104331.png`
+            },
+        stats:
+            {
+                hp: 120,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `130s CT - Adds a token to revive Target Unit with 20% of HP for 120s (only once).`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increases Own Heal Amount by 15%.`
+            },
+        lore: `Only Celia, the first in line to the throne of the Principality of Bamint is allowed to wear this tiara. While it is a work of art made from the best and rare crystals, it is also a noble weapon the contains enormous magic. With her potential magic powers, magical armor, and this tiara her defense becomes as if she herself is a barricade. Weapon attacks will be rejected, and all magic will stand no chance.`
+    },
+{ //Magical Sword 'Siegel' - Complete
+        id: 104341,
+        name: `Magical Sword 'Siegel'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104340.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104341.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104340.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104341.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 120
+            },
+        skillset:  
+            {
+                skill: `35s CT - 3800% Dark DMG (Physical). Reduces all Allies' DMG Taken by 20% for 8s.`,
+                break: 700
+            },
+        passive: 
+            {
+                ability1: `Reduces Physical DMG Taken by 10%.`
+            },
+        lore: `This is a short sword used by Onfuan, one of the Five Freedom Fighters. He was once a member of La Riiz' intelligence corps, and they say he started using this blade after he left service. This blade was once apparently the tool of a sorcerer, and now it gives the bearer great power over barrier magic. Magical power courses through the chain attached to the hilt, and when thrown the blade moves like a thing alive to hunt down its target. Once bound by this chain, it's nearly impossible to escape on your own.`
+    },
+{ //Magical Hat 'Akashic Eye' - Complete
+        id: 104351,
+        name: `Magical Hat 'Akashic Eye'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104350.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104351.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104350.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104351.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 6500% Earth DMG (Magic). Increases own Arts gauge by 30 when HP is 50% or more.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: `Magic DMG 20% UP.`
+            },
+        lore: `This is a hat worn by the mysterious sorcerer Alma. The strangely glowing stone is unlike any known type of crystal, and no one has been able to explain the structure. There are those who say that the stone "remembers" all that it has seen. The rumors go on to say that these etched memories go back far beyond the Ancient War, to a past lost to the shades of time. There are none alive who know how long this hat has existed, making it yet one more of the many deep mysteries surrounding the witch Alma.`
+    },
+{ //Oathtaker 'Shivlet' - Missing .....
+        id: 104361,
+        name: `Oathtaker 'Shivlet'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104360.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104361.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104360.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104361.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ //Divine Rapier 'Vandring' - Complete
+        id: 104371,
+        name: `Divine Rapier 'Vandring'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104370.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104371.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104370.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104371.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `30s CT - 5250% Water DMG (Physical).`,
+                break: 400
+            },
+        passive: 
+            {
+                ability1: `Skill CT speed 15% UP.`
+            },
+        lore: `A holy blade wielded by the globetrotting Sword Master, Riana. Everywhere she went, she was remembered as a priestess who cleansed the land of miasma, but details, such as the weapon she held, were scarce. The most anyone could deduce was its divine quality, since she was never seen without it. At last, someone worked up the courage to speak with her, and she shared its name. Never did she notice it was a metaphor for her own life.`
+    },
+{ //Blessed Garb 'Autel' - Complete
+        id: 104381,
+        name: `Blessed Garb 'Autel'`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104380.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104381.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104380.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104381.png`
+            },
+        stats:
+            {
+                hp: 120,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - Recovers targets' HP by 2200.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `CRI DMG 10% UP (Only once).`
+            },
+        lore: `The outfit of the Sword Master cursed with perennial youth, Riana. Thougb ordinary in appearance, it protects the wearer with holy power, neutralizing evil influences of every kind on contact. As she must enter spiritually hazardous areas in order to absorb miasma, this lets her do so without fear.`
+    },
+{ //True 'Fatalite' - Missing .....
+        id: 104391,
+        name: `True 'Fatalite'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104390.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104391.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104390.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104391.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ //True 'Joyeuse' - Complete
+        id: 104401,
+        name: `True 'Joyeuse'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104400.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104401.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104400.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104401.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `70s CT - `,
+                break: 1200
+            },
+        passive: 
+            {
+                ability1: `When equipped by Celia (Light), DMG 20% UP. Paralyze & Freeze resistance 100% UP (Only once).`,
+                ability2: `MAX HP 1000 UP & DMG from enemy 10% DOWN when Near-Death (Only once).`
+            },
+        lore: `Only Celia, the first in line to the throne of the Principality of Bamint is allowed to use this sword. This promises her position as a princess and means that she was the chosen one. The sword always watches over the owner and at times even reveals even stronger owner. The sword will answer her feelings and make her a true hero through her high desires and achievement.`
+    },
+{ // - Missing .....
+        id: 104411,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104410.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104411.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104410.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104411.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 104421,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104420.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104421.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104420.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104421.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 104431,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104430.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104431.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104430.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104431.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 104441,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104440.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104441.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104440.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104441.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 104451,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104450.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104451.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104450.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104451.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 104461,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104460.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104461.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104460.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104461.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 104471,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104470.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104471.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104470.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104471.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 104481,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104480.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104481.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104480.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104481.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 104491,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104490.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104491.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104490.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104491.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 104501,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104500.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104501.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104500.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104501.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 104511,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104510.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104511.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104510.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104511.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 104521,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104520.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104521.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104520.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104521.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 104591,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104590.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104591.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104590.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104591.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 104601,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104600.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104601.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104600.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104601.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 104611,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104610.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104611.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104610.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104611.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 104621,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104620.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104621.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104620.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104621.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 104631,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104630.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104631.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104630.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104631.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 104641,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104640.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104641.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104640.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104641.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 104651,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104650.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104651.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104650.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104651.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 104661,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104660.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104661.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104660.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104661.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 104671,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104670.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104671.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104670.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104671.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 104681,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104680.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104681.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104680.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104681.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 104691,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104690.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104691.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104690.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104691.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 104711,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104710.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104711.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104710.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104711.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 104721,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104720.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104721.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104720.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104721.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 104731,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104730.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104731.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104730.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104731.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 104741,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104740.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104741.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104740.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104741.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 104751,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104750.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104751.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104750.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104751.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 104761,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104760.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104761.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104760.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104761.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 104771,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104770.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104771.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104770.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104771.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 104781,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104780.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104781.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104780.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104781.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 104791,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104790.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104791.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104790.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104791.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 104801,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104800.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104801.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104800.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104801.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 104811,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104810.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104811.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104810.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104811.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 104851,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104850.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104851.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104850.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104851.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 104861,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104860.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104861.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104860.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104861.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 104871,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104870.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104871.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104870.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104871.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 104881,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104880.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104881.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104880.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104881.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 104891,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104890.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104891.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104890.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104891.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 104901,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104900.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104901.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104900.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104901.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 104911,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104910.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104911.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104910.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104911.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 104921,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104920.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104921.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104920.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104921.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 104931,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104930.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104931.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104930.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104931.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 104941,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104940.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104941.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104940.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104941.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 104951,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104950.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104951.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104950.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104951.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 104961,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104960.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104961.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104960.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104961.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 104971,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104970.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104971.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104970.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104971.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 104981,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104980.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104981.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104980.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104981.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 104991,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_104990.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_104991.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_104990.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_104991.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105001,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105000.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105001.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105000.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105001.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105011,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105010.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105011.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105010.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105011.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105021,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105020.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105021.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105020.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105021.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105031,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105030.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105031.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105030.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105031.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105041,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105040.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105041.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105040.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105041.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105051,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105050.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105051.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105050.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105051.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105061,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105060.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105061.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105060.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105061.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105071,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105070.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105071.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105070.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105071.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105081,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105080.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105081.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105080.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105081.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105091,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105090.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105091.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105090.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105091.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105101,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105100.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105101.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105100.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105101.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105111,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105110.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105111.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105110.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105111.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105121,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105120.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105121.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105120.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105121.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105131,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105130.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105131.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105130.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105131.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105181,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105180.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105181.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105180.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105181.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105191,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105190.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105191.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105190.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105191.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105201,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105200.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105201.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105200.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105201.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105211,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105210.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105211.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105210.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105211.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105221,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105220.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105221.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105220.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105221.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105231,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105230.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105231.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105230.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105231.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105241,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105240.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105241.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105240.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105241.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105251,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105250.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105251.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105250.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105251.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105261,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105260.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105261.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105260.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105261.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105271,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105270.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105271.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105270.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105271.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105281,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105280.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105281.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105280.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105281.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105381,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105380.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105381.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105380.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105381.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105391,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105390.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105391.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105390.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105391.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105401,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105400.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105401.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105400.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105401.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105411,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105410.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105411.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105410.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105411.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105421,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105420.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105421.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105420.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105421.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105431,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105430.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105431.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105430.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105431.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105441,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105440.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105441.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105440.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105441.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105451,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105450.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105451.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105450.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105451.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105461,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105460.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105461.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105460.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105461.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105471,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105470.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105471.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105470.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105471.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105481,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105480.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105481.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105480.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105481.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105491,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105490.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105491.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105490.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105491.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105501,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105500.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105501.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105500.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105501.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105511,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105510.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105511.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105510.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105511.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105521,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105520.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105521.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105520.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105521.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105531,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105530.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105531.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105530.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105531.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105541,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105540.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105541.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105540.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105541.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105551,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105550.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105551.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105550.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105551.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105561,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105560.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105561.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105560.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105561.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105571,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105570.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105571.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105570.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105571.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105581,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105580.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105581.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105580.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105581.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105591,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105590.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105591.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105590.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105591.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105601,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105600.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105601.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105600.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105601.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105611,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105610.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105611.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105610.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105611.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105621,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105620.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105621.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105620.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105621.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105631,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105630.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105631.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105630.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105631.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105641,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105640.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105641.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105640.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105641.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105651,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105650.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105651.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105650.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105651.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105661,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105660.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105661.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105660.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105661.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105671,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105670.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105671.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105670.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105671.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105681,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105680.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105681.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105680.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105681.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105691,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105690.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105691.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105690.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105691.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105701,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105700.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105701.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105700.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105701.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105711,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105710.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105711.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105710.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105711.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105721,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105720.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105721.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105720.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105721.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105731,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105730.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105731.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105730.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105731.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105741,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105740.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105741.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105740.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105741.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105751,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105750.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105751.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105750.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105751.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105761,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105760.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105761.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105760.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105761.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105771,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105770.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105771.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105770.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105771.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105781,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105780.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105781.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105780.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105781.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105791,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105790.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105791.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105790.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105791.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105801,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105800.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105801.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105800.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105801.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105811,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105810.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105811.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105810.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105811.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105821,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105820.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105821.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105820.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105821.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105831,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105830.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105831.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105830.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105831.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105841,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105840.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105841.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105840.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105841.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105851,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105850.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105851.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105850.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105851.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105861,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105860.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105861.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105860.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105861.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105871,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105870.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105871.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105870.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105871.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105881,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105880.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105881.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105880.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105881.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105891,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105890.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105891.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105890.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105891.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105901,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105900.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105901.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105900.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105901.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105911,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105910.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105911.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105910.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105911.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105921,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105920.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105921.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105920.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105921.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105931,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105930.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105931.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105930.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105931.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105941,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105940.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105941.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105940.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105941.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105951,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105950.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105951.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105950.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105951.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105961,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105960.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105961.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105960.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105961.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105971,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105970.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105971.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105970.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105971.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105981,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105980.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105981.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105980.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105981.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 105991,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_105990.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_105991.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_105990.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_105991.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106001,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106000.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106001.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106000.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106001.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106011,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106010.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106011.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106010.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106011.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106021,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106020.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106021.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106020.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106021.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106031,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106030.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106031.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106030.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106031.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106041,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106040.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106041.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106040.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106041.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106051,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106050.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106051.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106050.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106051.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106061,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106060.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106061.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106060.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106061.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106071,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106070.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106071.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106070.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106071.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106081,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106080.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106081.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106080.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106081.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106091,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106090.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106091.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106090.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106091.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106101,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106100.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106101.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106100.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106101.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106111,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106110.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106111.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106110.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106111.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106121,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106120.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106121.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106120.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106121.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106131,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106130.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106131.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106130.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106131.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106141,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106140.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106141.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106140.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106141.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106151,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106150.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106151.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106150.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106151.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106161,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106160.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106161.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106160.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106161.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing ..... (109961 = Tenebrius EV Equip)
+        id: 106171,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106170.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106171.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106170.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106171.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106181,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106180.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106181.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106180.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106181.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106191,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106190.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106191.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106190.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106191.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106201,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106200.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106201.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106200.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106201.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106211,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106210.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106211.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106210.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106211.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106221,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106220.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106221.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106220.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106221.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106231,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106230.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106231.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106230.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106231.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106241,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106240.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106241.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106240.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106241.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106251,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106250.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106251.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106250.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106251.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106261,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106260.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106261.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106260.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106261.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106271,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106270.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106271.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106270.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106271.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106281,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106280.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106281.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106280.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106281.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106291,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106290.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106291.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106290.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106291.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106301,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106300.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106301.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106300.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106301.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106311,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106310.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106311.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106310.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106311.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106321,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106320.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106321.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106320.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106321.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106331,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106330.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106331.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106330.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106331.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106341,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106340.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106341.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106340.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106341.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106351,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106350.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106351.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106350.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106351.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106361,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106360.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106361.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106360.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106361.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106371,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106370.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106371.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106370.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106371.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106381,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106380.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106381.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106380.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106381.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106391,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106390.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106391.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106390.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106391.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106401,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106400.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106401.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106400.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106401.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106411,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106410.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106411.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106410.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106411.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106421,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106420.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106421.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106420.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106421.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106431,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106430.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106431.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106430.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106431.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106441,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106440.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106441.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106440.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106441.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106451,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106450.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106451.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106450.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106451.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106461,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106460.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106461.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106460.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106461.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106471,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106470.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106471.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106470.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106471.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106481,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106480.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106481.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106480.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106481.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106491,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106490.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106491.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106490.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106491.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106501,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106500.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106501.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106500.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106501.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106511,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106510.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106511.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106510.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106511.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106521,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106520.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106521.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106520.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106521.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106531,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106530.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106531.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106530.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106531.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106541,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106540.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106541.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106540.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106541.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106551,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106550.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106551.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106550.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106551.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106581,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106580.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106581.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106580.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106581.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106591,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106590.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106591.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106590.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106591.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106601,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106600.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106601.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106600.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106601.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106611,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106610.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106611.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106610.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106611.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106621,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106620.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106621.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106620.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106621.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106631,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106630.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106631.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106630.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106631.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106641,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106640.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106641.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106640.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106641.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106651,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106650.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106651.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106650.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106651.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106661,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106660.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106661.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106660.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106661.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing ..... (109951 = Garm EV Equip)
+        id: 106671,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106670.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106671.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106670.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106671.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106681,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106680.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106681.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106680.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106681.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106691,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106690.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106691.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106690.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106691.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106701,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106700.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106701.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106700.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106701.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106711,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106710.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106711.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106710.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106711.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106721,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106720.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106721.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106720.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106721.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106731,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106730.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106731.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106730.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106731.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106741,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106740.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106741.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106740.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106741.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106751,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106750.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106751.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106750.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106751.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106761,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106760.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106761.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106760.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106761.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106771,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106770.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106771.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106770.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106771.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106781,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106780.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106781.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106780.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106781.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106791,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106790.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106791.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106790.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106791.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106801,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106800.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106801.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106800.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106801.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106811,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106810.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106811.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106810.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106811.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106821,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106820.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106821.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106820.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106821.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106831,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106830.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106831.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106830.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106831.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106841,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106840.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106841.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106840.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106841.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106851,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106850.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106851.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106850.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106851.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106861,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106860.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106861.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106860.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106861.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106871,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106870.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106871.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106870.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106871.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106881,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106880.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106881.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106880.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106881.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106891,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106890.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106891.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106890.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106891.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106901,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106900.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106901.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106900.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106901.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106911,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106910.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106911.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106910.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106911.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106921,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106920.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106921.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106920.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106921.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106931,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106930.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106931.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106930.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106931.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106941,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106940.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106941.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106940.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106941.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106951,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106950.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106951.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106950.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106951.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106961,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106960.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106961.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106960.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106961.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106971,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106970.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106971.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106970.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106971.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106981,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106980.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106981.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106980.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106981.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 106991,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_106990.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_106991.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_106990.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106991.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107001,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107000.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107001.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107000.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107001.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107011,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107010.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107011.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107010.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107011.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107021,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107020.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107021.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107020.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107021.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107031,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107030.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107031.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107030.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107031.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107041,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107040.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107041.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107040.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107041.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107051,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107050.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107051.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107050.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107051.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107061,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107060.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107061.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107060.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107061.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107071,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107070.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107071.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107070.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107071.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107081,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107080.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107081.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107080.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107081.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107091,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107090.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107091.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107090.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107091.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107101,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107100.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107101.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107100.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107101.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107111,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107110.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107111.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107110.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107111.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107121,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107120.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107121.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107120.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107121.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107131,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107130.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107131.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107130.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107131.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107141,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107140.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107141.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107140.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107141.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing ..... (109561 = Ragsherum EV Equip)
+        id: 107151,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107150.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107151.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107150.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107151.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107161,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107160.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107161.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107160.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107161.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107171,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107170.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107171.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107170.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107171.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107181,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107180.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107181.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107180.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107181.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107191,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107190.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107191.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107190.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107191.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107201,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107200.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107201.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107200.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107201.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107211,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107210.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107211.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107210.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107211.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107221,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107220.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107221.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107220.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107221.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107231,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107230.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107231.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107230.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107231.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107241,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107240.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107241.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107240.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107241.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107251,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107250.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107251.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107250.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107251.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107261,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107260.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107261.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107260.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107261.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107271,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107270.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107271.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107270.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107271.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107281,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107280.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107281.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107280.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107281.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107291,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107290.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107291.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107290.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107291.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107301,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107300.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107301.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107300.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107301.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107311,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107310.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107311.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107310.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107311.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107321,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107320.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107321.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107320.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107321.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107331,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107330.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107331.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107330.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107331.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107341,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107340.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107341.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107340.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107341.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107351,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107350.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107351.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107350.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107351.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107361,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107360.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107361.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107360.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107361.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107371,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107370.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107371.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107370.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107371.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107381,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107380.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107381.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107380.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107381.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107391,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107390.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107391.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107390.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107391.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107401,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107400.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107401.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107400.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107401.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107411,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107410.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107411.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107410.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107411.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107421,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107420.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107421.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107420.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107421.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107431,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107430.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107431.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107430.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107431.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107441,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107440.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107441.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107440.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107441.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107451,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107450.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107451.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107450.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107451.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107461,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107460.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107461.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107460.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107461.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107471,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107470.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107471.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107470.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107471.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107481,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107480.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107481.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107480.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107481.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107491,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107490.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107491.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107490.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107491.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107501,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107500.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107501.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107500.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107501.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107511,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107510.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107511.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107510.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107511.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107521,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107520.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107521.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107520.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107521.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107531,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107530.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107531.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107530.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107531.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107541,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107540.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107541.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107540.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107541.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107551,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107550.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107551.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107550.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107551.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107561,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107560.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107561.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107560.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107561.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107571,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107570.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107571.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107570.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107571.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107581,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107580.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107581.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107580.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107581.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107591,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107590.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107591.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107590.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107591.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107601,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107600.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107601.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107600.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107601.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107611,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107610.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107611.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107610.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107611.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107621,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107620.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107621.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107620.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107621.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107631,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107630.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107631.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107630.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107631.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107641,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107640.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107641.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107640.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107641.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107651,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107650.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107651.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107650.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107651.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107661,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107660.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107661.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107660.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107661.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107671,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107670.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107671.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107670.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107671.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107681,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107680.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107681.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107680.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107681.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107691,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107690.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107691.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107690.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107691.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107701,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107700.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107701.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107700.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107701.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107711,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107710.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107711.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107710.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107711.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107721,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107720.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107721.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107720.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107721.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107731,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107730.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107731.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107730.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107731.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107741,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107740.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107741.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107740.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107741.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107751,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107750.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107751.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107750.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107751.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107761,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107760.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107761.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107760.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107761.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107771,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107770.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107771.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107770.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107771.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107781,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107780.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107781.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107780.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107781.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107791,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107790.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107791.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107790.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107791.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107801,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107800.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107801.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107800.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107801.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107811,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107810.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107811.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107810.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107811.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107821,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107820.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107821.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107820.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107821.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107831,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107830.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107831.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107830.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107831.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107841,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107840.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107841.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107840.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107841.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107851,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107850.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107851.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107850.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107851.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107861,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107860.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107861.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107860.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107861.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107871,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107870.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107871.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107870.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107871.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107881,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107880.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107881.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107880.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107881.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107891,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107890.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107891.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107890.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107891.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107901,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107900.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107901.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107900.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107901.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107911,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107910.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107911.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107910.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107911.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107921,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107920.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107921.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107920.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107921.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107931,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107930.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107931.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107930.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107931.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107941,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107940.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107941.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107940.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107941.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107951,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107950.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107951.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107950.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107951.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107961,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107960.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107961.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107960.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107961.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107971,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107970.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107971.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107970.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107971.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107981,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107980.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107981.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107980.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107981.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 107991,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_107990.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_107991.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107990.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107991.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108001,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108000.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108001.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108000.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108001.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108011,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108010.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108011.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108010.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108011.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108021,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108020.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108021.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108020.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108021.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108031,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108030.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108031.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108030.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108031.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108041,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108040.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108041.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108040.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108041.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108051,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108050.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108051.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108050.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108051.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108061,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108060.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108061.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108060.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108061.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108071,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108070.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108071.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108070.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108071.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108081,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108080.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108081.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108080.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108081.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108091,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108090.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108091.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108090.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108091.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108101,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108100.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108101.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108100.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108101.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108111,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108110.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108111.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108110.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108111.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108121,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108120.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108121.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108120.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108121.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108131,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108130.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108131.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108130.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108131.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108141,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108140.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108141.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108140.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108141.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108151,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108150.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108151.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108150.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108151.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108161,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108160.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108161.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108160.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108161.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108171,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108170.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108171.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108170.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108171.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108181,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108180.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108181.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108180.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108181.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108191,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108190.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108191.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108190.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108191.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108201,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108200.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108201.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108200.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108201.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108211,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108210.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108211.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108210.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108211.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108221,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108220.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108221.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108220.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108221.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108231,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108230.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108231.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108230.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108231.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108241,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108240.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108241.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108240.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108241.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108251,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108250.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108251.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108250.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108251.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108261,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108260.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108261.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108260.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108261.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108271,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108270.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108271.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108270.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108271.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108281,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108280.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108281.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108280.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108281.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108291,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108290.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108291.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108290.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108291.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108301,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108300.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108301.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108300.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108301.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108311,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108310.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108311.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108310.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108311.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108321,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108320.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108321.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108320.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108321.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108331,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108330.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108331.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108330.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108331.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108341,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108340.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108341.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108340.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108341.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108351,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108350.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108351.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108350.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108351.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108361,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108360.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108361.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108360.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108361.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108371,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108370.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108371.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108370.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108371.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108381,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108380.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108381.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108380.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108381.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108391,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108390.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108391.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108390.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108391.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108401,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108400.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108401.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108400.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108401.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108411,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108410.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108411.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108410.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108411.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108421,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108420.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108421.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108420.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108421.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108431,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108430.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108431.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108430.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108431.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108441,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108440.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108441.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108440.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108441.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108451,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108450.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108451.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108450.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108451.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108461,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108460.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108461.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108460.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108461.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108471,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108470.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108471.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108470.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108471.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108481,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108480.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108481.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108480.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108481.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108491,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108490.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108491.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108490.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108491.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108501,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108500.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108501.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108500.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108501.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108511,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108510.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108511.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108510.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108511.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108521,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108520.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108521.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108520.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108521.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108541,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108540.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108541.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108540.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108541.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108551,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108550.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108551.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108550.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108551.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108561,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108560.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108561.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108560.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108561.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108571,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108570.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108571.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108570.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108571.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108581,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108580.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108581.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108580.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108581.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108591,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108590.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108591.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108590.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108591.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108601,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108600.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108601.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108600.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108601.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108631,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108630.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108631.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108630.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108631.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108641,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108640.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108641.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108640.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108641.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108651,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108650.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108651.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108650.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108651.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108661,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108660.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108661.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108660.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108661.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108671,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108670.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108671.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108670.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108671.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108681,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108680.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108681.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108680.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108681.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108691,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108690.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108691.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108690.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108691.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108701,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108700.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108701.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108700.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108701.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108711,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108710.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108711.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108710.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108711.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108721,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108720.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108721.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108720.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108721.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108731,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108730.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108731.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108730.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108731.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108741,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108740.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108741.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108740.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108741.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108751,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108750.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108751.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108750.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108751.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108761,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108760.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108761.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108760.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108761.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108771,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108770.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108771.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108770.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108771.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108781,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108780.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108781.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108780.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108781.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108791,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108790.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108791.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108790.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108791.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108801,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108800.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108801.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108800.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108801.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108811,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108810.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108811.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108810.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108811.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108821,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108820.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108821.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108820.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108821.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108831,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108830.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108831.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108830.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108831.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108841,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108840.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108841.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108840.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108841.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108851,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108850.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108851.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108850.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108851.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108861,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108860.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108861.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108860.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108861.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108871,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108870.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108871.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108870.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108871.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108881,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108880.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108881.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108880.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108881.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108891,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108890.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108891.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108890.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108891.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108901,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108900.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108901.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108900.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108901.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108911,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108910.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108911.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108910.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108911.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108921,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108920.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108921.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108920.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108921.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108931,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108930.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108931.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108930.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108931.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108941,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108940.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108941.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108940.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108941.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108951,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108950.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108951.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108950.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108951.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108961,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108960.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108961.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108960.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108961.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108971,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108970.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108971.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108970.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108971.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108981,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108980.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108981.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108980.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108981.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 108991,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_108990.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_108991.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_108990.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_108991.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing ..... (109011 = Palamicia EV Equip)
+        id: 109001,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109000.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109001.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109000.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109001.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109021,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109020.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109021.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109020.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109021.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109031,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109030.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109031.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109030.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109031.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109041,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109040.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109041.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109040.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109041.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109051,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109050.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109051.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109050.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109051.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109061,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109060.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109061.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109060.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109061.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109071,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109070.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109071.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109070.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109071.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109081,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109080.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109081.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109080.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109081.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109091,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109090.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109091.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109090.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109091.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109101,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109100.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109101.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109100.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109101.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109111,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109110.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109111.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109110.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109111.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109121,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109120.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109121.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109120.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109121.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109131,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109130.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109131.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109130.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109131.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109141,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109140.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109141.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109140.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109141.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109151,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109150.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109151.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109150.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109151.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109161,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109160.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109161.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109160.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109161.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109171,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109170.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109171.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109170.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109171.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109181,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109180.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109181.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109180.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109181.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109191,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109190.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109191.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109190.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109191.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109201,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109200.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109201.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109200.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109201.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109211,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109210.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109211.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109210.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109211.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109221,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109220.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109221.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109220.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109221.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109231,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109230.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109231.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109230.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109231.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109241,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109240.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109241.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109240.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109241.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109251,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109250.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109251.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109250.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109251.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109261,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109260.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109261.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109260.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109261.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109271,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109270.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109271.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109270.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109271.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109281,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109280.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109281.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109280.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109281.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109291,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109290.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109291.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109290.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109291.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing ..... (109311 = Dark Helmet (Emi?) EV Equip)
+        id: 109301,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109300.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109301.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109300.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109301.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109321,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109320.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109321.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109320.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109321.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109331,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109330.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109331.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109330.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109331.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109341,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109340.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109341.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109340.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109341.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109351,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109350.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109351.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109350.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109351.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109361,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109360.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109361.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109360.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109361.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109371,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109370.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109371.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109370.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109371.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109381,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109380.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109381.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109380.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109381.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109391,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109390.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109391.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109390.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109391.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109401,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109400.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109401.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109400.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109401.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109411,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109410.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109411.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109410.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109411.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109421,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109420.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109421.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109420.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109421.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109431,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109430.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109431.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109430.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109431.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109441,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109440.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109441.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109440.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109441.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109451,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109450.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109451.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109450.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109451.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109461,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109460.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109461.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109460.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109461.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109471,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109470.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109471.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109470.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109471.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109481,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109480.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109481.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109480.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109481.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109491,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109490.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109491.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109490.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109491.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109501,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109500.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109501.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109500.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109501.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109511,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109510.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109511.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109510.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109511.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109521,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109520.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109521.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109520.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109521.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109531,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109530.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109531.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109530.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109531.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109541,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109540.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109541.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109540.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109541.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109551,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109550.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109551.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109550.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109551.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109571,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109570.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109571.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109570.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109571.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109581,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109580.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109581.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109580.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109581.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109591,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109590.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109591.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109590.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109591.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109601,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109600.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109601.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109600.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109601.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109611,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109610.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109611.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109610.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109611.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109621,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109620.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109621.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109620.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109621.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109631,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109630.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109631.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109630.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109631.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109641,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109640.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109641.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109640.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109641.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109651,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109650.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109651.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109650.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109651.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109661,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109660.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109661.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109660.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109661.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109671,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109670.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109671.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109670.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109671.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109681,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109680.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109681.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109680.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109681.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109691,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109690.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109691.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109690.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109691.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109701,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109700.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109701.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109700.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109701.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109711,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109710.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109711.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109710.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109711.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109721,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109720.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109721.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109720.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109721.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109731,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109730.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109731.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109730.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109731.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109741,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109740.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109741.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109740.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109741.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109751,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109750.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109751.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109750.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109751.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109761,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109760.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109761.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109760.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109761.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109771,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109770.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109771.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109770.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109771.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109781,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109780.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109781.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109780.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109781.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109791,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109790.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109791.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109790.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109791.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109801,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109800.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109801.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109800.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109801.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109811,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109810.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109811.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109810.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109811.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109821,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109820.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109821.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109820.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109821.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109831,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109830.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109831.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109830.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109831.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109841,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109840.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109841.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109840.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109841.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109851,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109850.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109851.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109850.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109851.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109861,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109860.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109861.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109860.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109861.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109871,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109870.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109871.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109870.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109871.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109881,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109880.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109881.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109880.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109881.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109891,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109890.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109891.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109890.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109891.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing ..... (109941 = Emi EV Equip)
+        id: 109901,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109900.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109901.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109900.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109901.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109911,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109910.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109911.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109910.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109911.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109971,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109970.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109971.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109970.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109971.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109981,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109980.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109981.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109980.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109981.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 109991,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109990.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109991.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109990.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109991.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110001,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110000.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110001.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110000.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110001.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110011,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110010.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110011.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110010.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110011.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110021,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110020.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110021.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110020.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110021.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110031,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110030.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110031.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110030.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110031.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110041,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110040.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110041.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110040.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110041.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing ..... (110061 = Flogassa EV Equip)
+        id: 110051,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110050.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110051.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110050.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110051.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110091,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110090.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110091.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110090.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110091.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110101,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110100.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110101.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110100.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110101.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110111,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110110.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110111.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110110.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110111.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110121,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110120.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110121.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110120.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110121.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110131,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110130.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110131.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110130.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110131.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110141,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110140.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110141.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110140.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110141.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110151,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110150.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110151.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110150.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110151.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110161,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110160.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110161.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110160.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110161.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110171,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110170.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110171.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110170.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110171.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110181,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110180.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110181.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110180.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110181.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110191,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110190.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110191.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110190.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110191.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110201,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110200.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110201.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110200.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110201.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110211,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110210.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110211.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110210.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110211.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110221,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110220.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110221.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110220.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110221.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110231,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110230.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110231.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110230.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110231.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110241,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110240.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110241.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110240.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110241.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110251,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110250.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110251.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110250.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110251.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110261,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110260.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110261.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110260.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110261.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110271,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110270.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110271.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110270.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110271.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110281,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110280.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110281.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110280.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110281.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110291,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110290.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110291.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110290.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110291.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110301,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110300.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110301.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110300.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110301.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110311,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110310.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110311.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110310.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110311.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110321,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110320.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110321.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110320.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110321.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110331,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110330.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110331.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110330.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110331.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110341,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110340.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110341.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110340.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110341.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110351,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110350.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110351.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110350.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110351.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110361,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110360.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110361.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110360.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110361.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110371,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110370.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110371.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110370.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110371.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110381,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110380.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110381.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110380.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110381.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110391,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110390.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110391.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110390.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110391.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110401,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110400.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110401.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110400.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110401.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110411,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110410.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110411.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110410.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110411.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110421,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110420.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110421.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110420.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110421.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110431,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110430.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110431.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110430.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110431.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110441,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110440.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110441.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110440.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110441.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110451,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110450.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110451.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110450.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110451.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110461,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110460.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110461.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110460.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110461.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110471,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110470.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110471.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110470.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110471.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110481,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110480.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110481.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110480.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110481.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110491,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110490.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110491.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110490.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110491.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110501,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110500.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110501.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110500.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110501.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110511,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110510.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110511.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110510.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110511.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110521,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110520.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110521.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110520.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110521.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110531,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110530.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110531.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110530.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110531.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110541,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110540.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110541.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110540.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110541.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110551,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110550.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110551.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110550.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110551.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110561,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110560.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110561.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110560.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110561.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110571,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110570.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110571.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110570.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110571.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110581,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110580.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110581.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110580.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110581.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110591,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110590.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110591.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110590.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110591.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110601,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110600.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110601.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110600.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110601.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110611,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110610.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110611.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110610.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110611.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110621,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110620.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110621.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110620.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110621.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110631,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110630.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110631.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110630.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110631.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110641,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110640.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110641.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110640.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110641.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110651,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110650.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110651.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110650.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110651.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110661,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110660.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110661.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110660.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110661.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110671,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110670.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110671.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110670.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110671.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110681,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110680.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110681.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110680.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110681.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110691,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110690.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110691.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110690.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110691.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110701,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110700.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110701.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110700.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110701.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110711,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110710.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110711.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110710.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110711.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110721,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110720.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110721.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110720.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110721.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110731,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110730.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110731.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110730.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110731.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110741,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110740.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110741.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110740.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110741.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110751,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110750.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110751.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110750.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110751.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110761,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110760.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110761.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110760.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110761.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110771,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110770.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110771.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110770.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110771.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110781,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110780.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110781.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110780.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110781.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110791,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110790.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110791.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110790.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110791.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110801,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110800.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110801.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110800.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110801.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110811,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110810.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110811.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110810.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110811.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110821,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110820.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110821.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110820.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110821.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110831,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110830.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110831.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110830.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110831.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110841,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110840.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110841.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110840.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110841.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110851,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110850.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110851.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110850.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110851.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110861,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110860.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110861.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110860.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110861.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110871,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110870.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110871.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110870.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110871.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110881,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110880.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110881.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110880.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110881.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110891,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110890.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110891.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110890.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110891.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110901,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110900.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110901.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110900.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110901.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110911,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110910.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110911.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110910.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110911.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110921,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110920.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110921.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110920.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110921.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110931,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110930.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110931.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110930.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110931.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110941,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110940.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110941.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110940.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110941.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110951,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110950.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110951.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110950.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110951.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110961,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110960.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110961.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110960.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110961.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110971,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110970.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110971.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110970.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110971.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110981,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110980.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110981.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110980.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110981.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 110991,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_110990.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_110991.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_110990.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110991.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 111001,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111000.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111001.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111000.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111001.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 111031,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111030.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111031.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111030.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111031.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 111041,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111040.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111041.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111040.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111041.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 111051,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111050.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111051.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111050.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111051.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 111061,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111060.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111061.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111060.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111061.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 111071,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111070.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111071.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111070.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111071.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 111081,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111080.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111081.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111080.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111081.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 111091,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111090.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111091.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111090.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111091.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 111101,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111100.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111101.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111100.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111101.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 111111,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111110.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111111.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111110.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111111.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 111121,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111120.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111121.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111120.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111121.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 111131,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111130.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111131.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111130.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111131.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 111141,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111140.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111141.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111140.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111141.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 111151,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111150.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111151.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111150.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111151.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 111161,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111160.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111161.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111160.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111161.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 111171,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111170.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111171.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111170.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111171.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ // - Missing .....
+        id: 111181,
+        name: `Placeholder`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111180.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111181.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111180.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111181.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
     }
 ]
 
