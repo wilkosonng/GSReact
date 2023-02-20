@@ -11079,10 +11079,10 @@ const EquipInformation = [
             },
         lore: `Only Celia, the first in line to the throne of the Principality of Bamint is allowed to use this sword. This promises her position as a princess and means that she was the chosen one. The sword always watches over the owner and at times even reveals even stronger owner. The sword will answer her feelings and make her a true hero through her high desires and achievement.`
     },
-{ // - Missing .....
+{ //True 'Alchemia' - Missing .....
         id: 104411,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Alchemia'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -11108,10 +11108,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Relic 'Periusia' - Missing .....
         id: 104421,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Relic 'Periusia'`,
+        type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
             {
@@ -11137,11 +11137,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Relic 'Claritus' - Missing .....
         id: 104431,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Relic 'Claritus'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_104430.png`,
@@ -11166,10 +11166,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ // Blue Life Sword 'Glamerald' (碧命剣『グラメラルド』) - Missing .....
         id: 104441,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Blue Life Sword 'Glamerald' (碧命剣『グラメラルド』)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -11195,11 +11195,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Blue Life Bow 'Eldrasta' (碧命弓『エルドラスタ』) - Missing .....
         id: 104451,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Blue Life Bow 'Eldrasta' (碧命弓『エルドラスタ』)`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_104450.png`,
@@ -11224,10 +11224,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Glamerald' - Missing .....
         id: 104461,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Glamerald'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -11253,10 +11253,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Peluscia' - Missing .....
         id: 104471,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Peluscia'`,
+        type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
             {
@@ -11282,10 +11282,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Magic Spear "Graofang" (魔槍『グラオファング』) - Missing .....
         id: 104481,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Magic Spear "Graofang" (魔槍『グラオファング』)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -11311,10 +11311,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Flame Staff "Terenolio" (焔精杖『テレノライオ』) - Missing .....
         id: 104491,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Flame Staff "Terenolio" (焔精杖『テレノライオ』)`,
+        type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
             {
@@ -11340,10 +11340,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Protection Suit 'Viper' - Missing .....
         id: 104501,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Protection Suit 'Viper'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -11369,10 +11369,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Light Relic 'Tin Cane of Relief' - Missing .....
         id: 104511,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Light Relic 'Tin Cane of Relief'`,
+        type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
             {
@@ -11398,10 +11398,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Dark Relic 'Nichts' - Missing .....
         id: 104521,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Dark Relic 'Nichts'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -11427,10 +11427,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Cursed Light Sword 'Anestra'- Missing .....
         id: 104591,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Cursed Light Sword 'Anestra'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -11456,10 +11456,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Rallying Banner 'Gramenia' - Missing .....
         id: 104601,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Rallying Banner 'Gramenia'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -11485,10 +11485,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Patriot Rifle 'Glorious' - Missing .....
         id: 104611,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Patriot Rifle 'Glorious'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -11514,11 +11514,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Combat Knife 'Vixen' - Missing .....
         id: 104621,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Combat Knife 'Vixen'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_104620.png`,
@@ -11543,10 +11543,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Glorious' - Missing .....
         id: 104631,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Glorious'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -11572,10 +11572,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Blade 'Dragon Age' - Missing .....
         id: 104641,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Blade 'Dragon Age'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -11601,11 +11601,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Armor 'Dragon Scale' - Missing .....
         id: 104651,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Armor 'Dragon Scale'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_104650.png`,
@@ -11630,10 +11630,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Relic 'Sword of Revenge' - Missing .....
         id: 104661,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Relic 'Sword of Revenge'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -11659,11 +11659,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Fire Relic 'Sword of the Flaming Knight' - Missing .....
         id: 104671,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Fire Relic 'Sword of the Flaming Knight'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_104670.png`,
@@ -11688,11 +11688,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Water Relic 'Aqua Dragon's Sword' - Missing .....
         id: 104681,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Water Relic 'Aqua Dragon's Sword'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_104680.png`,
@@ -11717,11 +11717,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Earth Relic 'Ain Wold' - Missing .....
         id: 104691,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Earth Relic 'Ain Wold'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_104690.png`,
@@ -11746,10 +11746,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Holy Bow 'Forester' - Missing .....
         id: 104711,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Holy Bow 'Forester'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -11775,11 +11775,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Holy Cloak 'Familia' - Missing .....
         id: 104721,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Holy Cloak 'Familia'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_104720.png`,
@@ -11804,10 +11804,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Sniper Rifle 'Howling' - Missing .....
         id: 104731,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Sniper Rifle 'Howling'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -11833,10 +11833,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Forester' - Missing .....
         id: 104741,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Forester'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -11862,11 +11862,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //	Magical Outfit 'Pierrot Crimson' - Missing .....
         id: 104751,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `	Magical Outfit 'Pierrot Crimson'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_104750.png`,
@@ -11891,10 +11891,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Magical Box 'Monstre' - Missing .....
         id: 104761,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Magical Box 'Monstre'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -11920,10 +11920,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Holy Cane 'Proscris' - Missing .....
         id: 104771,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Holy Cane 'Proscris'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -11949,11 +11949,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Holy Robe 'Lathraea' - Missing .....
         id: 104781,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Holy Robe 'Lathraea'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_104780.png`,
@@ -11978,10 +11978,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Blood Katana 'MINAGOROSHI' - Missing .....
         id: 104791,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Blood Katana 'MINAGOROSHI'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -12007,10 +12007,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Proscris' - Missing .....
         id: 104801,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Proscris'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -12036,10 +12036,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Forbidden Book 'Irafael' - Missing .....
         id: 104811,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Forbidden Book 'Irafael'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -12065,10 +12065,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //God Blade 'Dragon Twilight' - Missing .....
         id: 104851,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `God Blade 'Dragon Twilight'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -12094,11 +12094,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Holy Robe 'Flora Twilight' - Missing .....
         id: 104861,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Holy Robe 'Flora Twilight'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_104860.png`,
@@ -12123,10 +12123,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //War Blade 'Diamond Chakram' - Missing .....
         id: 104871,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `War Blade 'Diamond Chakram'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -12152,10 +12152,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Dragon Twilight' - Missing .....
         id: 104881,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Dragon Twilight'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -12181,10 +12181,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Diamond Chakram' - Missing .....
         id: 104891,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Diamond Chakram'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -12210,11 +12210,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Gun Sword 'Bray Canon' - Missing .....
         id: 104901,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Gun Sword 'Bray Canon'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_104900.png`,
@@ -12239,10 +12239,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Machina Hyperdrive 'Magna Ark' - Missing .....
         id: 104911,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Machina Hyperdrive 'Magna Ark'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -12268,11 +12268,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Sweet Poison “Sacrifice” - Missing .....
         id: 104921,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Sweet Poison “Sacrifice”`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_104920.png`,
@@ -12297,10 +12297,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Magi-Umbrella 'Sans Pluie' - Missing .....
         id: 104931,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Magi-Umbrella 'Sans Pluie'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -12326,11 +12326,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Magic Robe 'Tout Acconier' - Missing .....
         id: 104941,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Magic Robe 'Tout Acconier'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_104940.png`,
@@ -26158,6 +26158,36 @@ const EquipInformation = [
                 ability1: ``
             },
         lore: ``
+    },
+{ //Ghost Shield 'Tenebrae Lux' EV - Complete (JP)
+        id: 109961,
+        name: `Ghost Shield 'Tenebrae Lux' EV`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: ``,
+                detailmax: `/db/Equipment/Detail/item_detail_109961.png`,
+                thumb: ``,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109961.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 500,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `5s CT - For 10s, all Allies gain a DMG barrier that negates 250 DMG. Heal all Allies' HP by 25.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increase Seal RES by 10%.`,
+                ability2: [`Increase DEF by 30% when under a barrier.`, `When HP is above 90%, Increase ATK by 15%.`, `Increase MAG RES by 5%.`, `When HP is above 90%, Increase ATK by 10%.`, `Increase Accuracy by 10%.`, `Increase Status Ailment RES (Except Faint) by 10%.`]
+            },
+        lore: `Currently unreleased in Global`
     },
 { // - Missing .....
         id: 109971,
