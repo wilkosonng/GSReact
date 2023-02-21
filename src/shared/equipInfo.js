@@ -12355,10 +12355,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+    { //Carving Whip 'Viperra' - Missing .....
         id: 104951,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Carving Whip 'Viperra'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -12384,10 +12384,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Sans Pluie' - Missing .....
         id: 104961,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Sans Pluie'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -12413,10 +12413,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Viperra' - Missing .....
         id: 104971,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Viperra'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -12442,10 +12442,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Frozen Spear 'Draco Hasta' - Missing .....
         id: 104981,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Frozen Spear 'Draco Hasta'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -12471,11 +12471,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Frozen Boots 'Caerula Nix' - Missing .....
         id: 104991,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Frozen Boots 'Caerula Nix'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_104990.png`,
@@ -12500,10 +12500,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Draco Hasta' - Missing .....
         id: 105001,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Draco Hasta'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -12529,10 +12529,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Sacred Sword 'Grandeus' - Missing .....
         id: 105011,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Sacred Sword 'Grandeus'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -12558,11 +12558,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Sacred Garb 'Destina' - Missing .....
         id: 105021,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Sacred Garb 'Destina'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_105020.png`,
@@ -12587,10 +12587,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Silent Summonstone - Missing .....
         id: 105031,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Silent Summonstone`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -12616,10 +12616,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Inferno Summonstone - Missing .....
         id: 105041,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Inferno Summonstone`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -12645,11 +12645,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Relic 'Silent Wings' - Missing .....
         id: 105051,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Relic 'Silent Wings'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_105050.png`,
@@ -12674,10 +12674,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Frozen Twin Swords' - Missing .....
         id: 105061,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Frozen Twin Swords'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -12703,10 +12703,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Vulkans' - Missing .....
         id: 105071,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Vulkans'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -12732,10 +12732,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Spirit Spear 'Melchizelek' - Missing .....
         id: 105081,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Spirit Spear 'Melchizelek'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -12761,11 +12761,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Holy Robe 'Mercel' - Missing .....
         id: 105091,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Holy Robe 'Mercel'`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_105090.png`,
@@ -12790,10 +12790,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Staff of Phoenix Tear 'Atropos' - Missing .....
         id: 105101,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Staff of Phoenix Tear 'Atropos'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -12819,10 +12819,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Atropos' - Missing .....
         id: 105111,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Atropos'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -12848,11 +12848,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Light Relic 'Dagger of Creation' - Missing .....
         id: 105121,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Light Relic 'Dagger of Creation'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_105120.png`,
@@ -12877,11 +12877,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Dark Relic 'Brute' - Missing .....
         id: 105131,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Dark Relic 'Brute'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_105130.png`,
@@ -12906,10 +12906,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Celia's Seashore Pareo - Missing .....
         id: 105181,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Celia's Seashore Pareo`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -12935,10 +12935,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Sonije's Hot-Pink Bikini - Missing .....
         id: 105191,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Sonije's Hot-Pink Bikini`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -12964,10 +12964,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Alma's Bandeau Bikini - Missing .....
         id: 105201,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Alma's Bandeau Bikini`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -12993,10 +12993,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Rishley's Sunset Bikini - Missing .....
         id: 105211,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Rishley's Sunset Bikini`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -13022,11 +13022,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Fen's Aloha Shorts - Missing .....
         id: 105221,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Fen's Aloha Shorts`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_105220.png`,
@@ -13051,11 +13051,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Kane's Aloha Shirt - Missing .....
         id: 105231,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: ``,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_105230.png`,
@@ -13080,11 +13080,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Sorcerer's Treasured Robe 'Caligula' - Missing .....
         id: 105241,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Sorcerer's Treasured Robe 'Caligula'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_105240.png`,
@@ -13109,10 +13109,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Demon Twin-Blade 'Deino' - Missing .....
         id: 105251,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Demon Twin-Blade 'Deino'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -13138,10 +13138,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Deino' - Missing .....
         id: 105261,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Deino'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -13167,10 +13167,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Gauntlets 'Gault Fort' - Missing .....
         id: 105271,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Gauntlets 'Gault Fort'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -13196,10 +13196,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Demonic Wicked Globe - Missing .....
         id: 105281,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Demonic Wicked Globe`,
+        type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
             {
@@ -13225,10 +13225,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Fire Relic 'Flaming Knight's Armor' - Missing .....
         id: 105381,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Fire Relic 'Flaming Knight's Armor'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -13254,10 +13254,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Water Relic 'Water Dragon's Shield' - Missing .....
         id: 105391,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Water Relic 'Water Dragon's Shield'`,
+        type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
             {
@@ -13283,10 +13283,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Earth Relic 'Groove Lumina' - Missing .....
         id: 105401,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Earth Relic 'Groove Lumina'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -13312,10 +13312,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Sakura Sword 'IZANAGI' - Missing .....
         id: 105411,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Sakura Sword 'IZANAGI'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -13341,11 +13341,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Delicate kimono 'Translucent Blossom' - Missing .....
         id: 105421,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Delicate kimono 'Translucent Blossom'`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_105420.png`,
@@ -13370,10 +13370,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'IZANAGI' - Missing .....
         id: 105431,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'IZANAGI'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -13399,10 +13399,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Iris' Rolly-Frill Bikini - Missing .....
         id: 105441,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Iris' Rolly-Frill Bikini`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -13428,10 +13428,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Mira's Sailor Swimsuit - Missing .....
         id: 105451,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Mira's Sailor Swimsuit`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -13457,10 +13457,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Melia's Purple Sexy Bikini - Missing .....
         id: 105461,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Melia's Purple Sexy Bikini`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -13486,11 +13486,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Rem's Sexy Lace Bikini - Missing .....
         id: 105471,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Rem's Sexy Lace Bikini`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_105470.png`,
@@ -13515,11 +13515,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Liese' Swimwear - Missing .....
         id: 105481,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Liese' Swimwear`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_105480.png`,
@@ -13544,11 +13544,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Est's Sailor Swimsuit - Missing .....
         id: 105491,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Est's Sailor Swimsuit`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_105490.png`,
@@ -13573,10 +13573,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Aristela's Competition Swimsuit - Missing .....
         id: 105501,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Aristela's Competition Swimsuit`,
+        type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
             {
@@ -13602,10 +13602,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Selia's Snow White Bikini - Missing .....
         id: 105511,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Selia's Snow White Bikini`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -13631,10 +13631,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Electro-Magnetic Gun 'Griffin' - Missing .....
         id: 105521,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Electro-Magnetic Gun 'Griffin'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -13660,11 +13660,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Rapid-fire Gun 'Peregrine' - Missing .....
         id: 105531,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Rapid-fire Gun 'Peregrine'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_105530.png`,
@@ -13689,10 +13689,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Griffin' - Missing .....
         id: 105541,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Griffin'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -13718,10 +13718,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Spiked Helmet 'Agni' - Missing .....
         id: 105551,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Spiked Helmet 'Agni'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -13747,10 +13747,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Water Boots 'Aqua Ferme' - Missing .....
         id: 105561,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Water Boots 'Aqua Ferme'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -13776,10 +13776,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Dark Relic 'Groll' - Missing .....
         id: 105571,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Dark Relic 'Groll'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -13805,10 +13805,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Light Relic 'Eradication Bow' - Missing .....
         id: 105581,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Light Relic 'Eradication Bow'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -13834,10 +13834,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Mysterious Necklace 'Eternal' - Missing .....
         id: 105591,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Mysterious Necklace 'Eternal'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -13863,10 +13863,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Dark Blade 'Exceed Zechs' - Missing .....
         id: 105601,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Dark Blade 'Exceed Zechs'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -13892,11 +13892,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Dark Armor 'Evil Death' - Missing .....
         id: 105611,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Dark Armor 'Evil Death'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_105610.png`,
@@ -13921,10 +13921,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Exceed Zechs' - Missing .....
         id: 105621,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Exceed Zechs'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -13950,10 +13950,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Twin Bone Swords 'Dos Muertes' - Missing .....
         id: 105631,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Twin Bone Swords 'Dos Muertes'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -13979,11 +13979,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Cursed Spear 'Tres Lanzas' - Missing .....
         id: 105641,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Cursed Spear 'Tres Lanzas'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_105640.png`,
@@ -14008,10 +14008,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Dos Muertes' - Missing .....
         id: 105651,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Dos Muertes'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -14037,10 +14037,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name - Missing .....
         id: 105661,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -14066,10 +14066,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Fe'Ode' - Missing .....
         id: 105671,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Fe'Ode'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -14095,10 +14095,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Insect Goddess Necklace - Missing .....
         id: 105681,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Insect Goddess Necklace`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -14124,10 +14124,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Fire Scepter 'Fomalhaut' - Missing .....
         id: 105691,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Fire Scepter 'Fomalhaut'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -14153,11 +14153,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Blood Crest 'Arc Ignite' - Missing .....
         id: 105701,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Blood Crest 'Arc Ignite'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_105700.png`,
@@ -14182,10 +14182,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Fomalhaut' - Missing .....
         id: 105711,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Fomalhaut'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -14211,10 +14211,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Earth Axe 'Tempest' - Missing .....
         id: 105721,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Earth Axe 'Tempest'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -14240,10 +14240,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Earth Battledress 'Aster' - Missing .....
         id: 105731,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Earth Battledress 'Aster'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -14269,10 +14269,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Tempest' - Missing .....
         id: 105741,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Tempest'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -14298,11 +14298,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Crimson Blade 'Degilagon' - Missing .....
         id: 105751,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Crimson Blade 'Degilagon'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_105750.png`,
@@ -14327,11 +14327,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Holy Necklace 'Dignified Silence' - Missing .....
         id: 105761,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Holy Necklace 'Dignified Silence'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_105760.png`,
@@ -14356,11 +14356,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Emerald Feather 'Biosdora' - Missing .....
         id: 105771,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Emerald Feather 'Biosdora'`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_105770.png`,
@@ -14385,11 +14385,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Hatered Claws 'Grief' - Missing .....
         id: 105781,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Hatered Claws 'Grief'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_105780.png`,
@@ -14414,11 +14414,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Hades Earrings 'Halos Mors' - Missing .....
         id: 105791,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Hades Earrings 'Halos Mors'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_105790.png`,
@@ -14443,10 +14443,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Sacred 'Silent Treasure' - Missing .....
         id: 105801,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Sacred 'Silent Treasure'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -14472,10 +14472,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Sealed Earrings 'Filiamo' - Missing .....
         id: 105811,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Sealed Earrings 'Filiamo'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -14501,10 +14501,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Fen's Pirate Hat - Missing .....
         id: 105821,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Fen's Pirate Hat`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -14530,10 +14530,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Swashbuckling Fen - Missing .....
         id: 105831,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Swashbuckling Fen`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -14559,10 +14559,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Feena's Witch Hat - Missing .....
         id: 105841,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Feena's Witch Hat`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -14588,10 +14588,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Feena's Devil Wings - Missing .....
         id: 105851,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Feena's Devil Wings`,
+        type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
             {
@@ -14617,10 +14617,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Little-Red-Riding Mira - Missing .....
         id: 105861,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Little-Red-Riding Mira`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -14646,11 +14646,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Big-Bad-Wolf Roy - Missing .....
         id: 105871,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Big-Bad-Wolf Roy`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_105870.png`,
@@ -14675,10 +14675,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Jack-O-Sherum's Boots - Missing .....
         id: 105881,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Jack-O-Sherum's Boots`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -14704,10 +14704,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Aqua Blade 'Maelstrom' - Missing .....
         id: 105891,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Aqua Blade 'Maelstrom'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -14733,11 +14733,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Mist-guise 'Mirage Hood' - Missing .....
         id: 105901,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Mist-guise 'Mirage Hood'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_105900.png`,
@@ -14762,10 +14762,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Maelstrom' - Missing .....
         id: 105911,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Maelstrom'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -14791,10 +14791,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name - Missing .....
         id: 105921,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -14820,10 +14820,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name - Missing .....
         id: 105931,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -14849,10 +14849,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Aurora & Zephyr' - Missing .....
         id: 105941,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Aurora & Zephyr'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -14878,11 +14878,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Dragon Gauntlet 'Sol Helios' - Missing .....
         id: 105951,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Dragon Gauntlet 'Sol Helios'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_105950.png`,
@@ -14907,10 +14907,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name - Missing .....
         id: 105961,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name`,
+        type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
             {
@@ -14936,10 +14936,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Icy Shell "Frigid Scales" - Missing .....
         id: 105971,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Icy Shell "Frigid Scales"`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -14965,10 +14965,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Diamond Shield 'Adamas Gear' - Missing .....
         id: 105981,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Diamond Shield 'Adamas Gear'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -14994,10 +14994,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Torrent Sword 'Grosveld' - Missing .....
         id: 105991,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Torrent Sword 'Grosveld'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -15023,10 +15023,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Adamas Gear' - Missing .....
         id: 106001,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Adamas Gear'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -15052,10 +15052,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Fire Relic 'Flaming Knight's Mantle' - Missing .....
         id: 106011,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Fire Relic 'Flaming Knight's Mantle'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -15081,10 +15081,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Water Relic 'Water Dragon's Fang Earrings' - Missing .....
         id: 106021,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Water Relic 'Water Dragon's Fang Earrings'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -15110,10 +15110,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Earth Relic 'Diewelt' - Missing .....
         id: 106031,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Earth Relic 'Diewelt'`,
+        type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
             {
@@ -15139,10 +15139,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Relic 'Santa Arpa' - Missing .....
         id: 106041,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Relic 'Santa Arpa'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -15168,10 +15168,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Judgement Blade 'ZANKETSU' - Missing .....
         id: 106051,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Judgement Blade 'ZANKETSU'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -15197,11 +15197,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Demon Garb 'Ritter Stola' - Missing .....
         id: 106061,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Demon Garb 'Ritter Stola'`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_106060.png`,
@@ -15226,10 +15226,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'ZANKETSU' - Missing .....
         id: 106071,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'ZANKETSU'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -15255,10 +15255,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Knights Glow' - Missing .....
         id: 106081,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Knights Glow'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -15284,10 +15284,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Red-Nosed Rayas Doll - Missing .....
         id: 106091,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Red-Nosed Rayas Doll`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -15313,10 +15313,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Santa Iris Doll - Missing .....
         id: 106101,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Santa Iris Doll`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -15342,10 +15342,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Red-Nosed Roy Doll - Missing .....
         id: 106111,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Red-Nosed Roy Doll`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -15371,10 +15371,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Snow-Lady Mira Doll - Missing .....
         id: 106121,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Snow-Lady Mira Doll`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -15400,10 +15400,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Santa Fen Doll - Missing .....
         id: 106131,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Santa Fen Doll`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -15429,10 +15429,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Ganan Tree Doll - Missing .....
         id: 106141,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Ganan Tree Doll`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -15458,10 +15458,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Merry Liese Doll - Missing .....
         id: 106151,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Merry Liese Doll`,
+        type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
             {
@@ -15487,10 +15487,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Divine Crown 'Holy Jingle' - Missing .....
         id: 106161,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Divine Crown 'Holy Jingle'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -15516,10 +15516,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing ..... (109961 = Tenebrius EV Equip)
+{ //Ghost Shield 'Tenebrae Lux' - Missing ..... (109961 = Tenebrius EV Equip)
         id: 106171,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Ghost Shield 'Tenebrae Lux'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -15545,10 +15545,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Light Relic 'Cape of Reincarnation' - Missing .....
         id: 106181,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Light Relic 'Cape of Reincarnation'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -15574,10 +15574,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Dark Relic 'Metzelei' - Missing .....
         id: 106191,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Dark Relic 'Metzelei'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -15603,10 +15603,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Kush's Farmable) - Missing .....
         id: 106201,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Kush's Farmable)`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -15632,10 +15632,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Rebol's Farmable) - Missing .....
         id: 106211,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Rebol's Farmable)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -15661,10 +15661,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Kush's TW) - Missing .....
         id: 106221,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Kush's TW)`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -15690,10 +15690,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Rebol's TW) - Missing .....
         id: 106231,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Rebol's TW)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -15719,10 +15719,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Saint Blaze' - Missing .....
         id: 106241,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Saint Blaze'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -15748,10 +15748,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Belle's Farmable) - Missing .....
         id: 106251,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Belle's Farmable)`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -15777,10 +15777,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Belle's Farmable) - Missing .....
         id: 106261,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Belle's Farmable)`,
+        type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
             {
@@ -15806,10 +15806,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Valtrenith' - Missing .....
         id: 106271,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Valtrenith'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -15835,10 +15835,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Tia's Farmable) - Missing .....
         id: 106281,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Tia's Farmable)`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -15864,10 +15864,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Tia's Farmable) - Missing .....
         id: 106291,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Tia's Farmable)`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -15893,10 +15893,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Tia's TW) - Missing .....
         id: 106301,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Tia's TW)`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -15922,10 +15922,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Blazing Cloak 'Flame Stola' - Missing .....
         id: 106311,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Blazing Cloak 'Flame Stola'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -15951,11 +15951,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Fire Boots 'Rubellum' - Missing .....
         id: 106321,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Fire Boots 'Rubellum'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_106320.png`,
@@ -15980,10 +15980,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Star Etcher 'Asterisk' - Missing .....
         id: 106331,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Star Etcher 'Asterisk'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -16009,11 +16009,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Inventor Robe 'Genesis' - Missing .....
         id: 106341,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Inventor Robe 'Genesis'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_106340.png`,
@@ -16038,10 +16038,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Asterisk' - Missing .....
         id: 106351,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Asterisk'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -16067,10 +16067,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Flambardo' - Missing .....
         id: 106361,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Flambardo'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -16096,11 +16096,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Incensed Helm 'Astragoth' - Missing .....
         id: 106371,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Incensed Helm 'Astragoth'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_106370.png`,
@@ -16125,10 +16125,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Shadowflame Helm 'Helioskia' - Missing .....
         id: 106381,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Shadowflame Helm 'Helioskia'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -16154,10 +16154,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Enchanted Rifle 'Stratega' - Missing .....
         id: 106391,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Enchanted Rifle 'Stratega'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -16183,11 +16183,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Stealth Gear 'Atra Nebula' - Missing .....
         id: 106401,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Stealth Gear 'Atra Nebula'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_106400.png`,
@@ -16212,10 +16212,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Stratega' - Missing .....
         id: 106411,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Stratega'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -16241,10 +16241,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Stealth Blade 'Nanashi' - Missing .....
         id: 106421,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Stealth Blade 'Nanashi'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -16270,11 +16270,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Twilight Dagger 'YOICHI' - Missing .....
         id: 106431,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Twilight Dagger 'YOICHI'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_106430.png`,
@@ -16299,10 +16299,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'NANASHI' - Missing .....
         id: 106441,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'NANASHI'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -16328,10 +16328,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Sai's Farmable) - Missing .....
         id: 106451,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Sai's Farmable)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -16357,10 +16357,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Sai's Farmable) - Missing .....
         id: 106461,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Sai's Farmable)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -16386,11 +16386,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Sai's Farmable) - Missing .....
         id: 106471,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `JP Equip Name (Sai's Farmable)`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_106470.png`,
@@ -16415,10 +16415,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Magmation' - Missing .....
         id: 106481,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Magmation'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -16444,10 +16444,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Sai's TW) - Missing .....
         id: 106491,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Sai's TW)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -16473,10 +16473,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Barossa's Farmable) - Missing .....
         id: 106501,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Barossa's Farmable)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -16502,10 +16502,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Melissa's Farmable) - Missing .....
         id: 106511,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Melissa's Farmable)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -16531,10 +16531,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Barossa's TW) - Missing .....
         id: 106521,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Barossa's TW)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -16560,10 +16560,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Arbasol' - Missing .....
         id: 106531,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Arbasol'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -16589,11 +16589,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Divine Arachnid's Blood - Missing ..... (Enchantable Equip)
         id: 106541,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Divine Arachnid's Blood`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_106540.png`,
@@ -16614,13 +16614,14 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: ``
+                ability1: [`10% Burn RES`, `10% Poison RES`, `10% Freeze RES`, `10% Blind RES`, `Auto-Heal 2 HP/s`],
+                ability2: [`5% Fire RES`, `5% Dark RES`, `5% Light RES`, `Auto-Heal 4 HP/s`]
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Divine Arachnid's Tears - Missing ..... (Enchantable Equip)
         id: 106551,
-        name: `Placeholder`,
+        name: ``,
         type: `/db/Mines/thumbnail/LB.png`,
         star: 5,
         image: 
@@ -16643,14 +16644,15 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: ``
+                ability1: [`10% Burn RES`, `10% Poison RES`, `10% Freeze RES`, `5% DMG UP against Dark enemies`, `5% DMG UP against Light enemies`],
+                ability2: [`5% Light RES`, `5% Fire RES`, `5% Dark RES`, `10% DMG UP against God enemies`, `10% DMG UP against Demon enemies`]
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'EX Gate' - Missing .....
         id: 106581,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'EX Gate'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -16676,10 +16678,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Star Crest 'EX Gate' - Missing .....
         id: 106591,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Star Crest 'EX Gate'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -16705,11 +16707,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Star Robe 'Regalia' - Missing .....
         id: 106601,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Star Robe 'Regalia'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_106600.png`,
@@ -16734,10 +16736,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Dieago's Ring - Missing .....
         id: 106611,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Dieago's Ring`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -16763,10 +16765,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Ruschel's Spear 'Amphisbaena' - Missing .....
         id: 106621,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Ruschel's Spear 'Amphisbaena'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -16792,10 +16794,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Agora's Dagger - Missing .....
         id: 106631,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Agora's Dagger`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -16821,10 +16823,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Obscure Blade 'Vanish' - Missing .....
         id: 106641,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Obscure Blade 'Vanish'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -16850,11 +16852,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Illusory Boots 'Geist' - Missing .....
         id: 106651,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Illusory Boots 'Geist'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_106650.png`,
@@ -16879,10 +16881,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Vanish' - Missing .....
         id: 106661,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Vanish'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -16908,10 +16910,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing ..... (109951 = Garm EV Equip)
+{ //JP Equip Name (Garm Raid Equip) - Missing ..... (109951 = Garm EV Equip)
         id: 106671,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Garm Raid Equip)`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -16937,10 +16939,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Light Relic 'Light Oath Pendant' - Missing .....
         id: 106681,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Light Relic 'Light Oath Pendant'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -16966,10 +16968,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Dark Relic 'Dark Oath Pendant' - Missing .....
         id: 106691,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Dark Relic 'Dark Oath Pendant'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -16995,10 +16997,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Forbidden 'Demonic Seal' - Missing .....
         id: 106701,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Forbidden 'Demonic Seal'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -17024,10 +17026,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Ninja Spear 'Netherworld Silver' - Missing .....
         id: 106711,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Ninja Spear 'Netherworld Silver'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -17053,10 +17055,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Demonic Seal' - Missing .....
         id: 106721,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Demonic Seal'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -17082,10 +17084,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Netherworld Silver' - Missing .....
         id: 106731,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Netherworld Silver'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -17111,10 +17113,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Pyro Blade 'Will-o'-the-Wisp' - Missing .....
         id: 106741,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Pyro Blade 'Will-o'-the-Wisp'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -17140,10 +17142,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Storm Blade 'TSUJI-KAZE' - Missing .....
         id: 106751,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Storm Blade 'TSUJI-KAZE'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -17169,10 +17171,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Will-o'-the-Wisp' - Missing .....
         id: 106761,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Will-o'-the-Wisp'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -17198,10 +17200,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'TSUJI-KAZE' - Missing .....
         id: 106771,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'TSUJI-KAZE'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -17227,10 +17229,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Platina's Golden Bikini - Missing .....
         id: 106781,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Platina's Golden Bikini`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -17256,10 +17258,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Parlot's Southern Aloha Shirt - Missing .....
         id: 106791,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Parlot's Southern Aloha Shirt`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -17285,10 +17287,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Nies' Surf Shorts - Missing .....
         id: 106801,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Nies' Surf Shorts`,
+        type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
             {
@@ -17314,10 +17316,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Sanstone's Summer Dress - Missing .....
         id: 106811,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Sanstone's Summer Dress`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -17343,11 +17345,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Sanstone's Monster-shaped Dinghy - Missing .....
         id: 106821,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Sanstone's Monster-shaped Dinghy`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_106820.png`,
@@ -17372,11 +17374,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Platina's Gorgeous Fan - Missing .....
         id: 106831,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Platina's Gorgeous Fan`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_106830.png`,
@@ -17401,10 +17403,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Adele's Farmable) - Missing .....
         id: 106841,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Adele's Farmable)`,
+        type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
             {
@@ -17430,10 +17432,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Empath' - Missing .....
         id: 106851,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Empath'`,
+        type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
             {
@@ -17459,10 +17461,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Leone's Crest Bikini - Missing .....
         id: 106861,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Leone's Crest Bikini`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -17488,10 +17490,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Riviera's Battle Bikini - Missing .....
         id: 106871,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Riviera's Battle Bikini`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -17517,11 +17519,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Riviera's Floating Mattress - Missing .....
         id: 106881,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Riviera's Floating Mattress`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_106880.png`,
@@ -17546,10 +17548,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Rosetta's Mermaid Bikini - Missing .....
         id: 106891,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Rosetta's Mermaid Bikini`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -17575,11 +17577,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Rosetta's Pareo - Missing .....
         id: 106901,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Rosetta's Pareo`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_106900.png`,
@@ -17604,10 +17606,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Berwick's Magia Surf Shorts - Missing .....
         id: 106911,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Berwick's Magia Surf Shorts`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -17633,10 +17635,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name - Missing .....
         id: 106921,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -17662,10 +17664,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Orgah's Farmable) - Missing .....
         id: 106931,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Orgah's Farmable)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -17691,10 +17693,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True "Exferia" - Missing .....
         id: 106941,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True "Exferia"`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -17720,10 +17722,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Genesis Blade “Creation” - Missing .....
         id: 106951,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Genesis Blade “Creation”`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -17749,10 +17751,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Creation' - Missing .....
         id: 106961,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Creation'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -17778,10 +17780,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Flying Timepiece “Chronos” - Missing .....
         id: 106971,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Flying Timepiece “Chronos”`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -17807,10 +17809,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Oni Arm 'Crimson Talon' - Missing .....
         id: 106981,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Oni Arm 'Crimson Talon'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -17836,10 +17838,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Crimson Talon' - Missing .....
         id: 106991,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Crimson Talon'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -17865,10 +17867,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Mech Blades 'Dual Thunderbolts' - Missing .....
         id: 107001,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Mech Blades 'Dual Thunderbolts'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -17894,10 +17896,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Dual Thunderbolts' - Missing .....
         id: 107011,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Dual Thunderbolts'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -17923,10 +17925,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Ninja Garb 'Mirage Kimono' - Missing .....
         id: 107021,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Ninja Garb 'Mirage Kimono'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -17952,10 +17954,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Mirage Kimono' - Missing .....
         id: 107031,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Mirage Kimono'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -17981,10 +17983,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Demon Edge 'Blood Moon' - Missing .....
         id: 107041,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Demon Edge 'Blood Moon'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -18010,10 +18012,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Blood Moon' - Missing .....
         id: 107051,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Blood Moon'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -18039,10 +18041,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Plant Raid Equip) - Missing .....
         id: 107061,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Plant Raid Equip)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -18068,10 +18070,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Vermilia's Farmable) - Missing .....
         id: 107071,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Vermilia's Farmable)`,
+        type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
             {
@@ -18097,10 +18099,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Flerunica' - Missing .....
         id: 107081,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Flerunica'`,
+        type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
             {
@@ -18126,10 +18128,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Vernonica's Farmable) - Missing .....
         id: 107091,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Vernonica's Farmable)`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -18155,10 +18157,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Lizaverde' - Missing .....
         id: 107101,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Lizaverde'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -18184,10 +18186,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Aluze's Farmable) - Missing .....
         id: 107111,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Aluze's Farmable)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -18213,10 +18215,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Leivachka' - Missing .....
         id: 107121,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Leivachka'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -18242,10 +18244,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Garlan's Farmable) - Missing .....
         id: 107131,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Garlan's Farmable)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -18271,10 +18273,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Yulibert' - Missing .....
         id: 107141,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Yulibert'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -18300,10 +18302,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing ..... (109561 = Ragsherum EV Equip)
+{ //Jack-O-Sherum's Cape - Missing ..... (109561 = Ragsherum EV Equip)
         id: 107151,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Jack-O-Sherum's Cape`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -18329,16 +18331,16 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Jack-O-Bomb - Missing .....
         id: 107161,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Jack-O-Bomb`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
         image: 
             {
-                detail: `/db/Equipment/Detail/item_detail_107160.png`,
+                detail: ``,
                 detailmax: `/db/Equipment/Detail/item_detail_107161.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107160.png`,
+                thumb: ``,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107161.png`
             },
         stats:
@@ -18358,16 +18360,16 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Mega Jack-O-Bomb - Missing .....
         id: 107171,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Mega Jack-O-Bomb`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
-                detail: `/db/Equipment/Detail/item_detail_107170.png`,
+                detail: ``,
                 detailmax: `/db/Equipment/Detail/item_detail_107171.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_107170.png`,
+                thumb: ``,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_107171.png`
             },
         stats:
@@ -18387,11 +18389,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Prince Berwick's Garb - Missing .....
         id: 107181,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Prince Berwick's Garb`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_107180.png`,
@@ -18416,10 +18418,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Cheer Squad Riviera - Missing .....
         id: 107191,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Cheer Squad Riviera`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -18445,10 +18447,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Thetis' Chef Hat - Missing .....
         id: 107201,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Thetis' Chef Hat`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -18474,10 +18476,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Duke's Bad Boy Jacket - Missing .....
         id: 107211,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Duke's Bad Boy Jacket`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -18503,10 +18505,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Vampire Cutie Rosetta - Missing .....
         id: 107221,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Vampire Cutie Rosetta`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -18532,11 +18534,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Leone's Candy Pink Smock - Missing .....
         id: 107231,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Leone's Candy Pink Smock`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_107230.png`,
@@ -18561,10 +18563,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Brodithung' - Missing .....
         id: 107241,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Brodithung'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -18590,10 +18592,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Automatic 'SV61' - Missing .....
         id: 107251,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Automatic 'SV61'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -18619,10 +18621,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'SV61' - Missing .....
         id: 107261,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'SV61'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -18648,11 +18650,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Specialist 'Tailor's Pride' - Missing .....
         id: 107271,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Specialist 'Tailor's Pride'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_107270.png`,
@@ -18677,10 +18679,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Valiant' - Missing .....
         id: 107281,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Valiant'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -18706,10 +18708,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Vengeance' - Missing .....
         id: 107291,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Vengeance'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -18735,10 +18737,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Robe of Mercy 'Vacant' - Missing .....
         id: 107301,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Robe of Mercy 'Vacant'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -18764,11 +18766,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Emotional Soul 'Stella Bough' - Missing .....
         id: 107311,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Emotional Soul 'Stella Bough'`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_107310.png`,
@@ -18793,10 +18795,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Withered Soul 'Meteor Bough' - Missing .....
         id: 107321,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Withered Soul 'Meteor Bough'`,
+        type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
             {
@@ -18822,10 +18824,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Sword of the Stars 'Supernova' - Missing .....
         id: 107331,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Sword of the Stars 'Supernova'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -18851,10 +18853,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Supernova' - Missing .....
         id: 107341,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Supernova'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -18880,10 +18882,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Coat of Plates 'Fighting Spirit' - Missing .....
         id: 107351,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Coat of Plates 'Fighting Spirit'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -18909,10 +18911,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Petra Shield - Missing .....
         id: 107361,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Petra Shield`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -18938,10 +18940,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Veil of Serenity - Missing .....
         id: 107371,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Veil of Serenity`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -18967,10 +18969,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Wanderer's Jade Flute - Missing .....
         id: 107381,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Wanderer's Jade Flute`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -18996,10 +18998,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Silk Guiding Broom 'Etoile' - Missing .....
         id: 107391,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Silk Guiding Broom 'Etoile'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -19025,10 +19027,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Etoile' - Missing .....
         id: 107401,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Etoile'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -19054,10 +19056,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Magisaw 'Pathmaker' - Missing .....
         id: 107411,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Magisaw 'Pathmaker'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -19083,10 +19085,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Loyal Santa Vox Plushie - Missing .....
         id: 107421,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Loyal Santa Vox Plushie`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -19112,10 +19114,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Santa Wizard Berwick Plushie - Missing .....
         id: 107431,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Santa Wizard Berwick Plushie`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -19141,10 +19143,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Sexy Santa Riviera Plushie - Missing .....
         id: 107441,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Sexy Santa Riviera Plushie`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -19170,10 +19172,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Devoted Reindeer Thetis Plushie - Missing .....
         id: 107451,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Devoted Reindeer Thetis Plushie`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -19199,10 +19201,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Dauntless Reindeer Duke Plushie - Missing .....
         id: 107461,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Dauntless Reindeer Duke Plushie`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -19228,10 +19230,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Strawberry Cake Rosetta Plushie - Missing .....
         id: 107471,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Strawberry Cake Rosetta Plushie`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -19257,10 +19259,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Giftbox Leone Plushie - Missing .....
         id: 107481,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Giftbox Leone Plushie`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -19286,11 +19288,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Rus' Happy Doll - Missing .....
         id: 107491,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Rus' Happy Doll`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_107490.png`,
@@ -19315,10 +19317,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Ugetsu Raid Equip) - Missing .....
         id: 107501,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Ugetsu Raid Equip)`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -19344,10 +19346,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Holy Skull 'Saint's Mind' - Missing .....
         id: 107511,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Holy Skull 'Saint's Mind'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -19373,10 +19375,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Stained Wings 'Skia Ptera' - Missing .....
         id: 107521,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Stained Wings 'Skia Ptera'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -19402,10 +19404,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Assault Rifle Sable - Missing .....
         id: 107531,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Assault Rifle Sable`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -19431,10 +19433,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Assault Rifle Sable' - Missing .....
         id: 107541,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Assault Rifle Sable'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -19460,11 +19462,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Forte's Boots - Missing .....
         id: 107551,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Forte's Boots`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_107550.png`,
@@ -19489,10 +19491,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Shurahalt' - Missing .....
         id: 107561,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Shurahalt'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -19518,11 +19520,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Alloy Shield 'Arda Core' - Missing .....
         id: 107571,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Alloy Shield 'Arda Core'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_107570.png`,
@@ -19547,10 +19549,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Anti Shield 'Abyss Core' - Missing .....
         id: 107581,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Anti Shield 'Abyss Core'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -19576,10 +19578,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Sword of Glorious Will 'Grand Destin' - Missing .....
         id: 107591,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Sword of Glorious Will 'Grand Destin'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -19605,10 +19607,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Grand Destin' - Missing .....
         id: 107601,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Grand Destin'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -19634,11 +19636,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Supreme Mantle 'Ailes Blanches - Missing .....
         id: 107611,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Supreme Mantle 'Ailes Blanches`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_107610.png`,
@@ -19663,10 +19665,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Blazing Greataxe 'Drago La'cryma' - Missing .....
         id: 107621,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Blazing Greataxe 'Drago La'cryma'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -19692,10 +19694,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Drago La'cryma' - Missing .....
         id: 107631,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Drago La'cryma'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -19721,10 +19723,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Gemstone Boots 'Melusine' - Missing .....
         id: 107641,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Gemstone Boots 'Melusine'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -19750,10 +19752,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Tonetaurus Raid Equip) - Missing .....
         id: 107651,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Tonetaurus Raid Equip)`,
+        type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
             {
@@ -19779,10 +19781,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Berserk' - Missing .....
         id: 107661,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Berserk'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -19808,10 +19810,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Ashleigh's Farmable) - Missing .....
         id: 107671,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Ashleigh's Farmable)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -19837,10 +19839,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Scintilla' - Missing .....
         id: 107681,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Scintilla'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -19866,11 +19868,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Ashleigh's Farmable) - Missing .....
         id: 107691,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `JP Equip Name (Ashleigh's Farmable)`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_107690.png`,
@@ -19895,10 +19897,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Salyssa's Farmable) - Missing .....
         id: 107701,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Salyssa's Farmable)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -19924,10 +19926,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Bandiera' - Missing .....
         id: 107711,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Bandiera'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -19953,11 +19955,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Salyssa's Farmable) - Missing .....
         id: 107721,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `JP Equip Name (Salyssa's Farmable)`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_107720.png`,
@@ -19982,11 +19984,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Blaze Coil 'Annulus' - Missing .....
         id: 107731,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Blaze Coil 'Annulus'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_107730.png`,
@@ -20011,10 +20013,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Ruinous Coil 'Galelion' - Missing .....
         id: 107741,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Ruinous Coil 'Galelion'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -20040,10 +20042,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Heavy Arms 'Arsenal Wall' - Missing .....
         id: 107751,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Heavy Arms 'Arsenal Wall'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -20069,10 +20071,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Arsenal' - Missing .....
         id: 107761,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Arsenal'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -20098,11 +20100,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Heavy Arms 'Arsenal Leaf' - Missing .....
         id: 107771,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Heavy Arms 'Arsenal Leaf'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_107770.png`,
@@ -20127,10 +20129,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Blazing Dragon Goblet 'Rubia Irae' - Missing .....
         id: 107781,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Blazing Dragon Goblet 'Rubia Irae'`,
+        type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
             {
@@ -20156,10 +20158,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Torrent Dragon Goblet 'Altus' - Missing .....
         id: 107791,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Torrent Dragon Goblet 'Altus'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -20185,10 +20187,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Sylvan Dragon Goblet 'Granatum' - Missing .....
         id: 107801,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Sylvan Dragon Goblet 'Granatum`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -20214,10 +20216,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Cursed Chains 'Discontent' - Missing .....
         id: 107811,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Cursed Chains 'Discontent'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -20243,10 +20245,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Discontent' - Missing .....
         id: 107821,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Discontent'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -20272,10 +20274,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //False Crown 'Dream Glutton' - Missing .....
         id: 107831,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `False Crown 'Dream Glutton'`,
+        type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
             {
@@ -20301,10 +20303,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Moonlight Grail 'Aura' - Missing .....
         id: 107841,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Moonlight Grail 'Aura'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -20330,10 +20332,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Burial Grail 'Nox' - Missing .....
         id: 107851,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Burial Grail 'Nox'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -20359,10 +20361,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Expanding Shield 'E-Field' - Missing .....
         id: 107861,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Expanding Shield 'E-Field'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -20388,10 +20390,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Astral Robe 'Axis' - Missing .....
         id: 107871,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Astral Robe 'Axis'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -20417,10 +20419,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Scatter-18 - Missing .....
         id: 107881,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Scatter-18`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -20446,10 +20448,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Scatter-18' - Missing .....
         id: 107891,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Scatter-18'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -20475,10 +20477,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Geek Shielder - Missing .....
         id: 107901,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Geek Shielder`,
+        type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
             {
@@ -20504,10 +20506,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Geek Shielder' - Missing .....
         id: 107911,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Geek Shielder'`,
+        type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
             {
@@ -20533,10 +20535,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name - Missing .....
         id: 107921,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -20562,10 +20564,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Phantom Horn 'Cantabile' - Missing .....
         id: 107931,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Phantom Horn 'Cantabile'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -20591,10 +20593,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Cantabile' - Missing .....
         id: 107941,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Cantabile'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -20620,11 +20622,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Shako of Aspiration 'Betzfald' - Missing .....
         id: 107951,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Shako of Aspiration 'Betzfald'`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_107950.png`,
@@ -20649,10 +20651,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Blade of Secrets 'Insight' - Missing .....
         id: 107961,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Blade of Secrets 'Insight'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -20678,10 +20680,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Insight' - Missing .....
         id: 107971,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Insight'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -20707,11 +20709,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Voracious Coat 'Splendor' - Missing .....
         id: 107981,
-        name: `Placeholder`,
+        name: `Voracious Coat 'Splendor'`,
         type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_107980.png`,
@@ -20736,10 +20738,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Oathkeeper 'Testament' - Missing .....
         id: 107991,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Oathkeeper 'Testament'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -20765,10 +20767,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Testament' - Missing .....
         id: 108001,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Testament'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -20794,10 +20796,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Eclipse Crown 'Todestrieb' - Missing .....
         id: 108011,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Eclipse Crown 'Todestrieb'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -20823,10 +20825,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Ashe's Farmable) - Missing .....
         id: 108021,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Ashe's Farmable)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -20852,10 +20854,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Rayas' Sunny Aloha Shirt - Missing .....
         id: 108031,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Rayas' Sunny Aloha Shirt`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -20881,11 +20883,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Iris' Sunshine Straw Hat - Missing .....
         id: 108041,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Iris' Sunshine Straw Hat`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_108040.png`,
@@ -20910,10 +20912,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Mira's Tropical Hula - Missing .....
         id: 108051,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Mira's Tropical Hula`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -20939,10 +20941,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Fen's Beach Sunglasses - Missing .....
         id: 108061,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Fen's Beach Sunglasses`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -20968,10 +20970,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Serah's Almighty Cute Maid Swimsuit - Missing .....
         id: 108071,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Serah's Almighty Cute Maid Swimsuit`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -20997,11 +20999,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Scatter H2O - Missing .....
         id: 108081,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Scatter H2O`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_108080.png`,
@@ -21026,10 +21028,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Inferno Boots 'Caliente' - Missing .....
         id: 108091,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Inferno Boots 'Caliente'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -21055,10 +21057,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Scintillation - Missing .....
         id: 108101,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Scintillation`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -21084,10 +21086,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Scintillation' - Missing .....
         id: 108111,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Scintillation'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -21113,10 +21115,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Velocity' - Missing .....
         id: 108121,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Velocity'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -21142,11 +21144,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Glister - Missing .....
         id: 108131,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Glister`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_108130.png`,
@@ -21171,10 +21173,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Interlocking Edges 'Velocity' - Missing .....
         id: 108141,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Interlocking Edges 'Velocity'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -21200,10 +21202,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Ragsherum Raid Equip) - Missing .....
         id: 108151,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Ragsherum Raid Equip)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -21229,10 +21231,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Ragsherum Raid Equip) - Missing .....
         id: 108161,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Ragsherum Raid Equip)`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -21258,10 +21260,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Ces' Wavy Frill - Missing .....
         id: 108171,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Ces' Wavy Frill`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -21287,10 +21289,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Liza's Pearly One-Piece - Missing .....
         id: 108181,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Liza's Pearly One-Piece`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -21316,10 +21318,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Orvell's Sunny Trunks - Missing .....
         id: 108191,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Orvell's Sunny Trunks`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -21345,10 +21347,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Luahn's Shady Canopy - Missing .....
         id: 108201,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Luahn's Shady Canopy`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -21374,10 +21376,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Chloe's Eye Service - Missing .....
         id: 108211,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Chloe's Eye Service`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -21403,11 +21405,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Radak's Lifejacket - Missing .....
         id: 108221,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Radak's Lifejacket`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_108220.png`,
@@ -21432,10 +21434,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name - Missing .....
         id: 108231,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -21461,11 +21463,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Blaze Garb 'Akanehitoe' - Missing .....
         id: 108241,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Blaze Garb 'Akanehitoe'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_108240.png`,
@@ -21490,10 +21492,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Hellflame Garb 'Gurenhitoe' - Missing .....
         id: 108251,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Hellflame Garb 'Gurenhitoe'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -21519,10 +21521,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Raine's Farmable) - Missing .....
         id: 108261,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Raine's Farmable)`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -21548,10 +21550,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Colori' - Missing .....
         id: 108271,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Colori'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -21577,11 +21579,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Raine's Farmable) - Missing .....
         id: 108281,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `JP Equip Name (Raine's Farmable)`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_108280.png`,
@@ -21606,10 +21608,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Alulu's Farmable) - Missing .....
         id: 108291,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Alulu's Farmable)`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -21635,10 +21637,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Bastone' - Missing .....
         id: 108301,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Bastone'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -21664,11 +21666,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Alulu's Farmable) - Missing .....
         id: 108311,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `JP Equip Name (Alulu's Farmable)`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_108310.png`,
@@ -21693,10 +21695,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Edel Kleid - Missing .....
         id: 108321,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Edel Kleid`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -21722,11 +21724,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Majestic Crest - Missing .....
         id: 108331,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Majestic Crest`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_108330.png`,
@@ -21751,10 +21753,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Smashing Heart 'MorNyan Star' - Missing .....
         id: 108341,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Smashing Heart 'MorNyan Star'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -21780,10 +21782,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'MorNyan Star' - Missing .....
         id: 108351,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'MorNyan Star'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -21809,11 +21811,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Thinking Cap 'GeNyas' - Missing .....
         id: 108361,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Thinking Cap 'GeNyas'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_108360.png`,
@@ -21838,11 +21840,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Cestina's Scrubs - Missing .....
         id: 108371,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Cestina's Scrubs`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_108370.png`,
@@ -21867,10 +21869,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Angelas' Royal Dress - Missing .....
         id: 108381,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Angelas' Royal Dress`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -21896,11 +21898,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Luahn's Sprinting Shorts - Missing .....
         id: 108391,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Luahn's Sprinting Shorts`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_108390.png`,
@@ -21925,10 +21927,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Victoire's Catsuit - Missing .....
         id: 108401,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Victoire's Catsuit`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -21954,10 +21956,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Liza's Smart Skirt - Missing .....
         id: 108411,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Liza's Smart Skirt`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -21983,10 +21985,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Orvell's Sailor Shirt - Missing .....
         id: 108421,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Orvell's Sailor Shirt`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -22012,10 +22014,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Jack-O-Sherum Plushie - Missing .....
         id: 108431,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Jack-O-Sherum Plushie`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -22041,10 +22043,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Tami-Nyan's Farmable) - Missing .....
         id: 108441,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Tami-Nyan's Farmable)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -22070,10 +22072,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Azure Offering' - Missing .....
         id: 108451,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Azure Offering'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -22099,10 +22101,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Miri-Nyan's Farmable) - Missing .....
         id: 108461,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Miri-Nyan's Farmable)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -22128,11 +22130,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Starving Root 'Trypdola' - Missing .....
         id: 108471,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Starving Root 'Trypdola'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_108470.png`,
@@ -22157,10 +22159,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Despair Vine 'Groldola' - Missing .....
         id: 108481,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Despair Vine 'Groldola'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -22186,10 +22188,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Oracle Index 'Vertrag' - Missing .....
         id: 108491,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Oracle Index 'Vertrag'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -22215,10 +22217,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Vertrag' - Missing .....
         id: 108501,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Vertrag'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -22244,11 +22246,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Empty Grandeur 'Mizer' - Missing .....
         id: 108511,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Empty Grandeur 'Mizer'`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_108510.png`,
@@ -22273,10 +22275,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Basilisk' - Missing .....
         id: 108521,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Basilisk'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -22302,10 +22304,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Santa Ces, Gifting Justice - Missing .....
         id: 108541,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Santa Ces, Gifting Justice`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -22331,10 +22333,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Santa Liza, Seeking Wisdom - Missing .....
         id: 108551,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Santa Liza, Seeking Wisdom`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -22360,10 +22362,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Santa Orvell, Standing Firm - Missing .....
         id: 108561,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Santa Orvell, Standing Firm`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -22389,10 +22391,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Reindeer Luahn, Finding Bravery - Missing .....
         id: 108571,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Reindeer Luahn, Finding Bravery`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -22418,10 +22420,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Reindeer Eagle, Dutiful Defender - Missing .....
         id: 108581,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Reindeer Eagle, Dutiful Defender`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -22447,10 +22449,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Jolly Bakoo Doll - Missing .....
         id: 108591,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Jolly Bakoo Doll`,
+        type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
             {
@@ -22476,10 +22478,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Jingle Bells - Missing .....
         id: 108601,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Jingle Bells`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -22505,10 +22507,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Raid Equip) - Missing .....
         id: 108631,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Raid Equip)`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -22534,10 +22536,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Light Relic 'Miraculous Sands' - Missing .....
         id: 108641,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Light Relic 'Miraculous Sands'`,
+        type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
             {
@@ -22563,10 +22565,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Dark Relic 'Abyssal Sands' - Missing .....
         id: 108651,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Dark Relic 'Abyssal Sands'`,
+        type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
             {
@@ -22592,10 +22594,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Shining Buckler 'Engaged Shield' - Missing .....
         id: 108661,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Shining Buckler 'Engaged Shield'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -22621,10 +22623,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Engaged Shield' - Missing .....
         id: 108671,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Engaged Shield'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -22650,10 +22652,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Radiant Sword 'Flaredight' - Missing .....
         id: 108681,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Radiant Sword 'Flaredight'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -22679,11 +22681,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Skull Helm 'Dusk Roar' - Missing .....
         id: 108691,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Skull Helm 'Dusk Roar'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_108690.png`,
@@ -22708,10 +22710,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Void Helm 'Disaster' - Missing .....
         id: 108701,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Void Helm 'Disaster'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -22737,10 +22739,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Serah's Farmable) - Missing .....
         id: 108711,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Serah's Farmable)`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -22766,10 +22768,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Ready Maid' - Missing .....
         id: 108721,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Ready Maid'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -22795,11 +22797,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Serah's Farmable) - Missing .....
         id: 108731,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `JP Equip Name (Serah's Farmable)`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_108730.png`,
@@ -22824,10 +22826,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Water Relic 'Soul Lattice' - Missing .....
         id: 108741,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Water Relic 'Soul Lattice'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -22853,10 +22855,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Earth Relic 'Cyclus Fati' - Missing .....
         id: 108751,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Earth Relic 'Cyclus Fati'`,
+        type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
             {
@@ -22882,10 +22884,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Fire Relic 'Flaming Knight's Eyes' - Missing .....
         id: 108761,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Fire Relic 'Flaming Knight's Eyes'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -22911,10 +22913,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Wild Cat' - Missing .....
         id: 108771,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Wild Cat'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -22940,10 +22942,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Rits' Farmable) - Missing .....
         id: 108781,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Rits' Farmable)`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -22969,10 +22971,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Wonderful' - Missing .....
         id: 108791,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Wonderful'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -22998,10 +23000,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Rits' Farmable) - Missing .....
         id: 108801,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Rits' Farmable)`,
+        type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
             {
@@ -23027,10 +23029,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Night Jacket - Missing .....
         id: 108811,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Night Jacket`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -23056,10 +23058,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Night Jacket' - Missing .....
         id: 108821,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Night Jacket'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -23085,10 +23087,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Night Edge' - Missing .....
         id: 108831,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Night Edge'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -23114,11 +23116,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Night Walkers - Missing .....
         id: 108841,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Night Walkers`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_108840.png`,
@@ -23143,10 +23145,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Night Edge - Missing .....
         id: 108851,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Night Edge`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -23172,10 +23174,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Hepaistos' - Missing .....
         id: 108861,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Hepaistos'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -23201,10 +23203,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Raid Equip) - Missing .....
         id: 108871,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Raid Equip)`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -23230,10 +23232,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Ember Bolt' - Missing .....
         id: 108881,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Ember Bolt'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -23259,10 +23261,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Candent Bow 'Ember Bolt' - Missing .....
         id: 108891,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Candent Bow 'Ember Bolt'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -23288,10 +23290,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Blazing Boots 'Ignition' - Missing .....
         id: 108901,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Blazing Boots 'Ignition'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -23317,10 +23319,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Jaeger' - Missing .....
         id: 108911,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Jaeger'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -23346,10 +23348,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Jaeger M4A2 - Missing .....
         id: 108921,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Jaeger M4A2`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -23375,11 +23377,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Phantom Coat 'Stigma' - Missing .....
         id: 108931,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Phantom Coat 'Stigma'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_108930.png`,
@@ -23404,10 +23406,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name - Missing .....
         id: 108941,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -23433,10 +23435,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name - Missing .....
         id: 108951,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -23462,10 +23464,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Shrieking Claws 'Despair' - Missing .....
         id: 108961,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Shrieking Claws 'Despair'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -23491,10 +23493,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Ouen' - Missing .....
         id: 108971,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Ouen'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -23520,10 +23522,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Traditional Blade 'Ouen' - Missing .....
         id: 108981,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Traditional Blade 'Ouen'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -23549,11 +23551,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Airi's Boots - Missing .....
         id: 108991,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Airi's Boots`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_108990.png`,
@@ -23578,10 +23580,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing ..... (109011 = Palamicia EV Equip)
+{ //JP Equip Name (Palamicia Raid Equip) - Missing ..... (109011 = Palamicia EV Equip)
         id: 109001,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Palamicia Raid Equip)`,
+        type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
             {
@@ -23607,10 +23609,39 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name EV (Palamicia Raid Equip EV) - Missing .....
+        id: 109011,
+        name: `JP Equip Name EV (Palamicia Raid Equip EV)`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_109010.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_109011.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_109010.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109011.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ //True 'Gold Rush' - Missing .....
         id: 109021,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Gold Rush'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -23636,10 +23667,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Sharon's Farmable) - Missing .....
         id: 109031,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Sharon's Farmable)`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -23665,11 +23696,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Sharon's Farmable) - Missing .....
         id: 109041,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `JP Equip Name (Sharon's Farmable)`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_109040.png`,
@@ -23694,10 +23725,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Bel Canto' - Missing .....
         id: 109051,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Bel Canto'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -23723,10 +23754,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Bel Canto M3 - Missing .....
         id: 109061,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Bel Canto M3`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -23752,11 +23783,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Archaic Attire 'Antiqua' - Missing .....
         id: 109071,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Archaic Attire 'Antiqua'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_109070.png`,
@@ -23781,11 +23812,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Belgiras Mines Equip) - Missing .....
         id: 109081,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `JP Equip Name (Belgiras Mines Equip)`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_109080.png`,
@@ -23810,10 +23841,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Elite Belgiras Mines Equip) - Missing .....
         id: 109091,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Elite Belgiras Mines Equip)`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -23839,11 +23870,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Freydal Mines Equip) - Missing .....
         id: 109101,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `JP Equip Name (Freydal Mines Equip)`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_109100.png`,
@@ -23868,10 +23899,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Elite Freydal Mines Equip) - Missing .....
         id: 109111,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Elite Freydal Mines Equip)`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -23897,11 +23928,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Elpneumas Mines Equip) - Missing .....
         id: 109121,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `JP Equip Name (Elpneumas Mines Equip)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_109120.png`,
@@ -23926,10 +23957,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Elite Elpneumas Mines Equip) - Missing .....
         id: 109131,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Elite Elpneumas Mines Equip)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -23955,10 +23986,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Jade Star 'Le Courage' - Missing .....
         id: 109141,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Jade Star 'Le Courage'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -23984,10 +24015,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Spectral Talon - Missing .....
         id: 109151,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Spectral Talon`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -24013,10 +24044,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Spectral Wings - Missing .....
         id: 109161,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Spectral Wings`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -24042,10 +24073,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Hart's Waistline Headline - Missing .....
         id: 109171,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Hart's Waistline Headline`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -24071,10 +24102,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Priscilla's Summer Stakes - Missing .....
         id: 109181,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Priscilla's Summer Stakes`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -24100,10 +24131,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Vultee's Vista of Paradise - Missing .....
         id: 109191,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Vultee's Vista of Paradise`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -24129,10 +24160,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Simon's Nostalgic Shades - Missing .....
         id: 109201,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Simon's Nostalgic Shades`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -24158,11 +24189,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Miranda's Dynamite Blast - Missing .....
         id: 109211,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Miranda's Dynamite Blast`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_109210.png`,
@@ -24187,11 +24218,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Luana's Seaside Fantasy - Missing .....
         id: 109221,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Luana's Seaside Fantasy`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_109220.png`,
@@ -24216,10 +24247,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Castillo' - Missing .....
         id: 109231,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Castillo'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -24245,10 +24276,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Maximus' - Missing .....
         id: 109241,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Maximus'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -24274,10 +24305,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Valkian Heritage 'Maximus' - Missing .....
         id: 109251,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Valkian Heritage 'Maximus'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -24303,10 +24334,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Combat Coat 'Veste Noir' - Missing .....
         id: 109261,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Combat Coat 'Veste Noir'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -24332,10 +24363,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Flame Maiden's Satchel - Missing .....
         id: 109271,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Flame Maiden's Satchel`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -24361,10 +24392,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Atlante's Fangs - Missing .....
         id: 109281,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Atlante's Fangs`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -24390,10 +24421,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Glorious Decline - Missing .....
         id: 109291,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Glorious Decline`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -24419,10 +24450,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing ..... (109311 = Dark Helmet (Emi?) EV Equip)
+{ //JP Equip Name (Emi's Raid Equip) - Missing ..... (109311 = Dark Helmet (Emi?) EV Equip)
         id: 109301,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Emi's Raid Equip)`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -24448,10 +24479,39 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name EV (Emi's Raid Equip EV) - Missing .....
+        id: 109311,
+        name: `JP Equip Name EV (Emi's Raid Equip EV)`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: ``,
+                detailmax: `/db/Equipment/Detail/item_detail_109311.png`,
+                thumb: ``,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109311.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ //Leone's Precious One-Piece - Missing .....
         id: 109321,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Leone's Precious One-Piece`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -24477,10 +24537,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Juno's Seafoam Pareo - Missing .....
         id: 109331,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Juno's Seafoam Pareo`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -24506,10 +24566,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Blue Ray Vox - Missing .....
         id: 109341,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Blue Ray Vox`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -24535,10 +24595,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Duke the Legendary - Missing .....
         id: 109351,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Duke the Legendary`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -24564,10 +24624,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Riviera's Sundrenched Stunner - Missing .....
         id: 109361,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Riviera's Sundrenched Stunner`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -24593,10 +24653,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Thetis' Mikyu-Mate - Missing .....
         id: 109371,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Thetis' Mikyu-Mate`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -24622,11 +24682,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Leone's Pretty Parasol - Missing .....
         id: 109381,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Leone's Pretty Parasol`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_109380.png`,
@@ -24651,11 +24711,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Diever Boat 2021 Model - Missing .....
         id: 109391,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Diever Boat 2021 Model`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_109390.png`,
@@ -24680,10 +24740,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Elizabeth's Farmable) - Missing .....
         id: 109401,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Elizabeth's Farmable)`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -24709,10 +24769,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Elizabeth's Farmable) - Missing .....
         id: 109411,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Elizabeth's Farmable)`,
+        type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
             {
@@ -24738,10 +24798,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Selfish Aria' - Missing .....
         id: 109421,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Selfish Aria'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -24767,10 +24827,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Inspector Z4 - Missing .....
         id: 109431,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Inspector Z4`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -24796,11 +24856,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Selunian Brick Top - Missing .....
         id: 109441,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Selunian Brick Top`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_109440.png`,
@@ -24825,10 +24885,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Inspector' - Missing .....
         id: 109451,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Inspector'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -24854,10 +24914,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Ancient Law - Missing .....
         id: 109461,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Ancient Law`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -24883,10 +24943,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Nine Oaths - Missing .....
         id: 109471,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Nine Oaths`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -24912,11 +24972,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Dread Lotus - Missing .....
         id: 109481,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Dread Lotus`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_109480.png`,
@@ -24941,10 +25001,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Kingdom's Blade 'Grand Scale' - Missing .....
         id: 109491,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Kingdom's Blade 'Grand Scale'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -24970,10 +25030,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Ancient Law' - Missing .....
         id: 109501,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Ancient Law'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -24999,10 +25059,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Nine Oaths' - Missing .....
         id: 109511,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Nine Oaths'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -25028,10 +25088,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Grand Scale' - Missing .....
         id: 109521,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Grand Scale'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -25057,10 +25117,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name - Missing .....
         id: 109531,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -25086,10 +25146,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Degilmagna Mines Equip) - Missing .....
         id: 109541,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Degilmagna Mines Equip)`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -25115,10 +25175,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Jackosherum Raid Equip) - Missing .....
         id: 109551,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Jackosherum Raid Equip)`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -25144,10 +25204,39 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Jack-O-Sherum's Cape EV (JP) - Missing .....
+        id: 109561,
+        name: `Jack-O-Sherum's Cape EV`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: ``,
+                detailmax: `/db/Equipment/Detail/item_detail_109561.png`,
+                thumb: ``,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109561.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ //Hart's Discovery - Missing .....
         id: 109571,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Hart's Discovery`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -25173,10 +25262,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Priscilla's Maid Dress - Missing .....
         id: 109581,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Priscilla's Maid Dress`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -25202,10 +25291,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Vultee's Dandy Duds - Missing .....
         id: 109591,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Vultee's Dandy Duds`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -25231,10 +25320,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Miranda's Relived Youth - Missing .....
         id: 109601,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Miranda's Relived Youth`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -25260,10 +25349,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Bushido Master S - Missing .....
         id: 109611,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Bushido Master S`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -25289,10 +25378,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Bouncy Bunny Luana - Missing .....
         id: 109621,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Bouncy Bunny Luana`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -25318,10 +25407,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Astral Bolt' - Missing .....
         id: 109631,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Astral Bolt'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -25347,10 +25436,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Astral Bolt - Missing .....
         id: 109641,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Astral Bolt`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -25376,11 +25465,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Otherlight - Missing .....
         id: 109651,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Otherlight`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_109650.png`,
@@ -25405,10 +25494,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Cypher' - Missing .....
         id: 109661,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Cypher'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -25434,10 +25523,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Crew V' - Missing .....
         id: 109671,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Crew V'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -25463,10 +25552,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Cypher - Missing .....
         id: 109681,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Cypher`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -25492,10 +25581,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Crew V - Missing .....
         id: 109691,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Crew V`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -25521,11 +25610,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Vagrant - Missing .....
         id: 109701,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Vagrant`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_109700.png`,
@@ -25550,11 +25639,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Shielding Edge 'Will Craver' - Missing .....
         id: 109711,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Shielding Edge 'Will Craver'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_109710.png`,
@@ -25579,10 +25668,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Abyss Edge 'Star Craver' - Missing .....
         id: 109721,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Abyss Edge 'Star Craver'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -25608,10 +25697,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Barbatos' - Missing .....
         id: 109731,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Barbatos'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -25637,10 +25726,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Barbatos Mk. II - Missing .....
         id: 109741,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Barbatos Mk. II`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -25666,10 +25755,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Selunian Stormers - Missing .....
         id: 109751,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Selunian Stormers`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -25695,10 +25784,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Giltsole Boots - Missing .....
         id: 109761,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Giltsole Boots`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -25724,10 +25813,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Sky Light' - Missing .....
         id: 109771,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Sky Light'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -25753,10 +25842,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Terra Master' - Missing .....
         id: 109781,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Terra Master'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -25782,10 +25871,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Dark Bringer' - Missing .....
         id: 109791,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Dark Bringer'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -25811,10 +25900,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Sky Light Replica - Missing .....
         id: 109801,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Sky Light Replica`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -25840,10 +25929,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Terra Master Replica - Missing .....
         id: 109811,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Terra Master Replica`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -25869,10 +25958,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Dark Bringer Replica - Missing .....
         id: 109821,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Dark Bringer Replica`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -25898,10 +25987,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Joyful Santa Hart - Missing .....
         id: 109831,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Joyful Santa Hart`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -25927,10 +26016,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Sweet Snow Priscilla - Missing .....
         id: 109841,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Sweet Snow Priscilla`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -25956,10 +26045,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Dauntless Reindeer Vultee - Missing .....
         id: 109851,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Dauntless Reindeer Vultee`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -25985,10 +26074,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Warm Santa Miranda - Missing .....
         id: 109861,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Warm Santa Miranda`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -26014,10 +26103,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Nostalgic Santa Simon - Missing .....
         id: 109871,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Nostalgic Santa Simon`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -26043,10 +26132,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Dreaming Luana Doll - Missing .....
         id: 109881,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Dreaming Luana Doll`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -26072,10 +26161,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Winter Wonderland - Missing .....
         id: 109891,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Winter Wonderland`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -26101,10 +26190,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing ..... (109941 = Emi EV Equip)
+{ //JP Equip Name (Emi Raid Equip) - Missing ..... (109941 = Emi EV Equip)
         id: 109901,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Emi Raid Equip)`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -26130,10 +26219,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Assault Architect' - Missing .....
         id: 109911,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Assault Architect'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -26141,6 +26230,64 @@ const EquipInformation = [
                 detailmax: `/db/Equipment/Detail/item_detail_109911.png`,
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_109910.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109911.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ //JP Equip Name EV (Emi Raid Equip EV) - Missing .....
+        id: 109941,
+        name: `JP Equip Name EV (Emi Raid Equip EV)`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: ``,
+                detailmax: `/db/Equipment/Detail/item_detail_109941.png`,
+                thumb: ``,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109941.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ //JP Equip Name EV (Garm Raid Equip EV) - Missing .....
+        id: 109951,
+        name: `JP Equip Name EV (Garm Raid Equip EV)`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: ``,
+                detailmax: `/db/Equipment/Detail/item_detail_109951.png`,
+                thumb: ``,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109951.png`
             },
         stats:
             {
@@ -26189,10 +26336,10 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global`
     },
-{ // - Missing .....
+{ //True 'Asteroid' - Missing .....
         id: 109971,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Asteroid'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -26218,10 +26365,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Vibrant Edge 'Asteroid' - Missing .....
         id: 109981,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Vibrant Edge 'Asteroid'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -26247,10 +26394,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Mana Recycler - Missing .....
         id: 109991,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Mana Recycler`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -26276,11 +26423,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Mana Messenger - Missing .....
         id: 110001,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Mana Messenger`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_110000.png`,
@@ -26305,11 +26452,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Fortress Armor 'Geoplate' - Missing .....
         id: 110011,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Fortress Armor 'Geoplate'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_110010.png`,
@@ -26334,10 +26481,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Heroic Path' - Missing .....
         id: 110021,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Heroic Path'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -26363,10 +26510,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Heroic Path - Missing .....
         id: 110031,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Heroic Path`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -26392,11 +26539,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Long-Eared Crown - Missing .....
         id: 110041,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Long-Eared Crown`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_110040.png`,
@@ -26421,11 +26568,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing ..... (110061 = Flogassa EV Equip)
+{ //JP Equip Name (Flogassa Raid Equip) - Missing ..... (110061 = Flogassa EV Equip)
         id: 110051,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `JP Equip Name (Flogassa Raid Equip)`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_110050.png`,
@@ -26450,10 +26597,39 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name EV (Flogassa Raid Equip EV) - Missing .....
+        id: 110061,
+        name: `JP Equip Name EV (Flogassa Raid Equip EV)`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: ``,
+                detailmax: `/db/Equipment/Detail/item_detail_110061.png`,
+                thumb: ``,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110061.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: ``
+    },
+{ //JP Equip Name (FOrvell TW) - Missing .....
         id: 110091,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (FOrvell TW)`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -26479,10 +26655,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (FOrvell Farmable) - Missing .....
         id: 110101,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (FOrvell Farmable)`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -26508,10 +26684,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (FOrvell Farmable) - Missing .....
         id: 110111,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (FOrvell Farmable)`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -26537,10 +26713,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (LCestina TW) - Missing .....
         id: 110121,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (LCestina TW)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -26566,10 +26742,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (LCestina Farmable) - Missing .....
         id: 110131,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (LCestina Farmable)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -26595,10 +26771,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (LCestina Secret Equip) - Missing .....
         id: 110141,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (LCestina Secret Equip)`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -26624,10 +26800,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Mizu12 TW) - Missing .....
         id: 110151,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Mizu12 TW)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -26653,10 +26829,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (WarGinzo TW) - Missing .....
         id: 110161,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (WarGinzo TW)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -26682,10 +26858,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Mizu12 Farmable) - Missing .....
         id: 110171,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Mizu12 Farmable)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -26711,10 +26887,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Mizu12 Farmable) - Missing .....
         id: 110181,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Mizu12 Farmable)`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -26740,10 +26916,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (WarGinzo Farmable) - Missing .....
         id: 110191,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (WarGinzo Farmable)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -26769,10 +26945,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (WarGinzo Farmable) - Missing .....
         id: 110201,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (WarGinzo Farmable)`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -26798,10 +26974,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Stronghold Armor 'Geocradle' - Missing .....
         id: 110211,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Stronghold Armor 'Geocradle'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -26827,10 +27003,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (LThetis TW) - Missing .....
         id: 110221,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (LThetis TW)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -26856,10 +27032,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (DRivi TW) - Missing .....
         id: 110231,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (DRivi TW)`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -26885,10 +27061,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (LThetis Farmable) - Missing .....
         id: 110241,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (LThetis Farmable)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -26914,10 +27090,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (LThetis Farmable) - Missing .....
         id: 110251,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (LThetis Farmable)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -26943,10 +27119,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (DRivi Farmable) - Missing .....
         id: 110261,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (DRivi Farmable)`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -26972,10 +27148,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (DRivi Farmable) - Missing .....
         id: 110271,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (DRivi Farmable)`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -27001,10 +27177,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Sakuya TW) - Missing .....
         id: 110281,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Sakuya TW)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -27030,10 +27206,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Sakuya Farmable) - Missing .....
         id: 110291,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Sakuya Farmable)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -27059,10 +27235,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Sakuya Farmable) - Missing .....
         id: 110301,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Sakuya Farmable)`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -27088,10 +27264,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Fongion Raid Equip) - Missing .....
         id: 110311,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Fongion Raid Equip)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -27117,10 +27293,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Super Spiker - Missing .....
         id: 110321,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Super Spiker`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -27146,10 +27322,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Ces' Sandy Blossom - Missing .....
         id: 110331,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Ces' Sandy Blossom`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -27175,10 +27351,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Super Douser - Missing .....
         id: 110341,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Super Douser`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -27204,10 +27380,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Liza's Mature Look - Missing .....
         id: 110351,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Liza's Mature Look`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -27233,10 +27409,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Orvell's Royal Flare - Missing .....
         id: 110361,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Orvell's Royal Flare`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -27262,10 +27438,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Luahn's Wabi-Sabi Jams - Missing .....
         id: 110371,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Luahn's Wabi-Sabi Jams`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -27291,11 +27467,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Angelas' Sweet & Saucy - Missing .....
         id: 110381,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Angelas' Sweet & Saucy`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_110380.png`,
@@ -27320,11 +27496,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Victoire's Victory - Missing .....
         id: 110391,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Victoire's Victory`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_110390.png`,
@@ -27349,11 +27525,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Airsenal Shell - Missing .....
         id: 110401,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Airsenal Shell`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_110400.png`,
@@ -27378,10 +27554,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Magisteel-Toe Boots - Missing .....
         id: 110411,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Magisteel-Toe Boots`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -27407,11 +27583,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Ragsherum Mines Equip) - Missing .....
         id: 110421,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `JP Equip Name (Ragsherum Mines Equip)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_110420.png`,
@@ -27436,10 +27612,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Seafoam Pareo' - Missing .....
         id: 110431,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Seafoam Pareo'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -27465,10 +27641,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Precious One-Piece - Missing .....
         id: 110441,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Precious One-Piece`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -27494,10 +27670,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Valerie TW) - Missing .....
         id: 110451,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Valerie TW)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -27523,10 +27699,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Valerie Farmable) - Missing .....
         id: 110461,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Valerie Farmable)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -27552,10 +27728,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Valerie Farmable) - Missing .....
         id: 110471,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Valerie Farmable)`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -27581,10 +27757,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Charlotte's Pure Ruffles - Missing .....
         id: 110481,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Charlotte's Pure Ruffles`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -27610,10 +27786,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Valerie's Sentimental Skirt - Missing .....
         id: 110491,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Valerie's Sentimental Skirt`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -27639,10 +27815,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Forte's Gothic Straps - Missing .....
         id: 110501,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Forte's Gothic Straps`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -27668,10 +27844,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Emi's Smooth Streamline - Missing .....
         id: 110511,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `Emi's Smooth Streamline`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -27697,11 +27873,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //Groitz's Grotesque Trunks - Missing .....
         id: 110521,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `Groitz's Grotesque Trunks`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_110520.png`,
@@ -27726,10 +27902,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Skull Spear Raid Equip?) - Missing .....
         id: 110531,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Skull Spear Raid Equip?)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -27755,10 +27931,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Light Shirt?) - Missing .....
         id: 110541,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Light Shirt?)`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -27784,10 +27960,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //True 'Soaring Z' - Missing .....
         id: 110551,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `True 'Soaring Z'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -27813,10 +27989,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Cosmo Farmable) - Missing .....
         id: 110561,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Cosmo Farmable)`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -27842,10 +28018,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Cosmo Farmable) - Missing .....
         id: 110571,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Cosmo Farmable)`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -27871,11 +28047,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (SR Equip) - Missing .....
         id: 110581,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `JP Equip Name (SR Equip)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 6,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_110580.png`,
@@ -27900,11 +28076,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (SR Equip) - Missing .....
         id: 110591,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `JP Equip Name (SR Equip)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 6,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_110590.png`,
@@ -27929,10 +28105,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (WGFen TW) - Missing .....
         id: 110601,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (WGFen TW)`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -27958,10 +28134,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Green shirt?) - Missing .....
         id: 110611,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Green shirt?)`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -27987,10 +28163,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Kirisame TW) - Missing .....
         id: 110621,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Kirisame TW)`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -28016,10 +28192,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Kirisame Farmable) - Missing .....
         id: 110631,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Kirisame Farmable)`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -28045,10 +28221,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Boots?) - Missing .....
         id: 110641,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Boots?)`,
+        type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
             {
@@ -28074,10 +28250,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Hakurou TW) - Missing .....
         id: 110651,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Hakurou TW)`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -28103,11 +28279,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (SR Equip) - Missing .....
         id: 110661,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `JP Equip Name (SR Equip)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 6,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_110660.png`,
@@ -28132,11 +28308,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (SR Equip) - Missing .....
         id: 110671,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `JP Equip Name (SR Equip)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 6,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_110670.png`,
@@ -28161,10 +28337,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Hakurou Farmable) - Missing .....
         id: 110681,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Hakurou Farmable)`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -28190,10 +28366,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Hakurou Farmable) - Missing .....
         id: 110691,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Hakurou Farmable)`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -28219,10 +28395,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (PSS Halloween Equip) - Missing .....
         id: 110701,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (PSS Halloween Equip)`,
+        type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
             {
@@ -28248,10 +28424,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (PSS Halloween Equip) - Missing .....
         id: 110711,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (PSS Halloween Equip)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -28277,10 +28453,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (PSS Halloween Equip) - Missing .....
         id: 110721,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (PSS Halloween Equip)`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -28306,10 +28482,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (PSS Halloween Equip) - Missing .....
         id: 110731,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (PSS Halloween Equip)`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -28335,10 +28511,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (PSS Halloween Equip) - Missing .....
         id: 110741,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (PSS Halloween Equip)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -28364,10 +28540,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (PSS Halloween Equip) - Missing .....
         id: 110751,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (PSS Halloween Equip)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -28393,10 +28569,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (SDBerwick TW) - Missing .....
         id: 110761,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (SDBerwick TW)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -28422,10 +28598,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (SDBerwick Farmable) - Missing .....
         id: 110771,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (SDBerwick Farmable)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -28451,10 +28627,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (SDBerwick Farmable) - Missing .....
         id: 110781,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (SDBerwick Farmable)`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -28480,11 +28656,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (SDBerwick Secret Equip) - Missing .....
         id: 110791,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `JP Equip Name (SDBerwick Secret Equip)`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_110790.png`,
@@ -28509,10 +28685,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Hazuki TW) - Missing .....
         id: 110801,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Hazuki TW)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -28538,10 +28714,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Hazuki Farmable) - Missing .....
         id: 110811,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Hazuki Farmable)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -28567,10 +28743,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Hazuki Farmable) - Missing .....
         id: 110821,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Hazuki Farmable)`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -28596,11 +28772,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (SR Equip) - Missing .....
         id: 110831,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `JP Equip Name (SR Equip)`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 6,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_110830.png`,
@@ -28625,11 +28801,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (SR Equip)  - Missing .....
         id: 110841,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `JP Equip Name (SR Equip) `,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 6,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_110840.png`,
@@ -28654,10 +28830,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (SGLiza TW)  - Missing .....
         id: 110851,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (SGLiza TW)`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -28683,10 +28859,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (SGLiza Farmable) - Missing .....
         id: 110861,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (SGLiza Farmable)`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -28712,10 +28888,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (SGLiza Farmable) - Missing .....
         id: 110871,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (SGLiza Farmable)`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -28741,11 +28917,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (SGLiza Farmable) - Missing .....
         id: 110881,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `JP Equip Name (SGLiza Farmable)`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_110880.png`,
@@ -28770,11 +28946,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Elemental Ruins F15 Equip) - Missing .....
         id: 110891,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `JP Equip Name (Elemental Ruins F15 Equip)`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_110890.png`,
@@ -28799,11 +28975,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Elemental Ruins F15 Equip) - Missing .....
         id: 110901,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `JP Equip Name (Elemental Ruins F15 Equip)`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_110900.png`,
@@ -28828,11 +29004,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Elemental Ruins F15 Equip) - Missing .....
         id: 110911,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `JP Equip Name (Elemental Ruins F15 Equip)`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_110910.png`,
@@ -28857,10 +29033,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (PSS Xmas Equip) - Missing .....
         id: 110921,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (PSS Xmas Equip)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -28886,10 +29062,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (PSS Xmas Equip) - Missing .....
         id: 110931,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (PSS Xmas Equip)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -28915,10 +29091,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (PSS Xmas Equip) - Missing .....
         id: 110941,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (PSS Xmas Equip)`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -28944,10 +29120,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (PSS Xmas Equip) - Missing .....
         id: 110951,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (PSS Xmas Equip)`,
+        type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
             {
@@ -28973,10 +29149,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (PSS Xmas Equip) - Missing .....
         id: 110961,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (PSS Xmas Equip)`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -29002,10 +29178,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (PSS Xmas Farmable) - Missing .....
         id: 110971,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (PSS Xmas Farmable)`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -29031,11 +29207,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (SR Equip)  - Missing .....
         id: 110981,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `JP Equip Name (SR Equip) `,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 6,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_110980.png`,
@@ -29060,11 +29236,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (SR Equip)  - Missing .....
         id: 110991,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `JP Equip Name (SR Equip) `,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 6,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_110990.png`,
@@ -29089,10 +29265,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Elite Garm Mines Equip) - Missing .....
         id: 111001,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Elite Garm Mines Equip)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -29118,10 +29294,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Elite Ragsherum Mines Equip) - Missing .....
         id: 111031,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Elite Ragsherum Mines Equip)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -29147,10 +29323,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Long's TW) - Missing .....
         id: 111041,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Long's TW)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -29176,10 +29352,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Long's Farmable) - Missing .....
         id: 111051,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Long's Farmable)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -29205,10 +29381,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (Long's Farmable) - Missing .....
         id: 111061,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (Long's Farmable)`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -29234,11 +29410,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (SR Equip)  - Missing .....
         id: 111071,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `JP Equip Name (SR Equip) `,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 6,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_111070.png`,
@@ -29263,11 +29439,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (SR Equip)  - Missing .....
         id: 111081,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `JP Equip Name (SR Equip) `,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 6,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_111080.png`,
@@ -29292,10 +29468,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (VMiranda Farmable) - Missing .....
         id: 111091,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (VMiranda Farmable)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -29321,10 +29497,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (VMiranda Farmable) - Missing .....
         id: 111101,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (VMiranda Farmable)`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -29350,10 +29526,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (VPriscilla Farmable) - Missing .....
         id: 111111,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (VPriscilla Farmable)`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -29379,10 +29555,10 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (VPriscilla Farmable) - Missing .....
         id: 111121,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `JP Equip Name (VPriscilla Farmable)`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -29408,11 +29584,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (SR Equip)  - Missing .....
         id: 111131,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `JP Equip Name (SR Equip) `,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 6,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_111130.png`,
@@ -29437,11 +29613,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (SR Equip)  - Missing .....
         id: 111141,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `JP Equip Name (SR Equip) `,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 6,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_111140.png`,
@@ -29466,11 +29642,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (SR Equip)  - Missing .....
         id: 111151,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `JP Equip Name (SR Equip) `,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 6,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_111150.png`,
@@ -29495,11 +29671,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (SR Equip)  - Missing .....
         id: 111161,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `JP Equip Name (SR Equip) `,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 6,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_111160.png`,
@@ -29524,11 +29700,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (SR Equip)  - Missing .....
         id: 111171,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `JP Equip Name (SR Equip) `,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 6,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_111170.png`,
@@ -29553,11 +29729,11 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ // - Missing .....
+{ //JP Equip Name (SR Equip)  - Missing .....
         id: 111181,
-        name: `Placeholder`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `JP Equip Name (SR Equip) `,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 6,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_111180.png`,
