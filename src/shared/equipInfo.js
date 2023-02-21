@@ -1753,7 +1753,7 @@ const EquipInformation = [
             },
         lore: `The demon Gargantua was so evil, he would kill even his allies to meet his own ends. Eventually other demons laid a trap and sealed his soul within this armor. Any who now wear it receive incredible strength but also an insatiable desire to do evil, as though possessed; a voice telling them more sacrifices are required in numbers of deaths equal to the stars.`
     },
-    { //God Life Sword 'Seraph' - Missing .....
+    { //God Life Sword 'Seraph' - Complete
         id: 100601,
         name: `God Life Sword 'Seraph'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -1768,19 +1768,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `20s CT - 2500% Light DMG (Physical).`,
+                break: 600
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `A holy blade used by divine command to eradicate demons. Sensing the presence of demons causes the blade to ring like a bell, warning the angel wielder. Having slain so many demons during the Ancient War, the sounds of bells in battle eventually started to scare demons away. This is why in Raktehelm even today charms with bells attached are used to ward evil.`
     },
     { //Calming Sword 'Stillness' - Complete
         id: 100611,
@@ -1927,7 +1927,7 @@ const EquipInformation = [
             },
         lore: `A watch that renowned alchemist Baron Cruze kept locked away in his workshop safe. When activated it allows for brief travel through time. Cruze had a heated rivalry with the alchemist Alishis, creator of a similar device called the Terra Conjunction. Records of Alchemist Associations meetings attended by them both are filled mainly with cursing.`
     },
-    { //Summon Skeletal Wings - Missing .....
+    { //Summon Skeletal Wings - Missing Lore
         id: 100661,
         name: `Summon Skeletal Wings`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -1947,12 +1947,12 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `120s CT - 6000% DMG (Magic). Summon Gem Blessing: Increases all Allies' Magic DMG by 50% for 30s (Only once).`,
+                break: 600
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Summon Gem Blessing LV2: Only the highest level effect of the Summon Gem Blessing is effective.`
             },
         lore: ``
     },
@@ -2014,7 +2014,7 @@ const EquipInformation = [
             },
         lore: `A battle bow that fires arrows at incredible speed. Numerous records concerning it smashing away multiple incoming foes in a single shot speak to its sheer destructive power. However, that power comes at a cost, meaning few can use it. "Flicker Hand" Lezetta is its most famous owner, handling it like an extra limb and filling her foes with merciless arrows.`
     },
-    { //Igneet Axe - Missing .....
+    { //Igneet Axe - Completed
         id: 100691,
         name: `Igneet Axe`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -2029,19 +2029,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 120,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 3750% Fire DMG (Physical).`,
+                break: 800
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `During the age of the five kings, the army of the Gramenia Republic asked alchemist Ignis to create items that would allow anyone to use magic. After much experimentation, he and his students created this axe. The blade uses a special alloy created by the master metallurgist, and the weapon is capable of turning a log into ash with a single swing.`
     },
     { //Phoenix Feather Duster - Complete
         id: 100701,
