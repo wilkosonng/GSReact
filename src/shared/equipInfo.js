@@ -14037,9 +14037,9 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //JP Equip Name - Missing .....
+{ //JP Equip Name (Vogue Farmable) - Missing .....
         id: 105661,
-        name: `JP Equip Name`,
+        name: `JP Equip Name (Vogue Farmable)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -14791,9 +14791,9 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //JP Equip Name - Missing .....
+{ //JP Equip Name (Eternia Farmable) - Missing .....
         id: 105921,
-        name: `JP Equip Name`,
+        name: `JP Equip Name (Eternia Farmable)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -14820,9 +14820,9 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //JP Equip Name - Missing .....
+{ //JP Equip Name (Eternia Farmable) - Missing .....
         id: 105931,
-        name: `JP Equip Name`,
+        name: `JP Equip Name (Eternia Farmable)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -14907,9 +14907,9 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //JP Equip Name - Missing .....
+{ //JP Equip Name (Elite Tonetaurus Mines Equip) - Missing .....
         id: 105961,
-        name: `JP Equip Name`,
+        name: `JP Equip Name (Elite Tonetaurus Mines Equip)`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -17635,9 +17635,9 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //JP Equip Name - Missing .....
+{ //JP Equip Name (Ice Wilkes Raid Equip) - Missing .....
         id: 106921,
-        name: `JP Equip Name`,
+        name: `JP Equip Name (Ice Wilkes Raid Equip)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -21434,9 +21434,9 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //JP Equip Name - Missing .....
+{ //JP Equip Name (Melia Farmable) - Missing .....
         id: 108231,
-        name: `JP Equip Name`,
+        name: `JP Equip Name (Melia Farmable)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -23406,9 +23406,9 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //JP Equip Name - Missing .....
+{ //JP Equip Name (Rosetta Farmable) - Missing .....
         id: 108941,
-        name: `JP Equip Name`,
+        name: `JP Equip Name (Rosetta Farmable)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -23435,9 +23435,9 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //JP Equip Name - Missing .....
+{ //JP Equip Name (Duke Farmable) - Missing .....
         id: 108951,
-        name: `JP Equip Name`,
+        name: `JP Equip Name (Duke Farmable)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -25117,9 +25117,9 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //JP Equip Name - Missing .....
+{ //JP Equip Name (Norn Farmable) - Missing .....
         id: 109531,
-        name: `JP Equip Name`,
+        name: `JP Equip Name (Norn Farmable)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
