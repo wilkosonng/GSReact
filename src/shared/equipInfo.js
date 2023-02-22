@@ -11079,7 +11079,7 @@ const EquipInformation = [
             },
         lore: `Only Celia, the first in line to the throne of the Principality of Bamint is allowed to use this sword. This promises her position as a princess and means that she was the chosen one. The sword always watches over the owner and at times even reveals even stronger owner. The sword will answer her feelings and make her a true hero through her high desires and achievement.`
     },
-{ //True 'Alchemia' - Missing .....
+{ //True 'Alchemia' - Complete
         id: 104411,
         name: `True 'Alchemia'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -11094,19 +11094,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `56s CT - 7200 Dark DMG (Magic). Increases own BE output by 50% & reduces enemy's ATK and DEF by 20% for 5s.`,
+                break: 700
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Rem, DMG 20% UP & Rem's ability "Alchemy" UP (Only Once).`,
+                ability2: `Magic DMG 10% UP & Auto-fills Arts gauge when Near-Death (Only Once).` 
             },
-        lore: ``
+        lore: `The rod that Rem, the Alchemist who always supports adventurers, uses. This is said to be her masterpiece. Using all the rare material she gathered ever since she became a sorcerer and alchemist, this rod is the closest existence to the "Philosopher's Stone". The only difference is that she made it to be used to save the world.`
     },
 { //Relic 'Periusia' - Missing .....
         id: 104421,
