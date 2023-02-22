@@ -117,7 +117,7 @@
  */
 
 const UnitInformation = [
-    { //Clyde - Complete
+    { //Clyde - Complete (+ JP version)
         id: 100016111,
         name: "Clyde",
         rank: "F",
@@ -163,6 +163,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 3,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/physLB.png",
@@ -225,7 +234,7 @@ const UnitInformation = [
                 evoawk: "Although being one of the 3 Blade Masters, he suddenly disappeared from history. It is not clear of this life after the Ancient War. There are several rumors about him such as, helping others during the harsh times after war, death and life battle with his master, or being killed by the emperor of Isliid due to his riot against him. However, one thing is common, he had enormous power even after the war and bright fire in his eyes."
             }
     },
-    { //Corsair - Complete
+    { //Corsair - Complete (+ JP version)
         id: 100026211,
         name: "Corsair",
         rank: "F",
@@ -256,6 +265,14 @@ const UnitInformation = [
             },
         slots: {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 3,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        slotsJP: {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/physLB.png",
@@ -333,7 +350,7 @@ const UnitInformation = [
                 evoawk: "Although being one of the 3 Blade Masters, it is said that she created the reason for the royal family to fall. After the Ancient War, she was ordered to guard the prince of Bamint who was going to attend the 5 Kings Conference and even proposed. However, she declined the offer, and left the country. Her father did not criticize her for this. She is said to have fought with the other Blade Masters or have lived to bring up her adopted child. Her sword skills were the best during her last years."
             }
     },
-    { //Arth - Complete
+    { //Arth - Complete (+ JP version)
         id: 100036311,
         name: "Arth",
         rank: "F",
@@ -377,6 +394,14 @@ const UnitInformation = [
             },
         slots: {
             slot1: 5,
+            slot1type: "/db/Mines/thumbnail/physLB.png",
+            slot2: 5,
+            slot2type: "/db/Mines/thumbnail/magLB.png",
+            slot3: 3,
+            slot3type: "/db/Mines/thumbnail/defLB.png"
+        },
+        slotsJP: {
+            slot1: 6,
             slot1type: "/db/Mines/thumbnail/physLB.png",
             slot2: 5,
             slot2type: "/db/Mines/thumbnail/magLB.png",
@@ -2365,7 +2390,7 @@ const UnitInformation = [
                 evoawk: "The divisional commander of the six great Demon Generals that revived at the Sealed Fortress Gormarey. At first, Demons were reviving sparsely. However, since they considered power the most, they never worked as groups and fought against themselves. One day Ragsherum had suppressed all the others and started his plan to revive Auge at Gormarey. Not only that, he desired to get the heart of Humans, the winner of the Ancient War, and to put them in fear and despair."
             }
     },
-    { //Grad - Complete
+    { //Grad - Complete (+ JP version)
         id: 101096511,
         name: "Grad",
         luckrank: "A",
@@ -2384,6 +2409,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/magLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/magLB.png",
@@ -2458,7 +2492,7 @@ const UnitInformation = [
                 evoawk: "A Demon warrior who once served under sin Emperor Glaveil, slaughtering countless God soldiers. After being defeated by a Human swordsman, Grad couldn't contain the raging fury inside him. His hatred seethed, \"No one surpasses me and lives,\" he thought, a common notion among Demons, who take pride only in power. Now Grad knows just what to do, \"All that's left is to kill him and prove my strength,\" Grad laughs, grabbing his magic spear."
             }
     },
-    { //Nier - Complete
+    { //Nier - Complete (+ JP version)
         id: 101106511,
         name: "Nier",
         rank: "B+",
@@ -2477,6 +2511,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/healLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/magLB.png",
@@ -2551,7 +2594,7 @@ const UnitInformation = [
                 evoawk: "A leader of the Demon army seeking the complete restoration of her race. She is one to achieve her goals at any cost. This was best exemplified when she joined forces with a rival Demon after her first defeat at the hands of a Human adventurer, yet that humiliation proved to be in vain. The losses continued to mount and a new emotion took hold of her heart, changing her objective from selfless duty to personal revenge."
             }
     },
-    { //Ganan - Complete
+    { //Ganan - Complete (+ JP version)
         id: 101116111,
         name: "Ganan",
         rank: "A-",
@@ -2571,6 +2614,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/physLB.png",
@@ -2641,7 +2693,7 @@ const UnitInformation = [
                 evoawk: "The most powerful warrior of the Adventurer's Guild and guild master of Reigard branch. Theroughout the days at Reigard, Ganan interacted with many young adventurers. Being touched by their passion, he reconsidered his own path, together with the unforgettable mistake of his past and the meaning of being a guild master now... Embracing the failure of his past, he takes a step forward to protect the heroes of tomorrow."
             }
     },
-    { //Gilliam - Complete
+    { //Gilliam - Complete (+ JP version)
         id: 101126311,
         name: "Gilliam",
         luckrank: "B",
@@ -2662,6 +2714,15 @@ const UnitInformation = [
                 slot1: 5,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
+                slot2type: "/db/Mines/thumbnail/healLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 6,
                 slot2type: "/db/Mines/thumbnail/healLB.png",
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/defLB.png"
@@ -2923,7 +2984,7 @@ const UnitInformation = [
                 evoawk: "The receptionist at the Arena. In order to settle things between her father and mother, she keeps training to become stronger than the two. Her father worries and tries to stop her. On the other hand, her mother helps her out secretly. She feels that unlike her expectations, the distance of the two are getting even farther. Yet, she still aims for a higher goal. This pure heart releases the strong power from her parents."
             }
     },
-    { //Sophie - Complete
+    { //Sophie - Complete (+ JP version)
         id: 101156111,
         name: "Sophie",
         luckrank: "B",
@@ -2942,6 +3003,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/suppLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/healLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/physLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/suppLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/healLB.png",
@@ -5073,7 +5143,7 @@ const UnitInformation = [
                 evoawk: "Regretting all she'd done, she shared tears with the knight who hunted her down. Gasping, she murmured kindly to him. 'I brought all this down on myself, you musn't regret ending me. Be proud of all you've done as a knight to defend your village. And I am truly glad to die in your arms... You, who have cared more for me than any other.' With her sacrifice, childhood friends long scattered were able to come together to revisit their younger days."
             }
     },
-    { //Quon - Complete
+    { //Quon - Complete (+ JP version)
         id: 101556212,
         name: "Quon",
         luckrank: "F",
@@ -5092,6 +5162,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/healLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/defLB.png",
@@ -5224,7 +5303,7 @@ const UnitInformation = [
                 evoawk: "The ancient forest's master and its guardian spirit faced a terrible dilemma at the hands of a Demonic invasion. Their rescue, and the automaton's halt, came at the hands of a mage claiming to be the forest master's father. When he pleaded that he wanted to live with his daughter again, the spirit calmlhy asked if he was ready to give up everything and live as the forest's guardian. Questioned about concerns for the forest's future itself rather than for its master, the man shed tears for some time before finally nodding."
             }
     },
-    { //Edram - Complete
+    { //Edram - Complete (+ JP version)
         id: 101575412,
         name: "Edram",
         luckrank: "B",
@@ -5241,6 +5320,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/defLB.png",
@@ -6276,7 +6364,7 @@ const UnitInformation = [
                 evoawk: "Her life changed the moment when she protected the Captain of the Divine Knights from his former subordinates, who was trying to kill him. While once she had been a mere weapon, a mindless follower of orders, in that instant her own will began to flourish. She soon grew proud that she was able to pull the trigger for her own reasons. And tonight, she would need to open fire once more, to save her life, and the life of the one she wanted to protect..."
             }
     },
-    { //Gaia - Complete
+    { //Gaia - Complete (+ JP version)
         id: 101716211,
         name: "Gaia",
         rank: "A-",
@@ -6295,6 +6383,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/defLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/defLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/physLB.png",
@@ -8303,7 +8400,7 @@ const UnitInformation = [
                 evoawk: "The two friends she traveled with founded \"Crimson Stars\" to disguise themselves and revenge on those who destroyed their village during their childhood. Even after knowing their true intentions, she still considered them her family. Not only because they raised her, but also for the time spent together making people laugh all over the world. All that could not be a lie. The two, who had been haunted by hate from their past, turned forward and continued their trip to make the world smile."
             }
     },
-    { //Melody - Complete
+    { //Melody - Complete (+ JP version)
         id: 101986412,
         name: "Melody",
         luckrank: "F",
@@ -8319,6 +8416,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/healLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/healLB.png",
@@ -8367,7 +8473,7 @@ const UnitInformation = [
                 evoawk: "The only family who shared her late father's memory had became mad with power. Looking at the deranged beast, she recalled the past and realized the least she could do for her former guardian was grant him a swift death. The dancer drew her sword in resignation, but the mage who accompanied her managed to restore his mind first. Although she never spoke of what happened to him afterwards, she took his spirit to heart and continued in her efforts to liberate the country."
             }
     },
-    { //Rohst - Complete
+    { //Rohst - Complete (+ JP version)
         id: 101996511,
         name: "Rohst",
         attribute: "Dark",
@@ -8383,6 +8489,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/magLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/defLB.png",
@@ -9509,7 +9624,7 @@ const UnitInformation = [
                 evoawk: "This is the ultimate form of Kamui reached when Senketsu has combined with all other Goku Uniforms during the last battle. Known as 'Senketsu Kisaragi', its enormous power could be said to be that of all humanity combined. With humanity's hope, she flies into the eternal sky..."
             }
     },
-    { //Pientz - Complete
+    { //Pientz - Complete (+ JP version)
         id: 102236111,
         name: "Pientz",
         attribute: "Fire",
@@ -9525,6 +9640,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/magLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/magLB.png",
@@ -9722,7 +9846,7 @@ const UnitInformation = [
                 evoawk: "Despite her best efforts to meet her kindred's expectations at the peace talks, she fell to a Demon assassin's blade. It was only then she realize that mere idealism would not win over her enemies, and she regretted not doing more to prevent that. However, a swordsman of the Gods who formed a connection to the eastern lands said that she was a major inspiration, for no one else had believed in him amidst the tension and intrigue of the conference."
             }
     },
-    { //Vicious - Complete
+    { //Vicious - Complete (+ JP version)
         id: 102266311,
         name: "Vicious",
         luckrank: "F",
@@ -9738,6 +9862,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/physLB.png"
+            },
+        slotsJP:
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/defLB.png",
@@ -10035,7 +10168,7 @@ const UnitInformation = [
                 evoawk: "They say that the moment the Gods asked her and her nation for help holding a meeting with the neighboring countries, it was doomed to failure. Even as she played innocent, she was putting her strategies into place. She planted the poisonous seeds of dissent, helped in the revenge of the Machines who were playing at being friends with the Demons, and succeeded in setting off the war. She and her co-conspirators had only one purpose. That was to get the other 7 great races apart to destroy each other."
             }
     },
-    { //Alvina - Complete
+    { //Alvina - Complete (+ JP version)
         id: 102306212,
         name: "Alvina",
         rank: "B",
@@ -10103,6 +10236,19 @@ const UnitInformation = [
                 slot: "/db/Mines/thumbnail/magLB.png",
                 detail: "/db/Equipment/Detail/item_detail_105001.png",
                 skill: "50s CT - 8200% Dark DMG (MAG). For 12s, reduce Enemies' Freeze RES by 50%. If user is Water, increase DMG by 20% for 12s.",
+                skillbreak: 1200,
+                passive: 
+                    {
+                        ability1: "When equipped by Alvina, increase DMG by 20% and increase Paralysis, Seal and Curse RES by 100%. Does not stack with Abilities of the same name.",
+                        ability2: "Increase all Water and Dark Allies' Equipment DMG by 10%. Does not stack with Abilities of the same name."
+                    }
+            },
+        trueweaponJP: //If no TW, may delete this section
+            {
+                name: "Draco Hastia",
+                slot: "/db/Mines/thumbnail/magLB.png",
+                detail: "/db/Equipment/Detail/item_detail_105001.png",
+                skill: "50s CT - 8200% Dark DMG (MAG). For 12s, reduce Enemies' Freeze RES by 60%. If user is Water, increase DMG by 20% for 12s.",
                 skillbreak: 1200,
                 passive: 
                     {
@@ -10272,7 +10418,7 @@ const UnitInformation = [
                 evoawk: "A renowned Divine warrior challenged a Divine swordswoman to a battle, and after losing in a fierce fight, the two so admired each others’ techniques they swore to a rematch. Later, the fighter was overcome by his wounds and fell to the ground, but in that instant, he made a compact [?] with the planet to save his life. The swordswoman reappeared before him, this fighter who became a High Demon with the power to burn the world to ash. No one knows the truth of the rumors that he may have survived, despite the swordwoman’s victory."
             }
     },
-    { //Nogia - Complete
+    { //Nogia - Complete (+ JP version)
         id: 102336411,
         name: "Nogia",
         rank: "B-",
@@ -10289,6 +10435,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/magLB.png"
+            },
+        slotsJP:
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/magLB.png",
@@ -10338,7 +10493,7 @@ const UnitInformation = [
                 evoawk: "A blade master who believed his sword should only be drawn when truly needed. He searched his whole life and found the need when he encountered a Flame Demon possessing the power of the stars. The beast was a personification of the very idea of flame, manifested by the Gods. And yet the first glimpse of his blade seemed to slice the creature in two. However, what he truly cut was not his body, but the link between the body and the flame. Sayingg that there still must be something needed to be slashed, he set out again."
             }
     },
-    { //Daki - Complete
+    { //Daki - Complete (+ JP version)
         id: 102346412,
         name: "Daki",
         rank: "B-",
@@ -10376,6 +10531,15 @@ const UnitInformation = [
                 arts: "16000% Light DMG (MAG). For 14s, increase Allies' Skill CT REC by 120%, increase Light Allies' Skill DMG by 35%.",
                 artsbreak: 2100,
                 truearts: "30000% Light DMG (MAG). For 10s, Allies ignore 100% of Enemies' DEF, increase Light and Dark Allies' DMG by 60%.",
+                trueartsbreak: 3800
+            },
+        skillsetJP: 
+            {
+                skill: "6s CT - 2000% Light DMG (MAG). Increase own Arts by 5.",
+                skillbreak: 1200,
+                arts: "14000% Light DMG (MAG). For 14s, increase Allies' Skill CT REC by 120%, increase Light Allies' Skill DMG by 35%.",
+                artsbreak: 2100,
+                truearts: "27000% Light DMG (MAG). For 10s, Allies ignore 100% of Enemies' DEF, increase Light and Dark Allies' DMG by 60%.",
                 trueartsbreak: 3800
             },
         passive: 
@@ -10419,7 +10583,7 @@ const UnitInformation = [
                 evoawk: "A sorcerer God who was a member of the 3rd Dove Brigade. He was revered by his fellow soldiers for his ability to always make sound judgements during combat. His travel companion Spirit Meiol knew Daki since he was just a child. Because of their closeness, Daki showed a side of himself that he would never let anyone else see. He desired to learn the meaning behind his late mother's last words, but didn't know what great events would occur due to his search for the truth..."
             }
     },
-    { //Raki - Complete
+    { //Raki - Complete (+ JP version)
         id: 102356512,
         name: "Raki",
         rank: "C",
@@ -10457,6 +10621,15 @@ const UnitInformation = [
                 arts: "17000% Dark DMG (PHY). For 15s, increase own Arts DMG by 25%.",
                 artsbreak: 2100,
                 truearts: "34000% Dark DMG (PHY). Increase own Arts by 2 for each hit of own True Arts that hits an enemy + For 10s, reduce Enemies' Light and Dark RES by 20%.",
+                trueartsbreak: 4200
+            },
+        skillsetJP: 
+            {
+                skill: "7s CT - 2200% Dark DMG (MAG). Heal own HP by 5% of DMG dealt by this Skill.",
+                skillbreak: 1400,
+                arts: "14500% Dark DMG (PHY). For 15s, increase own Arts DMG by 25%.",
+                artsbreak: 2100,
+                truearts: "31000% Dark DMG (PHY). Increase own Arts by 2 for each hit of own True Arts that hits an enemy + For 10s, reduce Enemies' Light and Dark RES by 20%.",
                 trueartsbreak: 4200
             },
         passive: 
@@ -10503,7 +10676,7 @@ const UnitInformation = [
                 evoawk: "Just as Raki had grown enough to unleash the magical power hidden within his twin-blades, he met a man on the battlefield. Unable to accept his words, the two were forced to fight. However, the parting that came at the end of the battle made Raki realize the path he had to go down. Though his fellow soldiers hated to see him leave, Raki resigned from the military, and it's said that he was spotted traveling various countries around the world. However, he no longer had his famous fighting spirit, but instead a peaceful expression on his face."
             }
     },
-    { //Zerkalo - Complete
+    { //Zerkalo - Complete (+ JP version)
         id: 102366511,
         name: "Zerkalo",
         luckrank: "F",
@@ -10519,6 +10692,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/physLB.png"
+            },
+        slotsJP:
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/physLB.png",
@@ -10806,7 +10988,7 @@ const UnitInformation = [
                 evoawk: "Already the bearer of the magic blade Ryude Magus, the Hero of Famelle has dominated the cursed sword \"Exceed Zechs\". His unbreakable spirit and deep faith helped him shake off the cursed sword's attempts at domination. Now that he bears both these swords, the very spirits of light and dark, they say he is a man like none that has ever lived. Having broken the bonds of old age, and all other limits, this pursuer of perfection can be called a true Hero."
             }
     },
-    { //Badoul - Complete
+    { //Badoul - Complete (+ JP version)
         id: 102416111,
         name: "Badoul",
         luckrank: "F",
@@ -10823,6 +11005,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/defLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/physLB.png"
+            },
+        slotsJP:
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/defLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/physLB.png",
@@ -10871,7 +11062,7 @@ const UnitInformation = [
                 evoawk: "He awoke to a gruesome sight: the corpses of the people being enslaved... They were the corpses of the villagers who enshrined and adored him. And, the \"key\" to his awakening was also born in the same village. Her small body shook in anger, but her soul burned so fervently that it could never be extinguished. Her intense emotions made the flames in his fist burn bright. Knowing he had something left to protect, he prepared to enter the fray once again for the sake of his little master."
             }
     },
-    { //Strife - Complete
+    { //Strife - Complete (+ JP version)
         id: 102436511,
         name: "Strife",
         luckrank: "F",
@@ -10888,6 +11079,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/magLB.png"
+            },
+        slotsJP:
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/magLB.png",
@@ -11075,7 +11275,7 @@ const UnitInformation = [
                 evoawk: "When he went on a mission to execute a Dragon-killer with his second-in-command, he found on the other side the immoral Spirit he knew well, with a grin on his face. It was clear that the next \"masterpiece\" whose life he had chosen to play with was the Dragon-killer's. After a fierce battle, he learnt that the Dragon-killer, who was a childhood friend of his second-in-command, was actually the Spirit's apprentice, and he quit the Knights to fight him. No one knows what happened next..."
             }
     },
-    { //Granith - Complete
+    { //Granith - Complete (+ JP version)
         id: 102466211,
         name: "Granith",
         attribute: "Water",
@@ -11091,6 +11291,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/magLB.png"
+            },
+        slotsJP:
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/defLB.png",
@@ -11138,7 +11347,7 @@ const UnitInformation = [
                 evoawk: "His master told him to slay the Absolute Zero Sea Dragon as part of his training, but he was cursed in the course of battle. As Granith's humanity and reason faded, he begged for help, but the master claimed the curse could only be overcome by growing stronger through the killing of more Dragons. This purposeful lie was never questioned and he began hunting the scaled beasts."
             }
     },
-    { //Altie - Complete
+    { //Altie - Complete (+ JP version)
         id: 102476511,
         name: "Altie",
         luckrank: "C",
@@ -11154,6 +11363,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/physLB.png"
+            },
+        slotsJP:
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/magLB.png",
@@ -11800,7 +12018,7 @@ const UnitInformation = [
                 evoawk: "The ruler of the Republic of Bamint who awakened to the ancient blood flowing within her. Seeing the world filled with those that ignore everything just, her pride turned into despair. She knew she must become a dictator with absolute authority in order to correct the state of the world. Taking her sword into her hand, she disposed of anyone deemed unjust. She sought even greater strength, and eventually came into the possession of power that could even surpass the Gods, both good and evil."
             }
     },
-    { //Vitz - Complete
+    { //Vitz - Complete (+ JP version)
         id: 102556211,
         name: "Vitz",
         luckrank: "B",
@@ -11817,6 +12035,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/healLB.png"
+            },
+        slotsJP:
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/defLB.png",
@@ -12084,7 +12311,7 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
     },
-    { //Aesis - Complete
+    { //Aesis - Complete (+ JP version)
         id: 102596312,
         name: "Aesis",
         luckrank: "A",
@@ -12101,6 +12328,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/magLB.png"
+            },
+        slotsJP:
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/physLB.png",
@@ -13061,7 +13297,7 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
     },
-    { //Miri-nyan - Complete
+    { //Miri-nyan - Complete (+ JP version)
         id: 102736112,
         name: "Miri-nyan",
         luckrank: "F",
@@ -13077,6 +13313,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/healLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/physLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/healLB.png",
@@ -13741,7 +13986,7 @@ const UnitInformation = [
                 evoawk: "MCurrently unreleased in Global."
             }
     },
-    { //Mizuki - Complete
+    { //Mizuki - Complete (+ JP version)
         id: 102826212,
         name: "Mizuki",
         rank: "B",
@@ -13810,6 +14055,19 @@ const UnitInformation = [
                 name: "Demonic Seal",
                 slot: "/db/Mines/thumbnail/suppLB.png",
                 detail: "/db/Equipment/Detail/item_detail_106721.png",
+                skill: "25s CT - For 20s, increase own Arts by 3/s and increase own DMG by 30%.",
+                skillbreak: 0,
+                passive: 
+                    {
+                        ability1: "When equipped by Mizuki, increase own accuracy by 30% and increase Third Eye duration by 30s. Does not stack with Abilities of the same name.",
+                        ability2: "Heal own HP by 10/s."
+                    }
+            },
+        trueweaponJP: //If no TW, may delete this section
+            {
+                name: "Demonic Seal",
+                slot: "/db/Mines/thumbnail/suppLB.png",
+                detail: "/db/Equipment/Detail/item_detail_106721.png",
                 skill: "25s CT - For 20s, increase own Arts by 3/s and increase own DMG by 40%.",
                 skillbreak: 0,
                 passive: 
@@ -13824,7 +14082,7 @@ const UnitInformation = [
                 evoawk: "A proud shinobi who served as the leader of Imari Village. She has natural talent as a shinobi, and she was very respected because of that. With both pride and the future of the village on her shoulders, she continued to do assassination jobs in secret in order to sustain it. However, she was unable to hide her deeds forever. When she faced off against a Yoma in the depths of a dark cave, her sworn sisters Shiki and Kisaragi were badly hurt, forcing her to unleash her forbidden shinobi technique right in front of them."
             }
     },
-    { //Ginzo - Complete
+    { //Ginzo - Complete (+ JP version)
         id: 102836512,
         name: "Ginzo",
         rank: "B-",
@@ -13887,6 +14145,19 @@ const UnitInformation = [
                 }
             },
         trueweapon: //If no TW, may delete this section
+            {
+                name: "Netherworld Silver",
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_106731.png",
+                skill: "60s CT - 10000% Dark DMG (PHY). For 8s, increase own PHY DMG by 30%. Reduce Light Enemies' Dark RES by 20%.",
+                skillbreak: 2000,
+                passive: 
+                    {
+                        ability1: "When equipped by Ginzo, increase stats by 30% and increase own Arts by 1/s.",
+                        ability2: "When near-death, increase own Skill CT REC by 20%."
+                    }
+            },
+        trueweaponJP: //If no TW, may delete this section
             {
                 name: "Netherworld Silver",
                 slot: "/db/Mines/thumbnail/physLB.png",
@@ -13985,7 +14256,7 @@ const UnitInformation = [
                 evoawk: "A noble girl who fought alongside the other shinobi to fight a great Demonic threat in a land in the Far East. Having defeated the Demon Fox once again, completing her mission, two paths were available to her: one where she could live alongside the shinobi of Imari Village, and the other... She did not hesitate in her decision. She put her foot on the ground and began to walk. At the end of a long journey, she arrived at her destination. \"I'm home.\" Her voice that echoed throughout her homeland marked the beginning of a new story."
             }
     },
-    { //Shuri - Complete
+    { //Shuri - Complete (+ JP version)
         id: 102856512,
         name: "Shuri",
         rank: "A",
@@ -14053,6 +14324,19 @@ const UnitInformation = [
                 name: "Crimson Talon",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "/db/Equipment/Detail/item_detail_106991.png",
+                skill: "70s CT - 12500% Dark DMG (PHY). For 10s, increase own Arts by 4/s, reduce own DEF by 50%.",
+                skillbreak: 2300,
+                passive: 
+                    {
+                        ability1: "When equipped by Shuri, increase Arts by 80 when entering Third Eye.",
+                        ability2: "When near-death, increase ATK by 30%."
+                    }
+            },
+        trueweaponJP: //If no TW, may delete this section
+            {
+                name: "Crimson Talon",
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_106991.png",
                 skill: "60s CT - 12500% Dark DMG (PHY). For 10s, increase own Arts by 4/s, reduce own DEF by 30%.",
                 skillbreak: 2300,
                 passive: 
@@ -14067,7 +14351,7 @@ const UnitInformation = [
                 evoawk: "When she hurried to flee from the rising flames in front of her, what was waiting for her was the sight of her village destroyed, the culprit unknown. Within this miserable situation, she found the shinobi with prosthetic legs collapsed on the ground, who spoke to her the truth. Shuri cursed herself for not being able to see the true meaning behind the Divine Blade. Having lost so much, she left behind the village burnt to the ground, her eyes filled with rage toward the Demon Fox who took everything from her."
             }
     },
-    { //Amane - Complete
+    { //Amane - Complete (+ JP version)
         id: 102866412,
         name: "Amane",
         rank: "A",
@@ -14135,6 +14419,19 @@ const UnitInformation = [
                 name: "Dual Thunberbolts",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "/db/Equipment/Detail/item_detail_107011.png",
+                skill: "20s CT - 3800% Light DMG (PHY). For 5s, increase own Critical Rate by 20%.",
+                skillbreak: 500,
+                passive: 
+                    {
+                        ability1: "When equipped by Amane, increase Critical DMG by 70%. Does not stack with Abilities of the same name.",
+                        ability2: "Increase DMG to Human Enemies by 20%."
+                    }
+            },
+        trueweaponJP: //If no TW, may delete this section
+            {
+                name: "Dual Thunberbolts",
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_107011.png",
                 skill: "20s CT - 3800% Light DMG (PHY). For 5s, increase own Critical Rate by [# of times this equip has been used in quest x 25%] (up to 100%).",
                 skillbreak: 500,
                 passive: 
@@ -14149,7 +14446,7 @@ const UnitInformation = [
                 evoawk: "A high-ranking shinobi from Yakuno Village. The demon Fox that destroyed the village easily dodged all her attacks and disappeared, despite all the painful trials she had overcome. She lamented her weakness as she lay awake, half-conscious. However, she swore to become stronger in order to support her master after seeing her eyes burning with the flames of vengeance. She gained power almost on par with her master after going through a multitude of near-death experiences alongside her."
             }
     },
-    { //Kisaragi - Complete
+    { //Kisaragi - Complete (+ JP version)
         id: 102876112,
         name: "Kisaragi",
         rank: "A",
@@ -14220,6 +14517,19 @@ const UnitInformation = [
                 skillbreak: 2500,
                 passive: 
                     {
+                        ability1: "When equipped by Kisaragi, increase ATK by 30%. At the start of a Quest, increase own Arts by 100.",
+                        ability2: "Increase PHY RES by 10%."
+                    }
+            },
+        trueweaponJP: //If no TW, may delete this section
+            {
+                name: "Will-o'-the-Wisp",
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_106761.png",
+                skill: "80s CT - 11000% Fire DMG (PHY). For 12s, increase own ATK by 80%. If user is Fire, increase ATK by 150% instead.",
+                skillbreak: 2500,
+                passive: 
+                    {
                         ability1: "When equipped by Kisaragi, increase ATK by 50%. At the start of a Quest, increase own Arts by 100.",
                         ability2: "Increase PHY RES by 10%."
                     }
@@ -14230,7 +14540,7 @@ const UnitInformation = [
                 evoawk: "A top-ranked shinobi with extremely powerful ninja technique from Imari Village, located in the east. She fell into despair after losing her apprentice due to her own bad judgement. She grieved, wondering why her apprentice with a bright future died instead of herself, a shinobi stuck in the ways of old. Of course, no matter how much she suffered with this question in her mind, the answer never came. The only thing she knew was that she had to live his share of life in addition to her own. Despite sometimes wavering on the path she had chosen, she continued to tell herself that she must never stop walking."
             }
     },
-    { //Saku - Complete
+    { //Saku - Complete (+ JP version)
         id: 102886312,
         name: "Saku",
         rank: "F",
@@ -14292,6 +14602,19 @@ const UnitInformation = [
                 }
             },
         trueweapon: //If no TW, may delete this section
+            {
+                name: "TSUJI-KAZE",
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_106771.png",
+                skill: "65s CT - 9000% Earth DMG (PHY). For 10s, increase Allies' Earth DMG by 40%.",
+                skillbreak: 2200,
+                passive: 
+                    {
+                        ability1: "When equipped by Saku, increase DMG by 30% and increase max HP by 20%.",
+                        ability2: "Increase Skill CT REC by 10%."
+                    }
+            },
+        trueweaponJP: //If no TW, may delete this section
             {
                 name: "TSUJI-KAZE",
                 slot: "/db/Mines/thumbnail/physLB.png",
@@ -14395,7 +14718,7 @@ const UnitInformation = [
                 evoawk: "Having been chosen to become the vessel for the soul of the Demon Fox, she stood in the way of her former brethren, the shinobi. The burning Magic of the Demon overwhelmed the skilled shinobi, and this power eventually devoured her, too. \"I can see the moon…\" Perhaps these final words she whispered were filled with yearning to her old days as a shinobi in her village, when she used to gaze up at the sky every night. lost in thought."
             }
     },
-    { //Orgah - Complete
+    { //Orgah - Complete (+ JP version)
         id: 102906112,
         name: "Orgah",
         rank: "B-",
@@ -14469,13 +14792,26 @@ const UnitInformation = [
                         ability2: "Increase PHY DMG by 20%."
                     }
             },
+        trueweaponJP: //If no TW, may delete this section
+            {
+                name: "Exferia",
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_106941.png",
+                skill: "45s CT - 9000% Fire DMG (PHY). For 8s, increase own PHY DMG by 20%, if user is Fire, increase own PHY DMG by 50% instead.",
+                skillbreak: 1000,
+                passive: 
+                    {
+                        ability1: "When equipped by Orgah, increase DMG to Water Enemies by 70%.",
+                        ability2: "Increase PHY DMG by 30%."
+                    }
+            },
         lore: 
             {   
                 evo5: "A honest, competitive young boy who lived in a castle town with his twin sister, Adele. Under Raki, he studied the dual-blade style. The strong desire to protect his home along with an obedient nature granted him rapid improvement, but it was his close bond with Adele that Raki envied the most.",
                 evoawk: "Orgah never forgot what happened in the abandoned mines that day. He took his master's words to heart and trained until he became a full-fledged warrior. The owner of a weapon shop urged him to join the knights, but he had sworn to defend his hometown. Amidst the tumult of the Ancient War, the sight of him bravely standing alongside the other soldiers was most heartening."
             }
     },
-    { //Adele - Complete
+    { //Adele - Complete (+ JP version)
         id: 102916212,
         name: "Adele",
         rank: "B",
@@ -14500,7 +14836,7 @@ const UnitInformation = [
         stats: 
             {
                 hp: 6355,
-                hpplus: 933,
+                hpplus: 963,
                 atk: 2271,
                 atkplus: 350,
                 def: 2573,
@@ -14549,13 +14885,26 @@ const UnitInformation = [
                         ability2: "Increase Curse RES by 20%."
                     }
             },
+        trueweaponJP: //If no TW, may delete this section
+            {
+                name: "Empath",
+                slot: "/db/Mines/thumbnail/healLB.png",
+                detail: "/db/Equipment/Detail/item_detail_106851.png",
+                skill: "50s CT - Heal all Allies' HP by 2000 + For 15s, increase own Skill CT REC by 50%.",
+                skillbreak: 0,
+                passive: 
+                    {
+                        ability1: "When equipped by Adele, increase own Skill's Healing Output by 10%. Does not stack with Abilities of the same name.",
+                        ability2: "Increase Curse RES by 20%."
+                    }
+            },
         lore: 
             {   
                 evo5: "A cheerful, earnest young girl who lived in a castle town with her twin brother, Orgah. Both wished to protect their home full of kind people, so they asked the wandering swordsman Raki to teach them how to fight. However, he sensed great magic potential within her and suggested she foster that instead. Yet his true preference was that of the townsfolks's watching the orphaned siblings play without a care in the world.",
                 evoawk: "Little time passed before Raki's tutelage brought her latent mastery bursting forth. As she felt herself growing stronger by the day, she also felt herself wishing to protect not only her home but her brother as well. However, the path he chose made fulfilling that wish much more difficult."
             }
     },
-    { //Vermilia - Complete
+    { //Vermilia - Complete (+ JP version)
         id: 102926112,
         name: "Vermilia",
         rank: "B+",
@@ -14617,6 +14966,19 @@ const UnitInformation = [
                 }
             },
         trueweapon: //If no TW, may delete this section
+            {
+                name: "Fleurnika",
+                slot: "/db/Mines/thumbnail/healLB.png",
+                detail: "/db/Equipment/Detail/item_detail_107081.png",
+                skill: "50s CT - Heal Allies' HP by 35%, remove Seal.",
+                skillbreak: 0,
+                passive: 
+                    {
+                        ability1: "When equipped by Vermilia, increase Max HP by 30%. Increase healing output by 10% (except lifesteal). Does not stack with Abilities of the same name.",
+                        ability2: "Increase Seal RES by 20%."
+                    }
+            },
+        trueweaponJP: //If no TW, may delete this section
             {
                 name: "Fleurnika",
                 slot: "/db/Mines/thumbnail/healLB.png",
@@ -14715,7 +15077,7 @@ const UnitInformation = [
                 evoawk: "Filia studied how to use her blade under the old veteran, gaining remarkable talent after a few years. However, they were suddenly attacked during one training session by an infamous band of thieves who wanted to steal her unique weapon. The fight was won despite overwhelming odds, but her master could never wield a sword again. Returning home to promise her family she would win a major martial arts tournament and its purse, she set out on a new journey."
             }
     },
-    { //Garlan - Complete
+    { //Garlan - Complete (+ JP version)
         id: 102946312,
         name: "Garlan",
         rank: "B-",
@@ -14748,13 +15110,22 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "10s CT - 2200% Earth DMG (PHY). For 20s, reduce Movement Speed of Enemies in Break by 10%.",
-                skillbreak: 1800,
+                skill: "10s CT - 2500% Earth DMG (PHY). For 20s, reduce Movement Speed of Enemies in Break by 10%.",                
+                skillbreak: 2000,                
+                arts: "20000% Earth DMG (PHY). Permanently increase own Break PWR by 30% (up to 180%), reduce own DMG RES by 6% (up to 36%)",
+                artsbreak: 4500,                
+                truearts: "50000% Earth DMG (PHY). Increase DMG of this True Arts to Enemies in Break by 200%.",                
+                trueartsbreak: 9000, 
+            },
+        skillsetJP: 
+            {
+                
+                skill: "10s CT - 2200% Earth DMG (PHY). For 20s, reduce Movement Speed of Enemies in Break by 10%.",                
+                skillbreak: 1800,                
                 arts: "16000% Earth DMG (PHY). Permanently increase own Break PWR by 12% (up to 120%), reduce own DMG RES by 6% (up to 60%).",
-                artsbreak: 4000,
-                truearts: "30000% Earth DMG (PHY). Increase DMG of this True Arts to Enemies in Break by 200%.",
-                trueartsbreak: 8000
-                    
+                artsbreak: 4000,                
+                truearts: "30000% Earth DMG (PHY). Increase DMG of this True Arts to Enemies in Break by 200%.",                
+                trueartsbreak: 8000   
             },
         passive: 
             {
@@ -14782,6 +15153,19 @@ const UnitInformation = [
                 name: "Yulibert",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "/db/Equipment/Detail/item_detail_107141.png",
+                skill: "80s CT - 10000% Earth DMG (PHY). For 15s, increase own Break PWR by 50%. When used while a Giant Boss is broken, increase Arts by 50.",
+                skillbreak: 3400,
+                passive: 
+                    {
+                        ability1: "When equipped by Garlan, increase DMG to Enemies in Break by 50%.",
+                        ability2: "Increase own Break PWR by 8%."
+                    }
+            },
+        trueweaponJP: //If no TW, may delete this section
+            {
+                name: "Yulibert",
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_107141.png",
                 skill: "80s CT - 10000% Earth DMG (PHY). For 15s, increase own Break PWR by 70%. When used while a Giant Boss is broken, increase Arts by 50.",
                 skillbreak: 3400,
                 passive: 
@@ -14796,7 +15180,7 @@ const UnitInformation = [
                 evoawk: "With his trusty polearm Yulibert, Garlan continued to refine his considerable technique. His name was known throughout the land as an undefeated duelist, but this meant few were willing to accept his challenge. He decided to cross the ocean to reach the Martial Kingdom of Gitun, where the strong gathered. It was then he had his destined meeting with Filia, and together they defeated the marauding monsters in their way."
             }
     },
-    { //Aluze - Complete
+    { //Aluze - Complete (+ JP version)
         id: 102956412,
         name: "Aluze",
         rank: "B",
@@ -14862,6 +15246,19 @@ const UnitInformation = [
                 name: "Leivachka",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "/db/Equipment/Detail/item_detail_107121.png",
+                skill: "90s CT - 12500% Light DMG (PHY). For 12s, increase own PHY DMG by 50%. If user is Light, increase own Critical Rate by 50%.",
+                skillbreak: 2600,
+                passive: 
+                    {
+                        ability1: "When equipped by Aluze, increase DMG and ATK by 30%.",
+                        ability2: "Increase PHY evasion by 10%."
+                    }
+            },
+        trueweaponJP: //If no TW, may delete this section
+            {
+                name: "Leivachka",
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_107121.png",
                 skill: "90s CT - 13500% Light DMG (PHY). For 12s, increase own PHY DMG by 50%. If user is Light, increase own Critical Rate by 50%.",
                 skillbreak: 2600,
                 passive: 
@@ -14876,7 +15273,7 @@ const UnitInformation = [
                 evoawk: "The son of nobility, blessed with both luxury and ability. When he received his bow Leivachka from his father, he was told it was his duty as a noble to fight in defense of the weak. Upholding that principle even away from home, he helped a great number of people on the way to the tournament. His fair looks also earned him many admirers, but he was so focused on his destination that he paid them no mind."
             }
     },
-    { //Veronica - Complete
+    { //Veronica - Complete (+ JP version)
         id: 102966212,
         name: "Veronica",
         rank: "A-",
@@ -14943,6 +15340,19 @@ const UnitInformation = [
                 name: "Lizaverde",
                 slot: "/db/Mines/thumbnail/magLB.png",
                 detail: "/db/Equipment/Detail/item_detail_107101.png",
+                skill: "30s CT - 6000% Water DMG (MAG). For 8s, increase own Critical DMG by 30%. If user is Water, increase Critical DMG by 60% instead.",
+                skillbreak: 1200,
+                passive: 
+                    {
+                        ability1: "When equipped by Veronica, increase own Critical DMG by 30% and Skill CT REC by 40%.",
+                        ability2: "Increase DMG to Enemies in Break by 20%."
+                    }
+            },
+        trueweaponJP: //If no TW, may delete this section
+            {
+                name: "Lizaverde",
+                slot: "/db/Mines/thumbnail/magLB.png",
+                detail: "/db/Equipment/Detail/item_detail_107101.png",
                 skill: "30s CT - 6000% Water DMG (MAG). For 10s, increase own Critical DMG by 30%. If user is Water, increase Critical DMG by 60% instead.",
                 skillbreak: 1200,
                 passive: 
@@ -14957,7 +15367,7 @@ const UnitInformation = [
                 evoawk: "No one know what Veronicia was after, she wandered the word endlessy, without opening her heart to anyonethose who know her suspected that she was actually a demondue to her appearance never changing over the decade."
             }
     },
-    { //Roy (Fire) - Complete
+    { //Roy (Fire) - Complete (+ JP version)
         id: 102976112,
         name: "Roy (Fire)",
         rank: "A-",
@@ -14990,11 +15400,20 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "8s CT - 3600% Fire DMG (PHY). Increase own Arts by 20. Invulnerable to DMG during Skill.",
+                skill: "8s CT - 3600% Fire DMG (PHY). Increase own Arts by 20. Invulnerable to DMG during Skill.",                
                 skillbreak: 500,
-                arts: "12500% Fire DMG (PHY). Increase own Arts by 50 + For 15s, reduce Enemies' Fire RES by 30%.",
+                arts: "12500% Fire DMG (PHY). Increase own Arts by 50 + For 15s, reduce Enemies' Fire RES by 30%.",                
                 artsbreak: 1000,
-                truearts: "50000% Fire DMG (PHY). For 20s, ignore enemies' DEF, increase Fire Allies' DMG by 120%.",
+                truearts: "50000% Fire DMG (PHY). For 20s, ignore enemies' DEF, increase Fire Allies' DMG by 120%.",                
+                trueartsbreak: 2200
+            },
+        skillsetJP: 
+            {
+                skill: "8s CT - 3400% Fire DMG (PHY). Increase own Arts by 10. Invulnerable to DMG during Skill.",
+                skillbreak: 500,                
+                arts: "10000% Fire DMG (PHY). Increase own Arts by 50 + For 10s, reduce Enemies' Fire RES by 30%.",
+                artsbreak: 1000,                
+                truearts: "38000% Fire DMG (PHY). For 20s, ignore enemies' DEF, increase Fire Allies' DMG by 80%.",
                 trueartsbreak: 2200
             },
         passive: 
@@ -15122,7 +15541,7 @@ const UnitInformation = [
                 evoawk: "The just and righteous second princess of Gran Verge. When she wielded her sword, it was always for somebody else's sake, and she would never hurt somebody for her own gain. However, her strong sense of justice could be taken advantage of, and it was sometimes a weakness. Even so, she held to her beliefs to the very end. Her compassion and benevolence instilled great pride in the people of Gran Verge."
             }
     },
-    { //Radak - Complete
+    { //Radak - Complete (+ JP version)
         id: 102996112,
         name: "Radak",
         rank: "B+",
@@ -15139,6 +15558,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/defLB.png",
@@ -15279,7 +15707,7 @@ const UnitInformation = [
                 evoawk: "The first princess of the Gran Verge Kingdom. She took the path of magic her whole life as she tried to master it. She was fascinated by the revolutionary power of magic and spent her life studying magic to help brighten people's futures. Even now, her achievements still support people's lives from the shadows. She is said to have been deeply involved in the project to restore the enigmatic Oluon, but very little of this has been written down in history, as the first princess disliked being in the spotlight."
             }
     },
-    { //Cygnet - Complete
+    { //Cygnet - Complete (+ JP version)
         id: 103016512,
         name: "Cygnet",
         rank: "C",
@@ -15296,6 +15724,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/physLB.png"
+            },
+        slotsJP:
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/defLB.png",
@@ -15430,7 +15867,7 @@ const UnitInformation = [
                 evoawk: "MThe strong and brave Orvell finally took possession of the king's sword, the symbol of the next king. The feel of it in his hand made his royal blood run hot, and he brandished the heavy sword with ease. When Orvell first picked up the sword, he was full of confidence and energy, but soon he realized the true weight of the sword. Within him, a king's resolve had begun to sprout."
             }
     },
-    { //Virago - Complete
+    { //Virago - Complete (+ JP version)
         id: 103036212,
         name: "Virago",
         rank: "B-",
@@ -15447,6 +15884,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/healLB.png"
+            },
+        slotsJP:
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/defLB.png",
@@ -15583,7 +16029,7 @@ const UnitInformation = [
                 evoawk: "Iscator's strange mist slipped into the cracks of his fragile heart, gradually turning his disposition dark and dreary.. All that could get through to his blinded, deafened soul was that blatantly malicious shadow. Surrendering himself to its influence, he finally felt at ease. However, this put him at odds with the righteous nature of his royal blood. The internal struggle continues to tear him apart, sometimes forcing to spit up a thick, viscous miasma."
             }
     },
-    { //Chloe - Complete
+    { //Chloe - Complete (+ JP version)
         id: 103056511,
         name: "Chloe",
         luckrank: "A",
@@ -15600,6 +16046,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        slotsJP:
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/defLB.png",
@@ -16175,11 +16630,21 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "12s CT - 2000% Dark DMG (MAG). For 5s, reduce Enemies' Healing Taken by 20%.",
+                skill: "12s CT - 2000% Dark DMG (MAG). For 5s, reduce Enemies' Healing Taken by 20%.",                
                 skillbreak: 400,
-                arts: "9999% Dark DMG (MAG). For 12s, reduce Enemies' ATK, DEF and MAG RES by 33%.",
+                arts: "9999% Dark DMG (MAG). For 12s, reduce Enemies' ATK, DEF and MAG RES by 33%.",                
                 artsbreak: 800,
-                truearts: "22000% Dark DMG (MAG) For 25s, reduce Enemies' DMG and Accuracy by 30%, Status RES by 60%.",
+                truearts: "22000% Dark DMG (MAG) For 25s, reduce Enemies' DMG and Accuracy by 30%, Status RES by 60%.",                
+                trueartsbreak: 1300
+            },
+        skillsetJP:
+            {
+                
+                skill: "12s CT - 2000% Dark DMG (MAG). For 5s, reduce Enemies' Healing Taken by 10%.",
+                skillbreak: 400,                
+                arts: "8800% Dark DMG (MAG). For 12s, reduce Enemies' ATK, DEF and MAG RES by 33%.",
+                artsbreak: 800,                
+                truearts: "18000% Dark DMG (MAG) For 25s, reduce Enemies' DMG and Accuracy by 30%, Status RES by 60%.",
                 trueartsbreak: 1300
             },
         passive: 
@@ -16187,6 +16652,11 @@ const UnitInformation = [
                 ability1: "Increase Dark RES by 25%.",
                 ability2: "Increase Light RES by 25%.",
                 ability3: "When near-death, increases evasion by 15%."
+            },
+        passiveJP: 
+            {
+                ability1: "Increase Dark RES by 25%.",
+                ability2: "When near-death, increases evasion by 15%."
             }, 
         evolution: 
             {
@@ -19201,7 +19671,7 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
     },
-    { // War Ginzo - Missing Lore
+    { // War Ginzo - Missing Lore (+ JP version)
         id: 103506511,
         name: "War Ginzo",
         attribute: "Dark",
@@ -19216,6 +19686,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
+        slotsJP:
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/physLB.png",
@@ -21504,7 +21983,7 @@ const UnitInformation = [
                 evoawk: "One who was reincarnated to a different world. By using his unique skills 'Great Sage' and 'Predator,' he gains various monsters' skills. Unexpectedly, he becomes the ruler of a Goblin village. Soon, he meets Shizue Izawa who comes from the same world and carries her fate."
             }
     },
-    { //Rimuru (Human form) - Complete
+    { //Rimuru (Human form) - Complete (+ JP version)
         id: 107156212,
         name: "Rimuru (Human form)",
         attribute: "Water",
@@ -21545,12 +22024,26 @@ const UnitInformation = [
                 truearts: "40000% Water DMG (MAG). Heal own HP by 3% of DMG dealt by this True Arts + For 15s, increase Allies' stats by 30%, increase Allies' Arts by 4/s.",
                 trueartsbreak: 3700
             },
+        skillsetJP: 
+            {
+                skill: "10s CT - 2800% Fire DMG (MAG).",
+                skillbreak: 1200,
+                arts: "Refresh Skill CT for all Allies + Cure Allies' status ailments (except Faint) and heal Allies by 30% of their max HP + For 10s, increase Allies' Status RES (except Faint) by 100%.",
+                artsbreak: 0,
+                truearts: "33000% Water DMG (MAG). Heal own HP by 3% of DMG dealt by this True Arts + For 15s, increase Allies' stats by 30%, increase Allies' Arts by 3/s.",
+                trueartsbreak: 3700
+            },
         passive: 
             {
                 ability1: "Increase Fire RES by 30%.",
                 ability2: "Increase Arts by 2/s. Increase Status RES (except Faint) by 30%.",
                 ability3: "Increase own Equip CT speed by 5%."
             }, 
+        passiveJP: 
+            {
+                ability1: "Increase Fire RES by 30%.",
+                ability2: "Increase Arts by 2/s. Increase Status RES (except Faint) by 30%."
+            },
         evolution: 
             {
                 evo5awk:
@@ -21570,7 +22063,7 @@ const UnitInformation = [
                 evoawk: "A slime that used to be a human which was reincarnated to a different world. He won the life and death battle between Geld, an Orc Disaster that was once Orc Lord. After that, he earned the overwhelming support of the monsters living in the Forest of Jura. Not long after that, he became king of 'Jura Tempest Federation.'"
             }
     },
-    { //Milim - Complete
+    { //Milim - Complete (+ JP version)
         id: 107166112,
         name: "Milim",
         rank: "B+",
@@ -21611,11 +22104,25 @@ const UnitInformation = [
                 truearts: "60000% Fire DMG (MAG). Increase DMG of this True Arts to Enemies in Break by 200% + For 15s, increase own Critical Rate by 100%.",
                 trueartsbreak: 7000
             },
+        skillsetJP: 
+            {
+                skill: "8s CT - 2500% Fire DMG (MAG). For 6s, increase own ATK by 30%.",
+                skillbreak: 1000,
+                arts: "13000% Fire DMG (MAG). For 4s, Enemies take [250 × DMG they inflict on this unit] DMG. For 15s, increase own Arts by 2/s.",
+                artsbreak: 2300,
+                truearts: "44000% Fire DMG (MAG). Increase DMG of this True Arts to Enemies in Break by 200% + For 15s, increase own Critical Rate by 100%.",
+                trueartsbreak: 4000
+            },
         passive: 
             {
                 ability1: "Whenever this unit takes damage more than 10% of its HP, increase Arts by 5.",
                 ability2: "Increase Freeze and Paralysis RES by 100%. DMG increases as HP of this unit decreases (up to a maximum of 50%).",
                 ability3: "Increase own DMG by 50% during Break."
+            },
+        passiveJP: 
+            {
+                ability1: "Whenever this unit takes damage more than 10% of its HP, increase Arts by 5.",
+                ability2: "Increase Freeze and Paralysis RES by 100%. DMG increases as HP of this unit decreases (up to a maximum of 50%)."
             }, 
         evolution: 
             {
@@ -21636,7 +22143,7 @@ const UnitInformation = [
                 evoawk: "One of the Ten Greatest Demon Lords and yet the oldest. She has over ten times more Magicules than Rimuru, and no one can beat her. She feels bored of being a Demon Lord and envies Rimuru because he is having much more fun while not being a Demon Lord."
             }
     },
-    { //Benimaru - Complete
+    { //Benimaru - Complete (+ JP version)
         id: 107176112,
         name: "Benimaru",
         rank: "A",
@@ -21670,11 +22177,20 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "8s CT - 1800% Fire DMG (PHY). Increase own Arts by 30.",
+                skill: "8s CT - 1800% Fire DMG (PHY). Increase own Arts by 30.",                
                 skillbreak: 900,
-                arts: "23000% Fire DMG (MAG). For 20s, increase own Skill CT REC by 50%, increase own DMG by 30%.",
+                arts: "23000% Fire DMG (MAG). For 20s, increase own Skill CT REC by 50%, increase own DMG by 30%.",                
                 artsbreak: 1800,
                 truearts: "62000% Fire DMG (MAG). 100% chance to inflict Burn + If this True Arts inflicts Burn, for 20s, reduce Burnt Enemies' MAG RES by 80%.",
+                trueartsbreak: 3900
+            },
+        skillsetJP: 
+            {
+                skill: "8s CT - 1800% Fire DMG (PHY). Increase own Arts by 10.",
+                skillbreak: 900,                
+                arts: "15500% Fire DMG (MAG). For 20s, increase own Skill CT REC by 50%, increase own DMG by 30%.",
+                artsbreak: 1800,                
+                truearts: "42000% Fire DMG (MAG). High chance to inflict Burn + If this True Arts inflicts Burn, for 15s, reduce Burnt Enemies' MAG RES by 70%.",
                 trueartsbreak: 3900
             },
         passive: 
@@ -21682,6 +22198,11 @@ const UnitInformation = [
                 ability1: "When near-death, increase Arts by 2/s.",
                 ability2: "Increase Critical Rate by 50%. Heal HP by 100/s.",
                 ability3: "At Start of Quest, increase own Arts gauge by 50."
+            },
+        passiveJP: 
+            {
+                ability1: "When near-death, increase Arts by 2/s.",
+                ability2: "Increase Critical Rate by 50%. Heal HP by 100/s."
             }, 
         evolution: 
             {
@@ -21702,7 +22223,7 @@ const UnitInformation = [
                 evoawk: "A young Kijin who gave his loyalty to Rimuru. He is an Ogre survivor of an attack from the Orcs and seeks revenge. He was appointed as the Samurai General and integrates the country's army. He is like the right-arm of Rimuru and has great popularity."
             }
     },
-    { //Goblin Slayer - Complete
+    { //Goblin Slayer - Complete (+ JP version)
         id: 107186512,
         name: "Goblin Slayer",
         rank: "A-",
@@ -21734,6 +22255,15 @@ const UnitInformation = [
                 def: 2622,
                 defplus: 403
             },
+        statsJP: 
+            {
+                hp: 7177,
+                hpplus: 999,
+                atk: 2658,
+                atkplus: 408,
+                def: 2622,
+                defplus: 403
+            },
         skillset: 
             {
                 skill: "9s CT - 1100% Dark DMG (PHY). Permanently increase own DMG & Break PWR every time Skill is used (Up to 100%).",
@@ -21741,6 +22271,15 @@ const UnitInformation = [
                 arts: "18000% Water DMG (PHY). For 10s, reduce Enemies' Break RES and DMG RES by 30%.",
                 artsbreak: 2800,
                 truearts: "45000% Dark DMG (PHY). The less HP, the more DMG & Break PWR during True Arts (up to 300%) + For 60s, increases own Arts by 2/s.",
+                trueartsbreak: 3000
+            },
+        skillsetJP: 
+            {
+                skill: "9s CT - 1100% Dark DMG (PHY). Permanently increase own DMG & Break PWR every time Skill is used (Up to 50%).",
+                skillbreak: 1200,
+                arts: "16000% Water DMG (PHY). For 10s, reduce Enemies' Break RES by 25% and DMG RES by 20%.",
+                artsbreak: 2800,
+                truearts: "42000% Dark DMG (PHY). The less HP, the more DMG & Break PWR during True Arts (up to 200%) + For 60s, increases own Arts by 2/s.",
                 trueartsbreak: 3000
             },
         passive: 
@@ -21767,7 +22306,7 @@ const UnitInformation = [
                 evoawk: "A twisted silver-rank adventurer sworn to kill goblins. He possesses a deep understanding of the creatures, and in battle he is ready to use any weapon fitting to his goals. Other adventurers look on his actions with scorn and suspicion, but he has still saved countless lives."
             }
     },
-    { //Priestess - Complete
+    { //Priestess - Complete (+ JP version)
         id: 107196412,
         name: "Priestess",
         luckrank: "SS",
@@ -21799,6 +22338,15 @@ const UnitInformation = [
                 def: 2575,
                 defplus: 400
             },
+        statsJP: 
+            {
+                hp: 6250,
+                hpplus: 947,
+                atk: 2380,
+                atkplus: 367,
+                def: 2500,
+                defplus: 385
+            },
         skillset: 
             {
                 skill: "10s CT - Heals all Allies' HP by 700.",
@@ -21808,11 +22356,25 @@ const UnitInformation = [
                 truearts: "For 45s, Allies gain a DMG barrier that negates 8000 DMG, increase own Skill CT REC and Healing Output by 100%.",
                 trueartsbreak: 0
             },
+        skillsetJP: 
+            {
+                skill: "10s CT - Heals all Allies' HP by 600.",
+                skillbreak: 0,
+                arts: "8800% Light DMG (MAG). High chance of inflicting Blind. Increase Allies' Arts by 25.",
+                artsbreak: 1200,
+                truearts: "For 45s, Allies gain a DMG barrier that negates 6500 DMG, increase own Skill CT REC and Healing Output by 100%.",
+                trueartsbreak: 0
+            },
         passive: 
             {
                 ability1: "Increase Poison RES by 50%.",
                 ability2: "Increase own Arts by 2/s. Increase Allies' max HP by 15%. Does not stack with Abilities of the same name."
             }, 
+        passiveJP: 
+            {
+                ability1: "Increase Poison RES by 50%.",
+                ability2: "Increase own Arts by 2/s. Increase Allies' max HP by 10%. Does not stack with Abilities of the same name."
+            },
         evolution: 
             {
                 evo5awk:
@@ -21832,7 +22394,7 @@ const UnitInformation = [
                 evoawk: "A young priestess of the Earth Mother. she has accompanied Goblin Slayer ever since he saved her life. She hates fighting, but she uses the miracles of the Earth Mother to help support her comrades. She is pious and peaceful, and her mutual trust with Goblin Slayer helps her to withstand the hardships of battle."
             }
     },
-    { //High Elf Archer - Complete
+    { //High Elf Archer - Complete (+ JP version)
         id: 107206312,
         name: "High Elf Archer",
         luckrank: "SS",
@@ -21864,6 +22426,15 @@ const UnitInformation = [
                 def: 2408,
                 defplus: 371
             },
+        statsJP: 
+            {
+                hp: 6837,
+                hpplus: 999,
+                atk: 2766,
+                atkplus: 424,
+                def: 2408,
+                defplus: 371
+            },
         skillset: 
             {
                 skill: "8s CT - 1800% Earth DMG (PHY). For 5s, reduce Enemies' ATK by 20%.",
@@ -21873,11 +22444,25 @@ const UnitInformation = [
                 truearts: "42000% Earth DMG (PHY). For 20s, increase Allies' Critical Rate by 100% and evasion by 20%.",
                 trueartsbreak: 3500
             },
+        skillsetJP: 
+            {
+                skill: "8s CT - 1800% Earth DMG (PHY). For 5s, reduce Enemies' ATK by 20%.",
+                skillbreak: 800,
+                arts: "17000% Earth DMG (PHY). Chance of inflicting Faint. If Enemy was Fainted by this Arts, for 10s, reduce that Enemy's PHY RES by 40%.",
+                artsbreak: 2200,
+                truearts: "37000% Earth DMG (PHY). For 12s, increase Allies' Critical Rate by 100% and evasion by 20%.",
+                trueartsbreak: 3500
+            },
         passive: 
             {
                 ability1: "Increase Critical DMG by 70%.",
                 ability2: "Increase own Evasion by 10% and increase own Accuracy by 50%."
             }, 
+        passiveJP: 
+            {
+                ability1: "Increase Critical DMG by 60%.",
+                ability2: "Increase own Evasion by 10% and increase own Accuracy by 30%."
+            },
         evolution: 
             {
                 evo5awk:
@@ -22899,7 +23484,7 @@ const UnitInformation = [
                 evoawk: "Younger Toguro rejoices after finally meeting an opponent who can give him a challenge and lets loose his full potential. Most people would die instantly from being hit by Toguro's monstrous levels of Demonic Energy, and any who do manage to escape would then be crushed by his overwhelmingly powerful fists. For someone like Toguro, whose strength goes beyond human understanding, it was very rare to meet an opponent who could actually be a threat to him, so when he finally did, he was filled with joy at the opportunity to give it his all."
             }
     },
-    { //Emilia - Complete
+    { //Emilia - Complete (+ JP version)
         id: 107346212,
         name: "Emilia",
         luckrank: "SS",
@@ -22922,6 +23507,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/magLB.png"
             },
+        slotsJP:
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 6,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/magLB.png"
+            },
         stats: 
             {
                 hp: 6828,
@@ -22933,11 +23527,20 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "10s CT - 1600% Water DMG (MAG). Chance to inflict Freeze. If this Skill inflicts Freeze, increase own Arts by 30.",
+                skill: "10s CT - 1600% Water DMG (MAG). Chance to inflict Freeze. If this Skill inflicts Freeze, increase own Arts by 30.",                
                 skillbreak: 500,
-                arts: "14000% Water DMG (MAG). Increase Allies' Arts by 20. For 15s, increase Allies' DMG RES by 20%.",
+                arts: "14000% Water DMG (MAG). Increase Allies' Arts by 20. For 15s, increase Allies' DMG RES by 20%.",                
                 artsbreak: 1000,
                 truearts: "40000% Water DMG (MAG). High chance to inflict Ultimate Freeze. If this True Arts inflicts Ultimate Freeze on an Enemy, for 10s, reduce that Enemy's Water RES by 70%.",
+                trueartsbreak: 2100
+            },
+        skillsetJP: 
+            {
+                skill: "10s CT - 1600% Water DMG (MAG). 20% chance to inflict Freeze. If this Skill inflicts Freeze, increase own Arts by 30.",
+                skillbreak: 500,                
+                arts: "14000% Water DMG (MAG). Increase Allies' Arts by 20. For 15s, increase Allies' DMG RES by 25%.",
+                artsbreak: 1000,
+                truearts: "50000% Water DMG (MAG). 80% chance to inflict Ultimate Freeze. If this True Arts inflicts Ultimate Freeze on an Enemy, for 10s, reduce that Enemy's Water RES by 80%.",
                 trueartsbreak: 2100
             },
         passive: 
@@ -22974,13 +23577,27 @@ const UnitInformation = [
                         ability3: "Equip is given a random ability on craft."
                     }
             },
+        trueweaponJP: //If no TW, may delete this section
+            {
+                name: "Emilia's Cape",
+                slot: "/db/Mines/thumbnail/magLB.png",
+                detail: "/db/Equipment/Detail/item_detail_150871.png",
+                skill: "55s CT - 6000% Water DMG (MAG). For 12s, increase Water Allies' DMG by 10%, increase own DMG by 30%.",
+                skillbreak: 800,
+                passive: 
+                    {
+                        ability1: "When equipped by Emilia, increase own Arts DMG by 15%. Whenever Emilia uses Arts (not True Arts), for 15s, reduce Enemies' Freeze RES by 30%. Does not stack with Abilities of the same name.",
+                        ability2: "Increase MAG RES by 5%.",
+                        ability3: "Equip is given a random ability on craft."
+                    }
+            },
         lore: 
             {   
                 evo5: "A half-elf girl with silver hair and pupils glimmering of purple and bluish-purple. She travels alongside her Spirit Puck who she treats as family. In the Imperial Capital she met Subaru Natsuki, with whom a fate of both laughter and pain was born.",
                 evoawk: "She is a skilled Spiritual Arts User and has a contract with Puck. She has a tendency to put others before herself. She is also kind and good-natured, taking care of others without reserve, while not making them feel indebted to her."
             }
     },
-    { //Rem (RE:ZERO) - Complete
+    { //Rem (RE:ZERO) - Complete (+ JP version)
         id: 107356212,
         name: "Rem (RE:ZERO)",
         luckrank: "A",
@@ -23003,6 +23620,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/physLB.png"
             },
+        slotsJP:
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 6,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/physLB.png"
+            },
         stats: 
             {
                 hp: 6849,
@@ -23021,12 +23647,27 @@ const UnitInformation = [
                 truearts: "52000% Water DMG (PHY). For 50s, consume 2%/s of own max HP (stackable), increase own Critical DMG by 80% (stackable), and increase own Arts by 3/s (stackable).",
                 trueartsbreak: 1800
             },
+        skillsetJP: 
+            {
+                skill: "12s CT - 1300% Water DMG (MAG). For 5s, reduce Enemies' DMG RES by 10%.",
+                skillbreak: 600,
+                arts: "20000% Water DMG (MAG). For 10s, increase own ATK by 50%.",
+                artsbreak: 1100,
+                truearts: "70000% Water DMG (PHY). For 50s, consume 2%/s of own max HP (stackable), increase own Critical DMG by 130% (stackable), and increase own Arts by 3/s (stackable).",
+                trueartsbreak: 1800
+            },
         passive: 
             {
                 ability1: "Increase Critical Rate by 100% when own HP is above 50%.",
                 ability2: "Increase DMG to Beasts by 30%.",
                 ability3: "When near-death, increase Arts by 1/s."
             }, 
+        passiveJP: 
+            {
+                ability1: "Increase Critical Rate by 100% when own HP is above 50%.",
+                ability2: "Increase DMG to Beasts by 50%.",
+                ability3: "When near-death, increase Arts by 1/s."
+            },
         evolution: 
             {
                 evo5awk:
@@ -23054,13 +23695,27 @@ const UnitInformation = [
                         ability3: "Equip is given a random ability on craft."
                     }
             },
+        trueweaponJP: //If no TW, may delete this section
+            {
+                name: "Rem's Morningstar",
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_150911.png",
+                skill: "40s CT - 7000% Water DMG (PHY). For 20s, increase own ATK by 50%. The first time this is used in a Quest, increase own Arts by 50.",
+                skillbreak: 1000,
+                passive: 
+                    {
+                        ability1: "When equipped by Rem (RE:ZERO), increase Critical DMG by 30%. Whenever Rem uses Arts (not True Arts), heal Rem's HP by 30%. Does not stack with Abilities of the same name.",
+                        ability2: "Increase PHY DMG by 10%.",
+                        ability3: "Equip is given a random ability on craft."
+                    }
+            },
         lore: 
             {   
                 evo5: "A girl who hides her right eye behind her short blue hair. She and her older sister Ram serve at the Roswaal Mansion. She can have quite the sharp tongue while being superficially polite. Apparently, she is the one who keeps the Roswaal Mansion running.",
                 evoawk: "A quiet and skillful maid who works at the Roswaal Mansion. Recently, she has been worrying about how her chest has become bigger than her sister's, so she has taken measures to make sure people don't find out."
             }
     },
-    { //Ram - Complete
+    { //Ram - Complete (+ JP version)
         id: 107366312,
         name: "Ram",
         rank: "B+",
@@ -23084,6 +23739,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/suppLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 6,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
+            },
         stats: 
             {
                 hp: 6893,
@@ -23100,6 +23764,15 @@ const UnitInformation = [
                 arts: "13000% Earth DMG (MAG). For 15s, increase Allies' RES to the Element they have an Elemental Advantage against by 40%, and increase Allies' Freeze RES by 100%.",
                 artsbreak: 1000,
                 truearts: "32000% Earth DMG (MAG). For 35s, Allies gain a DMG barrier that negates [4000 + Ram's DEF value] DMG.",
+                trueartsbreak: 2300
+            },
+        skillsetJP: 
+            {
+                skill: "11s CT - 1400% Earth DMG (MAG). For 6s, reduce Enemies' ATK by 10%.",
+                skillbreak: 500,
+                arts: "13000% Earth DMG (MAG). For 15s, increase Allies' RES to the Element they have an Elemental Advantage against by 50%, and increase Allies' Freeze RES by 100%.",
+                artsbreak: 1000,
+                truearts: "42000% Earth DMG (MAG). For 35s, Allies gain a DMG barrier that negates [6000 + Ram's DEF value] DMG.",
                 trueartsbreak: 2300
             },
         passive: 
@@ -23135,6 +23808,20 @@ const UnitInformation = [
                         ability3: "Equip is given a random ability on craft."
                     }
             },
+        trueweaponJP: //If no TW, may delete this section
+            {
+                name: "Ram's Mop",
+                slot: "/db/Mines/thumbnail/magLB.png",
+                detail: "/db/Equipment/Detail/item_detail_150931.png",
+                skill: "40s CT - 4000% Earth DMG (MAG). For 15s, increase own DEF and accuracy by 25%.",
+                skillbreak: 700,
+                passive: 
+                    {
+                        ability1: "When equipped by Ram, increase own DEF by 20%. Whenever Ram uses True Arts, increase Ram's Arts by 30. Does not stack with Abilities of the same name.",
+                        ability2: "Increase Water RES by 5%.",
+                        ability3: "Equip is given a random ability on craft."
+                    }
+            },
         lore: 
             {   
                 evo5: "A girl who hides her right eye behind her short pink hair. She and her younger sister Rem serve at the Roswaal Mansion. She has a sharp tongue and is very rude. She lets her sister do all the work.",
@@ -23164,6 +23851,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/healLB.png"
             },
+        slotsJP:
+            {
+                slot1: 5,
+                slot1type: "/db/Mines/thumbnail/suppLB.png",
+                slot2: 6,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/healLB.png"
+            },
         stats: 
             {
                 hp: 6287,
@@ -23177,9 +23873,18 @@ const UnitInformation = [
             {
                 skill: "12s CT - Increase own Arts by 10 and heal own HP by 10% of own max HP.",
                 skillbreak: 0,
-                arts: "15000% Dark DMG (MAG). For 20s, reduce Enemies' Status RES by 35%.",
+                arts: "15000% Dark DMG (MAG). For 20s, reduce Enemies' Status RES by 35%.",                
                 artsbreak: 900,
                 truearts: "42000% Dark DMG (MAG). High chance to inflict Faint. For 15s, reduce Enemies' Dark RES and MAG RES by 35%.",
+                trueartsbreak: 1600
+            },
+        skillsetJP: 
+            {
+                skill: "12s CT - Increase own Arts by 10 and heal own HP by 10% of own max HP.",
+                skillbreak: 0,                
+                arts: "15000% Dark DMG (MAG). For 20s, reduce Enemies' Status RES by 45%.",
+                artsbreak: 900,                
+                truearts: "55000% Dark DMG (MAG). 80% chance to inflict Faint. For 15s, reduce Enemies' Dark RES and MAG RES by 45%.",
                 trueartsbreak: 1600
             },
         passive: 
@@ -23188,7 +23893,14 @@ const UnitInformation = [
                 ability2: "Increase Equipment CT REC by 10% if unafflicted by any Status Ailment.",
                 ability3: "When near-death, increase Skill CT REC by 15%.",
                 ability4: "Increase Curse RES by 30%."
-            }, 
+            },
+        passiveJP: 
+            {
+                ability1: "Increase own DMG against an Enemy by [33% × # of Statuses on that Enemy].",
+                ability2: "Increase Equipment CT REC by 20% if unafflicted by any Status Ailment.",
+                ability3: "When near-death, increase Skill CT REC by 15%.",
+                ability4: "Increase Curse RES by 30%."
+            },
         evolution: 
             {
                 evo5awk:
@@ -23216,13 +23928,27 @@ const UnitInformation = [
                         ability3: "Equip is given a random ability on craft."
                     }
             },
+        trueweaponJP: //If no TW, may delete this section
+            {
+                name: "Beatrice's Ribbon",
+                slot: "/db/Mines/thumbnail/suppLB.png",
+                detail: "/db/Equipment/Detail/item_detail_150891.png",
+                skill: "45s CT - For 20s, increase target's Arts by 5/s. If target is Dark, increase target's Arts DMG by 20% for 20s.",
+                skillbreak: 0,
+                passive:
+                    {
+                        ability1: "When equipped by Beatrice, increase ATK by 20%. Whenever Beatrice uses True Arts, for 10s, increase Allies' Dark DMG by 20%. Does not stack with Abilities of the same name.",
+                        ability2: "Increase Light RES by 5%.",
+                        ability3: "Equip is given a random ability on craft."
+                    }
+            },
         lore: 
             {   
                 evo5: "The caretaker of the Roswaal Mansion's Forbidden Library. Her milky white hair is tied up in twin drills. She seems to always be in a bad mood. She looks like a fairy when she walks, her fancy dress trailing behind her.",
                 evoawk: "She calls herself Betty and is the librarian at the Forbidden Library. She lives on her own in a room as the Roswaal Mansion that was hidden with Door Crossing. She is arrogant and does not get along well with others. While she often finds herself at odds with Subaru Natsuki, who happened to break her Door Crossing, they actually get along fairly well."
             }
     },
-    { //Santa Rimuru - Complete
+    { //Santa Rimuru - Complete (+ JP version)
         id: 107396212,
         name: "Santa Rimuru",
         rank: "A+",
@@ -23261,6 +23987,15 @@ const UnitInformation = [
                 arts: "22000% Water DMG (MAG). Increase Allies' Arts by 25 + For 15s, increase Allies' DMG RES against Giant Bosses by 30%.",
                 artsbreak: 1200,
                 truearts: "45000% Water DMG (MAG). For 20s, increase Allies' DMG by 60%, and Allies' MAG DMG by 60%.",
+                trueartsbreak: 2300
+            },
+        skillsetJP: 
+            {
+                skill: "15s CT - On first use, increase Allies' Arts by 1/s for 7s. On second use, increase Allies' ATK by 10% for 7s. On third use, heal Allies' HP by 1%/s for 7s. Cycle repeats afterwards.",
+                skillbreak: 0,
+                arts: "19000% Water DMG (MAG). Increase Allies' Arts by 20 + For 15s, increase Allies' DMG RES against Giant Bosses by 30%.",
+                artsbreak: 1200,
+                truearts: "38000% Water DMG (MAG). For 20s, increase Allies' DMG by 60%, and Allies' MAG DMG by 60%.",
                 trueartsbreak: 2300
             },
         passive: 
@@ -23305,7 +24040,7 @@ const UnitInformation = [
                 author: `Zanster`
             }
     },
-    { //Santa Milim - Complete
+    { //Santa Milim - Complete (+ JP version)
         id: 107406112,
         name: "Santa Milim",
         rank: "A-",
@@ -23343,6 +24078,15 @@ const UnitInformation = [
                 skillbreak: 0,
                 arts: "28000% Fire DMG (PHY). For 15s, reduce Enemies' Fire RES by 30%.",
                 artsbreak:  1600,
+                truearts: "60000% Fire DMG (PHY). For 10s, increase Allies' Critical Rate by 100% + Increase Allies' Arts by 3/s.",
+                trueartsbreak: 3100
+            },
+        skillsetJP: 
+            {
+                skill: "15s CT - Increase own Arts by 10 + For 10s, increase own stats by 10%.",
+                skillbreak: 0,
+                arts: "23000% Fire DMG (PHY). For 10s, reduce Enemies' Fire RES by 30%.",
+                artsbreak:  1600,
                 truearts: "40000% Fire DMG (PHY). For 10s, increase Allies' Critical Rate by 100% + Increase Allies' Arts by 3/s.",
                 trueartsbreak: 3100
             },
@@ -23351,6 +24095,12 @@ const UnitInformation = [
                 ability1: "Increase Critical DMG by 40%.",
                 ability2: "Increase DMG to Enemies under 30% HP by 20%.",
                 ability3: "When HP is above 50%, increases Arts' and True Arts' buff durations by 50%."
+            },
+        passiveJP: 
+            {
+                ability1: "Increase Critical DMG by 40%.",
+                ability2: "Increase DMG to Enemies under 30% HP by 20%.",
+                ability3: "When HP is above 80%, increases Arts' and True Arts' buff durations by 50%."
             }, 
         evolution: 
             {
@@ -23388,7 +24138,7 @@ const UnitInformation = [
                 author: `Zanster`
             }
     },
-    { //Santa Shion - Complete
+    { //Santa Shion - Complete (+ JP version)
         id: 107416512,
         name: "Santa Shion",
         rank: "A",
@@ -23429,12 +24179,27 @@ const UnitInformation = [
                 truearts: "100000% Dark DMG (PHY). For 15s, increase own accuracy by 100%.",
                 trueartsbreak: 3500
             },
+        skillsetJP: 
+            {
+                skill: "15s CT - 5000% Dark DMG (PHY). Increase BE generation of this Skill by 30%.",
+                skillbreak: 400,
+                arts: "17000% Dark DMG (PHY). For 20s, increase own Skill CT REC by 100%.",
+                artsbreak: 1600,
+                truearts: "63000% Dark DMG (PHY). For 10s, increase own accuracy by 100%.",
+                trueartsbreak: 3500
+            },
         passive: 
             {
                 ability1: "Increase Freeze RES by 100%.",
                 ability2: "While near-death, increase DMG RES by 10%.",
                 ability3: "On every use of Arts or True Arts, permanently increase own ATK and DMG by 40% (up to 200%)."
-            }, 
+            },
+        passiveJP: 
+            {
+                ability1: "Increase Freeze RES by 100%.",
+                ability2: "While near-death, increase DMG RES by 10%.",
+                ability3: "On every use of Arts or True Arts, permanently increase own ATK and DMG by 30% (up to 150%)."
+            },
         evolution: 
             {
                 evo5awk:
@@ -23472,7 +24237,7 @@ const UnitInformation = [
             author: `Zanster`
         }
     },
-    { //New Years Rimuru - Complete
+    { //New Years Rimuru - Complete (+ JP version)
         id: 107426512,
         name: "New Years Rimuru",
         rank: "A+",
@@ -23510,6 +24275,15 @@ const UnitInformation = [
                 arts: "20000% Dark DMG (PHY). For 10s, increase Allies' stats by 35%.",
                 artsbreak: 1600,
                 truearts: "60000% Dark DMG (PHY). For 60s, increase Allies' PHY DMG by 60% (stackable).",
+                trueartsbreak: 2800
+            },
+        skillsetJP: 
+            {
+                skill: "10s CT - 1700% Dark DMG (PHY). If this skill crits, increase own Arts by 50.",
+                skillbreak: 500,
+                arts: "20000% Dark DMG (PHY). For 10s, increase Allies' stats by 30%.",
+                artsbreak: 1600,
+                truearts: "50000% Dark DMG (PHY). For 50s, increase Allies' PHY DMG by 50% (stackable).",
                 trueartsbreak: 2800
             },
         passive: 
@@ -23556,7 +24330,7 @@ const UnitInformation = [
             author: `Pula`
         }
     },
-    { //New Years Milim - Complete, Review Complete
+    { //New Years Milim - Complete, Review Complete (+ JP Version)
         id: 107436412,
         name: "New Years Milim",
         rank: "A-",
@@ -23596,9 +24370,24 @@ const UnitInformation = [
                 truearts: "85000% Light DMG (PHY). For 12s, reduce Enemies' Light RES by 50%.",
                 trueartsbreak: 2000
             },
+        skillsetJP: 
+            {
+                skill: "10s CT - 2000% Light DMG (PHY). For 7s, increase own ATK by 10%.",
+                skillbreak: 500,
+                arts: "18000% Light DMG (PHY). For 20s, increase own accuracy by 20%, and own DMG by 60%.",
+                artsbreak: 1300,
+                truearts: "65000% Light DMG (PHY). For 12s, reduce Enemies' Light RES by 50%.",
+                trueartsbreak: 2000
+            },
         passive: 
             {
                 ability1: "At the start of a Quest, for 60s, increase Allies' ATK by 50%.",
+                ability2: "At the start of a Quest, increase Allies' Arts by 50.",
+                ability3: "Increase MAG RES by 10%."
+            },
+        passiveJP: 
+            {
+                ability1: "At the start of a Quest, for 60s, increase Allies' ATK by 40%.",
                 ability2: "At the start of a Quest, increase Allies' Arts by 50.",
                 ability3: "Increase MAG RES by 10%."
             }, 
@@ -23775,7 +24564,7 @@ const UnitInformation = [
                 evoawk: "An electronic diva who restored spring and song to Raktehelm. Clad in the blossoms that announce the chaging of season, she saved Bamint from an endless cold. Her voice not only reminded the people of the joy of singing, but it also called a wind said to have made the flowers sing as well. For this, some believed her to be a priestess of ancient legend. However, before this could be confirmed, she vanished in a flurry of petals wearing a satisfied smile."
             }
     },
-    { //Yoh - Complete
+    { //Yoh - Complete (+ JP version)
         id: 107476112,
         name: "Yoh Asakura",
         rank: "S",
@@ -23807,6 +24596,15 @@ const UnitInformation = [
                 defplus: 401
             },
         skillset: 
+            {
+                skill: "13s CT - 2200% Fire DMG (PHY). Permanently increase own DMG by 25% (up to 125%).",
+                skillbreak: 900,
+                arts: "25000% Fire DMG (PHY). For 15s, increase Allies' PHY DMG by [20% × # of times this Arts has been activated] (up to 120%).",
+                artsbreak: 1300,
+                truearts: "48000% Fire DMG (PHY). For 20s, increase Allies' Arts by 4/s, Fire Allies' ATK by 100%.",
+                trueartsbreak: 2000
+            },
+        skillsetJP: 
             {
                 skill: "13s CT - 2200% Fire DMG (PHY). Permanently increase own DMG by 20% (up to 100%).",
                 skillbreak: 900,
@@ -23840,7 +24638,7 @@ const UnitInformation = [
                 evoawk: "A shaman, one who connects the real word with the spirit realm. He pushed his power to a new extreme after intense training, and even Tao Ren admits his superiority as a rival. His fiancée Anna made the battle outfit he wears."
             }
     },
-    { //Anna Kyoyama- Complete
+    { //Anna Kyoyama- Complete (+ JP version)
         id: 107486312,
         name: "Anna Kyoyama",
         rank: "B+",
@@ -23872,6 +24670,15 @@ const UnitInformation = [
                 defplus: 407
             },
         skillset: 
+            {
+                skill: "12s CT - 1200% Earth DMG (MAG). For 8s, reduce Enemies' evasion by 15%.",
+                skillbreak: 400,
+                arts: "16000% Earth DMG (MAG). Increase Allies' Arts by 20. For 15s, reduce Enemies' DMG by 25%.",
+                artsbreak: 1000,
+                truearts: "40000% Earth DMG (MAG). For 20s, Allies ignore 100% of Enemies' DEF, increase Earth Allies' DMG by 50%.",
+                trueartsbreak: 1600
+            },
+        skillsetJP: 
             {
                 skill: "12s CT - 1200% Earth DMG (MAG). For 8s, reduce Enemies' evasion by 10%.",
                 skillbreak: 400,
@@ -23905,7 +24712,7 @@ const UnitInformation = [
                 evoawk: "The Itako of Osorezan and Asakura Yoh's fiancée. After obtaining the Ultra Senji Ryakketsu, she instantly tamed the Shikigami within, Zenki and Goki, to become her guardian ghosts."
             }
     },
-    { //Ren - Complete
+    { //Ren - Complete (+ JP version)
         id: 107496512,
         name: "Ren Tao",
         attribute: "Dark",
@@ -23937,6 +24744,15 @@ const UnitInformation = [
                 defplus: 405
             },
         skillset: 
+            {
+                skill: "10s CT - 1700% Dark DMG (PHY). Increase own Arts by 25. If unaffected by Status Ailments, Increase own Arts by 50 instead.",
+                skillbreak: 400,
+                arts: "21000% Dark DMG (PHY). Permanently increase own DMG by 60% (up to 300%).",
+                artsbreak: 1200,
+                truearts: "60000% Dark DMG (PHY). For 15s, increase own ATK by [# of Dark Units in Party x 50%].",
+                trueartsbreak: 2300
+            },
+        skillsetJP: 
             {
                 skill: "10s CT - 1700% Dark DMG (PHY). Increase own Arts by 20. If unaffected by Status Ailments, Increase own Arts by 40 instead.",
                 skillbreak: 400,
@@ -23970,7 +24786,7 @@ const UnitInformation = [
                 evoawk: "The son of a shaman family and Asakura Yoh's Rival. To prepare for the Shaman Fight, he strengthened the Basontou to perform the powerful Golden Vorpal Dance."
             }
     },
-    { //Hao - Complete
+    { //Hao - Complete (+ JP version)
         id: 107506112,
         name: "Hao",
         rank: "A+",
@@ -24002,6 +24818,15 @@ const UnitInformation = [
                 defplus: 443
             },
         skillset: 
+            {
+                skill: "18s CT - 3000% Fire DMG (MAG). For 15s, increase own ATK by 20%.",
+                skillbreak: 800,
+                arts: "20000% Fire DMG (MAG). Increase Allies' (Except Self) Arts by 20. For 20s, reduce Enemies' Burn RES by 50%.",
+                artsbreak: 1200,
+                truearts: "70000% Fire DMG (MAG). 100% chance to inflict Burn. For 20s, reduce Enemies' MAG RES by 50% + If this True Arts inflicts Burn, for 20s, reduce Burnt Enemies' Fire RES by 50%.",
+                trueartsbreak: 2400
+            },
+        skillsetJP: 
             {
                 skill: "18s CT - 3000% Fire DMG (MAG). For 10s, increase own ATK by 20%.",
                 skillbreak: 800,
