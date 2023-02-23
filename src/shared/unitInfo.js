@@ -18293,8 +18293,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "Missing Lore.",
+                evoawk: "Carrying a turret in one hand, he has become an agent of pure destruction. His aggression runs counter to claims that he only harms his targets. Anyone who knows of his past might interpret that as him purposefully keeping others out of harm's way, but it is impossible to know for sure."
             }
     },
     { //Priscilla (Fire) - Complete
