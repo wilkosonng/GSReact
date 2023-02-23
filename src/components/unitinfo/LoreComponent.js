@@ -108,7 +108,7 @@ export function RenderFourStar({lore, unitImage, unitEvo}) {
     )
 }
 
-export function RenderFiveStar({lore, unitImage, unitEvo}) {
+export function RenderFiveStar({lore, unitImage, unitEvo = false}) {
     if(unitEvo.evo5awk){
         return (
             <React.Fragment>
