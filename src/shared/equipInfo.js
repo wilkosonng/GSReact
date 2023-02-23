@@ -11921,7 +11921,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Holy Cane 'Proscris' - Missing .....
+{ //Holy Cane 'Proscris' - Missing Skill
         id: 104771,
         name: `Holy Cane 'Proscris'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -11936,19 +11936,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `35s CT - `,
+                break: 1500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Diaz, DMG 20% UP & HP Auto-recovery to all allies by 10 (Only once).`,
+                ability2: `All allies MAX HP 5% & Beast units' DMG 15% UP (Only once).`
             },
-        lore: ``
+        lore: `The scepter of Diaz, one of the heroes of the famous "Crimson Star Circus". When he was liberated from the desire for revenge that kept burning fro his childhood, the hope for the future which had sprouted in his heart, entrusted by his companions, became one in the form of this scepter. Recognizing the companions who had walked with him as a new family, and his vows to create a new tomorrow, the scepter was transformed into a holy scepter.`
     },
 { //Holy Robe 'Lathraea' - Missing .....
         id: 104781,
@@ -12387,7 +12388,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Sans Pluie' - Missing .....
+{ //True 'Sans Pluie' - Complete
         id: 104961,
         name: `True 'Sans Pluie'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -12402,19 +12403,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 7200% Light DMG (Magic). 80% chance of Poisoning enemy. If Demon, Arts gauge 30 UP.`,
+                break: 1200
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Mixie, DMG 20% UP & Equipment CT 20% DOWN (Only once).`,
+                ability2: `Accuracy rate 20% UP & Skill CT DOWN (Only once).`
             },
-        lore: ``
+        lore: `This was an item beloved of Mixie, a Demoness who flourished early in the Ancient War and was close to the Six Great Demon Generals. She never carried a weapon, preferring to provoke and unsettle her opponents with a smug "An umbrella is all I need." However, this umbrella was actually ideal for battle, and in her hands it could be a defensive shield as well as a magical weapon strong enough to shatter diamond. They say that when she twirled her umbrella over the remains of enemy forces, she grew as fearsome as the God of Death.`
     },
 { //True 'Viperra' - Complete
         id: 104971,
@@ -12446,7 +12448,7 @@ const EquipInformation = [
             },
         lore: `This was the beloved whip used by Jill, a human extremist who moved behind the scenes during the Ancient War. She put on the persona of one so loving of peace she wouldn't harm a fly, yet in truth, she was a war-mongering meddler who looked to provoke the greater races. As a cunning schemer, she never fought battles head-on, yet her whip could decapitate foes or inject deadly poison, making her an enemy worth respecting. Indeed, she was every bit as much of a viper as the name of her whip implies.`
     },
-{ //Frozen Spear 'Draco Hasta' - Missing .....
+{ //Frozen Spear 'Draco Hasta' - Complete
         id: 104981,
         name: `Frozen Spear 'Draco Hasta'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -12461,19 +12463,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 8200% Dark DMG (Magic). Reduces enemy's Freeze resistance by 50% for 12s. If Water unit, increases own DMG by 20%.`,
+                break: 1200
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Alvina, DMG 20% UP & Paralyze, Seal & Curse Resistance 100% UP (Only once).`,
+                ability2: `All allies' Water & Dark Equipment 10% UP (Only once).`
             },
-        lore: ``
+        lore: `The magical spear of Alvina, sister to Corsair, of the Frozen Blade, one of the Three Blade Masters. She was able to overcome the dark power sleeping in her blood, and thus managed to awaken the draconic power in this spear. They say that Alvina herself, with her incomparable spear technique and the way she wove magical dragons and blades of ice, appeared like a goddess on the battlefield. They say her power possessed a will of its own, and at times it left its mistress' hands to attack and return, unbidden.`
     },
 { //Frozen Boots 'Caerula Nix' - Missing .....
         id: 104991,
@@ -12678,7 +12681,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Frozen Twin Swords' - Missing .....
+{ //True 'Frozen Twin Swords' - Complete
         id: 105061,
         name: `True 'Frozen Twin Swords'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -12693,19 +12696,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `5s CT - 2200% Water DMG (Magic). Heals own HP by 100.`,
+                break: 500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Palamecia, DMG 20% UP & Break power 25% UP Only once).`,
+                ability2: `Auto-fills Arts gauge by 2 when Near-Death.`
             },
-        lore: ``
+        lore: `These are the blades to which the Silent Divine Palamecia, one of the Gods' greatest sword masters, devoted her life. The way these two blades danced silently through the air earned her comparisons to a swan in flight, and their grace helped her skill grow even more significant. The blades remained gleaming clean no matter their use, and thus reflected the tiniest tremor of hesitation shown by opponents so she could any opening to strike. They say they were so sharp, and they could cut the surface of a lake without raising a ripple.`
     },
 { //True 'Vulkans' - Missing .....
         id: 105071,
@@ -12823,7 +12827,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Atropos' - Missing .....
+{ //True 'Atropos' - Complete
         id: 105111,
         name: `True 'Atropos'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -12838,19 +12842,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 7200% Light DMG (Magic). Reduces own Skill CT by 30% for 16s. If Light unit, reduce Skill CT by 50% instead.`,
+                break: 1200
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Daki, DMG, Evasion rate & Accuracy rate 20% UP (Only once).`,
+                ability2: `Magic DMG 30% UP.`
             },
-        lore: ``
+        lore: `The favorite staff of Daki that he used throughout his life. The staff was able to let off a much powerful light through not only Daki's own power, but also the added power of his Spirit servant. Daki's name was well-known amongst the soldiers in his brigade on the battlefield during the beginning of the Ancient War. Despite this, after leaving the military, he swore to carry on his parents' will by saving those in trouble. He did so while gripping the staff in his hand, feeling the warmth that radiated from it due to his servant's power.`
     },
 { //Light Relic 'Dagger of Creation' - Missing .....
         id: 105121,
@@ -13695,7 +13700,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Griffin' - Missing .....
+{ //True 'Griffin' - Complete
         id: 105541,
         name: `True 'Griffin'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -13710,19 +13715,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 7800% Earth DMG (Magic). Reduces enemy's Paralyze resistance by 60% for 12s.`,
+                break: 1500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Norn, DMG 20% UP & Arts gauge 100 UP when Quest starts (Only once).`,
+                ability2: `Break Power 10% UP.`
             },
-        lore: ``
+        lore: `This special order weapon has been customized for easier use by the Machine warrior Norn. The original weapon has been lightened and its firepower increased, and since it can store up energy in advance it's capable of offering maximum power from the first shots of battle. On the other hand, it suffers from reduced energy efficiency and extreme recoil, which Norn compensates for with her own high-performance ballistic control system and high-output magic reactor.`
     },
 { //Spiked Helmet 'Agni' - Missing .....
         id: 105551,
@@ -13927,7 +13933,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Exceed Zechs' - Missing .....
+{ //True 'Exceed Zechs' - Complete
         id: 105621,
         name: `True 'Exceed Zechs'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -13942,19 +13948,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 8800% Dark DMG (Magic). If own HP is over 75%, increases Arts gauge by 30. Increases Arts DMG by 50% for 8s.`,
+                break: 1000
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Hero of Darkness Zeorg, DMG & HP UP (MAX 20%). Paralyze & Freeze resistance 50% UP (Only once).`,
+                ability2: `Heals own HP by 3% of DMG to enemy when Near-Death.`
             },
-        lore: ``
+        lore: `A cursed blade said to be the shadow to the magical blade Ryude Magus, symbol of Zeorg, Hero of Famelle. They say that all who have taken it up descended into berserker madness, yet still all who bore the sword of light were eventually driven to reach out for this cursed sword as well. It is the final trial for all those who pursued power and sought to evade their own inevitable fading. A ritual to choose the truly supreme, woven by the two swords themselves. And now, having dominated the cursed blade and the magic, Zeorg is truly a hero.`
     },
 { //Twin Bone Swords 'Dos Muertes' - Missing .....
         id: 105631,
@@ -14014,7 +14021,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Dos Muertes' - Missing .....
+{ //True 'Dos Muertes' - Complete
         id: 105651,
         name: `True 'Dos Muertes'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -14029,19 +14036,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `30s CT - 6800% Dark DMG (Magic). Lifesteal 7% of DMG Dealt.`,
+                break: 1200
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When Equipped by Ashe, increases own Critical DMG by 50% and auto-fills Arts gauge by 1 (only once).`,
+                ability2: `Increases DMG to Humans by 30%.`
             },
-        lore: ``
+        lore: `The two swords that Ashe, the Cult's experiment, used in every fight. By using this weapon perfected for killing, he reached the highest levels of power. The magic flowing inside the swords reverberates with him, penetrates into the gaps of any protective gear of the opponent to make a blow that surely results in death. His perfect technique is achieved thanks to his double swords.`
     },
 { //JP Equip Name (Vogue Farmable) - Missing .....
         id: 105661,
@@ -14188,7 +14196,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Fomalhaut' - Missing .....
+{ //True 'Fomalhaut' - Complete
         id: 105711,
         name: `True 'Fomalhaut'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -14203,19 +14211,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 7200% Fire DMG (Magic). Reduces enemies' Fire Resistance by 50% for 10s.`,
+                break: 1200
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When Equipped by Berwick, increases all status by 30% and DMG by 30% (only once).`,
+                ability2: `Increases DMG to Earth Elemental Units by 20%.`
             },
-        lore: ``
+        lore: `The man who bore this scepter used it to drive back an entire invading army on his own, and even incinerated a mighty ice dragon. The holy flames it generates burn all to ash and scatters the ashes to the four winds. From this, it earned the name Hell Flame Scepter, and it played a role in all his great works. Many longed for his power and attempted to carry this weapon, but its flames depend on the bearer's magical power, and only one with a worthy fighting spirit can bring out its true power.`
     },
 { //Earth Axe 'Tempest' - Missing .....
         id: 105721,
@@ -17972,7 +17981,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Mirage Kimono' - Missing .....
+{ //True 'Mirage Kimono' - Complete
         id: 107031,
         name: `True 'Mirage Kimono'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -17987,19 +17996,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 7500% Light DMG (Magic). Increases all allies' BE Output by 50% for 10s. If Light unit, own DMG 30% UP for 10s.`,
+                break: 1300
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Shiki, extends the Status Ailment time inflicted by her Skill by 2s (only once).`,
+                ability2: `Evasion rate 20% UP when Near-Death.`
             },
-        lore: ``
+        lore: `A kimono held by Shiki, a shinobi of Imari Village and the princess of a fallen nation. This garb created from her mother's keepsake is decorated with ornaments from the fallen land of Ena, and is enchanted with a defensive ninjutsu native to Imari Village. This piece of clothing served as emotional support for Shiki, who lived proudly as both a shinobi of Imari Village and the princess of Ena. It is said that even after her greatest enemy, the Demon Fox Uzuki was defeated, the kimono continued to protect her for many, many years.`
     },
 { //Demon Edge 'Blood Moon' - Missing .....
         id: 107041,
@@ -18030,7 +18040,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Blood Moon' - Missing .....
+{ //True 'Blood Moon' - Complete
         id: 107051,
         name: `True 'Blood Moon'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -18045,19 +18055,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `65s CT - 10000% Fire DMG (Magic). Reduces enemy's Fire & Dark resistance by 40% for 10s.`,
+                break: 1800
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Tamae, CRI DMG 60% UP (Only once).`,
+                ability2: `ATK 10% UP.`
             },
-        lore: ``
+        lore: `A girl's sword that became the vessel for a Demon Fox. Although the blade was once used by the founder of Ginzo's clan to defeat a Demon Fox, it turned into a threat for the shinobi when it fell into the hands of a girl controlled by the Demon. The sword is able to become sharper by whittling away at the user's life force. However, this power has been changed thanks to the power of the Demon Fox, and it now can also be fed by draining the souls of those it cuts. This sword, that can burn away most of anything with a single stroke, came to be called a Demonic Katana.`
     },
 { //JP Equip Name (Plant Raid Equip) - Missing .....
         id: 107061,
@@ -18175,7 +18186,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Lizaverde' - Missing .....
+{ //True 'Lizaverde' - Complete
         id: 107101,
         name: `True 'Lizaverde'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -18190,19 +18201,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `30s CT - 6000% Water DMG (Magic). Increases own CRI DMG by 30% for 8s. Water units get an extra 30%.`,
+                break: 1200
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Veronica, CRI DMG 40% UP & Skill CT 40% DOWN (Only once).`,
+                ability2: `DMG 20% UP during Break.`
             },
-        lore: ``
+        lore: `There were times when Veronica brought out Lizaverde's power even more than usual. However, she limited herself to only doing so in extreme situations, as making one mistake when releasing that much power could destroy everything in existence. Legend says that when Veronica was unable to contain Lizaverde after it went berserk before, even the sky was cut in half, and she continued to destroy the monsters that appeared around her until the end of her life.`
     },
 { //JP Equip Name (Aluze's Farmable) - Missing .....
         id: 107111,
@@ -20271,7 +20283,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Discontent' - Missing .....
+{ //True 'Discontent' - Complete
         id: 107821,
         name: `True 'Discontent'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -20286,19 +20298,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 9000% Dark DMG (Magic). Increases own Arts gauge by 30. Reduces enemy's Dark resistance by 30% for 8s.`,
+                break: 1000
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Bakoo, ATK 30% UP & Arts gauge 50 UP when quest starts (Only once).`,
+                ability2: `Magic DMG 10% UP.`
             },
-        lore: ``
+        lore: `Whoever gazes into this gem will be overwhelmed with pain and anger of every variety. It is doubtful any Human, Divine or Demon can withstand such trauma. Regardless, it is still highly sought for its promise of great power. There was one who obtained it for the sake of revenge, but all that remained after its fulfillment was a hollow, shriveled figure.`
     },
 { //False Crown 'Dream Glutton' - Missing .....
         id: 107831,
@@ -20474,7 +20487,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Scatter-18' - Missing .....
+{ //True 'Scatter-18' - Complete
         id: 107891,
         name: `True 'Scatter-18'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -20489,19 +20502,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 2000% Fire DMG (Magic).`,
+                break: 6000
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Marika, Break power & Arts DMG 30% UP (Only once).`,
+                ability2: `Skill CT speed 5% UP.`
             },
-        lore: ``
+        lore: `One of Marika's inventions. It has gone through many revisions over the years to better match her needs. Although many are impressed by her talent to make ordinary objects do extraordinary things, she only sees herself as staying true to her parents' lesson of "treat your belongings with respect".`
     },
 { //Geek Shielder - Missing .....
         id: 107901,
@@ -20619,7 +20633,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Cantabile' - Missing .....
+{ //True 'Cantabile' - Complete
         id: 107941,
         name: `True 'Cantabile'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -20634,19 +20648,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 6000% Light DMG (Magic). Reduces enemy's Light resistance by 50% for 10s.`,
+                break: 1000
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Victoire, auto-fills Arts gauge by 2 & extends own True Arts duration by 10s.`,
+                ability2: `Magic DMG from enemy 10% DOWN.`
             },
-        lore: ``
+        lore: `A fearsome instrument that destroys the target's body from the inside. It's indistinguishable from a standard instrument by amateurs, but a trained expert can unleash a destructive blast with pinpoint accuracy. As it receives air directly from the wielder, it can also convey their emotions. Some have even theorized the proper frequency can affect intangible things like memories and ideas.`
     },
 { //Shako of Aspiration 'Betzfald' - Missing .....
         id: 107951,
@@ -23672,7 +23687,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Gold Rush' - Missing .....
+{ //True 'Gold Rush' - Complete
         id: 109021,
         name: `True 'Gold Rush'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -23687,19 +23702,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 5000% Light DMG (Magic). Increases DMG by 50% for 12s. If the user is a Light unit, increases Accuracy by 30% for 12s.`,
+                break: 700
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Sharon, all stats 15% UP & extends Arts duration by 10s (Only once).`,
+                ability2: `Magic DMG from enemy 5% DOWN.`
             },
-        lore: ``
+        lore: `There once lived a Bamint-born actress of matchless talent. Sharon idolizes her so much that she went to great lengths to obtain her trademark stole. Whether she is basking in applause or laboring behind the scenes, it can always been seen glimmering around her shoulders. People eventually started believing it is the sign of a top star.`
     },
 { //JP Equip Name (Sharon's Farmable) - Missing .....
         id: 109031,
@@ -23759,7 +23775,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Bel Canto' - Missing .....
+{ //True 'Bel Canto' - Complete
         id: 109051,
         name: `True 'Bel Canto'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -23774,19 +23790,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `60s CT - 7500% Dark DMG (Magic). Increases Bleed Level by 1 when enemy is Bleeding (Up to Lv3). Reduce enemy's Magic resistance by 35% for 8s.`,
+                break: 300
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Hart-Xi, ATK 30% UP & auto-fills Arts gauge by 3 (Only once).`,
+                ability2: `Accuracy 10% UP.`
             },
-        lore: ``
+        lore: `The gun Hart uses in his rebellion against the empire. It was once the flagship product of Goldoa Corp., popular throughout Isliid for its ease of use and high accuracy. The solid barrel, where most of its limited weight is located, ensures precision. Its report is somewhat higher pitched compared to other guns due to the metal's properties, giving it the nickname of "the Singing Gun".`
     },
 { //Bel Canto M3 - Missing .....
         id: 109061,
@@ -24920,7 +24937,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Inspector' - Missing .....
+{ //True 'Inspector' - Complete
         id: 109451,
         name: `True 'Inspector'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -24935,19 +24952,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 8000% Water DMG (Magic). Reduces enemy's Water resistance by 30% for 10s. if the user is a Water unit, increases DMG by 50% for 10s.`,
+                break: 800
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Vultee, Auto-fills Arts gauge by 3 (Only once).`,
+                ability2: `Magic DMG 10% UP.`
             },
-        lore: ``
+        lore: `The customized weapon of Vultee, imperial soldier from Simon's Hill. most of the visual adjustments are minor like the perfectly molded grip. Far more important are magically strengthened gun barrel, able to withstand up to twice the output, and the precision calibration chip tuned to his personal quirks.`
     },
 { //Ancient Law - Missing .....
         id: 109461,
@@ -25065,7 +25083,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Ancient Law' - Missing .....
+{ //True 'Ancient Law' - Complete
         id: 109501,
         name: `True 'Ancient Law'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -25080,21 +25098,22 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `80s CT - 5500% Dark DMG (Magic). Increases Arts gauge by 35. Increases Dark DMG by 30% for 30s.`,
+                break: 900
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Emi, DMG 20% UP & Arts gauge 100 UP when quest starts (Only once).`,
+                ability2: `Blind Time Reduction & Blind Evasion rate 20% UP.`
             },
-        lore: ``
+        lore: `Emi's necklace engraved with the script of a lost civilization. It gives her the ability to control the minds of her retainers. Unlike the waning effect found in others, the power of this one is fully intact since it was made recently.`
     },
-{ //True 'Nine Oaths' - Missing .....
+{ //True 'Nine Oaths' - Complete
         id: 109511,
         name: `True 'Nine Oaths'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -25109,19 +25128,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `80s CT - 10000% Dark DMG (Magic). Reduces enemy's Dark resistance by 25% for 30s.`,
+                break: 800
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped Emi, extends Revelation by 30s.`,
+                ability2: `Magic DMG from enemy 5% DOWN.`
             },
-        lore: ``
+        lore: `Emi's dress inlaid with enchanted embroidery. The pact she formed with it gave her strength in exchange for limiting her actions. There are nine restrictions in all, with each additional one offering a proportional benefit. Since complete commitment makes it impossible to lead a normal life, some other source of stability, such as a firm will or a deep-rooted anger, is necessary.`
     },
 { //True 'Grand Scale' - Missing .....
         id: 109521,
@@ -26257,7 +26277,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Assault Architect' - Missing .....
+{ //True 'Assault Architect' - Complete
         id: 109911,
         name: `True 'Assault Architect'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -26272,19 +26292,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 7000% Water DMG (Magic). Increases Magic & Water DMG by 40% for 10s.`,
+                break: 800
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Selia the Beguiler, auto-fills Arts gauge by 2 (Only once).`,
+                ability2: `Fire Resistance 10% UP.`
             },
-        lore: ``
+        lore: `The magic wand of famous conjurer Selia. The crystal at the top, made up of highly endothermic materials, approaches temperatures close to absolute Zero. This increases the strength of ice magic by a magnitude of over 1000%. However, the uninitiated should never touch it as a single mistake could leave them frozen solid.`
     },
 { //JP Equip Name EV (Emi Raid Equip EV) - Missing .....
         id: 109941,
@@ -26374,7 +26395,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global`
     },
-{ //True 'Asteroid' - Missing .....
+{ //True 'Asteroid' - Complete
         id: 109971,
         name: `True 'Asteroid'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -26389,19 +26410,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 7500% Earth DMG (Magic). Increases Earth DMG by 50% & reduces enemy's Magic resistance by 30% for 10s.`,
+                break: 500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Foliage Carver Rosetta, DMG 40% UP. Arts gauge 50 UP when Magia Drive is activated (Only once).`,
+                ability2: `Skill CT speed 20% UP when Near-Death.`
             },
-        lore: ``
+        lore: `A dagger crafted especially for Rosetta. The layout of the engraved runes has been customized for sharper reactions to her commands. Though its magic is fairly weak, the improved tracking and speed allows it to strike vital spots with deadly accuracy. The blacksmith who reworked the dagger used his knowledge of Shinobi culture and weaponry as a reference.`
     },
 { //Vibrant Edge 'Asteroid' - Missing .....
         id: 109981,
@@ -32668,7 +32690,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Emilia's Cape' - Missing .....
+{ //True 'Emilia's Cape' - Complete
         id: 150871,
         name: `True 'Emilia's Cape'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -32683,19 +32705,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `55s CT - 6000% Water DMG (Magic). Increases own DMG by 30% & Water units' DMG by 10% for 12s.`,
+                break: 800
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Magic DMG from enemy 5% DOWN.`,
+                ability2: `When equipped by Emilia, Arts DMG 15% UP. Upon Arts activation, enemy's Freeze resistance 20% DOWN for 15s (Only once).`,
+                ability3: [`ATK 5% UP.`, `DEF 5% UP.`, `MAX HP 5% UP.`, `Burn Time Reduction & Burn Evasion rate 10% UP.`, `Status Ailment (except Faint) Time Reduction 10% UP & Magic DMG 5% UP.`, `CRI rate 15% UP & Equip CT Speed 10% DOWN.`]
             },
-        lore: ``
+        lore: `The 'Spirit User' Emilia's cloak. There are cat ears on the hood.`
     },
 { //Beatrice's Ribbon - Missing .....
         id: 150881,
@@ -32842,7 +32866,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Ram's Mop' - Missing .....
+{ //True 'Ram's Mop' - Complete
         id: 150931,
         name: `True 'Ram's Mop'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -32857,19 +32881,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 4000% Earth DMG (Magic). Increases own DEF & Accuracy by 25% for 15s.`,
+                break: 700
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Ram, DEF 10% UP. Upon True Arts activation, Arts gauge 20 UP.`,
+                ability2: `Magic Resistance 5% UP.`,
+                ability3: [`ATK 5% UP.`, `DEF 5% UP.`, `MAX HP 5% UP.`, `Disease Time Reduction & Disease Evasion rate 10% UP.`, `Auto-recovery by 20 & Skill CT Speed 5% UP.`, `DEF 10% UP & Evasion rate 10% DOWN.`]
             },
-        lore: ``
+        lore: `The Roswaal Mansion's mop. You can't clean without it. Ram's name is written on it.`
     },
 { //Subaru Natsuki's Tracksuit - Missing .....
         id: 150941,
@@ -35264,19 +35290,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 5000,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `55s CT - 7000% Earth DMG (Magic). Increases CRI rate by 70% for 10s. If the user is an earth unit, 30% more.`,
+                break: 700
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Filo, DMG 30% UP & auto-fills Arts gauge by 1 (Only once).`,
+                ability2: `Skill DMG 20% UP.`
             },
-        lore: ``
+        lore: `Filo's hair accessory that Naofumi Iwatani made for her. He endowed it with speed-increasing powers and chose to make it a hairpin since it was unlikely to fall off when Filo transforms... so he says.`
     },
 { //True 'Fitoria's Gown' - Missing .....
         id: 151811,

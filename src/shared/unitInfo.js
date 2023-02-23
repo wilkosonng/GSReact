@@ -19255,7 +19255,7 @@ const UnitInformation = [
                 evoawk: "A mysterious conjurer who appeared all over Raktehelm with winter's approach. Regardless of her mass popularity, no one ever learned her true origins since she answered every question with a lie. However, her revision of the Grimm Stella works which position her as the central focus contains some measure of truth. She also wrote many poetry collections about winter and practiced lithomancy."
             }
     },
-    { //Rosetta (Earth) - Missing Lore
+    { //Rosetta (Earth) - Complete
         id: 103446312,
         name: "Rosetta (Earth)",
         attribute: "Earth",
@@ -19334,8 +19334,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "A magician and recorded member of Granadia's Templars in the era of the Ancient War. She returned to present Raktehelm after Emperor Isliid broke the Great Seal. Although bewildered by how much the world had changed in her absence, she was no less determined to reunite with Princess Leone. Intuition also told her to seek out the World Drops for she would meet her scattered comrades along the journey.",
+                evoawk: "As a result of the irregular flow of time behind the Great Seal, only a few decades have passed since Princess Leone's departure from her perspective. She has lived for the sake of reviving her dear friend and sees the return to Raktehelm as another step towards the goal. However, what she truly desires could be just a return to those complex yet enjoyable days under her leadership."
             }
     },
     { // Orvell (Fire) - Missing Lore
@@ -20776,6 +20776,84 @@ const UnitInformation = [
                     {
                         ability1: `When equipped by Star God Liza, increase all stats and Skill CT REC by 20%. Does not stack with Abilities of the same name.`,
                         ability2: `Increase MAG RES by 5%.`
+                    }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { // Blazing Flower Mira - Missing Lore
+        id: 103657112,
+        name: "Blazing Flower Mira",
+        attribute: "Fire",
+        type: "Human",
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_103656112.png",
+                detailsuper: "/db/Units/Detail/unit_detail_103657112.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103656112.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103657112.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/healLB.png",
+                slot32type: "/db/Mines/thumbnail/magLB.png"
+            },
+        stats: 
+            {
+                hp: 7216,
+                hpplus: 1362,
+                atk: 3900,
+                atkplus: 674,
+                def: 3024,
+                defplus: 626
+            },
+        skillset: 
+            {
+                skill: `12s CT - 2500% Fire DMG (PHY). Increase own Arts by 30.`,
+                skillbreak: 500,
+                arts: `20000% Fire DMG (PHY). For 20s, reduce Enemies' PHY RES by 60%.`,
+                artsbreak: 1000,
+                truearts: `60000% Fire DMG (PHY). For 17s, increase Allies' Arts by 6/s. Increase Fire Allies' Arts by 8/s instead.`,
+                trueartsbreak: 2200,
+                superarts: `160000% Fire DMG (PHY). For 30s, increase own Critical Rate and ATK by 100%.`,
+                superartsbreak: 2400
+            },
+        passive: 
+            {
+                ability1: `Increase own Super Critical Rate by 50% against Enemies under 50% HP.`,
+                ability2: `Increase Poison RES 80%.`,
+                ability3: `Increase DMG by 50% against Enemies under 30% HP.`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_130853.png",
+                    mat2amt: 220,
+                    hover2: "Flame Fox Spirit Orb"
+                }
+            },
+        trueweapon: //If no TW, may delete this section
+            {
+                name: `Blaze Bamint`,
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_111191.png",
+                skill: `45s CT - 8000% Fire DMG (PHY). For 12s, reduce Enemies' Fire RES by 40%. If User is Fire, increase own accuracy rate by 30%.`,
+                skillbreak: 800,
+                passive: 
+                    {
+                        ability1: `When equipped by Blazing Flower Mira, increase own Skill CT by 10% + At the Start of a Quest, increase own Arts by 50. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase DMG to Enemies in BREAK by 20%.`
                     }
             },
         lore: 
