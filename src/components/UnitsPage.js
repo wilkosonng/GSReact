@@ -116,8 +116,8 @@ export default function Units () {
 
                         //Check for Server
                         const hasMatchingServer = (isGlobalChecked && isJapanChecked)
-                        || (isGlobalChecked && !isJapanChecked && !unit.lore.evoawk?.toLowerCase().includes('currently unreleased in global.'))
-                        || (isJapanChecked && !isGlobalChecked && unit.lore.evoawk?.toLowerCase().includes('currently unreleased in global.'));
+                        || ((isGlobalChecked && !isJapanChecked) && !unit.lore.evoawk?.toLowerCase().includes('currently unreleased in global.') && !unit.name.toLowerCase().includes('kazlaser'))
+                        || ((isJapanChecked && !isGlobalChecked) && !unit.lore.evoawk?.toLowerCase().includes('crunchyroll-hime') );
 
                         //Check for Attributes
                         const selectedAttr = Object.keys(filters.attribute).filter((key) => filters.attribute[key])
