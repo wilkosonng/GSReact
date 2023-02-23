@@ -7283,7 +7283,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `30s CT - 800% DMG (MAG). Increases all Allies' Break Power by 8% for 10s.`,
+                skill: `30s CT - 800% DMG (Magic). Increases all Allies' Break Power by 8% for 10s.`,
                 break: 300
             },
         passive: 
@@ -12153,7 +12153,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Dragon Twilight' - Missing .....
+{ //True 'Dragon Twilight' - Complete
         id: 104881,
         name: `True 'Dragon Twilight'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -12168,19 +12168,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 7800% Fire DMG (Physical). Increases all allies' Break power by 20% for 8s.`,
+                break: 1500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Tallis, DMG 20% UP & Paralyze, Freeze & Curse resistance 100% UP (Only once).`,
+                ability2: `DMG 10% to enemy & 10% DOWN from enemy when Near-Death (Only once).`
             },
-        lore: ``
+        lore: `The beloved blade of Tallis, famed for being the ultimate mistress of the Radiant Ittoryu sword style of the Gods. Although it had been passed down in her family for generations, they say she was the only one to take the style to its pinnacle. Her flowing strikes, and the flames spraying forth from this sword like the fiery breath of the many headed dragon it slew, have dispatched evils beyond number. Yet herself was so powerful, she rarely had to draw her sword at all.`
     },
 { //True 'Diamond Chakram' - Missing .....
         id: 104891,
@@ -12197,7 +12198,7 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
@@ -12207,7 +12208,8 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Lozze. DMG 20% UP & Skill DMG 20% UP (Only once).`,
+                ability2: `HP Auto-recovery by 30 when Near-Death`
             },
         lore: ``
     },
@@ -12414,7 +12416,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Viperra' - Missing .....
+{ //True 'Viperra' - Complete
         id: 104971,
         name: `True 'Viperra'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -12429,19 +12431,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 8500% Earth DMG (Physical). Reduces enemy's Earth resistance by 50% for 8s.`,
+                break: 1700
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Jill, DMG 20% UP & Auto-fills Arts gauge by 2 for 90s (Only once).`,
+                ability2: `All allies' DMG 10% UP for first 30s of quest (Only once).`
             },
-        lore: ``
+        lore: `This was the beloved whip used by Jill, a human extremist who moved behind the scenes during the Ancient War. She put on the persona of one so loving of peace she wouldn't harm a fly, yet in truth, she was a war-mongering meddler who looked to provoke the greater races. As a cunning schemer, she never fought battles head-on, yet her whip could decapitate foes or inject deadly poison, making her an enemy worth respecting. Indeed, she was every bit as much of a viper as the name of her whip implies.`
     },
 { //Frozen Spear 'Draco Hasta' - Missing .....
         id: 104981,
@@ -13139,7 +13142,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Deino' - Missing .....
+{ //True 'Deino' - Complete
         id: 105261,
         name: `True 'Deino'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -13154,19 +13157,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 7800% Dark DMG (Physical). Lifesteal by 8% of DMG. Additionally, increases all allies' Accuracy rate by 30% for 10s.`,
+                break: 1200
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Raki, BE Output 15% UP, Skill CT 20% DOWN & DMG 20% UP (Only once).`,
+                ability2: `Own ATK 40% UP when Near-Death.`
             },
-        lore: ``
+        lore: `The favorite sword of Raki that he used throughout his life. The blade continued to grow sharper, as if it was proof of Raki's growth from overcoming the sadness of being separated from his brother. Although he was a skilled warrior of the army's magic corps, he reported his resignation to the captain after rumors began to arise that Raki would be promised a path to become captain himself. It is said that the captain did not stop him from leaving because of the determination in his eyes that burned brighter than he had ever seen.`
     },
 { //Gauntlets 'Gault Fort' - Missing .....
         id: 105271,
@@ -13371,7 +13375,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'IZANAGI' - Missing .....
+{ //True 'IZANAGI' - Complete
         id: 105431,
         name: `True 'IZANAGI'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -13386,19 +13390,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `10s CT - 2300% Earth DMG (Physical). Increases own Arts Gauge by 2 for 3s.`,
+                break: 300
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When Equipped by Sakura Mira, increases own DMG by 20% and Auto-fills Arts gauge by 2 (only once).`,
+                ability2: `Increases Equipment CT Speed by 15%.`
             },
-        lore: ``
+        lore: `It is one of the two swords that the lady swordsman Yomi carried when she drifted ashore to Raktehelm from another world. For many years, the soul of her friend swordswoman who was asleep in the sword didn't approve of those who attempted to wield it. It sat unused until the third princess of Bamint unleashed the dormant power of "Sakura Itto-Ryu". The sparkle of the blade fills the air like flowers from another world and the opponent, intoxicated from the scene, is slashed without even noticing.`
     },
 { //Iris' Rolly-Frill Bikini - Missing .....
         id: 105441,
@@ -14270,7 +14275,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Tempest' - Missing .....
+{ //True 'Tempest' - Complete
         id: 105741,
         name: `True 'Tempest'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -14285,19 +14290,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `100s CT - 14000% Earth DMG (Physical). If equipped by an Earth unit, Increases Arts gauge by 50.`,
+                break: 800
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When Equipped by Riviera, Increases DMG dealt by 30% and will not flinch (only once).`,
+                ability2: `Increases accuracy rate by 20%.`
             },
-        lore: ``
+        lore: `The woman knight who handles this double weapon has always defended the Princess behind the enemy lines, along with the knight with the large shield. They say that the one who was mowed down by her axes was swept away together with the rocks in the surroundings, without leaving any trace. Nobody else could ever wield this weapon, but she was able to unleash all its destructive power.`
     },
 { //Crimson Blade 'Degilagon' - Missing .....
         id: 105751,
@@ -14763,7 +14769,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Maelstrom' - Missing .....
+{ //True 'Maelstrom' - Complete
         id: 105911,
         name: `True 'Maelstrom'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -14778,19 +14784,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 7800% Water DMG (Physical). If Water unit, increases all allies' Status Ailment resistance by 100% for 12s (Except Faint).`,
+                break: 1500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Illusory Twin Blades Melia, DMG 30% UP & Skill CT 30% DOWN (Only once).`,
+                ability2: `Own Evasion rate 10% UP.`
             },
-        lore: ``
+        lore: `The beloved twin blades used by Melia during her work as assassin and spy. This weapon earned her renown as the fastest of the Cult's spies, the "Illusory Twin-blades Assassin". The sword technique is focused on pure speed of attack, and even when facing multiple enemies, usually a handicap for double weapons, her flowing style is overwhelming. After she fled from the Cult, those she met on her journey have helped her grow, and now she uses her twin blades for good.`
     },
 { //JP Equip Name (Eternia Farmable) - Missing .....
         id: 105921,
@@ -14850,7 +14857,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Aurora & Zephyr' - Missing .....
+{ //True 'Aurora & Zephyr' - Complete
         id: 105941,
         name: `True 'Aurora & Zephyr'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -14870,14 +14877,15 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 9000% Light DMG (Physical). Reduces enemy's Light resistance by 35% for 12s.`,
+                break: 1500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Eternia, MAX HP 30% UP & DMG to Giant Boss 35% UP (Only once).`,
+                ability2: `Skill CT speed 25% UP.`
             },
-        lore: ``
+        lore: `Clad in blue and purple light, these blades of Eternia have destroyed many powerful Dragons. Their edges, sharper than cloud-piercing light, can sever any material. They choose a wielder with a clear soul, meaning she too was fated to hold them. Whenever she fought on the battlefield, their dazzling light created the illusion of floating in dawn's resplendency.`
     },
 { //Dragon Gauntlet 'Sol Helios' - Missing .....
         id: 105951,
@@ -15242,7 +15250,7 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
@@ -15256,7 +15264,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Knights Glow' - Missing .....
+{ //True 'Knights Glow' - Missing Skill
         id: 106081,
         name: `True 'Knights Glow'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -15271,19 +15279,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `70s CT - `,
+                break: 8000
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Platina, Break power 30% UP. DMG 30% UP during Break (Only once).`,
+                ability2: `Dark resistance 20% UP.`
             },
-        lore: ``
+        lore: `The proud sword of Platina of the Divine Knights, beloved blade that cut so much evil. The shining blade was improved by a high-ranking sorcerer, who made it sharp and lethal on the condition of the pureness and nobility of its bearer. They even say that when it's possessor loses pride as a knight, the blade will decay as well. However, its effulgence has not been lost until now, and it continues to irradiate solemn light, proving that she who bears it is worth of her acclaim as a true knight.`
     },
 { //Red-Nosed Rayas Doll - Missing .....
         id: 106091,
@@ -15720,7 +15729,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Saint Blaze' - Missing .....
+{ //True 'Saint Blaze' - Complete
         id: 106241,
         name: `True 'Saint Blaze'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -15735,19 +15744,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `65s CT - 9500% Water DMG (Physical). Increases all allies' Water DMG by 40% for 10s.`,
+                break: 1000
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When Equipped by Nies, increases own DMG by 20%, regenerates own HP by 100, and auto-fills arts gauge by 2/sec (only once).`,
+                ability2: `Increases own Skill DMG by 20%.`
             },
-        lore: ``
+        lore: `Former leader of the Divine Guardian's Divine Knights, Nies, wielded this great sword his whole life. It possesses massive magical power, and so even among the Gods only the chosen ones could control it: those without true strength were forbidden to touch it. When those bearing this sword attack, the power unleashed is directly proportionate to the bearer's will, and thus Nies' iron will and incredible skill channeled through this blade meant he was the match of ten thousand warriors.`
     },
 { //JP Equip Name (Belle's Farmable) - Missing .....
         id: 106251,
@@ -16300,7 +16310,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'NANASHI' - Missing .....
+{ //True 'NANASHI' - Complete
         id: 106441,
         name: `True 'NANASHI'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -16315,19 +16325,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `70s CT - 12500% Dark DMG (Physical). If Dark unit, increase own DMG by 50% for 10s.`,
+                break: 1500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Agent of Darkness Kane, DMG 30% UP & Auto-fills Arts gauge by 1 (Only once).`,
+                ability2: `Own CRI rate 20% UP.`
             },
-        lore: ``
+        lore: `A short sword used by Agent of Darkness Kane. He learned how to use the blade to cut through the air and smash rocks, among other things. However, after multiple battles during the escort mission, he realized that a single slash with a calm mind was the strongest technique of them all. Feeling the hearts and souls of the blacksmiths inside of the sword they crafted, he came to recognize the Nanashi as his favorite sword. He displayed it the sword in his room back in Gramenia after returning from the escort mission, never wanting to forget his gratitude and respect toward those who created such a masterpiece.`
     },
 { //JP Equip Name (Sai's Farmable) - Missing .....
         id: 106451,
@@ -16882,7 +16893,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Vanish' - Missing .....
+{ //True 'Vanish' - Complete
         id: 106661,
         name: `True 'Vanish'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -16897,19 +16908,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 9200% Dark DMG (Physical). Reduces all allies' Skill CT by 30% for 10s.`,
+                break: 5500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Duke, DMG 30% UP & Skill CT 50% DOWN (Only once).`,
+                ability2: `DMG 20% UP during Break.`
             },
-        lore: ``
+        lore: `A large sword that has faced many national crises with Duke of the Templars of Granadia. The inscription on it says: "Every time the blade was stained with blood, a shiver of joy runs down my spine." This is why it was considered a cursed sword for a long time. Since the name of the leader of the Templars was erased from history, the whereabouts of the sword is unknown, but if it is truly a cursed sword, it may still be waiting for a new wielder somewhere in a forgotten demon land.`
     },
 { //JP Equip Name (Garm Raid Equip) - Missing ..... (109951 = Garm EV Equip)
         id: 106671,
@@ -17085,7 +17097,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Netherworld Silver' - Missing .....
+{ //True 'Netherworld Silver' - Complete
         id: 106731,
         name: `True 'Netherworld Silver'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -17100,19 +17112,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `60s CT - 10000% Dark DMG (Physical). Increases own Physical DMG by 30% for 8s. If enemy is Light, enemy's Dark resistance 20% DOWN.`,
+                break: 2000
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Ginzo, all stats 30% UP & Auto-fills Arts gauge by 1 (Only once).`,
+                ability2: `Skill CT 20% DOWN when Near-Death.`
             },
-        lore: ``
+        lore: `The spear used by Ginzo, a legendary shinobi who protected Imari Village. Its tranquil atmosphere resembles the moon, and shines even within the all-enveloping darkness. It is said that this spear stabbed the great Yoma Lord himself, and only truly awakens when it resonates with the feelings of the one who holds it. When the spear's master puts his or her life on the line to protect someone, it transforms into a holy silver spear, and unleashes an attack that resembles a moonbeam cutting through the night to a brighter future ahead.`
     },
 { //Pyro Blade 'Will-o'-the-Wisp' - Missing .....
         id: 106741,
@@ -17172,7 +17185,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Will-o'-the-Wisp' - Missing .....
+{ //True 'Will-o'-the-Wisp' - Complete
         id: 106761,
         name: `True 'Will-o'-the-Wisp'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -17187,21 +17200,22 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `80s CT - 11000% Fire DMG (Physical). Increases own ATK by 80% for 12s. If Fire unit, extra 70%.`,
+                break: 2500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Kisaragi, ATK 30% UP & Arts gauge 100 UP when quest starts (Only once).`,
+                ability2: `Physical DMG from enemy 10% DOWN.`
             },
-        lore: ``
+        lore: `The sword of Kisaragi, a teacher of ninja techniques living in Imari Village. This burning blade has experienced much hardship alongside her, and by using memories of those events, has awoken the true strength sleeping within. The flames that flow out of the wounds of enemies cut with this blade eventually envelop them, and burn eternally, much like the passion in Kisaragi's heart. She never spoke of the memories burned into the blade till the day she died. However, the sword understood her feelings as she gazed upon it alone, as if recalling a precious memory.`
     },
-{ //True 'TSUJI-KAZE' - Missing .....
+{ //True 'TSUJI-KAZE' - Complete
         id: 106771,
         name: `True 'TSUJI-KAZE'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -17216,19 +17230,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `65s CT - 9000% Earth DMG (Physical). Increases all allies' Earth DMG by 40% for 10s.`,
+                break: 2200
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Saku, DMG 30% UP & MAX HP 20% UP (Only once).`,
+                ability2: `Own Skill CT 10% DOWN.`
             },
-        lore: ``
+        lore: `The favorite sword of Saku, who is aiming to become a full-fledged shinobi. A legend was spoken throughout the generations of Saku's family--one that says that only those who understand the truth of the Holy Tree will be able to awaken the hidden power of the sword. The legitimacy of this legend, however, was confirmed by Saku. After all, he was able to unleash the sword's power due to his efforts during training with his master, who he respected greatly. The jade-colored blade with the ability to ward off evil with the power of the holy tree within it seemed to shine more and more as Saku's heart grew.`
     },
 { //Platina's Golden Bikini - Missing .....
         id: 106781,
@@ -17752,7 +17767,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Creation' - Missing .....
+{ //True 'Creation' - Complete
         id: 106961,
         name: `True 'Creation'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -17767,19 +17782,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 8000% Dark DMG (Physical). Auto-fills own Arts gauge by 3 & increases Magic DMG by 30% for 8s.`,
+                break: 1100
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Ruthless Demon Divine Celia, all stats 30% UP & Status Ailment resistance 50% UP (Except Faint, Only once).`
             },
-        lore: ``
+        lore: `The sword of dusk wielded by Celia, First Lady of Bamint, in order to build a new world. The Princess craving for the power to destroy the old world, continued to pour the darkness of her heart into this sword, so it eventually sublimated into a sword with a will. This sword which irradiates darkness, turns into a catastrophic weapon when wielded by her. As if embodying the Princess' belief itself, this sword will not fail as long as the wielder has the will to fight.`
     },
 { //Flying Timepiece “Chronos” - Missing .....
         id: 106971,
@@ -17839,7 +17854,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Crimson Talon' - Missing .....
+{ //True 'Crimson Talon' - Complete
         id: 106991,
         name: `True 'Crimson Talon'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -17854,19 +17869,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `70s CT - 12500% Dark DMG (Physical). Auto-fills own Arts gauge by 4 & reduces DEF by 50% for 10s.`,
+                break: 2300
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Shuri, Arts gauge 80 UP every time Third Eye is activated (Only once).`,
+                ability2: `Own ATK 30% UP when Near-Death.`
             },
-        lore: ``
+        lore: `The mechanical arm of Shuri, a shinobi who swore revenge against the Demon Fox that destroyed her village. The rage within her heart was able to awaken the power of the Oni inside the arm, and increases its extremely high attack, even further than its initial state. True to her name "Crimson Talon," her hand was covered in the red blood of the victims caught in her claw and crushed to death without mercy. It is said that the shocking appearance of her arm struck fear into the hearts of her enemies, with many even losing the will to fight completely.`
     },
 { //Mech Blades 'Dual Thunderbolts' - Missing .....
         id: 107001,
@@ -17897,7 +17913,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Dual Thunderbolts' - Missing .....
+{ //True 'Dual Thunderbolts' - Complete
         id: 107011,
         name: `True 'Dual Thunderbolts'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -17912,19 +17928,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `20s CT - 3800% Light DMG (Physical). Increases own CRI rate by 20% for 5s.`,
+                break: 500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Amane, CRI DMG 70% UP (Only once).`,
+                ability2: `DMG to Humans 20% UP.`
             },
-        lore: ``
+        lore: `The dual blades of Amane, a Shinobi who was taken in by Yakuno village when she was abandoned by her parents as a child. After training underground and overcoming her tragic past, she was able to awaken the power sleeping within her. The blades feed on the user's anger, and become faster and sharper the more enraged they become, making their attacks nearly unavoidable. It is said that the first lives the blades took when invading Imari Village where those of Amane's own parents, who abandoned her in the mountains so many years ago.`
     },
 { //Ninja Garb 'Mirage Kimono' - Missing .....
         id: 107021,
@@ -18564,7 +18581,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Brodithung' - Missing .....
+{ //True 'Brodithung' - Complete
         id: 107241,
         name: `True 'Brodithung'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -18579,19 +18596,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 5000% Water DMG (Physical). Increases all allies' Physical DMG by 30% & reduces Physical DMG taken by 10% for 10s.`,
+                break: 1500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Filia, DMG 20% UP & additionally 20 Arts gained when her Arts 'Dazzling Pool' is used (Only once).`,
+                ability2: `HP Recovery amount 20% UP (Except Lifesteal).`
             },
-        lore: ``
+        lore: `With strenuous effort, Filia gained the power to communicate with her weapon. Its blade resembling the blue of pure water could slash through evil with a single stroke. When she stopped to rest in a certain village, a sudden storm caused the river to overflow and strand it. With the help of her sword, she cut the sediment blocking the flow and drained the water. This is one of her favorite stories, but few believe it happened.`
     },
 { //Automatic 'SV61' - Missing .....
         id: 107251,
@@ -18622,7 +18640,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'SV61' - Missing .....
+{ //True 'SV61' - Complete
         id: 107261,
         name: `True 'SV61'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -18637,19 +18655,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `30s CT - 6400% Fire DMG (Physical). Reduces own Skill CT by 50% & increases own Skill DMG by 50% for 8s.`,
+                break: 1000
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Bullet Hell Roy, all stats 20% UP & Skill DMG 50% UP (Only once).`,
+                ability2: `Physical DMG 20% UP.`
             },
-        lore: ``
+        lore: `A full-auto handgun used by the Isliid military and developed by the rifle maker Swagger & Vecket in hopes of escaping bankruptcy. It's not well-liked by other nations' militaries that don't use Imperial Gun Arts, but other members of the firearms industry praise the weapon for its technical finesse. The company successfully regained its financial footing, while also obtaining approval within their own industry (however, the company did not continue developing pistols, but instead went back to making rifles).`
     },
 { //Specialist 'Tailor's Pride' - Missing .....
         id: 107271,
@@ -18854,7 +18873,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Supernova' - Missing .....
+{ //True 'Supernova' - Complete
         id: 107341,
         name: `True 'Supernova'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -18869,19 +18888,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `30s CT - 7000% Earth DMG (Physical). If Earth unit, Auto-fills Arts gauge by 1 & increases Physical DMG by 30% for 12s.`,
+                break: 900
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Cestina, Arts DMG of Majestic Grace 150% UP. Auto Fills Arts gauge by 2 (Only once).`,
+                ability2: `Own ATK 20% when Near-Death.`
             },
-        lore: ``
+        lore: `Many blessed armaments have been passed down through generations of the royal family. This sword is one of them. While the sword is difficult to handle, it responds to the power of the wielder, and ever since Princess Cestina of the Gran Verge Kingdom, nobody has ever been able to unleash its true power. The name reflects how a single swing of this revered blade is is powerful enough to end any battle.`
     },
 { //Coat of Plates 'Fighting Spirit' - Missing .....
         id: 107351,
@@ -19405,7 +19425,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Assault Rifle Sable - Missing .....
+{ //Assault Rifle Sable - Complete
         id: 107531,
         name: `Assault Rifle Sable`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -19420,19 +19440,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 9000% Dark DMG (Physical). Increases own Physical DMG by 30% for 15s. If Human, get an extra 30%.`,
+                break: 900
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Forte, DMG 30% UP & Skill CT 50% DOWN (Only once).`,
+                ability2: `Own Accuracy rate 20% UP.`
             },
-        lore: ``
+        lore: `Forte's beloved magic gun, forged and strengthened by using the Adelite Obsidian of Garrah. The original destructive power has been retained, while also having the capability of enhancing the user's latent talents. A magical barrier emerges as an aura around Forte when she wields it. It is said to have a variety of effects, not only on herself, but also the people around her. The power of this gun will allow Forte to reach even greater heights as a formidable commander.`
     },
 { //True 'Assault Rifle Sable' - Missing .....
         id: 107541,
@@ -19608,7 +19629,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Grand Destin' - Missing .....
+{ //True 'Grand Destin' - Complete
         id: 107601,
         name: `True 'Grand Destin'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -19623,19 +19644,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `75s CT - 13000% Light DMG (Physical). Increases Light unit's DMG by 40% for 10s.`,
+                break: 2000
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Orvell, ATK 50% UP & Equipment DMG 20% UP (only once).`,
+                ability2: `BE Output 10% UP.`
             },
-        lore: ``
+        lore: `It is only a sword. A sword made to take lives. It is no different from any other sword. You take it in your hand, brandish it, and cut with its blade. However, Prince Orvell once said that the sword became heavier the more he wielded it. While the weight of the sword cannot actually increase, there is a heaviness to it that can only be felt by those qualified for it. It asks its wielder to become worthy of its weight. That is the true value of this sword which raises kings.`
     },
 { //Supreme Mantle 'Ailes Blanches - Missing .....
         id: 107611,
@@ -19695,7 +19717,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Drago La'cryma' - Missing .....
+{ //True 'Drago La'cryma' - Complete
         id: 107631,
         name: `True 'Drago La'cryma'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -19710,19 +19732,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `55s CT - 9000% Fire DMG (Physical). 100% chance of Burning enemy. If Burned, enemy's Physical resistance reduced by 35% for 8s.`,
+                break: 1600
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Angelas, CRI DMG 60% UP & Dragon Flame's duration increased by 10s (Only once).`,
+                ability2: `ATK 10% UP.`
             },
-        lore: ``
+        lore: `This axe was not sought after for the sharpness of its blades. Leaving burning wounds that cannot be dealt with through healing or even revival. The cursed lacerations left behind by its blade reveal the true essence of this axe. The scars burn so hot that a gentle breeze brings rise to screaming pain form slightest touch. Those wounded by this axe are said to have lost themselves in a world of madness and despair. Gouging away at their very flesh, burning their hearts, and devouring them whole. Throughout the ages the axe has been feared as the manifestation of a Dragon once swallowed whole by vengeance and led by obsession.`
     },
 { //Gemstone Boots 'Melusine' - Missing .....
         id: 107641,
@@ -19782,7 +19805,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Berserk' - Missing .....
+{ //True 'Berserk' - Complete
         id: 107661,
         name: `True 'Berserk'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -19797,19 +19820,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `70s CT - 6666% Dark DMG (Physical). Reduces enemy's Physical & Dark resistance by 20% for 10s.`,
+                break: 1666
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Grad, DMG 50% UP for 30s after activating True Arts (Only once).`,
+                ability2: `CRI DMG 20% UP.`
             },
-        lore: ``
+        lore: `The magical spear of the Demon Grad that hungers for vengeance against a certain swordsman. It absorbed Grad's desire for revenge over countless battles, gaining incredible lethality in the process. Although feared as a cursed spear that drives its wielder mad, causing them to fight until its foes are annihilated, Berserk has no such power. These rumors come from the lunatic appearance of Grad, who shouted crazed warcries as he wielded the spear on the battlefield.`
     },
 { //JP Equip Name (Ashleigh's Farmable) - Missing .....
         id: 107671,
@@ -19927,7 +19951,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Bandiera' - Missing .....
+{ //True 'Bandiera' - Complete
         id: 107711,
         name: `True 'Bandiera'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -19942,19 +19966,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 8000% Earth DMG (Physical). Reduces enemy's Physical resistance by 20% & Earth resistance by 30% for 10s.`,
+                break: 700
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Salyssa, DMG 30% UP. Arts gauge 10 UP when Skill is used (Only once).`,
+                ability2: `Skill DMG 20% UP.`
             },
-        lore: ``
+        lore: `Salyssa's trusty spear. Her painstaking efforts keep it looking surprisingly new for its age. She wants to have it ready to return to the original owner at a moment's notice, which is the only reason she has not removed the unwieldy banner. (She has also unconsciously used it to wipe the sweat from her brow, so she washes it regularly.) When her mother found it more practical as a laundry pole, she made her first attempt to leave home.`
     },
 { //JP Equip Name (Salyssa's Farmable) - Missing .....
         id: 107721,
@@ -20681,7 +20706,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Insight' - Missing .....
+{ //True 'Insight' - Complete
         id: 107971,
         name: `True 'Insight'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -20696,19 +20721,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 10000% Dark DMG (Physical). Increases Skill CT speed by 30% & CRI rate by 70% for 10s.`,
+                break: 1300
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Luahn, CRI DMG 50% UP (Only once).`,
+                ability2: `Physical DMG 20% UP.`
             },
-        lore: ``
+        lore: `A sword from the east carried by Luahn, second prince of Gran Verge. This blade chooses its wielder. Depending on how its power is used, it can become so great a burden that it even crushes the mind. However, it becomes a truly exceptional ability once mastered. The opponent's bloodlust, their circulation, their consciousness, and more will be revealed in fine detail, allowing victory with a single slash.`
     },
 { //Voracious Coat 'Splendor' - Missing .....
         id: 107981,
@@ -21087,7 +21113,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Scintillation' - Missing .....
+{ //True 'Scintillation' - Complete
         id: 108111,
         name: `True 'Scintillation'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -21102,21 +21128,22 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `60s CT - 9000% Light DMG (Physical). Increases own Physical DMG by 30% for 10s & 30% more when own HP is over 80%.`,
+                break: 700
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Noel, Arts DMG 40% UP (Only once).`,
+                ability2: `DEF 10% UP.`
             },
-        lore: ``
+        lore: `A jacket worn by Noel, knight of the Zero Guard, fitted to his measurements and perfect to the last detail. Its design is fancy but not garish, allowing him to discreetly protect the Emperor as well as carry out his less exciting duties. The tailor, surprised by how stunning it looked on him, is expecting much more business from Noel in the future.`
     },
-{ //True 'Velocity' - Missing .....
+{ //True 'Velocity' - Complete
         id: 108121,
         name: `True 'Velocity'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -21131,19 +21158,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 8000% Light DMG (Physical). Reduces enemy's Physical resistance by 20% & Light resistance by 30% for 20s.`,
+                break: 800
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Noel, ATK 40% UP (Only once).`,
+                ability2: `DMG 10% to Giant Boss.`
             },
-        lore: ``
+        lore: `A pair of blades used by noel, knight of the Zero Guard. They can be wielded as separate weapons to deal with multiple enemies or as a single double-edged sword to break the defenses of a powerful foe. However, this versatility takes a lot of training ad refined judgement to master. Anyone besides Noel might find the blades difficult to use.`
     },
 { //Glister - Missing .....
         id: 108131,
@@ -23088,7 +23116,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Night Edge' - Missing .....
+{ //True 'Night Edge' - Complete
         id: 108831,
         name: `True 'Night Edge'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -23103,19 +23131,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `60s CT - 6000% Dark DMG (Physical). In the user is a Dark unit, reduces enemy's Physical resistance by 20% for 8s.`,
+                break: 600
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Batiste, DMG 40% UP & Auto-fills Arts gauge by 1 (Only once).`,
+                ability2: `DMG 10% UP when enemy's HP is under 30%.`
             },
-        lore: ``
+        lore: `Batiste's preferred weapon, given to him personally by the emperor when he was inducted into the Zero Guard. Their coloring lets them melt into the shadows. The shape gives the impression they are meant to be thrown from a distance, but one of his physical prowess and reflexes can use them in close combat. The deadly glint as he turns them in his hand before striking is the origin of his nickname: "The Black Flash".`
     },
 { //Night Walkers - Missing .....
         id: 108841,
@@ -23175,7 +23204,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Hepaistos' - Missing .....
+{ //True 'Hepaistos' - Complete
         id: 108861,
         name: `True 'Hepaistos'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -23190,19 +23219,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 10000% Earth DMG (Physical). Increases Earth DMG by 30% for 8s.`,
+                break: 300
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Gilliam, all allies' Equipment DMG 20% UP (Only once).`,
+                ability2: `DEF 10% UP.`
             },
-        lore: ``
+        lore: `Gilliam's prized warmallet used to make the finest arms. with considerable girth and tough alloy construction, it obliterates the hardest, hottest foes. A novice soldier will see a simple weighted weapon, but a true master will take full advantage of its all-purpose nature. The clear, sharp clang of red-hot steel echoing throughout Reigrad is proof of the pride he puts into his work.`
     },
 { //JP Equip Name (Raid Equip) - Missing .....
         id: 108871,
@@ -23233,7 +23263,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Ember Bolt' - Missing .....
+{ //True 'Ember Bolt' - Complete
         id: 108881,
         name: `True 'Ember Bolt'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -23248,19 +23278,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 4000% Fire DMG (Physical). Reduces enemy's Physical resistance by 20% for 8s. Reduces extra 20% when enemy's HP is 50% or less.`,
+                break: 500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Priscilla, DMG & Accuracy 50% UP (Only once).`,
+                ability2: `ATK 5% UP.`
             },
-        lore: ``
+        lore: `The bow used by Priscilla, also known as the Inferno Archer. The beautiful blaze that bursts from each arrowhead shines brighter the more emotional she is. At maximum intensity, their heat even melts steel. The skill and accuracy she demonstrated in subduing and double-headed monster that appeared in the castle garnered much praise from even the Imperial Knights.`
     },
 { //Candent Bow 'Ember Bolt' - Missing .....
         id: 108891,
@@ -23320,7 +23351,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Jaeger' - Missing .....
+{ //True 'Jaeger' - Complete
         id: 108911,
         name: `True 'Jaeger'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -23335,19 +23366,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 10000% Dark DMG (Physical). Increases Physical & Dark DMG by 40% for 8s.`,
+                break: 600
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Simon, ATK 50% UP & Status Ailment resistance (except Faint) 20% UP (Only Once).`,
+                ability2: `DMG to Giant Boss 10% UP.`
             },
-        lore: ``
+        lore: `The gun carried by legendary sniper Simon. Based on Swagger & Vecket and Goldoa Corps.'s masterpiece, he tasked the best gunsmith in the empire to further refine its capabilities. It not only takes the original high-precision design concept to next level, projectile velocity was also greatly increased. This ballistic marvel is the very embodiment of his "one shot, one kill" creed.`
     },
 { //Jaeger M4A2 - Missing .....
         id: 108921,
@@ -23494,7 +23526,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Ouen' - Missing .....
+{ //True 'Ouen' - Complete
         id: 108971,
         name: `True 'Ouen'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -23509,19 +23541,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `70s CT - 5000% Earth DMG (Physical). Increases DMG by 50% & Earth DMG by 40% for 15s.`,
+                break: 600
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Airi, DMG 30% UP & auto-fills Arts gauge by 1 (Only once).`,
+                ability2: `Physical DMG 20% UP.`
             },
-        lore: ``
+        lore: `The katana used by famed "Divine Swallow Fencer" Airi. She believes it to be her fated companion as it brings out the most of her thrusting techniques. Its tip, sharpened to the limit with Valkian whetstones, fascinates swordsmiths of all levels. The reason she always keeps it in prime condition is not because of its historic value, but her own pride as a soldier.`
     },
 { //Traditional Blade 'Ouen' - Missing .....
         id: 108981,
@@ -24277,7 +24310,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Maximus' - Missing .....
+{ //True 'Maximus' - Complete
         id: 109241,
         name: `True 'Maximus'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -24292,19 +24325,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `60s CT - 8800% Light DMG (Physical). Reduces enemy's Physical resistance by 20% for 12s. If the user is a Light unit, 15% more.`,
+                break: 1100
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Lyla, CRI DMG 60% UP (Only once).`,
+                ability2: `Skill DMG 20% UP.`
             },
-        lore: ``
+        lore: `Lyla's trusty partner on the battlefield. In her quest for further improvement, she wandered into a used bookstore. There, she discovered a reference about Valkia's ancient "gundancing" custom and became engrossed in the topic. The key concept was managing the weapon's unpredictable movements with lithe motions of the body. In mastering that, she became famous among gunmen around the world.`
     },
 { //Valkian Heritage 'Maximus' - Missing .....
         id: 109251,
@@ -25408,7 +25442,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Astral Bolt' - Missing .....
+{ //True 'Astral Bolt' - Complete
         id: 109631,
         name: `True 'Astral Bolt'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -25423,19 +25457,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `60s CT - 10000% Water DMG (Physical). Reduces enemy's Physical resistance by 20% for 12s. If the user is a Water unit, 15% more.`,
+                break: 700
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Priscilla-IS, Auto-fills Arts gauge by 3 (Only once).`,
+                ability2: `ATK 5% UP.`
             },
-        lore: ``
+        lore: `A magic compound bow once sealed away for its sinister powers. Though no one can tell when it was made, the mechanisms responsible for its tremendous lethality cannot be recreated or analyzed by modern technology. The most fearsome attribute is how anyone who wields it even for a short time, regardless of nature or personality, will grow fiercely attached, their destructive impulses stoked beyond control.`
     },
 { //Astral Bolt - Missing .....
         id: 109641,
@@ -25698,7 +25733,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Barbatos' - Missing .....
+{ //True 'Barbatos' - Complete
         id: 109731,
         name: `True 'Barbatos'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -25713,19 +25748,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `60s CT - 12000% Earth DMG (Physical). Reduces enemy's Physical resistance by 20% for 15s. If the user is an Earth unit, 10% more.`,
+                break: 700
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Vultee-Lr, DMG taken 10% DOWN & Will Not Flinch (Only once).`,
+                ability2: `Skill CT speed 10% UP.`
             },
-        lore: ``
+        lore: `A super-heavyweight turret gun modified for full compatibility with Vultee's prosthetic arm. Unsparing focus on firepower meant anything that resembled a safety device was stripped away. Without his strength-boosting arm, it would pose only slightly less risk to him than the target. The fact that he went through so much trouble to properly wield it proves his commitment.`
     },
 { //Barbatos Mk. II - Missing .....
         id: 109741,
@@ -25872,7 +25908,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Dark Bringer' - Missing .....
+{ //True 'Dark Bringer' - Complete
         id: 109791,
         name: `True 'Dark Bringer'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -25887,19 +25923,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `55s CT - 13000% Light DMG (Physical). Reduces enemy's Physical resistance by 40% for 10s. If the user is a Light unit, increases ATK by 40% for 10s.`,
+                break: 1000
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Emperor Isliid, DMG 30% UP (Only once).`,
+                ability2: `10% chance of evading Physical ATK.`
             },
-        lore: ``
+        lore: `A sword brimming with dark energy that contains the soul of a trapped apparition. Long ago, demons used it to fight others of their kind drunk with power with the help of oppressed Humans. This weapon they created together represented their joint effort. Unfortunately, it was not enough to overcome the racial barrier for long, and it ironically came into the hand of a Human emperor who slew countless more Demons.`
     },
 { //Sky Light Replica - Missing .....
         id: 109801,
@@ -26482,7 +26519,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Heroic Path' - Missing .....
+{ //True 'Heroic Path' - Complete
         id: 110021,
         name: `True 'Heroic Path'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -26497,19 +26534,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 7500% Fire DMG (Physical). Increases DMG by 50% & reduces enemy's Fire resistance by 30% for 10s.`,
+                break: 700
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Charlotte, Status Ailment resistance 30% UP (except Faint) & auto-fills Arts gauge by 2 (Only once).`,
+                ability2: `Skill CT speed 10% UP when HP is 90% or more.`
             },
-        lore: ``
+        lore: `Charlotte's trusty weapon. The Scarlet Mana Stone worked into the blade glows brightly in response to its holder's spirit. both her prestigious bloodline and intense training allows the sword to glow an even brighter red. She was inspired to become a hero from the moment she grasped the hilt, but she knows months and years of committed effort will be needed for her to reach her goal.`
     },
 { //Heroic Path - Missing .....
         id: 110031,
