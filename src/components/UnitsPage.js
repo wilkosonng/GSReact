@@ -311,7 +311,7 @@ const AttributeFilters = ({ filters, handleChange }) => {
         <center>
             <b>Attributes</b>
             <form className="filterButtons">
-                <label style={{ backgroundColor: filters.attribute.Fire ? "red" : ""}}>
+                <label style={{ backgroundColor: filters.attribute.Fire ? "#5b5b5b" : ""}}>
                     <input
                         type="checkbox"
                         name="attribute"
@@ -322,7 +322,7 @@ const AttributeFilters = ({ filters, handleChange }) => {
                     <img src="/db/Icons/types/Fire_Icon.png" alt="Fire Attribute" className="filterIcons" /> 
                     Fire
                 </label>
-                <label style={{ backgroundColor: filters.attribute.Water ? "blue" : ""}}>
+                <label style={{ backgroundColor: filters.attribute.Water ? "#5b5b5b" : ""}}>
                     <input
                         type="checkbox"
                         name="attribute"
@@ -333,7 +333,7 @@ const AttributeFilters = ({ filters, handleChange }) => {
                     <img src="/db/Icons/types/Water_Icon.png" alt="Water Attribute" className="filterIcons" /> 
                     Water
                 </label>
-                <label style={{ backgroundColor: filters.attribute.Earth ? "#54af2c" : ""}}>
+                <label style={{ backgroundColor: filters.attribute.Earth ? "#5b5b5b" : ""}}>
                     <input
                         type="checkbox"
                         name="attribute"
@@ -344,7 +344,7 @@ const AttributeFilters = ({ filters, handleChange }) => {
                     <img src="/db/Icons/types/Earth_Icon.png" alt="Earth Attribute" className="filterIcons" /> 
                     Earth
                 </label>
-                <label style={{ backgroundColor: filters.attribute.Light ? "#e8b824" : ""}}>
+                <label style={{ backgroundColor: filters.attribute.Light ? "#5b5b5b" : ""}}>
                     <input
                         type="checkbox"
                         name="attribute"
@@ -355,7 +355,7 @@ const AttributeFilters = ({ filters, handleChange }) => {
                     <img src="/db/Icons/types/Light_Icon.png" alt="Light Attribute" className="filterIcons" /> 
                     Light
                 </label>
-                <label style={{ backgroundColor: filters.attribute.Dark ? "purple" : ""}}>
+                <label style={{ backgroundColor: filters.attribute.Dark ? "#5b5b5b" : ""}}>
                     <input
                         type="checkbox"
                         name="attribute"
