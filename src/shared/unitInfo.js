@@ -25997,7 +25997,7 @@ const UnitInformation = [
                 evoawk: "Her overwhelming desire for Empress led them to fight, but she later agreed to join her cause to protect humanity. Besides her talent as a sniper, she has keen scouting sense and decision-making."
             }
     },
-    { // Strength - Missing Lore
+    { // Strength - Missing Lore (GLB)
         id: 107686112,
         name: "Strength",
         attribute: "Fire",
@@ -26058,8 +26058,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "Missing Lore.",
+                evoawk: "Missing Lore."
             }
     },
     { // Albedo - Missing Lore
