@@ -51,6 +51,25 @@ th, tr {
   max-height: 400px
 }
 
+.filterButtons > label {
+  border: 1px solid #292930;
+  width: 6.5rem;
+  margin: .3em;
+  color: white;
+  border-radius: 5px;
+}
+
+.filterButtons > label > input {
+  display: none;
+}
+
+.filterIcons {
+  max-width: 25px;
+  float: left;
+  object-fit: cover;
+  overflow: hidden;
+}
+
 @media (max-width: 768px){
   .newsImages {
     width: 100%;
