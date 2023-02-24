@@ -20,12 +20,20 @@ export function RenderTrue({unitTrue, trueReview = false}) {
     //Hook for Tab State
     const [currentTab, setCurrentTab] = useState('1');
 
-    //Toggle Tab
+    //Toggle Tab for Global TW
     const toggle = tab => {
         if(currentTab !== tab) setCurrentTab(tab);
     }
 
+    const [serverTab, setServerTab] = useState('1');
+
+    //Toggle for Different Server Stats
+    const serverToggle = tab => {
+        if(serverTab !== tab) setServerTab(tab)
+    }
+
     const tw = unitTrue.trueweapon;
+    const jp = unitTrue.trueweaponJP;
 
     return (
         <>
@@ -61,22 +69,32 @@ export function RenderTrue({unitTrue, trueReview = false}) {
                             </Nav>
                             <TabContent activeTab={currentTab}>
                                 <TabPane tabId="1">
-                                    <RenderAll detail={tw.true1.detail} slot={tw.true1.slot} name={tw.true1.name} 
+                                    <center>
+                                    <RenderImage detail={tw.true1.detail} />
+                                    <RenderName name={tw.true1.name} slot={tw.true1.slot} />
+                                    <RenderAll 
                                     skill={tw.true1.skill} skillbreak={tw.true1.skillbreak} passive={tw.true1.passive} />
+                                    </center>
                                 </TabPane>
                             </TabContent>
                             <TabContent activeTab={currentTab}>
                                 <TabPane tabId="2">
-                                    <RenderAll detail={tw.true2.detail} slot={tw.true2.slot} name={tw.true2.name} 
-                                    skill={tw.true2.skill} skillbreak={tw.true2.skillbreak} passive={tw.true2.passive} />
+                                    <center>
+                                    <RenderImage detail={tw.true2.detail} />
+                                    <RenderName name={tw.true2.name} slot={tw.true2.slot} />
+                                    <RenderAll skill={tw.true2.skill} skillbreak={tw.true2.skillbreak} passive={tw.true2.passive} />
+                                    </center>
                                 </TabPane>
                             </TabContent>
                             {
                                 tw.true3 ? 
                                 <TabContent activeTab={currentTab}>
                                     <TabPane tabId="3">
-                                        <RenderAll detail={tw.true3.detail} slot={tw.true3.slot} name={tw.true3.name} 
-                                        skill={tw.true3.skill} skillbreak={tw.true3.skillbreak} passive={tw.true3.passive} />
+                                        <center>
+                                        <RenderImage detail={tw.true3.detail} />
+                                        <RenderName name={tw.true3.name} slot={tw.true3.slot} />
+                                        <RenderAll skill={tw.true3.skill} skillbreak={tw.true3.skillbreak} passive={tw.true3.passive} />
+                                        </center>
                                     </TabPane>
                                 </TabContent>
                                 : null
@@ -84,8 +102,45 @@ export function RenderTrue({unitTrue, trueReview = false}) {
                         </>
                         : 
                         <>
-                            <RenderAll detail={tw.detail} slot={tw.slot} name={tw.name} 
-                                skill={tw.skill} skillbreak={tw.skillbreak} passive={tw.passive} trueReview={trueReview.trueweapon} />
+                            <center>
+                                <RenderImage detail={tw.detail} />
+                                <RenderName name={tw.name} slot={tw.slot} />
+                            </center>
+                            {
+                                jp ? 
+                                <center>
+                                    <i><b>This unit has different stats for each server. Please select the server you want to view the stats for.</b></i>
+                                    <Nav pills justified style={{ marginTop: "2rem", marginBottom: "2rem", maxWidth:"20rem"}}>
+                                        <NavItem>
+                                        <NavLink className={classnames({ active: serverTab === '1' })}
+                                            onClick={() => {serverToggle('1')}} >
+                                                Global
+                                            </NavLink>
+                                        </NavItem>
+                                        <NavItem>
+                                            <NavLink className={classnames({ active: serverTab === '2' })}
+                                                        onClick={() => {serverToggle('2')}} >
+                                                Japan
+                                            </NavLink>
+                                        </NavItem>
+                                    </Nav>
+                                    <TabContent activeTab={serverTab} >
+                                        <TabPane tabId="1">
+                                            <RenderAll skill={tw.skill} skillbreak={tw.skillbreak} passive={tw.passive} trueReview={trueReview.trueweapon} />
+                                        </TabPane>
+                                        <TabPane tabId="2">
+                                            <RenderAll skill={jp.skill} skillbreak={jp.skillbreak} passive={jp.passive} trueReview={trueReview.trueweapon} />
+                                        </TabPane>
+                                    </TabContent>
+                                </center>
+                                :
+                                <>
+                                    <RenderAll detail={tw.detail} slot={tw.slot} name={tw.name} 
+                                        skill={tw.skill} skillbreak={tw.skillbreak} passive={tw.passive} trueReview={trueReview.trueweapon} />
+                                </>
+                                
+                            }
+                            
                         </>
                     }
                     
@@ -98,14 +153,12 @@ export function RenderTrue({unitTrue, trueReview = false}) {
     
 }
 
-const RenderAll = ({ detail, slot, name, skill, skillbreak, passive, trueReview = false }) => {
+const RenderAll = ({ skill, skillbreak, passive, trueReview = false }) => {
     //Review Button Toggle
     const [review, setReview] = useState(false)
 
     return (
         <center>
-            <RenderImage detail={detail} />
-            <RenderName name={name} slot={slot} />
             {trueReview &&
                 <button onClick={() => setReview(!review)} style={{marginTop: ".3rem", marginBottom: ".3rem"}}>
                     { review ?  <>Hide Review</>  : <>Show Review</>}

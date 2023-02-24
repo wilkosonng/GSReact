@@ -223,13 +223,22 @@ function RenderImageAndTypes({ unitImage, unitAtt, unitType, unitName }) {
         )
     }
 }
-export function RenderStats({unitName, unitStats, unitAtt, unitType, unitSkill, unitPassive, unitSlots, unitImage, unitReview = false}){
+export function RenderStats({unitName, unitStats, unitStatsJP = false, unitAtt, unitType, unitSkill, 
+                            unitSkillJP = false, unitPassive, unitPassiveJP = false, unitSlots, 
+                            unitSlotsJP = false, unitImage, unitReview = false})
+                            {
     //Hook for Tab State
     const [currentTab, setCurrentTab] = useState('1');
+    const [serverTab, setServerTab] = useState('1');
 
-    //Toggle Tab
+    //Toggle Tab for Revelation
     const toggle = tab => {
         if(currentTab !== tab) setCurrentTab(tab);
+    }
+
+    //Toggle Tab for Server
+    const serverToggle = tab => {
+        if(serverTab !== tab) setServerTab(tab)
     }
 
     //Review Button Toggle
@@ -240,51 +249,131 @@ export function RenderStats({unitName, unitStats, unitAtt, unitType, unitSkill, 
             <center>
                 <RenderImageAndTypes unitImage={unitImage} unitName={unitName} unitAtt={unitAtt} unitType={unitType} />
             </center>
-            { unitSkill.revelation ? 
-            <>
-                <Nav pills justified>
-                <NavItem>
-                    <NavLink className={classnames({ active: currentTab === '1' })}
-                        onClick={() => {toggle('1')}} >
-                            <Media src={unitImage.thumbawk} object-fit="cover" id="unitName"/>
-                    </NavLink> 
-                </NavItem>
-                <NavItem>
-                    <NavLink className={classnames({ active: currentTab === '2' })}
-                        onClick={() => {toggle('2')}} >
-                            <Media src={unitImage.revelation} object-fit="cover" id="unitName"/>
-                    </NavLink>
-                </NavItem>
-                </Nav>
-                <TabContent activeTab={currentTab}>
-                    <TabPane tabId="1">
-                        <HumanMode unitName={unitName} unitStats={unitStats} unitAtt={unitAtt} 
-                            unitType={unitType} unitSkill={unitSkill} unitPassive={unitPassive} unitSlots={unitSlots} unitImage={unitImage.detailawk}/>
-                    </TabPane>
-                    <TabPane tabId="2">
-                        <RevelationMode unitName={unitName} unitStats={unitStats} unitAtt={unitAtt} unitType={unitType} unitSkill={unitSkill.revelation} 
-                            unitPassive={unitPassive} unitSlots={unitSlots} unitImage={unitImage.detailawk}/>
-                    </TabPane>
-                </TabContent></> : 
+            { 
+                unitSkill.revelation 
+                ? 
+                <>
+                    <Nav pills justified>
+                    <NavItem>
+                        <NavLink className={classnames({ active: currentTab === '1' })}
+                            onClick={() => {toggle('1')}} >
+                                <Media src={unitImage.thumbawk} object-fit="cover" id="unitName"/>
+                        </NavLink> 
+                    </NavItem>
+                    <NavItem>
+                        <NavLink className={classnames({ active: currentTab === '2' })}
+                            onClick={() => {toggle('2')}} >
+                                <Media src={unitImage.revelation} object-fit="cover" id="unitName"/>
+                        </NavLink>
+                    </NavItem>
+                    </Nav>
+                    <TabContent activeTab={currentTab}>
+                        <TabPane tabId="1">
+                            <HumanMode unitName={unitName} unitStats={unitStats} unitAtt={unitAtt} 
+                                unitType={unitType} unitSkill={unitSkill} unitPassive={unitPassive} unitSlots={unitSlots} unitImage={unitImage.detailawk}/>
+                        </TabPane>
+                        <TabPane tabId="2">
+                            <RevelationMode unitName={unitName} unitStats={unitStats} unitAtt={unitAtt} unitType={unitType} unitSkill={unitSkill.revelation} 
+                                unitPassive={unitPassive} unitSlots={unitSlots} unitImage={unitImage.detailawk}/>
+                        </TabPane>
+                    </TabContent>
+                </> 
+            :
                 <center>
-                    <RenderStat unitStats={unitStats} />
-                    <RenderSlots unitSlots={unitSlots} />
-                    {unitReview &&
-                    <button onClick={() => setReview(!review)} style={{marginTop: ".3rem", marginBottom: ".3rem"}}>
-                        { review ?  <>Hide Review</>  : <>Show Review</>}
-                    
-                    </button> 
-                    }
-                    <RenderSkills unitSkill={unitSkill} unitReview={unitReview} isReview={review}/>
-                    <RenderPassives unitPassive={unitPassive} unitReview={unitReview} isReview={review}/>
-                    {
-                        review ? 
-                        <>
-                            <h3><strong>SUMMARY</strong></h3>
-                            <UnitReviews review={unitReview.overall} />
-                            <center><i>Review Last Updated {unitReview.lastupdated}</i></center>
-                        </> 
-                        : null
+                    { 
+                        unitStatsJP || unitSkillJP || unitSlotsJP || unitPassiveJP ? 
+                            <>
+                                <i><b>This unit has different stats for each server. Please select the server you want to view the stats for.</b></i>
+                                
+                                <Nav pills justified style={{ marginTop: "2rem", marginBottom: "2rem", maxWidth:"20rem"}}>
+                                    <NavItem>
+                                        <NavLink className={classnames({ active: serverTab === '1' })}
+                                            onClick={() => {serverToggle('1')}} >
+                                                Global
+                                        </NavLink> 
+                                    </NavItem>
+                                    <NavItem>
+                                        <NavLink className={classnames({ active: serverTab === '2' })}
+                                            onClick={() => {serverToggle('2')}} >
+                                                Japan
+                                        </NavLink> 
+                                    </NavItem>
+                                </Nav>
+                                <TabContent activeTab={serverTab}>
+                                    <TabPane tabId="1">
+                                        <RenderStat unitStats={unitStats} />
+                                        <RenderSlots unitSlots={unitSlots} />
+                                        {unitReview &&
+                                            <button onClick={() => setReview(!review)} style={{marginTop: ".3rem", marginBottom: ".3rem"}}>
+                                                { review ?  <>Hide Review</>  : <>Show Review</>}
+                                            
+                                            </button> 
+                                        }
+                                        <RenderSkills unitSkill={unitSkill} unitReview={unitReview} isReview={review}/>
+                                        <RenderPassives unitPassive={unitPassive} unitReview={unitReview} isReview={review}/>
+                                        {
+                                            review ? 
+                                            <>
+                                                <h3><strong>SUMMARY</strong></h3>
+                                                <UnitReviews review={unitReview.overall} />
+                                                <center><i>Review Last Updated {unitReview.lastupdated}</i></center>
+                                            </> 
+                                            : null
+                                        }
+                                    </TabPane>
+                                    <TabPane tabId="2">
+                                        {
+                                            unitStatsJP ? <RenderStat unitStats={unitStatsJP} /> : <RenderStat unitStats={unitStats} />
+                                        }
+                                        {
+                                            unitSlotsJP ? <RenderSlots unitSlots={unitSlotsJP} /> : <RenderSlots unitSlots={unitSlots} />
+                                        }
+                                        {unitReview &&
+                                            <button onClick={() => setReview(!review)} style={{marginTop: ".3rem", marginBottom: ".3rem"}}>
+                                                { review ?  <>Hide Review</>  : <>Show Review</>}
+                                            
+                                            </button> 
+                                        }
+                                        {
+                                            unitSkillJP ? <RenderSkills unitSkill={unitSkillJP} unitReview={unitReview} isReview={review} /> : <RenderSkills unitSkill={unitSkill} unitReview={unitReview} isReview={review} />
+                                        }
+                                        {
+                                            unitPassiveJP ? <RenderPassives unitPassive={unitPassiveJP} unitReview={unitReview} isReview={review} /> : <RenderPassives unitPassive={unitPassive} unitReview={unitReview} isReview={review}/>
+                                        }
+                                        {
+                                            review ? 
+                                            <>
+                                                <h3><strong>SUMMARY</strong></h3>
+                                                <UnitReviews review={unitReview.overall} />
+                                                <center><i>Review Last Updated {unitReview.lastupdated}</i></center>
+                                            </> 
+                                            : null
+                                        }
+                                    </TabPane>
+                                </TabContent>
+                            </>
+                        :
+                            <>
+                                <RenderStat unitStats={unitStats} />
+                                <RenderSlots unitSlots={unitSlots} />
+                                {unitReview &&
+                                    <button onClick={() => setReview(!review)} style={{marginTop: ".3rem", marginBottom: ".3rem"}}>
+                                        { review ?  <>Hide Review</>  : <>Show Review</>}
+                                    
+                                    </button> 
+                                }
+                                <RenderSkills unitSkill={unitSkill} unitReview={unitReview} isReview={review}/>
+                                <RenderPassives unitPassive={unitPassive} unitReview={unitReview} isReview={review}/>
+                                {
+                                    review ? 
+                                    <>
+                                        <h3><strong>SUMMARY</strong></h3>
+                                        <UnitReviews review={unitReview.overall} />
+                                        <center><i>Review Last Updated {unitReview.lastupdated}</i></center>
+                                    </> 
+                                    : null
+                                }
+                            </>
                     }
                 </center>
             }
