@@ -26294,7 +26294,7 @@ const UnitInformation = [
                 skillbreak: 400,
                 arts: `13000% Light DMG (MAG). Increase Allies' Arts by 20. Increase Demon Allies' Arts by 30 instead. For 20s, increase Allies' MAG RES by 30%.`,
                 artsbreak: 600,
-                truearts: `940000% Light DMG (MAG). For 25s, increase Allies' stats by 30%, and increase Leader Unit's Arts DMG by 200% & DMG RES by 30%.`,
+                truearts: `40000% Light DMG (MAG). For 25s, increase Allies' stats by 30%, and increase Leader Unit's Arts DMG by 200% & DMG RES by 30%.`,
                 trueartsbreak: 1200,
                 superarts: `130000% Light DMG (MAG). For 20s, reduce enemies' MAG RES by 100%.`,
                 superartsbreak: 1400
