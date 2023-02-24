@@ -68,10 +68,10 @@ function UnitHome() {
                         <RenderLore unitLore={units.lore} unitImage={units.image} unitName={units.name} unitEvolution={units.evolution} />
                     </TabPane>
                     <TabPane tabId="2">
-                        <RenderStats unitName={units.name} unitStats={units.stats} 
-                                                    unitAtt={units.attribute} unitType={units.type} unitSkill={units.skillset} 
-                                                    unitPassive={units.passive} unitSlots={units.slots} unitImage={units.image}
-                                                    unitReview={units.review}
+                        <RenderStats unitName={units.name} unitStats={units.stats} unitStatsJP={units.statsJP}
+                                                    unitAtt={units.attribute} unitType={units.type} unitSkill={units.skillset} unitSkillJP={units.skillsetJP}
+                                                    unitPassive={units.passive} unitPassiveJP={units.passiveJP} unitSlots={units.slots} unitSlotsJP={units.slotsJP}
+                                                    unitImage={units.image} unitReview={units.review} 
                                                     />
                     </TabPane>
                     <TabPane tabId="3">
