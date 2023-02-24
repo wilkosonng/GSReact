@@ -11254,7 +11254,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Peluscia' - Missing .....
+{ //True 'Peluscia' - Complete
         id: 104471,
         name: `True 'Peluscia'`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -11268,20 +11268,21 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
+                hp: 500,
                 atk: 0,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 7000% Non-Elemental DMG (Magic). Heals own HP by 150 when Hit.`,
+                break: 1200
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When Equipped by Number 2, increases DMG by 20% and increases BE from Skill by 50% (only once).`,
+                ability2: `Increases Own Status Ailment (not Faint) Time Reduction and Evasion Rate by 20%`
             },
-        lore: ``
+        lore: `The circlet which Iris' clone "Number 2" wears to control her abilities. When the magic stones shine, it signifies the attempt to read her thoughts, as she supposedly has none. Ever since a certain battle, the stone has flickered with light, releasing more power than imagined.`
     },
 { //Magic Spear "Graofang" (魔槍『グラオファング』) - Missing .....
         id: 104481,
@@ -11834,7 +11835,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Forester' - Missing .....
+{ //True 'Forester' - Complete
         id: 104741,
         name: `True 'Forester'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -11848,20 +11849,21 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 2222% Earth DMG (Physical). Increases all allies' Accuracy Rate by 30% for 10s. If User is Earth Elemental then increases own Arts gauge by 20 and increases all allies' Evasion rate by 30% for 10s.`,
+                break: 500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When Equipped by Mamori, increases own DMG by 20%, reduces equipment CT by 20%, and auto-fills Arts gauge (only once).`,
+                ability2: `Increases equipment DMG by 15% and HP Auto-Recovery by 10 (only once).`
             },
-        lore: ``
+        lore: `The Divine Bow, the symbol of the heroine Mamori, who traveled the world with the "Crimson Stars" Circus during the early days of the Ancient War, to help and bring a smile to many people. With her bow, she could always hit at the first shot, but her major ability was to strike a shower of arrows, like shooting stars, that would knock down an entire army in one blow. She kept training on her own in the depths of the forests for all her life, without anyone ever teaching her the technique, and thanks to her persistence, she could reach levels above capability.`
     },
 { //	Magical Outfit 'Pierrot Crimson' - Missing .....
         id: 104751,
@@ -13062,7 +13064,7 @@ const EquipInformation = [
     },
 { //Kane's Aloha Shirt - Missing .....
         id: 105231,
-        name: ``,
+        name: `Kane's Aloha Shirt`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -15041,7 +15043,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Adamas Gear' - Missing .....
+{ //True 'Adamas Gear' - Complete
         id: 106001,
         name: `True 'Adamas Gear'`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -15057,18 +15059,19 @@ const EquipInformation = [
             {
                 hp: 0,
                 atk: 0,
-                def: 0
+                def: 500
             },
         skillset:  
             {
-                skill: ``,
+                skill: `30s CT - Reduces Target's DMG from enemy by 35% for 15s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When Equipped by Thetis, increases own DMG by 20% , increases HP by 2000, and negates Paralyze, Freeze, and Seal.`,
+                ability2: `Increases DEF by 20% when unit is negating DMG.`
             },
-        lore: ``
+        lore: `The great shield symbol of the Juno Templar Theits. He is said to have confronted the enemy army without ever hesitating. He always protected his companions by taking the hits for them and was finally recognized as the "Shield of the Templars". As a fortress, the shield protected his penetration in enemy lines and prevented the enemy's advance.`
     },
 { //Fire Relic 'Flaming Knight's Mantle' - Missing .....
         id: 106011,
@@ -16058,7 +16061,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Asterisk' - Missing .....
+{ //True 'Asterisk' - Complete
         id: 106351,
         name: `True 'Asterisk'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -16072,22 +16075,23 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `60s CT - Increases all Allies' Arts Gauge by 20. Increases all Allies' Arts Gauge by 2 for 10s. Increases Own Arts gauge by 20.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When Equipped by Rosetta, Auto-fills Arts gauge by 1. When Magia Drive is activated, Arts gauge 50 UP & extends Magia Drive activation time by 20s (only once).`,
+                ability2: `Increases own Magical DMG by 20%.`
             },
-        lore: ``
+        lore: `The pen used to exercise her powerful Crest magic by the genius sorcerer of the Leone Templars, called "Heavenly Witch". She made it by concentrating her knowledge and technique, so the pen nib blazes with magical brilliance. When she writes the Crest runes in the air, she leaves sparkling traces like stars, which earned her another name: "Star Etcher".`
     },
-{ //True 'Flambardo' - Missing .....
+{ //True 'Flambardo' - Complete
         id: 106361,
         name: `True 'Flambardo'`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -16103,18 +16107,19 @@ const EquipInformation = [
             {
                 hp: 0,
                 atk: 0,
-                def: 0
+                def: 500
             },
         skillset:  
             {
-                skill: ``,
+                skill: `25s CT - Reduces all Allies' DMG Taken by 20% for 12s. If an ally's HP is under 50%, reduces DMG by an additional 10%.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When Equipped by Sanstone, increases Equipment CT Recovery Speed by 30% and increases MAX HP by 20% (only once).`,
+                ability2: `Increases Resistance to Physical DMG by 10%.`
             },
-        lore: ``
+        lore: `This is the shield borne by Sanstone, vice-commander of the Divine Guardian Knights, when she fulfilled her ultimate duty. This proud shield became her symbol, and it held the power to turn back even dragon's breath. It never lost its shine even after long years of use, and though scholars studied it deeply, all they could say was that it was likely the work of the Spirits. The platinum is not only set with countless jewels, but also imbued with the unshakable will of the knight who bore it.`
     },
 { //Incensed Helm 'Astragoth' - Missing .....
         id: 106371,
@@ -16232,7 +16237,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Stratega' - Missing .....
+{ //True 'Stratega' - Complete
         id: 106411,
         name: `True 'Stratega'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -16247,19 +16252,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 8800% Dark DMG (Magic). Increases DMG to enemy by 30% for 10s.`,
+                break: 1100
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When Equipped by Dark Fen, increases own Critical DMG by 50% (only once).`,
+                ability2: `Increases DMG to Giant Bosses by 20%.`
             },
-        lore: ``
+        lore: `The beloved rifle of Spy of Darkness Fen. It is said that after experiencing fierce combat during his escort mission, his skills with the weapon came to surpass even those of the greatest marksmen across the land. He was able to use physical and magic bullets in such a way that even the creator of the rifle wouldn't have even imagined. It is easy to see how intelligent and flexible of a warrior Fen is through his apparent lack of difficulty in mastering a new weapon. It's also obvious as to how well this rifle matched Fen due to how quickly he mastered it.`
     },
 { //Stealth Blade 'Nanashi' - Missing .....
         id: 106421,
@@ -16670,7 +16676,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'EX Gate' - Missing .....
+{ //True 'EX Gate' - Complete
         id: 106581,
         name: `True 'EX Gate'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -16684,20 +16690,21 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `70s CT - Increases Target's Arts Gauge by 10 for 15s. Increases all allies' Critical Rate by 100% for 15s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When Equipped by Leone, increases DMG by 30% and Heal amount by 10% (except lifesteal). When Demonic True Eclipse is activated, heals HP by 100% (only once).`,
+                ability2: `Increases Magic DMG by 20%.`
             },
-        lore: ``
+        lore: `A necklace made following the model of one of the advanced crests, the "Circle Crest". Since it can distribute efficiently the magic power over a wide area, it is suitable for auxiliary use such as a magic barrier. They say that the Princess Leone of Granadia used to wear it, but the historians consider it a mystery because of the discrepancy between the Princess' reign and the manufacturing period.`
     },
 { //Star Crest 'EX Gate' - Missing .....
         id: 106591,
@@ -17077,7 +17084,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Demonic Seal' - Missing .....
+{ //True 'Demonic Seal' - Complete
         id: 106721,
         name: `True 'Demonic Seal'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -17091,20 +17098,21 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `25s CT - Increases Own Arts Gauge by 3 and DMG by 30% for 20s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When Equipped by Mizuki, increases Accuracy Rate by 30%, and every time Third Eye is activated, extends Third Eye duration by 30s (only once).`,
+                ability2: `Increases HP Regeneration by 10.`
             },
-        lore: ``
+        lore: `The hidden scroll held by Mizuki, the leader of Imari Village. This scroll containing various techniques and battle strategies is said to hide the secret greatness as a shinobi. It's said that only those who have lived honestly and trained both body and mind over a long period of time will be able to understand the true meaning of the scroll. However, the path is long and treacherous. One who is able to arrive at the location described in the scroll will be able to obtain power that is even comparable to that of the Great Yoma Lord.`
     },
 { //True 'Netherworld Silver' - Complete
         id: 106731,
@@ -18128,7 +18136,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Flerunica' - Missing .....
+{ //True 'Flerunica' - Complete
         id: 107081,
         name: `True 'Flerunica'`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -18142,20 +18150,21 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
+                hp: 500,
                 atk: 0,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
+                skill: `50s CT - Recovers 35% of all allies' HP & Heals all allies' Seal.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Vermilia, MAX HP 30% UP & HP Recovery amount 10% UP (Except Lifesteal) (Only once).`,
+                ability2: `Seal Time Reduction & Seal Evasion rate 20% UP.`
             },
-        lore: ``
+        lore: `The true form of Vermilia's weapon. When the soul of the legendary beast inside resonates with its holder, it can release an all-consuming, everlasting blaze. Lengthy training in the magical arts gave her a realistic but earnest perspective of its nature. This pure heart was recognized by the spirit of the staff, allowing her to draw out its maximum power.`
     },
 { //JP Equip Name (Vernonica's Farmable) - Missing .....
         id: 107091,
@@ -19060,7 +19069,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Etoile' - Missing .....
+{ //True 'Etoile' - Complete
         id: 107401,
         name: `True 'Etoile'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -19074,20 +19083,21 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `35s CT - Auto-fills target's Arts gauge by 4 for 20s. If Light unit, increases target's Magic DMG by 30% for 20s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Liza, DMG 30% UP, Curse Resistance 100% UP & Arts gauge 50 UP when quests starts (Only once).`,
+                ability2: `Magic DMG from enemy 10% DOWN.`
             },
-        lore: ``
+        lore: `The name of the blacksmith who created this legendary magic broom has been lost to time and there are no other brooms like it. True to its name, this broom might have been created in a spark of inspiration which faded away moments after. In the Gran Verge Kingdom, the broom was cherished by Princess Liza, who became the first head of the Royal Academy of Magic, and it was passed down from her to the future heads of the Academy.`
     },
 { //Magisaw 'Pathmaker' - Missing .....
         id: 107411,
@@ -20109,7 +20119,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Arsenal' - Missing .....
+{ //True 'Arsenal' - Complete
         id: 107761,
         name: `True 'Arsenal'`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -20125,18 +20135,19 @@ const EquipInformation = [
             {
                 hp: 0,
                 atk: 0,
-                def: 0
+                def: 500
             },
         skillset:  
             {
-                skill: ``,
+                skill: `25s CT - Negates target's DMG taken for a total of 5000 & increases target's DEF by 50% for 12s (Only once).`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Eagle, Animosity gauge & Arts DMG 50% UP (Only once).`,
+                ability2: `DMG from enemy 15% DOWN when Near-Death.`
             },
-        lore: ``
+        lore: `A shield invented by Humans that combines offense and defense. Originally carried by soldiers protecting the front lines, it was adapted for use by single units in guerilla warfare. They would force their way to the enemy's weak point then switch to their blades, felling them with one swift motion. Although a reckless strategy, this change was necessary with the Humans often being split into small groups. The fear and hatred born from each battle also imbued their shields with a dark aura.`
     },
 { //Heavy Arms 'Arsenal Leaf' - Missing .....
         id: 107771,
@@ -20546,7 +20557,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Geek Shielder' - Missing .....
+{ //True 'Geek Shielder' - Complete
         id: 107911,
         name: `True 'Geek Shielder'`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -20560,20 +20571,21 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
+                hp: 500,
                 atk: 0,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
+                skill: `60s CT - Auto-recovers all allies' HP by 300 & reduces all allies' Physical DMG taken by 10% for 20s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Marika, Arts gauge 100 UP when quest starts (only once).`,
+                ability2: `Burn Time Reduction & Burn Evasion rate 20% UP.`
             },
-        lore: ``
+        lore: `One of Marika's inventions. It was designed to only fit her own head, so she has no plans for mass production. Several companies approached her with licensing offers, but the quality she demands drives up the manufacturing costs to unprofitable levels. since most of the features she wants to add will increase its weight, she is always trying to make it lighter.`
     },
 { //JP Equip Name - Missing .....
         id: 107921,
@@ -20809,7 +20821,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Testament' - Missing .....
+{ //True 'Testament' - Complete
         id: 108001,
         name: `True 'Testament'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -20824,19 +20836,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `60s CT - 8000% Light DMG (Magic). Reduces enemy's Magic resistance by 35% for 10s.`,
+                break: 500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When Equipped by Juno, Arts gauge 100 UP & Heals HP by 50% when Demonic True Eclipse is active (Only once).`,
+                ability2: `Magic DMG 20% UP.`
             },
-        lore: ``
+        lore: `A short sword masterfully crafted in a massive kiln by the Ancients. It is made of an impossible metal, said to need heat millions of times stronger than the sun to forge. The blade itself also bears three high-ranking Crests layered over each other. This lets it synergize with the powers of its owner, making it much more than a mere dagger.`
     },
 { //Eclipse Crown 'Todestrieb' - Missing .....
         id: 108011,
@@ -22261,7 +22274,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Vertrag' - Missing .....
+{ //True 'Vertrag' - Complete
         id: 108501,
         name: `True 'Vertrag'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -22276,19 +22289,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 7000% Earth DMG (Magic). Increases DMG by 40% & reduces enemy's Earth resistance by 35% for 10s.`,
+                break: 900
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Hart, all Stats 10% UP & Auto-fills Arts gauge by 2 (Only once).`,
+                ability2: `Magic DMG 10% UP.`
             },
-        lore: ``
+        lore: `The tome has a will of its own which allows it to discern the nature of its holder. It becomes more attuned the more it is used, increasing its efficiency as a catalyst. This means it does not value prodigious talent of purity of heart nearly as much as tireless experimentation and insatiable curiosity.`
     },
 { //Empty Grandeur 'Mizer' - Missing .....
         id: 108511,
@@ -22667,7 +22681,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Engaged Shield' - Missing .....
+{ //True 'Engaged Shield' - Complete
         id: 108671,
         name: `True 'Engaged Shield'`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -22683,18 +22697,19 @@ const EquipInformation = [
             {
                 hp: 0,
                 atk: 0,
-                def: 0
+                def: 500
             },
         skillset:  
             {
-                skill: ``,
+                skill: `30s CT - Reduces DMG taken by 20% for 15s. Reduces additional 20% when HP is 80% or more.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Miranda, auto-fills Arts gauge by 2 & will not Flinch (Only once).`,
+                ability2: `DEF 30% UP when negating DMG.`
             },
-        lore: ``
+        lore: `The ties between shield and holder deepen over time, unlocking its true power. The metal becomes feather-light and harder than diamond. However, when the holder passes their prime, so too does the shield's protection weaken. Indeed, their vow only ends in mutual death. Many such tales exist, all of them stirring and cruel in equal measure.`
     },
 { //Radiant Sword 'Flaredight' - Missing .....
         id: 108681,
@@ -22812,7 +22827,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Ready Maid' - Missing .....
+{ //True 'Ready Maid' - Complete
         id: 108721,
         name: `True 'Ready Maid'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -22826,20 +22841,21 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `40s CT - Auto-fills all allies' Arts gauge by 3 & increases Light units; DMG by 30% for 10s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Serah, All Stats 20% UP & Skill CT speed 70% DOWN (Only once).`,
+                ability2: `10% chance of evading Magic ATK.`
             },
-        lore: ``
+        lore: `Serah's favorite maid dress. The fabric repels everything from water to acid, making it suitable for light housework or dangerous experiments. Professor Arcana has praised how her choice to wear an all-purpose outfit reflects a "battle-ready" mindset. However, his tendency to ask her to make dinner while she's busy has come close to actually starting battles.`
     },
 { //JP Equip Name (Serah's Farmable) - Missing .....
         id: 108731,
@@ -25870,7 +25886,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Sky Light' - Missing .....
+{ //True 'Sky Light' - Complete.
         id: 109771,
         name: `True 'Sky Light'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -25885,21 +25901,22 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 10000% Light DMG (Magic). Reduces enemy's Light resistance by 30% for 10s. If the user is a Light unit, increases DMG by 50% for 10s.`,
+                break: 700
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Emperor Isliid, Accuracy 30% UP (Only once).`,
+                ability2: `10% chance of evading Magic ATK.`
             },
-        lore: ``
+        lore: `A sword gleaming bright enough to overwhelm the power of the divine. A God forged it to subvert the Ancient-established order. After fulfilling that purpose, it was given to the Original Human and thus passed down through the unbroken imperial Isliid lineage. Now, Humans revere it as a symbol of fearlessness against seemingly superior foes.`
     },
-{ //True 'Terra Master' - Missing .....
+{ //True 'Terra Master' - Complete
         id: 109781,
         name: `True 'Terra Master'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -25913,20 +25930,21 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `35s CT - 5000% Light DMG (Physical). Auto-fills all allies' Arts gauge by 3 & increases Human units' DMG by by 35% for 10s.`,
+                break: 500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Emperor Isliid, all stats 30% UP (Only once).`,
+                ability2: `DMG 20% UP during Break.`
             },
-        lore: ``
+        lore: `A legendary sword that grants its wielder the ability to read minds, leading them to victory. Despite its fame, the details of its creation and whereabouts are lost to history. among the few known facts is how it was bestowed to the first emperor of Isliid who decimated the opposing Human faction with its power overnight.`
     },
 { //True 'Dark Bringer' - Complete
         id: 109791,
@@ -27673,7 +27691,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Seafoam Pareo' - Missing .....
+{ //True 'Seafoam Pareo' - Complete
         id: 110431,
         name: `True 'Seafoam Pareo'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -27688,21 +27706,22 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 9000% Water DMG (Magic). Increases Arts gauge by 30. If the user is a Water unit, increases All Stats by 30% for 10s.`,
+                break: 800
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Beach Majesty Juno, extends duration of True Arts by 20s (Only once).`,
+                ability2: `Skill CT speed 5% UP.`
             },
-        lore: ``
+        lore: `Juno's vivid pareo-style bikini, only slightly altered. She tried it on one year later, and the strange snugness sent a chill down her spine. It was impossible she gained weight; her daily routine included and hour of rigorous exercise. Then, she remembered Riviera would be a reliable source of information on the matter. That struggle to regain composure made it clear she forgot some Demons were exceptionally late bloomers.`
     },
-{ //True 'Precious One-Piece - Missing .....
+{ //True 'Precious One-Piece - Complete
         id: 110441,
         name: `True 'Precious One-Piece`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -27716,20 +27735,21 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `40s CT - Increases target's Arts gauge by 80. Increases target's Earth DMG by 50% for 12s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Summer Princess Leone, Auto-fills Arts gauge by 3 (Only once).`,
+                ability2: `DEF 40% UP when Near-Death.`
             },
-        lore: ``
+        lore: `Leone's cute leotard-style swimsuit, unaltered in any way. She tried it on one year later, and the comfortable fit sent a chill down her spine. It was impossible she had not grown; her daily snack included a glass of nutritious milk. Then, she remembered her sister would be a reliable source of information on the matter. That glimmer of hope in her eyes made it clear she was unaware of what disappointment the future held.`
     },
 { //JP Equip Name (Valerie TW) - Missing .....
         id: 110451,
@@ -28021,7 +28041,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Soaring Z' - Missing .....
+{ //True 'Soaring Z' - Complete
         id: 110551,
         name: `True 'Soaring Z'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -28036,19 +28056,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 8000% Light DMG (Magic). Increases Light DMG & Skill CT speed by 50% for 10s.`,
+                break: 500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Cosmo, DMG 30% UP & auto-fills Arts gauge by 3 (Only once).`,
+                ability2: `Physical DMG from enemy 5% DOWN.`
             },
-        lore: ``
+        lore: `The ever-reliable partner of Cosmo, Bamint officer and rising star. It transforms her outflowing emotions into killer riffs. Although Kane insists he would never give away such an expensive article, he does not seem too concerned about her borrowing it for so long. This might be because he knows she has become good enough to form a true bond.`
     },
 { //JP Equip Name (Cosmo Farmable) - Missing .....
         id: 110561,
@@ -32168,7 +32189,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True Small Shield - Missing .....
+{ //True Small Shield - Complete
         id: 150691,
         name: `True Small Shield`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -32184,18 +32205,19 @@ const EquipInformation = [
             {
                 hp: 0,
                 atk: 0,
-                def: 0
+                def: 500
             },
         skillset:  
             {
-                skill: ``,
+                skill: `45s CT - Increases Target's DEF by 60%. Reduces Target's DMG Taken by 40% for 10s. Heals Target's HP by 10% of DMG Received after use for 10s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Naofumi, Increases MAX HP by 25% and Auto-Fills Arts Gauge by 1 (only once).`,
+                ability2: `Increases HP Regeneration by 4.`
             },
-        lore: ``
+        lore: `The sacred treasure that Naofumi Iwatani, the Shield Hero, received as one of the Four Holy Heroes. It is one of the Legendary Weapons that is passed to Melromarc's protectors. It enhances in proportion to the Hero's level and there are various ways of enhancing its abilities. It is possible to insert materials and recipes into the shield to enhance it further. the shield also has a translator, enabling Naofumi to understand the languages of other worlds.`
     },
 { //Raphtalia's Sword - Missing .....
         id: 150701,
@@ -32750,7 +32772,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Beatrice's Ribbon' - Missing .....
+{ //True 'Beatrice's Ribbon' - Complete
         id: 150891,
         name: `True 'Beatrice's Ribbon'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -32764,20 +32786,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `50s CT - Auto-fills target's Arts gauge by 5 & if user is Dark elemental, increases Arts DMG by 20% for 20s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Beatrice, ATK 20% UP. Upon Arts activation, all allies' Dark DMG 10% UP for 10s (Only once).`,
+                ability2: `Light Resistance 5% UP.`,
+                ability3: [`ATK 5% UP.`, `DEF 5% UP.`, `MAX HP 5% UP.`, `Blind Time Reduction & Blind Evasion rate 10% UP.`, `Break Power & Dark DMG 5% UP.`, `Magic DMG 10% UP & DMG taken 10% UP.`]
             },
-        lore: ``
+        lore: `The frilly pink ribbons that hold up the twin drills of the Forbidden Library's caretaker. It must take a long time to curl that hair that way.`
     },
 { //Rem's Morningstar - Missing .....
         id: 150901,
@@ -33622,7 +33646,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Shield of Rage' - Missing .....
+{ //True 'Shield of Rage' - Complete
         id: 151191,
         name: `True 'Shield of Rage'`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -33636,20 +33660,21 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
+                hp: 500,
                 atk: 0,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
+                skill: `35s CT - Auto-recovers 3% of target's MAX HP for 20s. If the user is Light, heals Seal.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Naofumi Iwatani, Physical DMG taken 35% DOWN & negates 4000 more DMG adding to his Arts effect (Only once).`,
+                ability2: `DEF 10% UP.`
             },
-        lore: ``
+        lore: `A Curse series weapon activated by powerful negative emotions of Naofumi Iwatani, one of four the Four Cardinal Heroes. It provides excellent offense and defense with its black flames but reduces the Status of its holder in return.`
     },
 { //Raphtalia's Outfit - Missing .....
         id: 151201,
@@ -34057,7 +34082,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Fight Club Goku Uniform' - Missing .....
+{ //True 'Fight Club Goku Uniform' - Complete
         id: 151341,
         name: `True 'Fight Club Goku Uniform'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -34071,20 +34096,21 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `30s CT - Increases all allies' Arts gauge by 15. Increases all allies DMG by 20% for 15s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Mako Mankanshoku, doubles this equip's Skill effect amount (Only once).`,
+                ability2: `DEF 5% UP.`
             },
-        lore: ``
+        lore: `The Two-Star Goku Uniform that was given to Mako Mankanshoku, the president of the Fight Club. She was originally considered a No-star student but unexpectedly revealed battle powers beyond imagination when wearing this Two-Star Goku Uniform.`
     },
 { //Scissor Blade Decap Mode - Missing .....
         id: 151351,
@@ -35188,7 +35214,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Stolen Scissor Blade' - Missing .....
+{ //True 'Stolen Scissor Blade' - Complete
         id: 151771,
         name: `True 'Stolen Scissor Blade'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -35203,19 +35229,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 8000% Dark DMG (Magic). Increases Dark DMG by 50% & DMG to Giant Boss by 50% for 10s.`,
+                break: 800
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Nui Harime, Skill CT speed & All Stats 20% Up (Only once).`,
+                ability2: `Dark resistance 5% UP.`
             },
-        lore: ``
+        lore: `The other Scissor Blade taken by Nui Harime when she attacked Isshin Matoi's lab. Unlike Ryuko's, it is colored purple.`
     },
 { //Nui's Parasol EV - Missing .....
         id: 151781,
@@ -35246,7 +35273,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Melty's Dress' - Missing .....
+{ //True 'Melty's Dress' - Complete
         id: 151791,
         name: `True 'Melty's Dress'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -35260,20 +35287,21 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `40s CT - Reduces all allies' DMG taken by 10% & auto-fills Arts gauge by 3 for 8s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Melty, doubles this equip's skill effect amount (Only once).`,
+                ability2: `DEF 5% UP.`
             },
-        lore: ``
+        lore: `Melty's plain dresswear of choice. Its elegant design perfectly matches the second princess' noble tastes.`
     },
 { //True 'Filo's Hairpin' - Missing .....
         id: 151801,
