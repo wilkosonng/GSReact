@@ -2188,7 +2188,7 @@ const EquipInformation = [
             },
         lore: `A book containing verses written by ancient humans in praise of natural phenomena as "gods". A treasure-trove of ancient knowledge, the beautiful text sounds like magical chanting when read aloud. The longest passages, loaded with primal power and dedicated to the almighty god of destruction, have been known to burn inattentive inscribers to ash.`
     },
-    { //Brilliant Blade 'Regracia' - Missing .....
+    { //Brilliant Blade 'Regracia' - Complete
         id: 100751,
         name: `	Brilliant Blade 'Regracia'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -2203,19 +2203,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
+                skill: `50s CT - 5500% Light DMG (Physical).`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Increases all Allies' ATK by 15% (Does not stack with abilities of the same name.)`
             },
-        lore: ``
+        lore: `A sword owned by Rayas. He found it when exploring caves with his friend Roy, but it was plunged deep in a rock and the boys were unable to pull it free. They visited the cave many more times but could never move it. Eventually Roy left to become a knight. As though answering Rayas' resolve, when he returned to the cave alone he finally removed the sword.`
     },
     { //Sacred Crown 'Raaz' - Missing Lore
         id: 100761,
