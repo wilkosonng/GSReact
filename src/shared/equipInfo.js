@@ -970,9 +970,9 @@ const EquipInformation = [
             },
         lore: `Mystical medicine created from morning mist in the Fairy Forest. A concentration of the healing power of the trees, it can even save patients with a terminal prognosis, but a healthy person will suffer hallucinations and other side effects. Therefore, in order to prevent mistaken imbibing, in the Isliid Empire it can only be prescribed by doctors.`
     },
-    { //Prayer Wine "Soma" - Complete
+    { //Prayer Wine 'Soma' - Complete
         id: 100331,
-        name: `Prayer Wine "Soma"`,
+        name: `Prayer Wine 'Soma'`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
         image: 
@@ -999,9 +999,9 @@ const EquipInformation = [
             },
         lore: `Holy wine extracted from the sap of the divine tree Soma, where the spirits of departed fairies gather. Sweet, refreshing, and a powerful analeptic. Originally created as an offering to the divine, during the Ancient War it was used to bring courage to fighting men. Records state that not a single combatant who drank this wine fell in battle.`
     },
-    { //Blessed Wine "Amurita" - Complete
+    { //Blessed Wine 'Amurita' - Complete
         id: 100341,
-        name: `Blessed Wine "Amurita"`,
+        name: `Blessed Wine 'Amurita'`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 3,
         image: 
@@ -1057,9 +1057,9 @@ const EquipInformation = [
             },
         lore: `A flower said to forewarn its owner. Major General Salbatol of the Gramenia Republic once received one from a young girl as he set out to battle. Thinking little more of it, just before a raid he noticed the flower had died. He called the attack off, and they later found his plan had been leaked to the enemy; the flower had saved him and all his men.`
     },
-    { //Heavenly Robe "Michael" - Complete
+    { //Heavenly Robe 'Michael' - Complete
         id: 100361,
-        name: `Heavenly Robe "Michael"`,
+        name: `Heavenly Robe 'Michael'`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -2190,7 +2190,7 @@ const EquipInformation = [
     },
     { //Brilliant Blade 'Regracia' - Complete
         id: 100751,
-        name: `	Brilliant Blade 'Regracia'`,
+        name: `Brilliant Blade 'Regracia'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -11284,9 +11284,9 @@ const EquipInformation = [
             },
         lore: `The circlet which Iris' clone "Number 2" wears to control her abilities. When the magic stones shine, it signifies the attempt to read her thoughts, as she supposedly has none. Ever since a certain battle, the stone has flickered with light, releasing more power than imagined.`
     },
-{ //Magic Spear "Graofang" (魔槍『グラオファング』) - Missing .....
+{ //Magic Spear 'Graofang' (魔槍『グラオファング』) - Missing .....
         id: 104481,
-        name: `Magic Spear "Graofang" (魔槍『グラオファング』)`,
+        name: `Magic Spear 'Graofang' (魔槍『グラオファング』)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -11313,9 +11313,9 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Flame Staff "Terenolio" (焔精杖『テレノライオ』) - Missing .....
+{ //Flame Staff 'Terenolio' (焔精杖『テレノライオ』) - Missing .....
         id: 104491,
-        name: `Flame Staff "Terenolio" (焔精杖『テレノライオ』)`,
+        name: `Flame Staff 'Terenolio' (焔精杖『テレノライオ』)`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -11401,7 +11401,7 @@ const EquipInformation = [
             },
         lore: `A light relic of a fallen nation that believed that light would save everyone. It is said that when the Cane touches the ground it vanishes all evil with noble sound. This relic is the proof of the promise of the Gods that, when the world will reach its limits, they will show the way to destruction and resurrection. When the three shining relics awaken, the Tin Cane will play its role.`
     },
-{ //Dark Relic 'Nichts' - Missing .....
+{ //Dark Relic 'Nichts' - Complete
         id: 104521,
         name: `Dark Relic 'Nichts'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -11416,19 +11416,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 5500% Dark DMG (Magic). Dark Elemental Allies ignore Enemies' DEF by 50% for 8s.`,
+                break: 900
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Increases all Dark Elemental Allies' stats by 20% (only once).`,
+                ability2: `When allies are equipped with 4 Dark Relic Equipment. Dark allies' DMG & equip CT speed 20% UP (Only Once).`,
+                ability3: `Chain of Tragedy: "Blood is all over it and it seems you cannot use it as it is."`
             },
-        lore: ``
+        lore: `The earrings possessed by the king of the sect that used darkness to tyrannize over people. Some countries even banned to raise his name. Thus, he is known as "The Nameless" and is remembered as a symbol of terror. Among the anecdotes, the one about the "Three Devils" who swore loyalty to him is especially famous, and their relics still sleep somewhere out there.`
     },
 { //Cursed Light Sword 'Anestra'- Missing .....
         id: 104591,
@@ -11488,7 +11490,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Patriot Rifle 'Glorious' - Missing .....
+{ //Patriot Rifle 'Glorious' - Complete
         id: 104611,
         name: `Patriot Rifle 'Glorious'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -11503,19 +11505,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 6200% Earth DMG (Magic). 60% chance of Paralyzing enemy.`,
+                break: 800
             },
         passive: 
             {
-                ability1: ``
+                ability1: `If user is a Human, Arts DMG 10% UP & Arts DMG taken 15% DOWN (Only once).`
             },
-        lore: ``
+        lore: `The firearm owned by Kane, the Republic of Gramenia's president and Fen's boss. He is never seen without it on the battlefield. With overwhelming strength combined with magically enhanced and trajectory correcting, his targets have no hope of survival. It increases his own innate capabilities to make him a truly matchless soldier.`
     },
 { //Combat Knife 'Vixen' - Missing .....
         id: 104621,
@@ -11662,7 +11664,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Fire Relic 'Sword of the Flaming Knight' - Missing .....
+{ //Fire Relic 'Sword of the Flaming Knight' - Complete
         id: 104671,
         name: `Fire Relic 'Sword of the Flaming Knight'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -11677,19 +11679,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 120,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 3200% Fire DMG (Magic). Reduces Enemies' Burn Resistance by 35% for 12s.`,
+                break: 800
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When Fire Relic "Bible of the Flaming Knight" is also equipped, Increases all Fire Elemental Units' Freeze Resistance by 30% (only once).`
             },
-        lore: ``
+        lore: `This blade was recorded in the annals of the Flame Knights. The powers of divine flame sleep within and the blade burns with such heat that all it touches bursts to flame. This blade, once wielded by a knight, had slain any number of threats, but as the sacred texts have grown faded with time its secrets remain hidden. It appears that when the sword is brought near those holy texts, it could up hidden powers within them.`
     },
 { //Water Relic 'Aqua Dragon's Sword' - Missing .....
         id: 104681,
@@ -11720,7 +11722,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Earth Relic 'Ain Wold' - Missing .....
+{ //Earth Relic 'Ain Wold' - Complete
         id: 104691,
         name: `Earth Relic 'Ain Wold'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -11735,19 +11737,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 120,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 3200% Earth DMG (Magic). Reduces Enemies' Poison Resistance by 35% for 12s.`,
+                break: 800
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When Earth Relic 'Gran Forde' is also equipped, Increases all Earth Elemental Units' Burn Resistance by 30% (only once).`
             },
-        lore: ``
+        lore: `This device, apparently some odd machine part which was found in mist-shrouded ruins, defies easy comprehension. The technique survives in no existing books, yet it appears to have some similarities to Gran Forde, hinting at a connection. It contains vast magical power, and may be useful as a weapon, but... it appears difficult to unleash that power. Could there be other missing parts?`
     },
 { //Holy Bow 'Forester' - Missing .....
         id: 104711,
@@ -11866,7 +11868,7 @@ const EquipInformation = [
             },
         lore: `The Divine Bow, the symbol of the heroine Mamori, who traveled the world with the "Crimson Stars" Circus during the early days of the Ancient War, to help and bring a smile to many people. With her bow, she could always hit at the first shot, but her major ability was to strike a shower of arrows, like shooting stars, that would knock down an entire army in one blow. She kept training on her own in the depths of the forests for all her life, without anyone ever teaching her the technique, and thanks to her persistence, she could reach levels above capability.`
     },
-{ //	Magical Outfit 'Pierrot Crimson' - Missing .....
+{ //	Magical Outfit 'Pierrot Crimson' - Complete
         id: 104751,
         name: `	Magical Outfit 'Pierrot Crimson'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -11881,19 +11883,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 120,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 3250% Fire DMG (Magic). Reduces Enemies' ATK and DEF by 20% for 8s.`,
+                break: 500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Increases Burning Time Reduction and Burning Evasion Rate by 30%.`
             },
-        lore: ``
+        lore: `This is the trademark outfit of Pientz, the leader of the Crimson Stars, a circus popular early in the Ancient War. As befitting the crimson name, his speciality was fire tricks... Which is to say, he was no mere prestidigitator, but a flame sorcerer of the first order. This outfit was made of special flame-resistant materials, and they saved him from mishap many a time. It is also endowed with special powers to hide his overflowing magical power from prying eyes.`
     },
 { //Magical Box 'Monstre' - Missing .....
         id: 104761,
@@ -11924,7 +11926,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Holy Cane 'Proscris' - Missing Skill
+{ //Holy Cane 'Proscris' - Complete
         id: 104771,
         name: `Holy Cane 'Proscris'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -11944,15 +11946,14 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `35s CT - `,
-                break: 1500
+                skill: `50s CT - 3500% Water DMG (Magic). Heals Own HP by 240 & Increases Own Arts Gauge by 20 every Hit.`,
+                break: 1200
             },
         passive: 
             {
-                ability1: `When equipped by Diaz, DMG 20% UP & HP Auto-recovery to all allies by 10 (Only once).`,
-                ability2: `All allies MAX HP 5% & Beast units' DMG 15% UP (Only once).`
+                ability1: `Increases all Allies' Max HP by 5% (only once). Increases all Beast race Allies' DMG by 15% (only once).`
             },
-        lore: `The scepter of Diaz, one of the heroes of the famous "Crimson Star Circus". When he was liberated from the desire for revenge that kept burning fro his childhood, the hope for the future which had sprouted in his heart, entrusted by his companions, became one in the form of this scepter. Recognizing the companions who had walked with him as a new family, and his vows to create a new tomorrow, the scepter was transformed into a holy scepter.`
+        lore: `The staff of Diaz, the beast summoner and star magician of the Crimson Stars, a travelling circus from the early days of the Ancient War. Diaz was praised from a young age as a genius unlike any other in his race. When his race was annihilated during an invasion, he swore vengeance, and that dark desire for retribution drove him day and night. It would take until Diaz had grown up for him to realize that the unfading brilliance of his staff was actually a light of hope entrusted to him by the companions who had left the world before him.`
     },
 { //Holy Robe 'Lathraea' - Missing .....
         id: 104781,
@@ -12012,7 +12013,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True 'Proscris' - Missing .....
+{ //True 'Proscris' - Missing Skill
         id: 104801,
         name: `True 'Proscris'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -12027,21 +12028,22 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `35s CT - `,
+                break: 1500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Diaz, DMG 20% UP & HP Auto-recovery to all allies by 10 (Only once).`,
+                ability2: `All allies MAX HP 5% & Beast units' DMG 15% UP (Only once).`
             },
-        lore: ``
+        lore: `The scepter of Diaz, one of the heroes of the famous "Crimson Star Circus". When he was liberated from the desire for revenge that kept burning fro his childhood, the hope for the future which had sprouted in his heart, entrusted by his companions, became one in the form of this scepter. Recognizing the companions who had walked with him as a new family, and his vows to create a new tomorrow, the scepter was transformed into a holy scepter.`
     },
-{ //Forbidden Book 'Irafael' - Missing .....
+{ //Forbidden Book 'Irafael' - Complete
         id: 104811,
         name: `Forbidden Book 'Irafael'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -12055,20 +12057,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 500,
+                atk: 500,
+                def: 500
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `80s CT - 8500% Fire DMG (Magic). 100% chance of Burning Enemy.`,
+                break: 1200
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `This tome was written long before the Ancient War, and its existence was a closely guarded secret. They say it contains the secrets of powerful magic that nearly destroyed the world, and a way to open the gate to the underworld. No one alive knows the truth of this, but one thing is for certain: no one must use this power. Simply possessing the book is enough to doom one to destruction; actually opening it would burn the reader to ashes, they say.`
     },
 { //God Blade 'Dragon Twilight' - Missing .....
         id: 104851,
@@ -12304,7 +12306,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Magi-Umbrella 'Sans Pluie' - Missing .....
+{ //Magi-Umbrella 'Sans Pluie' - Complete
         id: 104931,
         name: `Magi-Umbrella 'Sans Pluie'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -12319,19 +12321,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 6000% Light DMG (Magic). 60% chance of Poisoning enemy. If Demon, Arts gage 20 UP.`,
+                break: 900
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Accuracy rate 20% UP & Skill CT 20% DOWN (Only once).`
             },
-        lore: ``
+        lore: `The umbrella was the ceaseless companion of the Demoness Mixie, who fought under the command of her general father, who himself served directly under the Great Six Demon Generals early in the Ancient War. She took much more care with her appearance than most and detested being seen with more conventional and unseemly weapons, so she assigned double roles to items she carried. This particular one was usually an effective parasol, but when needed it also served as a powerful weapon. when opened it could block live fire or magical attacks, and when closed it was capable of mowing down enemies. They say it was an elegant sight, even in battle.`
     },
 { //Magic Robe 'Tout Acconier' - Missing .....
         id: 104941,
@@ -12481,7 +12483,7 @@ const EquipInformation = [
             },
         lore: `The magical spear of Alvina, sister to Corsair, of the Frozen Blade, one of the Three Blade Masters. She was able to overcome the dark power sleeping in her blood, and thus managed to awaken the draconic power in this spear. They say that Alvina herself, with her incomparable spear technique and the way she wove magical dragons and blades of ice, appeared like a goddess on the battlefield. They say her power possessed a will of its own, and at times it left its mistress' hands to attack and return, unbidden.`
     },
-{ //Frozen Boots 'Caerula Nix' - Missing .....
+{ //Frozen Boots 'Caerula Nix' - Complete
         id: 104991,
         name: `Frozen Boots 'Caerula Nix'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -12496,19 +12498,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 120,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 3500% Water DMG (Magic). Increases Own Magic DMG Dealt by 15% for 8s.`,
+                break: 800
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Increases Freeze Time Reduction and Freeze Evasion Rate by 40%.`
             },
-        lore: ``
+        lore: `Alvina, called the Azul Spear, placed huge trust in these boots. Because she wielded a spear, she disliked heavy armor and could never separate from this accessory. Ever since she was blessed with the divine protection of a certain tundra lord, they say these boots were eternally clad in beautiful snow crystals. In addition to their defensive ability, they also allow attacks with frozen blades. Legends say that thanks to these boots she used to show off by walking on the surface of lakes and rivers.`
     },
 { //True 'Draco Hasta' - Missing .....
         id: 105001,
@@ -12568,7 +12570,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Sacred Garb 'Destina' - Missing .....
+{ //Sacred Garb 'Destina' - Complete
         id: 105021,
         name: `Sacred Garb 'Destina'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -12583,19 +12585,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 120,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 4200% Light DMG (Magic). Recovers Own HP by 50/s for 10s.`,
+                break: 700
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `This sacred garb has protected the swordsman Mogia on his life's journey to fulfill the destiny of his sacred sword. Likely, the only thing that has kept his spirit strong after he was chosen by the sword and became a plaything of fate is the divine protection woven into this clothing. Such clothing must truly have been a blessing, as it has protected him through trials unknown as he faces up to the fickleness of fate alone.`
     },
 { //Silent Summonstone - Missing .....
         id: 105031,
@@ -12626,7 +12628,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Inferno Summonstone - Missing .....
+{ //Inferno Summonstone - Complete
         id: 105041,
         name: `Inferno Summonstone`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -12641,21 +12643,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `120s CT - 6000% Fire DMG (Magic). Summon Gem Blessing: Increases all allies' Fire DMG by 60% for 30s (Only once).`,
+                break: 1200
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Summon Gem Blessing Lv5: The highest Lv effect of the Summon Gem Blessing is effective.`
             },
-        lore: ``
+        lore: `This summonstone is the symbol of a pact with the Inferno God, Ifrit. When the holder of this stone calls out to it, the power of the world will manifest in molded flesh. If the summoner's goal does not meet the standards of justice held by Ifrit, who owns the will of the world, the pact holder may be burned to ash as well. Holding this stone is like being in communication with the world itself. If the holder can avoid being overwhelmed by the massive will of the world, perhaps its great power will unveil the true path forward.`
     },
-{ //Relic 'Silent Wings' - Missing .....
+{ //Relic 'Silent Wings' - Complete
         id: 105051,
         name: `Relic 'Silent Wings'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -12670,19 +12672,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 120,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `35s CT - 4200% Water DMG (Magic). Increases all Allies' Heal amount by 10% for 8s.`,
+                break: 800
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Regenerates Own HP by 4/s.`
             },
-        lore: ``
+        lore: `These boots belonged to the Silent Divine, Palamacia, one of the greatest sword masters of the Gods. Forged by the greatest craftsman of the Gods, these boots are light as an ibis' wing, and glitter with divine blessing. The Goddess used her swift footwork to maintain the perfect distance from her opponents and dispatched them at times with silent speed, and at times with sweeping elegance. They say that the ability to close any distance in an instant offered by these boots brought her skill with the sword to even higher levels.`
     },
 { //True 'Frozen Twin Swords' - Complete
         id: 105061,
@@ -12801,7 +12803,7 @@ const EquipInformation = [
             },
         lore: `The holy robe worn by Daki, a mage who withdrew from the front lines in the early days of the Ancient War despite his exceptional talent. It is made of a high quality fabric that was purified in an ancient temple and has the ability to heal the wounds of whoever wears it. The power of the gemstone in the center of the robe can relieve the illnesses of those around it and help them to heal. After retiring from the front lines, Daki is said to have continued to care for and heal wounded warriors in various places regardless of their race.`
     },
-{ //Staff of Phoenix Tear 'Atropos' - Missing .....
+{ //Staff of Phoenix Tear 'Atropos' - Complete
         id: 105101,
         name: `Staff of Phoenix Tear 'Atropos'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -12816,19 +12818,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 6000% Light DMG (Magic). Reduces own Skill CT by 30% for 12s. Light units get an extra 30%.`,
+                break: 900
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Magic DMG 20% UP.`
             },
-        lore: ``
+        lore: `The holy staff beloved bi Daki, the mage of the 3rd Dove Brigade. It was made with crystallized phoenix tears, which are among the most magically powerful crystals. When Daki slept, exhausted from all the magic he used in battle, his Spirit attendant Meo would take care of his staff in secret. "Meo, the staff seems to be shining more brightly than before." "Really? I thing you're just imagining it."`
     },
 { //True 'Atropos' - Complete
         id: 105111,
@@ -12976,7 +12978,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Alma's Bandeau Bikini - Missing .....
+{ //Alma's Bandeau Bikini - Complete
         id: 105201,
         name: `Alma's Bandeau Bikini`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -12991,19 +12993,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 6600% Earth DMG (Magic). Reduces Enemy's Magic Resistance by 20% for 10s.`,
+                break: 1200
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `Rayas was playing in the sea with his friends, when he suddenly recalled the orphanage. Lapleh, who always took such good care of them, would often lead the children to a nearby river in summer. And every time, a woman in a green swimsuit joined them. And he still remembers how nervous he was around her in that tantalizing suit, even though he was just a kid. Come to think of it, that mysterious woman they met a Lapleh's grave looked a lot like her...`
     },
 { //Rishley's Sunset Bikini - Missing .....
         id: 105211,
@@ -13472,7 +13474,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Melia's Purple Sexy Bikini - Missing .....
+{ //Melia's Purple Sexy Bikini - Complete
         id: 105461,
         name: `Melia's Purple Sexy Bikini`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -13487,19 +13489,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - `,
+                break: 700
             },
         passive: 
             {
-                ability1: ``
+                ability1: `8000% Dark DMG (Magic). Reduces enemy's Accuracy rate by 80% for 8s.`
             },
-        lore: ``
+        lore: `Melia, the Blue-eyed Black Fox, looks dashing in her brand new swimsuit. As she attracted the gaze of the men scattered around the beach, she quietly joined up with her friends... And then the third princess exploded. She began shouting that Melia's clothes weren't fit for public view, that she should be ashamed, and so on... And Melia, looking amused, answered, "Oh, don't hold back. Do say what you really mean!" Yet again, her only goal was to stir trouble.`
     },
 { //Rem's Sexy Lace Bikini - Complete
         id: 105471,
@@ -13550,7 +13552,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `50s CT - 3800% Light DMG (Magical). Heals all Allies' HP by 1000.`,
+                skill: `50s CT - 3800% Light DMG (Magic). Heals all Allies' HP by 1000.`,
                 break: 0
             },
         passive: 
@@ -13617,7 +13619,7 @@ const EquipInformation = [
             },
         lore: `Swimsuit worn by Aristela, the "Annihilation Witch". She and four of her companions took a trip not recorded in any history books, but stories remain in every land they passed, giving hints at how close they all were, and how fun-loving. Aristela herself apparently memorized the entire library of the Grim Stella coven, yet was totally hopeless at sports. The reason why she chose an austere swimsuit perfect for swimming, may be not to be teased by her friends again.`
     },
-{ //Selia's Snow White Bikini - Missing .....
+{ //Selia's Snow White Bikini - Complete
         id: 105511,
         name: `Selia's Snow White Bikini`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -13632,21 +13634,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 8000% Water DMG (Magic). Reduces Freeze resistance by 50% for 12s.`,
+                break: 800
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `Selia, one of Grimm Stella, a coven of the Six Great Witches, wore this swimsuit. She always had a free spirit. She went wherever and did whatever she wanted. Whenever she got in the mood for a swim, she headed to the nearest beach, river or lake. However, her curious nature didn't lend itself to normal water fun. She would want to cut through the highest waves, or slide over the ice when she got tired of swimming. And so sometimes she would turn the area into a frozen wasteland in the blink of an eye.`
     },
-{ //Electro-Magnetic Gun 'Griffin' - Missing .....
+{ //Electro-Magnetic Gun 'Griffin' - Complete
         id: 105521,
         name: `Electro-Magnetic Gun 'Griffin'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -13661,19 +13663,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `55s CT - 6200% Earth DMG (Magic). Reduces Enemies' Paralyze Resistance by 60% for 8s.`,
+                break: 1000
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Increases Break Power by 6%.`
             },
-        lore: ``
+        lore: `This weapon uses electromagnetic induction to fire projectiles. This is among the highest class of weapons used by the humanoid Machines, and though it's incredibly difficult to use, it offers unrivaled destructive power. The user's magical power is converted to Electromagnetic power, and Machine users achieve a particularly high conversion rate. It's also much safer that gunpowder-based weapons. It's quite complex, so only very experienced fighters can use it to its full capacity.`
     },
 { //Rapid-fire Gun 'Peregrine' - Missing .....
         id: 105531,
@@ -13821,7 +13823,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Light Relic 'Eradication Bow' - Missing .....
+{ //Light Relic 'Eradication Bow' - Complete
         id: 105581,
         name: `Light Relic 'Eradication Bow'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -13836,19 +13838,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 7800% Light DMG (Magic). Increases Light units' Break power by 20% for 10s.`,
+                break: 1000
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When Light Relic 'Tin Cane of Relief' is also equipped, Light units' Break power 20% UP (Only once).`
             },
-        lore: ``
+        lore: `The Light Relic of a nation that faced destruction in ages past, believing light would bring about salvation for all. Although the target of this bow is unknown, it is said that "All life will eventually end and be extinguished by this Eradiction Bow". Though some believed it to not exist, those that laid eyes upon the bow, had but no choice to recognize reality. A reality that this bow exists purely to bring an end to all. In other words, one the world will eventually come to an end.`
     },
 { //Mysterious Necklace 'Eternal' - Missing .....
         id: 105591,
@@ -13879,7 +13881,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Dark Blade 'Exceed Zechs' - Missing .....
+{ //Dark Blade 'Exceed Zechs' - Complete
         id: 105601,
         name: `Dark Blade 'Exceed Zechs'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -13894,19 +13896,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 7500% Dark DMG (Magic). If own HP is over 75%, increases Arts gauge by 30. Increases Arts DMG by 30% for 8s.`,
+                break: 800
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Lifesteal by 2% of DMG when Near-Death.`
             },
-        lore: ``
+        lore: `This cursed blade was unsealed by Zeorg, the Hero of Famelle. It had been hidden away in the depths of a forbidden land, since the kingdom's founding. They say the blade has the power to slay dragons with ease, without the tiniest chip. However, since its immense power has consumed so many bearers, it was sealed away as a forbidden blade and its very existence hidden. But the Hero released it, and it has reappeared as a sword of unequaled might.`
     },
 { //Dark Armor 'Evil Death' - Missing .....
         id: 105611,
@@ -13967,7 +13969,7 @@ const EquipInformation = [
             },
         lore: `A cursed blade said to be the shadow to the magical blade Ryude Magus, symbol of Zeorg, Hero of Famelle. They say that all who have taken it up descended into berserker madness, yet still all who bore the sword of light were eventually driven to reach out for this cursed sword as well. It is the final trial for all those who pursued power and sought to evade their own inevitable fading. A ritual to choose the truly supreme, woven by the two swords themselves. And now, having dominated the cursed blade and the magic, Zeorg is truly a hero.`
     },
-{ //Twin Bone Swords 'Dos Muertes' - Missing .....
+{ //Twin Bone Swords 'Dos Muertes' - Complete
         id: 105631,
         name: `Twin Bone Swords 'Dos Muertes'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -13982,21 +13984,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `35s CT - 5800% Dark DMG (Magic). Lifesteal by 4% of DMG.`,
+                break: 800
             },
         passive: 
             {
-                ability1: ``
+                ability1: `DMG to Humans 30% UP.`
             },
-        lore: ``
+        lore: `The two swords of Ashe, the Cult's assassin. He received this weapon from the researcher when he left the facility. Just like his body, the blade was perfected for killing. he can handle it only because he has a physical ability that exceeds human limits. An ordinary warrior would not be able to handle it even after a rough training. With these blades, Ashe can strike a hit out from the dark and without making any sound.`
     },
-{ //Cursed Spear 'Tres Lanzas' - Missing .....
+{ //Cursed Spear 'Tres Lanzas' - Complete
         id: 105641,
         name: `Cursed Spear 'Tres Lanzas'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -14011,19 +14013,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 120,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `30s CT - 3000% Dark DMG (Magic). 80% chance of Blinding Enemy.`,
+                break: 500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Increases DMG to Humans by 20%.`
             },
-        lore: ``
+        lore: `The cursed spear of Ashe, the assassin of La Riiz. at first glance, the three spears may seem not practical, but they unleash tremendous dark magic. The wrap the enemy in impenetrable darkness that causes uneasiness and fear, inducing the target to lose the reason. If he wields the spears even once, an obscure cursing aura persists, so anybody can tell an assassination has been performed there.`
     },
 { //True 'Dos Muertes' - Complete
         id: 105651,
@@ -14142,7 +14144,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Fire Scepter 'Fomalhaut' - Missing .....
+{ //Fire Scepter 'Fomalhaut' - Complete
         id: 105691,
         name: `Fire Scepter 'Fomalhaut'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -14157,19 +14159,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 6000% Fire DMG (Magic). Reduces Enemies' Fire Resistance by 30% for 10s.`,
+                break: 800
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Increases DMG to Earth Elemental Units by 10%.`
             },
-        lore: ``
+        lore: `This magical scepter was wielded by Berwick, one of the Juno Templars. They say that it was made of a sacred flame that had burned since ancient times, and the blaze sleeping within is powerful enough to consume all it touches. The flames change with the magical power its user feeds them, and he can thus control not only their power but their form. The scepter also responds to the user's character, and since the flames created by his aggressive nature were a danger even to his allies, no one dared to come close to him in battle.`
     },
 { //Blood Crest 'Arc Ignite' - Missing .....
         id: 105701,
@@ -14259,7 +14261,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Earth Battledress 'Aster' - Missing .....
+{ //Earth Battledress 'Aster' - Complete
         id: 105731,
         name: `Earth Battledress 'Aster'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -14274,19 +14276,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `5s CT - 1700% Earth DMG (Magic). Increases own ATK by 20% and Reduces own DEF by 20% for 5s.`,
+                break: 200
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Increases DMG to Water Elemental Units by 5%.`
             },
-        lore: ``
+        lore: `She went through many battles with this garment, but since she takes good care of it, it doesn't get worn out. This clothing wakes up magical powers lodged in the body of those who wear it and make it possible to instantly release a blow beyond the limits. However, since all the magical powers concentrate on the attack and lose the function as armor, appropriate preparation is required.`
     },
 { //True 'Tempest' - Complete
         id: 105741,
@@ -14318,7 +14320,7 @@ const EquipInformation = [
             },
         lore: `The woman knight who handles this double weapon has always defended the Princess behind the enemy lines, along with the knight with the large shield. They say that the one who was mowed down by her axes was swept away together with the rocks in the surroundings, without leaving any trace. Nobody else could ever wield this weapon, but she was able to unleash all its destructive power.`
     },
-{ //Crimson Blade 'Degilagon' - Missing .....
+{ //Crimson Blade 'Degilagon' - Missing Passive
         id: 105751,
         name: `Crimson Blade 'Degilagon'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -14333,19 +14335,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 120,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `15s CT - 1700% Fire DMG (Magic). 60% chance of Burning enemy. Reduces own DEF by 30% for 10s.`,
+                break: 200
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Missing Passive.`
             },
-        lore: ``
+        lore: `This Draco sword was possessed from the Death Dragon, whose flame breath could burn this whole world down. This blade can slash the enemy without touching him thanks to its extreme heat. The burn will never cure and scorch until the entire body becomes ashes. It is said that victory is promised to those who do not fear the blazing dragon. Hundreds and thousands desired this sword, though every single one got terrified and was eaten by the sword. Even now, the flame grins inside the blade as if it's laughing at the next challenger.`
     },
 { //Holy Necklace 'Dignified Silence' - Missing .....
         id: 105761,
@@ -14579,7 +14581,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Feena's Witch Hat - Missing .....
+{ //Feena's Witch Hat - Mising Lore
         id: 105841,
         name: `Feena's Witch Hat`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -14594,19 +14596,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `75s CT - 12000% Light DMG (Magic). Increases all Allies' DEF by 100% for 15s.`,
+                break: 1200
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `Missing Lore.`
     },
 { //Feena's Devil Wings - Complete
         id: 105851,
@@ -14958,9 +14960,9 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Icy Shell "Frigid Scales" - Missing .....
+{ //Icy Shell 'Frigid Scales' - Missing .....
         id: 105971,
-        name: `Icy Shell "Frigid Scales"`,
+        name: `Icy Shell 'Frigid Scales'`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -15337,7 +15339,7 @@ const EquipInformation = [
             },
         lore: `This is one of the decorations Iris prepared for a party celebrating Christmas, an otherworld festival.. Iris gets carried away by every festival that comes her way, and this year she made loads of dolls. This doll version of Rayas is made to look to look like magical flying beasts of the otherworld called "reindeer" which pull Santa's sleigh through the sky delivering presents all over the world in a single night. When asked why she'd chosen herself to play Santa Claus, the master of the reindeer, Iris changed the topic.`
     },
-{ //Santa Iris Doll - Missing .....
+{ //Santa Iris Doll - Complete
         id: 106101,
         name: `Santa Iris Doll`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -15352,19 +15354,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `60s CT - 7200% Light DMG (Magic). Increases own Light DMG by 50% for 8s.`,
+                break: 900
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `This is a doll Iris made to get ready for Christmas, a festival celbrated in the otherworld. The bright red clothing of the jolly old elf called Santa Claus transformed into a cute dress under her scissors. Though the clothing has sacrificed its usual warmth for style, it certainly has attracted the attention of adventurers visiting the Firecat's Den. The two reindeer accompanying her seem pretty happy, too.`
     },
 { //Red-Nosed Roy Doll - Missing Lore
         id: 106111,
@@ -16035,7 +16037,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Inventor Robe 'Genesis' - Missing .....
+{ //Inventor Robe 'Genesis' - Complete
         id: 106341,
         name: `Inventor Robe 'Genesis'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -16050,19 +16052,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 120,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `70s CT - 5000% Water DMG (Magic). Increases all Allies' Water Elemental DMG Dealt by 10% for 10s.`,
+                break: 600
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Auto-fills Arts Gauge by 1 when Near-Death.`
             },
-        lore: ``
+        lore: `A robe worn by the Leone Templars' extraordinary inventor. It resembles the uniform of the Sorcery Academy, but it is made with fibers infused of massive magical power. It was specially designed to increase the wearer's Magic power, rather than to protect. The robe is also treated with mysterious Crest sorcery, which inspires the wearer with a desire of knowledge, and can bring out talents in a variety of fields like literature, sorcery and medicine.`
     },
 { //True 'Asterisk' - Complete
         id: 106351,
@@ -16182,7 +16184,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Enchanted Rifle 'Stratega' - Missing .....
+{ //Enchanted Rifle 'Stratega' - Complete
         id: 106391,
         name: `Enchanted Rifle 'Stratega'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -16197,21 +16199,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `70s CT - 8000% Dark DMG (Magic). Increases DMG to Enemies by 20% for 10s.`,
+                break: 800
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Increases DMG to Giant Bosses by 10%.`
             },
-        lore: ``
+        lore: `The rifle used by Vanguard Spy Fen. Aside from shooting physical bullets, it can also discharge magical ammunition. Despite the gun being prepared by the client country for Fen specifically for his escort mission, it only took him a few hours to master it. According to Fen, "The greatest weapon chooses its master, but the ultimate weapon has capability to synchronize itself to its owner." However, in truth, his prowess with the gun is most likely a result of his exceptional wit and his experience cultivated on the battlefield.`
     },
-{ //Stealth Gear 'Atra Nebula' - Missing .....
+{ //Stealth Gear 'Atra Nebula' - Complete
         id: 106401,
         name: `Stealth Gear 'Atra Nebula'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -16226,19 +16228,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 120,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `20s CT - 2300% Dark DMG (Magic). Reduces enemy's Blind Resistance by 15% for 8s.`,
+                break: 400
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Increases Blind Time Reduction and Evasion Rate by 10%.`
             },
-        lore: ``
+        lore: `A pitch black hat worn by Fen, given to him by a nation that tasked him with escorting a female captain to them. While it can naturally fulfill its purpose as headwear, it can also be used as a weapon due to it being charged with magic.\n"Hey, Fen! Let me wear that nifty hat, too!"\n"...Rations have no need for fashion."\n"Th-That's just mean!!"`
     },
 { //True 'Stratega' - Complete
         id: 106411,
@@ -17613,7 +17615,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Rosetta's Pareo - Missing .....
+{ //Rosetta's Pareo - Complete
         id: 106901,
         name: `Rosetta's Pareo`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -17628,21 +17630,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 120,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 4800% Water DMG (Magic). Increases all Allies' Magic DMG Dealt by 20% for 8s.`,
+                break: 1000
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `A special swimsuit made by the Princess' friend Rosetta, the proud genius sorceress of the Templars. Produced through repeated trial and error, this swimsuit seems to be packed with everything for girls needs. Surely, her image standing on the beach in her pareo makes her look like an adult... but it's always her, rushing innocently. While she talks like a blue streak about the progress of her research, the princess smiles in an embarrassed way.`
     },
-{ //Berwick's Magia Surf Shorts - Missing .....
+{ //Berwick's Magia Surf Shorts - Complete
         id: 106911,
         name: `Berwick's Magia Surf Shorts`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -17657,19 +17659,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `20s CT - 3800% Fire DMG (Magic). If user is Demon, Increases own Fire Elemental DMG by 30% for 8s.`,
+                break: 600
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `He accompanied the Princess at the beach as a guardian, but he felt a little uncomfortable because the Immovable Shield, who was supposed to join them, deserted to carry out a job in town. And he was the only man assigned... He tried to get rid of the embarrassment and focus on his task. Watching his sweat figure standing on the beach, the women at the foreshore smiled saying "very much like him".`
     },
 { //JP Equip Name (Ice Wilkes Raid Equip) - Missing .....
         id: 106921,
@@ -17729,9 +17731,9 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //True "Exferia" - Missing .....
+{ //True 'Exferia' - Missing .....
         id: 106941,
-        name: `True "Exferia"`,
+        name: `True 'Exferia'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -17963,7 +17965,7 @@ const EquipInformation = [
             },
         lore: `The dual blades of Amane, a Shinobi who was taken in by Yakuno village when she was abandoned by her parents as a child. After training underground and overcoming her tragic past, she was able to awaken the power sleeping within her. The blades feed on the user's anger, and become faster and sharper the more enraged they become, making their attacks nearly unavoidable. It is said that the first lives the blades took when invading Imari Village where those of Amane's own parents, who abandoned her in the mountains so many years ago.`
     },
-{ //Ninja Garb 'Mirage Kimono' - Missing .....
+{ //Ninja Garb 'Mirage Kimono' - Complete
         id: 107021,
         name: `Ninja Garb 'Mirage Kimono'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -17978,19 +17980,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `65s CT - 6500% Light DMG (Magic). Increases all allies' BE Output by 30% for 8s. If Light Unit, own DMG 20% UP for 8s.`,
+                break: 1000
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Evasion rate 5% UP when Near-Death.`
             },
-        lore: ``
+        lore: `The combat garb of Shiki, a shinobi from Imari Village located in the Far East. The fabric used for the garb was once woven in her homeland, but the country that once created the beautiful colors was destroyed due to some unknown individual's evildoing. She trained in Imari to learn their shinobi techniques to take revenge on the one who took her home away. It is said that she gained enough power to finally defeat the great Demon.`
     },
 { //True 'Mirage Kimono' - Complete
         id: 107031,
@@ -18022,7 +18024,7 @@ const EquipInformation = [
             },
         lore: `A kimono held by Shiki, a shinobi of Imari Village and the princess of a fallen nation. This garb created from her mother's keepsake is decorated with ornaments from the fallen land of Ena, and is enchanted with a defensive ninjutsu native to Imari Village. This piece of clothing served as emotional support for Shiki, who lived proudly as both a shinobi of Imari Village and the princess of Ena. It is said that even after her greatest enemy, the Demon Fox Uzuki was defeated, the kimono continued to protect her for many, many years.`
     },
-{ //Demon Edge 'Blood Moon' - Missing .....
+{ //Demon Edge 'Blood Moon' - Complete
         id: 107041,
         name: `Demon Edge 'Blood Moon'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -18037,19 +18039,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `80s CT - 8800% Fire DMG (Magic). Reduces Enemies' Fire and Dark Resistance by 20% for 6s.`,
+                break: 1500
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `A sword used by a girl living in the Far East who was chosen by a sealed Demon Fox to become the vessel for its soul. The sword -which was originally used to exterminate Demons- unleashes flames with a crimson tint, resembling that of the blood moon. Seeking the complete resurrection of the Demon Fox, she used the blade to overwhelm even the most skilled of shinobi. However, it is said that she eventually met her end due to the blade's ability to sharpen by draining the life force of the user.`
     },
 { //True 'Blood Moon' - Complete
         id: 107051,
@@ -18364,7 +18366,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `50s CT - 3000% Dark DMG (Magical). Negates 800 DMG Dealt to all Allies for 10s. Reduces all Allies' DMG Taken by 15% for 10s. Increases all Allies' Seal and Curse Resistance by 100% for 10s (only once).`,
+                skill: `50s CT - 3000% Dark DMG (Magic). Negates 800 DMG Dealt to all Allies for 10s. Reduces all Allies' DMG Taken by 15% for 10s. Increases all Allies' Seal and Curse Resistance by 100% for 10s (only once).`,
                 break: 800
             },
         passive: 
@@ -18373,7 +18375,7 @@ const EquipInformation = [
             },
         lore: `The cape of Phantom Ragsherum when it was possessed by a pumpkin ghost. Donning this, he was seen around the land, wandering through the darkness of the autumn nights. The reason as to why he would perform "tricks" on those he would encounter until he was quelled with a "treat" is still unknown. No one could see his face, as it was covered by a pumpkin, but he somehow seemed joyous when he received a treat and disappeared into the night.`
     },
-{ //Jack-O-Bomb - Missing .....
+{ //Jack-O-Bomb - Missing Skill
         id: 107161,
         name: `Jack-O-Bomb`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -18388,21 +18390,23 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 120,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `90s CT - 5000% Dark DMG (Magic). 33% chance of Fainting enemy. If enemy doesn't Faint, Faints ownself.`,
+                break: 1200
             },
         passive: 
             {
-                ability1: ``
+                ability1: [`Fire Weakness Lv5`, `Water Weakness Lv5`, `Earth Weakness Lv5`, `Light Weakness Lv5`, `Dark Weakness Lv5`],
+                ability2: [`Accuracy 10% UP`, `Attack 5% UP`, `Critical Rate 10% UP`],
+                ability3: [`Physical Damage 10% UP.`, `Magic Damage 10% UP.`]
             },
-        lore: ``
+        lore: `Mm... Tastes like the bursting flavors of autumn (no, seriously, it will burst. Immediately)!`
     },
-{ //Mega Jack-O-Bomb - Missing .....
+{ //Mega Jack-O-Bomb - Complete
         id: 107171,
         name: `Mega Jack-O-Bomb`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -18417,19 +18421,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `100s CT - 8000% Dark DMG (Magic). Increase enemy's DMG to ally by 33% & all Allies' DMG to enemy by 33% for 13s.`,
+                break: 2000
             },
         passive: 
             {
-                ability1: ``
+                ability1: [`Reduces own Max HP by 20%.`, `Reduces own Attack by 40%.`, `Reduces own Defense by 40%`, `Reduces own Status Ailment Resistance by 40%.`],
+                ability2: [`Increases own Break Power by 6%.`, `Increases own BE Output by 5%.`, `Attacks while ignoring enemy's DEF by 5%.`],
+                ability3: [`Increases own CRI DMG by 20%.`, `Increases DMG to Light enemies by 20%.`]
             },
-        lore: ``
+        lore: `Mm... Tastes like the bursting flavors of autumn (no, seriously, it will burst... eventually)!`
     },
 { //Prince Berwick's Garb - Missing .....
         id: 107181,
@@ -18460,7 +18466,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Cheer Squad Riviera - Missing .....
+{ //Cheer Squad Riviera - Complete
         id: 107191,
         name: `Cheer Squad Riviera`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -18475,19 +18481,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 5000% Earth DMG (Magic). Heals Male Unit's HP by 15%. Increases Female Unit's ATK by 50% for 10s.`,
+                break: 1200
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `The costume of Riviera, Templar of the Kingdom of Granadia. She had always had an interest in the garb of the students she happened to see in the kingdom, so she immediately procured her costume as soon as she heard she'd be dressing up. She apparently got it from one of her comrades, who was an alumna of the academy, who borrowed it from a current student. It is said that the kingdom's citizens were quite excited to see Riviera dressed in the uniform, despite her womanly figure, which was quite a mismatch for the uniform normally reserved for younger girls.`
     },
 { //Thetis' Chef Hat - Complete
         id: 107201,
@@ -19160,7 +19166,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Santa Wizard Berwick Plushie - Missing .....
+{ //Santa Wizard Berwick Plushie - Complete
         id: 107431,
         name: `Santa Wizard Berwick Plushie`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -19175,21 +19181,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 6000% Fire DMG (Magic). Increases own ATK by 60% & CRI DMG by 30% for 10s.`,
+                break: 800
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `This is a plushie that resembles Berwick when he was a magic sorcerer. Compared to before, his personality changed quite a bit, so his comrades, especially the young sorcerer girl, were teasing him. Listening to them, he remembered the words of their former leader, who saved him and gave him a home. "People change... other people change you." With these words in his heart, he finally accepted his feelings and had a wonderful time.`
     },
-{ //Sexy Santa Riviera Plushie - Missing .....
+{ //Sexy Santa Riviera Plushie - Complete
         id: 107441,
         name: `Sexy Santa Riviera Plushie`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -19204,19 +19210,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 8000% Earth DMG (Magic). Reduces enemy's Earth resistance by 30% for 10s when this Equip scores a critical Hit.`,
+                break: 1200
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `A plush toy in the likeness of Riviera, the commander of the "Vanguard Battalion". It has a bold design with a plunging neckline to match Riviera's vivacious character. The plush was a gift from the Princess and Riviera was very pleased with it, going so far as to climb a ladder so she could find a good place on the decorative tree to put it. Riviera even dressed up like her plush to celebrate, which made for an uncomfortable situation for her serious compatriots who didn't know where to look.`
     },
 { //Devoted Reindeer Thetis Plushie - Missing .....
         id: 107451,
@@ -19509,7 +19515,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Forte's Boots - Missing .....
+{ //Forte's Boots - Complete
         id: 107551,
         name: `Forte's Boots`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -19524,19 +19530,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 120,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `30s CT - 3000% Dark DMG (Magic). Reduces own Skill CT by 30% for 8s.`,
+                break: 600
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Evasion rate 5% UP when Near-Death.`
             },
-        lore: ``
+        lore: `The military boots Forte wears as a memento of her late mother. They're made of a fabric tinged with magical powers, and are unbelievably strong for a piece of fabric equipment. They are not threatened by blades and bullets, and also have resistance to magic. Forte told her troops, "I feel like I'm protected and supported by a mysterious force while I'm wearing these boots." The powerful force that flows from these boots may be the thoughts of her dear parents.`
     },
 { //True 'Shurahalt' - Missing .....
         id: 107561,
@@ -19772,11 +19778,11 @@ const EquipInformation = [
             },
         lore: `This axe was not sought after for the sharpness of its blades. Leaving burning wounds that cannot be dealt with through healing or even revival. The cursed lacerations left behind by its blade reveal the true essence of this axe. The scars burn so hot that a gentle breeze brings rise to screaming pain form slightest touch. Those wounded by this axe are said to have lost themselves in a world of madness and despair. Gouging away at their very flesh, burning their hearts, and devouring them whole. Throughout the ages the axe has been feared as the manifestation of a Dragon once swallowed whole by vengeance and led by obsession.`
     },
-{ //Gemstone Boots 'Melusine' - Missing .....
+{ //Gemstone Boots 'Melusine' - Complete
         id: 107641,
         name: `Gemstone Boots 'Melusine'`,
         type: `/db/Mines/thumbnail/magLB.png`,
-        star: 5,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_107640.png`,
@@ -19787,19 +19793,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 120,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 4000% Fire DMG (Magic). Increases own DMG by 5% for 8s. Fire units get an extra 10%.`,
+                break: 500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `5% chance of evading Magic ATK.`
             },
-        lore: ``
+        lore: `Shoes covered in beautiful sparkling jewels, through the jewels resonating with one another magical power is brought forth. Furthermore, the very vibration of the shoes as they tread on the ground further amplifies the magical power even greater, sending it throughout the body of the user. It has been said that those who wear the boots are supplied with a never-ending well of magical power, allowing for extended battle. In fact, it has also been said that they could read the vibrations within the earth and predict the incoming activation of magic. The boots themselves were favored by supreme warriors in battle.`
     },
 { //JP Equip Name (Tonetaurus Raid Equip) - Missing .....
         id: 107651,
@@ -20268,7 +20274,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Cursed Chains 'Discontent' - Missing .....
+{ //Cursed Chains 'Discontent' - Complete
         id: 107811,
         name: `Cursed Chains 'Discontent'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -20283,19 +20289,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 4000% Dark DMG (Magic). Reduces enemy's Magic resistance by 10% for 8s.`,
+                break: 200
             },
         passive: 
             {
-                ability1: ``
+                ability1: `BE Output 10% UP.`
             },
-        lore: ``
+        lore: `All living things are driven by desire. These were lyrics written by a famous minstrel. Though his songs were popular among the nobility and the educated, he himself died with his greatest wish unfulfilled: love. His soul, holding despair great enough to be visible on his lifeless face, was then taken into a violet jewel. Whoever owns it will gains power at the cost of having their being gradually taken over by darkness.`
     },
 { //True 'Discontent' - Complete
         id: 107821,
@@ -20619,7 +20625,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Phantom Horn 'Cantabile' - Missing .....
+{ //Phantom Horn 'Cantabile' - Complete
         id: 107931,
         name: `Phantom Horn 'Cantabile'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -20634,19 +20640,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 4400% Light DMG (Magic). Reduces enemy's Light resistance & Magic resistance by 15% for 10s.`,
+                break: 800
             },
         passive: 
             {
-                ability1: ``
+                ability1: `MAX HP 5% UP.`
             },
-        lore: ``
+        lore: `A strange instrument-shaped weapon that can only be used with the breath of the Spirits. Unlike normal weapons, it does not strike flesh and bone. Instead, it releases unique vibrations carried by sound waves to destroy internal organs. The fact they are difficult to tell from normal instruments meant there was a time where they were common assassination tools and heavily restricted as a result.`
     },
 { //True 'Cantabile' - Complete
         id: 107941,
@@ -20766,7 +20772,7 @@ const EquipInformation = [
             },
         lore: `A sword from the east carried by Luahn, second prince of Gran Verge. This blade chooses its wielder. Depending on how its power is used, it can become so great a burden that it even crushes the mind. However, it becomes a truly exceptional ability once mastered. The opponent's bloodlust, their circulation, their consciousness, and more will be revealed in fine detail, allowing victory with a single slash.`
     },
-{ //Voracious Coat 'Splendor' - Missing .....
+{ //Voracious Coat 'Splendor' - Complete
         id: 107981,
         name: `Voracious Coat 'Splendor'`,
         type: `/db/Mines/thumbnail/LB.png`,
@@ -20781,21 +20787,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 120,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 4600% Dark DMG (Magic). Lifesteal by 2% of DMG for 5s.`,
+                break: 500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `DEF 5% UP.`
             },
-        lore: ``
+        lore: `Long ago, this armor was worn by a soldier known as the Voracious Emperor. Its fearsome aura made approach impossible, so he was unscathed after every battle. Gran Verge found this very interesting, so the country that owned it offered it as a gift It was said that the aura was revealed to be a curse, but the kingdom's priests were able to dispel it. Even so, records showed that it remained in storage for a long time, with one of the few exceptions being when Prince Luahn sometimes wore it.`
     },
-{ //Oathkeeper 'Testament' - Missing .....
+{ //Oathkeeper 'Testament' - Complete
         id: 107991,
         name: `Oathkeeper 'Testament'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -20810,19 +20816,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `20s CT - 4600% Light DMG (Magic). Increases own Skill CT speed by 70% for 8s. If user is Demon, further increase by 30%.`,
+                break: 400
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Magic DMG from enemy 5% DOWN.`
             },
-        lore: ``
+        lore: `A short sword created by the Ancients said to be able to withstand unfathomable heat. The light it reflects has the power to annihilate anything it touches. Although it vanished along with the Ancients, a few records mention it came into the possession of the first queen of Granadia. Even so, the authenticity of these records are often debated.`
     },
 { //True 'Testament' - Complete
         id: 108001,
@@ -21028,7 +21034,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Serah's Almighty Cute Maid Swimsuit - Missing .....
+{ //Serah's Almighty Cute Maid Swimsuit - Complete
         id: 108071,
         name: `Serah's Almighty Cute Maid Swimsuit`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -21043,21 +21049,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 3000% Non-Elemental DMG (Magic). Reduces enemy's Burn & Freeze resistance by 40% for 8s.`,
+                break: 1000
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `Serah's maid clothing is made specially for scientific experiments, with excellent protection against various forms of acids and liquids. While maintaining those capabilities, a swimsuit designed by Marika took form. The swimsuit has a near-perfect resemblance to Serah's maid outfit and it fits her perfectly! It also has functions to improve blood-circulation and a system that helps her from getting lost by showing her where she is at all times. Serah likes the swimsuit so much that she sometimes even wears it while doing experiments.`
     },
-{ //Scatter H2O - Missing .....
+{ //Scatter H2O - Complete
         id: 108081,
         name: `Scatter H2O`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -21072,19 +21078,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 120,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `30s CT - 1600% Water DMG (Magic). Increases Break power by 70% for 5s.`,
+                break: 1800
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `After Rayas invited Marika to a beach vacation, she quickly set to work on a new kind of water gun. She used her Scatter series as the base but installed a dry heater to expand air for propulsion. This lets it fire a forceful stream with nearly no charge time. It also has a distillation mode to remove salt from sea water.`
     },
 { //Inferno Boots 'Caliente' - Complete
         id: 108091,
@@ -21407,7 +21413,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Luahn's Shady Canopy - Missing .....
+{ //Luahn's Shady Canopy - Complete
         id: 108201,
         name: `Luahn's Shady Canopy`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -21422,19 +21428,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `80s CT - 5000% Dark DMG (Magic). Reduces enemy's Dark resistance by 30% for 10s & if the user is Human or God, reduce an extra 30%.`,
+                break: 300
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `During his family's visit to the summer summer island, Luahn hunted. He set traps on animal trails, fished along the shores, and felled birds with stones. He also gathered wild plants, mushrooms, nuts, sea salt, and fruit for their oils and juices. What were once pure survival skills were now employed to prepare a sunset barbeque fit for royalty. Watching his siblings joyfully stuff their mouths also put a slight smile on his face, as well as Chloe's.`
     },
 { //Chloe's Eye Service - Missing .....
         id: 108211,
@@ -21755,7 +21761,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Edel Kleid - Missing .....
+{ //Edel Kleid - Complete
         id: 108321,
         name: `Edel Kleid`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -21770,19 +21776,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 7300% Light DMG (Magic). Costs 1% of own MAX HP & increases Magic DMG by 35% for 15s.`,
+                break: 500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Seal Time Reduction & Seal Evasion rate 10% UP.`
             },
-        lore: ``
+        lore: `A dress belonging to Juno, the first queen of Granadia. It was said she wore it at every major ceremony. Though made of thick, sturdy fabric, it was as light as a feather. This meant the skirt's hem swayed with each step, earning her many comparisons to a black lily in the breeze. It was also a superior magic catalyst that transformed to match her needs in combat. This outfit always gave support to the mighty ruler when she needed it most.`
     },
 { //Majestic Crest - Missing .....
         id: 108331,
@@ -21871,7 +21877,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Thinking Cap 'GeNyas' - Missing .....
+{ //Thinking Cap 'GeNyas' - Complete
         id: 108361,
         name: `Thinking Cap 'GeNyas'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -21886,19 +21892,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 120,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 1500% Dark DMG (Magic). Increases Skill CT speed by 20% for 10s. If the user is female, 20% more.`,
+                break: 400
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Magic DMG from enemy 5% DOWN.`
             },
-        lore: ``
+        lore: `Headgear that amplifies intellect and concentration. A gentle warmth stimulates blood flow in the cranium, both activating brain cells and relieving stress. Although it sets up the perfect conditions for inspiration to strike, it also makes the wearer crave sweets. Careful use must be exercised for the waistline's sake.`
     },
 { //Cestina's Scrubs - Missing .....
         id: 108371,
@@ -21958,7 +21964,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Luahn's Sprinting Shorts - Missing .....
+{ //Luahn's Sprinting Shorts - Complete
         id: 108391,
         name: `Luahn's Sprinting Shorts`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -21973,21 +21979,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 120,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 3000% Dark DMG (Magic). Increases own Accuracy by 30% for 10s.`,
+                break: 500
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `As someone who rarely appeared in public, the thought of doing so in costume was enough to make his face turn bright red. Even so, he couldn't refuse Chloe, who wore a rare smile as her needle worked the fabric. The compromise was that he was allowed to bring his sword in case a rambunctious reveler lost control. That mismatch between his scant outfit and his stately weapon earned adoration from some of the Humans.`
     },
-{ //Victoire's Catsuit - Missing .....
+{ //Victoire's Catsuit - Complete
         id: 108401,
         name: `Victoire's Catsuit`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -22002,19 +22008,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 4000% Light DMG (Magic). Increases Arts gauge by 30. Increases Magic DMG by 60% for 8s.`,
+                break: 1000
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `"I shall be number one." The city was abuzz with word that whoever was voted to have the best costume at the upcoming party would receive a prize from the royal family. She believed winning would take those fools down a peg and place revenge in her grasp. Climbing to the top of the castle, she declared victory in a bold performance that sang her praises. However, when it came time to actually reveal her attraction, she resorted to a forbidden tactic: relying upon the charm of a cute kitty.`
     },
 { //Liza's Smart Skirt - Missing .....
         id: 108411,
@@ -22190,7 +22196,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Starving Root 'Trypdola' - Missing .....
+{ //Starving Root 'Trypdola' - Complete
         id: 108471,
         name: `Starving Root 'Trypdola'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -22205,19 +22211,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 120,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 3000% Earth DMG (Magic). 50% chance of Poisoning enemy. Increases DMG taken by 20% for 20s.`,
+                break: 800
             },
         passive: 
             {
-                ability1: ``
+                ability1: `MAX HP 5% DOWN.`
             },
-        lore: ``
+        lore: `The root of a divine tree warped beyond recognition by the ravages of war. Hatred tainted its soothing power, and it continues to ooze a poisonous sap even after being removed from the trunk. Anyone who touches it will slowly feel their heart become strangled by the vines of malice.`
     },
 { //Despair Vine 'Groldola' - Missing .....
         id: 108481,
@@ -22248,7 +22254,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Oracle Index 'Vertrag' - Missing .....
+{ //Oracle Index 'Vertrag' - Complete
         id: 108491,
         name: `Oracle Index 'Vertrag'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -22263,19 +22269,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `30s CT - 3000% Earth DMG (Magic). Increases Magic DMG by 6% every time this equip is used (MAX 60%).`,
+                break: 300
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Magic DMG from enemy 5% DOWN.`
             },
-        lore: ``
+        lore: `A tome of advanced magic theory, mainly covering how to abbreviate incantations while keeping their effectiveness. The text is written in enchanted ink, letting it to not only provide knowledge but act as a potent catalyst for those shortened chants. Its author is the one who devised the groundbreaking technique.`
     },
 { //True 'Vertrag' - Complete
         id: 108501,
@@ -22452,7 +22458,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Reindeer Luahn, Finding Bravery - Missing .....
+{ //Reindeer Luahn, Finding Bravery - Complete
         id: 108571,
         name: `Reindeer Luahn, Finding Bravery`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -22467,19 +22473,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `30s CT - 3500% Dark DMG (Magic). Increases DMG by 35% for 8s. If CRI, increases Arts gauge by 25 (Only 1 HIT).`,
+                break: 500
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `A doll fashioned after Prince Luahn of Gran verge for their Christmas celebration. Luahn, aware that he had seldom interacted with Radak, its creator, thought to invite him to the dinner table and deepen their bond. This also let Radak observe Luahn's unique features to recreate in the doll, including a rare but nonetheless genuine smile.`
     },
 { //Reindeer Eagle, Dutiful Defender - Complete
         id: 108581,
@@ -22539,7 +22545,7 @@ const EquipInformation = [
             },
         lore: `A festive version of the popular Bakoo doll, created by Radak. It served as a base for the dolls modeled after the royal children. The originals were removed from store shelves after the calamity until Liza vouched for their innocence. Glittering decorations also gave their classic look an irresistible charm, reigniting everyone's love for them.`
     },
-{ //Jingle Bells - Missing .....
+{ //Jingle Bells - Complete
         id: 108601,
         name: `Jingle Bells`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -22554,19 +22560,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 4400% Earth DMG (Magic). Increases ATK & Accuracy by 30% for 8s.`,
+                break: 500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `BE Output 5% UP.`
             },
-        lore: ``
+        lore: `A blessed instrument said to be used in the celebration of an other world holiday called Christmas. Once a year, people young and old gather around an illuminated tree, enjoy a grand feast, and exchange presents until morning. This event has also started gaining popularity in Raktehelm as the festive decor becomes more elaborate with each passing occasion.`
     },
 { //JP Equip Name (Raid Equip) - Missing .....
         id: 108631,
@@ -22714,7 +22720,7 @@ const EquipInformation = [
             },
         lore: `The ties between shield and holder deepen over time, unlocking its true power. The metal becomes feather-light and harder than diamond. However, when the holder passes their prime, so too does the shield's protection weaken. Indeed, their vow only ends in mutual death. Many such tales exist, all of them stirring and cruel in equal measure.`
     },
-{ //Radiant Sword 'Flaredight' - Missing .....
+{ //Radiant Sword 'Flaredight' - Complete
         id: 108681,
         name: `Radiant Sword 'Flaredight'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -22729,19 +22735,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `35s CT - 3800% Light DMG (Magic). Increases Skill CT speed by 50% for 15s. If the user is Human, auto-fills Arts gauge by 1 for 15s.`,
+                break: 400
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Skill DMG 10% UP.`
             },
-        lore: ``
+        lore: `One of the few holy weapons made by Human hand. Along with it's legendary craftsmanship, the gems embedded into the blade granted it power over time. Mastery bestows phenomenal speed, enough to cut through a bullet in flight twice. It was once stored in the armory of an imperial nobleman but has since gone missing. The fact that its popularity gave rise to numerous imitations makes finding the genuine article even more difficult.`
     },
 { //Skull Helm 'Dusk Roar' - Missing .....
         id: 108691,
@@ -23356,7 +23362,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Blazing Boots 'Ignition' - Missing .....
+{ //Blazing Boots 'Ignition' - Complete
         id: 108901,
         name: `Blazing Boots 'Ignition'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -23371,19 +23377,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 5500% Fire DMG (Magic). Increases CRI DMG by 50% for 10s. If the user is a Fire unit, increases Arts gauge by 20.`,
+                break: 600
             },
         passive: 
             {
-                ability1: ``
+                ability1: `MAX HP 5% UP.`
             },
-        lore: ``
+        lore: `The footgear of Priscilla, famous archer from Simon's Hill. Their mysterious flames create heat shimmers that perplex foes, leading to embarrassing mistakes on their part. She stands on the front lines because of her strong desire to protect, but it is her quick judgement and flexibility which saves her from serious harm.`
     },
 { //True 'Jaeger' - Complete
         id: 108911,
@@ -23444,7 +23450,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Phantom Coat 'Stigma' - Missing .....
+{ //Phantom Coat 'Stigma' - Complete
         id: 108931,
         name: `Phantom Coat 'Stigma'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -23459,19 +23465,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 120,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `55s CT - 3500% Dark DMG (Magic). Increases ATK by 30% for 8s. If the user is a Dark unit, increases DEF by 20% for 8s.`,
+                break: 300
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Paralysis Time Reduction & Paralysis Evasion rate 10% UP.`
             },
-        lore: ``
+        lore: `The black overcoat worn by Simon, hero of Simon's Hill. The emperor personally bestowed it upon him in recognition of his outstanding service to the empire. In addition to its edgeproof and bulletproof qualities, the magical cloth dampens perception in others. He melts into the darkness at night, rendering him practically invisible to the untrained eye.`
     },
 { //JP Equip Name (Rosetta Farmable) - Missing .....
         id: 108941,
@@ -23824,7 +23830,7 @@ const EquipInformation = [
             },
         lore: `The gun Hart uses in his rebellion against the empire. It was once the flagship product of Goldoa Corp., popular throughout Isliid for its ease of use and high accuracy. The solid barrel, where most of its limited weight is located, ensures precision. Its report is somewhat higher pitched compared to other guns due to the metal's properties, giving it the nickname of "the Singing Gun".`
     },
-{ //Bel Canto M3 - Missing .....
+{ //Bel Canto M3 - Complete
         id: 109061,
         name: `Bel Canto M3`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -23839,21 +23845,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 4400% Dark DMG (Magic). Increases Dark DMG & Accuracy by 30% for 10s.`,
+                break: 500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `ATK 5% UP.`
             },
-        lore: ``
+        lore: `A pistol used by the magic gunner Hart. Goldoa Corp. drew upon their experience working with rifle makers Swagger & Vecket to independently manufacture this model. Designed for self-defense, it is much smaller and lighter than the Jaeger. It maintains its high accuracy even in burst-fire mode, added to make up for its reduced stopping power. Women in particular found it an attractive choice.`
     },
-{ //Archaic Attire 'Antiqua' - Missing .....
+{ //Archaic Attire 'Antiqua' - Complete
         id: 109071,
         name: `Archaic Attire 'Antiqua'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -23868,19 +23874,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 120,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 3800% Dark DMG (Magic). Reduces Light enemy's Dark resistance by 20% for 10s.`,
+                break: 600
             },
         passive: 
             {
-                ability1: ``
+                ability1: `DEF 5% UP.`
             },
-        lore: ``
+        lore: `The battle outfit Hart wears as he fights the empire. He received it from Azvan as his affiliate. Not only resistant to blades and bullets, it is remarkably effective against spells. The lightweight fabric bears not a single seam or tear, giving the impression it was created by magic or some long-forgotten technology.`
     },
 { //JP Equip Name (Belgiras Mines Equip) - Missing .....
         id: 109081,
@@ -24201,7 +24207,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Vultee's Vista of Paradise - Missing .....
+{ //Vultee's Vista of Paradise - Complete
         id: 109191,
         name: `Vultee's Vista of Paradise`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -24216,21 +24222,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `60s CT - 7500% Water DMG (Physical). Increases Arts gauge by 30. Reduces enemy's Water resistance by 30% for 20s.`,
+                break: 600
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `Vultee knows catching a big wave needs the right gear. With this stylish shirt, he can undo the buttons to reveal just enough of his sculpted physique to drive the ladies wild, or so he believed. That was until Priscilla gave him a puzzled look and asked why he suddenly couldn't dress himslef properly. Ever since, he keeps all the buttons fastened tight.`
     },
-{ //Simon's Nostalgic Shades - Missing .....
+{ //Simon's Nostalgic Shades - Complete
         id: 109201,
         name: `Simon's Nostalgic Shades`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -24245,19 +24251,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `80s CT - 10000% Dark DMG (Magic). Increases ATK by 100% for 8s. If the user is a Dark unit, will not Flinch.`,
+                break: 800
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `Simon spent most of his time at the beach reading under an umbrella when not training. Underneath the summer sun's glare, he always wore these tinted glasses. He may have been protecting his most important asset as a sharpshooter... or hiding his embarrassment at Miranda's shameless swimwear. No one knew for certain.`
     },
 { //Miranda's Dynamite Blast - Missing .....
         id: 109211,
@@ -24608,7 +24614,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Juno's Seafoam Pareo - Missing .....
+{ //Juno's Seafoam Pareo - Complete
         id: 109331,
         name: `Juno's Seafoam Pareo`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -24623,19 +24629,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `60s CT - 8000% Water DMG (Physical). Reduces enemy's Magic resistance by 20% for 10s. Reduces additional 20% when HP is 90% or more.`,
+                break: 600
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `A graceful ensembel worn by the queen of Granadia, Juno. As part of summer vacation for her Templars (minus Berwick), she decided to surprise Leone by taking her to beach in secret. Despite a few unexpected happenings, her plan ended succesfully. While watching her dear sister and her dependable guardians at play, she renewed her oath to do whatever it took to protect their smiles.`
     },
 { //Blue Ray Vox - Missing .....
         id: 109341,
@@ -24695,7 +24701,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Riviera's Sundrenched Stunner - Missing .....
+{ //Riviera's Sundrenched Stunner - Complete
         id: 109361,
         name: `Riviera's Sundrenched Stunner`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -24710,19 +24716,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 4500% Earth DMG (Magic). Increases CRI DMG by 70% for 10s. Increases Arts gauge by 70 (First time only).`,
+                break: 800
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `The daring bikini of the Juno Templars' vanguard fighter, Riviera. She had secretly worked on her figure all year just so she could wear it without hesitation. The captivating sight of her frolicking on the white sands more than soldified her role as beauty of the group. also, she was the only one who remembered to bring a souvenir for Berwick, earning his respect.`
     },
 { //Thetis' Mikyu-Mate - Missing .....
         id: 109371,
@@ -24898,7 +24904,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Inspector Z4 - Missing .....
+{ //Inspector Z4 - Complete
         id: 109431,
         name: `Inspector Z4`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -24913,19 +24919,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 7000% Water DMG (Magic). Increases Magic DMG by 40% for 20s. If the user is a Water unit, Auto-fills Arts gauge by 1 for 20s.`,
+                break: 600
             },
         passive: 
             {
-                ability1: ``
+                ability1: `DMG to Fire enemy 5% UP.`
             },
-        lore: ``
+        lore: `Goldoa Corp.'s iconic laser gun. Lightweight, durable, and customizable down to the pulse color, it has fans among gunslingers of all skill levels. There are also "Inspector Collectors" who seek out rare versions, driving up prices on the second-hand market as a result. some will even travel to far-flung rural shops in hopes of discovering treasure.`
     },
 { //Selunian Brick Top - Complete
         id: 109441,
@@ -24986,7 +24992,7 @@ const EquipInformation = [
             },
         lore: `The customized weapon of Vultee, imperial soldier from Simon's Hill. most of the visual adjustments are minor like the perfectly molded grip. Far more important are magically strengthened gun barrel, able to withstand up to twice the output, and the precision calibration chip tuned to his personal quirks.`
     },
-{ //Ancient Law - Missing .....
+{ //Ancient Law - Complete
         id: 109461,
         name: `Ancient Law`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -25001,21 +25007,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `60s CT - 6000% Dark DMG (Magic). Increases CRI DMG by 25% for 20s. If the user is a Dark unit, 25% more.`,
+                break: 600
             },
         passive: 
             {
-                ability1: ``
+                ability1: `BE Output 5% UP.`
             },
-        lore: ``
+        lore: `A necklace inscribed with the text of a lost civilization. It has the power to bind and control the minds of others. A partial decoding of the script led researchers to believe it to be the code of law for an extinct race known as the Ancients. Only a handful still exist, and many fabricated. Even so, merely imitating the shape gives them some effectiveness.`
     },
-{ //Nine Oaths - Missing .....
+{ //Nine Oaths - Complete
         id: 109471,
         name: `Nine Oaths`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -25030,21 +25036,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 4000% Dark DMG (Magic). Increases ATK by 80% for 12s. If the user is a Dark unit, increases Skill CT speed by 80% for 12s.`,
+                break: 700
             },
         passive: 
             {
-                ability1: ``
+                ability1: `DEF 5% UP.`
             },
-        lore: ``
+        lore: `A magical dress with enchanted embroidery. It grants the wearer immense power but places a number of restricting terms on them. Moreover, no record of the consequences should those terms be broken exists. The fabric adapts to the body's contours even if it changes dramatically.`
     },
-{ //Dread Lotus - Missing .....
+{ //Dread Lotus - Complete
         id: 109481,
         name: `Dread Lotus`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -25059,19 +25065,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 120,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `55s CT - 3500% Dark DMG (Magic). Reduces enemy's Blind resistance by 20% for 25s.`,
+                break: 500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `5% chance of evading Physical ATK.`
             },
-        lore: ``
+        lore: `Magical boots worn by Tursowa, champion of the Ancients. They were crafted in the distant past using a spell-nullifying material, but the ones worn by Emi are imitations created with her own magic. Since she destroys them whenever she transforms, that is a more reasonable method of replacing such rare articles.`
     },
 { //Kingdom's Blade 'Grand Scale' - Missing .....
         id: 109491,
@@ -25365,7 +25371,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Vultee's Dandy Duds - Missing .....
+{ //Vultee's Dandy Duds - Complete
         id: 109591,
         name: `Vultee's Dandy Duds`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -25380,19 +25386,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `35s CT - 3500% Water DMG (Magic). Increases Arts DMG by 35% for 7s. Auto-fills Arts gauge by the usage count x1 for 7s (MAX 5).`,
+                break: 300
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `Vultee's traditional yet classy butler suit. To apologize for inadvertently causing Hart to dress like a maid, he decided to join him on the service side of the class café. However, no amount of guilt could bring him to make the leap into a skirt as well. This was why he was secretly relieved to see Hart enjoying himself regardless of everything.`
     },
 { //Miranda's Relived Youth - Complete
         id: 109601,
@@ -25452,7 +25458,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Bouncy Bunny Luana - Missing .....
+{ //Bouncy Bunny Luana - Complete
         id: 109621,
         name: `Bouncy Bunny Luana`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -25467,19 +25473,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 3500% Light DMG (Magic). Increases Magic DMG by 60% & Accuracy by 30% for 10s.`,
+                break: 300
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `Everyone is free to pick their costume for the fall festival, so there are invariably a handful of shocking selections such as Luana's. Still, no one could work up the courage to dissuade her from wearing what was bought with her own hard-earned allowance money. The perfectly innocent reason she chose it further complicated matters: "Hart said he likes bunnies."`
     },
 { //True 'Astral Bolt' - Complete
         id: 109631,
@@ -25656,7 +25662,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Crew V - Missing .....
+{ //Crew V - Complete
         id: 109691,
         name: `Crew V`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -25671,19 +25677,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 5000% Earth DMG (Magic). Increases Earth DMG & Skill CT speed by 30% for 10s.`,
+                break: 700
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Fire Resistance 5% UP.`
             },
-        lore: ``
+        lore: `A unique outfit from pure magic essence by a master of technology lost to history. Despite the resemblance to regular fabric, not a single stitch or seam can be found. The ethereal nature allows it to change shape as required.`
     },
 { //Vagrant - Missing .....
         id: 109701,
@@ -25860,7 +25866,7 @@ const EquipInformation = [
             },
         lore: `Military boots created in Selunia. They are sturdy enough to give extra anchoring for Vultee's massive weapon while flexible enough for quick movements. Their high performance even shocks expert shoemakers in the capital, and reproducing a fraction of it takes too much effort for most imitators. He has sworn by them ever since he chose to pursue a career as a marksman.`
     },
-{ //Giltsole Boots - Missing .....
+{ //Giltsole Boots - Missing Lore
         id: 109761,
         name: `Giltsole Boots`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -25875,19 +25881,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 9000% Fire DMG (Magic). Increases Fire DMG by 50% for 10s.`,
+                break: 900
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Accuracy 20% UP when HP is 90% or more.`
             },
-        lore: ``
+        lore: `Missing Lore.`
     },
 { //True 'Sky Light' - Complete.
         id: 109771,
@@ -25979,7 +25985,7 @@ const EquipInformation = [
             },
         lore: `A sword brimming with dark energy that contains the soul of a trapped apparition. Long ago, demons used it to fight others of their kind drunk with power with the help of oppressed Humans. This weapon they created together represented their joint effort. Unfortunately, it was not enough to overcome the racial barrier for long, and it ironically came into the hand of a Human emperor who slew countless more Demons.`
     },
-{ //Sky Light Replica - Missing .....
+{ //Sky Light Replica - Complete
         id: 109801,
         name: `Sky Light Replica`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -25994,19 +26000,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 7000% Light DMG (Magic). Increases Arts gauge by 35 when HP is 85% or more.`,
+                break: 600
             },
         passive: 
             {
-                ability1: ``
+                ability1: `DMG to Gods 20% UP.`
             },
-        lore: ``
+        lore: `A copy of Sky Light, the Sword of Coruscation. The Emperor of Isliid's three blades must be sealed at all times outside of combat, and even imitations are used during ceremonies. The lone exception is the coronation rite due to a customary belief they decide the bearer and thus the nation's master. As a result, some people joke that the true rulers of Isliid are the swords themselves.`
     },
 { //Terra Master Replica - Missing .....
         id: 109811,
@@ -26446,7 +26452,7 @@ const EquipInformation = [
             },
         lore: `A dagger crafted especially for Rosetta. The layout of the engraved runes has been customized for sharper reactions to her commands. Though its magic is fairly weak, the improved tracking and speed allows it to strike vital spots with deadly accuracy. The blacksmith who reworked the dagger used his knowledge of Shinobi culture and weaponry as a reference.`
     },
-{ //Vibrant Edge 'Asteroid' - Missing .....
+{ //Vibrant Edge 'Asteroid' - Complete
         id: 109981,
         name: `Vibrant Edge 'Asteroid'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -26461,19 +26467,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 4400% Earth DMG (Magic). Increases Earth DMG & Accuracy by 30% for 10s.`,
+                break: 500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `ATK 10% UP when HP is 90% or more.`
             },
-        lore: ``
+        lore: `A dagger with finely engraved runes across the blade. When thrown, rune magic will activate upon striking the target. The rarity of this technique combined with its wide range of effect easily catches opponents unawares. It can also return to the wielder mid-flight for a relentless string of attacks.`
     },
 { //Mana Recycler - Missing .....
         id: 109991,
@@ -26504,7 +26510,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Mana Messenger - Missing .....
+{ //Mana Messenger - Complete
         id: 110001,
         name: `Mana Messenger`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -26519,19 +26525,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 120,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 4000% Earth DMG (Magic). Increases DMG by 5% for 8s. If the user is an Earth unit, 10% more.`,
+                break: 500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `DEF 5% UP.`
             },
-        lore: ``
+        lore: `Gloves engraved with runes. When charging staves or blades with magic, even masters will experience rare instances of misfiring. These remove that risk by ensuring a perfectly stable flow. As this not only makes producing the spell's intended effect easier but also amplifies it slightly, they are very popular.`
     },
 { //Fortress Armor 'Geoplate' - Missing .....
         id: 110011,
@@ -27549,7 +27555,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Angelas' Sweet & Saucy - Missing .....
+{ //Angelas' Sweet & Saucy - Complete
         id: 110381,
         name: `Angelas' Sweet & Saucy`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -27564,19 +27570,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 120,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - `,
+                break: 1500
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `An exotic swimsuit Angelas obtained from a shady, high-pressure market peddler. She regretted the purchase for a few days until finally working up the courage to wear it. Not only did she think it looked cute on her, so did everyone she showed it to. More than improving her mood, that attention went straight to her head.`
     },
 { //Victoire's Victory - Complete
         id: 110391,
@@ -27841,7 +27847,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Charlotte's Pure Ruffles - Missing .....
+{ //Charlotte's Pure Ruffles - Complete
         id: 110481,
         name: `Charlotte's Pure Ruffles`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -27856,19 +27862,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `20s CT - 3000% Fire DMG (Magic). Reduces enemy's Fire resistance by 20% for 20s (Stacks).`,
+                break: 300
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `A bright pink swimsuit Charlotte chose for the summer. Though she did like the balance between the cute frills and mature shaping, Valerie's alarming enthusiasm was the main factor. It caused her to reflect on how Valerie influenced most of her wardrobe, but as long as her best friend was happy, she didn't mind.`
     },
 { //Valerie's Sentimental Skirt - Missing .....
         id: 110491,
@@ -30858,7 +30864,7 @@ const EquipInformation = [
             },
         lore: `The red boots that Saitama, a professional Hero, wears during his superhero activities.`
     },
-{ //Esper Dress - Missing .....
+{ //Esper Dress - Complete
         id: 150231,
         name: `Esper Dress`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -30873,19 +30879,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `35s CT - 6000% Earth DMG (Magic). 100% Chance of Paralyzing enemy.`,
+                break: 1800
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `The trademark black dress worn by the S-Class Rank-2 Hero, Terrible Tornado.`
     },
 { //Type 30 Arisaka Rifle - Missing .....
         id: 150241,
@@ -31264,7 +31270,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //King Ghidorah - Missing .....
+{ //King Ghidorah - Complete
         id: 150371,
         name: `King Ghidorah`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -31279,19 +31285,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `100s CT - 12000% Non-Elemental DMG (Magic). Reduces enemy's Magic resistance by 40% for 15s.`,
+                break: 1500
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `A device that allows one to summon the bringer of doom, King Ghidorah. With strength that rivals Godzilla, the mere mention of its forbidden name sends a chill down the spine. It is said to live in another dimension but can appear in other worlds at any time to seal their fate.`
     },
 { //Rimuru's Sword - Missing .....
         id: 150381,
@@ -31322,7 +31328,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Milim's Necklace - Missing .....
+{ //Milim's Necklace - Complete
         id: 150391,
         name: `Milim's Necklace`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -31337,19 +31343,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `15s CT - 1000% Fire DMG (Magic). 80% chance of Burning enemy.`,
+                break: 400
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `The necklace that Milim, also known as "The Destroyer", wears. It is attached to her clothes, so it can also be counted as part of her clothes. Although it is made simple by just putting a string through three colored comma-shaped beads, Milim's fashion itself is simple, so it seems that this necklace is just her taste.`
     },
 { //Milim's Clothes - Missing .....
         id: 150401,
@@ -31409,7 +31415,7 @@ const EquipInformation = [
             },
         lore: `The clothes that Benimaru wears. It was made for the battle between the Orc Lord by dwarf blacksmiths and Shuna, a Kijin girl. Hell Moth cocoon and Magicules are woven into the cloth, so it is long lasting and has high protection.`
     },
-{ //Rimuru's Clothes - Missing .....
+{ //Rimuru's Clothes - Complete
         id: 150421,
         name: `Rimuru's Clothes`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -31424,19 +31430,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 120,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `60s CT - 5800% Water DMG (Magic). Increases Water Elemental units' ATK by 20% for 10s.`,
+                break: 1000
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Increases DMG Dealt to Fire Elemental Units by 5%.`
             },
-        lore: ``
+        lore: `The clothes that Rimuru wears during a fight. It was made by dwarf blacksmiths, Garm and Dord, and a Kijin, Shuna. It contains Magicule, so it is stronger than regular cloth and has high protection.`
     },
 { //Magic-seal Mask - Missing .....
         id: 150431,
@@ -31728,7 +31734,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Demon Sword 'Desiderium' - Missing .....
+{ //Demon Sword 'Desiderium' - Complete
         id: 150531,
         name: `Demon Sword 'Desiderium'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -31743,19 +31749,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `30s CT - 3000% Dark DMG (Magic). Increases Own ATK by 30% for 6s.`,
+                break: 900
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Increases Seal Time Reduction by 10%. Increases Seal Evasion Rate by 10%.`
             },
-        lore: ``
+        lore: `This demon sword was sealed in an ancient ruin. The sword itself is mediocre, but it is filled with magic power which allows the wielder to cut only what really has to be cut. An old story even narrates of an adventurer who slew many monsters killing only the evil spirits possessing them, but nobody knows if it is true. However, judging by the mysterious glow of the blade, everyone would believe that story is true.`
     },
 { //Hellish Blizzard's Necklace - Missing .....
         id: 150541,
@@ -31786,7 +31792,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Hellish Blizzard's Coat - Missing .....
+{ //Hellish Blizzard's Coat - Complete
         id: 150551,
         name: `Hellish Blizzard's Coat`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -31801,21 +31807,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 5800% Water DMG (Magic). 50% chance of Freezing Enemy.`,
+                break: 1500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Increases Light Elemental Resistance by 5%.`
             },
-        lore: ``
+        lore: `The coat worn by the B-Class Rank-1 Hero, Hellish Blizzard.`
     },
-{ //Hellish Blizzard's Dress - Missing .....
+{ //Hellish Blizzard's Dress - Complete
         id: 150561,
         name: `Hellish Blizzard's Dress`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -31830,19 +31836,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `60s CT - 8000% Water DMG (Magic). Increases Own Water DMG by 40% and Reduces Enemy's Magic Resistance by 25% for 10s.`,
+                break: 1300
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `The dress worn by the B-Class Rank-1 Hero, Hellish Blizzard.`
     },
 { //Sonic's Shuriken - Missing .....
         id: 150571,
@@ -32018,7 +32024,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Crunchyroll-Hime's Clothes - Missing .....
+{ //Crunchyroll-Hime's Clothes - Complete
         id: 150631,
         name: `Crunchyroll-Hime's Clothes`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -32033,19 +32039,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 120,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 4000% Fire DMG (Magic). Reduces Enemies' Burn Resistance and Enemies' Fire Resistance by 15% for 20s.`,
+                break: 500
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `Hime watched one-too-many isekai anime, and decided she needed adventurer's clothing! Sudachi, Hime's younger sister, spent weeks making an outfit for her elder sister. The costume is imbued with sisterly-love, and anyone wearing it will feel a boost of energy!`
     },
 { //Ryuko's Bomber Jacket - Complete
         id: 150641,
@@ -32309,7 +32315,7 @@ const EquipInformation = [
             },
         lore: `Raphtalia's bracelet that Naofumi Iwatani made for her. He endowed it with magic-enhancing powers.`
     },
-{ //Filo's Hairpin - Missing .....
+{ //Filo's Hairpin - Complete
         id: 150731,
         name: `Filo's Hairpin`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -32324,19 +32330,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `60s CT - 10000% Earth DMG (Magic). 70% chance of Paralyzing Enemy. Increases own Arts Gauge by 25, if Enemy is Paralyzed from this equipment then Increase by an additional 25.`,
+                break: 800
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `Filo's hair accessory that Naofumi Iwatani made for her. He endowed it with speed increasing powers and chose to make it a hairpin since it was unlikely to fall off when Filo transforms... so he says.`
     },
 { //Melty's Dress - Missing .....
         id: 150741,
@@ -32396,7 +32402,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //The Sword of Trials - Missing .....
+{ //The Sword of Trials - Complete
         id: 150761,
         name: `The Sword of Trials`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -32411,21 +32417,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `20s CT - 2500% Light DMG (Magic). Increases own Arts gauge by 10.`,
+                break: 300
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Skill DMG 10% UP.`
             },
-        lore: ``
+        lore: `The shapeshifting sword given to Kuwabara by the Beautiful Suzuki. At first glance, it just looks like a sword handle, but it was made with a type of plant from the Demon World which grows by absorbing energy from its surroundings, and the handle can take the form of a powerful blade in response to the user's energy and emotions. Kuwabara was afraid of the sword at first, but when he overcame that fear, he obtained a blade of unparalleled strength. However, the user of the blade must pay a dangerous price for its power.`
     },
-{ //Kurama's Whip - Missing .....
+{ //Kurama's Whip - Complete
         id: 150771,
         name: `Kurama's Whip`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -32440,19 +32446,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 4000% Earth DMG (Magic). 70% chance of Poisoning enemy. Increases DMG to enemy by 20% for 10s. If enemy is Poisoned by this equip, extra 20%.`,
+                break: 400
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `A cut rose that turns into a whip when Kurama imbues it with Demonic Energy. The whip has the lovely fragrance of a rose, and its tip pierces through enemies like a thorn. Kurama can even detect the location of his enemies using the scent coming from the whip. With the way Kurama uses fragrance to control fights and sometimes even manipulates his own hair as a whip, it would not be exaggeration to say that his striking appearance is just like that of a rose.`
     },
 { //Hiei's Sword - Missing .....
         id: 150781,
@@ -32686,7 +32692,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Emilia's Cape - Missing .....
+{ //Emilia's Cape - Complete
         id: 150861,
         name: `Emilia's Cape`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -32701,19 +32707,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `55s CT - 5000% Water DMG (Magic). Increases own DMG by 30% & Water units' DMG by 10% for 10s.`,
+                break: 800
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Magic DMG from enemy 5% DOWN.`
             },
-        lore: ``
+        lore: `The 'Spirit User' Emilia's cloak. There are cat ears in the hood.`
     },
 { //True 'Emilia's Cape' - Complete
         id: 150871,
@@ -32864,7 +32870,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Ram's Mop - Missing .....
+{ //Ram's Mop - Complete
         id: 150921,
         name: `Ram's Mop`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -32879,19 +32885,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 3000% Earth DMG (Magic). Increases own DEF & Accuracy by 25% for 10s.`,
+                break: 700
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Water Resistance 5% UP.`
             },
-        lore: ``
+        lore: `The Roswaal Mansion's mop. You can't clean without it. Ram's name is written on it.`
     },
 { //True 'Ram's Mop' - Complete
         id: 150931,
@@ -33011,7 +33017,7 @@ const EquipInformation = [
             },
         lore: `The pouch that Emilia's friend Puck is never without. It holds more inside it than meets the eye.`
     },
-{ //Roswaal Mansion Headdress - Missing .....
+{ //Roswaal Mansion Headdress - Complete
         id: 150971,
         name: `Roswaal Mansion Headdress`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -33026,21 +33032,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 120,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 4000% Earth DMG (Magic). Increases weak-elemental DMG by 30% for 8s.`,
+                break: 500
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `A uniform accessory for servants of the Roswaal household. It is sophisticated while not gaudy, featuring delicate decorations.`
     },
-{ //Roswaal Mansion Maid Uniform - Missing .....
+{ //Roswaal Mansion Maid Uniform - Complete
         id: 150981,
         name: `Roswaal Mansion Maid Uniform`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -33055,19 +33061,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `55s CT - 2500% Water DMG (Magic). Increases own Skill CT speed by 100% % Magic DMG by 30% for 20s.`,
+                break: 400
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `The uniform centerpiece for servants of the Roswaal household. For some reason, there is a lot of female stock but male uniforms are in scarce supply.`
     },
 { //Rimuru's Santa Suit - Missing .....
         id: 150991,
@@ -33272,7 +33278,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Milim's Kimono - Missing .....
+{ //Milim's Kimono - Complete
         id: 151061,
         name: `Milim's Kimono`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -33287,21 +33293,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 5800% Light DMG (Magic). Increases Light DMG to enemy by 40% for 30s.`,
+                break: 700
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `A kimono made by Rimuru to match his New Year's Haori. Its low-cut design lets her move easily, so she likes it quite a lot. This sentiment is shared by the other ladies of Reigrad, starting up a new fashion trend.`
     },
-{ //Milim's Zori - Missing .....
+{ //Milim's Zori - Complete
         id: 151071,
         name: `Milim's Zori`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -33316,19 +33322,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 5000% Light DMG (Magic). Increases CRI rate by 100% for 8s.`,
+                break: 500
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `A pair of Japanese style shoes made by Rimuru to match his New Year's Haori. They are made of steel with magical power to withstand the power of the rampaging Milim. As a result, they are heavy, and only Milim can wear them.`
     },
 { //Dragon Knuckle EX - Missing .....
         id: 151081,
@@ -33417,7 +33423,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //NEGI - Missing .....
+{ //NEGI - Complete
         id: 151111,
         name: `NEGI`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -33432,19 +33438,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 5000% Water DMG (Magic). Reduces enemy's Water resistance by 40% for 10s.`,
+                break: 600
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `The favorite vegetable of the electronic diva Hatsune Miku. It won't break after millions of swings, always staying fresh and springy. It doesn't actually exist in her world; she received it from a higher being called The Maestro. In her hands, it moves at a steady tempo like a conductor's baton.`
     },
 { //Miku's Headphones - Missing .....
         id: 151121,
@@ -33562,7 +33568,7 @@ const EquipInformation = [
             },
         lore: `A plush doll of Kagamine Len, a singer with a boyish voice. Although he looks like the spitting image of Kagamine Rin, he sports a cool hairstyle. He has many who enjoy his energetic singing. It was brought to Raktehelm by Hatsune Miku, who has more experience than them but still supports their efforts. In their world, a meer picture can cheer up his fans.`
     },
-{ //Miku's Guitar - Missing .....
+{ //Miku's Guitar - Complete
         id: 151161,
         name: `Miku's Guitar`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -33577,19 +33583,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 4000% Water DMG (Magic). Increases own CRI rate by 50% for 8s. If Water unit, extra 50%.`,
+                break: 600
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `The signature guitar of the electronic diva Hatsune Miku. Once belonging to a higher being known as The Maestro, it was converted so she could play it after seeing how she loved its color. The sound when she first played it for The Maestro, while she was still an amateur singer, is still vivid in her memory. It is said that its cheerful, dazzling tones can capture the heart of any who hear it.`
     },
 { //Sakura Miku's Hair Charm - Missing .....
         id: 151171,
@@ -33620,7 +33626,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Sakura Miku's Outift - Missing .....
+{ //Sakura Miku's Outift - Complete
         id: 151181,
         name: `Sakura Miku's Outift`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -33635,19 +33641,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 120,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `35s CT - 2500% Earth DMG (Magic). Increases ATK by 15% for 10s. If Earth unit, additional 15%.`,
+                break: 500
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `The clothes worn by Miku when she saved Bamint from the Giant's winter. While she sang in the capital city, spring flowers began to bloom and bright colors emerged, as if she were unfurling a blanket of warmth all around her. That day, she left her mark on Bamint's history as the Spring-Calling Fairy.`
     },
 { //True 'Shield of Rage' - Complete
         id: 151191,
@@ -33708,7 +33714,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Melty's Shoes - Missing .....
+{ //Melty's Shoes - Complete
         id: 151211,
         name: `Melty's Shoes`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -33723,19 +33729,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `70s CT - `,
+                break: 400
             },
         passive: 
             {
-                ability1: ``
+                ability1: `3500% Water DMG (Magic). Reduces enemy's Water & Magic resistance by 35% for 10s.`
             },
-        lore: ``
+        lore: `Worn by Melty, the second princess of Melromarc. They match the refined elegance of her dress.`
     },
 { //Filo's Dress - Missing .....
         id: 151221,
@@ -33766,7 +33772,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Yoh's Necklace - Missing .....
+{ //Yoh's Necklace - Complete
         id: 151231,
         name: `Yoh's Necklace`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -33781,19 +33787,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 6000% Fire DMG (Magic). Increases Skill CT speed by 100% for 10s. Increases arts gauge by 50 (First time only).`,
+                break: 600
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Curse Time Reduction & Curse Evasion rate 10% UP.`
             },
-        lore: ``
+        lore: `The necklace worn by Asakura Yoh, a shaman who links the physical and spiritual worlds. The bear claws are its most distinguishing feature.`
     },
 { //Basountou - Missing .....
         id: 151241,
@@ -33882,7 +33888,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Anna's Spirit Beads - Missing .....
+{ //Anna's Spirit Beads - Complete
         id: 151271,
         name: `Anna's Spirit Beads`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -33897,19 +33903,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `55s CT - 6500% Earth DMG (Magic). Reduces enemy's Magic resistance & Evasion rate by 30% for 10s.`,
+                break: 500
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `The spirit beads worn by Kyoyama Anna, the Itako of Osorezan and Asakura Yoh's fiancée.`
     },
 { //Anna's Bandana - Complete
         id: 151281,
@@ -33969,7 +33975,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Yoh's Necklace EV - Missing .....
+{ //Yoh's Necklace EV - Complete
         id: 151301,
         name: `Yoh's Necklace EV`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -33984,19 +33990,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 6000% Fire DMG (Magic). Increases Skill CT speed by 100% for 10s. Increases Arts gauge by 50 (First time only).`,
+                break: 600
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Curse Time Reduction & Curse Evasion rate 10% UP.`,
+                ability2: [`DMG to Water enemy 5% UP.`, `DMG to Water enemy 10% UP.`, `BE Output 5% UP.`, `BE Output 10% UP.`, `ATK 10% UP.`, `DEF 10% UP.`]
             },
-        lore: ``
+        lore: `The necklace worn by Asakura Yoh, a shaman who links the physical and spiritual worlds. The bears claws are its most distinguishing feature.`
     },
 { //Basountou EV - Missing .....
         id: 151311,
@@ -34466,7 +34473,7 @@ const EquipInformation = [
             },
         lore: `Worn by Rudeus' childhood friend, the quarter-elf girl Sylphiette.`
     },
-{ //Roxy's Hat - Missing .....
+{ //Roxy's Hat - Complete
         id: 151511,
         name: `Roxy's Hat`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -34481,21 +34488,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 4000% Water DMG (Magic). Increases Magic DMG by 40% for 8s. Increases Arts gauge by 50 (First time only).`,
+                break: 400
             },
         passive: 
             {
-                ability1: ``
+                ability1: `DEF 5% UP.`
             },
-        lore: ``
+        lore: `The hat worn by Roxy, a Migurdian magician skilled in Saint-class water magic.`
     },
-{ //Roxy's Hat EV - Missing .....
+{ //Roxy's Hat EV - Complete
         id: 151521,
         name: `Roxy's Hat EV`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -34510,19 +34517,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 4000% Water DMG (Magic). Increases Magic DMG by 40% for 8s. Increases Arts gauge by 50 (First time only).`,
+                break: 400
             },
         passive: 
             {
-                ability1: ``
+                ability1: `DEF 5% UP.`,
+                ability2: [`ATK 15% UP when HP is 90% or more.`, `DMG to Fire enemy 5% UP.`, `DMG to Fire enemy 10% UP.`, `Skill CT speed 5% UP.`, `DMG from enemy 5% DOWN when Near-Death.`, `HP Recovery amount 5% UP (Except Lifesteal).`]
             },
-        lore: ``
+        lore: `The hat worn by Roxy, a Migurdian magician skilled in Saint-class water magic.`
     },
 { //Eris' Sword - Missing .....
         id: 151531,
@@ -34640,7 +34648,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Celestial Gate Key - Missing .....
+{ //Celestial Gate Key - Complete
         id: 151571,
         name: `Celestial Gate Key`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -34655,19 +34663,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 7000% Light DMG (Magic). Increases Magic DMG by 50% for 10s. Increases all allies' BE Output by 60% for 10s (First time only).`,
+                break: 300
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `Belongs to Lucy Heartfilia of the wizard guild Fairy Tail. It opens a Gate to another world that calls forth a celestial spirit, powered by her concern for them.`
     },
 { //Cold Excalibur - Missing .....
         id: 151581,
@@ -34756,7 +34764,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Happy - Missing .....
+{ //Happy - Complete
         id: 151611,
         name: `Happy`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -34771,19 +34779,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `70s CT - 7000% Water DMG (Magic). Reduces enemy's Magic resistance by 25% for 10s. Reduces additional 25% when HP is 90% or more.`,
+                break: 300
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `Natsu's friend, a unique cat that walks on two legs. He can speak Human language, but his tongue is sharper that his cute appearance lets on.`
     },
 { //Guild Flag - Complete
         id: 151621,
@@ -34990,7 +34998,7 @@ const EquipInformation = [
             },
         lore: `The everyday outfit worn by Erza Scarlet of the wizard guild Fairy Tail.`
     },
-{ //Stolen Scissor Blade - Missing .....
+{ //Stolen Scissor Blade - Complete
         id: 151691,
         name: `Stolen Scissor Blade`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -35005,19 +35013,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `60s CT - 12000% Dark DMG (Magic). Increases DMG by 70% & reduces enemy's Dark resistance by 40% for 8s.`,
+                break: 1000
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `The other Scissor Blade taken by Nui Harime when she attacked Isshin Matoi's lab. Unlike Ryuko's, it is colored purple.`
     },
 { //Nui's Dress - Missing .....
         id: 151701,
@@ -35048,7 +35056,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Nui's Eyepatch - Missing .....
+{ //Nui's Eyepatch - Complete
         id: 151711,
         name: `Nui's Eyepatch`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -35063,21 +35071,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 6000% Dark DMG (Magic). Increases ATK by 50% for 10s. Increases Arts gauge by 30, extra 30 for first time.`,
+                break: 1000
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `Nui Harime's eyepatch designed after her first name written in Japanese. It is sewn directly onto her face.`
     },
-{ //Nui's Parasol - Missing .....
+{ //Nui's Parasol - Complete
         id: 151721,
         name: `Nui's Parasol`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -35092,19 +35100,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 120,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `55s CT - 4200% Dark DMG (Magic). Reduces Giant Boss' Dark resistance by 20% for 10s.`,
+                break: 600
             },
         passive: 
             {
-                ability1: ``
+                ability1: `ATK 5% UP.`
             },
-        lore: ``
+        lore: `The parasol carried by Nui Harime. Its surprising durability once blacked a direct attack from Uzu Sanageyama in his Blade Regalia.`
     },
 { //Bunny Pajamas - Missing .....
         id: 151731,
@@ -35252,7 +35260,7 @@ const EquipInformation = [
             },
         lore: `The other Scissor Blade taken by Nui Harime when she attacked Isshin Matoi's lab. Unlike Ryuko's, it is colored purple.`
     },
-{ //Nui's Parasol EV - Missing .....
+{ //Nui's Parasol EV - Complete
         id: 151781,
         name: `Nui's Parasol EV`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -35267,19 +35275,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 120,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `55s CT - 4200% Dark DMG (Magic). Reduces Giant Boss' Dark resistance by 20% for 10s.`,
+                break: 600
             },
         passive: 
             {
-                ability1: ``
+                ability1: `ATK 5% UP.`,
+                ability2: [`DMG to Humans 10% UP.`, `Skill CT speed 20% UP when HP is 90% or more.`, `Light Resistance 5% UP.`, `DMG 10% UP when Near-Death.`, `DEF 5% UP.`, `HP Recovery 5% UP (Except Lifesteal).`]
             },
-        lore: ``
+        lore: `The parasol carried by Nui Harime. Its surprising durability once blacked a direct attack from Uzu Sanageyama in his Blade Regalia.`
     },
 { //True 'Melty's Dress' - Complete
         id: 151791,
@@ -35747,7 +35756,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Draken's Outfit - Missing .....
+{ //Draken's Outfit - Complete
         id: 151951,
         name: `Draken's Outfit`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -35762,19 +35771,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 8000% Light DMG (Magic). Auto-fills Arts gauge by 4 for 10s.`,
+                break: 500
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `Draken's usual outfit. He has others like it hanging in his room.`
     },
 { //Chifuyu's School Uniform - Missing .....
         id: 151961,
@@ -35921,7 +35930,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Dead Master's Bike - Missing .....
+{ //Dead Master's Bike - Complete
         id: 152011,
         name: `Dead Master's Bike`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -35936,19 +35945,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 8000% Earth DMG (Magic). Increases Earth DMG by 50% for 10s. Increases extra 30% when HP is 80% or more.`,
+                break: 800
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `A Hemiteos Unit high-mobility military support vehicle used by Dead Master.`
     },
 { //Dead Master's Bodysuit - Missing .....
         id: 152021,
@@ -36791,7 +36800,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Rimuru's Clothes EV - Missing .....
+{ //Rimuru's Clothes EV - Complete
         id: 152311,
         name: `Rimuru's Clothes EV`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -36806,19 +36815,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 120,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
+                skill: `60s CT - 5800% Water DMG (Magic). Increases Water units' ATK by 20% for 10s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `DMG to Fire enemy 5% UP.`,
+                ability2: [`BE Output 5% UP.`, `BE Output 10% UP.`, `Earth resistance 5% UP.`, `Blind Time Reduction & Blind Evasion rate 10% UP.`, `Poison Time Reduction & Poison Evasion rate 10% UP.`, `MAX HP 5% UP.`]
             },
-        lore: ``
+        lore: `The clothes that Rimuru wears during a fight. It was made by dwarf blacksmiths, Garm and Dord, and a Kijin, Shuna. It contains Magicule, so it is stronger than regular cloth and has high protection.`
     },
 { //Magic-seal Mask EV - Missing .....
         id: 152321,

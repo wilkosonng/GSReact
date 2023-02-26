@@ -23839,7 +23839,7 @@ const UnitInformation = [
             {
                 skill: "11s CT - 1400% Earth DMG (MAG). For 6s, reduce Enemies' ATK by 10%.",
                 skillbreak: 500,
-                arts: "13000% Earth DMG (MAG). For 15s, increase Allies' RES to the Element they have an Elemental Advantage against by 40%, and increase Allies' Freeze RES by 100%.",
+                arts: "13000% Earth DMG (MAG). Cures Freeze + For 15s, increase Allies' RES to the Element they have an Elemental Advantage against by 40%, and increase Allies' Freeze RES by 100%.",
                 artsbreak: 1000,
                 truearts: "32000% Earth DMG (MAG). For 35s, Allies gain a DMG barrier that negates [4000 + Ram's DEF value] DMG.",
                 trueartsbreak: 2300
@@ -23848,7 +23848,7 @@ const UnitInformation = [
             {
                 skill: "11s CT - 1400% Earth DMG (MAG). For 6s, reduce Enemies' ATK by 10%.",
                 skillbreak: 500,
-                arts: "13000% Earth DMG (MAG). For 15s, increase Allies' RES to the Element they have an Elemental Advantage against by 50%, and increase Allies' Freeze RES by 100%.",
+                arts: "13000% Earth DMG (MAG). Curse Freeze + For 15s, increase Allies' RES to the Element they have an Elemental Advantage against by 50%, and increase Allies' Freeze RES by 100%.",
                 artsbreak: 1000,
                 truearts: "42000% Earth DMG (MAG). For 35s, Allies gain a DMG barrier that negates [6000 + Ram's DEF value] DMG.",
                 trueartsbreak: 2300
