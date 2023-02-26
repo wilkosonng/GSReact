@@ -14726,7 +14726,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Aqua Blade 'Maelstrom' - Missing .....
+{ //Aqua Blade 'Maelstrom' - Complete
         id: 105891,
         name: `Aqua Blade 'Maelstrom'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -14741,19 +14741,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `55s CT - 7000% Water DMG (Physical). If Water unit, increases all allies' Status Ailment resistance by 100% for 10s (Except Faint).`,
+                break: 900
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Evasion rate 5% UP.`
             },
-        lore: ``
+        lore: `The twin blades used by Melia, the Blue-eyed Black Fox, in her secret work. She dedicated herself to mastering the double-sword style learned from the Cult to accomplish her work quickly and chose swords with a unique shape to strike overwhelming attacks from any position. Specialized in ensuring the incapacitation of the enemy, these swords, in combination with her constant fire, will bury the target without giving a chance to blink.`
     },
 { //Mist-guise 'Mirage Hood' - Complete
         id: 105901,
@@ -18641,7 +18641,7 @@ const EquipInformation = [
             },
         lore: `With strenuous effort, Filia gained the power to communicate with her weapon. Its blade resembling the blue of pure water could slash through evil with a single stroke. When she stopped to rest in a certain village, a sudden storm caused the river to overflow and strand it. With the help of her sword, she cut the sediment blocking the flow and drained the water. This is one of her favorite stories, but few believe it happened.`
     },
-{ //Automatic 'SV61' - Missing .....
+{ //Automatic 'SV61' - Complete
         id: 107251,
         name: `Automatic 'SV61'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -18656,19 +18656,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `35s CT - 5000% Fire DMG (Physical). Increases Skill CT speed & Skill DMG by 30% for 5s.`,
+                break: 700
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Physical DMG 10% UP.`
             },
-        lore: ``
+        lore: `The famed rifle manufacturer Swagger & Vecket made these pistols in a bid for official adoption by the Isliid army. Boasting high precision along with ease of handling and maintenance, many soldiers found them to be reliable side arms. The Fenrir Corps too considers optional gear. The lack stopping power, but imperial-style gunplay has always placed a greater emphasis on technique over sheer force.`
     },
 { //True 'SV61' - Complete
         id: 107261,
@@ -20713,7 +20713,7 @@ const EquipInformation = [
             },
         lore: `A hat preferred by musicians. In wearing it, they can become one with their instrument and perform at a level impossible for ordinary people. However, both mental strain and dependence can develop, leading to addiction with overuse. This forced a ban that continues to this day despite protests from critics claiming they are being deprived of the masterful performances they once enjoyed.`
     },
-{ //Blade of Secrets 'Insight' - Missing .....
+{ //Blade of Secrets 'Insight' - Complete
         id: 107961,
         name: `Blade of Secrets 'Insight'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -20728,19 +20728,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 6600% Dark DMG (Physical). Increases ATK & Dark DMG by 35% for 10s.`,
+                break: 800
             },
         passive: 
             {
-                ability1: ``
+                ability1: `CRI DMG 10% UP.`
             },
-        lore: ``
+        lore: `A weapon from a tribe of the eastern mountains, forged by a blind swordsmith in the sunless dark. As if infused with his passion and soul, whoever uses it will be able to sense the invisible such as what lies in the hearts of others and even the future itself. Its name was earned from anecdotes describing these sorts of feats.`
     },
 { //True 'Insight' - Complete
         id: 107971,
@@ -21935,7 +21935,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Angelas' Royal Dress - Missing .....
+{ //Angelas' Royal Dress - Complete
         id: 108381,
         name: `Angelas' Royal Dress`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -21950,19 +21950,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `70s CT - 7000% Fire DMG (Physical). 100% chance of Burning enemy. Reduces Fire resistance by 60% for 10s for every enemy Burned by this Equip.`,
+                break: 1000
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `When Angelas first received the invitation to Liza's costume party, she didn't want to go. Only after Victoire suggested it would be the perfect chance to get revenge did she pull out her traditional party outfit. Incidentally, they both threatened Eagle to receive his vote for best costume, so he was not seen in the capital on the day of the event.`
     },
 { //Luahn's Sprinting Shorts - Complete
         id: 108391,
@@ -25517,7 +25517,7 @@ const EquipInformation = [
             },
         lore: `A magic compound bow once sealed away for its sinister powers. Though no one can tell when it was made, the mechanisms responsible for its tremendous lethality cannot be recreated or analyzed by modern technology. The most fearsome attribute is how anyone who wields it even for a short time, regardless of nature or personality, will grow fiercely attached, their destructive impulses stoked beyond control.`
     },
-{ //Astral Bolt - Missing .....
+{ //Astral Bolt - Complete
         id: 109641,
         name: `Astral Bolt`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -25532,19 +25532,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `35s CT - 6000% Water DMG (Physical). If the user is a Water unit, Auto-fills Arts gauge by 1 & increases Physical DMG by 30% for 10s.`,
+                break: 500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `ATK 5% UP when HP is 90% or more.`
             },
-        lore: ``
+        lore: `A complex magical blow long stored within a imperial armory for its shady past only to suddenly vanish. The strength of its shots is not determined by physical might, but magical aptitude. Additionally, it will use that magic to create shadow projectiles in the absence of tangible arrows.`
     },
 { //Otherlight - Missing .....
         id: 109651,
@@ -25808,7 +25808,7 @@ const EquipInformation = [
             },
         lore: `A super-heavyweight turret gun modified for full compatibility with Vultee's prosthetic arm. Unsparing focus on firepower meant anything that resembled a safety device was stripped away. Without his strength-boosting arm, it would pose only slightly less risk to him than the target. The fact that he went through so much trouble to properly wield it proves his commitment.`
     },
-{ //Barbatos Mk. II - Missing .....
+{ //Barbatos Mk. II - Complete
         id: 109741,
         name: `Barbatos Mk. II`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -25823,19 +25823,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `80s CT - 12000% Earth DMG (Physical). Increases ATK by 50% for 10s. If the user is an Earth unit, 30% more.`,
+                break: 1000
             },
         passive: 
             {
-                ability1: ``
+                ability1: `BE Output 5% UP.`
             },
-        lore: ``
+        lore: `The largest class of portable turret gun. Originally developed to be installed at a fixed location, it was later miniaturized for quick repositioning. Even so, firing it unmounted is nearly impossible without superhuman strength. Vultee can only handle it due to the enhanced power output of his prosthetic arm.`
     },
 { //Selunian Stormers - Complete
         id: 109751,
@@ -30603,7 +30603,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Bakuzan - Missing .....
+{ //Bakuzan - Complete
         id: 150141,
         name: `Bakuzan`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -30618,19 +30618,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 7500% Water DMG (Physical). Increases Break power by 75% for 9s.`,
+                break: 3000
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `The favorite weapon of Satsuki Kiryuin. For most weapons its impossbile to cut Life Fibers, but not for Bakuzan. This incredible ability is the result of Satsuki's skill, who can unleash its fullest potential.`
     },
 { //Fight Club Goku Uniform - Missing .....
         id: 150151,
@@ -30951,7 +30951,7 @@ const EquipInformation = [
             },
         lore: `The cap that Sugimoto always wears. It was worn by those in the Imperial Japanese Army, so it was quite common. For whatever reason, Sugimoto almost never takes his cap off.`
     },
-{ //Asirpa's Bow - Missing .....
+{ //Asirpa's Bow - Complete
         id: 150261,
         name: `Asirpa's Bow`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -30966,19 +30966,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `35s CT - 4800% Light DMG (Physical). 90% chance of Poisoning enemy.`,
+                break: 900
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `The bow favored by Asirpa. Although it is very flexible, it is still quite tough. Poison coats the tips of the arrowheads. Once pierced by one of these poisoned arrows, even a brown bear would die within ten steps.`
     },
 { //Asirpa's Bandana - Complete
         id: 150271,
@@ -31473,7 +31473,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Benimaru's Sword - Missing .....
+{ //Benimaru's Sword - Complete
         id: 150441,
         name: `Benimaru's Sword`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -31488,19 +31488,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `60s CT - 6000% Fire DMG (Physical). Increases own Accuracy rate by 30% for 8s.`,
+                break: 2400
             },
         passive: 
             {
-                ability1: ``
+                ability1: `ATK 5% UP.`
             },
-        lore: ``
+        lore: `The Katana that Benimaru, a young Kijin, uses. It was made for the battle between the Orc Lord by Kurobei, and excellent blacksmith. Benimaru's sword skills are extremely high since he had been learning sword skills from the swordmaster Hakuro from childhood.`
     },
 { //Goblin Slayer's Sword - Missing .....
         id: 150451,
@@ -33801,7 +33801,7 @@ const EquipInformation = [
             },
         lore: `The necklace worn by Asakura Yoh, a shaman who links the physical and spiritual worlds. The bear claws are its most distinguishing feature.`
     },
-{ //Basountou - Missing .....
+{ //Basountou - Complete
         id: 151241,
         name: `Basountou`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -33816,19 +33816,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `60s CT - 10000% Dark DMG (Physical). Increases Physical DMG by 30% for 8s.`,
+                break: 1000
             },
         passive: 
             {
-                ability1: ``
+                ability1: `DMG 10% UP during Break.`
             },
-        lore: ``
+        lore: `A long-handled blade carried by Tao Ren, rival to asakura Yoh and hopeful Shaman King. It allows him to unleash devastating attacks like the Vorpal Dance.`
     },
 { //Harusame - Missing .....
         id: 151251,
@@ -34005,7 +34005,7 @@ const EquipInformation = [
             },
         lore: `The necklace worn by Asakura Yoh, a shaman who links the physical and spiritual worlds. The bears claws are its most distinguishing feature.`
     },
-{ //Basountou EV - Missing .....
+{ //Basountou EV - Complete
         id: 151311,
         name: `Basountou EV`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -34020,19 +34020,20 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `60s CT - 10000% Dark DMG (Physical). Increases Physical DMG by 30% for 8s.`,
+                break: 1000
             },
         passive: 
             {
-                ability1: ``
+                ability1: `DMG 10% UP during Break.`,
+                ability2: [`DMG to Light enemy 5% UP.`, `DMG to Light enemy 10% UP.`, `MAX HP 5% UP.`, `CRI rate 10% UP.`, `HP Auto-recovery by 6.`, `DMG 5% UP when Near-Death.`]
             },
-        lore: ``
+        lore: `A long-handled blade carried by Tao Ren, rival to Asakura Yoh and Shaman King hopeful. It allows to unleash devastating attacks like the Vorpal Dance.`
     },
 { //True 'Scissor Blade' - Missing .....
         id: 151321,
@@ -34151,7 +34152,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Bakuzan Gako & Koryu - Missing .....
+{ //Bakuzan Gako & Koryu - Complete
         id: 151361,
         name: `Bakuzan Gako & Koryu`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -34166,19 +34167,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `30s CT - 4000% Water DMG (Physical). Increases Arts gauge by 30 when HP is 90% or more. Increases Physical DMG by 50% for 8s.`,
+                break: 800
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `A set of swords reforged from Bakuzan after Ragyo Kiryuin broke it at the Cultural & Sports Grand Festival. Bakuzan-Gako was given to Nonon Jakuzure and Bakuzan-Koryu was given to Ira Gamagori before passing it to Uzu Sanageyama who was more familiar with swordplay. After Satsuki Kiryuin was rescued from Honnouji Academy, both were returned to her.`
     },
 { //No-Star Uniform - Complete
         id: 151371,
@@ -35172,7 +35173,7 @@ const EquipInformation = [
             },
         lore: `The glove Aikuro Mikisugi gave to Ryuko that lets her easily feed fresh blood to Senketsu. As it too is part of her Kamui, she needs it to completely activate Senketsu.`
     },
-{ //Aikuro's Dotonbori Robo - Missing .....
+{ //Aikuro's Dotonbori Robo - Complete
         id: 151751,
         name: `Aikuro's Dotonbori Robo`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -35187,19 +35188,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 5500% Water DMG (Physical). Increases Arts gauge by 30. Increases Physical DMG by 60% for 12s.`,
+                break: 800
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `An anti-Honnouji Academy weapon developed by Nudist Beach with Takarada Conglomerate funding. It can combine with Tsumugu Kinagase's model to form the Ultimate Double Naked DTR.`
     },
 { //ER Suction Device - Complete
         id: 151761,
