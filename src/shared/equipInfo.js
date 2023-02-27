@@ -11461,7 +11461,7 @@ const EquipInformation = [
             },
         lore: `This cursed dagger gives off a blinding light. It embodies both light and dark, and they say the line between the two is thinner than paper. The blade shifts properties constantly due to an unstable dimensional wap within it. The light it carries is not that of purity, but born of darkness. The tension of that contradiction leads to incredible physical instability, meaning that although this is a small dagger it carries the power to annihilate all that it touches. It truly is a cursed blade.`
     },
-{ //Rallying Banner 'Gramenia' - Missing .....
+{ //Rallying Banner 'Gramenia' - Complete
         id: 104601,
         name: `Rallying Banner 'Gramenia'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -11475,20 +11475,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `30s CT - Increases all allies' Equipment CT speed by 20% & Skill CT speed by 50% for 8s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `HP Auto-recovery by 30 when Near-Death.`
             },
-        lore: ``
+        lore: `The glossy flag that flies over the Gramenian army camp. Made of fireproof and bulletproof material, it supports the soldiers' morale no matter how the tide turns. The sight of the gleaming crest reminds them of their homeland's glory and prestige, filling them with vigor. The president's fair rule is key, but the will of its founders carried on through the ages is no less important.`
     },
 { //Patriot Rifle 'Glorious' - Complete
         id: 104611,
@@ -11752,7 +11752,7 @@ const EquipInformation = [
             },
         lore: `This device, apparently some odd machine part which was found in mist-shrouded ruins, defies easy comprehension. The technique survives in no existing books, yet it appears to have some similarities to Gran Forde, hinting at a connection. It contains vast magical power, and may be useful as a weapon, but... it appears difficult to unleash that power. Could there be other missing parts?`
     },
-{ //Holy Bow 'Forester' - Missing .....
+{ //Holy Bow 'Forester' - Complete
         id: 104711,
         name: `Holy Bow 'Forester'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -11766,22 +11766,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 2222% Earth DMG (Physical). Increases all allies' Accuracy rate by 20% for 10s. If Earth unit, increases own Arts gauge by 20 & increases all allies' Evasion rate by 15% for 10s.`,
+                break: 500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Equipment DMG 15% UP & HP Auto-recovery by 10 (Only once).`
             },
-        lore: ``
+        lore: `The beloved bow of Mamori, a girl who looked up to the legendary hero Ashe Toto. Mamori's mother had told Mamori stories about the hero since she was young, and Mamori had dreamed of living up to his name ever since. After she taught herself to wield a bow, she continued to polish her skill as the archer of the Crimson Stars Circus. This bow accompanied Mamori through her many days of training and is inscribed with the story of how this one girl grew up into somebody the world looked at as a hero. The years spent together with Mamori imbued the bow with divine power, and the bow supported the hero Mamori until the end of her days.`
     },
-{ //Holy Cloak 'Familia' - Missing .....
+{ //Holy Cloak 'Familia' - Complete
         id: 104721,
         name: `Holy Cloak 'Familia'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -11795,20 +11795,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 60,
+                atk: 30,
+                def: 30
             },
         skillset:  
             {
-                skill: ``,
+                skill: `40s CT - Reduces all allies' Equip CT by 25% for 8s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Own Evasion rate 5% UP.`
             },
-        lore: ``
+        lore: `The cloak worn by Mamori, who was the only girl in the Crimson Stars, a travelling circus from the early days of the Ancient War. While Mamori would come to be called a hero by the many people around the world she saved, she had humble beginnings as an orphan of the war. Mamori wore this cloak to the very end, and the kindness in her heart combined with her desire to make the people she met on her journeys smile to imbue it with a divine power. This cloak is filled with the story of how the young Mamori became like the hero she had so looked up to.`
     },
 { //Sniper Rifle 'Howling' - Complete
         id: 104731,
@@ -11956,7 +11956,7 @@ const EquipInformation = [
             },
         lore: `The staff of Diaz, the beast summoner and star magician of the Crimson Stars, a travelling circus from the early days of the Ancient War. Diaz was praised from a young age as a genius unlike any other in his race. When his race was annihilated during an invasion, he swore vengeance, and that dark desire for retribution drove him day and night. It would take until Diaz had grown up for him to realize that the unfading brilliance of his staff was actually a light of hope entrusted to him by the companions who had left the world before him.`
     },
-{ //Holy Robe 'Lathraea' - Missing .....
+{ //Holy Robe 'Lathraea' - Complete
         id: 104781,
         name: `Holy Robe 'Lathraea'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -11970,20 +11970,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 60,
+                atk: 30,
+                def: 30
             },
         skillset:  
             {
-                skill: ``,
+                skill: `70s CT - 100% Water DMG (Magic). Increases DMG to enemy's weak-element by 15% for 8s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Auto-recovery of own HP by 6.`
             },
-        lore: ``
+        lore: `The robe worn by Diaz, the expert beast summoner of the Crimson Star Circus, which was famed for how they traveled the world to help those in need during the early days of the Ancient War. While Diaz may have just worn the robe as a stage outfit, to the people who truly enjoyed the circus' performance and were grateful for their help, it was something to believe in. The robe became something like a uniform for Diaz. The reverence directed towards Diaz throughout his lifelong journeys became a warm and gentle light which enveloped and protected its wearer.`
     },
 { //Blood Katana 'MINAGOROSHI' - Complete
         id: 104791,
@@ -12102,7 +12102,7 @@ const EquipInformation = [
             },
         lore: `This is the trusted blade of Tallis, hero and Divine Royal Army Fencing Instructor early in the Ancient War, and is imbued with the power of the Radiant Ittoryu school that she mastered. They say the founder of the school slew a many-headed fire-breathing dragon, and this blade appeared from its corpse. The tassel on the pommel is part of the founder's holy garb. Tallis grew to become the Ogre Slayer using this, the blade of her school's founder, the Dragon Slayer.`
     },
-{ //Holy Robe 'Flora Twilight' - Missing .....
+{ //Holy Robe 'Flora Twilight' - Complete
         id: 104861,
         name: `Holy Robe 'Flora Twilight'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -12116,20 +12116,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 60,
+                atk: 30,
+                def: 30
             },
         skillset:  
             {
-                skill: ``,
+                skill: `35s CT - Increases all Allies' Arts gauge by 1 for 20s. If User is Fire Elemental then heals all Allies' HP by 50 for 20s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Increases Fire Elemental Resistance by 15%.`
             },
-        lore: ``
+        lore: `This is the trusted blade of Tallis, hero and Divine Royal Army Fencing Instructor early in the Ancient War, and is imbued with the power of the Radiant Ittoryu school that she mastered. They say the founder of the school slew a many-headed fire-breathing dragon, and this blade appeared from its corpse. The tassel on the pommel is part of the founder's holy garb. Tallis grew to become the Ogre Slayer using this, the blade of her school's founder, the Dragon Slayer.`
     },
 { //War Blade 'Diamond Chakram' - Complete
         id: 104871,
@@ -12336,7 +12336,7 @@ const EquipInformation = [
             },
         lore: `The umbrella was the ceaseless companion of the Demoness Mixie, who fought under the command of her general father, who himself served directly under the Great Six Demon Generals early in the Ancient War. She took much more care with her appearance than most and detested being seen with more conventional and unseemly weapons, so she assigned double roles to items she carried. This particular one was usually an effective parasol, but when needed it also served as a powerful weapon. when opened it could block live fire or magical attacks, and when closed it was capable of mowing down enemies. They say it was an elegant sight, even in battle.`
     },
-{ //Magic Robe 'Tout Acconier' - Missing .....
+{ //Magic Robe 'Tout Acconier' - Complete
         id: 104941,
         name: `Magic Robe 'Tout Acconier'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -12350,20 +12350,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 60,
+                atk: 30,
+                def: 30
             },
         skillset:  
             {
-                skill: ``,
+                skill: `35s CT - Increases Target's Arts gauge by 40. Reduces DEF by 30% for 8s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Increases Poison Time Reduction by 30%. Increases Poison Evasion Rate by 30%.`
             },
-        lore: ``
+        lore: `The formal dress that Mixie, one of the leading personas of the Demon fashionable society during the early period of the Ancient War. The gold color emphasizes her elegance and makes the atmosphere bright in just a second which makes it impossible to ignore her existence. Not only its design, but magic is woven into it to protect herself, the director, and negates attacks from blades and even magic attacks. Those with only such power would never be able to stand her dignity anyway.`
     },
     { //Carving Whip 'Viperra' - Complete
         id: 104951,
@@ -12952,7 +12952,7 @@ const EquipInformation = [
             },
         lore: `This swimwear was carefully chosen by Celia, the first princess of the Principality of Bamint. Those close to her grew tired of seeing her work herself to the bone, so they decided to get her one day off. With their choices wide-open, they suggested a luxury stay at a beachfront holiday resort. And to top it off, a certain junior princess also joined the plan. Another day off was required for the suddenly enthusiastic princess' swimsuit selection.`
     },
-{ //Sonije's Hot-Pink Bikini - Missing .....
+{ //Sonije's Hot-Pink Bikini - Complete
         id: 105191,
         name: `Sonije's Hot-Pink Bikini`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -12966,20 +12966,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `65s CT - Increases all Allies' Arts gauge by 30. Increases all Allies' Arts gauge by 2 for 10s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `A competition swimsuit worn by Sonije, a noblewoman of Bamint who ran through the age of confusion after the Ancient War. Before they became known as one of the Five Freedom Fighters, she traveled with her companions on a journey of investigation, and they were all just young and full of fun. With her Spirit blood running strong, Sonije herself was quite wild, and she never saw a body of water she wouldn't jump into; yet she still always took the time to change into her swimsuit. That's likely because she knew the eyes of her Dragon traveling companion were on her...`
     },
 { //Alma's Bandeau Bikini - Complete
         id: 105201,
@@ -13039,7 +13039,7 @@ const EquipInformation = [
             },
         lore: `A bikini chosen with passion by Rishley, fifth in line of succession in the Kingdom of Famelle in the age of confusion after the Ancient War. When they were young and travelling in peace, her noble friend would change into her swimsuit and go for a dip in every river and lake they came to. She would always watch from a distance until, one day, her friend challenged her. "What, are you that self-conscious?" she said, and taking that opportunity she brought out this swimsuit she had prepared, unveiling it with all due pomp.`
     },
-{ //Fen's Aloha Shorts - Missing .....
+{ //Fen's Aloha Shorts - Complete
         id: 105221,
         name: `Fen's Aloha Shorts`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -13053,22 +13053,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 60,
+                atk: 30,
+                def: 30
             },
         skillset:  
             {
-                skill: ``,
+                skill: `35s CT - Increases all Allies' Arts gauge by 1 for 20s. Increases all allies' Equipment CT Recovery Speed by 15% for 20s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `This swimsuit was presented rather forcefully on Fen, Master Strategist of the Gramenian Army, by his superior. They were supposed to be on a special assignment, but suddenly his superior said "Let's mix a little business and pleasure!" and Fen immediately realized he'd been tricked. Even if the sight of his superior rushing ogg to get changed the minute they got to the inn dispirited him, he changed himself nevertheless. They'd known each other for years, but still Fen felt he didn't really understand the man as they headed to the water's edge.`
     },
-{ //Kane's Aloha Shirt - Missing .....
+{ //Kane's Aloha Shirt - Complete
         id: 105231,
         name: `Kane's Aloha Shirt`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -13082,22 +13082,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 60,
+                atk: 30,
+                def: 30
             },
         skillset:  
             {
-                skill: ``,
+                skill: `30s CT - Increases target's Arts gauge by 30. Increases target's DMG by 20% for 10s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `Swimwear prepared by Kane, a high official of the Gramenia Republic, for some fun in the sun. He claimed he was on important official business, but clearly he was just thinking of some fun, since he had a swimsuit for his Master Strategist as well. He wouldn't hear a word of argument, and changed to head to the beach as soon as they arrived at destination. Shaking his head in disgust, Fen changed too, and Kane looked on in amusement. 'I figured you needed a break!" he said, laughing.`
     },
-{ //Sorcerer's Treasured Robe 'Caligula' - Missing .....
+{ //Sorcerer's Treasured Robe 'Caligula' - Complete
         id: 105241,
         name: `Sorcerer's Treasured Robe 'Caligula'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -13111,20 +13111,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 60,
+                atk: 30,
+                def: 30
             },
         skillset:  
             {
-                skill: ``,
+                skill: `45s CT - All allies' Arts gauge 20 UP. If Light or Dark unit, increases own Arts DMG by 15% for 6s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Evasion rate 10% UP when Near-Death.`
             },
-        lore: ``
+        lore: `The holy robe worn by twin-blade warrior Raki, who withdrew from the front lines in the early days of the Ancient War despite his exceptional swordsmanship. It is said to have been created by a brilliant Demon priest and can only be worn by those who are chosen by it. Raki's servant Gobbie didn't know about this and suffered the consequences for it more than once. "Hey, Raki, don't I look good in this, too?" "Take it off now, or you'll dry up like a mummy."`
     },
 { //Demon Twin-Blade 'Deino' - Complete
         id: 105251,
@@ -13316,9 +13316,9 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
@@ -13680,7 +13680,7 @@ const EquipInformation = [
             },
         lore: `This weapon uses electromagnetic induction to fire projectiles. This is among the highest class of weapons used by the humanoid Machines, and though it's incredibly difficult to use, it offers unrivaled destructive power. The user's magical power is converted to Electromagnetic power, and Machine users achieve a particularly high conversion rate. It's also much safer that gunpowder-based weapons. It's quite complex, so only very experienced fighters can use it to its full capacity.`
     },
-{ //Rapid-fire Gun 'Peregrine' - Missing .....
+{ //Rapid-fire Gun 'Peregrine' - Complete
         id: 105531,
         name: `Rapid-fire Gun 'Peregrine'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -13694,20 +13694,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 60,
+                atk: 30,
+                def: 30
             },
         skillset:  
             {
-                skill: ``,
+                skill: `40s CT - 3000% Earth DMG (Magic). Increases own Arts gauge by 7 for 5s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Increases Skill CT Recovery Speed by 10%.`
             },
-        lore: ``
+        lore: `This cannon turns magical power into firepower. It excels in accuracy, velocity, power, and energy conversion, meaning it's nearly unequaled in fighting performance. It's an incredible example of cutting edge Machine technology, and it's easy to use as well, making it well-loved on battlefields all over. However, its ease of use implies that the user's skill will have a direct effect on efficacy, so it takes a high level of experience and sense to get the most out of it.`
     },
 { //True 'Griffin' - Complete
         id: 105541,
@@ -13797,7 +13797,7 @@ const EquipInformation = [
             },
         lore: `Footwear belonging to history's greatest Sword Master, Riana. Crafted from the remains of an ancient beast slain by the clan's founder, they are an essential part of her battle dress. Though legend says it is possible to call forth the spirit of the creature residing inside them, only she has perfectly mastered that ability. Phantasmal fangs of ice combine with her ultimate blade skill to create a truly flawless offense.`
     },
-{ //Dark Relic 'Groll' - Missing .....
+{ //Dark Relic 'Groll' - Complete
         id: 105571,
         name: `Dark Relic 'Groll'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -13811,20 +13811,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `45s CT - Increases Dark units' Arts gauge by 30. Increases BE Output by 70% for 10s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When Dark Relic 'Nichts' is also equipped, Dark units' Break power 20% UP (Only once).`
             },
-        lore: ``
+        lore: `A spell used by one who swore allegiance to "The Nameless". His greatest joy of all was listening to people scream and cry. The spell was written with forbidden effects for maximizing the suffering of men, so that the targets screamed in agony as they wandered through a long, half-dead life. He used the spell on himself at the end, and when he heard his own scream in pain, he died in a frenzy of joy.`
     },
 { //Light Relic 'Eradication Bow' - Complete
         id: 105581,
@@ -14118,7 +14118,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Insect Goddess Necklace - Missing .....
+{ //Insect Goddess Necklace - Complete
         id: 105681,
         name: `Insect Goddess Necklace`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -14132,20 +14132,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 500,
+                atk: 500,
+                def: 500
             },
         skillset:  
             {
-                skill: ``,
+                skill: `40s CT - Increases all Allies' Arts gauge by 2 for 15s. Increases all allies' Accuracy Rate by 15% for 15s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Increases DMG to Dark Elemental Units by 10%.`
             },
-        lore: ``
+        lore: `When the grotesque Goddess of the Spiders appeared, she conferred this necklace to a strong warrior. By using this treasure as an icon, the force of exorcising evil can be unleashed. This regal ornament beyond human work can be touched only by someone who is powerful enough to defeat her. If someone without enough strength touches it, the proud Goddess anger will transform the unfortunate victim into a spider.`
     },
 { //Fire Scepter 'Fomalhaut' - Complete
         id: 105691,
@@ -14176,7 +14176,7 @@ const EquipInformation = [
             },
         lore: `This magical scepter was wielded by Berwick, one of the Juno Templars. They say that it was made of a sacred flame that had burned since ancient times, and the blaze sleeping within is powerful enough to consume all it touches. The flames change with the magical power its user feeds them, and he can thus control not only their power but their form. The scepter also responds to the user's character, and since the flames created by his aggressive nature were a danger even to his allies, no one dared to come close to him in battle.`
     },
-{ //Blood Crest 'Arc Ignite' - Missing .....
+{ //Blood Crest 'Arc Ignite' - Complete
         id: 105701,
         name: `Blood Crest 'Arc Ignite'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -14190,20 +14190,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 60,
+                atk: 30,
+                def: 30
             },
         skillset:  
             {
-                skill: ``,
+                skill: `15s CT - Increases all Allies' Arts Gauge by 10.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Increases Unit's Skill CT Speed by 10%.`
             },
-        lore: ``
+        lore: `This Crest of Granadia governs flame. Berwick of the Juno Templars wore it proudly, and they say when he unleashed it, it raised such incredible power from within him he could level whole armies on his own. When it is unsealed, the crest itself burns blazing hot and magical flames envelop the user. For that reason only a true master of fire can use it and indeed no one apart from Berwick has ever succeeded in controlling its flames.`
     },
 { //True 'Fomalhaut' - Complete
         id: 105711,
@@ -14352,7 +14352,7 @@ const EquipInformation = [
             },
         lore: `This Draco sword was possessed from the Death Dragon, whose flame breath could burn this whole world down. This blade can slash the enemy without touching him thanks to its extreme heat. The burn will never cure and scorch until the entire body becomes ashes. It is said that victory is promised to those who do not fear the blazing dragon. Hundreds and thousands desired this sword, though every single one got terrified and was eaten by the sword. Even now, the flame grins inside the blade as if it's laughing at the next challenger.`
     },
-{ //Holy Necklace 'Dignified Silence' - Missing .....
+{ //Holy Necklace 'Dignified Silence' - Complete
         id: 105761,
         name: `Holy Necklace 'Dignified Silence'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -14366,20 +14366,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 60,
+                atk: 30,
+                def: 30
             },
         skillset:  
             {
-                skill: ``,
+                skill: `50s CT - Reduces own Arts gauge by 50. Increases all Allies' Arts gauge by 50 except ownself.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Increases Water Elemental Resistance by 10%.`
             },
-        lore: ``
+        lore: `The necklace of Palamecia, the most excellent God swordswoman also known as "the Silent Divine". She received this accessory as a present from her friend when she set out on her journey to gain ultimate sword skills. Since then, she always took great care of it. Glowing in graceful light, this accessory sublimated her and recognized her deepest desires to become stronger. The necklace's noble radiance reflects her way of life. Those who look at it will be able to sharpen their conscience to the utmost to fully use their powers.`
     },
 { //Emerald Feather 'Biosdora' - Complete
         id: 105771,
@@ -14439,7 +14439,7 @@ const EquipInformation = [
             },
         lore: `The ominous claws of Subject β-3, the result of inhuman experiments that gave life to this deformed creature. It has outstanding magical powers that criminals exploit for their vicious ends. The resentment for being abandoned after the terrifying experiments, eventually shaped up into this cursed claw. But because of its evil nature, even after the death of the creature, deep sorrow lies inside the claws.`
     },
-{ //Hades Earrings 'Halos Mors' - Missing .....
+{ //Hades Earrings 'Halos Mors' - Complete
         id: 105791,
         name: `Hades Earrings 'Halos Mors'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -14453,22 +14453,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 60,
+                atk: 30,
+                def: 30
             },
         skillset:  
             {
-                skill: ``,
+                skill: `50s CT - Increases all Allies' Skill CT Recovery Speed by 50% and Equipment CT Recovery Speed by 30% for 15s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Increases Curse Time Reduction by 10%. Increases Curse Evasion Rate by 10%.`
             },
-        lore: ``
+        lore: `The earrings of Oleus, the Demon who hunted numerous souls with its giant reaper. The hanging skulls belong to his first victims and contain their souls, while the souls woven into his coat are a tribute to fill the loneliness of those who dwell in the earrings. They say that when you can hear strange sounds, similar to the roaring sounds of the sea, coming from the skulls, you can hear the voices of the souls of dead from all over the world and can use those powers to lead the living.`
     },
-{ //Sacred 'Silent Treasure' - Missing .....
+{ //Sacred 'Silent Treasure' - Complete
         id: 105801,
         name: `Sacred 'Silent Treasure'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -14482,22 +14482,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `30s CT - Uses 15% of all Allies HP. Increases all Allies' Arts gauge by 35. Increases all Allies' Critical DMG by 30% for 10s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Increases ATK by 10%.`
             },
-        lore: ``
+        lore: `The sacred treasure of Palamacia, known as the Silent Divine, the greatest swordswoman of all Gods, Memories of Palamacia's life were engraved into her necklace and eventually embodied into this sacred treasure. Since it is the embodiment of Palamacia herself, by embedding vitality into this sacred vessel, her existence becomes even more substantial. Through the recollection of the memory of her ultimate swordsmanship, one can use her powers to achieve victory.`
     },
-{ //Sealed Earrings 'Filiamo' - Missing .....
+{ //Sealed Earrings 'Filiamo' - Complete
         id: 105811,
         name: `Sealed Earrings 'Filiamo'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -14511,20 +14511,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `180s CT - Auto-fills Target's Arts gauge by 5 for 20s. Increases All Stats on Target by 30% and reduces All Stats on Self by 30% for 20s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Increases Curse Time Reduction by 10%. Increases Curse Evasion Rate by 10%.`
             },
-        lore: ``
+        lore: `The earrings where dwells Oldeus, the Demon who wears a mantle knitted with the souls of the dead. He has woven thousands and millions of souls into his coat to comfort the souls of the first people he killed, who dwell in his skull earrings. After listening to their whispers, similar to the sound of the sea, throughout the years, he chose to seal his soul, too, into the earrings. It is said that wearing this ornament allows you to use its power, by offering the souls of the dead. To this day, no one knows why Oldeus sealed his own soul into his earrings...`
     },
 { //Fen's Pirate Hat - Complete
         id: 105821,
@@ -14555,7 +14555,7 @@ const EquipInformation = [
             },
         lore: `This was the costume given to fen who is Head of General Staff in Gramenia. It's not even funny because it actually suits him pretty well. In fact, he seems to favor this costume and looks pleasant. After, he started to give the most horrible costumes to his subordinates saying, "Will I trick you if you don't wear this? Ahaha, no these are orders. If you don't wear this, you're fired." with a nice spooky smile.`
     },
-{ //Swashbuckling Fen - Missing .....
+{ //Swashbuckling Fen - Complete
         id: 105831,
         name: `Swashbuckling Fen`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -14569,20 +14569,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `45s CT - Increases Target's Arts gauge by 100.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `This is the outfit given to Fen, Head of General Staff in Gramenia, for the otherworld festival. He gets an A for being the last person to be in his place with this unmatching costume. His subordinates all praised him, but the only person who knows Fen's past just burst into laughter. He approached him and whispered, "What a promotion for a naughty orphan to become a captain." Of course, his boss prepared this costume!`
     },
 { //Feena's Witch Hat - Mising Lore
         id: 105841,
@@ -14700,7 +14700,7 @@ const EquipInformation = [
             },
         lore: `He was forced to wear this costume just because he is called as the "Silver Hungry Wolf." He is chased by the red-little-riding-princess who wants to defeat the bad wolf but asks her to wait until the moon comes out. While waiting, he acted as a wolf and entertained everyone. Now that night is here, his eyes glare with light, and stood in front of the princess. He asked for treats for a reward of today, so he could give them to an orphanage. As soon as she heard that, she left her treats and went away.`
     },
-{ //Jack-O-Sherum's Boots - Missing .....
+{ //Jack-O-Sherum's Boots - Complete
         id: 105881,
         name: `Jack-O-Sherum's Boots`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -14714,20 +14714,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `30s CT - Increases all Allies' Critical Rate by 50% and Skill CT Speed by 50% for 15s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Increases own Critical DMG by 10%.`
             },
-        lore: ``
+        lore: `The boots that Jack-O-Sherum, a ghost that somehow fused with Ragsherum Phantom. It continues to wander and tricks people in order to get treats. This might seem kind of innocent, but in fact, it is said that this might be a ghost wandering to find a peaceful place to rest. It might have fused with Ragsherum Phantom which wanders to find its master, but no one knows the reason...`
     },
 { //Aqua Blade 'Maelstrom' - Complete
         id: 105891,
@@ -15094,9 +15094,9 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
@@ -15167,7 +15167,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Relic 'Santa Arpa' - Missing .....
+{ //Relic 'Santa Arpa' - Complete
         id: 106041,
         name: `Relic 'Santa Arpa'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -15181,20 +15181,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 125,
+                atk: 62,
+                def: 62
             },
         skillset:  
             {
-                skill: ``,
+                skill: `50s CT - Increases Target's Arts Gauge by 35. Adds a token that increases Target's Arts DMG by 50%. This token lasts until the unit dies.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Increases Seal Time Reduction by 20%. Increases Seal Evasion Rate by 20%.`
             },
-        lore: ``
+        lore: `This lyre holds a spirit's singing voice that brings good fortune and blessings. Since ancient times, there always have been people longing for the Spirit's blessing, yet most of them have ended up in ruin. However, one girl offered up the voice of this lyre to the Spirit, who was so enraptured by the sound that she bound herself to the instrument. They say that those who are touched by its voice will receive good fortune and a chance to grasp victory.`
     },
 { //Judgement Blade 'ZANKETSU' - Complete
         id: 106051,
@@ -15429,7 +15429,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Santa Fen Doll - Missing .....
+{ //Santa Fen Doll - Complete
         id: 106131,
         name: `Santa Fen Doll`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -15443,20 +15443,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `20s CT - Increases Target's Arts Gauge by 30. Increases Target's Arts Gauge by 3 for 10s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `A doll Iris made for the otherworld festival of Christmas. The other toys were all Iris' idea, but this one was made by request of the model. Astonished by the incredible potential threat of a man capable of flying all over the world and delivering presents to every child in a single night, Fen began researching Christmas to discover how he could gain such power. This doll is proof of just how deeply he longs for it...`
     },
 { //Ganan Tree Doll - Missing .....
         id: 106141,
@@ -15983,7 +15983,7 @@ const EquipInformation = [
             },
         lore: `This mantle was dear to the blazing-fast swordsman Berwick of the Leone Templars. It was designed for mobility to meet his high-speed fighting style, but the material is imbued with flame magic in its very fibers, giving it extremely high defensive capabilities as well. To protect him whenever he uses his true power, the mantle fills the air with flames, and for this reason many began to call him "Swordsman of Flames".`
     },
-{ //Fire Boots 'Rubellum' - Missing .....
+{ //Fire Boots 'Rubellum' - Complete
         id: 106321,
         name: `Fire Boots 'Rubellum'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -15997,22 +15997,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 60,
+                atk: 30,
+                def: 30
             },
         skillset:  
             {
-                skill: ``,
+                skill: `50s CT - Increases all stats on all Allies' by 10% for 15s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `These boots were dear to the blazing-fast swordsman Berwick of the Leone Templars. They were made strong to withstand treading the flames he wielded, yet still light enough to allow him to move with quickness. The way he ended battle stalemates with his swordsmanship and mobility encouraged not only his comrades but all the soldiers around.`
     },
-{ //Star Etcher 'Asterisk' - Missing .....
+{ //Star Etcher 'Asterisk' - Complete
         id: 106331,
         name: `Star Etcher 'Asterisk'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -16026,20 +16026,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `60s CT - Increases all allies' Arts gauge by 20. Increases all allies' Arts gauge by 1 for 10s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Magic DMG 10% UP.`
             },
-        lore: ``
+        lore: `A pen created to exercise her magic by the genius sorcerer and pride of the Leone Templars. The pen holder was made of a special metal, discovered in Granadia and inherited from the Ancestors along with the Crest runes. The allows the pen nib to channel the user's magic effectively. At the time, crest sorcerers of Granadia preferred pens to staves or rods.`
     },
 { //Inventor Robe 'Genesis' - Complete
         id: 106341,
@@ -16639,9 +16639,9 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 60,
+                atk: 30,
+                def: 30
             },
         skillset:  
             {
@@ -16669,9 +16669,9 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
@@ -16715,7 +16715,7 @@ const EquipInformation = [
             },
         lore: `A necklace made following the model of one of the advanced crests, the "Circle Crest". Since it can distribute efficiently the magic power over a wide area, it is suitable for auxiliary use such as a magic barrier. They say that the Princess Leone of Granadia used to wear it, but the historians consider it a mystery because of the discrepancy between the Princess' reign and the manufacturing period.`
     },
-{ //Star Crest 'EX Gate' - Missing .....
+{ //Star Crest 'EX Gate' - Complete
         id: 106591,
         name: `Star Crest 'EX Gate'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -16729,20 +16729,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `80s CT - Auto-fills target's Arts gauge by 10 for 12s. Increases All allies' CRI rate by 50% for 10s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Magic DMG 10% UP.`
             },
-        lore: ``
+        lore: `A ritual necklace inscribed with ancient runes used to control the Crest. It was produced in the eastern continent during the Ancient War. Since the magical power is automatically distributed in a very precise way, the user can easily activate it after setting the power and range of magic. In large-scale battles, where many sorcerers who belong to large troops, such the the Imperial Army, move in parallel, gladly take them into the fray.`
     },
 { //Star Robe 'Regalia' - Complete
         id: 106601,
@@ -16991,9 +16991,9 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
@@ -17020,9 +17020,9 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
@@ -17035,7 +17035,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Forbidden 'Demonic Seal' - Missing .....
+{ //Forbidden 'Demonic Seal' - Complete
         id: 106701,
         name: `Forbidden 'Demonic Seal'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -17049,20 +17049,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `30s CT - Increases Own Arts Gauge by 3 and DMG by 20% for 15s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Increases HP Regeneration by 2.`
             },
-        lore: ``
+        lore: `The hidden shinobi scroll held by Mizuki, young leader of Imari Village. this scroll, passed throughout the generations, contains the secrets of the frame of mind one must have to become a great shinobi. It says that the source of an Imari shinobi's power is the ability to retain their pure heart when they are forced to sully their hands in order to realize their ambitions, even if their body is soaked in the darkness of their craft. When the one reading the scroll is able to understand the meaning behind this, their soul will reach true enlightenment and they will inherit the power of Imari's ninjutsu.`
     },
 { //Ninja Spear 'Netherworld Silver' - Complete
         id: 106711,
@@ -17300,7 +17300,7 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Parlot's Southern Aloha Shirt - Missing .....
+{ //Parlot's Southern Aloha Shirt - Complete
         id: 106791,
         name: `Parlot's Southern Aloha Shirt`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -17314,20 +17314,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `50s CT - Increases all Allies' Arts gauge by 2 for 20s. Increases all allies' Skill CT Recovery Speed by 50% for 20s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `This is the summer fashion or Parlot, the right hand of the Divine Knights. This attire, with a beautifully designed shirt and a grass skirt from the southern countries, is not suitable for swimming but he doesn't seem to be particularly bothered by this. It's not like he cannot swim, bit for this summer he didn't feel like it, so he kept reading under the parasol during all the vacation, without touching the water even once.`
     },
 { //Nies' Surf Shorts - Complete
         id: 106801,
@@ -17387,7 +17387,7 @@ const EquipInformation = [
             },
         lore: `The swim dress of the redhead knight Sanstone of the Divine Knights. Passionate as the midsummer sun, she dashes to the vice-leader when she finds her at the beach. She was radiant when she went to buy a swimsuit with the vice-leader in view of the vacation. She tried on one after another and chose this swimsuit on the advice of the vice-leader. "It matches your beautiful hair color!" Embracing the sweet words of her dear friend, her summer begins to shine.`
     },
-{ //Sanstone's Monster-shaped Dinghy - Missing .....
+{ //Sanstone's Monster-shaped Dinghy - Complete
         id: 106821,
         name: `Sanstone's Monster-shaped Dinghy`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -17401,22 +17401,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 60,
+                atk: 30,
+                def: 30
             },
         skillset:  
             {
-                skill: ``,
+                skill: `40s CT - Increases Target's DEF by 100% and Heal amount by 50% for 15s (except Lifesteal).`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `The Invincible Shield of the Divine Knights prepared this monster-shaped dinghy to sail with her beloved vice-leader. "This boat is only for two," she announced to the leader and she got into the boat with the vice-captain. "I see." That's all the captain said. She breathed a sigh of relief. "I wonder what happened if I didn't swallow the words that came up to my lips; or do you want to sail with the vice-captain?"`
     },
-{ //Platina's Gorgeous Fan - Missing .....
+{ //Platina's Gorgeous Fan - Complete
         id: 106831,
         name: `Platina's Gorgeous Fan`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -17430,20 +17430,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 60,
+                atk: 30,
+                def: 30
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `100s CT - 100% Non-Elemental DMG (Physical).`,
+                break: 5000
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `A gorgeous fan that the vice-captain of the Divine Knights bought for the summer vacation. She was planning to deepen her relationship with the captain on the beach. However, the leader was so crazy about swimming that he didn't come back to the beach all day. When the redhead knight stole her fan and began to fan herself in a silly way, her stiff expression naturally relaxed. "Summer days likes this are not that bad".`
     },
 { //JP Equip Name (Adele's Farmable) - Missing .....
         id: 106841,
@@ -17503,7 +17503,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Leone's Crest Bikini - Missing .....
+{ //Leone's Crest Bikini - Complete
         id: 106861,
         name: `Leone's Crest Bikini`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -17517,20 +17517,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `20s CT - Increases own Critical Rate by 100% for 10s. If user is Demon, Heals own HP by 10%.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `The bikini of the young princess Leone of the Kingdom of Ganadia. She was so busy that she couldn't buy a swimsuit for herself, but she found one in her older sister's wardrobe, which had been sealed for a long time. Even if she winced because of the audacious design, she decided to wear it anyway, attracted by the image of herself relaxing on the beach. She saw herself in the mirror and felt that she had not reached her sister yet.`
     },
 { //Riviera's Battle Bikini - Complete
         id: 106871,
@@ -17590,7 +17590,7 @@ const EquipInformation = [
             },
         lore: `Riviera of the "Brutal War Axe" brought this shell-shaped float to brighten up her summer. Lying next to her float, she was enjoying her vacation. Even if she was dazzled by the sunlight, she was smiling, hearing the cheerful voices of the girls having fun. She she opened her eyes, the smiling princess was in front of her, inviting her. The memory of the three girls dashing to the sea will shine forever in her mind.`
     },
-{ //Rosetta's Mermaid Bikini - Missing .....
+{ //Rosetta's Mermaid Bikini - Complete
         id: 106891,
         name: `Rosetta's Mermaid Bikini`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -17604,20 +17604,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `25s CT - Increases Target's Magical DMG by 100% for 10s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `This is the mermaid-shaped bikini of the Genius Sorcerer, Rosetta. She is an inventor, who sometimes creates strange items. This swimsuit was developed imitating the characteristics of aquatic beasts, and it is fast enough to generate a shock wave in the water. Precious materials were used to create it, but she sealed it away for a long time afraid that it would create chaos in the world, but she decided to dig it out only for this summer.`
     },
 { //Rosetta's Pareo - Complete
         id: 106901,
@@ -18441,7 +18441,7 @@ const EquipInformation = [
             },
         lore: `Mm... Tastes like the bursting flavors of autumn (no, seriously, it will burst... eventually)!`
     },
-{ //Prince Berwick's Garb - Missing .....
+{ //Prince Berwick's Garb - Complete
         id: 107181,
         name: `Prince Berwick's Garb`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -18455,20 +18455,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 60,
+                atk: 30,
+                def: 30
             },
         skillset:  
             {
-                skill: ``,
+                skill: `30s CT - Increases own DMG by 60% for 12s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `The costume of Berwick, Templar of the Kingdom of Granadia. Because Berwick preferred to don more formal garb, he was perplexed at his Queen's request for him to participate in the costume party - a traditional celebration in a world separate from theirs. It was then when he remembered when the previous captain of the Templars was forced to deal with diplomatic matters in the Queen's place when she fell ill. Those who saw him, confident and donned in royal garb, could only assume he was royalty, not a stand-in. Remembering how gallant his former captain looked that day, Berwick knew exactly what he would wear.`
     },
 { //Cheer Squad Riviera - Complete
         id: 107191,
@@ -18557,7 +18557,7 @@ const EquipInformation = [
             },
         lore: `The sostume of Duke, captain of the Templars of the Kingdom of Granadia. Despite his busy schedule, Duke was forced to chose a festive outfit. Not sure of what to wear, he chose the jacket he found in the basement of the castle storehouse. According to a tome about another world, it was the garb of the leader of a certain kind of combat unit. While he was always happy to see his comrade grow in the ways of the sword, Duke had a secret competitive spirit. It's said that in order to continue to become stronger as captain, he donned this jacket as a sort of oath to himself to train even harder.`
     },
-{ //Vampire Cutie Rosetta - Missing .....
+{ //Vampire Cutie Rosetta - Complete
         id: 107221,
         name: `Vampire Cutie Rosetta`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -18571,20 +18571,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `35s CT - Increases all allies' Arts gauge by 5 for 5s and increases all Allies' Break Power by 50% for 5s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `The costume of Rosetta, Templar of the Kingdom of Granadia, Leone's friend from school, and master of magic. Excited for the festival, Rosetta and her best friend promised to choose each other's costumes. Seeing the outfit meant for the enchanted undead in another world and its bold design, the magic genius' cheeks turned red. It is said that while she had refused to wear it at first, unable to fight back against her friend's puppy eyes, she ended up donning the outfit and enjoying the festival to the fullest.`
     },
 { //Leone's Candy Pink Smock - Complete
         id: 107231,
@@ -19009,9 +19009,9 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
@@ -19038,9 +19038,9 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
@@ -19053,7 +19053,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Silk Guiding Broom 'Etoile' - Missing .....
+{ //Silk Guiding Broom 'Etoile' - Complete
         id: 107391,
         name: `Silk Guiding Broom 'Etoile'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -19067,20 +19067,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `40s CT - Auto-fills target's Arts gauge by 4 for 20s. If Light unit, increases target's Magic DMG by 15% for 20s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Magic DMG from enemy 5% DOWN.`
             },
-        lore: ``
+        lore: `It is said that the best way to measure a mage's power is to examine the catalyst for their magic. This magic broom is one of the finest examples. It was considered one of Gran Verge's greatest treasures. Its handle has highly magically conductive meteorite blended into it and is significantly heavier than it looks. Due to this, only a great mage would be able to pick it up, but Liza wielded it easily with just one hand--a sign of her fearsome and incredible magical power.`
     },
 { //True 'Etoile' - Complete
         id: 107401,
@@ -19141,7 +19141,7 @@ const EquipInformation = [
             },
         lore: `The trees planted in the magnificent garden of the Gran Verge palace were all so special that any ordinary blade could not cut them. This magic saw was prepared for that purpose. Normally, it was activated with the weak magical power that flowed through it's user's body and then used to cut the trees in the garden. However, there was one gardener with an incredible amount of magical power who proved that the magic saw could also be used as a deadly weapon.`
     },
-{ //Loyal Santa Vox Plushie - Missing .....
+{ //Loyal Santa Vox Plushie - Complete
         id: 107421,
         name: `Loyal Santa Vox Plushie`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -19155,20 +19155,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `7s CT - CRI Mode: Increases own CRI rate by 100% for 10s. Arts gauge Mode: Auto-fills own Arts gauge by 2 for 10s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `This is a plushie that resembles Vox, the former leader of the Leone Templars. The girl finished making the presents for the Templar members and looked at the plushies she just made. After thinking for a while, she started making another one. She gently added the last swordsman to the others. Made from her special feelings, this plushie brought a heartwarming night to the winter wonderland in Granadia.`
     },
 { //Santa Wizard Berwick Plushie - Complete
         id: 107431,
@@ -19286,7 +19286,7 @@ const EquipInformation = [
             },
         lore: `The plushie that resembles Duke, the brave warrior of the Templars. The strong knight who led the way of his knights on countless battlefields became a very cute red-nosed reindeer plushie, made by her hands. He did not seem so happy receiving this gift at first, but since he had it with him the whole time at the party, the Princess concluded that he really loved it.`
     },
-{ //Strawberry Cake Rosetta Plushie - Missing .....
+{ //Strawberry Cake Rosetta Plushie - Complete
         id: 107471,
         name: `Strawberry Cake Rosetta Plushie`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -19300,22 +19300,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `45s CT - Auto-fills all allies' Arts gauge by 3 for 10s. If user is Demon, reduces own Skill CT by 120% for 10s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `A plush toy in the likeness of the genius sorcerer Rosetta. The Princess had heard of a custom in another world where one would celebrate a holy night by feasting with a loved one. To show her gratitude and love for Rosetta, who was both her knight and her best friend, she sent her plush with a cake design. On the day of the festival, Rosetta and the Princess had tea amid the laughter of the Templars and chatted the day away.`
     },
-{ //Giftbox Leone Plushie - Missing .....
+{ //Giftbox Leone Plushie - Complete
         id: 107481,
         name: `Giftbox Leone Plushie`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -19329,20 +19329,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `90s CT - Increases all allies' CRI rate by 130% for 10s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `Granadia's young princess Leone made this plush toy for Christmas, a festival from another world. After finding out that it was a festival spent with loved ones, she decided to hold a party with the Templars. She wanted to make individual presents for everyone too, so she started knitting away to make plush toys in everyone's likeness. This winter should bring happy memories for Leone and all her knights.`
     },
 { //Rus' Happy Doll - Complete
         id: 107491,
@@ -20453,7 +20453,7 @@ const EquipInformation = [
             },
         lore: `Part of an automatic defense system discovered in an underwound ruin, implanted with Eed's bioengineered cells. It boasts incredible regenerative agility but will grow around its holder if left undisturbed. Should this happen, they will be granted with both impervious defense and an overwhelming urge to battle.`
     },
-{ //Astral Robe 'Axis' - Missing .....
+{ //Astral Robe 'Axis' - Complete
         id: 107871,
         name: `Astral Robe 'Axis'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -20467,20 +20467,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `65s CT - Increases target's Arts gauge by 100. Additionally, increases target's Arts DMG by 10% for 15s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Dark resistance 5% UP.`
             },
-        lore: ``
+        lore: `Garb worn by Leone, the young princess of Granadia. It was once her sister's until she perished in the Sea of Trees, then it was altered to fit her. She's more confident when she wears it since she feels like her sister is watching over her when she does. That's why she brings it to nearly every national event. And although she isn't aware of it, it was the remnants of her sister's power in the robe that controlled her blood rage at the Coffin Ritual.`
     },
 { //Scatter-18 - Missing .....
         id: 107881,
@@ -20864,7 +20864,7 @@ const EquipInformation = [
             },
         lore: `A short sword masterfully crafted in a massive kiln by the Ancients. It is made of an impossible metal, said to need heat millions of times stronger than the sun to forge. The blade itself also bears three high-ranking Crests layered over each other. This lets it synergize with the powers of its owner, making it much more than a mere dagger.`
     },
-{ //Eclipse Crown 'Todestrieb' - Missing .....
+{ //Eclipse Crown 'Todestrieb' - Complete
         id: 108011,
         name: `Eclipse Crown 'Todestrieb'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -20878,20 +20878,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `50s CT - Increases all Allies' DMG by 35% for 12s. If user is a Light unit, increase DMG 15% more.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Seal Time Reduction & Seal Evasion rate 20% UP.`
             },
-        lore: ``
+        lore: `The crown belonging to Queen Juno of Granadia. Though it has seen the birth and death of stars, legends tell that its luster shall never fade. Records of her ancestor receiving it from the Ancients were eventually found, becoming proof of the Ancients being cooperative with races outside of their own. To prevent theft, replicas of the crown were made while the original was hidden.`
     },
 { //JP Equip Name (Ashe's Farmable) - Missing .....
         id: 108021,
@@ -21009,7 +21009,7 @@ const EquipInformation = [
             },
         lore: `The Third Lady of Bamint, Mira, has appeared once again to take it easy at the beach after inviting Rayas and the others to come along. Standing on the pure white beach with her exotic outfit on display, she took in the ocean breeze. Thought she initially hesitated to join Rayas and the others in the water due to her outfit being something a tropical dancer would wear, she ended up running over to join them. With a smile brighter than any sun, she brings a vibrance to a midsummer trip that no one else could.`
     },
-{ //Fen's Beach Sunglasses - Missing .....
+{ //Fen's Beach Sunglasses - Complete
         id: 108061,
         name: `Fen's Beach Sunglasses`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -21023,20 +21023,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `40s CT - Increases target's Arts gauge by 40. Auto-fills all allies' Arts gauge by 3 for 8s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `Upon hearing that Rayas and the others would be going to the beach once again this year, Master Strategist Fen decide to escort them. Supposedly, he has come to the realization that there is no one else besides him who is capable of taking care of them. In a completely different style than that of before, Fen has come to escort them this time in a more relaxed manner and much more relaxed clothing. As he lifted up his sunglasses while looking out over the others playing in the water, he quietly said to himself "Ah... I forgot to bring Ru with me..."`
     },
 { //Serah's Almighty Cute Maid Swimsuit - Complete
         id: 108071,
@@ -21228,20 +21228,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 60,
+                atk: 30,
+                def: 30
             },
         skillset:  
             {
-                skill: ``,
+                skill: `30s CT - Auto-fills all allies' Arts gauge by 2 for 10s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `ATK 5% UP.`
             },
-        lore: ``
+        lore: `Noel's boots, made to be comfortable and sturdy enough to wear on long missions. The Zero Guard's outfitters make all their accoutrements by hand, a lengthy and laborious process. This applies to the shoes as well which are molded to each soldier's unique fit and gait. However, that effort grants them sure footing o even the roughest paths.`
     },
 { //Interlocking Edges 'Velocity' - Missing .....
         id: 108141,
@@ -21359,7 +21359,7 @@ const EquipInformation = [
             },
         lore: `It was summer, when the royal children longed for freedom in body and spirit. Running along the white coastline and diving into the blue waters helped relieve the stress of their daily duties. Cestina returned to her favorite beach in her favorite swimsuit, and this time with Luahn. All of the siblings together at last had the makings of the best summer ever. Though she wanted to plan something special, she also thought it just as productive to jump right in.`
     },
-{ //Liza's Pearly One-Piece - Missing .....
+{ //Liza's Pearly One-Piece - Complete
         id: 108181,
         name: `Liza's Pearly One-Piece`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -21373,20 +21373,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `35s CT - Increases all allies' Arts gauge by 30. Increases Light & Dark units' ATK by 30% for 10s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `Liza waited for her younger siblings by the castle early in the morning. It wasn't because she was looking forward to visiting the beach; she was simply doing her duty as the oldest. In truth, she found the whole idea of sunburn-risking leisure to be illogical. That was why instead of packing her swimsuit, she wore it beneath her clothes. It was more sensible than needing to change into later, of course -- certainly not a sign of anticipation.`
     },
 { //Orvell's Sunny Trunks - Complete
         id: 108191,
@@ -21794,7 +21794,7 @@ const EquipInformation = [
             },
         lore: `A dress belonging to Juno, the first queen of Granadia. It was said she wore it at every major ceremony. Though made of thick, sturdy fabric, it was as light as a feather. This meant the skirt's hem swayed with each step, earning her many comparisons to a black lily in the breeze. It was also a superior magic catalyst that transformed to match her needs in combat. This outfit always gave support to the mighty ruler when she needed it most.`
     },
-{ //Majestic Crest - Missing .....
+{ //Majestic Crest - Complete
         id: 108331,
         name: `Majestic Crest`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -21808,20 +21808,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 60,
+                atk: 30,
+                def: 30
             },
         skillset:  
             {
-                skill: ``,
+                skill: `30s CT - Increases all allies Arts gauge by 12. If user is Light, all allies recover 10% of their HP.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `DEF 5% UP.`
             },
-        lore: ``
+        lore: `A shiny brooch awarded to Juno from her supporters to commemorate Granadia's founding. Painstakingly crafted form a special alloy with techniques advanced fro the era, it granted a number of benefits such as magic amplification. The great joy she felt in receiving this gift renewed her conviction to become a queen worthy of such warmhearted people.`
     },
 { //Smashing Heart 'MorNyan Star' - Complete
         id: 108341,
@@ -21910,7 +21910,7 @@ const EquipInformation = [
             },
         lore: `Headgear that amplifies intellect and concentration. A gentle warmth stimulates blood flow in the cranium, both activating brain cells and relieving stress. Although it sets up the perfect conditions for inspiration to strike, it also makes the wearer crave sweets. Careful use must be exercised for the waistline's sake.`
     },
-{ //Cestina's Scrubs - Missing .....
+{ //Cestina's Scrubs - Complete
         id: 108371,
         name: `Cestina's Scrubs`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -21924,20 +21924,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 60,
+                atk: 30,
+                def: 30
             },
         skillset:  
             {
-                skill: ``,
+                skill: `35s CT - Auto-fills allies' Arts gauge by 2 & negates DMG taken for a total of 800 for 10s. (Only once).`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `Cestina pondered what to wear for the costume party. As royalty, it would have been improper to wear anything too outrageous, but her sister warned against wasting a rare opportunity to show her inner aspirations. In her youth, she adored the white vestments of the healers, compassionately bringing relief to the suffering. Normally they were the only ones allowed to wear them, but they made an exception for one night.`
     },
 { //Angelas' Royal Dress - Complete
         id: 108381,
@@ -22026,7 +22026,7 @@ const EquipInformation = [
             },
         lore: `"I shall be number one." The city was abuzz with word that whoever was voted to have the best costume at the upcoming party would receive a prize from the royal family. She believed winning would take those fools down a peg and place revenge in her grasp. Climbing to the top of the castle, she declared victory in a bold performance that sang her praises. However, when it came time to actually reveal her attraction, she resorted to a forbidden tactic: relying upon the charm of a cute kitty.`
     },
-{ //Liza's Smart Skirt - Missing .....
+{ //Liza's Smart Skirt - Complete
         id: 108411,
         name: `Liza's Smart Skirt`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -22040,20 +22040,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `30s CT - Auto-fills all allies' Arts gauge by 3 & Increases all Stats by 20% for 10s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `While Liza systematically organized the otherworld data in the tower, their custom of costume parties caught her interest. By letting attendees dress however they wanted, everyone could have fun regardless of status. Enthusiastically taking initiative, she made her own costume to spread the word. The one she chose was the uniform of educated women in the outside world symbolizing knowledge and maturity.`
     },
 { //Orvell's Sailor Shirt - Complete
         id: 108421,
@@ -22404,7 +22404,7 @@ const EquipInformation = [
             },
         lore: `A doll fashioned after Princess Cestina of Gran Verge for their Christmas celebration. Her servant, the dexterous Radak, created it after much trial and error despite what its incredible craftsmanship might suggest. As a doll enthusiast, his candlelight toil moved her so much that she baked a variety of seasonal treats to encourage him.`
     },
-{ //Santa Liza, Seeking Wisdom - Missing .....
+{ //Santa Liza, Seeking Wisdom - Complete
         id: 108551,
         name: `Santa Liza, Seeking Wisdom`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -22418,20 +22418,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `20s CT - Increases all allies' Arts gauge by 20. Increases all allies' Magic DMG by 30% for 8s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `A doll fashioned after Princess Liza of Gran Verge for their Christmas celebration. Radak made it according to Liza's unreasonable specifications, taking her statement of "Gods are in the details" literally. Its utter perfection -- from the choice of materials to the precise measurements -- was said to have elicited a rare shout of wonder from her lips.`
     },
 { //Santa Orvell, Standing Firm - Missing .....
         id: 108561,
@@ -24066,7 +24066,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Jade Star 'Le Courage' - Missing .....
+{ //Jade Star 'Le Courage' - Complete
         id: 109141,
         name: `Jade Star 'Le Courage'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -24080,20 +24080,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 60,
+                atk: 30,
+                def: 30
             },
         skillset:  
             {
-                skill: ``,
+                skill: `40s CT - Auto-fills target's Arts gauge by 3 for 10s. If the user is an Earth unit, reduces target's DMG taken by 10% for 10s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Freeze Time Reduction & Freeze Evasion rate 10% UP.`
             },
-        lore: ``
+        lore: `The battle dress of Cestina, second princess of Gran Verge. Unwilling to compromise comfort or protection, she asked her older sister for help in creating a loom that weaves magic directly into the fabric. This is how it can grant extra protection in response to her will while sporting a breezy, sleeveless design.`
     },
 { //Spectral Talon - Missing .....
         id: 109151,
@@ -24153,7 +24153,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Hart's Waistline Headline - Missing .....
+{ //Hart's Waistline Headline - Complete
         id: 109171,
         name: `Hart's Waistline Headline`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -24167,20 +24167,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `40s CT - Increases target's Arts gauge by 80. Increases target's Magic DMG by 80% for 12s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `A pair of swimming trunks with a unique newsprint pattern. Vultee told Hart he needed a more enticing look if he wanted to make some real summer memories. On the other hand, the women in his life praised how it matched his well-read nature. This caused Hart to smile bashfully... and Vultee to seethe ineffectually.`
     },
 { //Priscilla's Summer Stakes - Complete
         id: 109181,
@@ -24589,7 +24589,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Leone's Precious One-Piece - Missing .....
+{ //Leone's Precious One-Piece - Complete
         id: 109321,
         name: `Leone's Precious One-Piece`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -24603,20 +24603,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `40s CT - Increases Arts gauge by 40 for the lowest gauge unit. Auto-fills all allies' Arts gauge by 3 for 10s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `Cute swimwear belonging to Leone, princess of Granadia. Although she first hid in the shade, the listening sands and beckoning waves had coaxed her onto the beach beofre she knew it. Tired from playing all day, the swaying of the carriage soon rocked her to sleep beneath the warm smiles of the Templars.`
     },
 { //Juno's Seafoam Pareo - Complete
         id: 109331,
@@ -24647,7 +24647,7 @@ const EquipInformation = [
             },
         lore: `A graceful ensembel worn by the queen of Granadia, Juno. As part of summer vacation for her Templars (minus Berwick), she decided to surprise Leone by taking her to beach in secret. Despite a few unexpected happenings, her plan ended succesfully. While watching her dear sister and her dependable guardians at play, she renewed her oath to do whatever it took to protect their smiles.`
     },
-{ //Blue Ray Vox - Missing .....
+{ //Blue Ray Vox - Complete
         id: 109341,
         name: `Blue Ray Vox`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -24661,20 +24661,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `30s CT - Increases all allies' Skill CT speed & Water DMG by 50% for 15s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `Camouflage-patterned swim trunks for Vox, captain of the Juno Templars. his oath to protect Juno remained strong even during the relaxed vacation mood. Not even fun in the sun would keep him from carrying out his duties as a knight, such as rescuing the princess from the roving monsters. This display of unwavering commitment also helped close the distance between the two ever so slightly.`
     },
 { //Duke the Legendary - Complete
         id: 109351,
@@ -24792,7 +24792,7 @@ const EquipInformation = [
             },
         lore: `Besides blue waters and white sands underneath the yellow sun, the beach was also home to green monsters. Leone strolled along the shore, enjoying the scent of the breeze with her parasol open wide... utterly unaware a small parade had formed behind her. Though the impish creatures scared her at first, she felt a little sad to say goodbye at day's end. The little parasol is filled with memories of their time together.`
     },
-{ //Diever Boat 2021 Model - Missing .....
+{ //Diever Boat 2021 Model - Complete
         id: 109391,
         name: `Diever Boat 2021 Model`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -24806,20 +24806,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 60,
+                atk: 30,
+                def: 30
             },
         skillset:  
             {
-                skill: ``,
+                skill: `30s CT - Increases targets' Magic DMG & Water DMG by 30% for 10s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `Juno's personal Diever Boat. From the moment she saw it on display, its hydrodynamic form and cute eyes stole her heart. All of the latest features are installed, allowing for realistic Diever movement that instantly responds to its driver. Those who watched her tear through the waves found her greater-than-usual exuberance charming.`
     },
 { //JP Equip Name (Elizabeth's Farmable) - Missing .....
         id: 109401,
@@ -25317,7 +25317,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Hart's Discovery - Missing .....
+{ //Hart's Discovery - Complete
         id: 109571,
         name: `Hart's Discovery`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -25331,20 +25331,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `40s CT - Auto-fills target's Arts gauge by 5 & auto-recovers all allies' HP by 150 for 20s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `The town of Simon's Hill held a costume festival to celebrate the harvest each fall. For the school event, Hart's class chose to open a maid café. Hart originally volunteered to cook, but Vultee's remark of "Y'know, I think you'd look good in a dress." was met with unanimous agreement. Despite his grumbling in the changing room, he couldn't deny that thrilling sensation as he looked himself over in the mirror.`
     },
 { //Priscilla's Maid Dress - Complete
         id: 109581,
@@ -25695,7 +25695,7 @@ const EquipInformation = [
             },
         lore: `A unique outfit from pure magic essence by a master of technology lost to history. Despite the resemblance to regular fabric, not a single stitch or seam can be found. The ethereal nature allows it to change shape as required.`
     },
-{ //Vagrant - Missing .....
+{ //Vagrant - Complete
         id: 109701,
         name: `Vagrant`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -25709,20 +25709,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 60,
+                atk: 30,
+                def: 30
             },
         skillset:  
             {
-                skill: ``,
+                skill: `35s CT - Auto-fills all allies' Arts gauge by 1 & increases Earth units' ATK by 25% for 20s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `DEF 5% UP.`
             },
-        lore: ``
+        lore: `Groitz's boots. The soles are inlaid with crystal fragments that naturally repulse energies in the ground. This repulsion can be adjusted to do anything from muffle footsteps to leap great distances. The fact it does not expect one's own magic reserves makes them all the more convenient.`
     },
 { //Shielding Edge 'Will Craver' - Missing .....
         id: 109711,
@@ -26018,7 +26018,7 @@ const EquipInformation = [
             },
         lore: `A copy of Sky Light, the Sword of Coruscation. The Emperor of Isliid's three blades must be sealed at all times outside of combat, and even imitations are used during ceremonies. The lone exception is the coronation rite due to a customary belief they decide the bearer and thus the nation's master. As a result, some people joke that the true rulers of Isliid are the swords themselves.`
     },
-{ //Terra Master Replica - Missing .....
+{ //Terra Master Replica - Complete
         id: 109811,
         name: `Terra Master Replica`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -26032,20 +26032,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 4000% Light DMG (Physical). Negates all allies' DMG taken for a total of 2000 & auto-fills Arts gauges by 1 for 20s.`,
+                break: 500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `DMG to Humans 20% UP.`
             },
-        lore: ``
+        lore: `A copy of Terra Master, the Sword of Control. While inferior to the original, the edge is still incredibly keen, and it has been enchanted with near-weightlessness. Long symbolizing the Human race's ability to forge the future, it is most synonymous with imperial might among the Emperor's three blades.`
     },
 { //Dark Bringer Replica - Missing .....
         id: 109821,
@@ -26090,9 +26090,9 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
@@ -26485,7 +26485,7 @@ const EquipInformation = [
             },
         lore: `A dagger with finely engraved runes across the blade. When thrown, rune magic will activate upon striking the target. The rarity of this technique combined with its wide range of effect easily catches opponents unawares. It can also return to the wielder mid-flight for a relentless string of attacks.`
     },
-{ //Mana Recycler - Missing .....
+{ //Mana Recycler - Complete
         id: 109991,
         name: `Mana Recycler`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -26499,20 +26499,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `45s CT - Auto-fills target's Arts gauge by 4 for 25s. If the user is an Earth unit, increases target's Magic DMG by 20% for 25s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Magic DMG from enemy 5% DOWN.`
             },
-        lore: ``
+        lore: `A cloak made to contain magical power. Spellcasters must concentrate to have energy ready for use, but this also causes inevitable seepage. The inner lining keeps such loss to a minimum by redirecting it back into the body.`
     },
 { //Mana Messenger - Complete
         id: 110001,
@@ -26631,7 +26631,7 @@ const EquipInformation = [
             },
         lore: `A two-handed sword imbued with the power of light and flame. Once stored in the kingdom's treasury, an aged soldier took it with permission and lent it to his granddaughter. Each swing creates a blazing stream for attacks which are difficult to dodge and fatal upon direct contact. Many who witness the girl wrapped in the weapon's fire say she resembles its proper owner, the Hero of Famelle Zeorg, in his younger days.`
     },
-{ //Long-Eared Crown - Missing .....
+{ //Long-Eared Crown - Complete.
         id: 110041,
         name: `Long-Eared Crown`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -26645,20 +26645,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 60,
+                atk: 30,
+                def: 30
             },
         skillset:  
             {
-                skill: ``,
+                skill: `40s CT - Increases all allies' Arts gauge by 20. If the user is a Fire unit, increases Arts DMG by 20% for 8s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `ATK 5% UP.`
             },
-        lore: ``
+        lore: `Rabbit-shaped headgear belonging to Charlotte. It absorbs magic energy in the air to relieve the wearer's fatigue. Many believe this is what lets her wield a sword the size of her body with ease. However, she keeps it on even outside of battle for the simple reason that she likes bunnies.`
     },
 { //JP Equip Name (Flogassa Raid Equip) - Missing ..... (110061 = Flogassa EV Equip)
         id: 110051,
@@ -27414,7 +27414,7 @@ const EquipInformation = [
             },
         lore: `Regulation-size equipment for beach battleball, a combination of volleyball and martial arts. The maker claims it can withstand the weight of a dragon. Some joke about building castle walls with them, but the same super-tough ore used in barriers and ramparts is mixed into the flexible coating. Getting hit by one seriously hurts.`
     },
-{ //Ces' Sandy Blossom - Missing .....
+{ //Ces' Sandy Blossom - Complete
         id: 110331,
         name: `Ces' Sandy Blossom`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -27428,20 +27428,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `85s CT - Increases all allies' Arts gauge by 50. Auto-fills all allies' Arts gauge by 2 for 25s (First time only).`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `A swimsuit with a design inspired by tropical flowers. Cestina purchased it on impulse only to realize how skimpy it was after returning home. She hid it deep inside her wardrobe, but a sudden change of heart struck her moments before departure. That delay while she ran back to the castle gave her siblings reason enough for teasing along the journey.`
     },
 { //Super Douser - Missing .....
         id: 110341,
@@ -27646,7 +27646,7 @@ const EquipInformation = [
             },
         lore: `An inflatable raft for two. The stability and comfort its large size offers makes it perfect for floating on the waves, but it needs a lot of time and air to fill. Eagle was silently flattered they borrowed the shape of his shield for the design, but he was unamused by the turtle-like caricature.`
     },
-{ //Magisteel-Toe Boots - Missing .....
+{ //Magisteel-Toe Boots - Complete
         id: 110411,
         name: `Magisteel-Toe Boots`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -27660,20 +27660,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `40s CT - Auto-fills all allies' Arts gauges by 3 & increases all allies' HP recovery amount 15% UP for 10s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Water resistance 5% UP.`
             },
-        lore: ``
+        lore: `Hart's favorite pair of boots. Their standard appearance belies a special composition designed for mages. Its magically charged laces fed the gravity-control spell in the soles for extra agility, or they can be wrapped around the wearer's arms for a boost of energy. However, his first attempt at the latter saw him immediately trip over the loosened flaps, so he never did it again.`
     },
 { //JP Equip Name (Ragsherum Mines Equip) - Missing .....
         id: 110421,
@@ -27909,7 +27909,7 @@ const EquipInformation = [
             },
         lore: `A white dress Valerie chose for the summer. She tended towards the casual style of shirts and pants, but Charlotte pressured her into a more feminine look. Its breeziness was a bit uncomfortable, but as she watched the long hem twirl around her legs in the mirror, she began to understand the appeal.`
     },
-{ //Forte's Gothic Straps - Missing .....
+{ //Forte's Gothic Straps - Complete
         id: 110501,
         name: `Forte's Gothic Straps`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -27923,20 +27923,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `30s CT - Increases Human units' Arts gauges by 30. Increases Human units' DMG by 40% for 12s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `Forte's one-piece swimsuit with a starkly somber design. Her soldiers, assuming the boutique clerk forced the purchase, were flabbergasted when she said it was her own decision. That contrast between the adornments and her stoic nature further enhanced the appeal. Everyone even started imagining what the rest of her private attire might look like.`
     },
 { //Emi's Smooth Streamline - Missing .....
         id: 110511,
@@ -27967,7 +27967,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Groitz's Grotesque Trunks - Missing .....
+{ //Groitz's Grotesque Trunks - Complete
         id: 110521,
         name: `Groitz's Grotesque Trunks`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -27981,20 +27981,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 60,
+                atk: 30,
+                def: 30
             },
         skillset:  
             {
-                skill: ``,
+                skill: `30s CT - Increases all allies' Arts gauge by 20. If the user is an Earth unit, increases ATK by 40% for 10s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `Groitz's repulsive beach shorts. Although he clearly liked the sickly shade of green and creepy skull-and-thorn pattern, everyone else at the beach gave him a wide berth. Emi observed he would be useful in opening a path through the homeward-bound crowds, but that benefit did not outweigh the humiliation of being seen in his company.`
     },
 { //JP Equip Name (Skull Spear Raid Equip?) - Missing .....
         id: 110531,
@@ -30636,7 +30636,7 @@ const EquipInformation = [
             },
         lore: `The favorite weapon of Satsuki Kiryuin. For most weapons its impossbile to cut Life Fibers, but not for Bakuzan. This incredible ability is the result of Satsuki's skill, who can unleash its fullest potential.`
     },
-{ //Fight Club Goku Uniform - Missing .....
+{ //Fight Club Goku Uniform - Complete
         id: 150151,
         name: `Fight Club Goku Uniform`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -30650,20 +30650,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `30s CT - Increases all Allies' Arts Gauge by 30. Increases all Allies' DMG Inflicted by 20% for 10s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `The Two-Star Goku Uniform that was given to Mako Mankanshoku, the president of the Fight Club. She was originally considered a No Star student but unexpectedly revealed battle powers beyond imagination when wearing this Two-Star Goku Uniform.`
     },
 { //Mako-Knuckle - Complete
         id: 150161,
@@ -31187,7 +31187,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Vulture - Missing .....
+{ //Vulture - Complete
         id: 150341,
         name: `Vulture`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -31201,20 +31201,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `60s CT - 5000% Non-Elemental DMG (Physical). Increases all allies' Equipment CT speed & DMG by 35% for 12s.`,
+                break: 1000
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `A war machine discovered in some ruins. A modified version of the Power Suit believed to be specialized for battle. Equipped with a remarkable flight ability and powerful artillery, its offensive capability is far beyond its original state. However, this makes controlling it that much more difficult, and those lacking in natural aptitude are unable to to handle it at all.`
     },
 { //Houtan Bow - Complete
         id: 150351,
@@ -31245,7 +31245,7 @@ const EquipInformation = [
             },
         lore: `A weapon recovered from a newly discovered ruin. The arrowhead has a unique shape and is made of a strange ore called nanometal. Its unique properties grant it strength far beyond that of a standard arrow.`
     },
-{ //Hoverbike - Missing .....
+{ //Hoverbike - Complete
         id: 150361,
         name: `Hoverbike`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -31259,20 +31259,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 60,
+                atk: 30,
+                def: 30
             },
         skillset:  
             {
-                skill: ``,
+                skill: `30s CT - Increases own Arts gauge by 30. Increases Skill CT speed & Accuracy by 50% for 8s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `A vehicle that flies through the air. With its real propulsion device and side attitude control devices, it can be maneuvered in a wide variety of ways. The cannon on the front gives it even greater utility, letting it be used for combat as well as for scouting.`
     },
 { //King Ghidorah - Complete
         id: 150371,
@@ -31361,7 +31361,7 @@ const EquipInformation = [
             },
         lore: `The necklace that Milim, also known as "The Destroyer", wears. It is attached to her clothes, so it can also be counted as part of her clothes. Although it is made simple by just putting a string through three colored comma-shaped beads, Milim's fashion itself is simple, so it seems that this necklace is just her taste.`
     },
-{ //Milim's Clothes - Missing .....
+{ //Milim's Clothes - Complete
         id: 150401,
         name: `Milim's Clothes`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -31375,20 +31375,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `45s CT - Increases all Allies' Arts Gauge by 5 for 10s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `The clothes that Milim, the oldest Demon Lord, wears. The key point to her clothes is that it is quite revealing. Having both Demon Lord taste and childish taste to it, it suits Milim very well.`
     },
 { //Benimaru's Clothes - Complete
         id: 150411,
@@ -31448,7 +31448,7 @@ const EquipInformation = [
             },
         lore: `The clothes that Rimuru wears during a fight. It was made by dwarf blacksmiths, Garm and Dord, and a Kijin, Shuna. It contains Magicule, so it is stronger than regular cloth and has high protection.`
     },
-{ //Magic-seal Mask - Missing .....
+{ //Magic-seal Mask - Complete
         id: 150431,
         name: `Magic-seal Mask`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -31462,20 +31462,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `35s CT - Increases Target's Arts gauge by 15 for 5s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Reduces Magical DMG Taken by 5%.`
             },
-        lore: ``
+        lore: `The mask that Shizue Izawa, a human from a different world and also known as "Conqueror of Flames" wore. After her death, Rimuru who is also a human from the same world of her has been wearing it. It can seal magic powers. Thus, when Rimuru wears it his Magicules are sealed and will not be recognized as a monster.`
     },
 { //Benimaru's Sword - Complete
         id: 150441,
@@ -31622,7 +31622,7 @@ const EquipInformation = [
             },
         lore: `Priestess carries this holy staff with her daily. It is topped with the sacred symbol of the Earth Mother, and the staff itself is the same height as Priestess. When she uses her miracles, the gold rings sparkle with holy power.`
     },
-{ //Priestess' Robe - Missing .....
+{ //Priestess' Robe - Complete
         id: 150491,
         name: `Priestess' Robe`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -31636,22 +31636,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `40s CT - Increases all Allies' Arts Gauge by 30. Increases all Allies' amount Healed by 50% for 10s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `The sacred garb worn by Priestess. This is the usual robe worn by the devotees of the Earth Mother, adorned with designs fitting a holy servant of the Goddess. After Goblin Slayer recommended it, she began to wear chainmail underneath this robe. Now, she is deeply attached to it.`
     },
-{ //Priestess' Hat - Missing .....
+{ //Priestess' Hat - Complete
         id: 150501,
         name: `Priestess' Hat`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -31665,20 +31665,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 60,
+                atk: 30,
+                def: 30
             },
         skillset:  
             {
-                skill: ``,
+                skill: `45s CT - Increases target's Arts gauge by 1 and increases target's Healing actions by 50% (except lifesteal) for 15s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Increases All Allies' Heal Amount by 5% (except lifesteal).`
             },
-        lore: ``
+        lore: `This is a hat worn by those who dedicate their lives to the Earth Mother. Just like the robe, this hat is protected by divine power and helps defend the holy believer’s good works. The design matches the robe, with a clean, simple appearance.`
     },
 { //Elven Bow - Complete
         id: 150511,
@@ -31723,20 +31723,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `30s CT - Increases all Allies' Skill CT Speed by 60% for 15s. Humans, Spirits, or Dragons get an additional 20%.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `The High Elf Archer wears this clothing on her adventures. It is light and well fitted, but it is made from materials that offer good defense in battle. In addition, her mantle hides the obsidian knives sheathed at her hips.`
     },
 { //Demon Sword 'Desiderium' - Complete
         id: 150531,
@@ -31767,7 +31767,7 @@ const EquipInformation = [
             },
         lore: `This demon sword was sealed in an ancient ruin. The sword itself is mediocre, but it is filled with magic power which allows the wielder to cut only what really has to be cut. An old story even narrates of an adventurer who slew many monsters killing only the evil spirits possessing them, but nobody knows if it is true. However, judging by the mysterious glow of the blade, everyone would believe that story is true.`
     },
-{ //Hellish Blizzard's Necklace - Missing .....
+{ //Hellish Blizzard's Necklace - Complete
         id: 150541,
         name: `Hellish Blizzard's Necklace`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -31781,20 +31781,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 60,
+                atk: 30,
+                def: 30
             },
         skillset:  
             {
-                skill: ``,
+                skill: `40s CT - Increases all Allies' Magical DMG by 20% and Equipment DMG by 30% for 10s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `The necklace worn by the B-Class Rank-1 Hero, Hellish Blizzard.`
     },
 { //Hellish Blizzard's Coat - Complete
         id: 150551,
@@ -31941,7 +31941,7 @@ const EquipInformation = [
             },
         lore: `The trademark mask of Speed-o'-Sound Sonic.`
     },
-{ //Sonic's Scarf - Missing .....
+{ //Sonic's Scarf - Complete
         id: 150601,
         name: `Sonic's Scarf`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -31955,20 +31955,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 60,
+                atk: 30,
+                def: 30
             },
         skillset:  
             {
-                skill: ``,
+                skill: `30s CT - Increases Target's Critical Rate by 100% for 8s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Increases Physical ATK Evasion Rate by 5%.`
             },
-        lore: ``
+        lore: `The scarf of Speed-o'-Sound Sonic.`
     },
 { //Crunchyroll-Hime's Bow - Missing .....
         id: 150611,
@@ -31999,7 +31999,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Crunchyroll-Hime's Boots - Missing .....
+{ //Crunchyroll-Hime's Boots - Complete
         id: 150621,
         name: `Crunchyroll-Hime's Boots`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -32013,20 +32013,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `45s CT - Increases Target's DMG by 30% and Arts gauge by 4 for 15s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `You've never seen more sturdy boots! Hime moves faster than the Speed of Japan, and some strong boots are necessary for the amount of land she's covering. Wearing these boots will make you feel like you can tun non-stop for days, without breaking a sweat.`
     },
 { //Crunchyroll-Hime's Clothes - Complete
         id: 150631,
@@ -32115,7 +32115,7 @@ const EquipInformation = [
             },
         lore: `The battle uniform (female ver.) of Nudist Beach, an organization that opposes the threat of Life Fibers. Being a rebel organization, they hardly or never wear any clothes and instead wear this battle uniform and fight to free humans from clothes.`
     },
-{ //Priestess' Boots - Missing .....
+{ //Priestess' Boots - Complete
         id: 150661,
         name: `Priestess' Boots`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -32129,20 +32129,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `30s CT - Mode Changes: Arts Mode: Auto-fills Target's Arts Gauge by 8 for 15s. DEF Mode: Reduces Target's DMG taken by 10% and Dark Elemental DMG taken by 10% for 15s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `These are the boots of the Priestess, who dedicates her life to the Earth Mother. Once saved by Goblin Slayer, she followed his advice and purchased useful equipment. These boots fit her very well, and she takes excellent care of it. These beautiful boots representing her dignity as a priestess tells us how much her and Goblin Slayer are prepared for their adventures.`
     },
 { //Goblin Slayer's Shield - Complete
         id: 150671,
@@ -32348,7 +32348,7 @@ const EquipInformation = [
             },
         lore: `Filo's hair accessory that Naofumi Iwatani made for her. He endowed it with speed increasing powers and chose to make it a hairpin since it was unlikely to fall off when Filo transforms... so he says.`
     },
-{ //Melty's Dress - Missing .....
+{ //Melty's Dress - Complete
         id: 150741,
         name: `Melty's Dress`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -32362,22 +32362,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `40s CT - Auto-fills all Allies' Arts gauge by 6 for 7s. Reduces all Allies' DMG from enemy by 10% for 7s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `Melty's plain dresswear of choice. Its elegant design perfectly matches the second princess' noble tastes.`
     },
-{ //Puu - Missing .....
+{ //Puu - Complete
         id: 150751,
         name: `Puu`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -32391,20 +32391,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `40s CT - Auto-fills target's Arts gauge by 5 & HP Auto-recovery by 200 for 15s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Own DEF 5% UP.`
             },
-        lore: ``
+        lore: `A Spirit Realm beast that uses Yusuke Urameshi's heart as his life force. His cute appearance belies his immeasurable potential. Since Puu's life is linked to his master Yusuke's, changes in Yusuke's condition are also reflected in Puu's body. This helps Puu notice right away when there is danger, so that he can fly straight to his master's side. Puu is greatly influenced by his master's heart, leading him to do things like using barriers to protect his allies form evil Demonic Energy.`
     },
 { //The Sword of Trials - Complete
         id: 150761,
@@ -32551,7 +32551,7 @@ const EquipInformation = [
             },
         lore: `An Imperial Army bayonet used by Sugimoto Saichi. While it can be attached to the tip of a rifle, it can also be used as a handled sword or a regular knife too. This bayonet has survived death many times with Sugimoto, to the point that it could be considered a part of his body.`
     },
-{ //Asirpa's Hunting Knife - Missing .....
+{ //Asirpa's Hunting Knife - Complete
         id: 150811,
         name: `Asirpa's Hunting Knife`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -32565,22 +32565,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `40s CT - Increases all allies' Arts gauge by 20. For 10s, auto-fills all allies' Arts gauge by 2 & increases Break power by 30%.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `Asirpa's beloved tashiro, a kind of Ainu hunting knife. It can be used for anything from cooking to crafting tools needed in the mountains. It is incredibly versatile when used with the knowledge of the Ainu people, which has been passed down from generation to generation.`
     },
-{ //Hijikata's Clothes - Missing .....
+{ //Hijikata's Clothes - Complete
         id: 150821,
         name: `Hijikata's Clothes`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -32594,20 +32594,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 60,
+                atk: 30,
+                def: 30
             },
         skillset:  
             {
-                skill: ``,
+                skill: `65s CT - Increases all allies' DMG by 25% & Physical DMG by 20% for 10s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Light resistance 5% UP.`
             },
-        lore: ``
+        lore: `The clothing worn by Toshizo Hijikata of the Shinsengumi during the last days of the Tokugawa shogunate. The Merciless Vice-Commander, as his nickname goes, is sprightly despite his age and wields his sword in these western-style garments. When Hijikata puts these on, he gives off an incredible air of dignity.`
     },
 { //Hero Belt - Complete
         id: 150831,
@@ -32756,7 +32756,7 @@ const EquipInformation = [
             },
         lore: `The 'Spirit User' Emilia's cloak. There are cat ears on the hood.`
     },
-{ //Beatrice's Ribbon - Missing .....
+{ //Beatrice's Ribbon - Complete
         id: 150881,
         name: `Beatrice's Ribbon`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -32770,20 +32770,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `50s CT - Auto-fills target's Arts gauge by 5 for 5s. If user is Dark, increases Arts DMG by 15% for 15s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Light Resistance 5% UP.`
             },
-        lore: ``
+        lore: `The frilly pink ribbons that hold up the twin drills of the Forbidden Library's caretaker. It must take a long time to curl that hair every day.`
     },
 { //True 'Beatrice's Ribbon' - Complete
         id: 150891,
@@ -32977,20 +32977,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `30s CT - Increases all allies' Arts gauge by 20. Increases all allies' ATK & DMG by 30% for 10s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `Plushies of Rem and Ram. Now they can be together forever.`
     },
 { //Puck's Pouch - Complete
         id: 150961,
@@ -33079,7 +33079,7 @@ const EquipInformation = [
             },
         lore: `The uniform centerpiece for servants of the Roswaal household. For some reason, there is a lot of female stock but male uniforms are in scarce supply.`
     },
-{ //Rimuru's Santa Suit - Missing .....
+{ //Rimuru's Santa Suit - Complete
         id: 150991,
         name: `Rimuru's Santa Suit`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -33093,20 +33093,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `120s CT - Increase all allies' Arts gauge by 40. Auto-fills Demon units' Arts gauge by 6 for 5s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `A Christmas outfit prepared by the people of Reigrad for Rimuru. Although it was made to thank Rimuru for defeating the beasts, it was very uncomfortable that the people thought Rimuru was very cute in the outfit.`
     },
 { //Milim's Santa Coat - Complete
         id: 151001,
@@ -33253,7 +33253,7 @@ const EquipInformation = [
             },
         lore: `Cute Red boots prepared by the townspeople to match Milim's Santa outfit. Despite how they look, they are sturdy enough to defend against any attack, mostly her own.`
     },
-{ //Rimuru's Haori - Missing .....
+{ //Rimuru's Haori - Complete
         id: 151051,
         name: `Rimuru's Haori`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -33267,20 +33267,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `120s CT - Increases all allies' CRI rate by 100% & Demon units' DMG by 50% for 10s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `Rimuru made this based on past New Year memories after seeing Reigrad's celebration. Though an unfamiliar design in Raktehelm, its dignified look left an impression on the other men. There are even rumors they'll adopt it for future New Year's festivals.`
     },
 { //Milim's Kimono - Complete
         id: 151061,
@@ -33456,7 +33456,7 @@ const EquipInformation = [
             },
         lore: `The favorite vegetable of the electronic diva Hatsune Miku. It won't break after millions of swings, always staying fresh and springy. It doesn't actually exist in her world; she received it from a higher being called The Maestro. In her hands, it moves at a steady tempo like a conductor's baton.`
     },
-{ //Miku's Headphones - Missing .....
+{ //Miku's Headphones - Complete
         id: 151121,
         name: `Miku's Headphones`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -33470,20 +33470,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 60,
+                atk: 30,
+                def: 30
             },
         skillset:  
             {
-                skill: ``,
+                skill: `45s CT - Auto-fills all allies' Arts gauge by 1 & increases Skill CT speed by 30% for 20s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Blind Time Reduction & Blind Evasion rate 10% UP.`
             },
-        lore: ``
+        lore: `The fashionable headphones of electronic diva Hatsune Miku. They contain the memories of The Maestro. Whenever she gives a performance with her beautiful voice, she always puts these on first.`
     },
 { //Miku's Outfit - Complete
         id: 151131,
@@ -33601,7 +33601,7 @@ const EquipInformation = [
             },
         lore: `The signature guitar of the electronic diva Hatsune Miku. Once belonging to a higher being known as The Maestro, it was converted so she could play it after seeing how she loved its color. The sound when she first played it for The Maestro, while she was still an amateur singer, is still vivid in her memory. It is said that its cheerful, dazzling tones can capture the heart of any who hear it.`
     },
-{ //Sakura Miku's Hair Charm - Missing .....
+{ //Sakura Miku's Hair Charm - Complete
         id: 151171,
         name: `Sakura Miku's Hair Charm`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -33615,20 +33615,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `40s CT - Increases target's Arts gauge by 80. If target's Arts gauge hits 200 with this Equip, increases target's stats by 30% for 20s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `Hair accessories worn by Miku when she announced spring's return. There is a special tree in world that symbolizes the start of the season, and these were designed after the fruit that grows on them. When she puts them on, her hair color changes from her usual blue-green to the cheerful pink of cherry blossoms. Her singing voice can then create warm, refreshing breezes that carry petals far and wide. The day she visited Bamint, they saw spring like they had never seen it before.`
     },
 { //Sakura Miku's Outift - Complete
         id: 151181,
@@ -33747,7 +33747,7 @@ const EquipInformation = [
             },
         lore: `Worn by Melty, the second princess of Melromarc. They match the refined elegance of her dress.`
     },
-{ //Filo's Dress - Missing .....
+{ //Filo's Dress - Complete
         id: 151221,
         name: `Filo's Dress`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -33761,20 +33761,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 60,
+                atk: 30,
+                def: 30
             },
         skillset:  
             {
-                skill: ``,
+                skill: `35s CT - Auto-fills target's Arts gauge by 4 for 10s. If the user is Earth, increases target's Physical DMG by 20%.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `Worn by Filo when she is in human form, an ability granted by her status as a Filolial Queen. It is sewn with threads made of her own magical power.`
     },
 { //Yoh's Necklace - Complete
         id: 151231,
@@ -33863,7 +33863,7 @@ const EquipInformation = [
             },
         lore: `A blade forged by a swordsmith for his samurai friend long ago. Although the samurai died before he gave it to him, Asakura Yoh helped make his wish come true 600 years later.`
     },
-{ //Yoh's Headphones - Missing .....
+{ //Yoh's Headphones - Complete
         id: 151261,
         name: `Yoh's Headphones`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -33877,20 +33877,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 60,
+                atk: 30,
+                def: 30
             },
         skillset:  
             {
-                skill: ``,
+                skill: `30s CT - Auto-fills target's Arts gauge by 2 & increases All Stats by 20% for 15s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `The red headphones worn by Asakura Yoh, a shaman who links the physical and spiritual worlds. He uses them to listen to his favorite tunes when he wants to relax.`
     },
 { //Anna's Spirit Beads - Complete
         id: 151271,
@@ -33950,7 +33950,7 @@ const EquipInformation = [
             },
         lore: `The red banadana worn by Kyoyama Anna, the Itako of Osorezan and Asakura Yoh's fiancée.`
     },
-{ //Hao's Earrings - Missing .....
+{ //Hao's Earrings - Complete
         id: 151291,
         name: `Hao's Earrings`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -33964,20 +33964,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `40s CT - Auto-fills all allies' Arts gauge by 2 & increases Gods' DMG by 30% for 20s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `Worn by Hao, the strongest shaman who calls himself the Future King. They are engraved with a star design.`
     },
 { //Yoh's Necklace EV - Complete
         id: 151301,
@@ -34393,7 +34393,7 @@ const EquipInformation = [
             },
         lore: `The vehicle used by Ryuko Matoi to retrieve the pieces of Senketsu after Nui Harime tore him up. Going from Kobe, Kyoto, then to Osaka, she finally went to obtain the last part from Satsuki Kiryuin.`
     },
-{ //Aqua Heartia - Missing .....
+{ //Aqua Heartia - Complete
         id: 151481,
         name: `Aqua Heartia`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -34407,20 +34407,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `30s CT - Auto-fills all allies' Arts gauge by 3 for 10s. Increases Fire, Water & Earth units' ATK by 50% for 10s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `A present from the Boreas Greyrat family to Rudeus on his tenth birthday. Its name means "prideful water dragon". Specially made out of the finest materials by the best staff-maker in the Asura Kingdom, it greatly enhances the effects of any spells.`
     },
 { //Eris' Training Attire - Complete
         id: 151491,
@@ -34627,7 +34627,7 @@ const EquipInformation = [
             },
         lore: `The vest worn by Natsu Dragneel of the wizard guild Fairy Tail.`
     },
-{ //Lucy's Top - Missing .....
+{ //Lucy's Top - Complete
         id: 151561,
         name: `Lucy's Top`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -34641,20 +34641,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `20s CT - Auto-fills all allies' Arts gauge by 2 for 8s. Increases CRI DMG by the usage count x15% (MAX 60%) for 8s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `Worn by Lucy Heartfilia of the wizard guild Fairy Tail.`
     },
 { //Celestial Gate Key - Complete
         id: 151571,
@@ -34918,7 +34918,7 @@ const EquipInformation = [
             },
         lore: `The everyday outfit worn by Erza Scarlet of the wizard guild Fairy Tail.`
     },
-{ //Miku's Headphones EV - Missing .....
+{ //Miku's Headphones EV - Complete
         id: 151661,
         name: `Miku's Headphones EV`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -34930,22 +34930,23 @@ const EquipInformation = [
                 thumb: ``,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_151661.png`
             },
-        stats:
+            stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 60,
+                atk: 30,
+                def: 30
             },
         skillset:  
             {
-                skill: ``,
+                skill: `45s CT - Auto-fills all allies' Arts gauge by 1 & increases Skill CT speed by 30% for 20s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Blind Time Reduction & Blind Evasion rate 10% UP.`,
+                ability2: [`DMG to Fire enemy 5% UP.`, `DMG to Fire enemy 10% UP.`, `Break power 2% UP.`, `DMG 5% UP when Near-Death.`, `ATK 5% UP.`, `DEF 5% UP.`]
             },
-        lore: ``
+        lore: `The fashionable headphones of electronic diva Hatsune Miku. They contain the memories of The Maestro. Whenever she gives a performance with her beautiful voice, she always puts these on first.`
     },
 { //Rin Plushie EV - Complete
         id: 151671,
@@ -35036,7 +35037,7 @@ const EquipInformation = [
             },
         lore: `The other Scissor Blade taken by Nui Harime when she attacked Isshin Matoi's lab. Unlike Ryuko's, it is colored purple.`
     },
-{ //Nui's Dress - Missing .....
+{ //Nui's Dress - Complete
         id: 151701,
         name: `Nui's Dress`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -35050,20 +35051,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `30s CT - Auto-fills all allies' Arts gauge by 3 & increases Demons units' ATK by 50% for 10s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `Nui Harime's pink one-piece lolita-style dress. Unlike the Kamui or Goku Uniforms, it is not made from Life Fibers.`
     },
 { //Nui's Eyepatch - Complete
         id: 151711,
@@ -35123,7 +35124,7 @@ const EquipInformation = [
             },
         lore: `The parasol carried by Nui Harime. Its surprising durability once blacked a direct attack from Uzu Sanageyama in his Blade Regalia.`
     },
-{ //Bunny Pajamas - Missing .....
+{ //Bunny Pajamas - Complete
         id: 151731,
         name: `Bunny Pajamas`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -35137,20 +35138,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `65s CT - Auto-fills target's Arts gauge by 15 & negates all allies' DMG taken for a total of 2000 for 10s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `Cute sleepwear Ryuko wore when she spent the night at the Mankanshoku household. She also showed up to Honnouji Academy's No-Tardies Day in it since she needed to wash Senketsu early that morning.`
     },
 { //Seki Tekko - Complete
         id: 151741,
@@ -35489,9 +35490,9 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 60,
+                atk: 30,
+                def: 30
             },
         skillset:  
             {
@@ -35504,7 +35505,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-{ //Toman Flag - Missing .....
+{ //Toman Flag - Complete
         id: 151861,
         name: `Toman Flag`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -35518,20 +35519,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `35s CT - Increases all allies' Arts gauge by 25. Increases Human units' ATK by 35% for 10s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `DEF 5% UP.`
             },
-        lore: ``
+        lore: `The Tokyo Manji Gang's flag. The standard bearer was Pah-chin, one of the founding members.`
     },
 { //Mikey's Ride - Complete
         id: 151871,
@@ -35591,7 +35592,7 @@ const EquipInformation = [
             },
         lore: `A long shirt with a checked pattern. Despite his terrifying reputation, Mikey has a childish side which does things like demand a flag on top of his kid's meal.`
     },
-{ //Mikey's Jimbei - Missing .....
+{ //Mikey's Jimbei - Complete
         id: 151891,
         name: `Mikey's Jimbei`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -35605,20 +35606,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `30s CT - Increases all allies' Arts gauge by 30. Increases Dark units' DMG by 40% for 8s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `What Mikey wore during the brawl with Moebius on August 3rd. He managed to show Peh-yan who had detected the error of his ways.`
     },
 { //Mitsuya's Ride - Complete
         id: 151901,
@@ -35663,9 +35664,9 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 60,
+                atk: 30,
+                def: 30
             },
         skillset:  
             {
@@ -35881,7 +35882,7 @@ const EquipInformation = [
             },
         lore: `A Hemiteos Unit high-mobility military support vehicle used by Empress. On-board AI gives it the ability to speak, although bluntly.`
     },
-{ //Empress' Outfit - Missing .....
+{ //Empress' Outfit - Complete
         id: 151991,
         name: `Empress' Outfit`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -35895,20 +35896,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 60,
+                atk: 30,
+                def: 30
             },
         skillset:  
             {
-                skill: ``,
+                skill: `35s CT - Increases all allies' Arts gauge by 15. If the user is a Water unit, reduces all allies' DMG taken by 10% for 15s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `DEF 5% UP.`
             },
-        lore: ``
+        lore: `Combat gear Empress found in a nearby case when she woke up in the year 2062 AD. It is lightweight and customized for a Hemiteos Unit.`
     },
 { //Dead Wing - Complete
         id: 152001,
@@ -35968,7 +35969,7 @@ const EquipInformation = [
             },
         lore: `A Hemiteos Unit high-mobility military support vehicle used by Dead Master.`
     },
-{ //Dead Master's Bodysuit - Missing .....
+{ //Dead Master's Bodysuit - Complete
         id: 152021,
         name: `Dead Master's Bodysuit`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -35982,20 +35983,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 60,
+                atk: 30,
+                def: 30
             },
         skillset:  
             {
-                skill: ``,
+                skill: `40s CT - Increases DMG to Giant Boss by 40% for 20s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `The outfit Dead Master wears a as Hemiteos Unit. It offers full coverage in contrast to Empress'.`
     },
 { //Gigantic Arms - Complete
         id: 152031,
@@ -36084,7 +36085,7 @@ const EquipInformation = [
             },
         lore: `Worn by Strength as a Hemiteos Unit. Its thickness provides excellent defense for close combat.`
     },
-{ //Empress' Outift EV - Missing .....
+{ //Empress' Outift EV - Complete
         id: 152061,
         name: `Empress' Outift EV`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -36098,20 +36099,21 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 60,
+                atk: 30,
+                def: 30
             },
         skillset:  
             {
-                skill: ``,
+                skill: `35s CT - Increases all allies' Arts gauge by 15. If the user is a Water unit, reduces all allies' DMG taken by 10% for 15s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `DEF 5% UP.`,
+                ability2: [`DMG to Fire enemy 5% UP.`, `DMG to Gods 10% UP.`, `ATK 5% UP when HP is 90% or more.`, `Water resistance 5% UP.`, `DEF 10% UP when HP is 90% or more.`, `HP Recovery amount 5% UP (Except Lifesteal).`]
             },
-        lore: ``
+        lore: `Combat gear Empress found in a nearby case when she woke up in the year 2062 AD. It is lightweight and customized for a Hemiteos Unit.`
     },
 { //JP Equip Name (ReZero Equip) - Missing .....
         id: 152071,
@@ -36839,7 +36841,7 @@ const EquipInformation = [
             },
         lore: `The clothes that Rimuru wears during a fight. It was made by dwarf blacksmiths, Garm and Dord, and a Kijin, Shuna. It contains Magicule, so it is stronger than regular cloth and has high protection.`
     },
-{ //Magic-seal Mask EV - Missing .....
+{ //Magic-seal Mask EV - Complete
         id: 152321,
         name: `Magic-seal Mask EV`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -36851,22 +36853,23 @@ const EquipInformation = [
                 thumb: ``,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152321.png`
             },
-        stats:
+            stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `35s CT - Increases Target's Arts gauge by 15 for 5s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Reduces Magical DMG Taken by 5%.`,
+                ability2: [`Status Ailment Time Reduction & Evasion rate 10% UP (Except Faint).`, `ATK 5% UP.`, `ATK 10% UP.`, `DEF 5% UP.`, `DEF 10% UP.`, `Accuracy 10% UP.`]
             },
-        lore: ``
+        lore: `The mask that Shizue Izawa, a human from a different world and also known as "Conqueror of Flames" wore. After her death, Rimuru who is also a human from the same world of her has been wearing it. It can seal magic powers. Thus, when Rimuru wears it his Magicules are sealed and will not be recognized as a monster.`
     },
 { //Gourikimaru EV - Complete
         id: 152331,
