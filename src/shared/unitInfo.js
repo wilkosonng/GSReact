@@ -23605,15 +23605,6 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "10s CT - 1600% Water DMG (MAG). Chance to inflict Freeze. If this Skill inflicts Freeze, increase own Arts by 30.",                
-                skillbreak: 500,
-                arts: "14000% Water DMG (MAG). Increase Allies' Arts by 20. For 15s, increase Allies' DMG RES by 20%.",                
-                artsbreak: 1000,
-                truearts: "40000% Water DMG (MAG). High chance to inflict Ultimate Freeze. If this True Arts inflicts Ultimate Freeze on an Enemy, for 10s, reduce that Enemy's Water RES by 70%.",
-                trueartsbreak: 2100
-            },
-        skillsetJP: 
-            {
                 skill: "10s CT - 1600% Water DMG (MAG). 20% chance to inflict Freeze. If this Skill inflicts Freeze, increase own Arts by 30.",
                 skillbreak: 500,                
                 arts: "14000% Water DMG (MAG). Increase Allies' Arts by 20. For 15s, increase Allies' DMG RES by 25%.",
@@ -23642,20 +23633,6 @@ const UnitInformation = [
                 }
             },
         trueweapon: //If no TW, may delete this section
-            {
-                name: "Emilia's Cape",
-                slot: "/db/Mines/thumbnail/magLB.png",
-                detail: "/db/Equipment/Detail/item_detail_150871.png",
-                skill: "55s CT - 6000% Water DMG (MAG). For 12s, increase Water Allies' DMG by 10%, increase own DMG by 30%.",
-                skillbreak: 800,
-                passive: 
-                    {
-                        ability1: "When equipped by Emilia, increase own Arts DMG by 15%. Whenever Emilia uses Arts (not True Arts), for 15s, reduce Enemies' Freeze RES by 20%. Does not stack with Abilities of the same name.",
-                        ability2: "Increase MAG RES by 5%.",
-                        ability3: "Equip is given a random ability on craft."
-                    }
-            },
-        trueweaponJP: //If no TW, may delete this section
             {
                 name: "Emilia's Cape",
                 slot: "/db/Mines/thumbnail/magLB.png",
@@ -23720,27 +23697,12 @@ const UnitInformation = [
             {
                 skill: "12s CT - 1300% Water DMG (MAG). For 5s, reduce Enemies' DMG RES by 10%.",
                 skillbreak: 600,
-                arts: "15000% Water DMG (MAG). For 10s, increase own ATK by 30%.",
-                artsbreak: 1100,
-                truearts: "52000% Water DMG (PHY). For 50s, consume 2%/s of own max HP (stackable), increase own Critical DMG by 80% (stackable), and increase own Arts by 3/s (stackable).",
-                trueartsbreak: 1800
-            },
-        skillsetJP: 
-            {
-                skill: "12s CT - 1300% Water DMG (MAG). For 5s, reduce Enemies' DMG RES by 10%.",
-                skillbreak: 600,
                 arts: "20000% Water DMG (MAG). For 10s, increase own ATK by 50%.",
                 artsbreak: 1100,
                 truearts: "70000% Water DMG (PHY). For 50s, consume 2%/s of own max HP (stackable), increase own Critical DMG by 130% (stackable), and increase own Arts by 3/s (stackable).",
                 trueartsbreak: 1800
             },
         passive: 
-            {
-                ability1: "Increase Critical Rate by 100% when own HP is above 50%.",
-                ability2: "Increase DMG to Beasts by 30%.",
-                ability3: "When near-death, increase Arts by 1/s."
-            }, 
-        passiveJP: 
             {
                 ability1: "Increase Critical Rate by 100% when own HP is above 50%.",
                 ability2: "Increase DMG to Beasts by 50%.",
@@ -23760,20 +23722,6 @@ const UnitInformation = [
                 }
             },
         trueweapon: //If no TW, may delete this section
-            {
-                name: "Rem's Morningstar",
-                slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "/db/Equipment/Detail/item_detail_150911.png",
-                skill: "40s CT - 7000% Water DMG (PHY). For 20s, increase own ATK by 50%. The first time this is used in a Quest, increase own Arts by 50.",
-                skillbreak: 1000,
-                passive: 
-                    {
-                        ability1: "When equipped by Rem (RE:ZERO), increase Critical DMG by 20%. Whenever Rem uses Arts (not True Arts), heal Rem's HP by 30%. Does not stack with Abilities of the same name.",
-                        ability2: "Increase PHY DMG by 10%.",
-                        ability3: "Equip is given a random ability on craft."
-                    }
-            },
-        trueweaponJP: //If no TW, may delete this section
             {
                 name: "Rem's Morningstar",
                 slot: "/db/Mines/thumbnail/physLB.png",
@@ -23839,15 +23787,6 @@ const UnitInformation = [
             {
                 skill: "11s CT - 1400% Earth DMG (MAG). For 6s, reduce Enemies' ATK by 10%.",
                 skillbreak: 500,
-                arts: "13000% Earth DMG (MAG). Cures Freeze + For 15s, increase Allies' RES to the Element they have an Elemental Advantage against by 40%, and increase Allies' Freeze RES by 100%.",
-                artsbreak: 1000,
-                truearts: "32000% Earth DMG (MAG). For 35s, Allies gain a DMG barrier that negates [4000 + Ram's DEF value] DMG.",
-                trueartsbreak: 2300
-            },
-        skillsetJP: 
-            {
-                skill: "11s CT - 1400% Earth DMG (MAG). For 6s, reduce Enemies' ATK by 10%.",
-                skillbreak: 500,
                 arts: "13000% Earth DMG (MAG). Curse Freeze + For 15s, increase Allies' RES to the Element they have an Elemental Advantage against by 50%, and increase Allies' Freeze RES by 100%.",
                 artsbreak: 1000,
                 truearts: "42000% Earth DMG (MAG). For 35s, Allies gain a DMG barrier that negates [6000 + Ram's DEF value] DMG.",
@@ -23881,20 +23820,6 @@ const UnitInformation = [
                 skillbreak: 700,
                 passive: 
                     {
-                        ability1: "When equipped by Ram, increase own DEF by 20%. Whenever Ram uses True Arts, increase Ram's Arts by 20. Does not stack with Abilities of the same name.",
-                        ability2: "Increase Water RES by 5%.",
-                        ability3: "Equip is given a random ability on craft."
-                    }
-            },
-        trueweaponJP: //If no TW, may delete this section
-            {
-                name: "Ram's Mop",
-                slot: "/db/Mines/thumbnail/magLB.png",
-                detail: "/db/Equipment/Detail/item_detail_150931.png",
-                skill: "40s CT - 4000% Earth DMG (MAG). For 15s, increase own DEF and accuracy by 25%.",
-                skillbreak: 700,
-                passive: 
-                    {
                         ability1: "When equipped by Ram, increase own DEF by 20%. Whenever Ram uses True Arts, increase Ram's Arts by 30. Does not stack with Abilities of the same name.",
                         ability2: "Increase Water RES by 5%.",
                         ability3: "Equip is given a random ability on craft."
@@ -23906,7 +23831,7 @@ const UnitInformation = [
                 evoawk: "A carefree maid working at the Roswaal Mansion. Her specialty is steamed yams. Her little sister Rem helps her in almost every aspect of her private life, including waking her up and taking care of her hair and nails."
             }
     },
-    { //Beatrice - Complete
+    { //Beatrice - Complete (+ JP version)
         id: 107376512,
         name: "Beatrice",
         luckrank: "S",
@@ -23950,15 +23875,6 @@ const UnitInformation = [
         skillset: 
             {
                 skill: "12s CT - Increase own Arts by 10 and heal own HP by 10% of own max HP.",
-                skillbreak: 0,
-                arts: "15000% Dark DMG (MAG). For 20s, reduce Enemies' Status RES by 35%.",                
-                artsbreak: 900,
-                truearts: "42000% Dark DMG (MAG). High chance to inflict Faint. For 15s, reduce Enemies' Dark RES and MAG RES by 35%.",
-                trueartsbreak: 1600
-            },
-        skillsetJP: 
-            {
-                skill: "12s CT - Increase own Arts by 10 and heal own HP by 10% of own max HP.",
                 skillbreak: 0,                
                 arts: "15000% Dark DMG (MAG). For 20s, reduce Enemies' Status RES by 45%.",
                 artsbreak: 900,                
@@ -23966,13 +23882,6 @@ const UnitInformation = [
                 trueartsbreak: 1600
             },
         passive: 
-            {
-                ability1: "Increase own DMG against an Enemy by [33% × # of Statuses on that Enemy].",
-                ability2: "Increase Equipment CT REC by 10% if unafflicted by any Status Ailment.",
-                ability3: "When near-death, increase Skill CT REC by 15%.",
-                ability4: "Increase Curse RES by 30%."
-            },
-        passiveJP: 
             {
                 ability1: "Increase own DMG against an Enemy by [33% × # of Statuses on that Enemy].",
                 ability2: "Increase Equipment CT REC by 20% if unafflicted by any Status Ailment.",
@@ -23993,20 +23902,6 @@ const UnitInformation = [
                 }
             },
         trueweapon: //If no TW, may delete this section
-            {
-                name: "Beatrice's Ribbon",
-                slot: "/db/Mines/thumbnail/suppLB.png",
-                detail: "/db/Equipment/Detail/item_detail_150891.png",
-                skill: "50s CT - For 20s, increase target's Arts by 5/s. If target is Dark, increase target's Arts DMG by 20% for 20s.",
-                skillbreak: 0,
-                passive: 
-                    {
-                        ability1: "When equipped by Beatrice, increase ATK by 20%. Whenever Beatrice uses True Arts, for 10s, increase Allies' Dark DMG by 10%. Does not stack with Abilities of the same name.",
-                        ability2: "Increase Light RES by 5%.",
-                        ability3: "Equip is given a random ability on craft."
-                    }
-            },
-        trueweaponJP: //If no TW, may delete this section
             {
                 name: "Beatrice's Ribbon",
                 slot: "/db/Mines/thumbnail/suppLB.png",

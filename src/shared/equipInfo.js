@@ -1840,7 +1840,7 @@ const EquipInformation = [
             },
         lore: `A man was enjoying chatting with an artist friend. As the night drew on, the artist presented him with a recently acquired gemstone. Although perhaps sensing something in the allure of the stone, the man thought no more of it and went home. Months later, he visited again to find an empty house devoid of life and the stone, gleaming even more brilliantly.`
     },
-    { //Cocytus Arc - Missing Lore
+    { //Cocytus Arc - Complete
         id: 100631,
         name: `Cocytus Arc`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -1867,7 +1867,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `This necklace is the vessel for the soul of the Demon Guilias, who was famed for his valor and cunning. Whoever wears it can acquire power beyond human understanding, but in exchange they must give up their own life. Because of this terrible requirement, for a long time it remained hidden deep within ruins once ruled by the Gods, but a thief driven by Guilias' temptation sneaked into the ruins and returned it to the outside world. Since then, the necklace has consumed countless lives and longs for new hosts even now.`
     },
     { //Fox Fan 'White Nine Tails' - Complete
         id: 100641,
@@ -1927,7 +1927,7 @@ const EquipInformation = [
             },
         lore: `A watch that renowned alchemist Baron Cruze kept locked away in his workshop safe. When activated it allows for brief travel through time. Cruze had a heated rivalry with the alchemist Alishis, creator of a similar device called the Terra Conjunction. Records of Alchemist Associations meetings attended by them both are filled mainly with cursing.`
     },
-    { //Summon Skeletal Wings - Missing Lore
+    { //Summon Skeletal Wings - Complete
         id: 100661,
         name: `Summon Skeletal Wings`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -1954,7 +1954,7 @@ const EquipInformation = [
             {
                 ability1: `Summon Gem Blessing LV2: Only the highest level effect of the Summon Gem Blessing is effective.`
             },
-        lore: ``
+        lore: `A summonstone allowing a contract with skeletal wings Valzandeth. The contracted one calls with their mind and the magic in the air forms into the terrible beast. Valzandeth is particularly aggressive, even for a dragon, and is also proud; it can even choose to end the contract. The one holding the stone must therefore continuously to prove their might.`
     },
     { //Monster Summonstone - Complete
         id: 100671,
@@ -2130,7 +2130,7 @@ const EquipInformation = [
             },
         lore: `There was a witch during the Ancient War who chose to serve the demons and fight other humans. She appeared in human villages in a cloud of black mist to spread curses and sickness, and became known and feared as the "witch of chaos". Eventually seen an as enemy by all races, she shared the fate of her beloved demons at the end of a terrible battle.`
     },
-    { //Demonsickle Evilscythe - Missing Lore
+    { //Demonsickle Evilscythe - Complete
         id: 100731,
         name: `Demonsickle Evilscythe`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -2157,7 +2157,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `A ritual scythe, wreathed in terrible energy but with little killing power as a weapon. The true terror is the curse it carries to subjugate the soul of anyone it cuts. Alkeroth, devil of lies and betrayal, used this to turn allies and enemies into his puppets. His bizarre orders and insane strategies during the Ancient War were all fueled by this scythe.`
     },
     { //Magitome 'Log Vida' - Complete
         id: 100741,
@@ -2362,7 +2362,7 @@ const EquipInformation = [
             },
         lore: `A legendary blade from the Kingdom of Famelle and currently carried by the "Hero of Famelle", the aged general Zeorg. Said to be self-aware, and capable of detecting threats to the country. Zeorg himself has used such warnings to protect his homeland numerous times. His battle with a dragon that led to him obtaining the blade is still spoken of today.`
     },
-    { //??? - Missing .....
+    { //??? - Unknown
         id: 100811,
         name: `???`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -2391,7 +2391,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-    { //Battle Axe 'Shurahalt' - Missing .....
+    { //Battle Axe 'Shurahalt' - Complete
         id: 100821,
         name: `Battle Axe 'Shurahalt'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -2406,21 +2406,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 3100% Fire DMG (Physical).`,
+                break: 1500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `All allies' Break Power 15% UP (Only once).`
             },
-        lore: ``
+        lore: `The weapon used by Guild Master Ganan when he was Knight Captain. It was gifted to him by the Emperor after defeating a horde of monsters. A certain incident caused him to seal it away, but after battling some young adventurers he took it up again. The first place he headed to get it serviced was the blacksmith he used to drink with.`
     },
-    { //Forge Hammer 'Hepaistos' - Missing .....
+    { //Forge Hammer 'Hepaistos' - Complete
         id: 100831,
         name: `Forge Hammer 'Hepaistos'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -2435,21 +2435,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `80s CT - 7800% Earth DMG (Physical).`,
+                break: 1000
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: ``
+        lore: `A hammer loved by the blacksmith Reigrad. One the night the young Reigrad decided it was time to strike out on his own, his master simply handed him with this masterpiece of a hammer without a word. "You can borrow that until you can make one better yourself." He has used it to make many weapons since, but says the day he can return it is still far away.`
     },
-    { //??? - Missing .....
+    { //??? - Unknown
         id: 100841,
         name: `???`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -2478,7 +2478,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-    { //??? - Missing .....
+    { //??? - Unknown
         id: 100851,
         name: `???`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -2507,7 +2507,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-    { //??? - Missing .....
+    { //??? - Unknown
         id: 100861,
         name: `???`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -2565,7 +2565,7 @@ const EquipInformation = [
             },
         lore: `The battle frying pan used by head chef Sophie from Firecat’s Den. On the day she took over the establishment from her father, which was also her birthday, he gifted her this pan and the following advice: “You must be a chef, even in battle. Just keep your cooking and fighting tools separate.” This pan is at her side on every expedition for ingredients.`
     },
-    { //Relic 'Funeral Scythe' - Missing .....
+    { //Relic 'Funeral Scythe' - Missing Lore
         id: 100881,
         name: `Relic 'Funeral Scythe'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -2580,17 +2580,17 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 250,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `70s CT - 7200% DMG (Physical).`,
+                break: 900
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Blind Time Reduction & Blind evasion rate 10% UP.`
             },
         lore: ``
     },
@@ -2681,7 +2681,7 @@ const EquipInformation = [
             },
         lore: `A beautiful ring belonging to the death god Oldeus. In one region it is deeply believed that being given this ring is a sign of impeding death, but one may survive by using its curse to take 100 other lives. When a terminally ill man came into possession of the ring, he therefore wiped out his entire village, but still died screaming the death god's name.`
     },
-    { //Relic 'Bleak Prophet' - Missing .....
+    { //Relic 'Bleak Prophet' - Missing Lore
         id: 100921,
         name: `Relic 'Bleak Prophet'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -2696,17 +2696,17 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 250,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `80s CT - 9000% DMG (Physical)`,
+                break: 1000
             },
         passive: 
             {
-                ability1: ``
+                ability1: `DMG to Dragons 10% UP.`
             },
         lore: ``
     },
@@ -2797,7 +2797,7 @@ const EquipInformation = [
             },
         lore: `The holy spear of insectoid queen Radachne. The tip shines with a permanent white light, which intensifies with each kill. Also famous for being used by the hero Elnis. When Elnis had to defend against the Demon Baron Megiola, he focused all his energy into the spear and destroyed he foe in a single attack, earning himself the nickname "Moonlight Knight".`
     },
-    { //??? - Missing .....
+    { //??? - Unknown
         id: 100961,
         name: `???`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -2826,7 +2826,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-    { //??? - Missing .....
+    { //??? - Unknown
         id: 100971,
         name: `???`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -2855,7 +2855,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-    { //??? - Missing .....
+    { //??? - Unknown
         id: 100981,
         name: `???`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -3000,7 +3000,7 @@ const EquipInformation = [
             },
         lore: `A gemstone that heals just by holding it. Pained by the vast number of lives lost in the Ancient War, the gods created these as gifts in order to save as many as they could. The eggs came to be worshipped as miracles and are now housed in temples across the land. Few humans know that only a small number of gods were behind these gifts.`
     },
-    { //Conquering Dragon Sword 'Gelmed' - Missing .....
+    { //Conquering Dragon Sword 'Gelmed' - Missing Lore
         id: 101031,
         name: `Conquering Dragon Sword 'Gelmed'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -3015,13 +3015,13 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `30s CT - 5850% Light DMG (Physical).`,
+                break: 1000
             },
         passive: 
             {
@@ -3145,7 +3145,7 @@ const EquipInformation = [
             },
         lore: `An axe used by the demon Leon, who sought to unseal the demon god to whom it originally belonged. Few know the truth about the axe, which is said to be because as a tactician Leon rarely fought: actually, it is because any who faced the axe in battle never lived to tell the tale. As it turns out, even the supposed owner is no exception to this rule.`
     },
-    { //??? - Missing .....
+    { //??? - Unknown
         id: 101091,
         name: `???`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -3174,7 +3174,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-    { //??? - Missing .....
+    { //??? - Unknown
         id: 101121,
         name: `???`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -3203,7 +3203,7 @@ const EquipInformation = [
             },
         lore: ``
     },
-    { //Hell's Spit 'Karks' - Missing .....
+    { //Hell's Spit 'Karks' - Missing Lore
         id: 101131,
         name: `Hell's Spit 'Karks'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -3218,17 +3218,17 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 60,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 3300% Fire DMG (Physical).`,
+                break: 600
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Accuracy 30% UP.`
             },
         lore: ``
     },
@@ -3609,7 +3609,7 @@ const EquipInformation = [
             },
         lore: `An investigator became lost in the Dara Desert. Faced with a terrible sandstorm, the search party was about to give up when of them noticed a strange light. Following it, they found the missing man wearing this bangle. When he spoke of being enveloped in a warm light before it was placed on his arm, his rescuers offered a prayer to the desert god.`
     },
-    {//Burnclaw Alestron - Missing .....
+    {//Burnclaw Alestron - Missing Lore
         id: 101301,
         name: `Burnclaw Alestron`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -3629,8 +3629,8 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `20s CT - 1500% Fire DMG (Physical).`,
+                break: 400
             },
         passive: 
             {
@@ -3812,7 +3812,7 @@ const EquipInformation = [
             },
         lore: `A ring made from a deep sea ore only found off the coast of Isliid. The beautiful azure color has captivated the hearts of many people, and no artist has ever successfully recreated it. The stone also contains magic, heightening the consciousness of the wearer. Many therefore desire one of them, but the ore itself is rare, making them expensive.`
     },
-    { //Holy Tree Spear Dendron - Missing .....
+    { //Holy Tree Spear Dendron - Missing Lore
         id: 101391,
         name: `Holy Tree Spear Dendron`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -3832,8 +3832,8 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `20s CT - 2500% Earth DMG (Physical).`,
+                break: 600
             },
         passive: 
             {
@@ -3870,7 +3870,7 @@ const EquipInformation = [
             },
         lore: `The great bow of Raktehelm, and equal to the Devil Shadow Bow Meranpatl. A god once visited a village plunged into darkness by demons and fired a arrow from this bow to clear the heavens. Due to its incredible power it is now under guard in a shrine in the west of the Isliid Empire, but travelers still come from around the world to catch a glimpse of it.`
     },
-    { //Devil Shadow Bow Meranpatl - Missing .....
+    { //Devil Shadow Bow Meranpatl - Missing Lore
         id: 101411,
         name: `Devil Shadow Bow Meranpatl`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -3890,8 +3890,8 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `20s CT - 2500% Dark DMG (Physical).`,
+                break: 600
             },
         passive: 
             {
@@ -4044,7 +4044,7 @@ const EquipInformation = [
             },
         lore: `A shining, razor-sharp scythe used by the weather goddess Meltina in Raktehelm myth. The duality of this goddess is expressed in her provision of gentle sunlight and bountiful harvests juxtaposed with raging storms and drought. Her scythe is not different, unleashing destructive winds on enemies while also healing the one using it.`
     },
-    { //??? - Missing .....
+    { //??? - Unknown
         id: 101501,
         name: `???`,
         type: `/db/Mines/thumbnail/LB.png`,
@@ -4769,7 +4769,7 @@ const EquipInformation = [
             },
         lore: `The Light Dragon Fosradius once sought interaction with humans, and gave this this relic to the most innocent girl he could find. She became an object of worship, and gave blessings to many people. However, not satisfied, the people started to make demands of the girl. The dragon despaired at the depth of human greed, and the girl left the relic and disappeared.`
     },
-    { //??? - Missing .....
+    { //??? - Unknown
         id: 101831,
         name: `???`,
         type: `/db/Mines/thumbnail/LB.png`,
@@ -5784,7 +5784,7 @@ const EquipInformation = [
             },
         lore: `Armor that became the medium for Ragsherum's vengeful spirit to materialize. After being exposed to the pulse of his magic and soul for so long, the armor became capable of containing his vast energy. It also provides an outer shell and gives his ghost form as Ragsherum Phantom. He has learned much since his death, making him an even more fearsome foe.`
     },
-    { //??? - Missing .....
+    { //??? - Unknown
         id: 102391,
         name: `???`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -14817,9 +14817,9 @@ const EquipInformation = [
             },
         lore: `The beloved twin blades used by Melia during her work as assassin and spy. This weapon earned her renown as the fastest of the Cult's spies, the "Illusory Twin-blades Assassin". The sword technique is focused on pure speed of attack, and even when facing multiple enemies, usually a handicap for double weapons, her flowing style is overwhelming. After she fled from the Cult, those she met on her journey have helped her grow, and now she uses her twin blades for good.`
     },
-{ //JP Equip Name (Eternia Farmable) - Missing .....
+{ //Twin-sword 'Aurora & Zephyr' (双天剣 『紫耀・蒼風』) - Complete
         id: 105921,
-        name: `JP Equip Name (Eternia Farmable)`,
+        name: `Twin-sword 'Aurora & Zephyr' (双天剣 『紫耀・蒼風』)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -14832,19 +14832,19 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `60s CT - 8000% Light DMG (Physical). Reduce enemies' Light RES by 20% for 10s. Additionally, if own HP is above 50%, increase own Physical DMG by 30% for 10s.`,
+                break: 1200
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Increase own Skill CT Recovery by 10%.`
             },
-        lore: ``
+        lore: `Currently unreleased in Global.`
     },
 { //JP Equip Name (Eternia Farmable) - Missing .....
         id: 105931,
