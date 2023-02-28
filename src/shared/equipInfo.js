@@ -3928,7 +3928,7 @@ const EquipInformation = [
             },
         lore: `Antoth, a priest in a temple in the south west of Gramenia, created his staff to heal his beloved after she was left in a coma from injuries sustained defending him. If the user wants it badly enough, it can even overcome death, but as a result Antoth was banished for practicing necromancy. It is therefore unknown if he was ever reunited with his beloved.`
     },
-    { //Netherblade Rodgalos - Missing .....
+    { //Netherblade Rodgalos - Missing Lore
         id: 101431,
         name: `Netherblade Rodgalos`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -3948,8 +3948,8 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 2500% Dark DMG (Magic). 50% chance of Blinding enemy.`,
+                break: 1200
             },
         passive: 
             {
@@ -4421,7 +4421,7 @@ const EquipInformation = [
             },
         lore: `A treasure spear of the Famelle royal family, and particularly known for being used by "warrior king" Maglagan. There has been much debate on why he named it "Rey Vie". A recently discovered diary from royal aide Beil sheds some light on the matter; on secret trips out of the castle to help people, Maglagan was accompanied by a spirit called Rey.`
     },
-    { //Underking Spear 'Hellfire' - Missing .....
+    { //Underking Spear 'Hellfire' - Missing Lore
         id: 101631,
         name: `Underking Spear 'Hellfire'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -4441,8 +4441,8 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 6250% Fire DMG (Physical).`,
+                break: 1200
             },
         passive: 
             {
@@ -4711,7 +4711,7 @@ const EquipInformation = [
             },
         lore: `A relic created by a powerful wizard. It contains the magma that flows inside the body of the blazing dragon Deglmagna. The heat it gives off is magically enhanced, heightening the power of those around it. A robber king who's love of it cost him his life said only this upon his execution: "May the sacred sparkle last forever".`
     },
-    { //Relic 'Radeus' - Missing .....
+    { //Relic 'Radeus' - Missing Lore
         id: 101801,
         name: `Relic 'Radeus'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -4731,12 +4731,12 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 6800% Light DMG (Physical). Increases Arts gauge by 15 when HIT.`,
+                break: 700
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Physical DMG from enemy 5% DOWN.`
             },
         lore: `Missing Lore.`
     },
@@ -4972,7 +4972,7 @@ const EquipInformation = [
             },
         lore: `A magic recorder imbued with the power of the gale Fledal. Possessed of the freezing ice magic, it allows the user to create absolute zero conditions as they please. These properties can also be used to provide protection to allies from ice, making this instrument a textbook example of how the way something is used all comes down to the user.`
     },
-    { //Relic 'Blaze Staff' - Missing .....
+    { //Relic 'Blaze Staff' - Missing Lore
         id: 102001,
         name: `Relic 'Blaze Staff'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -4987,17 +4987,17 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 250,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 5500% Fire DMG (Magic). Reduces all allies' Skill CT by 30% for 10s.`,
+                break: 500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `DMG to Earth enemy 5% UP.`
             },
         lore: `Missing Lore.`
     },
@@ -5088,7 +5088,7 @@ const EquipInformation = [
             },
         lore: `This medicine is detailed in a forbidden text kept in a light bringer god temple. When the water beast Juroga attacked Bamint, the gods taught a priest how to make a number of relics. As this medicine uses the power of fire to heal, those with strong fire power themselves can boost its effects. The relics Kalon possessed were just copies of the originals.`
     },
-    { //Ex Gloria - Missing .....
+    { //Ex Gloria - Missing Lore
         id: 102041,
         name: `Ex Gloria`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -5108,12 +5108,12 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `80s CT - 9000% DMG (Physical).`,
+                break: 1000
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Increases all Allies' DMG to Demons by 10% (Only once).`
             },
         lore: `Missing Lore.`
     },
@@ -5378,7 +5378,7 @@ const EquipInformation = [
             },
         lore: `The verdant dragon Elpuneumath grew trees on his body, and this robe is created from the threads of silkworms living in such forests. Light as a breeze and tough as steel, it also allows the wearer to waether all environmental conditions. Furthermore, they even hear the gentle voice of nature, making it almost impossible for them to fall in battle.`
     },
-    { //Relic 'Benomopis' - Missing .....
+    { //Relic 'Benomopis' - Missing Lore
         id: 102151,
         name: `Relic 'Benomopis'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -5393,17 +5393,17 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 30,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `35s CT - 2200% Earth DMG (Physical). Chance of Poisoning enemy.`,
+                break: 1200
             },
         passive: 
             {
-                ability1: ``
+                ability1: `HP Auto-recovery by 2.`
             },
         lore: `Missing Lore.`
     },
@@ -5436,7 +5436,7 @@ const EquipInformation = [
             },
         lore: `A special order cook's hat that only the head chef at the Firecat's Den, Sophie, is allowed to wear. Her father wore a more orthodox design, but when Sophie's turn came she really glitzed it up. The reasons are unknown, but her fashion sense clearly shines through. Compliment it she'll say "Praise my cooking, not the hat," but she looks happy about it too.`
     },
-    { //Beloved 'Flame Meat Knife' - Missing .....
+    { //Beloved 'Flame Meat Knife' - Missing Lore
         id: 102171,
         name: `Beloved 'Flame Meat Knife'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -5456,12 +5456,12 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `35s CT - 2200% Fire DMG (Physical).`,
+                break: 800
             },
         passive: 
             {
-                ability1: ``
+                ability1: `DMG to Beasts 10% UP.`
             },
         lore: `Missing Lore.`
     },
@@ -5639,7 +5639,7 @@ const EquipInformation = [
             },
         lore: `The sword of Palamacia, the greatest swordswomen of the gods. It has a clear purity, equal to her own as she danced through battle like a graceful swan. The blade always shines, never stained by blood regardless of the numbers it kills, and its attacks feel like nothing more than "ice across the skin", leaving the departed unaware they have even been cut.`
     },
-    { //Evil Spear 'Berserk' - Missing .....
+    { //Evil Spear 'Berserk' - Missing Lore
         id: 102341,
         name: `Evil Spear 'Berserk'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -5659,12 +5659,12 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `70s CT - 5000% Dark DMG (Physical). 70% chance of Blinding Enemy.`,
+                break: 1500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `CRI DMG 20% UP.`
             },
         lore: `Missing Lore.`
     },
@@ -7147,7 +7147,7 @@ const EquipInformation = [
             },
         lore: `When the hero Zeorg was young, he received this cape for defeating an evil dragon. Wearing it upon his return to the capital after fighting more monsters or a major battle became one of his duties, bringing reassurance to the hearts of the people, but he never had time to wear it for anything else. It is still known as the trademark of this great hero.`
     },
-    { //Ganan's Passion - Missing .....
+    { //Ganan's Passion - Missing Lore
         id: 102921,
         name: `Ganan's Passion`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -7167,12 +7167,12 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 3000% Fire DMG (Physical). 50% chance of Burning enemy. Reduces enemy's DEF by 10% for 10s.`,
+                break: 500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Increases ATK by 10% when Near-Death.`
             },
         lore: `Missing Lore.`
     },
@@ -7670,7 +7670,7 @@ const EquipInformation = [
             },
         lore: `A sword that waited, forgotten in a rock deep in a cave. After removing it, Rayas became an adventurer, learnt to summon, and started to get close to the truth of the world. Was this all just a coincidence, or was it fate? In either case, as the sword grows more powerful alongside him, he has started to sense the larger purpose in his owning it.`
     },
-    { //True 'Gaimalse' - Missing .....
+    { //True 'Gaimalse' - Missing Lore
         id: 103121,
         name: `True 'Gaimalse'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -7690,8 +7690,8 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `60s CT - 6000% Water DMG (Physical). Increases all allies' ATK by 30% for 10s.`,
+                break: 2200
             },
         passive: 
             {
@@ -7730,7 +7730,7 @@ const EquipInformation = [
             },
         lore: `A circlet likely created by the gods. The reason Iris owns it is still unknown, and she didn't like it much herself at first. She has realized that its strange power is also protecting her, however, and now happily keeps it with her - without yet realizing that her positive desire to keep pace with a certain adventurer has unlocked new power within it.`
     },
-    { //True 'Noble Bamint' - Missing .....
+    { //True 'Noble Bamint' - Missing Lore
         id: 103141,
         name: `True 'Noble Bamint'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -7750,12 +7750,13 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: ``,
+                skill: `70s CT - 8400% Fire DMG (Magic). 70% chance of Burning Enemy.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Mira (Fire), own DMG 20% UP (Only once.)`,
+                ability2: `DMG to Earth enemy 5% UP.`
             },
         lore: `Missing Lore.`
     },
@@ -8021,7 +8022,7 @@ const EquipInformation = [
             },
         lore: `The Guidlmaster's final form! Headmaster of summer school at the Adventurer's Guild Reigrad branch. Seeing this, every aspiring adventurer finds their resolve tested. "And so begins hell!" he calls, and trainees drop one after another under his harsh tutelage. But every year, as his pupils are ready to break, he offers them his wisdom. "Stand up! Believe in yourself! Your body will never betray you!" Surely, this year will see the birth of a new legend...`
     },
-    { //Demon Whip 'Basilisk' - Missing .....
+    { //Demon Whip 'Basilisk' - Missing Lore
         id: 103281,
         name: `Demon Whip 'Basilisk'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -8041,12 +8042,12 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `15s CT - 3200% Dark DMG (Physical). 60% chance of reducing enemy's ATK by 30% for 5s.`,
+                break: 400
             },
         passive: 
             {
-                ability1: ``
+                ability1: `DMG 15% UP to enemy with Poison or Disease.`
             },
         lore: `Missing Lore.`
     },
@@ -8282,7 +8283,7 @@ const EquipInformation = [
             },
         lore: `One of the rare beasts that have existed from ancient times in Raktehelm. It used to be a Spirit that ruled all fire birds and became a God, thus it is more of a conception rather than an existence. Those who are excepted by it receives the protection of the flames, and it burns out anything or anyone that stands in their way. It is the symbol of regeneration, but only a few have actually seen it.`
     },
-    { //True 'Gradion' - Missing .....
+    { //True 'Gradion' - Missing Lore
         id: 103371,
         name: `True 'Gradion'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -8302,12 +8303,13 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `60s CT - 7000% Fire DMG (Physical). Increases CRI rate by 50% for 8s when enemy is Burning.`,
+                break: 1600
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Clyde, increases own DMG by 75%. Automatically increases Arts gauge (Only once).`,
+                ability2: `DMG to Earth enemy 25% UP.`
             },
         lore: `Missing Lore.`
     },
@@ -8429,9 +8431,9 @@ const EquipInformation = [
             },
         lore: `A divine shield made from the 'Tonetaurus' feather which emits lightning bolts. The feathers themselves don't hold a charge, but rather the feathers' unique power converts the atoms in the surrounding air into electricity. A blow like a bolt of lightning has left many to warn of its dangers: "Lest not touch, for death awaits."`
     },
-    { //Axioma 'Valheight' - Missing .....
+    { //Axioma 'Wahrheit' - Missing Lore
         id: 103421,
-        name: `Axioma 'Valheight'`,
+        name: `Axioma 'Wahrheit'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -8449,16 +8451,16 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `90s CT - 8500% Water DMG (Physical). If Human, increases Arts DMG by 50% after using Equipment (Only once). Reduces Arts gauge for 10s.`,
+                break: 1000
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Physical DMG 15% UP (Only once).`
             },
         lore: `Missing Lore.`
     },
-    { //Oathtaker 'Shivlet' - Missing .....
+    { //Oathtaker 'Shivlet' - Missing Lore
         id: 103431,
         name: `Oathtaker 'Shivlet'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -8478,12 +8480,12 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `60s CT - 7000% Water DMG (Physical). 50% chance of Freezing enemy.`,
+                break: 600
             },
         passive: 
             {
-                ability1: ``
+                ability1: `DMG 10% UP to Giant Boss.`
             },
         lore: `Missing Lore.`
     },
@@ -11167,7 +11169,7 @@ const EquipInformation = [
             },
         lore: `This armor cast of rare metal and the feathers of the giant 'Flogassa' a bird said to embody the great Ogrone Volcano. The feathers provide its owner a magic barrier, which the same effect is achieved in this armor as well. However, to control this energy it consumes tremendous amounts of this relic, which has made mass production impossible.`
     },
-{ // Blue Life Sword 'Glamerald' (碧命剣『グラメラルド』)- JP Missing .....
+{ // Blue Life Sword 'Glamerald' (碧命剣『グラメラルド』) - JP Missing .....
         id: 104441,
         name: `Blue Life Sword 'Glamerald' (碧命剣『グラメラルド』)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -11196,7 +11198,7 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Blue Life Bow 'Eldrasta' (碧命弓『エルドラスタ』)- JP Missing .....
+{ //Blue Life Bow 'Eldrasta' (碧命弓『エルドラスタ』) - JP Missing .....
         id: 104451,
         name: `Blue Life Bow 'Eldrasta' (碧命弓『エルドラスタ』)`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -11284,7 +11286,7 @@ const EquipInformation = [
             },
         lore: `The circlet which Iris' clone "Number 2" wears to control her abilities. When the magic stones shine, it signifies the attempt to read her thoughts, as she supposedly has none. Ever since a certain battle, the stone has flickered with light, releasing more power than imagined.`
     },
-{ //Magic Spear 'Graofang' (魔槍『グラオファング』)- JP Missing .....
+{ //Magic Spear 'Graofang' (魔槍『グラオファング』) - JP Missing .....
         id: 104481,
         name: `Magic Spear 'Graofang' (魔槍『グラオファング』)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -11313,7 +11315,7 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Flame Staff 'Terenolio' (焔精杖『テレノライオ』)- JP Missing .....
+{ //Flame Staff 'Terenolio' (焔精杖『テレノライオ』) - JP Missing .....
         id: 104491,
         name: `Flame Staff 'Terenolio' (焔精杖『テレノライオ』)`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -14060,7 +14062,7 @@ const EquipInformation = [
             },
         lore: `The two swords that Ashe, the Cult's experiment, used in every fight. By using this weapon perfected for killing, he reached the highest levels of power. The magic flowing inside the swords reverberates with him, penetrates into the gaps of any protective gear of the opponent to make a blow that surely results in death. His perfect technique is achieved thanks to his double swords.`
     },
-{ //JP Equip Name (Vogue Farmable)- JP Missing .....
+{ //JP Equip Name (Vogue Farmable) - JP Missing .....
         id: 105661,
         name: `JP Equip Name (Vogue Farmable)`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -14846,7 +14848,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //Armor 'Gale Cloud' (Eternia Farmable)- JP Missing ..... JP
+{ //Armor 'Gale Cloud' (Eternia Farmable) - JP Missing ..... JP
         id: 105931,
         name: `Armor 'Gale Cloud' (Eternia Farmable)`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -15663,7 +15665,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Rebol's Farmable)- JP Missing .....
+{ //JP Equip Name (Rebol's Farmable) - JP Missing .....
         id: 106211,
         name: `JP Equip Name (Rebol's Farmable)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -15692,7 +15694,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Kush's TW)- JP Missing .....
+{ //JP Equip Name (Kush's TW) - JP Missing .....
         id: 106221,
         name: `JP Equip Name (Kush's TW)`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -15721,7 +15723,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Rebol's TW)- JP Missing .....
+{ //JP Equip Name (Rebol's TW) - JP Missing .....
         id: 106231,
         name: `JP Equip Name (Rebol's TW)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -15780,7 +15782,7 @@ const EquipInformation = [
             },
         lore: `Former leader of the Divine Guardian's Divine Knights, Nies, wielded this great sword his whole life. It possesses massive magical power, and so even among the Gods only the chosen ones could control it: those without true strength were forbidden to touch it. When those bearing this sword attack, the power unleashed is directly proportionate to the bearer's will, and thus Nies' iron will and incredible skill channeled through this blade meant he was the match of ten thousand warriors.`
     },
-{ //JP Equip Name (Belle's Farmable)- JP Missing .....
+{ //JP Equip Name (Belle's Farmable) - JP Missing .....
         id: 106251,
         name: `JP Equip Name (Belle's Farmable)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -15809,7 +15811,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Belle's Farmable)- JP Missing .....
+{ //JP Equip Name (Belle's Farmable) - JP Missing .....
         id: 106261,
         name: `JP Equip Name (Belle's Farmable)`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -15867,7 +15869,7 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //JP Equip Name (Tia's Farmable)- JP Missing .....
+{ //JP Equip Name (Tia's Farmable) - JP Missing .....
         id: 106281,
         name: `JP Equip Name (Tia's Farmable)`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -15896,7 +15898,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Tia's Farmable)- JP Missing .....
+{ //JP Equip Name (Tia's Farmable) - JP Missing .....
         id: 106291,
         name: `JP Equip Name (Tia's Farmable)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -15925,7 +15927,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Tia's TW)- JP Missing .....
+{ //JP Equip Name (Tia's TW) - JP Missing .....
         id: 106301,
         name: `JP Equip Name (Tia's TW)`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -16364,7 +16366,7 @@ const EquipInformation = [
             },
         lore: `A short sword used by Agent of Darkness Kane. He learned how to use the blade to cut through the air and smash rocks, among other things. However, after multiple battles during the escort mission, he realized that a single slash with a calm mind was the strongest technique of them all. Feeling the hearts and souls of the blacksmiths inside of the sword they crafted, he came to recognize the Nanashi as his favorite sword. He displayed it the sword in his room back in Gramenia after returning from the escort mission, never wanting to forget his gratitude and respect toward those who created such a masterpiece.`
     },
-{ //JP Equip Name (Sai's Farmable)- JP Missing .....
+{ //JP Equip Name (Sai's Farmable) - JP Missing .....
         id: 106451,
         name: `JP Equip Name (Sai's Farmable)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -16393,7 +16395,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Sai's Farmable)- JP Missing .....
+{ //JP Equip Name (Sai's Farmable) - JP Missing .....
         id: 106461,
         name: `JP Equip Name (Sai's Farmable)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -16422,7 +16424,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Sai's Farmable)- JP Missing .....
+{ //JP Equip Name (Sai's Farmable) - JP Missing .....
         id: 106471,
         name: `JP Equip Name (Sai's Farmable)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -16480,7 +16482,7 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //JP Equip Name (Sai's TW)- JP Missing .....
+{ //JP Equip Name (Sai's TW) - JP Missing .....
         id: 106491,
         name: `JP Equip Name (Sai's TW)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -16509,7 +16511,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Barossa's Farmable)- JP Missing .....
+{ //JP Equip Name (Barossa's Farmable) - JP Missing .....
         id: 106501,
         name: `JP Equip Name (Barossa's Farmable)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -16538,7 +16540,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Melissa's Farmable)- JP Missing .....
+{ //JP Equip Name (Melissa's Farmable) - JP Missing .....
         id: 106511,
         name: `JP Equip Name (Melissa's Farmable)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -16567,7 +16569,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Barossa's TW)- JP Missing .....
+{ //JP Equip Name (Barossa's TW) - JP Missing .....
         id: 106521,
         name: `JP Equip Name (Barossa's TW)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -16948,7 +16950,7 @@ const EquipInformation = [
             },
         lore: `A large sword that has faced many national crises with Duke of the Templars of Granadia. The inscription on it says: "Every time the blade was stained with blood, a shiver of joy runs down my spine." This is why it was considered a cursed sword for a long time. Since the name of the leader of the Templars was erased from history, the whereabouts of the sword is unknown, but if it is truly a cursed sword, it may still be waiting for a new wielder somewhere in a forgotten demon land.`
     },
-{ //JP Equip Name (Garm Raid Equip)- JP Missing ..... (109951 = Garm EV Equip)
+{ //JP Equip Name (Garm Raid Equip) - JP Missing ..... (109951 = Garm EV Equip)
         id: 106671,
         name: `JP Equip Name (Garm Raid Equip)`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -17445,7 +17447,7 @@ const EquipInformation = [
             },
         lore: `A gorgeous fan that the vice-captain of the Divine Knights bought for the summer vacation. She was planning to deepen her relationship with the captain on the beach. However, the leader was so crazy about swimming that he didn't come back to the beach all day. When the redhead knight stole her fan and began to fan herself in a silly way, her stiff expression naturally relaxed. "Summer days likes this are not that bad".`
     },
-{ //JP Equip Name (Adele's Farmable)- JP Missing .....
+{ //JP Equip Name (Adele's Farmable) - JP Missing .....
         id: 106841,
         name: `JP Equip Name (Adele's Farmable)`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -17677,7 +17679,7 @@ const EquipInformation = [
             },
         lore: `He accompanied the Princess at the beach as a guardian, but he felt a little uncomfortable because the Immovable Shield, who was supposed to join them, deserted to carry out a job in town. And he was the only man assigned... He tried to get rid of the embarrassment and focus on his task. Watching his sweat figure standing on the beach, the women at the foreshore smiled saying "very much like him".`
     },
-{ //JP Equip Name (Ice Wilkes Raid Equip)- JP Missing .....
+{ //JP Equip Name (Ice Wilkes Raid Equip) - JP Missing .....
         id: 106921,
         name: `JP Equip Name (Ice Wilkes Raid Equip)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -17706,7 +17708,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Orgah's Farmable)- JP Missing .....
+{ //JP Equip Name (Orgah's Farmable) - JP Missing .....
         id: 106931,
         name: `JP Equip Name (Orgah's Farmable)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -18087,7 +18089,7 @@ const EquipInformation = [
             },
         lore: `A girl's sword that became the vessel for a Demon Fox. Although the blade was once used by the founder of Ginzo's clan to defeat a Demon Fox, it turned into a threat for the shinobi when it fell into the hands of a girl controlled by the Demon. The sword is able to become sharper by whittling away at the user's life force. However, this power has been changed thanks to the power of the Demon Fox, and it now can also be fed by draining the souls of those it cuts. This sword, that can burn away most of anything with a single stroke, came to be called a Demonic Katana.`
     },
-{ //JP Equip Name (Plant Raid Equip)- JP Missing .....
+{ //JP Equip Name (Plant Raid Equip) - JP Missing .....
         id: 107061,
         name: `JP Equip Name (Plant Raid Equip)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -18116,7 +18118,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Vermilia's Farmable)- JP Missing .....
+{ //JP Equip Name (Vermilia's Farmable) - JP Missing .....
         id: 107071,
         name: `JP Equip Name (Vermilia's Farmable)`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -18175,7 +18177,7 @@ const EquipInformation = [
             },
         lore: `The true form of Vermilia's weapon. When the soul of the legendary beast inside resonates with its holder, it can release an all-consuming, everlasting blaze. Lengthy training in the magical arts gave her a realistic but earnest perspective of its nature. This pure heart was recognized by the spirit of the staff, allowing her to draw out its maximum power.`
     },
-{ //JP Equip Name (Vernonica's Farmable)- JP Missing .....
+{ //JP Equip Name (Vernonica's Farmable) - JP Missing .....
         id: 107091,
         name: `JP Equip Name (Vernonica's Farmable)`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -18234,7 +18236,7 @@ const EquipInformation = [
             },
         lore: `There were times when Veronica brought out Lizaverde's power even more than usual. However, she limited herself to only doing so in extreme situations, as making one mistake when releasing that much power could destroy everything in existence. Legend says that when Veronica was unable to contain Lizaverde after it went berserk before, even the sky was cut in half, and she continued to destroy the monsters that appeared around her until the end of her life.`
     },
-{ //JP Equip Name (Aluze's Farmable)- JP Missing .....
+{ //JP Equip Name (Aluze's Farmable) - JP Missing .....
         id: 107111,
         name: `JP Equip Name (Aluze's Farmable)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -18292,7 +18294,7 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //JP Equip Name (Garlan's Farmable)- JP Missing .....
+{ //JP Equip Name (Garlan's Farmable) - JP Missing .....
         id: 107131,
         name: `JP Equip Name (Garlan's Farmable)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -19373,7 +19375,7 @@ const EquipInformation = [
             },
         lore: `A doll modeled after a certain Paw Person decorated for Christmas by Iris. Ru, hearing that Fen has a cute doll in his quarters, snuck in to check if the rumor was true and found the spitting image of himself, dressed up for the holidays. It was then said when Fen suddenly returned to his room, he started to scold the furry intruder, but after seeing him shed tears of joy, his expression softened into a slight grin and he patted him on the head.`
     },
-{ //JP Equip Name (Ugetsu Raid Equip)- JP Missing .....
+{ //JP Equip Name (Ugetsu Raid Equip) - JP Missing .....
         id: 107501,
         name: `JP Equip Name (Ugetsu Raid Equip)`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -19811,7 +19813,7 @@ const EquipInformation = [
             },
         lore: `Shoes covered in beautiful sparkling jewels, through the jewels resonating with one another magical power is brought forth. Furthermore, the very vibration of the shoes as they tread on the ground further amplifies the magical power even greater, sending it throughout the body of the user. It has been said that those who wear the boots are supplied with a never-ending well of magical power, allowing for extended battle. In fact, it has also been said that they could read the vibrations within the earth and predict the incoming activation of magic. The boots themselves were favored by supreme warriors in battle.`
     },
-{ //JP Equip Name (Tonetaurus Raid Equip)- JP Missing .....
+{ //JP Equip Name (Tonetaurus Raid Equip) - JP Missing .....
         id: 107651,
         name: `JP Equip Name (Tonetaurus Raid Equip)`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -19870,7 +19872,7 @@ const EquipInformation = [
             },
         lore: `The magical spear of the Demon Grad that hungers for vengeance against a certain swordsman. It absorbed Grad's desire for revenge over countless battles, gaining incredible lethality in the process. Although feared as a cursed spear that drives its wielder mad, causing them to fight until its foes are annihilated, Berserk has no such power. These rumors come from the lunatic appearance of Grad, who shouted crazed warcries as he wielded the spear on the battlefield.`
     },
-{ //JP Equip Name (Ashleigh's Farmable)- JP Missing .....
+{ //JP Equip Name (Ashleigh's Farmable) - JP Missing .....
         id: 107671,
         name: `JP Equip Name (Ashleigh's Farmable)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -19928,7 +19930,7 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //JP Equip Name (Ashleigh's Farmable)- JP Missing .....
+{ //JP Equip Name (Ashleigh's Farmable) - JP Missing .....
         id: 107691,
         name: `JP Equip Name (Ashleigh's Farmable)`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -19957,7 +19959,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Salyssa's Farmable)- JP Missing .....
+{ //JP Equip Name (Salyssa's Farmable) - JP Missing .....
         id: 107701,
         name: `JP Equip Name (Salyssa's Farmable)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -20016,7 +20018,7 @@ const EquipInformation = [
             },
         lore: `Salyssa's trusty spear. Her painstaking efforts keep it looking surprisingly new for its age. She wants to have it ready to return to the original owner at a moment's notice, which is the only reason she has not removed the unwieldy banner. (She has also unconsciously used it to wipe the sweat from her brow, so she washes it regularly.) When her mother found it more practical as a laundry pole, she made her first attempt to leave home.`
     },
-{ //JP Equip Name (Salyssa's Farmable)- JP Missing .....
+{ //JP Equip Name (Salyssa's Farmable) - JP Missing .....
         id: 107721,
         name: `JP Equip Name (Salyssa's Farmable)`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -20600,7 +20602,7 @@ const EquipInformation = [
             },
         lore: `One of Marika's inventions. It was designed to only fit her own head, so she has no plans for mass production. Several companies approached her with licensing offers, but the quality she demands drives up the manufacturing costs to unprofitable levels. since most of the features she wants to add will increase its weight, she is always trying to make it lighter.`
     },
-{ //JP Equip Name- JP Missing .....
+{ //JP Equip Name - JP Missing .....
         id: 107921,
         name: `JP Equip Name`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -20893,7 +20895,7 @@ const EquipInformation = [
             },
         lore: `The crown belonging to Queen Juno of Granadia. Though it has seen the birth and death of stars, legends tell that its luster shall never fade. Records of her ancestor receiving it from the Ancients were eventually found, becoming proof of the Ancients being cooperative with races outside of their own. To prevent theft, replicas of the crown were made while the original was hidden.`
     },
-{ //JP Equip Name (Ashe's Farmable)- JP Missing .....
+{ //JP Equip Name (Ashe's Farmable) - JP Missing .....
         id: 108021,
         name: `JP Equip Name (Ashe's Farmable)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -21272,7 +21274,7 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //JP Equip Name (Ragsherum Raid Equip)- JP Missing .....
+{ //JP Equip Name (Ragsherum Raid Equip) - JP Missing .....
         id: 108151,
         name: `JP Equip Name (Ragsherum Raid Equip)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -21301,7 +21303,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Ragsherum Raid Equip)- JP Missing .....
+{ //JP Equip Name (Ragsherum Raid Equip) - JP Missing .....
         id: 108161,
         name: `JP Equip Name (Ragsherum Raid Equip)`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -21504,7 +21506,7 @@ const EquipInformation = [
             },
         lore: `Of course I can swim. I simply wear this as a precaution, not because I'm afraid of the water. It is my duty to rescue the royal children should one start to drown, and it wouldn't do if I needed rescuing myself. Therefore, I must take every possible measure. Moreover, the thought of what might lurk in the depths is terrifyi-- No, never mind. The point being is I need your help too, Virago.`
     },
-{ //JP Equip Name (Melia Farmable)- JP Missing .....
+{ //JP Equip Name (Melia Farmable) - JP Missing .....
         id: 108231,
         name: `JP Equip Name (Melia Farmable)`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -21591,7 +21593,7 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //JP Equip Name (Raine's Farmable)- JP Missing .....
+{ //JP Equip Name (Raine's Farmable) - JP Missing .....
         id: 108261,
         name: `JP Equip Name (Raine's Farmable)`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -21649,7 +21651,7 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //JP Equip Name (Raine's Farmable)- JP Missing .....
+{ //JP Equip Name (Raine's Farmable) - JP Missing .....
         id: 108281,
         name: `JP Equip Name (Raine's Farmable)`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -21678,7 +21680,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Alulu's Farmable)- JP Missing .....
+{ //JP Equip Name (Alulu's Farmable) - JP Missing .....
         id: 108291,
         name: `JP Equip Name (Alulu's Farmable)`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -21736,7 +21738,7 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //JP Equip Name (Alulu's Farmable)- JP Missing .....
+{ //JP Equip Name (Alulu's Farmable) - JP Missing .....
         id: 108311,
         name: `JP Equip Name (Alulu's Farmable)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -22113,7 +22115,7 @@ const EquipInformation = [
             },
         lore: `Modeled after the pumpkin-headed monster that roams around threatening tricks if it does not receive treats. One merchant saw a comical charm in his top-heavy appearance and fashioned these dolls. Since he appears only at harvest time, he has already become a symbol of the season, and he will undoubtedly appear during Reigrad's festival this year too.`
     },
-{ //JP Equip Name (Tami-Nyan's Farmable)- JP Missing .....
+{ //JP Equip Name (Tami-Nyan's Farmable) - JP Missing .....
         id: 108441,
         name: `JP Equip Name (Tami-Nyan's Farmable)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -22171,7 +22173,7 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //JP Equip Name (Miri-Nyan's Farmable)- JP Missing .....
+{ //JP Equip Name (Miri-Nyan's Farmable) - JP Missing .....
         id: 108461,
         name: `JP Equip Name (Miri-Nyan's Farmable)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -22578,7 +22580,7 @@ const EquipInformation = [
             },
         lore: `A blessed instrument said to be used in the celebration of an other world holiday called Christmas. Once a year, people young and old gather around an illuminated tree, enjoy a grand feast, and exchange presents until morning. This event has also started gaining popularity in Raktehelm as the festive decor becomes more elaborate with each passing occasion.`
     },
-{ //JP Equip Name (Raid Equip)- JP Missing .....
+{ //JP Equip Name (Raid Equip) - JP Missing .....
         id: 108631,
         name: `JP Equip Name (Raid Equip)`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -22811,7 +22813,7 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //JP Equip Name (Serah's Farmable)- JP Missing .....
+{ //JP Equip Name (Serah's Farmable) - JP Missing .....
         id: 108711,
         name: `JP Equip Name (Serah's Farmable)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -22870,7 +22872,7 @@ const EquipInformation = [
             },
         lore: `Serah's favorite maid dress. The fabric repels everything from water to acid, making it suitable for light housework or dangerous experiments. Professor Arcana has praised how her choice to wear an all-purpose outfit reflects a "battle-ready" mindset. However, his tendency to ask her to make dinner while she's busy has come close to actually starting battles.`
     },
-{ //JP Equip Name (Serah's Farmable)- JP Missing .....
+{ //JP Equip Name (Serah's Farmable) - JP Missing .....
         id: 108731,
         name: `JP Equip Name (Serah's Farmable)`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -23015,7 +23017,7 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //JP Equip Name (Rits' Farmable)- JP Missing .....
+{ //JP Equip Name (Rits' Farmable) - JP Missing .....
         id: 108781,
         name: `JP Equip Name (Rits' Farmable)`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -23073,7 +23075,7 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //JP Equip Name (Rits' Farmable)- JP Missing .....
+{ //JP Equip Name (Rits' Farmable) - JP Missing .....
         id: 108801,
         name: `JP Equip Name (Rits' Farmable)`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -23278,7 +23280,7 @@ const EquipInformation = [
             },
         lore: `Gilliam's prized warmallet used to make the finest arms. with considerable girth and tough alloy construction, it obliterates the hardest, hottest foes. A novice soldier will see a simple weighted weapon, but a true master will take full advantage of its all-purpose nature. The clear, sharp clang of red-hot steel echoing throughout Reigrad is proof of the pride he puts into his work.`
     },
-{ //JP Equip Name (Raid Equip)- JP Missing .....
+{ //JP Equip Name (Raid Equip) - JP Missing .....
         id: 108871,
         name: `JP Equip Name (Raid Equip)`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -23483,7 +23485,7 @@ const EquipInformation = [
             },
         lore: `The black overcoat worn by Simon, hero of Simon's Hill. The emperor personally bestowed it upon him in recognition of his outstanding service to the empire. In addition to its edgeproof and bulletproof qualities, the magical cloth dampens perception in others. He melts into the darkness at night, rendering him practically invisible to the untrained eye.`
     },
-{ //JP Equip Name (Rosetta Farmable)- JP Missing .....
+{ //JP Equip Name (Rosetta Farmable) - JP Missing .....
         id: 108941,
         name: `JP Equip Name (Rosetta Farmable)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -23512,7 +23514,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Duke Farmable)- JP Missing .....
+{ //JP Equip Name (Duke Farmable) - JP Missing .....
         id: 108951,
         name: `JP Equip Name (Duke Farmable)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -23658,7 +23660,7 @@ const EquipInformation = [
             },
         lore: `Airi's military footwear. Despite their plain appearance, they are the sum product of Valkia's advanced magic, which was necessary to endure her nimble movements. The manner in which the vast resource investment to create them was readily approved speaks volumes about her impootance to the nations' forces.`
     },
-{ //JP Equip Name (Palamicia Raid Equip)- JP Missing ..... (109011 = Palamicia EV Equip)
+{ //JP Equip Name (Palamicia Raid Equip) - JP Missing ..... (109011 = Palamicia EV Equip)
         id: 109001,
         name: `JP Equip Name (Palamicia Raid Equip)`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -23687,7 +23689,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name EV (Palamicia Raid Equip EV)- JP Missing .....
+{ //JP Equip Name EV (Palamicia Raid Equip EV) - JP Missing .....
         id: 109011,
         name: `JP Equip Name EV (Palamicia Raid Equip EV)`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -23746,7 +23748,7 @@ const EquipInformation = [
             },
         lore: `There once lived a Bamint-born actress of matchless talent. Sharon idolizes her so much that she went to great lengths to obtain her trademark stole. Whether she is basking in applause or laboring behind the scenes, it can always been seen glimmering around her shoulders. People eventually started believing it is the sign of a top star.`
     },
-{ //JP Equip Name (Sharon's Farmable)- JP Missing .....
+{ //JP Equip Name (Sharon's Farmable) - JP Missing .....
         id: 109031,
         name: `JP Equip Name (Sharon's Farmable)`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -23775,7 +23777,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Sharon's Farmable)- JP Missing .....
+{ //JP Equip Name (Sharon's Farmable) - JP Missing .....
         id: 109041,
         name: `JP Equip Name (Sharon's Farmable)`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -23892,7 +23894,7 @@ const EquipInformation = [
             },
         lore: `The battle outfit Hart wears as he fights the empire. He received it from Azvan as his affiliate. Not only resistant to blades and bullets, it is remarkably effective against spells. The lightweight fabric bears not a single seam or tear, giving the impression it was created by magic or some long-forgotten technology.`
     },
-{ //JP Equip Name (Belgiras Mines Equip)- JP Missing .....
+{ //JP Equip Name (Belgiras Mines Equip) - JP Missing .....
         id: 109081,
         name: `JP Equip Name (Belgiras Mines Equip)`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -23921,7 +23923,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Elite Belgiras Mines Equip)- JP Missing .....
+{ //JP Equip Name (Elite Belgiras Mines Equip) - JP Missing .....
         id: 109091,
         name: `JP Equip Name (Elite Belgiras Mines Equip)`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -23950,7 +23952,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Freydal Mines Equip)- JP Missing .....
+{ //JP Equip Name (Freydal Mines Equip) - JP Missing .....
         id: 109101,
         name: `JP Equip Name (Freydal Mines Equip)`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -23979,7 +23981,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Elite Freydal Mines Equip)- JP Missing .....
+{ //JP Equip Name (Elite Freydal Mines Equip) - JP Missing .....
         id: 109111,
         name: `JP Equip Name (Elite Freydal Mines Equip)`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -24008,7 +24010,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Elpneumas Mines Equip)- JP Missing .....
+{ //JP Equip Name (Elpneumas Mines Equip) - JP Missing .....
         id: 109121,
         name: `JP Equip Name (Elpneumas Mines Equip)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -24037,7 +24039,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Elite Elpneumas Mines Equip)- JP Missing .....
+{ //JP Equip Name (Elite Elpneumas Mines Equip) - JP Missing .....
         id: 109131,
         name: `JP Equip Name (Elite Elpneumas Mines Equip)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -24531,7 +24533,7 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //JP Equip Name (Emi's Raid Equip)- JP Missing ..... (109311 = Dark Helmet (Emi?) EV Equip)
+{ //JP Equip Name (Emi's Raid Equip) - JP Missing ..... (109311 = Dark Helmet (Emi?) EV Equip)
         id: 109301,
         name: `JP Equip Name (Emi's Raid Equip)`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -24560,7 +24562,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name EV (Emi's Raid Equip EV)- JP Missing .....
+{ //JP Equip Name EV (Emi's Raid Equip EV) - JP Missing .....
         id: 109311,
         name: `JP Equip Name EV (Emi's Raid Equip EV)`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -24821,7 +24823,7 @@ const EquipInformation = [
             },
         lore: `Juno's personal Diever Boat. From the moment she saw it on display, its hydrodynamic form and cute eyes stole her heart. All of the latest features are installed, allowing for realistic Diever movement that instantly responds to its driver. Those who watched her tear through the waves found her greater-than-usual exuberance charming.`
     },
-{ //JP Equip Name (Elizabeth's Farmable)- JP Missing .....
+{ //JP Equip Name (Elizabeth's Farmable) - JP Missing .....
         id: 109401,
         name: `JP Equip Name (Elizabeth's Farmable)`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -24850,7 +24852,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Elizabeth's Farmable)- JP Missing .....
+{ //JP Equip Name (Elizabeth's Farmable) - JP Missing .....
         id: 109411,
         name: `JP Equip Name (Elizabeth's Farmable)`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -25201,7 +25203,7 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //JP Equip Name (Norn Farmable)- JP Missing .....
+{ //JP Equip Name (Norn Farmable) - JP Missing .....
         id: 109531,
         name: `JP Equip Name (Norn Farmable)`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -25230,7 +25232,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Degilmagna Mines Equip)- JP Missing .....
+{ //JP Equip Name (Degilmagna Mines Equip) - JP Missing .....
         id: 109541,
         name: `JP Equip Name (Degilmagna Mines Equip)`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -25259,7 +25261,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Jackosherum Raid Equip)- JP Missing .....
+{ //JP Equip Name (Jackosherum Raid Equip) - JP Missing .....
         id: 109551,
         name: `JP Equip Name (Jackosherum Raid Equip)`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -25288,7 +25290,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //Jack-O-Sherum's Cape EV (JP)- JP Missing .....
+{ //Jack-O-Sherum's Cape EV (JP) - JP Missing .....
         id: 109561,
         name: `Jack-O-Sherum's Cape EV`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -26279,7 +26281,7 @@ const EquipInformation = [
             },
         lore: `A decoration used in an otherworld festival known as "Christmas". Inside the crystal sphere is a miniaturized scene of Raktehelm, and shaking it recreates gentle snowfall. The small but captivating sight can provide entertainment for hours on end. A member of Reigrad Adventurer's Guild is known to be particularly vulnerable to its charm.`
     },
-{ //JP Equip Name (Emi Raid Equip)- JP Missing ..... (109941 = Emi EV Equip)
+{ //JP Equip Name (Emi Raid Equip) - JP Missing ..... (109941 = Emi EV Equip)
         id: 109901,
         name: `JP Equip Name (Emi Raid Equip)`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -26338,7 +26340,7 @@ const EquipInformation = [
             },
         lore: `The magic wand of famous conjurer Selia. The crystal at the top, made up of highly endothermic materials, approaches temperatures close to absolute Zero. This increases the strength of ice magic by a magnitude of over 1000%. However, the uninitiated should never touch it as a single mistake could leave them frozen solid.`
     },
-{ //JP Equip Name EV (Emi Raid Equip EV)- JP Missing .....
+{ //JP Equip Name EV (Emi Raid Equip EV) - JP Missing .....
         id: 109941,
         name: `JP Equip Name EV (Emi Raid Equip EV)`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -26367,7 +26369,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name EV (Garm Raid Equip EV)- JP Missing .....
+{ //JP Equip Name EV (Garm Raid Equip EV) - JP Missing .....
         id: 109951,
         name: `JP Equip Name EV (Garm Raid Equip EV)`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -26660,7 +26662,7 @@ const EquipInformation = [
             },
         lore: `Rabbit-shaped headgear belonging to Charlotte. It absorbs magic energy in the air to relieve the wearer's fatigue. Many believe this is what lets her wield a sword the size of her body with ease. However, she keeps it on even outside of battle for the simple reason that she likes bunnies.`
     },
-{ //JP Equip Name (Flogassa Raid Equip)- JP Missing ..... (110061 = Flogassa EV Equip)
+{ //JP Equip Name (Flogassa Raid Equip) - JP Missing ..... (110061 = Flogassa EV Equip)
         id: 110051,
         name: `JP Equip Name (Flogassa Raid Equip)`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -26689,7 +26691,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name EV (Flogassa Raid Equip EV)- JP Missing .....
+{ //JP Equip Name EV (Flogassa Raid Equip EV) - JP Missing .....
         id: 110061,
         name: `JP Equip Name EV (Flogassa Raid Equip EV)`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -26718,7 +26720,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (FOrvell TW)- JP Missing .....
+{ //JP Equip Name (FOrvell TW) - JP Missing .....
         id: 110091,
         name: `JP Equip Name (FOrvell TW)`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -26747,7 +26749,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (FOrvell Farmable)- JP Missing .....
+{ //JP Equip Name (FOrvell Farmable) - JP Missing .....
         id: 110101,
         name: `JP Equip Name (FOrvell Farmable)`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -26776,7 +26778,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (FOrvell Farmable)- JP Missing .....
+{ //JP Equip Name (FOrvell Farmable) - JP Missing .....
         id: 110111,
         name: `JP Equip Name (FOrvell Farmable)`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -26805,7 +26807,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (LCestina TW)- JP Missing .....
+{ //JP Equip Name (LCestina TW) - JP Missing .....
         id: 110121,
         name: `JP Equip Name (LCestina TW)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -26834,7 +26836,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (LCestina Farmable)- JP Missing .....
+{ //JP Equip Name (LCestina Farmable) - JP Missing .....
         id: 110131,
         name: `JP Equip Name (LCestina Farmable)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -26863,7 +26865,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (LCestina Secret Equip)- JP Missing .....
+{ //JP Equip Name (LCestina Secret Equip) - JP Missing .....
         id: 110141,
         name: `JP Equip Name (LCestina Secret Equip)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -26892,7 +26894,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Mizu12 TW)- JP Missing .....
+{ //JP Equip Name (Mizu12 TW) - JP Missing .....
         id: 110151,
         name: `JP Equip Name (Mizu12 TW)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -26921,7 +26923,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (WarGinzo TW)- JP Missing .....
+{ //JP Equip Name (WarGinzo TW) - JP Missing .....
         id: 110161,
         name: `JP Equip Name (WarGinzo TW)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -26950,7 +26952,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Mizu12 Farmable)- JP Missing .....
+{ //JP Equip Name (Mizu12 Farmable) - JP Missing .....
         id: 110171,
         name: `JP Equip Name (Mizu12 Farmable)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -26979,7 +26981,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Mizu12 Farmable)- JP Missing .....
+{ //JP Equip Name (Mizu12 Farmable) - JP Missing .....
         id: 110181,
         name: `JP Equip Name (Mizu12 Farmable)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -27008,7 +27010,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (WarGinzo Farmable)- JP Missing .....
+{ //JP Equip Name (WarGinzo Farmable) - JP Missing .....
         id: 110191,
         name: `JP Equip Name (WarGinzo Farmable)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -27037,7 +27039,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (WarGinzo Farmable)- JP Missing .....
+{ //JP Equip Name (WarGinzo Farmable) - JP Missing .....
         id: 110201,
         name: `JP Equip Name (WarGinzo Farmable)`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -27095,7 +27097,7 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //JP Equip Name (LThetis TW)- JP Missing .....
+{ //JP Equip Name (LThetis TW) - JP Missing .....
         id: 110221,
         name: `JP Equip Name (LThetis TW)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -27124,7 +27126,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (DRivi TW)- JP Missing .....
+{ //JP Equip Name (DRivi TW) - JP Missing .....
         id: 110231,
         name: `JP Equip Name (DRivi TW)`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -27153,7 +27155,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (LThetis Farmable)- JP Missing .....
+{ //JP Equip Name (LThetis Farmable) - JP Missing .....
         id: 110241,
         name: `JP Equip Name (LThetis Farmable)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -27182,7 +27184,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (LThetis Farmable)- JP Missing .....
+{ //JP Equip Name (LThetis Farmable) - JP Missing .....
         id: 110251,
         name: `JP Equip Name (LThetis Farmable)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -27211,7 +27213,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (DRivi Farmable)- JP Missing .....
+{ //JP Equip Name (DRivi Farmable) - JP Missing .....
         id: 110261,
         name: `JP Equip Name (DRivi Farmable)`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -27240,7 +27242,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (DRivi Farmable)- JP Missing .....
+{ //JP Equip Name (DRivi Farmable) - JP Missing .....
         id: 110271,
         name: `JP Equip Name (DRivi Farmable)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -27269,7 +27271,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Sakuya TW)- JP Missing .....
+{ //JP Equip Name (Sakuya TW) - JP Missing .....
         id: 110281,
         name: `JP Equip Name (Sakuya TW)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -27298,7 +27300,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Sakuya Farmable)- JP Missing .....
+{ //JP Equip Name (Sakuya Farmable) - JP Missing .....
         id: 110291,
         name: `JP Equip Name (Sakuya Farmable)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -27327,7 +27329,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Sakuya Farmable)- JP Missing .....
+{ //JP Equip Name (Sakuya Farmable) - JP Missing .....
         id: 110301,
         name: `JP Equip Name (Sakuya Farmable)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -27356,7 +27358,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Fongion Raid Equip)- JP Missing .....
+{ //JP Equip Name (Fongion Raid Equip) - JP Missing .....
         id: 110311,
         name: `JP Equip Name (Fongion Raid Equip)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -27675,7 +27677,7 @@ const EquipInformation = [
             },
         lore: `Hart's favorite pair of boots. Their standard appearance belies a special composition designed for mages. Its magically charged laces fed the gravity-control spell in the soles for extra agility, or they can be wrapped around the wearer's arms for a boost of energy. However, his first attempt at the latter saw him immediately trip over the loosened flaps, so he never did it again.`
     },
-{ //JP Equip Name (Ragsherum Mines Equip)- JP Missing .....
+{ //JP Equip Name (Ragsherum Mines Equip) - JP Missing .....
         id: 110421,
         name: `JP Equip Name (Ragsherum Mines Equip)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -27764,7 +27766,7 @@ const EquipInformation = [
             },
         lore: `Leone's cute leotard-style swimsuit, unaltered in any way. She tried it on one year later, and the comfortable fit sent a chill down her spine. It was impossible she had not grown; her daily snack included a glass of nutritious milk. Then, she remembered her sister would be a reliable source of information on the matter. That glimmer of hope in her eyes made it clear she was unaware of what disappointment the future held.`
     },
-{ //JP Equip Name (Valerie TW)- JP Missing .....
+{ //JP Equip Name (Valerie TW) - JP Missing .....
         id: 110451,
         name: `JP Equip Name (Valerie TW)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -27793,7 +27795,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Valerie Farmable)- JP Missing .....
+{ //JP Equip Name (Valerie Farmable) - JP Missing .....
         id: 110461,
         name: `JP Equip Name (Valerie Farmable)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -27822,7 +27824,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Valerie Farmable)- JP Missing .....
+{ //JP Equip Name (Valerie Farmable) - JP Missing .....
         id: 110471,
         name: `JP Equip Name (Valerie Farmable)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -27996,7 +27998,7 @@ const EquipInformation = [
             },
         lore: `Groitz's repulsive beach shorts. Although he clearly liked the sickly shade of green and creepy skull-and-thorn pattern, everyone else at the beach gave him a wide berth. Emi observed he would be useful in opening a path through the homeward-bound crowds, but that benefit did not outweigh the humiliation of being seen in his company.`
     },
-{ //JP Equip Name (Skull Spear Raid Equip?)- JP Missing .....
+{ //JP Equip Name (Skull Spear Raid Equip?) - JP Missing .....
         id: 110531,
         name: `JP Equip Name (Skull Spear Raid Equip?)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -28025,7 +28027,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Light Shirt?)- JP Missing .....
+{ //JP Equip Name (Light Shirt?) - JP Missing .....
         id: 110541,
         name: `JP Equip Name (Light Shirt?)`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -28084,7 +28086,7 @@ const EquipInformation = [
             },
         lore: `The ever-reliable partner of Cosmo, Bamint officer and rising star. It transforms her outflowing emotions into killer riffs. Although Kane insists he would never give away such an expensive article, he does not seem too concerned about her borrowing it for so long. This might be because he knows she has become good enough to form a true bond.`
     },
-{ //JP Equip Name (Cosmo Farmable)- JP Missing .....
+{ //JP Equip Name (Cosmo Farmable) - JP Missing .....
         id: 110561,
         name: `JP Equip Name (Cosmo Farmable)`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -28113,7 +28115,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Cosmo Farmable)- JP Missing .....
+{ //JP Equip Name (Cosmo Farmable) - JP Missing .....
         id: 110571,
         name: `JP Equip Name (Cosmo Farmable)`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -28142,7 +28144,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (SR Equip)- JP Missing .....
+{ //JP Equip Name (SR Equip) - JP Missing .....
         id: 110581,
         name: `JP Equip Name (SR Equip)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -28171,7 +28173,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (SR Equip)- JP Missing .....
+{ //JP Equip Name (SR Equip) - JP Missing .....
         id: 110591,
         name: `JP Equip Name (SR Equip)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -28200,7 +28202,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (WGFen TW)- JP Missing .....
+{ //JP Equip Name (WGFen TW) - JP Missing .....
         id: 110601,
         name: `JP Equip Name (WGFen TW)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -28229,7 +28231,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Green shirt?)- JP Missing .....
+{ //JP Equip Name (Green shirt?) - JP Missing .....
         id: 110611,
         name: `JP Equip Name (Green shirt?)`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -28258,7 +28260,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Kirisame TW)- JP Missing .....
+{ //JP Equip Name (Kirisame TW) - JP Missing .....
         id: 110621,
         name: `JP Equip Name (Kirisame TW)`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -28287,7 +28289,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Kirisame Farmable)- JP Missing .....
+{ //JP Equip Name (Kirisame Farmable) - JP Missing .....
         id: 110631,
         name: `JP Equip Name (Kirisame Farmable)`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -28316,7 +28318,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Boots?)- JP Missing .....
+{ //JP Equip Name (Boots?) - JP Missing .....
         id: 110641,
         name: `JP Equip Name (Boots?)`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -28345,7 +28347,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Hakurou TW)- JP Missing .....
+{ //JP Equip Name (Hakurou TW) - JP Missing .....
         id: 110651,
         name: `JP Equip Name (Hakurou TW)`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -28374,7 +28376,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (SR Equip)- JP Missing .....
+{ //JP Equip Name (SR Equip) - JP Missing .....
         id: 110661,
         name: `JP Equip Name (SR Equip)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -28403,7 +28405,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (SR Equip)- JP Missing .....
+{ //JP Equip Name (SR Equip) - JP Missing .....
         id: 110671,
         name: `JP Equip Name (SR Equip)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -28432,7 +28434,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Hakurou Farmable)- JP Missing .....
+{ //JP Equip Name (Hakurou Farmable) - JP Missing .....
         id: 110681,
         name: `JP Equip Name (Hakurou Farmable)`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -28461,7 +28463,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Hakurou Farmable)- JP Missing .....
+{ //JP Equip Name (Hakurou Farmable) - JP Missing .....
         id: 110691,
         name: `JP Equip Name (Hakurou Farmable)`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -28490,7 +28492,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (PSS Halloween Equip)- JP Missing .....
+{ //JP Equip Name (PSS Halloween Equip) - JP Missing .....
         id: 110701,
         name: `JP Equip Name (PSS Halloween Equip)`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -28519,7 +28521,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (PSS Halloween Equip)- JP Missing .....
+{ //JP Equip Name (PSS Halloween Equip) - JP Missing .....
         id: 110711,
         name: `JP Equip Name (PSS Halloween Equip)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -28548,7 +28550,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (PSS Halloween Equip)- JP Missing .....
+{ //JP Equip Name (PSS Halloween Equip) - JP Missing .....
         id: 110721,
         name: `JP Equip Name (PSS Halloween Equip)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -28577,7 +28579,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (PSS Halloween Equip)- JP Missing .....
+{ //JP Equip Name (PSS Halloween Equip) - JP Missing .....
         id: 110731,
         name: `JP Equip Name (PSS Halloween Equip)`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -28606,7 +28608,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (PSS Halloween Equip)- JP Missing .....
+{ //JP Equip Name (PSS Halloween Equip) - JP Missing .....
         id: 110741,
         name: `JP Equip Name (PSS Halloween Equip)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -28635,7 +28637,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (PSS Halloween Equip)- JP Missing .....
+{ //JP Equip Name (PSS Halloween Equip) - JP Missing .....
         id: 110751,
         name: `JP Equip Name (PSS Halloween Equip)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -28664,7 +28666,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (SDBerwick TW)- JP Missing .....
+{ //JP Equip Name (SDBerwick TW) - JP Missing .....
         id: 110761,
         name: `JP Equip Name (SDBerwick TW)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -28693,7 +28695,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (SDBerwick Farmable)- JP Missing .....
+{ //JP Equip Name (SDBerwick Farmable) - JP Missing .....
         id: 110771,
         name: `JP Equip Name (SDBerwick Farmable)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -28722,7 +28724,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (SDBerwick Farmable)- JP Missing .....
+{ //JP Equip Name (SDBerwick Farmable) - JP Missing .....
         id: 110781,
         name: `JP Equip Name (SDBerwick Farmable)`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -28751,7 +28753,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (SDBerwick Secret Equip)- JP Missing .....
+{ //JP Equip Name (SDBerwick Secret Equip) - JP Missing .....
         id: 110791,
         name: `JP Equip Name (SDBerwick Secret Equip)`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -28780,7 +28782,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Hazuki TW)- JP Missing .....
+{ //JP Equip Name (Hazuki TW) - JP Missing .....
         id: 110801,
         name: `JP Equip Name (Hazuki TW)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -28809,7 +28811,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Hazuki Farmable)- JP Missing .....
+{ //JP Equip Name (Hazuki Farmable) - JP Missing .....
         id: 110811,
         name: `JP Equip Name (Hazuki Farmable)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -28838,7 +28840,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Hazuki Farmable)- JP Missing .....
+{ //JP Equip Name (Hazuki Farmable) - JP Missing .....
         id: 110821,
         name: `JP Equip Name (Hazuki Farmable)`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -28867,7 +28869,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (SR Equip)- JP Missing .....
+{ //JP Equip Name (SR Equip) - JP Missing .....
         id: 110831,
         name: `JP Equip Name (SR Equip)`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -28896,7 +28898,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (SR Equip) - JP Missing .....
+{ //JP Equip Name (SR Equip)  - JP Missing .....
         id: 110841,
         name: `JP Equip Name (SR Equip) `,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -28925,7 +28927,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (SGLiza TW) - JP Missing .....
+{ //JP Equip Name (SGLiza TW)  - JP Missing .....
         id: 110851,
         name: `JP Equip Name (SGLiza TW)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -28954,7 +28956,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (SGLiza Farmable)- JP Missing .....
+{ //JP Equip Name (SGLiza Farmable) - JP Missing .....
         id: 110861,
         name: `JP Equip Name (SGLiza Farmable)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -28983,7 +28985,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (SGLiza Farmable)- JP Missing .....
+{ //JP Equip Name (SGLiza Farmable) - JP Missing .....
         id: 110871,
         name: `JP Equip Name (SGLiza Farmable)`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -29012,7 +29014,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (SGLiza Farmable)- JP Missing .....
+{ //JP Equip Name (SGLiza Farmable) - JP Missing .....
         id: 110881,
         name: `JP Equip Name (SGLiza Farmable)`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -29041,7 +29043,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Elemental Ruins F15 Equip)- JP Missing .....
+{ //JP Equip Name (Elemental Ruins F15 Equip) - JP Missing .....
         id: 110891,
         name: `JP Equip Name (Elemental Ruins F15 Equip)`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -29070,7 +29072,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Elemental Ruins F15 Equip)- JP Missing .....
+{ //JP Equip Name (Elemental Ruins F15 Equip) - JP Missing .....
         id: 110901,
         name: `JP Equip Name (Elemental Ruins F15 Equip)`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -29099,7 +29101,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Elemental Ruins F15 Equip)- JP Missing .....
+{ //JP Equip Name (Elemental Ruins F15 Equip) - JP Missing .....
         id: 110911,
         name: `JP Equip Name (Elemental Ruins F15 Equip)`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -29128,7 +29130,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (PSS Xmas Equip)- JP Missing .....
+{ //JP Equip Name (PSS Xmas Equip) - JP Missing .....
         id: 110921,
         name: `JP Equip Name (PSS Xmas Equip)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -29157,7 +29159,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (PSS Xmas Equip)- JP Missing .....
+{ //JP Equip Name (PSS Xmas Equip) - JP Missing .....
         id: 110931,
         name: `JP Equip Name (PSS Xmas Equip)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -29186,7 +29188,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (PSS Xmas Equip)- JP Missing .....
+{ //JP Equip Name (PSS Xmas Equip) - JP Missing .....
         id: 110941,
         name: `JP Equip Name (PSS Xmas Equip)`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -29215,7 +29217,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (PSS Xmas Equip)- JP Missing .....
+{ //JP Equip Name (PSS Xmas Equip) - JP Missing .....
         id: 110951,
         name: `JP Equip Name (PSS Xmas Equip)`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -29244,7 +29246,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (PSS Xmas Equip)- JP Missing .....
+{ //JP Equip Name (PSS Xmas Equip) - JP Missing .....
         id: 110961,
         name: `JP Equip Name (PSS Xmas Equip)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -29273,7 +29275,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (PSS Xmas Farmable)- JP Missing .....
+{ //JP Equip Name (PSS Xmas Farmable) - JP Missing .....
         id: 110971,
         name: `JP Equip Name (PSS Xmas Farmable)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -29302,7 +29304,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (SR Equip) - JP Missing .....
+{ //JP Equip Name (SR Equip)  - JP Missing .....
         id: 110981,
         name: `JP Equip Name (SR Equip) `,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -29331,7 +29333,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (SR Equip) - JP Missing .....
+{ //JP Equip Name (SR Equip)  - JP Missing .....
         id: 110991,
         name: `JP Equip Name (SR Equip) `,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -29360,7 +29362,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Elite Garm Mines Equip)- JP Missing .....
+{ //JP Equip Name (Elite Garm Mines Equip) - JP Missing .....
         id: 111001,
         name: `JP Equip Name (Elite Garm Mines Equip)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -29389,7 +29391,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Elite Ragsherum Mines Equip)- JP Missing .....
+{ //JP Equip Name (Elite Ragsherum Mines Equip) - JP Missing .....
         id: 111031,
         name: `JP Equip Name (Elite Ragsherum Mines Equip)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -29418,7 +29420,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Long's TW)- JP Missing .....
+{ //JP Equip Name (Long's TW) - JP Missing .....
         id: 111041,
         name: `JP Equip Name (Long's TW)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -29447,7 +29449,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Long's Farmable)- JP Missing .....
+{ //JP Equip Name (Long's Farmable) - JP Missing .....
         id: 111051,
         name: `JP Equip Name (Long's Farmable)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -29476,7 +29478,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Long's Farmable)- JP Missing .....
+{ //JP Equip Name (Long's Farmable) - JP Missing .....
         id: 111061,
         name: `JP Equip Name (Long's Farmable)`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -29505,7 +29507,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (SR Equip) - JP Missing .....
+{ //JP Equip Name (SR Equip)  - JP Missing .....
         id: 111071,
         name: `JP Equip Name (SR Equip) `,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -29534,7 +29536,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (SR Equip) - JP Missing .....
+{ //JP Equip Name (SR Equip)  - JP Missing .....
         id: 111081,
         name: `JP Equip Name (SR Equip) `,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -29563,7 +29565,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (VMiranda Farmable)- JP Missing .....
+{ //JP Equip Name (VMiranda Farmable) - JP Missing .....
         id: 111091,
         name: `JP Equip Name (VMiranda Farmable)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -29592,7 +29594,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (VMiranda Farmable)- JP Missing .....
+{ //JP Equip Name (VMiranda Farmable) - JP Missing .....
         id: 111101,
         name: `JP Equip Name (VMiranda Farmable)`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -29621,7 +29623,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (VPriscilla Farmable)- JP Missing .....
+{ //JP Equip Name (VPriscilla Farmable) - JP Missing .....
         id: 111111,
         name: `JP Equip Name (VPriscilla Farmable)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -29650,7 +29652,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (VPriscilla Farmable)- JP Missing .....
+{ //JP Equip Name (VPriscilla Farmable) - JP Missing .....
         id: 111121,
         name: `JP Equip Name (VPriscilla Farmable)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -29679,7 +29681,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (SR Equip) - JP Missing .....
+{ //JP Equip Name (SR Equip)  - JP Missing .....
         id: 111131,
         name: `JP Equip Name (SR Equip) `,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -29708,7 +29710,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (SR Equip) - JP Missing .....
+{ //JP Equip Name (SR Equip)  - JP Missing .....
         id: 111141,
         name: `JP Equip Name (SR Equip) `,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -29737,7 +29739,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (SR Equip) - JP Missing .....
+{ //JP Equip Name (SR Equip)  - JP Missing .....
         id: 111151,
         name: `JP Equip Name (SR Equip) `,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -29766,7 +29768,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (SR Equip) - JP Missing .....
+{ //JP Equip Name (SR Equip)  - JP Missing .....
         id: 111161,
         name: `JP Equip Name (SR Equip) `,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -29795,7 +29797,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (SR Equip) - JP Missing .....
+{ //JP Equip Name (SR Equip)  - JP Missing .....
         id: 111171,
         name: `JP Equip Name (SR Equip) `,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -29824,7 +29826,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (SR Equip)- JP Missing .....
+{ //JP Equip Name (SR Equip) - JP Missing .....
         id: 111181,
         name: `JP Equip Name (SR Equip) `,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -30056,7 +30058,7 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Ultra Relic 'Phantom Sword'- JP Missing .....
+{ //Ultra Relic 'Phantom Sword' - JP Missing .....
         id: 140081,
         name: `Ultra Relic 'Phantom Sword'`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -30085,7 +30087,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //Ultra Relic 'Phantom Core'- JP Missing .....
+{ //Ultra Relic 'Phantom Core' - JP Missing .....
         id: 140091,
         name: `Ultra Relic 'Phantom Core'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -30114,7 +30116,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //Ultra Relic 'Volkans'- JP Missing .....
+{ //Ultra Relic 'Volkans' - JP Missing .....
         id: 140101,
         name: `Ultra Relic 'Volkans'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -30143,7 +30145,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //Ultra Relic 'Bracchium'- JP Missing .....
+{ //Ultra Relic 'Bracchium' - JP Missing .....
         id: 140111,
         name: `Ultra Relic 'Bracchium'`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -30172,7 +30174,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //Ultra Relic 'Skeletooth'- JP Missing .....
+{ //Ultra Relic 'Skeletooth' - JP Missing .....
         id: 140121,
         name: `Ultra Relic 'Skeletooth'`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -30201,7 +30203,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //Ultra Relic 'Periusia'- JP Missing .....
+{ //Ultra Relic 'Periusia' - JP Missing .....
         id: 140131,
         name: `Ultra Relic 'Periusia'`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -30230,7 +30232,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Monster Hunter equip)- JP Missing .....
+{ //JP Equip Name (Monster Hunter equip) - JP Missing .....
         id: 150011,
         name: `JP Equip Name (Monster Hunter equip)`,
         type: `/db/Mines/thumbnail/LB.png`,
@@ -30259,7 +30261,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Monster Hunter equip)- JP Missing .....
+{ //JP Equip Name (Monster Hunter equip) - JP Missing .....
         id: 150021,
         name: `JP Equip Name (Monster Hunter equip)`,
         type: `/db/Mines/thumbnail/LB.png`,
@@ -30288,7 +30290,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Monster Hunter equip)- JP Missing .....
+{ //JP Equip Name (Monster Hunter equip) - JP Missing .....
         id: 150031,
         name: `JP Equip Name (Monster Hunter equip)`,
         type: `/db/Mines/thumbnail/LB.png`,
@@ -30317,7 +30319,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Monster Hunter equip)- JP Missing .....
+{ //JP Equip Name (Monster Hunter equip) - JP Missing .....
         id: 150041,
         name: `JP Equip Name (Monster Hunter equip)`,
         type: `/db/Mines/thumbnail/LB.png`,
@@ -30346,7 +30348,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Monster Hunter equip)- JP Missing .....
+{ //JP Equip Name (Monster Hunter equip) - JP Missing .....
         id: 150051,
         name: `JP Equip Name (Monster Hunter equip)`,
         type: `/db/Mines/thumbnail/LB.png`,
@@ -30375,7 +30377,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Monster Hunter equip)- JP Missing .....
+{ //JP Equip Name (Monster Hunter equip) - JP Missing .....
         id: 150061,
         name: `JP Equip Name (Monster Hunter equip)`,
         type: `/db/Mines/thumbnail/LB.png`,
@@ -30404,7 +30406,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Monster Hunter equip)- JP Missing .....
+{ //JP Equip Name (Monster Hunter equip) - JP Missing .....
         id: 150071,
         name: `JP Equip Name (Monster Hunter equip)`,
         type: `/db/Mines/thumbnail/LB.png`,
@@ -30433,7 +30435,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Monster Hunter equip)- JP Missing .....
+{ //JP Equip Name (Monster Hunter equip) - JP Missing .....
         id: 150081,
         name: `JP Equip Name (Monster Hunter equip)`,
         type: `/db/Mines/thumbnail/LB.png`,
@@ -30462,7 +30464,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Monster Hunter equip)- JP Missing .....
+{ //JP Equip Name (Monster Hunter equip) - JP Missing .....
         id: 150091,
         name: `JP Equip Name (Monster Hunter equip)`,
         type: `/db/Mines/thumbnail/LB.png`,
@@ -30491,7 +30493,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Monster Hunter equip)- JP Missing .....
+{ //JP Equip Name (Monster Hunter equip) - JP Missing .....
         id: 150101,
         name: `JP Equip Name (Monster Hunter equip)`,
         type: `/db/Mines/thumbnail/LB.png`,
@@ -30520,7 +30522,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Monster Hunter equip)- JP Missing .....
+{ //JP Equip Name (Monster Hunter equip) - JP Missing .....
         id: 150111,
         name: `JP Equip Name (Monster Hunter equip)`,
         type: `/db/Mines/thumbnail/LB.png`,
@@ -30549,7 +30551,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Monster Hunter equip)- JP Missing .....
+{ //JP Equip Name (Monster Hunter equip) - JP Missing .....
         id: 150121,
         name: `JP Equip Name (Monster Hunter equip)`,
         type: `/db/Mines/thumbnail/LB.png`,
@@ -36115,7 +36117,7 @@ const EquipInformation = [
             },
         lore: `Combat gear Empress found in a nearby case when she woke up in the year 2062 AD. It is lightweight and customized for a Hemiteos Unit.`
     },
-{ //Emilia's Casual Dress - Missing .....
+{ //Emilia's Casual Dress - Missing Lore
         id: 152071,
         name: `Emilia's Casual Dress`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -36129,22 +36131,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `40s CT - Auto-fills all allies' Arts gauge by 3 for 10s. Increase all allies' DMG by [30% x number of Water allies] for 10s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //Young Rem's Robe - Missing .....
+{ //Young Rem's Robe - Missing Lore
         id: 152081,
         name: `Young Rem's Robe`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -36159,21 +36161,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 5000% Water DMG (Magic). Increases DMG to Giant Bosses by 60% for 15s. Increases Arts gauge by 80 (First time only).`,
+                break: 700
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //Young Ram's Robe - Missing .....
+{ //Young Ram's Robe - Missing Lore
         id: 152091,
         name: `Young Ram's Robe`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -36189,20 +36191,20 @@ const EquipInformation = [
             {
                 hp: 0,
                 atk: 0,
-                def: 0
+                def: 500
             },
         skillset:  
             {
-                skill: ``,
+                skill: `30s CT - Recovers all allies' HP by 2000. Reduces all allies' Water DMG taken by 30% for 20s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //Beatrice's Crown - Missing .....
+{ //Beatrice's Crown - Missing Lore
         id: 152101,
         name: `Beatrice's Crown`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -36217,21 +36219,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `80s CT - 10000% Dark DMG (Magic). Increases own Magic DMG by 60% and Dark allies' DMG by 40% for 20s.`,
+                break: 1000
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //Beatrice's Finery - Missing .....
+{ //Beatrice's Finery - Missing Lore
         id: 152111,
         name: `Beatrice's Finery`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -36245,20 +36247,20 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
+                hp: 120,
                 atk: 0,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
+                skill: `30s CT - Recovers all allies' HP by 1000. Heals all allies' Blind.`,
                 break: 0
             },
         passive: 
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //Subaru's Cell Phone - Missing .....
         id: 152121,
@@ -36318,7 +36320,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Overlord Equip)- JP Missing .....
+{ //JP Equip Name (Overlord Equip) - JP Missing .....
         id: 152141,
         name: `JP Equip Name (Overlord Equip)`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -36347,7 +36349,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Overlord Equip)- JP Missing .....
+{ //JP Equip Name (Overlord Equip) - JP Missing .....
         id: 152151,
         name: `JP Equip Name (Overlord Equip)`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -36376,7 +36378,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Overlord Equip)- JP Missing .....
+{ //JP Equip Name (Overlord Equip) - JP Missing .....
         id: 152161,
         name: `JP Equip Name (Overlord Equip)`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -36405,7 +36407,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Overlord Equip)- JP Missing .....
+{ //JP Equip Name (Overlord Equip) - JP Missing .....
         id: 152171,
         name: `JP Equip Name (Overlord Equip)`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -36434,7 +36436,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Overlord Equip)- JP Missing .....
+{ //JP Equip Name (Overlord Equip) - JP Missing .....
         id: 152181,
         name: `JP Equip Name (Overlord Equip)`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -36463,7 +36465,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Overlord Equip)- JP Missing .....
+{ //JP Equip Name (Overlord Equip) - JP Missing .....
         id: 152191,
         name: `JP Equip Name (Overlord Equip)`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -36492,7 +36494,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Overlord Equip)- JP Missing .....
+{ //JP Equip Name (Overlord Equip) - JP Missing .....
         id: 152201,
         name: `JP Equip Name (Overlord Equip)`,
         type: `/db/Mines/thumbnail/physLB.png`,
