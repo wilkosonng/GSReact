@@ -16671,8 +16671,8 @@ const EquipInformation = [
         passive: 
             {
                 ability1: [`10% Burn RES UP.`, `10% Poison RES UP.`, `10% Freeze RES UP.`, `10% Blind RES UP.`, `Auto-Heal 2 HP/s.`],
-                ability2: [`5% Fire RES UP.`, `5% Dark RES UP.`, `5% Light RES UP.`, `Auto-Heal 4 HP/s.`],
-                ability3: [`HP Recovery amount 5% UP (Except Lifesteal).`, `Accuracy 10% UP.`]
+                ability2: [`None.`, `5% Fire RES UP.`, `5% Dark RES UP.`, `5% Light RES UP.`, `Auto-Heal 4 HP/s.`],
+                ability3: [`None.`, `HP Recovery amount 5% UP (Except Lifesteal).`, `Accuracy 10% UP.`]
             },
         lore: `Missing Lore.`
     },
@@ -16702,7 +16702,7 @@ const EquipInformation = [
         passive: 
             {
                 ability1: [`10% Burn RES UP.`, `10% Poison RES UP.`, `10% Freeze RES UP.`, `5% DMG UP against Dark enemies.`, `5% DMG UP against Light enemies.`],
-                ability2: [`5% Light RES UP.`, `5% Fire RES UP.`, `5% Dark RES UP.`, `10% DMG UP against God enemies.`, `10% DMG UP against Demon enemies.`]
+                ability2: [`None.`, `5% Light RES UP.`, `5% Fire RES UP.`, `5% Dark RES UP.`, `10% DMG UP against God enemies.`, `10% DMG UP against Demon enemies.`]
             },
         lore: `Missing Lore.`
     },
@@ -18430,8 +18430,8 @@ const EquipInformation = [
         passive: 
             {
                 ability1: [`Fire Weakness Lv5`, `Water Weakness Lv5`, `Earth Weakness Lv5`, `Light Weakness Lv5`, `Dark Weakness Lv5`],
-                ability2: [`Accuracy 10% UP`, `Attack 5% UP`, `Critical Rate 10% UP`],
-                ability3: [`Physical Damage 10% UP.`, `Magic Damage 10% UP.`]
+                ability2: [`None.`, `Accuracy 10% UP`, `Attack 5% UP`, `Critical Rate 10% UP`],
+                ability3: [`None.`, `Physical Damage 10% UP.`, `Magic Damage 10% UP.`]
             },
         lore: `Mm... Tastes like the bursting flavors of autumn (no, seriously, it will burst. Immediately)!`
     },
@@ -18461,8 +18461,8 @@ const EquipInformation = [
         passive: 
             {
                 ability1: [`Reduces own Max HP by 20%.`, `Reduces own Attack by 40%.`, `Reduces own Defense by 40%`, `Reduces own Status Ailment Resistance by 40%.`],
-                ability2: [`Increases own Break Power by 6%.`, `Increases own BE Output by 5%.`, `Attacks while ignoring enemy's DEF by 5%.`],
-                ability3: [`Increases own CRI DMG by 20%.`, `Increases DMG to Light enemies by 20%.`]
+                ability2: [`None.`, `Increases own Break Power by 6%.`, `Increases own BE Output by 5%.`, `Attacks while ignoring enemy's DEF by 5%.`],
+                ability3: [`None.`, `Increases own CRI DMG by 20%.`, `Increases DMG to Light enemies by 20%.`]
             },
         lore: `Mm... Tastes like the bursting flavors of autumn (no, seriously, it will burst... eventually)!`
     },
@@ -31643,8 +31643,8 @@ const EquipInformation = [
         passive: 
             {
                 ability1: [`Heals own HP by 1% of DMG to enemy when Near-Death.`, `DMG to Demons 10% UP.`, `Break power 2% UP.`, `Dark resistance 5% UP.`, `Disease resistance 10% UP.`],
-                ability2: [`ATK 10% UP when Near-Death.`, `DMG to Humans 10% UP.`, `Blind resistance 10% UP.`],
-                ability3: [`DEF 10% UP when Near-Death.`, `HP Auto-Recovery by 10 when Near-Death.`]
+                ability2: [`None.`, `ATK 10% UP when Near-Death.`, `DMG to Humans 10% UP.`, `Blind resistance 10% UP.`],
+                ability3: [`None.`, `DEF 10% UP when Near-Death.`, `HP Auto-Recovery by 10 when Near-Death.`]
             },
         lore: `Missing Lore.`
     },
