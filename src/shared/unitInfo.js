@@ -19258,6 +19258,7 @@ const UnitInformation = [
     { //Rosetta (Earth) - Complete
         id: 103446312,
         name: "Rosetta (Earth)",
+        rank: "A+",
         attribute: "Earth",
         type: "Demon",
         image: 
@@ -24214,6 +24215,7 @@ const UnitInformation = [
         id: 107426512,
         name: "New Years Rimuru",
         rank: "A+",
+        luckrank: "SS",
         attribute: "Dark",
         type: "Demon",
         image: 
@@ -24306,7 +24308,8 @@ const UnitInformation = [
     { //New Years Milim - Complete, Review Complete (+ JP Version)
         id: 107436412,
         name: "New Years Milim",
-        rank: "A-",
+        rank: "A+",
+        luckrank: "SSS",
         attribute: "Light",
         type: "Demon",
         image: 
