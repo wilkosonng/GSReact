@@ -78,28 +78,35 @@ const RenderImage = ({ thumb, thumbmax, detail, detailmax }) => {
     return (
         <Row>
             <center>
-            <Nav pills justified style={{marginTop: "2rem", width: "20rem"}}> 
-                <NavItem>
-                    <NavLink className={classnames({ active: currentTab === '1' })}
-                        onClick={() => {toggle('1')}} >
-                            <Media src={thumb}  style={{ maxWidth: "50px", height: "auto" }}/>
-                    </NavLink> 
-                </NavItem>
-                <NavItem>
-                    <NavLink className={classnames({ active: currentTab === '2' })}
-                        onClick={() => {toggle('2')}} >
-                            <Media src={thumbmax} style={{ maxWidth: "50px", height: "auto" }}/>
-                    </NavLink>
-                </NavItem>
-            </Nav>
-            <TabContent activeTab={currentTab}>
-                <TabPane tabId="1">
-                    <Media src={detail} style={{ width: "15em" }} />
-                </TabPane>
-                <TabPane tabId="2">
-                    <Media src={detailmax} style={{ width: "15em" }} />
-                </TabPane>
-            </TabContent>
+            { thumb ? 
+                <>
+                    <Nav pills justified style={{marginTop: "2rem", width: "20rem"}}> 
+                    <NavItem>
+                        <NavLink className={classnames({ active: currentTab === '1' })}
+                            onClick={() => {toggle('1')}} >
+                                <Media src={thumb}  style={{ maxWidth: "50px", height: "auto" }}/>
+                        </NavLink> 
+                    </NavItem>
+                    <NavItem>
+                        <NavLink className={classnames({ active: currentTab === '2' })}
+                            onClick={() => {toggle('2')}} >
+                                <Media src={thumbmax} style={{ maxWidth: "50px", height: "auto" }}/>
+                        </NavLink>
+                    </NavItem>
+                    </Nav>
+                    <TabContent activeTab={currentTab}>
+                        <TabPane tabId="1">
+                            <Media src={detail} style={{ width: "15em" }} />
+                        </TabPane>
+                        <TabPane tabId="2">
+                            <Media src={detailmax} style={{ width: "15em" }} />
+                        </TabPane>
+                    </TabContent>
+                </>
+                :
+                <Media src={detailmax} style={{ width: "15em", marginTop: "2rem" }} />
+            }
+            
             </center>
         </Row>
     )
