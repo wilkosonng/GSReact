@@ -252,32 +252,48 @@ export function RenderStats({unitName, unitStats, unitStatsJP = false, unitAtt, 
             { 
                 unitSkill.revelation 
                 ? 
-                <>
-                    <Nav pills justified>
+                <center>
+                    <Nav pills justified style={{ marginTop: "2rem", marginBottom: "2rem", maxWidth:"20rem"}}>
                     <NavItem>
                         <NavLink className={classnames({ active: currentTab === '1' })}
                             onClick={() => {toggle('1')}} >
-                                <Media src={unitImage.thumbawk} object-fit="cover" id="unitName"/>
+                                <Media src={unitImage.thumbawk} object-fit="cover" id="unitName" style={{width: "75px" }}/>
                         </NavLink> 
                     </NavItem>
                     <NavItem>
                         <NavLink className={classnames({ active: currentTab === '2' })}
                             onClick={() => {toggle('2')}} >
-                                <Media src={unitImage.revelation} object-fit="cover" id="unitName"/>
+                                <Media src={unitImage.revelation} object-fit="cover" id="unitName" style={{width: "75px" }}/>
                         </NavLink>
                     </NavItem>
                     </Nav>
                     <TabContent activeTab={currentTab}>
                         <TabPane tabId="1">
-                            <HumanMode unitName={unitName} unitStats={unitStats} unitAtt={unitAtt} 
-                                unitType={unitType} unitSkill={unitSkill} unitPassive={unitPassive} unitSlots={unitSlots} unitImage={unitImage.detailawk}/>
+                        <RenderStat unitStats={unitStats} />
+                                <RenderSlots unitSlots={unitSlots} />
+                                {unitReview &&
+                                    <button onClick={() => setReview(!review)} style={{marginTop: ".3rem", marginBottom: ".3rem"}}>
+                                        { review ?  <>Hide Review</>  : <>Show Review</>}
+                                    
+                                    </button> 
+                                }
+                                <RenderSkills unitSkill={unitSkill} unitReview={unitReview} isReview={review}/>
+                                <RenderPassives unitPassive={unitPassive} unitReview={unitReview} isReview={review}/>
+                                {
+                                    review ? 
+                                    <>
+                                        <h3><strong>SUMMARY</strong></h3>
+                                        <UnitReviews review={unitReview.overall} />
+                                        <center><i>Review Last Updated {unitReview.lastupdated}</i></center>
+                                    </> 
+                                    : null
+                                }
                         </TabPane>
                         <TabPane tabId="2">
-                            <RevelationMode unitName={unitName} unitStats={unitStats} unitAtt={unitAtt} unitType={unitType} unitSkill={unitSkill.revelation} 
-                                unitPassive={unitPassive} unitSlots={unitSlots} unitImage={unitImage.detailawk}/>
+                            <RevelationMode unitStats={unitStats} unitSkill={unitSkill.revelation} unitPassive={unitPassive} unitSlots={unitSlots} />
                         </TabPane>
                     </TabContent>
-                </> 
+                </center> 
             :
                 <center>
                     { 
@@ -384,18 +400,6 @@ export function RenderStats({unitName, unitStats, unitStatsJP = false, unitAtt, 
     );
 }
 
-//Human version of Liberation Units Tab
-export function HumanMode ({unitStats, unitSkill, unitPassive, unitSlots}) {
-    return (
-        <>
-            <RenderStat unitStats={unitStats} />
-            <RenderSlots unitSlots={unitSlots} />
-            <RenderSkills unitSkill={unitSkill} />
-            <RenderPassives unitPassive={unitPassive} />
-        </>
-    );
-}
-
 //Liberation Skill Tab
 export function RevelationMode ({unitStats, unitSkill, unitPassive, unitSlots}) {
     return (
@@ -410,11 +414,11 @@ export function RevelationMode ({unitStats, unitSkill, unitPassive, unitSlots}) 
                         <li><Badge color="primary" pill>BREAK {unitSkill.skill3break}</Badge> {unitSkill.skill3}</li>
                     </List>
                     <h3><strong>MEGA SKILL</strong></h3>
-                    <p><Badge color="primary" pill>BREAK {unitSkill.megaskillbreak}</Badge> {unitSkill.megaskill}</p>
+                    <center><p><Badge color="primary" pill>BREAK {unitSkill.megaskillbreak}</Badge> {unitSkill.megaskill}</p></center>
             </Row>
             <Row>
                 <h3><strong>MEGA ARTS</strong></h3>
-                <p><Badge color="primary" pill>BREAK {unitSkill.megaartsbreak}</Badge> {unitSkill.megaarts}</p>
+                <center><p><Badge color="primary" pill>BREAK {unitSkill.megaartsbreak}</Badge> {unitSkill.megaarts}</p></center>
             </Row>
             <RenderPassives unitPassive={unitPassive} />
         </>
