@@ -91,12 +91,70 @@ const RenderPassives = ({ passive }) => {
         <Row>
             <h4><strong>PASSIVES</strong></h4>
             <List type="unstyled">
-                { passive.ability1 ? <li>{passive.ability1}</li> : <li>This Equip has no passive</li> }
-                { passive.ability2 ? <li>{passive.ability2}</li> : null}
-                { passive.ability3 ? <li>{passive.ability3}</li> : null}
-                { passive.ability4 ? <li>{passive.ability4}</li> : null}
+                { 
+                    passive.ability1 ? 
+                        <>
+                            {
+                                Array.isArray(passive.ability1) 
+                                ? 
+                                    <RenderAbilityList ability={passive.ability1} num={1} />
+                                :
+                                    <li>{passive.ability1}</li>
+                            }
+                        </>
+                        
+                    : 
+                    <li>This Equip has no passive</li> 
+                }
+                { 
+                    passive.ability2 ? 
+                    <>
+                            {
+                                Array.isArray(passive.ability2) 
+                                ? 
+                                    <RenderAbilityList ability={passive.ability2} num={2} />
+                                :
+                                    <li>{passive.ability2}</li>
+                            }
+                    </>
+                    : null
+                }
+                { 
+                    passive.ability3 ? 
+                    <>
+                            {
+                                Array.isArray(passive.ability3) 
+                                ? 
+                                    <RenderAbilityList ability={passive.ability3} num={3} />
+                                :
+                                    <li>{passive.ability3}</li>
+                            }
+                    </>
+                    : null
+                }
+                { 
+                    passive.ability4 ? <li>{passive.ability4}</li> : null
+                }
             </List>
         </Row>
+    )
+}
+
+const RenderAbilityList = ({ ability, num }) => {
+    return (
+        <>
+            
+            <List type="unstyled" style={{ marginBottom: "2rem", marginTop: "2rem"}}>
+            <b><i>Passive {num} is randomly assigned from this List: </i></b>
+                {
+                    ability.map(ability => {
+                        return (
+                            <li>{ability}</li>
+                        )
+                    })
+                }
+            </List>
+        </>
     )
 }
 
