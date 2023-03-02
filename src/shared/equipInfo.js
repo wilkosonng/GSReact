@@ -28195,9 +28195,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (SR Equip) - JP Missing .....
+{ //獣剣『トランフレンジー』レプリカ (SR Equip) - JP Missing .....
         id: 110581,
-        name: `JP Equip Name (SR Equip)`,
+        name: `獣剣『トランフレンジー』レプリカ`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 6,
         image: 
@@ -28224,9 +28224,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (SR Equip) - JP Missing .....
+{ //獣剣『トランフレンジー』アレンジ (SR Equip) - JP Missing .....
         id: 110591,
-        name: `JP Equip Name (SR Equip)`,
+        name: `獣剣『トランフレンジー』アレンジ`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 6,
         image: 
@@ -28253,9 +28253,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (WGFen TW) - JP Missing .....
+{ //真『ユーサネイジア』 (WGFen TW) - JP Missing .....
         id: 110601,
-        name: `JP Equip Name (WGFen TW)`,
+        name: `真『ユーサネイジア』`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -28282,11 +28282,11 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Green shirt?) - JP Missing .....
+{ //賢装『アインヴァイザー』 (Green shirt?) - JP Missing .....
         id: 110611,
-        name: `JP Equip Name (Green shirt?)`,
+        name: `賢装『アインヴァイザー』`,
         type: `/db/Mines/thumbnail/defLB.png`,
-        star: 5,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_110610.png`,
@@ -28340,9 +28340,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Kirisame Farmable) - JP Missing .....
+{ //明王刀『迦楼羅』 (Kirisame Farmable) - JP Missing .....
         id: 110631,
-        name: `JP Equip Name (Kirisame Farmable)`,
+        name: `明王刀『迦楼羅』`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -28369,11 +28369,11 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Boots?) - JP Missing .....
+{ //忍衣『爆守』 (Boots?) - JP Missing .....
         id: 110641,
-        name: `JP Equip Name (Boots?)`,
+        name: `忍衣『爆守』`,
         type: `/db/Mines/thumbnail/healLB.png`,
-        star: 5,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_110640.png`,
@@ -28398,9 +28398,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Hakurou TW) - JP Missing .....
+{ //真『天涙切』 (Hakurou TW) - JP Missing .....
         id: 110651,
-        name: `JP Equip Name (Hakurou TW)`,
+        name: `真『天涙切』`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -28427,9 +28427,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (SR Equip) - JP Missing .....
+{ //妖鎌『血塗れ三日月』アレンジ (SR Equip) - JP Missing .....
         id: 110661,
-        name: `JP Equip Name (SR Equip)`,
+        name: `妖鎌『血塗れ三日月』アレンジ`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 6,
         image: 
@@ -28456,9 +28456,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (SR Equip) - JP Missing .....
+{ //妖鎌『血塗れ三日月』レプリカ (SR Equip) - JP Missing .....
         id: 110671,
-        name: `JP Equip Name (SR Equip)`,
+        name: `妖鎌『血塗れ三日月』レプリカ`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 6,
         image: 
@@ -28485,9 +28485,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Hakurou Farmable) - JP Missing .....
+{ //忍僧具『豊穣』 (Hakurou Farmable) - JP Missing .....
         id: 110681,
-        name: `JP Equip Name (Hakurou Farmable)`,
+        name: `忍僧具『豊穣』`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -28514,9 +28514,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Hakurou Farmable) - JP Missing .....
+{ //臥竜戟『天涙切』 (Hakurou Farmable) - JP Missing .....
         id: 110691,
-        name: `JP Equip Name (Hakurou Farmable)`,
+        name: `臥竜戟『天涙切』`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -28543,9 +28543,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (PSS Halloween Equip) - JP Missing .....
+{ //マリカのハイカラメイド (PSS Halloween Equip) - JP Missing .....
         id: 110701,
-        name: `JP Equip Name (PSS Halloween Equip)`,
+        name: `マリカのハイカラメイド`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -28572,9 +28572,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (PSS Halloween Equip) - JP Missing .....
+{ //フォルテのゴシックナース (PSS Halloween Equip) - JP Missing .....
         id: 110711,
-        name: `JP Equip Name (PSS Halloween Equip)`,
+        name: `フォルテのゴシックナース`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -28601,9 +28601,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (PSS Halloween Equip) - JP Missing .....
+{ //フェンの怪盗服 (PSS Halloween Equip) - JP Missing .....
         id: 110721,
-        name: `JP Equip Name (PSS Halloween Equip)`,
+        name: `フェンの怪盗服`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -28630,9 +28630,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (PSS Halloween Equip) - JP Missing .....
+{ //シャルの「がおがお」 (PSS Halloween Equip) - JP Missing .....
         id: 110731,
-        name: `JP Equip Name (PSS Halloween Equip)`,
+        name: `シャルの「がおがお」`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -28659,9 +28659,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (PSS Halloween Equip) - JP Missing .....
+{ //マジカルヴァレリー（物理） - JP Missing .....
         id: 110741,
-        name: `JP Equip Name (PSS Halloween Equip)`,
+        name: `マジカルヴァレリー（物理）`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -28688,9 +28688,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (PSS Halloween Equip) - JP Missing .....
+{ //ゴッド・オブ・イスリーダ (PSS Halloween Equip) - JP Missing .....
         id: 110751,
-        name: `JP Equip Name (PSS Halloween Equip)`,
+        name: `ゴッド・オブ・イスリーダ`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -28717,9 +28717,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (SDBerwick TW) - JP Missing .....
+{ //真『炎紋斬決』 (SDBerwick TW) - JP Missing .....
         id: 110761,
-        name: `JP Equip Name (SDBerwick TW)`,
+        name: `真『炎紋斬決』`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -28746,9 +28746,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (SDBerwick Farmable) - JP Missing .....
+{ //炎紋斬決 (SDBerwick Farmable) - JP Missing .....
         id: 110771,
-        name: `JP Equip Name (SDBerwick Farmable)`,
+        name: `炎紋斬決`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -28775,9 +28775,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (SDBerwick Farmable) - JP Missing .....
+{ //灼炎の外套 (SDBerwick Farmable) - JP Missing .....
         id: 110781,
-        name: `JP Equip Name (SDBerwick Farmable)`,
+        name: `灼炎の外套`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -28804,9 +28804,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (SDBerwick Secret Equip) - JP Missing .....
+{ //焔迅脚甲 (SDBerwick Secret Equip) - JP Missing .....
         id: 110791,
-        name: `JP Equip Name (SDBerwick Secret Equip)`,
+        name: `焔迅脚甲`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -28833,9 +28833,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Hazuki TW) - JP Missing .....
+{ //真『受雷』 (Hazuki TW) - JP Missing .....
         id: 110801,
-        name: `JP Equip Name (Hazuki TW)`,
+        name: `真『受雷』`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -28862,9 +28862,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Hazuki Farmable) - JP Missing .....
+{ //鎖条切『受雷』 (Hazuki Farmable) - JP Missing .....
         id: 110811,
-        name: `JP Equip Name (Hazuki Farmable)`,
+        name: `鎖条切『受雷』`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -28891,9 +28891,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Hazuki Farmable) - JP Missing .....
+{ //忍羽織『臥雲』 (Hazuki Farmable) - JP Missing .....
         id: 110821,
-        name: `JP Equip Name (Hazuki Farmable)`,
+        name: `忍羽織『臥雲』`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -28920,9 +28920,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (SR Equip) - JP Missing .....
+{ //煌刻『フォーンクルス』レプリカ (SR Equip) - JP Missing .....
         id: 110831,
-        name: `JP Equip Name (SR Equip)`,
+        name: `煌刻『フォーンクルス』レプリカ`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 6,
         image: 
@@ -28949,9 +28949,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (SR Equip)  - JP Missing .....
+{ //煌刻『フォーンクルス』アレンジ (SR Equip) - JP Missing .....
         id: 110841,
-        name: `JP Equip Name (SR Equip) `,
+        name: `煌刻『フォーンクルス』アレンジ`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 6,
         image: 
@@ -28978,9 +28978,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (SGLiza TW)  - JP Missing .....
+{ //真『メルクリウス』 (SGLiza TW)  - JP Missing .....
         id: 110851,
-        name: `JP Equip Name (SGLiza TW)`,
+        name: `真『メルクリウス』`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -29007,9 +29007,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (SGLiza Farmable) - JP Missing .....
+{ //聖杖『メルクリウス』 (SGLiza Farmable) - JP Missing .....
         id: 110861,
-        name: `JP Equip Name (SGLiza Farmable)`,
+        name: `聖杖『メルクリウス』`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -29036,11 +29036,11 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (SGLiza Farmable) - JP Missing .....
+{ //大聖衣『カテドラル』 (SGLiza Farmable) - JP Missing .....
         id: 110871,
-        name: `JP Equip Name (SGLiza Farmable)`,
+        name: `大聖衣『カテドラル』`,
         type: `/db/Mines/thumbnail/magLB.png`,
-        star: 5,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_110870.png`,
@@ -29065,9 +29065,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (SGLiza Farmable) - JP Missing .....
+{ //JP Equip Name (???) - JP Missing .....
         id: 110881,
-        name: `JP Equip Name (SGLiza Farmable)`,
+        name: `JP Equip Name (???)`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
         image: 
@@ -29094,9 +29094,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Elemental Ruins F15 Equip) - JP Missing .....
+{ //猛き焔の女神像 (Elemental Ruins F15 Equip) - JP Missing .....
         id: 110891,
-        name: `JP Equip Name (Elemental Ruins F15 Equip)`,
+        name: `猛き焔の女神像`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -29123,9 +29123,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Elemental Ruins F15 Equip) - JP Missing .....
+{ //清き雫の女神像 (Elemental Ruins F15 Equip) - JP Missing .....
         id: 110901,
-        name: `JP Equip Name (Elemental Ruins F15 Equip)`,
+        name: `清き雫の女神像`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -29152,9 +29152,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Elemental Ruins F15 Equip) - JP Missing .....
+{ //昏き森の女神像 (Elemental Ruins F15 Equip) - JP Missing .....
         id: 110911,
-        name: `JP Equip Name (Elemental Ruins F15 Equip)`,
+        name: `昏き森の女神像`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -29181,9 +29181,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (PSS Xmas Equip) - JP Missing .....
+{ //天真爛漫シャルサンタ (PSS Xmas Equip) - JP Missing .....
         id: 110921,
-        name: `JP Equip Name (PSS Xmas Equip)`,
+        name: `天真爛漫シャルサンタ`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -29210,9 +29210,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (PSS Xmas Equip) - JP Missing .....
+{ //以心伝心ヴァレリーサンタ (PSS Xmas Equip) - JP Missing .....
         id: 110931,
-        name: `JP Equip Name (PSS Xmas Equip)`,
+        name: `以心伝心ヴァレリーサンタ`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -29239,9 +29239,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (PSS Xmas Equip) - JP Missing .....
+{ //マリカのものぐさ雪だるま (PSS Xmas Equip) - JP Missing .....
         id: 110941,
-        name: `JP Equip Name (PSS Xmas Equip)`,
+        name: `マリカのものぐさ雪だるま`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -29268,9 +29268,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (PSS Xmas Equip) - JP Missing .....
+{ //セラのメイドインギフト (PSS Xmas Equip) - JP Missing .....
         id: 110951,
-        name: `JP Equip Name (PSS Xmas Equip)`,
+        name: `セラのメイドインギフト`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -29297,9 +29297,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (PSS Xmas Equip) - JP Missing .....
+{ //ワンチャンアルカナトナカイ (PSS Xmas Equip) - JP Missing .....
         id: 110961,
-        name: `JP Equip Name (PSS Xmas Equip)`,
+        name: `ワンチャンアルカナトナカイ`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -29326,9 +29326,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (PSS Xmas Farmable) - JP Missing .....
+{ //聖夜杖『メリクリウス』 (PSS Xmas Farmable) - JP Missing .....
         id: 110971,
-        name: `JP Equip Name (PSS Xmas Farmable)`,
+        name: `聖夜杖『メリクリウス』`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -29355,9 +29355,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (SR Equip)  - JP Missing .....
+{ //罪業甲『デプスフォール』レプリカ (SR Equip)  - JP Missing .....
         id: 110981,
-        name: `JP Equip Name (SR Equip) `,
+        name: `罪業甲『デプスフォール』レプリカ`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 6,
         image: 
@@ -29384,9 +29384,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (SR Equip)  - JP Missing .....
+{ //罪業甲『デプスフォール』アレンジ (SR Equip)  - JP Missing .....
         id: 110991,
-        name: `JP Equip Name (SR Equip) `,
+        name: `罪業甲『デプスフォール』アレンジ`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 6,
         image: 
@@ -29413,9 +29413,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Elite Garm Mines Equip) - JP Missing .....
+{ //非業鞭『ミゼラブルペイン』 (Elite Garm Mines Equip) - JP Missing .....
         id: 111001,
-        name: `JP Equip Name (Elite Garm Mines Equip)`,
+        name: `非業鞭『ミゼラブルペイン』`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -29442,9 +29442,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Elite Ragsherum Mines Equip) - JP Missing .....
+{ //絶魔甲『ファントムベイン』 (Elite Ragsherum Mines Equip) - JP Missing .....
         id: 111031,
-        name: `JP Equip Name (Elite Ragsherum Mines Equip)`,
+        name: `絶魔甲『ファントムベイン』`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -29471,9 +29471,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Long's TW) - JP Missing .....
+{ //真『八岐』 (Long's TW) - JP Missing .....
         id: 111041,
-        name: `JP Equip Name (Long's TW)`,
+        name: `真『八岐』`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -29500,9 +29500,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Long's Farmable) - JP Missing .....
+{ //死突爪『八岐』 (Long's Farmable) - JP Missing .....
         id: 111051,
-        name: `JP Equip Name (Long's Farmable)`,
+        name: `死突爪『八岐』`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -29529,9 +29529,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Long's Farmable) - JP Missing .....
+{ //青藍甲『ラースルーラー』 (Long's Farmable) - JP Missing .....
         id: 111061,
-        name: `JP Equip Name (Long's Farmable)`,
+        name: `青藍甲『ラースルーラー』`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -29558,9 +29558,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (SR Equip)  - JP Missing .....
+{ //氷霊鎖『ドーンストライブ』レプリカ (SR Equip)  - JP Missing .....
         id: 111071,
-        name: `JP Equip Name (SR Equip) `,
+        name: `氷霊鎖『ドーンストライブ』レプリカ`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 6,
         image: 
@@ -29587,9 +29587,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (SR Equip)  - JP Missing .....
+{ //氷霊鎖『ドーンストライブ』アレンジ (SR Equip)  - JP Missing .....
         id: 111081,
-        name: `JP Equip Name (SR Equip) `,
+        name: `氷霊鎖『ドーンストライブ』アレンジ`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 6,
         image: 
@@ -29616,9 +29616,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (VMiranda Farmable) - JP Missing .....
+{ //ミランダのアオハルバッグ (VMiranda Farmable) - JP Missing .....
         id: 111091,
-        name: `JP Equip Name (VMiranda Farmable)`,
+        name: `ミランダのアオハルバッグ`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -29645,9 +29645,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (VMiranda Farmable) - JP Missing .....
+{ //ミランダのナウヤンマント (VMiranda Farmable) - JP Missing .....
         id: 111101,
-        name: `JP Equip Name (VMiranda Farmable)`,
+        name: `ミランダのナウヤンマント`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -29674,9 +29674,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (VPriscilla Farmable) - JP Missing .....
+{ //プリシラの燃えキュンアロー (VPriscilla Farmable) - JP Missing .....
         id: 111111,
-        name: `JP Equip Name (VPriscilla Farmable)`,
+        name: `プリシラの燃えキュンアロー`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -29703,9 +29703,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (VPriscilla Farmable) - JP Missing .....
+{ //プリシラのドリームエプロン (VPriscilla Farmable) - JP Missing .....
         id: 111121,
-        name: `JP Equip Name (VPriscilla Farmable)`,
+        name: `プリシラのドリームエプロン`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -29732,9 +29732,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (SR Equip)  - JP Missing .....
+{ //双炎兜『ガルムロア』レプリカ - JP Missing .....
         id: 111131,
-        name: `JP Equip Name (SR Equip) `,
+        name: `双炎兜『ガルムロア』レプリカ`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 6,
         image: 
@@ -29761,9 +29761,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (SR Equip)  - JP Missing .....
+{ //双炎兜『ガルムロア』アレンジ - JP Missing .....
         id: 111141,
-        name: `JP Equip Name (SR Equip) `,
+        name: `双炎兜『ガルムロア』アレンジ`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 6,
         image: 
@@ -29790,9 +29790,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (SR Equip)  - JP Missing .....
+{ //氷鱗盾『アエルスケイル』レプリカ - JP Missing .....
         id: 111151,
-        name: `JP Equip Name (SR Equip) `,
+        name: `氷鱗盾『アエルスケイル』レプリカ`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 6,
         image: 
@@ -29819,9 +29819,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (SR Equip)  - JP Missing .....
+{ //氷鱗盾『アエルスケイル』アレンジ - JP Missing .....
         id: 111161,
-        name: `JP Equip Name (SR Equip) `,
+        name: `氷鱗盾『アエルスケイル』アレンジ`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 6,
         image: 
@@ -29848,9 +29848,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (SR Equip)  - JP Missing .....
+{ //翠竜甲『エルプダロン』レプリカ (SR Equip)  - JP Missing .....
         id: 111171,
-        name: `JP Equip Name (SR Equip) `,
+        name: `翠竜甲『エルプダロン』レプリカ`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 6,
         image: 
@@ -29877,9 +29877,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (SR Equip) - JP Missing .....
+    { //翠竜甲『エルプダロン』アレンジ (SR Equip) - JP Missing .....
         id: 111181,
-        name: `JP Equip Name (SR Equip) `,
+        name: `翠竜甲『エルプダロン』アレンジ`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 6,
         image: 
@@ -29893,6 +29893,93 @@ const EquipInformation = [
             {
                 hp: 0,
                 atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //真『ブレイズバーミント』 (BFMira TW) - JP Missing .....
+        id: 111191,
+        name: `真『ブレイズバーミント』`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111190.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111191.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111190.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111191.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //烈煌剣『ブレイズバーミント』 (BFMira Farmable) - JP Missing .....
+        id: 111201,
+        name: `烈煌剣『ブレイズバーミント』`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111200.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111201.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111200.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111201.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //烈華装『ミラージュバーミント』 (BFMira Farmable) - JP Missing .....
+        id: 111211,
+        name: `烈華装『ミラージュバーミント』`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111210.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111211.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111210.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111211.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
@@ -30283,10 +30370,10 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Monster Hunter equip) - JP Missing .....
+{ //バルクヘルム (Monster Hunter equip) - JP Missing .....
         id: 150011,
-        name: `JP Equip Name (Monster Hunter equip)`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `バルクヘルム`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -30312,10 +30399,10 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Monster Hunter equip) - JP Missing .....
+{ //バルクメイル (Monster Hunter equip) - JP Missing .....
         id: 150021,
-        name: `JP Equip Name (Monster Hunter equip)`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `バルクメイル`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -30341,10 +30428,10 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Monster Hunter equip) - JP Missing .....
+{ //レウスSアーム (Monster Hunter equip) - JP Missing .....
         id: 150031,
-        name: `JP Equip Name (Monster Hunter equip)`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `レウスSアーム`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -30370,11 +30457,11 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Monster Hunter equip) - JP Missing .....
+{ //レウスSフォールド (Monster Hunter equip) - JP Missing .....
         id: 150041,
-        name: `JP Equip Name (Monster Hunter equip)`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `レウスSフォールド`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_150040.png`,
@@ -30399,11 +30486,11 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Monster Hunter equip) - JP Missing .....
+{ //レイアRヘルム (Monster Hunter equip) - JP Missing .....
         id: 150051,
-        name: `JP Equip Name (Monster Hunter equip)`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `レイアRヘルム`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_150050.png`,
@@ -30428,11 +30515,11 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Monster Hunter equip) - JP Missing .....
+{ //レイアRグリーヴ (Monster Hunter equip) - JP Missing .....
         id: 150061,
-        name: `JP Equip Name (Monster Hunter equip)`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `レイアRグリーヴ`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_150060.png`,
@@ -30457,10 +30544,10 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Monster Hunter equip) - JP Missing .....
+{ //金狼剣シツライ (Monster Hunter equip) - JP Missing .....
         id: 150071,
-        name: `JP Equip Name (Monster Hunter equip)`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `金狼剣シツライ`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -30486,10 +30573,10 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Monster Hunter equip) - JP Missing .....
+{ //狐刀カカルクモナキ (Monster Hunter equip) - JP Missing .....
         id: 150081,
-        name: `JP Equip Name (Monster Hunter equip)`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `狐刀カカルクモナキ`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -30515,11 +30602,11 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Monster Hunter equip) - JP Missing .....
+{ //テスカブレイド (Monster Hunter equip) - JP Missing .....
         id: 150091,
-        name: `JP Equip Name (Monster Hunter equip)`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `テスカブレイド`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_150090.png`,
@@ -30544,11 +30631,11 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Monster Hunter equip) - JP Missing .....
+{ //キリンRベスト (Monster Hunter equip) - JP Missing .....
         id: 150101,
-        name: `JP Equip Name (Monster Hunter equip)`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `キリンRベスト`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_150100.png`,
@@ -30573,9 +30660,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Monster Hunter equip) - JP Missing .....
+{ //JP Equip Name (Monster Hunter equip ???) - JP Missing .....
         id: 150111,
-        name: `JP Equip Name (Monster Hunter equip)`,
+        name: `JP Equip Name (Monster Hunter equip ???)`,
         type: `/db/Mines/thumbnail/LB.png`,
         star: 5,
         image: 
@@ -30602,9 +30689,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Monster Hunter equip) - JP Missing .....
+{ //JP Equip Name (Monster Hunter equip ???) - JP Missing .....
         id: 150121,
-        name: `JP Equip Name (Monster Hunter equip)`,
+        name: `JP Equip Name (Monster Hunter equip ???)`,
         type: `/db/Mines/thumbnail/LB.png`,
         star: 5,
         image: 
@@ -36321,9 +36408,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Subaru's Cell Phone - Missing Lore
+{ //Subaru's Cell Phone (スバルの携帯電話) - Missing Lore JP
         id: 152121,
-        name: `Subaru's Cell Phone`,
+        name: `Subaru's Cell Phone (スバルの携帯電話)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -36350,9 +36437,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Subaru's Cell Phone EV - Missing Lore
+{ //Subaru's Cell Phone EV (極『スバルの携帯電話』) - Missing Lore JP
         id: 152131,
-        name: `Subaru's Cell Phone EV`,
+        name: `Subaru's Cell Phone EV (極『スバルの携帯電話』)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -36380,9 +36467,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //JP Equip Name (Overlord Equip) - JP Missing .....
+{ //木の棒 (Overlord Equip) - JP Missing .....
         id: 152141,
-        name: `JP Equip Name (Overlord Equip)`,
+        name: `木の棒`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -36409,9 +36496,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Overlord Equip) - JP Missing .....
+{ //3F (Overlord Equip) - JP Missing .....
         id: 152151,
-        name: `JP Equip Name (Overlord Equip)`,
+        name: `3F`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -36438,9 +36525,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Overlord Equip) - JP Missing .....
+{ //ヘルメス・トリスメギストス (Overlord Equip) - JP Missing .....
         id: 152161,
-        name: `JP Equip Name (Overlord Equip)`,
+        name: `ヘルメス・トリスメギストス`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -36467,11 +36554,11 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Overlord Equip) - JP Missing .....
+{ //アルベドの服 (Overlord Equip) - JP Missing .....
         id: 152171,
-        name: `JP Equip Name (Overlord Equip)`,
+        name: `アルベドの服`,
         type: `/db/Mines/thumbnail/defLB.png`,
-        star: 5,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_152170.png`,
@@ -36496,9 +36583,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Overlord Equip) - JP Missing .....
+{ //シャルティアの傘 (Overlord Equip) - JP Missing .....
         id: 152181,
-        name: `JP Equip Name (Overlord Equip)`,
+        name: `シャルティアの傘`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -36525,9 +36612,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Overlord Equip) - JP Missing .....
+{ //スポイトランス (Overlord Equip) - JP Missing .....
         id: 152191,
-        name: `JP Equip Name (Overlord Equip)`,
+        name: `スポイトランス`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -36554,11 +36641,11 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Overlord Equip) - JP Missing .....
+{ //シャルティアの服 (Overlord Equip) - JP Missing .....
         id: 152201,
-        name: `JP Equip Name (Overlord Equip)`,
+        name: `シャルティアの服`,
         type: `/db/Mines/thumbnail/physLB.png`,
-        star: 5,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_152200.png`,
@@ -36583,9 +36670,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name EV (Overlord Equip EV) - JP Missing .....
+{ //極『木の棒』 (Overlord Equip EV) - JP Missing .....
         id: 152211,
-        name: `JP Equip Name EV (Overlord Equip EV)`,
+        name: `極『木の棒』`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -36612,9 +36699,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //Staff of Ainz Ooal Gown (Overlord Equip) - JP Missing .....
+{ //Staff of Ainz Ooal Gown (スタッフ・オブ・アインズ・ウール・ゴウン) - JP Missing .....
         id: 152221,
-        name: `Staff of Ainz Ooal Gown (Overlord Equip)`,
+        name: `Staff of Ainz Ooal Gown (スタッフ・オブ・アインズ・ウール・ゴウン)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -36641,9 +36728,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //Shooting Star Ring (Overlord Equip) - JP Missing .....
+{ //Shooting Star Ring (流れ星の指輪) - JP Missing .....
         id: 152231,
-        name: `Shooting Star Ring (Overlord Equip)`,
+        name: `Shooting Star Ring (流れ星の指輪)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -36670,9 +36757,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //Ainz's Clothes (Overlord Equip) - JP Missing .....
+{ //Ainz's Clothes (アインズの服) - JP Missing .....
         id: 152241,
-        name: `Ainz's Clothes (Overlord Equip)`,
+        name: `Ainz's Clothes (アインズの服)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -36699,9 +36786,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //Hourglass (Overlord Equip) - JP Missing .....
+{ //Hourglass (砂時計) - JP Missing .....
         id: 152251,
-        name: `Hourglass (Overlord Equip)`,
+        name: `Hourglass (砂時計)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -36728,9 +36815,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //Keraunos Mk-III (Overlord Equip) - JP Missing .....
+{ //Keraunos Mk-III (ケラウノスMk-III) - JP Missing .....
         id: 152261,
-        name: `Keraunos Mk-III (Overlord Equip)`,
+        name: `Keraunos Mk-III (ケラウノスMk-III)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -36757,9 +36844,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //Narberal's Headdress (Overlord Equip) - JP Missing .....
+{ //Narberal's Headdress (ナーベラルのヘッドドレス) - JP Missing .....
         id: 152271,
-        name: `Narberal's Headdress (Overlord Equip)`,
+        name: `Narberal's Headdress (ナーベラルのヘッドドレス)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -36786,9 +36873,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //Narberal's Combat Maid Uniform (Overlord Equip) - JP Missing .....
+{ //Narberal's Combat Maid Uniform (ナーベラルの戦闘用メイド服) - JP Missing .....
         id: 152281,
-        name: `Narberal's Combat Maid Uniform (Overlord Equip)`,
+        name: `Narberal's Combat Maid Uniform (ナーベラルの戦闘用メイド服)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -36815,9 +36902,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //Mask of Envy (Overlord Equip)- JP Missing .....
+{ //Mask of Envy (嫉妬する者たちのマスク)- JP Missing .....
         id: 152291,
-        name: `Mask of Envy (Overlord Equip)`,
+        name: `Mask of Envy (嫉妬する者たちのマスク)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -36844,9 +36931,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //Mask of Envy EV (Overlord Equip EV) - JP Missing .....
+{ //Mask of Envy EV (極『嫉妬する者たちのマスク』) - JP Missing .....
         id: 152301,
-        name: `Mask of Envy EV (Overlord Equip EV)`,
+        name: `Mask of Envy EV (極『嫉妬する者たちのマスク』)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
