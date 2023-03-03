@@ -32980,7 +32980,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `50s CT - Auto-fills target's Arts gauge by 5 for 5s. If user is Dark, increases Arts DMG by 15% for 15s.`,
+                skill: `45s CT - Auto-fills target's Arts gauge by 5 for 15s. If user is Dark, increases Arts DMG by 15% for 15s.`,
                 break: 0
             },
         passive: 
