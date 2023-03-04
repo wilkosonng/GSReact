@@ -11172,9 +11172,9 @@ const EquipInformation = [
             },
         lore: `This armor cast of rare metal and the feathers of the giant 'Flogassa' a bird said to embody the great Ogrone Volcano. The feathers provide its owner a magic barrier, which the same effect is achieved in this armor as well. However, to control this energy it consumes tremendous amounts of this relic, which has made mass production impossible.`
     },
-{ // Blue Life Sword 'Glamerald' (碧命剣『グラメラルド』) - JP Missing .....
+{ // Blue Life Sword 'Glamerald' (碧命剣『グラメラルド』) - JP Complete
         id: 104441,
-        name: `Blue Life Sword 'Glamerald' (碧命剣『グラメラルド』)`,
+        name: `碧命剣『グラメラルド』`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -11187,23 +11187,23 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 5200% Earth DMG (Physical). Increase all Earth allies' Break Power by 30% for 8s.`,
+                break: 2400
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Evasion rate 10% UP when Near-Death.`
             },
         lore: `Missing Lore.`
     },
-{ //Blue Life Bow 'Eldrasta' (碧命弓『エルドラスタ』) - JP Missing .....
+{ //Blue Life Bow 'Eldrasta' (碧命弓『エルドラスタ』) - JP Complete
         id: 104451,
-        name: `Blue Life Bow 'Eldrasta' (碧命弓『エルドラスタ』)`,
+        name: `碧命弓『エルドラスタ』`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -11216,17 +11216,17 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 120,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `20s CT - 700% Earth DMG (Magic).`,
+                break: 1500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `CRI DMG 10% UP.`
             },
         lore: `Missing Lore.`
     },
@@ -11290,9 +11290,9 @@ const EquipInformation = [
             },
         lore: `The circlet which Iris' clone "Number 2" wears to control her abilities. When the magic stones shine, it signifies the attempt to read her thoughts, as she supposedly has none. Ever since a certain battle, the stone has flickered with light, releasing more power than imagined.`
     },
-{ //Magic Spear 'Graofang' (魔槍『グラオファング』) - JP Missing .....
+{ //Magic Spear 'Graofang' (魔槍『グラオファング』) - JP Missing Skill & Break
         id: 104481,
-        name: `Magic Spear 'Graofang' (魔槍『グラオファング』)`,
+        name: `魔槍『グラオファング』`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -11305,12 +11305,12 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
+                skill: `?s CT - 6800% Dark DMG (Physical). Increase own Skill CT speed by 30% for 12s.`,
                 break: 0
             },
         passive: 
@@ -11319,9 +11319,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Flame Staff 'Terenolio' (焔精杖『テレノライオ』) - JP Missing .....
+{ //Flame Staff 'Terenolio' (焔精杖『テレノライオ』) - JP Missing Skill
         id: 104491,
-        name: `Flame Staff 'Terenolio' (焔精杖『テレノライオ』)`,
+        name: `焔精杖『テレノライオ』`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -11333,13 +11333,13 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
+                hp: 500,
                 atk: 0,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
+                skill: `?s CT - Heal all allies' HP by 1200. If user is Fire, heal all allies' HP by 1800 instead.`,
                 break: 0
             },
         passive: 
@@ -14071,7 +14071,7 @@ const EquipInformation = [
             },
         lore: `The two swords that Ashe, the Cult's experiment, used in every fight. By using this weapon perfected for killing, he reached the highest levels of power. The magic flowing inside the swords reverberates with him, penetrates into the gaps of any protective gear of the opponent to make a blow that surely results in death. His perfect technique is achieved thanks to his double swords.`
     },
-{ //宝碧鎧『ザグラルダ』 (Vogue Farmable) - JP Missing .....
+{ //宝碧鎧『ザグラルダ』 (Vogue Farmable) - JP Complete
         id: 105661,
         name: `宝碧鎧『ザグラルダ』`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -14091,12 +14091,12 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `20s CT - 3800% Earth DMG (Magic). If this equip deals a CRI hit, reduce enemy's Accuracy rate and Evasion rate by 20% for 8s.`,
+                break: 300
             },
         passive: 
             {
-                ability1: ``
+                ability1: `CRI rate 20% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -14829,9 +14829,9 @@ const EquipInformation = [
             },
         lore: `The beloved twin blades used by Melia during her work as assassin and spy. This weapon earned her renown as the fastest of the Cult's spies, the "Illusory Twin-blades Assassin". The sword technique is focused on pure speed of attack, and even when facing multiple enemies, usually a handicap for double weapons, her flowing style is overwhelming. After she fled from the Cult, those she met on her journey have helped her grow, and now she uses her twin blades for good.`
     },
-{ //Twin-sword 'Aurora & Zephyr' (双天剣 『紫耀・蒼風』) - Complete
+{ //Twin-sword 'Aurora & Zephyr' (双天剣 『紫耀・蒼風』) - JP Complete
         id: 105921,
-        name: `Twin-sword 'Aurora & Zephyr' (双天剣 『紫耀・蒼風』)`,
+        name: `双天剣 『紫耀・蒼風』`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -14849,7 +14849,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `60s CT - 8000% Light DMG (Physical). Reduce enemies' Light RES by 20% for 10s. Additionally, if own HP is above 50%, increase own Physical DMG by 30% for 10s.`,
+                skill: `60s CT - 8000% Light DMG (Physical). Reduce enemies' Light resistance by 20% for 10s. Additionally, if own HP is above 50%, increase own Physical DMG by 30% for 10s.`,
                 break: 1200
             },
         passive: 
@@ -14858,9 +14858,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //Armor 'Gale Cloud' (Eternia Farmable) - JP Missing ..... JP
+{ //Armor 'Gale Cloud' (Eternia Farmable) - JP Complete
         id: 105931,
-        name: `Armor 'Gale Cloud' (Eternia Farmable)`,
+        name: `駆鎧『疾風朧雲』`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -14873,17 +14873,17 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `35s CT - 4200% Light DMG (Magic). Increase Light allies' ATK by 20% for 8s.`,
+                break: 500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `DMG to Dark enemy 5% UP`
             },
         lore: `Missing Lore.`
     },
@@ -14948,7 +14948,7 @@ const EquipInformation = [
     },
 { //Night Thunder 'Noxara' (夜霹飾『ノクスアーラ』) - JP Complete
         id: 105961,
-        name: `Night Thunder 'Noxara' (夜霹飾『ノクスアーラ』)`,
+        name: `夜霹飾『ノクスアーラ』`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -15651,7 +15651,7 @@ const EquipInformation = [
             },
         lore: `A great sword used by one who swore allegiance to the "The Nameless'. His greatest joy of all was severing the heads of his victims. The weapon was forged wit superb durability, so it shows no use signs of wear despite heavy use. He firmly believed that the sensation of it separating head from body proved he was alive. It was said that the madness of his slaughter dyed the blade's edge not in the red of blood, but a darker violet hue.`
     },
-{ //聖徽『イノセントノア』 (Kush's Farmable) - JP Missing .....
+{ //聖徽『イノセントノア』 (Kush's Farmable) - JP Complete
         id: 106201,
         name: `聖徽『イノセントノア』`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -15666,21 +15666,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `60s CT - 7200% Light DMG (Magic). Increase all allies' ATK and DEF by 35% for 10s.`,
+                break: 900
             },
         passive: 
             {
-                ability1: ``
+                ability1: `ATK 10% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //裂魔剣『グランキラー』 (Rebol's Farmable) - JP Missing .....
+{ //裂魔剣『グランキラー』 (Rebol's Farmable) - JP Complete
         id: 106211,
         name: `裂魔剣『グランキラー』`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -15695,21 +15695,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `65s CT - 6800% Dark DMG (Physical). Increase own CRI rate by 50% for 10s. If user is Demon, increase own CRI rate by 70% instead.`,
+                break: 500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Skill CT speed 15% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //真『イノセントノア』 (Kush's TW) - JP Missing .....
+{ //真『イノセントノア』 (Kush's TW) - JP Complete
         id: 106221,
         name: `真『イノセントノア』`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -15724,21 +15724,22 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `55s CT - 8800% Light DMG (Magic). Increase all Allies' ATK and DEF by 50% for 10s.`,
+                break: 1500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Kush, increase ATK and DMG by 25% (Only once).`,
+                ability2: `ATK 15% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //真『グランキラー』 (Rebol's TW) - JP Missing .....
+{ //真『グランキラー』 (Rebol's TW) - JP Complete
         id: 106231,
         name: `真『グランキラー』`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -15753,17 +15754,18 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 7500% Dark DMG (Physical). Increase own Critical rate by 50% for 10s. If user is Demon, increase own CRI rate by 80% instead.`,
+                break: 900
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Rebol, increase Critical DMG by 30% and increase own Arts gauge by 1/s (Only once).`,
+                ability2: `Skill CT speed 20% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -15797,7 +15799,7 @@ const EquipInformation = [
             },
         lore: `Former leader of the Divine Guardian's Divine Knights, Nies, wielded this great sword his whole life. It possesses massive magical power, and so even among the Gods only the chosen ones could control it: those without true strength were forbidden to touch it. When those bearing this sword attack, the power unleashed is directly proportionate to the bearer's will, and thus Nies' iron will and incredible skill channeled through this blade meant he was the match of ten thousand warriors.`
     },
-{ //翠砡杖『ヴァルトレニス』 (Belle's Farmable) - JP Missing .....
+{ //翠砡杖『ヴァルトレニス』 (Belle's Farmable) - JP Complete
         id: 106251,
         name: `翠砡杖『ヴァルトレニス』`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -15811,22 +15813,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `30s CT - Increase all allies' DMG to Light enemy by 30% for 10s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `DMG to Light enemy 10% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //翠神翼『ミルエール』 (Belle's Farmable) - JP Missing .....
+{ //翠神翼『ミルエール』 (Belle's Farmable) - JP Complete
         id: 106261,
         name: `翠神翼『ミルエール』`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -15840,18 +15842,18 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
+                hp: 500,
                 atk: 0,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
+                skill: `90s CT - Heals all allies' HP by 2000.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Light resistance 10% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -15885,7 +15887,7 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //水凰帽『フェロニカ』 (Tia's Farmable) - JP Missing .....
+{ //水凰帽『フェロニカ』 (Tia's Farmable) - JP Complete
         id: 106281,
         name: `水凰帽『フェロニカ』`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -15900,21 +15902,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `65s CT - Increase own Magic DMG by 20% and reduce enemy's Freeze resistance by 20% for 10s.`,
+                break: 600
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Fire resistance 10% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //風水衣『ヴィルガルト』 (Tia's Farmable) - JP Missing .....
+{ //風水衣『ヴィルガルト』 (Tia's Farmable) - JP Complete
         id: 106291,
         name: `風水衣『ヴィルガルト』`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -15928,22 +15930,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 60,
+                atk: 30,
+                def: 30
             },
         skillset:  
             {
-                skill: ``,
+                skill: `30s CT - Increase all allies' Skill CT speed and Skill DMG by 50% for 15s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Magic DMG 10% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //真『フェロニカ』 (Tia's TW) - JP Missing .....
+{ //真『フェロニカ』 (Tia's TW) - JP Complete
         id: 106301,
         name: `真『フェロニカ』`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -15958,17 +15960,18 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `60s CT - 7500% Water DMG (Magic). Increase own Magic DMG by 30% and reduce enemy's Freeze resistance by 30% for 10s.`,
+                break: 1000
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Tia, increase own DMG by 20% and DMG to Fire Enemies by 20% (Only once).`,
+                ability2: `Fire resistance 15% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -16382,7 +16385,7 @@ const EquipInformation = [
             },
         lore: `A short sword used by Agent of Darkness Kane. He learned how to use the blade to cut through the air and smash rocks, among other things. However, after multiple battles during the escort mission, he realized that a single slash with a calm mind was the strongest technique of them all. Feeling the hearts and souls of the blacksmiths inside of the sword they crafted, he came to recognize the Nanashi as his favorite sword. He displayed it the sword in his room back in Gramenia after returning from the escort mission, never wanting to forget his gratitude and respect toward those who created such a masterpiece.`
     },
-{ //魔爪剣『エプルーヴ』 (Raid Equip) - JP Missing .....
+{ //魔爪剣『エプルーヴ』 (Subject y2 Raid Equip) - JP Complete
         id: 106451,
         name: `魔爪剣『エプルーヴ』`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -16396,22 +16399,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 500,
+                atk: 500,
+                def: 500
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 6000% Water DMG (Physical). Increase own DMG by 20% and Break Power by 70% for 10s.`,
+                break: 1000
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Ignore enemy's DEF by 5%.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //闘拳『セイバーアーム』 (Cynthia's Farmable) - JP Missing .....
+{ //闘拳『セイバーアーム』 (Cynthia's Farmable) - JP Complete
         id: 106461,
         name: `闘拳『セイバーアーム』`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -16426,21 +16429,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 5000% Water DMG (Physical). Reduce enemy's Physical & Water resistance by 15% for 10s.`,
+                break: 900
             },
         passive: 
             {
-                ability1: ``
+                ability1: `DMG to Giant Boss 10% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //翔具『マッハチェイサー』 (Cynthia's Farmable) - JP Missing .....
+{ //翔具『マッハチェイサー』 (Cynthia's Farmable) - JP Complete
         id: 106471,
         name: `翔具『マッハチェイサー』`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -16454,18 +16457,18 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 60,
+                atk: 30,
+                def: 30
             },
         skillset:  
             {
-                skill: ``,
+                skill: `30s CT - Increase target's Skill CT speed by 70% & Arts gauge by 1 for 10s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Evasion rate 5% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -16529,7 +16532,7 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //宵竜刀『スタリサルダ』 (Barossa's Farmable) - JP Missing .....
+{ //宵竜刀『スタリサルダ』 (Barossa's Farmable) - JP Complete
         id: 106501,
         name: `宵竜刀『スタリサルダ』`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -16544,21 +16547,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 8500% Dark DMG (Physical). For 10s, increase all allies' DEF by 40%`,
+                break: 1500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Break Power 4% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //輝竜槍『アルバソル』 (Melissa's Farmable) - JP Missing .....
+{ //輝竜槍『アルバソル』 (Melissa's Farmable) - JP Complete
         id: 106511,
         name: `輝竜槍『アルバソル』`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -16573,21 +16576,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 8000% Light DMG (Physical). 60% chance to inflict Paralysis.`,
+                break: 800
             },
         passive: 
             {
-                ability1: ``
+                ability1: `ATK 5% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //真『スタリサルダ』 (Barossa's TW) - JP Missing .....
+{ //真『スタリサルダ』 (Barossa's TW) - JP Complete
         id: 106521,
         name: `真『スタリサルダ』`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -16602,17 +16605,18 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 10000% Dark DMG (Physical). Increase all allies' DEF by 50% for 10s.`,
+                break: 1800
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Barossa, increase own Max HP by 20% and Arts gauge by 2/s (Only once).`,
+                ability2: `Break Power 6% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -16671,8 +16675,8 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: [`10% Burn RES UP.`, `10% Poison RES UP.`, `10% Freeze RES UP.`, `10% Blind RES UP.`, `Auto-Heal 2 HP/s.`],
-                ability2: [`None.`, `5% Fire RES UP.`, `5% Dark RES UP.`, `5% Light RES UP.`, `Auto-Heal 4 HP/s.`],
+                ability1: [`10% Burn resistance UP.`, `10% Poison resistance UP.`, `10% Freeze resistance UP.`, `10% Blind resistance UP.`, `Auto-Heal 2 HP/s.`],
+                ability2: [`None.`, `5% Fire resistance UP.`, `5% Dark resistance UP.`, `5% Light resistance UP.`, `Auto-Heal 4 HP/s.`],
                 ability3: [`None.`, `HP Recovery amount 5% UP (Except Lifesteal).`, `Accuracy 10% UP.`]
             },
         lore: `Missing Lore.`
@@ -16702,8 +16706,8 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: [`10% Burn RES UP.`, `10% Poison RES UP.`, `10% Freeze RES UP.`, `5% DMG UP against Dark enemies.`, `5% DMG UP against Light enemies.`],
-                ability2: [`None.`, `5% Light RES UP.`, `5% Fire RES UP.`, `5% Dark RES UP.`, `10% DMG UP against God enemies.`, `10% DMG UP against Demon enemies.`]
+                ability1: [`10% Burn resistance UP.`, `10% Poison resistance UP.`, `10% Freeze resistance UP.`, `5% DMG UP against Dark enemies.`, `5% DMG UP against Light enemies.`],
+                ability2: [`None.`, `5% Light resistance UP.`, `5% Fire resistance UP.`, `5% Dark resistance UP.`, `10% DMG UP against God enemies.`, `10% DMG UP against Demon enemies.`]
             },
         lore: `Missing Lore.`
     },
@@ -16970,7 +16974,7 @@ const EquipInformation = [
             },
         lore: `A large sword that has faced many national crises with Duke of the Templars of Granadia. The inscription on it says: "Every time the blade was stained with blood, a shiver of joy runs down my spine." This is why it was considered a cursed sword for a long time. Since the name of the leader of the Templars was erased from history, the whereabouts of the sword is unknown, but if it is truly a cursed sword, it may still be waiting for a new wielder somewhere in a forgotten demon land.`
     },
-{ //双煉杖『ドスクラテル』 (Garm Raid Equip) - JP Missing ..... (109951 = Garm EV Equip)
+{ //双煉杖『ドスクラテル』 (Garm Raid Equip) - JP Complete (109951 = Garm EV Equip)
         id: 106671,
         name: `双煉杖『ドスクラテル』`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -16982,20 +16986,20 @@ const EquipInformation = [
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_106670.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_106671.png`
             },
-        stats:
+            stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 500,
+                atk: 500,
+                def: 500
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `30s CT - 4500% Fire DMG (Magic). If enemy is Earth, reduce enemy's CRI resistance by 30% for 5s.`,
+                break: 1250
             },
         passive: 
             {
-                ability1: ``
+                ability1: `DMG to Earth enemy 10% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -17467,7 +17471,7 @@ const EquipInformation = [
             },
         lore: `A gorgeous fan that the vice-captain of the Divine Knights bought for the summer vacation. She was planning to deepen her relationship with the captain on the beach. However, the leader was so crazy about swimming that he didn't come back to the beach all day. When the redhead knight stole her fan and began to fan herself in a silly way, her stiff expression naturally relaxed. "Summer days likes this are not that bad".`
     },
-{ //蒼魔杖『ミゼラブル』 (Adele's Farmable) - JP Missing .....
+{ //蒼魔杖『ミゼラブル』 (Adele's Farmable) - JP Complete
         id: 106841,
         name: `蒼魔杖『ミゼラブル』`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -17481,18 +17485,18 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
+                hp: 500,
                 atk: 0,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
+                skill: `55s CT - Heal all allies' HP by 1500. Increase own Skill CT speed by 40% for 10s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Curse Time Reduction & Curse Evasion rate 10% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -17700,7 +17704,7 @@ const EquipInformation = [
             },
         lore: `He accompanied the Princess at the beach as a guardian, but he felt a little uncomfortable because the Immovable Shield, who was supposed to join them, deserted to carry out a job in town. And he was the only man assigned... He tried to get rid of the embarrassment and focus on his task. Watching his sweat figure standing on the beach, the women at the foreshore smiled saying "very much like him".`
     },
-{ //氷霜飾フリオステラ (Ice Wilkes Raid Equip) - JP Missing .....
+{ //氷霜飾フリオステラ (Ice Wilkes Raid Equip) - JP Complete
         id: 106921,
         name: `氷霜飾フリオステラ`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -17714,22 +17718,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 500,
+                atk: 500,
+                def: 500
             },
         skillset:  
             {
-                skill: ``,
+                skill: `50s CT - Increase all Allies' Break Power by 30% and Arts Gauge by 2 for 15s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Freeze Time Reduction & Freeze Evasion rate 10% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //焔双刃『インフェリア』 (Orgah's Farmable) - JP Missing .....
+{ //焔双刃『インフェリア』 (Orgah's Farmable) - JP Complete
         id: 106931,
         name: `焔双刃『インフェリア』`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -17744,17 +17748,17 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `55s CT - 7000% Fire DMG (Physical). Increase own Physical DMG by 20% for 8s. If user is Fire, increase own Physical DMG by 40% instead.`,
+                break: 800
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Physical DMG 20% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -18111,7 +18115,7 @@ const EquipInformation = [
             },
         lore: `A girl's sword that became the vessel for a Demon Fox. Although the blade was once used by the founder of Ginzo's clan to defeat a Demon Fox, it turned into a threat for the shinobi when it fell into the hands of a girl controlled by the Demon. The sword is able to become sharper by whittling away at the user's life force. However, this power has been changed thanks to the power of the Demon Fox, and it now can also be fed by draining the souls of those it cuts. This sword, that can burn away most of anything with a single stroke, came to be called a Demonic Katana.`
     },
-{ //飢刻剣『ドーラブレイド』 (Plant Raid Equip) - JP Missing .....
+{ //飢刻剣『ドーラブレイド』 (Plant Raid Equip) - JP Complete
         id: 107061,
         name: `飢刻剣『ドーラブレイド』`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -18126,21 +18130,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 1000,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `60s CT - 6000% Earth DMG (Physical). Reduce enemy's Blind and Poison resistance by 30% for 8s.`,
+                break: 1000
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Skill CT speed 10% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //炎長杖『フレルニカ』 (Vermilia's Farmable) - JP Missing .....
+{ //炎長杖『フレルニカ』 (Vermilia's Farmable) - JP Complete
         id: 107071,
         name: `炎長杖『フレルニカ』`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -18154,18 +18158,18 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
+                hp: 500,
                 atk: 0,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
+                skill: `60s CT - Heal all allies' HP by 30%. Cleanses Seal from self.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Seal Time Reduction & Seal Evasion rate 10% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -18199,7 +18203,7 @@ const EquipInformation = [
             },
         lore: `The true form of Vermilia's weapon. When the soul of the legendary beast inside resonates with its holder, it can release an all-consuming, everlasting blaze. Lengthy training in the magical arts gave her a realistic but earnest perspective of its nature. This pure heart was recognized by the spirit of the staff, allowing her to draw out its maximum power.`
     },
-{ //碧大鎌『リーザベルテ』 (Vernonica's Farmable) - JP Missing .....
+{ //碧大鎌『リーザベルテ』 (Vernonica's Farmable) - JP Complete
         id: 107091,
         name: `碧大鎌『リーザベルテ』`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -18214,17 +18218,17 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 5500% Water DMG (Magic). Increase own CRI DMG by 20% for 10s. If user is Water, increase own CRI DMG by 40% instead.`,
+                break: 1000
             },
         passive: 
             {
-                ability1: ``
+                ability1: `DMG 10% UP when enemy is Broken.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -18258,7 +18262,7 @@ const EquipInformation = [
             },
         lore: `There were times when Veronica brought out Lizaverde's power even more than usual. However, she limited herself to only doing so in extreme situations, as making one mistake when releasing that much power could destroy everything in existence. Legend says that when Veronica was unable to contain Lizaverde after it went berserk before, even the sky was cut in half, and she continued to destroy the monsters that appeared around her until the end of her life.`
     },
-{ //光輝弓『レイヴァチカ』 (Aluze's Farmable) - JP Missing .....
+{ //光輝弓『レイヴァチカ』 (Aluze's Farmable) - JP Complete
         id: 107111,
         name: `光輝弓『レイヴァチカ』`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -18273,17 +18277,17 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `100s CT - 12000% Light DMG (Physical). Increase own Physical DMG by 30% for 10s.`,
+                break: 2000
             },
         passive: 
             {
-                ability1: ``
+                ability1: `5% chance to evade Physical ATK.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -18317,7 +18321,7 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //剛槍斧『ウーリバルト』 (Garlan's Farmable) - JP Missing .....
+{ //剛槍斧『ウーリバルト』 (Garlan's Farmable) - JP Complete
         id: 107131,
         name: `剛槍斧『ウーリバルト』`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -18332,17 +18336,17 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `80s CT - 9000% Earth DMG (Physical). Increase own Break Power by 50% for 10s. When used during Giant Boss' Break, increase own Arts gauge by 30.`,
+                break: 2500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Break Power 4% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -19401,7 +19405,7 @@ const EquipInformation = [
             },
         lore: `A doll modeled after a certain Paw Person decorated for Christmas by Iris. Ru, hearing that Fen has a cute doll in his quarters, snuck in to check if the rumor was true and found the spitting image of himself, dressed up for the holidays. It was then said when Fen suddenly returned to his room, he started to scold the furry intruder, but after seeing him shed tears of joy, his expression softened into a slight grin and he patted him on the head.`
     },
-{ //妖魔鏡『血月ノ鏡』 (Ugetsu Raid Equip) - JP Missing .....
+{ //妖魔鏡『血月ノ鏡』 (Ugetsu Raid Equip) - JP Complete
         id: 107501,
         name: `妖魔鏡『血月ノ鏡』`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -19415,18 +19419,18 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 500,
+                atk: 500,
+                def: 500
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 8500% Fire DMG (Magic). Increase own Skill CT speed by 50% and Magic DMG by 20% for 8s.`,
+                break: 800
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Fire & Dark resistance 5% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -19841,7 +19845,7 @@ const EquipInformation = [
             },
         lore: `Shoes covered in beautiful sparkling jewels, through the jewels resonating with one another magical power is brought forth. Furthermore, the very vibration of the shoes as they tread on the ground further amplifies the magical power even greater, sending it throughout the body of the user. It has been said that those who wear the boots are supplied with a never-ending well of magical power, allowing for extended battle. In fact, it has also been said that they could read the vibrations within the earth and predict the incoming activation of magic. The boots themselves were favored by supreme warriors in battle.`
     },
-{ //翠鳳飾『アネモス』 (Tonetaurus Raid Equip) - JP Missing .....
+{ //翠鳳飾『アネモス』 (Tonetaurus Raid Equip) - JP Complete
         id: 107651,
         name: `翠鳳飾『アネモス』`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -19855,18 +19859,18 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 500,
+                atk: 500,
+                def: 500
             },
         skillset:  
             {
-                skill: ``,
+                skill: `55s CT - Heal all Allies' HP by 200 and increase all Allies' Earth Resistance by 10% for 15s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Poison Time Reduction & Poison Evasion rate 10% UP`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -19900,7 +19904,7 @@ const EquipInformation = [
             },
         lore: `The magical spear of the Demon Grad that hungers for vengeance against a certain swordsman. It absorbed Grad's desire for revenge over countless battles, gaining incredible lethality in the process. Although feared as a cursed spear that drives its wielder mad, causing them to fight until its foes are annihilated, Berserk has no such power. These rumors come from the lunatic appearance of Grad, who shouted crazed warcries as he wielded the spear on the battlefield.`
     },
-{ //絢爛細剣『シンティラ』 (Ashleigh's Farmable) - JP Missing .....
+{ //絢爛細剣『シンティラ』 (Ashleigh's Farmable) - JP Complete
         id: 107671,
         name: `絢爛細剣『シンティラ』`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -19915,17 +19919,17 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 6800% Fire DMG (Physical). Increase own DMG against Weak-elemental enemy by 10% for 8s.`,
+                break: 800
             },
         passive: 
             {
-                ability1: ``
+                ability1: `ATK 5% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -19959,7 +19963,7 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //絢爛外套『ブリランテ』 (Ashleigh's Farmable) - JP Missing .....
+{ //絢爛外套『ブリランテ』 (Ashleigh's Farmable) - JP Complete
         id: 107691,
         name: `絢爛外套『ブリランテ』`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -19975,20 +19979,20 @@ const EquipInformation = [
             {
                 hp: 0,
                 atk: 0,
-                def: 0
+                def: 500
             },
         skillset:  
             {
-                skill: ``,
+                skill: `70s CT - Negates all allies' DMG taken by 2000 and heal all Fire allies' HP by 40 for 20s (Only once).`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Increase own DEF by 10% when under a DMG barrier.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //旗槍『バンディエーラ』 (Salyssa's Farmable) - JP Missing .....
+{ //旗槍『バンディエーラ』 (Salyssa's Farmable) - JP Complete
         id: 107701,
         name: `旗槍『バンディエーラ』`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -20003,17 +20007,17 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 5800% Earth DMG (Physical). Increase All Allies Skill CT speed by 10% for 8s. Increase Earth allies' Skill CT speed by 20% instead.`,
+                break: 600
             },
         passive: 
             {
-                ability1: ``
+                ability1: `ATK 10% UP when Near-Death.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -20047,7 +20051,7 @@ const EquipInformation = [
             },
         lore: `Salyssa's trusty spear. Her painstaking efforts keep it looking surprisingly new for its age. She wants to have it ready to return to the original owner at a moment's notice, which is the only reason she has not removed the unwieldy banner. (She has also unconsciously used it to wipe the sweat from her brow, so she washes it regularly.) When her mother found it more practical as a laundry pole, she made her first attempt to leave home.`
     },
-{ //宮廷騎士の帽子 (Salyssa's Farmable) - JP Missing .....
+{ //宮廷騎士の帽子 (Salyssa's Farmable) - JP Complete
         id: 107721,
         name: `宮廷騎士の帽子`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -20061,18 +20065,18 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
+                hp: 500,
                 atk: 0,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
+                skill: `35s CT - Heal Target's HP by 3500 and Cleanse Target of Poison and Blind. Increase Target's Poison and Blind resistance by 100% for 15s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `DEF 5% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -20927,7 +20931,7 @@ const EquipInformation = [
             },
         lore: `The crown belonging to Queen Juno of Granadia. Though it has seen the birth and death of stars, legends tell that its luster shall never fade. Records of her ancestor receiving it from the Ancients were eventually found, becoming proof of the Ancients being cooperative with races outside of their own. To prevent theft, replicas of the crown were made while the original was hidden.`
     },
-{ //呪影装『アセシナート』 (Ashe's Farmable) - JP Missing .....
+{ //呪影装『アセシナート』 (Ashe's Farmable) - JP Complete
         id: 108021,
         name: `呪影装『アセシナート』`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -20942,17 +20946,17 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 4000% Dark DMG (Physical). Reduce enemy's Blind resistance by 30% for 10s.`,
+                break: 1000
             },
         passive: 
             {
-                ability1: ``
+                ability1: `DMG 40% UP to enemy with Blind (Only once).`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -21306,7 +21310,7 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //魔剣『ゲシュペンスト』・狂 (Ragsherum Raid Equip) - JP Missing .....
+{ //魔剣『ゲシュペンスト』・狂 (Ragsherum Phantom Raid Equip) - JP Complete
         id: 108151,
         name: `魔剣『ゲシュペンスト』・狂`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -21320,22 +21324,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
+                hp: 200,
                 atk: 0,
-                def: 0
+                def: 800
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `60s CT - 8800% Dark DMG (Physical). Increase own Arts DMG & reduce own DMG resistance by 30% for 20s. If user is Demon, increase own Arts gauge by 20.`,
+                break: 900
             },
         passive: 
             {
-                ability1: ``
+                ability1: `DMG to Human enemy 10% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //魔剣『ゲシュペンスト』・賢 (Ragsherum Raid Equip) - JP Missing .....
+{ //魔剣『ゲシュペンスト』・賢 (Ragsherum Phantom Raid Equip) - JP Complete
         id: 108161,
         name: `魔剣『ゲシュペンスト』・賢`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -21349,18 +21353,18 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
+                hp: 200,
                 atk: 0,
-                def: 0
+                def: 800
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 3000% Dark DMG (Physical). Increase own DEF by 20% and reduce enemy's ATK by 30% for 10s.`,
+                break: 700
             },
         passive: 
             {
-                ability1: ``
+                ability1: `DMG to God enemy 10% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -21538,7 +21542,7 @@ const EquipInformation = [
             },
         lore: `Of course I can swim. I simply wear this as a precaution, not because I'm afraid of the water. It is my duty to rescue the royal children should one start to drown, and it wouldn't do if I needed rescuing myself. Therefore, I must take every possible measure. Moreover, the thought of what might lurk in the depths is terrifyi-- No, never mind. The point being is I need your help too, Virago.`
     },
-{ //黒狐衣『ラヴィソント』 (Melia Farmable) - JP Missing .....
+{ //黒狐衣『ラヴィソント』 (Melia Farmable) - JP Complete
         id: 108231,
         name: `黒狐衣『ラヴィソント』`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -21553,17 +21557,17 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `35s CT - 4000% Dark DMG (Magic). 80% chance to inflict Blind. If enemy is Blinded by this equipment, reduce enemy's Dark resistance by 20% for 10s.`,
+                break: 500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Magic resistance 5% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -21625,7 +21629,7 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //戦闘用絵具『コローリ』 (Raine's Farmable) - JP Missing .....
+{ //戦闘用絵具『コローリ』 (Raine's Farmable) - JP Complete
         id: 108261,
         name: `戦闘用絵具『コローリ』`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -21640,17 +21644,17 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 4000% Water DMG (Magic). If own HP is 50% or higher, increase own Arts gauge by 20. If own HP is less than 50%, heal 20% of own MAX HP.`,
+                break: 800
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Skill CT speed 5% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -21684,7 +21688,7 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //レインのネコミミ帽子 (Raine's Farmable) - JP Missing .....
+{ //レインのネコミミ帽子 (Raine's Farmable) - JP Complete
         id: 108281,
         name: `レインのネコミミ帽子`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -21698,22 +21702,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
+                hp: 500,
                 atk: 0,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
+                skill: `70s CT - Heals target's HP by 5% for 20s. If user is Water, heals target's HP by 8% instead.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Water resistance 5% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //創成杖『バストーネ』 (Alulu's Farmable) - JP Missing .....
+{ //創成杖『バストーネ』 (Alulu's Farmable) - JP Complete
         id: 108291,
         name: `創成杖『バストーネ』`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -21728,17 +21732,17 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `60s CT - 7500% Dark DMG (Magic). Reduce enemy's and all allies' DMG resistance by 30% for 12s.`,
+                break: 800
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Magic DMG 10% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -21772,7 +21776,7 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //アルルのマント (Alulu's Farmable) - JP Missing .....
+{ //アルルのマント (Alulu's Farmable) - JP Complete
         id: 108311,
         name: `アルルのマント`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -21786,18 +21790,18 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `50s CT - Increase target's Arts gauge by 70. Increase target's Magic DMG by 30% for 10s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `DEF 10% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -22150,7 +22154,7 @@ const EquipInformation = [
             },
         lore: `Modeled after the pumpkin-headed monster that roams around threatening tricks if it does not receive treats. One merchant saw a comical charm in his top-heavy appearance and fashioned these dolls. Since he appears only at harvest time, he has already become a symbol of the season, and he will undoubtedly appear during Reigrad's festival this year too.`
     },
-{ //旋氷棍『蒼佳奉撃』 (Tami-Nyan's Farmable) - JP Missing .....
+{ //旋氷棍『蒼佳奉撃』 (Tami-Nyan's Farmable) - JP Complete
         id: 108441,
         name: `旋氷棍『蒼佳奉撃』`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -22165,17 +22169,17 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 6000% Water DMG (Physical). Reduce enemy's Freeze resistance by 30% for 8s.`,
+                break: 1000
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Burn Time Reduction & Burn Evasion rate 20% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -22209,7 +22213,7 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //朱玉錘『紅華崩撃』 (Miri-Nyan's Farmable) - JP Missing .....
+{ //朱玉錘『紅華崩撃』 (Miri-Nyan's Farmable) - JP Complete
         id: 108461,
         name: `朱玉錘『紅華崩撃』`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -22224,17 +22228,17 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `6000% Fire DMG (Physical). Increase own Physical DMG by 30% & reduce enemy's Fire resistance by 20% for 8s.`,
+                break: 600
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Physical resistance 5% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -22617,7 +22621,7 @@ const EquipInformation = [
             },
         lore: `A blessed instrument said to be used in the celebration of an other world holiday called Christmas. Once a year, people young and old gather around an illuminated tree, enjoy a grand feast, and exchange presents until morning. This event has also started gaining popularity in Raktehelm as the festive decor becomes more elaborate with each passing occasion.`
     },
-{ //異神槍『メレク・へレス』 (Alabastor God Raid Equip) - JP Missing .....
+{ //異神槍『メレク・へレス』 (Alabastor God Raid Equip) - JP Complete
         id: 108631,
         name: `異神槍『メレク・へレス』`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -22632,17 +22636,17 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 1000,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `17s CT - 4000% Dark DMG (Magic). Increase Own Arts Gauge by 7. Increase own Dark DMG by 30% for 10s.`,
+                break: 400
             },
         passive: 
             {
-                ability1: ``
+                ability1: `DMG taken 30% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -22852,7 +22856,7 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //探求衣『レディメイド』 (Serah's Farmable) - JP Missing .....
+{ //探求衣『レディメイド』 (Serah's Farmable) - JP Complete
         id: 108711,
         name: `探求衣『レディメイド』`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -22866,18 +22870,18 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `45s CT - Increase target's Skill CT speed by 100% for 20s. If user is Light, increase own Accuracy rate by 30% for 20s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Dark resistance 10% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -22911,7 +22915,7 @@ const EquipInformation = [
             },
         lore: `Serah's favorite maid dress. The fabric repels everything from water to acid, making it suitable for light housework or dangerous experiments. Professor Arcana has praised how her choice to wear an all-purpose outfit reflects a "battle-ready" mindset. However, his tendency to ask her to make dinner while she's busy has come close to actually starting battles.`
     },
-{ //熾光飾『セラフィムアーチ』 (Serah's Farmable) - JP Missing .....
+{ //熾光飾『セラフィムアーチ』 (Serah's Farmable) - JP Complete
         id: 108731,
         name: `熾光飾『セラフィムアーチ』`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -22926,17 +22930,17 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 120,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `55s CT - 3500% Light DMG (Magic). Increase own DEF by 25% for 10s. If user is Light, increase own ATK by 25% for 10s.`,
+                break: 300
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Blind Time Reduction & Blind Evasion rate 10% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -23060,7 +23064,7 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //闘弦器『ワンダホー』 (Rits' Farmable) - JP Missing .....
+{ //闘弦器『ワンダホー』 (Rits' Farmable) - JP Complete
         id: 108781,
         name: `闘弦器『ワンダホー』`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -23075,17 +23079,17 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 3000% Light DMG (Magic). Increase own DMG against Dark enemy by 20% and own DMG against Demons by 20%.`,
+                break: 700
             },
         passive: 
             {
-                ability1: ``
+                ability1: `ATK 5% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -23119,7 +23123,7 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //奏着『アモーレ』 (Rits' Farmable) - JP Missing .....
+{ //奏着『アモーレ』 (Rits' Farmable) - JP Complete
         id: 108801,
         name: `奏着『アモーレ』`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -23133,18 +23137,18 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
+                hp: 500,
                 atk: 0,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
+                skill: `45s CT - Heal target's HP by 200 for 20s. If user is Light, increase target's MAX HP by 20% for 20s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Magic resistance 5% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -23325,7 +23329,7 @@ const EquipInformation = [
             },
         lore: `Gilliam's prized warmallet used to make the finest arms. with considerable girth and tough alloy construction, it obliterates the hardest, hottest foes. A novice soldier will see a simple weighted weapon, but a true master will take full advantage of its all-purpose nature. The clear, sharp clang of red-hot steel echoing throughout Reigrad is proof of the pride he puts into his work.`
     },
-{ //覇罪杖『シュトラーフェ』 (Raid Equip) - JP Missing .....
+{ //覇罪杖『シュトラーフェ』 (Giaveil Raid Equip) - JP Complete
         id: 108871,
         name: `覇罪杖『シュトラーフェ』`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -23340,17 +23344,17 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 1000,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 6200% Dark (Magic). Consume 30% of own MAX HP. Reduce enemy's Dark resistance by 30% for 8s.`,
+                break: 300
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Magic resistance 5% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -23530,7 +23534,7 @@ const EquipInformation = [
             },
         lore: `The black overcoat worn by Simon, hero of Simon's Hill. The emperor personally bestowed it upon him in recognition of his outstanding service to the empire. In addition to its edgeproof and bulletproof qualities, the magical cloth dampens perception in others. He melts into the darkness at night, rendering him practically invisible to the untrained eye.`
     },
-{ //蒼空衣『セレスト』 (Rosetta Farmable) - JP Missing .....
+{ //蒼空衣『セレスト』 (Rosetta Farmable) - JP Complete
         id: 108941,
         name: `蒼空衣『セレスト』`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -23544,22 +23548,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `40s CT - Increase own Art Gauge by 3 for 20s. Increase all Allies' (Except self) Water DMG by 40% for 10s`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Heal HP by 2/s.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //魔魂套『ファウスト』 (Duke Farmable) - JP Missing .....
+{ //魔魂套『ファウスト』 (Duke Farmable) - JP Complete
         id: 108951,
         name: `魔魂套『ファウスト』`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -23574,17 +23578,17 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `35s CT - 3500% Dark Damage (Physical). Increase own DMG by 20% for 10s. If used when enemy is in Break, increase own DMG by 80% instead.`,
+                break: 3000
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Skill DMG 10% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -23705,7 +23709,7 @@ const EquipInformation = [
             },
         lore: `Airi's military footwear. Despite their plain appearance, they are the sum product of Valkia's advanced magic, which was necessary to endure her nimble movements. The manner in which the vast resource investment to create them was readily approved speaks volumes about her impootance to the nations' forces.`
     },
-{ //慈聖兜『幻静白儀』 (Palamicia Raid Equip) - JP Missing ..... (109011 = Palamicia EV Equip)
+{ //慈聖兜『幻静白儀』 (Palamicia Raid Equip) - JP Complete (109011 = Palamicia EV Equip)
         id: 109001,
         name: `慈聖兜『幻静白儀』`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -23717,24 +23721,24 @@ const EquipInformation = [
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_109000.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109001.png`
             },
-        stats:
+            stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 500,
+                atk: 500,
+                def: 500
             },
         skillset:  
             {
-                skill: ``,
+                skill: `50s CT - Heal all Allies' HP by 100 and increase all God Allies' HP Recovery Amount by 30% for 10s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `5% chance to evade Physical ATK.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //極『幻静白儀』 (Palamicia Raid Equip EV) - JP Missing .....
+{ //極『幻静白儀』 (Palamicia Raid Equip EV) - JP Missing Passive 2
         id: 109011,
         name: `極『幻静白儀』`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -23748,18 +23752,19 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 500,
+                atk: 500,
+                def: 500
             },
         skillset:  
             {
-                skill: ``,
+                skill: `50s CT - Heal all Allies' HP by 100 and increase all God Allies' HP Recovery Amount by 30% for 10s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `5% chance to evade Physical ATK.`,
+                ability2: `Missing Passive.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -23793,7 +23798,7 @@ const EquipInformation = [
             },
         lore: `There once lived a Bamint-born actress of matchless talent. Sharon idolizes her so much that she went to great lengths to obtain her trademark stole. Whether she is basking in applause or laboring behind the scenes, it can always been seen glimmering around her shoulders. People eventually started believing it is the sign of a top star.`
     },
-{ //煌翔織『ゴールドラッシュ』 (Sharon's Farmable) - JP Missing .....
+{ //煌翔織『ゴールドラッシュ』 (Sharon's Farmable) - JP Complete
         id: 109031,
         name: `煌翔織『ゴールドラッシュ』`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -23808,21 +23813,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `60s CT - 6000% Light DMG (Magic). Increase own Magic DMG by 35% and reduce enemy's Light resistance by 25% for 10s.`,
+                break: 800
             },
         passive: 
             {
-                ability1: ``
+                ability1: `BE Output 5% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //明星衣『スターダム』 (Sharon's Farmable) - JP Missing .....
+{ //明星衣『スターダム』 (Sharon's Farmable) - JP Complete
         id: 109041,
         name: `明星衣『スターダム』`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -23836,18 +23841,18 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
+                hp: 500,
                 atk: 0,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
+                skill: `30s CT - Heal all allies' HP by 2% for 10s. If user is Light, heal all allies' Blind.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `5% chance to evade Physical ATK.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -24581,7 +24586,7 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //ハロス・プラグマ (Raid Equip) - JP Missing ..... (109311 = Dark Helmet (Emi?) EV Equip)
+{ //ハロス・プラグマ (Mavro Halos Raid Equip) - JP Complete (109311 = Mavro Halos EV Equip)
         id: 109301,
         name: `ハロス・プラグマ`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -24597,20 +24602,20 @@ const EquipInformation = [
             {
                 hp: 0,
                 atk: 0,
-                def: 0
+                def: 120
             },
         skillset:  
             {
-                skill: ``,
+                skill: `50s CT - Increase own DEF and Dark DMG by 20% for 10s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Blind Time Reduction & Blind Evasion rate 10% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //極『ハロス・プラグマ』 (Raid Equip EV) - JP Missing .....
+{ //極『ハロス・プラグマ』 (Mavro Halos Raid Equip EV) - JP Complete
         id: 109311,
         name: `極『ハロス・プラグマ』`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -24626,16 +24631,17 @@ const EquipInformation = [
             {
                 hp: 0,
                 atk: 0,
-                def: 0
+                def: 120
             },
         skillset:  
             {
-                skill: ``,
+                skill: `50s CT - Increase own DEF and Dark DMG by 20% for 10s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Blind Time Reduction & Blind Evasion rate 10% UP.`,
+                ability2: [`DMG to Beasts 10% UP.`, `DMG to Spirits 10% UP.`, `DMG to Dragons 10% UP.`, `Dark resistance 5% UP.`, `Negates 500 of own DMG taken at Start of Quest.`, `Negates 1000 of own DMG taken at Start of Quest.`]
             },
         lore: `Currently unreleased in Global.`
     },
@@ -24871,7 +24877,7 @@ const EquipInformation = [
             },
         lore: `Juno's personal Diever Boat. From the moment she saw it on display, its hydrodynamic form and cute eyes stole her heart. All of the latest features are installed, allowing for realistic Diever movement that instantly responds to its driver. Those who watched her tear through the waves found her greater-than-usual exuberance charming.`
     },
-{ //ギミー・アリア (Elizabeth's Farmable) - JP Missing .....
+{ //ギミー・アリア (Elizabeth's Farmable) - JP Complete
         id: 109401,
         name: `ギミー・アリア`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -24886,21 +24892,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `70s CT - 4000% Fire DMG (Magic). Increase own Magic DMG by 50% for 15s. If User is Fire, increase Own DEF by 50% for 15s.`,
+                break: 400
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Burn Time Reduction & Burn Evasion rate 10% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //リズ・キュリオ (Elizabeth's Farmable) - JP Missing .....
+{ //リズ・キュリオ (Elizabeth's Farmable) - JP Complete
         id: 109411,
         name: `リズ・キュリオ`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -24914,18 +24920,18 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
+                hp: 120,
                 atk: 0,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
+                skill: `40s CT - Heals Target's HP by 2000. If Target's HP is below 50%, heal target's HP by 4000 instead.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Poison Time Reduction & Poison Evasion rate 10% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -25253,7 +25259,7 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //イクリプスランチャー (Norn Farmable) - JP Missing .....
+{ //イクリプスランチャー (Norn Farmable) - JP Complete
         id: 109531,
         name: `イクリプスランチャー`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -25268,17 +25274,17 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 9000% Earth DMG (Magic). Increase own Magic DMG by 30% for 10s. If user is Earth, increase own Magic DMG by 60% instead.`,
+                break: 900
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Accuracy rate 30% UP when own HP is 90% or above.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -25311,7 +25317,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //カボシェルムの召喚石 (Jackosherum Raid Equip) - JP Missing .....
+{ //カボシェルムの召喚石 (Jackosherum Raid Equip) - JP Complete
         id: 109551,
         name: `カボシェルムの召喚石`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -25331,16 +25337,16 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `120s CT - 6000% Dark DMG (Magic). Increase all Allies' Arts gauge by 10. Increase all Allies' Magic and Dark DMG by 25% for 20s.`,
+                break: 1000
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Summon Gem Blessing Lv5: Only the highest level effect of the Summon Gem Blessing is effective.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //Jack-O-Sherum's Cape EV (JP) - JP Missing .....
+{ //Jack-O-Sherum's Cape EV (JP) - JP Missing Passive 2
         id: 109561,
         name: `Jack-O-Sherum's Cape EV`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -25352,20 +25358,21 @@ const EquipInformation = [
                 thumb: ``,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109561.png`
             },
-        stats:
+            stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 500,
+                atk: 500,
+                def: 500
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 3000% Dark DMG (Magic). Negates 800 DMG Dealt to all Allies for 10s. Reduces all Allies' DMG Taken by 15% for 10s. Increases all Allies' Seal and Curse Resistance by 100% for 10s (only once).`,
+                break: 800
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Increases DMG to Light Elemental Units by 20%.`,
+                ability2: `Missing Passive.`
             },
         lore: `Missing Lore.`
     },
@@ -26333,7 +26340,7 @@ const EquipInformation = [
             },
         lore: `A decoration used in an otherworld festival known as "Christmas". Inside the crystal sphere is a miniaturized scene of Raktehelm, and shaking it recreates gentle snowfall. The small but captivating sight can provide entertainment for hours on end. A member of Reigrad Adventurer's Guild is known to be particularly vulnerable to its charm.`
     },
-{ //ジェノサイドヘルム (Emi Raid Equip) - JP Missing ..... (109941 = Emi EV Equip)
+{ //ジェノサイドヘルム (Emi Raid Equip) - JP Complete (109941 = Emi EV Equip)
         id: 109901,
         name: `ジェノサイドヘルム`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -26345,20 +26352,20 @@ const EquipInformation = [
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_109900.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_109901.png`
             },
-        stats:
+            stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 1000,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 4500% Dark DMG (Magic). Reduce enemy's Dark resistance by 30% for 8s. When used for the first time, increase own Arts gauge by 50.`,
+                break: 800
             },
         passive: 
             {
-                ability1: ``
+                ability1: `DEF 5% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -26392,7 +26399,7 @@ const EquipInformation = [
             },
         lore: `The magic wand of famous conjurer Selia. The crystal at the top, made up of highly endothermic materials, approaches temperatures close to absolute Zero. This increases the strength of ice magic by a magnitude of over 1000%. However, the uninitiated should never touch it as a single mistake could leave them frozen solid.`
     },
-{ //極『ジェノサイドヘルム』 (Emi Raid Equip EV) - JP Missing .....
+{ //極『ジェノサイドヘルム』 (Emi Raid Equip EV) - JP Complete
         id: 109941,
         name: `極『ジェノサイドヘルム』`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -26407,21 +26414,22 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 1000,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 4500% Dark DMG (Magic). Reduce enemy's Dark resistance by 30% for 8s. When used for the first time, increase own Arts gauge by 50.`,
+                break: 800
             },
         passive: 
             {
-                ability1: ``
+                ability1: `DEF 5% UP.`,
+                ability2: [`DMG to Light enemy 5% UP.`, `DMG to Light enemy 10% UP.`, `Magic resistance 5% UP.`, `Skill CT speed 5% UP.`, `ATK 5% UP.`, `Skill DMG 10% UP.`]
             },
         lore: `Currently unreleased in Global.`
     },
-{ //極『ドスクラテル』 (Garm Raid Equip EV) - JP Missing .....
+{ //極『ドスクラテル』 (Garm Raid Equip EV) - JP Missing Passive 2
         id: 109951,
         name: `極『ドスクラテル』`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -26435,18 +26443,19 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 500,
+                atk: 500,
+                def: 500
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `30s CT - 4500% Fire DMG (Magic). If enemy is Earth, reduce enemy's CRI resistance by 30% for 5s.`,
+                break: 1250
             },
         passive: 
             {
-                ability1: ``
+                ability1: `DMG to Earth enemy 10% UP.`,
+                ability2: `Missing Passive.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -26475,8 +26484,8 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `Increase Seal RES by 10%.`,
-                ability2: [`Increase DEF by 30% when under a barrier.`, `When HP is above 90%, Increase ATK by 15%.`, `Increase Magic RES by 5%.`, `When HP is above 90%, Increase ATK by 10%.`, `Increase Accuracy by 10%.`, `Increase Status Ailment RES (Except Faint) by 10%.`]
+                ability1: `Increase Seal resistance by 10%.`,
+                ability2: [`Increase DEF by 30% when under a barrier.`, `When HP is above 90%, Increase ATK by 15%.`, `Increase Magic resistance by 5%.`, `When HP is above 90%, Increase ATK by 10%.`, `Increase Accuracy by 10%.`, `Increase Status Ailment resistance (Except Faint) by 10%.`]
             },
         lore: `Currently unreleased in Global`
     },
@@ -26714,7 +26723,7 @@ const EquipInformation = [
             },
         lore: `Rabbit-shaped headgear belonging to Charlotte. It absorbs magic energy in the air to relieve the wearer's fatigue. Many believe this is what lets her wield a sword the size of her body with ease. However, she keeps it on even outside of battle for the simple reason that she likes bunnies.`
     },
-{ //焔扇『マグニゲイト』 (Flogassa Raid Equip) - JP Missing ..... (110061 = Flogassa EV Equip)
+{ //焔扇『マグニゲイト』 (Flogassa Raid Equip) - JP Complete (110061 = Flogassa EV Equip)
         id: 110051,
         name: `焔扇『マグニゲイト』`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -26726,24 +26735,24 @@ const EquipInformation = [
                 thumb: `/db/Equipment/Thumbnail/item_thumbnail_110050.png`,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110051.png`
             },
-        stats:
+            stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 140,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 3500% Fire DMG (Magic). Reduce Giant Boss' Fire resistance by 15% for 8s.`,
+                break: 500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Burn Time Reduction & Burn Evasion rate 10% UP`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //極『マグニゲイト』 (Flogassa Raid Equip EV) - JP Missing .....
+{ //極『マグニゲイト』 (Flogassa Raid Equip EV) - JP Complete
         id: 110061,
         name: `極『マグニゲイト』`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -26758,21 +26767,22 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 140,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 3500% Fire DMG (Magic). Reduce Giant Boss' Fire resistance by 15% for 8s.`,
+                break: 500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Burn Time Reduction & Burn Evasion rate 10% UP`,
+                ability2: [`DMG to Beasts 10% UP.`, `Water resistance 5% UP.`, `DMG to enemy in Break 10% UP.`, `ATK 5% UP.`, `DEF 5% UP.`, `ATK 10% UP when own HP is 90% or above.`]
             },
         lore: `Currently unreleased in Global.`
     },
-    { //超『ガラムルード』 (FOrvell Ultra Equip) - JP Missing .....
+    { //超『ガラムルード』 (FOrvell Ultra Equip) - JP Complete
         id: 110070,
         name: `超『ガラムルード』`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -26787,13 +26797,13 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `2s CT - 5000% Fire DMG (Magic). Increase own Critical DMG by 30% (Stacks) for 15s.`,
+                break: 500
             },
         passive: 
             {
@@ -26801,7 +26811,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //超『アイゼンシュテルン』 (LCest Ultra Equip) - JP Missing .....
+    { //超『アイゼンシュテルン』 (LCest Ultra Equip) - JP Complete
         id: 110080,
         name: `超『アイゼンシュテルン』`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -26816,13 +26826,13 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `2s CT - 3000% Light DMG (Physical). Heal all allies' HP by 1000. Reduce enemy's Physical resistance by 5% (Stacks) for 12s.`,
+                break: 300
             },
         passive: 
             {
@@ -26830,7 +26840,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //真『ガラムルード』 (FOrvell TW) - JP Missing .....
+{ //真『ガラムルード』 (FOrvell TW) - JP Complete
         id: 110091,
         name: `真『ガラムルード』`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -26845,21 +26855,22 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `65s CT - 12000% Fire DMG (Magic). Increase own Magic DMG by 50% and reduce enemy's Fire resistance by 30% for 15s.`,
+                break: 1000
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Orvell (Fire), increase own DMG and Status Ailment resistance by 20% (Only once).`,
+                ability2: `Physical resistance 10% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //魔剣『ガラムルード』 (FOrvell Farmable) - JP Missing .....
+{ //魔剣『ガラムルード』 (FOrvell Farmable) - JP Complete
         id: 110101,
         name: `魔剣『ガラムルード』`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -26874,21 +26885,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 8000% Fire DMG (Magic). Increase own Critical DMG by 50% for 10s. If user is Fire, increase own ATK by 30% for 10s.`,
+                break: 600
             },
         passive: 
             {
-                ability1: ``
+                ability1: `DMG 10% UP when enemy is in Break.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //イーデルパンツァー (FOrvell Farmable) - JP Missing .....
+{ //イーデルパンツァー (FOrvell Farmable) - JP Complete
         id: 110111,
         name: `イーデルパンツァー`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -26904,20 +26915,20 @@ const EquipInformation = [
             {
                 hp: 0,
                 atk: 0,
-                def: 0
+                def: 500
             },
         skillset:  
             {
-                skill: ``,
+                skill: `40s CT - Increase all allies' DMG resistance by 25% for 10s. If user is God, increase all allies' Paralysis and Freeze resistance by 100% for 10s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `ATK 5% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //真『アイゼンシュテルン』 (LCestina TW) - JP Missing .....
+{ //真『アイゼンシュテルン』 (LCestina TW) - JP Complete
         id: 110121,
         name: `真『アイゼンシュテルン』`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -26932,21 +26943,22 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `60s CT - 11000% Light DMG (Physical). Increase own DMG and Equipment DMG by 40% for 20s.`,
+                break: 900
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Cestina (Light), increase own ATK by 50% and Arts gauge by 1/s (Only once).`,
+                ability2: `Heal Amount 20% UP (Except Lifesteal).`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //聖槍『アイゼンシュテルン』 (LCestina Farmable) - JP Missing .....
+{ //聖槍『アイゼンシュテルン』 (LCestina Secret Equip) - JP Complete
         id: 110131,
         name: `聖槍『アイゼンシュテルン』`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -26961,21 +26973,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `20s CT - 3000% Light DMG (Physical). Increase own Light DMG by 25% for 10s.`,
+                break: 300
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Blind Time Reduction & Blind Evasion rate 30% UP`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //アインツティアラ (LCestina Secret Equip) - JP Missing .....
+{ //アインツティアラ (LCestina Secret Equip) - JP Complete
         id: 110141,
         name: `アインツティアラ`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -26989,22 +27001,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `50s CT - Increase all God allies' BE Output and MAX HP by 25% for 20s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Increase all allies' Accuracy rate by 20%.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //真『椋鳥』 (Mizu12 TW) - JP Missing .....
+{ //真『椋鳥』 (Mizu12 TW) - JP Complete
         id: 110151,
         name: `真『椋鳥』`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -27019,21 +27031,22 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 9000% Water DMG (Physical). Increase own DMG by 50% and reduce enemy's Water resistance by 30% for 10s.`,
+                break: 800
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by 12th Gen Mizuki, increase all stats by 20% and Arts gauge by 100 when Quest starts (Only once).`,
+                ability2: `Physical resistance 10% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //真『冥府ノ喉』 (WarGinzo TW) - JP Missing .....
+{ //真『冥府ノ喉』 (WarGinzo TW) - JP Complete
         id: 110161,
         name: `真『冥府ノ喉』`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -27048,21 +27061,22 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 6500% Dark DMG (Physical). If user is Dark, increase own CRI Rate by 100% for 8s. If user is Human, increase own CRI DMG by 50% for 8s.`,
+                break: 700
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by War Ginzo, increase own stats by 30% and Arts gauge by 1/s (Only once).`,
+                ability2: `ATK 5% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //共鳴閃『椋鳥』 (Mizu12 Farmable) - JP Missing .....
+{ //共鳴閃『椋鳥』 (Mizu12 Farmable) - JP Complete
         id: 110171,
         name: `共鳴閃『椋鳥』`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -27077,21 +27091,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 7000% Water DMG (Physical). Increase own Water DMG by 50% for 8s. When used for the first time, increase own Arts gauge by 50.`,
+                break: 400
             },
         passive: 
             {
-                ability1: ``
+                ability1: `ATK 10% UP when own HP is 90% or above.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //忍衣『把亜禍』 (Mizu12 Farmable) - JP Missing .....
+{ //忍衣『把亜禍』 (Mizu12 Farmable) - JP Complete
         id: 110181,
         name: `忍衣『把亜禍』`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -27105,22 +27119,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `40s CT - Increase target's Arts gauge by 50. If user is Water, increase target's Accuracy rate by 40% for 10s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Max HP 5% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //腐刀『冥府ノ喉』 (WarGinzo Farmable) - JP Missing .....
+{ //腐刀『冥府ノ喉』 (WarGinzo Farmable) - JP Complete
         id: 110191,
         name: `腐刀『冥府ノ喉』`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -27135,21 +27149,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `30s CT - 5000% Dark DMG (Physical). Heal 1 of own Status Ailments (except Faint).`,
+                break: 500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `ATK 5% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //鬼忍装『紫紅』 (WarGinzo Farmable) - JP Missing .....
+{ //鬼忍装『紫紅』 (WarGinzo Farmable) - JP Complete
         id: 110201,
         name: `鬼忍装『紫紅』`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -27165,16 +27179,16 @@ const EquipInformation = [
             {
                 hp: 0,
                 atk: 0,
-                def: 0
+                def: 500
             },
         skillset:  
             {
-                skill: ``,
+                skill: `40s CT - Increase all allies' Physical resistance by 30% for 10s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Hellfire resistance 10% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -27207,7 +27221,7 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //真『天地雷鳴甲』 (LThetis TW) - JP Missing .....
+{ //真『天地雷鳴甲』 (LThetis TW) - JP Complete
         id: 110221,
         name: `真『天地雷鳴甲』`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -27222,21 +27236,22 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 8000% Light DMG (Physical). Increase Own Light DMG by 70% for 20s.`,
+                break: 700
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When Equipped by Thetis (Light), increase Arts Gauge by 2/s and Paralysis & Freeze resistance by 100% (Only once).`,
+                ability2: `Skill DMG 20% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //真『ノーブルブラッド』 (DRivi TW) - JP Missing .....
+{ //真『ノーブルブラッド』 (DRivi TW) - JP Complete
         id: 110231,
         name: `真『ノーブルブラッド』`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -27251,21 +27266,22 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 8000% Dark DMG (Magic). Increase own Dark DMG by 70% for 20s.`,
+                break: 700
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Riviera (Dark), increase own Skill CT speed by 30% and Arts gauge by 100 at the Start of Quest (Only once).`,
+                ability2: `Magic DMG 10% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //天地雷鳴甲 (LThetis Farmable) - JP Missing .....
+{ //天地雷鳴甲 (LThetis Farmable) - JP Complete
         id: 110241,
         name: `天地雷鳴甲`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -27280,21 +27296,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 4000% Light DMG (Physical). Reduce enemy's Light resistance by 20% for 8s. If user is Light, reduce enemy's Evasion rate by 20% for 8s.`,
+                break: 600
             },
         passive: 
             {
-                ability1: ``
+                ability1: `ATK 5% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //天地翔迅鉄 (LThetis Farmable) - JP Missing .....
+{ //天地翔迅鉄 (LThetis Farmable) - JP Compelete
         id: 110251,
         name: `天地翔迅鉄`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -27309,21 +27325,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 7000% Light DMG (Physical). Increase own Physical DMG by 40% for 20s. If user is Light, increase own Arts gauge by 1 for 20s.`,
+                break: 600
             },
         passive: 
             {
-                ability1: ``
+                ability1: `DMG to Dark enemy 5% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //ノーブルブラッド (DRivi Farmable) - JP Missing .....
+{ //ノーブルブラッド (DRivi Secret Equip) - JP Complete
         id: 110261,
         name: `ノーブルブラッド`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -27338,21 +27354,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 7000% Dark DMG (Magic). Heals 2% of own DMG dealt for 6s.`,
+                break: 900
             },
         passive: 
             {
-                ability1: ``
+                ability1: `ATK 10% UP when Near-Death.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //モータルスカーレット (DRivi Farmable) - JP Missing .....
+{ //モータルスカーレット (DRivi Secret Equip) - JP Complete
         id: 110271,
         name: `モータルスカーレット`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -27366,22 +27382,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `45s CT - Increase all allies' Arts gauge by 2 for 15s. When used for the first time, increase all allies' CRI rate by 100% for 15s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Dark resistance 5% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //真『百花』 (Sakuya TW) - JP Missing .....
+{ //真『百花』 (Sakuya TW) - JP Complete
         id: 110281,
         name: `真『百花』`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -27396,21 +27412,22 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 7500% Earth DMG (Physical). Increase own DMG by 50% and reduce enemy's Earth resistance by 30% for 10s.`,
+                break: 700
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Sakuya, increase Skill CT speed by 30% and increase Max number of possible planted bombs by 1.`,
+                ability2: `Evasion rate 10% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //繚乱刃『百花』 (Sakuya Farmable) - JP Missing .....
+{ //繚乱刃『百花』 (Sakuya Farmable) - JP Complete
         id: 110291,
         name: `繚乱刃『百花』`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -27425,21 +27442,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 5500% Earth DMG (Physical). Increase own Physical DMG and Accuracy rate by 30% for 8s.`,
+                break: 500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `ATK 5% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //忍衣『魔封羅』 (Sakuya Farmable) - JP Missing .....
+{ //忍衣『魔封羅』 (Sakuya Farmable) - JP Complete
         id: 110301,
         name: `忍衣『魔封羅』`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -27453,22 +27470,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 60,
+                atk: 30,
+                def: 30
             },
         skillset:  
             {
-                skill: ``,
+                skill: `45s CT - Increase target's Arts gauge by 30. If user is Earth, increase target's Arts gauge by 40 instead. If target is Earth, increase target's ATK by 30% for 10s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Skill CT speed 5% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //ティアーズ・オブ・エイジ (Fongion Raid Equip) - JP Missing .....
+{ //ティアーズ・オブ・エイジ (Fongion Raid Equip) - JP Complete
         id: 110311,
         name: `ティアーズ・オブ・エイジ`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -27483,17 +27500,17 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 120,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `65s CT - 4000% Light DMG (Physical). Increase own BE Output by 20% and Skill CT Speed by 100% for 7s.`,
+                break: 300
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Skill DMG 10% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -27876,7 +27893,7 @@ const EquipInformation = [
             },
         lore: `Leone's cute leotard-style swimsuit, unaltered in any way. She tried it on one year later, and the comfortable fit sent a chill down her spine. It was impossible she had not grown; her daily snack included a glass of nutritious milk. Then, she remembered her sister would be a reliable source of information on the matter. That glimmer of hope in her eyes made it clear she was unaware of what disappointment the future held.`
     },
-{ //真『シューティングスター』 (Valerie TW) - JP Missing .....
+{ //真『シューティングスター』 (Valerie TW) - JP Complete
         id: 110451,
         name: `真『シューティングスター』`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -27891,21 +27908,22 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 9000% Water DMG (Physical). Reduce Enemies' Physical Resistance by 40% for 12s. When used for the first time, increase Allies' Stats by 30% for 12s.`,
+                break: 500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Valerie, increase own DMG by 30% and Arts gauge by 2/s (Only once).`,
+                ability2: `Physical resistance 5% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //シューティングスター (Valerie Farmable) - JP Missing .....
+{ //シューティングスター (Valerie Farmable) - JP Complete
         id: 110461,
         name: `シューティングスター`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -27920,21 +27938,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 7000% Water DMG (Physical). Consumes 20% of Max HP. Reduce enemy's Physical and Water resistance by 20% for 10s.`,
+                break: 500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `ATK 5% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //ロッキンハート (Valerie Farmable) - JP Missing .....
+{ //ロッキンハート (Valerie Farmable) - JP Complete
         id: 110471,
         name: `ロッキンハート`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -27948,13 +27966,13 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 60,
+                atk: 30,
+                def: 30
             },
         skillset:  
             {
-                skill: ``,
+                skill: `40s CT - Increases target's Skill CT speed by 70% for 10s. If Target is Water, increase Target's Accuracy rate by 30% for 10s.`,
                 break: 0
             },
         passive: 
@@ -28108,7 +28126,7 @@ const EquipInformation = [
             },
         lore: `Groitz's repulsive beach shorts. Although he clearly liked the sickly shade of green and creepy skull-and-thorn pattern, everyone else at the beach gave him a wide berth. Emi observed he would be useful in opening a path through the homeward-bound crowds, but that benefit did not outweigh the humiliation of being seen in his company.`
     },
-{ //天魔槍『レムナシュタール』 (Skull Spear Raid Equip?) - JP Missing .....
+{ //天魔槍『レムナシュタール』 (Za'remnah Raid Equip) - JP Complete
         id: 110531,
         name: `天魔槍『レムナシュタール』`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -28123,21 +28141,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
+                skill: `45s CT - 5500% Dark DMG (Physical). 70% Chance to Blind enemy. If enemy is Blinded by this equipment, Reduce enemy's DMG resistance by 20% for 8s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `DMG 20% UP when Enemy is Blind.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //オラクルベール (Light Shirt?) - JP Missing .....
+{ //オラクルベール (Miranda Farmable) - JP Complete
         id: 110541,
         name: `オラクルベール`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -28152,17 +28170,17 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 5000% Light DMG (Magic). Increase own Light DMG by 40% for 10s. When used for the first time, increase own Arts gauge by 50.`,
+                break: 500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Magic resistance 5% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -28196,7 +28214,7 @@ const EquipInformation = [
             },
         lore: `The ever-reliable partner of Cosmo, Bamint officer and rising star. It transforms her outflowing emotions into killer riffs. Although Kane insists he would never give away such an expensive article, he does not seem too concerned about her borrowing it for so long. This might be because he knows she has become good enough to form a true bond.`
     },
-{ //Soaring Z (ライジングZ) - JP Missing .....
+{ //Soaring Z (ライジングZ) - JP Complete
         id: 110561,
         name: `Soaring Z (ライジングZ)`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -28211,21 +28229,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 5500% Light DMG (Magic). Increase own Magic DMG by 30% and reduce enemy's Paralysis resistance by 30% for 8s.`,
+                break: 400
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Skill DMG 10% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //グロリアスベレー (Cosmo Farmable) - JP Missing .....
+{ //グロリアスベレー (Cosmo Farmable) - JP Complete
         id: 110571,
         name: `グロリアスベレー`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -28241,20 +28259,20 @@ const EquipInformation = [
             {
                 hp: 0,
                 atk: 0,
-                def: 0
+                def: 120
             },
         skillset:  
             {
-                skill: ``,
+                skill: `45s CT - Increase all allies' Dark and Magic resistance by 20% for 10s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `HP Recovery Amount 5% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //獣剣『トランフレンジー』レプリカ (SR Equip) - JP Missing .....
+{ //獣剣『トランフレンジー』レプリカ (SR Equip) - JP Complete
         id: 110581,
         name: `獣剣『トランフレンジー』レプリカ`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -28269,13 +28287,13 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 600,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 9900% Earth DMG (Physical). Reduce enemy's Earth Resistance by 40% for 7s. If user is Earth, reduce enemy's Earth Resistance by 70% instead.`,
+                break: 800
             },
         passive: 
             {
@@ -28283,7 +28301,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //獣剣『トランフレンジー』アレンジ (SR Equip) - JP Missing .....
+{ //獣剣『トランフレンジー』アレンジ (SR Equip) - JP Complete
         id: 110591,
         name: `獣剣『トランフレンジー』アレンジ`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -28298,21 +28316,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 600,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 12000% Earth DMG (Physical). Reduce enemy's Earth Resistance by 30% for 15s. If user is Earth, reduce enemy's Earth Resistance by 60% instead.`,
+                break: 800
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Increase all allies' Skill CT speed by 10%.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //真『ユーサネイジア』 (WGFen TW) - JP Missing .....
+{ //真『ユーサネイジア』 (WGFen TW) - JP Complete
         id: 110601,
         name: `真『ユーサネイジア』`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -28326,22 +28344,23 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `35s CT - Increase all allies' Arts gauge by 25. Increase all Human allies' DMG by 40% for 15s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by War God Fen, increase own Skill CT Speed and Arts DMG by 20% (Only once).`,
+                ability2: `Increase DMG to Humans by 10%.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //賢装『アインヴァイザー』 (Green shirt?) - JP Missing .....
+{ //賢装『アインヴァイザー』 (WGFen Farmable) - JP Complete
         id: 110611,
         name: `賢装『アインヴァイザー』`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -28357,20 +28376,20 @@ const EquipInformation = [
             {
                 hp: 0,
                 atk: 0,
-                def: 0
+                def: 120
             },
         skillset:  
             {
-                skill: ``,
+                skill: `30s CT - Increase all allies' DMG resistance by 20% for 10s. If user is Earth, increase own Poison resistance by 100% for 10s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `HP Recovery Amount 5% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Kirisame TW) - JP Missing .....
+{ //JP Equip Name (Kirisame TW) - JP Complete
         id: 110621,
         name: `JP Equip Name (Kirisame TW)`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -28386,20 +28405,21 @@ const EquipInformation = [
             {
                 hp: 0,
                 atk: 0,
-                def: 0
+                def: 500
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 3000% Fire DMG (Physical). Increase own Fire DMG by 30% and DMG resistance by 20% for 10s.`,
+                break: 700
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Kirisame, increase own Paralyze & Freeze Resistance by 100% and Increase Third Eye duration by 60s (Only once).`,
+                ability2: `ATK 5% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //明王刀『迦楼羅』 (Kirisame Farmable) - JP Missing .....
+{ //明王刀『迦楼羅』 (Kirisame Farmable) - JP Complete
         id: 110631,
         name: `明王刀『迦楼羅』`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -28415,20 +28435,20 @@ const EquipInformation = [
             {
                 hp: 0,
                 atk: 0,
-                def: 0
+                def: 500
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 2300% Fire DMG (Physical). Increase own Fire resistance by 25% for 12s.`,
+                break: 400
             },
         passive: 
             {
-                ability1: ``
+                ability1: `DEF 5% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //忍衣『爆守』 (Boots?) - JP Missing .....
+{ //忍衣『爆守』 (Kirisame Farmable) - JP Complete
         id: 110641,
         name: `忍衣『爆守』`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -28442,22 +28462,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
+                hp: 120,
                 atk: 0,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
+                skill: `30s CT - Heal all Allies' HP by 700 HP. If User is Fire, heal all Allies' Burn.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Burn Time Reduction & Burn Evasion rate 10% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //真『天涙切』 (Hakurou TW) - JP Missing .....
+{ //真『天涙切』 (Hakurou TW) - JP Missing Break
         id: 110651,
         name: `真『天涙切』`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -28472,21 +28492,22 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `65s CT - 8000% Earth DMG (Magic). Reduce enemy's Blind resistance and Evasion rate by 30% for 10s.`,
+                break: `Missing Break.`
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When Equipped by Hakurou, increase own Arts DMG by 30% (Only once).`,
+                ability2: `DEF 5% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //妖鎌『血塗れ三日月』アレンジ (SR Equip) - JP Missing .....
+{ //妖鎌『血塗れ三日月』アレンジ (SR Equip) - JP Complete
         id: 110661,
         name: `妖鎌『血塗れ三日月』アレンジ`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -28501,21 +28522,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 600,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 9900%  DMG (Physical). Reduce enemy's Fire Resistance by 40% for 7s. If user is Fire, reduce enemy's Fire Resistance by 70% instead.`,
+                break: 800
             },
         passive: 
             {
-                ability1: ``
+                ability1: `DEF 5% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //妖鎌『血塗れ三日月』レプリカ (SR Equip) - JP Missing .....
+{ //妖鎌『血塗れ三日月』レプリカ (SR Equip) - JP Complete
         id: 110671,
         name: `妖鎌『血塗れ三日月』レプリカ`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -28530,21 +28551,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 600,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 12000% Fire DMG (Physical). Reduce enemy's Fire Resistance by 30% for 15s. If user is Fire, reduce enemy's Fire Resistance by 60% instead.`,
+                break: 800
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Increase all allies' Skill CT speed by 10%.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //忍僧具『豊穣』 (Hakurou Farmable) - JP Missing .....
+{ //忍僧具『豊穣』 (Hakurou Farmable) - JP Complete
         id: 110681,
         name: `忍僧具『豊穣』`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -28560,20 +28581,20 @@ const EquipInformation = [
             {
                 hp: 0,
                 atk: 0,
-                def: 0
+                def: 500
             },
         skillset:  
             {
-                skill: ``,
+                skill: `40s CT - Increase all Allies' Magic resistance by 30% for 10s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Hellfire resistance 10% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //臥竜戟『天涙切』 (Hakurou Farmable) - JP Missing .....
+{ //臥竜戟『天涙切』 (Hakurou Farmable) - JP Complete
         id: 110691,
         name: `臥竜戟『天涙切』`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -28588,21 +28609,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `30s CT - 5000% Earth DMG (Magic). Cure 1 of own Status Ailments (Excluding Faint).`,
+                break: 500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `ATK 5% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //マリカのハイカラメイド (PSS Halloween Equip) - JP Missing .....
+{ //マリカのハイカラメイド (PSS Halloween Equip) - JP Complete
         id: 110701,
         name: `マリカのハイカラメイド`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -28616,13 +28637,13 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
+                hp: 500,
                 atk: 0,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
+                skill: `40s CT - Heal all allies' HP by 200 for 20s. When used for the first time, increase all allies' Arts gauge by 10.`,
                 break: 0
             },
         passive: 
@@ -28631,7 +28652,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //フォルテのゴシックナース (PSS Halloween Equip) - JP Missing .....
+{ //フォルテのゴシックナース (PSS Halloween Equip) - JP Complete
         id: 110711,
         name: `フォルテのゴシックナース`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -28646,13 +28667,13 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 7000% Dark DMG (Physical). Ignore 50% of enemy DEF for 8s. If user is Dark, ignore 100% of enemy's DEF instead.`,
+                break: 500
             },
         passive: 
             {
@@ -28660,7 +28681,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //フェンの怪盗服 (PSS Halloween Equip) - JP Missing .....
+{ //フェンの怪盗服 (PSS Halloween Equip) - JP Complete
         id: 110721,
         name: `フェンの怪盗服`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -28674,13 +28695,13 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `30s CT - Increase all allies' Physical resistance by 20% and Arts gauge by 3 for 10s`,
                 break: 0
             },
         passive: 
@@ -28689,7 +28710,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //シャルの「がおがお」 (PSS Halloween Equip) - JP Missing .....
+{ //シャルの「がおがお」 (PSS Halloween Equip) - JP Complete
         id: 110731,
         name: `シャルの「がおがお」`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -28704,13 +28725,13 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 5000% Fire DMG (Magic). Increase own ATK by 50% for 10s. If user is not affected by any Status Ailments, increase own Arts gauge by 50. `,
+                break: 400
             },
         passive: 
             {
@@ -28718,7 +28739,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //マジカルヴァレリー（物理） - JP Missing .....
+{ //マジカルヴァレリー（物理） - JP Complete
         id: 110741,
         name: `マジカルヴァレリー（物理）`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -28733,13 +28754,13 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `80s CT - 10000% Water DMG (Physical). Increase own Physical DMG by 60% and Water Allies' DMG by 40% for 10s.`,
+                break: 1000
             },
         passive: 
             {
@@ -28747,7 +28768,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //ゴッド・オブ・イスリーダ (PSS Halloween Equip) - JP Missing .....
+{ //ゴッド・オブ・イスリーダ (PSS Halloween Equip) - JP Complete
         id: 110751,
         name: `ゴッド・オブ・イスリーダ`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -28762,13 +28783,13 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `55s CT - 10000% Light DMG (Physical). Reduce enemy's Physical resistance by 30% for 10s. If user is Human, reduce enemy's Physical resistance by 50% instead.`,
+                break: 1000
             },
         passive: 
             {
@@ -28776,7 +28797,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //真『炎紋斬決』 (SDBerwick TW) - JP Missing .....
+{ //真『炎紋斬決』 (SDBerwick TW) - JP Complete
         id: 110761,
         name: `真『炎紋斬決』`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -28791,13 +28812,13 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `60s CT - 10000% Fire DMG (Physical). Reduce enemy's Physical resistance by 20% for 12s. If user is Fire, reduce enemy's Physical resistance by 35% instead. `,
+                break: 700
             },
         passive: 
             {
@@ -28805,7 +28826,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //炎紋斬決 (SDBerwick Farmable) - JP Missing .....
+{ //炎紋斬決 (SDBerwick Farmable) - JP Complete
         id: 110771,
         name: `炎紋斬決`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -28820,25 +28841,25 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 5000% Fire DMG (Physical). Increase own Fire DMG and Skill CT speed by 30% for 10s.`,
+                break: 700
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Water resistance 10% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //灼炎の外套 (SDBerwick Farmable) - JP Missing .....
+{ //灼炎の外套 (SDBerwick Farmable) - JP Complete
         id: 110781,
         name: `灼炎の外套`,
         type: `/db/Mines/thumbnail/defLB.png`,
-        star: 5,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_110780.png`,
@@ -28850,20 +28871,20 @@ const EquipInformation = [
             {
                 hp: 0,
                 atk: 0,
-                def: 0
+                def: 120
             },
         skillset:  
             {
-                skill: ``,
+                skill: `35s CT - Increase all Fire Allies' DMG resistance by 20% for 15s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `BE Output 5% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //焔迅脚甲 (SDBerwick Secret Equip) - JP Missing .....
+{ //焔迅脚甲 (SDBerwick Secret Equip) - JP Complete
         id: 110791,
         name: `焔迅脚甲`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -28878,21 +28899,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 120,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 2000% Fire DMG (Magic). Increase own Arts gauge by 10.`,
+                break: 200
             },
         passive: 
             {
-                ability1: ``
+                ability1: `CRI rate 30% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //真『受雷』 (Hazuki TW) - JP Missing .....
+{ //真『受雷』 (Hazuki TW) - JP Complete
         id: 110801,
         name: `真『受雷』`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -28907,21 +28928,22 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 10000% Light DMG (Physical). Increase own DMG by 50% and increase all Light allies' DMG by 30% for 10s.`,
+                break: 800
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Hazuki, increase all stats by 20% and increase own Arts gauge by 100 when entering Third Eye (Only once).`,
+                ability2: `Skill CT speed 5% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //鎖条切『受雷』 (Hazuki Farmable) - JP Missing .....
+{ //鎖条切『受雷』 (Hazuki Farmable) - JP Complete
         id: 110811,
         name: `鎖条切『受雷』`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -28936,25 +28958,25 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 8200% Light DMG (Physical). Increase own Physical DMG by 30% for 10s. If user is Light, increase own Physical DMG by 60% instead.`,
+                break: 700
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Accuracy rate 20% UP when own HP is 90% or above`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //忍羽織『臥雲』 (Hazuki Farmable) - JP Missing .....
+{ //忍羽織『臥雲』 (Hazuki Farmable) - JP Complete
         id: 110821,
         name: `忍羽織『臥雲』`,
         type: `/db/Mines/thumbnail/defLB.png`,
-        star: 5,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_110820.png`,
@@ -28966,20 +28988,20 @@ const EquipInformation = [
             {
                 hp: 0,
                 atk: 0,
-                def: 0
+                def: 120
             },
         skillset:  
             {
-                skill: ``,
+                skill: `40s CT - Increase target's Light resistance and Physical resistance by 20% for 10s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `DEF 5% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //煌刻『フォーンクルス』レプリカ (SR Equip) - JP Missing .....
+{ //煌刻『フォーンクルス』レプリカ (SR Equip) - JP Complete
         id: 110831,
         name: `煌刻『フォーンクルス』レプリカ`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -28994,21 +29016,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 600,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 9900% Light DMG (Magic). Reduce enemy's Light Resistance by 40% for 7s. If user is Light, reduce enemy's Light Resistance by 70% instead.`,
+                break: 800
             },
         passive: 
             {
-                ability1: ``
+                ability1: `DEF 5% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //煌刻『フォーンクルス』アレンジ (SR Equip) - JP Missing .....
+{ //煌刻『フォーンクルス』アレンジ (SR Equip) - JP Complete
         id: 110841,
         name: `煌刻『フォーンクルス』アレンジ`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -29023,21 +29045,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 600,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 12000% Light DMG (Magic). Reduce enemy's Light Resistance by 30% for 15s. If user is Light, reduce enemy's Light Resistance by 60% instead.`,
+                break: 800
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Increase all allies' Skill CT speed by 10%.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //真『メルクリウス』 (SGLiza TW)  - JP Missing .....
+{ //真『メルクリウス』 (SGLiza TW)  - JP Complete
         id: 110851,
         name: `真『メルクリウス』`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -29051,22 +29073,23 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `50s CT - Increase all allies' Arts gauge by 4 and all allies' Light DMG by 40% (Stacks) for 10s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Star God Liza, increase all stats and Skill CT REC by 20% (Only once).`,
+                ability2: `MAG DMG 10% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //聖杖『メルクリウス』 (SGLiza Farmable) - JP Missing .....
+{ //聖杖『メルクリウス』 (SGLiza Farmable) - JP Complete
         id: 110861,
         name: `聖杖『メルクリウス』`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -29080,22 +29103,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `55s CT - Increase target's Arts gauge by 70. If user is Light, increase target's Arts DMG by 70% for 10s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `MAG DMG 10% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //大聖衣『カテドラル』 (SGLiza Farmable) - JP Missing .....
+{ //大聖衣『カテドラル』 (SGLiza Farmable) - JP Complete
         id: 110871,
         name: `大聖衣『カテドラル』`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -29110,21 +29133,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 120,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 4000% Light DMG (Magic). If the enemy is a Demon, reduce enemy's Light resistance by 25% for 10s.`,
+                break: 500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `MAX HP 5% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (???) - JP Missing .....
+{ //JP Equip Name (???) - Unknown
         id: 110881,
         name: `JP Equip Name (???)`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -29153,7 +29176,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //猛き焔の女神像 (Elemental Ruins F15 Equip) - JP Missing .....
+{ //猛き焔の女神像 (Elemental Ruins F15 Equip) - JP Complete
         id: 110891,
         name: `猛き焔の女神像`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -29168,21 +29191,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 120,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 1200% Fire DMG (Magic). If user is Fire, reduce enemy's Magic resistance by 20% for 8s.`,
+                break: 500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Status Ailment resistance 20% DOWN.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //清き雫の女神像 (Elemental Ruins F15 Equip) - JP Missing .....
+{ //清き雫の女神像 (Elemental Ruins F15 Equip) - JP Complete
         id: 110901,
         name: `清き雫の女神像`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -29197,21 +29220,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 120,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 1200% Earth DMG (Magic). If user is Earth, reduce enemy's Magic resistance by 20% for 8s.`,
+                break: 500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Status Ailment resistance 20% DOWN.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //昏き森の女神像 (Elemental Ruins F15 Equip) - JP Missing .....
+{ //昏き森の女神像 (Elemental Ruins F15 Equip) - JP Complete
         id: 110911,
         name: `昏き森の女神像`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -29226,17 +29249,17 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 120,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 1200% Water DMG (Magic). If user is Water, reduce enemy's Magic resistance by 20% for 8s.`,
+                break: 500
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Status Ailment resistance 20% DOWN.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -30054,7 +30077,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //Ultra Relic 'Petraskia' - Missing .....
+    { //Ultra Relic 'Petraskia' - Missing Lore
         id: 140011,
         name: `Ultra Relic 'Petraskia'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -30068,22 +30091,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: `X`,
+                atk: `X`,
+                def: `X`
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `55s CT - 8000% Fire DMG (Magic). Increase Own ATK by 50% for 15s.`,
+                break: 600
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Increase Own MAG DMG by 25% UP. For 165.5s after start of quest, Increase All Allies Fire DMG by 20%. (At Passive Lv.101)`
             },
         lore: `Missing Lore.`
     },
-{ //Ultra Relic 'Zero=Recorder' - Missing .....
+{ //Ultra Relic 'Zero=Recorder' - Missing Lore
         id: 140021,
         name: `Ultra Relic 'Zero=Recorder'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -30097,22 +30120,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: `X`,
+                atk: `X`,
+                def: `X`
             },
         skillset:  
             {
-                skill: ``,
+                skill: `30s CT - Increase target's DMG by 30% and target's Arts gauge by 3/s for 10s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Every 14.9s, Increase All Allies' Arts Gauge by 10. For 93.7s after start of quest, Increase own Freeze RES by 15%. (At Passive Lv.101)`
             },
         lore: `Missing Lore.`
     },
-{ //Ultra Relic 'Benemopis' - Missing .....
+{ //Ultra Relic 'Benemopis' - Missing Lore
         id: 140031,
         name: `Ultra Relic 'Benemopis'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -30126,22 +30149,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: `X`,
+                atk: `X`,
+                def: `X`
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `25s CT - 3700% Earth DMG (PHY). Increase own DMG by 20% for 6s.`,
+                break: 200
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Increase Own Poison RES by 27.5%. For 165.5s after start of quest, Increase all Allies' Earth DMG by 28.5%. (At Passive Lv.101)`
             },
         lore: `Missing Lore.`
     },
-{ //Ultra Relic 'Bleak Prophet' - Missing .....
+{ //Ultra Relic 'Bleak Prophet' - Missing Lore
         id: 140041,
         name: `Ultra Relic 'Bleak Prophet'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -30155,22 +30178,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: `X`,
+                atk: `X`,
+                def: `X`
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `55s CT - 10000% Light DMG (PHY). Increase own Arts gauge by 30.`,
+                break: 1000
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Increase own PHY DMG by 25.0%. For 165.5s after start of quest, Increase all Allies' Light DMG by 20.0%. (At Passive Lv.101)`
             },
         lore: `Missing Lore.`
     },
-{ //Ultra Relic 'Eraser Bit' - Missing .....
+{ //Ultra Relic 'Eraser Bit' - Missing Lore
         id: 140051,
         name: `Ultra Relic 'Eraser Bit'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -30184,22 +30207,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: `X`,
+                atk: `X`,
+                def: `X`
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `30s CT - 5300% Non-Elemental DMG (Magic). Increase own ATK & DMG by 30% for 10s. If this equipment is used for the first time, increase all Allies' Arts gauge by 30.`,
+                break: 300
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Increase own Skill CT recovery by 10%. For 20.7s from Start of Quest, increase all Allies' MAG DMG by 27.7%. (At Passive Lv.101)`
             },
         lore: `Missing Lore.`
     },
-{ //Ultra Relic 'Pteraturus' - Missing .....
+{ //Ultra Relic 'Pteraturus' - Missing Lore
         id: 140061,
         name: `Ultra Relic 'Pteraturus'`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -30213,22 +30236,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: `X`,
+                atk: `X`,
+                def: `X`
             },
         skillset:  
             {
-                skill: ``,
+                skill: `30s CT - Increase all Allies' DEF by 50% & DMG resistance by 20% for 10s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `For 88s at Start of Quest, negate all Allies' DMG for a total of 3451 & increase all Allies' CRI resistance by 23.7%. (At Passive Lv.101)`
             },
         lore: `Missing Lore.`
     },
-{ //Ultra Relic 'Empty Heart' - Missing .....
+{ //Ultra Relic 'Empty Heart' - Missing Lore
         id: 140071,
         name: `Ultra Relic 'Empty Heart'`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -30242,22 +30265,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: `X`,
+                atk: `X`,
+                def: `X`
             },
         skillset:  
             {
-                skill: ``,
+                skill: `60s CT - Heals all Allies' HP by 3% & increase all Allies' Arts gauge by 1 for 20s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `At Start of Quest, increase own Arts gauge by 15. For 122.7s from Start of Quest, increase own Heal amount by 28.1%. (Only once)`
             },
         lore: `Missing Lore.`
     },
-{ //Ultra Relic 'Phantom Sword' - JP Missing .....
+{ //Ultra Relic 'Phantom Sword' - JP Complete
         id: 140081,
         name: `Ultra Relic 'Phantom Sword'`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -30271,22 +30294,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: `X`,
+                atk: `X`,
+                def: `X`
             },
         skillset:  
             {
-                skill: ``,
+                skill: `60s CT - Heal target's HP by 3000 and increase target's Arts gauge by 10.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `For 93s at Start of Quest, heal all Allies' HP by 25/s and Increase Own DEF by 21.1%. (At Passive Lv.101)`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //Ultra Relic 'Phantom Core' - JP Missing .....
+{ //Ultra Relic 'Phantom Core' - JP Complete
         id: 140091,
         name: `Ultra Relic 'Phantom Core'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -30300,22 +30323,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: `X`,
+                atk: `X`,
+                def: `X`
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `95s CT - 11000% Dark DMG (Magic). Increase own DMG to weak element enemies by 66% for 20s.`,
+                break: 1000
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Reduce Own DMG RES by 23%. For 79s after Start of Quest, increase Demon Units' DMG by 42.2%. (At Passive Lv.101)`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //Ultra Relic 'Volkans' - JP Missing .....
+{ //Ultra Relic 'Volkans' - JP Complete
         id: 140101,
         name: `Ultra Relic 'Volkans'`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -30329,22 +30352,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: `X`,
+                atk: `X`,
+                def: `X`
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `60s CT - 6200% Fire DMG (Physical). Increase own DMG by 30% & Arts gauge by 1 for 15s.`,
+                break: 400
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Reduce own Status Ailments RES by 23%. For 79s after Start of quest, increase God Units' DMG by 42.2%. (At Passive Lv.101)`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //Ultra Relic 'Bracchium' - JP Missing .....
+{ //Ultra Relic 'Bracchium' - JP Complete
         id: 140111,
         name: `Ultra Relic 'Bracchium'`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -30358,22 +30381,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: `X`,
+                atk: `X`,
+                def: `X`
             },
         skillset:  
             {
-                skill: ``,
+                skill: `50s CT - Increase all allies' Arts Gauge by 10. Heal all allies' HP by 700 for 10s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `For 113.7s, increase all allies' PHY DMG by 13% and Heal Recovery by 18%. (At Passive Lv.101)`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //Ultra Relic 'Skeletooth' - JP Missing .....
+{ //Ultra Relic 'Skeletooth' - JP Complete
         id: 140121,
         name: `Ultra Relic 'Skeletooth'`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -30387,22 +30410,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: `X`,
+                atk: `X`,
+                def: `X`
             },
         skillset:  
             {
-                skill: ``,
+                skill: `50s CT - Increase target's Arts Gauge by 10. Increase target's PHY RES by 20% for 20s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `For 122.7s, increase all allies' Status RES (Except Faint) by 20% and all allies Heal for 12.5% of DMG taken. (At Passive Lv.101)`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //Ultra Relic 'Periusia' - JP Missing .....
+{ //Ultra Relic 'Periusia' - JP Complete
         id: 140131,
         name: `Ultra Relic 'Periusia'`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -30416,22 +30439,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: `X`,
+                atk: `X`,
+                def: `X`
             },
         skillset:  
             {
-                skill: ``,
+                skill: `45s CT - Heal target's HP by 75%. If user is a Fire unit, heal target's HP by 100% instead.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `For 93.7s, increase own Disease RES by 15.0% and every 14.9s, increase all allies' Arts gauge by 7. (At Passive Lv.101)`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //バルクヘルム (Monster Hunter equip) - JP Missing .....
+{ //バルクヘルム (Monster Hunter equip) - JP Complete
         id: 150011,
         name: `バルクヘルム`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -30447,20 +30470,20 @@ const EquipInformation = [
             {
                 hp: 0,
                 atk: 0,
-                def: 0
+                def: 500
             },
         skillset:  
             {
-                skill: ``,
+                skill: `55s CT - Negates 800 DMG taken to all allies and heal all allies' HP by 30 for 10s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Magic resistance 10% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //バルクメイル (Monster Hunter equip) - JP Missing .....
+{ //バルクメイル (Monster Hunter equip) - JP Complete
         id: 150021,
         name: `バルクメイル`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -30475,21 +30498,21 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 6500% Dark DMG (Magic). Increase enemy's DMG taken by 30% for 8s.`,
+                break: 2200
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Break Power 6% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //レウスSアーム (Monster Hunter equip) - JP Missing .....
+{ //レウスSアーム (Monster Hunter equip) - JP Complete
         id: 150031,
         name: `レウスSアーム`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -30504,13 +30527,13 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `45s CT - 6000% Fire DMG (Physical). If user is Human, increase own DMG by 20% for 5s.`,
+                break: 800
             },
         passive: 
             {
@@ -30518,7 +30541,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //レウスSフォールド (Monster Hunter equip) - JP Missing .....
+{ //レウスSフォールド (Monster Hunter equip) - JP Complete
         id: 150041,
         name: `レウスSフォールド`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -30532,22 +30555,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 60,
+                atk: 30,
+                def: 30
             },
         skillset:  
             {
-                skill: ``,
+                skill: `40s CT - Increase all allies' Skill CT speed by 30% and Evasion rate by 10% for 10s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Skill CT speed 10% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //レイアRヘルム (Monster Hunter equip) - JP Missing .....
+{ //レイアRヘルム (Monster Hunter equip) - JP Complete
         id: 150051,
         name: `レイアRヘルム`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -30561,22 +30584,22 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
+                hp: 120,
                 atk: 0,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
+                skill: `60s CT - Heal all allies' HP by 15%.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Status Ailment resistance 20% UP (Except Faint).`
             },
         lore: `Currently unreleased in Global.`
     },
-{ //レイアRグリーヴ (Monster Hunter equip) - JP Missing .....
+{ //レイアRグリーヴ (Monster Hunter equip) - JP Complete
         id: 150061,
         name: `レイアRグリーヴ`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -30592,16 +30615,16 @@ const EquipInformation = [
             {
                 hp: 0,
                 atk: 0,
-                def: 0
+                def: 120
             },
         skillset:  
             {
-                skill: ``,
+                skill: `40s CT - Increase all allies' DMG resistance by 20% for 15s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: ``
+                ability1: `HP Recovery Amount 10% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -30663,7 +30686,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //テスカブレイド (Monster Hunter equip) - JP Missing .....
+{ //テスカブレイド (Monster Hunter equip) - JP Complete
         id: 150091,
         name: `テスカブレイド`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -30678,12 +30701,12 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 120,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
+                skill: `50s CT - 6800% Fire DMG (Physical). 100% chance to inflict Burn on all enemies and allies. If enemy is a Raid boss, deal 9000% Fire DMG (Physical) instead.`,
                 break: 0
             },
         passive: 
@@ -30721,11 +30744,11 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Monster Hunter equip ???) - JP Missing .....
+{ //クイーンブラスターI (Monster Hunter equip) - JP Missing .....
         id: 150111,
-        name: `JP Equip Name (Monster Hunter equip ???)`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `クイーンブラスターI`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 3,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_150110.png`,
@@ -30750,11 +30773,11 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Monster Hunter equip ???) - JP Missing .....
+{ //レウスネコブレイド (Monster Hunter equip) - JP Missing .....
         id: 150121,
-        name: `JP Equip Name (Monster Hunter equip ???)`,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `レウスネコブレイド`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 3,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_150120.png`,
