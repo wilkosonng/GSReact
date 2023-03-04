@@ -11290,7 +11290,7 @@ const EquipInformation = [
             },
         lore: `The circlet which Iris' clone "Number 2" wears to control her abilities. When the magic stones shine, it signifies the attempt to read her thoughts, as she supposedly has none. Ever since a certain battle, the stone has flickered with light, releasing more power than imagined.`
     },
-{ //Magic Spear 'Graofang' (魔槍『グラオファング』) - JP Missing Skill & Break
+{ //Magic Spear 'Graofang' (魔槍『グラオファング』) - JP Complete
         id: 104481,
         name: `魔槍『グラオファング』`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -11310,8 +11310,8 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `?s CT - 6800% Dark DMG (Physical). Increase own Skill CT speed by 30% for 12s.`,
-                break: 0
+                skill: `55s CT - 6800% Dark DMG (Physical). Increase own Skill CT speed by 30% for 12s.`,
+                break: 1000
             },
         passive: 
             {
@@ -11319,7 +11319,7 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Flame Staff 'Terenolio' (焔精杖『テレノライオ』) - JP Missing Skill
+{ //Flame Staff 'Terenolio' (焔精杖『テレノライオ』) - JP Complete
         id: 104491,
         name: `焔精杖『テレノライオ』`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -11339,7 +11339,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `?s CT - Heal all allies' HP by 1200. If user is Fire, heal all allies' HP by 1800 instead.`,
+                skill: `60s CT - Heal all allies' HP by 1200. If user is Fire, heal all allies' HP by 1800 instead.`,
                 break: 0
             },
         passive: 
@@ -23738,7 +23738,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //極『幻静白儀』 (Palamicia Raid Equip EV) - JP Missing Passive 2
+{ //極『幻静白儀』 (Palamicia Raid Equip EV) - JP Complete
         id: 109011,
         name: `極『幻静白儀』`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -23764,7 +23764,7 @@ const EquipInformation = [
         passive: 
             {
                 ability1: `5% chance to evade Physical ATK.`,
-                ability2: `Missing Passive.`
+                ability2: [`ATK 10% UP.`, `DEF 10% UP.`, `Burn resistance 30% UP.`, `Burn resistance 50% UP.`, `Accuracy rate 10% UP.`, `Accuracy rate 20% UP.`]
             },
         lore: `Currently unreleased in Global.`
     },
@@ -25346,7 +25346,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //Jack-O-Sherum's Cape EV (JP) - JP Missing Passive 2
+{ //Jack-O-Sherum's Cape EV (JP) - JP Complete
         id: 109561,
         name: `Jack-O-Sherum's Cape EV`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -25372,9 +25372,9 @@ const EquipInformation = [
         passive: 
             {
                 ability1: `Increases DMG to Light Elemental Units by 20%.`,
-                ability2: `Missing Passive.`
+                ability2: [`ATK 5% UP.`, `ATK 10% UP.`, `DEF 5% UP.`, `DEF 10% UP.`, `Heal Recovery 5% UP.`, `Heal Amount 5% UP.`]
             },
-        lore: `Missing Lore.`
+        lore: `Currently unreleased in Global.`
     },
 { //Hart's Discovery - Complete
         id: 109571,
@@ -26429,7 +26429,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //極『ドスクラテル』 (Garm Raid Equip EV) - JP Missing Passive 2
+{ //極『ドスクラテル』 (Garm Raid Equip EV) - JP Complete
         id: 109951,
         name: `極『ドスクラテル』`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -26455,7 +26455,7 @@ const EquipInformation = [
         passive: 
             {
                 ability1: `DMG to Earth enemy 10% UP.`,
-                ability2: `Missing Passive.`
+                ability2: [`DMG to Gods 20% UP.`, `CRI DMG 10% UP.`, `CRI DMG 20% UP.`, `BE Output 5% UP.`, `CRI rate 10% UP.`, `HP Recovery Amount 5% UP.`]
             },
         lore: `Currently unreleased in Global.`
     },
@@ -28477,7 +28477,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //真『天涙切』 (Hakurou TW) - JP Missing Break
+{ //真『天涙切』 (Hakurou TW) - JP Complete
         id: 110651,
         name: `真『天涙切』`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -28498,7 +28498,7 @@ const EquipInformation = [
         skillset:  
             {
                 skill: `65s CT - 8000% Earth DMG (Magic). Reduce enemy's Blind resistance and Evasion rate by 30% for 10s.`,
-                break: `Missing Break.`
+                break: 600
             },
         passive: 
             {
@@ -30102,7 +30102,7 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `Increase Own MAG DMG by 25% UP. For 165.5s after start of quest, Increase All Allies Fire DMG by 20%. (At Passive Lv.101)`
+                ability1: `Increase Own Magic DMG by 25% UP. For 165.5s after start of quest, Increase All Allies Fire DMG by 20%. (At Passive Lv.101)`
             },
         lore: `Missing Lore.`
     },
@@ -30131,7 +30131,7 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `Every 14.9s, Increase All Allies' Arts Gauge by 10. For 93.7s after start of quest, Increase own Freeze RES by 15%. (At Passive Lv.101)`
+                ability1: `Every 14.9s, Increase All Allies' Arts Gauge by 10. For 93.7s after start of quest, Increase own Freeze resistance by 15%. (At Passive Lv.101)`
             },
         lore: `Missing Lore.`
     },
@@ -30160,7 +30160,7 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `Increase Own Poison RES by 27.5%. For 165.5s after start of quest, Increase all Allies' Earth DMG by 28.5%. (At Passive Lv.101)`
+                ability1: `Increase Own Poison resistance by 27.5%. For 165.5s after start of quest, Increase all Allies' Earth DMG by 28.5%. (At Passive Lv.101)`
             },
         lore: `Missing Lore.`
     },
@@ -30189,7 +30189,7 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `Increase own PHY DMG by 25.0%. For 165.5s after start of quest, Increase all Allies' Light DMG by 20.0%. (At Passive Lv.101)`
+                ability1: `Increase own Physical DMG by 25.0%. For 165.5s after start of quest, Increase all Allies' Light DMG by 20.0%. (At Passive Lv.101)`
             },
         lore: `Missing Lore.`
     },
@@ -30218,7 +30218,7 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `Increase own Skill CT recovery by 10%. For 20.7s from Start of Quest, increase all Allies' MAG DMG by 27.7%. (At Passive Lv.101)`
+                ability1: `Increase own Skill CT recovery by 10%. For 20.7s from Start of Quest, increase all Allies' Magic DMG by 27.7%. (At Passive Lv.101)`
             },
         lore: `Missing Lore.`
     },
@@ -30334,7 +30334,7 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `Reduce Own DMG RES by 23%. For 79s after Start of Quest, increase Demon Units' DMG by 42.2%. (At Passive Lv.101)`
+                ability1: `Reduce Own DMG resistance by 23%. For 79s after Start of Quest, increase Demon Units' DMG by 42.2%. (At Passive Lv.101)`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -30363,7 +30363,7 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `Reduce own Status Ailments RES by 23%. For 79s after Start of quest, increase God Units' DMG by 42.2%. (At Passive Lv.101)`
+                ability1: `Reduce own Status Ailments resistance by 23%. For 79s after Start of quest, increase God Units' DMG by 42.2%. (At Passive Lv.101)`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -30392,7 +30392,7 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `For 113.7s, increase all allies' PHY DMG by 13% and Heal Recovery by 18%. (At Passive Lv.101)`
+                ability1: `For 113.7s, increase all allies' Physical DMG by 13% and Heal Recovery by 18%. (At Passive Lv.101)`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -30416,12 +30416,12 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `50s CT - Increase target's Arts Gauge by 10. Increase target's PHY RES by 20% for 20s.`,
+                skill: `50s CT - Increase target's Arts Gauge by 10. Increase target's Physical resistance by 20% for 20s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: `For 122.7s, increase all allies' Status RES (Except Faint) by 20% and all allies Heal for 12.5% of DMG taken. (At Passive Lv.101)`
+                ability1: `For 122.7s, increase all allies' Status resistance (Except Faint) by 20% and all allies Heal for 12.5% of DMG taken. (At Passive Lv.101)`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -30450,7 +30450,7 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `For 93.7s, increase own Disease RES by 15.0% and every 14.9s, increase all allies' Arts gauge by 7. (At Passive Lv.101)`
+                ability1: `For 93.7s, increase own Disease resistance by 15.0% and every 14.9s, increase all allies' Arts gauge by 7. (At Passive Lv.101)`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -30628,7 +30628,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //金狼剣シツライ (Monster Hunter equip) - JP Missing .....
+{ //金狼剣シツライ (Monster Hunter equip) - JP Complete
         id: 150071,
         name: `金狼剣シツライ`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -30643,13 +30643,13 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `30s CT - 5000% Light DMG (Magic). Increase own BE Output by 50% for 10s.`,
+                break: 600
             },
         passive: 
             {
@@ -30657,7 +30657,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //狐刀カカルクモナキ (Monster Hunter equip) - JP Missing .....
+{ //狐刀カカルクモナキ (Monster Hunter equip) - JP Complete
         id: 150081,
         name: `狐刀カカルクモナキ`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -30671,14 +30671,14 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 888% Water DMG (Physical). If enemy is a Raid boss, increase all allies' Equipment DMG by 50% for 6s.`,
+                break: 100
             },
         passive: 
             {
@@ -30715,7 +30715,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //キリンRベスト (Monster Hunter equip) - JP Missing .....
+{ //キリンRベスト (Monster Hunter equip) - JP Complete
         id: 150101,
         name: `キリンRベスト`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -30731,11 +30731,11 @@ const EquipInformation = [
             {
                 hp: 0,
                 atk: 0,
-                def: 0
+                def: 120
             },
         skillset:  
             {
-                skill: ``,
+                skill: `5s CT - For 5s, allies gain a DMG barrier that negates 300 DMG taken from Light enemies (No duplication). `,
                 break: 0
             },
         passive: 
@@ -30744,7 +30744,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //クイーンブラスターI (Monster Hunter equip) - JP Missing .....
+{ //クイーンブラスターI (Monster Hunter equip) - JP Complete
         id: 150111,
         name: `クイーンブラスターI`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -30758,13 +30758,13 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
+                hp: 60,
                 atk: 0,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
+                skill: `60s CT - Heal target's HP by 1000. If user is Fire, heal own HP by 50 for 10s.`,
                 break: 0
             },
         passive: 
@@ -30773,7 +30773,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //レウスネコブレイド (Monster Hunter equip) - JP Missing .....
+{ //レウスネコブレイド (Monster Hunter equip) - JP Complete
         id: 150121,
         name: `レウスネコブレイド`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -30788,13 +30788,13 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 60,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `10s CT - 1200% Fire DMG (Physical).`,
+                break: 200
             },
         passive: 
             {

@@ -12818,7 +12818,7 @@ const UnitInformation = [
                 name: "Gran Killer",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "/db/Equipment/Detail/item_detail_106231.png",
-                skill: "50s CT - 7500% Dark DMG (PHY). For 10s, increase own Critical Rate by 50%.",
+                skill: "50s CT - 7500% Dark DMG (PHY). Increase own Critical rate by 50% for 10s. If user is Demon, increase own CRI rate by 80% instead.",
                 skillbreak: 900,
                 passive: 
                     {
