@@ -19459,9 +19459,9 @@ const UnitInformation = [
                 skillbreak: 600,
                 arts: "15000% Light DMG (PHY). For 15s, increase Allies' PHY DMG by 50% and God Allies' Accuracy by 30%.",
                 artsbreak: 800,
-                truearts: "45000% Light DMG (PHY). For 15s, replace the equipment in her :lbphys: slot with Ultra Equip \"Iron Star\". Additionally, for 15s, reduce Enemies' Light RES and Physical RES by 35%.",
+                truearts: "45000% Light DMG (PHY). For 15s, replace the equipment in her physical slot with Ultra Equip \"Iron Star\". Additionally, for 15s, reduce Enemies' Light RES and Physical RES by 35%.",
                 trueartsbreak: 1500,
-                ultra: "2s CT - 3000% Light DMG (PHY). Heal Allies' HP by 1000. For 15s, reduce Enemies' PHY RES by 5% (stackable). ",
+                ultra: "2s CT - 3000% Light DMG (PHY). Heal Allies' HP by 1000. For 12s, reduce Enemies' PHY RES by 5% (stackable). ",
                 ultrabreak: 300,
                 ultratype: "/db/Mines/thumbnail/physLB.png",
                 ultraname: "Iron Star"
