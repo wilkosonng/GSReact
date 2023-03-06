@@ -21071,6 +21071,84 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
+    { // Aristela Orbis - Missing Lore
+        id: 103687212,
+        name: "Aristela Orbis",
+        attribute: "Water",
+        type: "Spirit",
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_103686212.png",
+                detailsuper: "/db/Units/Detail/unit_detail_103687212.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103686212.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103687212.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/suppLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/magLB.png",
+                slot32type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: 8510,
+                hpplus: 1530,
+                atk: 2970,
+                atkplus: 590,
+                def: 2760,
+                defplus: 530
+            },
+        skillset: 
+            {
+                skill: `13s CT - 2000% Water DMG (MAG). For 7s, reduce Enemies' evasion by 20%.`,
+                skillbreak: 800,
+                arts: `17000% Water DMG (MAG). For 15s, increase Allies' Arts by 4/s.`,
+                artsbreak: 2000,
+                truearts: `40000% Water DMG (MAG). For 15s, reduce Enemies' MAG RES and Break RES by 80%.`,
+                trueartsbreak: 8000,
+                superarts: `80000% Water DMG (MAG). Each time Super Arts is used, permanently increase Water Allies' DMG by 60% (up to 300%). For 15s, increase Allies' stats by 30%.`,
+                superartsbreak: 3000
+            },
+        passive: 
+            {
+                ability1: `Increase DMG and Break Power against Enemies over 50% HP by 30%.`,
+                ability2: `Increase DMG against Enemies in BREAK by 70%.`,
+                ability3: `Increase Poison RES by 80%.`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_132152.png",
+                    mat2amt: 220,
+                    hover2: "Water Summoner's Road Orbs"
+                }
+            },
+        trueweapon: //If no TW, may delete this section
+            {
+                name: `Happiness Trigger`,
+                slot: "/db/Mines/thumbnail/suppLB.png",
+                detail: "/db/Equipment/Detail/item_detail_111231.png",
+                skill: `45s CT - For 12s, increase Allies' Arts by 3/s and increase Water Allies' Break Power by 40%.`,
+                skillbreak: 500,
+                passive: 
+                    {
+                        ability1: `When equipped by Aristela Orbis, increase own Arts by 3/s and DMG by 50%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own MAG DMG by 10%.`
+                    }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
     { //Zinogre Armor Rayas - Missing Lore
         id: 107006412,
         name: "Zinogre Armor Rayas",

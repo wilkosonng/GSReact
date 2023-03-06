@@ -28710,9 +28710,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //シャルの「がおがお」 (PSS Halloween Equip) - JP Complete
+{ //シャルの『がおがお』 (PSS Halloween Equip) - JP Complete
         id: 110731,
-        name: `シャルの「がおがお」`,
+        name: `シャルの『がおがお』`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -30074,6 +30074,210 @@ const EquipInformation = [
         passive: 
             {
                 ability1: `Magic resistance 5% UP.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //真『ハピネストリガー』 (Aristela Orbis TW) - JP Complete
+        id: 111231,
+        name: `真『ハピネストリガー』`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111230.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111231.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111230.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111231.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `45s CT - Increase all Allies' Arts gauge by 3/s and Water Allies' Break Power by 40% for 12s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `When equipped by Aristela Orbis, increase own Arts by 3/s and DMG by 50% (Only once).`,
+                ability2: `Magic DMG 10% UP.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+{ //極楽針 『ハピネストリガー』 (Aristela Orbis Farmable) - JP Complete
+        id: 111241,
+        name: `極楽針 『ハピネストリガー』`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111240.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111241.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111240.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111241.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `45s CT - Increase target's Arts gauge by 5/s for 20s. If user is Water, increase target's Arts DMG by 20% for 20s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Magic resistance 5% UP.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+{ //救砕衣 『マインドクラッカー』 (Aristela Orbis Farmable) - JP Complete
+        id: 111251,
+        name: `救砕衣 『マインドクラッカー』`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111250.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111251.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111250.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111251.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `65s CT - 5000% Water DMG (Magic). Reduce enemies' Magic resistance by 20% for 10s. If user is Water, reduce enemies' Magic resistance by 30% instead.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `DMG 10% UP when enemy is Broken.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+{ //祝燐架『フォスブレイス』 レプリカ (Light SR Equip) - JP Complete
+        id: 111261,
+        name: `祝燐架『フォスブレイス』 レプリカ`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 6,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111260.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111261.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111260.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111261.png`
+            },
+        stats:
+            {
+                hp: 600,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - Heal target's HP by 5% for 20s. If the user is a Human or Beast, heal target's HP by 10% for 20s instead.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Seal Time Reduction & Seal Evasion rate 10% UP.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+{ //祝燐架『フォスプレイス』 アレンジ (Light SR Equip) - JP Complete
+        id: 111271,
+        name: `祝燐架『フォスプレイス』 アレンジ`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 6,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111270.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111271.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111270.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111271.png`
+            },
+        stats:
+            {
+                hp: 600,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - Heal target's HP by 5% for 20s. If the user is a Human or Beast, heal target's HP by 7% and reduce target's DMG taken by 20% for 20s instead.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `BE Output 5% UP.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+{ //冥界書『プルトリクス』 レプリカ (Dark SR Equip) - JP Complete
+        id: 111281,
+        name: `冥界書『プルトリクス』 レプリカ`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 6,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111280.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111281.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111280.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111281.png`
+            },
+        stats:
+            {
+                hp: 300,
+                atk: 150,
+                def: 150
+            },
+        skillset:  
+            {
+                skill: `40s CT - Increase all allies' Arts gauge by 2 for 15s. If the user is a Demon or Spirit, increase all allies' Arts gauge by 3 for 15s instead.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `DEF 5% UP.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+{ //冥界書『プルトリクス』 アレンジ - JP Complete
+        id: 111291,
+        name: `冥界書『プルトリクス』 アレンジ`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 6,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111290.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111291.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111290.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111291.png`
+            },
+        stats:
+            {
+                hp: 300,
+                atk: 150,
+                def: 150
+            },
+        skillset:  
+            {
+                skill: `40s CT - Increase all allies' Arts gauge (except for self) by 2 for 16s. If the user is a Demon or Spirit, increase all allies' Arts gauge (except for self) by 4 for 16s instead.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `ATK 5% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
