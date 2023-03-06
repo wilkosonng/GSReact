@@ -15,7 +15,7 @@ const EquipStats = ({ skillset, stats, passive, star }) => {
 const RenderStats = ({ hp, atk, def, star }) => {
     return (
         <Row style={{ marginTop: "1rem" , marginBottom: "1rem"}}>
-            <i>Stats and Skillset shown are based on Max Level and Max Limit Break</i>
+            
             <center>
             <Table bordered style={{ width: "15em", marginTop: "1rem"}}>
                 <tr>
@@ -39,6 +39,7 @@ const RenderStats = ({ hp, atk, def, star }) => {
                     <td><center><RenderRarity rarity={star} /></center></td>
                 </tr>
             </Table></center>
+            <i>Stats and Skillset shown are based on Max Level and Max Limit Break</i>
         </Row>
     )
 }
