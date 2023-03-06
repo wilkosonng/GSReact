@@ -2213,7 +2213,7 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `Increases all Allies' ATK by 15% (Does not stack with abilities of the same name.)`
+                ability1: `Increases all Allies' ATK by 15% (Does not stack with abilities of the same name).`
             },
         lore: `A sword owned by Rayas. He found it when exploring caves with his friend Roy, but it was plunged deep in a rock and the boys were unable to pull it free. They visited the cave many more times but could never move it. Eventually Roy left to become a knight. As though answering Rayas' resolve, when he returned to the cave alone he finally removed the sword.`
     },
@@ -2701,7 +2701,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `80s CT - 9000% DMG (Physical)`,
+                skill: `80s CT - 9000% DMG (Physical).`,
                 break: 1000
             },
         passive: 
@@ -7207,7 +7207,7 @@ const EquipInformation = [
     },
     { //Super Shinobi Bee (超必殺忍蜂) - Complete (JP)
         id: 102961,
-        name: `Super Shinobi Bee (超必殺忍蜂)`,
+        name: `超必殺忍蜂`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -7236,7 +7236,7 @@ const EquipInformation = [
     },
     { //Phoenix Dance (鳳凰の舞) - Complete (JP)
         id: 102971,
-        name: `Phoenix Dance (鳳凰の舞)`,
+        name: `鳳凰の舞`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -7265,7 +7265,7 @@ const EquipInformation = [
     },
     { //Dragon Flame Dance (龍炎舞) - Complete (JP)
         id: 102981,
-        name: `Dragon Flame Dance (龍炎舞)`,
+        name: `龍炎舞`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 3,
         image: 
@@ -7294,7 +7294,7 @@ const EquipInformation = [
     },
     { //Ura Hundred Eight Styles・Ojanagi (裏百八式・大蛇薙) - Complete (JP)
         id: 102991,
-        name: `Ura Hundred Eight Styles・Ojanagi (裏百八式・大蛇薙)`,
+        name: `裏百八式・大蛇薙`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -7323,7 +7323,7 @@ const EquipInformation = [
     },
     { //900-Style・Nue Picking (九百拾式・鵺摘み) - Complete (JP)
         id: 103001,
-        name: `900-Style・Nue Picking (九百拾式・鵺摘み)`,
+        name: `九百拾式・鵺摘み`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -7352,7 +7352,7 @@ const EquipInformation = [
     },
     { //104-Style・Rough Biting (百拾四式・荒咬み) - Complete (JP)
         id: 103011,
-        name: `104-Style・Rough Biting (百拾四式・荒咬み)`,
+        name: `百拾四式・荒咬み`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 3,
         image: 
@@ -7381,7 +7381,7 @@ const EquipInformation = [
     },
     { //1,000,200,110 Girls (禁千弐百拾壱式・八稚女) - Complete (JP)
         id: 103021,
-        name: `1,000,200,110 Girls (禁千弐百拾壱式・八稚女)`,
+        name: `禁千弐百拾壱式・八稚女`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -7410,7 +7410,7 @@ const EquipInformation = [
     },
     { //Hyakushiki・Oniyaki (百式・鬼焼き) - Complete (JP)
         id: 103031,
-        name: `Hyakushiki・Oniyaki (百式・鬼焼き)`,
+        name: `百式・鬼焼き`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -7439,7 +7439,7 @@ const EquipInformation = [
     },
     { //Type 108・Yamiharai (百八式・闇払い) - Complete (JP)
         id: 103041,
-        name: `Type 108・Yamiharai (百八式・闇払い)`,
+        name: `百八式・闇払い`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 3,
         image: 
@@ -7755,7 +7755,7 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When equipped by Mira (Fire), own DMG 20% UP (Only once.)`,
+                ability1: `When equipped by Mira (Fire), own DMG 20% UP (Only once).`,
                 ability2: `DMG to Earth enemy 5% UP.`
             },
         lore: `Missing Lore.`
@@ -28216,7 +28216,7 @@ const EquipInformation = [
     },
 { //Soaring Z (ライジングZ) - JP Complete
         id: 110561,
-        name: `Soaring Z (ライジングZ)`,
+        name: `ライジングZ`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -28391,7 +28391,7 @@ const EquipInformation = [
     },
 { //JP Equip Name (Kirisame TW) - JP Complete
         id: 110621,
-        name: `JP Equip Name (Kirisame TW)`,
+        name: `真『迦楼羅』`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -36494,7 +36494,7 @@ const EquipInformation = [
     },
 { //Subaru's Cell Phone (スバルの携帯電話) - JP Complete
         id: 152121,
-        name: `Subaru's Cell Phone (スバルの携帯電話)`,
+        name: `スバルの携帯電話`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -36523,7 +36523,7 @@ const EquipInformation = [
     },
 { //Subaru's Cell Phone EV (極『スバルの携帯電話』) - JP Complete
         id: 152131,
-        name: `Subaru's Cell Phone EV (極『スバルの携帯電話』)`,
+        name: `極『スバルの携帯電話』`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -36785,7 +36785,7 @@ const EquipInformation = [
     },
 { //Staff of Ainz Ooal Gown (スタッフ・オブ・アインズ・ウール・ゴウン) - JP Complete
         id: 152221,
-        name: `Staff of Ainz Ooal Gown (スタッフ・オブ・アインズ・ウール・ゴウン)`,
+        name: `スタッフ・オブ・アインズ・ウール・ゴウン`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -36814,7 +36814,7 @@ const EquipInformation = [
     },
 { //Shooting Star Ring (流れ星の指輪) - JP Complete
         id: 152231,
-        name: `Shooting Star Ring (流れ星の指輪)`,
+        name: `流れ星の指輪`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -36843,7 +36843,7 @@ const EquipInformation = [
     },
 { //Ainz's Clothes (アインズの服) - JP Complete
         id: 152241,
-        name: `Ainz's Clothes (アインズの服)`,
+        name: `アインズの服`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -36872,7 +36872,7 @@ const EquipInformation = [
     },
 { //Hourglass (砂時計) - JP Complete
         id: 152251,
-        name: `Hourglass (砂時計)`,
+        name: `砂時計`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -36901,7 +36901,7 @@ const EquipInformation = [
     },
 { //Keraunos Mk-III (ケラウノスMk-III) - JP Complete
         id: 152261,
-        name: `Keraunos Mk-III (ケラウノスMk-III)`,
+        name: `ケラウノスMk-III`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -36930,7 +36930,7 @@ const EquipInformation = [
     },
 { //Narberal's Headdress (ナーベラルのヘッドドレス) - JP Complete
         id: 152271,
-        name: `Narberal's Headdress (ナーベラルのヘッドドレス)`,
+        name: `ナーベラルのヘッドドレス`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -36959,7 +36959,7 @@ const EquipInformation = [
     },
 { //Narberal's Combat Maid Uniform (ナーベラルの戦闘用メイド服) - JP Complete
         id: 152281,
-        name: `Narberal's Combat Maid Uniform (ナーベラルの戦闘用メイド服)`,
+        name: `ナーベラルの戦闘用メイド服`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -36988,7 +36988,7 @@ const EquipInformation = [
     },
 { //Mask of Envy (嫉妬する者たちのマスク)- JP Complete
         id: 152291,
-        name: `Mask of Envy (嫉妬する者たちのマスク)`,
+        name: `嫉妬する者たちのマスク`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -37017,7 +37017,7 @@ const EquipInformation = [
     },
 { //Mask of Envy EV (極『嫉妬する者たちのマスク』) - JP Complete
         id: 152301,
-        name: `Mask of Envy EV (極『嫉妬する者たちのマスク』)`,
+        name: `極『嫉妬する者たちのマスク』`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
