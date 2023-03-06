@@ -163,10 +163,10 @@ const RenderThumbnail = ({ thumbnail, name }) => {
                     <Card style={{maxWidth: "75px", backgroundColor: "#202022", border: "none", justifyContent: "center"}}>
                         <Link to={`/units/${name}`} style={{textDecoration: 'none', color: "#aaabb8"}}>
                             <Placeholder type="rect" rows={1} ready={thumbnail !== ''} >
-                                <Media src={thumbnail} alt={name} width="75" height="75" object-fit="cover" />
+                                <Media src={thumbnail} alt={name} width="100%" height="auto" object-fit="cover" />
                             </Placeholder>
                             <Placeholder  rows={1} ready={thumbnail !== ''}>
-                                <p style={{display: "inline-block"}}>{name}</p>
+                                <p style={{display: "inline-block", marginLeft: "-6px", marginRight: "-1px"}}>{name}</p>
                             </Placeholder>
                         </Link>
                     </Card>
