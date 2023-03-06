@@ -2,6 +2,8 @@ import { useState } from 'react';
 import { Container, Row, Col, Media, Card, CardHeader, CardBody } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import { getEquips } from '../../shared/equipInfo';
+import Placeholder from 'react-placeholder';
+import 'react-placeholder/lib/reactPlaceholder.css';
 
 const Equips = () => {
     //Obtain Equipment Data
@@ -49,20 +51,28 @@ const Equips = () => {
                             } else if (equip.name.toLowerCase().includes(query.toLowerCase())) {
                                 return equip;
                             }
+                            return false
                         })
                         .map(equip => {
                             return (
                                 <>
-                                    <Col key={equip.name} xs="4" sm="auto">
-                                        <center>
-                                            <Card style={{maxWidth: "75px", backgroundColor: "#202022", border: "none"}}>
-                                                <Link to={`/testingrealmofequips/equips/${equip.name}`} style={{textDecoration: "none", color: "#aaabb8"}} >
-                                                    <Media src={equip.image.thumbmax} alt={equip.name} width="100%" height="auto" object-fit="cover" />
-                                                    <p>{equip.name}</p>
-                                                </Link>
-                                            </Card>
-                                        </center>
-                                    </Col>
+                                    { equip.name !== "???" &&
+                                        <Col key={equip.id} xs="4" sm="auto">
+                                            <center>
+                                                <Card style={{maxWidth: "75px", backgroundColor: "#202022", border: "none"}}>
+                                                    <Link to={`/testingrealmofequips/equips/${equip.name}`} style={{textDecoration: "none", color: "#aaabb8"}} >
+                                                        <Placeholder type="rect" rows={1} ready={ equip.image.thumbmax !== "" } >
+                                                            <Media src={equip.image.thumbmax} alt={equip.name} width="100%" height="auto" object-fit="cover" />
+                                                        </Placeholder>
+                                                        <Placeholder rows={1} ready={equips.image?.thumbmax !== ""} >
+                                                            <p style={{display: "inline-block"}}>{equip.name}</p>
+                                                        </Placeholder>
+                                                    </Link>
+                                                </Card>
+                                            </center>
+                                        </Col>
+                                    }
+                                    
                                 </>
                             )
                         })
