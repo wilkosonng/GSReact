@@ -20638,9 +20638,9 @@ const EquipInformation = [
             },
         lore: `One of Marika's inventions. It was designed to only fit her own head, so she has no plans for mass production. Several companies approached her with licensing offers, but the quality she demands drives up the manufacturing costs to unprofitable levels. since most of the features she wants to add will increase its weight, she is always trying to make it lighter.`
     },
-{ //JP Equip Name - JP Missing (???) .....
+{ //JP Equip Name (???) - Unknown
         id: 107921,
-        name: `JP Equip Name (???)`,
+        name: `???`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -28389,7 +28389,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //JP Equip Name (Kirisame TW) - JP Complete
+{ //真『迦楼羅 (Kirisame TW) - JP Complete
         id: 110621,
         name: `真『迦楼羅』`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -29149,7 +29149,7 @@ const EquipInformation = [
     },
 { //JP Equip Name (???) - Unknown
         id: 110881,
-        name: `JP Equip Name (???)`,
+        name: `???`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
         image: 
