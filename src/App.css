@@ -57,6 +57,7 @@ th, tr {
   margin: .3em;
   color: white;
   border-radius: 5px;
+  user-select: none;
 }
 
 .filterButtons > label > input {
@@ -70,6 +71,12 @@ th, tr {
   overflow: hidden;
 }
 
+
+
+.rarityLabel {
+  max-width: 40px;
+  height: 40px;
+}
 @media (max-width: 768px){
   .newsImages {
     width: 100%;
