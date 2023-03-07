@@ -32576,7 +32576,7 @@ const EquipInformation = [
     },
 { //Goblin Slayer's Shield - Complete
         id: 150671,
-        name: ``,
+        name: `Goblin Slayer's Shield`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
