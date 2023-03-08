@@ -274,7 +274,7 @@ const TypeFilters = ({ filters, handleChange }) => {
                         onChange={handleChange}
                         />
                     <img src="/db/Mines/thumbnail/suppLB.png" alt="Support Equipment" className="filterIcons" />
-                    Healing
+                    Support
                 </label>
             </form>
         </center>
