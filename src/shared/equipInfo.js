@@ -7208,6 +7208,7 @@ const EquipInformation = [
     { //Super Shinobi Bee (超必殺忍蜂) - Complete (JP)
         id: 102961,
         name: `超必殺忍蜂`,
+        translate: `Super Shinobi Bee`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -7237,6 +7238,7 @@ const EquipInformation = [
     { //Phoenix Dance (鳳凰の舞) - Complete (JP)
         id: 102971,
         name: `鳳凰の舞`,
+        translate: `Phoenix Dance`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -7266,6 +7268,7 @@ const EquipInformation = [
     { //Dragon Flame Dance (龍炎舞) - Complete (JP)
         id: 102981,
         name: `龍炎舞`,
+        translate: `Dragon Flame Dance`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 3,
         image: 
@@ -7295,6 +7298,7 @@ const EquipInformation = [
     { //Ura Hundred Eight Styles・Ojanagi (裏百八式・大蛇薙) - Complete (JP)
         id: 102991,
         name: `裏百八式・大蛇薙`,
+        translate: `Ura Hundred Eight Styles・Ojanagi`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -7324,6 +7328,7 @@ const EquipInformation = [
     { //900-Style・Nue Picking (九百拾式・鵺摘み) - Complete (JP)
         id: 103001,
         name: `九百拾式・鵺摘み`,
+        translate: `900-Style・Nue Picking`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -7353,6 +7358,7 @@ const EquipInformation = [
     { //104-Style・Rough Biting (百拾四式・荒咬み) - Complete (JP)
         id: 103011,
         name: `百拾四式・荒咬み`,
+        translate: `104-Style・Rough Biting`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 3,
         image: 
@@ -7382,6 +7388,7 @@ const EquipInformation = [
     { //1,000,200,110 Girls (禁千弐百拾壱式・八稚女) - Complete (JP)
         id: 103021,
         name: `禁千弐百拾壱式・八稚女`,
+        translate: `1,000,200,110 Girls`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -7411,6 +7418,7 @@ const EquipInformation = [
     { //Hyakushiki・Oniyaki (百式・鬼焼き) - Complete (JP)
         id: 103031,
         name: `百式・鬼焼き`,
+        translate: `Hyakushiki・Oniyaki`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -7440,6 +7448,7 @@ const EquipInformation = [
     { //Type 108・Yamiharai (百八式・闇払い) - Complete (JP)
         id: 103041,
         name: `百八式・闇払い`,
+        translate: `Type 108・Yamiharai`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 3,
         image: 
@@ -11175,6 +11184,7 @@ const EquipInformation = [
 { // Blue Life Sword 'Glamerald' (碧命剣『グラメラルド』) - JP Complete
         id: 104441,
         name: `碧命剣『グラメラルド』`,
+        translate: `'Glamerald'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -14832,6 +14842,7 @@ const EquipInformation = [
 { //Twin-sword 'Aurora & Zephyr' (双天剣 『紫耀・蒼風』) - JP Complete
         id: 105921,
         name: `双天剣 『紫耀・蒼風』`,
+        translate: `'Aurora & Zephyr'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -15654,6 +15665,7 @@ const EquipInformation = [
 { //聖徽『イノセントノア』 (Kush's Farmable) - JP Complete
         id: 106201,
         name: `聖徽『イノセントノア』`,
+        translate: `'Innocent Noah'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -15683,6 +15695,7 @@ const EquipInformation = [
 { //裂魔剣『グランキラー』 (Rebol's Farmable) - JP Complete
         id: 106211,
         name: `裂魔剣『グランキラー』`,
+        translate: `'Gran Killer'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -15712,6 +15725,7 @@ const EquipInformation = [
 { //真『イノセントノア』 (Kush's TW) - JP Complete
         id: 106221,
         name: `真『イノセントノア』`,
+        translate: `True 'Innocent Noah'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -15742,6 +15756,7 @@ const EquipInformation = [
 { //真『グランキラー』 (Rebol's TW) - JP Complete
         id: 106231,
         name: `真『グランキラー』`,
+        translate: `True 'Gran Killer'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -15802,6 +15817,7 @@ const EquipInformation = [
 { //翠砡杖『ヴァルトレニス』 (Belle's Farmable) - JP Complete
         id: 106251,
         name: `翠砡杖『ヴァルトレニス』`,
+        translate: `'Valtrenith'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -15890,6 +15906,7 @@ const EquipInformation = [
 { //水凰帽『フェロニカ』 (Tia's Farmable) - JP Complete
         id: 106281,
         name: `水凰帽『フェロニカ』`,
+        translate: `'Feronica'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -15948,6 +15965,7 @@ const EquipInformation = [
 { //真『フェロニカ』 (Tia's TW) - JP Complete
         id: 106301,
         name: `真『フェロニカ』`,
+        translate: `True 'Feronica'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -16417,6 +16435,7 @@ const EquipInformation = [
 { //闘拳『セイバーアーム』 (Cynthia's Farmable) - JP Complete
         id: 106461,
         name: `闘拳『セイバーアーム』`,
+        translate: `'Sabertooth Gauntlets'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -16535,6 +16554,7 @@ const EquipInformation = [
 { //宵竜刀『スタリサルダ』 (Barossa's Farmable) - JP Complete
         id: 106501,
         name: `宵竜刀『スタリサルダ』`,
+        translate: `'Starisarta'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -16564,6 +16584,7 @@ const EquipInformation = [
 { //輝竜槍『アルバソル』 (Melissa's Farmable) - JP Complete
         id: 106511,
         name: `輝竜槍『アルバソル』`,
+        translate: `'Arbasol'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -16593,6 +16614,7 @@ const EquipInformation = [
 { //真『スタリサルダ』 (Barossa's TW) - JP Complete
         id: 106521,
         name: `真『スタリサルダ』`,
+        translate: `True 'Starisarta'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -17474,6 +17496,7 @@ const EquipInformation = [
 { //蒼魔杖『ミゼラブル』 (Adele's Farmable) - JP Complete
         id: 106841,
         name: `蒼魔杖『ミゼラブル』`,
+        translate: `'Empath'`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -17736,6 +17759,7 @@ const EquipInformation = [
 { //焔双刃『インフェリア』 (Orgah's Farmable) - JP Complete
         id: 106931,
         name: `焔双刃『インフェリア』`,
+        translate: `'Exferia'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -18147,6 +18171,7 @@ const EquipInformation = [
 { //炎長杖『フレルニカ』 (Vermilia's Farmable) - JP Complete
         id: 107071,
         name: `炎長杖『フレルニカ』`,
+        translate: `'Flerunika'`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -18206,6 +18231,7 @@ const EquipInformation = [
 { //碧大鎌『リーザベルテ』 (Vernonica's Farmable) - JP Complete
         id: 107091,
         name: `碧大鎌『リーザベルテ』`,
+        translate: `'Lizaverde`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -18265,6 +18291,7 @@ const EquipInformation = [
 { //光輝弓『レイヴァチカ』 (Aluze's Farmable) - JP Complete
         id: 107111,
         name: `光輝弓『レイヴァチカ』`,
+        translate: `'Leivachka`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -18324,6 +18351,7 @@ const EquipInformation = [
 { //剛槍斧『ウーリバルト』 (Garlan's Farmable) - JP Complete
         id: 107131,
         name: `剛槍斧『ウーリバルト』`,
+        translate: `'Yulibert'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -19907,6 +19935,7 @@ const EquipInformation = [
 { //絢爛細剣『シンティラ』 (Ashleigh's Farmable) - JP Complete
         id: 107671,
         name: `絢爛細剣『シンティラ』`,
+        translate: `'Scintilla`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -19995,6 +20024,7 @@ const EquipInformation = [
 { //旗槍『バンディエーラ』 (Salyssa's Farmable) - JP Complete
         id: 107701,
         name: `旗槍『バンディエーラ』`,
+        translate: `Bandiera`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -21632,6 +21662,7 @@ const EquipInformation = [
 { //戦闘用絵具『コローリ』 (Raine's Farmable) - JP Complete
         id: 108261,
         name: `戦闘用絵具『コローリ』`,
+        translate: `'Colori'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -21720,6 +21751,7 @@ const EquipInformation = [
 { //創成杖『バストーネ』 (Alulu's Farmable) - JP Complete
         id: 108291,
         name: `創成杖『バストーネ』`,
+        translate: `'Bastone'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -22157,6 +22189,7 @@ const EquipInformation = [
 { //旋氷棍『蒼佳奉撃』 (Tami-Nyan's Farmable) - JP Complete
         id: 108441,
         name: `旋氷棍『蒼佳奉撃』`,
+        translate: `'Azure Offering'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -22859,6 +22892,7 @@ const EquipInformation = [
 { //探求衣『レディメイド』 (Serah's Farmable) - JP Complete
         id: 108711,
         name: `探求衣『レディメイド』`,
+        translate: `'Ready Maid'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -23067,6 +23101,7 @@ const EquipInformation = [
 { //闘弦器『ワンダホー』 (Rits' Farmable) - JP Complete
         id: 108781,
         name: `闘弦器『ワンダホー』`,
+        translate: `'Wonderful'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -23801,6 +23836,7 @@ const EquipInformation = [
 { //煌翔織『ゴールドラッシュ』 (Sharon's Farmable) - JP Complete
         id: 109031,
         name: `煌翔織『ゴールドラッシュ』`,
+        translate: `'Gold Rush'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -24880,6 +24916,7 @@ const EquipInformation = [
 { //ギミー・アリア (Elizabeth's Farmable) - JP Complete
         id: 109401,
         name: `ギミー・アリア`,
+        translate: `'Selfish Aria'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -25346,9 +25383,10 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //Jack-O-Sherum's Cape EV (JP) - JP Complete
+{ //極『カボシェルムのマント』(Jack-o-sherum cape EV) - JP Complete
         id: 109561,
-        name: `Jack-O-Sherum's Cape EV`,
+        name: `極『カボシェルムのマント』`,
+        translate: `Jack-O-Sherum's Cape EV`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -26459,9 +26497,10 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //Ghost Shield 'Tenebrae Lux' EV - Complete (JP)
+{ //極『テネブルキア』 (Ghost Shield 'Tenebrae Lux' EV) - Complete (JP)
         id: 109961,
-        name: `Ghost Shield 'Tenebrae Lux' EV`,
+        name: `極『テネブルキア』`,
+        translate: `Ghost Shield 'Tenebrae Lux' EV`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -26785,6 +26824,7 @@ const EquipInformation = [
     { //超『ガラムルード』 (FOrvell Ultra Equip) - JP Complete
         id: 110070,
         name: `超『ガラムルード』`,
+        translate: `'Ultra Equip 'Gramrude'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -26814,6 +26854,7 @@ const EquipInformation = [
     { //超『アイゼンシュテルン』 (LCest Ultra Equip) - JP Complete
         id: 110080,
         name: `超『アイゼンシュテルン』`,
+        translate: `Ultra Equip 'Iron Star'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -26843,6 +26884,7 @@ const EquipInformation = [
 { //真『ガラムルード』 (FOrvell TW) - JP Complete
         id: 110091,
         name: `真『ガラムルード』`,
+        translate: `True 'Gramrude'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -26873,6 +26915,7 @@ const EquipInformation = [
 { //魔剣『ガラムルード』 (FOrvell Farmable) - JP Complete
         id: 110101,
         name: `魔剣『ガラムルード』`,
+        translate: `'Gramrude'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -26931,6 +26974,7 @@ const EquipInformation = [
 { //真『アイゼンシュテルン』 (LCestina TW) - JP Complete
         id: 110121,
         name: `真『アイゼンシュテルン』`,
+        translate: `True 'Iron Star'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -26961,6 +27005,7 @@ const EquipInformation = [
 { //聖槍『アイゼンシュテルン』 (LCestina Secret Equip) - JP Complete
         id: 110131,
         name: `聖槍『アイゼンシュテルン』`,
+        translate: `'Iron Star'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -27019,6 +27064,7 @@ const EquipInformation = [
 { //真『椋鳥』 (Mizu12 TW) - JP Complete
         id: 110151,
         name: `真『椋鳥』`,
+        translate: `True 'Starling'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -27049,6 +27095,7 @@ const EquipInformation = [
 { //真『冥府ノ喉』 (WarGinzo TW) - JP Complete
         id: 110161,
         name: `真『冥府ノ喉』`,
+        translate: `True 'Throat of the Underworld'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -27079,6 +27126,7 @@ const EquipInformation = [
 { //共鳴閃『椋鳥』 (Mizu12 Farmable) - JP Complete
         id: 110171,
         name: `共鳴閃『椋鳥』`,
+        translate: `'Starling'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -27137,6 +27185,7 @@ const EquipInformation = [
 { //腐刀『冥府ノ喉』 (WarGinzo Farmable) - JP Complete
         id: 110191,
         name: `腐刀『冥府ノ喉』`,
+        translate: `'Throat of the Underworld'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -27224,6 +27273,7 @@ const EquipInformation = [
 { //真『天地雷鳴甲』 (LThetis TW) - JP Complete
         id: 110221,
         name: `真『天地雷鳴甲』`,
+        translate: `True 'Heaven's Thunder Armor'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -27254,6 +27304,7 @@ const EquipInformation = [
 { //真『ノーブルブラッド』 (DRivi TW) - JP Complete
         id: 110231,
         name: `真『ノーブルブラッド』`,
+        translate: `True 'Noble Blood'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -27284,6 +27335,7 @@ const EquipInformation = [
 { //天地雷鳴甲 (LThetis Farmable) - JP Complete
         id: 110241,
         name: `天地雷鳴甲`,
+        translate: `'Heaven's Thunder Armor'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -27342,6 +27394,7 @@ const EquipInformation = [
 { //ノーブルブラッド (DRivi Secret Equip) - JP Complete
         id: 110261,
         name: `ノーブルブラッド`,
+        translate: `'Noble Blood'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -27400,6 +27453,7 @@ const EquipInformation = [
 { //真『百花』 (Sakuya TW) - JP Complete
         id: 110281,
         name: `真『百花』`,
+        translate: `True 'Hyakka'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -27430,6 +27484,7 @@ const EquipInformation = [
 { //繚乱刃『百花』 (Sakuya Farmable) - JP Complete
         id: 110291,
         name: `繚乱刃『百花』`,
+        translate: `'Hyakka'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -27896,6 +27951,7 @@ const EquipInformation = [
 { //真『シューティングスター』 (Valerie TW) - JP Complete
         id: 110451,
         name: `真『シューティングスター』`,
+        translate: `True 'Shooting Star'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -27926,6 +27982,7 @@ const EquipInformation = [
 { //シューティングスター (Valerie Farmable) - JP Complete
         id: 110461,
         name: `シューティングスター`,
+        translate: `'Shooting Star'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -28217,6 +28274,7 @@ const EquipInformation = [
 { //Soaring Z (ライジングZ) - JP Complete
         id: 110561,
         name: `ライジングZ`,
+        translate: `'Soaring Z'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -28333,6 +28391,7 @@ const EquipInformation = [
 { //真『ユーサネイジア』 (WGFen TW) - JP Complete
         id: 110601,
         name: `真『ユーサネイジア』`,
+        translate: `True 'Euthanasia'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -28392,6 +28451,7 @@ const EquipInformation = [
 { //真『迦楼羅 (Kirisame TW) - JP Complete
         id: 110621,
         name: `真『迦楼羅』`,
+        translate: `True 'Karura'`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -28422,6 +28482,7 @@ const EquipInformation = [
 { //明王刀『迦楼羅』 (Kirisame Farmable) - JP Complete
         id: 110631,
         name: `明王刀『迦楼羅』`,
+        translate: `'Karura'`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -28480,6 +28541,7 @@ const EquipInformation = [
 { //真『天涙切』 (Hakurou TW) - JP Complete
         id: 110651,
         name: `真『天涙切』`,
+        translate: `True 'Celestial Tears'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -28597,6 +28659,7 @@ const EquipInformation = [
 { //臥竜戟『天涙切』 (Hakurou Farmable) - JP Complete
         id: 110691,
         name: `臥竜戟『天涙切』`,
+        translate: `'Celestial Tears'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -28800,6 +28863,7 @@ const EquipInformation = [
 { //真『炎紋斬決』 (SDBerwick TW) - JP Complete
         id: 110761,
         name: `真『炎紋斬決』`,
+        translate: `True 'Flame Crest Zanketsu'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -28829,6 +28893,7 @@ const EquipInformation = [
 { //炎紋斬決 (SDBerwick Farmable) - JP Complete
         id: 110771,
         name: `炎紋斬決`,
+        translate: `'Flame Crest Zanketsu'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -28916,6 +28981,7 @@ const EquipInformation = [
 { //真『受雷』 (Hazuki TW) - JP Complete
         id: 110801,
         name: `真『受雷』`,
+        translate: `True 'Lightning Strike'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -28946,6 +29012,7 @@ const EquipInformation = [
 { //鎖条切『受雷』 (Hazuki Farmable) - JP Complete
         id: 110811,
         name: `鎖条切『受雷』`,
+        translate: `'Lightning Strike'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -29062,6 +29129,7 @@ const EquipInformation = [
 { //真『メルクリウス』 (SGLiza TW)  - JP Complete
         id: 110851,
         name: `真『メルクリウス』`,
+        translate: `True 'Mercury'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -29092,6 +29160,7 @@ const EquipInformation = [
 { //聖杖『メルクリウス』 (SGLiza Farmable) - JP Complete
         id: 110861,
         name: `聖杖『メルクリウス』`,
+        translate: `'Mercury'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -29556,6 +29625,7 @@ const EquipInformation = [
 { //真『八岐』 (Long's TW) - JP Complete
         id: 111041,
         name: `真『八岐』`,
+        translate: `True 'Yamata'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -29586,6 +29656,7 @@ const EquipInformation = [
 { //死突爪『八岐』 (Long's Farmable) - JP Complete
         id: 111051,
         name: `死突爪『八岐』`,
+        translate: `'Yamata'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -29992,6 +30063,7 @@ const EquipInformation = [
     { //真『ブレイズバーミント』 (BFMira TW) - JP Complete
         id: 111191,
         name: `真『ブレイズバーミント』`,
+        translate: `True 'Blaze Bamint'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -30022,6 +30094,7 @@ const EquipInformation = [
     { //烈煌剣『ブレイズバーミント』 (BFMira Farmable) - JP Complete
         id: 111201,
         name: `烈煌剣『ブレイズバーミント』`,
+        translate: `'Blaze Bamint'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -30080,6 +30153,7 @@ const EquipInformation = [
     { //真『ハピネストリガー』 (Aristela Orbis TW) - JP Complete
         id: 111231,
         name: `真『ハピネストリガー』`,
+        translate: `True 'Happiness Trigger'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -30110,6 +30184,7 @@ const EquipInformation = [
 { //極楽針 『ハピネストリガー』 (Aristela Orbis Farmable) - JP Complete
         id: 111241,
         name: `極楽針 『ハピネストリガー』`,
+        translate: `'Happiness Trigger`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -30252,7 +30327,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //冥界書『プルトリクス』 アレンジ - JP Complete
+{ //冥界書『プルトリクス』 アレンジ (Dark SR Equip) - JP Complete
         id: 111291,
         name: `冥界書『プルトリクス』 アレンジ`,
         type: `/db/Mines/thumbnail/suppLB.png`,
