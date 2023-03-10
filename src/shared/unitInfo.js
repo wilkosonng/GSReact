@@ -23641,7 +23641,7 @@ const UnitInformation = [
                 evoawk: "Younger Toguro rejoices after finally meeting an opponent who can give him a challenge and lets loose his full potential. Most people would die instantly from being hit by Toguro's monstrous levels of Demonic Energy, and any who do manage to escape would then be crushed by his overwhelmingly powerful fists. For someone like Toguro, whose strength goes beyond human understanding, it was very rare to meet an opponent who could actually be a threat to him, so when he finally did, he was filled with joy at the opportunity to give it his all."
             }
     },
-    { //Emilia - Complete (+ JP version)
+    { //Emilia - Complete (+ JP version), Review done
         id: 107346212,
         name: "Emilia",
         luckrank: "SS",
@@ -23729,9 +23729,28 @@ const UnitInformation = [
             {   
                 evo5: "A half-elf girl with silver hair and pupils glimmering of purple and bluish-purple. She travels alongside her Spirit Puck who she treats as family. In the Imperial Capital she met Subaru Natsuki, with whom a fate of both laughter and pain was born.",
                 evoawk: "She is a skilled Spiritual Arts User and has a contract with Puck. She has a tendency to put others before herself. She is also kind and good-natured, taking care of others without reserve, while not making them feel indebted to her."
+            },
+        review:
+            {
+                skill: `Self sufficient artsgen which is appreciated. However, it’s reliant on freezing which makes it less reliable.`,
+                arts: `Flat artsgen on NA, while also being able to provide some sort of survivability with 25% DMG Resistance. However, it does not stack with Sanstone, and such.`,
+                truearts: `With a decent multiplier, and a very high chance to inflict Ultimate Freeze, and a heavy Water resistance down when inflicting ultimate freeze. Emilia is a very potent damage supporting unit unless the boss has high freeze resistance as Ultimate Freeze provides 100% Crit RES down to the enemy as well as 80% water resistance down debuff, if inflicted by ultimate freeze from her True Arts. This pairs well especially for mono water (nuke) teams.`,
+                ability1: `Nothing too bad, but nothing too great. A nice passive that’ll help Emilia to be kept safe with the HP. Although, it’s not really noticeable when running a taunt, or another source of healing in the team.`,
+                ability2: `A huge damage buff, which provides Emilia and her team with more dps which pairs well with her True Art, if inflicting Ultimate Freeze.`,
+                ability3: `A nice Resistance buff, if the boss can inflict Freeze. Although 100% would be appreciated, it is better than nothing.`,
+                ability4: `A nice Resistance buff, if the boss can inflict Seal. Although 100% would be appreciated, it is better than nothing.`,
+                trueweapon: {
+                    skill: `A nice damage buffing equipment with a rather small side buff for water allies. `,
+                    ability1: `A nice little damage buff to Emilia’s Damage output. With the side effect of using her NA to reduce the Enemy’s Freeze Resistance by 30% which pairs well with her True Arts to inflict Ultimate Freeze, if you are able to use her True Art in the duration of 15s after Debuff is applied.`,
+                    ability2: `It's a nice bonus, but nothing too noticeable.`,
+                    ability3: `The rest are all equally useless but definitely avoid the Increase Critical Hit Chance by 15% + Decrease Equip CT REC by 10% as it has a negative effect.`
+                },
+                overall: `Emilia was, before her Buffs, a good support unit capable of providing some instant arts and damage resistance on her NA and a huge debuff on TA, which pairs especially well with other strong Water units dps such as Joker Selia and Summer Juno. With the buffs Emilia received, her role as support unit was improved and makes Water Nuking more consistent on bosses that are freezable.`,
+                lastupdated: `March 3, 2023`,
+                author: `Jeffers`
             }
     },
-    { //Rem (RE:ZERO) - Complete (+ JP version)
+    { //Rem (RE:ZERO) - Complete (+ JP version), Review done
         id: 107356212,
         name: "Rem (RE:ZERO)",
         luckrank: "A",
@@ -23818,9 +23837,26 @@ const UnitInformation = [
             {   
                 evo5: "A girl who hides her right eye behind her short blue hair. She and her older sister Ram serve at the Roswaal Mansion. She can have quite the sharp tongue while being superficially polite. Apparently, she is the one who keeps the Roswaal Mansion running.",
                 evoawk: "A quiet and skillful maid who works at the Roswaal Mansion. Recently, she has been worrying about how her chest has become bigger than her sister's, so she has taken measures to make sure people don't find out."
+            },
+            review:
+            {
+                skill: `An alright skill, the DMG res down is nice but the buff doesn’t have enough uptime to be very useful`,
+                arts: `A fairly lackluster art. Middle-of-the-road uptime along with a middle-of-the-road buff.`,
+                truearts: `This is the keystone of Rem’s kit, and what simultaneously makes her the best and least practical DPS in the whole game. She can accumulate a lot of crit damage and artsgen quickly, but due to the hp consumption she becomes increasingly squishy until she becomes one tap.`,
+                ability1: `Great  for self sufficiency and getting rid of the need for a crit buffer to take advantage of her damage increase. But being HP locked means she will almost require a taunt to keep it up in longer missions.`,
+                ability2: `Nice if you’re fighting beasts, but for the most part will not help much.`,
+                ability3: `Almost negligible compared to the arts from the rest of your team as well as her TA, and after a few TAs, she won’t be able to get near death without dying.`,
+                trueweapon: {
+                    skill: `The arts is nice, allowing for a faster startup, but the buff is merely alright.`,
+                    ability1: `Very good for Rem, it will help keep her crit rate buff active and provides a nice little buff to said crit.`,
+                    ability2: `small buff, but appreciated as a passive nonetheless`
+                },
+                overall: `Despite being the best damage dealer in the game, Rem doesn’t see much use because of her max hp consumption that comes with her damage buffs. She’s a very finicky unit to work with, and wants units like Hart and X taunt tank to keep her alive long enough to do her job. Despite this, with the buffs, she can do a lot of damage with her numerous stacking CRI DMG and Arts gauge buffs as long as adequate support (Heals, shields, etc.) is provided.`,
+                lastupdated: `March 3, 2023`,
+                author: `Jeffers`
             }
     },
-    { //Ram - Complete (+ JP version)
+    { //Ram - Complete (+ JP version), review done
         id: 107366312,
         name: "Ram",
         rank: "B+",
@@ -23908,9 +23944,27 @@ const UnitInformation = [
             {   
                 evo5: "A girl who hides her right eye behind her short pink hair. She and her younger sister Rem serve at the Roswaal Mansion. She has a sharp tongue and is very rude. She lets her sister do all the work.",
                 evoawk: "A carefree maid working at the Roswaal Mansion. Her specialty is steamed yams. Her little sister Rem helps her in almost every aspect of her private life, including waking her up and taking care of her hair and nails."
+            },
+        review:
+            {
+                skill: `It isn't noticeable in reducing the enemies' damage.`,
+                arts: `This is most effective on earth teams when going up against a water + freezing boss, or when the taunt tank has an elemental advantage against the boss to give them further damage resistance.`,
+                truearts: `When her normal art isn't of much use to the stage, you will mainly be using her true art for a huge barrier, which is good for mitigating damage if the stage limits other options (i.e taunt tanks, Sanstone). Adding in her arts gauge passive based on luck, as well as her defense slot, she can quickly and easily protect your team when farming fairly hard-hitting stages. A DEF Up crest, units such as Asirpa and Hart who can increase her DEF stat, and other defense boosts will greatly increase the amount of damage the barrier can soak up.`,
+                ability1: `When maxed, she will start off with 120 arts gauge just from her passive. This is valuable for mitigating damage as soon as possible.`,
+                ability2: `A mere 10% isn't really going to help her against evasive bosses.`,
+                ability3: `Even more so than the accuracy passive, this really won’t have a noticeable effect.`,
+                trueweapon: {
+                    skill: `The accuracy boost is whatever, but the increase in DEF will be nice for her barrier.`,
+                    ability1: `Good boost to her barrier size as a result of the DEF increase, and the 30 arts gauge refund allows for easier renewals for her barrier (more so than when using normal arts gauge items).`,
+                    ability2: `It's a negligible amount, and Ram's whole kit revolves around the team, so not much use anyway if it only affects her.`,
+                    ability3: `Get the passive that further increases her DEF stat.`
+                },
+                overall: `To make the most use out of her kit, Ram requires coordination of units that can synergize with her abilities, whether that's mono-earth against water, an appropriate taunt tank with elemental advantage against the boss, or units like Asirpa and Hart to increase her DEF stat. But in general, she does a quick, easy, and satisfactory job in mitigating damage by herself for most quests. For significantly strong enemies, you'll probably need more than just her to keep your team alive.`,
+                lastupdated: `March 3, 2023`,
+                author: `PrayingPatrick`
             }
     },
-    { //Beatrice - Complete (+ JP version)
+    { //Beatrice - Complete (+ JP version), Review done
         id: 107376512,
         name: "Beatrice",
         luckrank: "S",
@@ -23998,6 +24052,30 @@ const UnitInformation = [
             {   
                 evo5: "The caretaker of the Roswaal Mansion's Forbidden Library. Her milky white hair is tied up in twin drills. She seems to always be in a bad mood. She looks like a fairy when she walks, her fancy dress trailing behind her.",
                 evoawk: "She calls herself Betty and is the librarian at the Forbidden Library. She lives on her own in a room as the Roswaal Mansion that was hidden with Door Crossing. She is arrogant and does not get along well with others. While she often finds herself at odds with Subaru Natsuki, who happened to break her Door Crossing, they actually get along fairly well."
+            },
+            review:
+            {
+                skill: `A nice Skill with a fixed % Heal and Arts up improving Beatrice’s survivability and slightly boost her self sufficiency, additionally this skill comes with a few Iframes in case you need to survive an ending nuke.`,
+                arts: `Despite the decent uptime and sizeable debuff, status res down is a weak effect outside of specific content which requires status effects to be damaged.`,
+                truearts: `With a decent multiplier and the ability to inflict strong debuffs her TA is the best part of her kit. However, there are very few units who can even make full use of these debuffs, with only Juno, Nui, and Dark Hart being decent options to pair up with her.`,
+                ability1: `While this sounds good on paper, it's unrealistic that you'll have more than 2 status effects on the enemy at a time. With most teams only having 1 due to not running anyone else who inflicts status effects.`,
+                ability2: `Due to how little content inflicts status effects constantly, this passive will almost always be active. In the rare case that the boss does inflict status effect Beatrice has a 4 heal slot for force keratos to deal with it.`,
+                ability3: `While this should help Beatrice due to her healing and Iframes on skill, the buff is far too weak to make any real difference.`,
+                ability4: `Appreciated when needed.`,
+                trueweapon: {
+                    skill: `While it does get slightly outclassed by other farmable equips, this is by no means a horrible equip for new players.`,
+                    ability1: `I mean...not that strong of an effect but it's far from worthless. It helps slightly increase Beatrice's overall dmg.`,
+                    ability2: `A small additional boost to survival against Light Enemies.`,
+                    ability3: `While all the abilities are lackluster, strive for these passives:
+
+                    [1] - Increase MAG DMG by 10% and Decrease DMG RES by 10%.
+                    [2] - Increase BREAK PWR by 5% + Increase Dark DMG by 5%.
+                    [3] - Increase ATK by 5%. 
+                    (Attempt in that order)`
+                },
+                overall: `Beatrice is the perfect example of a good support unit who lacks the units to support. Since she released two years ago the only Dark Magic units who've released are Nui and Dark Hart, of which the latter doesn't work well with her since Dark Hart would override half off Beatrice's buffs with his own. While she might be able to find her place in the meta at some point in the future, for now she'll only be seen as a luck unit for new players and in a rare dark magic nuke team.`,
+                lastupdated: `March 3, 2023`,
+                author: `Zanster`
             }
     },
     { //Santa Rimuru - Complete (+ JP version)
