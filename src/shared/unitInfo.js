@@ -19255,7 +19255,7 @@ const UnitInformation = [
                 evoawk: "A mysterious conjurer who appeared all over Raktehelm with winter's approach. Regardless of her mass popularity, no one ever learned her true origins since she answered every question with a lie. However, her revision of the Grimm Stella works which position her as the central focus contains some measure of truth. She also wrote many poetry collections about winter and practiced lithomancy."
             }
     },
-    { //Rosetta (Earth) - Complete
+    { //Rosetta (Earth) - Complete, Review Done
         id: 103446312,
         name: "Rosetta (Earth)",
         rank: "A+",
@@ -19337,6 +19337,27 @@ const UnitInformation = [
             {   
                 evo5: "A magician and recorded member of Granadia's Templars in the era of the Ancient War. She returned to present Raktehelm after Emperor Isliid broke the Great Seal. Although bewildered by how much the world had changed in her absence, she was no less determined to reunite with Princess Leone. Intuition also told her to seek out the World Drops for she would meet her scattered comrades along the journey.",
                 evoawk: "As a result of the irregular flow of time behind the Great Seal, only a few decades have passed since Princess Leone's departure from her perspective. She has lived for the sake of reviving her dear friend and sees the return to Raktehelm as another step towards the goal. However, what she truly desires could be just a return to those complex yet enjoyable days under her leadership."
+            },
+        review:
+            {
+                skill: `A decent chunk of self-sufficienty is always welcome.`,
+                arts: `The TL;DR is use her Normal Aarts twice during Magia Drive to go into Magia Unlimited. Good for longer fights and during Magia Unlimited you'll want to throw in a Normal Arts to really pump up her damage.`,
+                truearts: `During Magia Drive, Rosetta gives a rare and coveted Equip CT REC buff at a whopping 50% and a sizeable MAG DMG buff. If she's in Magia Unlimited, she'll do more damage on top of that.`,
+                ability1: `Another hefty buff to Rosetta's damage just by simply being in Magia Drive.`,
+                ability2: `A bit of work needed to get into Magia Unlimited to access this passive but doubling her damage means she'll be doing quite a bit offensively. The increase damage to water enemies isn't reliable but when it is relevant she'll be even more effective at her damage dealing role.`,
+                ability3: `Another unit to help get around pesky evasion fights but won't stack with the likes of Vox.`,
+                trueweapon: {
+                    skill: `A pretty hefty active on a moderate CT for Earth/Magic sustain strategies and even great for Earth/Magic nuking strategies, though the latter isn't widely used. Rosetta herself will enjoy this, though not necessarily just for the active.`,
+                    ability1: `An unconditional passive 40% damage buff to Rosetta is pretty good and increasing her arts when she enters Magia Drive is decent. A pretty good True Weapon on Rosetta with all things considered.`,
+                    ability2: `And of course to top it all off: the obligatory useless generic passive.`
+                },
+                overall: `Foliage Carver Rosetta looks amazing on paper - great buffs and debuffs while doing a ton of damage but she suffers from a few issues. She needs a lot of outside support to ramp her up to her full damage potential. Not to mention, getting to Magia Unlimited will take a bit of time due to animations and needing lots of arts.
+
+                The other problem is that magic support units aren't as coveted as other types of supports as Grand Summoner's meta still favors physical damage. Even when magic comps are good, you'd likely prefer other units in her stead.
+                
+                That isn't to say she's bad! She's one of the few units who can give a sizeable Equip CT buff, so if you're missing Liza, Rosetta might allow you to clear content that you hadn't before. Even without doing her complicated Magia Unlimited, she is still a very competent support unit with just True Arts spam.`,
+                lastupdated: `February 16, 2023`,
+                author: `JC`
             }
     },
     { // Orvell (Fire) - Missing Lore
