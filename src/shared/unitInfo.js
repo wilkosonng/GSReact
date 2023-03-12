@@ -23768,7 +23768,7 @@ const UnitInformation = [
                 },
                 overall: `Emilia was, before her Buffs, a good support unit capable of providing some instant arts and damage resistance on her NA and a huge debuff on TA, which pairs especially well with other strong Water units dps such as Joker Selia and Summer Juno. With the buffs Emilia received, her role as support unit was improved and makes Water Nuking more consistent on bosses that are freezable.`,
                 lastupdated: `March 3, 2023`,
-                author: `Jeffers`
+                author: `Alice`
             }
     },
     { //Rem (RE:ZERO) - Complete (+ JP version), Review done
@@ -23874,7 +23874,7 @@ const UnitInformation = [
                 },
                 overall: `Despite being the best damage dealer in the game, Rem doesn’t see much use because of her max hp consumption that comes with her damage buffs. She’s a very finicky unit to work with, and wants units like Hart and X taunt tank to keep her alive long enough to do her job. Despite this, with the buffs, she can do a lot of damage with her numerous stacking CRI DMG and Arts gauge buffs as long as adequate support (Heals, shields, etc.) is provided.`,
                 lastupdated: `March 3, 2023`,
-                author: `Jeffers`
+                author: `Pula`
             }
     },
     { //Ram - Complete (+ JP version), review done

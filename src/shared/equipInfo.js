@@ -26821,10 +26821,10 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //超『ガラムルード』 (FOrvell Ultra Equip) - JP Complete
+    { //超『ガラムルード』 (FOrvell Ultra Equip) - Missing Lore
         id: 110070,
         name: `超『ガラムルード』`,
-        translate: `'Ultra Equip 'Gramrude'`,
+        translate: `'Ultra Equip 'Gramlude'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -26849,9 +26849,9 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //超『アイゼンシュテルン』 (LCest Ultra Equip) - JP Complete
+    { //超『アイゼンシュテルン』 (LCest Ultra Equip) - Missing Lore.
         id: 110080,
         name: `超『アイゼンシュテルン』`,
         translate: `Ultra Equip 'Iron Star'`,
@@ -26879,12 +26879,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //真『ガラムルード』 (FOrvell TW) - JP Complete
+{ //True 'Gramlude' - JP Complete
         id: 110091,
-        name: `真『ガラムルード』`,
-        translate: `True 'Gramrude'`,
+        name: `True 'Gramlude'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -26910,12 +26909,11 @@ const EquipInformation = [
                 ability1: `When equipped by Orvell (Fire), increase own DMG and Status Ailment resistance by 20% (Only once).`,
                 ability2: `Physical resistance 10% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //魔剣『ガラムルード』 (FOrvell Farmable) - JP Complete
+{ //Demon Blade 'Gramlude' - Missing Lore
         id: 110101,
-        name: `魔剣『ガラムルード』`,
-        translate: `'Gramrude'`,
+        name: `Demon Blade 'Gramlude'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -26940,11 +26938,12 @@ const EquipInformation = [
             {
                 ability1: `DMG 10% UP when enemy is in Break.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //イーデルパンツァー (FOrvell Farmable) - JP Complete
+{ //Edel Rüstung - Missing Lore
         id: 110111,
-        name: `イーデルパンツァー`,
+        name: `Edel Rüstung`,
+        translate: `Edel Rustung`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -26969,9 +26968,9 @@ const EquipInformation = [
             {
                 ability1: `ATK 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //真『アイゼンシュテルン』 (LCestina TW) - JP Complete
+{ //真『アイゼンシュテルン』 (LCestina TW) - Missing Lore.
         id: 110121,
         name: `真『アイゼンシュテルン』`,
         translate: `True 'Iron Star'`,
@@ -27000,9 +26999,9 @@ const EquipInformation = [
                 ability1: `When equipped by Cestina (Light), increase own ATK by 50% and Arts gauge by 1/s (Only once).`,
                 ability2: `Heal Amount 20% UP (Except Lifesteal).`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //聖槍『アイゼンシュテルン』 (LCestina Secret Equip) - JP Complete
+{ //聖槍『アイゼンシュテルン』 (LCestina Secret Equip) - Missing Lore
         id: 110131,
         name: `聖槍『アイゼンシュテルン』`,
         translate: `'Iron Star'`,
@@ -27030,9 +27029,9 @@ const EquipInformation = [
             {
                 ability1: `Blind Time Reduction & Blind Evasion rate 30% UP`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //アインツティアラ (LCestina Secret Equip) - JP Complete
+{ //アインツティアラ (LCestina Secret Equip) - Missing Lore.
         id: 110141,
         name: `アインツティアラ`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -27059,7 +27058,7 @@ const EquipInformation = [
             {
                 ability1: `Increase all allies' Accuracy rate by 20%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //真『椋鳥』 (Mizu12 TW) - JP Complete
         id: 110151,
