@@ -18214,7 +18214,7 @@ const UnitInformation = [
                 evoawk: "After moving to a small town in the empire at a young age, he met the previous Ranger captain's daughter, Miranda. They eventually became married, and anyone who saw them shopping in the quare on weekends would think of them as a loving couple. Yet as he pointed his gun at her from the edge of town, his gaze was filled with dark intent."
             }
     },
-    { //Vultee (Earth) - Missing Lore (GLB)
+    { //Vultee (Earth) - Missing Lore (GLB), Review done
         id: 103316312,
         name: "Vultee (Earth)",
         rank: "S",
@@ -18295,6 +18295,24 @@ const UnitInformation = [
             {   
                 evo5: "Missing Lore.",
                 evoawk: "Carrying a turret in one hand, he has become an agent of pure destruction. His aggression runs counter to claims that he only harms his targets. Anyone who knows of his past might interpret that as him purposefully keeping others out of harm's way, but it is impossible to know for sure."
+            },
+        review:
+            {
+                skill: `A sizable amount of self arts when not in status.`,
+                arts: `While the attack buff is decent, it won't get much use because it has a low uptime and Vultee isn't a DPS. The 50% arts refund would allow you to spam Arts more, however there's still no reason to use it over his True Arts and Phantom Bullet, as it will lower your available Phantom Bullet count.`,
+                truearts: `While a general damage buff would be preferred over an element locked one, this still helps Vultee synergize with other great earth units like Fitoria or Cestina. The sturdy barrier also ties him with some of the top tanks for the highest total negation per TA/PB, allowing him to soak up more damage than other tanks like Gerald or Naofumi.`,
+                phantombullet: `A chonky shield paired with the other sources of DMG resistance on his kit means Vultee can soak up a lot of damage from bosses, and even more from physical bosses. While he can only be used at max potential for 6 Phantom Bullets, ideally most missions won't last through all of them, and he is still very tanky regardless.`,
+                ability1: `While it is a decent buff in terms of percentage, the ATK buff doesn't do much for him when he isn't ramped, which as mentioned before, there's no reason to do. The DMG resistance however provides an added layer of security in the event his health starts getting low, and if he has proper gear and PB activated it can help him hit 100% passive Physical DMG resistance.`,
+                ability2: `Nothing too special, and completely useless if the boss can crit.`,
+                ability3: `More passive DMG resistance. when paired with the rest of his kit, he can hit 60% Physical DMG resistance without the help of other units or equips.`,
+                trueweapon: {
+                    skill: `While it isn't amazing, 25% uptime is still pretty decent, especially paired with a sizable Physical resistance debuff when on an earth unit.`,
+                    ability1: `Passive flinch resistance which will for the most part protect Vultee from being interrupted before he can taunt, as well as a nice extra bit of passive DMG resistance.`,
+                    ability2: `A nice little bonus, but won't be too noticeable overall.`
+                },
+                overall: `Having the ability to reach high and even 100% Physical DMG resistance with the right gear makes Vultee-Lr one of the best if not the best taunt tanks for physical damage, and even with other types he preforms exceptionally well alongside the other top tanks like Miranda or Thetis. While it would ideally be a general buff, his stacking teamwide Earth Damage buff works well when he is in a team with damage dealing Earth units like Fitoria, Deadmaster, or Rudeus. And although it would be nice if he had two defense slots, the physical slot allows him to hold artsgen equipment to make him more self sufficient, and the heal slot allows him to hold a blessed necklace for a self revive on missions that have a big nuke. Even as a general tank without PB, he still does his job well, and will be a great addition to your box regardless of whether you're a vet or a newbie.`,
+                lastupdated: `December 15, 2022`,
+                author: `Pula`
             }
     },
     { //Priscilla (Fire) - Complete
