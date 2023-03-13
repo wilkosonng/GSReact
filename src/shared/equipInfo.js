@@ -26851,10 +26851,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //超『アイゼンシュテルン』 (LCest Ultra Equip) - Missing Lore.
+    { //Super 'Eisenstern' (LCest Ultra Equip) - Missing Lore.
         id: 110080,
-        name: `超『アイゼンシュテルン』`,
-        translate: `Ultra Equip 'Iron Star'`,
+        name: `Super 'Eisenstern'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -26881,7 +26880,7 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //True 'Gramlude' - JP Complete
+{ //True 'Gramlude' - Missing Lore
         id: 110091,
         name: `True 'Gramlude'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -26970,10 +26969,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //真『アイゼンシュテルン』 (LCestina TW) - Missing Lore.
+{ //True 'Eisenstern' - Missing Lore.
         id: 110121,
-        name: `真『アイゼンシュテルン』`,
-        translate: `True 'Iron Star'`,
+        name: `True ''Eisenstern'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -27004,7 +27002,7 @@ const EquipInformation = [
 { //聖槍『アイゼンシュテルン』 (LCestina Secret Equip) - Missing Lore
         id: 110131,
         name: `聖槍『アイゼンシュテルン』`,
-        translate: `'Iron Star'`,
+        translate: `'Eisenstern'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -27034,6 +27032,7 @@ const EquipInformation = [
 { //アインツティアラ (LCestina Secret Equip) - Missing Lore.
         id: 110141,
         name: `アインツティアラ`,
+        translate: `Iron Tiara`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 

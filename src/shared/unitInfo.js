@@ -19360,7 +19360,7 @@ const UnitInformation = [
                 author: `JC`
             }
     },
-    { // Orvell (Fire) - Missing Lore
+    { // Orvell (Fire) - Missing Lore (GL)
         id: 103456112,
         name: "Orvell (Fire)",
         attribute: "Fire",
@@ -19396,12 +19396,12 @@ const UnitInformation = [
                 skillbreak: 800,
                 arts: "18000% Fire DMG (MAG). For 20s, increase Allies' Equipment DMG by 50%, and Fire Allies' Equipment DMG by an additional 50%.",
                 artsbreak: 1200,
-                truearts: "62000% Fire DMG (MAG). For 20s, replace the equipment in his :lbmag: slot with Ultra Equip \"Gramrude\". Additionally, increase Allies' MAG DMG by 100%, and own ATK by 100%.",
+                truearts: "62000% Fire DMG (MAG). For 20s, replace the equipment in his :lbmag: slot with Ultra Equip \"Gramlude\". Additionally, increase Allies' MAG DMG by 100%, and own ATK by 100%.",
                 trueartsbreak: 1800,
                 ultra: "2s CT - 5000% Fire DMG (MAG). For 15s, increase own Critical DMG by 30% (stackable).",
                 ultrabreak: 500,
                 ultratype: "/db/Mines/thumbnail/magLB.png",
-                ultraname: "Gramrude"
+                ultraname: "Gramlude"
             },
         passive: 
             {
@@ -19427,24 +19427,24 @@ const UnitInformation = [
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: "Gramrude",
+                name: "Gramlude",
                 slot: "/db/Mines/thumbnail/magLB.png",
                 detail: "/db/Equipment/Detail/item_detail_110091.png",
                 skill: "65s CT - 12000% Fire DMG (MAG). For 15s, increase own MAG DMG by 50% and reduce Enemies' Fire RES by 30%.",
                 skillbreak: 1000,
                 passive: 
                     {
-                        ability1: "When equipped by Fire Orvell, increase own DMG and All Status by 20%. Does not stack with Abilities of the same name.",
+                        ability1: "When equipped by Orvell (Fire), increase own DMG and All Status by 20%. Does not stack with Abilities of the same name.",
                         ability2: "Increase Physical RES by 10%."
                     }
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "Missing Lore.",
+                evoawk: "Missing Lore."
             }
     },
-    { // Cestina (Light) - Missing Lore
+    { // Cestina (Light) - Missing Lore (GL)
         id: 103466412,
         name: "Cestina (Light)",
         attribute: "Light",
@@ -19480,12 +19480,12 @@ const UnitInformation = [
                 skillbreak: 600,
                 arts: "15000% Light DMG (PHY). For 15s, increase Allies' PHY DMG by 50% and God Allies' Accuracy by 30%.",
                 artsbreak: 800,
-                truearts: "45000% Light DMG (PHY). For 15s, replace the equipment in her physical slot with Ultra Equip \"Iron Star\". Additionally, for 15s, reduce Enemies' Light RES and Physical RES by 35%.",
+                truearts: "45000% Light DMG (PHY). For 15s, replace the equipment in her physical slot with Ultra Equip \"Eisenstern\". Additionally, for 15s, reduce Enemies' Light RES and Physical RES by 35%.",
                 trueartsbreak: 1500,
                 ultra: "2s CT - 3000% Light DMG (PHY). Heal Allies' HP by 1000. For 12s, reduce Enemies' PHY RES by 5% (stackable). ",
                 ultrabreak: 300,
                 ultratype: "/db/Mines/thumbnail/physLB.png",
-                ultraname: "Iron Star"
+                ultraname: "Eisenstern"
             },
         passive: 
             {
@@ -19511,21 +19511,21 @@ const UnitInformation = [
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: "Iron Star",
+                name: "Eisenstern",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "/db/Equipment/Detail/item_detail_110121.png",
                 skill: "60s CT - 11000% Light DMG (PHY). For 20s, increase own DMG and Equipment DMG by 40%.",
                 skillbreak: 900,
                 passive: 
                     {
-                        ability1: "When equipped by Light Cestina, increase own ATK by 50% and Arts by 1/s. Does not stack with Abilities of the same name.",
+                        ability1: "When equipped by Cestina (Light), increase own ATK by 50% and Arts by 1/s. Does not stack with Abilities of the same name.",
                         ability2: "Increase own Healing Output by 20% (except Lifesteal)."
                     }
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "Missing Lore.",
+                evoawk: "Missing Lore."
             }
     },
     { // Charlotte - Complete
