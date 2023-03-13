@@ -22097,7 +22097,7 @@ const UnitInformation = [
                 evoawk: "A swordsman of the old shogunate army searching for the Ainu Gold. Despite being over 70 years old, his sword skills remain as sharp as in his youth. With a violent and thorny personality, he was nicknamed Baragaki as a child, after the Japanese word for thorns."
             }
     },
-    { //Rimuru (Slime form) - Complete
+    { //Rimuru (Slime form) - Complete, Review done
         id: 107146212,
         name: "Rimuru (Slime form)",
         luckrank: "F",
@@ -22159,9 +22159,26 @@ const UnitInformation = [
             {   
                 evo5: "A slime that was reincarnated to a different world. Originally, he was a human named Satoru Mikami. He gained unique skills 'Great Sage' and 'Predator' when he was reincarnated and has powers that a normal slime could never have. He became an equal existence with Veldora, one of the strongest 'Storm Dragons' by giving each other a name.",
                 evoawk: "One who was reincarnated to a different world. By using his unique skills 'Great Sage' and 'Predator,' he gains various monsters' skills. Unexpectedly, he becomes the ruler of a Goblin village. Soon, he meets Shizue Izawa who comes from the same world and carries her fate."
+            },
+        review:
+            {
+                skill: ``,
+                arts: ``,
+                truearts: ``,
+                ability1: ``,
+                ability2: ``,
+                ability3: ``,
+                trueweapon: {
+                    skill: ``,
+                    ability1: ``,
+                    ability2: ``
+                },
+                overall: `Nothing for Slimuru has changed, he's still just a mediocre unit with very niche usage. Not to mention that his "utility" as being the only luck unit in the Slime collab no longer exists, there's little to no reason to increase his luck outside of collection sake.`,
+                lastupdated: `January 12, 2023`,
+                author: `Zanster`
             }
     },
-    { //Rimuru (Human form) - Complete (+ JP version)
+    { //Rimuru (Human form) - Complete (+ JP version), Review done
         id: 107156212,
         name: "Rimuru (Human form)",
         attribute: "Water",
@@ -22239,9 +22256,26 @@ const UnitInformation = [
             {   
                 evo5: "A slime that was reincarnated to a different world. It became possible to mimic humans ever since he preyed on Shizue Izawa, a Japanese who was reincarnated to a different world. He also preyed on a high-level spirit, Ifrit. With the unique skill 'De-generate,' which was passed on from Shizu, he separated the skills he gained from various monsters and succeeded to combine them to gain multiple extra skills.",
                 evoawk: "A slime that used to be a human which was reincarnated to a different world. He won the life and death battle between Geld, an Orc Disaster that was once Orc Lord. After that, he earned the overwhelming support of the monsters living in the Forest of Jura. Not long after that, he became king of 'Jura Tempest Federation.'"
-            }
+            },
+        review:
+        {
+            skill: `The buff introducing ArtsGen on skill is much appreciated, allowing for an easier startup.`,
+            arts: `With a 35% teamwide Heal after his buffs, he will be able to heal slightly more for the team. However, his Arts effects do not activate immediately after use due to its animation cast time, which can be a detriment at times. Teamwide Skill refresh, while not reliably useful, has certain potential when paired with specific content or units such as those with ArtsGen on Skill.`,
+            truearts: `Finally being buffed to the usual 4 arts/s of collab ArtsGen units, his overall ArtsGen has been boosted slightly. His 30% All Stats buff, which can act as a pseudo-heal allows for better team survivability, but should not be relied on as the only heals for harder content. With those 2 buffs in mind, Rimuru remains in the realm of a more than competent general-use support and ArtsGen unit. Lastly, his self lifesteal effect matters very little outside of very specific stages and is generally negligible.`,
+            ability1: `A decent passive but does very little for most stages that don’t have Fire bosses`,
+            ability2: `A great passive that helps Rimuru’s consistency. The Status RES passive is useful in certain situations but with cleanse built into his kit, it’s not as important `,
+            ability3: `Allows for his equips to be used more frequently, albeit the difference is ever so slight`,
+            trueweapon: {
+                skill: ``,
+                ability1: ``,
+                ability2: ``
+            },
+            overall: `Almost 4 years since the first release of this collab, Rimuru still holds up as the swiss army knife of supports, including in his arsenal an all stat buff, which also acts as a pseudo-heal, arts generation; healing; cleanse; and status res. Moreover, all of this is backed up by passive ArtsGen on self and great slots. There’s really not much to hate about Rimuru’s kit as a support unit. Though in certain aspects he has been powercrept due to his age, very few units come close to Rimuru’s sheer utility and flexibility as a support unit and would be a welcome addition to most boxes. His buffs simply helped to improve his overall kit closer to the addition of the units.`,
+            lastupdated: `January 12, 2023`,
+            author: `Jeffers`
+        }
     },
-    { //Milim - Complete (+ JP version)
+    { //Milim - Complete (+ JP version), Review done
         id: 107166112,
         name: "Milim",
         rank: "B+",
@@ -22319,9 +22353,26 @@ const UnitInformation = [
             {   
                 evo5: "One of the oldest Demon Lords. She looks and acts lie a child, but her mind is based on a crafty Demon Lord. She is known as a Catastrophe class and is impossible to understand all of her profound powers. Initially, she was planning to create a new Demon Lord, but she becomes interested in Rimuru which he saw through her plans.",
                 evoawk: "One of the Ten Greatest Demon Lords and yet the oldest. She has over ten times more Magicules than Rimuru, and no one can beat her. She feels bored of being a Demon Lord and envies Rimuru because he is having much more fun while not being a Demon Lord."
-            }
+            },
+        review:
+        {
+            skill: `Just a minor ATK buff of 30%, but better than nothing.`,
+            arts: `This is where Milim becomes interesting, because she is one of the only units being able to reflect the Units taken Damage to the boss with a uptime of 10s comparable to Duran’s uptime. With a little bonus of generating a total of 30 art.`,
+            truearts: `With a decent multiplier, and being able to increase the Damage of her True Art by 200% to enemies in break paired with her increase of 100% Critical Rate. Milim will be able to do some great damage to enemies once broken.`,
+            ability1: `A rather small amount of art tied to taking more than 10% HP.`,
+            ability2: `A nice passive, if the boss can Freeze/Paralysis your units. On the other hand, the 50% damage buff increases as the HP decreases is appreciated, which will make Reflect Nuking more comfortable.`,
+            ability3: `A huge Damage buff, pairing well with her True Arts if the boss is broken.`,
+            trueweapon: {
+                skill: ``,
+                ability1: ``,
+                ability2: ``
+            },
+            overall: `Milim was, before the buffs, a competent Reflect Nuker, and a decent Break Nuker. With her new buffs, it’ll be easier to Reflect Nuke due to the extension of her NA Duration. As for Break Nuking, she’s capable of dishing out a good amount of Damage once the Enemy is broken. Although her uses are rather niche, mainly being Break Nuking and Reflect Nuking, she is able to fill those roles competently with the right setups.`,
+            lastupdated: `January 12, 2023`,
+            author: `Alice`
+        }
     },
-    { //Benimaru - Complete (+ JP version)
+    { //Benimaru - Complete (+ JP version), Review done
         id: 107176112,
         name: "Benimaru",
         rank: "A",
@@ -22399,7 +22450,24 @@ const UnitInformation = [
             {   
                 evo5: "A Kijin who follows Rimuru, a slime that was reincarnated to a different word. He used to be a race of Ogre. However, when Rimuru gave him a name, he evolved into a Kijin. Not only is he a master of swords, but he also uses fire magic and is excellent at large-area extermination.",
                 evoawk: "A young Kijin who gave his loyalty to Rimuru. He is an Ogre survivor of an attack from the Orcs and seeks revenge. He was appointed as the Samurai General and integrates the country's army. He is like the right-arm of Rimuru and has great popularity."
-            }
+            },
+        review:
+        {
+            skill: `30 arts is definitely a great improvement from his former meagre 10 arts on skill, and self sufficiency is always welcome.`,
+            arts: `Gives him more self sufficiency from his skill and a little damage boost, but generally not worth using over his True Arts unless bursting enemy down from a sliver of hp. At least the duration of the buffs are considerably good.`,
+            truearts: `Can't believe he actually got love from the devs this time around ❤️ While the RES reduction is still less than, say, Hao, the much more consistent Burn chance helps him go from alright to good. He will still be an off-meta pick, but at least he's not comparatively useless now.`,
+            ability1: `As always, self sufficiency is good, but you shouldn't be near death 99% of the time anyways.`,
+            ability2: `Wow 50% just like genshin pulls fr, I really do wish the Critical Rate was 100% (or at least give the other 50% on burn), but it is what it is. More damage is welcome, and helping keep himself alive is pretty much always good.`,
+            ability3: `Startup is very cool, helps to get his DPS up and going. Paired with his self sufficiency from skill, he gets his True Arts much faster now.`,
+            trueweapon: {
+                skill: ``,
+                ability1: ``,
+                ability2: ``
+            },
+            overall: `Not much to say here, pretty happy with the buffs he got this time, making him at the very least good again. While still not meta in any way, he at least does his DPS job well, with a side niche of Burn if you don't have other units to do so. And hey, Makoto Furukawa's voice is some ear candy for all you men lovers out there 😉 `,
+            lastupdated: `January 12, 2023`,
+            author: `Julian`
+        }
     },
     { //Goblin Slayer - Complete (+ JP version)
         id: 107186512,
@@ -24099,7 +24167,7 @@ const UnitInformation = [
                 author: `Zanster`
             }
     },
-    { //Santa Rimuru - Complete (+ JP version)
+    { //Santa Rimuru - Complete (+ JP version), Review done
         id: 107396212,
         name: "Santa Rimuru",
         rank: "A+",
@@ -24191,7 +24259,7 @@ const UnitInformation = [
                 author: `Zanster`
             }
     },
-    { //Santa Milim - Complete (+ JP version)
+    { //Santa Milim - Complete (+ JP version), review done
         id: 107406112,
         name: "Santa Milim",
         rank: "A-",
