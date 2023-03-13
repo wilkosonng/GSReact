@@ -133,6 +133,9 @@ function RenderSkills({ unitSkill, unitReview, isReview }) {
                 <Row>
                     <h3><strong>PHANTOM BULLET</strong></h3>
                     <center><p><Badge color="primary" pill>BREAK {unitSkill.phantombulletbreak}</Badge> {unitSkill.phantombullet}</p></center>
+                    {
+                        unitReview.phantombullet && isReview  && <UnitReviews review={unitReview.phantombullet} /> 
+                    }
                 </Row> 
             }
 
