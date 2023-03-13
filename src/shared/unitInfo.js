@@ -18652,7 +18652,7 @@ const UnitInformation = [
                 evoawk: "The best gunner in Valkia's army. She overcame her past trauma during a particularly tough training session. That mental fortitude later allowed her to support the promoted Forte. The influence of her closest comrades can be seen in her serious yet considerate personality. After Airi's disappearance, she took the initiative to form a search team that is active to this day, demonstrating her belief they will meet again."
             }
     },
-    { //Summer Juno - Complete
+    { //Summer Juno - Complete, Review done
         id: 103376212,
         name: "Summer Juno",
         rank: "A+",
@@ -18734,9 +18734,26 @@ const UnitInformation = [
             {   
                 evo5: "The queen of Granadia, a small country to the east, brought her sister to an ocean paradise. Her boasts of being the best swimmer in the kingdom was met with uncharacteristic protest form the captain of her Templars. To settle the dispute, they decided to race to the closest island and back, and loser would have to do anything the winner commanded. They stood at the starting line waiting for the signal, competetive spirit burning in their eyes.",
                 evoawk: "Halfway through the race, her composure vanished. The Templar captain was always right behind her, no matter how fast she went. The finish line approached with them side by side. She then asked what he would command of her. That sudden question shook his focus, and she used that chance to pull ahead. but while she exulted in her imminent victory and pictured his scowl, she came to a certain realization. 'Wait, what did I even want him to do?'"
+            },
+        review:
+            {
+                skill: `A long skill CT with a decent buff duration to boost her damage. You will look to keep this buff active before either of her Arts in order to increase her damage output.`,
+                arts: `Decent multiplier with pretty niche effects. The skill CT recovery buff can see use in Miasma stages and the Water RES debuff would be nice to further amplify her damage or support water nuking; However, for general use and nuking, you would just default to her True Arts instead.`,
+                truearts: `A hefty multiplier paired with stackable damage buffs. Her damage is further amplified when she is allowed to stack as a result of the lengthy 50 second buff duration, especially against longer stages. The nature of its stacking ability also makes it stackable with magic and water damage buffs from other units such as Santa Rimuru, etc. Hence, this True Arts solidifies Summer Juno as a competent dps as well as damage support for the team for general use or nuking purposes.`,
+                ability1: `Self sufficiency is always appreciated though it is tied to a HP condition. Healing might be required for certain situations if you want to keep this passive running.`,
+                ability2: `Another source of self sufficiency in her kit but tied to her being free of status ailments this time. Bring cleanse if stage is known to inflict status ailments to keep this passive running.`,
+                ability3: `A nice boost when dealing with giant bosses to further increase her damage output.`,
+                trueweapon: {
+                    skill: `Another artsgen equipment for general usage. On top of it, it increases own stats by 30% if Water unit. Which works well with Summer Juno's passive.`,
+                    ability1: `As if the duration wasn't long enough already. This will enable Summer Juno to stack at least one more True Art. `,
+                    ability2: `It's a nice bonus, but nothing too noticeable.`
+                },
+                overall: `As if Summer Juno wasn't already strong enough. With her buffs she is now capable of dealing even more damage than before. Furthermore, she has amazing self sufficiency with her passives and damage buffs for the team especially for magic/water teams. That being said, she’s one of the best magic dps units, and a common unit in magic and/or water nuking comps. The damage buffs she provides aren't a joke either as the duration of the buffs with her True Weapon will allow her to keep up 5-6 stacks on average with enough support. She is ultimately a luxury gift for any box, so don't go overboard and save your money.`,
+                lastupdated: `December 1, 2022`,
+                author: `Alice`
             }
     },
-    { //Summer Leone - Complete
+    { //Summer Leone - Complete, Review done
         id: 103386312,
         name: "Summer Leone",
         rank: "A-",
@@ -18818,6 +18835,24 @@ const UnitInformation = [
             {   
                 evo5: "The princess of Granadia, a small country in the east, was brought to an ocean paradise by her sister. She claimed her lack of swimming talent was due to a curse that caused her to sink whenever she took a breath. Choosing instead to read beneath a parasol, the comfortable sea breeze started to convince her the trip was nonetheless enjoyable. all the while, a small group of green monsters was sneaking up on her.",
                 evoawk: "Before she realized what was happening, the Mokyuon had jumped out and shoved her from the pier. She struggled desperately to keep from drowning. Returning to shore after several minutes, the monsters nodded with approval. It appeared their antics had forced her to learn proper breathing. Perhaps they saw the timid girl and knew the sink-or-swim approach was the only way she would succeed."
+            },
+        review:
+            {
+                skill: `A skill that increases own Arts is always appreciated.`,
+                arts: `A strong damage buff for the team when your DMG Buffs/Debuffs are available for a quick burst of damage.
+                Note that this is different from the usual Arts DMG buff, instead only affecting a unit’s True Arts and will be removed after a single use.`,
+                truearts: `Great buffs, before this True Arts had pretty mediocre DMG and was basically useless for artsgen since Mono Earth has several Type B artsgens that are better. Now, she stacks with them and even has some respectable damage.`,
+                ability1: `Quite an interesting passive, helping Leone get more from her equipment, be it Arts, Dmg Buffs/Debuffs, or Heals.`,
+                ability2: `Negligible passive, blind is not often inflicted by enemies and 10% RES will not be enough to protect you from it.`,
+                ability3: `Pair Summer Leone with other Demon Allies to make the most out of this stat buff, although it isn’t very significant either.`,
+                trueweapon: {
+                    skill: `Arts wise this equip provides less arts than LDH, the Earth DMG Up is nice but is limited to one unit.`,
+                    ability1: `While this is an amazing passive, the active does leave a lot to be desired for supporting the team.`,
+                    ability2: `As with any Near-death passive, this should be considered useless.`
+                },
+                overall: `Summer Leone used to be a pretty mediocre unit, having her Artsgen completely overlapped by Hart and Norn. Now she can stack with them! Her True Arts duration and multiplier were also buffed, increasing her damage output and buff durations aswell. Mono Earth still remains as a relatively slow and safe team, but welcomes this addition to the list. `,
+                lastupdated: `December 1, 2022`,
+                author: `Gian`
             }
     },
     { //Elizabeth - Complete
