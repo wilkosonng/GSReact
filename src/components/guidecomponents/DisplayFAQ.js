@@ -104,9 +104,10 @@ function GettingStarted() {
                 <AccordionItem >
                     <AccordionBody accordionId="2" style={accordionColor}>
                         <p>While rerolling is not necessary to progress in Grand Summoners, taking the time to reroll and having strong units to start off with will make the early-game experience much more bearable and also opens up late-game content a lot sooner. 
-                There is a guide for how to reroll effectively <a href="https://www.reddit.com/r/grandsummoners/comments/8vxrn4/how_to_reroll_using_nox_or_other_android_emulators/">here</a>; 
-                while it gives specific steps for rerolling using Nox and other Android emulators, the reroll process is still outlined in the post. 
-                It should be noted that specific “reroll advice” (i.e. Units/equipment to reroll for) changes periodically based on currently ongoing limited-run units and events.</p>
+                        To reroll in Grand Summoners, you'll first need to create an account. After creating an account you'll want to summon for the recommended units, listed <a href="https://docs.google.com/document/d/1PaPYoSolhO65HCUaU-SGtHZ8Y51MKndlUs4rjdfWxUs/edit">here.</a>;
+                        If you did not get what you were rerolling for then you'll need to delete your account. Go to the ingame menu and scroll down to the account deletion menu, then select all the checkboxes to delete your account. Repeat process until you get your reroll targets.
+                        Note that rerollers may encounter the "Server is Busy" Message, temporarily stopping them from rerolling. The "Server is Busy" message can be prevented by using a VPN or changing internet after it appears.
+                        It should be noted that specific “reroll advice” (i.e. Units/equipment to reroll for) changes periodically based on currently ongoing limited-run units and events.</p>
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionHeader targetId="3">
