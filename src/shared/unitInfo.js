@@ -23378,7 +23378,7 @@ const UnitInformation = [
         id: 107606312,
         name: "Fitoria",
         luckrank: "SS",
-        rank: "S",
+        rank: "SS",
         attribute: "Earth",
         type: "Demon",
         image: 
@@ -23895,7 +23895,7 @@ const UnitInformation = [
     { //Rem (RE:ZERO) - Complete (+ JP version), Review done
         id: 107356212,
         name: "Rem (RE:ZERO)",
-        luckrank: "A",
+        luckrank: "S",
         rank: "A-",
         attribute: "Water",
         type: "Demon",
@@ -24001,7 +24001,7 @@ const UnitInformation = [
     { //Ram - Complete (+ JP version), review done
         id: 107366312,
         name: "Ram",
-        rank: "B+",
+        rank: "A-",
         luckrank: "B",
         twrequire: "favorable",
         attribute: "Earth",
@@ -24109,8 +24109,8 @@ const UnitInformation = [
     { //Beatrice - Complete (+ JP version), Review done
         id: 107376512,
         name: "Beatrice",
-        luckrank: "S",
-        rank: "B+",
+        luckrank: "SS",
+        rank: "A-",
         attribute: "Dark",
         type: "Spirit",
         image: 
