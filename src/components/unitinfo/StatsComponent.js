@@ -139,16 +139,19 @@ function RenderSkills({ unitSkill, unitReview, isReview }) {
                 </Row> 
             }
 
-            { unitSkill.ultraname && 
+            { unitSkill.superequipname && 
                 <Row>
-                    <h3><strong>Ultra "{unitSkill.ultraname}"</strong></h3>
-                    <h4>5☆ <img src={unitSkill.ultratype} style={lbIconSize} alt="Ultra Slot Type" /></h4>
-                    <center><p><Badge color="primary" pill>BREAK {unitSkill.ultrabreak}</Badge> {unitSkill.ultra}</p></center>
+                    <h3><strong>Super "{unitSkill.superequipname}"</strong></h3>
+                    <h4>5☆ <img src={unitSkill.superequiptype} style={lbIconSize} alt="Super Equipment Slot Type" /></h4>
+                    <center><p><Badge color="primary" pill>BREAK {unitSkill.superequipbreak}</Badge> {unitSkill.superequip}</p></center>
+                    {
+                        unitReview.superequip && isReview  && <UnitReviews review={unitReview.superequip} /> 
+                    }
                     <center>
                         <b>NOTES:</b>
                         <List type="unstyled">
-                            <li>The Abilities of the Equip originally in the <img src={unitSkill.ultratype} style={{maxWidth: "25px"}} alt="Ultra Slot Type" /> slot will be retained.</li>
-                            <li>The active of the Equip originally in the <img src={unitSkill.ultratype} style={{maxWidth: "25px"}} alt="Ultra Slot Type" /> slot cannot be activated while this Equip replaces it. If it was on cooldown when this Equip replaces it, the cooldown will continue counting down while this Equip is replacing it.</li>
+                            <li>The Abilities of the Equip originally in the <img src={unitSkill.superequiptype} style={{maxWidth: "25px"}} alt="Super Equipment Slot Type" /> slot will be retained.</li>
+                            <li>The active of the Equip originally in the <img src={unitSkill.superequiptype} style={{maxWidth: "25px"}} alt="Super Equipment Slot Type" /> slot cannot be activated while this Equip replaces it. If it was on cooldown when this Equip replaces it, the cooldown will continue counting down while this Equip is replacing it.</li>
                         </List>
                     </center>
                 </Row> 
