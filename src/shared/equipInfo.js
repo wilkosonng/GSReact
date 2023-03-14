@@ -26999,10 +26999,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //聖槍『アイゼンシュテルン』 (LCestina Secret Equip) - Missing Lore
+{ //Divine Lance 'Eisenstern' - Missing Lore
         id: 110131,
-        name: `聖槍『アイゼンシュテルン』`,
-        translate: `'Eisenstern'`,
+        name: `Divine Lance 'Eisenstern'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -27029,10 +27028,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //アインツティアラ (LCestina Secret Equip) - Missing Lore.
+{ //Zenit Tiara - Missing Lore.
         id: 110141,
-        name: `アインツティアラ`,
-        translate: `Iron Tiara`,
+        name: `Zenit Tiara`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
