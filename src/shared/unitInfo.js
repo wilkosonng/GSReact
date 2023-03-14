@@ -19413,7 +19413,7 @@ const UnitInformation = [
                 author: `JC`
             }
     },
-    { // Orvell (Fire) - Missing Lore (GL)
+    { // Orvell (Fire) - Missing Lore (GL), Review done
         id: 103456112,
         name: "Orvell (Fire)",
         attribute: "Fire",
@@ -19449,12 +19449,12 @@ const UnitInformation = [
                 skillbreak: 800,
                 arts: "18000% Fire DMG (MAG). For 20s, increase Allies' Equipment DMG by 50%, and Fire Allies' Equipment DMG by an additional 50%.",
                 artsbreak: 1200,
-                truearts: `62000% Fire DMG (MAG). For 20s, replace the equipment in his first slot with Ultra Equip "Gramlude". Additionally, increase Allies' MAG DMG by 100%, and own ATK by 100%.`,
+                truearts: `62000% Fire DMG (MAG). For 20s, replace the equipment in his first slot with Super Equip "Gramlude". Additionally, increase Allies' MAG DMG by 100%, and own ATK by 100%.`,
                 trueartsbreak: 1800,
-                ultra: "2s CT - 5000% Fire DMG (MAG). For 15s, increase own Critical DMG by 30% (stackable).",
-                ultrabreak: 500,
-                ultratype: "/db/Mines/thumbnail/magLB.png",
-                ultraname: "Gramlude"
+                superequip: "2s CT - 5000% Fire DMG (MAG). For 15s, increase own Critical DMG by 30% (stackable).",
+                superequipbreak: 500,
+                superequiptype: "/db/Mines/thumbnail/magLB.png",
+                superequipname: "Gramlude"
             },
         passive: 
             {
@@ -19495,9 +19495,27 @@ const UnitInformation = [
             {   
                 evo5: "Missing Lore.",
                 evoawk: "Missing Lore."
+            },
+        review:
+            {
+                skill: `A basic skill that can sometimes slightly increase the team’s damage output. Note though that the DMG RES debuff does not stack with any other such general debuffs.`,
+                arts: `Fits in the context of Fire Orvell’s kit that revolves around spamming an equip. However, this has marginal utility because how more beneficial spamming his True Arts is in comparison.`,
+                truearts: `There we are, the bread and butter of Fire Orvell’s kit. High multiplier, teamwide magic damage buff and self ATK buff, and unlocks Super Equip “Gramlude” that can be spammed for even more damage buffs. This basically enables Fire Orvell to reach overall damage buffs that easily exceed 400% (provided he can deal critical damage), thereby making him one of the top DPSes in the game. Besides raw damage, spamming a damage-dealing equip at high velocity also generates a substantial amount of battle ether (which helps with team arts) and deals a non-negligible amount of break.`,
+                superequip: `30% stackable critical DMG buff that can be stacked every 2s. With a 15s duration, up to 7 buffs (240% total) can be stacked and cycled, and EQ CT buffs can further increase this number by reducing the equip cooldown. The passives of the 5-star magic equip are retained during this time, meaning that it is possible to use an equip with passives that will strategically provide added utility (such as damage buffs, EQCT buffs, etc.). As stated before, spamming this equip also generates lots of battle ether, and the break resulting can also add up rather quickly.`,
+                ability1: `Can help slightly mitigate the damage Fire Orvell receives, especially against bosses that have increased critical rate against a target unit (whom is often the unit who deals the most damage).`,
+                ability2: `Marginal passive that can nonetheless help finish off bosses faster.`,
+                ability3: `Conditional artgen passive to help make him more self-sustainable, and a conditional critical rate that is central to his damage output, as his Super Equip gives him critical DMG buffs.`,
+                trueweapon: {
+                    skill: `A magic DMG buff and fire RES debuff that can be used right before TA to increase damage output. However, it must be noted that the duration of these buffs is 15s, which means that when Fire Orvell reaches max Super Equip stacks, these buffs will likely have timed out.`,
+                    ability1: `Damage and stats buffs that remain when the Ultra Equip is active. However, these are marginal given the high damage buffs that Fire Orvell can typically achieve.`,
+                    ability2: `A small physical RES buff that can help Fire Orvell stay above 80% hp.`
+                },
+                overall: `Fire Orvell has obscene DPS potential as long as the boss does not have high critical resistance, stacking critical DMG buffs. Beyond this though, his Ultra Equip also helps with team artgen through battle ether generation, and also benefits from relatively good break which can be useful in some quests. His 5* defense slot helps with team survivability in difficult content. Obviously, DPS units always tend to get superseded at some point, but right now, Fire Orvell is among the top DPS in the game, and his added utility helps him edge out his competitors.`,
+                lastupdated: `March 14, 2023`,
+                author: `MOBofMetal`
             }
     },
-    { // Cestina (Light) - Missing Lore (GL)
+    { // Cestina (Light) - Missing Lore (GL), Review done
         id: 103466412,
         name: "Cestina (Light)",
         attribute: "Light",
@@ -19535,10 +19553,10 @@ const UnitInformation = [
                 artsbreak: 800,
                 truearts: `45000% Light DMG (PHY). For 15s, replace the equipment in her first slot with Ultra Equip "Eisenstern". Additionally, for 15s, reduce Enemies' Light RES and Physical RES by 35%.`,
                 trueartsbreak: 1500,
-                ultra: "2s CT - 3000% Light DMG (PHY). Heal Allies' HP by 1000. For 12s, reduce Enemies' PHY RES by 5% (stackable). ",
-                ultrabreak: 300,
-                ultratype: "/db/Mines/thumbnail/physLB.png",
-                ultraname: "Eisenstern"
+                superequip: "2s CT - 3000% Light DMG (PHY). Heal Allies' HP by 1000. For 12s, reduce Enemies' PHY RES by 5% (stackable). ",
+                superequipbreak: 300,
+                superequiptype: "/db/Mines/thumbnail/physLB.png",
+                superequipname: "Eisenstern"
             },
         passive: 
             {
@@ -19579,6 +19597,24 @@ const UnitInformation = [
             {   
                 evo5: "Missing Lore.",
                 evoawk: "Missing Lore."
+            },
+        review:
+            {
+                skill: `A minor ATK buff, but it is better than nothing.`,
+                arts: `A huge damage buff, increasing allies Physical DMG by 50% with a good uptime, which pairs well with Stellar Wing Cestina’s TA . Furthermore it has the accuracy niche, which is tied to God Allies only, so it shouldn’t be relied on generally.`,
+                truearts: `By using Stellar Wing Cestina’s TA, the equipment in the first slot will be replaced with her Super Equip (detailed below), for 15s, which pairs well with her TA. The cooldown of previous equipment will be kept on hold during the duration of the activation of the Super equipment. The passive of the previous equipment will not be replaced and is still active. In addition, she is able to provide a good Light and Physical Res down of a total of 70%, which pairs especially well for Light Nukes or any Light physical DPS.`,
+                ability1: `A huge damage buff for Stellar Wing Cestina, although only if facing Demon enemies. Better than nothing`,
+                ability2: `A good buff for Stellar Wing Cestina by providing 30% Critical RES, if you are not running a taunt tank or the boss can crit.`,
+                ability3: `Free artgen which is always appreciated by not being afflicted by Status ailment. As a bonus, it provides a small portion of accuracy buff, which is useful for certain niche situations. It should not be hard to keep her unaffected by ailments, just run a cleanse equipment or unit.`,
+                superequip: `A spammable Super Equipment that allows Stellar Wing Cestina to heal your units with an average of 500 HP/s and reduce Enemies PHY RES by 30%, which can be increased furthermore by buffing the Equipment CT Recovery from other sources such as Freed TW, Izanagi, and Liza’s True Arts.`,
+                trueweapon: {
+                    skill: `A high damage multiplier, which is great, but due the multi hits it’s not good for wave clearing. On top of that, it provides a good Damage and Equipment DMG buff for herself, assuming you’re using her TW before activating her TA. This will allow Stellar Wing Cestina to dish out some great damage.`,
+                    ability1: `More damage buff for Stellar Wing Cestina by applying passively 50% ATK, and self sufficient artgen of 1aps, which pairs well with her Unit passive. Makes it a total of 3aps`,
+                    ability2: `A great passive to help Stellar Wing Cestina survivability by providing 1200 heal with every use of the Super Equipment, which can be increased furthermore with Equipment CT Recovery buff.`
+                },
+                overall: `Stellar Wing Cestina is one of the best Healers which rivals Hart as a Top Healer and being able to match Hart healing by her own. On top of that, she is an amazing buff and debuff unit, which is able to deal fairly decent DPS by herself with all the debuffs she applies from using her True Art and Super Equipment together. In addition, with the low Equipment CT of the Super Equipment she's also able to help your team with getting Arts thanks to the generation of BE. `,
+                lastupdated: `March 14, 2023`,
+                author: `Alice`
             }
     },
     { // Charlotte - Complete
