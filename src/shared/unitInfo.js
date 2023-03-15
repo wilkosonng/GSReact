@@ -12,14 +12,14 @@
         type: ``,
         image: 
             {
-                detail5: ,
                 detailawk: "/db/Units/Detail/unit_detail_.png",
-                thumb5: ,
+                detailsuper: "/db/Units/Detail/unit_detail_.png",
                 thumbawk: "/db/Units/Thumbnail/unit_thumbnail_.png"
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_.png"
             },
         slots: 
             {
-                slot1: 5,
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/physLB.png",
@@ -45,7 +45,7 @@
                 truearts: ``,
                 trueartsbreak: ,
                 superarts: ``,
-                superartsbreak ``
+                superartsbreak: ``
             },
         passive: 
             {
@@ -54,21 +54,13 @@
             }, 
         evolution: 
             {
-                evo5awk:
+                evoawksuper:
                 {
                     mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
                     mat1amt: 30,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
-                    mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
+                    mat2amt: 220,
+                    hover2: "God's Spirit Orb"
                 }
             },
         trueweapon: 
@@ -86,8 +78,8 @@
             },
         lore: 
             {   
-                evo5: `Currently unreleased in Global.`,
-                evoawk: `Currently unreleased in Global.`
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
             },
         review:
         {
@@ -20731,6 +20723,84 @@ const UnitInformation = [
                     {
                         ability1: `When equipped by Sword Demon Berwick, increase Arts by 5/s and Max HP by 1000. Does not stack with Abilities of the same name.`,
                         ability2: `Increase ATK by 5%.`
+                    }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    {
+        id: 103537112,
+        name: `Kokuri`,
+        attribute: `fire`,
+        type: `Demon`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_103536112.png",
+                detailsuper: "/db/Units/Detail/unit_detail_103537112.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103536112.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103537112.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/suppLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/magLB.png",
+                slot32type: "/db/Mines/thumbnail/healLB.png"
+            },
+        stats: 
+            {
+                hp: 7473,
+                hpplus: 1349,
+                atk: 2720,
+                atkplus: 544,
+                def: 3264,
+                defplus: 617
+            },
+        skillset: 
+            {
+                skill: `13s CT - 1800% Fire DMG (MAG). Increase own Arts gauge by 30`,
+                skillbreak: 500,
+                arts: `16000% Fire DMG (MAG). For 30s, reduce enemies' DMG RES by 20% and CRI RES by 100%.`,
+                artsbreak: 1000,
+                truearts: `45000% Fire DMG (MAG). For 20s, reduce enemies' Fire RES by [# of Fire allies in Party x 30%].`,
+                trueartsbreak: 1800,
+                superarts: `100000% Fire DMG (MAG). For 30s, increase all allies' CRI DMG by 200%`,
+                superartsbreak: `2200`
+            },
+        passive: 
+            {
+                ability1: `Skill CT when Near-Death 20% UP. `,
+                ability2: `When own HP is 50% or above, increase all allies' MAG RES by 20%. Does not stack with Abilities of the same name.`,
+                ability3: `Increase Demon allies' stats by 10%. Does not stack with Abilities of the same name.`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_130853.png",
+                    mat2amt: 220,
+                    hover2: "Flame Fox Spirit's Orb"
+                }
+            },
+        trueweapon: 
+            {
+                name: `9 Treasures`,
+                slot: "/db/Mines/thumbnail/suppLB.png",
+                detail: "/db/Equipment/Detail/item_detail_111301.png",
+                skill: `30s CT - Increase all allies' Arts gauge by 20. For 8s, increase all Fire allies' ATK and DMG by 30%.`,
+                skillbreak: 0,
+                passive: 
+                    {
+                        ability1: `When equipped by Kokuri, increase own Arts gauge by 3/s and Equip CT by 20%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own MAG RES by 5%.`
                     }
             },
         lore: 
