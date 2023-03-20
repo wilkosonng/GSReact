@@ -30352,6 +30352,97 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
+    { //真『九宝』 (Kokuri TW) - JP Complete
+        id: 111301,
+        name: `真『九宝』`,
+        translate: `True '9 Treasures'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111300.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111301.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111300.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111301.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `30s CT - Increase Allies' Arts by 20. Increase Fire Allies' ATK and DMG by 30% for 8s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `When equipped by Kokuri, increase own Arts by 3/s and Equip CT REC by 20%. Does not stack with Abilities of the same name (Only once).`,
+                ability2: `Magic resistance 5% UP.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //亡珠魂『九宝』 (Kokuri Farmable) - JP Complete
+        id: 111311,
+        name: `亡珠魂『九宝』`,
+        translate: `Dead Soul '9 Treasures'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111310.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111311.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111310.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111311.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `50s CT - Increase all allies' DMG by 35% for 12s. If user is Fire, increase all allies' DMG by 60% instead.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Curse Time Reduction & Curse Evasion rate 10% UP.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //魔着『リュバンリアン』 (Kokuri Farmable) - JP Complete
+        id: 111311,
+        name: `魔着『リュバンリアン』`,
+        translate: `Devil Suit 'Ryubenlian'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111310.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111311.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111310.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111311.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - 6000% Fire DMG (Magic). Increase own Magic DMG by 35% and reduce enemies' Fire resistance by 25% for 10s.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: `Magic DMG 10% UP.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
     { //Ultra Relic 'Petraskia' - Missing Lore
         id: 140011,
         name: `Ultra Relic 'Petraskia'`,
