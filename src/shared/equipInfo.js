@@ -26821,10 +26821,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //超『ガラムルード』 (FOrvell Ultra Equip) - Missing Lore
+    { //Super 'Gramlude' - Missing Lore
         id: 110070,
-        name: `超『ガラムルード』`,
-        translate: `'Ultra Equip 'Gramlude'`,
+        name: `Super 'Gramlude'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -26851,7 +26850,7 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-    { //Super 'Eisenstern' (LCest Ultra Equip) - Missing Lore.
+    { //Super 'Eisenstern' (LCest Ultra Equip) - Missing Lore
         id: 110080,
         name: `Super 'Eisenstern'`,
         type: `/db/Mines/thumbnail/physLB.png`,
