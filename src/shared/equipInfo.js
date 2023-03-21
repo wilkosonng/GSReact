@@ -7413,7 +7413,7 @@ const EquipInformation = [
             {
                 ability1: `Increase ATK and CRI DMG by 5%.`
             },
-        lore: `Currently unreleasd in Global.`
+        lore: `Currently unreleased in Global.`
     },
     { //Hyakushiki・Oniyaki (百式・鬼焼き) - Complete (JP)
         id: 103031,
@@ -7443,7 +7443,7 @@ const EquipInformation = [
             {
                 ability1: `Increase ATK and CRI DMG by 5%.`
             },
-        lore: `Currently unreleasd in Global.`
+        lore: `Currently unreleased in Global.`
     },
     { //Type 108・Yamiharai (百八式・闇払い) - Complete (JP)
         id: 103041,
@@ -7473,7 +7473,7 @@ const EquipInformation = [
             {
                 ability1: `Increase ATK and CRI DMG by 5%.`
             },
-        lore: `Currently unreleasd in Global.`
+        lore: `Currently unreleased in Global.`
     },
     { //Grad's Devil Summer - Complete
         id: 103051,
