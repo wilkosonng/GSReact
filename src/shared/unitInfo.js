@@ -19690,9 +19690,9 @@ const UnitInformation = [
                 evoawk: "Although sturdy enough in mind and body to undergo knight training, she threw a tantrum when Zeorg said he was joining the Demon Suppression Corps. So great was her dissent that she clung to his legs on the day he departed. This expression of both the fear he would not return and the anger she was not strong enough to replace the elderly soldier was, if nothing else, age-appropriate."
             }
     },
-    { // 12th Gen Mizuki - Missing Lore
+    { // Mizuki the Twelfth - Missing Lore (GL)
         id: 103496212,
-        name: "12th Gen Mizuki",
+        name: "Mizuki the Twelfth",
         attribute: "Water",
         type: "Human",
         image: 
@@ -19756,22 +19756,22 @@ const UnitInformation = [
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: "Starling",
+                name: "Mukudori",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "/db/Equipment/Detail/item_detail_110151.png",
                 skill: "45s CT - 9000% Water DMG (PHY). For 10s, increase own DMG by 50% and reduce Enemies' Water RES by 30%.",
                 skillbreak: 800,
                 passive: 
                     {
-                        ability1: "When equipped by XII Mizuki, at the start of a Quest, increase stats by 20% and Arts by 100. Does not stack with Abilities of the same name.",
+                        ability1: "When equipped by Mizuki the Twelfth, at the start of a Quest, increase stats by 20% and Arts by 100. Does not stack with Abilities of the same name.",
                         ability2: "Increase PHY RES by 10%."
                         
                     }
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "Missing Lore.",
+                evoawk: "Missing Lore."
             }
     },
     { // War Ginzo - Missing Lore (+ JP version)

@@ -27027,7 +27027,7 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Zenit Tiara - Missing Lore.
+{ //Zenit Tiara - Missing Lore
         id: 110141,
         name: `Zenit Tiara`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -27056,10 +27056,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //真『椋鳥』 (Mizu12 TW) - JP Complete
+{ //True 'Mukudori' - Missing Lore
         id: 110151,
-        name: `真『椋鳥』`,
-        translate: `True 'Starling'`,
+        name: `True 'Mukudori'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -27082,10 +27081,10 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When equipped by 12th Gen Mizuki, increase all stats by 20% and Arts gauge by 100 when Quest starts (Only once).`,
+                ability1: `When equipped by Mizuki the Twelfth, increase all stats by 20% and Arts gauge by 100 when Quest starts (Only once).`,
                 ability2: `Physical resistance 10% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //真『冥府ノ喉』 (WarGinzo TW) - JP Complete
         id: 110161,
@@ -27118,10 +27117,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //共鳴閃『椋鳥』 (Mizu12 Farmable) - JP Complete
+{ //Resonant Blades 'Mukudori' - Missing Lore
         id: 110171,
-        name: `共鳴閃『椋鳥』`,
-        translate: `'Starling'`,
+        name: `Resonant Blades 'Mukudori'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -27146,11 +27144,11 @@ const EquipInformation = [
             {
                 ability1: `ATK 10% UP when own HP is 90% or above.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //忍衣『把亜禍』 (Mizu12 Farmable) - JP Complete
+{ //Shinobi Gear 'Paaka' - Missing Lore
         id: 110181,
-        name: `忍衣『把亜禍』`,
+        name: `Shinobi Gear 'Paaka'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -27175,7 +27173,7 @@ const EquipInformation = [
             {
                 ability1: `Max HP 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //腐刀『冥府ノ喉』 (WarGinzo Farmable) - JP Complete
         id: 110191,
