@@ -9382,7 +9382,7 @@ const UnitInformation = [
         id: 102206412,
         name: "Mako",
         luckrank: "S",
-        rank: "SSS",
+        rank: "SS",
         attribute: "Light",
         type: "Human",
         image: 
@@ -17483,7 +17483,7 @@ const UnitInformation = [
     { //Juno - Complete
         id: 103226412,
         name: "Juno",
-        rank: "SSS",
+        rank: "SS",
         twrequire: "favorable",
         attribute: "Light",
         type: "Demon",
@@ -19409,6 +19409,7 @@ const UnitInformation = [
         id: 103456112,
         name: "Orvell (Fire)",
         attribute: "Fire",
+        rank: "S",
         type: "God",
         image: 
             {
@@ -19510,6 +19511,7 @@ const UnitInformation = [
     { // Cestina (Light) - Missing Lore (GL), Review done
         id: 103466412,
         name: "Cestina (Light)",
+        rank: "S",
         attribute: "Light",
         type: "God",
         image: 
@@ -19694,6 +19696,7 @@ const UnitInformation = [
         id: 103496212,
         name: "Mizuki the Twelfth",
         attribute: "Water",
+        rank: "SS",
         type: "Human",
         image: 
             {
@@ -22129,7 +22132,7 @@ const UnitInformation = [
     { //Asirpa - Complete
         id: 107126412,
         name: "Asirpa",
-        rank: "SS",
+        rank: "S",
         attribute: "Light",
         type: "Human",
         image: 
@@ -22715,7 +22718,7 @@ const UnitInformation = [
         id: 107196412,
         name: "Priestess",
         luckrank: "SS",
-        rank: "S",
+        rank: "A+",
         attribute: "Light",
         type: "Human",
         image: 
@@ -25702,7 +25705,7 @@ const UnitInformation = [
         id: 107586412,
         name: "Erza Scarlet",
         luckrank: "S",
-        rank: "S",
+        rank: "A+",
         attribute: "Light",
         type: "Human",
         image: 
