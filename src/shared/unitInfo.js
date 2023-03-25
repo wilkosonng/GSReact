@@ -19405,7 +19405,7 @@ const UnitInformation = [
                 author: `JC`
             }
     },
-    { // Orvell (Fire) - Missing Lore (GL), Review done
+    { // Orvell (Fire) - Complete, Review done
         id: 103456112,
         name: "Orvell (Fire)",
         attribute: "Fire",
@@ -19486,8 +19486,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore.",
-                evoawk: "Missing Lore."
+                evo5: "Orvell, once the hopeful young prince of Gran Verge, returned to Raktehelm as a hardened warrior bent on revenge. At the end of the Ancient War, his homeland fell at the hands of the enigmatic Usurper. Having lost both his glorious nation and precious sister, he grasped a Demon-forged weapon to carry out his dark intent.",
+                evoawk: "Whenever Orvell closed his eyes, memories of that day remerged in vivid red: Gramlude, his castle, his sister -- all wrapped in flame. He journeyed without rest to exact revenge on the Usurper, his heart still aflame, feeding his fury, burning ever hotter."
             },
         review:
             {
@@ -19508,7 +19508,7 @@ const UnitInformation = [
                 author: `MOBofMetal`
             }
     },
-    { // Cestina (Light) - Missing Lore (GL), Review done
+    { // Cestina (Light) - Complete, Review done
         id: 103466412,
         name: "Cestina (Light)",
         rank: "S",
@@ -19589,8 +19589,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore.",
-                evoawk: "Missing Lore."
+                evo5: "Cestina, returning to Raktehelm after the Great Seal's removal, became the leader of the bygone nation of Gran Verge. With Liza's death, she believes the remaining three siblings should bond together first and foremost for the purpose of restoring their homeland. This means her present focus is chasing Orvell to awaken him from his obsession for vengeance, holding the Lance of Anointing Stardust tight.",
+                evoawk: "When Gran Verge was destroyed by the Usurper, Cestina was off fighting in another nation. The news she had lost both her homeland and dear sister came as a massive shock. She returned to the ruined capital and walked through the ruins alone. Reflecting on her days with Liza renewed her determination. Taking up the holy lance Eisenstern, she set forth to build anew the kingdom they loved."
             },
         review:
             {
@@ -19692,7 +19692,7 @@ const UnitInformation = [
                 evoawk: "Although sturdy enough in mind and body to undergo knight training, she threw a tantrum when Zeorg said he was joining the Demon Suppression Corps. So great was her dissent that she clung to his legs on the day he departed. This expression of both the fear he would not return and the anger she was not strong enough to replace the elderly soldier was, if nothing else, age-appropriate."
             }
     },
-    { // Mizuki the Twelfth - Missing Lore (GL)
+    { // Mizuki the Twelfth - Complete
         id: 103496212,
         name: "Mizuki the Twelfth",
         attribute: "Water",
@@ -19773,8 +19773,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore.",
-                evoawk: "Missing Lore."
+                evo5: "The twelfth master of Imari Village, embodying the first Mizuki's ninja arts in their latest revision. The shinobi have retained their traditions throughout the changing years, but he questions that attachment to the past. Though he reveals his misgivings by his deeds rather than his words, others are starting to take notice.",
+                evoawk: `Each generation of Mizuki refined the ancestral techniques, making him the current pinnacle of all shinobi in history. He also developed an original fighting style that combines seven different schools of martial arts: "Seventh Heaven".`
             }
     },
     { // War Ginzo - Missing Lore (+ JP version)
