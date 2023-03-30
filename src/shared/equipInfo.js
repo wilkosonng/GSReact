@@ -20961,9 +20961,9 @@ const EquipInformation = [
             },
         lore: `The crown belonging to Queen Juno of Granadia. Though it has seen the birth and death of stars, legends tell that its luster shall never fade. Records of her ancestor receiving it from the Ancients were eventually found, becoming proof of the Ancients being cooperative with races outside of their own. To prevent theft, replicas of the crown were made while the original was hidden.`
     },
-{ //呪影装『アセシナート』 (Ashe's Farmable) - JP Complete
+{ //Cursed Shadow 'Asesinato' - Missing Lore
         id: 108021,
-        name: `呪影装『アセシナート』`,
+        name: `Cursed Shadow 'Asesinato'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -20988,7 +20988,7 @@ const EquipInformation = [
             {
                 ability1: `DMG 40% UP to enemy with Blind (Only once).`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //Rayas' Sunny Aloha Shirt - Complete
         id: 108031,
