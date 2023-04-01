@@ -21332,6 +21332,85 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
+    { // Demon King Vox - Missing Lore
+        id: 103697512,
+        name: "Demon King Vox",
+        translate: "Vox (Dark)",
+        attribute: "Dark",
+        type: "Demon",
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_103696512.png",
+                detailsuper: "/db/Units/Detail/unit_detail_103697512.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103696512.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103697512.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 5,
+                slot31type: "/db/Mines/thumbnail/healLB.png",
+                slot32type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats: 
+            {
+                hp: 7370,
+                hpplus: 1390,
+                atk: 4000,
+                atkplus: 690,
+                def: 2856,
+                defplus: 594
+            },
+        skillset: 
+            {
+                skill: `15s CT - 4000% Dark DMG (PHY). Increase own Arts gauge by 50.`,
+                skillbreak: 600,
+                arts: `20000% Dark DMG (MAG). Increase Allies' Arts by 20. For 10s, reduce Enemies' Dark RES by 60%.`,
+                artsbreak: 1100,
+                truearts: `70000% Dark DMG (PHY). For 30s, increase Allies' Critical Rate by 100%. Increase own Super Critical Rate by 50% for duration of True Arts.`,
+                trueartsbreak: 1800,
+                superarts: `150000% Dark DMG (PHY). For 50s, increase Demon Allies' stats and accuracy by 60%.`,
+                superartsbreak: 2200
+            },
+        passive: 
+            {
+                ability1: `Increase own Arts by 1/s when Near-Death.`,
+                ability2: `Heal own HP by 1% of DMG dealt to Enemies and increase Demon Allies' Arts gauge by 3/s. Does not stack with Abilities of the same name.`,
+                ability3: `Increase own Status RES by 30%.`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_132152.png",
+                    mat2amt: 220,
+                    hover2: "Dark Summoner's Road Orbs"
+                }
+            },
+        trueweapon: //If no TW, may delete this section
+            {
+                name: `Demon Sword ZANKETSU`,
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_111361.png",
+                skill: `35s CT - 13000% Dark DMG (PHY). For 8s, reduce enemies' PHY RES and Critical RES by 30%.`,
+                skillbreak: 2000,
+                passive: 
+                    {
+                        ability1: `When equipped by Demon King Vox, increase own Skill CT REC and Equip CT REC by 15%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase ATK by 5%.`
+                    }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
     { //Zinogre Armor Rayas - Missing Lore
         id: 107006412,
         name: "Zinogre Armor Rayas",

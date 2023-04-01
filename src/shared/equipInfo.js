@@ -30411,17 +30411,17 @@ const EquipInformation = [
         lore: `Currently unreleased in Global.`
     },
     { //魔着『リュバンリアン』 (Kokuri Farmable) - JP Complete
-        id: 111311,
+        id: 111321,
         name: `魔着『リュバンリアン』`,
         translate: `Devil Suit 'Ryubenlian'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
-                detail: `/db/Equipment/Detail/item_detail_111310.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_111311.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111310.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111311.png`
+                detail: `/db/Equipment/Detail/item_detail_111320.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111321.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111320.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111321.png`
             },
         stats:
             {
@@ -30437,6 +30437,188 @@ const EquipInformation = [
         passive: 
             {
                 ability1: `Magic DMG 10% UP.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //烈脚装『テラウィンド』(Riviera Farmable) - JP Complete
+        id: 111331,
+        name: `烈脚装『テラウィンド』`,
+        translate: `Striking Pants 'Terra Wind'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111330.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111331.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111330.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111331.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 2500% Earth DMG (Physical). For 10s, increase own Skill CT Speed by 20%. If user is Demon, increase own Skill CT Speed by 40% instead.`,
+                break: 300
+            },
+        passive: 
+            {
+                ability1: `Increase Physical resistance by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+{ //翠鳴杖『エルプマギカ』(Elpenumas Raid) - JP Complete
+        id: 111341,
+        name: `翠鳴杖『エルプマギカ』`,
+        translate: `Jade Roar Staff 'Elpmagica'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111340.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111341.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111340.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111341.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 3500% Earth DMG (Magic). For 10s, increase own ATK by 30%. If User is Earth, increase own Arts Gauge by 1/s.`,
+                break: 400
+            },
+        passive: 
+            {
+                ability1: `Reduce own Max HP by 10%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+{ //極『エルプマギカ』(Elpneumas Raid EV) - JP Complete
+        id: 111351,
+        name: `極『エルプマギカ』`,
+        translate: `Jade Roar Staff 'Elpmagica' EV`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111350.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111351.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111350.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111351.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+            skillset:  
+            {
+                skill: `50s CT - 3500% Earth DMG (Magic). For 10s, increase own ATK by 30%. If User is Earth, increase own Arts Gauge by 1/s.`,
+                break: 400
+            },
+        passive: 
+            {
+                ability1: `Reduce own Max HP by 10%.`,
+                ability2: [`Water resistance 5% UP.`, `Auto-Heal own HP by 4/s.`, `HP Recovery Amount 5% UP.`, `Max HP 5% UP.`, `ATK 10% UP when above 90% HP.`, `Skill CT REC 10% UP when above 90% HP.`]
+            },
+        lore: `Currently unreleased in Global.`
+    },
+{ //真『魔剣斬決』(Demon King Vox TW) - JP Complete
+        id: 111361,
+        name: `真『魔剣斬決』`,
+        translate: `True 'Demon Sword ZANKETSU'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111360.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111361.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111360.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111361.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `35s CT - 13000% Dark DMG (Physical). For 8s, reduce enemies' PHY resistance and CRI resistance by 30%.`,
+                break: 2000
+            },
+        passive: 
+            {
+                ability1: `When equipped by Demon King Vox, increase own Skill CT Speed and Equip CT Speed by 15% (Only once).`,
+                ability2: `ATK 5% UP.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+{ //魔剣斬決 (Demon King Vox Farmable) - JP Complete
+        id: 111371,
+        name: `魔剣斬決`,
+        translate: `Demon Sword ZANKETSU`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111370.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111371.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111370.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111371.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 8000% Dark DMG (Physical). Consume 20% of own MAX HP. For 10s, reduce enemies' Dark resistance and Physical resistance by 20%.`,
+                break: 400
+            },
+        passive: 
+            {
+                ability1: `Skill DMG 10% UP.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+{ //魔王鎧『ベルゼディア』(Demon King Vox Farmable) - JP Complete
+        id: 111381,
+        name: `魔王鎧『ベルゼディア』`,
+        translate: `Demon King Armor 'Belzedia'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111380.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111381.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111380.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111381.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 6000% Dark DMG (Physical). For 8s, increase own Dark DMG by 50%. When used for the first time, increase own Arts gauge by 50.`,
+                break: 400
+            },
+        passive: 
+            {
+                ability1: `ATK 10% UP when above 90% HP.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -30518,7 +30700,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `25s CT - 3700% Earth DMG (PHY). Increase own DMG by 20% for 6s.`,
+                skill: `25s CT - 3700% Earth DMG (Physical). Increase own DMG by 20% for 6s.`,
                 break: 200
             },
         passive: 
@@ -30547,7 +30729,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `55s CT - 10000% Light DMG (PHY). Increase own Arts gauge by 30.`,
+                skill: `55s CT - 10000% Light DMG (Physical). Increase own Arts gauge by 30.`,
                 break: 1000
             },
         passive: 
