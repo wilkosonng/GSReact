@@ -22,22 +22,6 @@ const iconSize = {
     maxHeight: 30
 };
 
-const Rolly = styled.div`
-    background-image: url(${props => props.img});
-
-    &:hover {
-        background-image: url(${props => props.img});
-    }
-`
-
-//<Media src="/chara_face_1200_1.png" style={{maxHeight: "40px"}} />
-/*
-                                <NavItem>
-                                    <NavLink className="nav-link" to="/equipment" activeClassName="active">
-                                        <b><p style={{paddingTop: "3px", marginBottom: "0rem"}}>EQUIPMENT</p></b>
-                                    </NavLink>
-                                </NavItem>
-*/
 return (
     <React.Fragment>
         <Container>
@@ -70,6 +54,11 @@ return (
                                 <NavItem>
                                     <NavLink className="nav-link" to="/units" activeClassName="active" onClick={() => { setIsOpen(!isOpen) }}>
                                         <b><p style={{paddingTop: "3px", marginBottom: "0rem", marginLeft: "0px"}}>UNITS</p></b>
+                                    </NavLink>
+                                </NavItem>
+                                <NavItem>
+                                    <NavLink className="nav-link" to="/equips" activeClassName="active" onClick={() => { setIsOpen(!isOpen) }}>
+                                        <b><p style={{paddingTop: "3px", marginBottom: "0rem", marginLeft: "0px"}}>Equips</p></b>
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
