@@ -1,9 +1,8 @@
 import React from 'react';
-import { Nav, NavItem, Container, Row, Col, Card, CardGroup } from 'reactstrap';
+import { Nav, NavItem, Container, Row, Card, CardGroup } from 'reactstrap';
 import '../App.css';
 import { FaRegCopyright } from 'react-icons/fa';
 import styled from 'styled-components';
-import Adsense from './AdComponent';
 
 //Styled Component for Official Links
 const LinkColor = styled.a`
