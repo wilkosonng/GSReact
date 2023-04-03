@@ -41,8 +41,8 @@ class App extends Component {
                       <Route index />
                     </Route>
                     <Route path="units/:unitName" element={<UnitDetails />} />
-                    <Route path="testingrealmofequips/equips" element={<Equips />} />
-                    <Route path="testingrealmofequips/equips/:equipName" element={<EquipDetails />} />
+                    <Route path="equips" element={<Equips />} />
+                    <Route path="equips/:equipName" element={<EquipDetails />} />
                     <Route path="tierlist" element={<Tierlist />} />
                     <Route path="guides" element={<GuidesMainPage />} />
                     <Route path="guides/other-guides" element={<OtherGuides />} />
