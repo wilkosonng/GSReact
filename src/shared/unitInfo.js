@@ -19775,6 +19775,23 @@ const UnitInformation = [
             {   
                 evo5: "The twelfth master of Imari Village, embodying the first Mizuki's ninja arts in their latest revision. The shinobi have retained their traditions throughout the changing years, but he questions that attachment to the past. Though he reveals his misgivings by his deeds rather than his words, others are starting to take notice.",
                 evoawk: `Each generation of Mizuki refined the ancestral techniques, making him the current pinnacle of all shinobi in history. He also developed an original fighting style that combines seven different schools of martial arts: "Seventh Heaven".`
+            },
+        review:
+            {
+                skill: `Artgen on skill, tremendously useful for self-sustainability.`,
+                arts: `Teamwide cleanse and status resistance that can come in handy in several stages.`,
+                truearts: `The main part of Mizuki the 12th’s kit, decent damage along with a PHY RES debuff and artgen that stacks with most units, enabling it to easily carry three artgens that can all accomplish other functions. It must be noted that the first True Arts will only enable Third Eye, though even this has strong teamwide benefits (see Passive #3).`,
+                ability1: `Not significant for a vast majority of content, but allows Mizuki the 12th to trounce Hellfire stages.`,
+                ability2: `Buffs damage and also enables a teamwide buff for water units on NA against two enemy races, one of which is rather common.`,
+                ability3: `A common problem of units with Magia Drive, Third Eye, etc., is that they have to spend an initial 200 arts to unlock their full potential, which makes them slower as a result. However, Mizuki the 12th repays the whole team with this 200 arts investment by providing each team member with an instant 100 arts, which helps kickstart the team.`,
+                trueweapon: {
+                    skill: `Reminiscent of Emperor Isliid’s True "Sky Light", it combines a self damage buff with a Water RES debuff with a decently short CT.`,
+                    ability1: `The starting 100 arts enables him to easily reach 200 arts for Third Eye, with some help from arts up crests and other artgen equips, and thereby is tremendously useful in nuking scenarios. The stats up is a nice added touch.`,
+                    ability2: `A small Physical RES buff that can help Mizuki the 12th stay above 50% HP for his True Arts.`
+                },
+                overall: `There is not a single weak point in Mizuki the 12th’s kit. He brings a huge burst of teamwide arts on Third Eye, self-sufficiency with arts on skill, status res and cleanse on NA, and physical debuff with artgen of an uncommon type on TA with respectable damage. On top of all this, he can also stomp hellfire stages, as well as get buffs against Demon and Dragon bosses. A versatile unit that can be used in both nuking and sustain situations.`,
+                lastupdated: `March 24, 2023`,
+                author: `MOB of Metal`
             }
     },
     { // War Ginzo - Missing Lore (+ JP version)
