@@ -163,7 +163,7 @@ const Equips = () => {
                                         <Col key={equip.id} xs="4" sm="auto">
                                             <center>
                                                 <Card style={{maxWidth: "80px", backgroundColor: "#202022", border: "none"}}>
-                                                    <Link to={`/testingrealmofequips/equips/${equip.name}`} style={{textDecoration: "none", color: "#aaabb8"}} >
+                                                    <Link to={`/equips/${equip.name}`} style={{textDecoration: "none", color: "#aaabb8"}} >
                                                         <Placeholder type="rect" rows={1} ready={ equip.image.thumbmax !== "" } >
                                                             <Media src={equip.image.thumbmax} alt={equip.name} width="100%" height="auto" object-fit="cover" />
                                                         </Placeholder>
