@@ -1,7 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Card, CardHeader, CardBody, CardGroup } from 'reactstrap';
-import { StyledComponent } from 'styled-components';
-import { TwitterTimelineEmbed } from 'react-twitter-embed';
+import { Container, Row, Card, CardHeader, CardBody, CardGroup } from 'reactstrap';
 import { getNews } from '../shared/news/news';
 import { Link } from 'react-router-dom';
 import TwitterContainer from './TwitterComponent';
@@ -36,7 +34,7 @@ export default function News () {
                                                         </CardHeader>
                                                         <CardBody style={{marginTop: "30px"}}>
                                                             <center>
-                                                                <img src={theNews.preview} alt="Preview Image" style={{maxWidth: "200px", width: "auto", height: "auto", maxHeight: "400px"}} /><br/><br/>
+                                                                <img src={theNews.preview} alt="Preview" style={{maxWidth: "200px", width: "auto", height: "auto", maxHeight: "400px"}} /><br/><br/>
                                                                 <Link to={`/news/${theNews.id}`} style={{textDecoration: 'none', color: "#aaabb8"}} key={theNews.id}>
                                                                     <button style={{backgroundColor: "#22bbff", color: "#292930", maxWidth: "200px", width: "100%", height: "auto",marginTop: "2rem"}}>Read Article</button>
                                                                 </Link>
@@ -46,7 +44,7 @@ export default function News () {
                                                 </React.Fragment>
                                             )
                                         }
-
+                                        return null
                                     })}
                                 <Card style={{backgroundColor: "#292930", color: "#e7f9fc", height: "500px", width: "100%", padding: "0px", margin: "0px"}}>
                                     <CardHeader style={{backgroundColor: "#22bbff", color: "#292930", padding: "0", height: "80px"}}><h2 style={{paddingTop: "15px"}}><center>Twitter Feed</center></h2></CardHeader>
