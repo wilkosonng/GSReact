@@ -55,7 +55,7 @@ return (
                                 </NavItem>
                                 <NavItem>
                                     <NavLink className="nav-link" to="/equips" activeClassName="active" onClick={() => { setIsOpen(!isOpen) }}>
-                                        <b><p style={{paddingTop: "3px", marginBottom: "0rem", marginLeft: "0px"}}>Equips</p></b>
+                                        <b><p style={{paddingTop: "3px", marginBottom: "0rem", marginLeft: "0px"}}>EQUIPS</p></b>
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
@@ -69,7 +69,7 @@ return (
                                 <a href="https://www.facebook.com/GrandSummonersGlobal/" id="facebookLink"><FaFacebookF /></a>
                                 <a href="https://www.reddit.com/r/grandsummoners/" id="redditLink"><FaReddit /></a>
                                 <a href="https://twitter.com/GRDSMN_GLOBAL" id="twitterLink"><FaTwitterSquare /></a>
-                                <a href="https://global.grandsummoners.com/" id="gsLink"><img src="/db/Icons/drops/resultbox_close_1_3.png" style={iconSize} /></a>
+                                <a href="https://global.grandsummoners.com/" id="gsLink"><img src="/db/Icons/drops/resultbox_close_1_3.png" style={iconSize} alt="Official Grand Summoners" /></a>
                                 <Tooltip isOpen={discordTool}
                                     target="discordLink"
                                     placement="bottom"
