@@ -29,7 +29,7 @@ export default function CrestGuides () {
                                         <Col md="4">
                                             <center>
                                             <Link to={`/guides/crest-guides/${theGuides.link}`} style={{textDecoration: 'none'}} key={theGuides.id}>
-                                                <img src={theGuides.banner} style={{height: "auto", width: "100%", maxWidth: "400px"}}/>
+                                                <img src={theGuides.banner} style={{height: "auto", width: "100%", maxWidth: "400px"}} alt={theGuides.title}/>
                                             </Link></center>
                                         </Col>
                                     </React.Fragment>
