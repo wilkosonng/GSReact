@@ -87,7 +87,6 @@ const RenderSkill = ({ skillbreak, skilleffect }) => {
 }
 
 const RenderPassives = ({ passive }) => {
-    //NOTE to Dev: Some Equips have a LIST of random passives. Use accordion?
     return (
         <Row>
             <h4><strong>PASSIVES</strong></h4>
@@ -144,7 +143,6 @@ const RenderPassives = ({ passive }) => {
 const RenderAbilityList = ({ ability, num }) => {
     return (
         <>
-            
             <List type="unstyled" style={{ marginBottom: "2rem", marginTop: "2rem"}}>
             <b><i>Passive {num} is randomly assigned from this List: </i></b>
                 {
