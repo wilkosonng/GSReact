@@ -1,10 +1,7 @@
-import React, { useState, useLayoutEffect } from 'react';
+import React, { useState } from 'react';
 import { Tooltip, Navbar, NavbarToggler, Nav, NavItem, NavbarText, Collapse, Container, Row, Col, Media } from 'reactstrap';
 import { NavLink, Outlet} from 'react-router-dom';
 import { FaDiscord, FaFacebookF, FaTwitterSquare, FaReddit } from 'react-icons/fa';
-import styled from 'styled-components';
-import Rolly1 from '../assets/chara_face_1200_1.png';
-import Rolly2 from '../assets/chara_face_1200_6.png';
 
 function Header () {
 
