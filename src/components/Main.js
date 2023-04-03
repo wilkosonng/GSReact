@@ -1,19 +1,7 @@
 import React from 'react';
 import { Col, Container, Row, Media } from 'reactstrap';
-import { TwitterTimelineEmbed } from 'react-twitter-embed';
 
 //Use this file to conglomerate all the pages
-
-/**
- * Equip Banner for future use
- *                 <Col>
-                    <center>
-                        <a href="/equips">
-                            <Media src="equips_banner.png" />
-                        </a>
-                    </center>
-                </Col>
- */
 
 const imageSize = { 
     width: "100%",
@@ -40,14 +28,14 @@ function Main () {
                     <Col lg="auto">
                         <center>
                             <a href="/news">
-                                <Media src="news_banner.png" style={imageSize}/>
+                                <Media src="news_banner.png" style={imageSize} />
                             </a>
                         </center>
                     </Col>
                     <Col lg="auto">
                         <center>
                             <a href="/tierlist">
-                                <Media src="tierlist_banner.png" style={imageSize}/>
+                                <Media src="tierlist_banner.png" style={imageSize} />
                             </a>
                         </center>
                     </Col>
@@ -56,14 +44,23 @@ function Main () {
                     <Col lg="auto">
                         <center>
                             <a href="/units">
-                                <Media src="units_banner.png" style={imageSize}/>
+                                <Media src="units_banner.png" style={imageSize} />
                             </a>
                         </center>
                     </Col>
                     <Col lg="auto">
                         <center>
                             <a href="/guides">
-                                <Media src="guides_banner.png" style={imageSize}/>
+                                <Media src="guides_banner.png" style={imageSize} />
+                            </a>
+                        </center>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col lg="auto">
+                        <center>
+                            <a href="/equips">
+                                <Media src="equips_banner.png" style={imageSize} />
                             </a>
                         </center>
                     </Col>
