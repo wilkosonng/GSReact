@@ -27443,10 +27443,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //真『百花』 (Sakuya TW) - JP Complete
+{ //True 'Hyakka' - Missing Lore
         id: 110281,
-        name: `真『百花』`,
-        translate: `True 'Hyakka'`,
+        name: `True 'Hyakka'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -27472,9 +27471,9 @@ const EquipInformation = [
                 ability1: `When equipped by Sakuya, increase Skill CT speed by 30% and increase Max number of possible planted bombs by 1.`,
                 ability2: `Evasion rate 10% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //繚乱刃『百花』 (Sakuya Farmable) - JP Complete
+{ //Blooming Edges 'Hyakka' - Missing Lore
         id: 110291,
         name: `繚乱刃『百花』`,
         translate: `'Hyakka'`,
@@ -27502,11 +27501,11 @@ const EquipInformation = [
             {
                 ability1: `ATK 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //忍衣『魔封羅』 (Sakuya Farmable) - JP Complete
+{ //Shinobi Scarf 'Mafura' - Missing Lore
         id: 110301,
-        name: `忍衣『魔封羅』`,
+        name: `Shinobi Scarf 'Mafura'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -27531,7 +27530,7 @@ const EquipInformation = [
             {
                 ability1: `Skill CT speed 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //ティアーズ・オブ・エイジ (Fongion Raid Equip) - JP Complete
         id: 110311,
