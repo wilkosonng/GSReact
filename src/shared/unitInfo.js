@@ -19508,7 +19508,7 @@ const UnitInformation = [
                 author: `MOBofMetal`
             }
     },
-    { // Cestina (Light) - Complete, Review done
+    { // Cestina (Light) - Complete (+ JP version), Review done
         id: 103466412,
         name: "Cestina (Light)",
         rank: "S",
@@ -19548,6 +19548,19 @@ const UnitInformation = [
                 truearts: `45000% Light DMG (PHY). For 15s, replace the equipment in her first slot with Ultra Equip "Eisenstern". Additionally, for 15s, reduce Enemies' Light RES and Physical RES by 35%.`,
                 trueartsbreak: 1500,
                 superequip: "2s CT - 3000% Light DMG (PHY). Heal Allies' HP by 1000. For 12s, reduce Enemies' PHY RES by 5% (stackable). ",
+                superequipbreak: 300,
+                superequiptype: "/db/Mines/thumbnail/physLB.png",
+                superequipname: "Eisenstern"
+            },
+        skillsetJP: 
+            {
+                skill: "9s CT - 1400% Light DMG (PHY). For 5s, increase own ATK by 15%.",
+                skillbreak: 600,
+                arts: "15000% Light DMG (PHY). For 15s, increase Allies' PHY DMG by 50% and God Allies' Accuracy by 30%.",
+                artsbreak: 800,
+                truearts: `45000% Light DMG (PHY). For 15s, replace the equipment in her first slot with Ultra Equip "Eisenstern". Additionally, for 15s, reduce Enemies' Light RES and Physical RES by 35%.`,
+                trueartsbreak: 1500,
+                superequip: "2s CT - 3000% Light DMG (PHY). Heal Allies' HP by 1000. For 15s, reduce Enemies' PHY RES by 5% (stackable). ",
                 superequipbreak: 300,
                 superequiptype: "/db/Mines/thumbnail/physLB.png",
                 superequipname: "Eisenstern"
@@ -25618,6 +25631,15 @@ const UnitInformation = [
             {
                 skill: "12s CT - 1900% Fire DMG (PHY). For 8s, reduce Enemies' DMG RES by 10%.",
                 skillbreak: 400,
+                arts: "27000% Fire DMG (PHY). For 25s, increase own ATK by 100% and reduce Enemies' Burn RES by 50%.",
+                artsbreak: 1100,
+                truearts: "68000% Fire DMG (PHY). 100% chance of inflicting Burn. For 20s, Allies ignore 100% of Enemies' DEF.",
+                trueartsbreak: 1800
+            },
+        skillsetJP: 
+            {
+                skill: "12s CT - 1900% Fire DMG (PHY). For 8s, reduce Enemies' DMG RES by 10%.",
+                skillbreak: 400,
                 arts: "22000% Fire DMG (PHY). For 20s, increase own ATK by 100% and reduce Enemies' Burn RES by 50%.",
                 artsbreak: 1100,
                 truearts: "68000% Fire DMG (PHY). 100% chance of inflicting Burn. For 15s, Allies ignore 100% of Enemies' DEF.",
@@ -25648,7 +25670,7 @@ const UnitInformation = [
                 evoawk: "A wizard of Faity Tail. Known by his title of Dragon Slayer. he is a master of fire-based hand-to-hand combat. Though his impulsiveness gets him into fights, his fortitude lets him overcome any opponent."
             }
     },
-    { //Lucy Heartfilia - Complete
+    { //Lucy Heartfilia - Complete (+ JP version)
         id: 107566412,
         name: "Lucy Heartfilia",
         luckrank: "SS",
@@ -25684,6 +25706,15 @@ const UnitInformation = [
             {
                 skill: "12s CT - 1500% Light DMG (PHY). For 8s, reduce Enemies' ATK by 10%.",
                 skillbreak: 300,
+                arts: "15000% Water DMG (MAG). Permanently increase allies' Magic DMG by 30% (stackable, up to 150%).",
+                artsbreak: 800,
+                truearts: "50000% Light DMG (MAG). For 20s, increase Allies' Critical Rate by 100% + Increase Allies' Arts by [1 × # of Light Allies in the party]/s.",
+                trueartsbreak: 1600
+            },
+        skillsetJP: 
+            {
+                skill: "12s CT - 1500% Light DMG (PHY). For 8s, reduce Enemies' ATK by 10%.",
+                skillbreak: 300,
                 arts: "12000% Water DMG (MAG). Permanently increase allies' Magic DMG by 20% (stackable, up to 100%).",
                 artsbreak: 800,
                 truearts: "45000% Light DMG (MAG). For 15s, increase Allies' Critical Rate by 100% + Increase Allies' Arts by [1 × # of Light Allies in the party]/s.",
@@ -25714,7 +25745,7 @@ const UnitInformation = [
                 evoawk: "A young celestial wizard. Though she claims to be not too helpful in battle, she can use keys to call celestial spirits to fight in her place. This grants her a wide variety of abilities, and each form is incredibly powerful."
             }
     },
-    { //Gray Fullbuster - Complete
+    { //Gray Fullbuster - Complete (+ JP version)
         id: 107576212,
         name: "Gray Fullbuster",
         rank: "A-",
@@ -25750,6 +25781,15 @@ const UnitInformation = [
             {
                 skill: "12s CT - 1800% Water DMG (PHY). For 7s, increase own accuracy by 20%.",
                 skillbreak: 400,
+                arts: "22000% Water DMG (PHY). Permanently increase Allies' PHY DMG by 30% (up to 150%).",
+                artsbreak: 800,
+                truearts: "50000% Water DMG (PHY). For 20s, increase own DMG by 100%. If used for the first time of the Quest, increase Allies' Arts gauge by 70.",
+                trueartsbreak: 1800
+            },
+        skillsetJP: 
+            {
+                skill: "12s CT - 1800% Water DMG (PHY). For 7s, increase own accuracy by 20%.",
+                skillbreak: 400,
                 arts: "20000% Water DMG (PHY). Permanently increase Allies' PHY DMG by 20% (up to 100%).",
                 artsbreak: 800,
                 truearts: "48000% Water DMG (PHY). For 20s, increase own DMG by 100%. If used for the first time of the Quest, increase Allies' Arts by 50.",
@@ -25780,7 +25820,7 @@ const UnitInformation = [
                 evoawk: "A skilled member of the Fairy Tail. Called the Ice-Make wizard, he creates ice formations to use as weapons or armor with speed that no one else in his field can match."
             }
     },
-    { //Erza Scarlet - Complete
+    { //Erza Scarlet - Complete (+ JP version)
         id: 107586412,
         name: "Erza Scarlet",
         luckrank: "S",
@@ -25813,6 +25853,15 @@ const UnitInformation = [
                 defplus: 427
             },
         skillset: 
+            {
+                skill: "12s CT - 2000% Light DMG (PHY). For 8s, increase own DMG by 10%.",
+                skillbreak: 900,
+                arts: "20000% Light DMG (PHY). For 20s, increase own ATK by 50% and reduce Enemies' evasion by 30%.",
+                artsbreak: 1200,
+                truearts: "70000% Light DMG (PHY). For 15s, reduce Enemies' Light RES by 40% and increase own Critical DMG by [60% × # of times this True Arts has been activated] (up to 300%).",
+                trueartsbreak: 1600
+            },
+        skillsetJP: 
             {
                 skill: "12s CT - 2000% Light DMG (PHY). For 8s, increase own DMG by 10%.",
                 skillbreak: 900,
