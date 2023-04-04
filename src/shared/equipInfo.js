@@ -37039,7 +37039,7 @@ const EquipInformation = [
     },
 { //Subaru's Cell Phone (スバルの携帯電話) - JP Complete
         id: 152121,
-        name: `スバルの携帯電話`,
+        name: `Subaru's Cell Phone`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -37068,7 +37068,7 @@ const EquipInformation = [
     },
 { //Subaru's Cell Phone EV (極『スバルの携帯電話』) - JP Complete
         id: 152131,
-        name: `極『スバルの携帯電話』`,
+        name: `Subaru's Cell Phone EV`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
