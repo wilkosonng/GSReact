@@ -153,8 +153,10 @@ const Equips = () => {
 
                             //Check for Search
                             const hasMatchingName = equip.name.toLowerCase().includes(query.toLowerCase())
+                            const hasMatchingTranslate = equip.translate?.toLowerCase().includes(query.toLowerCase())
+                            
 
-                            return hasMatchingServer && hasMatchingTypes && hasMatchingName && hasMatchingRarities
+                            return hasMatchingServer && hasMatchingTypes && (hasMatchingName || hasMatchingTranslate) && hasMatchingRarities 
                         })
                         .map(equip => {
                             return (
