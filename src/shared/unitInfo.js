@@ -20052,7 +20052,7 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
     },
-    { // Sakuya - Missing Lore
+    { // Sakuya - Missing Lore, Review done
         id: 103516312,
         name: "Sakuya",
         attribute: "Earth",
@@ -20130,6 +20130,23 @@ const UnitInformation = [
             {   
                 evo5: "Currently unreleased in Global.",
                 evoawk: "Currently unreleased in Global."
+            },
+        review:
+            {
+                skill: `A rather interesting gimmick to rely on Sakuya’s buffs and damage output.`,
+                arts: `An evasion buff that’s appreciated, if the boss accuracy isn’t increased. This will help your team’s survivability. With that said however, her Arts will generally not see much use as Evasion is a very niche debuff.`,
+                truearts: `Offering a decent multiplier that can be increased even further by using Sakuya’s Skill to plant bombs and thus push the damage up to 100k% and also being able to provide a teamwide physical damage buff. Sakuya is able to dish out some great damage.`,
+                ability1: `Self sufficient artgen while in (True) Third Eye, and being able to ignore the Enemies’ DEF will help Sakuya out to be a good dps unit.`,
+                ability2: `Increases Sakuya’s Damage output furthermore by activating True Third Eye when God/Spirit Enemy is present.`,
+                ability3: `A nice 10% accuracy buff, which isn’t too noticeable. It can help a little bit, if the enemy has evasion up buff.`,
+                trueweapon: {
+                    skill: `A decent damage buff with a decent uptime, which is also able to decrease Enemies’ Earth Res. `,
+                    ability1: `A nice Skill CT Recover buff that allows Sakuya to plant Kunais faster, and increase her Damage output furthermore.`,
+                    ability2: `A nice 10% Evasion buff, if the boss doesn’t have accuracy up.`
+                },
+                overall: `Sakuya is a good Def Ignore DPS unit, if the niche is required or you don’t have better options. As she falls behind in the current meta with faster alternatives DPS units. Regardless, she can fit in the current meta with her DEF ignore niche, if needed.`,
+                lastupdated: `April 6, 2023`,
+                author: `Alice`
             }
     },
     { // Summer Cestina - Complete
@@ -25612,7 +25629,7 @@ const UnitInformation = [
                 evoawk: "In three years, her talent and temperament improved under Rudeus' guidance. However, the day after his tenth birthday was the fateful Fittoa Territory Displacement Incident. They ended up lost in the Demon Continent but were soon taken under the protection of Superd named Ruijerd. Forming the 'Dead End' party, the trio started for the Central Continent."
             }
     },
-    { //Natsu Dragneel - Complete
+    { //Natsu Dragneel - Complete, Review done
         id: 107556112,
         name: "Natsu Dragneel",
         luckrank: "A",
@@ -25685,9 +25702,26 @@ const UnitInformation = [
             {   
                 evo5: "A wizard of Fairy Tail. He was raised by the dragon Igneel, taking on his nickname of Salamander. His short-tempered nature makes him the guild's biggest troublemaker.",
                 evoawk: "A wizard of Faity Tail. Known by his title of Dragon Slayer. he is a master of fire-based hand-to-hand combat. Though his impulsiveness gets him into fights, his fortitude lets him overcome any opponent."
+            },
+        review:
+            {
+                skill: `Nice little DMG RES debuff, nothing noteworthy but not entirely redundant as well.`,
+                arts: `A long-lasting ATK buff and Burn RES debuff. Additionally, the Burn RES debuff can be helpful when paired with his True Arts for enemies with innate Burn RES. Otherwise, his Arts will generally not see use for most situations.`,
+                truearts: `What’s there not to like about a decent DMG multiplier with teamwide DEF Ignore buff. One of the few units in the game, as well as the only Fire unit able to give teamwide DEF Ignore. Furthermore, the 100% chance to inflict Burn synergises particularly well with one of his passives, which will be covered below.`,
+                ability1: `Amazing passive 3 arts/s generation as well as a nice 100% RES to both Freeze and Paralysis at the cost of keeping Natsu above 70% HP. With heals or barriers in the team, Natsu should rarely fall below this threshold and should be able to take full advantage of this passive.`,
+                ability2: `Nothing much to say here, a nice BE boost, although its impact is usually negligible.`,
+                ability3: `Sheeesh~ That’s a significant DMG buff against Burning enemies. As stated earlier, most enemies won’t have innate Burn RES and can be burned by Natsu’s True Arts, allowing Natsu to gain a substantial 100% DMG buff against the Burned enemies.`,
+                trueweapon: {
+                    skill: ``,
+                    ability1: ``,
+                    ability2: ``
+                },
+                overall: `Being one of the few units and the only Fire unit able to provide teamwide DEF Ignore in the game, Natsu is definitely by no means a useless unit. Although stages which require DEF Ignore are few and far between, he can still act as a competent DPS unit with his high True Arts DMG multiplier paired with his passive significantly increasing DMG against Burning enemies. Moreover, he is able to passively gain Arts from simply being above 70% HP, which isn’t very difficult to maintain, allowing him to perform well in sustained fights.`,
+                lastupdated: `April 6, 2023`,
+                author: `Jeffers`
             }
     },
-    { //Lucy Heartfilia - Complete (+ JP version)
+    { //Lucy Heartfilia - Complete (+ JP version), Review done
         id: 107566412,
         name: "Lucy Heartfilia",
         luckrank: "SS",
@@ -25760,9 +25794,26 @@ const UnitInformation = [
             {   
                 evo5: "A celestial wizard who joined Fairy Tail with Natsu's help. She is simple-minded and cheerful, but her careful budgeting and love of reading reveals a practical side. Usually teams up with Natsu and Happy.",
                 evoawk: "A young celestial wizard. Though she claims to be not too helpful in battle, she can use keys to call celestial spirits to fight in her place. This grants her a wide variety of abilities, and each form is incredibly powerful."
+            },
+        review:
+            {
+                skill: `Not much here, the ATK debuff can help with survivability but not very impactful overall.`,
+                arts: `Damage is typical for a NA, but also gives a teamwide permanent, stackable buff. It is only for magic damage, encouraging the use of magic-oriented units, though in the worst case scenario, she will give herself a permanent buff at the very least. Using Lucy in conjunction with other sources of artgen can allow her to use her NA 5 times to increase the whole team’s magic damage output by 150%, which is quite substantial. Note that this arts deals Water damage, despite Lucy being a Light unit. This can be helpful if bosses somehow negate or resist light damage, but it generally won't matter much.`,
+                truearts: `Decent multiplier for a support unit, but the most important aspect of Lucy’s TA is that it is currently the only light unit that both gives a teamwide crit rate of 100% while simultaneously supplying arts to the team. The only caveat is that Lucy has to be used in a team with at least 3 light units, and preferably mono-light, for her ArtsGen to be relevant.`,
+                ability1: `Light tends to have great healers and tanks, so it is not unrealistic to keep Lucy at high HP most of the time. The reward for keeping her HP close to max is a sizable buff to both ATK and DMG.`,
+                ability2: `Another buff that, while situational, can be relevant against dark enemies which normally abound in the game.`,
+                ability3: `Seems nice in theory, but in practice, she will gain too few arts from this passive to be significant, as she would need to take 5 times her max HP in damage to gain 100 arts.`,
+                trueweapon: {
+                    skill: ``,
+                    ability1: ``,
+                    ability2: ``
+                },
+                overall: `Lucy does not hide the fact that she is fairly limited to mono-light teams (or teams with 3 light units at the very least). However, she is a strong support for mono-light teams, being capable of permanently ramping the team’s Magic damage with repeated NAs, or contributing to team artgen. Her role is quite obvious and a bit limited compared to the collab’s other units, but she fulfills that role in outstanding fashion.`,
+                lastupdated: `April 6, 2023`,
+                author: `MOB of Metal`
             }
     },
-    { //Gray Fullbuster - Complete (+ JP version)
+    { //Gray Fullbuster - Complete (+ JP version), Review done
         id: 107576212,
         name: "Gray Fullbuster",
         rank: "A-",
@@ -25835,9 +25886,26 @@ const UnitInformation = [
             {   
                 evo5: "A skilled member of the Fairy Tail. Though he's rude towards Natsu, they recognize each other's talent. Has an odd tendency to suddenly strip down.",
                 evoawk: "A skilled member of the Fairy Tail. Called the Ice-Make wizard, he creates ice formations to use as weapons or armor with speed that no one else in his field can match."
+            },
+        review:
+            {
+                skill: `Nothing major to note about, the minor acccuracy buff is appreciated when needed.`,
+                arts: `Coupled with his passive, this allows Gray to increase the team's PHY DMG, including himself in quests with many prestages, making him very useful as a mob clearer.`,
+                truearts: `Another great DMG buff, albiet selfish this time, to burn down the boss after clearing all those prestages. The added first time effect of a massive 70 arts boost to the team helps if anyone is falling behind on arts when they reach the boss, something that Gray likely won't have issues with given his unique passive.`,
+                ability1: `The bread and butter of what makes Gray such a good farming unit. When he's maxed at 120 luck, that allows him to use Arts immediately at the start of each battle without having to rely on any BE or equips. With enough prestages, it'll give him a use of True Arts for free.`,
+                ability2: `The very minor resistance to Water is appreciated, but I don't think it'll make a difference very much.`,
+                ability3: `Once again appreciated to protect him from freeze, but it's basically a coinflip as to if he gets frozen.`,
+                trueweapon: {
+                    skill: ``,
+                    ability1: ``,
+                    ability2: ``
+                },
+                overall: `Gray comes swinging at farm teams as an effective upgrade to Kazuma from Yu Yu Hakusho. As a Luck unit, he excels at not only clearing waves, but also providing teamwide Arts (for the first time), and even as a decent DPS/Buffer. He provides excellent damage buffs to himself and to the team, with very offensive slots to help in full luck nukes. With all that said, he serves as one of the best Luck units in the game, period.`,
+                lastupdated: `April 6, 2023`,
+                author: `Senshi`
             }
     },
-    { //Erza Scarlet - Complete (+ JP version)
+    { //Erza Scarlet - Complete (+ JP version), Review done
         id: 107586412,
         name: "Erza Scarlet",
         luckrank: "S",
@@ -25910,6 +25978,24 @@ const UnitInformation = [
             {   
                 evo5: "The strongest woman in Fairy Tail. Her status as an S-Class wizard lets her accept S-Class requests. Her stern, strong-minded personality keeps the other men of the guild at arms' reach, and even Natsu and Gray listen to her commands.",
                 evoawk: "The strongest woman in Fairy Tail. Her status as an S-Class wizard lets her accept S-Class requests. Her nickname means \"queen of the fairies\", and her magic ability \"The Knight\" lets her \"reequip\" arms, instantly changing in the middle of battle."
+            },
+        review:
+            {
+                skill: `Being a small boost to begin with, 10% is a mere droplet in such a large pool of DMG Up buffs provided by Erza's True Arts.`,
+                arts: `While a 50% ATK boost is pretty decent, you'll mostly just be using Erza's True Arts for the more favorable boosts in damage output and also how you'd want to use her True Arts consecutively to ramp the damage up. However, coupled with accuracy buffs, the 30% evasion debuff can come in handy against highly evasive bosses.`,
+                truearts: `Huge multiplier, potent resistance debuff, and increasingly large DMG up buffs. With passive critical rate as the cherry on top, it will hit harder than a truck searching for isekai victims. Furthermore, it will get more powerful after each use (effects max out at 5 uses, of course). Even without ramping, her True Arts can already unleash a huge amount of damage and provide great damage support for light damage dealers with herself included.`,
+                ability1: `A key component of her kit, this passive is something you'll want to maintain in order for Erza perform her utmost best as a DPS unit. The automatic Arts gauge generation will help greatly in stacking up her DMG buffs, and the innate critical rate boost will ensure maximal damage against enemies with high defense. Against foes with critical resistance, you can bring an additional critical rate boost to land critical hits, assuming that the enemies don't have a resistance value substantially higher than 100% (in which case, you'll bring DEF ignore).`,
+                ability2: `The value is pretty negligible, and it's especially so since Erza's not redirecting damage or anything.`,
+                ability3: `Being a mere 50%, Erza might occasionally dodge paralysis, but this would mostly reduce the paralysis duration by a bit. Not really special/important to Erza's kit, and you could always just bring a defense item to deal with various kinds of ailments.`,
+                trueweapon: {
+                    skill: ``,
+                    ability1: ``,
+                    ability2: ``
+                },
+                overall: `Erza can already unleash a great amount of damage on the initial True Arts, and she can increase her damage output until she caps out at a total of five True Arts uses. As such, she can serve as an excellent DPS unit for most content, whether the stage is short or long. The conditions on her passive seem kind of strict, but it ultimately isn't an issue for lengthier content (where it will matter most for her kit) since you're always expected to bring a healer for those kinds of stages anyway. And unlike most ramping DPS units, she doesn't need too much to get the ball rolling, and there aren't really any disadvantages that would deter her usage in general content as she would already be able to deal more than satisfactory damage from the get-go without hassles like stacking Normal Arts or severe health drain.
+                For nuking, she can provide pretty good damage support, boasting a potent Light Resistance debuff and two 5-star physical slots that could fit more debuffs or buffs to further enhance the team's damage output while also dishing out a fairly large amount of damage herself. As a side note, her innate critical rate and ability to hold fast, hard-hitting weapons like True Grand Destin may be of use for clearing some mob stages on auto (or just in general).`,
+                lastupdated: `April 6, 2023`,
+                author: `Praying Patrick`
             }
     },
     { // Nui Harume - Complete
