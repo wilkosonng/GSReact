@@ -10821,12 +10821,13 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `60s CT - 4444% Dark DMG (Magic). If this attack hits a Boss with Status Ailments, steal 20 Arts gauge from it. Reduce Enemies' Blind RES by 50% for 6s.`,
+                break: 1000
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Grohl, increase DMG by 20%, and heal HP by 200/s when inflicted by a status ailment (Only once).`,
+                ability2: `Increase DMG by 20% to Bosses with less than 30% HP (Only once).`
             },
         lore: `Missing Lore.`
     },
@@ -27755,7 +27756,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `40s CT - `,
+                skill: `40s CT - 2000% Fire DMG (Magic). If user is Female, increases own Arts gauge by 1 for 10s. If user is Male, increases own Break Power by 30% for 10s`,
                 break: 1500
             },
         passive: 
