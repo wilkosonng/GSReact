@@ -20184,7 +20184,7 @@ const UnitInformation = [
                 author: `Alice`
             }
     },
-    { // Summer Cestina - Complete
+    { // Summer Cestina - Complete, Review done
         id: 103596112,
         name: "Summer Cestina",
         rank: "A+",
@@ -20250,10 +20250,27 @@ const UnitInformation = [
             {   
                 evo5: "Cestina was looking forward to the summer vacation. What made her happiest was how all of her siblings were going -- the first time in years. Her younger brother Luahn, long unable to join due to his busy schedule, would finally see their island. She wanted to show him the pristine beach and introduce him to her favorite ice cream as soon as possible. Her excitement made each minute feel like an eternity as the billowing sails carried their boat southwards.",
                 evoawk: "The second princess of Gran Verge keenly anticipated her vacation on the tropical Twilight Isle. It would be rare chance the royal family could forget their worries and enjoy some quality time together. As the ship neared those sunny shores, visions of past events reemerged in her dreams. She would never tell a soul, but the memories of her late father amidst the tumult and the strife of their voyage were those she treasured most."
+            },
+        review:
+            {
+                skill: `With a low magnitude and a short duration, the buff is basically unnoticeable.`,
+                arts: `While it is in a new, different arts generation grouping (Type F), the duration and rate at which it generates are fairly small in today's standards. The magnitude of the fire resistance debuff is okay, but it's usually much better to just use true arts and opt for other units in both arts generating and debuffing.`,
+                truearts: `As long as Beach Spiker (Summer) Cestina is healthy, she boasts the highest possible damage multiplier in the game. Assuming there are no max HP debuffs, she will have a multiplier of at least 160000% at full health (level 90, maxed tasmon stats, equipped), and Summer Cestina's damage can be further increased through items that increase max HP such as Feena Devil Wings, Iris's Change of Pace, etc. Some stages may increase max HP and raise her damage multiplier to immensely high levels, and other stages may have mechanics that will greatly lower Summer Cestina's HP and thus make her deal incredibly low damage.`,
+                ability1: `Regardless of the requirement, 15% more ATK isn't really noticeable.`,
+                ability2: `It's a decent passive to provide Cestina a little bit of self-sufficiency.`,
+                ability3: `This is what you can call "payback" if you almost get wrecked by a boss, allowing you to make a last stand and basically unleash a supernova. You can also nuke certain bosses that start you at near-death or just hit really hard at the beginning.`,
+                trueweapon: {
+                    skill: ``,
+                    ability1: ``,
+                    ability2: ``
+                },
+                overall: `With the right conditions, Beach Spiker Cestina can deal the highest damage in the game. She is already a solid DPS option if the team can keep her healthy, and with ample max HP and damage support, she can be an absolute powerhouse. There are a few DPS units that are generally more accessible and practical for both sustaining and nuking, whether it’s providing more utility, dealing great damage through easier means, or just being faster, but Beach Spiker Cestina is nonetheless a very impressive and interesting unit.`,
+                lastupdated: `November 9, 2022`,
+                author: `PrayingPatrick`
             }
             
     },
-    { // Summer Liza - Complete
+    { // Summer Liza - Complete, Review done
         id: 103606212,
         name: "Summer Liza",
         rank: "A+",
@@ -20319,8 +20336,24 @@ const UnitInformation = [
             {   
                 evo5: "Liza declared that this summer, everyone in the family would go on a vacation. This meant they needed to depart later in the season to accommodate for Luahn's busy schedule and miss the bulk of the festivities, but she was not disappointed in the least. There was still plenty of enjoyment to be had swimming, barbequing, and more with her beloved siblings, including a special surprise of her own...",
                 evoawk: "Liza surprised the others with an extra-loud, extra-dazzling fireworks display. The only downside was it needed a stable source of magical energy, which was rare on the isolated island. Although there was a low-powered variety, she wanted to remain true to the technique her late father taught her. She listened to everyone's laughter and cheers, hoping he was enjoying them just as much."
+            },
+        review:
+            {
+                skill: `The healing does have some use if you're using a mono water team, outside of that it's rather mediocre. Only upside is that the healing happens the second her skill is used.`,
+                arts: `While the stacking dmg res is nice, the 7 odd second animation on her Art heavily limits the number of stacks you can get, making it better to just spam her TA instead.`,
+                truearts: `Despite having a multiplier from 3 years ago, the teamwide dmg up she offers more than makes up for it. Having the potential to give everyone 200% dmg up allows other hard hitting allies to do their job better, even if you're only giving them the 100% crit dmg up and not the whole buff.`,
+                ability1: `The instant 100 Arts she gets is a useful addition, allowing her to either get started sooner or limit the downside of dignified silence in nukes. Her crit rate being locked behind her being over 80% HP does hurt a bit, however it's rarely an issue if you're nuking or running a solid team.`,
+                ability2: `Well, it's something. Never know when it might be helpful.`,
+                ability3: `Who doesn't love passive artgen?`,
+                trueweapon: {
+                    skill: ``,
+                    ability1: ``,
+                    ability2: ``
+                },
+                overall: `Despite being overshadowed by her younger sister, Liza is still a competent unit being able to compete with other magic buffers such as Santa Rimuru and Fubuki. Additionally, unlike them she can also work for non magic teams if you lack stronger dmg buffers. However, on her own she's rather mediocre. She needs another strong unit who can make the most of her buffs to shine, good thing Hao is here to fill that role for now.`,
+                lastupdated: `November 9, 2022`,
+                author: `Zanster`
             }
-            
     },
     { // War God Fen - Missing Lore
         id: 103617312,
