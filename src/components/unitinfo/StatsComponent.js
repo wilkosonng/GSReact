@@ -173,17 +173,17 @@ function RenderPassives({ unitPassive, isReview, unitReview }) {
         <Row>
             <h3><strong>PASSIVES</strong></h3>
             <List type="unstyled">
-                <li>{unitPassive.ability1}</li>
+                <li style={{marginBottom: "1rem"}}>{unitPassive.ability1}</li>
                 {isReview && unitReview.ability1 && <UnitReviews review={unitReview.ability1} />}
                 { unitPassive.ability2 && 
                     <>
-                        <li>{unitPassive.ability2}</li>
+                        <li style={{marginBottom: "1rem"}}>{unitPassive.ability2}</li>
                         {isReview && unitReview.ability2 && <UnitReviews review={unitReview.ability2} />}
                     </> 
                 }
                 { unitPassive.ability3 && 
                     <>
-                        <li>{unitPassive.ability3}</li>
+                        <li style={{marginBottom: "1rem"}}>{unitPassive.ability3}</li>
                         {isReview && unitReview.ability3 && <UnitReviews review={unitReview.ability3} />}
                     </> 
                 }
