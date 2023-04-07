@@ -19102,7 +19102,7 @@ const UnitInformation = [
                 evoawk: "Her ideal form as a master archer. Having honed the power of vision granted by the Seed, she strikes her target without mistake or hesitance. However, no trace remains of her original innocence, warmth, and vivacity. She has become a killing machine, deaf to all... except him."
             }
     },
-    { //Emperor Isliid - Complete
+    { //Emperor Isliid - Complete, Review done
         id: 103426412,
         name: "Emperor Isliid",
         attribute: "Light",
@@ -19146,7 +19146,8 @@ const UnitInformation = [
             {
                 ability1: "When in Sky Light Sword Mode,  activations of own True Arts increase Allies' accuracy by 30% for 15s, and DMG of own True Arts against Gods is increased by 150%. If Emperor of Isliid is in the 1st position, he will only use this mode.",
                 ability2: "When in Terra Master Sword Mode, activations of own True Arts increase Allies' DMG RES by 20% for 15s, and DMG of own True Arts against Humans is increased by 150%. If the Emperor of Isliid is in the 2nd position, he will only use this mode.",
-                ability3: "When in Dark Bringer Sword Mode, activations of own True Arts increase Allies' ATK by 50% for 15s, and DMG of own True Arts against Demons is increased by 150%. If the Emperor of Isliid is in the 3rd position, he will only use this mode."
+                ability3: "When in Dark Bringer Sword Mode, activations of own True Arts increase Allies' ATK by 50% for 15s, and DMG of own True Arts against Demons is increased by 150%. If the Emperor of Isliid is in the 3rd position, he will only use this mode.",
+                ability4: `NOTE: If Emperor Isliid is in the 4th Party Slot, he will change modes every True Arts (Skylight -> Granveus -> Darkbringer -> Repeat)`
             }, 
         evolution: 
             {
@@ -19216,6 +19217,40 @@ const UnitInformation = [
             {   
                 evo5: "The young ruler of the Isliid Empire, enthroned in secret with the passing of his predecessor. Though he was a figure of exceptional valor, imperial men have historically short lifespans. As a result, no one doubts the legitimacy of his ascension, but very few are privy to the finer details, and much about him is still shrouded in mystery.",
                 evoawk: "Like all who ruled Isliid, he is a direct descendant of the original Human born from Yggdrasil. They are considered the ultimate prototypes, blessed with the ability to realize mankind's limitless possibilities. Across each generation, the emperors worked to free the sealed Races, and some even exercised authority over all Raktehelm. However, he is different, for he looks past such purposes."
+            },
+        review:
+            {
+                skill: `Amazing Self-Sufficiency, combined with the Arts Gen from True Arts you'll have 190 Arts every 15 seconds.`,
+                arts: `A small glimpse into the versatility of Emperor, providing pseudo-heals and Resistance Down debuff with just Arts.`,
+                truearts: `All hail the Emperor Isliid! In one True Arts he provides; DPS and Artsgen with a bonus Accuracy, DMG Res, or ATK Buff. It's hard to deny the fact that this unit does it all, what's better is that this is very spammable thanks to his Skill as well.`,
+                ability1: `This is the most niche Sword that Emperor possesses, with Accuracy being rarely needed and God enemies being few and far between.`,
+                ability2: `This should be your standard Sword for most Endgame content due to the near-permanent DMG Resistance buff. Humans are also a very common enemy race in harder content, notable stages would be: Vitz, Chloe, Ganan, Gilliam, Emi, Groytz.`,
+                ability3: `Putting aside the Demon Killer, this Sword will be used for buffing the teams damage for more relaxed stages that don't demand copious amounts of DMG Res or stages you can speed through. Demons are the most common enemy type alongside the multiple Valzandeth/Dragon SPEX events.`,
+                ability4: `You won't be using this one that often unless you’re using him as Mines Support or someone else is joining Multi and can't swap to an ideal position.`,
+                trueweapon: {
+                    true1: {
+                        skill: `Average Light Res Down Debuff with a decent DMG Up buff, You probably wouldnt use this over True "Cantabille" in a Mono Light since Emperor already has plenty DMG Up from Sword Positions.`,
+                        ability1: `Generally the weakest passive out of his TW's, the accuracy boost will only be needed against a few bosses.`,
+                        ability2: `Negligible Passive`
+                    },
+                    true2: {
+                        skill: `Strong Artsgen equip, with slightly under 1 Arts/s factoring CT but a strong 35% DMG Up buff to all Humans.`,
+                        ability1: `While not the best passive, it's not the worst. Increased stats is a nice bonus for Emperor.`,
+                        ability2: `BREAK is a rare occurance nowadays, but the DMG Buff is appreciated.`
+                    },
+                    true3: {
+                        skill: `Ah yes, the best PHY Res down equipment for Sustain. Boasting the 2nd highest PHY Res down debuff available in global, Dark Bringer will be a staple in all PHYS teams especially nuking.`,
+                        ability1: `DMG Up is always appreciated, especially when paired with the amazing active.`,
+                        ability2: `Negligible Passive`
+                    }
+                },
+                overall: `Well...he's here. While being compared to his biggest counterpart, Juno, he's much faster, with decent equipment you can get his TA off in 9 seconds without needing to worry about BE. His TA's healthdrain is instant and a bit weaker, However, due to how spammable his TA is you'll still be draining health at a rather concerning rate. Good thing his Normal art can be cycled in as needed to provide some healing or just put a decent healer on the team.
+
+                So, why is Emperor not actually the must Pity unit? Well, it comes down to the fact that we can still clear content without him. When the main appeal of these Type B Artsgens is their high APS amount with a strong secondary effect (Hart = Healing + Stats, Juno = DPS + Accuracy, Emperor = All supportive buffs except crit), you’ll find that Emperor only serves as an optimization of your Type B Artsgen Slot, providing more damage when paired with the Physical Teams and versatility through Sword Buffs, Pseudo-Healing, and all 5 Star Slotting.
+                
+                In other words: He’s the best but you still need units to build around him to clear endgame difficulty quests.`,
+                lastupdated: `November 17, 2022`,
+                author: `Gian`
             }
     },
     { //Beguiler Selia - Complete
@@ -20450,7 +20485,7 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
     },
-    { // Cosmo - Complete, Review Complete
+    { // Cosmo - Complete, Review done
         id: 103626412,
         name: "Cosmo",
         rank: "A+",
