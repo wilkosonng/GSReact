@@ -25141,7 +25141,7 @@ const UnitInformation = [
                 evoawk: "An electronic diva who restored spring and song to Raktehelm. Clad in the blossoms that announce the chaging of season, she saved Bamint from an endless cold. Her voice not only reminded the people of the joy of singing, but it also called a wind said to have made the flowers sing as well. For this, some believed her to be a priestess of ancient legend. However, before this could be confirmed, she vanished in a flurry of petals wearing a satisfied smile."
             }
     },
-    { //Yoh - Complete (+ JP version)
+    { //Yoh - Complete (+ JP version), Review done
         id: 107476112,
         name: "Yoh Asakura",
         rank: "S",
@@ -25213,9 +25213,26 @@ const UnitInformation = [
             {   
                 evo5: "A shaman, one who connects the real world with the spirit realm. He has a laid-back personality best demonstrated by his favorite saying: 'Everything will work out.' He fights with his guardian ghost, Amidamaru, a legendary samurai once feared as a demon, and the sword he used, Harusame.",
                 evoawk: "A shaman, one who connects the real word with the spirit realm. He pushed his power to a new extreme after intense training, and even Tao Ren admits his superiority as a rival. His fiancée Anna made the battle outfit he wears."
+            },
+        review:
+            {
+                skill: `Although it has an above average CT, its still an amazing skill that permanently increases Yoh's DMG greatly. This is especially so for multi-wave quests where his Skill resets each stage for an easier time stacking DMG buffs. Definitely try to get this skill off as much as possible till max stacks.`,
+                arts: `A decent multiplier with a great offensive buff for physical damage oriented teams. Do note that his physical damage buff will be permanently 120% at max stacks and it is not able to stack with physical damage buffs from other units such as Cestina and Swordsman Berwick. Since it requires a hefty 600 arts for max stacks, you would usually stack this arts when you have the luxury to do so or for longer stages. Otherwise, you are better off sticking to his True Arts for the Arts generation and buffs.`,
+                truearts: `An average damage multiplier, alongside great arts generation capabilities. Yoh's True Arts coupled with his Skill and Normal Arts buffs, enables him to perform as a competent DPS as well. Overall, this allows Yoh to be easily slotted into general teams and further shine in Fire elemental teams due to the attack buff.`,
+                ability1: `A small increase to his damage output when HP falls below 40%, but you don't ever want to be near death in the first place.`,
+                ability2: `A small increase to his survivability when HP falls below 40%, but similar to his first passive, you don't want to be near-death in the first place.`,
+                ability3: `A significant passive to Yoh's kit as it ensures him self-sufficiency as long as he is free of any status ailments, allowing him to perform his support capabilities more efficiently.`,
+                trueweapon: {
+                    skill: ``,
+                    ability1: ``,
+                    ability2: ``
+                },
+                overall: `Although he got outshone by Hao in the hype-side of things, Yoh is still definitely an impressive unit. His overall kit and self sufficiency allows him to be a flexible addition to any team by providing both consistent Arts generation and buffs. He is also one of a few Fire elemental ArtsGen unit, and would excel in mono-fire elemental teams alongside his attack buff on True Arts. His Arts when ramped is also amazing as a permanent offensive support for physical damage oriented teams. Overall, Yoh is a solid unit and a great addition to any box.`,
+                lastupdated: `November 4, 2022`,
+                author: `Jeffers`
             }
     },
-    { //Anna Kyoyama- Complete (+ JP version)
+    { //Anna Kyoyama- Complete (+ JP version), Review done
         id: 107486312,
         name: "Anna Kyoyama",
         rank: "B+",
@@ -25287,9 +25304,26 @@ const UnitInformation = [
             {   
                 evo5: "The Itako of Osorezan and Asakura Yoh's fiancée. She can call spirits with her channeling powers. Though stern and fearless, she also has a thoughtful side as shown by the battle outfit she made for Yoh.",
                 evoawk: "The Itako of Osorezan and Asakura Yoh's fiancée. After obtaining the Ultra Senji Ryakketsu, she instantly tamed the Shikigami within, Zenki and Goki, to become her guardian ghosts."
+            },
+        review:
+            {
+                skill: `Long CT for a mediocre multiplier, topped with a negligible Evasion debuff.`,
+                arts: `At first it may sound nice, providing burst Arts gauge and a soft survival tool in the form of Enemy DMG Reduction, a rarer form of DMG RES UP (and stacks multiplicatively with). However her slow slotting hinders her from performing as a sub artsgen. You’re better sticking to her TA most of the time and should only use NA in case your units are <20 Arts away from a TA. As for the DMG reduction, most of the time it’s better to just bring a form of hard survival (barrier and/or heal) with additional Defense equips if still not enough, since on bosses that apply large DMG Up buffs on self, this effect won’t have much impact.`,
+                truearts: `An average multiplier coupled with DEF Ignore and a hefty teamwide 60% Earth DMG buff. This is where the bulk of her kit lies, providing a great offensive tool in a mono-Earth comp, both in sustain and nuking. Add her third passive into play and you get a whopping 100% Earth DMG UP. The generously long duration of the buffs can also help leverage Allies’ damage in sustain comps, aside from niche usage on certain stages.`,
+                ability1: `A small Equip CT buff to help equips cycle faster.`,
+                ability2: `Any DMG buff is always appreciated, though most stages won’t require Break.`,
+                ability3: `A huge, unconditional damage boost for Earth and Fire Allies further incentivizes, though not limit, her usage in mono-Earth teams.`,
+                trueweapon: {
+                    skill: ``,
+                    ability1: ``,
+                    ability2: ``
+                },
+                overall: `Anna is a great addition to mono-Earth comps, providing up to 100% Earth DMG buff topped with DEF Ignore at a long duration. With a 20 Arts gauge refund on Arts, one might assume she can perform as a sub artsgen. However, her bad slotting heavily hinders her in this regard. As for her Enemy DMG Reduction debuff, it’s merely a scratch on the sheer amount of DMG UP buffs a boss can apply. This makes her NA better thought as an additional tool when you have enough artsgen to rotate her NA and TA. Packing heavy Earth-based DMG buffs and a lack of notable utilities, Anna has a hard time finding a use outside mono Earth situations.`,
+                lastupdated: `November 4, 2022`,
+                author: `Zanster`
             }
     },
-    { //Ren - Complete (+ JP version)
+    { //Ren - Complete (+ JP version), Review done
         id: 107496512,
         name: "Ren Tao",
         attribute: "Dark",
@@ -25361,9 +25395,26 @@ const UnitInformation = [
             {   
                 evo5: "The son of a shaman family and Asakura Yoh's rival. Placing great pride in himself, he fights with his ancestral guardian ghost Bason and a weapon called Basontou.",
                 evoawk: "The son of a shaman family and Asakura Yoh's Rival. To prepare for the Shaman Fight, he strengthened the Basontou to perform the powerful Golden Vorpal Dance."
+            },
+        review:
+            {
+                skill: `A large source of Arts Gen at 5 Arts/s if its condition is met, also aiding in stacking Ren's Arts in order to build up his DMG.`,
+                arts: `With a hefty cost of 500 total Arts to max his buffs, like all ramping units, this is a fairly expensive Arts. However, due to his Passive's and Skill's ArtsGen, it only takes Ren 5 - 6 Stages to fully ramp given the right conditions, providing a large 300% DMG boost to himself. This Arts can also be used as a stage clear due to said Passive & Skill.`,
+                truearts: `Possessing a large Multiplier for nuking, although its damage is heavily dependent on Ren’s NA stacks and the amount of Dark Allies on the team. The ideal use would be within Dark mono nuke comps in a quest with multiple pre-boss waves.`,
+                ability1: `A nice Arts boost at the start of every wave to help Ren ramp up his damage by using his Arts.`,
+                ability2: `A good DMG boost to help Ren finish low health bosses.`,
+                ability3: `A very insignificant passive.`,
+                trueweapon: {
+                    skill: ``,
+                    ability1: ``,
+                    ability2: ``
+                },
+                overall: `A Dark Nuke unit with ramping damage and the ability to clear mob stages due to his Skill and Passive. Although Ren can work as a DPS for sustained content thanks to his Skill’s 5 Arts/s and permanent 300% DMG buff from his Arts, at the cost of 500 total Arts, he will usually only shine at multi-wave stages where he is able to stack DMG buffs on pre-boss waves.`,
+                lastupdated: `November 4, 2022`,
+                author: `Zanster`
             }
     },
-    { //Hao - Complete (+ JP version)
+    { //Hao - Complete (+ JP version), Review done
         id: 107506112,
         name: "Hao",
         rank: "A+",
@@ -25435,6 +25486,23 @@ const UnitInformation = [
             {   
                 evo5: "The strongest shaman who calls himself the Future King. He boasts incredible strength as the master of the Hao School. He often says 'puny'.",
                 evoawk: "The strongest shaman who calls himself the Future King. His guardian ghost is the Spirit of Fire, one of the five Grand Elemental Spirits, which can become more powerful by consuming souls."
+            },
+        review:
+            {
+                skill: `A rather negligible attack buff with a high uptime that will help increase his damage.`,
+                arts: `This Arts gives decent arts to all allies while being self sufficient from his passive. With this, Hao can act as a good arts gen when you're low on arts. This Arts also has the capability to reduce Burn RES, which can be very helpful when it comes to dealing with bosses with Burn RES.`,
+                truearts: `Well, there is certainly a lot to say about this TA. Apart form boasting a high multiplier, Hao offers some of the highest debuffs in game, capable of inflicting both 50% MAG RES down and 50% Fire RES down, which can be easily done with his Arts reducing Burn RES as well as his True Arts already having a 100% chance to Burn.`,
+                ability1: `This is... easily one of the strongest passive in game. An innate 7 arts per second which can stack with other arts gen, allowing Hao to continuously cycle Arts after Arts.`,
+                ability2: `Allows Hao to evade Freeze for the situations which call for it.`,
+                ability3: `Allows Hao to evade Burn for the situations which call for it.`,
+                trueweapon: {
+                    skill: ``,
+                    ability1: ``,
+                    ability2: ``
+                },
+                overall: `Crazy high multiplier and debuffs on TA, highest arts/s passive in game, as well as being able to carry three 5 star slots. With the capability to cycle his Arts repeatedly from his passive ArtsGen, he can constantly dish out damage. Hao is definitely a very consistent DPS, especially if the enemy does not have Burn RES.`,
+                lastupdated: `November 4, 2022`,
+                author: `Zanster`
             }
     },
     { //Rudeus - Complete
