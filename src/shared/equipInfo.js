@@ -7209,6 +7209,7 @@ const EquipInformation = [
         id: 102961,
         name: `超必殺忍蜂`,
         translate: `Super Shinobi Bee`,
+        location: `Crossover Equip Summon: King of Fighters Collab`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -7239,6 +7240,7 @@ const EquipInformation = [
         id: 102971,
         name: `鳳凰の舞`,
         translate: `Phoenix Dance`,
+        location: `Crossover Equip Summon: King of Fighters Collab`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -7269,6 +7271,7 @@ const EquipInformation = [
         id: 102981,
         name: `龍炎舞`,
         translate: `Dragon Flame Dance`,
+        location: `Crossover Equip Summon: King of Fighters Collab`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 3,
         image: 
@@ -7299,6 +7302,7 @@ const EquipInformation = [
         id: 102991,
         name: `裏百八式・大蛇薙`,
         translate: `Ura Hundred Eight Styles・Ojanagi`,
+        location: `Crossover Equip Summon: King of Fighters Collab`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -7329,6 +7333,7 @@ const EquipInformation = [
         id: 103001,
         name: `九百拾式・鵺摘み`,
         translate: `900-Style・Nue Picking`,
+        location: `Crossover Equip Summon: King of Fighters Collab`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -7359,6 +7364,7 @@ const EquipInformation = [
         id: 103011,
         name: `百拾四式・荒咬み`,
         translate: `104-Style・Rough Biting`,
+        location: `Crossover Equip Summon: King of Fighters Collab`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 3,
         image: 
@@ -7389,6 +7395,7 @@ const EquipInformation = [
         id: 103021,
         name: `禁千弐百拾壱式・八稚女`,
         translate: `1,000,200,110 Girls`,
+        location: `Crossover Equip Summon: King of Fighters Collab`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -7419,6 +7426,7 @@ const EquipInformation = [
         id: 103031,
         name: `百式・鬼焼き`,
         translate: `Hyakushiki・Oniyaki`,
+        location: `Crossover Equip Summon: King of Fighters Collab`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -7449,6 +7457,7 @@ const EquipInformation = [
         id: 103041,
         name: `百八式・闇払い`,
         translate: `Type 108・Yamiharai`,
+        location: `Crossover Equip Summon: King of Fighters Collab`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 3,
         image: 
@@ -31002,6 +31011,7 @@ const EquipInformation = [
 { //バルクヘルム (Monster Hunter equip) - JP Complete
         id: 150011,
         name: `バルクヘルム`,
+        location: `Crossover Equip Summon: Monster Hunter Collab`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -31031,6 +31041,7 @@ const EquipInformation = [
 { //バルクメイル (Monster Hunter equip) - JP Complete
         id: 150021,
         name: `バルクメイル`,
+        location: `Crossover Equip Summon: Monster Hunter Collab`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -31060,6 +31071,7 @@ const EquipInformation = [
 { //レウスSアーム (Monster Hunter equip) - JP Complete
         id: 150031,
         name: `レウスSアーム`,
+        location: `Crossover Equip Summon: Monster Hunter Collab`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -31089,6 +31101,7 @@ const EquipInformation = [
 { //レウスSフォールド (Monster Hunter equip) - JP Complete
         id: 150041,
         name: `レウスSフォールド`,
+        location: `Crossover Equip Summon: Monster Hunter Collab`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -31118,6 +31131,7 @@ const EquipInformation = [
 { //レイアRヘルム (Monster Hunter equip) - JP Complete
         id: 150051,
         name: `レイアRヘルム`,
+        location: `Crossover Equip Summon: Monster Hunter Collab`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
         image: 
@@ -31147,6 +31161,7 @@ const EquipInformation = [
 { //レイアRグリーヴ (Monster Hunter equip) - JP Complete
         id: 150061,
         name: `レイアRグリーヴ`,
+        location: `Crossover Equip Summon: Monster Hunter Collab`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -31176,6 +31191,7 @@ const EquipInformation = [
 { //金狼剣シツライ (Monster Hunter equip) - JP Complete
         id: 150071,
         name: `金狼剣シツライ`,
+        location: `Crossover Equip Summon: Monster Hunter Collab`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -31205,6 +31221,7 @@ const EquipInformation = [
 { //狐刀カカルクモナキ (Monster Hunter equip) - JP Complete
         id: 150081,
         name: `狐刀カカルクモナキ`,
+        location: `Crossover Equip Summon: Monster Hunter Collab`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -31234,6 +31251,7 @@ const EquipInformation = [
 { //テスカブレイド (Monster Hunter equip) - JP Complete
         id: 150091,
         name: `テスカブレイド`,
+        location: `Crossover Equip Summon: Monster Hunter Collab`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -31263,6 +31281,7 @@ const EquipInformation = [
 { //キリンRベスト (Monster Hunter equip) - JP Complete
         id: 150101,
         name: `キリンRベスト`,
+        location: `Crossover Equip Summon: Monster Hunter Collab`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -31292,6 +31311,7 @@ const EquipInformation = [
 { //クイーンブラスターI (Monster Hunter equip) - JP Complete
         id: 150111,
         name: `クイーンブラスターI`,
+        location: `Crossover Equip Summon: Monster Hunter Collab`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 3,
         image: 
@@ -31321,6 +31341,7 @@ const EquipInformation = [
 { //レウスネコブレイド (Monster Hunter equip) - JP Complete
         id: 150121,
         name: `レウスネコブレイド`,
+        location: `Crossover Equip Summon: Monster Hunter Collab`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 3,
         image: 
@@ -31350,6 +31371,7 @@ const EquipInformation = [
 { //Scissor Blade - Complete
         id: 150131,
         name: `Scissor Blade`,
+        location: `Crossover Equip Summon: Kill La Kill Collab`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -31379,6 +31401,7 @@ const EquipInformation = [
 { //Bakuzan - Complete
         id: 150141,
         name: `Bakuzan`,
+        location: `Crossover Equip Summon: Kill La Kill Collab`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -31408,6 +31431,7 @@ const EquipInformation = [
 { //Fight Club Goku Uniform - Complete
         id: 150151,
         name: `Fight Club Goku Uniform`,
+        location: `Crossover Equip Summon: Kill La Kill Collab`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -31437,6 +31461,7 @@ const EquipInformation = [
 { //Mako-Knuckle - Complete
         id: 150161,
         name: `Mako-Knuckle`,
+        location: `Limited Crossover Event: Kill La Kill`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -31466,6 +31491,7 @@ const EquipInformation = [
 { //Senketsu - Complete
         id: 150171,
         name: `Senketsu`,
+        location: `Limited Crossover Event: Kill La Kill`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -31495,6 +31521,7 @@ const EquipInformation = [
 { //Junketsu - Complete
         id: 150181,
         name: `Junketsu`,
+        location: `Limited Crossover Event: Kill La Kill`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -31524,6 +31551,7 @@ const EquipInformation = [
 { //Hero Cape - Complete
         id: 150191,
         name: `Hero Cape`,
+        location: `Limited Crossover Event: One Punch Man`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -31553,6 +31581,7 @@ const EquipInformation = [
 { //Cyborg Arm - Complete
         id: 150201,
         name: `Cyborg Arm`,
+        location: `Limited Crossover Event: One Punch Man`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -31582,6 +31611,7 @@ const EquipInformation = [
 { //Hero Gloves - Complete
         id: 150211,
         name: `Hero Gloves`,
+        location: `Crossover Equip Summon: One Punch Man`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -31611,6 +31641,7 @@ const EquipInformation = [
 { //Hero Boots - Complete
         id: 150221,
         name: `Hero Boots`,
+        location: `Crossover Equip Summon: One Punch Man`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -31640,6 +31671,7 @@ const EquipInformation = [
 { //Esper Dress - Complete
         id: 150231,
         name: `Esper Dress`,
+        location: `Crossover Equip Summon: One Punch Man`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -31669,6 +31701,7 @@ const EquipInformation = [
 { //Type 30 Arisaka Rifle - Complete
         id: 150241,
         name: `Type 30 Arisaka Rifle`,
+        location: `Crossover Equip Summon: One Punch Man`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -31698,6 +31731,7 @@ const EquipInformation = [
 { //Sugimoto's Army Cap - Complete
         id: 150251,
         name: `Sugimoto's Army Cap`,
+        location: `Crossover Equip Summon: One Punch Man`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -31727,6 +31761,7 @@ const EquipInformation = [
 { //Asirpa's Bow - Complete
         id: 150261,
         name: `Asirpa's Bow`,
+        location: `Crossover Equip Summon: Golden Kamuy`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -31756,6 +31791,7 @@ const EquipInformation = [
 { //Asirpa's Bandana - Complete
         id: 150271,
         name: `Asirpa's Bandana`,
+        location: `Limited Crossover Event: Golden Kamuy`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -31785,6 +31821,7 @@ const EquipInformation = [
 { //Izumi no Kami Kanesada - Complete
         id: 150281,
         name: `Izumi no Kami Kanesada`,
+        location: `Crossover Equip Summon: Golden Kamuy`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -31814,6 +31851,7 @@ const EquipInformation = [
 { //Hijikata's Gun - Complete
         id: 150291,
         name: `Hijikata's Gun`,
+        location: `Limited Crossover Event: Golden Kamuy`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -31843,6 +31881,7 @@ const EquipInformation = [
 { //Snippity-Snips - Complete
         id: 150301,
         name: `Snippity-Snips`,
+        location: `Crossover Equip Summon: Kill La Kill`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -31872,6 +31911,7 @@ const EquipInformation = [
 { //Guts - Complete
         id: 150311,
         name: `Guts`,
+        location: `Crossover Equip Summon: Kill La Kill`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -31901,6 +31941,7 @@ const EquipInformation = [
 { //Spiked Bat Missile - Complete
         id: 150321,
         name: `Spiked Bat Missile`,
+        location: `Limited Crossover Event: Kill La Kill`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -31930,6 +31971,7 @@ const EquipInformation = [
 { //Power Suit - Missing Lore
         id: 150331,
         name: `Power Suit`,
+        location: `Crossover Equip Summon: Godzilla`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -31959,6 +32001,7 @@ const EquipInformation = [
 { //Vulture - Complete
         id: 150341,
         name: `Vulture`,
+        location: `Crossover Equip Summon: Godzilla`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -31988,6 +32031,7 @@ const EquipInformation = [
 { //Houtan Bow - Complete
         id: 150351,
         name: `Houtan Bow`,
+        location: `Crossover Equip Summon: Godzilla`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -32017,6 +32061,7 @@ const EquipInformation = [
 { //Hoverbike - Complete
         id: 150361,
         name: `Hoverbike`,
+        location: `Crossover Equip Summon: Godzilla`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -32046,6 +32091,7 @@ const EquipInformation = [
 { //King Ghidorah - Complete
         id: 150371,
         name: `King Ghidorah`,
+        location: `Crossover Equip Summon: Godzilla`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -32075,6 +32121,7 @@ const EquipInformation = [
 { //Rimuru's Sword - Complete
         id: 150381,
         name: `Rimuru's Sword`,
+        location: `Crossover Equip Summon: That Time I Got Reincarnated as a Slime`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -32104,6 +32151,7 @@ const EquipInformation = [
 { //Milim's Necklace - Complete
         id: 150391,
         name: `Milim's Necklace`,
+        location: `Crossover Equip Summon: That Time I Got Reincarnated as a Slime`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -32133,6 +32181,7 @@ const EquipInformation = [
 { //Milim's Clothes - Complete
         id: 150401,
         name: `Milim's Clothes`,
+        location: `Crossover Equip Summon: That Time I Got Reincarnated as a Slime`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -32162,6 +32211,7 @@ const EquipInformation = [
 { //Benimaru's Clothes - Complete
         id: 150411,
         name: `Benimaru's Clothes`,
+        location: `Crossover Equip Summon: That Time I Got Reincarnated as a Slime`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -32191,6 +32241,7 @@ const EquipInformation = [
 { //Rimuru's Clothes - Complete
         id: 150421,
         name: `Rimuru's Clothes`,
+        location: `Limited Crossover Event: That Time I Got Reincarnated as a Slime`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -32220,6 +32271,7 @@ const EquipInformation = [
 { //Magic-seal Mask - Complete
         id: 150431,
         name: `Magic-seal Mask`,
+        location: `Limited Crossover Event: That Time I Got Reincarnated as a Slime`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -32249,6 +32301,7 @@ const EquipInformation = [
 { //Benimaru's Sword - Complete
         id: 150441,
         name: `Benimaru's Sword`,
+        location: `Limited Crossover Event: That Time I Got Reincarnated as a Slime`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -32278,6 +32331,7 @@ const EquipInformation = [
 { //Goblin Slayer's Sword - Complete
         id: 150451,
         name: `Goblin Slayer's Sword`,
+        location: `Crossover Equip Summon: Goblin Slayer`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -32307,6 +32361,7 @@ const EquipInformation = [
 { //Goblin Slayer's Helm - Complete
         id: 150461,
         name: `Goblin Slayer's Helm`,
+        location: `Crossover Equip Summon: Goblin Slayer`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -32336,6 +32391,7 @@ const EquipInformation = [
 { //Goblin Slayer's Dagger - Missing Lore
         id: 150471,
         name: `Goblin Slayer's Dagger`,
+        location: `Limited Crossover Event: Goblin Slayer`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -32367,6 +32423,7 @@ const EquipInformation = [
 { //Sounding Staff - Complete
         id: 150481,
         name: `Sounding Staff`,
+        location: `Crossover Equip Summon: Goblin Slayer`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -32396,6 +32453,7 @@ const EquipInformation = [
 { //Priestess' Robe - Complete
         id: 150491,
         name: `Priestess' Robe`,
+        location: `Crossover Equip Summon: Goblin Slayer`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -32425,6 +32483,7 @@ const EquipInformation = [
 { //Priestess' Hat - Complete
         id: 150501,
         name: `Priestess' Hat`,
+        location: `Limited Crossover Event: Goblin Slayer`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -32454,6 +32513,7 @@ const EquipInformation = [
 { //Elven Bow - Complete
         id: 150511,
         name: `Elven Bow`,
+        location: `Limited Crossover Event: Goblin Slayer`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -32483,6 +32543,7 @@ const EquipInformation = [
 { //Elven Cloth - Missing Lore
         id: 150521,
         name: `Elven Cloth`,
+        location: `Crossover Equip Summon: Goblin Slayer`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -32512,6 +32573,7 @@ const EquipInformation = [
 { //Demon Sword 'Desiderium' - Complete
         id: 150531,
         name: `Demon Sword 'Desiderium'`,
+        location: `Limited Crossover Event: Goblin Slayer`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -32541,6 +32603,7 @@ const EquipInformation = [
 { //Hellish Blizzard's Necklace - Complete
         id: 150541,
         name: `Hellish Blizzard's Necklace`,
+        location: `Crossover Equip Summon: One Punch Man`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -32570,6 +32633,7 @@ const EquipInformation = [
 { //Hellish Blizzard's Coat - Complete
         id: 150551,
         name: `Hellish Blizzard's Coat`,
+        location: `Limited Crossover Event: One Punch Man`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -32599,6 +32663,7 @@ const EquipInformation = [
 { //Hellish Blizzard's Dress - Complete
         id: 150561,
         name: `Hellish Blizzard's Dress`,
+        location: `Crossover Equip Summon: One Punch Man`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -32628,6 +32693,7 @@ const EquipInformation = [
 { //Sonic's Shuriken - Complete
         id: 150571,
         name: `Sonic's Shuriken`,
+        location: `Limited Crossover Event: One Punch Man`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -32657,6 +32723,7 @@ const EquipInformation = [
 { //Sonic's Katana - Complete
         id: 150581,
         name: `Sonic's Katana`,
+        location: `Crossover Equip Summon: One Punch Man`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -32686,6 +32753,7 @@ const EquipInformation = [
 { //Sonic's Mask - Complete
         id: 150591,
         name: `Sonic's Mask`,
+        location: `Crossover Equip Summon: One Punch Man`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -32715,6 +32783,7 @@ const EquipInformation = [
 { //Sonic's Scarf - Complete
         id: 150601,
         name: `Sonic's Scarf`,
+        location: `Limited Crossover Event: One Punch Man`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -32744,6 +32813,7 @@ const EquipInformation = [
 { //Crunchyroll-Hime's Bow - Missing Lore
         id: 150611,
         name: `Crunchyroll-Hime's Bow`,
+        location: `Crossover Equip Summon: Crunchyroll`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -32773,6 +32843,7 @@ const EquipInformation = [
 { //Crunchyroll-Hime's Boots - Complete
         id: 150621,
         name: `Crunchyroll-Hime's Boots`,
+        location: `Crossover Equip Summon: Crunchyroll`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -32802,6 +32873,7 @@ const EquipInformation = [
 { //Crunchyroll-Hime's Clothes - Complete
         id: 150631,
         name: `Crunchyroll-Hime's Clothes`,
+        location: `Crossover Equip Summon: Crunchyroll`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -32831,6 +32903,7 @@ const EquipInformation = [
 { //Ryuko's Bomber Jacket - Complete
         id: 150641,
         name: `Ryuko's Bomber Jacket`,
+        location: `Crossover Equip Summon: Kill La Kill`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -32860,6 +32933,7 @@ const EquipInformation = [
 { //Nudist Beach Battle Uniform - Complete
         id: 150651,
         name: `Nudist Beach Battle Uniform`,
+        location: `Crossover Equip Summon: Kill La Kill`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
         image: 
@@ -32889,6 +32963,7 @@ const EquipInformation = [
 { //Priestess' Boots - Complete
         id: 150661,
         name: `Priestess' Boots`,
+        location: `Crossover Equip Summon: Goblin Slayer`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -32918,6 +32993,7 @@ const EquipInformation = [
 { //Goblin Slayer's Shield - Complete
         id: 150671,
         name: `Goblin Slayer's Shield`,
+        location: `Limited Crossover Event: Goblin Slayer`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -32947,6 +33023,7 @@ const EquipInformation = [
 { //Small Shield - Complete
         id: 150681,
         name: `Small Shield`,
+        location: `Limited Crossover Event: The Rising of the Shield Hero`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -32976,6 +33053,7 @@ const EquipInformation = [
 { //True Small Shield - Complete
         id: 150691,
         name: `True Small Shield`,
+        location: `Alchemist - Exchange via Rainbow Gems (Only during Shield Hero crossover)`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -33006,6 +33084,7 @@ const EquipInformation = [
 { //Raphtalia's Sword - Complete
         id: 150701,
         name: `Raphtalia's Sword`,
+        location: `Limited Crossover Event: The Rising of the Shield Hero`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -33035,6 +33114,7 @@ const EquipInformation = [
 { //True Raphtalia's Sword - Missing Lore
         id: 150711,
         name: `True Raphtalia's Sword`,
+        location: `Alchemist - Exchange via Rainbow Gems (Only during Shield Hero crossover)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -33065,6 +33145,7 @@ const EquipInformation = [
 { //Raphtalia's Bracelet - Complete
         id: 150721,
         name: `Raphtalia's Bracelet`,
+        location: `Crossover Equip Summon: The Rising of the Shield Hero`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -33094,6 +33175,7 @@ const EquipInformation = [
 { //Filo's Hairpin - Complete
         id: 150731,
         name: `Filo's Hairpin`,
+        location: `Crossover Equip Summon: The Rising of the Shield Hero`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -33123,6 +33205,7 @@ const EquipInformation = [
 { //Melty's Dress - Complete
         id: 150741,
         name: `Melty's Dress`,
+        location: `Crossover Equip Summon: The Rising of the Shield Hero`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -33152,6 +33235,7 @@ const EquipInformation = [
 { //Puu - Complete
         id: 150751,
         name: `Puu`,
+        location: `Crossover Equip Summon: YuYu Hakusho`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -33181,6 +33265,7 @@ const EquipInformation = [
 { //The Sword of Trials - Complete
         id: 150761,
         name: `The Sword of Trials`,
+        location: `Limited Crossover Event: YuYu Hakusho`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -33210,6 +33295,7 @@ const EquipInformation = [
 { //Kurama's Whip - Complete
         id: 150771,
         name: `Kurama's Whip`,
+        location: `Crossover Equip Summon: YuYu Hakusho`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -33239,6 +33325,7 @@ const EquipInformation = [
 { //Hiei's Sword - Complete
         id: 150781,
         name: `Hiei's Sword`,
+        location: `Crossover Equip Summon: YuYu Hakusho`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -33268,6 +33355,7 @@ const EquipInformation = [
 { //Older Toguro - Complete
         id: 150791,
         name: `Older Toguro`,
+        location: `Crossover Equip Summon: YuYu Hakusho`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -33297,6 +33385,7 @@ const EquipInformation = [
 { //Type 30 Bayonet - Complete
         id: 150801,
         name: `Type 30 Bayonet`,
+        location: `Crossover Equip Summon: Golden Kamuy`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -33326,6 +33415,7 @@ const EquipInformation = [
 { //Asirpa's Hunting Knife - Complete
         id: 150811,
         name: `Asirpa's Hunting Knife`,
+        location: `Crossover Equip Summon: Golden Kamuy`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -33355,6 +33445,7 @@ const EquipInformation = [
 { //Hijikata's Clothes - Complete
         id: 150821,
         name: `Hijikata's Clothes`,
+        location: `Limited Crossover Event: Golden Kamuy`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -33384,6 +33475,7 @@ const EquipInformation = [
 { //Hero Belt - Complete
         id: 150831,
         name: `Hero Belt`,
+        location: `Limited Crossover Event: One Punch Man`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -33413,6 +33505,7 @@ const EquipInformation = [
 { //Hero Suit - Complete
         id: 150841,
         name: `Hero Suit`,
+        location: `Crossover Equip Summon: One Punch Man`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -33442,6 +33535,7 @@ const EquipInformation = [
 { //Genos' Vest - Complete
         id: 150851,
         name: `Genos' Vest`,
+        location: `Crossover Equip Summon: One Punch Man`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -33471,6 +33565,7 @@ const EquipInformation = [
 { //Emilia's Cape - Complete
         id: 150861,
         name: `Emilia's Cape`,
+        location: `Limited Crossover Event: Re:Zero`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -33500,6 +33595,7 @@ const EquipInformation = [
 { //True 'Emilia's Cape' - Complete
         id: 150871,
         name: `True 'Emilia's Cape'`,
+        location: `Craftable - Using Re:Zero Raid materials`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -33531,6 +33627,7 @@ const EquipInformation = [
 { //Beatrice's Ribbon - Complete
         id: 150881,
         name: `Beatrice's Ribbon`,
+        location: `Limited Crossover Event: Re:Zero`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -33560,6 +33657,7 @@ const EquipInformation = [
 { //True 'Beatrice's Ribbon' - Complete
         id: 150891,
         name: `True 'Beatrice's Ribbon'`,
+        location: `Craftable - Using Re:Zero Raid materials`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -33591,6 +33689,7 @@ const EquipInformation = [
 { //Rem's Morningstar - Complete
         id: 150901,
         name: `Rem's Morningstar`,
+        location: `Limited Crossover Event: Re:Zero`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -33620,6 +33719,7 @@ const EquipInformation = [
 { //True 'Rem's Morningstar' - Missing Lore
         id: 150911,
         name: `True 'Rem's Morningstar'`,
+        location: `Craftable - Using Re:Zero Raid materials`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -33651,6 +33751,7 @@ const EquipInformation = [
 { //Ram's Mop - Complete
         id: 150921,
         name: `Ram's Mop`,
+        location: `Limited Crossover Event: Re:Zero`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -33680,6 +33781,7 @@ const EquipInformation = [
 { //True 'Ram's Mop' - Complete
         id: 150931,
         name: `True 'Ram's Mop'`,
+        location: `Craftable - Using Re:Zero Raid materials`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -33711,6 +33813,7 @@ const EquipInformation = [
 { //Subaru Natsuki's Tracksuit - Complete
         id: 150941,
         name: `Subaru Natsuki's Tracksuit`,
+        location: `Crossover Equip Summon: Re:Zero`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -33740,6 +33843,7 @@ const EquipInformation = [
 { //Rem & Ram Plushies - Missing Lore
         id: 150951,
         name: `Rem & Ram Plushies`,
+        location: `Crossover Equip Summon: Re:Zero`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -33769,6 +33873,7 @@ const EquipInformation = [
 { //Puck's Pouch - Complete
         id: 150961,
         name: `Puck's Pouch`,
+        location: `Crossover Equip Summon: Re:Zero`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
         image: 
@@ -33798,6 +33903,7 @@ const EquipInformation = [
 { //Roswaal Mansion Headdress - Complete
         id: 150971,
         name: `Roswaal Mansion Headdress`,
+        location: `Crossover Equip Summon: Re:Zero`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -33827,6 +33933,7 @@ const EquipInformation = [
 { //Roswaal Mansion Maid Uniform - Complete
         id: 150981,
         name: `Roswaal Mansion Maid Uniform`,
+        location: `Crossover Equip Summon: Re:Zero`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -33856,6 +33963,7 @@ const EquipInformation = [
 { //Rimuru's Santa Suit - Complete
         id: 150991,
         name: `Rimuru's Santa Suit`,
+        location: `Crossover Equip Summon: That Time I Got Reincarnated as a Slime`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -33885,6 +33993,7 @@ const EquipInformation = [
 { //Milim's Santa Coat - Complete
         id: 151001,
         name: `Milim's Santa Coat`,
+        location: `Crossover Equip Summon: That Time I Got Reincarnated as a Slime`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -33914,6 +34023,7 @@ const EquipInformation = [
 { //Shion's Santa Dress - Complete
         id: 151011,
         name: `Shion's Santa Dress`,
+        location: `Crossover Equip Summon: That Time I Got Reincarnated as a Slime`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -33943,6 +34053,7 @@ const EquipInformation = [
 { //Milim's Thigh-Highs - Complete
         id: 151021,
         name: `Milim's Thigh-Highs`,
+        location: `Crossover Equip Summon: That Time I Got Reincarnated as a Slime`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -33972,6 +34083,7 @@ const EquipInformation = [
 { //Gourikimaru - Complete
         id: 151031,
         name: `Gourikimaru`,
+        location: `Limited Crossover Event: That Time I Got Reincarnated as a Slime`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -34001,6 +34113,7 @@ const EquipInformation = [
 { //Milim's Winter Boots - Complete
         id: 151041,
         name: `Milim's Winter Boots`,
+        location: `Limited Crossover Event: That Time I Got Reincarnated as a Slime`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -34030,6 +34143,7 @@ const EquipInformation = [
 { //Rimuru's Haori - Complete
         id: 151051,
         name: `Rimuru's Haori`,
+        location: `Crossover Equip Summon: That Time I Got Reincarnated as a Slime`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -34059,6 +34173,7 @@ const EquipInformation = [
 { //Milim's Kimono - Complete
         id: 151061,
         name: `Milim's Kimono`,
+        location: `Crossover Equip Summon: That Time I Got Reincarnated as a Slime`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -34088,6 +34203,7 @@ const EquipInformation = [
 { //Milim's Zori - Complete
         id: 151071,
         name: `Milim's Zori`,
+        location: `Crossover Equip Summon: That Time I Got Reincarnated as a Slime`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -34117,6 +34233,7 @@ const EquipInformation = [
 { //Dragon Knuckle EX - Complete
         id: 151081,
         name: `Dragon Knuckle EX`,
+        location: `Crossover Equip Summon: That Time I Got Reincarnated as a Slime`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -34146,6 +34263,7 @@ const EquipInformation = [
 { //Rimuru's Scarf - Complete
         id: 151091,
         name: `Rimuru's Scarf`,
+        location: `Limited Crossover Event: That Time I Got Reincarnated as a Slime`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -34175,6 +34293,7 @@ const EquipInformation = [
 { //Milim's Kanzashi - Complete
         id: 151101,
         name: `Milim's Kanzashi`,
+        location: `Limited Crossover Event: That Time I Got Reincarnated as a Slime`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -34204,6 +34323,7 @@ const EquipInformation = [
 { //NEGI - Complete
         id: 151111,
         name: `NEGI`,
+        location: `Crossover Equip Summon: Hatsune Miku`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -34233,6 +34353,7 @@ const EquipInformation = [
 { //Miku's Headphones - Complete
         id: 151121,
         name: `Miku's Headphones`,
+        location: `Limited Crossover Event: Hatsune Miku`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -34262,6 +34383,7 @@ const EquipInformation = [
 { //Miku's Outfit - Complete
         id: 151131,
         name: `Miku's Outfit`,
+        location: `Crossover Equip Summon: Hatsune Miku`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -34291,6 +34413,7 @@ const EquipInformation = [
 { //Rin Plushie - Complete
         id: 151141,
         name: `Rin Plushie`,
+        location: `Limited Crossover Event: Hatsune Miku`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -34320,6 +34443,7 @@ const EquipInformation = [
 { //Len Plushie - Complete
         id: 151151,
         name: `Len Plushie`,
+        location: `Crossover Equip Summon: Hatsune Miku`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -34349,6 +34473,7 @@ const EquipInformation = [
 { //Miku's Guitar - Complete
         id: 151161,
         name: `Miku's Guitar`,
+        location: `Crossover Equip Summon: Hatsune Miku`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -34378,6 +34503,7 @@ const EquipInformation = [
 { //Sakura Miku's Hair Charm - Complete
         id: 151171,
         name: `Sakura Miku's Hair Charm`,
+        location: `Crossover Equip Summon: Hatsune Miku`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -34407,6 +34533,7 @@ const EquipInformation = [
 { //Sakura Miku's Outift - Complete
         id: 151181,
         name: `Sakura Miku's Outift`,
+        location: `Crossover Equip Summon: Hatsune Miku`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -34436,6 +34563,7 @@ const EquipInformation = [
 { //True 'Shield of Rage' - Complete
         id: 151191,
         name: `True 'Shield of Rage'`,
+        location: `Crossover Equip Summon: The Rising of the Shield Hero`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -34466,6 +34594,7 @@ const EquipInformation = [
 { //Raphtalia's Outfit - Complete
         id: 151201,
         name: `Raphtalia's Outfit`,
+        location: `Crossover Equip Summon: The Rising of the Shield Hero`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -34495,6 +34624,7 @@ const EquipInformation = [
 { //Melty's Shoes - Complete
         id: 151211,
         name: `Melty's Shoes`,
+        location: `Crossover Equip Summon: The Rising of the Shield Hero`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -34524,6 +34654,7 @@ const EquipInformation = [
 { //Filo's Dress - Complete
         id: 151221,
         name: `Filo's Dress`,
+        location: `Crossover Equip Summon: The Rising of the Shield Hero`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -34553,6 +34684,7 @@ const EquipInformation = [
 { //Yoh's Necklace - Complete
         id: 151231,
         name: `Yoh's Necklace`,
+        location: `Limited Crossover Event: Shaman King`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -34582,6 +34714,7 @@ const EquipInformation = [
 { //Basountou - Complete
         id: 151241,
         name: `Basountou`,
+        location: `Limited Crossover Event: Shaman King`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -34611,6 +34744,7 @@ const EquipInformation = [
 { //Harusame - Complete
         id: 151251,
         name: `Harusame`,
+        location: `Crossover Equip Summon: Shaman King`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -34640,6 +34774,7 @@ const EquipInformation = [
 { //Yoh's Headphones - Complete
         id: 151261,
         name: `Yoh's Headphones`,
+        location: `Crossover Equip Summon: Shaman King`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -34669,6 +34804,7 @@ const EquipInformation = [
 { //Anna's Spirit Beads - Complete
         id: 151271,
         name: `Anna's Spirit Beads`,
+        location: `Crossover Equip Summon: Shaman King`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -34698,6 +34834,7 @@ const EquipInformation = [
 { //Anna's Bandana - Complete
         id: 151281,
         name: `Anna's Bandana`,
+        location: `Crossover Equip Summon: Shaman King`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -34727,6 +34864,7 @@ const EquipInformation = [
 { //Hao's Earrings - Complete
         id: 151291,
         name: `Hao's Earrings`,
+        location: `Crossover Equip Summon: Shaman King`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -34756,6 +34894,7 @@ const EquipInformation = [
 { //Yoh's Necklace EV - Complete
         id: 151301,
         name: `Yoh's Necklace EV`,
+        location: `Craftable - Using Shaman King collab materials`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -34786,6 +34925,7 @@ const EquipInformation = [
 { //Basountou EV - Complete
         id: 151311,
         name: `Basountou EV`,
+        location: `Craftable - Using Shaman King collab materials`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -34816,6 +34956,7 @@ const EquipInformation = [
 { //True 'Scissor Blade' - Missing Lore
         id: 151321,
         name: `True 'Scissor Blade'`,
+        location: `Alchemist - Exchange via Rainbow Gems (Only during Kill La Kill crossover)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -34846,6 +34987,7 @@ const EquipInformation = [
 { //True 'Bakuzan' - Missing Lore
         id: 151331,
         name: `True 'Bakuzan'`,
+        location: `Alchemist - Exchange via Rainbow Gems (Only during Kill La Kill crossover)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -34876,6 +35018,7 @@ const EquipInformation = [
 { //True 'Fight Club Goku Uniform' - Complete
         id: 151341,
         name: `True 'Fight Club Goku Uniform'`,
+        location: `Alchemist - Exchange via Rainbow Gems (Only during Kill La Kill crossover)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -34906,6 +35049,7 @@ const EquipInformation = [
 { //Scissor Blade Decap Mode - Complete
         id: 151351,
         name: `Scissor Blade Decap Mode`,
+        location: `Crossover Equip Summon: Kill La Kill`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -34935,6 +35079,7 @@ const EquipInformation = [
 { //Bakuzan Gako & Koryu - Complete
         id: 151361,
         name: `Bakuzan Gako & Koryu`,
+        location: `Crossover Equip Summon: Kill La Kill`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -34964,6 +35109,7 @@ const EquipInformation = [
 { //No-Star Uniform - Complete
         id: 151371,
         name: `No-Star Uniform`,
+        location: `Crossover Equip Summon: Kill La Kill`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -34993,6 +35139,7 @@ const EquipInformation = [
 { //Ryuko's Motorbike - Complete
         id: 151381,
         name: `Ryuko's Motorbike`,
+        location: `Limited Crossover Event: Kill La Kill`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -35022,6 +35169,7 @@ const EquipInformation = [
 { //Mako-Knuckle EV - Complete
         id: 151391,
         name: `Mako-Knuckle EV`,
+        location: `Craftable - Using Kill La Kill collab materials`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -35052,6 +35200,7 @@ const EquipInformation = [
 { //Senketsu EV - Complete
         id: 151401,
         name: `Senketsu EV`,
+        location: `Craftable - Using Kill La Kill collab materials`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -35082,6 +35231,7 @@ const EquipInformation = [
 { //Junketsu EV - Complete
         id: 151411,
         name: `Junketsu EV`,
+        location: `Craftable - Using Kill La Kill collab materials`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -35112,6 +35262,7 @@ const EquipInformation = [
 { //Spiked Bat Missile EV - Complete
         id: 151421,
         name: `Spiked Bat Missile EV`,
+        location: `Craftable - Using Kill La Kill collab materials`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -35142,6 +35293,7 @@ const EquipInformation = [
 { //Ryuko's Motorbike EV - Complete
         id: 151431,
         name: `Ryuko's Motorbike EV`,
+        location: `Craftable - Using Kill La Kill collab materials`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -35172,6 +35324,7 @@ const EquipInformation = [
 { //Aqua Heartia - Complete
         id: 151481,
         name: `Aqua Heartia`,
+        location: `Crossover Equip Summon: Mushoku Tensei`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -35201,6 +35354,7 @@ const EquipInformation = [
 { //Eris' Training Attire - Complete
         id: 151491,
         name: `Eris' Training Attire`,
+        location: `Crossover Equip Summon: Mushoku Tensei`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -35230,6 +35384,7 @@ const EquipInformation = [
 { //Sylphiette's Outfit - Complete
         id: 151501,
         name: `Sylphiette's Outfit`,
+        location: `Crossover Equip Summon: Mushoku Tensei`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -35259,6 +35414,7 @@ const EquipInformation = [
 { //Roxy's Hat - Complete
         id: 151511,
         name: `Roxy's Hat`,
+        location: `Limited Crossover Event: Mushoku Tensei`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -35288,6 +35444,7 @@ const EquipInformation = [
 { //Roxy's Hat EV - Complete
         id: 151521,
         name: `Roxy's Hat EV`,
+        location: `Craftable - Using Mushoku Tensei collab materials`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -35318,6 +35475,7 @@ const EquipInformation = [
 { //Eris' Sword - Complete
         id: 151531,
         name: `Eris' Sword`,
+        location: `Limited Crossover Event: Mushoku Tensei`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -35347,6 +35505,7 @@ const EquipInformation = [
 { //Eris' Sword EV - Complete
         id: 151541,
         name: `Eris' Sword EV`,
+        location: `Craftable - Using Mushoku Tensei collab materials`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -35377,6 +35536,7 @@ const EquipInformation = [
 { //Natsu's Vest - Complete
         id: 151551,
         name: `Natsu's Vest`,
+        location: `Crossover Equip Summon: Fairy Tail`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -35406,6 +35566,7 @@ const EquipInformation = [
 { //Lucy's Top - Complete
         id: 151561,
         name: `Lucy's Top`,
+        location: `Crossover Equip Summon: Fairy Tail`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -35435,6 +35596,7 @@ const EquipInformation = [
 { //Celestial Gate Key - Complete
         id: 151571,
         name: `Celestial Gate Key`,
+        location: `Crossover Equip Summon: Fairy Tail`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -35464,6 +35626,7 @@ const EquipInformation = [
 { //Cold Excalibur - Complete
         id: 151581,
         name: `Cold Excalibur`,
+        location: `Crossover Equip Summon: Fairy Tail`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -35493,6 +35656,7 @@ const EquipInformation = [
 { //Gray's Necklace - Complete
         id: 151591,
         name: `Gray's Necklace`,
+        location: `Crossover Equip Summon: Fairy Tail`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -35522,6 +35686,7 @@ const EquipInformation = [
 { //Erza's Blade - Complete
         id: 151601,
         name: `Erza's Blade`,
+        location: `Crossover Equip Summon: Fairy Tail`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -35551,6 +35716,7 @@ const EquipInformation = [
 { //Happy - Complete
         id: 151611,
         name: `Happy`,
+        location: `Crossover Equip Summon: Fairy Tail`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -35580,6 +35746,7 @@ const EquipInformation = [
 { //Guild Flag - Complete
         id: 151621,
         name: `Guild Flag`,
+        location: `Crossover Equip Summon: Fairy Tail`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -35609,6 +35776,7 @@ const EquipInformation = [
 { //Natsu's Scarf - Complete
         id: 151631,
         name: `Natsu's Scarf`,
+        location: `Limited Crossover Event: Fairy Tail`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -35638,6 +35806,7 @@ const EquipInformation = [
 { //Natsu's Scarf EV - Complete
         id: 151641,
         name: `Natsu's Scarf EV`,
+        location: `Craftable - Using Fairy Tail collab materials`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -35668,6 +35837,7 @@ const EquipInformation = [
 { //Erza's Armor - Complete
         id: 151651,
         name: `Erza's Armor`,
+        location: `Limited Crossover Event: Fairy Tail`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -35697,6 +35867,7 @@ const EquipInformation = [
 { //Miku's Headphones EV - Complete
         id: 151661,
         name: `Miku's Headphones EV`,
+        location: `Craftable - Using Hatsune Miku collab materials`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -35727,6 +35898,7 @@ const EquipInformation = [
 { //Rin Plushie EV - Complete
         id: 151671,
         name: `Rin Plushie EV`,
+        location: `Craftable - Using Hatsune Miku collab materials`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -35757,6 +35929,7 @@ const EquipInformation = [
 { //Erza's Armor EV - Complete
         id: 151681,
         name: `Erza's Armor EV`,
+        location: `Craftable - Using Fairy Tail collab materials`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -35787,6 +35960,7 @@ const EquipInformation = [
 { //Stolen Scissor Blade - Complete
         id: 151691,
         name: `Stolen Scissor Blade`,
+        location: `Crossover Equip Summon: Kill La Kill`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -35816,6 +35990,7 @@ const EquipInformation = [
 { //Nui's Dress - Complete
         id: 151701,
         name: `Nui's Dress`,
+        location: `Crossover Equip Summon: Kill La Kill`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -35845,6 +36020,7 @@ const EquipInformation = [
 { //Nui's Eyepatch - Complete
         id: 151711,
         name: `Nui's Eyepatch`,
+        location: `Crossover Equip Summon: Kill La Kill`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -35874,6 +36050,7 @@ const EquipInformation = [
 { //Nui's Parasol - Complete
         id: 151721,
         name: `Nui's Parasol`,
+        location: `Limited Crossover Event: Kill La Kill`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -35903,6 +36080,7 @@ const EquipInformation = [
 { //Bunny Pajamas - Complete
         id: 151731,
         name: `Bunny Pajamas`,
+        location: `Crossover Equip Summon: Kill La Kill`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -35932,6 +36110,7 @@ const EquipInformation = [
 { //Seki Tekko - Complete
         id: 151741,
         name: `Seki Tekko`,
+        location: `Crossover Equip Summon: Kill La Kill`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -35961,6 +36140,7 @@ const EquipInformation = [
 { //Aikuro's Dotonbori Robo - Complete
         id: 151751,
         name: `Aikuro's Dotonbori Robo`,
+        location: `Crossover Equip Summon: Kill La Kill`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -35990,6 +36170,7 @@ const EquipInformation = [
 { //ER Suction Device - Complete
         id: 151761,
         name: `ER Suction Device`,
+        location: `Crossover Equip Summon: Kill La Kill`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -36019,6 +36200,7 @@ const EquipInformation = [
 { //True 'Stolen Scissor Blade' - Complete
         id: 151771,
         name: `True 'Stolen Scissor Blade'`,
+        location: `Alchemist - Exchange via Rainbow Gems (Only during Kill La Kill crossover)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -36049,6 +36231,7 @@ const EquipInformation = [
 { //Nui's Parasol EV - Complete
         id: 151781,
         name: `Nui's Parasol EV`,
+        location: `Craftable - Using Kill La Kill collab materials`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -36079,6 +36262,7 @@ const EquipInformation = [
 { //True 'Melty's Dress' - Complete
         id: 151791,
         name: `True 'Melty's Dress'`,
+        location: `Alchemist - Exchange via Rainbow Gems (Only during Shield Hero crossover)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -36109,6 +36293,7 @@ const EquipInformation = [
 { //True 'Filo's Hairpin' - Complete
         id: 151801,
         name: `True 'Filo's Hairpin'`,
+        location: `Alchemist - Exchange via Rainbow Gems (Only during Shield Hero crossover)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -36139,6 +36324,7 @@ const EquipInformation = [
 { //True 'Fitoria's Gown' - Missing Lore
         id: 151811,
         name: `True 'Fitoria's Gown'`,
+        location: `Alchemist - Exchange via Rainbow Gems (Only during Shield Hero crossover)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -36169,6 +36355,7 @@ const EquipInformation = [
 { //Fitoria's Gown - Missing Lore
         id: 151821,
         name: `Fitoria's Gown`,
+        location: `Crossover Equip Summon: The Rising of the Shield Hero`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -36198,6 +36385,7 @@ const EquipInformation = [
 { //Fitoria's Boots - Complete
         id: 151831,
         name: `Fitoria's Boots`,
+        location: `Limited Crossover Event: The Rising of the Shield Hero`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -36227,6 +36415,7 @@ const EquipInformation = [
 { //Leaf Shield - Missing Lore
         id: 151841,
         name: `Leaf Shield`,
+        location: `Crossover Equip Summon: The Rising of the Shield Hero`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -36256,6 +36445,7 @@ const EquipInformation = [
 { //Filolial Tiara - Missing Lore
         id: 151851,
         name: `Filolial Tiara`,
+        location: `Crossover Equip Summon: The Rising of the Shield Hero`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -36285,6 +36475,7 @@ const EquipInformation = [
 { //Toman Flag - Complete
         id: 151861,
         name: `Toman Flag`,
+        location: `Limited Crossover Event: Tokyo Revengers`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -36314,6 +36505,7 @@ const EquipInformation = [
 { //Mikey's Ride - Complete
         id: 151871,
         name: `Mikey's Ride`,
+        location: `Crossover Equip Summon: Tokyo Revengers`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -36343,6 +36535,7 @@ const EquipInformation = [
 { //Mikey's Outfit - Complete
         id: 151881,
         name: `Mikey's Outfit`,
+        location: `Crossover Equip Summon: Tokyo Revengers`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -36372,6 +36565,7 @@ const EquipInformation = [
 { //Mikey's Jimbei - Complete
         id: 151891,
         name: `Mikey's Jimbei`,
+        location: `Crossover Equip Summon: Tokyo Revengers`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -36401,6 +36595,7 @@ const EquipInformation = [
 { //Mitsuya's Ride - Complete
         id: 151901,
         name: `Mitsuya's Ride`,
+        location: `Crossover Equip Summon: Tokyo Revengers`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -36430,6 +36625,7 @@ const EquipInformation = [
 { //Mitsuya's Earring - Missing Lore
         id: 151911,
         name: `Mitsuya's Earring`,
+        location: `Crossover Equip Summon: Tokyo Revengers`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -36459,6 +36655,7 @@ const EquipInformation = [
 { //Toman Uniform - Complete
         id: 151921,
         name: `Toman Uniform`,
+        location: `Limited Crossover Event: Tokyo Revengers`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -36488,6 +36685,7 @@ const EquipInformation = [
 { //Clover Necklace - Complete
         id: 151931,
         name: `Clover Necklace`,
+        location: `Crossover Equip Summon: Tokyo Revengers`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -36517,6 +36715,7 @@ const EquipInformation = [
 { //Draken's Ride - Complete
         id: 151941,
         name: `Draken's Ride`,
+        location: `Crossover Equip Summon: Tokyo Revengers`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -36546,6 +36745,7 @@ const EquipInformation = [
 { //Draken's Outfit - Complete
         id: 151951,
         name: `Draken's Outfit`,
+        location: `Crossover Equip Summon: Tokyo Revengers`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -36575,6 +36775,7 @@ const EquipInformation = [
 { //Chifuyu's School Uniform - Complete
         id: 151961,
         name: `Chifuyu's School Uniform`,
+        location: `Crossover Equip Summon: Tokyo Revengers`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -36604,6 +36805,7 @@ const EquipInformation = [
 { //Coil Gun - Complete
         id: 151971,
         name: `Coil Gun`,
+        location: `Crossover Equip Summon: Tokyo Revengers`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -36633,6 +36835,7 @@ const EquipInformation = [
 { //Black Trike - Complete
         id: 151981,
         name: `Black Trike`,
+        location: `Crossover Equip Summon: Black Rock Shooter`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -36662,6 +36865,7 @@ const EquipInformation = [
 { //Empress' Outfit - Complete
         id: 151991,
         name: `Empress' Outfit`,
+        location: `Limited Crossover Event: Black Rock Shooter`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -36691,6 +36895,7 @@ const EquipInformation = [
 { //Dead Wing - Complete
         id: 152001,
         name: `Dead Wing`,
+        location: `Crossover Equip Summon: Black Rock Shooter`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -36720,6 +36925,7 @@ const EquipInformation = [
 { //Dead Master's Bike - Complete
         id: 152011,
         name: `Dead Master's Bike`,
+        location: `Crossover Equip Summon: Black Rock Shooter`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -36749,6 +36955,7 @@ const EquipInformation = [
 { //Dead Master's Bodysuit - Complete
         id: 152021,
         name: `Dead Master's Bodysuit`,
+        location: `Crossover Equip Summon: Black Rock Shooter`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -36778,6 +36985,7 @@ const EquipInformation = [
 { //Gigantic Arms - Complete
         id: 152031,
         name: `Gigantic Arms`,
+        location: `Crossover Equip Summon: Black Rock Shooter`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -36807,6 +37015,7 @@ const EquipInformation = [
 { //Strength's Buggy - Complete
         id: 152041,
         name: `Strength's Buggy`,
+        location: `Crossover Equip Summon: Black Rock Shooter`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -36836,6 +37045,7 @@ const EquipInformation = [
 { //Strength's Overcoat - Complete
         id: 152051,
         name: `Strength's Overcoat`,
+        location: `Crossover Equip Summon: Black Rock Shooter`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -36865,6 +37075,7 @@ const EquipInformation = [
 { //Empress' Outift EV - Complete
         id: 152061,
         name: `Empress' Outift EV`,
+        location: `Craftable - Using Black Rock Shooter collab materials`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -36895,6 +37106,7 @@ const EquipInformation = [
 { //Emilia's Casual Dress - Missing Lore
         id: 152071,
         name: `Emilia's Casual Dress`,
+        location: `Crossover Equip Summon: Re:Zero`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -36924,6 +37136,7 @@ const EquipInformation = [
 { //Young Rem's Robe - Missing Lore
         id: 152081,
         name: `Young Rem's Robe`,
+        location: `Crossover Equip Summon: Re:Zero`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -36953,6 +37166,7 @@ const EquipInformation = [
 { //Young Ram's Robe - Missing Lore
         id: 152091,
         name: `Young Ram's Robe`,
+        location: `Crossover Equip Summon: Re:Zero`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -36982,6 +37196,7 @@ const EquipInformation = [
 { //Beatrice's Crown - Missing Lore
         id: 152101,
         name: `Beatrice's Crown`,
+        location: `Crossover Equip Summon: Re:Zero`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -37011,6 +37226,7 @@ const EquipInformation = [
 { //Beatrice's Finery - Missing Lore
         id: 152111,
         name: `Beatrice's Finery`,
+        location: `Crossover Equip Summon: Re:Zero`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
         image: 
@@ -37037,9 +37253,10 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Subaru's Cell Phone (スバルの携帯電話) - JP Complete
+{ //Subaru's Cell Phone - Missing Lore
         id: 152121,
         name: `Subaru's Cell Phone`,
+        location: `Limited Crossover Event: Re:Zero`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -37064,11 +37281,12 @@ const EquipInformation = [
             {
                 ability1: `Blind Time Reduction & Blind evasion rate 10% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //Subaru's Cell Phone EV (極『スバルの携帯電話』) - JP Complete
+{ //Subaru's Cell Phone EV - Missing Lore
         id: 152131,
         name: `Subaru's Cell Phone EV`,
+        location: `Craftable - Using Re:Zero Raid materials`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -37094,7 +37312,7 @@ const EquipInformation = [
                 ability1: `Blind Time Reduction & Blind evasion rate 10% UP.`,
                 ability2: [`DMG to Spirits 10% UP.`, `DMG to Gods 10% UP.`, `DMG to Demons 10% UP.`, `Stauts Ailment Resistance 10% UP (Except Faint).`, `Skill DMG 10% UP.`, `ATK 10% UP when HP is 90% or more.`]
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //木の棒 (Overlord Equip) - JP Complete
         id: 152141,
@@ -37593,6 +37811,7 @@ const EquipInformation = [
 { //Rimuru's Clothes EV - Complete
         id: 152311,
         name: `Rimuru's Clothes EV`,
+        location: `Craftable - Using That Time I Got Reincarnated as a Slime collab materials`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -37623,6 +37842,7 @@ const EquipInformation = [
 { //Magic-seal Mask EV - Complete
         id: 152321,
         name: `Magic-seal Mask EV`,
+        location: `Craftable - Using That Time I Got Reincarnated as a Slime collab materials`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -37653,6 +37873,7 @@ const EquipInformation = [
 { //Gourikimaru EV - Complete
         id: 152331,
         name: `Gourikimaru EV`,
+        location: `Craftable - Using That Time I Got Reincarnated as a Slime collab materials`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -37683,6 +37904,7 @@ const EquipInformation = [
 { //Rimuru's Scarf EV - Complete
         id: 152341,
         name: `Rimuru's Scarf EV`,
+        location: `Craftable - Using That Time I Got Reincarnated as a Slime collab materials`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
