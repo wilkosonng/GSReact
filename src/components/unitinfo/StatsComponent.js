@@ -13,18 +13,6 @@ const imageSize ={
     maxWidth: 500
 };
 
-/**
- * 
- * ADD REVIEW FOR:
- * - Revelation: {
- *  skill1
- *  skill2
- *  skill3
- *  megaskill
- *  megaarts
- * }
- */
-
 function RenderStat({ unitStats }) {
     return (
         <>
