@@ -60,7 +60,7 @@ export function RenderTrue({unitTrue, trueReview = false}) {
                                     <NavItem>
                                         <NavLink className={classnames({ active: currentTab === '3' })}
                                             onClick={() => {toggle('3')}}>
-                                            <Media src={tw.true2.thumb} object-fit="cover" id="unitTrue" style={thumbnailSize}/>
+                                            <Media src={tw.true3.thumb} object-fit="cover" id="unitTrue" style={thumbnailSize}/>
                                         </NavLink>
                                     </NavItem>
                                     :
