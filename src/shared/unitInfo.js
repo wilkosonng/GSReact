@@ -19015,7 +19015,7 @@ const UnitInformation = [
                 evoawk: "A shooting specialist who bears his hometown's hopes and dreams. The other imperial knights also believe he could be the second coming of Simon, one of Isliid's greatest modern heroes. He has matured greatly since arriving in the capital, replacing most of his flippancy for diligence. At his core is now unshakable resolve... with a tinge of unease."
             }
     },
-    { //Priscilla (Water) - Complete
+    { //Priscilla (Water) - Complete, Review done
         id: 103416212,
         name: "Priscilla (Water)",
         rank: "A+",
@@ -19100,6 +19100,24 @@ const UnitInformation = [
             {   
                 evo5: "In the course of her struggles after leaving Simon's Hill to find and help Hart, she met with the misfortune of losing her eyesight. However, another strange turn of events led to her coming in contact with the Seed. Its magic began to mend her damaged optic nerves, but not before the true wound festering deep in her heart swallowed her whole.",
                 evoawk: "Her ideal form as a master archer. Having honed the power of vision granted by the Seed, she strikes her target without mistake or hesitance. However, no trace remains of her original innocence, warmth, and vivacity. She has become a killing machine, deaf to all... except him."
+            },
+        review:
+            {
+                skill: `A simple but effective skill, too bad it isn't ArtGen.`,
+                arts: `Very niche, you won't use this in 9/10 situations.`,
+                truearts: `Solid 5 arts/s, but being in Type B means that she will be overriden by Juno and Hart. Other than that, the PHY DMG buff is appreciated as a nice bonus regardless of the ArtGen.`,
+                phantombullet: `Dropping a massive 60% Water RES Down for a very long duration, this PB can be used for sustain situations alongside other water DPS units or in a nuking scenario. The only downside is unlike the other two PB units, she only has one bullet... and it's an arrow.`,
+                ability1: `It could help with survivability, but I wouldn't bet on it.`,
+                ability2: `She doesn't really do anything break related, so you won't see this in effect often, if at all.`,
+                ability3: `Ignoring the fact that she has accuracy up as a blind person, it's a well appreciated boost to her offensive power when she's healthy.`,
+                trueweapon: {
+                    skill: `All things considered, it's not a bad effect. Unfortunately, it's outclassed by Angelas' True Weapon with an easier condition and later Emperor's physical True Weapon.`,
+                    ability1: `The main reason you would want her True Weapon, helping with her lack of innate self sustainability.`,
+                    ability2: `Small, but something is better than nothing.`
+                },
+                overall: `Water Priscilla is an interesting unit. No, I don't mean the accuracy related buffs in her kit despite being blind. Technically speaking, she's a very solid unit with good slotting, high arts/s and offensive support for physical and/or water. Unfortunately, she belongs in Type B, which means that she is overriden by the more dominant Hart and Juno. She's not exactly a "meta' option, but she's far from a bad unit. `,
+                lastupdated: `October 14, 2022`,
+                author: `Senshi`
             }
     },
     { //Emperor Isliid - Complete, Review done
