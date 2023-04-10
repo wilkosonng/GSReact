@@ -15652,7 +15652,7 @@ const UnitInformation = [
                 author: `The True Pepe`
             }
     },
-    { //Liza - Complete
+    { //Liza - Complete, Review done
         id: 103006412,
         name: "Liza",
         rank: "SS",
@@ -15733,9 +15733,27 @@ const UnitInformation = [
             {   
                 evo5: "The first princess of the Gran Verge Kingdom. This goddess was filled with both magic and wisdom. Her knowledge of magic and her incredible intelligence was unrivaled, and her studies spurred on magic research for generations. In the kingdom, she preferred to stay in the shadows, supporting the people from behind rather than standing in the spotlight, but she still had quite a few enthusiastic fans.",
                 evoawk: "The first princess of the Gran Verge Kingdom. She took the path of magic her whole life as she tried to master it. She was fascinated by the revolutionary power of magic and spent her life studying magic to help brighten people's futures. Even now, her achievements still support people's lives from the shadows. She is said to have been deeply involved in the project to restore the enigmatic Oluon, but very little of this has been written down in history, as the first princess disliked being in the spotlight."
+            },
+        review:
+            {
+                skill: `While nothing spectacular, it's a nice compliment to teams with significant Magic Damage output, though a bit out of place on Liza considering her role as both an equipment and arts support unit.`,
+                arts: `Relatively potent arts generation which is at the very least on par with other top-tier arts generators. While the most unique part of her kit is on her True Arts, it's always nice to have additional utility, especially when looped with her True Arts.`,
+                truearts: `Providing a myriad of buffs, the most important of which being the extremely potent Equipment CT Recovery Speed, which as potent as it is, its usefulness is dependent on your team layout and how much you rely on specific equipment. Still, the sheer amount of possibilities enabled by this relatively unique buff on its own bolster Liza enough to be touted as an excellent support unit, especially alongside the addition of powerful offensive debuffs.`,
+                crossarts: `The DMG up buff and large modifier, while extremely powerful, is not only limited but also out of place considering it requires two subpar attackers in order to even activate. You're more often than not better off just using Liza's Arts and True Arts.`,
+                ability1: `A relatively strong survivability enhancement - even if it's limited to a specific type of damage, the buff's potency is enough to make the difference noticeable.`,
+                ability2: `While Liza isn't primarily an attacker, her True Arts' offensive debuffs make her output decent enough damage for her role, with this passive just adding a small niche boost on top of that.`,
+                ability3: `A great passive to have, especially given Liza's relatively self-sufficient slotting. While this passive is more so geared towards longer stages, it can almost halve her own equipment cooldown times when combined with Liza's True Arts.`,
+                trueweapon: {
+                    skill: `With the arts generation itself is relatively underwhelming, coming out to around 2.28 arts per second and the DMG buff being relatively out of place on Liza, the active effect comes out to be relatively mediocre within the context of being equipped on Liza herself. You're better off using a high arts generation equipment in most cases.`,
+                    ability1: `A strange assortment of buffs that don't make that much of an impact on the utility of Liza in most cases, though the combination of them, especially the arts start-up, can justify using Liza's True Weapon over slightly better arts generation equipment such as Relic "Lesser Demon Heart".`,
+                    ability2: `Another small survivability bonus, which while won't make or break things, is always nice to have and goes along nicely with Liza's Magic DMG Resistance passive.`
+                },
+                overall: `Boasting arts generation comparable to some of the best-in-class generators combined with her distinct and signature equipment support, Liza is able easily fit into an enormous range of compositions. Still, her strength, by nature, heavily relies on end-game equipment to take full advantage of, though she's proves useful as an arts generator for newer players. This is especially apparent in the longest and most difficult content where her kit only becomes more pronounced and useful. Overall, an immensely valuable addition to any box due to her dominance within her extremely fundamental roles.`,
+                lastupdated: `August 22, 2020`,
+                author: `Elric`
             }
     },
-    { //Cygnet - Complete (+ JP version)
+    { //Cygnet - Complete (+ JP version), Review done
         id: 103016512,
         name: "Cygnet",
         rank: "C",
@@ -15810,6 +15828,24 @@ const UnitInformation = [
             {   
                 evo5: "A Machine servant who swore loyalty to Liza, the First Princess of the Gran Verge Kingdom. Cygnet had been a mere gardener, but when the magic sleeping within her suddenly awoke, Liza took notice and she took Cygnet as her servant. Cygnet made a good match for Liza, who disliked formalities and preferred to speak plainly. When Liza couldn't find the words for what she wanted to say, Cygnet would speak for her, becoming an interpreter of sorts for her master's aloof curtness.",
                 evoawk: "An eternal partner and servant to Liza, the First Princess of the Gran Verge Kingdom. The relationship between a master and their servant can take many forms. They may cover for each other's shortcomings or strengthen each other's merits. Cygnet and Liza's relationship leaned overwhelmingly towards the former. Liza's unparalleled focus sometimes came at the expense of her regular life, but Cygnet supported her master through this. Meanwhile, Cygnet lacked self-confidence despite her incredible qualities, but Liza would always push her servant past her insecurities."
+            },
+        review:
+            {
+                skill: `Nothing much to say about this. Negating Hitstun is decently useful for clearing enemies in pre-stages, which is what skills are mostly used for.`,
+                arts: `The Critical DMG buff may look good for Arts, but it is inconsistent at best without a Crit Rate buffer on the team. It can make for a decent nuke support buff if you have a Crit Rate buffer such as Regulus.`,
+                truearts: `Playing around with her Critical Counter passive, this allows Cygnet to be more self sustainable in long stages. The boost to her Crit Rate is too small to make any large impact on her DPS capability. The best way to use Cygnet is to chain her True Arts straight into her Arts for the Critical DMG buff.`,
+                crossarts: `Despite being the second Cross Arts in the game, it is niche at best. It is certainly not worth building an entire team around the Elemental Advantage effect.`,
+                ability1: `A nice passive that synergizes well with her Critical Counter gimmick.`,
+                ability2: `A unique passive that functions similarly to Lian's Hit Counter, except only Critical Hits are counted. Most of Cygnet's animations have a large amount of hits to build up the counter. The ATK boost is appreciated despite her True Arts innately working against that bonus effect.`,
+                ability3: `An Arts head start is appreciated for quests with less pre-stages. While 20% more Crit Rate is beneficial towards her Critical Counter, building a team around slightly increasing her Crit Rate is much more limiting than simply using a different DPS unit.`,
+                trueweapon: {
+                    skill: ``,
+                    ability1: ``,
+                    ability2: ``
+                },
+                overall: `At best, Cygnet is an inconsistent DPS. Despite having to rely on Critical Hits, her kit does a mediocre job in supporting this gimmick. Without Liza on the team and Cursed Light Sword "Anestra", the amount of time taken to fill the Critical Counter is slower than most other traditional DPS units. The defense slot on a DPS based unit only serves to slow Cygnet down from performing her role. However, she does have application as a budget nuke support, despite the slower slotting.`,
+                lastupdated: `August 22, 2022`,
+                author: `Senshi`
             }
     },
     { //Orvell - Complete
