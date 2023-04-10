@@ -7661,6 +7661,7 @@ const EquipInformation = [
     { //True 'Regracia' - Complete
         id: 103111,
         name: `True 'Regracia'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -7691,6 +7692,7 @@ const EquipInformation = [
     { //True 'Gaimalse' - Missing Lore
         id: 103121,
         name: `True 'Gaimalse'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -7721,6 +7723,7 @@ const EquipInformation = [
     { //True 'Raaz' - Complete
         id: 103131,
         name: `True 'Raaz'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -7751,6 +7754,7 @@ const EquipInformation = [
     { //True 'Noble Bamint' - Missing Lore
         id: 103141,
         name: `True 'Noble Bamint'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -7781,6 +7785,7 @@ const EquipInformation = [
     { //True 'Rig Arcela' - Complete
         id: 103151,
         name: `True 'Rig Arcela'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -8304,6 +8309,7 @@ const EquipInformation = [
     { //True 'Gradion' - Missing Lore
         id: 103371,
         name: `True 'Gradion'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -8334,6 +8340,7 @@ const EquipInformation = [
     { //True 'Froid Rosier' - Complete
         id: 103381,
         name: `True 'Froid Rosier'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -8364,6 +8371,7 @@ const EquipInformation = [
     { //True 'Arth Lumina' - Complete
         id: 103391,
         name: `True 'Arth Lumina'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -8684,6 +8692,7 @@ const EquipInformation = [
     { //True 'Nemesis Crow' - Complete
         id: 103501,
         name: `True 'Nemesis Crow'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -8714,6 +8723,7 @@ const EquipInformation = [
     { //True 'Ryude Magus' - Missing Lore
         id: 103511,
         name: `True 'Ryude Magus'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -8976,6 +8986,7 @@ const EquipInformation = [
     { //True 'Day Break' - Complete
         id: 103601,
         name: `True 'Day Break'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -9499,6 +9510,7 @@ const EquipInformation = [
     { //True 'Efkeria' - Complete
         id: 103781,
         name: `True 'Efkeria'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -9848,6 +9860,7 @@ const EquipInformation = [
     { //True 'Geshpenst' - Complete
         id: 103901,
         name: `True 'Geshpenst'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -9965,6 +9978,7 @@ const EquipInformation = [
     { //True 'Centurion' - Complete
         id: 103941,
         name: `True 'Centurion'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -10198,6 +10212,7 @@ const EquipInformation = [
     { //True 'Valheight' - Complete
         id: 104021,
         name: `True 'Valheight'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -10286,6 +10301,7 @@ const EquipInformation = [
     { //True 'Maleficium' - Complete
         id: 104051,
         name: `True 'Maleficium'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -10783,6 +10799,7 @@ const EquipInformation = [
 { //True 'Siegfried' - Missing Lore
         id: 104301,
         name: `True 'Siegfried'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -10813,6 +10830,7 @@ const EquipInformation = [
 { //True 'Gestalt' - Complete
         id: 104311,
         name: `True 'Gestalt'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -11046,6 +11064,7 @@ const EquipInformation = [
 { //True 'Fatalite' - Missing Lore
         id: 104391,
         name: `True 'Fatalite'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -11076,6 +11095,7 @@ const EquipInformation = [
 { //True 'Joyeuse' - Complete
         id: 104401,
         name: `True 'Joyeuse'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -11106,6 +11126,7 @@ const EquipInformation = [
 { //True 'Alchemia' - Complete
         id: 104411,
         name: `True 'Alchemia'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -11253,6 +11274,7 @@ const EquipInformation = [
 { //True 'Glamerald' - Missing Lore
         id: 104461,
         name: `True 'Glamerald'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -11283,6 +11305,7 @@ const EquipInformation = [
 { //True 'Peluscia' - Complete
         id: 104471,
         name: `True 'Peluscia'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -11577,6 +11600,7 @@ const EquipInformation = [
 { //True 'Glorious' - Missing Lore
         id: 104631,
         name: `True 'Glorious'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -11869,6 +11893,7 @@ const EquipInformation = [
 { //True 'Forester' - Complete
         id: 104741,
         name: `True 'Forester'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -12044,6 +12069,7 @@ const EquipInformation = [
 { //True 'Proscris' - Complete
         id: 104801,
         name: `True 'Proscris'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -12190,6 +12216,7 @@ const EquipInformation = [
 { //True 'Dragon Twilight' - Complete
         id: 104881,
         name: `True 'Dragon Twilight'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -12220,6 +12247,7 @@ const EquipInformation = [
 { //True 'Diamond Chakram' - Missing Lore
         id: 104891,
         name: `True 'Diamond Chakram'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -12424,6 +12452,7 @@ const EquipInformation = [
 { //True 'Sans Pluie' - Complete
         id: 104961,
         name: `True 'Sans Pluie'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -12454,6 +12483,7 @@ const EquipInformation = [
 { //True 'Viperra' - Complete
         id: 104971,
         name: `True 'Viperra'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -12543,6 +12573,7 @@ const EquipInformation = [
 { //True 'Draco Hasta' - Missing Lore
         id: 105001,
         name: `True 'Draco Hasta'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -12718,6 +12749,7 @@ const EquipInformation = [
 { //True 'Frozen Twin Swords' - Complete
         id: 105061,
         name: `True 'Frozen Twin Swords'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -12748,6 +12780,7 @@ const EquipInformation = [
 { //True 'Volkans' - Missing Lore
         id: 105071,
         name: `True 'Volkans'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -12865,6 +12898,7 @@ const EquipInformation = [
 { //True 'Atropos' - Complete
         id: 105111,
         name: `True 'Atropos'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -13187,6 +13221,7 @@ const EquipInformation = [
 { //True 'Deino' - Complete
         id: 105261,
         name: `True 'Deino'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -13423,6 +13458,7 @@ const EquipInformation = [
 { //True 'IZANAGI' - Complete
         id: 105431,
         name: `True 'IZANAGI'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -13743,6 +13779,7 @@ const EquipInformation = [
 { //True 'Griffin' - Complete
         id: 105541,
         name: `True 'Griffin'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -13976,6 +14013,7 @@ const EquipInformation = [
 { //True 'Exceed Zechs' - Complete
         id: 105621,
         name: `True 'Exceed Zechs'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -14064,6 +14102,7 @@ const EquipInformation = [
 { //True 'Dos Muertes' - Complete
         id: 105651,
         name: `True 'Dos Muertes'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -14123,6 +14162,7 @@ const EquipInformation = [
 { //True 'Fe'Ode' - Missing Lore
         id: 105671,
         name: `True 'Fe'Ode'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -14240,6 +14280,7 @@ const EquipInformation = [
 { //True 'Fomalhaut' - Complete
         id: 105711,
         name: `True 'Fomalhaut'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -14328,6 +14369,7 @@ const EquipInformation = [
 { //True 'Tempest' - Complete
         id: 105741,
         name: `True 'Tempest'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -14822,6 +14864,7 @@ const EquipInformation = [
 { //True 'Maelstrom' - Complete
         id: 105911,
         name: `True 'Maelstrom'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -14911,6 +14954,7 @@ const EquipInformation = [
 { //True 'Aurora & Zephyr' - Complete
         id: 105941,
         name: `True 'Aurora & Zephyr'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -15086,6 +15130,7 @@ const EquipInformation = [
 { //True 'Adamas Gear' - Complete
         id: 106001,
         name: `True 'Adamas Gear'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -15293,6 +15338,7 @@ const EquipInformation = [
 { //True 'ZANKETSU' - Missing Lore
         id: 106071,
         name: `True 'ZANKETSU'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -15324,6 +15370,7 @@ const EquipInformation = [
 { //True 'Knights Glow' - Complete
         id: 106081,
         name: `True 'Knights Glow'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -15736,6 +15783,7 @@ const EquipInformation = [
         id: 106221,
         name: `真『イノセントノア』`,
         translate: `True 'Innocent Noah'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -15767,6 +15815,7 @@ const EquipInformation = [
         id: 106231,
         name: `真『グランキラー』`,
         translate: `True 'Gran Killer'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -15797,6 +15846,7 @@ const EquipInformation = [
 { //True 'Saint Blaze' - Complete
         id: 106241,
         name: `True 'Saint Blaze'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -15886,6 +15936,7 @@ const EquipInformation = [
 { //True 'Valtrenith' - Missing Lore
         id: 106271,
         name: `True 'Valtrenith'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -15976,6 +16027,7 @@ const EquipInformation = [
         id: 106301,
         name: `真『フェロニカ』`,
         translate: `True 'Feronica'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -16122,6 +16174,7 @@ const EquipInformation = [
 { //True 'Asterisk' - Complete
         id: 106351,
         name: `True 'Asterisk'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -16152,6 +16205,7 @@ const EquipInformation = [
 { //True 'Flambardo' - Complete
         id: 106361,
         name: `True 'Flambardo'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -16298,6 +16352,7 @@ const EquipInformation = [
 { //True 'Stratega' - Complete
         id: 106411,
         name: `True 'Stratega'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -16386,6 +16441,7 @@ const EquipInformation = [
 { //True 'NANASHI' - Complete
         id: 106441,
         name: `True 'NANASHI'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -16504,6 +16560,7 @@ const EquipInformation = [
 { //True 'Magmation' - Missing Lore
         id: 106481,
         name: `True 'Magmation'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -16534,6 +16591,7 @@ const EquipInformation = [
 { //True 'Sabertooth Gauntlets' - Missing Lore
         id: 106491,
         name: `True 'Sabertooth Gauntlets'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -16625,6 +16683,7 @@ const EquipInformation = [
         id: 106521,
         name: `真『スタリサルダ』`,
         translate: `True 'Starisarta'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -16655,6 +16714,7 @@ const EquipInformation = [
 { //True 'Arbasol' - Missing Lore
         id: 106531,
         name: `True 'Arbasol'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -16746,6 +16806,7 @@ const EquipInformation = [
 { //True 'EX Gate' - Complete
         id: 106581,
         name: `True 'EX Gate'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -16979,6 +17040,7 @@ const EquipInformation = [
 { //True 'Vanish' - Complete
         id: 106661,
         name: `True 'Vanish'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -17154,6 +17216,7 @@ const EquipInformation = [
 { //True 'Demonic Seal' - Complete
         id: 106721,
         name: `True 'Demonic Seal'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -17184,6 +17247,7 @@ const EquipInformation = [
 { //True 'Netherworld Silver' - Complete
         id: 106731,
         name: `True 'Netherworld Silver'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -17272,6 +17336,7 @@ const EquipInformation = [
 { //True 'Will-o'-the-Wisp' - Complete
         id: 106761,
         name: `True 'Will-o'-the-Wisp'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -17302,6 +17367,7 @@ const EquipInformation = [
 { //True 'TSUJI-KAZE' - Complete
         id: 106771,
         name: `True 'TSUJI-KAZE'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -17536,6 +17602,7 @@ const EquipInformation = [
 { //True 'Empath' - Missing Lore
         id: 106851,
         name: `True 'Empath'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -17799,6 +17866,7 @@ const EquipInformation = [
 { //True 'Exferia' - Missing Lore
         id: 106941,
         name: `True 'Exferia'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -17858,6 +17926,7 @@ const EquipInformation = [
 { //True 'Creation' - Complete
         id: 106961,
         name: `True 'Creation'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -17945,6 +18014,7 @@ const EquipInformation = [
 { //True 'Crimson Talon' - Complete
         id: 106991,
         name: `True 'Crimson Talon'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -18004,6 +18074,7 @@ const EquipInformation = [
 { //True 'Dual Thunderbolts' - Complete
         id: 107011,
         name: `True 'Dual Thunderbolts'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -18063,6 +18134,7 @@ const EquipInformation = [
 { //True 'Mirage Kimono' - Complete
         id: 107031,
         name: `True 'Mirage Kimono'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -18122,6 +18194,7 @@ const EquipInformation = [
 { //True 'Blood Moon' - Complete
         id: 107051,
         name: `True 'Blood Moon'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -18211,6 +18284,7 @@ const EquipInformation = [
 { //True 'Flerunica' - Complete
         id: 107081,
         name: `True 'Flerunica'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -18271,6 +18345,7 @@ const EquipInformation = [
 { //True 'Lizaverde' - Complete
         id: 107101,
         name: `True 'Lizaverde'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -18331,6 +18406,7 @@ const EquipInformation = [
 { //True 'Leivachka' - Missing Lore
         id: 107121,
         name: `True 'Leivachka'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -18391,6 +18467,7 @@ const EquipInformation = [
 { //True 'Yulibert' - Missing Lore
         id: 107141,
         name: `True 'Yulibert'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -18686,6 +18763,7 @@ const EquipInformation = [
 { //True 'Brodithung' - Complete
         id: 107241,
         name: `True 'Brodithung'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -18745,6 +18823,7 @@ const EquipInformation = [
 { //True 'SV61' - Complete
         id: 107261,
         name: `True 'SV61'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -18804,6 +18883,7 @@ const EquipInformation = [
 { //True 'Valiant' - Missing Lore
         id: 107281,
         name: `True 'Valiant'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -18834,6 +18914,7 @@ const EquipInformation = [
 { //True 'Vengeance' - Missing Lore
         id: 107291,
         name: `True 'Vengeance'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -18980,6 +19061,7 @@ const EquipInformation = [
 { //True 'Supernova' - Complete
         id: 107341,
         name: `True 'Supernova'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -19155,6 +19237,7 @@ const EquipInformation = [
 { //True 'Etoile' - Complete
         id: 107401,
         name: `True 'Etoile'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -19563,6 +19646,7 @@ const EquipInformation = [
 { //True 'Assault Rifle Sable' - Missing Lore
         id: 107541,
         name: `True 'Assault Rifle Sable'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -19622,6 +19706,7 @@ const EquipInformation = [
 { //True 'Shurahalt' - Missing Lore
         id: 107561,
         name: `True 'Shurahalt'`,
+        location: `AWK Ganan Stage Clear Reward`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -19739,6 +19824,7 @@ const EquipInformation = [
 { //True 'Grand Destin' - Complete
         id: 107601,
         name: `True 'Grand Destin'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -19827,6 +19913,7 @@ const EquipInformation = [
 { //True 'Drago La'cryma' - Complete
         id: 107631,
         name: `True 'Drago La'cryma'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -19915,6 +20002,7 @@ const EquipInformation = [
 { //True 'Berserk' - Complete
         id: 107661,
         name: `True 'Berserk'`,
+        location: `AWK Grad Stage Clear Reward`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -19975,6 +20063,7 @@ const EquipInformation = [
 { //True 'Scintilla' - Missing Lore
         id: 107681,
         name: `True 'Scintilla'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -20064,6 +20153,7 @@ const EquipInformation = [
 { //True 'Bandiera' - Complete
         id: 107711,
         name: `True 'Bandiera'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -20210,6 +20300,7 @@ const EquipInformation = [
 { //True 'Arsenal' - Complete
         id: 107761,
         name: `True 'Arsenal'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -20388,6 +20479,7 @@ const EquipInformation = [
 { //True 'Discontent' - Complete
         id: 107821,
         name: `True 'Discontent'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -20592,6 +20684,7 @@ const EquipInformation = [
 { //True 'Scatter-18' - Complete
         id: 107891,
         name: `True 'Scatter-18'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -20651,6 +20744,7 @@ const EquipInformation = [
 { //True 'Geek Shielder' - Complete
         id: 107911,
         name: `True 'Geek Shielder'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -20739,6 +20833,7 @@ const EquipInformation = [
 { //True 'Cantabile' - Complete
         id: 107941,
         name: `True 'Cantabile'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -20827,6 +20922,7 @@ const EquipInformation = [
 { //True 'Insight' - Complete
         id: 107971,
         name: `True 'Insight'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -20915,6 +21011,7 @@ const EquipInformation = [
 { //True 'Testament' - Complete
         id: 108001,
         name: `True 'Testament'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -21235,6 +21332,7 @@ const EquipInformation = [
 { //True 'Scintillation' - Complete
         id: 108111,
         name: `True 'Scintillation'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -21265,6 +21363,7 @@ const EquipInformation = [
 { //True 'Velocity' - Complete
         id: 108121,
         name: `True 'Velocity'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -21702,6 +21801,7 @@ const EquipInformation = [
 { //True 'Colori' - Missing Lore
         id: 108271,
         name: `True 'Colori'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -21791,6 +21891,7 @@ const EquipInformation = [
 { //True 'Bastone' - Missing Lore
         id: 108301,
         name: `True 'Bastone'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -21937,6 +22038,7 @@ const EquipInformation = [
 { //True 'MorNyan Star' - Missing Lore
         id: 108351,
         name: `True 'MorNyan Star'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -22229,6 +22331,7 @@ const EquipInformation = [
 { //True 'Azure Offering' - Missing Lore
         id: 108451,
         name: `True 'Azure Offering'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -22375,6 +22478,7 @@ const EquipInformation = [
 { //True 'Vertrag' - Complete
         id: 108501,
         name: `True 'Vertrag'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -22434,6 +22538,7 @@ const EquipInformation = [
 { //True 'Basilisk' - Missing Lore
         id: 108521,
         name: `True 'Basilisk'`,
+        location: `AWK Nier Stage Clear Reward`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -22785,6 +22890,7 @@ const EquipInformation = [
 { //True 'Engaged Shield' - Complete
         id: 108671,
         name: `True 'Engaged Shield'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -22932,6 +23038,7 @@ const EquipInformation = [
 { //True 'Ready Maid' - Complete
         id: 108721,
         name: `True 'Ready Maid'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -23081,6 +23188,7 @@ const EquipInformation = [
 { //True 'Wild Cat' - Missing Lore
         id: 108771,
         name: `True 'Wild Cat'`,
+        location: `AWK Sophie Stage Clear Reward`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -23141,6 +23249,7 @@ const EquipInformation = [
 { //True 'Wonderful' - Missing Lore
         id: 108791,
         name: `True 'Wonderful'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -23229,6 +23338,7 @@ const EquipInformation = [
 { //True 'Night Jacket' - Missing Lore
         id: 108821,
         name: `True 'Night Jacket'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -23259,6 +23369,7 @@ const EquipInformation = [
 { //True 'Night Edge' - Complete
         id: 108831,
         name: `True 'Night Edge'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -23347,6 +23458,7 @@ const EquipInformation = [
 { //True 'Hepaistos' - Complete
         id: 108861,
         name: `True 'Hepaistos'`,
+        location: `AWK Gilliam Stage Clear Reward`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -23406,6 +23518,7 @@ const EquipInformation = [
 { //True 'Ember Bolt' - Complete
         id: 108881,
         name: `True 'Ember Bolt'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -23494,6 +23607,7 @@ const EquipInformation = [
 { //True 'Jaeger' - Complete
         id: 108911,
         name: `True 'Jaeger'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -23669,6 +23783,7 @@ const EquipInformation = [
 { //True 'Ouen' - Complete
         id: 108971,
         name: `True 'Ouen'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -23816,6 +23931,7 @@ const EquipInformation = [
 { //True 'Gold Rush' - Complete
         id: 109021,
         name: `True 'Gold Rush'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -23905,6 +24021,7 @@ const EquipInformation = [
 { //True 'Bel Canto' - Complete
         id: 109051,
         name: `True 'Bel Canto'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -24430,6 +24547,7 @@ const EquipInformation = [
 { //True 'Castillo' - Missing Lore
         id: 109231,
         name: `True 'Castillo'`,
+        location: `AWK Gaia Stage Clear Reward`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -24460,6 +24578,7 @@ const EquipInformation = [
 { //True 'Maximus' - Complete
         id: 109241,
         name: `True 'Maximus'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -24985,6 +25104,7 @@ const EquipInformation = [
 { //True 'Selfish Aria' - Missing Lore
         id: 109421,
         name: `True 'Selfish Aria'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -25073,6 +25193,7 @@ const EquipInformation = [
 { //True 'Inspector' - Complete
         id: 109451,
         name: `True 'Inspector'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -25219,6 +25340,7 @@ const EquipInformation = [
 { //True 'Ancient Law' - Complete
         id: 109501,
         name: `True 'Ancient Law'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -25249,6 +25371,7 @@ const EquipInformation = [
 { //True 'Nine Oaths' - Complete
         id: 109511,
         name: `True 'Nine Oaths'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -25279,6 +25402,7 @@ const EquipInformation = [
 { //True 'Grand Scale' - Missing Lore
         id: 109521,
         name: `True 'Grand Scale'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -25601,6 +25725,7 @@ const EquipInformation = [
 { //True 'Astral Bolt' - Complete
         id: 109631,
         name: `True 'Astral Bolt'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -25689,6 +25814,7 @@ const EquipInformation = [
 { //True 'Cypher' - Missing Lore
         id: 109661,
         name: `True 'Cypher'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -25719,6 +25845,7 @@ const EquipInformation = [
 { //True 'Crew V' - Missing Lore
         id: 109671,
         name: `True 'Crew V'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -25894,6 +26021,7 @@ const EquipInformation = [
 { //True 'Barbatos' - Complete
         id: 109731,
         name: `True 'Barbatos'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -26011,6 +26139,7 @@ const EquipInformation = [
 { //True 'Sky Light' - Complete.
         id: 109771,
         name: `True 'Sky Light'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -26041,6 +26170,7 @@ const EquipInformation = [
 { //True 'Terra Master' - Complete
         id: 109781,
         name: `True 'Terra Master'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -26071,6 +26201,7 @@ const EquipInformation = [
 { //True 'Dark Bringer' - Complete
         id: 109791,
         name: `True 'Dark Bringer'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -26420,6 +26551,7 @@ const EquipInformation = [
 { //True 'Assault Architect' - Complete
         id: 109911,
         name: `True 'Assault Architect'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -26541,6 +26673,7 @@ const EquipInformation = [
 { //True 'Asteroid' - Complete
         id: 109971,
         name: `True 'Asteroid'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -26687,6 +26820,7 @@ const EquipInformation = [
 { //True 'Heroic Path' - Complete
         id: 110021,
         name: `True 'Heroic Path'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -26892,6 +27026,7 @@ const EquipInformation = [
 { //True 'Gramlude' - Missing Lore
         id: 110091,
         name: `True 'Gramlude'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -26981,6 +27116,7 @@ const EquipInformation = [
 { //True 'Eisenstern' - Missing Lore.
         id: 110121,
         name: `True ''Eisenstern'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -27069,6 +27205,7 @@ const EquipInformation = [
 { //True 'Mukudori' - Missing Lore
         id: 110151,
         name: `True 'Mukudori'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -27100,6 +27237,7 @@ const EquipInformation = [
         id: 110161,
         name: `真『冥府ノ喉』`,
         translate: `True 'Throat of the Underworld'`,
+        location: `War Ginzo Stage Clear Reward`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -27277,6 +27415,7 @@ const EquipInformation = [
         id: 110221,
         name: `真『天地雷鳴甲』`,
         translate: `True 'Heaven's Thunder Armor'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -27308,6 +27447,7 @@ const EquipInformation = [
         id: 110231,
         name: `真『ノーブルブラッド』`,
         translate: `True 'Noble Blood'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -27456,6 +27596,7 @@ const EquipInformation = [
 { //True 'Hyakka' - Missing Lore
         id: 110281,
         name: `True 'Hyakka'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -27893,6 +28034,7 @@ const EquipInformation = [
 { //True 'Seafoam Pareo' - Complete
         id: 110431,
         name: `True 'Seafoam Pareo'`,
+        location: `Alchemist - Exchange via Rainbow Gems (Limited)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -27923,6 +28065,7 @@ const EquipInformation = [
 { //True 'Precious One-Piece - Complete
         id: 110441,
         name: `True 'Precious One-Piece`,
+        location: `Alchemist - Exchange via Rainbow Gems (Limited)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -27954,6 +28097,7 @@ const EquipInformation = [
         id: 110451,
         name: `真『シューティングスター』`,
         translate: `True 'Shooting Star'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -28246,6 +28390,7 @@ const EquipInformation = [
 { //True 'Soaring Z' - Complete
         id: 110551,
         name: `True 'Soaring Z'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -28394,6 +28539,7 @@ const EquipInformation = [
         id: 110601,
         name: `真『ユーサネイジア』`,
         translate: `True 'Euthanasia'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -28454,6 +28600,7 @@ const EquipInformation = [
         id: 110621,
         name: `真『迦楼羅』`,
         translate: `True 'Karura'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -28544,6 +28691,7 @@ const EquipInformation = [
         id: 110651,
         name: `真『天涙切』`,
         translate: `True 'Celestial Tears'`,
+        location: `Hakurou Stage Clear Reward`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -28866,6 +29014,7 @@ const EquipInformation = [
         id: 110761,
         name: `真『炎紋斬決』`,
         translate: `True 'Flame Crest Zanketsu'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -28984,6 +29133,7 @@ const EquipInformation = [
         id: 110801,
         name: `真『受雷』`,
         translate: `True 'Lightning Strike'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -29132,6 +29282,7 @@ const EquipInformation = [
         id: 110851,
         name: `真『メルクリウス』`,
         translate: `True 'Mercury'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -29628,6 +29779,7 @@ const EquipInformation = [
         id: 111041,
         name: `真『八岐』`,
         translate: `True 'Yamata'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -30066,6 +30218,7 @@ const EquipInformation = [
         id: 111191,
         name: `真『ブレイズバーミント』`,
         translate: `True 'Blaze Bamint'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -30156,6 +30309,7 @@ const EquipInformation = [
         id: 111231,
         name: `真『ハピネストリガー』`,
         translate: `True 'Happiness Trigger'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -30362,6 +30516,7 @@ const EquipInformation = [
         id: 111301,
         name: `真『九宝』`,
         translate: `True '9 Treasures'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -30544,6 +30699,7 @@ const EquipInformation = [
         id: 111361,
         name: `真『魔剣斬決』`,
         translate: `True 'Demon Sword ZANKETSU'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
