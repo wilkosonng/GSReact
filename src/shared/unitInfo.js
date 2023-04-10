@@ -15848,7 +15848,7 @@ const UnitInformation = [
                 author: `Senshi`
             }
     },
-    { //Orvell - Complete
+    { //Orvell - Complete, Review done
         id: 103026412,
         name: "Orvell (Light)",
         rank: "A",
@@ -15929,9 +15929,27 @@ const UnitInformation = [
             {   
                 evo5: "The brave and benevolent first prince of the Gran Verge Kingdom. Orvell was the first in line to the throne and had a lot of support from the people. As a boy, he ate little and grew slowly, so he had a small frame, but when he saw his equally small-framed father brandish his huge sword, he made up his mind to get stronger and trained until he had a magnificent body that surpassed his father's.",
                 evoawk: "MThe strong and brave Orvell finally took possession of the king's sword, the symbol of the next king. The feel of it in his hand made his royal blood run hot, and he brandished the heavy sword with ease. When Orvell first picked up the sword, he was full of confidence and energy, but soon he realized the true weight of the sword. Within him, a king's resolve had begun to sprout."
+            },
+        review:
+            {
+                skill: `An ability that is not very useful when it comes to bosses, but it can help speed up the mob rounds of a quest if it has one.`,
+                arts: `A decent PHY RES debuff that can help with physical attackers in dealing more damage. This not only helps Orvell, but also the team's DPS for time when the extra damage is needed such as speeding up a quest or for nuking. Aside from that, Orvell's Arts should be used to start stacking the Testament to the King passive. Paired with an accuracy buff to himself, this helps with dealing with tricky enemies with evasion. The increased accuracy buff by itself is not enough as a standalone to compensate the evasion enemies has however, so it can't be relied on heavily. But because there aren't too many enemies that has evasion, the buff itself is pretty niche.`,
+                truearts: `A high multiplier with a self stat boost to compliment it for more damage. With the stat boost, it can serve as a pseudo heal for Orvell, making him a bit more self-sustainable. At 5 stacks of Testament to the King, the damage is greatly increased  due to the ability to ignore enemies' DEF. Because of this, he is suitable for nuke compositions and can serve as a general DPS.`,
+                crossarts: `Its high multiplier may seem appealing to deal more damage and a 50 art refund to both Orvell and Virago, but the prerequisite is also high from both units. Only at 5 stacks of both Testament to the King and Overlord’s Squire does the multiplier increase and by that time, the enemy would already be dead. The lack of synergy between Orvell and Virago also makes it difficult to fit them both into a team, making it very restricting on what units you can actually use.`,
+                ability1: `This is the bread and butter of Orvell; with each Arts and True Arts, a damage buff is applied and Orvell's Skill CT REC is boosted as well. Because Orvell lacks innate crit, he's missing out on the extra damage that comes with crit. This ability helps him overcome that with a 200% DMG increase and the ignore DEF on his True Arts, which is very useful for all content and especially in stages that negates crit. With Orvell having high multipliers, the DMG increase helps him to a greater degree.`,
+                ability2: `Being able to resist Freeze and Paralyze means that Orvell will not get interrupted during his Arts and True Arts, making him a more competent DPS`,
+                ability3: `A minor buff that seldom sees any use because most often units' health does not drop to the threshold, even more so with Orvell having a pseudo heal on his True Arts.`,
+                trueweapon: {
+                    skill: `A niche buff that only applies to Light units. In terms of buffing Orvell himself, this increases his damage a considerable amount. But with its long CT, it makes it less useful for DPS and general content.`,
+                    ability1: `A high buffing ability that helps improve Orvell's damage further. The attack up buff is magnified with Orvell's high damage multipliers and DMG Up buffs, making his damage much higher. There are other equips that you can use in turn however, so his True Weapon is not a must.`,
+                    ability2: `A slight increase in BE generation may help, but overall it's nothing significant.`
+                },
+                overall: `Orvell is a great unit to use as an attacker, and with enough support, his damage can become very potent. His kit fits in both drawn-out battles and in nuke-oriented compositions. Orvell's offensive slot only further his outstanding capabilities, though as a result, he struggles to generate his own Arts. With the right team, Orvell can truly become a competent self-sustaining attacker.`,
+                lastupdated: `September 8, 2020`,
+                author: `Unknown`
             }
     },
-    { //Virago - Complete (+ JP version)
+    { //Virago - Complete (+ JP version), Review done
         id: 103036212,
         name: "Virago",
         rank: "B-",
@@ -16007,6 +16025,25 @@ const UnitInformation = [
             {   
                 evo5: "A Dragon servant loyal to Orvell, the first prince of the Gran Verge Kingdom. The bond between the servant and his master is said to have been one of the strongest of all time. While Virago always acted rational on the surface, underneath that was a strong desire for improvement and the mind of a warrior. Orvell was like this himself, and it took no time for the two of them to share their dreams and apsirations.",
                 evoawk: "The brave and fierce Dragon general who served Orvell, the first prince of the Gran Verge Kingdom. Orvell riding on the Dragon's back as they flew through the skies was a sight loved by children and adults. This grand appearance made soldiers revere him and greatly boosted the morale of the knights who guarded the kingdom. When the Dragon cavalry was organized in later years, they based the coat of arms on this imagery."
+            },
+        review:
+            {
+                skill: `A very negligible debuff with very little uptime and use`,
+                arts: `A decent buff to reduce DMG taken for allies and might be useful for stages where one is lacking in DEF equips, but the Arts Drain being quite useless as it only drains 1/2 an orb making it hard to use.`,
+                truearts: `A sizable buff that allows Virago to be a decent DPS, but overall not that useful due to the restrictions as most Gods/Dragons units are not the best in terms of DMG dealing.`,
+                crossarts: `Despite the large amount of DMG and the Arts Refund, the prerequisite is also high from both units. Only at 5 stacks of both Testament to the King and Overlord's Squire does the multiplier increase and by that time, the enemy would already be dead. The lack of synergy between Orvell and Virago also makes it difficult to fit them both into a team, making it very restricting on what units you can actually use.`,
+                ability1: `An okay passive that slightly increases Virago's offensive and defensive capabilities`,
+                ability2: `A negligible heal passive`,
+                ability3: `It is not the best passive to have but not the worst`,
+                ability4: `A good passive to have if you plan to use them together but they restrict the team a lot. However it certainly does help Virago offset his slow slots`,
+                trueweapon: {
+                    skill: ``,
+                    ability1: ``,
+                    ability2: ``
+                },
+                overall: `Overall Virago is a decent Ultra Luck unit who can output a decent amount of DMG despite his kit. His Arts would be his primary use, though it is not the best for luck farming. He is a decent free unit despite having better options to use over him.`,
+                lastupdated: `September 9, 2020`,
+                author: `The True Pepe`
             }
     },
     { //Luahn - Complete
