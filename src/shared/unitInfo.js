@@ -16207,7 +16207,7 @@ const UnitInformation = [
                 evoawk: "An attendant of the second prince of Gran verge, Luahn. She had given up on her personality and humanity, only seeking salvation in being used like a tool. This made her the perfect sacrificial pawn for the king of Gran Verge, and the turning point came when she was appointed to serve the detested prince. Finally finding someone with whom she could commiserate, her heart slowly began to open up again."
             }
     },
-    { //Angelas - Complete
+    { //Angelas - Complete, Review done
         id: 103066112,
         name: "Angelas",
         rank: "A",
@@ -16290,9 +16290,26 @@ const UnitInformation = [
             {   
                 evo5: "A scion of the Dragons, who spent her childhood in an orphanage, without even knowing the names or faces of her parents. Years later, it is said that she was given to the family of a rich merchant of the Gods. However, the merchant and her mysteriously went missing at the same time after a few years. During the upheaval of Gran Verge Kingdom, she was seen wielding a great axe on the side of the king. The ghoulish expression on her face brought forth memories of painful pasts for many a people.",
                 evoawk: "A warrior of the Dragons wielding a fearsome axe into battle. Having awoken abilities beyond those of the average Dragon due to her time spent in a hellish environment. Though in part her power came from her youth, her very power was the personification of menace causing those that crossed her path to tremble for their lives. She had always been a solitary figure, but one encounter brought about change to that way of life. The small hand of a heartwarming young girl reached out to her, bringing about change in her way of life."
+            },
+        review:
+            {
+                skill: `Should net you one Dragon Flame stack from the get-go for most stages, though a bit slow on its own if you actually plan to build her up. Burn can also play into Angelas' passive, but it's a far from reliable source of critical hit chance.`,
+                arts: `Quick dragon flame stacks, though it's incredibly awkward given the fact that you'll require additional arts support specifically to sustain Angelas given the necessity of these stacks for her nuke. The burn resistance reduction is hardly ever useful despite its chained synergy with Angelas' Skill, Crit Passive, and True Weapon passive - it's just much too demanding and inconsistent of a source of crit chance.`,
+                truearts: `Angelas' True Arts is completely at the mercy of how many Dragon Flame stacks you've acquired: it's a more than solid multiplier to go off of for nuking when her passive is sufficiently stacked, especially given her Dragon Flame buffs; but it's an utter waste of time without them. Her arts refund should allow you to recycle stacks more effectively in the case you're using her as a DPS unit rather than a nuker, though this isn't the best approach for reasons that'll be discussed later.`,
+                ability1: `While this does go hand and hand with Angelas' own Arts and Skill, it can be a bit too inconsistent for nuking given you likely won't have time to apply burn resistance down with her arts before you burst the boss down. Still always a nice thing to have despite the fact that it doesn't work well with her intended purpose.`,
+                ability2: `A significant enough damage buff, though breaking as a mechanic is seen in increasingly few pieces of content recently, causing this passive to come into play once in a blue moon at best.`,
+                ability3: `This passive provides the main gimmick that Angelas' entire kit revolves around, providing quite a meaningful offensive debuff for her and her team as well as dealing significant damage, though this generally gets overshadowed by her True Arts damage.`,
+                trueweapon: {
+                    skill: `The key to this True Weapon is that due to its conditional nature, it stacks with other sources of Physical DMG Resistance down such as 'Snippity-Snips' or 'Type 30 Bayonet' to name a few, making this an amazing resource for bolstering the damage of not only teams Angelas takes part in, but physical nukes as a whole.`,
+                    ability1: `Quite a large damage boost to encourage the use of her burn mechanic, though you're oftentimes better off using an external source of critical hit rate. As for the passive boost, it really shouldn't be too significant if you're aptly supporting Angelas in the first place.`,
+                    ability2: `A pretty straight-forward passive that increases the User's offensive capabilities. While small, it's certainly good to have on any attacker unit.`
+                },
+                overall: `Coming off as a solid attacker and more specifically a nuker, though not a groundbreaking one for the most part, Angelas is the owner of one of the highest multipliers in the game. And to take full advantage of it, she requires a great amount damage-optimizing buffs such as DMG Up and DMG Resistance down from other sources, making her optimal role in nuking given how short-lived these buffs generally are. That is, however, not to say that her DPS capabilities are underwhelming, just that her lack of self-sufficiency and higher maintenance than most DPS units hinder her in that aspect. Overall, a competent unit who suffers due to difficult Dragon Flame stacking and generally lags behind her team as a result.`,
+                lastupdated: `November 2, 2020`,
+                author: `Elric`
             }
     },
-    { //Eagle - Complete
+    { //Eagle - Complete, Review done
         id: 103076312,
         name: "Eagle",
         rank: "B+",
