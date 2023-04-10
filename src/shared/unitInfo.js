@@ -16046,7 +16046,7 @@ const UnitInformation = [
                 author: `The True Pepe`
             }
     },
-    { //Luahn - Complete
+    { //Luahn - Complete, Review done
         id: 103046512,
         name: "Luahn",
         rank: "A+",
@@ -16128,9 +16128,27 @@ const UnitInformation = [
             {   
                 evo5: "The second prince of Gran Verge. As he came into the world on the night of a red moon, many shunned him in private if not publicly. After a shipwreck in foreign waters, he went missing for almost ten years until news of his whereabouts surfaced. His siblings had prepared a warm welcome, but they were instead shocked by how much he had changed.",
                 evoawk: "Iscator's strange mist slipped into the cracks of his fragile heart, gradually turning his disposition dark and dreary.. All that could get through to his blinded, deafened soul was that blatantly malicious shadow. Surrendering himself to its influence, he finally felt at ease. However, this put him at odds with the righteous nature of his royal blood. The internal struggle continues to tear him apart, sometimes forcing to spit up a thick, viscous miasma."
+            },
+        review:
+            {
+                skill: `This allows for good self-artsgen, regardless of CRIT or not making this a very consistent skill due to it always minimally giving you 30 arts.`,
+                arts: `The DMG RES Down potency is one thing, but the fact that it is permanent and on a DPS such as Luahn makes his team hit hard, and him hit even harder. Ideally, you would use this 2 to 3 times before going for TA spam, due to the synergy with his other Bleed related passives.`,
+                truearts: `High multiplier and the CRIT Chance on TA makes for some very high damage. This provides decent teamwide DPS support. Additionally, while the refund of 20 Arts is small, it is still appreciated in allowing him to use his TA more often.`,
+                crossarts: `Truly, the best Cross Art in the whole game. Although its effects are very selfish to Luahn himself, this immensely boosts the best aspects of Luahn's kit. His self-sustainability and his notable damage.`,
+                ability1: `Well look at that synergy. This again, boosts his and his Allies DMG, since it is assumed you will be using Luahn's True Arts so they would all crit`,
+                ability2: `This is the reason to stack of Luahn's Bleed at least twice. Considering that Bleed is permanent, Luahn will always have 100% DMG Up to his enemies`,
+                ability3: `Just to capatlize on all the immense damage Luahn will be doing if Bleed is stacked, this neat ability allows for him to directly reap the benefits and heal himself.`,
+                trueweapon: {
+                    skill: `Outside of units like Luahn who depend on Skill for self-sufficiency, this TW is mediocre at best. On him though, it allows him to somewhat work around Enemies' with CRIT RES or even score a cheeky critical on Skill, giving him more arts.`,
+                    ability1: `To boost his damage even more. Taking into account his Bleed mechanics and synergy and CRIT buffs, this is guaranteed to make Luahn hit even harder, if you weren't already convinced.`,
+                    ability2: `A significant damage boost to any Physical-based DPS, which is always appreciated.`
+                },
+                overall: `From the get-go (and get-up), Luahn proves to be an insanely strong DPS, even managing to cover his DPS weaknesses should the enemy have CRIT Negate/RES due to his Bleed and TW active ability. However, he is still at the end of the day just another DPS who has little to no versatility outside of his damage and crit-buffing. Furthermore, he depends on Chloe in order to truly achieve the high numbers you may see on TA, reducing your unit comps immensely to be built around him. All in all, a very good one-trick pony that makes his presence known amongst other contenders.`,
+                lastupdated: `April 6, 2021`,
+                author: `Berwick`
             }
     },
-    { //Chloe - Complete (+ JP version)
+    { //Chloe - Complete (+ JP version), Review done
         id: 103056511,
         name: "Chloe",
         luckrank: "A",
@@ -16205,6 +16223,24 @@ const UnitInformation = [
             {   
                 evo5: "A Human servant who has sworn loyalty to the second prince of Gran verge, Luahn. She was once a thoroughly average housekeeper, but a curse of immortality utterly changed her. It freed her from the bonds of death, but when those she had known as children died of old age, she realized everlasting life was no different from torture.",
                 evoawk: "An attendant of the second prince of Gran verge, Luahn. She had given up on her personality and humanity, only seeking salvation in being used like a tool. This made her the perfect sacrificial pawn for the king of Gran Verge, and the turning point came when she was appointed to serve the detested prince. Finally finding someone with whom she could commiserate, her heart slowly began to open up again."
+            },
+        review:
+            {
+                skill: `Nothing too special about this ability; the evasion is nice to have, but on most non tank units, you aren't planning on taking too much damage anyways`,
+                arts: `The ability to increase Allies' stats makes Chloe one of the only pseudo-healing luck units in game. In addition, the PHY DMG bonus can help boost your team's damage output, though the duration leaves much to be desired. You will most likely be using her True Arts instead.`,
+                truearts: `Chloe's True Arts inflicts an incredibly potent res down debuff on enemies that has an equally incredible duration. The ATK debuff and the base damage scaling are also nothing to scoff at, making this ability one of the strongest True Arts amongst the other luck units in terms of damage and nuking potential.`,
+                crossarts: `Unlike other Cross the Blaze units, this Cross Arts has no direct impact on other team members, while focusing instead on solely Chloe and Luahn. The Arts refund is massive, and the combination of Chloe's 3 APS passive (when Luahn is in the party) with Luahn's 3 APS generation on Cross Arts allows you to essentially spam their Cross Arts as long as Chloe remains alive. The other buffs to Luahn allow him to bring a multitude of buffs, debuffs, and damage to the team. Ultimately, whether True Arts or Cross Arts is used still depends on the situation and the team comp.`,
+                ability1: `A nice ability to have, though a mere band aid on her Cross Arts HP drain.`,
+                ability2: `An extremely potent self-sufficiency passive on the unfortunate condition that Luahn is in the party.`,
+                ability3: `Another nice ability to have that allows possible use in the Arena, as well as general gameplay in case your hp drops too low. This also compliments her Cross Arts HP drain.`,
+                trueweapon: {
+                    skill: ``,
+                    ability1: ``,
+                    ability2: ``
+                },
+                overall: `Chloe is a powerful unit with potent debuffs, hindered mainly by a lack of self sufficiency unless Luahn is on her team. She can be used as a DPS but shines mostly as a nuke support unit in mono dark teams, or as a complement to Luahn. In this role, Chloe can provide great physical/dark debuffs to the enemy, as well as a defense equip that allows the team to survive any initial nukes or damage the boss might inflict, such as the Sanctuary of the Bright Spirit giant boss. When Chloe wears a Raaz Crown, and steps into the arena, her revive passive also allows her to become a cheesey arena unit. Overall, a very powerful luck unit and normal unit.`,
+                lastupdated: `April 6, 2021`,
+                author: `Orixy`
             }
     },
     { //Angelas - Complete, Review done
