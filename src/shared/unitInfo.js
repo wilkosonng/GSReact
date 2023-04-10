@@ -16509,7 +16509,7 @@ const UnitInformation = [
                 author: `Unex`
             }
     },
-    { //Victoire - Complete
+    { //Victoire - Complete, Review done
         id: 103096412,
         name: "Victoire",
         rank: "B",
@@ -16591,6 +16591,22 @@ const UnitInformation = [
             {   
                 evo5: "A girl of the Spirits who was raised on hatred. She was persecuted from birth for her differently colored eyes as the rest of her kind viewed it as a sign of impurity, but they didn't kill her as they believed it'd release those impurities into the world. This truth was only revealed to her several years later when she obtained a special power. It was then she decided to turn her loneliness into a weapon of vengeance against not only her brethren, but the Gods as well.",
                 evoawk: " master musician who transforms her deep sadness and anger into sound. Born without a family, she was maltreated even at the orphanage, unaware of the reason why. An attempt to take her life ended up changing it, as her brush with death unlocked the ability to read the memories of objects. Finally aware of the stark truth, her suffering became fuel for vengeance."
+            },
+        review:
+            {
+                skill: `While not too potent of a boost on its own, it does become reasonably powerful as an offensive battery when it's used in conjunction with her normal Arts or when used in battles with fast and snappy substages.`,
+                arts: `An extremely potent form of a niche buff. Skill CT recovery speed buffs honestly don't do many wonders when it comes to increasing the overall effectiveness of many units let alone teams. While it does have its limited utility and notable synergy with Victoire's own skill, her True Art will likely be a more effective use of resources.`,
+                truearts: `Those are some pretty nice buffs there for light units. Unfortunately, if you aren't a light unit, what you get is a decent, though still genuinely useful pseudo-heal and an extremely niche buff to accuracy. However, if you're running this on a mono-light team, Victoire becomes one of the most consistent and potent healers in the game on top of noticeable buffs. Still, quite a niche scenario you'd have to be in to find yourself resorting to such a composition`,
+                ability1: `Quite a noticeable debuff when it's applied to a large enough enemy, and when combined with her arts buff, she can almost loop. While this is an all-around decent tool in her box for survivability, its usefulness can be inconsistent at best due to the diversity in the game's stages.`,
+                ability2: `Victoire isn't primarily an attacker, and even then, this buff is so niche that it just won't matter in the majority of situations despite its high figure.`,
+                trueweapon: {
+                    skill: `A surprisingly potent debuff for... light nuke teams? Quite unfitting for a light support unit to say the least. While this role and effect mismatch doesn't entirely justify it on Victoire, it's certainly looking like a staple for a different kind of composition.`,
+                    ability1: `That's more like it! This is the potent arts generation option if you plan on using Victoire, and should definitely be seen as a must-have equipment to get the full potential out of her. The duration increase is nice, but her buffs weren't the most critical to be able to cycle to begin with.`,
+                    ability2: `Not a particularly bad passive, but it'll be inconcequential most of the time due to its lower potency.`
+                },
+                overall: `Victoire ticks all the boxes for being a niche support who still has a place on certain teams. Conditionally potent buffs? Check. Highly-situational utility? Check. Gimmicky mechanics that really shine on select stages? Another check. That being said, what she brings to the table, especially for mono light teams can't be understated, becoming one of the most potent healers and stats buffers in the game. Outside of the few scenarios she can be fully-utilized, her slot is best reserved for a more general-purpose unit. And thus, although helming some extremely flashy support, you'll be unlikely to see her as the leader of most bands.`,
+                lastupdated: `March 16, 2021`,
+                author: `Chase`
             }
     },
     { //Forte - Complete
