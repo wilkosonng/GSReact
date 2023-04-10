@@ -16390,9 +16390,25 @@ const UnitInformation = [
             {   
                 evo5: "A human warrior relentlessly hunting the scions of Gran Verge. When his hometown on the kingdom's fringes was attacked by Demons, he could do nothing but watch its destruction. This combined with his discontent at the Gods' inadequate response caused his hatred to swell over the years. As a result, when someone invited him to join their plot to seize the throne, he was all too willing to accept.",
                 evoawk: "A warrior with a large, mechanized shield. Burdened with feelings of inferiority, his stubborn mental isolation means neither encouragement nor criticism can reach him. In a sense, the shield he carries also represents that wall between himself and others with its hidden blade piercing anyone who tries to breach it. Even so, it's possible he has not yet forgotten the warmth of comradery."
+            },
+        review:
+            {
+                skill: `Defence buffs are always appreciated, but this is nothing special. If this was Damage Resistance buff instead however, this would be much better, especially since he is a taunt.`,
+                arts: `His magnum opus! Surrisingly, this is easily the longest taunt duration on a Normal Art, even when compared to something such as Thetis' 15 second 10k Barrier on NA. Primarily with Eagle, this Art should be what you ought to be using all the time.`,
+                truearts: `I've never seen a more lacklustre ability. 10% Damage Resistance is just so weak. This is a disappointment of a True Art, and you're better off always using Arts. And no, the Arts Drain on TA is not enough justifying using TA in even in Avenger Mode.`,
+                ability1: `In short, Avenger Mode is Eagle's "Magia", though it is quite weak, focusing on boosting his offensive capabilities instead of his primary defensive kit, making him a weird DPS taunt tank archetype. The Paralysis and Freeze Resistance however, is very helpful and drastically improves his performance as a Taunt. Due to the unique condition of Avenger Mode, however, causes these buffs to be inconsistent on him.`,
+                ability2: `Considering how a majority of the bosses that would warrant using Eagle all deal critical damage, this buff is essentially negated. If only this was Damage Resistance....`,
+                trueweapon: {
+                    skill: `Incredibly mediocre as a Defence equip. The only redeeming factor of this equip is its decent defence buff (which is essentially negated by Critical Damage) and its great recovery time. Still, not remotely worth getting or using.`,
+                    ability1: `Because Eagle is a DPS, right. The Arts DMG boost is appreciated, but again very out of place for a unit that should be trying to defend and stay alive more than do damage. The Fill Rate however, does allow Eagle to reach his max potential as a Taunt faster, so that is a very good ability that works with his kit.`,
+                    ability2: `While you shouldn't be reaching the near-death state in general, this is probably the most potent aspect of Eagle's TW, and this buff is not to underappreciated. Definitely helpful, if you do hit near-death.`
+                },
+                overall: `The devs came up with an attempt at a DPS Taunt tank that was interesting in theory, but mediocre in practice, due to not having any potent in-built Damage Resistance tied to his kit. Add to the fact that his TA is literally 10% Damage Resistance with a 60k% multiplier in Avenger Mode, and you get a mismatched taunt tank that wanted to hit hard, but threw away almost all the aspects of what makes a defensive unit defensive, apart from the slots.`,
+                lastupdated: `March 5, 2021`,
+                author: `Berwick`
             }
     },
-    { //Bakoo - Complete
+    { //Bakoo - Complete, Review done
         id: 103086512,
         name: "Bakoo",
         rank: "A-",
@@ -16474,6 +16490,23 @@ const UnitInformation = [
             {   
                 evo5: "A doll that was once well-known throughout Gran verge. No one knows how it can move and talk on its own. Regardless, it's believed to be highly advanced since it has the capability for sarcasm and arrogance, along with its store of knowledge about the Tower of Providence. Its original owner was a girl named Milay, who was overjoyed to finally have a friend.",
                 evoawk: "A stuffed toy that only used to cause trouble with its sharp tongue and unpredictable appearances. Now, its mysterious warmth has been replaced with hatred and malice. It despises anything that lives, regardless of race. Words have no effect as it destroys all in its path."
+            },
+        review:
+            {
+                skill: `A small boost to the team’s DMG if there are no other active DMG RES downs.`,
+                arts: `Able to inflict offensive Debuffs, DEF% down is really insignificant being overshadowed by Crit DMG, the appeal being a decent Dark RES down. This Arts should only warrant use in bursting an Enemy in their last moments as Bakoo’s True Arts are far better.`,
+                truearts: `A Burst of Artsgen topped with a massive MAG DMG% buff, the largest up to date. While the effects are extremely powerful, Ingested, disables an Ally with a Heavy Faint, losing the benefits of Bakoo’s True Art and the aftermath of draining the Ally’ HP can make a team much more difficult to play well or even inconsistent at worst especially in prolonged fights and sometimes shutting down the entire team if an Ally with a crucial role on the team were be hit with Ingested.`,
+                ability1: `A small boost to Bakoo' survivability.`,
+                ability2: `A very tricky gimmick to Bakoo: if Bakoo’s True Arts isn't properly timed for usage, the hefty consequence of Ingested can shut down an entire team`,
+                ability3: `A good boost to Bakoo's Arts sufficiency, but should not be relied on`,
+                trueweapon: {
+                    skill: `Marginally better than the readily-accessible 'Akashic Eye', Bakoo's TW provides an additional deadly debuff that’s highly favourable towards him and other dark attackers.`,
+                    ability1: `Small boost to Bakoo's Dmg, and a nice Start Passive. Accounting the TW's active Skill makes this Equip Bakoo's Best-in-Slot`,
+                    ability2: `A nice offensive Buff`
+                },
+                overall: `Overall, Bakoo is an extremely potent buffer, but one that will actively make life much harder as you play around his mechanics. Due to this, his usage within Teams are very limited even more so for belonging in the oversaturated Type B, most players rather run a traditional support then consider using Bakoo. Still, his kit can still be of very interesting use within the nuking department for his absurd buffs and decent slotting.`,
+                lastupdated: `March 5, 2021`,
+                author: `Unex`
             }
     },
     { //Victoire - Complete
