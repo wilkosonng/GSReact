@@ -19142,7 +19142,7 @@ const UnitInformation = [
                 evoawk: "A cunning priest set her up as the founder of a religion until she escaped. She then travelled around the world to rescue her lost relatives, eventually joining the lithomancer Yulong's crew. Long isolation gave her a stunted vocabulary, and she often punctuates her sentences with \"rawr\"."
             }
     },
-    { //Vultee (Water) - Complete
+    { //Vultee (Water) - Complete, Review done
         id: 103406212,
         name: "Vultee (Water)",
         rank: "A",
@@ -19224,6 +19224,23 @@ const UnitInformation = [
             {   
                 evo5: "A gunner born in Simon's Hill and childhood friend of Hart and Priscilla. The hand-eye coordination and reflexes which let him catch beetles barehanded transferred well to marksmanship. Although he mostly lazed in school, joining the Rangers motivated him to self learn self-discipline, and he quickly rose to vice captain through hard work and dependability.",
                 evoawk: "A shooting specialist who bears his hometown's hopes and dreams. The other imperial knights also believe he could be the second coming of Simon, one of Isliid's greatest modern heroes. He has matured greatly since arriving in the capital, replacing most of his flippancy for diligence. At his core is now unshakable resolve... with a tinge of unease."
+            },
+        review:
+            {
+                skill: `A pretty decent skill. The 10 Arts is nice as well as the stackable Magic Res debuff that he applies to enemies. The downside is that the skill is extremely slow so chances are that only one debuff would be active at a time. Maybe two or three with enough Skill CT buffs.`,
+                arts: `The buffs on this arts work pretty well with his skill since it would allow him to apply at least two Magic Res debuffs at a time. The 30% Equip CT is a very nice added bonus. Overall, it's a good arts but a bit selfish since none of the buffs are teamwide`,
+                truearts: `Now this is where most of Vultee's damage will come from. A nice teamwide Ignore Def buff + Arts DMG buff based on the number of water allies, making him a good option for water nuking in general, or for that one stage in Water Ruins that needs Ignore Def.`,
+                ability1: `A pretty strong buff! Keeping his health above 80% is a pretty easy thing to do since there's plenty of ways to go about it such as using a competent healer, a taunt tank, or just having enough damage mitigation.`,
+                ability2: `An extremely niche passive that will probably be forgotten about since 90% of the content doesn't involve Hellfire anyway`,
+                ability3: `Another pretty strange passive that probably won't affect anything most of the time.  It does allow him to start with additional Arts depending on the unit he replaces, but as mentioned previously, this will not see use outside of a select few quests (Cross Battles) and Raids.`,
+                trueweapon: {
+                    skill: `Pretty decent damage for a pretty decent CT.  The 30% Water Res reduction and 50% DMG increase are nice little additions that make this a decent equip for water nuking, although Melty Shoes would probably do the job better`,
+                    ability1: `A nice passive arts gen that makes this one of the best options for one of Vultee’s magic equips`,
+                    ability2: `Very negligible.  A 10% increase shouldn’t make too much of a difference`
+                },
+                overall: `At first glance, Vultee seems like a pretty good water dps.  While there are other units like Summer Juno, Joker Selia, Santa Rimuru, and Emilia (and some others that I’m forgetting), he could work in place of them if you lack any of them.  Overall, he’s a decent dps that allows the team to do some extra damage, especially since his buffs affect “all” teams in general and are not limited to monowater or magic based teams.`,
+                lastupdated: `September 6, 2022`,
+                author: `Tinydomtako`
             }
     },
     { //Priscilla (Water) - Complete, Review done
