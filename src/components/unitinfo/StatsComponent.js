@@ -13,6 +13,18 @@ const imageSize ={
     maxWidth: 500
 };
 
+/**
+ * 
+ * ADD REVIEW FOR:
+ * - Revelation: {
+ *  skill1
+ *  skill2
+ *  skill3
+ *  megaskill
+ *  megaarts
+ * }
+ */
+
 function RenderStat({ unitStats }) {
     return (
         <>
@@ -126,6 +138,9 @@ function RenderSkills({ unitSkill, unitReview, isReview }) {
                 <Row>
                     <h3><strong>CROSS ARTS</strong></h3>
                     <center><p><Badge color="primary" pill>BREAK {unitSkill.crossartsbreak}</Badge> {unitSkill.crossarts}</p></center>
+                    {
+                        unitReview.crossarts && isReview && <UnitReviews review={unitReview.crossarts} />
+                    }
                 </Row> 
             }
 
@@ -161,6 +176,9 @@ function RenderSkills({ unitSkill, unitReview, isReview }) {
                 <Row>
                     <h3><strong>SUPER ARTS</strong></h3>
                     <center><p><Badge color="primary" pill>BREAK {unitSkill.superartsbreak}</Badge> {unitSkill.superarts}</p></center>
+                    {
+                        unitReview.superarts && isReview && <UnitReviews review={unitReview.superarts} />
+                    }
                 </Row> 
             }
             
@@ -275,7 +293,7 @@ export function RenderStats({unitName, unitStats, unitStatsJP = false, unitAtt, 
                     </Nav>
                     <TabContent activeTab={currentTab}>
                         <TabPane tabId="1">
-                        <RenderStat unitStats={unitStats} />
+                                <RenderStat unitStats={unitStats} />
                                 <RenderSlots unitSlots={unitSlots} />
                                 {unitReview &&
                                     <button onClick={() => setReview(!review)} style={{marginTop: ".3rem", marginBottom: ".3rem"}}>
@@ -296,7 +314,26 @@ export function RenderStats({unitName, unitStats, unitStatsJP = false, unitAtt, 
                                 }
                         </TabPane>
                         <TabPane tabId="2">
-                            <RevelationMode unitStats={unitStats} unitSkill={unitSkill.revelation} unitPassive={unitPassive} unitSlots={unitSlots} />
+                            <RenderStat unitStats={unitStats} />
+                            <RenderSlots unitSlots={unitSlots} />
+                            {unitReview &&
+                                    <button onClick={() => setReview(!review)} style={{marginTop: ".3rem", marginBottom: ".3rem"}}>
+                                        { review ?  <>Hide Review</>  : <>Show Review</>}
+                                    
+                                    </button> 
+                            }
+
+                            <RevelationMode unitSkill={unitSkill.revelation} unitReview={unitReview.revelation} isReview={review}/>
+                            <RenderPassives unitPassive={unitPassive} unitReview={unitReview} isReview={review}/>
+                            {
+                                    review ? 
+                                    <>
+                                        <h3><strong>SUMMARY</strong></h3>
+                                        <UnitReviews review={unitReview.overall} />
+                                        <center><i>Review Last Updated {unitReview.lastupdated}</i></center>
+                                    </> 
+                                    : null
+                            }
                         </TabPane>
                     </TabContent>
                 </center> 
@@ -407,26 +444,41 @@ export function RenderStats({unitName, unitStats, unitStatsJP = false, unitAtt, 
 }
 
 //Liberation Skill Tab
-export function RevelationMode ({unitStats, unitSkill, unitPassive, unitSlots}) {
+export function RevelationMode ({unitSkill, unitReview, isReview}) {
     return (
         <>
-            <RenderStat unitStats={unitStats} />
-            <RenderSlots unitSlots={unitSlots} />
+            
             <Row>
                     <h3><strong>REVELATION SKILLS</strong></h3>
                     <List type="unstyled">
-                        <li><Badge color="primary" pill>BREAK {unitSkill.skill1break}</Badge> {unitSkill.skill1}</li>
-                        <li><Badge color="primary" pill>BREAK {unitSkill.skill2break}</Badge> {unitSkill.skill2}</li>
-                        <li><Badge color="primary" pill>BREAK {unitSkill.skill3break}</Badge> {unitSkill.skill3}</li>
+                        <li style={{marginBottom: "1em"}}><Badge color="primary" pill>BREAK {unitSkill.skill1break}</Badge> {unitSkill.skill1}</li>
+                            {
+                                unitReview.skill1 && isReview && <UnitReviews review={unitReview.skill1} /> 
+                            }
+
+                        <li style={{marginBottom: "1em"}}><Badge color="primary" pill>BREAK {unitSkill.skill2break}</Badge> {unitSkill.skill2}</li>
+                            {
+                                unitReview.skill2 && isReview && <UnitReviews review={unitReview.skill2} /> 
+                            }
+
+                        <li style={{marginBottom: "1em"}}><Badge color="primary" pill>BREAK {unitSkill.skill3break}</Badge> {unitSkill.skill3}</li>
+                            {
+                                unitReview.skill3 && isReview && <UnitReviews review={unitReview.skill3} /> 
+                            }
                     </List>
                     <h3><strong>MEGA SKILL</strong></h3>
                     <center><p><Badge color="primary" pill>BREAK {unitSkill.megaskillbreak}</Badge> {unitSkill.megaskill}</p></center>
+                    {
+                        unitReview.megaskill && isReview && <UnitReviews review={unitReview.megaskill} /> 
+                    }
             </Row>
             <Row>
                 <h3><strong>MEGA ARTS</strong></h3>
                 <center><p><Badge color="primary" pill>BREAK {unitSkill.megaartsbreak}</Badge> {unitSkill.megaarts}</p></center>
+                {
+                        unitReview.megaarts && isReview && <UnitReviews review={unitReview.megaarts} /> 
+                }
             </Row>
-            <RenderPassives unitPassive={unitPassive} />
         </>
     )
 }
