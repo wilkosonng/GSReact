@@ -15449,7 +15449,7 @@ const UnitInformation = [
                 evoawk: "Roy, clad in the uniform of the Information Bureau. The empire has begun training its knights to be prepared for a myriad of combat situations by instructing them how to use a variety of weapons. The \"Imperial Gun Arts\" method was developed by Gichin Nanbu with the goal of teaching soldiers how to utilize firearms. It was created to accommodate the knight's affinity for close combat, but many-a-knight threw in the towel due to the hellish training needed to grasp the technique (even taking Roy a few years to master)."
             }
     },
-    { //Cestina - Complete
+    { //Cestina - Complete, Review done
         id: 102986312,
         name: "Cestina (Earth)",
         rank: "S",
@@ -15531,9 +15531,27 @@ const UnitInformation = [
             {   
                 evo5: "The second princess of the Gran Verge Kingdom, who was renowned for both her skill with the sword and her love for her citizens. With her lofty ideals and aspirations, she drew in the people around her, and her presence pushed the kingdom forward. She had two role models: her older sister, highly intelligent and skilled with magic, and her older brother, who carried himself with the majesty of a king. From a young age, Cestina took lessons from the leader of the Gran Verge knights so that she would be able to support her siblings. The Gran Verge sword fighting style was engraved in Cestina's soul, and she became the youngest ever assistant instructor.",
                 evoawk: "The just and righteous second princess of Gran Verge. When she wielded her sword, it was always for somebody else's sake, and she would never hurt somebody for her own gain. However, her strong sense of justice could be taken advantage of, and it was sometimes a weakness. Even so, she held to her beliefs to the very end. Her compassion and benevolence instilled great pride in the people of Gran Verge."
+            },
+        review:
+            {
+                skill: `Offers a near negligible amount of survivability to the team.`,
+                arts: `Bringing a plentiful amount of Support Cestina can offer to the team with this art as well as its relatively low cost makes this a great addition to any team that needs ArtGen and Defensive Measures.`,
+                truearts: `Offering substantial buffs/debuffs allows for both Cestina and her allies to inflict major amounts of damage during its duration. Enabling Cestina to perform as a competent DPS or Nuker when her Arts buffs are unnecessary.`,
+                crossarts: `While the high multiplier combined with the plethora of buffs this dual arts can bring seems quite potent, it’s a mere layer cake with a bitter inside. In spite of their limitations, the high cost of performing it as well as Cestina and Radak’s low synergy makes it so that this Dual Art seldom seize use. `,
+                ability1: `A nice Buff to the team’s survivability.`,
+                ability2: `A substantial DMG Buff for Cestina to further improve her DPS capabilities against Giant Bosses.`,
+                ability3: `Even though you’d never want a Unit to be near death, the flexibility this ability offers is very welcome, whether it to be used for it’s incredible Arts DMG boost for some strong Burst or a load instant arts allowing Cestina to pull out her barrier as fast as possible to prevent Ally/Unit deaths.`,
+                trueweapon: {
+                    skill: `While it’s Arts per second isn’t on par with other alternatives in terms of general use especially when it’s locked to Earth units, It’s overall still a very neat piece of Equipment in trade of Arts Generation for more offensive measures.`,
+                    ability1: `A whopping 2 Arts per second with even more to offer from the Equip’s skill itself makes this Equip Cestina’s Go-to for general use, even further buffing her DMG during Majestic Grace by a large amount.`,
+                    ability2: `Supposedly to further boost Cestina’s DMG dealt if she ever Activates Majestic Grace. While it wont be seen often, a nice addition regardless.`
+                },
+                overall: `A really versatile Unit who can thrive in the current meta due to her excelling in the various roles she is able to fill. Cestina wields a lot of value for both veterans and newer players for bringing substantial amounts of team support in both Offensive and Defensive elements. Overall, a Befitting spotlight for her impressive kit, invaluable Equipment slots and in dire situations where her Majestic Grace activates revealing the Monster she truly is.`,
+                lastupdated: `July 21, 2020`,
+                author: `Unex`
             }
     },
-    { //Radak - Complete (+ JP version)
+    { //Radak - Complete (+ JP version), Review done
         id: 102996112,
         name: "Radak",
         rank: "B+",
@@ -15614,6 +15632,24 @@ const UnitInformation = [
             {   
                 evo5: "A Beast servant who swore allegiance to the second princess of the Gran Verge Kingdom, Cestina. The youngest son of a venerable Beast priest, he was discovered by the King of Gran Verge and given the honorable position of being servant to the princess. In truth, Radak had been reluctant at first, but in a coincidental meeting with Cestina, he was struck by the sparkle in her eye and her strong will. This incident made Radak decide to become Cestina's servant.",
                 evoawk: "A loyal warrior in the service of the second princess of the Gran Verge Kingdom, Cestina. Their bond was much stronger than that of a mere master and servant, and the trust between them was unparalleled. The connection between them showed its true strength during the turmoil at the tower of Oluon in Gran Verge and has gone down in history."
+            },
+        review:
+            {
+                skill: `Adds a good amount of self-sufficiency to his kit allowing him to build arts faster.`,
+                arts: `A very useful part of his kit that further enables his team through boosts in survivability and damage output. The Arts refund allows for greater uptime on the buff and debuff, especially with external Arts Gen support. `,
+                truearts: `A decent DMG buff/debuff that has a greater effect in mono Fire teams; however due to the effect being geared towards mono Fire and his slots not being optimal this will never see much use.`,
+                crossarts: `Despite its enormous multiplier, DMG boost, and arts buff, you will rarely see this used due to its large arts consumption as well as Cestina's and Radak's low compatibility.`,
+                ability1: `Increases his self sufficiency and damage output if Cestina is on the team. Do note that this ability will rarely be active due to their lack of synergy.`,
+                ability2: `A welcome boost considering a majority of content consists of Giant Bosses.`,
+                ability3: `A conditional boost that will never really impact anything due to its small multiplier.`,
+                trueweapon: {
+                    skill: ``,
+                    ability1: ``,
+                    ability2: ``
+                },
+                overall: `Despite a lot of perks to his kit, Radak is held back by both his conditional buffs and team limitations. He will mainly act as a debuffer since he struggles as a DPS with his relatively low damage output and is unable to find a place in nuke teams due to his lackluster slots. His Cross Arts with Cestina offers some use, but due to the many conditions for its activation it will rarely be seen. Despite these limitations, he can definitely hold his own and has use in certain areas of content. `,
+                lastupdated: `July 21, 2020`,
+                author: `The True Pepe`
             }
     },
     { //Liza - Complete
