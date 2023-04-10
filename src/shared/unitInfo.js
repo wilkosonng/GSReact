@@ -19677,7 +19677,7 @@ const UnitInformation = [
                 author: `Alice`
             }
     },
-    { // Charlotte - Complete
+    { // Charlotte - Complete, Review done
         id: 103476112,
         name: "Charlotte",
         attribute: "Fire",
@@ -19756,6 +19756,24 @@ const UnitInformation = [
             {   
                 evo5: "The young granddaughter of Zeorg, Hero of Famelle. She boasts of his incredible deeds to anyone who will listen. Her days are spent in knight training along with her best friend Valerie. She surpassed the order's standards for swordplay when she was only eleven years old. The aspiration to become a great warrior like her grandfather carries her through the toughest drills with an upbeat attitude.",
                 evoawk: "Although sturdy enough in mind and body to undergo knight training, she threw a tantrum when Zeorg said he was joining the Demon Suppression Corps. So great was her dissent that she clung to his legs on the day he departed. This expression of both the fear he would not return and the anger she was not strong enough to replace the elderly soldier was, if nothing else, age-appropriate."
+            },
+        review:
+            {
+                skill: `Pretty underwhelming and will be largely irrelevant in most scenarios.`,
+                arts: `A pseudo heal on a fire unit is always welcome all while providing a decent attack buff to fire units.`,
+                truearts: `Well then! A fairly substantial buff for nuking comps and on a long duration for sustain comps. There's even a high chance of faint for when that's relevant. An overall great TA whose extra buff conditions can be easily met.`,
+                ability1: `It'll range from minimal to great self-sustainability depending on the comp, but at minimum having just Charlotte means you'll get something out of it. Mostly irrelevant with nuking comps.`,
+                ability2: `Attack buffs with conditions that aren't incredibly tough to meet are great, though it is pretty low and the defense buff is largely irrelevant.`,
+                trueweapon: {
+                    skill: `An actually decent active on a moderate CT for Fire sustain strategies and as high as you can get for unconditional Fire RES debuffs for nuking strategies. All with an added bonus of a good personal damage buff.`,
+                    ability1: `The Status RES is whatever but the 2/s arts generation is great for sustain strategies, making it one of her best arts gen equips for that type of content. Not so great for nuking strategies for the passive but the on use buffs make up for that.`,
+                    ability2: `This is such small conditional buff, it might as well say nothing.`
+                },
+                overall: `Wow! Charlotte is impressive and versatile. Being a Fire unit with a pseudo heal on her NA means that she'll shine in Fire Ruins, not having to sacrifice a team slot for Vermilia and she accesses her more potent pseudo heal faster than Sword Berwick.
+
+                For those that missed out on Draken, here's another shot at a good damage support unit! She packs quite a punch and provides buffs without needing to be at full HP. Even if you have Draken, she'll slot into mono-Fire nuking strategies well. Though she has some random parts to her overall kit, that doesn't detract from her role as a toptier damage support unit or a healer.`,
+                lastupdated: `September 15, 2022`,
+                author: `JC`
             }
     },
     { // Mizuki the Twelfth - Complete
