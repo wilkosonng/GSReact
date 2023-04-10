@@ -1739,9 +1739,9 @@ const UnitInformation = [
                 ability3: `Nice DMG boost against Demons.`,
                 trueweapon: {
                     true1: {
-                        skill: ``,
-                        ability1: ``,
-                        ability2: ``
+                        skill: `... That's it?`,
+                        ability1: `Decent attack boost, but wasted on a unique passive`,
+                        ability2: `Team-wide power boost is decent, but there are better options out there`
                     },
                     true2: {
                         skill: `A rather strong effect, although it's longer CT does limit it a bit for general use it'd work great in nukes with some light collab units in paticular.`,
@@ -18129,7 +18129,7 @@ const UnitInformation = [
                 skill: `Nothing interesting to note, just used for stacking his passive.`,
                 arts: `Great to increase the chances of stacking his passive, use it just before going into Revelation.`,
                 truearts: `Quite a short timer on Revelation, he also has nothing to extend the duration for more time on his debuffs.`,
-                relevation: {
+                revelation: {
                     skill1: `Great to use when you have other earth DPS units on the team, also just for himself to deal more damage.`,
                     skill2: `The Special Skill you want to be spamming the most, since most of the top DPS are physical units.`,
                     skill3: `Once again, mainly used for stacking his passive. It has the highest multiplier of the 3 Special Skills, but the debuffs compensate for the lower multiplier.`,
