@@ -1600,7 +1600,7 @@ const UnitInformation = [
                 evoawk: "An opponent of the Gods in the Ancient War who was called the Deathbringer of Corpse Mountain. In truth, she was a Human girl who turned her hatred into a continual search for power. Once the Deathdealer had her target, she would pursue it without cease, even to death. Once, when she came again against a swordswoman who had ducked her demonic sickle once before, she took on the demeanor of a death-dealing force of nature to kill her foe. For some reason, the swordswoman merely complained under her breath and readied her sword. History does not record what happened next."
             }
     },
-    { //Rayas - Complete
+    { //Rayas - Complete, Review done
         id: 101016411,
         name: "Rayas",
         luckrank: "B",
@@ -1728,6 +1728,32 @@ const UnitInformation = [
                 evo4: "During his travels to defeat the Demons, Rayas encountered the Demon Suppression Corps composed of members from the Great Nations. His old friend Roy, is there as well, and the group's strength proves inspiring enough to further draw out his latent abilities (not that he noticed). Now a part of the Corps, Rayas returns to his journey with expectations of further growth.",
                 evo5: "An adventurer journeying with friends to end the Demon menace. Contrary to his great strength, few know of his name and exploits, but even the handpicked warriors he journeys with have their eyes on him. Real experience has sharpened his talent with a sword and he’s managed to summon just Blade Masters, but incredible heroes from all of the eight races. Rayas still wants more, however, and so his journey continues.",
                 evoawk: "A member of the Reigrad branch of the Adventurer's Guild. Although his contributions in ending both the Second Battle of Gomarey and the Bamint Princess' uprising earned recognition from key international figures, he is far from a household name. His self-taught bladework is, according to a freind with the imperial army, at major officer level. While journeying through La Riiz to defeat the Ancients, he unlocked the memories of the knight within Grand Scale and thus the blade's true power."
+            },
+        review:
+            {
+                skill: `A rather strong skill providing plenty of artgen, especially when in Ex-Force.`,
+                arts: `This is a rather interesting Art given how much it's effect changes between modes. Overall though it's still a very strong Art, providing some emergency heals and a small barrier when in EX-Force and a rather long decent ATK buff when not in it, however if you're not in EX-Force your highest priority should be getting him in it.`,
+                truearts: `This is where Rayas will truly shine, with a rather sizeable physical damage boost to all allies and some self artgen. Sadly the rather short duration on Ex-Force does hurt his overall potential.`,
+                ability1: `Some nice additional DMG res, it'll help quite a bit when needed.`,
+                ability2: `Nice DMG boost against Gods`,
+                ability3: `Nice DMG boost against Demons.`,
+                trueweapon: {
+                    true1: {
+                        skill: ``,
+                        ability1: ``,
+                        ability2: ``
+                    },
+                    true2: {
+                        skill: `A rather strong effect, although it's longer CT does limit it a bit for general use it'd work great in nukes with some light collab units in paticular.`,
+                        ability1: `The increased duration and Art refund for entering Ex-Force makes this a great boost to Rayas's overall performance.`,
+                        ability2: `The small ATK boost is a nice addition to have.`
+                    }
+                },
+                overall: `Ah Rayas, it seems like just a bit ago you were just a joke of a unit, only used as baby's first luck unit if we didn't have a collab going on that gave us one. Now look at you, finally all grown up. 
+
+                In all seriousness, with his Awoken form Rayas is now a real unit, being able to compete with other DPS options like Swick. Although his lack of crit does hurt, he's a solid option. Stages with "clear with Rayas" requires will no longer require you to carry a dead unit. As a luck unit Rayas is still lacking though, needing to enter Ex-Force before he can TA is a very big downside when you just want to luck nuke. Also you know...there's the minor issue of how anyone who is capable of getting him awoken already has a decently developed box so not like he'll ever be used outside of those "clear with Rayas" requirements anyway.`,
+                lastupdated: `August 25, 2022`,
+                author: `Zanster`
             }
     },
     { //Iris - Complete
@@ -13736,7 +13762,7 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
     },
-    { //Cynthia - Complete
+    { //Cynthia - Complete, Review done
         id: 102796212,
         name: "Cynthia",
         attribute: "Water",
@@ -13817,6 +13843,24 @@ const UnitInformation = [
             {   
                 evo5: "A Beast warrior determined to become a knight of the Isliid Empire. The champion Gran Brave, impressed by her fighting aptitude, enlisted her into his brigade. Childish innocence and charming looks lent to her popularity, and she also inspired her allies by ferociously punching through the enemy lines.",
                 evoawk: "Sinister ambition and evil schemes cost many lives in the civil war. However, this brave fighter resolutely struggled to save both friend and foe, regardless of affiliation. Her devotion to the people earned her their adoration, leaving her mark on history as the \"Beastly Keeper of Peace\"."
+            },
+        review:
+            {
+                skill: `Similar to Fire Roy's skill, but without the arts gen. Pretty underwhelming.`,
+                arts: `The bonus ATK and Defense boost is a decent buff to the team, though it's short uptime means you'll need some good arts generation to keep it up. The extra hit counts for her passives means you'll use this less times before using her TA to provide team buffs.`,
+                truearts: `Some decent buffs! Unfortunately, there's some work you have to go through to actually access her team wide pseudo-heal and her arts generation is of the most common arts gen type. She also will end up losing some of her accuracy/crit buffs to provide that stats up buff to the team.`,
+                ability1: `Cynthia's unique mechanic that is actually more of a detriment than a benefit. Other units can provide similar buffs without having to sacrifice their own passive buffs. It also means to optimize her kit, you have to cycle her NA and TA.`,
+                ability2: `A small DMG boost against Giant Bosses.`,
+                trueweapon: {
+                    skill: `An actually decent active on a relatively low CT for Water/PHY sustain strategies. Replaceable by stronger effects for nuking strategies.`,
+                    ability1: `A decent overall DMG increase and with a bonus small Action Speed buff though Cynthia isn't a particularly good damage dealer.`,
+                    ability2: `A small DMG boost to Giant Bosses is always welcome.`
+                },
+                overall: `Oof, a seriously outdated unit that is immediately irrelevant.
+
+                Unfortunately for Cynthia, she just shows her age - even her stats and tasmon caps are old. She's got worse stats than Takemichi! As a team wide pseudo healer and buffer, she is a lot of work for mediocre buffs and inconsistent at best. While she has arts gen, it wouldn't work with other common Type B arts gen units. Overall, she's useful for some compendium rewards and that's about it.`,
+                lastupdated: `August 25, 2022`,
+                author: `JC`
             }
     },
     { //Melissa - Complete
@@ -17967,7 +18011,7 @@ const UnitInformation = [
                 evoawk: "A young woman who claims the world belongs to her. She is able to use the powers of those she absorbs, and they also influence her transformed state. She holds Rayas in great contempt but does not understand why."
             }
     },
-    { //Groitz - Complete
+    { //Groitz - Complete, Review done
         id: 103256312,
         name: "Groitz",
         attribute: "Earth",
@@ -18079,6 +18123,37 @@ const UnitInformation = [
             {   
                 evo5: "A self-proclaimed Ancient who antagonizes Rayas and his allies. After his latent abilities activated, he absorbed numerous creatures which allowed him to transform into an enormous monster. In contrast to the detached Emi, he enjoys the company of others to an unnatural degree. However, this interest only extends to how they can further his goals.",
                 evoawk: "An assassin who belongs to a secret society bent on restoring the Ancients to power. A member of that organization took him in as an orphan, and his abilities as an Ancient awoke after he was initiated. Consuming others to steal their qualities pairs with his experience as a famished youth to make him the ultimate predator."
+            },
+        review:
+            {
+                skill: `Nothing interesting to note, just used for stacking his passive.`,
+                arts: `Great to increase the chances of stacking his passive, use it just before going into Revelation.`,
+                truearts: `Quite a short timer on Revelation, he also has nothing to extend the duration for more time on his debuffs.`,
+                relevation: {
+                    skill1: `Great to use when you have other earth DPS units on the team, also just for himself to deal more damage.`,
+                    skill2: `The Special Skill you want to be spamming the most, since most of the top DPS are physical units.`,
+                    skill3: `Once again, mainly used for stacking his passive. It has the highest multiplier of the 3 Special Skills, but the debuffs compensate for the lower multiplier.`,
+                    megaskill: `Since this won't count towards unlocking his Mega Arts, you likely won't be using this unless you desperately need the burst ArtGen.`,
+                    megaarts: `The obvious bulk of Groitz damage. Assuming that his passive is decently stacked and with the 50% DMG RES debuff inflicted, Groitz can output some good damage with this Mega Arts. After, y'know, stacking for like 50s.`
+                },
+                ability1: `Niche but welcome, assuming that the enemy isn't poison immune.`,
+                ability2: `Once again assuming that the enemy isn't immune to poison, this passive is a nice boost to his damage output.`,
+                ability3: `Think Joker Selia's passive but worse. Groitz only has one Special Skill that can poison and it happens to be on the longest cooldown. You're likely not getting this very high unless there are a ton of ads in the quest.`,
+                trueweapon: {
+                    true1: {
+                        skill: `Great for trying to stack his passive, although the ArtGen is one time use.`,
+                        ability1: `You'll mainly be using this True Weapon for the DMG buff. The Skill CT is appreciated but not very impactful.`,
+                        ability2: `Your typical healthy passive, nice when applicable.`
+                    },
+                    true2: {
+                        skill: `It's good on paper, until you realize that it won't last long enough to be active when he uses Mega Arts.`,
+                        ability1: `Not really that great unless your team lacks basic ArtGen, it's not worth it over a regular ArtGen equip.`,
+                        ability2: `Very minor passive, you probably won't even notice that it's there.`
+                    }
+                },
+                overall: `Joker Selia, Emi and Keit had a kid! Groitz feels like a strange combination of the three units, having a stacking DMG passive, poison based gimmicks and Revelation. However, due to being a Revelation unit, he suffers from the drawbacks of not being able to use equips and needing to charge up his Mega Arts. His optimal use would range from being a poison based DPS to a straight debuff bot, but if you ask me, you should save yourself the effort and use someone else.`,
+                lastupdated: `August 25, 2022`,
+                author: `Senshi`
             }
     },
     { //Hart (Earth) - Complete
