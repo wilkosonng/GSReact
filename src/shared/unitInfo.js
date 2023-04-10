@@ -26557,7 +26557,7 @@ const UnitInformation = [
                 evoawk: "While acting as a Toman captain, he also leads his school's crafting club. He impressed the other members with his top notch sewing skills, and the founders' uniforms were all handmade by him."
             }
     },
-    { // Empress - Complete
+    { // Empress - Complete, Review done
         id: 107666212,
         name: "Empress",
         rank: "A",
@@ -26620,9 +26620,26 @@ const UnitInformation = [
             {   
                 evo5: "One of the surviving Hemiteos Units, nano-enhanced soldiers tasked to protect humanity from the rogue AI Artemis. Despite her amnesia and deadpan expression, she still has a powerful instinct to help others.",
                 evoawk: "Although she lost her memories, she dreamt of a place called Light House No. 8 during her long slumber. She fought her way there and reactivated the Hemiteos proteins in her body, restoring her former power."
+            },
+        review:
+            {
+                skill: `A minor ATK buff with a rather short duration. Not a bad skill, but mostly irrelevant.`,
+                arts: `A stacking debuff with a very long duration, which sounds nice on paper, but it’s on her NA. This means that, unless you need to reduce the PHYs and Water RES of an enemy, you would either leave it at 2-3 stacks or just ignore it and go for TA.`,
+                truearts: `A very big multiplier that also enables Crits for the team if no Crit RES is in effect, which you’ll be spamming most of the time. It additionally provides between 56 and 224 Arts total in a short amount of time, but she has the Lucy problem of being dependent on how many water units are in your team. Thus making her more practical in ruins than in general content, since you’d want at least 3 water units on your team to make it worth your time or ideally use her in Mono-water. You shouldn't count on her as your main source of Artsgen with her slots anyway. She can function/work as a general DPS or in Mono-water nuke comps thanks to that, but here’s where it gets weird. Most of those nuke comps are also specifically built around magic DMG with JSelia having the same debuff while providing a hefty Water RES debuff on top of it, basically removing her from the competition.`,
+                ability1: `A great boost to her Self-sufficiency in terms of passive ArtGen with conditions that should be relatively easy to fulfill.`,
+                ability2: `A minor team wide stats boost to an underrepresented race.`,
+                ability3: `Another small and nice DMG buff though mostly irrelevant.`,
+                trueweapon: {
+                    skill: ``,
+                    ability1: ``,
+                    ability2: ``
+                },
+                overall: `Empress is a heavy hitter with a mish-mash of different kits stitched together for more practicality, which ultimately ends up either not being very impactful, outclassed, or immensely team dependent. An example for that is her Artsgen, requiring a Mono-water team to even compete with other units like Melty or Sakura Miku. Her slots won't provide a lot in that direction as well, leaning more on the Sub or DPS style slots with only one 4* Support, though being good otherwise. She'll be able to provide a lot of Self-sufficiency for most roles with her passives though, if they are able to be kept active. She might see some usage in nukes and ruins, but she won’t change the current Mono-water comps by herself with her DMG type being incompatible with most. She's likely to end up as a DPS with some utility and to be replaced by some other unit sooner rather than later or not even seeing use at all with the last Crossover being Mikey and Draken outclassing her in terms of both DMG and providing buffs to boost the overall DMG. Nevertheless she’ll be a nice unit for people who are starting out or those not having a good DPS. For Veterans, she'll more than likely collect some dust or won't be as useful as her kit isn't outstanding.`,
+                lastupdated: `September 29, 2022`,
+                author: `Hakushi`
             }
     },
-    { // Dead Master - Complete
+    { // Dead Master - Complete, Review done
         id: 107676312,
         name: "Dead Master",
         rank: "A+", 
@@ -26685,9 +26702,26 @@ const UnitInformation = [
             {   
                 evo5: "One of the surviving Hemiteos Units. Prolonged fighting has left her with an instable mind. She is greatly attached to Empress and wants to keep her all to herself. Her specialty is sniping from super long range.",
                 evoawk: "Her overwhelming desire for Empress led them to fight, but she later agreed to join her cause to protect humanity. Besides her talent as a sniper, she has keen scouting sense and decision-making."
+            },
+        review:
+            {
+                skill: `Arts Gen on Skill is always appreciated, with a decent cooldown as well.`,
+                arts: `Nice debuff with decent uptime. Although you will generally use her True Arts more often than not, her Arts can still be chained together with her True Arts, given enough Arts gauge.`,
+                truearts: `Bonkers. A whopping 115k% True Arts Multiplier alone is nothing to scoff at. Furthermore, the buffs and debuffs from this True Arts essentially buffs her True Arts with an increased 100% Accuracy rate. Dead Master also shares an uncanny similarity with Simon, both having a 100% Accuracy boost, ignoring enemies’ DEF (Dead Master’s passive below), and a huge Multiplier. However, one downside would be its long animation, taking around 5s before it starts to deal damage.`,
+                ability1: `Great passive to have, especially when the team is not using Crit. However, as it is tied to a HP condition, a Healer/Shielder might be required to keep the passive active for longer fights`,
+                ability2: `Nice ATK buff, although it is tied to an even higher HP condition.`,
+                ability3: `Not much to say besides she gets Paralysed less often and for a shorter duration when it matters.`,
+                trueweapon: {
+                    skill: ``,
+                    ability1: ``,
+                    ability2: ``
+                },
+                overall: `Is that you, Earth Simon? In all seriousness, Dead Master is a great Earth DPS unit for both nuking and sustain fights. Although she shares many similarities with Simon, she is not restricted like Simon is with only 3 Phantom Bullets per Quest. However, Earth nukes are not the best currently, so don’t expect her to dish out “Simon nukes” levels of damage. Still, with proper support, Dead Master can pack one hell of a serious punch (shot) and decimate most quests with mommy energy.`,
+                lastupdated: `September 29, 2022`,
+                author: `Jeffers`
             }
     },
-    { // Strength - Missing Lore (GLB)
+    { // Strength - Missing Lore (GLB), Review done
         id: 107686112,
         name: "Strength",
         attribute: "Fire",
@@ -26750,6 +26784,23 @@ const UnitInformation = [
             {   
                 evo5: "Missing Lore.",
                 evoawk: "Missing Lore."
+            },
+        review:
+            {
+                skill: `A skill that complements Strength’s role as a breaker and break nuker, this is essential for softening bosses that have high break resistance. The fact that it is on skill is perfect, as it allows using it then high-break equips.`,
+                arts: `Ideal for sustain quests that require breaking the boss multiple times, as it can ramp up the whole party’s break power.`,
+                truearts: `Arguably the best break nuking-oriented arts in the whole game, a sizably high multiplier with two huge 130% buffs, an unconditional 130% arts dmg buff and another 130% dmg buff if the enemy is in break, coupled with a very high break value as well.`,
+                ability1: `More buffs to enemies in break, this one only impacts Strength’s damage output but it can make her damage output completely obscene under the right circumstances.`,
+                ability2: `Nice passive that gives Strength some self-sustainability. The HP requirement is somewhat strict though, but she can be kept at high HP with proper healing and tanking. In nuke scenarios the passive will not be necessary in any case.`,
+                ability3: `Essentially brings Strength’s skill CT to 10s (which is equal to its duration) when her hp is high, which results in her skill being always active provided that she is not in an animation when it resets.`,
+                trueweapon: {
+                    skill: ``,
+                    ability1: ``,
+                    ability2: ``
+                },
+                overall: `Strength is one of the best break-oriented units to come out in a long while, both for nukes and for sustain. Break res down on skill, permanent teamwide break buff on NA, and two very large damage buffs on TA, one which does not require the enemy to be broken, coupled with high break values. Obviously, she has a very niche role, but she excels in that role, and her role will become somewhat more prominent with some upcoming content reliant on Break.`,
+                lastupdated: `September 29, 2022`,
+                author: `MOB of Metal`
             }
     },
     { // Albedo - Missing Lore
