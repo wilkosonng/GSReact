@@ -138,6 +138,15 @@ const UnitInformation = [
                 truearts: "22000% Fire DMG (PHY). Chance to inflict Burn. Increase Allies' Arts by 20. ",
                 trueartsbreak: 4800
             },
+        skillsetJP: 
+            {
+                skill: "6s CT - 2000% Fire DMG (PHY). Increase own Arts gauge by 10.",
+                skillbreak: 1500,
+                arts: "15000% Fire DMG (PHY). 50% chance to inflict Burn.",
+                artsbreak: 2200,
+                truearts: "45000% Fire DMG (PHY). 100% chance to inflict Burn. Increase Allies' Arts by 20.",
+                trueartsbreak: 4800
+            },
         passive: 
             {
                 ability1: "Increase Fire Allies' BE generation by 20%.",
@@ -167,7 +176,7 @@ const UnitInformation = [
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/physLB.png",
-                slot3: 3,
+                slot3: 4,
                 slot3type: "/db/Mines/thumbnail/defLB.png"
             },
         evolution: 
@@ -268,7 +277,7 @@ const UnitInformation = [
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/physLB.png",
-                slot3: 3,
+                slot3: 4,
                 slot3type: "/db/Mines/thumbnail/defLB.png"
             },
         skillset: 
@@ -278,6 +287,15 @@ const UnitInformation = [
                 arts: "10340% Water DMG (MAG).",
                 artsbreak: 2400,
                 truearts: "23200% Water DMG (MAG). High chance to inflict Freeze. Increase all Ally Arts Gauge by 20.",
+                trueartsbreak: 4800
+            },
+        skillsetJP: 
+            {
+                skill: "6s CT - 1800% Water DMG (PHY). 10% chance to inflict Freeze.",
+                skillbreak: 1300,
+                arts: "14000% Water DMG (MAG).",
+                artsbreak: 2400,
+                truearts: "35000% Water DMG (MAG). 100% chance to inflict Freeze. Increase all Allies' Arts Gauge by 20.",
                 trueartsbreak: 4800
             },
         passive: 
@@ -365,10 +383,19 @@ const UnitInformation = [
             {
                 skill: "7s CT - 1900% Earth DMG (PHY).",
                 skillbreak: 2100,
-                arts: "9900% Earth DMG (PHY)",
+                arts: "9900% Earth DMG (PHY).",
                 artsbreak: 3000,
-                truearts: "21500% Earth DMG (PHY). Increase all Ally Arts Gauge by 20",
+                truearts: "21500% Earth DMG (PHY). Increase all Allies' Arts Gauge by 20.",
                 trueartsbreak: 9300
+            },
+        skillsetJP: 
+            {
+                skill: "6s CT - 1900% Earth DMG (PHY).",
+                skillbreak: 2100,
+                arts: "11000% Earth DMG (PHY).",
+                artsbreak: 4200,
+                truearts: "30000% Earth DMG (PHY). Increase all Allies' Arts Gauge by 20.",
+                trueartsbreak: 9500
             },
         passive: 
             {
@@ -384,20 +411,21 @@ const UnitInformation = [
                 def: 2074,
                 defplus: 321
             },
-        slots: {
+        slots: 
+            {
             slot1: 5,
             slot1type: "/db/Mines/thumbnail/physLB.png",
             slot2: 5,
             slot2type: "/db/Mines/thumbnail/magLB.png",
             slot3: 3,
             slot3type: "/db/Mines/thumbnail/defLB.png"
-        },
+            },
         slotsJP: {
             slot1: 6,
             slot1type: "/db/Mines/thumbnail/physLB.png",
             slot2: 5,
             slot2type: "/db/Mines/thumbnail/magLB.png",
-            slot3: 3,
+            slot3: 4,
             slot3type: "/db/Mines/thumbnail/defLB.png"
         },
         evolution: 
@@ -22034,8 +22062,8 @@ const UnitInformation = [
             },
         passive: 
             {
-                ability1: "Increase Rayas'/Monster Hunter Rayas' DMG by 30% (Does not stack with Abilities of the same name).",
-                ability2: "Increase Allies' DMG RES by 10%.",
+                ability1: "Increase Rayas'/Monster Hunter Rayas' DMG by 50% (Does not stack with Abilities of the same name).",
+                ability2: "Increase Allies' DMG RES by 20%.",
                 ability3: "Increase DMG to Monster Hunter Raid Bosses by 50%.",
                 ability4: "When near-death, heal 60 HP/s."
             },
