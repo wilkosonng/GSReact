@@ -9,6 +9,8 @@
     {
         id: 0,
         name: `Heal Ring`,
+        translate: ``,
+        location: ``,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 3,
         image: 
@@ -43,6 +45,7 @@ const EquipInformation = [
     { //Heal Ring - Complete
         id: 100011,
         name: `Heal Ring`,
+        location: `Craftable - Smith / Alchemist - Exchange Alchemy Stones`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 1,
         image: 
@@ -72,6 +75,7 @@ const EquipInformation = [
     { //Detox Ring - Complete
         id: 1000021,
         name: `Detox Ring`,
+        location: `Craftable - Smith`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 1,
         image: 
@@ -101,6 +105,7 @@ const EquipInformation = [
     { //Lightkeeper Ring - Complete
         id: 100031,
         name: `Lightkeeper Ring`,
+        location: `Craftable - Smith`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 1,
         image: 
@@ -130,6 +135,7 @@ const EquipInformation = [
     { //Vivacious Ring - Complete
         id: 100041,
         name: `Vivacious Ring`,
+        location: `Craftable - Smith`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 1,
         image: 
@@ -159,6 +165,7 @@ const EquipInformation = [
     { //Monster Fang Charm - Complete
         id: 100051,
         name: `Monster Fang Charm`,
+        location: `Craftable - Smith`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 1,
         image: 
@@ -188,6 +195,7 @@ const EquipInformation = [
     { //Giant Battle Shield - Complete
         id: 100061,
         name: `Giant Battle Shield`,
+        location: `Craftable - Smith`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 1,
         image: 
@@ -217,6 +225,7 @@ const EquipInformation = [
     { //Merfolk Trident - Complete
         id: 100071,
         name: `Merfolk Trident`,
+        location: `Craftable - Smith / Alchemist - Exchange Alchemy Stones`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 1,
         image: 
@@ -246,6 +255,7 @@ const EquipInformation = [
     { //Regeneration Staff - Complete
         id: 100081,
         name: `Regeneration Staff`,
+        location: `Craftable - Smith`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 1,
         image: 
@@ -275,6 +285,7 @@ const EquipInformation = [
     { //Saint's Medal - Complete
         id: 100091,
         name: `Saint's Medal`,
+        location: `Craftable - Smith`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 1,
         image: 
@@ -304,6 +315,7 @@ const EquipInformation = [
     { //Lightning Branch Baton - Complete
         id: 100101,
         name: `Lightning Branch Baton`,
+        location: `Craftable - Smith / Alchemist - Exchange Alchemy Stones`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 1,
         image: 
@@ -333,6 +345,7 @@ const EquipInformation = [
     { //Abyss Scarf - Complete
         id: 100111,
         name: `Abyss Scarf`,
+        location: `Craftable - Smith / Alchemist - Exchange Alchemy Stones`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 1,
         image: 
@@ -362,6 +375,7 @@ const EquipInformation = [
     { //Gale Headband - Complete
         id: 100121,
         name: `Gale Headband`,
+        location: `Craftable - Smith`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 1,
         image: 
@@ -391,6 +405,7 @@ const EquipInformation = [
     { //Holy Whistle - Complete
         id: 100131,
         name: `Holy Whistle`,
+        location: `Craftable - Smith`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 3,
         image: 
@@ -420,6 +435,7 @@ const EquipInformation = [
     { //Alluring Earring - Complete
         id: 100141,
         name: `Alluring Earring`,
+        location: `Craftable - Smith / Alchemist - Exchange Alchemy Stones`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 1,
         image: 
@@ -449,6 +465,7 @@ const EquipInformation = [
     { //Healing Necklace - Complete
         id: 100151,
         name: `Healing Necklace`,
+        location: `Craftable - Smith`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 2,
         image: 
@@ -478,6 +495,7 @@ const EquipInformation = [
     { //Soul Recovery - Complete
         id: 100161,
         name: `Soul Recovery`,
+        location: `Craftable - Smith`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 2,
         image: 
@@ -507,6 +525,7 @@ const EquipInformation = [
     { //Fairytale - Complete
         id: 100171,
         name: `Fairytale`,
+        location: `Craftable - Smith`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 2,
         image: 
@@ -536,6 +555,7 @@ const EquipInformation = [
     { //Dragon Blade - Complete
         id: 100181,
         name: `Dragon Blade`,
+        location: `Craftable - Smith`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 3,
         image: 
@@ -565,6 +585,7 @@ const EquipInformation = [
     { //Ouroboros - Complete
         id: 100191,
         name: `Ouroboros`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -594,6 +615,7 @@ const EquipInformation = [
     { //Sword Breaker - Complete
         id: 100201,
         name: `Sword Breaker`,
+        location: `Craftable - Smith`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 2,
         image: 
@@ -623,6 +645,7 @@ const EquipInformation = [
     { //Mystic Arrow - Complete
         id: 100211,
         name: `Mystic Arrow`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 3,
         image: 
@@ -652,6 +675,7 @@ const EquipInformation = [
     { //Mighty Brace - Complete
         id: 100221,
         name: `Mighty Brace`,
+        location: `Craftable - Smith`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 2,
         image: 
@@ -681,6 +705,7 @@ const EquipInformation = [
     { //Crimson Mantle - Complete
         id: 100231,
         name: `Crimson Mantle`,
+        location: `Craftable - Smith / Alchemist - Exchange Alchemy Stones`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 2,
         image: 
@@ -740,6 +765,7 @@ const EquipInformation = [
     { //Winged Boots - Complete
         id: 100251,
         name: `Winged Boots`,
+        location: `Craftable - Smith / Alchemist - Exchange Alchemy Stones`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 2,
         image: 
@@ -769,6 +795,7 @@ const EquipInformation = [
     { //Berserker Gloves - Complete
         id: 100261,
         name: `Berserker Gloves`,
+        location: `Craftable - Smith`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 2,
         image: 
@@ -799,6 +826,7 @@ const EquipInformation = [
     { //Steel Goggles - Complete
         id: 100271,
         name: `Steel Goggles`,
+        location: `Craftable - Smith`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 1,
         image: 
@@ -828,6 +856,7 @@ const EquipInformation = [
     { //Maiden's Water Jug - Complete
         id: 100281,
         name: `Maiden's Water Jug`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 3,
         image: 
@@ -857,6 +886,7 @@ const EquipInformation = [
     { //Great Tree Sparksap - Complete
         id: 100291,
         name: `Great Tree Sparksap`,
+        location: `Craftable - Smith`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 2,
         image: 
@@ -886,6 +916,7 @@ const EquipInformation = [
     { //Unihorn Staff - Complete
         id: 100301,
         name: `Unihorn Staff`,
+        location: `Alchemist - Exchange Alchemy Stones`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 2,
         image: 
@@ -915,6 +946,7 @@ const EquipInformation = [
     { //Creativity Brush - Complete
         id: 100311,
         name: `Creativity Brush`,
+        location: `Craftable - Smith`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 2,
         image: 
@@ -944,6 +976,7 @@ const EquipInformation = [
     { //Fairy Teardrop - Complete
         id: 100321,
         name: `Fairy Teardrop`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 3,
         image: 
@@ -973,6 +1006,7 @@ const EquipInformation = [
     { //Prayer Wine 'Soma' - Complete
         id: 100331,
         name: `Prayer Wine 'Soma'`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
         image: 
@@ -1002,6 +1036,7 @@ const EquipInformation = [
     { //Blessed Wine 'Amurita' - Complete
         id: 100341,
         name: `Blessed Wine 'Amurita'`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 3,
         image: 
@@ -1031,6 +1066,7 @@ const EquipInformation = [
     { //Oracle Flower - Complete
         id: 100351,
         name: `Oracle Flower`,
+        location: `Craftable - Smith / Alchemist - Exchange Alchemy Stones`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 2,
         image: 
@@ -1060,6 +1096,7 @@ const EquipInformation = [
     { //Heavenly Robe 'Michael' - Complete
         id: 100361,
         name: `Heavenly Robe 'Michael'`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -1089,6 +1126,7 @@ const EquipInformation = [
     { //Amulet of Affection - Complete
         id: 100371,
         name: `Amulet of Affection`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
         image: 
@@ -1118,6 +1156,7 @@ const EquipInformation = [
     { //Angel's Harp - Complete
         id: 100381,
         name: `Angel's Harp`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -1147,6 +1186,7 @@ const EquipInformation = [
     { //Paladin Shield - Complete
         id: 100391,
         name: `Paladin Shield`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 3,
         image: 
@@ -1176,6 +1216,7 @@ const EquipInformation = [
     { //Thief's Pouch - Complete
         id: 100401,
         name: `Thief's Pouch`,
+        location: `Craftable - Smith`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 2,
         image: 
@@ -1205,6 +1246,7 @@ const EquipInformation = [
     { //Tome of Idia - Complete
         id: 100411,
         name: `Tome of Idia`,
+        location: `Craftable - Smith`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 3,
         image: 
@@ -1234,6 +1276,7 @@ const EquipInformation = [
     { //Tiamat Horn - Complete
         id: 100421,
         name: `Tiamat Horn`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 3,
         image: 
@@ -1263,6 +1306,7 @@ const EquipInformation = [
     { //Terra Conjunction - Complete
         id: 100431,
         name: `Terra Conjunction`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -1292,6 +1336,7 @@ const EquipInformation = [
     { //Stigmata Diategh - Complete
         id: 100441,
         name: `Stigmata Diategh`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 3,
         image: 
@@ -1321,6 +1366,7 @@ const EquipInformation = [
     { //Phantom Knight Shield - Complete
         id: 100451,
         name: `Phantom Knight Shield`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -1350,6 +1396,7 @@ const EquipInformation = [
     { //Warrior's Dagger -  Complete
         id: 100461,
         name: `Warrior's Dagger`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 3,
         image: 
@@ -1379,6 +1426,7 @@ const EquipInformation = [
     { //Shield Core - Complete
         id: 100471,
         name: `Shield Core`,
+        location: `Craftable - Smith`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 3,
         image: 
@@ -1408,6 +1456,7 @@ const EquipInformation = [
     { //Enril Scythe - Complete
         id: 100481,
         name: `Enril Scythe`,
+        location: `Craftable - Smith / Alchemist - Exchange Alchemy Stones`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 2,
         image: 
@@ -1437,6 +1486,7 @@ const EquipInformation = [
     { //Oracle Panflute - Complete
         id: 100491,
         name: `Oracle Panflute`,
+        location: `Craftable - Smith`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 2,
         image: 
@@ -1466,6 +1516,7 @@ const EquipInformation = [
     { //Crown of the Spirit King - Complete
         id: 100501,
         name: `Crown of the Spirit King`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 3,
         image: 
@@ -1495,6 +1546,7 @@ const EquipInformation = [
     { //Conflagration Mask - Complete
         id: 100511,
         name: `Conflagration Mask`,
+        location: `Craftable - Smith`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 2,
         image: 
@@ -1524,6 +1576,7 @@ const EquipInformation = [
     { //Yumil Ice Fragment - Complete
         id: 100521,
         name: `Yumil Ice Fragment`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 3,
         image: 
@@ -1553,6 +1606,7 @@ const EquipInformation = [
     { //Three-Headed Dog's Chain - Complete
         id: 100531,
         name: `Three-Headed Dog's Chain`,
+        location: `Craftable - Smith`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 3,
         image: 
@@ -1582,6 +1636,7 @@ const EquipInformation = [
     { //Luminous Orb - Complete
         id: 100541,
         name: `Luminous Orb`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 3,
         image: 
@@ -1611,6 +1666,7 @@ const EquipInformation = [
     { //Mountain Hammer Gaiaslave - Complete
         id: 100551,
         name: `Mountain Hammer Gaiaslave`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 3,
         image: 
@@ -1640,6 +1696,7 @@ const EquipInformation = [
     { //Holy Staff 'Dominion' - Complete
         id: 100561,
         name: `Holy Staff 'Dominion'`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -1669,6 +1726,7 @@ const EquipInformation = [
     { //Healing Statue 'Panakeia' - Complete
         id: 100571,
         name: `Healing Statue 'Panakeia'`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -1698,6 +1756,7 @@ const EquipInformation = [
     { //Blazing Blade 'Ragnavelga' - Complete
         id: 100581,
         name: `Blazing Blade 'Ragnavelga'`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -1727,6 +1786,7 @@ const EquipInformation = [
     { //Magic Armor 'Gargantua' - Complete
         id: 100591,
         name: `Magic Armor 'Gargantua'`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -1756,6 +1816,7 @@ const EquipInformation = [
     { //God Life Sword 'Seraph' - Complete
         id: 100601,
         name: `God Life Sword 'Seraph'`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -1785,6 +1846,7 @@ const EquipInformation = [
     { //Calming Sword 'Stillness' - Complete
         id: 100611,
         name: `Calming Sword 'Stillness'`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -1814,6 +1876,7 @@ const EquipInformation = [
     { //Soultaker Stone 'Demonica' - Complete
         id: 100621,
         name: `Soultaker Stone 'Demonica'`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -1843,6 +1906,7 @@ const EquipInformation = [
     { //Cocytus Arc - Complete
         id: 100631,
         name: `Cocytus Arc`,
+        location: `Limited Equip Reedemed from Official GS Artbook purchase`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 2,
         image: 
@@ -1872,6 +1936,7 @@ const EquipInformation = [
     { //Fox Fan 'White Nine Tails' - Complete
         id: 100641,
         name: `Fox Fan 'White Nine Tails'`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -1901,6 +1966,7 @@ const EquipInformation = [
     { //Cruze's Pocket Watch - Complete
         id: 100651,
         name: `Cruze's Pocket Watch`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 3,
         image: 
@@ -1930,6 +1996,7 @@ const EquipInformation = [
     { //Summon Skeletal Wings - Complete
         id: 100661,
         name: `Summon Skeletal Wings`,
+        location: `Main Story [Chapter 5 > Black Gate > The Black Gate] Stage Clear Reward`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -1959,6 +2026,7 @@ const EquipInformation = [
     { //Monster Summonstone - Complete
         id: 100671,
         name: `Monster Summonstone`,
+        location: `Main Story [Chapter 2 > Nalgdania > Goliath of the Wastes] Stage Clear Reward`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 3,
         image: 
@@ -1988,6 +2056,7 @@ const EquipInformation = [
     { //Flicker Bow Heavy Rain - Complete
         id: 100681,
         name: `Flicker Bow Heavy Rain`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -2017,6 +2086,7 @@ const EquipInformation = [
     { //Igneet Axe - Complete
         id: 100691,
         name: `Igneet Axe`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -2046,6 +2116,7 @@ const EquipInformation = [
     { //Phoenix Feather Duster - Complete
         id: 100701,
         name: `Phoenix Feather Duster`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -2075,6 +2146,7 @@ const EquipInformation = [
     { //Holy Blue Staff - Complete
         id: 100711,
         name: `Holy Blue Staff`,
+        location: `Craftable - Smith`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 3,
         image: 
@@ -2104,6 +2176,7 @@ const EquipInformation = [
     { //Chaos Rod - Complete
         id: 100721,
         name: `Chaos Rod`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 3,
         image: 
@@ -2133,6 +2206,7 @@ const EquipInformation = [
     { //Demonsickle Evilscythe - Complete
         id: 100731,
         name: `Demonsickle Evilscythe`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -2162,6 +2236,7 @@ const EquipInformation = [
     { //Magitome 'Log Vida' - Complete
         id: 100741,
         name: `Magitome 'Log Vida'`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 3,
         image: 
@@ -2191,6 +2266,7 @@ const EquipInformation = [
     { //Brilliant Blade 'Regracia' - Complete
         id: 100751,
         name: `Brilliant Blade 'Regracia'`,
+        location: `Craftable - Smith`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -2220,6 +2296,7 @@ const EquipInformation = [
     { //Sacred Crown 'Raaz' - Missing Lore
         id: 100761,
         name: `Sacred Crown 'Raaz'`,
+        location: `Craftable - Smith`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -2394,6 +2471,7 @@ const EquipInformation = [
     { //Battle Axe 'Shurahalt' - Complete
         id: 100821,
         name: `Battle Axe 'Shurahalt'`,
+        location: `Craftable - Smith`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -6135,6 +6213,7 @@ const EquipInformation = [
     { //Iris' Summer Parasol - Complete
         id: 102571,
         name: `Iris' Summer Parasol`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -6164,6 +6243,7 @@ const EquipInformation = [
     { //Iris' Bikini - Complete
         id: 102581,
         name: `Iris' Bikini`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -6193,6 +6273,7 @@ const EquipInformation = [
     { //Iris' Beach Sandals - Complete
         id: 102591,
         name: `Iris' Beach Sandals`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 3,
         image: 
@@ -6222,6 +6303,7 @@ const EquipInformation = [
     { //Liese' Naval Hat - Complete
         id: 102601,
         name: `Liese' Naval Hat`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -6251,6 +6333,7 @@ const EquipInformation = [
     { //Liese' Naval Swimsuit - Complete
         id: 102611,
         name: `Liese' Naval Swimsuit`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
         image: 
@@ -6280,6 +6363,7 @@ const EquipInformation = [
     { //Liese' Lifesaver - Complete
         id: 102621,
         name: `Liese' Lifesaver`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 3,
         image: 
@@ -6309,6 +6393,7 @@ const EquipInformation = [
     { //Floating Mikyuon - Complete
         id: 102631,
         name: `Floating Mikyuon`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 3,
         image: 
@@ -6338,6 +6423,7 @@ const EquipInformation = [
     { //Liese' Secret Adventure - Complete
         id: 102641,
         name: `Liese' Secret Adventure`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -6367,6 +6453,7 @@ const EquipInformation = [
     { //Mira's Disguise Glasses - Complete
         id: 102651,
         name: `Mira's Disguise Glasses`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -6396,6 +6483,7 @@ const EquipInformation = [
     { //Mira's Halter Neck - Complete
         id: 102661,
         name: `Mira's Halter Neck`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -6425,6 +6513,7 @@ const EquipInformation = [
     { //Mira's Summer Float - Complete
         id: 102671,
         name: `Mira's Summer Float`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
         image: 
@@ -6454,6 +6543,7 @@ const EquipInformation = [
     { //Mira's Summer Sandals - Complete
         id: 102681,
         name: `Mira's Summer Sandals`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 3,
         image: 
@@ -6483,6 +6573,7 @@ const EquipInformation = [
     { //Rayas' Straw Hat - Complete
         id: 102691,
         name: `Rayas' Straw Hat`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -6512,6 +6603,7 @@ const EquipInformation = [
     { //Rayas' Summer Pants - Complete
         id: 102701,
         name: `Rayas' Summer Pants`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -6541,6 +6633,7 @@ const EquipInformation = [
     { //Rayas' Beach Sandals - Complete
         id: 102711,
         name: `Rayas' Beach Sandals`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 3,
         image: 
@@ -6570,6 +6663,7 @@ const EquipInformation = [
     { //Roy's Swimwear - Complete
         id: 102721,
         name: `Roy's Swimwear`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -6599,6 +6693,7 @@ const EquipInformation = [
     { //Roy's Blue Water Dragon - Complete
         id: 102731,
         name: `Roy's Blue Water Dragon`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -6628,6 +6723,7 @@ const EquipInformation = [
     { //Ganan's Burning Soul - Complete
         id: 102741,
         name: `Ganan's Burning Soul`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -6657,6 +6753,7 @@ const EquipInformation = [
     { //Ganan's Wooden Sandals - Complete
         id: 102751,
         name: `Ganan's Wooden Sandals`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 3,
         image: 
@@ -6686,6 +6783,7 @@ const EquipInformation = [
     { //Est's Vacation - Complete
         id: 102761,
         name: `Est's Vacation`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -6715,6 +6813,7 @@ const EquipInformation = [
     { //Est's Mild Fever - Complete
         id: 102771,
         name: `Est's Mild Fever`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -6744,6 +6843,7 @@ const EquipInformation = [
     { //Est's Warmth - Complete
         id: 102781,
         name: `Est's Warmth`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 3,
         image: 
@@ -6773,6 +6873,7 @@ const EquipInformation = [
     { //Melia's Allure - Complete
         id: 102791,
         name: `Melia's Allure`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -6802,6 +6903,7 @@ const EquipInformation = [
     { //Melia's Bewitchment - Complete
         id: 102801,
         name: `Melia's Bewitchment`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -6831,6 +6933,7 @@ const EquipInformation = [
     { //Melia's Lust - Complete
         id: 102811,
         name: `Melia's Lust`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 3,
         image: 
@@ -6860,6 +6963,7 @@ const EquipInformation = [
     { //Rem's Glamour - Complete
         id: 102821,
         name: `Rem's Glamour`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -6889,6 +6993,7 @@ const EquipInformation = [
     { //Wind Chime Rolly - Complete
         id: 102831,
         name: `Wind Chime Rolly`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 3,
         image: 
@@ -6918,6 +7023,7 @@ const EquipInformation = [
     { //Chicken Water Gun - Complete
         id: 102841,
         name: `Chicken Water Gun`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -6947,6 +7053,7 @@ const EquipInformation = [
     { //Firecat's Passion - Complete
         id: 102851,
         name: `Firecat's Passion`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 3,
         image: 
@@ -6976,6 +7083,7 @@ const EquipInformation = [
     { //Sophie's Gluttony - Complete
         id: 102861,
         name: `Sophie's Gluttony`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -7005,6 +7113,7 @@ const EquipInformation = [
     { //Summer Firecat's Den - Complete
         id: 102871,
         name: `Summer Firecat's Den`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
         image: 
@@ -7034,6 +7143,7 @@ const EquipInformation = [
     { //Gilliam - Man of the Sea - Complete
         id: 102881,
         name: `Gilliam - Man of the Sea`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -7063,6 +7173,7 @@ const EquipInformation = [
     { //Gilliam's Guts - Complete
         id: 102891,
         name: `Gilliam's Guts`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -7487,6 +7598,7 @@ const EquipInformation = [
     { //Grad's Devil Summer - Complete
         id: 103051,
         name: `Grad's Devil Summer`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -7516,6 +7628,7 @@ const EquipInformation = [
     { //G.R.A.D Harpoon - Complete
         id: 103061,
         name: `G.R.A.D Harpoon`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -7545,6 +7658,7 @@ const EquipInformation = [
     { //Snorkel of Darkness - Complete
         id: 103071,
         name: `Snorkel of Darkness`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 3,
         image: 
@@ -7574,6 +7688,7 @@ const EquipInformation = [
     { //Nier's Greed - Complete
         id: 103081,
         name: `Nier's Greed`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -7603,6 +7718,7 @@ const EquipInformation = [
     { //Temptation Sunscreen - Complete
         id: 103091,
         name: `Temptation Sunscreen`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -7632,6 +7748,7 @@ const EquipInformation = [
     { //Nier's Summer Flower - Complete
         id: 103101,
         name: `Nier's Summer Flower`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 3,
         image: 
@@ -9017,6 +9134,7 @@ const EquipInformation = [
     { //Melia's Sorceress' Hat - Complete
         id: 103611,
         name: `Melia's Sorceress' Hat`,
+        location: `Limited Equip Summon: Halloween Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 3,
         image: 
@@ -9046,6 +9164,7 @@ const EquipInformation = [
     { //Melia's Enchantment - Complete
         id: 103621,
         name: `Melia's Enchantment`,
+        location: `Limited Equip Summon: Halloween Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -9075,6 +9194,7 @@ const EquipInformation = [
     { //Melia's Broomstick - Complete
         id: 103631,
         name: `Melia's Broomstick`,
+        location: `Limited Equip Summon: Halloween Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -9104,6 +9224,7 @@ const EquipInformation = [
     { //Nurse-Liese' Cap - Complete
         id: 103641,
         name: `Nurse-Liese' Cap`,
+        location: `Limited Equip Summon: Halloween Banner`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
         image: 
@@ -9133,6 +9254,7 @@ const EquipInformation = [
     { //Nurse-Liese' Gown - Complete
         id: 103651,
         name: `Nurse-Liese' Gown`,
+        location: `Limited Equip Summon: Halloween Banner`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -9162,6 +9284,7 @@ const EquipInformation = [
     { //Liese' Medicine Time - Complete
         id: 103661,
         name: `Liese' Medicine Time`,
+        location: `Limited Equip Summon: Halloween Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -9191,6 +9314,7 @@ const EquipInformation = [
     { //Iris' Bunny Ears - Complete
         id: 103671,
         name: `Iris' Bunny Ears`,
+        location: `Limited Equip Summon: Halloween Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 3,
         image: 
@@ -9220,6 +9344,7 @@ const EquipInformation = [
     { //Iris' Bunny Dress - Complete
         id: 103681,
         name: `Iris' Bunny Dress`,
+        location: `Limited Equip Summon: Halloween Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -9249,6 +9374,7 @@ const EquipInformation = [
     { //Count Rayas' Cape - Complete
         id: 103691,
         name: `Count Rayas' Cape`,
+        location: `Limited Equip Summon: Halloween Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -9278,6 +9404,7 @@ const EquipInformation = [
     { //Count Rayas' Rapier - Complete
         id: 103701,
         name: `Count Rayas' Rapier`,
+        location: `Limited Equip Summon: Halloween Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -10567,6 +10694,7 @@ const EquipInformation = [
 { //Liese' Santa Dress - Complete
         id: 104221,
         name: `Liese' Santa Dress`,
+        location: `Limited Equip Summon: Christmas Banner`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -10596,6 +10724,7 @@ const EquipInformation = [
 { //Iris' Santa Hat - Complete
         id: 104231,
         name: `Iris' Santa Hat`,
+        location: `Limited Equip Summon: Christmas Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -10625,6 +10754,7 @@ const EquipInformation = [
 { //Iris' Santa Dress - Complete
         id: 104241,
         name: `Iris' Santa Dress`,
+        location: `Limited Equip Summon: Christmas Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -10654,6 +10784,7 @@ const EquipInformation = [
 { //Merry Rolly Hat - Complete
         id: 104251,
         name: `Merry Rolly Hat`,
+        location: `Limited Equip Summon: Christmas Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 3,
         image: 
@@ -10683,6 +10814,7 @@ const EquipInformation = [
 { //Shurahalt Tree - Missing Lore
         id: 104261,
         name: `Shurahalt Tree`,
+        location: `Limited Equip Summon: Christmas Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -10712,6 +10844,7 @@ const EquipInformation = [
 { //Holy Night Sword 'Charlotte' - Complete
         id: 104271,
         name: `Holy Night Sword 'Charlotte'`,
+        location: `Limited Equip Summon: Christmas Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -10741,6 +10874,7 @@ const EquipInformation = [
 { //Toy Santa Ru - Complete
         id: 104281,
         name: `Toy Santa Ru`,
+        location: `Limited Equip Summon: Christmas Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 3,
         image: 
@@ -10770,6 +10904,7 @@ const EquipInformation = [
 { //Basilisk Wreath - Complete
         id: 104291,
         name: `Basilisk Wreath`,
+        location: `Limited Equip Summon: Christmas Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -14603,6 +14738,7 @@ const EquipInformation = [
 { //Fen's Pirate Hat - Complete
         id: 105821,
         name: `Fen's Pirate Hat`,
+        location: `Limited Equip Summon: Halloween Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -14632,6 +14768,7 @@ const EquipInformation = [
 { //Swashbuckling Fen - Complete
         id: 105831,
         name: `Swashbuckling Fen`,
+        location: `Limited Equip Summon: Halloween Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -14661,6 +14798,7 @@ const EquipInformation = [
 { //Feena's Witch Hat - Mising Lore
         id: 105841,
         name: `Feena's Witch Hat`,
+        location: `Limited Equip Summon: Halloween Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -14690,6 +14828,7 @@ const EquipInformation = [
 { //Feena's Devil Wings - Complete
         id: 105851,
         name: `Feena's Devil Wings`,
+        location: `Limited Equip Summon: Halloween Banner`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -14719,6 +14858,7 @@ const EquipInformation = [
 { //Little-Red-Riding Mira - Missing Lore
         id: 105861,
         name: `Little-Red-Riding Mira`,
+        location: `Limited Equip Summon: Halloween Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -14748,6 +14888,7 @@ const EquipInformation = [
 { //Big-Bad-Wolf Roy - Complete
         id: 105871,
         name: `Big-Bad-Wolf Roy`,
+        location: `Limited Equip Summon: Halloween Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -15401,6 +15542,7 @@ const EquipInformation = [
 { //Red-Nosed Rayas Doll - Complete
         id: 106091,
         name: `Red-Nosed Rayas Doll`,
+        location: `Limited Equip Summon: Christmas Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -15430,6 +15572,7 @@ const EquipInformation = [
 { //Santa Iris Doll - Complete
         id: 106101,
         name: `Santa Iris Doll`,
+        location: `Limited Equip Summon: Christmas Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -15459,6 +15602,7 @@ const EquipInformation = [
 { //Red-Nosed Roy Doll - Missing Lore
         id: 106111,
         name: `Red-Nosed Roy Doll`,
+        location: `Limited Equip Summon: Christmas Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -15488,6 +15632,7 @@ const EquipInformation = [
 { //Snow-Lady Mira Doll - Missing Lore
         id: 106121,
         name: `Snow-Lady Mira Doll`,
+        location: `Limited Equip Summon: Christmas Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -15517,6 +15662,7 @@ const EquipInformation = [
 { //Santa Fen Doll - Complete
         id: 106131,
         name: `Santa Fen Doll`,
+        location: `Limited Equip Summon: Christmas Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -15546,6 +15692,7 @@ const EquipInformation = [
 { //Ganan Tree Doll - Missing Lore
         id: 106141,
         name: `Ganan Tree Doll`,
+        location: `Limited Equip Summon: Christmas Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -15575,6 +15722,7 @@ const EquipInformation = [
 { //Merry Liese Doll - Complete
         id: 106151,
         name: `Merry Liese Doll`,
+        location: `Limited Equip Summon: Christmas Banner`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -17398,6 +17546,7 @@ const EquipInformation = [
 { //Platina's Golden Bikini - Missing Lore
         id: 106781,
         name: `Platina's Golden Bikini`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -17427,6 +17576,7 @@ const EquipInformation = [
 { //Parlot's Southern Aloha Shirt - Complete
         id: 106791,
         name: `Parlot's Southern Aloha Shirt`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -17456,6 +17606,7 @@ const EquipInformation = [
 { //Nies' Surf Shorts - Complete
         id: 106801,
         name: `Nies' Surf Shorts`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -17485,6 +17636,7 @@ const EquipInformation = [
 { //Sanstone's Summer Dress - Complete
         id: 106811,
         name: `Sanstone's Summer Dress`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -17514,6 +17666,7 @@ const EquipInformation = [
 { //Sanstone's Monster-shaped Dinghy - Complete
         id: 106821,
         name: `Sanstone's Monster-shaped Dinghy`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -17543,6 +17696,7 @@ const EquipInformation = [
 { //Platina's Gorgeous Fan - Complete
         id: 106831,
         name: `Platina's Gorgeous Fan`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -17633,6 +17787,7 @@ const EquipInformation = [
 { //Leone's Crest Bikini - Complete
         id: 106861,
         name: `Leone's Crest Bikini`,
+        location: `Limited Equip Summon: Knights of Blood Summer Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -17662,6 +17817,7 @@ const EquipInformation = [
 { //Riviera's Battle Bikini - Complete
         id: 106871,
         name: `Riviera's Battle Bikini`,
+        location: `Limited Equip Summon: Knights of Blood Summer Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -17691,6 +17847,7 @@ const EquipInformation = [
 { //Riviera's Floating Mattress - Complete
         id: 106881,
         name: `Riviera's Floating Mattress`,
+        location: `Limited Equip Summon: Knights of Blood Summer Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -17720,6 +17877,7 @@ const EquipInformation = [
 { //Rosetta's Mermaid Bikini - Complete
         id: 106891,
         name: `Rosetta's Mermaid Bikini`,
+        location: `Limited Equip Summon: Knights of Blood Summer Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -17749,6 +17907,7 @@ const EquipInformation = [
 { //Rosetta's Pareo - Complete
         id: 106901,
         name: `Rosetta's Pareo`,
+        location: `Limited Equip Summon: Knights of Blood Summer Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -17778,6 +17937,7 @@ const EquipInformation = [
 { //Berwick's Magia Surf Shorts - Complete
         id: 106911,
         name: `Berwick's Magia Surf Shorts`,
+        location: `Limited Equip Summon: Knights of Blood Summer Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -18589,6 +18749,7 @@ const EquipInformation = [
 { //Prince Berwick's Garb - Complete
         id: 107181,
         name: `Prince Berwick's Garb`,
+        location: `Limited Equip Summon: Knights of Blood Halloween Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -18618,6 +18779,7 @@ const EquipInformation = [
 { //Cheer Squad Riviera - Complete
         id: 107191,
         name: `Cheer Squad Riviera`,
+        location: `Limited Equip Summon: Knights of Blood Halloween Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -18647,6 +18809,7 @@ const EquipInformation = [
 { //Thetis' Chef Hat - Complete
         id: 107201,
         name: `Thetis' Chef Hat`,
+        location: `Limited Equip Summon: Knights of Blood Halloween Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -18676,6 +18839,7 @@ const EquipInformation = [
 { //Duke's Bad Boy Jacket - Complete
         id: 107211,
         name: `Duke's Bad Boy Jacket`,
+        location: `Limited Equip Summon: Knights of Blood Halloween Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -18705,6 +18869,7 @@ const EquipInformation = [
 { //Vampire Cutie Rosetta - Complete
         id: 107221,
         name: `Vampire Cutie Rosetta`,
+        location: `Limited Equip Summon: Knights of Blood Halloween Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -18734,6 +18899,7 @@ const EquipInformation = [
 { //Leone's Candy Pink Smock - Complete
         id: 107231,
         name: `Leone's Candy Pink Smock`,
+        location: `Limited Equip Summon: Knights of Blood Halloween Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -19297,6 +19463,7 @@ const EquipInformation = [
 { //Loyal Santa Vox Plushie - Complete
         id: 107421,
         name: `Loyal Santa Vox Plushie`,
+        location: `Limited Equip Summon: Knights of Blood Christmas Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -19326,6 +19493,7 @@ const EquipInformation = [
 { //Santa Wizard Berwick Plushie - Complete
         id: 107431,
         name: `Santa Wizard Berwick Plushie`,
+        location: `Limited Equip Summon: Knights of Blood Christmas Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -19355,6 +19523,7 @@ const EquipInformation = [
 { //Sexy Santa Riviera Plushie - Complete
         id: 107441,
         name: `Sexy Santa Riviera Plushie`,
+        location: `Limited Equip Summon: Knights of Blood Christmas Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -19384,6 +19553,7 @@ const EquipInformation = [
 { //Devoted Reindeer Thetis Plushie - Complete
         id: 107451,
         name: `Devoted Reindeer Thetis Plushie`,
+        location: `Limited Equip Summon: Knights of Blood Christmas Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -19413,6 +19583,7 @@ const EquipInformation = [
 { //Dauntless Reindeer Duke Plushie - Complete
         id: 107461,
         name: `Dauntless Reindeer Duke Plushie`,
+        location: `Limited Equip Summon: Knights of Blood Christmas Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -19442,6 +19613,7 @@ const EquipInformation = [
 { //Strawberry Cake Rosetta Plushie - Complete
         id: 107471,
         name: `Strawberry Cake Rosetta Plushie`,
+        location: `Limited Equip Summon: Knights of Blood Christmas Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -19471,6 +19643,7 @@ const EquipInformation = [
 { //Giftbox Leone Plushie - Complete
         id: 107481,
         name: `Giftbox Leone Plushie`,
+        location: `Limited Equip Summon: Knights of Blood Christmas Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -19500,6 +19673,7 @@ const EquipInformation = [
 { //Rus' Happy Doll - Complete
         id: 107491,
         name: `Rus' Happy Doll`,
+        location: `Limited Equip Summon: Knights of Blood Christmas Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -21510,6 +21684,7 @@ const EquipInformation = [
 { //Ces' Wavy Frill - Complete
         id: 108171,
         name: `Ces' Wavy Frill`,
+        location: `Limited Equip Summon: Cross the Blaze Summer Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -21539,6 +21714,7 @@ const EquipInformation = [
 { //Liza's Pearly One-Piece - Complete
         id: 108181,
         name: `Liza's Pearly One-Piece`,
+        location: `Limited Equip Summon: Cross the Blaze Summer Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -21568,6 +21744,7 @@ const EquipInformation = [
 { //Orvell's Sunny Trunks - Complete
         id: 108191,
         name: `Orvell's Sunny Trunks`,
+        location: `Limited Equip Summon: Cross the Blaze Summer Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -21597,6 +21774,7 @@ const EquipInformation = [
 { //Luahn's Shady Canopy - Complete
         id: 108201,
         name: `Luahn's Shady Canopy`,
+        location: `Limited Equip Summon: Cross the Blaze Summer Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -21626,6 +21804,7 @@ const EquipInformation = [
 { //Chloe's Eye Service - Complete
         id: 108211,
         name: `Chloe's Eye Service`,
+        location: `Limited Equip Summon: Cross the Blaze Summer Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -21655,6 +21834,7 @@ const EquipInformation = [
 { //Radak's Lifejacket - Complete
         id: 108221,
         name: `Radak's Lifejacket`,
+        location: `Limited Equip Summon: Cross the Blaze Summer Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -22098,6 +22278,7 @@ const EquipInformation = [
 { //Cestina's Scrubs - Complete
         id: 108371,
         name: `Cestina's Scrubs`,
+        location: `Limited Equip Summon: Cross the Blaze Halloween Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -22127,6 +22308,7 @@ const EquipInformation = [
 { //Angelas' Royal Dress - Complete
         id: 108381,
         name: `Angelas' Royal Dress`,
+        location: `Limited Equip Summon: Cross the Blaze Halloween Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -22156,6 +22338,7 @@ const EquipInformation = [
 { //Luahn's Sprinting Shorts - Complete
         id: 108391,
         name: `Luahn's Sprinting Shorts`,
+        location: `Limited Equip Summon: Cross the Blaze Halloween Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -22185,6 +22368,7 @@ const EquipInformation = [
 { //Victoire's Catsuit - Complete
         id: 108401,
         name: `Victoire's Catsuit`,
+        location: `Limited Equip Summon: Cross the Blaze Halloween Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -22214,6 +22398,7 @@ const EquipInformation = [
 { //Liza's Smart Skirt - Complete
         id: 108411,
         name: `Liza's Smart Skirt`,
+        location: `Limited Equip Summon: Cross the Blaze Halloween Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -22243,6 +22428,7 @@ const EquipInformation = [
 { //Orvell's Sailor Shirt - Complete
         id: 108421,
         name: `Orvell's Sailor Shirt`,
+        location: `Limited Equip Summon: Cross the Blaze Halloween Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -22569,6 +22755,7 @@ const EquipInformation = [
 { //Santa Ces, Gifting Justice - Complete
         id: 108541,
         name: `Santa Ces, Gifting Justice`,
+        location: `Limited Equip Summon: Cross the Blaze Christmas Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -22598,6 +22785,7 @@ const EquipInformation = [
 { //Santa Liza, Seeking Wisdom - Complete
         id: 108551,
         name: `Santa Liza, Seeking Wisdom`,
+        location: `Limited Equip Summon: Cross the Blaze Christmas Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -22627,6 +22815,7 @@ const EquipInformation = [
 { //Santa Orvell, Standing Firm - Missing Lore
         id: 108561,
         name: `Santa Orvell, Standing Firm`,
+        location: `Limited Equip Summon: Cross the Blaze Christmas Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -22656,6 +22845,7 @@ const EquipInformation = [
 { //Reindeer Luahn, Finding Bravery - Complete
         id: 108571,
         name: `Reindeer Luahn, Finding Bravery`,
+        location: `Limited Equip Summon: Cross the Blaze Christmas Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -22685,6 +22875,7 @@ const EquipInformation = [
 { //Reindeer Eagle, Dutiful Defender - Complete
         id: 108581,
         name: `Reindeer Eagle, Dutiful Defender`,
+        location: `Limited Equip Summon: Cross the Blaze Christmas Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -22714,6 +22905,7 @@ const EquipInformation = [
 { //Jolly Bakoo Doll - Complete
         id: 108591,
         name: `Jolly Bakoo Doll`,
+        location: `Limited Equip Summon: Cross the Blaze Christmas Banner`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -24373,6 +24565,7 @@ const EquipInformation = [
 { //Hart's Waistline Headline - Complete
         id: 109171,
         name: `Hart's Waistline Headline`,
+        location: `Limited Equip Summon: Phantom Snipers Summer Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -24402,6 +24595,7 @@ const EquipInformation = [
 { //Priscilla's Summer Stakes - Complete
         id: 109181,
         name: `Priscilla's Summer Stakes`,
+        location: `Limited Equip Summon: Phantom Snipers Summer Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -24431,6 +24625,7 @@ const EquipInformation = [
 { //Vultee's Vista of Paradise - Complete
         id: 109191,
         name: `Vultee's Vista of Paradise`,
+        location: `Limited Equip Summon: Phantom Snipers Summer Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -24460,6 +24655,7 @@ const EquipInformation = [
 { //Simon's Nostalgic Shades - Complete
         id: 109201,
         name: `Simon's Nostalgic Shades`,
+        location: `Limited Equip Summon: Phantom Snipers Summer Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -24489,6 +24685,7 @@ const EquipInformation = [
 { //Miranda's Dynamite Blast - Missing Lore
         id: 109211,
         name: `Miranda's Dynamite Blast`,
+        location: `Limited Equip Summon: Phantom Snipers Summer Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -24518,6 +24715,7 @@ const EquipInformation = [
 { //Luana's Seaside Fantasy - Complete
         id: 109221,
         name: `Luana's Seaside Fantasy`,
+        location: `Limited Equip Summon: Phantom Snipers Summer Banner`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
         image: 
@@ -24813,6 +25011,7 @@ const EquipInformation = [
 { //Leone's Precious One-Piece - Complete
         id: 109321,
         name: `Leone's Precious One-Piece`,
+        location: `Limited Equip Summon: Knights of Blood Summer Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -24842,6 +25041,7 @@ const EquipInformation = [
 { //Juno's Seafoam Pareo - Complete
         id: 109331,
         name: `Juno's Seafoam Pareo`,
+        location: `Limited Equip Summon: Knights of Blood Summer Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -24871,6 +25071,7 @@ const EquipInformation = [
 { //Blue Ray Vox - Complete
         id: 109341,
         name: `Blue Ray Vox`,
+        location: `Limited Equip Summon: Knights of Blood Summer Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -24900,6 +25101,7 @@ const EquipInformation = [
 { //Duke the Legendary - Complete
         id: 109351,
         name: `Duke the Legendary`,
+        location: `Limited Equip Summon: Knights of Blood Summer Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -24929,6 +25131,7 @@ const EquipInformation = [
 { //Riviera's Sundrenched Stunner - Complete
         id: 109361,
         name: `Riviera's Sundrenched Stunner`,
+        location: `Limited Equip Summon: Knights of Blood Summer Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -24958,6 +25161,7 @@ const EquipInformation = [
 { //Thetis' Mikyu-Mate - Complete
         id: 109371,
         name: `Thetis' Mikyu-Mate`,
+        location: `Limited Equip Summon: Knights of Blood Summer Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -24987,6 +25191,7 @@ const EquipInformation = [
 { //Leone's Pretty Parasol - Complete
         id: 109381,
         name: `Leone's Pretty Parasol`,
+        location: `Limited Equip Summon: Knights of Blood Summer Banner`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
         image: 
@@ -25016,6 +25221,7 @@ const EquipInformation = [
 { //Diever Boat 2021 Model - Complete
         id: 109391,
         name: `Diever Boat 2021 Model`,
+        location: `Limited Equip Summon: Knights of Blood Summer Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -25551,6 +25757,7 @@ const EquipInformation = [
 { //Hart's Discovery - Complete
         id: 109571,
         name: `Hart's Discovery`,
+        location: `Limited Equip Summon: Phantom Snipers Halloween Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -25580,6 +25787,7 @@ const EquipInformation = [
 { //Priscilla's Maid Dress - Complete
         id: 109581,
         name: `Priscilla's Maid Dress`,
+        location: `Limited Equip Summon: Phantom Snipers Halloween Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -25609,6 +25817,7 @@ const EquipInformation = [
 { //Vultee's Dandy Duds - Complete
         id: 109591,
         name: `Vultee's Dandy Duds`,
+        location: `Limited Equip Summon: Phantom Snipers Halloween Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -25638,6 +25847,7 @@ const EquipInformation = [
 { //Miranda's Relived Youth - Complete
         id: 109601,
         name: `Miranda's Relived Youth`,
+        location: `Limited Equip Summon: Phantom Snipers Halloween Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -25667,6 +25877,7 @@ const EquipInformation = [
 { //Bushido Master S - Missing Lore
         id: 109611,
         name: `Bushido Master S`,
+        location: `Limited Equip Summon: Phantom Snipers Halloween Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -25696,6 +25907,7 @@ const EquipInformation = [
 { //Bouncy Bunny Luana - Complete
         id: 109621,
         name: `Bouncy Bunny Luana`,
+        location: `Limited Equip Summon: Phantom Snipers Halloween Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -26319,6 +26531,7 @@ const EquipInformation = [
 { //Joyful Santa Hart - Missing Lore
         id: 109831,
         name: `Joyful Santa Hart`,
+        location: `Limited Equip Summon: Phantom Snipers Christmas Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -26348,6 +26561,7 @@ const EquipInformation = [
 { //Sweet Snow Priscilla - Missing Lore
         id: 109841,
         name: `Sweet Snow Priscilla`,
+        location: `Limited Equip Summon: Phantom Snipers Christmas Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -26377,6 +26591,7 @@ const EquipInformation = [
 { //Dauntless Reindeer Vultee - Missing Lore
         id: 109851,
         name: `Dauntless Reindeer Vultee`,
+        location: `Limited Equip Summon: Phantom Snipers Christmas Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -26406,6 +26621,7 @@ const EquipInformation = [
 { //Warm Santa Miranda - Missing Lore
         id: 109861,
         name: `Warm Santa Miranda`,
+        location: `Limited Equip Summon: Phantom Snipers Christmas Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -26435,6 +26651,7 @@ const EquipInformation = [
 { //Nostalgic Santa Simon - Missing Lore
         id: 109871,
         name: `Nostalgic Santa Simon`,
+        location: `Limited Equip Summon: Phantom Snipers Christmas Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -26464,6 +26681,7 @@ const EquipInformation = [
 { //Dreaming Luana Doll - Missing Lore
         id: 109881,
         name: `Dreaming Luana Doll`,
+        location: `Limited Equip Summon: Phantom Snipers Christmas Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -27715,6 +27933,7 @@ const EquipInformation = [
 { //Super Spiker - Complete
         id: 110321,
         name: `Super Spiker`,
+        location: `Limited Equip Summon: Cross the Blaze Summer Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -27744,6 +27963,7 @@ const EquipInformation = [
 { //Ces' Sandy Blossom - Complete
         id: 110331,
         name: `Ces' Sandy Blossom`,
+        location: `Limited Equip Summon: Cross the Blaze Summer Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -27773,6 +27993,7 @@ const EquipInformation = [
 { //Super Douser - Missing Lore
         id: 110341,
         name: `Super Douser`,
+        location: `Limited Equip Summon: Cross the Blaze Summer Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -27802,6 +28023,7 @@ const EquipInformation = [
 { //Liza's Mature Look - Complete
         id: 110351,
         name: `Liza's Mature Look`,
+        location: `Limited Equip Summon: Cross the Blaze Summer Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -27831,6 +28053,7 @@ const EquipInformation = [
 { //Orvell's Royal Flare - Complete
         id: 110361,
         name: `Orvell's Royal Flare`,
+        location: `Limited Equip Summon: Cross the Blaze Summer Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -27860,6 +28083,7 @@ const EquipInformation = [
 { //Luahn's Wabi-Sabi Jams - Complete
         id: 110371,
         name: `Luahn's Wabi-Sabi Jams`,
+        location: `Limited Equip Summon: Cross the Blaze Summer Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -27889,6 +28113,7 @@ const EquipInformation = [
 { //Angelas' Sweet & Saucy - Complete
         id: 110381,
         name: `Angelas' Sweet & Saucy`,
+        location: `Limited Equip Summon: Cross the Blaze Summer Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -27918,6 +28143,7 @@ const EquipInformation = [
 { //Victoire's Victory - Complete
         id: 110391,
         name: `Victoire's Victory`,
+        location: `Limited Equip Summon: Cross the Blaze Summer Banner`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
         image: 
@@ -27947,6 +28173,7 @@ const EquipInformation = [
 { //Airsenal Shell - Complete
         id: 110401,
         name: `Airsenal Shell`,
+        location: `Limited Equip Summon: Cross the Blaze Summer Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
