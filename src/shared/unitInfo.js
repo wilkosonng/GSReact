@@ -1855,6 +1855,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/defLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/healLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/defLB.png"
+            },
         stats: 
             {
                 hp: 7296,
@@ -1873,12 +1882,27 @@ const UnitInformation = [
                 truearts: "30800% Water DMG (PHY). High chance to inflict Ultimate Freeze.",
                 trueartsbreak: 5600
             },
+        skillsetJP: 
+            {
+                skill: "8s CT - 2150% Water DMG (PHY). During Enemy Arts, increase Critical Rate of this Skill by 50% and Break PWR of this Skill by 70%.",
+                skillbreak: 2000,
+                arts: "18000% Water DMG (PHY). During Enemy Arts, increase Critical Rate of this Arts by 100% and Break Power of this Arts by 200%.",
+                artsbreak: 3500,
+                truearts: "45000% Water DMG (PHY). 100% chance to inflict Ultimate Freeze.",
+                trueartsbreak: 6000
+            },    
         passive: 
             {
                 ability1: "Increase Rayas' DMG by 30%.",
                 ability2: "Increase Allies' DMG RES by 15%.",
                 ability3: "When near-death, heal 60 HP/s."
-            }, 
+            },
+        passiveJP: 
+            {
+                ability1: "Increase Rayas' DMG by 50%.",
+                ability2: "Increase Allies' DMG RES by 20%.",
+                ability3: "When near-death, heal 60 HP/s."
+            },     
         evolution: 
             {
                 evo45:
@@ -2834,6 +2858,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/healLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/healLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/healLB.png"
+            },
         stats: 
             {
                 hp: 7510,
@@ -2851,6 +2884,15 @@ const UnitInformation = [
                 artsbreak: 3450, //same comment for skill
                 truearts: "28800% Light DMG (MAG). High chance to inflict Paralysis. Recover Allies' HP by 5000, revive fallen Allies with 30% HP (only able to revive fallen Allies once every 60s).",
                 trueartsbreak: 4450
+            },
+        skillsetJP: 
+            {
+                skill: "Recover Mode: 5s CT - Heal Allies' HP by 500. Attack Mode: 5s CT - 1800% Light DMG (MAG).",
+                skillbreak: 1700, //how do i write this??? cause liese skill has two modes, one has 0 break the other has 1700
+                arts: "Recover Mode: Heal Allies' HP by 3000, cure Allies' Status Ailments (except Faint). Attack Mode: 16000% Light DMG (MAG). 80% chance to inflict Paralysis.",
+                artsbreak: 3500, //same comment for skill
+                truearts: "32000% Light DMG (MAG). 80% chance to inflict Paralysis. Recover Allies' HP by 6000, revive fallen Allies with 30% HP (only able to revive fallen Allies once every 60s).",
+                trueartsbreak: 4500
             },
         passive: 
             {
@@ -3530,6 +3572,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/suppLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
+            },
         stats: 
             {
                 hp: 6169,
@@ -3546,6 +3597,15 @@ const UnitInformation = [
                 arts: "8800% Dark DMG (MAG). Heal own HP by 3% of DMG dealt by this Arts + For 10s, increase Allies' Arts by 3/s.",
                 artsbreak: 2100,
                 truearts: "25500% Dark DMG (MAG). Consume 25% of own HP, increase Allies' Arts by 40 + For 10s, increase Allies' MAG DMG by 30%.",
+                trueartsbreak: 4400
+            },
+        skillsetJP: 
+            {
+                skill: "10s CT - 1600% Dark DMG (MAG). During this Skill, increase own BE generation by 60%.",
+                skillbreak: 1350,
+                arts: "13000% Dark DMG (MAG). Heal own HP by 3% of DMG dealt by this Arts + For 15s, increase Allies' Arts by 3/s.",
+                artsbreak: 2100,
+                truearts: "30000% Dark DMG (MAG). Consume 10% of own HP, increase Allies' Arts by 40 + For 10s, increase Allies' MAG DMG by 30%.",
                 trueartsbreak: 4400
             },
         passive: 
@@ -21976,6 +22036,13 @@ const UnitInformation = [
             {
                 ability1: "Increase Rayas'/Monster Hunter Rayas' DMG by 30% (Does not stack with Abilities of the same name).",
                 ability2: "Increase Allies' DMG RES by 10%.",
+                ability3: "Increase DMG to Monster Hunter Raid Bosses by 50%.",
+                ability4: "When near-death, heal 60 HP/s."
+            },
+        passiveJP:
+            {
+                ability1: "Increase Rayas'/Monster Hunter Rayas' DMG by 50% (Does not stack with Abilities of the same name).",
+                ability2: "Increase Allies' DMG RES by 20%.",
                 ability3: "Increase DMG to Monster Hunter Raid Bosses by 50%.",
                 ability4: "When near-death, heal 60 HP/s."
             }, 
