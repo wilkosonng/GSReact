@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Container, Row, Media, Badge, Table, Nav, NavItem, TabContent, TabPane, NavLink, List } from 'reactstrap';
 import classnames from 'classnames';
 import UnitReviews from './ReviewComponent';
+import Dream from './dream/DreamComponent';
 
 const lbIconSize = {
     maxHeight: 40,
@@ -237,7 +238,7 @@ function RenderImageAndTypes({ unitImage, unitAtt, unitType, unitName }) {
 }
 export function RenderStats({unitName, unitStats, unitStatsJP = false, unitAtt, unitType, unitSkill, 
                             unitSkillJP = false, unitPassive, unitPassiveJP = false, unitSlots, 
-                            unitSlotsJP = false, unitImage, unitReview = false})
+                            unitSlotsJP = false, unitImage, unitReview = false, unitDreamJP = false})
                             {
     //Hook for Tab State
     const [currentTab, setCurrentTab] = useState('1');
@@ -328,7 +329,7 @@ export function RenderStats({unitName, unitStats, unitStatsJP = false, unitAtt, 
             :
                 <center>
                     { 
-                        unitStatsJP || unitSkillJP || unitSlotsJP || unitPassiveJP ? 
+                        unitStatsJP || unitSkillJP || unitSlotsJP || unitPassiveJP || unitDreamJP ? 
                             <>
                                 <i><b>This unit has different stats for each server. Please select the server you want to view the stats for.</b></i>
                                 
@@ -386,6 +387,9 @@ export function RenderStats({unitName, unitStats, unitStatsJP = false, unitAtt, 
                                         }
                                         {
                                             unitPassiveJP ? <RenderPassives unitPassive={unitPassiveJP} unitReview={unitReview} isReview={review} /> : <RenderPassives unitPassive={unitPassive} unitReview={unitReview} isReview={review}/>
+                                        }
+                                        {
+                                            unitDreamJP && <Dream dream={unitDreamJP} />
                                         }
                                         {
                                             review ? 
