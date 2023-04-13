@@ -110,13 +110,13 @@
         dreamJP: {
             fire: {
                 evolution: {
-                    mat1: ``,
-                    mat1amt: 10
+                    mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                    mat1amt: 10,
                     mat2: ``,
                     mat2amt: 50,
-                    hover2: ``
-                    mat3: ``
-                    mat3amt: 2
+                    hover2: ``,
+                    mat3: ``,
+                    mat3amt: 2,
                     hover3: ``
                 },
                 ability1: ``,
@@ -124,12 +124,14 @@
             },
             water: {
                 evolution: {
-                    mat1: ``,
-                    mat1amt: 10
+                    mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                    mat1amt: 10,
                     mat2: ``,
                     mat2amt: 50,
-                    mat3: ``
-                    mat3amt: 2
+                    hover2: ``,
+                    mat3: ``,
+                    mat3amt: 2,
+                    hover3: ``
                 },
                 ability1: ``,
                 ability2: ``
@@ -146,7 +148,7 @@
  */
 
 const UnitInformation = [
-    { //Clyde - Complete (+ JP version)
+    { //Clyde - Complete (+ JP version), Dream Evo Complete
         id: 100016111,
         name: "Clyde",
         rank: "F",
@@ -250,6 +252,36 @@ const UnitInformation = [
                     hover3: "Degilmagna"
                 }
             },
+        dreamJP: {
+                fire: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
+                        mat2amt: 50,
+                        hover2: `Flame Fox Spirit Orb`,
+                        mat3: `/db/Icons/dungeon_drops/fragDegilmagna.png`,
+                        mat3amt: 2,
+                        hover3: `Degilmagna`
+                    },
+                    ability1: `Increase own DMG against Earth enemies by 200%.`,
+                    ability2: ``
+                },
+                light: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                        mat2amt: 50,
+                        hover2: `God's Spirit Orb`,
+                        mat3: `/db/Icons/dungeon_drops/fragWilkes.png`,
+                        mat3amt: 2,
+                        hover3: `Wilkes`
+                    },
+                    ability1: `Increase own CRI rate by 100% when HP is 80% or above.`,
+                    ability2: ``
+                },
+            },
         trueweapon: 
             {
                 name: "Gradion",
@@ -272,7 +304,7 @@ const UnitInformation = [
                 evoawk: "Although being one of the 3 Blade Masters, he suddenly disappeared from history. It is not clear of this life after the Ancient War. There are several rumors about him such as, helping others during the harsh times after war, death and life battle with his master, or being killed by the emperor of Isliid due to his riot against him. However, one thing is common, he had enormous power even after the war and bright fire in his eyes."
             }
     },
-    { //Corsair - Complete (+ JP version)
+    { //Corsair - Complete (+ JP version), Dream Evo Complete
         id: 100026211,
         name: "Corsair",
         rank: "F",
@@ -374,6 +406,36 @@ const UnitInformation = [
                     hover3: "Freydal"
                 }
             },
+        dreamJP: {
+                water: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
+                        mat2amt: 50,
+                        hover2: `Ice Spirit Orb`,
+                        mat3: `/db/Icons/dungeon_drops/fragFreydal.png`,
+                        mat3amt: 2,
+                        hover3: `Freydal`
+                    },
+                    ability1: `Adds "Reduce enemies' Freeze RES by 30% for 30s" to Arts.`,
+                    ability2: ``
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                        mat2amt: 50,
+                        hover2: `Sinful Spirit Orb`,
+                        mat3: `/db/Icons/dungeon_drops/fragRagsherumPhantom.png`,
+                        mat3amt: 2,
+                        hover3: `Ragsherum Phantom`
+                    },
+                    ability1: `Increase own Arts gauge by 200 at the Start of the Quest.`,
+                    ability2: ``
+                },
+            },
         trueweapon: 
             {
                 name: "Froid Rosier",
@@ -397,7 +459,7 @@ const UnitInformation = [
                 evoawk: "Although being one of the 3 Blade Masters, it is said that she created the reason for the royal family to fall. After the Ancient War, she was ordered to guard the prince of Bamint who was going to attend the 5 Kings Conference and even proposed. However, she declined the offer, and left the country. Her father did not criticize her for this. She is said to have fought with the other Blade Masters or have lived to bring up her adopted child. Her sword skills were the best during her last years."
             }
     },
-    { //Arth - Complete (+ JP version)
+    { //Arth - Complete (+ JP version), Dream Evo Complete
         id: 100036311,
         name: "Arth",
         rank: "F",
@@ -498,6 +560,36 @@ const UnitInformation = [
                     mat3amt: 1,
                     hover3: "Elpneumas"
                 }
+            },
+        dreamJP: {
+                fire: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
+                        mat2amt: 50,
+                        hover2: `Flame Fox Spirit Orb`,
+                        mat3: `/db/Icons/dungeon_drops/fragIfrit.png`,
+                        mat3amt: 2,
+                        hover3: `Ifrit`
+                    },
+                    ability1: `Increase all allies' Arts gauge by 1/s (No Duplication).`,
+                    ability2: ``
+                },
+                earth: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                        mat2amt: 50,
+                        hover2: `Poison Dragon Spirit Orb`,
+                        mat3: `/db/Icons/dungeon_drops/fragElpneumas.png`,
+                        mat3amt: 2,
+                        hover3: `Elpneumas`
+                    },
+                    ability1: `Increase own DMG against Water enemies by 70%.`,
+                    ability2: `Increase own Break Power against Water enemies by 70%.`
+                },
             },
         trueweapon: 
             {
@@ -1896,7 +1988,7 @@ const UnitInformation = [
                 evo5: "A divine girl who has the power to break down the barriers surrounding Gods. Though Iris was unaware she possessed such a rare power, she was discovered by a Demon and held as a research subject for anti-God weaponry. Profound in their cruelty, Iris lost her memories as a result of the experiments, but eventually managed to escape. Her encounter with a young man awakened her true power further.",
             }
     },
-    { //Roy (Water) - Complete
+    { //Roy (Water) - Complete, Dream Evo Complete
         id: 101036211,
         name: "Roy (Water)",
         rank: "F",
@@ -1995,6 +2087,36 @@ const UnitInformation = [
                     mat5amt: 5,
                     hover5: "Freydal"
                 }
+            },
+        dreamJP: {
+                fire: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
+                        mat2amt: 50,
+                        hover2: `Flame Fox Spirit Orb`,
+                        mat3: `/db/Icons/dungeon_drops/fragIfrit.png`,
+                        mat3amt: 2,
+                        hover3: `Ifrit`
+                    },
+                    ability1: `Increase own CRI DMG by 300%.`,
+                    ability2: ``
+                },
+                water: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
+                        hover2: `Ice Spirit Orb`,
+                        mat2amt: 50,
+                        mat3: `/db/Icons/dungeon_drops/fragAerugraxes.png`,
+                        mat3amt: 2,
+                        hover3: `Aerugraxes`
+                    },
+                    ability1: `Increase own Break Power against Fire enemies by 80%.`,
+                    ability2: `Increase own Arts gauge by 3/s.`
+                },
             },
         trueweapon: 
             {
@@ -2899,7 +3021,7 @@ const UnitInformation = [
                 evoawk: "A skilled craftsman of Reigrad. Mesmerized by the art of smithing from a young age, he honed his craft diligently. The color of the fire, the sound of forging steel, the weight of the sledgehammer in his hands are constantly changing phenomena that, even after many years of disciplined practice, never extinguish his passion. His legacy is an inspiration not only for other blacksmiths but for artists of all kinds."
             }
     },
-    { //Liese (Light) - Complete
+    { //Liese (Light) - Complete, Dream Evo Complete
         id: 101136411,
         name: "Liese (Light)",
         rank: "F",
@@ -2992,6 +3114,50 @@ const UnitInformation = [
                     mat5amt: 4,
                     hover5: "Code-XTF"
                 }
+            },
+        dreamJP: {
+                earth: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                        mat2amt: 50,
+                        hover2: `Poison Dragon Spirit Orb`,
+                        mat3: `/db/Icons/dungeon_drops/fragElpneumas.png`,
+                        mat3amt: 2,
+                        hover3: `Elpneumas`
+                    },
+                    ability1: `Increase own HP Recovery Amount by 30% (excluding Absorption attacks).`,
+                    ability2: `Increase own Arts gauge by 2/s.`
+                },
+                light: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                        mat2amt: 50,
+                        hover2: `God's Spirit Orb`,
+                        mat3: `/db/Icons/dungeon_drops/fragRadachne.png`,
+                        mat3amt: 2,
+                        hover3: `Radachne`
+                    },
+                    ability1: `Increase all Light allies' Arts gauge by 2/s (No Duplication).`,
+                    ability2: ``
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                        mat2amt: 50,
+                        hover2: `Sinful Spirit Orb`,
+                        mat3: `/db/Icons/dungeon_drops/fragRagsherumPhantom.png`,
+                        mat3amt: 2,
+                        hover3: `Ragsherum Phantom`
+                    },
+                    ability1: `Increase all allies' Dark RES by 20% (No Duplication).`,
+                    ability2: ``
+                },
             },
         trueweapon: 
             {
@@ -3613,7 +3779,7 @@ const UnitInformation = [
                 evoawk: "Duran encountered the crazed swordsman who was terrorizing the northern towns. From how the warrior wielded his sword with abandon, he knew the weapon had possessed him. After a heated confrontation, the knight suffered near-fatal injuries but not a single innocent was harmed. Ever since, the legend of Duran and his shield spread across the land."
             }
     },
-    { //Zenon - Complete
+    { //Zenon - Complete, Dream Evo Complete
         id: 101216512,
         name: "Zenon",
         rank: "B+",
@@ -3705,6 +3871,36 @@ const UnitInformation = [
                     mat5amt: 2,
                     hover5: "Code-XTF"
                 }
+            },
+        dreamJP: {
+                water: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
+                        mat2amt: 50,
+                        hover2: `Ice Spirit Orb`,
+                        mat3: `/db/Icons/dungeon_drops/fragGeoZagnus.png`,
+                        mat3amt: 2,
+                        hover3: `Geo Zagnus`
+                    },
+                    ability1: `Increase own Freeze RES by 100%.`,
+                    ability2: `Increase own DMG against Light enemies by 100%.`
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                        mat2amt: 50,
+                        hover2: `Sinful Spirit Orb`,
+                        mat3: `/db/Icons/dungeon_drops/fragOldeus.png`,
+                        mat3amt: 2,
+                        hover3: `Oldeus`
+                    },
+                    ability1: `Increase all Demon allies' Arts gauge by 2/s (No Duplication). `,
+                    ability2: ``
+                },
             },
         trueweapon: 
             {
