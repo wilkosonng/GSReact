@@ -119,8 +119,10 @@
                     mat3amt: 2,
                     hover3: ``
                 },
-                ability1: ``,
-                ability2: ``
+                passive: {
+                    ability1: ``,
+                    ability2: ``
+                }
             },
             water: {
                 evolution: {
@@ -133,8 +135,10 @@
                     mat3amt: 2,
                     hover3: ``
                 },
-                ability1: ``,
-                ability2: ``
+                passive: {
+                    ability1: ``,
+                    ability2: ``
+                }
             },
         }
     }
@@ -264,8 +268,10 @@ const UnitInformation = [
                         mat3amt: 2,
                         hover3: `Degilmagna`
                     },
-                    ability1: `Increase own DMG against Earth enemies by 200%.`,
-                    ability2: ``
+                    passive: {
+                        ability1: `Increase own DMG against Earth enemies by 200%.`,
+                        ability2: ``
+                    }
                 },
                 light: {
                     evolution: {
@@ -278,8 +284,10 @@ const UnitInformation = [
                         mat3amt: 2,
                         hover3: `Wilkes`
                     },
-                    ability1: `Increase own CRI rate by 100% when HP is 80% or above.`,
-                    ability2: ``
+                    passive: {
+                        ability1: `Increase own CRI rate by 100% when HP is 80% or above.`,
+                        ability2: ``
+                    }
                 },
             },
         trueweapon: 
@@ -418,8 +426,10 @@ const UnitInformation = [
                         mat3amt: 2,
                         hover3: `Freydal`
                     },
-                    ability1: `Adds "Reduce enemies' Freeze RES by 30% for 30s" to Arts.`,
-                    ability2: ``
+                    passive: {
+                        ability1: `Adds "Reduce enemies' Freeze RES by 30% for 30s" to Arts.`,
+                        ability2: ``
+                    }
                 },
                 dark: {
                     evolution: {
@@ -432,8 +442,10 @@ const UnitInformation = [
                         mat3amt: 2,
                         hover3: `Ragsherum Phantom`
                     },
-                    ability1: `Increase own Arts gauge by 200 at the Start of the Quest.`,
-                    ability2: ``
+                    passive: {
+                        ability1: `Increase own Arts gauge by 200 at the Start of the Quest.`,
+                        ability2: ``
+                    }
                 },
             },
         trueweapon: 
@@ -573,8 +585,10 @@ const UnitInformation = [
                         mat3amt: 2,
                         hover3: `Ifrit`
                     },
-                    ability1: `Increase all allies' Arts gauge by 1/s (No Duplication).`,
-                    ability2: ``
+                    passive: {
+                        ability1: `Increase all allies' Arts gauge by 1/s (No Duplication).`,
+                        ability2: ``
+                    }
                 },
                 earth: {
                     evolution: {
@@ -587,8 +601,10 @@ const UnitInformation = [
                         mat3amt: 2,
                         hover3: `Elpneumas`
                     },
-                    ability1: `Increase own DMG against Water enemies by 70%.`,
-                    ability2: `Increase own Break Power against Water enemies by 70%.`
+                    passive: {
+                        ability1: `Increase own DMG against Water enemies by 70%.`,
+                        ability2: `Increase own Break Power against Water enemies by 70%.`
+                    }
                 },
             },
         trueweapon: 
@@ -2100,8 +2116,10 @@ const UnitInformation = [
                         mat3amt: 2,
                         hover3: `Ifrit`
                     },
-                    ability1: `Increase own CRI DMG by 300%.`,
-                    ability2: ``
+                    passive: {
+                        ability1: `Increase own CRI DMG by 300%.`,
+                        ability2: ``
+                    }
                 },
                 water: {
                     evolution: {
@@ -2114,8 +2132,10 @@ const UnitInformation = [
                         mat3amt: 2,
                         hover3: `Aerugraxes`
                     },
-                    ability1: `Increase own Break Power against Fire enemies by 80%.`,
-                    ability2: `Increase own Arts gauge by 3/s.`
+                    passive: {
+                        ability1: `Increase own Break Power against Fire enemies by 80%.`,
+                        ability2: `Increase own Arts gauge by 3/s.`
+                    }
                 },
             },
         trueweapon: 
@@ -3127,8 +3147,10 @@ const UnitInformation = [
                         mat3amt: 2,
                         hover3: `Elpneumas`
                     },
-                    ability1: `Increase own HP Recovery Amount by 30% (excluding Absorption attacks).`,
-                    ability2: `Increase own Arts gauge by 2/s.`
+                    passive: {
+                        ability1: `Increase own HP Recovery Amount by 30% (excluding Absorption attacks).`,
+                        ability2: `Increase own Arts gauge by 2/s.`
+                    }
                 },
                 light: {
                     evolution: {
@@ -3141,8 +3163,10 @@ const UnitInformation = [
                         mat3amt: 2,
                         hover3: `Radachne`
                     },
-                    ability1: `Increase all Light allies' Arts gauge by 2/s (No Duplication).`,
-                    ability2: ``
+                    passive: {
+                        ability1: `Increase all Light allies' Arts gauge by 2/s (No Duplication).`,
+                        ability2: ``
+                    }
                 },
                 dark: {
                     evolution: {
@@ -3155,8 +3179,10 @@ const UnitInformation = [
                         mat3amt: 2,
                         hover3: `Ragsherum Phantom`
                     },
-                    ability1: `Increase all allies' Dark RES by 20% (No Duplication).`,
-                    ability2: ``
+                    passive: {
+                        ability1: `Increase all allies' Dark RES by 20% (No Duplication).`,
+                        ability2: ``
+                    }
                 },
             },
         trueweapon: 
@@ -3884,8 +3910,10 @@ const UnitInformation = [
                         mat3amt: 2,
                         hover3: `Geo Zagnus`
                     },
-                    ability1: `Increase own Freeze RES by 100%.`,
-                    ability2: `Increase own DMG against Light enemies by 100%.`
+                    passive: {
+                        ability1: `Increase own Freeze RES by 100%.`,
+                        ability2: `Increase own DMG against Light enemies by 100%.`
+                    }
                 },
                 dark: {
                     evolution: {
@@ -3898,8 +3926,10 @@ const UnitInformation = [
                         mat3amt: 2,
                         hover3: `Oldeus`
                     },
-                    ability1: `Increase all Demon allies' Arts gauge by 2/s (No Duplication). `,
-                    ability2: ``
+                    passive: {
+                        ability1: `Increase all Demon allies' Arts gauge by 2/s (No Duplication). `,
+                        ability2: ``
+                    }
                 },
             },
         trueweapon: 
