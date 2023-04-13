@@ -20878,7 +20878,7 @@ const UnitInformation = [
                     mat2: "/db/Icons/dungeon_drops/fragFlogassa.png",
                     mat2amt: 2,
                     hover2: "Flogassa",
-                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_Poison_Dragon_Spirit_Orb.png",
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_130653.png",
                     mat3amt: 220,
                     hover3: "Poison Dragon Spirit Orb"
                 }
@@ -21369,7 +21369,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_130853.png",
                     mat2amt: 220,
-                    hover2: "Flame Fox Spirit's Orb"
+                    hover2: "Flame Fox Spirit Orb"
                 }
             },
         trueweapon: 
@@ -21822,7 +21822,7 @@ const UnitInformation = [
                 {
                     mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
                     mat1amt: 30,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_130853.png",
                     mat2amt: 220,
                     hover2: "Flame Fox Spirit Orb"
                 }
@@ -21968,7 +21968,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_131455.png",
                     mat2amt: 220,
-                    hover2: "Dark Summoner's Road Orbs"
+                    hover2: "Sinful Spirit Orb"
                 }
             },
         trueweapon: //If no TW, may delete this section
@@ -27312,7 +27312,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_131455.png",
                     mat2amt: 100,
-                    hover2: "Sinful Pearls"
+                    hover2: "Sinful Spirit Orb"
                 }
             },
         lore: 
@@ -27442,7 +27442,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_131455.png",
                     mat2amt: 100,
-                    hover2: "Sinful Pearls"
+                    hover2: "Sinful Spirit Orb"
                 }
             },
         lore: 
