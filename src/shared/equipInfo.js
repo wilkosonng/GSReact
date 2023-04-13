@@ -2326,6 +2326,7 @@ const EquipInformation = [
     { //Ice Wolf Blade 'Gaimalse' - Complete
         id: 100771,
         name: `Ice Wolf Blade 'Gaimalse'`,
+        location: `Limited Event - Chasing my Friend's Illusion (Roy)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -2355,6 +2356,7 @@ const EquipInformation = [
     { //Twin Flames 'Rose Garden' - Complete
         id: 100780,
         name: `Twin Flames 'Rose Garden'`,
+        location: `Limited Event - As a Lady (Mira)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -2384,6 +2386,7 @@ const EquipInformation = [
     { //Spirit Sword 'Efkeria' - Complete
         id: 100791,
         name: `Spirit Sword 'Efkeria'`,
+        location: `Limited Event - Taking the High Road (Fen)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -2413,6 +2416,7 @@ const EquipInformation = [
     { //Treasure Blade 'Ryude Magus' - Complete
         id: 100801,
         name: `Treasure Blade 'Ryude Magus'`,
+        location: `Limited Event - The Fabled Sword's Chosen One (Zeorg)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -2501,6 +2505,7 @@ const EquipInformation = [
     { //Forge Hammer 'Hepaistos' - Complete
         id: 100831,
         name: `Forge Hammer 'Hepaistos'`,
+        location: `Rotating Event - Legendary Blacksmith (Gilliam)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -2617,6 +2622,7 @@ const EquipInformation = [
     { //Super Pan 'Wild Cat' - Complete
         id: 100871,
         name: `Super Pan 'Wild Cat'`,
+        location: `Rotating Event - The Master Chef's Test (Sophie)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -2646,6 +2652,7 @@ const EquipInformation = [
     { //Relic 'Funeral Scythe' - Missing Lore
         id: 100881,
         name: `Relic 'Funeral Scythe'`,
+        location: `Giant Boss - Shrine of Remembrance (Oldeus)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -2675,6 +2682,7 @@ const EquipInformation = [
     { //Relic 'Cloak of Grief' - Complete
         id: 100891,
         name: `Relic 'Cloak of Grief'`,
+        location: `Giant Boss - Shrine of Remembrance (Oldeus)`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -2704,6 +2712,7 @@ const EquipInformation = [
     { //Relic 'Empty Heart' - Complete
         id: 100901,
         name: `Relic 'Empty Heart'`,
+        location: `Giant Boss - Shrine of Remembrance (Oldeus)`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -2733,6 +2742,7 @@ const EquipInformation = [
     { //Relic 'End Times Ring' - Complete
         id: 100911,
         name: `Relic 'End Times Ring'`,
+        location: `Giant Boss - Shrine of Remembrance (Oldeus)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 3,
         image: 
@@ -2762,6 +2772,7 @@ const EquipInformation = [
     { //Relic 'Bleak Prophet' - Missing Lore
         id: 100921,
         name: `Relic 'Bleak Prophet'`,
+        location: `Giant Boss - Sanctuary of the Divine Princess (Radachne)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -2791,6 +2802,7 @@ const EquipInformation = [
     { //Relic 'Crimson Coat' - Complete
         id: 100931,
         name: `Relic 'Crimson Coat'`,
+        location: `Giant Boss - Sanctuary of the Divine Princess (Radachne)`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -2820,6 +2832,7 @@ const EquipInformation = [
     { //Relic 'Abyssal Hairpin' - Complete
         id: 100941,
         name: `Relic 'Abyssal Hairpin'`,
+        location: `Giant Boss - Sanctuary of the Divine Princess (Radachne)`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -2849,6 +2862,7 @@ const EquipInformation = [
     { //Relic 'Dark White Spear' - Complete
         id: 100951,
         name: `Relic 'Dark White Spear'`,
+        location: `Giant Boss - Sanctuary of the Divine Princess (Radachne)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 3,
         image: 
@@ -2965,6 +2979,7 @@ const EquipInformation = [
     { //Relic 'Machina Core' - Complete
         id: 100991,
         name: `Relic 'Machina Core'`,
+        location: `Giant Boss - Fortress of the Machine God (XTF: Eraser)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -2994,6 +3009,7 @@ const EquipInformation = [
     { //Lockdown Shield Jildoth - Complete
         id: 101001,
         name: `Lockdown Shield Jildoth`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -3023,6 +3039,7 @@ const EquipInformation = [
     { //Blade of Sorrow 'Fe'Ode' - Complete
         id: 101011,
         name: `Blade of Sorrow 'Fe'Ode'`,
+        location: `Main Story [Chapter 6 > Cave Ruins of Rahn > A Tragic Reunion] Secret Equip`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -3052,6 +3069,7 @@ const EquipInformation = [
     { //Temis Egg - Complete
         id: 101021,
         name: `Temis Egg`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 3,
         image: 
@@ -3081,6 +3099,7 @@ const EquipInformation = [
     { //Conquering Dragon Sword 'Gelmed' - Missing Lore
         id: 101031,
         name: `Conquering Dragon Sword 'Gelmed'`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -3110,6 +3129,7 @@ const EquipInformation = [
     { //Blessed Necklace - Complete
         id: 101041,
         name: `Blessed Necklace`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
         image: 
@@ -3139,6 +3159,7 @@ const EquipInformation = [
     { //Divine Green Staff 'Keion' - Complete
         id: 101051,
         name: `Divine Green Staff 'Keion'`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -3168,6 +3189,7 @@ const EquipInformation = [
     { //Ice Magic Sword 'Almas' - Complete
         id: 101061,
         name: `Ice Magic Sword 'Almas'`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -3197,6 +3219,7 @@ const EquipInformation = [
     { //Demon Axe Exolia - Complete
         id: 101081,
         name: `Demon Axe Exolia`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -3284,6 +3307,7 @@ const EquipInformation = [
     { //Hell's Spit 'Karks' - Missing Lore
         id: 101131,
         name: `Hell's Spit 'Karks'`,
+        location: `Main Story [Chapter 6 > Cave Ruins of Rahn > A Tragic Reunion] Stage Clear Reward`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 3,
         image: 
@@ -3313,6 +3337,7 @@ const EquipInformation = [
     { //Gem Blade 'Gloria' - Complete
         id: 101141,
         name: `Gem Blade 'Gloria'`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 3,
         image: 
@@ -3342,6 +3367,7 @@ const EquipInformation = [
     { //Burn Book 'Aguni' - Complete
         id: 101151,
         name: `Burn Book 'Aguni'`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -3371,6 +3397,7 @@ const EquipInformation = [
     { //Saint's Medal - Complete
         id: 101161,
         name: `Saint's Medal`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 1,
         image: 
@@ -3400,6 +3427,7 @@ const EquipInformation = [
     { //Lost Arms - Complete
         id: 101201,
         name: `Lost Arms`,
+        location: `Dungeon of Trials 15F Stage Clear Reward`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -3429,6 +3457,7 @@ const EquipInformation = [
     { //Heaven Blade Klusos - Complete
         id: 101211,
         name: `Heaven Blade Klusos`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 3,
         image: 
@@ -3458,6 +3487,7 @@ const EquipInformation = [
     { //Water Scale Blade Kyuma - Complete
         id: 101221,
         name: `Water Scale Blade Kyuma`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -3487,6 +3517,7 @@ const EquipInformation = [
     { //Holy Spear Hudkenos - Complete
         id: 101231,
         name: `Holy Spear Hudkenos`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 3,
         image: 
@@ -3516,6 +3547,7 @@ const EquipInformation = [
     { //Darkclaw Aetoth - Complete
         id: 101241,
         name: `Darkclaw Aetoth`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 3,
         image: 
@@ -3545,6 +3577,7 @@ const EquipInformation = [
     { //Divine Robe Erial - Complete
         id: 101251,
         name: `Divine Robe Erial`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 3,
         image: 
@@ -3574,6 +3607,7 @@ const EquipInformation = [
     { //Holy Knight's Gauntlets - Complete
         id: 101261,
         name: `Holy Knight's Gauntlets`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 3,
         image: 
@@ -3603,6 +3637,7 @@ const EquipInformation = [
     { //Lamia's Harp - Complete
         id: 101271,
         name: `Lamia's Harp`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -3632,6 +3667,7 @@ const EquipInformation = [
     { //Petra Crown - Complete
         id: 101281,
         name: `Petra Crown`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 3,
         image: 
@@ -3661,6 +3697,7 @@ const EquipInformation = [
     { //Metal Bangle - Complete
         id: 101291,
         name: `Metal Bangle`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 3,
         image: 
@@ -3690,6 +3727,7 @@ const EquipInformation = [
     {//Burnclaw Alestron - Missing Lore
         id: 101301,
         name: `Burnclaw Alestron`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -3719,6 +3757,7 @@ const EquipInformation = [
     { //Jade Axe Zeuskia - Complete
         id: 101311,
         name: `Jade Axe Zeuskia`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -3748,6 +3787,7 @@ const EquipInformation = [
     { //Bold Dark Spear Nukteris - Complete
         id: 101321,
         name: `Bold Dark Spear Nukteris`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -3777,6 +3817,7 @@ const EquipInformation = [
     { //Ornith Bow - Complete
         id: 101331,
         name: `Ornith Bow`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -3806,6 +3847,7 @@ const EquipInformation = [
     { //Phantom Mask - Complete
         id: 101361,
         name: `Phantom Mask`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -3835,6 +3877,7 @@ const EquipInformation = [
     { //Holy Mother's Necklace - Complete
         id: 101371,
         name: `Holy Mother's Necklace`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
         image: 
@@ -3864,6 +3907,7 @@ const EquipInformation = [
     { //Azure Ring - Complete
         id: 101381,
         name: `Azure Ring`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -3893,6 +3937,7 @@ const EquipInformation = [
     { //Holy Tree Spear Dendron - Missing Lore
         id: 101391,
         name: `Holy Tree Spear Dendron`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -3922,6 +3967,7 @@ const EquipInformation = [
     { //God Flicker Bow Kyuknoth - Complete
         id: 101401,
         name: `God Flicker Bow Kyuknoth`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -3951,6 +3997,7 @@ const EquipInformation = [
     { //Devil Shadow Bow Meranpatl - Missing Lore
         id: 101411,
         name: `Devil Shadow Bow Meranpatl`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -3980,6 +4027,7 @@ const EquipInformation = [
     { //Ascension Staff Antoth - Complete
         id: 101421,
         name: `Ascension Staff Antoth`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -4009,6 +4057,7 @@ const EquipInformation = [
     { //Netherblade Rodgalos - Missing Lore
         id: 101431,
         name: `Netherblade Rodgalos`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -4038,6 +4087,7 @@ const EquipInformation = [
     { //Burnspear Eluonith - Complete
         id: 101441,
         name: `Burnspear Eluonith`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -4067,6 +4117,7 @@ const EquipInformation = [
     { //Divine Robe Radoel - Complete
         id: 101451,
         name: `Divine Robe Radoel`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -4096,6 +4147,7 @@ const EquipInformation = [
     { //Flickerblade Scythe - Complete
         id: 101491,
         name: `Flickerblade Scythe`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 3,
         image: 
@@ -4154,6 +4206,7 @@ const EquipInformation = [
     { //Coldian Scarf - Complete
         id: 101511,
         name: `Coldian Scarf`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 3,
         image: 
@@ -4183,6 +4236,7 @@ const EquipInformation = [
     { //Frozen Beauty Dance Fan - Complete
         id: 101521,
         name: `Frozen Beauty Dance Fan`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 3,
         image: 
@@ -4212,6 +4266,7 @@ const EquipInformation = [
     { //Drakkeus Bolt - Complete
         id: 101531,
         name: `Drakkeus Bolt`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 3,
         image: 
@@ -4241,6 +4296,7 @@ const EquipInformation = [
     { //Saltcleaver Axe - Complete
         id: 101541,
         name: `Saltcleaver Axe`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 3,
         image: 
@@ -4270,6 +4326,7 @@ const EquipInformation = [
     { //Shield of Dawn - Complete
         id: 101551,
         name: `Shield of Dawn`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 3,
         image: 
@@ -4299,6 +4356,7 @@ const EquipInformation = [
     { //Fortress Breaker Daltarion - Complete
         id: 101561,
         name: `Fortress Breaker Daltarion`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -4328,6 +4386,7 @@ const EquipInformation = [
     { //Scorch Lance Vehelm - Complete
         id: 101571,
         name: `Scorch Lance Vehelm`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -4357,6 +4416,7 @@ const EquipInformation = [
     { //Earth Headband Yakshutori - Complete
         id: 101581,
         name: `Earth Headband Yakshutori`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
         image: 
@@ -4386,6 +4446,7 @@ const EquipInformation = [
     { //Holy Mist Earring - Complete
         id: 101591,
         name: `Holy Mist Earring`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -4415,6 +4476,7 @@ const EquipInformation = [
     { //Galju Necklace - Complete
         id: 101601,
         name: `Galju Necklace`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -4444,6 +4506,7 @@ const EquipInformation = [
     { //Cursed Hammer 'Bardrade' - Complete
         id: 101611,
         name: `Cursed Hammer 'Bardrade'`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -4473,6 +4536,7 @@ const EquipInformation = [
     { //Gale Spear Rey Vie - Complete
         id: 101621,
         name: `Gale Spear Rey Vie`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -4502,6 +4566,7 @@ const EquipInformation = [
     { //Underking Spear 'Hellfire' - Missing Lore
         id: 101631,
         name: `Underking Spear 'Hellfire'`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -4531,6 +4596,7 @@ const EquipInformation = [
     { //Magic Bow Logiageiz - Complete
         id: 101641,
         name: `Magic Bow Logiageiz`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -4560,6 +4626,7 @@ const EquipInformation = [
     { //Seaband Elgilkrone - Complete
         id: 101651,
         name: `Seaband Elgilkrone`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -4589,6 +4656,7 @@ const EquipInformation = [
     { //Insane Bracer Amaltia - Complete
         id: 101661,
         name: `Insane Bracer Amaltia`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -4618,6 +4686,7 @@ const EquipInformation = [
     { //Goldias Goggles - Complete
         id: 101671,
         name: `Goldias Goggles`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -4647,6 +4716,7 @@ const EquipInformation = [
     { //Chrono Dominator - Complete
         id: 101681,
         name: `Chrono Dominator`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -4676,6 +4746,7 @@ const EquipInformation = [
     { //Flicker Bow Heavy Rain - Complete
         id: 101691,
         name: `Flicker Bow Heavy Rain`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -4705,6 +4776,7 @@ const EquipInformation = [
     { //Relic 'Framshilt' - Complete
         id: 101701,
         name: `Relic 'Framshilt'`,
+        location: `Giant Boss - The Crimson King (Degilmagna)`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -4734,6 +4806,7 @@ const EquipInformation = [
     { //Relic 'Wisfiraft' - Complete
         id: 101711,
         name: `Relic 'Wisfiraft'`,
+        location: `Giant Boss - The Crimson King (Degilmagna)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -4763,6 +4836,7 @@ const EquipInformation = [
     { //Relic 'Sakredpose' - Complete
         id: 101721,
         name: `Relic 'Sakredpose'`,
+        location: `Giant Boss - The Crimson King (Degilmagna)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 3,
         image: 
@@ -4792,6 +4866,7 @@ const EquipInformation = [
     { //Relic 'Radeus' - Missing Lore
         id: 101801,
         name: `Relic 'Radeus'`,
+        location: `Giant Boss - Glowing Sanctuary (Fosradius)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -4821,6 +4896,7 @@ const EquipInformation = [
     { //Relic 'Force Keratos' - Complete
         id: 101821,
         name: `Relic 'Force Keratos'`,
+        location: `Giant Boss - Glowing Sanctuary (Fosradius)`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
         image: 
@@ -4879,6 +4955,7 @@ const EquipInformation = [
     { //Relic 'Lesser Demonheart' - Complete
         id: 101841,
         name: `Relic 'Lesser Demonheart'`,
+        location: `Giant Boss - Caverns of Dark (Valzendeth)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -4908,6 +4985,7 @@ const EquipInformation = [
     { //Relic 'Mavlocalypse' - Complete
         id: 101851,
         name: `Relic 'Mavlocalypse'`,
+        location: `Giant Boss - Caverns of Dark (Valzendeth)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -4937,6 +5015,7 @@ const EquipInformation = [
     { //Relic 'Diablos' - Complete
         id: 101861,
         name: `Relic 'Diablos'`,
+        location: `Giant Boss - Shadow of the God Eater (Mavroskia)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -4966,6 +5045,7 @@ const EquipInformation = [
     { //Relic 'Skeletooth' - Complete
         id: 101871,
         name: `Relic 'Skeletooth'`,
+        location: `Giant Boss - Caverns of Dark (Valzendeth)`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 3,
         image: 
@@ -4995,6 +5075,7 @@ const EquipInformation = [
     { //Relic 'Frost Killer' - Complete
         id: 101921,
         name: `Relic 'Frost Killer'`,
+        location: `Giant Boss - Cry of the Azure Roc (Freydal)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 3,
         image: 
@@ -5024,6 +5105,7 @@ const EquipInformation = [
     { //Relic 'Zero = Recorder' - Complete
         id: 101941,
         name: `Relic 'Zero = Recorder'`,
+        location: `Giant Boss - Cry of the Azure Roc (Freydal)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -5053,6 +5135,7 @@ const EquipInformation = [
     { //Relic 'Blaze Staff' - Missing Lore
         id: 102001,
         name: `Relic 'Blaze Staff'`,
+        location: `Limited Event - Plot of the Fallen Priest`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -5082,6 +5165,7 @@ const EquipInformation = [
     { //Relic 'Blaze Gauntlets' - Missing Lore
         id: 102011,
         name: `Relic 'Blaze Gauntlets'`,
+        location: `Limited Event - Plot of the Fallen Priest`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -5111,6 +5195,7 @@ const EquipInformation = [
     { //Relic 'Blaze Ring' - Missing Lore
         id: 102021,
         name: `Relic 'Blaze Ring'`,
+        location: `Limited Event - Plot of the Fallen Priest`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -5140,6 +5225,7 @@ const EquipInformation = [
     { //Relic 'Blaze Medicine' - Complete
         id: 102031,
         name: `Relic 'Blaze Medicine'`,
+        location: `Limited Event - Plot of the Fallen Priest`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 3,
         image: 
@@ -5169,6 +5255,7 @@ const EquipInformation = [
     { //Ex Gloria - Missing Lore
         id: 102041,
         name: `Ex Gloria`,
+        location: `Arena 2500 Clear Milestone Reward`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -5198,6 +5285,7 @@ const EquipInformation = [
     { //Agio Lamuz - Complete
         id: 102051,
         name: `Agio Lamuz`,
+        location: `Arena 250 Clear Milestone Reward`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -5227,6 +5315,7 @@ const EquipInformation = [
     { //Diez Jade - Complete
         id: 102061,
         name: `Diez Jade`,
+        location: `Arena 500 Clear Milestone Reward`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -5256,6 +5345,7 @@ const EquipInformation = [
     { //Claria Health - Complete
         id: 102071,
         name: `Claria Health`,
+        location: `Arena 50 Clear Milestone Reward`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -5285,6 +5375,7 @@ const EquipInformation = [
     { //Optima Rade - Complete
         id: 102081,
         name: `Optima Rade`,
+        location: `Arena 1000 Clear Milestone Reward`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -5314,6 +5405,7 @@ const EquipInformation = [
     { //Fenrir Gauntlets - Complete
         id: 102101,
         name: `Fenrir Gauntlets`,
+        location: `Limited Event - Chasing my Friend's Illusion (Roy)`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -5343,6 +5435,7 @@ const EquipInformation = [
     { //Fenrir Crest - Complete
         id: 102111,
         name: `Fenrir Crest`,
+        location: `Limited Event - Chasing my Friend's Illusion (Roy)`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -5372,6 +5465,7 @@ const EquipInformation = [
     { //Relic 'Volkans' - Complete
         id: 102121,
         name: `Relic 'Volkans'`,
+        location: `Rotating Giant Boss - Trials of the Flame God (Ifrit)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -5401,6 +5495,7 @@ const EquipInformation = [
     { //Relic 'Logislett' - Complete
         id: 102131,
         name: `Relic 'Logislett'`,
+        location: `Rotating Giant Boss - Trials of the Flame God (Ifrit)`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -5430,6 +5525,7 @@ const EquipInformation = [
     { //Relic 'Puneumath' - Complete
         id: 102141,
         name: `Relic 'Puneumath'`,
+        location: `Giant Boss - The Green Strikes Back (Elpneumas)`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -5459,6 +5555,7 @@ const EquipInformation = [
     { //Relic 'Benomopis' - Missing Lore
         id: 102151,
         name: `Relic 'Benomopis'`,
+        location: `Giant Boss - The Green Strikes Back (Elpneumas)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 3,
         image: 
@@ -5488,6 +5585,7 @@ const EquipInformation = [
     { //Custom Order 'Toc Blanche' - Complete
         id: 102161,
         name: `Custom Order 'Toc Blanche'`,
+        location: `Limited Event - The Master Chef's Test (Sophie)`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
         image: 
@@ -5517,6 +5615,7 @@ const EquipInformation = [
     { //Beloved 'Flame Meat Knife' - Missing Lore
         id: 102171,
         name: `Beloved 'Flame Meat Knife'`,
+        location: `Limited Event - The Master Chef's Test (Sophie)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 3,
         image: 
@@ -5546,6 +5645,7 @@ const EquipInformation = [
     { //Relic 'Eraser Bit' - Complete
         id: 102181,
         name: `Relic 'Eraser Bit'`,
+        location: `Giant Boss - Fortress of the Machine God (XTF: Eraser)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -5575,6 +5675,7 @@ const EquipInformation = [
     { //Relic 'Machina Core' - Complete
         id: 102191,
         name: `Relic 'Machina Core'`,
+        location: `Giant Boss - Fortress of the Machine God (XTF: Eraser)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -5604,6 +5705,7 @@ const EquipInformation = [
     { //Burn Armor 'Noble Bamint' - Complete
         id: 102301,
         name: `Burn Armor 'Noble Bamint'`,
+        location: `Limited Event - As a Lady (Mira)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -5633,6 +5735,7 @@ const EquipInformation = [
     { //Beautiful Robe 'Grace Barmint' - Complete
         id: 102311,
         name: `Beautiful Robe 'Grace Barmint'`,
+        location: `Limited Event - As a Lady (Mira)`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
         image: 
@@ -5662,6 +5765,7 @@ const EquipInformation = [
     { //Holy Shield of Wings - Complete
         id: 102321,
         name: `Holy Shield of Wings`,
+        location: `Rotating Giant Boss - Battle against the Silent Holy Knight (Palamicia)`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -5691,6 +5795,7 @@ const EquipInformation = [
     { //Frozen Twin Swords - Complete
         id: 102331,
         name: `Frozen Twin Swords`,
+        location: `Rotating Giant Boss - Battle against the Silent Holy Knight (Palamicia)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 3,
         image: 
