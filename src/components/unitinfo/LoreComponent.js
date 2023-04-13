@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Tooltip, Card, CardTitle, CardBody, CardText, CardImg, Media, Table, CardHeader } from 'reactstrap'; 
+import { Card, CardTitle, CardBody, CardText, CardImg, Media, Table, CardHeader } from 'reactstrap'; 
 
 const thumbnailSize = {
     maxHeight: 75,
@@ -213,6 +213,9 @@ export function RenderSuper({lore, unitImage}) {
 }
 
 const RenderEvolution = ({ mat }) => {
+
+    //TODO TODO TODO: Make own tooltips as these ones are showing up for prior evolutions incorrectly
+
     //State for individual Tooltips
     const [tooltip1, setTooltip1] = useState(false);
     const [tooltip2, setTooltip2] = useState(false);
@@ -228,48 +231,10 @@ const RenderEvolution = ({ mat }) => {
                     {
                         //Material Checks
                     }
-                    { mat.mat2 ? <th><center><Media src={mat.mat2} style={thumbnailSize} id="hover2"/></center></th> : null }
+                    { mat.mat2 ? <th onMouseOver={() => setTooltip1(true)}><center><Media src={mat.mat2} style={thumbnailSize} id="hover2"/></center></th> : null }
                     { mat.mat3 ? <th><center><Media src={mat.mat3} style={thumbnailSize} id="hover3"/></center></th> : null }
                     { mat.mat4 ? <th><center><Media src={mat.mat4} style={thumbnailSize} id="hover4"/></center></th> : null }
                     { mat.mat5 ? <th><center><Media src={mat.mat5} style={thumbnailSize} id="hover5"/></center></th> : null }
-
-                    {
-                        //Hover Checks
-                    }
-                    { mat.hover1 ? <Tooltip isOpen={tooltip1} 
-                            target="hover1"
-                            placement="top"
-                            toggle={() => setTooltip1(!tooltip1)} >{mat.hover1}</Tooltip>
-                        : null
-                    }
-
-                    { mat.hover2 ? <Tooltip isOpen={tooltip2} 
-                            target="hover2"
-                            placement="top"
-                            toggle={() => setTooltip2(!tooltip2)} >{mat.hover2}</Tooltip>
-                        : null
-                    }
-
-                    { mat.hover3 ? <Tooltip isOpen={tooltip3} 
-                            target="hover3"
-                            placement="top"
-                            toggle={() => setTooltip3(!tooltip3)} >{mat.hover3}</Tooltip>
-                        : null
-                    }
-
-                    { mat.hover4 ? <Tooltip isOpen={tooltip4} 
-                            target="hover4"
-                            placement="top"
-                            toggle={() => setTooltip4(!tooltip4)} >{mat.hover4}</Tooltip>
-                        : null
-                    }
-
-                    { mat.hover5 ? <Tooltip isOpen={tooltip5} 
-                            target="hover5"
-                            placement="top"
-                            toggle={() => setTooltip5(!tooltip5)} >{mat.hover5}</Tooltip>
-                        : null
-                    }
                     
                 </tr>
                 <tr >
