@@ -21953,6 +21953,85 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
+    { // Jay - Missing Lore
+        id: 103707212,
+        name: "Jay",
+        translate: "Jay",
+        attribute: "Water",
+        type: "Human",
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_103706212.png",
+                detailsuper: "/db/Units/Detail/unit_detail_103707212.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103706212.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103707212.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/healLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/physLB.png",
+                slot32type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats: 
+            {
+                hp: 7155,
+                hpplus: 1351,
+                atk: 3975,
+                atkplus: 686,
+                def: 3032,
+                defplus: 627
+            },
+        skillset: 
+            {
+                skill: `10s CT - 2300% Water DMG (PHY). For 7s, reduce Enemies' evasion by 10%.`,
+                skillbreak: 400,
+                arts: `20000% Water DMG (PHY). For 20s, increase Water Allies' DMG by 50%. If used within first 120s from the Start of the Quest, increase Allies' Arts by 20.`,
+                artsbreak: 1000,
+                truearts: `70000% Water DMG (PHY). For 30s, reduce Enemies' DMG RES by 40%. If used when own HP is 90% or more, reduce Enemies' DMG RES by 80% instead.`,
+                trueartsbreak: 2000,
+                superarts: `150000% Water DMG (PHY). For 60s, increase own DMG by 50% and own Arts by 2/s (stackable). If used within first 120s from the Start of the Quest, increase own DMG by 100% and own Arts by 4/s (stackable) instead.`,
+                superartsbreak: 4000
+            },
+        passive: 
+            {
+                ability1: `At the start of a Battle, increase own Arts by 200.`,
+                ability2: `Increase own Paralysis RES by 80%.`,
+                ability3: `When set as the Leader of the party, reduces Allies' DMG taken by 10%. When not set as the Leader of the party, increase own accuracy by 60%. Does not stack with Abilities of the same name.`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_132152.png",
+                    mat2amt: 220,
+                    hover2: "Water Summoner's Road Orbs"
+                }
+            },
+        trueweapon: //If no TW, may delete this section
+            {
+                name: `Glowy Bayonet`,
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_111391.png",
+                skill: `45s CT - 7500% Water DMG (PHY). For 10s, increase own Water DMG by 50% and reduce Enemies' PHY RES by 30%.`,
+                skillbreak: 500,
+                passive: 
+                    {
+                        ability1: `When equipped by Jay, increase own DMG and Break Power by 30%. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase PHY RES by 5%.`
+                    }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
     { //Zinogre Armor Rayas - Missing Lore
         id: 107006412,
         name: "Zinogre Armor Rayas",
