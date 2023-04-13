@@ -31119,6 +31119,188 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
+    { //真『グローディベオネット』 (Jay TW) - JP Complete
+        id: 111391,
+        name: `真『グローディベオネット』`,
+        translate: `True 'Glowy Bayonet'`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111390.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111391.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111390.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111391.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 7500% Water DMG (Physical). Increase own Water DMG by 50% and reduce enemies' Physical resistance by 30% for 10s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `When equipped by Blue Fang Jay, increase own DMG and Break Power by 30% (Only once).`,
+                ability2: `Increase Physical resistance by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //グローディベオネット (Jay Farmable) - JP Complete
+        id: 111401,
+        name: `グローディベオネット`,
+        translate: `'Glowy Bayonet'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111400.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111401.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111400.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111401.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 6500% Water DMG (Physical). Increase own DMG by 40% & Accuracy by 20% for 8s.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: `Increase ATK by 10% when above 90% HP.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //ブルージャケット (Jay Farmable) - JP Complete
+        id: 111411,
+        name: `ブルージャケット`,
+        translate: `'Blue Jacket'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111410.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111411.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111410.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111411.png`
+            },
+        stats:
+            {
+                hp: 60,
+                atk: 30,
+                def: 30
+            },
+        skillset:  
+            {
+                skill: `40s CT - Increase target's Arts gauge by 3/s for 10s. If user is Water, increase target's DMG resistance by 10% for 10s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Paralysis Time reduction & Paralysis Evasion rate 10% UP.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //剣聖の証【紅】 - JP Complete
+        id: 111421,
+        name: `剣聖の証【紅】`,
+        translate: `Sword Saint's Proof [Red]`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111420.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111421.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111420.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111421.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `50s CT - Increase all allies' Arts gauge by 3 for 10s. If user is Fire, increase own Skill CT Speed by 120% for 10s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //剣聖の証【蒼】 - JP Complete
+        id: 111431,
+        name: `剣聖の証【蒼】`,
+        translate: `Sword Saint's Proof [Blue]`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111430.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111431.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111430.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111431.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `30s CT - Reduce target's DMG taken by 33% and Water DMG taken by 66% for 8s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //剣聖の証【翠】 - JP Complete
+        id: 111441,
+        name: `剣聖の証【翠】`,
+        translate: `Sword Saint's Proof [Green]`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111440.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111441.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111440.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111441.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `30s CT - Heal all allies' HP by 15% and cleanses all allies' Blind and Curse.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
     { //Ultra Relic 'Petraskia' - Missing Lore
         id: 140011,
         name: `Ultra Relic 'Petraskia'`,
