@@ -21468,10 +21468,10 @@ const UnitInformation = [
         type: "Demon",
         image: 
             {
-                detailawk: "/db/Units/Detail/unit_detail_103637112.png",
-                detailsuper: "/db/Units/Detail/unit_detail_103636112.png",
-                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103637112.png",
-                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103636112.png"
+                detailawk: "/db/Units/Detail/unit_detail_103636112.png",
+                detailsuper: "/db/Units/Detail/unit_detail_103637112.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103636112.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103637112.png"
             },
         slots: 
             {
@@ -21542,7 +21542,7 @@ const UnitInformation = [
     {
         id: 103537112,
         name: `Kokuri`,
-        attribute: `fire`,
+        attribute: `Fire`,
         type: `Demon`,
         image: 
             {
