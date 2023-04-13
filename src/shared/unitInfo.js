@@ -98,6 +98,43 @@
             lastupdated: `December 31, 2022`,
             author: `Zanster`
         }
+
+        //format for Dream Evolution Passives. Remove / Add Colors as needed.
+        Colors are:
+        - fire
+        - water
+        - earth
+        - light
+        - dark
+
+        dreamJP: {
+            fire: {
+                evolution: {
+                    mat1: ``,
+                    mat1amt: 10
+                    mat2: ``,
+                    mat2amt: 50,
+                    hover2: ``
+                    mat3: ``
+                    mat3amt: 2
+                    hover3: ``
+                },
+                ability1: ``,
+                ability2: ``
+            },
+            water: {
+                evolution: {
+                    mat1: ``,
+                    mat1amt: 10
+                    mat2: ``,
+                    mat2amt: 50,
+                    mat3: ``
+                    mat3amt: 2
+                },
+                ability1: ``,
+                ability2: ``
+            },
+        }
     }
 
     /db/Mines/thumbnail/physLB.png
@@ -21929,7 +21966,7 @@ const UnitInformation = [
                 {
                     mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
                     mat1amt: 30,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_132152.png",
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131455.png",
                     mat2amt: 220,
                     hover2: "Dark Summoner's Road Orbs"
                 }
