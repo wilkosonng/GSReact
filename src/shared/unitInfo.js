@@ -20782,6 +20782,7 @@ const UnitInformation = [
         name: "Sakuya",
         attribute: "Earth",
         type: "Human",
+        rank: "A",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_103515312.png",
