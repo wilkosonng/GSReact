@@ -27120,7 +27120,7 @@ const UnitInformation = [
                 evoawk: "Though his strength is uncontested, he lost the ability to control his emotions with the death of his older brother, Shinichiro. Only with Takemichi and Draken's support can he keep the darkness in his heart at bay."
             }
     },
-    { // Draken - Complete
+    { // Draken - Complete, Review done
         id: 107636412,
         name: "Draken",
         rank: "S",
@@ -27183,9 +27183,26 @@ const UnitInformation = [
             {   
                 evo5: "The Vice Leader of Tokyo Manji Gang, real name Ken Ryuguji. Second only to Mikey in sheer strength, he is able to turn the tide of a brawl all by himself. He also has keen judgement and empathy, reflected in his personal policy to not cause trouble for outsiders.",
                 evoawk: "He was supposed to be killed by Kiyomasa during the battle of 8/3, but Takemichi saved him in the nick of time. For that and his invaluable ability to give Mikey emotional support, he places great trust in the seemingly weak boy."
+            },
+        review:
+            {
+                skill: `Impressive ArtGen on skill is always a treat and can be extremely helpful for quests with many waves. Meanwhile, the DEF debuff is negligible at best`,
+                arts: `That is a rather long-lasting general DMG RES debuff. Furthermore, it fits well with his role as a damage-support unit, helping increase overall damage output by a noticeable degree. Despite this, you will find yourself using his True Arts instead most of the time.`,
+                truearts: `A long-lasting Physical RES debuff that is also stackable. This allows Draken to shine in Physical-oriented teams specifically, while also dealing a decent amount of damage himself. His ArtGen, however, is not as impressive, and is thus not a good idea to rely on him for ArtGen alone.`,
+                ability1: `An amazing passive which allows him to perform his role as a damage-support unit even better. Slotting him into Physical-oriented teams, he is able to buff the team’s damage forever based on his HP. This is especially useful for nukes in particular as the nuke team will be able to take full advantage of his PHY buff.`,
+                ability2: `A very rare passive to have, with only a very select few units in the game being able to increase allies’ Arts gauge at the start of the quest. However, do note that this passive does NOT stack with Forte’s and NYMilim’s passive.`,
+                ability3: `Rather self-explanatory, allowing Draken to be immune to Paralysis. Generally, this is rather negligible unless the quest has Paralysis attacks.`,
+                trueweapon: {
+                    skill: ``,
+                    ability1: ``,
+                    ability2: ``
+                },
+                overall: `A busted damage-support unit, especially so for Physical nukes. Draken is able to leverage his Physical DMG buffs and debuffs to heavily buff any Physical nukes with hard-hitting units - ahem Mikey ahem. Additionally, he is also one of a few units in the game with 3 5☆ slots, made even rarer when you consider his 3 5☆ slots are PHY/PHY/MAG. To top it off, he is the only unit in the game with such an absurd 100% teamwide PHY DMG passive. For veterans capable of nuking, Draken is an amazing unit to pair alongside your hard-hitting PHY units, and is definitely worth at least a pull.`,
+                lastupdated: `August 17, 2022`,
+                author: `Jeffers`
             }
     },
-    { // Chifuyu - Complete
+    { // Chifuyu - Complete, Review done
         id: 107646312,
         name: "Chifuyu",
         rank: "B",
@@ -27248,6 +27265,23 @@ const UnitInformation = [
             {   
                 evo5: "The First Division Vice Captain of the Tokyo Manji Gang. Although he was beaten up by Keisuke Baji during his initiation ceremony to join a rival gang, he believed in the former captain until his death. That show of unshakable trust inspired Takemichi.",
                 evoawk: "After Bloody Halloween, Takemichi was appointed First Division Captain to replace the dead Keisuke, so he agreed to support him as partner. The decision to watch out for Takemichi only intensified when he became one of the few people to know about his time travel ability."
+            },
+        review:
+            {
+                skill: `BE Output is always a negligible buff.`,
+                arts: `Useless revive effect because that would imply that Chifuyu was unable to mitigate enough damage. however, the Stats Up is nice for a Heal every so often.`,
+                truearts: `Large Barrier and sizable DMG Res Buff, for most Stages you can get by with just this True Arts, however you will have to consider other competition such as Favelle or Sanstone which do not stack with Chifuyu, and have defense slots themselvers.`,
+                ability1: `Great Passive for effectively increasing Arts Gen on the team, however his kit doesn’t really benefit from it.`,
+                ability2: `Freeze resistance is nice, helps him keep his Defensive Buffs up during a Freeze.`,
+                ability3: `Rather self-explanatory, Increases defense when under a barrier. Though selfish, it is appreciated.`,
+                trueweapon: {
+                    skill: ``,
+                    ability1: ``,
+                    ability2: ``
+                },
+                overall: `Wants to be Favelle, but fails to do so due to terrible DPS slotting with no defense slot. Honestly one of the worse collaboration units so far, so I don’t know what else to say but it's disappointing.`,
+                lastupdated: `August 17, 2022`,
+                author: `Gian`
             }
     },
     { // Mitsuya - Complete
