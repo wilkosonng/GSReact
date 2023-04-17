@@ -18692,7 +18692,7 @@ const UnitInformation = [
                 evoawk: "A magic gunner who works under Azvan. Though he succeeded in eliminating the legendary sniper Simon with his own Phantom Bullet, the anger and frustration did not fade. He decided to direct it at the empire and their ruthless efforts to kill E-Factor holders like Miranda. No matter how great a threat they posed, the fact they died in utter secrecy was unacceptable to him."
             }
     },
-    { //Miranda - Complete
+    { //Miranda - Complete, Review done
         id: 103296412,
         name: "Miranda",
         rank: "S",
@@ -18772,9 +18772,26 @@ const UnitInformation = [
             {   
                 evo5: "Known as the shield of Simon's Hill. She is highly regarded figure of the town as both captain of the Rangers and schoolteacher. Many appreciate her service, particularly after becoming a widow, but the elders fear she will spend the rest of her days alone. However, the broad smile that she gives her students shows nothing but fulfillment.",
                 evoawk: "Miranda was instantly smitten by Simon, fated to be her first and last love. Although he seemed to bear some dark burden, she never hesitated to keep him company. No matter how he sulked, she always talked to him, walked to school with him, and made food for him. Eventually, her sunny disposition reached through, melting his heart of ice."
+            },
+        review:
+            {
+                skill: `Nothing crazy, evasion debuff is not very useful in a lot of content especially considering that it's only 10%.`,
+                arts: `For a taunt tank, being able to cure status is very important especially if they are really annoying ailments such as curse. In the situation where you find yourself needing to cure the aforementioned ailments, using this NA will certainly get you out of sticky situations.`,
+                truearts: `Certainly a very strong TA for a tank. On top of boasting the highest barrier in-game, she also have stackable MAG DMG buff, making her not only a tank but also a dps support.`,
+                ability1: `The highest innate dmg res that allows you to tank through a lot of content so long as the enemies deal magic damage.`,
+                ability2: `Same passive as majority of other taunt tanks, while it is helpful for being able to revive a teammate, this should be avoided at all cost due to the fact that most quest requires no-death requirement to clear anyways on top of the fact that once a unit is revived, they no longer have their damage redirected towards Miranda until she uses NA/TA again.`,
+                ability3: `A good art refund when your barrier breaks, allowing you to go back into arts faster. But in that time frame, the rest of your team will have to take damage until Miranda can taunt again. Not a game-breaking passive, in fact this passive could be very detrimental at times since some high damaging bosses can kill you very quickly if you aren't under a taunt. You'll see this effect truly shine in places such as Awoken Nier stage or Virago stage where guard killer is active.`,
+                trueweapon: {
+                    skill: `Strong defense equip with a good uptime. Downside is that you need to by above 80% hp for optimal dmg res, which isn't hard with Miranda's passive.`,
+                    ability1: `A very useful equip for Miranda and most definitely her BIS in most cases. On top of having 2 arts per second, she also gains immunity to more status. As previously mentioned being able to evade status and cure them is very important. Being paralyzed or frozen while boss starts doing massive amount of damage towards you can be detrimental, but with this true weapon she can ignore all that easily.`,
+                    ability2: `A decent perk, giving her an extra def boost to help her.`
+                },
+                overall: `A good tank unit, a strong magic resistance passive as well as a high barrier on both NA and TA alongside with stackable magic dmg boost every TA. For any quest that deals high magic damage, Miranda is definitely a strong choice. Even for quest that deals physical damage and your innate mag dmg is useless, she can still be used due to her high barrier. While she makes a great taunt tank against magic enemies, she would fall short to Thetis for quest that is more physical damage oriented`,
+                lastupdated: `October 19, 2021`,
+                author: `Icee`
             }
     },
-    { //Simon - Complete
+    { //Simon - Complete, Review done
         id: 103306512,
         name: "Simon",
         rank: "A+",
@@ -18858,6 +18875,24 @@ const UnitInformation = [
             {   
                 evo5: "An expert sniper who once served as captain of a small Human town's self-defense force. During that time, he fearlessly defeated violent monsters, protected his allies, and gained the population's trust. He pierced the hearts of his targets with unfailing accuracy, but he met his end after taking an equally fatal blow to the chest from a black-winged dragon.",
                 evoawk: "After moving to a small town in the empire at a young age, he met the previous Ranger captain's daughter, Miranda. They eventually became married, and anyone who saw them shopping in the quare on weekends would think of them as a loving couple. Yet as he pointed his gun at her from the edge of town, his gaze was filled with dark intent."
+            },
+        review:
+            {
+                skill: `Nice little DMG RES debuff, nothing noteworthy but not entirely redundant as well.`,
+                arts: `With a rather generous uptime of 20s, given adequate support from ArtGen units, Simon should be able to reach his max of 240% DMG buff easily. This should see some use for quests where there are multiple waves, allowing Simon to ramp his DMG before using his coveted Phantom Bullet. Also as an added bonus, Simon’s Arts is able to freeze time for a brief moment.`,
+                truearts: `Great debuffs for Dark and PHY units. The 50 Art refund is also nice, although you would rather use his Phantom Bullet in most situations.`,
+                phantombullet: `Huge 100k% DMG Multiplier, topped with a huge Accuracy and DEF Ignore buff. Paired with the right support, he is able to match, and even outdamage, Saitama nukes in the current meta. Despite being capped at 3 uses per quest, most bosses would find it hard surviving the brute force of just 1 of Simon’s Phantom Bullet with adequate support.`,
+                ability1: `Noticeable DMG buff against Human enemies, nothing much to add here.`,
+                ability2: `Again, noticeable DMG buff against Broken enemies.`,
+                ability3: `Amazing passive, boasting an impressive passive ArtGen and ATK buff while unaffected by ailments. As such, it might be worth the effort to ensure Simon doesn’t stay affected by status ailments.`,
+                trueweapon: {
+                    skill: `The best self buff equipment for Dark/PHY nukers such as Simon himself. Not only does it have a huge DMG multiplier, but it essentially boosts Simon’s, or any Dark/PHY unit’s, DMG output by a whopping 80%. Unlike other nuke equipment, it also has a decent cooldown which is a nice bonus.`,
+                    ability1: `A lackluster unique passive. Although the ATK buff is nice to have, due to the passive ATK buff Simon already receives while unaffected by ailments, it doesn’t affect his DMG as much. The small Status RES buff also isn’t anything noteworthy.`,
+                    ability2: `Nice added bonus DMG against those pesky Giant Bosses.`
+                },
+                overall: `Hey, it’s the first Phantom Sniper to actually use Phantom Bullet and actually has a gun, albeit not a sniper! No doubt, Simon is definitely an amazing unit. Not only does he perform well in sustain situations, able to consistently ramp and deal damage, but also excels in Dark nukes. Being Dark and Human, he is able to take full advantage of Forte’s, a key support unit in Dark nukes, buffs. Coupled with the huge Damage multiplier on his Phantom Bullet and nuke-friendly slots, he can easily fill the shoes of a DPS nuker. With the right support from equips and other units, he is able to rival the current Saitama nukes dominating most leaderboards in terms of Damage. Best of all, he has a pretty sick gun :)`,
+                lastupdated: `March 18, 2022`,
+                author: `Jeffers`
             }
     },
     { //Vultee (Earth) - Missing Lore (GLB), Review done
@@ -18961,7 +18996,7 @@ const UnitInformation = [
                 author: `Pula`
             }
     },
-    { //Priscilla (Fire) - Complete
+    { //Priscilla (Fire) - Complete, Review done
         id: 103326112,
         name: "Priscilla (Fire)",
         rank: "A+",
@@ -19044,6 +19079,23 @@ const UnitInformation = [
             {   
                 evo5: "An archer from a small human village. She attended school with childhood friends Hart and Vultee. A strict, rigorous upbringing left her with a tendency to act stiff, but it also gave her proper manners. That along with a natural charm endeared her to others. Even so, she was teasingly called 'Class Rep' since her earnestness could be more than a little overbearing at times.",
                 evoawk: "An archer from the village of Simon's Hill. She wept bitterly the night her friend Hart fled their home. She believed from the bottom of her heart that he had not killed Miranda, but the fear their relationship would collapse the moment she asked him for confirmation prevented her from doing so. Regret soon taught her what she should have feared instead was losing him forever. Changing that weakness into determination, she set out to find Hart in hopes of undoing her mistake."
+            },
+        review:
+            {
+                skill: `Nice degree of self-sufficiency in terms of art gauge, allowing for Priscilla to use her True Arts faster and therefore deal more damage per second.`,
+                arts: `As a normal DPS unit, it's best to just stick with the True Arts. Ramping the ATK buffs requires an unnecessary amount of time and art gauge for most quests, and ramping or alternating will just end up taking more time than you need to clear. For nuking, this wouldn't have any relevance due to another/better source of fire resistance debuffing already being present in a proper fire nuke, and just in general, the critical rate and damage buffs from True Arts would provide a lot more value.`,
+                truearts: `Increasing the team's critical rate and providing a damage buff that scales with more fire units, Priscilla will be an amazing asset for any sort of team with damage in mind. Having more fire units on the team is by no means necessary for her to unleash a great amount of damage and provide awesome nuke support, but it does allow for more benefits if you do happen to have them`,
+                ability1: `An additional increase that is quite small, conditional, and rather unnoticeable to her damage output.`,
+                ability2: `This only applies to a small portion of content (raids, select few of quests), but depending how you utilize it, it can allow for some more flexibility in the second team's equipment slotting. The passive won't come into play for the huge majority of things.`,
+                ability3: `True Arts usage does not count toward this bonus, and as mentioned before, the ATK bonus is generally not worth the time and effort ramping in most content.`,
+                trueweapon: {
+                    skill: `With a somewhat short cooldown compared to similar equipment and a conditional but potent effect, this is a pretty good item on Priscilla when sustaining. Unfortunately, the additional 20% does not come into play when nuking, thus there are still a handful of items that are on par or even better (albeit rarer) for resistance debuffing in this case.`,
+                    ability1: `Her respective passive provides a generous damage boost along with accuracy to help against any bosses that might have high evasion.`,
+                    ability2: `A tiny increase in ATK, the effect on damage output honestly isn't noticeable.`
+                },
+                overall: `Priscilla is a powerful DPS and consistent critical rate/damage buffing unit, providing great damage support while simultaneously hitting hard for many teams, whether they're mono-fire or mixed elements. In terms of nuking, she'll be a sought-after unit for veterans looking to use competitive fire nuke teams, and even outside fire nuking, she opens up a new variety of possible nuke teams as a critical buff support`,
+                lastupdated: `January 12, 2022`,
+                author: `Praying Patrick`
             }
     },
     { //Serah - Complete
