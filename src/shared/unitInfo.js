@@ -26989,7 +26989,7 @@ const UnitInformation = [
                 evoawk: "Grand Couturier of the REVOCS Corporation. Beneath her cute appearance lies a haughty, sadistic personality. After killing Ryuko's father, Isshin Matoi, she took one of the two Scissor Blades. Among her superhuman techniques is the ability to remove the Banshi from Goku Uniforms, destroying them instantly."
             }
     },
-    { // Takemichi - Complete
+    { // Takemichi - Complete, Review done
         id: 107616111,
         name: "Takemichi",
         rank: "F",
@@ -27053,9 +27053,26 @@ const UnitInformation = [
             {   
                 evo5: "After being shoved in front of an oncoming train, Takemichi Hanegaki suddenly found himself back in his middle school days. Determination to change his fate as a weak, witless delinquent led him to meet Mikey and Draken.",
                 evoawk: "To save his former girlfriend, Hinata Tachibana, from the violent Tokyo Manji Gang in the present, he decided to guide their formative days in the past. That unbreakable tenacity altered the paths of both himself and his fellow Toman members."
+            },
+        review:
+            {
+                skill: `While the Paralyze and Freeze RES is nice to have, the fact it only applies during his skill animation instead of as a passive effect limits its use.`,
+                arts: `Having 400% potential DMG up sounds nice, sadly his low multiplier heavily limits his damage not to even mention taking 10 NAs to reach max stacks.`,
+                truearts: `Who doesn't love conditional ATK up and a weak art refund? In all seriousness this is honestly one of the better parts of his kit and what you'll use most of the time, when paired with his passive this can make for a decent last stand to help the team get one last TA off.`,
+                ability1: `When he's at max luck increasing his arts by 120 at the start of a fight is a nice little boost, helping him get a TA off and supporting the team faster.`,
+                ability2: `Ahhh yes, near death artgen. This will likely only get used as a final stand in SPEX level stages, to give the team one last little boost before getting killed.`,
+                ability3: `The legendary Genos Passive, this makes him a good subsitute for genos when XP farming. Now for the genos vs takemichi debate on who's better`,
+                trueweapon: {
+                    skill: ``,
+                    ability1: ``,
+                    ability2: ``
+                },
+                overall: `Takemichi is nothing special, his Normal Art is a noob trap for those who think 400% dmg up will make up for the low multiplier. Having 10aps when near death can make for a nice final stand, more often than not you'll just get killed before you can get enough art to TA. Outside of being used for his bonus rank XP or free revives on Tokyo revenger stages he's unlikely to see use.`,
+                lastupdated: `August 5, 2022`,
+                author: `Zanster`
             }
     },
-    { // Mikey - Complete
+    { // Mikey - Complete, Review done
         id: 107626512,
         name: "Mikey",
         rank: "S",
@@ -27118,6 +27135,23 @@ const UnitInformation = [
             {   
                 evo5: "The Leader of the Tokyo Manji Gang, real name Manjiro Sano. Known as the Invincible Mikey, he rules over other hoodlums of the city with his incredible strength and charisma. When it comes to protecting his members, no foe is too tough.",
                 evoawk: "Though his strength is uncontested, he lost the ability to control his emotions with the death of his older brother, Shinichiro. Only with Takemichi and Draken's support can he keep the darkness in his heart at bay."
+            },
+        review:
+            {
+                skill: `Impressive ArtGen on skill is always a treat and can be extremely helpful for quests with many waves. The faint chance is also generally negligible but nice for those pesky waves leading up to the boss.`,
+                arts: `That is a rather large DMG buff for an Arts, despite being restricted to Human allies. Not a bad Arts to have, especially on a team consisting of Humans, although Mikey’s True Arts is the real show-stealer.`,
+                truearts: `A hefty DMG multiplier, alongside a teamwide CRI rate buff. You will generally be defaulting to using his True Arts for most quests due to the immense DMG it is able to output alongside his unique passive and CRI rate buff for the entire team. As a side note for nukers, his True Arts animation is also fast, taking a little over a second for its first hit to land.`,
+                ability1: `What an insane passive to have. This essentially gives Mikey a whopping 200% CRI DMG buff when he is at full HP, which is not hard to maintain with a capable healer on the team. This single-handedly makes Mikey an amazing Nuker, while also being a more than competent DPS.`,
+                ability2: `A noticeable DMG buff against Humans, although most end-game bosses are Giant Bosses, so this isn’t as impressive in practice.`,
+                ability3: `Nothing to complain about free passive ArtsGen. Definitely nice to have, especially when using Mikey in longer fights.`,
+                trueweapon: {
+                    skill: ``,
+                    ability1: ``,
+                    ability2: ``
+                },
+                overall: `Chills. Mikey was definitely built for Dark nukes. Not only is he Dark and Human, which allows him to utilize the full buffs provided by Forte (Dark Nuke Support unit), but his unique passive grants him a whole 200% CRI DMG buff, alongside his high 70000% DMG Multiplier from his True Arts... As the cherry on top, he is also one of the few units with three 5☆ slots. With that said, he can even perform as a competent DPS for sustains, granting a teamwide CRI buff while outputting serious damage. He is definitely one of the prizes of the Part 1 banner, upgrading your nukes and filling up the missing DPS hole in your team.`,
+                lastupdated: `August 5, 2022`,
+                author: `Jeffers`
             }
     },
     { // Draken - Complete, Review done
@@ -27284,7 +27318,7 @@ const UnitInformation = [
                 author: `Gian`
             }
     },
-    { // Mitsuya - Complete
+    { // Mitsuya - Complete, Review done
         id: 107656212,
         name: "Mitsuya",
         rank: "A+",
@@ -27347,6 +27381,23 @@ const UnitInformation = [
             {   
                 evo5: "The Second Division Captain of the Tokyo Manji Gang. He is always there to help out a fellow member in need. To show his thanks to Takemichi for resolving Mikey and Draken's dispute, he presented him with a custom-made outfit.",
                 evoawk: "While acting as a Toman captain, he also leads his school's crafting club. He impressed the other members with his top notch sewing skills, and the founders' uniforms were all handmade by him."
+            },
+        review:
+            {
+                skill: `Nothing too exciting for this skill, the evasion debuff can be of use on bosses that have high evasion coupled with accuracy buffs.`,
+                arts: `The EQ CT can be useful in certain circumstances, but it is limited to physical equipment, which makes it far more difficult to abuse.`,
+                truearts: `The core of Mitsuya’s kit, a decent multiplier coupled with good artgen and a sizable unconditional teamwide attack buff. This will be his main use 99% of the time.`,
+                ability1: `Reminiscent of Cestina’s Majesty, Mitsuya’s art gauge will instantly shoot to 200 if near-death, and he will heal half his hp. This ensures that if the boss has a strong opening nuke, Mitsuya can TA instantly to help team arts. It is also possible to trigger it instantly with certain equips.`,
+                ability2: `An impressive conditional artgen passive. Unfortunately, the condition is rather strict, as 90% hp is more difficult to maintain than 80% or 70%, but with good healing or a taunt tank it should be achievable.`,
+                ability3: `Unimpressive passive, as the resistance is too low to be relevant.`,
+                trueweapon: {
+                    skill: ``,
+                    ability1: ``,
+                    ability2: ``
+                },
+                overall: `Mitsuya is a competent artgen with a teamwide attack buff, and acceptable DPS. His passive can enable some tricks enabling him to reach 200 arts quickly to get artgen started quickly. He will be a great starter unit for people who start with the collab. However, veterans with diversified boxes will find him somewhat less useful, as he fails to bring anything unique.`,
+                lastupdated: `August 5, 2022`,
+                author: `MOB of Metal`
             }
     },
     { // Empress - Complete, Review done
