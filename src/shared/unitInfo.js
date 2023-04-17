@@ -18507,7 +18507,7 @@ const UnitInformation = [
                 author: `Senshi`
             }
     },
-    { //Hart (Earth) - Complete
+    { //Hart (Earth) - Complete, Review done
         id: 103276312,
         rank: "SSS",
         twrequire: "favorable",
@@ -18590,6 +18590,23 @@ const UnitInformation = [
             {   
                 evo5: "A Human youth from a quiet town. Having lost his mother at a young age, his teacher Miranda helped look after him. After turning seventeen, he decided to join the Rangers with his friends Vultee and Priscilla. His mother's sacrifice inspired him to live to help and protect others.",
                 evoawk: "He and his friends went to the forest to hunt a monster and prove their worth. However, the trial was more difficult than they expected, and they found themselves faced with death. It was then he remembered what Miranda said at his mother's funeral. 'You need to survive until your final breath, because your life was given to you by someone special.' This gave him the determination to stand strong and save his friend's lives."
+            },
+        review:
+            {
+                skill: `This really won't be the most consequential skill, especially with how unreliable depending on the enemy to miss can be.`,
+                arts: `Quite a nice offensive buff with a long enough duration that if Hart is supported enough, Hart should be able to loop this without too much difficulty with his extremely loaded True Arts. If you ever find yourself an opening to do so, this can serve as a nice foil to his more support-oriented True Arts.`,
+                truearts: `Well... those are some... very high buff values for two of the most important buffs to have in the game. Despite the short duration, Hart's True Arts more than makes up for it in sheer potency, offering perhaps the highest heal over time buff in the game on top of arts generation near the best-in-class, especially when combined with the additional generation for humans. Even with no other humans on your team, this still better allows Hart to loop his own True Arts buffs, which will be your number one priority if you're playing him. `,
+                ability1: `As if his True Arts wasn't loaded enough already, this all-around boost just makes everyone tankier as well as giving a slight offensive edge, not to mention making his healing even more effective than it already is.`,
+                ability2: `As Cross Battles aren't the most heavily-used feature at the time of writing, this buff won't impact the vast majority of content. Still, the 6 arts per second it provides for 30 seconds serves as a very large boost if you find yourself in a situation where this actually applies.`,
+                ability3: `A fairly-sized buff, which will, at the very least, increase Hart's own damage and can surely help out alongside any other Earth Party members.`,
+                trueweapon: {
+                    skill: `A surprisingly very offensive buff for a support unit's True Weapon. While Hart isn't the most offensive unit, at the rate he'll be spamming his True Arts, this can still be taken advantage of, especially if you have other Earth units on your team.`,
+                    ability1: `While a stat boost is evidently nice, the main attraction here is that arts generation, making this by far the best option for Hart's magic slot if you own it.`,
+                    ability2: `Again, Hart isn't a traditional damage dealer, but at this point from his True Weapon active to his passives and Arts buff, he'll begin to start dealing a decent amount.`
+                },
+                overall: `Hart, upon release, will be a large step up from most units within his role, being able to perform two of the most influential roles in the game to a degree with little precedent with his True Arts as well as having many, many cherries on top. Due to this, he's easily slotted into almost all teams that will allow for him for both newbies and veterans alike. There's absolutely no reason that you shouldn't do your guaranteed hyper rare summon on his banner just for the prospect of obtaining him.`,
+                lastupdated: `August 18, 2021`,
+                author: `Elric`
             }
     },
     { //Hart (Dark) - Complete
