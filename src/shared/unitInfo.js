@@ -18609,7 +18609,7 @@ const UnitInformation = [
                 author: `Elric`
             }
     },
-    { //Hart (Dark) - Complete
+    { //Hart (Dark) - Complete, Review done
         id: 103286512,
         name: "Hart (Dark)",
         rank: "A",
@@ -18690,6 +18690,24 @@ const UnitInformation = [
             {   
                 evo5: "Hart left home while clutching the gun of his beloved Miranda. The imperial hero Simon, long presumed dead, had murdered her. Hart's chance at revenge finally arrived two years later in a dim cavern outside the capital. Controlled by rage, he reached for Miranda's keepsake with his right hand as his left held the very thing that had taken her life: the Phantom Bullet.",
                 evoawk: "A magic gunner who works under Azvan. Though he succeeded in eliminating the legendary sniper Simon with his own Phantom Bullet, the anger and frustration did not fade. He decided to direct it at the empire and their ruthless efforts to kill E-Factor holders like Miranda. No matter how great a threat they posed, the fact they died in utter secrecy was unacceptable to him."
+            },
+        review:
+            {
+                skill: `Nice skill to have. The permanent DMG Res down leads to a slightly increased damage output from the team.`,
+                arts: `Great for Miasma Stages, or for spamming useful skills like stacking Hart-Xi's Bleed, or Vox's Artsgen Skill.`,
+                truearts: `While the additional Crit Dmg is nice, he lacks a way to provide teamwide crit rate. His reliance on a Second unit or Equipment to provide teamwide Crit Rate makes this rather situational to use.`,
+                phantombullet: `Once again, we have a unit with most of his power placed on his Phantom Bullet. Lowering the enemies Dark res by 50% for upto 3 Minutes in sustain, and simply lowering Res while dealing large DMG for Dark Nukes.`,
+                ability1: `Allows Hart-Xi to benefit from his True Arts' Crit DMG buff, obviously since it requires all 3 bleed stacks you will have to deal with the RNG of the Skill.`,
+                ability2: `Big DMG Buff, makes it easier for Hart-Xi to end stages with either his Phantom Bullet or True Arts.`,
+                ability3: `Neardeath passive, since it's rare for most teams to lack a healer and function, this passive wont contribute much.`,
+                trueweapon: {
+                    skill: `Another Juno TW alternative, this time with a shorter duration and the ability to increase your Bleed stacks by 1.`,
+                    ability1: `Nice ATK Buff, and APS Passive. If you plan to use Dark Hart in Sustain this is definitely the best in slot.`,
+                    ability2: `This accuracy amount is far too low to be noticable.`
+                },
+                overall: `Dark Hart is in a rough place in global with Tokyo Revengers being expected in the coming weeks, having 2 units that will replace him in Simon Compositions, Mikey and Draken, as such you wont be using Dark Hart much outside of Dark Magic Nukes, or to buff the team's Crit DMG.`,
+                lastupdated: `July, 21, 2022`,
+                author: `Gian`
             }
     },
     { //Miranda - Complete, Review done
