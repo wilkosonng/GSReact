@@ -58,6 +58,9 @@ export default function Units () {
 
     };
 
+    //Sort Options
+    const [sortOrder, setSortOrder] = useState("default")
+
     //Display Unit Thumbnails
     return (
         <React.Fragment>
@@ -107,8 +110,26 @@ export default function Units () {
                             alignItems: "center"
                         }} />
                     </center>
+                    <div className="sort-options">
+                        <div style={{ marginRight: ".2rem"}}>Sort By:</div>
+                        <label style={{ backgroundColor: sortOrder === "default" ? "#5b5b5b" : "" }}>
+                            <input type="radio"
+                                    value="default"
+                                    checked={ sortOrder === "default" }
+                                    onChange={() => setSortOrder("default")} 
+                                    />
+                            <center>ID</center>
+                        </label>
+                        <label style={{ backgroundColor: sortOrder === "element" ? "#5b5b5b" : "" }}>
+                            <input type="radio"
+                                    value="element"
+                                    checked={ sortOrder === "element" }
+                                    onChange={() => setSortOrder("element")} />
+                            <center>Attribute</center>
+                        </label>
+                    </div>
                 </Row>
-                <Row style={{marginLeft: "5%", marginRight: "5%"}}>            
+                <Row style={{marginLeft: "5%", marginRight: "5%", marginTop: "1rem"}}>            
                     {units
                     .filter(unit => {
                         const isGlobalChecked = filters.server.Global;
@@ -132,20 +153,28 @@ export default function Units () {
 
                         return hasMatchingAttr && hasMatchingTypes && hasMatchingName && hasMatchingServer
                     })
+                    .sort((a, b) => {
+                        //Default Sorting
+                        if (sortOrder === "default") return a.id - b.id
+
+                        //If Attribute Order is checked
+                        const attrOrder = ['Fire', 'Water', 'Earth', 'Light', 'Dark']
+                        return attrOrder.indexOf(a.attribute) - attrOrder.indexOf(b.attribute)
+                    })
                     .map(unit => {
                         if(unit.image.thumbsuper){
                             return (
-                                <RenderThumbnail thumbnail={unit.image.thumbsuper} name={unit.name} />
+                                <RenderThumbnail thumbnail={unit.image.thumbsuper} name={unit.name} key={unit.id} />
                             );
                         }
                         else if(unit.image.thumbawk){
                             return (
-                                <RenderThumbnail thumbnail={unit.image.thumbawk} name={unit.name} />
+                                <RenderThumbnail thumbnail={unit.image.thumbawk} name={unit.name} key={unit.id} />
                             );
                         }
                         else {
                             return (
-                                <RenderThumbnail thumbnail={unit.image.thumb5} name={unit.name} />
+                                <RenderThumbnail thumbnail={unit.image.thumb5} name={unit.name} key={unit.id} />
                             );
                         }
                     })}
