@@ -98,92 +98,110 @@ export default function Units () {
                     </Accordion>
                 </Row>
                 <Row style={{ marginLeft: "5%", marginRight: "5%"}}>
-                    <center>
-                        <input placeholder="Search Unit Name" onChange={e => setQuery(e.target.value)} style={{
-                            display: "flex",
-                            width: "100%",
-                            maxWidth: "790px",
-                            height: "auto",
-                            marginBottom: "2rem",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            alignItems: "center"
-                        }} />
-                    </center>
-                    <div className="sort-options">
-                        <div style={{ marginRight: ".2rem"}}>Sort By:</div>
-                        <label style={{ backgroundColor: sortOrder === "default" ? "#5b5b5b" : "" }}>
-                            <input type="radio"
-                                    value="default"
-                                    checked={ sortOrder === "default" }
-                                    onChange={() => setSortOrder("default")} 
-                                    />
-                            <center>ID</center>
-                        </label>
-                        <label style={{ backgroundColor: sortOrder === "element" ? "#5b5b5b" : "" }}>
-                            <input type="radio"
-                                    value="element"
-                                    checked={ sortOrder === "element" }
-                                    onChange={() => setSortOrder("element")} />
-                            <center>Attribute</center>
-                        </label>
-                    </div>
+                    <RenderSearch setQuery={setQuery} />
+                    <RenderSortOptions sortOrder={sortOrder} setSortOrder={setSortOrder} />
                 </Row>
-                <Row style={{marginLeft: "5%", marginRight: "5%", marginTop: "1rem"}}>            
-                    {units
-                    .filter(unit => {
-                        const isGlobalChecked = filters.server.Global;
-                        const isJapanChecked = filters.server.Japan;
-
-                        //Check for Server
-                        const hasMatchingServer = (isGlobalChecked && isJapanChecked)
-                        || ((isGlobalChecked && !isJapanChecked) && !unit.lore.evoawk?.toLowerCase().includes('currently unreleased in global.') && !unit.name.toLowerCase().includes('kazlaser'))
-                        || ((isJapanChecked && !isGlobalChecked) && unit.lore.evoawk?.toLowerCase().includes('currently unreleased in global.') );
-
-                        //Check for Attributes
-                        const selectedAttr = Object.keys(filters.attribute).filter((key) => filters.attribute[key])
-                        const hasMatchingAttr = selectedAttr.some((attr) => unit.attribute.includes(attr))
-
-                        //Check for Types
-                        const selectedTypes = Object.keys(filters.type).filter((key) => filters.type[key])
-                        const hasMatchingTypes = selectedTypes.some((type) => unit.type.includes(type))
-
-                        //Check for Search
-                        const hasMatchingName = unit.name.toLowerCase().includes(query.toLowerCase());
-
-                        return hasMatchingAttr && hasMatchingTypes && hasMatchingName && hasMatchingServer
-                    })
-                    .sort((a, b) => {
-                        //Default Sorting
-                        if (sortOrder === "default") return a.id - b.id
-
-                        //If Attribute Order is checked
-                        const attrOrder = ['Fire', 'Water', 'Earth', 'Light', 'Dark']
-                        return attrOrder.indexOf(a.attribute) - attrOrder.indexOf(b.attribute)
-                    })
-                    .map(unit => {
-                        if(unit.image.thumbsuper){
-                            return (
-                                <RenderThumbnail thumbnail={unit.image.thumbsuper} name={unit.name} key={unit.id} />
-                            );
-                        }
-                        else if(unit.image.thumbawk){
-                            return (
-                                <RenderThumbnail thumbnail={unit.image.thumbawk} name={unit.name} key={unit.id} />
-                            );
-                        }
-                        else {
-                            return (
-                                <RenderThumbnail thumbnail={unit.image.thumb5} name={unit.name} key={unit.id} />
-                            );
-                        }
-                    })}
-                </Row>
+                <RenderUnits units={units} filters={filters} query={query} sortOrder={sortOrder} />
             </Container>
         </React.Fragment>
     );
 }
 
+const RenderUnits = ({ units, filters, query, sortOrder }) => {
+    return (
+        <Row style={{marginLeft: "5%", marginRight: "5%", marginTop: "1rem"}}>       
+            {units
+            .filter(unit => {
+                const isGlobalChecked = filters.server.Global;
+                const isJapanChecked = filters.server.Japan;
+
+                //Check for Server
+                const hasMatchingServer = (isGlobalChecked && isJapanChecked)
+                || ((isGlobalChecked && !isJapanChecked) && !unit.lore.evoawk?.toLowerCase().includes('currently unreleased in global.') && !unit.name.toLowerCase().includes('kazlaser'))
+                || ((isJapanChecked && !isGlobalChecked) && unit.lore.evoawk?.toLowerCase().includes('currently unreleased in global.') );
+
+                //Check for Attributes
+                const selectedAttr = Object.keys(filters.attribute).filter((key) => filters.attribute[key])
+                const hasMatchingAttr = selectedAttr.some((attr) => unit.attribute.includes(attr))
+
+                //Check for Types
+                const selectedTypes = Object.keys(filters.type).filter((key) => filters.type[key])
+                const hasMatchingTypes = selectedTypes.some((type) => unit.type.includes(type))
+
+                //Check for Search
+                const hasMatchingName = unit.name.toLowerCase().includes(query.toLowerCase());
+
+                return hasMatchingAttr && hasMatchingTypes && hasMatchingName && hasMatchingServer
+            })
+            .sort((a, b) => {
+                //Default Sorting
+                if (sortOrder === "default") return a.id - b.id
+
+                //If Attribute Order is checked
+                const attrOrder = ['Fire', 'Water', 'Earth', 'Light', 'Dark']
+                return attrOrder.indexOf(a.attribute) - attrOrder.indexOf(b.attribute)
+            })
+            .map(unit => {
+                if(unit.image.thumbsuper){
+                    return (
+                        <RenderThumbnail thumbnail={unit.image.thumbsuper} name={unit.name} key={unit.id} />
+                    );
+                }
+                else if(unit.image.thumbawk){
+                    return (
+                        <RenderThumbnail thumbnail={unit.image.thumbawk} name={unit.name} key={unit.id} />
+                    );
+                }
+                else {
+                    return (
+                        <RenderThumbnail thumbnail={unit.image.thumb5} name={unit.name} key={unit.id} />
+                    );
+                }
+            })}
+            
+        </Row>
+    )
+}
+
+const RenderSearch = ({ setQuery }) => {
+    return (
+        <center>
+            <input placeholder="Search Unit Name" onChange={e => setQuery(e.target.value)} style={{
+                display: "flex",
+                width: "100%",
+                maxWidth: "790px",
+                height: "auto",
+                marginBottom: "2rem",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center"
+            }} />
+        </center>
+    )
+}
+
+const RenderSortOptions = ({ sortOrder, setSortOrder }) => {
+    return (
+        <div className="sort-options">
+            <div style={{ marginRight: ".2rem"}}>Sort By:</div>
+            <label style={{ backgroundColor: sortOrder === "default" ? "#5b5b5b" : "" }}>
+                <input type="radio"
+                        value="default"
+                        checked={ sortOrder === "default" }
+                        onChange={() => setSortOrder("default")} 
+                        />
+                <center>ID</center>
+            </label>
+            <label style={{ backgroundColor: sortOrder === "element" ? "#5b5b5b" : "" }}>
+                <input type="radio"
+                        value="element"
+                        checked={ sortOrder === "element" }
+                        onChange={() => setSortOrder("element")} />
+                <center>Attribute</center>
+            </label>
+        </div>
+    )
+}
 const RenderThumbnail = ({ thumbnail, name }) => {
     return (
         <React.Fragment>
