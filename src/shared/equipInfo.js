@@ -21456,7 +21456,7 @@ const EquipInformation = [
 { //Voracious Coat 'Splendor' - Complete
         id: 107981,
         name: `Voracious Coat 'Splendor'`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
             {
@@ -30894,7 +30894,7 @@ const EquipInformation = [
 { //極楽針 『ハピネストリガー』 (Aristela Orbis Farmable) - JP Complete
         id: 111241,
         name: `極楽針 『ハピネストリガー』`,
-        translate: `'Happiness Trigger`,
+        translate: `Paradise Needle 'Happiness Trigger`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -30924,7 +30924,8 @@ const EquipInformation = [
 { //救砕衣 『マインドクラッカー』 (Aristela Orbis Farmable) - JP Complete
         id: 111251,
         name: `救砕衣 『マインドクラッカー』`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        translate: `Rescue Uniform 'Mind Cracker'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
