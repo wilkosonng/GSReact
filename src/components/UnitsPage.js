@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { Container, Row, Col, Media, Card, CardHeader, CardBody, Accordion, AccordionBody, AccordionHeader, AccordionItem } from 'reactstrap';
+import { Container, Row, Col, Media, Card, CardHeader, CardBody, Accordion, AccordionBody, AccordionHeader, AccordionItem, Pagination, PaginationItem, PaginationLink } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import { getUnits } from '../shared/unitInfo';
 import Placeholder from 'react-placeholder';
@@ -108,39 +108,71 @@ export default function Units () {
 }
 
 const RenderUnits = ({ units, filters, query, sortOrder }) => {
+    const [currentPage, setCurrentPage] = useState(1);
+    const [unitsPerPage, setUnitsPerPage] = useState(100); //Put in main component and bring down here? Update via select tag?
+
+    const filteredUnits = units
+    .filter(unit => {
+        const isGlobalChecked = filters.server.Global;
+        const isJapanChecked = filters.server.Japan;
+
+        //Check for Server
+        const hasMatchingServer = (isGlobalChecked && isJapanChecked)
+        || ((isGlobalChecked && !isJapanChecked) && !unit.lore.evoawk?.toLowerCase().includes('currently unreleased in global.') && !unit.name.toLowerCase().includes('kazlaser'))
+        || ((isJapanChecked && !isGlobalChecked) && unit.lore.evoawk?.toLowerCase().includes('currently unreleased in global.') );
+
+        //Check for Attributes
+        const selectedAttr = Object.keys(filters.attribute).filter((key) => filters.attribute[key])
+        const hasMatchingAttr = selectedAttr.some((attr) => unit.attribute.includes(attr))
+
+        //Check for Types
+        const selectedTypes = Object.keys(filters.type).filter((key) => filters.type[key])
+        const hasMatchingTypes = selectedTypes.some((type) => unit.type.includes(type))
+
+        //Check for Search
+        const hasMatchingName = unit.name.toLowerCase().includes(query.toLowerCase());
+
+        return hasMatchingAttr && hasMatchingTypes && hasMatchingName && hasMatchingServer
+    })
+    .sort((a, b) => {
+        //Default Sorting
+        if (sortOrder === "default") return a.id - b.id
+
+        //If Attribute Order is checked
+        const attrOrder = ['Fire', 'Water', 'Earth', 'Light', 'Dark']
+        return attrOrder.indexOf(a.attribute) - attrOrder.indexOf(b.attribute)
+    })
+
+    const totalUnits = filteredUnits.length;
+    const totalPages = Math.ceil(totalUnits / unitsPerPage);
+
+    function handlePageChange(pageNumber) {
+        setCurrentPage(pageNumber);
+    }
+
+    const indexOfLastUnit = currentPage * unitsPerPage;
+    const indexOfFirstUnit = indexOfLastUnit - unitsPerPage;
+    const unitsToShow = filteredUnits.slice(indexOfFirstUnit, indexOfLastUnit);
+
     return (
-        <Row style={{marginLeft: "5%", marginRight: "5%", marginTop: "1rem"}}>       
-            {units
-            .filter(unit => {
-                const isGlobalChecked = filters.server.Global;
-                const isJapanChecked = filters.server.Japan;
-
-                //Check for Server
-                const hasMatchingServer = (isGlobalChecked && isJapanChecked)
-                || ((isGlobalChecked && !isJapanChecked) && !unit.lore.evoawk?.toLowerCase().includes('currently unreleased in global.') && !unit.name.toLowerCase().includes('kazlaser'))
-                || ((isJapanChecked && !isGlobalChecked) && unit.lore.evoawk?.toLowerCase().includes('currently unreleased in global.') );
-
-                //Check for Attributes
-                const selectedAttr = Object.keys(filters.attribute).filter((key) => filters.attribute[key])
-                const hasMatchingAttr = selectedAttr.some((attr) => unit.attribute.includes(attr))
-
-                //Check for Types
-                const selectedTypes = Object.keys(filters.type).filter((key) => filters.type[key])
-                const hasMatchingTypes = selectedTypes.some((type) => unit.type.includes(type))
-
-                //Check for Search
-                const hasMatchingName = unit.name.toLowerCase().includes(query.toLowerCase());
-
-                return hasMatchingAttr && hasMatchingTypes && hasMatchingName && hasMatchingServer
-            })
-            .sort((a, b) => {
-                //Default Sorting
-                if (sortOrder === "default") return a.id - b.id
-
-                //If Attribute Order is checked
-                const attrOrder = ['Fire', 'Water', 'Earth', 'Light', 'Dark']
-                return attrOrder.indexOf(a.attribute) - attrOrder.indexOf(b.attribute)
-            })
+        <Row style={{marginLeft: "5%", marginRight: "5%", marginTop: "1rem"}}>
+            <Pagination aria-label="Unit Pages">
+                <PaginationItem disabled={currentPage <= 1}>
+                <PaginationLink previous href="#" onClick={() => handlePageChange(currentPage - 1)} />
+                </PaginationItem>
+                {[...Array(totalPages)].map((_, index) => (
+                <PaginationItem active={index + 1 === currentPage} key={index}>
+                    <PaginationLink href="#" onClick={() => handlePageChange(index + 1)}>
+                    {index + 1}
+                    </PaginationLink>
+                </PaginationItem>
+                ))}
+                <PaginationItem disabled={currentPage >= totalPages}>
+                <PaginationLink next href="#" onClick={() => handlePageChange(currentPage + 1)} />
+                </PaginationItem>
+            </Pagination>       
+            {
+            unitsToShow
             .map(unit => {
                 if(unit.image.thumbsuper){
                     return (
@@ -158,7 +190,21 @@ const RenderUnits = ({ units, filters, query, sortOrder }) => {
                     );
                 }
             })}
-            
+            <Pagination aria-label="Unit Pages">
+                <PaginationItem disabled={currentPage <= 1}>
+                <PaginationLink previous href="#" onClick={() => handlePageChange(currentPage - 1)} />
+                </PaginationItem>
+                {[...Array(totalPages)].map((_, index) => (
+                <PaginationItem active={index + 1 === currentPage} key={index}>
+                    <PaginationLink href="#" onClick={() => handlePageChange(index + 1)}>
+                    {index + 1}
+                    </PaginationLink>
+                </PaginationItem>
+                ))}
+                <PaginationItem disabled={currentPage >= totalPages}>
+                <PaginationLink next href="#" onClick={() => handlePageChange(currentPage + 1)} />
+                </PaginationItem>
+            </Pagination>
         </Row>
     )
 }
