@@ -27989,10 +27989,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //真『ノーブルブラッド』 (DRivi TW) - JP Complete
+{ //True 'Noble Gash' - Missing Lore
         id: 110231,
-        name: `真『ノーブルブラッド』`,
-        translate: `True 'Noble Blood'`,
+        name: `True 'Noble Gash'`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -28019,7 +28018,7 @@ const EquipInformation = [
                 ability1: `When equipped by Riviera (Dark), increase own Skill CT speed by 30% and Arts gauge by 100 at the Start of Quest (Only once).`,
                 ability2: `Magic DMG 10% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //Tenchi Raimei - Missing Lore
         id: 110241,
@@ -28079,10 +28078,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //ノーブルブラッド (DRivi Secret Equip) - JP Complete
+{ //Noble Gash - Missing Lore
         id: 110261,
-        name: `ノーブルブラッド`,
-        translate: `'Noble Blood'`,
+        name: `Noble Gash`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -28107,11 +28105,11 @@ const EquipInformation = [
             {
                 ability1: `ATK 10% UP when Near-Death.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //モータルスカーレット (DRivi Secret Equip) - JP Complete
+{ //Mortal Scarlet - Missing Lore
         id: 110271,
-        name: `モータルスカーレット`,
+        name: `Mortal Scarlet`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -28136,7 +28134,7 @@ const EquipInformation = [
             {
                 ability1: `Dark resistance 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //True 'Hyakka' - Missing Lore
         id: 110281,
@@ -31521,6 +31519,36 @@ const EquipInformation = [
         passive: 
             {
                 ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //剣聖の証【翠】 - JP Complete
+        id: 111451,
+        name: `氷精靴『フロストヴァイト』`,
+        translate: `Ice Boots 'Frostbite'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111450.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111451.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111450.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111451.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 120
+            },
+        skillset:  
+            {
+                skill: `30s CT - Increase all allies' Fire RES by 30% for 15s. Freeze ownself for 7s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increase MAX HP by 5%.`
             },
         lore: `Currently unreleased in Global.`
     },
