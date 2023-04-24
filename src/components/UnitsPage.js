@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import { Container, Row, Col, Media, Card, CardHeader, CardBody, Accordion, AccordionBody, AccordionHeader, AccordionItem, Pagination, PaginationItem, PaginationLink } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import { getUnits } from '../shared/unitInfo';
@@ -56,10 +56,15 @@ export default function Units () {
             },
         });
 
+        setCurrentPage(1)
     };
 
     //Sort Options
     const [sortOrder, setSortOrder] = useState("default")
+
+    //Default amount of units per page
+    const [unitsPerPage, setUnitsPerPage] = useState(100); 
+    const [currentPage, setCurrentPage] = useState(1);
 
     //Display Unit Thumbnails
     return (
@@ -98,19 +103,21 @@ export default function Units () {
                     </Accordion>
                 </Row>
                 <Row style={{ marginLeft: "5%", marginRight: "5%"}}>
-                    <RenderSearch setQuery={setQuery} />
-                    <RenderSortOptions sortOrder={sortOrder} setSortOrder={setSortOrder} />
+                    <RenderSearch setQuery={setQuery} setCurrentPage={setCurrentPage} />
+                    <Col>
+                        <RenderSortOptions sortOrder={sortOrder} setSortOrder={setSortOrder}  />
+                    </Col>
+                    <Col>
+                        <RenderUnitAmount units={units} setUnitsPerPage={setUnitsPerPage} unitsPerPage={unitsPerPage} setCurrentPage={setCurrentPage}  />
+                    </Col>
                 </Row>
-                <RenderUnits units={units} filters={filters} query={query} sortOrder={sortOrder} />
+                <RenderUnits units={units} filters={filters} query={query} sortOrder={sortOrder} setUnitsPerPage={setUnitsPerPage} unitsPerPage={unitsPerPage} currentPage={currentPage} setCurrentPage={setCurrentPage} />
             </Container>
         </React.Fragment>
     );
 }
 
-const RenderUnits = ({ units, filters, query, sortOrder }) => {
-    const [currentPage, setCurrentPage] = useState(1);
-    const [unitsPerPage, setUnitsPerPage] = useState(100); //Put in main component and bring down here? Update via select tag?
-
+const RenderUnits = ({ units, filters, query, sortOrder, unitsPerPage, currentPage, setCurrentPage, setUnitsPerPage }) => {
     const filteredUnits = units
     .filter(unit => {
         const isGlobalChecked = filters.server.Global;
@@ -209,10 +216,15 @@ const RenderUnits = ({ units, filters, query, sortOrder }) => {
     )
 }
 
-const RenderSearch = ({ setQuery }) => {
+const RenderSearch = ({ setQuery, setCurrentPage }) => {
+    const handleSearch = (e) => {
+        setQuery(e.target.value)
+        setCurrentPage(1)
+    }
+
     return (
         <center>
-            <input placeholder="Search Unit Name" onChange={e => setQuery(e.target.value)} style={{
+            <input placeholder="Search Unit Name" onChange={handleSearch} style={{
                 display: "flex",
                 width: "100%",
                 maxWidth: "790px",
@@ -248,6 +260,26 @@ const RenderSortOptions = ({ sortOrder, setSortOrder }) => {
         </div>
     )
 }
+
+const RenderUnitAmount = ({ setUnitsPerPage, unitsPerPage, units, setCurrentPage }) => {
+    const handleSelectChange = (e) => {
+        setUnitsPerPage(e.target.value)
+        setCurrentPage(1)
+    }
+
+    return (
+        <div className="page-sort-options">
+            <div style={{ marginRight: ".2rem"}}>Show:</div>
+            <select value={unitsPerPage} onChange={handleSelectChange}>
+                <option value="50">50</option>
+                <option value="100">100</option>
+                <option value="200">200</option>
+                <option value={units.length}>All</option>
+            </select>
+        </div>
+    )
+}
+
 const RenderThumbnail = ({ thumbnail, name }) => {
     return (
         <React.Fragment>
