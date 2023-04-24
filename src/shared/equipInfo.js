@@ -27549,7 +27549,7 @@ const EquipInformation = [
         image: 
             {
                 detail: ``,
-                detailmax: `/db/Equipment/Detail/item_detail_110080.png`,
+                detailmax: `/db/Equipment/Thumbnail/item_thumbnail_110080.png`,
                 thumb: ``,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110080.png`
             },
