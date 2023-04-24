@@ -20767,7 +20767,7 @@ const UnitInformation = [
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: "Noble Blood",
+                name: "Noble Gash",
                 slot: "/db/Mines/thumbnail/magLB.png",
                 detail: "/db/Equipment/Detail/item_detail_110231.png",
                 skill: "50s CT - 8000% Dark DMG (MAG). For 20s, increase own Dark DMG by 70%.",
@@ -20847,7 +20847,7 @@ const UnitInformation = [
             },
         trueweapon: //If no TW, may delete this section 
             {
-                name: "Heaven's Thunder Armour",
+                name: "Tenchi Raimei",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "/db/Equipment/Detail/item_detail_110221.png",
                 skill: "50s CT - 8000% Light DMG (PHY). For 20s, increase own Light DMG by 70%.",
@@ -20940,8 +20940,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "Missing Lore.",
+                evoawk: "Missing Lore."
             },
         review:
             {

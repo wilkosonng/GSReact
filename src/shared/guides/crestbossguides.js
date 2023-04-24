@@ -342,10 +342,8 @@ const CrestBossGuides = [
                     As a tip, make sure Thetis is carrying an Erial.</p>
                 </li>
                 <li>
-                    <b>Juno &gt;&gt; Hart &gt; Dark Celia</b>
-                    <p>Best ArtsGen unit capable of dealing noticeable damage. Not much else to say about her majesty. Hart, despite dealing much lesser damage, 
-                    can still be useful, especially in a Human-oriented team. Dark Celia would be a lot harder to use here, requiring her to stack 5 Arts, 
-                    before being able to generate noticeable Arts. As such, Dark Celia would have to be run alongside other ArtGen units.</p>
+                    <b>Juno/Emperor Isliid >> Hart > Dark Celia</b>
+                    <p>Best ArtsGen unit capable of dealing noticeable damage. Not much else to say about both. Hart, despite dealing much lesser damage, can still be useful, especially in a Human-oriented team. Dark Celia would be a lot harder to use here, requiring her to stack 5 Arts, before being able to generate noticeable Arts. As such, Dark Celia would have to be run alongside other ArtGen units.</p>
                 </li>
                 <li>
                     <b>Hao/Natsu/Priestess/Dark Fen/Ashe</b>
@@ -359,8 +357,8 @@ const CrestBossGuides = [
                     <p>Liza is a great pick, allowing DEF equips or Burn and Blind equips to be used more frequently. Debuffs help as well!</p>
                 </li>
                 <li>
-                    <b>Erza</b>
-                    <p>Another strategy would just be to ignore the special mobs’ mechanics altogether by using brute force to deal with them. Although they might inflict their debuffs, Erza should be able to dish out enough damage where there will not be a build-up of mobs. Still risky though!</p>
+                    <b>Fire Orvell/Erza</b>
+                    <p>Another strategy would just be to ignore the special mobs’ mechanics altogether by using brute force to deal with them. Although they might inflict their debuffs, Fire Orvell or Erza should be able to dish out enough damage where there will not be a build-up of mobs. Still risky though!</p>
                 </li>
         `,
         author: "ebouliben#1234, Jeffers#7056"
@@ -456,7 +454,7 @@ const CrestBossGuides = [
             <b><h4><u>Recommended Units</u></h4></b>
             <ul>
                 <li>
-                    <b>Any consistent Freeze unit (Selia/Joker Selia >>> Alvina, etc.)</b> 
+                    <b>Any consistent Freeze unit (Selia/Joker Selia &gt;&gt; Alvina, etc.)</b> 
                     <p>As mentioned, cleansing Ifrit’s self-burn will ease stress on your team, allowing your Water Units
                     to deal much more damage than before. Selia/Joker Selia is the best unit for the job as she is able to 
                     consistently freeze, whilst also cleansing Burn for all allies. It’s also important to remember that Ifrit 
@@ -594,12 +592,8 @@ const CrestBossGuides = [
                     DMG from Ignis after that point without DMG RES help from other units.</p>
                 </li>
                 <li>
-                    <b>Luahn/Veronica/Mizuki</b>
-                    <p>These units are great DPS options for this crest palace. Luahn has the ability to hold Exceed Zechs for passive 
-                    lifesteal, as well as inflicting Bleed stacks to not only increase his DMG output, but also gain more lifesteal. 
-                    Veronica also has the ability to hold Exceed Zechs and/or Goblin Slayer Dagger for passive lifesteal, and deals great 
-                    damage. Lastly, Mizuki has passive lifesteal during Third Eye and his unique passive also allows him to deal 
-                    considerable damage towards Fire enemies such as Ignis.</p>
+                    <b>Luahn/Veronica/Mizuki the 12th/Mizuki</b>
+                    <p>These units are great DPS options for this crest palace. Luahn has the ability to hold Exceed Zechs for passive lifesteal, as well as inflicting Bleed stacks to not only increase his DMG output, but also gain more lifesteal. Veronica also has the ability to hold Exceed Zechs and/or Goblin Slayer Dagger for passive lifesteal, and deals great damage. Lastly, Mizuki the 12th and Mizuki has passive lifesteal during Third Eye.</p>
                 </li>
                 <li>
                     <b>Asirpa/Mako/Priestess/Hart/Rimuru/Aristela</b>
@@ -981,7 +975,7 @@ const CrestBossGuides = [
                     of cleansing ailments off them.</p>
                 </li>
                 <li>
-                    <b>Feena/Rimuru</b>
+                    <b>Feena/Rimuru/Sylphiette</b>
                     <p>An alternative to taunt-tanks with the use of their Status RES buffs. 
                     It’s worth mentioning that while they’re capable of resisting ailments, 
                     they are unable to mitigate the Arts drain of Gorondola and Ragvelon. 
@@ -1097,16 +1091,15 @@ const CrestBossGuides = [
                     passive allows him to avoid death once, giving the team enough time to finish Elpneumas off.</p>
                 </li>
                 <li>
+                    <b>Emperor Isliid/Mako/Hart/Asirpa/Juno/Yoh</b>
+                    <p>Great Art generation units which can be used to support the other roles in the team. Do note that the art generation from Emperor Isliid, Hart, Juno (and Dark Celia from earlier) do not stack with each other, so use them interchangeably.</p>
+                </li>
+                <li>
                     <b>Ganan/NY Rimuru/Erza/Fire Roy/Dark Celia/Angelas</b>
                     <p>These units are great attackers, dealing non-magic and non-water damage. Ganan, NY Rimuru, Erza, and Fire Roy are heavy 
                     hitters due to their respective kits. Dark Celia is a great attacker and art generation unit after she is able to ramp. 
                     Angelas’ Burn RES Down on Arts and Burn on Skill allows her to consistently keep Elpneumas burning, whilst dealing noticeable 
                     damage on her own.</p>
-                </li>
-                <li>
-                    <b>Mako/Hart/Asirpa/Juno/Yoh</b>
-                    <p>Great Art generation units which can be used to support the other roles in the team. Do note that the art generation from 
-                    Hart, Juno (and Dark Celia from earlier) do not stack with each other, so use them interchangeably. </p>
                 </li>
         `,
         author: "ebouliben#1234, Jeffers#7056"
@@ -1202,15 +1195,12 @@ const CrestBossGuides = [
                     her passive. Even without a taunt-tank, she’s still a go to unit for the boss additionally with her slots and debuffs.</p>
                 </li>
                 <li>
-                    <b>Juno/Dark Fen &gt; Lygor/Zenon</b>
-                    <p>Great dark/light art gen units suited for this stage since they won’t take increased damage from Fosradius’ Fire, Water, and 
-                    Earth Killer. Juno being the best, able to both dish out noticeable damage and generate noticeable Arts for the team.</p>
+                    <b>Emperor Isliid/Juno &gt; Dark Fen/Lygor/Zenon</b>
+                    <p>Great dark/light art gen units suited for this stage since they won’t take increased damage from Fosradius’ Fire, Water, and Earth Killer. Juno and Emepror Isliid being the best, able to both dish out noticeable damage and generate noticeable Arts for the team.</p>
                 </li>
                 <li>
-                    <b>Mako/Feena/Asirpa/Liza</b>
-                    <p>They’re simply very capable and notable sustain units for use in any type of composition for this quest. Mako and Asirpa act 
-                    as great art genners/healers, Liza can act as an art genner and/or a debuffer, while Feena acts as a great healer able to negate 
-                    Paralysis from your units.</p>
+                    <b>Mako/Asirpa/Liza/Lucy/Sylphiette</b>
+                    <p>They’re simply very capable and notable sustain units for use in any type of composition for this quest. Mako and Asirpa act as great art genners/healers, Liza can act as an art genner and/or a debuffer, while Sylphiette act as a decent Art genner capable of also providing teamwide Paralysis resistance.</p>
                 </li>
         `,
         author: "ebouliben#1234, Jeffers#7056"
@@ -1299,9 +1289,8 @@ const CrestBossGuides = [
                     <p>These units are the go-to poison dealers for sustain teams due to either their great slots, consistent poison chance, or a combination of both.</p>
                 </li>
                 <li>
-                    <b>Hart &gt; Mako/Asirpa</b>
-                    <p>These units provide an excellent source of healing and art generation to counteract the art gauge down from Belgiras arts. Hart provides more art 
-                    generation, while Asirpa provides more defense. Do note that more than 1 of these units can be used in a team.</p>
+                    <b>Hart/Juno/Emperor Isliid &gt; Mako/Asirpa</b>
+                    <p>These units provide an excellent source of healing and art generation to counteract the art gauge down from Belgiras arts. Do note that Hart, Juno, and Emperor Isliid’s Art generation do not stack.</p>
                 </li>
         `,
         author: "ebouliben#1234, Jeffers#7056"
@@ -1409,10 +1398,8 @@ const CrestBossGuides = [
                     The rest of the team should then unload as much damage as possible. This usually will kill γ-2 or take him down past his 25% HP threshold.</p>
                 </li>
                 <li>
-                    <b>Terrible Tornado/Tami-Nyan</b>
-                    <p>Due to γ-2’s annoying break requirement, breakers are <u>required</u> to clear this palace. The breakers listed above are recommended 
-                    as they not only increase the team’s break power, but also apply a break resistance down debuff on γ-2, which is essential to allow the 
-                    team to deal more break. However, as they are non-Fire breakers, their break power alone is reduced to an extent.</p>
+                    <b>Strength &gt; Terrible Tornado/Tami-Nyan</b>
+                    <p>Due to γ-2’s annoying break requirement, breakers are required to clear this palace. The breakers listed above are recommended as they not only increase the team’s break power, but also apply a break resistance down debuff on γ-2, which is essential to allow the team to deal more break. With Strength being a Fire breaker, he will be able to deal more Break overall to the boss, making him ideal.</p>
                 </li>
                 <li>
                     <b>Gerald/Miranda &gt; Naofumi/Celia</b>
@@ -1518,6 +1505,121 @@ const CrestBossGuides = [
                 </li>
         `,
         author: "ebouliben#1234, Jeffers#7056"
+    },
+    {
+        id: 13,
+        title: "Shrine of Tribulation",
+        link: "shrine-of-tribulation",
+        banner: "/db/CrestGuides/Crest_Banner_zaremnah.png",
+        article: `
+            <center>
+                <b>Tribulation Spear</b> [Extreme] <br />
+                <img src="/db/CrestGuides/Crest_zaremnah.png" />
+                <br/>
+                BOSS: Za'remnah<br />
+
+                <b>Appears on Day: Sunday [PST]</b> <br/>
+                HP: 15,000,000 <br />
+                Element: Dark <br />
+                Race: Demon <br />
+            </center><br />
+            <h3><center>Mechanics</center></h3>
+            <b><u>Special Mobs</u></b>
+            <ul>
+                <li><b>Bloody Bat</b></li>
+                <ul>
+                    <li>Chance to inflict Seal for 10s with Skill. Has noticeable Evasion (Spawns on Wave 1).</li>
+                </ul>
+                <li><b>Hellbeast Gillius</b></li>
+                <ul>
+                    <li>Has noticeable Evasion (Spawns on Wave 1).</li>
+                </ul>
+                <li><b>Abaddon</b></li>
+                <ul>
+                    <li>Inflicts ATK debuff for 15s with Skill / Chance to inflict Blind with Skill (Spawns on Wave 3).</li>
+                </ul>
+                <p>Wave 1 mobs have noticeable Evasion so it will take a while. In addition, wave 3 mobs are tankier than usual as well. Of course, it’s ideal if you are able to clear all 3 pre-boss waves before the mobs have a chance to use their Skills, but it’s not crucial.</p>
+            </ul>
+            <h4><center><u>Gimmicks</u></center></h4>
+            <ul>
+                <li>Reflection RES, Lifesteal RES & Arts Drain RES.</li>
+                <ul>
+                    <li>Pretty self-explanatory. No reflect cheese strats using Milims/Duran. Additionally, Lifesteal and units/equips which reduce the enemy's Arts gauge such as Ashe are rendered useless.</li>
+                </ul>
+                <li>Critical RES & God Killer.</li>
+                <ul>
+                    <li>Self-explanatory as well. Due to the boss’ CRI RES, using CRI buffers will be rendered less effective. As such, DEF Ignore units such as Nui might be preferable. Due to its God KIller passive, God units are also a strict no-go.</li>
+                </ul>
+                <li>“Locks” 1 random unit in 2p/3p/4p position until Boss is Broken during Phantasm Lock (MAG) Arts.</li>
+                <ul>
+                    <li>One of the more complicated and annoying mechanics for a Crest boss. In short, the Boss will “Lock” a random unit from the 3 right-most positions (that being either 2p, 3p or 4p) each time Phantasm Lock is used. While the unit is “Locked”, it is Fainted and DMG is constantly dealt to it over time. Additionally, its Arts gauge, Skill CT, and Equip CT are reset and cannot be increased. The only way to break free of the “Lock” status is to Break the Boss.</li>
+                </ul>
+                <li>DMG Taken Up during Break.</li>
+                <ul>
+                    <li>Oh boy. Until the introduction of more busted units (Super AWK units), it is extremely difficult to bypass this with just sheer damage. As such, you will require a dedicated breaker in the team in order to Break the boss to deal proper damage.</li>
+                </ul>
+                <li>At 50% HP, uses Magna Lance (MAG) Arts.</li>
+                <ul>
+                    <li>Fairly hard-hitting Arts and the boss gains i-frames for its duration.</li>
+                </ul>
+                <li>At 0% HP, uses Dark Shining Bomb (MAG) Arts. Dies afterwards.</li>
+                <ul>
+                    <li>Fairly hard-hitting Arts, inflicting a DMG RES debuff, and the boss gains i-frames for its duration.</li>
+                </ul>
+            </ul>
+
+            <h4><center><u>Normal Attacks</u></center></h4>
+            <ul>
+                <li>Purple Needles - Inflicts a HP Recovery debuff for 10s. Only used after 50% HP threshold.</b></li>
+                <ul>
+                    <li>This reduces units’ HP Recovery amount by 5x, which can lead to some issues so be wary.</li>
+                </ul>
+            </ul>
+
+            <center><h4><u>Arts</u></h4></center>
+            <ul>
+                <li><b>Phantasm Lock (PHY & MAG) - “Locks” a random unit in 2p/3p/4p position.</b></li>
+                <ul>
+                    <li>This is Za’remnah’s default Arts, which he will use when 5 orbs are charged. As mentioned earlier under the boss’ Gimmicks, the “Lock” status is troublesome and can only be removed by breaking the boss.</li>
+                </ul>
+                <li><b>Commanding Roar (MAG) - Faints all units. Inflicts an ATK debuff on all units for 10s.</b></li>
+                <ul>
+                    <li>Za’remnah will immediately use this Arts when his Break bar replenishes after he is Broken. Although the Faint doesn’t last too long, the ATK debuff can be noticeable and affect your team’s damage output for a while.</li>
+                </ul>
+                <li><b>Magna Lance (PHY) - Becomes invulnerable for the duration of this Arts.</b></li>
+                <ul>
+                    <li>Za’remnah will only use this Arts once when his HP reaches 50%. There’s nothing special about this Arts, besides giving Za’remnah i-frames and it being a pretty hard-hitting attack. Note that hitting 50% HP while the boss is Broken will not skip this Arts from being used.</li>
+                </ul>
+                <li><b>Shining Dark Explosion (MAG) - Becomes invulnerable for the duration of this Arts and Inflicts a DMG RES debuff on all units.</b></li>
+                <ul>
+                    <li>Za’remnah will only use this Arts once when his HP reaches 0%. It’s a fairly hard-hitting Arts, especially with the DMG RES debuff inflicted. Note that you are able to skip this Arts from being used if you Break Za’remnah at 0% HP.</li>
+                </ul>
+            </ul>
+
+            <h3><center>Strategy</center></h3>
+            <p><center>
+                This crest boss is NOT recommended for newer players. Being one of the hardest currently available crest bosses in Global, it requires a well developed unit and equipment box. It is recommended to check out the recent clears for some team ideas as this boss is not very flexible, requiring high-end units and equips.            
+            </p></center>
+            <b><h4><u>Recommended Units</u></h4></b>
+            <ul>
+                <li>
+                    <b>Duke</b>
+                    <p>Za’remnah’s Break bar is insanely inflated, requiring a ludicrous amount of Break to wear down. Taking into account the longer you take to break the Boss will result in you losing useable units due to its “Lock” gimmick, it’s extremely difficult to run any other Breaker besides Duke. This is ultimately due to Duke’s unique True Arts: “Increase own True Arts' Break PWR by 5% of own True Arts' DMG dealt”, allowing him to dish out Break numbers other Breakers have no chance competing with. It’s extremely important as well to make sure Duke is slotted in the 1p position to avoid him getting “Locked” at any point in the run, which would definitely kill the run.</p>
+                </li>
+                <li>
+                    <b>Hart and/or Mako</b>
+                    <p>Healers are extremely important to the fight as well due to the nature of the fight, being a sustain. Especially with the HP Recovery debuffs that Za’remnah can inflict from his regular attacks, a competent healer such as the abovementioned are crucial. Not only do they provide the necessary Healing, but they also provide additional ArtsGen. In fact, both of them can be used in the same team as well.</p>
+                </li>
+                <li>
+                    <b>Emperor Isliid</b>
+                    <p>Although a DPS isn’t as important of a role, it can also speed up the fight. Emperor Isliid in particular is great when slotted in 3p position as he gains a very potent DMG buff against Demons such as Za’remnah. Additionally, his ArtsGen is also very competent, although it does not stack with Hart.</p>
+                </li>
+                <li>
+                    <b>Nui &gt; Rimuru/Melty/Yoh/ArtsGen unit</b>
+                    <p>A tertiary ArtsGen unit is also helpful, especially in cases where your main ArtsGen unit gets “locked”. Due to the boss having CRI RES, DEF Ignore units such as Nui would be optimal due to its slots and additional ArtsGen, alongside her teamwide DEF Ignore buff. Otherwise, running another ArtsGen unit would work as well, allowing the team to receive sufficient Arts even when one of your ArtsGen units get “locked”.</p>
+                </li>
+        `,
+        author: "Jeffers#7056"
     },
 ]
 
