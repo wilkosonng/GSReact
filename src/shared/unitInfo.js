@@ -20704,7 +20704,7 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
     },
-    { //Riviera (Dark) - Missing Lore
+    { //Riviera (Dark) - Missing Lore, Review done
         id: 103576512,
         name: "Riviera (Dark)",
         attribute: "Dark",
@@ -20782,9 +20782,26 @@ const UnitInformation = [
             {   
                 evo5: "Currently unreleased in Global.",
                 evoawk: "Currently unreleased in Global."
+            },
+        review:
+            {
+                skill: `Overall, not that bad of a skill. While the uptime is rather bad, the actual effect is decent.`,
+                arts: `Yeah...you'll pretty much never use this other than to activate Magia Drive: Unlimited. While the stackable dark res down looks tempting, you'd be better off just spamming her True art if you intend to use her as an artgen. At most you might cycle between her arts if you have enough artgen to afford it.`,
+                truearts: `A nice artgen effect with a rather high magic res down. Only real downside is the need to Magia Drive before she can start doing anything else. However, given the lackluster artgen options dark has, she'll almost always have a nice place in dark ruins.`,
+                ability1: `Given the rather large amount of demon enemies, this passive will see some use, however it's nothing game changing.`,
+                ability2: `This is the only reason you'd enter Magia Drive Unlimited, a nice teamwide artgen effect which stacks with everything`,
+                ability3: `I mean...this is nice, but why not 100%?`,
+                trueweapon: {
+                    skill: `Decently long uptime on a rather high dark dmg up, however the main reason you'd use this equip is for the passive not it's active.`,
+                    ability1: `While the skill CT helps with that horrendis uptime on her skill, it's not enough to help the low uptime. The instant 100 art help with her consistency given the lack of artgen which doesn't require 300-400 arts investment.`,
+                    ability2: `Minor dmg up helps.`
+                },
+                overall: `While she can't compete with the stronger artgen units like Emperor, Juno, or hart, she's much closer to someone like Dark Celia. Her lack of self sufficiency and need for 300+ artgen before she can do anything heavily slows her down and makes her reliant on her team for startup. However, once you get past that startup she is a solid artgen option for those who lack the aforementioned top tier units or when running content which doesn't let you use them like dark ruins. While her artgen my not be able to compete with the faster startup of other untis, her large and stackable dmg res down would have some utility even when paired with someone else like Juno.`,
+                lastupdated: `April 20, 2023`,
+                author: `Zanster`
             }
     },
-    { //Thetis (Light) - Missing Lore
+    { //Thetis (Light) - Missing Lore, Review done
         id: 103586412,
         name: "Thetis (Light)",
         attribute: "Light",
@@ -20862,6 +20879,23 @@ const UnitInformation = [
             {   
                 evo5: "Currently unreleased in Global.",
                 evoawk: "Currently unreleased in Global."
+            },
+        review:
+            {
+                skill: `1 APS passive, nothing major but still nice to have.`,
+                arts: `A very convoluted system. Needing like 300 arts to activate the damage buff is needlessly expensive for what you get.`,
+                truearts: `A very high multiplier paired with his built in crit and ability to buff PHY damage makes Light Thetis a very potent dps unit after everything is set up.`,
+                ability1: `The buffs are too insignificant to even be worth locking behind Magia Drive. In most cases you won’t even notice the difference.`,
+                ability2: `Built in crit is always good, and there's even some extra on top for crit resistant bosses. Paired with his high multiplier in MGU, it will let Thetis hit pretty hard.`,
+                ability3: `Not enough to be significant on any boss where you would need accuracy, but appreciated nonetheless`,
+                trueweapon: {
+                    skill: `Very nice damage buff, but you would either need to be going manual or using AI in order to get him to make the most of it before it runs out, because its uptime is too low to be consistent.`,
+                    ability1: `Extra arts will definitely help with getting him to MGU faster, and flinch resistance is appreciated. Nothing major, but not bad either.`,
+                    ability2: `This just serves little no purpose, nor is it helpful in 99% of situations.`
+                },
+                overall: `Light Thetis has the potential to be an amazing DPS with teamwide buffing, self crit, and a crazy high multiplier. Unfortunately, he is hindered by requiring Batman levels of prep time in the form of 400 Arts to get the relevant buffs, and then a further 200 Arts to actually do damage. While he can’t keep up with the more mainstream DPS units, he can still be used for a decent bit of content if you have some heavy-duty artsgen capabilities. Otherwise, Thetis is still going to fall short since he’s just too slow to see use in harder missions that press you for time, he can’t be used to nuke with, and is completely overshadowed by Erza and even NYMilim as a DPS.`,
+                lastupdated: `April 20, 2023`,
+                author: `Pula`
             }
     },
     { // Sakuya - Missing Lore, Review done
