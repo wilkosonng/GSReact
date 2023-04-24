@@ -71,15 +71,52 @@ th, tr {
   overflow: hidden;
 }
 
+.sort-options {
+  margin: .3em;
+  float: left;
+}
 
+.sort-options > label {
+  border: 1px solid #292930;
+  width: 5em;
+}
 
+.sort-options > label > input {
+  display: none;
+}
+
+.page-sort-options { 
+  float: right;
+  margin-right: 20%;
+}
 .rarityLabel {
   max-width: 40px;
   height: 40px;
 }
-@media (max-width: 768px){
+
+.page-item {
+  margin: 0px;
+}
+
+.page-link {
+  background-color: #292930 !important;
+}
+
+@media screen and (max-width: 768px){
   .newsImages {
     width: 100%;
     height: auto;
+  }
+
+  .sort-options {
+    float: none;
+    display: flex;
+    justify-content: center;
+  }
+
+  .page-sort-options {
+    float: none;
+    display: flex;
+    justify-content: center;
   }
 }
