@@ -20940,8 +20940,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "Missing Lore.",
+                evoawk: "Missing Lore."
             },
         review:
             {
