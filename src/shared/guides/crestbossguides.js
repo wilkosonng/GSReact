@@ -20,7 +20,7 @@ const CrestBossGuides = [
                 100% Faint RES <br />
             </center><br />
             <h3><center>Mechanics</center></h3>
-            <b><u>Special Mobs</u></b>
+            <b><u><center>Special Mobs</center></u></b>
             Mobs randomly spawned.<br/><br/>
 
             <b style="color: red;">Inferno Wyrm</b>:
@@ -116,7 +116,7 @@ const CrestBossGuides = [
                 for the boss so as to clear it quicker, though not heavily needed.
             </p></center>
 
-            <b><h4><u>Recommended Units</u></h4></b>
+            <b><h4><u><center>Recommended Units</center></u></h4></b>
             <ul>
                 <li>
                     <b>Thetis/Gerald</b> 
@@ -214,7 +214,7 @@ const CrestBossGuides = [
                 though this boss is very easy to nuke compared to the other crest bosses.
             </p></center>
 
-            <b><h4><u>Recommended Units</u></h4></b>
+            <b><h4><u><center>Recommended Units</center></u></h4></b>
             <ul>
                 <li>
                     <b>Est &gt;&gt; Duke &gt; Wargul</b> 
@@ -254,7 +254,7 @@ const CrestBossGuides = [
 
             </center><br />
             <h3><center>Mechanics</center></h3>
-            <b><u>Special Mobs</u></b>
+            <b><u><center>Special Mobs</center></u></b>
             <ul>
                 <li><b>Grangarrod</b></li>
                 <ul>
@@ -331,7 +331,7 @@ const CrestBossGuides = [
                 debuffs, followed by an untimely Arts can obliterate even the most prepared.
                 Nuke compositions will not be detailed here as it is impossible to do so.                                   
             </p></center>
-            <b><h4><u>Recommended Units</u></h4></b>
+            <b><h4><u><center>Recommended Units</center></u></h4></b>
             <ul>
                 <li>
                     <b>Miranda &gt; Thetis</b>
@@ -451,7 +451,7 @@ const CrestBossGuides = [
             <b>Vulkan Knuckle</b> if you’re unable to defeat Ifrit before he uses it. 
             </p></center>
 
-            <b><h4><u>Recommended Units</u></h4></b>
+            <b><h4><u><center>Recommended Units</center></u></h4></b>
             <ul>
                 <li>
                     <b>Any consistent Freeze unit (Selia/Joker Selia &gt;&gt; Alvina, etc.)</b> 
@@ -503,7 +503,7 @@ const CrestBossGuides = [
                 30% Blind/Disease RES <br />
             </center><br />
             <h3><center>Mechanics</center></h3>
-            <b><u>Special Mobs</u></b>
+            <b><u><center>Special Mobs</center></u></b>
             <b>Grovogg</b>: Chance to inflict Burn.
             <ul>
                 <li>Fairly insignificant HP loss over time, can be outhealed easily. However, do note that the pre-boss mobs are also fairly tanky.</li>
@@ -570,7 +570,7 @@ const CrestBossGuides = [
                 As for nuke comps, specific teams will not be included due to the vast amount of them. Instead, Duran’s mechanics 
                 will be covered to elaborate on his unique kit as most nukes are built around him.
             </p></center>
-            <b><h4><u>Recommended Units</u></h4></b>
+            <b><h4><u><center>Recommended Units</center></u></h4></b>
             <ul>
                 <li>
                     <b>Duran</b> (For Nukes) 
@@ -683,7 +683,7 @@ const CrestBossGuides = [
                 bring. Other than that, it’s only her high self-heal and immense damage output you have to deal with, arguably making 
                 it the most straightforward Crest Palace as countering her Unit-Type Killers isn’t that hard.
             </p></center>
-            <b><h4><u>Recommended Units</u></h4></b>
+            <b><h4><u><center>Recommended Units</center></u></h4></b>
             <ul>
                 <li>
                     <b>Juno &gt; Hart</b>
@@ -836,7 +836,7 @@ const CrestBossGuides = [
             to counter Freydal’s high evasion or use a Burn/Poison unit to slowly chip away at its bar.
             Nuke compositions will not be detailed here due to the high requirements needed.
             </p></center>
-            <b><h4><u>Recommended Units</u></h4></b>
+            <b><h4><u><center>Recommended Units</center></u></h4></b>
             <ul>
                 <li>
                     <b>Miranda/Thetis</b>
@@ -912,7 +912,7 @@ const CrestBossGuides = [
                 Race: Spirit <br />
             </center><br />
             <h3><center>Mechanics</center></h3>
-            <b><u>Special Mobs</u></b>
+            <b><u><center>Special Mobs</center></u></b>
             <ul>
                 <li>Dulah: Chance to inflict Seal with Skill.</li>
                 <li>Logbord: Reduces Enemies’ DEF with Skill.</li>
@@ -956,7 +956,7 @@ const CrestBossGuides = [
             can properly loop them. It’s also important to remember that the boss deals rather potent damage, 
             so slacking on sustain would be highly detrimental.
             </p></center>
-            <b><h4><u>Recommended Units</u></h4></b>
+            <b><h4><u><center>Recommended Units</center></u></h4></b>
             <ul>
                 <li>
                     <b>Thetis</b>
@@ -1007,7 +1007,7 @@ const CrestBossGuides = [
                 20% Burn RES <br />
             </center><br />
             <h3><center>Mechanics</center></h3>
-            <b><u>Special Mobs</u></b>
+            <b><u><center>Special Mobs</center></u></b>
             <ul>
                 <li><b>Noble Sardine</b> (Has 2 Skills):</li>
                 <ul>
@@ -1080,7 +1080,7 @@ const CrestBossGuides = [
                 to Burn it for extra damage and finish it off after its 30% HP threshold as quickly as possible. Nuke compositions will not 
                 be listed here, do check out the in-game leaderboards for ideas.
             </p></center>
-            <b><h4><u>Recommended Units</u></h4></b>
+            <b><h4><u><center>Recommended Units</center></u></h4></b>
             <ul>
                 <li>
                     <b>Thetis/Miranda/Gerald &gt; Naofumi/Celia/b>
@@ -1179,7 +1179,7 @@ const CrestBossGuides = [
                 disgusting amount of damage even to Light & Dark past 50% HP, especially if you decide to use a taunt-tank such as Naofumi 
                 or Thetis. Nuke compositions will not be detailed here.
             </p></center>
-            <b><h4><u>Recommended Units</u></h4></b>
+            <b><h4><u><center>Recommended Units</center></u></h4></b>
             <ul>
                 <li>
                     <b>Miranda &gt;&gt; Naofumi/Celia &gt; Thetis &gt; Dark Zeorg/b>
@@ -1224,7 +1224,7 @@ const CrestBossGuides = [
                 50%(?) Poison RES
             </center><br />
             <h3><center>Mechanics</center></h3>
-            <b><u>Special Mobs</u></b>
+            <b><u><center>Special Mobs</center></u></b>
             <ul>
                 <li><b>Magibeast Gaul</b></li>
                 <ul>
@@ -1282,7 +1282,7 @@ const CrestBossGuides = [
                 recommended for non-nukes such as Pola, Kurama, etc. Nuke compositions will not be detailed here as there are a wide 
                 variety of them.            
             </p></center>
-            <b><h4><u>Recommended Units</u></h4></b>
+            <b><h4><u><center>Recommended Units</center></u></h4></b>
             <ul>
                 <li>
                     <b>Pola/Kurama/Saku/Keit/Mixie &gt; Aesis</b>
@@ -1316,7 +1316,7 @@ const CrestBossGuides = [
                 50% Blind RES
             </center><br />
             <h3><center>Mechanics</center></h3>
-            <b><u>Special Mobs</u></b>
+            <b><u><center>Special Mobs</center></u></b>
             <ul>
                 <li><b>Gernose</b></li>
                 <ul>
@@ -1387,7 +1387,7 @@ const CrestBossGuides = [
                 recommended to check out the recent clears for some team ideas as this boss is not very flexible, requiring high-end units and equips. 
                 Nuke compositions will not be detailed here due to the very high requirements needed.                       
             </p></center>
-            <b><h4><u>Recommended Units</u></h4></b>
+            <b><h4><u><center>Recommended Units</center></u></h4></b>
             <ul>
                 <li>
                     <b>Voghan</b>
@@ -1489,7 +1489,7 @@ const CrestBossGuides = [
             <p><center>
                 <b>Note:</b> The ArtsDrain and Damage past 50% HP is immense. It’s highly recommended you defeat the boss as fast as possible once passed this threshold or even Thetis will have trouble sustaining unless you quite literally supply him with a mountain of ArtsGen to combat the ArtsDrain.            
             </p></center>
-            <b><h4><u>Recommended Units</u></h4></b>
+            <b><h4><u><center>Recommended Units</center></u></h4></b>
             <ul>
                 <li>
                     <b>Thetis/Naofumi &gt; Gerald</b>
@@ -1524,7 +1524,7 @@ const CrestBossGuides = [
                 Race: Demon <br />
             </center><br />
             <h3><center>Mechanics</center></h3>
-            <b><u>Special Mobs</u></b>
+            <b><u><center>Special Mobs</center></u></b>
             <ul>
                 <li><b>Bloody Bat</b></li>
                 <ul>
@@ -1600,7 +1600,7 @@ const CrestBossGuides = [
             <p><center>
                 This crest boss is NOT recommended for newer players. Being one of the hardest currently available crest bosses in Global, it requires a well developed unit and equipment box. It is recommended to check out the recent clears for some team ideas as this boss is not very flexible, requiring high-end units and equips.            
             </p></center>
-            <b><h4><u>Recommended Units</u></h4></b>
+            <b><h4><u><center>Recommended Units</center></u></h4></b>
             <ul>
                 <li>
                     <b>Duke</b>
