@@ -11181,7 +11181,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `60s CT - 4444% Dark DMG (Magic). If this attack hits a Boss with Status Ailments, steal 20 Arts gauge from it. Reduce Enemies' Blind RES by 50% for 6s.`,
+                skill: `60s CT - 4444% Dark DMG (Magic). If this attack hits a Boss with Status Ailments, steal 20 Arts gauge from it. Reduce Enemies' Blind resistance by 50% for 6s.`,
                 break: 1000
             },
         passive: 
@@ -28645,10 +28645,9 @@ const EquipInformation = [
             },
         lore: `Leone's cute leotard-style swimsuit, unaltered in any way. She tried it on one year later, and the comfortable fit sent a chill down her spine. It was impossible she had not grown; her daily snack included a glass of nutritious milk. Then, she remembered her sister would be a reliable source of information on the matter. That glimmer of hope in her eyes made it clear she was unaware of what disappointment the future held.`
     },
-{ //真『シューティングスター』 (Valerie TW) - JP Complete
+{ //True 'Shooting Star' - Missing Lore
         id: 110451,
-        name: `真『シューティングスター』`,
-        translate: `True 'Shooting Star'`,
+        name: `True 'Shooting Star'`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -28675,12 +28674,11 @@ const EquipInformation = [
                 ability1: `When equipped by Valerie, increase own DMG by 30% and Arts gauge by 2/s (Only once).`,
                 ability2: `Physical resistance 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //シューティングスター (Valerie Farmable) - JP Complete
+{ //Shooting Star - Missing Lore
         id: 110461,
-        name: `シューティングスター`,
-        translate: `'Shooting Star'`,
+        name: `Shooting Star`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -28698,18 +28696,18 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `40s CT - 7000% Water DMG (Physical). Consumes 20% of Max HP. Reduce enemy's Physical and Water resistance by 20% for 10s.`,
+                skill: `40s CT - 7000% Water DMG (Physical). Costs 20% of Max HP. Reduce enemy's Physical and Water resistance by 20% for 10s.`,
                 break: 500
             },
         passive: 
             {
                 ability1: `ATK 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //ロッキンハート (Valerie Farmable) - JP Complete
+{ //Studded Heart - Missing Lore
         id: 110471,
-        name: `ロッキンハート`,
+        name: `Studded Heart`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -28732,9 +28730,9 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Skill DMG 10% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //Charlotte's Pure Ruffles - Complete
         id: 110481,
@@ -29858,7 +29856,7 @@ const EquipInformation = [
         passive: 
             {
                 ability1: `When equipped by Star God Liza, increase all stats and Skill CT REC by 20% (Only once).`,
-                ability2: `MAG DMG 10% UP.`
+                ability2: `Magic DMG 10% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -29888,7 +29886,7 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `MAG DMG 10% UP.`
+                ability1: `Magic DMG 10% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -30289,12 +30287,72 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `55s CT - 4000% Non-Elemental DMG (Physical). Reduce Giant Bosses' DMG resistance by 15% for 8s. `,
+                skill: `55s CT - 4000% Non-Elemental DMG (Physical). Reduce Giant Bosses' DMG resistance by 15% for 8s.`,
                 break: 400
             },
         passive: 
             {
                 ability1: `Disease Time Reduction & Disease Evasion rate 10% UP.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //邪なる沼の女神像 (Light F15 Equip) - JP Complete
+        id: 111011,
+        name: `邪なる沼の女神像`,
+        translate: `Goddess Statue of the Evil Swamp`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111010.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111011.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111010.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111011.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 1200% Dark DMG (Magic). If user is Dark, reduce enemies' Magic resistance by 20% for 8s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `Status Ailment resistance 20% DOWN.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //聖なる祠の女神像 (Dark F15 Equip) - JP Complete
+        id: 111021,
+        name: `聖なる祠の女神像`,
+        translate: `Goddess Statue of the Sacred Shrine`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111020.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111021.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111020.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111021.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 1200% Light DMG (Magic). If user is Light, reduce enemies' Magic resistance by 20% for 8s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `Status Ailment resistance 20% DOWN.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -31270,7 +31328,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `35s CT - 13000% Dark DMG (Physical). For 8s, reduce enemies' PHY resistance and CRI resistance by 30%.`,
+                skill: `35s CT - 13000% Dark DMG (Physical). For 8s, reduce enemies' Physical resistance and CRI resistance by 30%.`,
                 break: 2000
             },
         passive: 
@@ -31522,7 +31580,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-    { //剣聖の証【翠】 - JP Complete
+    { //剣聖の証【翠】(Stiria Mines Equip) - JP Complete
         id: 111451,
         name: `氷精靴『フロストヴァイト』`,
         translate: `Ice Boots 'Frostbite'`,
@@ -31543,7 +31601,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `30s CT - Increase all allies' Fire RES by 30% for 15s. Freeze ownself for 7s.`,
+                skill: `30s CT - Increase all allies' Fire resistance by 30% for 15s. Freeze ownself for 7s.`,
                 break: 0
             },
         passive: 
@@ -38852,7 +38910,249 @@ const EquipInformation = [
                 ability2: [`DEF 5% UP.`, `DEF 10% UP.`, `MAX HP 5% UP.`, `DMG to Demons 10% UP.`, `Break power 2% UP.`, `All allies' HP Heal amount 5% UP (Except Lifesteal).`]
             },
         lore: `Rimuru made this based on past New Year memories after seeing Reigrad's celebration. It was originally just an accessory to complete the look with his Haori, but Rimuru truly appreciates its high defensive power and warmth.`
-    }
+    },
+    { //真『マジカルルビー』 - JP Complete
+        id: 1523111,
+        name: `真『マジカルルビー』`,
+        translate: `True 'Magical Ruby'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152310.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152311_pris.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152310.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152311_pris.png`
+            },
+            stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 6000% Light DMG (Magic). If own HP is 80% or above, increase own Magic DMG by 70% for 10s. If own HP is below 80%, heal 20% of MAX HP instead.`,
+                break: 700
+            },
+        passive: 
+            {
+                ability1: `When equipped by Illya, increase own DMG and stats by 20% (No Duplication).`,
+                ability2: `Increase ATK by 5%.`
+            },
+        lore: `Currently unreleased on Global.`
+    },
+    { //真『宝石剣ゼルレッチ』 - JP Complete
+        id: 1523211,
+        name: `真『宝石剣ゼルレッチ』`,
+        translate: `True 'Jeweled Sword of Zelretch'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152320.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152321_pris.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152320.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152321_pris.png`
+            },
+            stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `45s CT - 6000% Fire DMG (Magic). Consume 2%/s of own max HP, increase Allies' Arts by 4/s and increase Fire Allies' DMG by 40% for 10s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `When equipped by Rin & Luvia, increase own Arts by 2/s and ATK by 30% (No Duplication).`,
+                ability2: `Increase Magic resistance by 5%.`
+            },
+        lore: `Currently unreleased on Global.`
+    },
+    { //マジカルルビー - JP Complete
+        id: 1523311,
+        name: `マジカルルビー`,
+        translate: `Magical Ruby`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152330.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152331_pris.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152330.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152331_pris.png`
+            },
+            stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 8000% Light DMG (Magic). Reduce enemies' Light resistance by 40% for 10s. If user is Human, reduce enemies' Light resistance by 60% instead.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased on Global.`
+    },
+    { //約束された勝利の剣 - JP Complete
+        id: 1523411,
+        name: `約束された勝利の剣`,
+        translate: `Sword of Promised Victory`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152340.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152341_pris.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152340.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152341_pris.png`
+            },
+            stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `75s CT - 16000% Light DMG (Physical). Increase own ATK by 80% for 10s. If user is Light, increase own ATK by 130% instead.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased on Global.`
+    },
+    { //イリヤの服(セイバーver.) - JP Complete
+        id: 152351,
+        name: `イリヤの服(セイバーver.)`,
+        translate: `Illya's Clothes (Saber ver.)`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152350.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152351.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152350.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152351.png`
+            },
+            stats:
+            {
+                hp: 60,
+                atk: 30,
+                def: 30
+            },
+        skillset:  
+            {
+                skill: `40s CT - Increase all allies' Arts gauge by 20. If user is Human, increase all allies' DMG resistance by 15% for 15s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased on Global.`
+    },
+    { //宝石剣ゼルレッチ - JP Complete
+        id: 152361,
+        name: `宝石剣ゼルレッチ`,
+        translate: `Jeweled Sword of Zelretch`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152360.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152361.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152360.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152361.png`
+            },
+            stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `55s CT - Increase all allies' Arts gauge by 4/s and increase all Human allies' CRI rate by 100% for 10s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased on Global.`
+    },
+    { //遠坂凛の服 - JP Complete
+        id: 152371,
+        name: `遠坂凛の服`,
+        translate: `Rin Tohsaka's Clothes`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152370.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152371.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152370.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152371.png`
+            },
+            stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 4000% Fire DMG (Magic). Increase own Magic DMG by 50% for 10s. Increase own Arts gauge by 30. When used for the first time, increase own Arts gauge by 80 instead.`,
+                break: 300
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased on Global.`
+    },
+    { //イリヤの服 - JP Complete
+        id: 152381,
+        name: `イリヤの服`,
+        translate: `Illya's Clothes`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152380.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152381.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152380.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152381.png`
+            },
+            stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `55s CT - Increase all allies' DMG resistance by 10% and all Light allies' DMG resistance by 10% for 20s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `BE Output 5% UP.`
+            },
+        lore: `Currently unreleased on Global.`
+    },
 ]
 
 export function getEquips() {

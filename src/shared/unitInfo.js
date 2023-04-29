@@ -28026,6 +28026,168 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global.",
                 evosuper: "Currently unreleased in Global."
             }
+    },
+    { // Illya - Missing Lore (JP)
+        id: 107737412,
+        name: "Illya",
+        attribute: "Light",
+        type: "Human",
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_107736412.png",
+                detailsuper: "/db/Units/Detail/unit_detail_107737412.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107736412.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107737412.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/defLB.png",
+                slot32type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats: 
+            {
+                hp: 7648,
+                hpplus: 1409,
+                atk: 3528,
+                atkplus: 677,
+                def: 3080,
+                defplus: 585
+            },
+        skillset: 
+            {
+                skill: `12s CT - 2200% Light DMG (MAG). Increase own Arts by 30.`,
+                skillbreak: 500,
+                arts: `18000% Light DMG (MAG). For 15s, reduce Enemies' Light RES by 50%.`,
+                artsbreak: 800,
+                truearts: `55000% Light DMG (MAG). For 25s, increase Allies' Critical Rate by 100% + For 25s, if Allies are above 50% HP, increase their Arts by 5/s.`,
+                trueartsbreak: 1500,
+                superarts: `150000% Light DMG (MAG). For 20s, increase own DMG based on how high own current HP is (up to 300%).`,
+                superartsbreak: 2000
+            },
+        passive: 
+            {
+                ability1: `Whenever Illya uses her Arts, True Arts or Super Arts, increase own Arts by 50 if own HP is above 90%. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DMG against Dark Enemies by 20%.`,
+                ability3: `Increase own accuracy by 30%.`,
+                ability4: `Increase Unit EXP by 20% (When Illya's SP Illustration is owned).`,
+                ability5: `At the Start of a Quest, increase own Arts by 10. Does not stack with Abilities of the same name (When Illya's SP Illustration is owned).`
+            }, 
+        trueweapon: //If no TW, may delete this section
+            {
+                name: "Magical Ruby",
+                slot: "/db/Mines/thumbnail/magLB.png",
+                detail: "/db/Equipment/Detail/item_detail_152311_pris.png",
+                skill: "45s CT - 6000% Light DMG (MAG). If own HP is 80% or above, for 10s, increase own MAG DMG by 70%. If own HP is below 80%, heal 20% of MAX HP instead.",
+                skillbreak: 700,
+                passive: 
+                    {
+                        ability1: "When equipped by Illya, increase own DMG and stats by 20%. Does not stack with Abilities of the same name.",
+                        ability2: "Increase ATK by 5%."
+                        
+                    }
+            },
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
+                    mat2amt: 100,
+                    hover2: "God's Spirit Orb"
+                }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { // Rin & Luvia - Missing Lore (JP)
+        id: 107767112,
+        name: "Rin & Luvia",
+        attribute: "Fire",
+        type: "Human",
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_107766112.png",
+                detailsuper: "/db/Units/Detail/unit_detail_107767112.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107766112.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107767112.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/suppLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/healLB.png",
+                slot32type: "/db/Mines/thumbnail/magLB.png"
+            },
+        stats: 
+            {
+                hp: 7935,
+                hpplus: 1430,
+                atk: 3245,
+                atkplus: 640,
+                def: 3047,
+                defplus: 580
+            },
+        skillset: 
+            {
+                skill: `11s CT - 1300% Fire DMG (MAG). For 8s, increase Fire Allies' Arts by 4.`,
+                skillbreak: 1000,
+                arts: `18000% Fire DMG (MAG). 100% Chance to inflict Burn. If this Arts inflicts Burn, for 25s, reduce Burnt Enemies' Fire RES by 50%.`,
+                artsbreak: 1800,
+                truearts: `50000% Fire DMG (MAG). For 25s, reduce Enemies' DMG RES by 70% & Burn RES by 50%.`,
+                trueartsbreak: 2500,
+                superarts: `120000% Fire DMG (MAG). For 40s, increase Allies' MAG DMG by 150% & reduce Enemies' MAG RES by 100%.`,
+                superartsbreak: 3500
+            },
+        passive: 
+            {
+                ability1: `Each time Arts inflicts Burn on an Enemy, permanently increase Allies' DMG by 30% (up to 300%).`,
+                ability2: `Increase own MAG RES by 15%.`,
+                ability3: `Increase own Equipment CT REC by 15%.`,
+                ability4: `Increase Unit EXP by 20% (When Rin & Luvia's SP Illustration is owned).`,
+                ability5: `At the Start of a Quest, increase own Arts by 10. Does not stack with Abilities of the same name (When Rin & Luvia's SP Illustration is owned).`
+            }, 
+        trueweapon: //If no TW, may delete this section
+            {
+                name: "Jeweled Sword of Zelretch",
+                slot: "/db/Mines/thumbnail/suppLB.png",
+                detail: "/db/Equipment/Detail/item_detail_152321_pris.png",
+                skill: "45s CT - 6000% Fire DMG (MAG). For 10s, consume 2%/s of own max HP, increase Allies' Arts by 4/s and increase Fire Allies' DMG by 40%.",
+                skillbreak: 500,
+                passive: 
+                    {
+                        ability1: "When equipped by Rin & Luvia, increase own Arts by 2/s and ATK by 30%. Does not stack with Abilities of the same name.",
+                        ability2: "Increase MAG RES by 5%."
+                        
+                    }
+            },
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_130853.png",
+                    mat2amt: 100,
+                    hover2: "Flame Fox Spirit Orb"
+                }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
     }
 
 ];
