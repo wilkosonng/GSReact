@@ -200,6 +200,12 @@ function RenderPassives({ unitPassive, isReview, unitReview }) {
                         {isReview && unitReview.ability4 && <UnitReviews review={unitReview.ability4} />}
                     </> 
                 }
+                { unitPassive.ability5 && 
+                    <>
+                        <li>{unitPassive.ability5}</li>
+                        {isReview && unitReview.ability5 && <UnitReviews review={unitReview.ability5} />}
+                    </> 
+                }
             </List>
         </Row>
     )
