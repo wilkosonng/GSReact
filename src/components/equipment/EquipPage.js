@@ -164,13 +164,13 @@ const Equips = () => {
                                     { equip.name !== "???" &&
                                         <Col key={equip.id} xs="4" sm="auto">
                                             <center>
-                                                <Card style={{maxWidth: "80px", backgroundColor: "#202022", border: "none"}}>
+                                                <Card style={{width: "120px", backgroundColor: "#202022", border: "none"}}>
                                                     <Link to={`/equips/${equip.name}`} style={{textDecoration: "none", color: "#aaabb8"}} >
                                                         <Placeholder type="rect" rows={1} ready={ equip.image.thumbmax !== "" } >
-                                                            <Media src={equip.image.thumbmax} alt={equip.name} width="100%" height="auto" object-fit="cover" />
+                                                            <Media src={equip.image.thumbmax} alt={equip.name} style={{maxWidth: "80px", width:"100%", height:"auto", objectFit:"cover"}} />
                                                         </Placeholder>
                                                         <Placeholder rows={1} ready={equips.image?.thumbmax !== ""} >
-                                                            <center><p style={{display: "inline-block", marginLeft: "-8px", marginRight: "-2px"}}>{equip.name}</p></center>
+                                                            <center><p style={{display: "inline-block", marginLeft: "-8px", marginRight: "-2px", width: "100%"}}>{equip.name}</p></center>
                                                         </Placeholder>
                                                     </Link>
                                                 </Card>
