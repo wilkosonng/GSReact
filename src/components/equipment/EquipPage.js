@@ -1,9 +1,12 @@
 import { useState } from 'react';
-import { Container, Row, Col, Media, Card, CardHeader, CardBody, Accordion, AccordionItem, AccordionBody, AccordionHeader } from 'reactstrap';
+import { Container, Row, Col, Media, Card, CardHeader, CardBody, Accordion, AccordionItem, AccordionBody, AccordionHeader,
+        Pagination, PaginationItem, PaginationLink } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import { getEquips } from '../../shared/equipInfo';
+import { Default, Mobile } from '../MobileCheckComponent';
 import Placeholder from 'react-placeholder';
 import 'react-placeholder/lib/reactPlaceholder.css';
+import '../../App.css';
 
 const Equips = () => {
     //Obtain Equipment Data
@@ -53,7 +56,16 @@ const Equips = () => {
             },
         });
 
+        //Set page to 1st on each filter change
+        setCurrentPage(1)
     };
+
+    //Sort Options
+    const [sortOrder, setSortOrder] = useState("default")
+
+    //Default amount of Equips per page
+    const [equipsPerPage, setEquipsPerPage] = useState(100)
+    const [currentPage, setCurrentPage] = useState(1)
 
     //Display Equipment Thumbnails
     return (
@@ -96,95 +108,224 @@ const Equips = () => {
                 </Row>
 
                 <Row style={{ marginLeft: "5%", marginRight: "5%"}}>
-                    <center>
-                        <input placeholder='Search Equipment Name'
-                                onChange={e => setQuery(e.target.value)}
-                                style={{
-                                    display: "flex",
-                                    width: "100%",
-                                    maxWidth: "790px",
-                                    height: "auto",
-                                    marginBottom: "2rem",
-                                    flexDirection: "column",
-                                    justifyContent: "center",
-                                    alignItems: "center"
-                                }} />
-                    </center>
+                    <RenderSearch setQuery={setQuery} setCurrentPage={setCurrentPage} />
+                    <Col>
+                        <RenderSortOptions sortOrder={sortOrder} setSortOrder={setSortOrder} />
+                    </Col>
+                    <Col>
+                        <RenderEquipAmount equips={equips} setEquipsPerPage={setEquipsPerPage} equipsPerPage={equipsPerPage} setCurrentPage={setCurrentPage} />
+                    </Col>
                 </Row>
-                <Row>
-                    {
-                        equips.filter(equip => {
-                            const isGlobalChecked = filters.server.Global
-                            const isUnreleasedChecked = filters.server.Unreleased
-
-                            //Check for Server
-                            const hasMatchingServer = (isGlobalChecked && isUnreleasedChecked)
-                            || ((isGlobalChecked && !isUnreleasedChecked) && !equip.lore.toLowerCase().includes('currently unreleased in global'))
-                            || ((!isGlobalChecked && isUnreleasedChecked) && equip.lore.toLowerCase().includes('currently unreleased in global'))
-                            
-                            //Check for Types
-                            const selectedTypes = Object.keys(filters.type).filter((key) => filters.type[key])
-                            const hasMatchingTypes = selectedTypes.some((type) => equip.type.includes(`/db/Mines/thumbnail/${type}LB.png`))
-                            
-                            //Check for Rarity
-                            const selectedRarities = Object.keys(filters.rarity).filter((key) => filters.rarity[key])
-                            const hasMatchingRarities = selectedRarities.some((rarity) => {
-                                if (rarity === "one" && equip.star === 1) {
-                                    return true
-                                }
-                                if (rarity === "two" && equip.star === 2) {
-                                    return true
-                                }
-                                if (rarity === "three" && equip.star === 3) {
-                                    return true
-                                }
-                                if (rarity === "four" && equip.star === 4) {
-                                    return true
-                                }
-                                if (rarity === "five" && equip.star === 5) {
-                                    return true
-                                }
-                                if (rarity === "six" && equip.star === 6) {
-                                    return true
-                                }
-
-                                return false
-                            })
-
-                            //Check for Search
-                            const hasMatchingName = equip.name.toLowerCase().includes(query.toLowerCase())
-                            const hasMatchingTranslate = equip.translate?.toLowerCase().includes(query.toLowerCase())
-                            
-
-                            return hasMatchingServer && hasMatchingTypes && (hasMatchingName || hasMatchingTranslate) && hasMatchingRarities 
-                        })
-                        .map(equip => {
-                            return (
-                                <>
-                                    { equip.name !== "???" &&
-                                        <Col key={equip.id} xs="4" sm="auto">
-                                            <center>
-                                                <Card style={{width: "120px", backgroundColor: "#202022", border: "none"}}>
-                                                    <Link to={`/equips/${equip.name}`} style={{textDecoration: "none", color: "#aaabb8"}} >
-                                                        <Placeholder type="rect" rows={1} ready={ equip.image.thumbmax !== "" } >
-                                                            <Media src={equip.image.thumbmax} alt={equip.name} style={{maxWidth: "80px", width:"100%", height:"auto", objectFit:"cover"}} />
-                                                        </Placeholder>
-                                                        <Placeholder rows={1} ready={equips.image?.thumbmax !== ""} >
-                                                            <center><p style={{display: "inline-block", marginLeft: "-8px", marginRight: "-2px", width: "100%"}}>{equip.name}</p></center>
-                                                        </Placeholder>
-                                                    </Link>
-                                                </Card>
-                                            </center>
-                                        </Col>
-                                    }
-                                    
-                                </>
-                            )
-                        })
-                    }
-                </Row>
+                <RenderEquips equips={equips} filters={filters} query={query} sortOrder={sortOrder} 
+                        setEquipsPerPage={setEquipsPerPage} equipsPerPage={equipsPerPage} currentPage={currentPage} setCurrentPage={setCurrentPage} />
             </Container>
         </>
+    )
+}
+
+const RenderEquips = ({ equips, filters, query, sortOrder, equipsPerPage, currentPage, setCurrentPage }) => {
+    const filteredEquips = equips
+        .filter(equip => {
+            const isGlobalChecked = filters.server.Global
+            const isUnreleasedChecked = filters.server.Unreleased
+
+            //Check for Server
+            const hasMatchingServer = (isGlobalChecked && isUnreleasedChecked)
+            || ((isGlobalChecked && !isUnreleasedChecked) && !equip.lore.toLowerCase().includes('currently unreleased in global'))
+            || ((!isGlobalChecked && isUnreleasedChecked) && equip.lore.toLowerCase().includes('currently unreleased in global'))
+            
+            //Check for Types
+            const selectedTypes = Object.keys(filters.type).filter((key) => filters.type[key])
+            const hasMatchingTypes = selectedTypes.some((type) => equip.type.includes(`/db/Mines/thumbnail/${type}LB.png`))
+            
+            //Check for Rarity
+            const selectedRarities = Object.keys(filters.rarity).filter((key) => filters.rarity[key])
+            const hasMatchingRarities = selectedRarities.some((rarity) => {
+                if (rarity === "one" && equip.star === 1) {
+                    return true
+                }
+                if (rarity === "two" && equip.star === 2) {
+                    return true
+                }
+                if (rarity === "three" && equip.star === 3) {
+                    return true
+                }
+                if (rarity === "four" && equip.star === 4) {
+                    return true
+                }
+                if (rarity === "five" && equip.star === 5) {
+                    return true
+                }
+                if (rarity === "six" && equip.star === 6) {
+                    return true
+                }
+
+                return false
+            })
+        
+        //Check for Search
+        const hasMatchingName = equip.name.toLowerCase().includes(query.toLowerCase())
+        const hasMatchingTranslate = equip.translate?.toLowerCase().includes(query.toLowerCase())
+        
+
+        return hasMatchingServer && hasMatchingTypes && (hasMatchingName || hasMatchingTranslate) && hasMatchingRarities 
+        })
+    .sort((a, b) => {
+            //Default Sort
+            if(sortOrder === "default") return a.id - b.id
+
+            //If Type Order checked
+            const typeOrder = ['/db/Mines/thumbnail/physLB.png', `/db/Mines/thumbnail/magLB.png`, `/db/Mines/thumbnail/defLB.png`, `/db/Mines/thumbnail/healLB.png`, `/db/Mines/thumbnail/suppLB.png`]
+            return typeOrder.indexOf(a.type) - typeOrder.indexOf(b.type)
+        })
+
+    //Determine Page amount
+    const totalEquips = filteredEquips.length
+    const totalPages = Math.ceil(totalEquips / equipsPerPage)
+
+    const handlePageChange = ( pageNumber ) => {
+        //Update Page when clicked
+        setCurrentPage(pageNumber)
+    }
+
+    //Determine what equips to show per page
+    const indexOfLastEquip = currentPage * equipsPerPage
+    const indexOfFirstEquip = indexOfLastEquip - equipsPerPage
+    const equipsToShow = filteredEquips.slice(indexOfFirstEquip, indexOfLastEquip)
+
+    //Render Pagination with Equips
+    return (
+        <Row style={{ marginTop: "1rem"}}>
+            <Pagination aria-label="Equip Pages">
+                <PaginationItem disabled={ currentPage <= 1 }>
+                    <PaginationLink previous href="#" onClick={() => handlePageChange( currentPage - 1 )} />
+                </PaginationItem>
+                {
+                    [...Array(totalPages)].map((_, index) => {
+                        return (
+                            <PaginationItem active={ index + 1 === currentPage } key={index}>
+                                <PaginationLink href="#" onClick={() => handlePageChange(index + 1)}>
+                                    {index + 1}
+                                </PaginationLink>
+                            </PaginationItem>
+                        )
+                    })
+                }
+                <PaginationItem disabled={ currentPage >= totalPages }>
+                    <PaginationLink next href="#" onClick={() => handlePageChange(currentPage + 1)} />
+                </PaginationItem>
+            </Pagination>
+            {
+                equipsToShow.map(equip => {
+                    return (
+                        <>
+                            { equip.name !== "???" &&
+                                <Col key={equip.id} xs="4" sm="auto">
+                                    <center>
+                                        <Card style={{width: "120px", backgroundColor: "#202022", border: "none"}}>
+                                            <Link to={`/equips/${equip.name}`} style={{textDecoration: "none", color: "#aaabb8"}} >
+                                                <Placeholder type="rect" rows={1} ready={ equip.image.thumbmax !== "" } >
+                                                    <Media src={equip.image.thumbmax} alt={equip.name} style={{maxWidth: "80px", width:"100%", height:"auto", objectFit:"cover"}} />
+                                                </Placeholder>
+                                                <Placeholder rows={1} ready={equips.image?.thumbmax !== ""} >
+                                                    <center><p style={{display: "inline-block", marginLeft: "-8px", marginRight: "-2px", width: "100%"}}>{equip.name}</p></center>
+                                                </Placeholder>
+                                            </Link>
+                                        </Card>
+                                    </center>
+                                </Col>
+                            }
+                            
+                        </>
+                    )
+                })
+            }
+            <Pagination aria-label="Equip Pages">
+                <PaginationItem disabled={ currentPage <= 1 }>
+                    <PaginationLink previous href="#" onClick={() => handlePageChange( currentPage - 1 )} />
+                </PaginationItem>
+                {
+                    [...Array(totalPages)].map((_, index) => {
+                        return (
+                            <PaginationItem active={ index + 1 === currentPage } key={index}>
+                                <PaginationLink href="#" onClick={() => handlePageChange(index + 1)}>
+                                    {index + 1}
+                                </PaginationLink>
+                            </PaginationItem>
+                        )
+                    })
+                }
+                <PaginationItem disabled={ currentPage >= totalPages }>
+                    <PaginationLink next href="#" onClick={() => handlePageChange(currentPage + 1)} />
+                </PaginationItem>
+            </Pagination>
+        </Row>
+    )
+}
+
+const RenderSearch = ({ setQuery, setCurrentPage }) => {
+    const handleSearch = (e) => {
+        setQuery(e.target.value)
+        setCurrentPage(1)
+    }
+
+    return (
+        <center>
+            <input placeholder='Search Equipment Name'
+                    onChange={handleSearch}
+                    style={{
+                        display: "flex",
+                        width: "100%",
+                        maxWidth: "790px",
+                        height: "auto",
+                        marginBottom: "2rem",
+                        flexDirection: "column",
+                        justifyContent: "center",
+                        alignItems: "center"
+                    }} />
+        </center>
+    )
+}
+
+const RenderSortOptions = ({ sortOrder, setSortOrder }) => {
+    return (
+        <div className="sort-options">
+            <div style={{ marginRight: ".2rem"}}>Sort By:</div>
+            <label style={{ backgroundColor: sortOrder === "default" ? "#5b5b5b" : "" }}>
+                <input type="radio"
+                        value="default"
+                        checked={ sortOrder === "default" }
+                        onChange={() => setSortOrder("default")} 
+                        />
+                <center>ID</center>
+            </label>
+            <label style={{ backgroundColor: sortOrder === "type" ? "#5b5b5b" : "" }}>
+                <input type="radio"
+                        value="type"
+                        checked={ sortOrder === "type" }
+                        onChange={() => setSortOrder("type")} />
+                <center>Type</center>
+            </label>
+        </div>
+    )
+}
+
+const RenderEquipAmount = ({ setEquipsPerPage, equipsPerPage, equips, setCurrentPage }) => {
+    const handleSelectChange = (e) => {
+        setEquipsPerPage(e.target.value)
+        setCurrentPage(1)
+    }
+
+    return (
+        <div className="page-sort-options">
+            <div style={{ marginRight: ".2rem"}}>Show:</div>
+            <select value={equipsPerPage} onChange={handleSelectChange}>
+                <option value="50">50</option>
+                <option value="100">100</option>
+                <option value="200">200</option>
+                <option value={equips.length}>All</option>
+            </select>
+        </div>
     )
 }
 
