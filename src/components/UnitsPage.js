@@ -1,5 +1,5 @@
-import React, {useState} from 'react';
-import { Container, Row, Col, Media, Card, CardHeader, CardBody, Accordion, AccordionBody, AccordionHeader, AccordionItem } from 'reactstrap';
+import React, {useState, useEffect} from 'react';
+import { Container, Row, Col, Media, Card, CardHeader, CardBody, Accordion, AccordionBody, AccordionHeader, AccordionItem, Pagination, PaginationItem, PaginationLink } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import { getUnits } from '../shared/unitInfo';
 import Placeholder from 'react-placeholder';
@@ -56,7 +56,15 @@ export default function Units () {
             },
         });
 
+        setCurrentPage(1)
     };
+
+    //Sort Options
+    const [sortOrder, setSortOrder] = useState("default")
+
+    //Default amount of units per page
+    const [unitsPerPage, setUnitsPerPage] = useState(100); 
+    const [currentPage, setCurrentPage] = useState(1);
 
     //Display Unit Thumbnails
     return (
@@ -95,64 +103,181 @@ export default function Units () {
                     </Accordion>
                 </Row>
                 <Row style={{ marginLeft: "5%", marginRight: "5%"}}>
-                    <center>
-                        <input placeholder="Search Unit Name" onChange={e => setQuery(e.target.value)} style={{
-                            display: "flex",
-                            width: "100%",
-                            maxWidth: "790px",
-                            height: "auto",
-                            marginBottom: "2rem",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            alignItems: "center"
-                        }} />
-                    </center>
+                    <RenderSearch setQuery={setQuery} setCurrentPage={setCurrentPage} />
+                    <Col>
+                        <RenderSortOptions sortOrder={sortOrder} setSortOrder={setSortOrder}  />
+                    </Col>
+                    <Col>
+                        <RenderUnitAmount units={units} setUnitsPerPage={setUnitsPerPage} unitsPerPage={unitsPerPage} setCurrentPage={setCurrentPage}  />
+                    </Col>
                 </Row>
-                <Row style={{marginLeft: "5%", marginRight: "5%"}}>            
-                    {units
-                    .filter(unit => {
-                        const isGlobalChecked = filters.server.Global;
-                        const isJapanChecked = filters.server.Japan;
-
-                        //Check for Server
-                        const hasMatchingServer = (isGlobalChecked && isJapanChecked)
-                        || ((isGlobalChecked && !isJapanChecked) && !unit.lore.evoawk?.toLowerCase().includes('currently unreleased in global.') && !unit.name.toLowerCase().includes('kazlaser'))
-                        || ((isJapanChecked && !isGlobalChecked) && unit.lore.evoawk?.toLowerCase().includes('currently unreleased in global.') );
-
-                        //Check for Attributes
-                        const selectedAttr = Object.keys(filters.attribute).filter((key) => filters.attribute[key])
-                        const hasMatchingAttr = selectedAttr.some((attr) => unit.attribute.includes(attr))
-
-                        //Check for Types
-                        const selectedTypes = Object.keys(filters.type).filter((key) => filters.type[key])
-                        const hasMatchingTypes = selectedTypes.some((type) => unit.type.includes(type))
-
-                        //Check for Search
-                        const hasMatchingName = unit.name.toLowerCase().includes(query.toLowerCase());
-
-                        return hasMatchingAttr && hasMatchingTypes && hasMatchingName && hasMatchingServer
-                    })
-                    .map(unit => {
-                        if(unit.image.thumbsuper){
-                            return (
-                                <RenderThumbnail thumbnail={unit.image.thumbsuper} name={unit.name} />
-                            );
-                        }
-                        else if(unit.image.thumbawk){
-                            return (
-                                <RenderThumbnail thumbnail={unit.image.thumbawk} name={unit.name} />
-                            );
-                        }
-                        else {
-                            return (
-                                <RenderThumbnail thumbnail={unit.image.thumb5} name={unit.name} />
-                            );
-                        }
-                    })}
-                </Row>
+                <RenderUnits units={units} filters={filters} query={query} sortOrder={sortOrder} setUnitsPerPage={setUnitsPerPage} unitsPerPage={unitsPerPage} currentPage={currentPage} setCurrentPage={setCurrentPage} />
             </Container>
         </React.Fragment>
     );
+}
+
+const RenderUnits = ({ units, filters, query, sortOrder, unitsPerPage, currentPage, setCurrentPage, setUnitsPerPage }) => {
+    const filteredUnits = units
+    .filter(unit => {
+        const isGlobalChecked = filters.server.Global;
+        const isJapanChecked = filters.server.Japan;
+
+        //Check for Server
+        const hasMatchingServer = (isGlobalChecked && isJapanChecked)
+        || ((isGlobalChecked && !isJapanChecked) && !unit.lore.evoawk?.toLowerCase().includes('currently unreleased in global.') && !unit.name.toLowerCase().includes('kazlaser'))
+        || ((isJapanChecked && !isGlobalChecked) && unit.lore.evoawk?.toLowerCase().includes('currently unreleased in global.') );
+
+        //Check for Attributes
+        const selectedAttr = Object.keys(filters.attribute).filter((key) => filters.attribute[key])
+        const hasMatchingAttr = selectedAttr.some((attr) => unit.attribute.includes(attr))
+
+        //Check for Types
+        const selectedTypes = Object.keys(filters.type).filter((key) => filters.type[key])
+        const hasMatchingTypes = selectedTypes.some((type) => unit.type.includes(type))
+
+        //Check for Search
+        const hasMatchingName = unit.name.toLowerCase().includes(query.toLowerCase());
+
+        return hasMatchingAttr && hasMatchingTypes && hasMatchingName && hasMatchingServer
+    })
+    .sort((a, b) => {
+        //Default Sorting
+        if (sortOrder === "default") return a.id - b.id
+
+        //If Attribute Order is checked
+        const attrOrder = ['Fire', 'Water', 'Earth', 'Light', 'Dark']
+        return attrOrder.indexOf(a.attribute) - attrOrder.indexOf(b.attribute)
+    })
+
+    const totalUnits = filteredUnits.length;
+    const totalPages = Math.ceil(totalUnits / unitsPerPage);
+
+    function handlePageChange(pageNumber) {
+        setCurrentPage(pageNumber);
+    }
+
+    const indexOfLastUnit = currentPage * unitsPerPage;
+    const indexOfFirstUnit = indexOfLastUnit - unitsPerPage;
+    const unitsToShow = filteredUnits.slice(indexOfFirstUnit, indexOfLastUnit);
+
+    return (
+        <Row style={{marginLeft: "5%", marginRight: "5%", marginTop: "1rem"}}>
+            <Pagination aria-label="Unit Pages">
+                <PaginationItem disabled={currentPage <= 1}>
+                <PaginationLink previous href="#" onClick={() => handlePageChange(currentPage - 1)} />
+                </PaginationItem>
+                {[...Array(totalPages)].map((_, index) => (
+                <PaginationItem active={index + 1 === currentPage} key={index}>
+                    <PaginationLink href="#" onClick={() => handlePageChange(index + 1)}>
+                    {index + 1}
+                    </PaginationLink>
+                </PaginationItem>
+                ))}
+                <PaginationItem disabled={currentPage >= totalPages}>
+                <PaginationLink next href="#" onClick={() => handlePageChange(currentPage + 1)} />
+                </PaginationItem>
+            </Pagination>       
+            {
+            unitsToShow
+            .map(unit => {
+                if(unit.image.thumbsuper){
+                    return (
+                        <RenderThumbnail thumbnail={unit.image.thumbsuper} name={unit.name} key={unit.id} />
+                    );
+                }
+                else if(unit.image.thumbawk){
+                    return (
+                        <RenderThumbnail thumbnail={unit.image.thumbawk} name={unit.name} key={unit.id} />
+                    );
+                }
+                else {
+                    return (
+                        <RenderThumbnail thumbnail={unit.image.thumb5} name={unit.name} key={unit.id} />
+                    );
+                }
+            })}
+            <Pagination aria-label="Unit Pages">
+                <PaginationItem disabled={currentPage <= 1}>
+                <PaginationLink previous href="#" onClick={() => handlePageChange(currentPage - 1)} />
+                </PaginationItem>
+                {[...Array(totalPages)].map((_, index) => (
+                <PaginationItem active={index + 1 === currentPage} key={index}>
+                    <PaginationLink href="#" onClick={() => handlePageChange(index + 1)}>
+                    {index + 1}
+                    </PaginationLink>
+                </PaginationItem>
+                ))}
+                <PaginationItem disabled={currentPage >= totalPages}>
+                <PaginationLink next href="#" onClick={() => handlePageChange(currentPage + 1)} />
+                </PaginationItem>
+            </Pagination>
+        </Row>
+    )
+}
+
+const RenderSearch = ({ setQuery, setCurrentPage }) => {
+    const handleSearch = (e) => {
+        setQuery(e.target.value)
+        setCurrentPage(1)
+    }
+
+    return (
+        <center>
+            <input placeholder="Search Unit Name" onChange={handleSearch} style={{
+                display: "flex",
+                width: "100%",
+                maxWidth: "790px",
+                height: "auto",
+                marginBottom: "2rem",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center"
+            }} />
+        </center>
+    )
+}
+
+const RenderSortOptions = ({ sortOrder, setSortOrder }) => {
+    return (
+        <div className="sort-options">
+            <div style={{ marginRight: ".2rem"}}>Sort By:</div>
+            <label style={{ backgroundColor: sortOrder === "default" ? "#5b5b5b" : "" }}>
+                <input type="radio"
+                        value="default"
+                        checked={ sortOrder === "default" }
+                        onChange={() => setSortOrder("default")} 
+                        />
+                <center>ID</center>
+            </label>
+            <label style={{ backgroundColor: sortOrder === "element" ? "#5b5b5b" : "" }}>
+                <input type="radio"
+                        value="element"
+                        checked={ sortOrder === "element" }
+                        onChange={() => setSortOrder("element")} />
+                <center>Attribute</center>
+            </label>
+        </div>
+    )
+}
+
+const RenderUnitAmount = ({ setUnitsPerPage, unitsPerPage, units, setCurrentPage }) => {
+    const handleSelectChange = (e) => {
+        setUnitsPerPage(e.target.value)
+        setCurrentPage(1)
+    }
+
+    return (
+        <div className="page-sort-options">
+            <div style={{ marginRight: ".2rem"}}>Show:</div>
+            <select value={unitsPerPage} onChange={handleSelectChange}>
+                <option value="50">50</option>
+                <option value="100">100</option>
+                <option value="200">200</option>
+                <option value={units.length}>All</option>
+            </select>
+        </div>
+    )
 }
 
 const RenderThumbnail = ({ thumbnail, name }) => {

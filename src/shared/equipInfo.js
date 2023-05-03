@@ -5825,6 +5825,7 @@ const EquipInformation = [
     { //Evil Spear 'Berserk' - Missing Lore
         id: 102341,
         name: `Evil Spear 'Berserk'`,
+        location: `Rotating Event - The Demon's Pride (Grad)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -5854,6 +5855,7 @@ const EquipInformation = [
     { //Evil Helmet 'Nightmare' - Complete
         id: 102351,
         name: `Evil Helmet 'Nightmare'`,
+        location: `Rotating Event - The Demon's Pride (Grad)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 3,
         image: 
@@ -5883,6 +5885,7 @@ const EquipInformation = [
     { //Magic Sword 'Geshpenst' - Complete
         id: 102361,
         name: `Magic Sword 'Geshpenst'`,
+        location: `Limited Event - Revenge of the Cursed Armor (Ragsherum)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -5912,6 +5915,7 @@ const EquipInformation = [
     { //Magic Fists 'Hellshaft' - Complete
         id: 102371,
         name: `Magic Fists 'Hellshaft'`,
+        location: `Limited Event - Revenge of the Cursed Armor (Ragsherum)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -5941,6 +5945,7 @@ const EquipInformation = [
     { //Cursed Armor 'Ragsherum' - Complete
         id: 102381,
         name: `Cursed Armor 'Ragsherum'`,
+        location: `Limited Event - Revenge of the Cursed Armor (Ragsherum)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -5999,6 +6004,7 @@ const EquipInformation = [
     { //Relic 'Punish Fireblade' - Complete
         id: 102402,
         name: `Relic 'Punish Fireblade'`,
+        location: `Limited Event - Divine Spirit of Rememberance (Marzex)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -6028,6 +6034,7 @@ const EquipInformation = [
     { //Relic 'Repent Lance' - Complete
         id: 102411,
         name: `Relic 'Repent Lance'`,
+        location: `Limited Event - Divine Spirit of Rememberance (Marzex)`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -6057,6 +6064,7 @@ const EquipInformation = [
     { //Relic 'Fallen Bow' - Complete
         id: 102421,
         name: `Relic 'Fallen Bow'`,
+        location: `Limited Event - Divine Spirit of Rememberance (Marzex)`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -6086,6 +6094,7 @@ const EquipInformation = [
     { //Alchemy Tool 'Hastia' - Complete
         id: 102451,
         name: `Alchemy Tool 'Hastia'`,
+        location: `Rotating Event - Legendary Blacksmith (Gilliam)`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -6115,6 +6124,7 @@ const EquipInformation = [
     { //Alchemy Tool 'Shurain' - Complete
         id: 102461,
         name: `Alchemy Tool 'Shurain'`,
+        location: `Rotating Event - Legendary Blacksmith (Gilliam)`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -6144,6 +6154,7 @@ const EquipInformation = [
     { //Gem of Ragsherum's Grudge - Missing Lore
         id: 102471,
         name: `Gem of Ragsherum's Grudge`,
+        location: `Limited Event - Despair of the Ruthless Demon Armor (Ragsherum)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -6173,6 +6184,7 @@ const EquipInformation = [
     { //Magic Sword 'Geshpenst Type-0' - Complete
         id: 102481,
         name: `Magic Sword 'Geshpenst Type-0'`,
+        location: `Limited Event - Despair of the Ruthless Demon Armor (Ragsherum)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -6202,6 +6214,7 @@ const EquipInformation = [
     { //Divine Armor Olgrio - Complete
         id: 102491,
         name: `Divine Armor Olgrio`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -6231,6 +6244,7 @@ const EquipInformation = [
     { //Guardian Bow of Providence - Complete
         id: 102501,
         name: `Guardian Bow of Providence`,
+        location: `Main Story [Chapter 7 > The Dark Lord's Lair > [Challenge] Melia's Past] Secret Equip`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -6260,6 +6274,7 @@ const EquipInformation = [
     { //Eternal Flower Brace - Complete
         id: 102511,
         name: `Eternal Flower Brace`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
         image: 
@@ -6284,11 +6299,12 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `A brace worn by bow master Ash Toto, defender of providence. All flowers must eventually wither, but this is purely a function of their place in the greater framework of the cycle of the seasons. This brace reflects this everlasting circle of blooming and fading, bringing countless blessings to the wearer like the coming of new seasons to their heart.`
+        lore: `A brace worn by bow master Ashe Toto, defender of providence. All flowers must eventually wither, but this is purely a function of their place in the greater framework of the cycle of the seasons. This brace reflects this everlasting circle of blooming and fading, bringing countless blessings to the wearer like the coming of new seasons to their heart.`
     },
     { //Transcythe Ilzion - Complete
         id: 102521,
         name: `Transcythe Ilzion`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -7116,7 +7132,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `30s CT - 	Reduces all Allies' DMG Taken by 5% and Dark Elemental DMG Taken by 10% for 20s.`,
+                skill: `30s CT - Reduces all Allies' DMG Taken by 5% and Dark Elemental DMG Taken by 10% for 20s.`,
                 break: 0
             },
         passive: 
@@ -7308,6 +7324,7 @@ const EquipInformation = [
     { //Toy Sword 'Charlotte' - Complete
         id: 102901,
         name: `Toy Sword 'Charlotte'`,
+        location: `Limited Event - The Fabled Sword's Chosen One (Zeorg)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -7337,6 +7354,7 @@ const EquipInformation = [
     { //Holy Cape 'Hero's Triumph' - Complete
         id: 102911,
         name: `Holy Cape 'Hero's Triumph'`,
+        location: `Limited Event - The Fabled Sword's Chosen One (Zeorg)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -7366,6 +7384,7 @@ const EquipInformation = [
     { //Ganan's Passion - Missing Lore
         id: 102921,
         name: `Ganan's Passion`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -7395,6 +7414,7 @@ const EquipInformation = [
     { //Ryude Magus (Versus) - Complete
         id: 102951,
         name: `Ryude Magus (Versus)`,
+        location: `Limited Event - The Fabled Sword's Chosen One (Zeorg)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -8038,6 +8058,7 @@ const EquipInformation = [
     { //Beloved Specs 'Pronimos' - Complete
         id: 103161,
         name: `Beloved Specs 'Pronimos'`,
+        location: `Limited Event - Taking the High Road (Fen)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -8067,6 +8088,7 @@ const EquipInformation = [
     { //Ru Doll - Complete
         id: 103171,
         name: `Ru Doll`,
+        location: `Limited Event - Taking the High Road (Fen)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -8096,6 +8118,7 @@ const EquipInformation = [
     { //Divination Cards Devan - Complete
         id: 103221,
         name: `Divination Cards Devan`,
+        location: `Rotating Event - Guardian of the Lonely Woods (Quon)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -8125,6 +8148,7 @@ const EquipInformation = [
     { //Vestment Regal Mantle - Complete
         id: 103231,
         name: `Vestment Regal Mantle`,
+        location: `Rotating Event - Guardian of the Lonely Woods (Quon)`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -8154,6 +8178,7 @@ const EquipInformation = [
     { //Reward La Riizilian - Complete
         id: 103241,
         name: `Reward La Riizilian`,
+        location: `Rotating Event - Guardian of the Lonely Woods (Quon)`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
         image: 
@@ -8183,6 +8208,7 @@ const EquipInformation = [
     { //Star-Spangled Liese - Complete
         id: 103251,
         name: `Star-Spangled Liese`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -8212,6 +8238,7 @@ const EquipInformation = [
     { //Iris' Change of Pace - Complete
         id: 103261,
         name: `Iris' Change of Pace`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -8241,6 +8268,7 @@ const EquipInformation = [
     { //The Legend of Ganan - Complete
         id: 103271,
         name: `The Legend of Ganan`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -8270,6 +8298,7 @@ const EquipInformation = [
     { //Demon Whip 'Basilisk' - Missing Lore
         id: 103281,
         name: `Demon Whip 'Basilisk'`,
+        location: `Limited Event - The Demon's Dream (Nier)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -8299,6 +8328,7 @@ const EquipInformation = [
     { //Demon Gear 'Kalkinion' - Missing Lore
         id: 103291,
         name: `Demon Gear 'Kalkinion'`,
+        location: `Limited Event - The Demon's Dream (Nier)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -8328,6 +8358,7 @@ const EquipInformation = [
     { //Demon Armor 'Episumia' - Complete
         id: 103301,
         name: `Demon Armor 'Episumia'`,
+        location: `Limited Event - The Demon's Dream (Nier)`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
         image: 
@@ -8357,6 +8388,7 @@ const EquipInformation = [
     { //Twin Hammers Orthros - Complete
         id: 103311,
         name: `Twin Hammers Orthros`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -8386,6 +8418,7 @@ const EquipInformation = [
     { //Giant Zolda Helmet - Complete
         id: 103321,
         name: `Giant Zolda Helmet`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 3,
         image: 
@@ -8415,6 +8448,7 @@ const EquipInformation = [
     { //Crimson Hammer Zoldavalcan - Complete
         id: 103331,
         name: `Crimson Hammer Zoldavalcan`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -8444,6 +8478,7 @@ const EquipInformation = [
     { //Flower Cane Irurose - Complete
         id: 103341,
         name: `Flower Cane Irurose`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
         image: 
@@ -8473,6 +8508,7 @@ const EquipInformation = [
     { //Frozen Robe Taumaizen - Complete
         id: 103351,
         name: `Frozen Robe Taumaizen`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -8502,6 +8538,7 @@ const EquipInformation = [
     { //Firebird 'Alle Rouge' - Complete
         id: 103361,
         name: `Firebird 'Alle Rouge'`,
+        location: `Limited Event - As a Lady (Mira)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -8624,6 +8661,7 @@ const EquipInformation = [
     { //Relic 'Deus Volta' - Complete
         id: 103401,
         name: `Relic 'Deus Volta'`,
+        location: `Giant Boss - Clashing Thunder of the Emerald Bird (Tonetaurus)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -8653,6 +8691,7 @@ const EquipInformation = [
     { //Relic 'Pteraturus' - Complete
         id: 103411,
         name: `Relic 'Pteraturus'`,
+        location: `Giant Boss - Clashing Thunder of the Emerald Bird (Tonetaurus)`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -8682,6 +8721,7 @@ const EquipInformation = [
     { //Axioma 'Wahrheit' - Missing Lore
         id: 103421,
         name: `Axioma 'Wahrheit'`,
+        location: `Limited Event - The Blade is Thick as Blood (Est)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -8711,6 +8751,7 @@ const EquipInformation = [
     { //Oathtaker 'Shivlet' - Missing Lore
         id: 103431,
         name: `Oathtaker 'Shivlet'`,
+        location: `Limited Event - The Blade is Thick as Blood (Est)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -8740,6 +8781,7 @@ const EquipInformation = [
     { //Peacemaker 'Leighto' - Missing Lore
         id: 103441,
         name: `Peacemaker 'Leighto'`,
+        location: `Limited Event - The Blade is Thick as Blood (Est)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -8769,6 +8811,7 @@ const EquipInformation = [
     { //Grimoire SHIN-RA-BAN-SHO - Complete
         id: 103451,
         name: `Grimoire SHIN-RA-BAN-SHO`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -8798,6 +8841,7 @@ const EquipInformation = [
     { //Twin Magical Guns Neglect - Missing Lore
         id: 103461,
         name: `Twin Magical Guns Neglect`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -8827,6 +8871,7 @@ const EquipInformation = [
     { //Phantom Robe Hollow Graph - Complete
         id: 103471,
         name: `Phantom Robe Hollow Graph`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -8856,6 +8901,7 @@ const EquipInformation = [
     { //Necklace 'Barbelun' - Complete
         id: 103481,
         name: `Necklace 'Barbelun'`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 3,
         image: 
@@ -8885,6 +8931,7 @@ const EquipInformation = [
     { //Dark Soul Pendant 'Necrocles' - Complete
         id: 103491,
         name: `Dark Soul Pendant 'Necrocles'`,
+        location: `Limited Event - The Twin Knights of the Morning Star (Regulus & Feena)`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
         image: 
@@ -8976,6 +9023,7 @@ const EquipInformation = [
     { //Ultimate Magic Canon 'Infinite' - Missing Lore
         id: 103521,
         name: `Ultimate Magic Canon 'Infinite'`,
+        location: `Limited Event - Echoes of Invasion (Edram)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -9005,6 +9053,7 @@ const EquipInformation = [
     { //End Circuit 'Judgement' - Complete
         id: 103531,
         name: `End Circuit 'Judgement'`,
+        location: `Limited Event - Echoes of Invasion (Edram)`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -9034,6 +9083,7 @@ const EquipInformation = [
     { //Phantasmagoric 'Cavalry' - Complete
         id: 103541,
         name: `Phantasmagoric 'Cavalry'`,
+        location: `Limited Event - Echoes of Invasion (Edram)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -9063,6 +9113,7 @@ const EquipInformation = [
     { //X Marks the Spot - Complete
         id: 103551,
         name: `X Marks the Spot`,
+        location: `Limited Event - Ru and Rolly's Day of Adventure`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -9092,6 +9143,7 @@ const EquipInformation = [
     { //Help me Rolly! - Complete
         id: 103561,
         name: `Help me Rolly!`,
+        location: `Limited Event - Ru and Rolly's Day of Adventure`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -9121,6 +9173,7 @@ const EquipInformation = [
     { //Show 'em Ru - Complete
         id: 103571,
         name: `Show 'em Ru`,
+        location: `Limited Event - Ru and Rolly's Day of Adventure`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -9150,6 +9203,7 @@ const EquipInformation = [
     { //Rolly Plush - Complete
         id: 103581,
         name: `Rolly Plush`,
+        location: `Limited Event - Ru and Rolly's Day of Adventure`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -9179,6 +9233,7 @@ const EquipInformation = [
     { //Poison Spear 'Goroncharge' - Missing Lore
         id: 103591,
         name: `Poison Spear 'Goroncharge'`,
+        location: `Main Story [Chapter 8 > Boum Forest Garden > [Challenge] The Magical Plant's Target] Secret Equip`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -9539,6 +9594,7 @@ const EquipInformation = [
     { //Jack-O-Penst - Complete
         id: 103711,
         name: `Jack-O-Penst`,
+        location: `Limited Halloween Event - Lanterns to Light the World`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -9568,6 +9624,7 @@ const EquipInformation = [
     { //Jack-O-Sherum - Complete
         id: 103721,
         name: `Jack-O-Sherum`,
+        location: `Limited Halloween Event - Lanterns to Light the World`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -9597,6 +9654,7 @@ const EquipInformation = [
     { //Jack-O-Shaft - Complete
         id: 103731,
         name: `Jack-O-Shaft`,
+        location: `Limited Halloween Event - Lanterns to Light the World`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -9626,6 +9684,7 @@ const EquipInformation = [
     { //Furious Ru - Complete
         id: 103741,
         name: `Furious Ru`,
+        location: `Limited Event - Taking the High Road (Fen)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -9655,6 +9714,7 @@ const EquipInformation = [
     { //Shadow Blades 'Euthanasia' - Complete
         id: 103751,
         name: `Shadow Blades 'Euthanasia'`,
+        location: `Limited Event - Taking the High Road (Fen)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -9684,6 +9744,7 @@ const EquipInformation = [
     { //Relic 'Goron Knuckle' - Missing Lore
         id: 103761,
         name: `Relic 'Goron Knuckle'`,
+        location: `Rotating Giant Boss - Life Draining Botanical Beast (Goldola)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -9713,6 +9774,7 @@ const EquipInformation = [
     { //Relic 'Dola Armor' - Complete
         id: 103771,
         name: `Relic 'Dola Armor'`,
+        location: `Rotating Giant Boss - Life Draining Botanical Beast (Goldola)`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -9773,6 +9835,7 @@ const EquipInformation = [
     { //Divine Sword 'Justicia' - Missing Lore
         id: 103791,
         name: `Divine Sword 'Justicia'`,
+        location: `Rotating Event - Ravage of the Azure Swordsman (Gaia)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -9802,6 +9865,7 @@ const EquipInformation = [
     { //Divine Shield 'Castillo' - Complete
         id: 103801,
         name: `Divine Shield 'Castillo'`,
+        location: `Rotating Event - Ravage of the Azure Swordsman (Gaia)`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -9831,6 +9895,7 @@ const EquipInformation = [
     { //Divine Ornament 'Amlethal' - Complete
         id: 103811,
         name: `Divine Ornament 'Amlethal'`,
+        location: `Rotating Event - Ravage of the Azure Swordsman (Gaia)`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -9860,6 +9925,7 @@ const EquipInformation = [
     { //Kaiju Gem - Complete
         id: 103821,
         name: `Kaiju Gem`,
+        location: `Crossover Event: Godzilla Stage Clear Reward`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 3,
         image: 
@@ -9889,6 +9955,7 @@ const EquipInformation = [
     { //Godzilla Earth - Complete
         id: 103831,
         name: `Godzilla Earth`,
+        location: `Crossover Equip Summon: Godzilla`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -9918,6 +9985,7 @@ const EquipInformation = [
     { //Induction Rifle - Complete
         id: 103841,
         name: `Induction Rifle`,
+        location: `Crossover Equip Summon: Godzilla`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -9947,6 +10015,7 @@ const EquipInformation = [
     { //Artillery Tank - Complete
         id: 103851,
         name: `Artillery Tank`,
+        location: `Crossover Equip Summon: Godzilla`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -9976,6 +10045,7 @@ const EquipInformation = [
     { //Elastomer Suit - Complete
         id: 103861,
         name: `Elastomer Suit`,
+        location: `Crossover Equip Summon: Godzilla`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -10005,6 +10075,7 @@ const EquipInformation = [
     { //Induction Pistol - Missing Lore
         id: 103871,
         name: `Induction Pistol`,
+        location: `Crossover Equip Summon: Godzilla`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -10034,6 +10105,7 @@ const EquipInformation = [
     { //Relic 'Cylentium' - Missing Lore
         id: 103881,
         name: `Relic 'Cylentium'`,
+        location: `Giant Boss - A Subzero Hellscape (Aerugraxes)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -10063,6 +10135,7 @@ const EquipInformation = [
     { //Relic 'Lacus Aurora' - Complete
         id: 103891,
         name: `Relic 'Lacus Aurora'`,
+        location: `Giant Boss - A Subzero Hellscape (Aerugraxes)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -10123,6 +10196,7 @@ const EquipInformation = [
     { //Cursed Axe 'Hell Galgen' - Missing Lore & Passive
         id: 103911,
         name: `Cursed Axe 'Hell Galgen'`,
+        location: `Side Quest [My Will, My Rage > The Masterless Dragon] Secret Equip`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -10152,6 +10226,7 @@ const EquipInformation = [
     { //Sacred Tome 'Truth of the Morning Star' - Complete
         id: 103921,
         name: `Sacred Tome 'Truth of the Morning Star'`,
+        location: `Limited Event - The Twin Knights of the Morning Star (Regulus & Feena)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -10181,6 +10256,7 @@ const EquipInformation = [
     { //Holy Shield 'Lux Feena' - Missing Lore
         id: 103931,
         name: `Holy Shield 'Lux Feena'`,
+        location: `Limited Event - The Twin Knights of the Morning Star (Regulus & Feena)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -10241,6 +10317,7 @@ const EquipInformation = [
     { //Aqua Sword 'IZANAMI' - Missing Lore
         id: 103951,
         name: `Aqua Sword 'IZANAMI'`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -10270,6 +10347,7 @@ const EquipInformation = [
     { //HIME-AJISAI - Complete
         id: 103961,
         name: `HIME-AJISAI`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -10299,6 +10377,7 @@ const EquipInformation = [
     { //Air Gun 'Ordonnanz' - Complete
         id: 103971,
         name: `Air Gun 'Ordonnanz'`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -10328,6 +10407,7 @@ const EquipInformation = [
     { //Ameru's Letter Bag - Complete
         id: 103981,
         name: `Ameru's Letter Bag`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -10357,6 +10437,7 @@ const EquipInformation = [
     { //Magic Rod 'Maleficium' - Missing Lore
         id: 103991,
         name: `Magic Rod 'Maleficium'`,
+        location: `Limited Event - The Blue-eyed Black Fox (Melia)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -10386,6 +10467,7 @@ const EquipInformation = [
     { //Magic Earrings 'Temptation' - Complete
         id: 104001,
         name: `Magic Earrings 'Temptation'`,
+        location: `Limited Event - The Blue-eyed Black Fox (Melia)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -10415,6 +10497,7 @@ const EquipInformation = [
     { //Magic Robe 'Orbscuritas' - Missing Lore
         id: 104011,
         name: `Magic Robe 'Orbscuritas'`,
+        location: `Limited Event - The Blue-eyed Black Fox (Melia)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -10475,6 +10558,7 @@ const EquipInformation = [
     { //Relic 'Hrungnir' - Complete
         id: 104031,
         name: `Relic 'Hrungnir'`,
+        location: `Rotating Giant Boss - Frozen Calamity in the North (O’zagun)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -10504,6 +10588,7 @@ const EquipInformation = [
     { //Relic 'Bracchium' - Complete
         id: 104041,
         name: `Relic 'Bracchium'`,
+        location: `Rotating Giant Boss - Frozen Calamity in the North (O’zagun)`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -10564,6 +10649,7 @@ const EquipInformation = [
     { //Divine Sword 'Balmung' - Complete
         id: 104131,
         name: `Divine Sword 'Balmung'`,
+        location: `Side Quest: The Five Freedom Fighters - The Dawn of Raktehelm`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -10593,6 +10679,7 @@ const EquipInformation = [
     { //Cursed Sword 'Gram' - Complete
         id: 104141,
         name: `Cursed Sword 'Gram'`,
+        location: `Side Quest: The Five Freedom Fighters - The Dawn of Raktehelm`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -10622,6 +10709,7 @@ const EquipInformation = [
     { //Magic Mask 'Gestalt' - Complete
         id: 104151,
         name: `Magic Mask 'Gestalt'`,
+        location: `Side Quest: The Five Freedom Fighters - The Dawn of Raktehelm`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -10651,6 +10739,7 @@ const EquipInformation = [
     { //Fire Relic 'Bible of the Flaming Knight' - Complete
         id: 104171,
         name: `Fire Relic 'Bible of the Flaming Knight'`,
+        location: `Earth Elemental Ruins F6 Stage Clear Reward`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -10681,6 +10770,7 @@ const EquipInformation = [
     { //Water Relic 'Aqua Dragon's Quartz' - Complete
         id: 104181,
         name: `Water Relic 'Aqua Dragon's Quartz'`,
+        location: `Fire Elemental Ruins F6 Stage Clear Reward`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -10711,6 +10801,7 @@ const EquipInformation = [
     { //Earth Relic 'Gran Forde' - Complete
         id: 104191,
         name: `Earth Relic 'Gran Forde'`,
+        location: `Water Elemental Ruins F6 Stage Clear Reward`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -10741,6 +10832,7 @@ const EquipInformation = [
     { //Holy Night of Fenrir - Complete
         id: 104201,
         name: `Holy Night of Fenrir`,
+        location: `Limited Event - Rhapsody of Christmas Eve`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
         image: 
@@ -10770,6 +10862,7 @@ const EquipInformation = [
     { //Stuffed Merry Rolly - Complete
         id: 104211,
         name: `Stuffed Merry Rolly`,
+        location: `Limited Event - Rhapsody of Christmas Eve`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -10847,7 +10940,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `50s CT - 	4200% Light DMG (Magic). Reduces Enemies' Freeze Resistance by 30% for 8s.`,
+                skill: `50s CT - 4200% Light DMG (Magic). Reduces Enemies' Freeze Resistance by 30% for 8s.`,
                 break: 1500
             },
         passive: 
@@ -11088,7 +11181,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `60s CT - 4444% Dark DMG (Magic). If this attack hits a Boss with Status Ailments, steal 20 Arts gauge from it. Reduce Enemies' Blind RES by 50% for 6s.`,
+                skill: `60s CT - 4444% Dark DMG (Magic). If this attack hits a Boss with Status Ailments, steal 20 Arts gauge from it. Reduce Enemies' Blind resistance by 50% for 6s.`,
                 break: 1000
             },
         passive: 
@@ -11101,6 +11194,7 @@ const EquipInformation = [
 { //Holy Armor 'Eldrange' - Complete
         id: 104321,
         name: `Holy Armor 'Eldrange'`,
+        location: `Limited Event - The Other Battle (Celia)`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -11130,6 +11224,7 @@ const EquipInformation = [
 { //Princess Bamint - Complete
         id: 104331,
         name: `Princess Bamint`,
+        location: `Limited Event - The Other Battle (Celia)`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
         image: 
@@ -11159,6 +11254,7 @@ const EquipInformation = [
 { //Magical Sword 'Siegel' - Complete
         id: 104341,
         name: `Magical Sword 'Siegel'`,
+        location: `Side Quest: The Five Freedom Fighters - Last Wishes Passed to the Future`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -11188,6 +11284,7 @@ const EquipInformation = [
 { //Magical Hat 'Akashic Eye' - Complete
         id: 104351,
         name: `Magical Hat 'Akashic Eye'`,
+        location: `Side Quest: The Five Freedom Fighters - Last Wishes Passed to the Future`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -11217,6 +11314,7 @@ const EquipInformation = [
 { //Inheritance 'Fatalite' - Complete
         id: 104361,
         name: `Inheritance 'Fatalite'`,
+        location: `Limited Event - The Blade Master's Purpose (Riana)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -11246,6 +11344,7 @@ const EquipInformation = [
 { //Divine Rapier 'Vandring' - Complete
         id: 104371,
         name: `Divine Rapier 'Vandring'`,
+        location: `Limited Event - The Blade Master's Purpose (Riana)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -11275,6 +11374,7 @@ const EquipInformation = [
 { //Blessed Garb 'Autel' - Complete
         id: 104381,
         name: `Blessed Garb 'Autel'`,
+        location: `Limited Event - The Blade Master's Purpose (Riana)`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
         image: 
@@ -11397,6 +11497,7 @@ const EquipInformation = [
 { //Relic 'Periusia' - Complete
         id: 104421,
         name: `Relic 'Periusia'`,
+        location: `Giant Boss - Crimson Flames of the Phoenix (Flogassa)`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -11426,6 +11527,7 @@ const EquipInformation = [
 { //Relic 'Claritus' - Complete
         id: 104431,
         name: `Relic 'Claritus'`,
+        location: `Giant Boss - Crimson Flames of the Phoenix (Flogassa)`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -11634,6 +11736,7 @@ const EquipInformation = [
 { //Protection Suit 'Viper' - Complete
         id: 104501,
         name: `Protection Suit 'Viper'`,
+        location: `General Equip Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -11663,6 +11766,7 @@ const EquipInformation = [
 { //Light Relic 'Tin Cane of Relief' - Complete
         id: 104511,
         name: `Light Relic 'Tin Cane of Relief'`,
+        location: `Darj Elemental Ruins F6 Stage Clear Reward`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -11693,6 +11797,7 @@ const EquipInformation = [
 { //Dark Relic 'Nichts' - Complete
         id: 104521,
         name: `Dark Relic 'Nichts'`,
+        location: `Light Elemental Ruins F6 Stage Clear Reward`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -11724,6 +11829,7 @@ const EquipInformation = [
 { //Cursed Light Sword 'Anestra'- Complete
         id: 104591,
         name: `Cursed Light Sword 'Anestra'`,
+        location: `Raid Equip (Auge)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -11753,6 +11859,7 @@ const EquipInformation = [
 { //Rallying Banner 'Gramenia' - Complete
         id: 104601,
         name: `Rallying Banner 'Gramenia'`,
+        location: `Limited Event - Distant Prospect (Kane)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -11782,6 +11889,7 @@ const EquipInformation = [
 { //Patriot Rifle 'Glorious' - Complete
         id: 104611,
         name: `Patriot Rifle 'Glorious'`,
+        location: `Limited Event - Distant Prospect (Kane)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -11811,6 +11919,7 @@ const EquipInformation = [
 { //Combat Knife 'Vixen' - Complete
         id: 104621,
         name: `Combat Knife 'Vixen'`,
+        location: `Limited Event - Distant Prospect (Kane)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -11871,6 +11980,7 @@ const EquipInformation = [
 { //Blade 'Dragon Age' - Missing Lore
         id: 104641,
         name: `Blade 'Dragon Age'`,
+        location: `Rotating Event - The Dragon General's Sword (Rohst)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -11900,6 +12010,7 @@ const EquipInformation = [
 { //Armor 'Dragon Scale' - Complete
         id: 104651,
         name: `Armor 'Dragon Scale'`,
+        location: `Rotating Event - The Dragon General's Sword (Rohst)`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -11929,6 +12040,7 @@ const EquipInformation = [
 { //Relic 'Sword of Revenge' - Complete
         id: 104661,
         name: `Relic 'Sword of Revenge'`,
+        location: `Limited Event - Divine Spirit of Remembrance (Marzex)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -11958,6 +12070,7 @@ const EquipInformation = [
 { //Fire Relic 'Sword of the Flaming Knight' - Complete
         id: 104671,
         name: `Fire Relic 'Sword of the Flaming Knight'`,
+        location: `Earth Elemental Ruins F7 Stage Clear Reward`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -11987,6 +12100,7 @@ const EquipInformation = [
 { //Water Relic 'Aqua Dragon's Sword' - Complete
         id: 104681,
         name: `Water Relic 'Aqua Dragon's Sword'`,
+        location: `Fire Elemental Ruins F7 Stage Clear Reward`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -12017,6 +12131,7 @@ const EquipInformation = [
 { //Earth Relic 'Ain Wold' - Complete
         id: 104691,
         name: `Earth Relic 'Ain Wold'`,
+        location: `Water Elemental Ruins F7 Stage Clear Reward`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -12046,6 +12161,7 @@ const EquipInformation = [
 { //Holy Bow 'Forester' - Complete
         id: 104711,
         name: `Holy Bow 'Forester'`,
+        location: `Limited Event - Crimson Stars Circus - Part 1`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -12075,6 +12191,7 @@ const EquipInformation = [
 { //Holy Cloak 'Familia' - Complete
         id: 104721,
         name: `Holy Cloak 'Familia'`,
+        location: `Limited Event - Crimson Stars Circus - Part 1`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -12104,6 +12221,7 @@ const EquipInformation = [
 { //Sniper Rifle 'Howling' - Complete
         id: 104731,
         name: `Sniper Rifle 'Howling'`,
+        location: `Limited Event - Crimson Stars Circus - Part 1`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -12161,9 +12279,10 @@ const EquipInformation = [
             },
         lore: `The Divine Bow, the symbol of the heroine Mamori, who traveled the world with the "Crimson Stars" Circus during the early days of the Ancient War, to help and bring a smile to many people. With her bow, she could always hit at the first shot, but her major ability was to strike a shower of arrows, like shooting stars, that would knock down an entire army in one blow. She kept training on her own in the depths of the forests for all her life, without anyone ever teaching her the technique, and thanks to her persistence, she could reach levels above capability.`
     },
-{ //	Magical Outfit 'Pierrot Crimson' - Complete
+{ //Magical Outfit 'Pierrot Crimson' - Complete
         id: 104751,
         name: `	Magical Outfit 'Pierrot Crimson'`,
+        location: `Rotating Event - Pierrot of Flames (Pientz)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -12193,6 +12312,7 @@ const EquipInformation = [
 { //Magical Box 'Monstre' - Missing Lore
         id: 104761,
         name: `Magical Box 'Monstre'`,
+        location: `Rotating Event - Pierrot of Flames (Pientz)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -12222,6 +12342,7 @@ const EquipInformation = [
 { //Holy Cane 'Proscris' - Complete
         id: 104771,
         name: `Holy Cane 'Proscris'`,
+        location: `Limited Event - Crimson Stars Circus - Part 2`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -12251,6 +12372,7 @@ const EquipInformation = [
 { //Holy Robe 'Lathraea' - Complete
         id: 104781,
         name: `Holy Robe 'Lathraea'`,
+        location: `Limited Event - Crimson Stars Circus - Part 2`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -12280,6 +12402,7 @@ const EquipInformation = [
 { //Blood Katana 'MINAGOROSHI' - Complete
         id: 104791,
         name: `Blood Katana 'MINAGOROSHI'`,
+        location: `Limited Event - Crimson Stars Circus - Part 2`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -12340,6 +12463,7 @@ const EquipInformation = [
 { //Forbidden Book 'Irafael' - Complete
         id: 104811,
         name: `Forbidden Book 'Irafael'`,
+        location: `Raid Equip (Auge)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -12369,6 +12493,7 @@ const EquipInformation = [
 { //God Blade 'Dragon Twilight' - Complete
         id: 104851,
         name: `God Blade 'Dragon Twilight'`,
+        location: `Limited Event - Seeking a Perfect World - Part 1`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -12398,6 +12523,7 @@ const EquipInformation = [
 { //Holy Robe 'Flora Twilight' - Complete
         id: 104861,
         name: `Holy Robe 'Flora Twilight'`,
+        location: `Limited Event - Seeking a Perfect World - Part 1`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -12427,6 +12553,7 @@ const EquipInformation = [
 { //War Blade 'Diamond Chakram' - Complete
         id: 104871,
         name: `War Blade 'Diamond Chakram'`,
+        location: `Limited Event - Seeking a Perfect World - Part 1`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -12518,6 +12645,7 @@ const EquipInformation = [
 { //Gun Sword 'Bray Canon' - Missing Lore
         id: 104901,
         name: `Gun Sword 'Bray Canon'`,
+        location: `Rotating Event - Weapon with a Heart (Vicious)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -12547,6 +12675,7 @@ const EquipInformation = [
 { //Machina Hyperdrive 'Magna Ark' - Missing Lore
         id: 104911,
         name: `Machina Hyperdrive 'Magna Ark'`,
+        location: `Rotating Event - Weapon with a Heart (Vicious)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -12573,9 +12702,10 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Sweet Poison “Sacrifice” - Missing Lore
+{ //Sweet Poison 'Sacrifice' - Missing Lore
         id: 104921,
-        name: `Sweet Poison “Sacrifice”`,
+        name: `Sweet Poison 'Sacrifice'`,
+        location: `Main Story [Chapter 9 > Realm of Gods > [Challenge] Giaveil, the Grand Prince of Sin] Secret Equip`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -12605,6 +12735,7 @@ const EquipInformation = [
 { //Magi-Umbrella 'Sans Pluie' - Complete
         id: 104931,
         name: `Magi-Umbrella 'Sans Pluie'`,
+        location: `Limited Event - Seeking a Perfect World - Part 2`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -12634,6 +12765,7 @@ const EquipInformation = [
 { //Magic Robe 'Tout Acconier' - Complete
         id: 104941,
         name: `Magic Robe 'Tout Acconier'`,
+        location: `Limited Event - Seeking a Perfect World - Part 2`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -12663,6 +12795,7 @@ const EquipInformation = [
     { //Carving Whip 'Viperra' - Complete
         id: 104951,
         name: `Carving Whip 'Viperra'`,
+        location: `Limited Event - Seeking a Perfect World - Part 2`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -12754,6 +12887,7 @@ const EquipInformation = [
 { //Frozen Spear 'Draco Hasta' - Complete
         id: 104981,
         name: `Frozen Spear 'Draco Hasta'`,
+        location: `Limited Event - Shadows of the Azul Frost (Alvina)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -12784,6 +12918,7 @@ const EquipInformation = [
 { //Frozen Boots 'Caerula Nix' - Complete
         id: 104991,
         name: `Frozen Boots 'Caerula Nix'`,
+        location: `Limited Event - Shadows of the Azul Frost (Alvina)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -12844,6 +12979,7 @@ const EquipInformation = [
 { //Sacred Sword 'Grandeus' - Missing Lore
         id: 105011,
         name: `Sacred Sword 'Grandeus'`,
+        location: `Rotating Event - Misson of the Sacred Sword (Nogia)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -12873,6 +13009,7 @@ const EquipInformation = [
 { //Sacred Garb 'Destina' - Complete
         id: 105021,
         name: `Sacred Garb 'Destina'`,
+        location: `Rotating Event - Misson of the Sacred Sword (Nogia)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -12902,6 +13039,7 @@ const EquipInformation = [
 { //Silent Summonstone - Complete
         id: 105031,
         name: `Silent Summonstone`,
+        location: `Limited Event - Faith in the Stars`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -12931,6 +13069,7 @@ const EquipInformation = [
 { //Inferno Summonstone - Complete
         id: 105041,
         name: `Inferno Summonstone`,
+        location: `Limited Event - Faith in the Stars`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -12960,6 +13099,7 @@ const EquipInformation = [
 { //Relic 'Silent Wings' - Complete
         id: 105051,
         name: `Relic 'Silent Wings'`,
+        location: `Limited Event - Faith in the Stars`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -13051,6 +13191,7 @@ const EquipInformation = [
 { //Spirit Spear 'Melchizelek' - Complete
         id: 105081,
         name: `Spirit Spear 'Melchizelek'`,
+        location: `Purchased from Store: Master Summoner Pack`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -13080,6 +13221,7 @@ const EquipInformation = [
 { //Holy Robe 'Mercel' - Complete
         id: 105091,
         name: `Holy Robe 'Mercel'`,
+        location: `Limited Event - Two Hearts, One Will - Part 1`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
         image: 
@@ -13109,6 +13251,7 @@ const EquipInformation = [
 { //Staff of Phoenix Tear 'Atropos' - Complete
         id: 105101,
         name: `Staff of Phoenix Tear 'Atropos'`,
+        location: `Limited Event - Two Hearts, One Will - Part 1`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -13169,6 +13312,7 @@ const EquipInformation = [
 { //Light Relic 'Dagger of Creation' - Complete
         id: 105121,
         name: `Light Relic 'Dagger of Creation'`,
+        location: `Dark Elemental Ruins F7 Stage Clear Reward`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -13199,6 +13343,7 @@ const EquipInformation = [
 { //Dark Relic 'Brute' - Complete
         id: 105131,
         name: `Dark Relic 'Brute'`,
+        location: `Light Elemental Ruins F7 Stage Clear Reward`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -13229,6 +13374,7 @@ const EquipInformation = [
 { //Celia's Seashore Pareo - Complete
         id: 105181,
         name: `Celia's Seashore Pareo`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -13258,6 +13404,7 @@ const EquipInformation = [
 { //Sonije's Hot-Pink Bikini - Complete
         id: 105191,
         name: `Sonije's Hot-Pink Bikini`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -13287,6 +13434,7 @@ const EquipInformation = [
 { //Alma's Bandeau Bikini - Complete
         id: 105201,
         name: `Alma's Bandeau Bikini`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -13316,6 +13464,7 @@ const EquipInformation = [
 { //Rishley's Sunset Bikini - Complete
         id: 105211,
         name: `Rishley's Sunset Bikini`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -13345,6 +13494,7 @@ const EquipInformation = [
 { //Fen's Aloha Shorts - Complete
         id: 105221,
         name: `Fen's Aloha Shorts`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -13374,6 +13524,7 @@ const EquipInformation = [
 { //Kane's Aloha Shirt - Complete
         id: 105231,
         name: `Kane's Aloha Shirt`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -13403,6 +13554,7 @@ const EquipInformation = [
 { //Sorcerer's Treasured Robe 'Caligula' - Complete
         id: 105241,
         name: `Sorcerer's Treasured Robe 'Caligula'`,
+        location: `Limited Event - Two Hearts, One Will - Part 2`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -13432,6 +13584,7 @@ const EquipInformation = [
 { //Demon Twin-Blade 'Deino' - Complete
         id: 105251,
         name: `Demon Twin-Blade 'Deino'`,
+        location: `Limited Event - Two Hearts, One Will - Part 2`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -13492,6 +13645,7 @@ const EquipInformation = [
 { //Gauntlets 'Gault Fort' - Missing Lore
         id: 105271,
         name: `Gauntlets 'Gault Fort'`,
+        location: `Rotating Event - The Beast's Rampage (Zerkalo)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -13521,6 +13675,7 @@ const EquipInformation = [
 { //Demonic Wicked Globe - Complete
         id: 105281,
         name: `Demonic Wicked Globe`,
+        location: `Raid Equip (Agnophobos)`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -13550,6 +13705,7 @@ const EquipInformation = [
 { //Fire Relic 'Flaming Knight's Armor' - Complete
         id: 105381,
         name: `Fire Relic 'Flaming Knight's Armor'`,
+        location: `Earth Elemental Ruins F8 Stage Clear Reward`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -13580,6 +13736,7 @@ const EquipInformation = [
 { //Water Relic 'Water Dragon's Shield' - Complete
         id: 105391,
         name: `Water Relic 'Water Dragon's Shield'`,
+        location: `Fire Elemental Ruins F8 Stage Clear Reward`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -13610,6 +13767,7 @@ const EquipInformation = [
 { //Earth Relic 'Groove Lumina' - Missing Lore
         id: 105401,
         name: `Earth Relic 'Groove Lumina'`,
+        location: `Water Elemental Ruins F8 Stage Clear Reward`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -13640,6 +13798,7 @@ const EquipInformation = [
 { //Sakura Sword 'IZANAGI' - Complete
         id: 105411,
         name: `Sakura Sword 'IZANAGI'`,
+        location: `Limited Event - Inheritress of the Sakura Secret (Sakura Mira)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -13669,6 +13828,7 @@ const EquipInformation = [
 { //Delicate kimono 'Translucent Blossom' - Complete
         id: 105421,
         name: `Delicate kimono 'Translucent Blossom'`,
+        location: `Limited Event - Inheritress of the Sakura Secret (Sakura Mira)`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
         image: 
@@ -13729,6 +13889,7 @@ const EquipInformation = [
 { //Iris' Rolly-Frill Bikini - Missing Lore
         id: 105441,
         name: `Iris' Rolly-Frill Bikini`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -13758,6 +13919,7 @@ const EquipInformation = [
 { //Mira's Sailor Swimsuit - Complete
         id: 105451,
         name: `Mira's Sailor Swimsuit`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -13787,6 +13949,7 @@ const EquipInformation = [
 { //Melia's Purple Sexy Bikini - Complete
         id: 105461,
         name: `Melia's Purple Sexy Bikini`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -13816,6 +13979,7 @@ const EquipInformation = [
 { //Rem's Sexy Lace Bikini - Complete
         id: 105471,
         name: `Rem's Sexy Lace Bikini`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -13845,6 +14009,7 @@ const EquipInformation = [
 { //Liese' Swimwear - Complete
         id: 105481,
         name: `Liese' Swimwear`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
         image: 
@@ -13874,6 +14039,7 @@ const EquipInformation = [
 { //Est's Sailor Swimsuit - Complete
         id: 105491,
         name: `Est's Sailor Swimsuit`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -13903,6 +14069,7 @@ const EquipInformation = [
 { //Aristela's Competition Swimsuit - Complete
         id: 105501,
         name: `Aristela's Competition Swimsuit`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -13932,6 +14099,7 @@ const EquipInformation = [
 { //Selia's Snow White Bikini - Complete
         id: 105511,
         name: `Selia's Snow White Bikini`,
+        location: `Limited Equip Summon: Summer Banner`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -13961,6 +14129,7 @@ const EquipInformation = [
 { //Electro-Magnetic Gun 'Griffin' - Complete
         id: 105521,
         name: `Electro-Magnetic Gun 'Griffin'`,
+        location: `Limited Event - Encounter with the Unknown (Norn)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -13990,6 +14159,7 @@ const EquipInformation = [
 { //Rapid-fire Gun 'Peregrine' - Complete
         id: 105531,
         name: `Rapid-fire Gun 'Peregrine'`,
+        location: `Limited Event - Encounter with the Unknown (Norn)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -14050,6 +14220,7 @@ const EquipInformation = [
 { //Spiked Helmet 'Agni' - Complete
         id: 105551,
         name: `Spiked Helmet 'Agni'`,
+        location: `Rotating Event - The Guardian Giant (Badoul)`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -14079,6 +14250,7 @@ const EquipInformation = [
 { //Water Boots 'Aqua Ferme' - Complete
         id: 105561,
         name: `Water Boots 'Aqua Ferme'`,
+        location: `Limited Event - The Blade Master's Purpose (Riana)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -14108,6 +14280,7 @@ const EquipInformation = [
 { //Dark Relic 'Groll' - Complete
         id: 105571,
         name: `Dark Relic 'Groll'`,
+        location: `Light Elemental Ruins F8 Stage Clear Reward`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -14137,6 +14310,7 @@ const EquipInformation = [
 { //Light Relic 'Eradication Bow' - Complete
         id: 105581,
         name: `Light Relic 'Eradication Bow'`,
+        location: `Dark Elemental Ruins F8 Stage Clear Reward`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -14166,6 +14340,7 @@ const EquipInformation = [
 { //Mysterious Necklace 'Eternal' - Missing Lore
         id: 105591,
         name: `Mysterious Necklace 'Eternal'`,
+        location: `Rotating Event - Mask of Madness (Strife)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -14195,6 +14370,7 @@ const EquipInformation = [
 { //Dark Blade 'Exceed Zechs' - Complete
         id: 105601,
         name: `Dark Blade 'Exceed Zechs'`,
+        location: `Limited Event - The Hero and the Cursed Sword (Dark Zeorg)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -14224,6 +14400,7 @@ const EquipInformation = [
 { //Dark Armor 'Evil Death' - Complete
         id: 105611,
         name: `Dark Armor 'Evil Death'`,
+        location: `Limited Event - The Hero and the Cursed Sword (Dark Zeorg)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -14284,6 +14461,7 @@ const EquipInformation = [
 { //Twin Bone Swords 'Dos Muertes' - Complete
         id: 105631,
         name: `Twin Bone Swords 'Dos Muertes'`,
+        location: `Limited Event - The Promised Place (Ashe)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -14313,6 +14491,7 @@ const EquipInformation = [
 { //Cursed Spear 'Tres Lanzas' - Complete
         id: 105641,
         name: `Cursed Spear 'Tres Lanzas'`,
+        location: `Limited Event - The Promised Place (Ashe)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -14433,6 +14612,7 @@ const EquipInformation = [
 { //Insect Goddess Necklace - Complete
         id: 105681,
         name: `Insect Goddess Necklace`,
+        location: `Raid Equip (Radachne)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -14462,6 +14642,7 @@ const EquipInformation = [
 { //Fire Scepter 'Fomalhaut' - Complete
         id: 105691,
         name: `Fire Scepter 'Fomalhaut'`,
+        location: `Side Quest: Knights of Blood - Act 1`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -14491,6 +14672,7 @@ const EquipInformation = [
 { //Blood Crest 'Arc Ignite' - Complete
         id: 105701,
         name: `Blood Crest 'Arc Ignite'`,
+        location: `Side Quest: Knights of Blood - Act 1`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -14551,6 +14733,7 @@ const EquipInformation = [
 { //Earth Axe 'Tempest' - Complete
         id: 105721,
         name: `Earth Axe 'Tempest'`,
+        location: `Side Quest: Knights of Blood - Act 2`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -14580,6 +14763,7 @@ const EquipInformation = [
 { //Earth Battledress 'Aster' - Complete
         id: 105731,
         name: `Earth Battledress 'Aster'`,
+        location: `Side Quest: Knights of Blood - Act 2`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -14640,6 +14824,7 @@ const EquipInformation = [
 { //Crimson Blade 'Degilagon' - Complete
         id: 105751,
         name: `Crimson Blade 'Degilagon'`,
+        location: `Mines Equip - Degilmagna`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -14669,6 +14854,7 @@ const EquipInformation = [
 { //Holy Necklace 'Dignified Silence' - Complete
         id: 105761,
         name: `Holy Necklace 'Dignified Silence'`,
+        location: `Mines Equip: Palamicia`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -14698,6 +14884,7 @@ const EquipInformation = [
 { //Emerald Feather 'Biosdora' - Complete
         id: 105771,
         name: `Emerald Feather 'Biosdora'`,
+        location: `Mines Equip: Tonetaurus`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
         image: 
@@ -14727,6 +14914,7 @@ const EquipInformation = [
 { //Hatered Claws 'Grief' - Complete
         id: 105781,
         name: `Hatered Claws 'Grief'`,
+        location: `Mines Equip: Subject B-3`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -14756,6 +14944,7 @@ const EquipInformation = [
 { //Hades Earrings 'Halos Mors' - Complete
         id: 105791,
         name: `Hades Earrings 'Halos Mors'`,
+        location: `Mines Equip: Oldeus`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -14785,6 +14974,7 @@ const EquipInformation = [
 { //Sacred 'Silent Treasure' - Complete
         id: 105801,
         name: `Sacred 'Silent Treasure'`,
+        location: `Mines Equip: Elite Palamicia`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -14814,6 +15004,7 @@ const EquipInformation = [
 { //Sealed Earrings 'Filiamo' - Complete
         id: 105811,
         name: `Sealed Earrings 'Filiamo'`,
+        location: `Mines Equip: Elite Oldeus`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -15023,6 +15214,7 @@ const EquipInformation = [
 { //Jack-O-Sherum's Boots - Complete
         id: 105881,
         name: `Jack-O-Sherum's Boots`,
+        location: `Limited Event - Lanterns to Light the World`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -15052,6 +15244,7 @@ const EquipInformation = [
 { //Aqua Blade 'Maelstrom' - Complete
         id: 105891,
         name: `Aqua Blade 'Maelstrom'`,
+        location: `Limited Event - The Illusory Twin Blades (Water Melia)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -15081,6 +15274,7 @@ const EquipInformation = [
 { //Mist-guise 'Mirage Hood' - Complete
         id: 105901,
         name: `Mist-guise 'Mirage Hood'`,
+        location: `Limited Event - The Illusory Twin Blades (Water Melia)`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -15231,6 +15425,7 @@ const EquipInformation = [
 { //Dragon Gauntlet 'Sol Helios' - Missing Lore
         id: 105951,
         name: `Dragon Gauntlet 'Sol Helios'`,
+        location: `Mines Equip: Fosradius`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -15260,6 +15455,7 @@ const EquipInformation = [
 { //Night Thunder 'Noxara' (夜霹飾『ノクスアーラ』) - JP Complete
         id: 105961,
         name: `夜霹飾『ノクスアーラ』`,
+        location: `Mines Equip: Elite Tonetaurus`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -15289,6 +15485,7 @@ const EquipInformation = [
 { //Icy Shell 'Frigid Scales' - Missing Lore
         id: 105971,
         name: `Icy Shell 'Frigid Scales'`,
+        location: `Rotating Event - Wrath of the Dragon Slayer (Granith)`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -15318,6 +15515,7 @@ const EquipInformation = [
 { //Diamond Shield 'Adamas Gear' - Complete
         id: 105981,
         name: `Diamond Shield 'Adamas Gear'`,
+        location: `Side Quest: Knights of Blood - Act 3`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -15347,6 +15545,7 @@ const EquipInformation = [
 { //Torrent Sword 'Grosveld' - Complete
         id: 105991,
         name: `Torrent Sword 'Grosveld'`,
+        location: `Side Quest: Knights of Blood - Act 3`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -15407,6 +15606,7 @@ const EquipInformation = [
 { //Fire Relic 'Flaming Knight's Mantle' - Missing Lore
         id: 106011,
         name: `Fire Relic 'Flaming Knight's Mantle'`,
+        location: `Earth Elemental Ruins F9 Stage Clear Reward`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -15437,6 +15637,7 @@ const EquipInformation = [
 { //Water Relic 'Water Dragon's Fang Earrings' - Missing Lore
         id: 106021,
         name: `Water Relic 'Water Dragon's Fang Earrings'`,
+        location: `Fire Elemental Ruins F9 Stage Clear Reward`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -15467,6 +15668,7 @@ const EquipInformation = [
 { //Earth Relic 'Diewelt' - Missing Lore
         id: 106031,
         name: `Earth Relic 'Diewelt'`,
+        location: `Water Elemental Ruins F9 Stage Clear Reward`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -15497,6 +15699,7 @@ const EquipInformation = [
 { //Relic 'Santa Arpa' - Complete
         id: 106041,
         name: `Relic 'Santa Arpa'`,
+        location: `Rotating Giant Boss - Sanctuary of the Bright Spirit (Wilkes)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -15526,6 +15729,7 @@ const EquipInformation = [
 { //Judgement Blade 'ZANKETSU' - Complete
         id: 106051,
         name: `Judgement Blade 'ZANKETSU'`,
+        location: `Side Quest: Knights of Blood - Act 4`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -15555,6 +15759,7 @@ const EquipInformation = [
 { //Demon Garb 'Ritter Stola' - Complete
         id: 106061,
         name: `Demon Garb 'Ritter Stola'`,
+        location: `Side Quest: Knights of Blood - Act 4`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 4,
         image: 
@@ -15857,6 +16062,7 @@ const EquipInformation = [
 { //Divine Crown 'Holy Jingle' - Complete
         id: 106161,
         name: `Divine Crown 'Holy Jingle'`,
+        location: `Limited Event - Rhapsody of Christmas Eve`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -15886,6 +16092,7 @@ const EquipInformation = [
 { //Ghost Shield 'Tenebrae Lux' - Complete (109961 = Tenebrius EV Equip)
         id: 106171,
         name: `Ghost Shield 'Tenebrae Lux'`,
+        location: `Raid Equip (Tenebrius)`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -15915,6 +16122,7 @@ const EquipInformation = [
 { //Light Relic 'Cape of Reincarnation' - Complete
         id: 106181,
         name: `Light Relic 'Cape of Reincarnation'`,
+        location: `Dark Elemental Ruins F9 Stage Clear Reward`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -15945,6 +16153,7 @@ const EquipInformation = [
 { //Dark Relic 'Metzelei' - Complete
         id: 106191,
         name: `Dark Relic 'Metzelei'`,
+        location: `Light Elemental Ruins F9 Stage Clear Reward`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -16311,6 +16520,7 @@ const EquipInformation = [
 { //Blazing Cloak 'Flame Stola' - Complete
         id: 106311,
         name: `Blazing Cloak 'Flame Stola'`,
+        location: `Side Quest: Knights of Blood - Act 5`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -16340,6 +16550,7 @@ const EquipInformation = [
 { //Fire Boots 'Rubellum' - Complete
         id: 106321,
         name: `Fire Boots 'Rubellum'`,
+        location: `Side Quest: Knights of Blood - Act 5`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -16369,6 +16580,7 @@ const EquipInformation = [
 { //Star Etcher 'Asterisk' - Complete
         id: 106331,
         name: `Star Etcher 'Asterisk'`,
+        location: `Side Quest: Knights of Blood - Act 6`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -16398,6 +16610,7 @@ const EquipInformation = [
 { //Inventor Robe 'Genesis' - Complete
         id: 106341,
         name: `Inventor Robe 'Genesis'`,
+        location: `Side Quest: Knights of Blood - Act 6`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -16489,6 +16702,7 @@ const EquipInformation = [
 { //Incensed Helm 'Astragoth' - Missing Lore
         id: 106371,
         name: `Incensed Helm 'Astragoth'`,
+        location: `Mines Equip: Ifrit`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -16518,6 +16732,7 @@ const EquipInformation = [
 { //Shadowflame Helm 'Helioskia' - Missing Lore
         id: 106381,
         name: `Shadowflame Helm 'Helioskia'`,
+        location: `Mines Equip: Elite Ifrit`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -16547,6 +16762,7 @@ const EquipInformation = [
 { //Enchanted Rifle 'Stratega' - Complete
         id: 106391,
         name: `Enchanted Rifle 'Stratega'`,
+        location: `Limited Event - Spy in the Shadows Part 1 (Dark Fen)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -16576,6 +16792,7 @@ const EquipInformation = [
 { //Stealth Gear 'Atra Nebula' - Complete
         id: 106401,
         name: `Stealth Gear 'Atra Nebula'`,
+        location: `Limited Event - Spy in the Shadows Part 1 (Dark Fen)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -16636,6 +16853,7 @@ const EquipInformation = [
 { //Stealth Blade 'Nanashi' - Complete
         id: 106421,
         name: `Stealth Blade 'Nanashi'`,
+        location: `Limited Event - Spy in the Shadows Part 2 (Dark Kane)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -16665,6 +16883,7 @@ const EquipInformation = [
 { //Twilight Dagger 'YOICHI' - Complete
         id: 106431,
         name: `Twilight Dagger 'YOICHI'`,
+        location: `Limited Event - Spy in the Shadows Part 2 (Dark Kane)`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -16725,6 +16944,7 @@ const EquipInformation = [
 { //魔爪剣『エプルーヴ』 (Subject y2 Raid Equip) - JP Complete
         id: 106451,
         name: `魔爪剣『エプルーヴ』`,
+        location: `Raid Equip (Subject y-2)`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -16998,6 +17218,7 @@ const EquipInformation = [
 { //Divine Arachnid's Blood - Missing Lore (Enchantable Equip)
         id: 106541,
         name: `Divine Arachnid's Blood`,
+        location: `Mines Equip: Radachne`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -17029,6 +17250,7 @@ const EquipInformation = [
 { //Divine Arachnid's Tears - Missing Lore (Enchantable Equip)
         id: 106551,
         name: `Divine Arachnid's Tears`,
+        location: `Mines Equip: Elite Radachne`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -17090,6 +17312,7 @@ const EquipInformation = [
 { //Star Crest 'EX Gate' - Complete
         id: 106591,
         name: `Star Crest 'EX Gate'`,
+        location: `Side Quest: Knights of Blood - Act 7`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -17119,6 +17342,7 @@ const EquipInformation = [
 { //Star Robe 'Regalia' - Complete
         id: 106601,
         name: `Star Robe 'Regalia'`,
+        location: `Side Quest: Knights of Blood - Act 7`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -21232,7 +21456,7 @@ const EquipInformation = [
 { //Voracious Coat 'Splendor' - Complete
         id: 107981,
         name: `Voracious Coat 'Splendor'`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
             {
@@ -27325,7 +27549,7 @@ const EquipInformation = [
         image: 
             {
                 detail: ``,
-                detailmax: `/db/Equipment/Detail/item_detail_110080.png`,
+                detailmax: `/db/Equipment/Thumbnail/item_thumbnail_110080.png`,
                 thumb: ``,
                 thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_110080.png`
             },
@@ -27734,10 +27958,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //真『天地雷鳴甲』 (LThetis TW) - JP Complete
+{ //True 'Tenchi Raimei' - Missing Lore
         id: 110221,
-        name: `真『天地雷鳴甲』`,
-        translate: `True 'Heaven's Thunder Armor'`,
+        name: `True 'Tenchi Raimei'`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -27756,7 +27979,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `50s CT - 8000% Light DMG (Physical). Increase Own Light DMG by 70% for 20s.`,
+                skill: `50s CT - 8000% Light DMG (Physical). Increase own Light DMG by 70% for 20s.`,
                 break: 700
             },
         passive: 
@@ -27764,12 +27987,11 @@ const EquipInformation = [
                 ability1: `When Equipped by Thetis (Light), increase Arts Gauge by 2/s and Paralysis & Freeze resistance by 100% (Only once).`,
                 ability2: `Skill DMG 20% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //真『ノーブルブラッド』 (DRivi TW) - JP Complete
+{ //True 'Noble Gash' - Missing Lore
         id: 110231,
-        name: `真『ノーブルブラッド』`,
-        translate: `True 'Noble Blood'`,
+        name: `True 'Noble Gash'`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
@@ -27796,12 +28018,11 @@ const EquipInformation = [
                 ability1: `When equipped by Riviera (Dark), increase own Skill CT speed by 30% and Arts gauge by 100 at the Start of Quest (Only once).`,
                 ability2: `Magic DMG 10% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //天地雷鳴甲 (LThetis Farmable) - JP Complete
+{ //Tenchi Raimei - Missing Lore
         id: 110241,
-        name: `天地雷鳴甲`,
-        translate: `'Heaven's Thunder Armor'`,
+        name: `Tenchi Raimei`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -27826,11 +28047,11 @@ const EquipInformation = [
             {
                 ability1: `ATK 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //天地翔迅鉄 (LThetis Farmable) - JP Compelete
+{ //Tenchi Shojin - Missing Lore
         id: 110251,
-        name: `天地翔迅鉄`,
+        name: `Tenchi Shojin`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -27855,12 +28076,11 @@ const EquipInformation = [
             {
                 ability1: `DMG to Dark enemy 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //ノーブルブラッド (DRivi Secret Equip) - JP Complete
+{ //Noble Gash - Missing Lore
         id: 110261,
-        name: `ノーブルブラッド`,
-        translate: `'Noble Blood'`,
+        name: `Noble Gash`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -27885,11 +28105,11 @@ const EquipInformation = [
             {
                 ability1: `ATK 10% UP when Near-Death.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //モータルスカーレット (DRivi Secret Equip) - JP Complete
+{ //Mortal Scarlet - Missing Lore
         id: 110271,
-        name: `モータルスカーレット`,
+        name: `Mortal Scarlet`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -27914,7 +28134,7 @@ const EquipInformation = [
             {
                 ability1: `Dark resistance 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //True 'Hyakka' - Missing Lore
         id: 110281,
@@ -28425,10 +28645,9 @@ const EquipInformation = [
             },
         lore: `Leone's cute leotard-style swimsuit, unaltered in any way. She tried it on one year later, and the comfortable fit sent a chill down her spine. It was impossible she had not grown; her daily snack included a glass of nutritious milk. Then, she remembered her sister would be a reliable source of information on the matter. That glimmer of hope in her eyes made it clear she was unaware of what disappointment the future held.`
     },
-{ //真『シューティングスター』 (Valerie TW) - JP Complete
+{ //True 'Shooting Star' - Missing Lore
         id: 110451,
-        name: `真『シューティングスター』`,
-        translate: `True 'Shooting Star'`,
+        name: `True 'Shooting Star'`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
@@ -28455,12 +28674,11 @@ const EquipInformation = [
                 ability1: `When equipped by Valerie, increase own DMG by 30% and Arts gauge by 2/s (Only once).`,
                 ability2: `Physical resistance 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //シューティングスター (Valerie Farmable) - JP Complete
+{ //Shooting Star - Missing Lore
         id: 110461,
-        name: `シューティングスター`,
-        translate: `'Shooting Star'`,
+        name: `Shooting Star`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -28478,18 +28696,18 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `40s CT - 7000% Water DMG (Physical). Consumes 20% of Max HP. Reduce enemy's Physical and Water resistance by 20% for 10s.`,
+                skill: `40s CT - 7000% Water DMG (Physical). Costs 20% of Max HP. Reduce enemy's Physical and Water resistance by 20% for 10s.`,
                 break: 500
             },
         passive: 
             {
                 ability1: `ATK 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //ロッキンハート (Valerie Farmable) - JP Complete
+{ //Studded Heart - Missing Lore
         id: 110471,
-        name: `ロッキンハート`,
+        name: `Studded Heart`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -28512,9 +28730,9 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Skill DMG 10% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //Charlotte's Pure Ruffles - Complete
         id: 110481,
@@ -29638,7 +29856,7 @@ const EquipInformation = [
         passive: 
             {
                 ability1: `When equipped by Star God Liza, increase all stats and Skill CT REC by 20% (Only once).`,
-                ability2: `MAG DMG 10% UP.`
+                ability2: `Magic DMG 10% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -29668,7 +29886,7 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `MAG DMG 10% UP.`
+                ability1: `Magic DMG 10% UP.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -30069,12 +30287,72 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `55s CT - 4000% Non-Elemental DMG (Physical). Reduce Giant Bosses' DMG resistance by 15% for 8s. `,
+                skill: `55s CT - 4000% Non-Elemental DMG (Physical). Reduce Giant Bosses' DMG resistance by 15% for 8s.`,
                 break: 400
             },
         passive: 
             {
                 ability1: `Disease Time Reduction & Disease Evasion rate 10% UP.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //邪なる沼の女神像 (Light F15 Equip) - JP Complete
+        id: 111011,
+        name: `邪なる沼の女神像`,
+        translate: `Goddess Statue of the Evil Swamp`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111010.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111011.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111010.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111011.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 1200% Dark DMG (Magic). If user is Dark, reduce enemies' Magic resistance by 20% for 8s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `Status Ailment resistance 20% DOWN.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //聖なる祠の女神像 (Dark F15 Equip) - JP Complete
+        id: 111021,
+        name: `聖なる祠の女神像`,
+        translate: `Goddess Statue of the Sacred Shrine`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111020.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111021.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111020.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111021.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 1200% Light DMG (Magic). If user is Light, reduce enemies' Magic resistance by 20% for 8s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `Status Ailment resistance 20% DOWN.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -30672,7 +30950,7 @@ const EquipInformation = [
 { //極楽針 『ハピネストリガー』 (Aristela Orbis Farmable) - JP Complete
         id: 111241,
         name: `極楽針 『ハピネストリガー』`,
-        translate: `'Happiness Trigger`,
+        translate: `Paradise Needle 'Happiness Trigger`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -30702,7 +30980,8 @@ const EquipInformation = [
 { //救砕衣 『マインドクラッカー』 (Aristela Orbis Farmable) - JP Complete
         id: 111251,
         name: `救砕衣 『マインドクラッカー』`,
-        type: `/db/Mines/thumbnail/LB.png`,
+        translate: `Rescue Uniform 'Mind Cracker'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
             {
@@ -31049,7 +31328,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `35s CT - 13000% Dark DMG (Physical). For 8s, reduce enemies' PHY resistance and CRI resistance by 30%.`,
+                skill: `35s CT - 13000% Dark DMG (Physical). For 8s, reduce enemies' Physical resistance and CRI resistance by 30%.`,
                 break: 2000
             },
         passive: 
@@ -31298,6 +31577,36 @@ const EquipInformation = [
         passive: 
             {
                 ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //剣聖の証【翠】(Stiria Mines Equip) - JP Complete
+        id: 111451,
+        name: `氷精靴『フロストヴァイト』`,
+        translate: `Ice Boots 'Frostbite'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111450.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111451.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111450.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111451.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 120
+            },
+        skillset:  
+            {
+                skill: `30s CT - Increase all allies' Fire resistance by 30% for 15s. Freeze ownself for 7s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Increase MAX HP by 5%.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -38601,7 +38910,249 @@ const EquipInformation = [
                 ability2: [`DEF 5% UP.`, `DEF 10% UP.`, `MAX HP 5% UP.`, `DMG to Demons 10% UP.`, `Break power 2% UP.`, `All allies' HP Heal amount 5% UP (Except Lifesteal).`]
             },
         lore: `Rimuru made this based on past New Year memories after seeing Reigrad's celebration. It was originally just an accessory to complete the look with his Haori, but Rimuru truly appreciates its high defensive power and warmth.`
-    }
+    },
+    { //真『マジカルルビー』 - JP Complete
+        id: 1523111,
+        name: `真『マジカルルビー』`,
+        translate: `True 'Magical Ruby'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152310.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152311_pris.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152310.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152311_pris.png`
+            },
+            stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 6000% Light DMG (Magic). If own HP is 80% or above, increase own Magic DMG by 70% for 10s. If own HP is below 80%, heal 20% of MAX HP instead.`,
+                break: 700
+            },
+        passive: 
+            {
+                ability1: `When equipped by Illya, increase own DMG and stats by 20% (No Duplication).`,
+                ability2: `Increase ATK by 5%.`
+            },
+        lore: `Currently unreleased on Global.`
+    },
+    { //真『宝石剣ゼルレッチ』 - JP Complete
+        id: 1523211,
+        name: `真『宝石剣ゼルレッチ』`,
+        translate: `True 'Jeweled Sword of Zelretch'`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152320.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152321_pris.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152320.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152321_pris.png`
+            },
+            stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `45s CT - 6000% Fire DMG (Magic). Consume 2%/s of own max HP, increase Allies' Arts by 4/s and increase Fire Allies' DMG by 40% for 10s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `When equipped by Rin & Luvia, increase own Arts by 2/s and ATK by 30% (No Duplication).`,
+                ability2: `Increase Magic resistance by 5%.`
+            },
+        lore: `Currently unreleased on Global.`
+    },
+    { //マジカルルビー - JP Complete
+        id: 1523311,
+        name: `マジカルルビー`,
+        translate: `Magical Ruby`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152330.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152331_pris.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152330.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152331_pris.png`
+            },
+            stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 8000% Light DMG (Magic). Reduce enemies' Light resistance by 40% for 10s. If user is Human, reduce enemies' Light resistance by 60% instead.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased on Global.`
+    },
+    { //約束された勝利の剣 - JP Complete
+        id: 1523411,
+        name: `約束された勝利の剣`,
+        translate: `Sword of Promised Victory`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152340.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152341_pris.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152340.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152341_pris.png`
+            },
+            stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `75s CT - 16000% Light DMG (Physical). Increase own ATK by 80% for 10s. If user is Light, increase own ATK by 130% instead.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased on Global.`
+    },
+    { //イリヤの服(セイバーver.) - JP Complete
+        id: 152351,
+        name: `イリヤの服(セイバーver.)`,
+        translate: `Illya's Clothes (Saber ver.)`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152350.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152351.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152350.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152351.png`
+            },
+            stats:
+            {
+                hp: 60,
+                atk: 30,
+                def: 30
+            },
+        skillset:  
+            {
+                skill: `40s CT - Increase all allies' Arts gauge by 20. If user is Human, increase all allies' DMG resistance by 15% for 15s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased on Global.`
+    },
+    { //宝石剣ゼルレッチ - JP Complete
+        id: 152361,
+        name: `宝石剣ゼルレッチ`,
+        translate: `Jeweled Sword of Zelretch`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152360.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152361.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152360.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152361.png`
+            },
+            stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `55s CT - Increase all allies' Arts gauge by 4/s and increase all Human allies' CRI rate by 100% for 10s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased on Global.`
+    },
+    { //遠坂凛の服 - JP Complete
+        id: 152371,
+        name: `遠坂凛の服`,
+        translate: `Rin Tohsaka's Clothes`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152370.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152371.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152370.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152371.png`
+            },
+            stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 4000% Fire DMG (Magic). Increase own Magic DMG by 50% for 10s. Increase own Arts gauge by 30. When used for the first time, increase own Arts gauge by 80 instead.`,
+                break: 300
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased on Global.`
+    },
+    { //イリヤの服 - JP Complete
+        id: 152381,
+        name: `イリヤの服`,
+        translate: `Illya's Clothes`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152380.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152381.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152380.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152381.png`
+            },
+            stats:
+            {
+                hp: 0,
+                atk: 120,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `55s CT - Increase all allies' DMG resistance by 10% and all Light allies' DMG resistance by 10% for 20s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `BE Output 5% UP.`
+            },
+        lore: `Currently unreleased on Global.`
+    },
 ]
 
 export function getEquips() {

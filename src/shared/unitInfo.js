@@ -18507,7 +18507,7 @@ const UnitInformation = [
                 author: `Senshi`
             }
     },
-    { //Hart (Earth) - Complete
+    { //Hart (Earth) - Complete, Review done
         id: 103276312,
         rank: "SSS",
         twrequire: "favorable",
@@ -18590,9 +18590,26 @@ const UnitInformation = [
             {   
                 evo5: "A Human youth from a quiet town. Having lost his mother at a young age, his teacher Miranda helped look after him. After turning seventeen, he decided to join the Rangers with his friends Vultee and Priscilla. His mother's sacrifice inspired him to live to help and protect others.",
                 evoawk: "He and his friends went to the forest to hunt a monster and prove their worth. However, the trial was more difficult than they expected, and they found themselves faced with death. It was then he remembered what Miranda said at his mother's funeral. 'You need to survive until your final breath, because your life was given to you by someone special.' This gave him the determination to stand strong and save his friend's lives."
+            },
+        review:
+            {
+                skill: `This really won't be the most consequential skill, especially with how unreliable depending on the enemy to miss can be.`,
+                arts: `Quite a nice offensive buff with a long enough duration that if Hart is supported enough, Hart should be able to loop this without too much difficulty with his extremely loaded True Arts. If you ever find yourself an opening to do so, this can serve as a nice foil to his more support-oriented True Arts.`,
+                truearts: `Well... those are some... very high buff values for two of the most important buffs to have in the game. Despite the short duration, Hart's True Arts more than makes up for it in sheer potency, offering perhaps the highest heal over time buff in the game on top of arts generation near the best-in-class, especially when combined with the additional generation for humans. Even with no other humans on your team, this still better allows Hart to loop his own True Arts buffs, which will be your number one priority if you're playing him. `,
+                ability1: `As if his True Arts wasn't loaded enough already, this all-around boost just makes everyone tankier as well as giving a slight offensive edge, not to mention making his healing even more effective than it already is.`,
+                ability2: `As Cross Battles aren't the most heavily-used feature at the time of writing, this buff won't impact the vast majority of content. Still, the 6 arts per second it provides for 30 seconds serves as a very large boost if you find yourself in a situation where this actually applies.`,
+                ability3: `A fairly-sized buff, which will, at the very least, increase Hart's own damage and can surely help out alongside any other Earth Party members.`,
+                trueweapon: {
+                    skill: `A surprisingly very offensive buff for a support unit's True Weapon. While Hart isn't the most offensive unit, at the rate he'll be spamming his True Arts, this can still be taken advantage of, especially if you have other Earth units on your team.`,
+                    ability1: `While a stat boost is evidently nice, the main attraction here is that arts generation, making this by far the best option for Hart's magic slot if you own it.`,
+                    ability2: `Again, Hart isn't a traditional damage dealer, but at this point from his True Weapon active to his passives and Arts buff, he'll begin to start dealing a decent amount.`
+                },
+                overall: `Hart, upon release, will be a large step up from most units within his role, being able to perform two of the most influential roles in the game to a degree with little precedent with his True Arts as well as having many, many cherries on top. Due to this, he's easily slotted into almost all teams that will allow for him for both newbies and veterans alike. There's absolutely no reason that you shouldn't do your guaranteed hyper rare summon on his banner just for the prospect of obtaining him.`,
+                lastupdated: `August 18, 2021`,
+                author: `Elric`
             }
     },
-    { //Hart (Dark) - Complete
+    { //Hart (Dark) - Complete, Review done
         id: 103286512,
         name: "Hart (Dark)",
         rank: "A",
@@ -18673,9 +18690,27 @@ const UnitInformation = [
             {   
                 evo5: "Hart left home while clutching the gun of his beloved Miranda. The imperial hero Simon, long presumed dead, had murdered her. Hart's chance at revenge finally arrived two years later in a dim cavern outside the capital. Controlled by rage, he reached for Miranda's keepsake with his right hand as his left held the very thing that had taken her life: the Phantom Bullet.",
                 evoawk: "A magic gunner who works under Azvan. Though he succeeded in eliminating the legendary sniper Simon with his own Phantom Bullet, the anger and frustration did not fade. He decided to direct it at the empire and their ruthless efforts to kill E-Factor holders like Miranda. No matter how great a threat they posed, the fact they died in utter secrecy was unacceptable to him."
+            },
+        review:
+            {
+                skill: `Nice skill to have. The permanent DMG Res down leads to a slightly increased damage output from the team.`,
+                arts: `Great for Miasma Stages, or for spamming useful skills like stacking Hart-Xi's Bleed, or Vox's Artsgen Skill.`,
+                truearts: `While the additional Crit Dmg is nice, he lacks a way to provide teamwide crit rate. His reliance on a Second unit or Equipment to provide teamwide Crit Rate makes this rather situational to use.`,
+                phantombullet: `Once again, we have a unit with most of his power placed on his Phantom Bullet. Lowering the enemies Dark res by 50% for upto 3 Minutes in sustain, and simply lowering Res while dealing large DMG for Dark Nukes.`,
+                ability1: `Allows Hart-Xi to benefit from his True Arts' Crit DMG buff, obviously since it requires all 3 bleed stacks you will have to deal with the RNG of the Skill.`,
+                ability2: `Big DMG Buff, makes it easier for Hart-Xi to end stages with either his Phantom Bullet or True Arts.`,
+                ability3: `Neardeath passive, since it's rare for most teams to lack a healer and function, this passive wont contribute much.`,
+                trueweapon: {
+                    skill: `Another Juno TW alternative, this time with a shorter duration and the ability to increase your Bleed stacks by 1.`,
+                    ability1: `Nice ATK Buff, and APS Passive. If you plan to use Dark Hart in Sustain this is definitely the best in slot.`,
+                    ability2: `This accuracy amount is far too low to be noticable.`
+                },
+                overall: `Dark Hart is in a rough place in global with Tokyo Revengers being expected in the coming weeks, having 2 units that will replace him in Simon Compositions, Mikey and Draken, as such you wont be using Dark Hart much outside of Dark Magic Nukes, or to buff the team's Crit DMG.`,
+                lastupdated: `July, 21, 2022`,
+                author: `Gian`
             }
     },
-    { //Miranda - Complete
+    { //Miranda - Complete, Review done
         id: 103296412,
         name: "Miranda",
         rank: "S",
@@ -18755,9 +18790,26 @@ const UnitInformation = [
             {   
                 evo5: "Known as the shield of Simon's Hill. She is highly regarded figure of the town as both captain of the Rangers and schoolteacher. Many appreciate her service, particularly after becoming a widow, but the elders fear she will spend the rest of her days alone. However, the broad smile that she gives her students shows nothing but fulfillment.",
                 evoawk: "Miranda was instantly smitten by Simon, fated to be her first and last love. Although he seemed to bear some dark burden, she never hesitated to keep him company. No matter how he sulked, she always talked to him, walked to school with him, and made food for him. Eventually, her sunny disposition reached through, melting his heart of ice."
+            },
+        review:
+            {
+                skill: `Nothing crazy, evasion debuff is not very useful in a lot of content especially considering that it's only 10%.`,
+                arts: `For a taunt tank, being able to cure status is very important especially if they are really annoying ailments such as curse. In the situation where you find yourself needing to cure the aforementioned ailments, using this NA will certainly get you out of sticky situations.`,
+                truearts: `Certainly a very strong TA for a tank. On top of boasting the highest barrier in-game, she also have stackable MAG DMG buff, making her not only a tank but also a dps support.`,
+                ability1: `The highest innate dmg res that allows you to tank through a lot of content so long as the enemies deal magic damage.`,
+                ability2: `Same passive as majority of other taunt tanks, while it is helpful for being able to revive a teammate, this should be avoided at all cost due to the fact that most quest requires no-death requirement to clear anyways on top of the fact that once a unit is revived, they no longer have their damage redirected towards Miranda until she uses NA/TA again.`,
+                ability3: `A good art refund when your barrier breaks, allowing you to go back into arts faster. But in that time frame, the rest of your team will have to take damage until Miranda can taunt again. Not a game-breaking passive, in fact this passive could be very detrimental at times since some high damaging bosses can kill you very quickly if you aren't under a taunt. You'll see this effect truly shine in places such as Awoken Nier stage or Virago stage where guard killer is active.`,
+                trueweapon: {
+                    skill: `Strong defense equip with a good uptime. Downside is that you need to by above 80% hp for optimal dmg res, which isn't hard with Miranda's passive.`,
+                    ability1: `A very useful equip for Miranda and most definitely her BIS in most cases. On top of having 2 arts per second, she also gains immunity to more status. As previously mentioned being able to evade status and cure them is very important. Being paralyzed or frozen while boss starts doing massive amount of damage towards you can be detrimental, but with this true weapon she can ignore all that easily.`,
+                    ability2: `A decent perk, giving her an extra def boost to help her.`
+                },
+                overall: `A good tank unit, a strong magic resistance passive as well as a high barrier on both NA and TA alongside with stackable magic dmg boost every TA. For any quest that deals high magic damage, Miranda is definitely a strong choice. Even for quest that deals physical damage and your innate mag dmg is useless, she can still be used due to her high barrier. While she makes a great taunt tank against magic enemies, she would fall short to Thetis for quest that is more physical damage oriented`,
+                lastupdated: `October 19, 2021`,
+                author: `Icee`
             }
     },
-    { //Simon - Complete
+    { //Simon - Complete, Review done
         id: 103306512,
         name: "Simon",
         rank: "A+",
@@ -18841,6 +18893,24 @@ const UnitInformation = [
             {   
                 evo5: "An expert sniper who once served as captain of a small Human town's self-defense force. During that time, he fearlessly defeated violent monsters, protected his allies, and gained the population's trust. He pierced the hearts of his targets with unfailing accuracy, but he met his end after taking an equally fatal blow to the chest from a black-winged dragon.",
                 evoawk: "After moving to a small town in the empire at a young age, he met the previous Ranger captain's daughter, Miranda. They eventually became married, and anyone who saw them shopping in the quare on weekends would think of them as a loving couple. Yet as he pointed his gun at her from the edge of town, his gaze was filled with dark intent."
+            },
+        review:
+            {
+                skill: `Nice little DMG RES debuff, nothing noteworthy but not entirely redundant as well.`,
+                arts: `With a rather generous uptime of 20s, given adequate support from ArtGen units, Simon should be able to reach his max of 240% DMG buff easily. This should see some use for quests where there are multiple waves, allowing Simon to ramp his DMG before using his coveted Phantom Bullet. Also as an added bonus, Simon’s Arts is able to freeze time for a brief moment.`,
+                truearts: `Great debuffs for Dark and PHY units. The 50 Art refund is also nice, although you would rather use his Phantom Bullet in most situations.`,
+                phantombullet: `Huge 100k% DMG Multiplier, topped with a huge Accuracy and DEF Ignore buff. Paired with the right support, he is able to match, and even outdamage, Saitama nukes in the current meta. Despite being capped at 3 uses per quest, most bosses would find it hard surviving the brute force of just 1 of Simon’s Phantom Bullet with adequate support.`,
+                ability1: `Noticeable DMG buff against Human enemies, nothing much to add here.`,
+                ability2: `Again, noticeable DMG buff against Broken enemies.`,
+                ability3: `Amazing passive, boasting an impressive passive ArtGen and ATK buff while unaffected by ailments. As such, it might be worth the effort to ensure Simon doesn’t stay affected by status ailments.`,
+                trueweapon: {
+                    skill: `The best self buff equipment for Dark/PHY nukers such as Simon himself. Not only does it have a huge DMG multiplier, but it essentially boosts Simon’s, or any Dark/PHY unit’s, DMG output by a whopping 80%. Unlike other nuke equipment, it also has a decent cooldown which is a nice bonus.`,
+                    ability1: `A lackluster unique passive. Although the ATK buff is nice to have, due to the passive ATK buff Simon already receives while unaffected by ailments, it doesn’t affect his DMG as much. The small Status RES buff also isn’t anything noteworthy.`,
+                    ability2: `Nice added bonus DMG against those pesky Giant Bosses.`
+                },
+                overall: `Hey, it’s the first Phantom Sniper to actually use Phantom Bullet and actually has a gun, albeit not a sniper! No doubt, Simon is definitely an amazing unit. Not only does he perform well in sustain situations, able to consistently ramp and deal damage, but also excels in Dark nukes. Being Dark and Human, he is able to take full advantage of Forte’s, a key support unit in Dark nukes, buffs. Coupled with the huge Damage multiplier on his Phantom Bullet and nuke-friendly slots, he can easily fill the shoes of a DPS nuker. With the right support from equips and other units, he is able to rival the current Saitama nukes dominating most leaderboards in terms of Damage. Best of all, he has a pretty sick gun :)`,
+                lastupdated: `March 18, 2022`,
+                author: `Jeffers`
             }
     },
     { //Vultee (Earth) - Missing Lore (GLB), Review done
@@ -18944,7 +19014,7 @@ const UnitInformation = [
                 author: `Pula`
             }
     },
-    { //Priscilla (Fire) - Complete
+    { //Priscilla (Fire) - Complete, Review done
         id: 103326112,
         name: "Priscilla (Fire)",
         rank: "A+",
@@ -19027,6 +19097,23 @@ const UnitInformation = [
             {   
                 evo5: "An archer from a small human village. She attended school with childhood friends Hart and Vultee. A strict, rigorous upbringing left her with a tendency to act stiff, but it also gave her proper manners. That along with a natural charm endeared her to others. Even so, she was teasingly called 'Class Rep' since her earnestness could be more than a little overbearing at times.",
                 evoawk: "An archer from the village of Simon's Hill. She wept bitterly the night her friend Hart fled their home. She believed from the bottom of her heart that he had not killed Miranda, but the fear their relationship would collapse the moment she asked him for confirmation prevented her from doing so. Regret soon taught her what she should have feared instead was losing him forever. Changing that weakness into determination, she set out to find Hart in hopes of undoing her mistake."
+            },
+        review:
+            {
+                skill: `Nice degree of self-sufficiency in terms of art gauge, allowing for Priscilla to use her True Arts faster and therefore deal more damage per second.`,
+                arts: `As a normal DPS unit, it's best to just stick with the True Arts. Ramping the ATK buffs requires an unnecessary amount of time and art gauge for most quests, and ramping or alternating will just end up taking more time than you need to clear. For nuking, this wouldn't have any relevance due to another/better source of fire resistance debuffing already being present in a proper fire nuke, and just in general, the critical rate and damage buffs from True Arts would provide a lot more value.`,
+                truearts: `Increasing the team's critical rate and providing a damage buff that scales with more fire units, Priscilla will be an amazing asset for any sort of team with damage in mind. Having more fire units on the team is by no means necessary for her to unleash a great amount of damage and provide awesome nuke support, but it does allow for more benefits if you do happen to have them`,
+                ability1: `An additional increase that is quite small, conditional, and rather unnoticeable to her damage output.`,
+                ability2: `This only applies to a small portion of content (raids, select few of quests), but depending how you utilize it, it can allow for some more flexibility in the second team's equipment slotting. The passive won't come into play for the huge majority of things.`,
+                ability3: `True Arts usage does not count toward this bonus, and as mentioned before, the ATK bonus is generally not worth the time and effort ramping in most content.`,
+                trueweapon: {
+                    skill: `With a somewhat short cooldown compared to similar equipment and a conditional but potent effect, this is a pretty good item on Priscilla when sustaining. Unfortunately, the additional 20% does not come into play when nuking, thus there are still a handful of items that are on par or even better (albeit rarer) for resistance debuffing in this case.`,
+                    ability1: `Her respective passive provides a generous damage boost along with accuracy to help against any bosses that might have high evasion.`,
+                    ability2: `A tiny increase in ATK, the effect on damage output honestly isn't noticeable.`
+                },
+                overall: `Priscilla is a powerful DPS and consistent critical rate/damage buffing unit, providing great damage support while simultaneously hitting hard for many teams, whether they're mono-fire or mixed elements. In terms of nuking, she'll be a sought-after unit for veterans looking to use competitive fire nuke teams, and even outside fire nuking, she opens up a new variety of possible nuke teams as a critical buff support`,
+                lastupdated: `January 12, 2022`,
+                author: `Praying Patrick`
             }
     },
     { //Serah - Complete
@@ -20617,7 +20704,7 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global."
             }
     },
-    { //Riviera (Dark) - Missing Lore
+    { //Riviera (Dark) - Missing Lore, Review done
         id: 103576512,
         name: "Riviera (Dark)",
         attribute: "Dark",
@@ -20680,7 +20767,7 @@ const UnitInformation = [
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: "Noble Blood",
+                name: "Noble Gash",
                 slot: "/db/Mines/thumbnail/magLB.png",
                 detail: "/db/Equipment/Detail/item_detail_110231.png",
                 skill: "50s CT - 8000% Dark DMG (MAG). For 20s, increase own Dark DMG by 70%.",
@@ -20693,11 +20780,28 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "Missing Lore.",
+                evoawk: "Missing Lore."
+            },
+        review:
+            {
+                skill: `Overall, not that bad of a skill. While the uptime is rather bad, the actual effect is decent.`,
+                arts: `Yeah...you'll pretty much never use this other than to activate Magia Drive: Unlimited. While the stackable dark res down looks tempting, you'd be better off just spamming her True art if you intend to use her as an artgen. At most you might cycle between her arts if you have enough artgen to afford it.`,
+                truearts: `A nice artgen effect with a rather high magic res down. Only real downside is the need to Magia Drive before she can start doing anything else. However, given the lackluster artgen options dark has, she'll almost always have a nice place in dark ruins.`,
+                ability1: `Given the rather large amount of demon enemies, this passive will see some use, however it's nothing game changing.`,
+                ability2: `This is the only reason you'd enter Magia Drive Unlimited, a nice teamwide artgen effect which stacks with everything`,
+                ability3: `I mean...this is nice, but why not 100%?`,
+                trueweapon: {
+                    skill: `Decently long uptime on a rather high dark dmg up, however the main reason you'd use this equip is for the passive not it's active.`,
+                    ability1: `While the skill CT helps with that horrendis uptime on her skill, it's not enough to help the low uptime. The instant 100 art help with her consistency given the lack of artgen which doesn't require 300-400 arts investment.`,
+                    ability2: `Minor dmg up helps.`
+                },
+                overall: `While she can't compete with the stronger artgen units like Emperor, Juno, or hart, she's much closer to someone like Dark Celia. Her lack of self sufficiency and need for 300+ artgen before she can do anything heavily slows her down and makes her reliant on her team for startup. However, once you get past that startup she is a solid artgen option for those who lack the aforementioned top tier units or when running content which doesn't let you use them like dark ruins. While her artgen my not be able to compete with the faster startup of other untis, her large and stackable dmg res down would have some utility even when paired with someone else like Juno.`,
+                lastupdated: `April 20, 2023`,
+                author: `Zanster`
             }
     },
-    { //Thetis (Light) - Missing Lore
+    { //Thetis (Light) - Missing Lore, Review done
         id: 103586412,
         name: "Thetis (Light)",
         attribute: "Light",
@@ -20760,7 +20864,7 @@ const UnitInformation = [
             },
         trueweapon: //If no TW, may delete this section 
             {
-                name: "Heaven's Thunder Armour",
+                name: "Tenchi Raimei",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "/db/Equipment/Detail/item_detail_110221.png",
                 skill: "50s CT - 8000% Light DMG (PHY). For 20s, increase own Light DMG by 70%.",
@@ -20773,8 +20877,25 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "Missing Lore.",
+                evoawk: "Missing Lore."
+            },
+        review:
+            {
+                skill: `1 APS passive, nothing major but still nice to have.`,
+                arts: `A very convoluted system. Needing like 300 arts to activate the damage buff is needlessly expensive for what you get.`,
+                truearts: `A very high multiplier paired with his built in crit and ability to buff PHY damage makes Light Thetis a very potent dps unit after everything is set up.`,
+                ability1: `The buffs are too insignificant to even be worth locking behind Magia Drive. In most cases you won’t even notice the difference.`,
+                ability2: `Built in crit is always good, and there's even some extra on top for crit resistant bosses. Paired with his high multiplier in MGU, it will let Thetis hit pretty hard.`,
+                ability3: `Not enough to be significant on any boss where you would need accuracy, but appreciated nonetheless`,
+                trueweapon: {
+                    skill: `Very nice damage buff, but you would either need to be going manual or using AI in order to get him to make the most of it before it runs out, because its uptime is too low to be consistent.`,
+                    ability1: `Extra arts will definitely help with getting him to MGU faster, and flinch resistance is appreciated. Nothing major, but not bad either.`,
+                    ability2: `This just serves little no purpose, nor is it helpful in 99% of situations.`
+                },
+                overall: `Light Thetis has the potential to be an amazing DPS with teamwide buffing, self crit, and a crazy high multiplier. Unfortunately, he is hindered by requiring Batman levels of prep time in the form of 400 Arts to get the relevant buffs, and then a further 200 Arts to actually do damage. While he can’t keep up with the more mainstream DPS units, he can still be used for a decent bit of content if you have some heavy-duty artsgen capabilities. Otherwise, Thetis is still going to fall short since he’s just too slow to see use in harder missions that press you for time, he can’t be used to nuke with, and is completely overshadowed by Erza and even NYMilim as a DPS.`,
+                lastupdated: `April 20, 2023`,
+                author: `Pula`
             }
     },
     { // Sakuya - Missing Lore, Review done
@@ -20854,8 +20975,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "Missing Lore.",
+                evoawk: "Missing Lore."
             },
         review:
             {
@@ -26990,7 +27111,7 @@ const UnitInformation = [
                 evoawk: "Grand Couturier of the REVOCS Corporation. Beneath her cute appearance lies a haughty, sadistic personality. After killing Ryuko's father, Isshin Matoi, she took one of the two Scissor Blades. Among her superhuman techniques is the ability to remove the Banshi from Goku Uniforms, destroying them instantly."
             }
     },
-    { // Takemichi - Complete
+    { // Takemichi - Complete, Review done
         id: 107616111,
         name: "Takemichi",
         rank: "F",
@@ -27054,9 +27175,26 @@ const UnitInformation = [
             {   
                 evo5: "After being shoved in front of an oncoming train, Takemichi Hanegaki suddenly found himself back in his middle school days. Determination to change his fate as a weak, witless delinquent led him to meet Mikey and Draken.",
                 evoawk: "To save his former girlfriend, Hinata Tachibana, from the violent Tokyo Manji Gang in the present, he decided to guide their formative days in the past. That unbreakable tenacity altered the paths of both himself and his fellow Toman members."
+            },
+        review:
+            {
+                skill: `While the Paralyze and Freeze RES is nice to have, the fact it only applies during his skill animation instead of as a passive effect limits its use.`,
+                arts: `Having 400% potential DMG up sounds nice, sadly his low multiplier heavily limits his damage not to even mention taking 10 NAs to reach max stacks.`,
+                truearts: `Who doesn't love conditional ATK up and a weak art refund? In all seriousness this is honestly one of the better parts of his kit and what you'll use most of the time, when paired with his passive this can make for a decent last stand to help the team get one last TA off.`,
+                ability1: `When he's at max luck increasing his arts by 120 at the start of a fight is a nice little boost, helping him get a TA off and supporting the team faster.`,
+                ability2: `Ahhh yes, near death artgen. This will likely only get used as a final stand in SPEX level stages, to give the team one last little boost before getting killed.`,
+                ability3: `The legendary Genos Passive, this makes him a good subsitute for genos when XP farming. Now for the genos vs takemichi debate on who's better`,
+                trueweapon: {
+                    skill: ``,
+                    ability1: ``,
+                    ability2: ``
+                },
+                overall: `Takemichi is nothing special, his Normal Art is a noob trap for those who think 400% dmg up will make up for the low multiplier. Having 10aps when near death can make for a nice final stand, more often than not you'll just get killed before you can get enough art to TA. Outside of being used for his bonus rank XP or free revives on Tokyo revenger stages he's unlikely to see use.`,
+                lastupdated: `August 5, 2022`,
+                author: `Zanster`
             }
     },
-    { // Mikey - Complete
+    { // Mikey - Complete, Review done
         id: 107626512,
         name: "Mikey",
         rank: "S",
@@ -27119,9 +27257,26 @@ const UnitInformation = [
             {   
                 evo5: "The Leader of the Tokyo Manji Gang, real name Manjiro Sano. Known as the Invincible Mikey, he rules over other hoodlums of the city with his incredible strength and charisma. When it comes to protecting his members, no foe is too tough.",
                 evoawk: "Though his strength is uncontested, he lost the ability to control his emotions with the death of his older brother, Shinichiro. Only with Takemichi and Draken's support can he keep the darkness in his heart at bay."
+            },
+        review:
+            {
+                skill: `Impressive ArtGen on skill is always a treat and can be extremely helpful for quests with many waves. The faint chance is also generally negligible but nice for those pesky waves leading up to the boss.`,
+                arts: `That is a rather large DMG buff for an Arts, despite being restricted to Human allies. Not a bad Arts to have, especially on a team consisting of Humans, although Mikey’s True Arts is the real show-stealer.`,
+                truearts: `A hefty DMG multiplier, alongside a teamwide CRI rate buff. You will generally be defaulting to using his True Arts for most quests due to the immense DMG it is able to output alongside his unique passive and CRI rate buff for the entire team. As a side note for nukers, his True Arts animation is also fast, taking a little over a second for its first hit to land.`,
+                ability1: `What an insane passive to have. This essentially gives Mikey a whopping 200% CRI DMG buff when he is at full HP, which is not hard to maintain with a capable healer on the team. This single-handedly makes Mikey an amazing Nuker, while also being a more than competent DPS.`,
+                ability2: `A noticeable DMG buff against Humans, although most end-game bosses are Giant Bosses, so this isn’t as impressive in practice.`,
+                ability3: `Nothing to complain about free passive ArtsGen. Definitely nice to have, especially when using Mikey in longer fights.`,
+                trueweapon: {
+                    skill: ``,
+                    ability1: ``,
+                    ability2: ``
+                },
+                overall: `Chills. Mikey was definitely built for Dark nukes. Not only is he Dark and Human, which allows him to utilize the full buffs provided by Forte (Dark Nuke Support unit), but his unique passive grants him a whole 200% CRI DMG buff, alongside his high 70000% DMG Multiplier from his True Arts... As the cherry on top, he is also one of the few units with three 5☆ slots. With that said, he can even perform as a competent DPS for sustains, granting a teamwide CRI buff while outputting serious damage. He is definitely one of the prizes of the Part 1 banner, upgrading your nukes and filling up the missing DPS hole in your team.`,
+                lastupdated: `August 5, 2022`,
+                author: `Jeffers`
             }
     },
-    { // Draken - Complete
+    { // Draken - Complete, Review done
         id: 107636412,
         name: "Draken",
         rank: "S",
@@ -27184,9 +27339,26 @@ const UnitInformation = [
             {   
                 evo5: "The Vice Leader of Tokyo Manji Gang, real name Ken Ryuguji. Second only to Mikey in sheer strength, he is able to turn the tide of a brawl all by himself. He also has keen judgement and empathy, reflected in his personal policy to not cause trouble for outsiders.",
                 evoawk: "He was supposed to be killed by Kiyomasa during the battle of 8/3, but Takemichi saved him in the nick of time. For that and his invaluable ability to give Mikey emotional support, he places great trust in the seemingly weak boy."
+            },
+        review:
+            {
+                skill: `Impressive ArtGen on skill is always a treat and can be extremely helpful for quests with many waves. Meanwhile, the DEF debuff is negligible at best`,
+                arts: `That is a rather long-lasting general DMG RES debuff. Furthermore, it fits well with his role as a damage-support unit, helping increase overall damage output by a noticeable degree. Despite this, you will find yourself using his True Arts instead most of the time.`,
+                truearts: `A long-lasting Physical RES debuff that is also stackable. This allows Draken to shine in Physical-oriented teams specifically, while also dealing a decent amount of damage himself. His ArtGen, however, is not as impressive, and is thus not a good idea to rely on him for ArtGen alone.`,
+                ability1: `An amazing passive which allows him to perform his role as a damage-support unit even better. Slotting him into Physical-oriented teams, he is able to buff the team’s damage forever based on his HP. This is especially useful for nukes in particular as the nuke team will be able to take full advantage of his PHY buff.`,
+                ability2: `A very rare passive to have, with only a very select few units in the game being able to increase allies’ Arts gauge at the start of the quest. However, do note that this passive does NOT stack with Forte’s and NYMilim’s passive.`,
+                ability3: `Rather self-explanatory, allowing Draken to be immune to Paralysis. Generally, this is rather negligible unless the quest has Paralysis attacks.`,
+                trueweapon: {
+                    skill: ``,
+                    ability1: ``,
+                    ability2: ``
+                },
+                overall: `A busted damage-support unit, especially so for Physical nukes. Draken is able to leverage his Physical DMG buffs and debuffs to heavily buff any Physical nukes with hard-hitting units - ahem Mikey ahem. Additionally, he is also one of a few units in the game with 3 5☆ slots, made even rarer when you consider his 3 5☆ slots are PHY/PHY/MAG. To top it off, he is the only unit in the game with such an absurd 100% teamwide PHY DMG passive. For veterans capable of nuking, Draken is an amazing unit to pair alongside your hard-hitting PHY units, and is definitely worth at least a pull.`,
+                lastupdated: `August 17, 2022`,
+                author: `Jeffers`
             }
     },
-    { // Chifuyu - Complete
+    { // Chifuyu - Complete, Review done
         id: 107646312,
         name: "Chifuyu",
         rank: "B",
@@ -27249,9 +27421,26 @@ const UnitInformation = [
             {   
                 evo5: "The First Division Vice Captain of the Tokyo Manji Gang. Although he was beaten up by Keisuke Baji during his initiation ceremony to join a rival gang, he believed in the former captain until his death. That show of unshakable trust inspired Takemichi.",
                 evoawk: "After Bloody Halloween, Takemichi was appointed First Division Captain to replace the dead Keisuke, so he agreed to support him as partner. The decision to watch out for Takemichi only intensified when he became one of the few people to know about his time travel ability."
+            },
+        review:
+            {
+                skill: `BE Output is always a negligible buff.`,
+                arts: `Useless revive effect because that would imply that Chifuyu was unable to mitigate enough damage. however, the Stats Up is nice for a Heal every so often.`,
+                truearts: `Large Barrier and sizable DMG Res Buff, for most Stages you can get by with just this True Arts, however you will have to consider other competition such as Favelle or Sanstone which do not stack with Chifuyu, and have defense slots themselvers.`,
+                ability1: `Great Passive for effectively increasing Arts Gen on the team, however his kit doesn’t really benefit from it.`,
+                ability2: `Freeze resistance is nice, helps him keep his Defensive Buffs up during a Freeze.`,
+                ability3: `Rather self-explanatory, Increases defense when under a barrier. Though selfish, it is appreciated.`,
+                trueweapon: {
+                    skill: ``,
+                    ability1: ``,
+                    ability2: ``
+                },
+                overall: `Wants to be Favelle, but fails to do so due to terrible DPS slotting with no defense slot. Honestly one of the worse collaboration units so far, so I don’t know what else to say but it's disappointing.`,
+                lastupdated: `August 17, 2022`,
+                author: `Gian`
             }
     },
-    { // Mitsuya - Complete
+    { // Mitsuya - Complete, Review done
         id: 107656212,
         name: "Mitsuya",
         rank: "A+",
@@ -27314,6 +27503,23 @@ const UnitInformation = [
             {   
                 evo5: "The Second Division Captain of the Tokyo Manji Gang. He is always there to help out a fellow member in need. To show his thanks to Takemichi for resolving Mikey and Draken's dispute, he presented him with a custom-made outfit.",
                 evoawk: "While acting as a Toman captain, he also leads his school's crafting club. He impressed the other members with his top notch sewing skills, and the founders' uniforms were all handmade by him."
+            },
+        review:
+            {
+                skill: `Nothing too exciting for this skill, the evasion debuff can be of use on bosses that have high evasion coupled with accuracy buffs.`,
+                arts: `The EQ CT can be useful in certain circumstances, but it is limited to physical equipment, which makes it far more difficult to abuse.`,
+                truearts: `The core of Mitsuya’s kit, a decent multiplier coupled with good artgen and a sizable unconditional teamwide attack buff. This will be his main use 99% of the time.`,
+                ability1: `Reminiscent of Cestina’s Majesty, Mitsuya’s art gauge will instantly shoot to 200 if near-death, and he will heal half his hp. This ensures that if the boss has a strong opening nuke, Mitsuya can TA instantly to help team arts. It is also possible to trigger it instantly with certain equips.`,
+                ability2: `An impressive conditional artgen passive. Unfortunately, the condition is rather strict, as 90% hp is more difficult to maintain than 80% or 70%, but with good healing or a taunt tank it should be achievable.`,
+                ability3: `Unimpressive passive, as the resistance is too low to be relevant.`,
+                trueweapon: {
+                    skill: ``,
+                    ability1: ``,
+                    ability2: ``
+                },
+                overall: `Mitsuya is a competent artgen with a teamwide attack buff, and acceptable DPS. His passive can enable some tricks enabling him to reach 200 arts quickly to get artgen started quickly. He will be a great starter unit for people who start with the collab. However, veterans with diversified boxes will find him somewhat less useful, as he fails to bring anything unique.`,
+                lastupdated: `August 5, 2022`,
+                author: `MOB of Metal`
             }
     },
     { // Empress - Complete, Review done
@@ -27814,6 +28020,168 @@ const UnitInformation = [
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
                     mat2amt: 100,
                     hover2: "God's Spirit Orb"
+                }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { // Illya - Missing Lore (JP)
+        id: 107737412,
+        name: "Illya",
+        attribute: "Light",
+        type: "Human",
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_107736412.png",
+                detailsuper: "/db/Units/Detail/unit_detail_107737412.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107736412.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107737412.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/defLB.png",
+                slot32type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats: 
+            {
+                hp: 7648,
+                hpplus: 1409,
+                atk: 3528,
+                atkplus: 677,
+                def: 3080,
+                defplus: 585
+            },
+        skillset: 
+            {
+                skill: `12s CT - 2200% Light DMG (MAG). Increase own Arts by 30.`,
+                skillbreak: 500,
+                arts: `18000% Light DMG (MAG). For 15s, reduce Enemies' Light RES by 50%.`,
+                artsbreak: 800,
+                truearts: `55000% Light DMG (MAG). For 25s, increase Allies' Critical Rate by 100% + For 25s, if Allies are above 50% HP, increase their Arts by 5/s.`,
+                trueartsbreak: 1500,
+                superarts: `150000% Light DMG (MAG). For 20s, increase own DMG based on how high own current HP is (up to 300%).`,
+                superartsbreak: 2000
+            },
+        passive: 
+            {
+                ability1: `Whenever Illya uses her Arts, True Arts or Super Arts, increase own Arts by 50 if own HP is above 90%. Does not stack with Abilities of the same name.`,
+                ability2: `Increase own DMG against Dark Enemies by 20%.`,
+                ability3: `Increase own accuracy by 30%.`,
+                ability4: `Increase Unit EXP by 20% (When Illya's SP Illustration is owned).`,
+                ability5: `At the Start of a Quest, increase own Arts by 10. Does not stack with Abilities of the same name (When Illya's SP Illustration is owned).`
+            }, 
+        trueweapon: //If no TW, may delete this section
+            {
+                name: "Magical Ruby",
+                slot: "/db/Mines/thumbnail/magLB.png",
+                detail: "/db/Equipment/Detail/item_detail_152311_pris.png",
+                skill: "45s CT - 6000% Light DMG (MAG). If own HP is 80% or above, for 10s, increase own MAG DMG by 70%. If own HP is below 80%, heal 20% of MAX HP instead.",
+                skillbreak: 700,
+                passive: 
+                    {
+                        ability1: "When equipped by Illya, increase own DMG and stats by 20%. Does not stack with Abilities of the same name.",
+                        ability2: "Increase ATK by 5%."
+                        
+                    }
+            },
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
+                    mat2amt: 100,
+                    hover2: "God's Spirit Orb"
+                }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { // Rin & Luvia - Missing Lore (JP)
+        id: 107767112,
+        name: "Rin & Luvia",
+        attribute: "Fire",
+        type: "Human",
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_107766112.png",
+                detailsuper: "/db/Units/Detail/unit_detail_107767112.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107766112.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107767112.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/suppLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/healLB.png",
+                slot32type: "/db/Mines/thumbnail/magLB.png"
+            },
+        stats: 
+            {
+                hp: 7935,
+                hpplus: 1430,
+                atk: 3245,
+                atkplus: 640,
+                def: 3047,
+                defplus: 580
+            },
+        skillset: 
+            {
+                skill: `11s CT - 1300% Fire DMG (MAG). For 8s, increase Fire Allies' Arts by 4.`,
+                skillbreak: 1000,
+                arts: `18000% Fire DMG (MAG). 100% Chance to inflict Burn. If this Arts inflicts Burn, for 25s, reduce Burnt Enemies' Fire RES by 50%.`,
+                artsbreak: 1800,
+                truearts: `50000% Fire DMG (MAG). For 25s, reduce Enemies' DMG RES by 70% & Burn RES by 50%.`,
+                trueartsbreak: 2500,
+                superarts: `120000% Fire DMG (MAG). For 40s, increase Allies' MAG DMG by 150% & reduce Enemies' MAG RES by 100%.`,
+                superartsbreak: 3500
+            },
+        passive: 
+            {
+                ability1: `Each time Arts inflicts Burn on an Enemy, permanently increase Allies' DMG by 30% (up to 300%).`,
+                ability2: `Increase own MAG RES by 15%.`,
+                ability3: `Increase own Equipment CT REC by 15%.`,
+                ability4: `Increase Unit EXP by 20% (When Rin & Luvia's SP Illustration is owned).`,
+                ability5: `At the Start of a Quest, increase own Arts by 10. Does not stack with Abilities of the same name (When Rin & Luvia's SP Illustration is owned).`
+            }, 
+        trueweapon: //If no TW, may delete this section
+            {
+                name: "Jeweled Sword of Zelretch",
+                slot: "/db/Mines/thumbnail/suppLB.png",
+                detail: "/db/Equipment/Detail/item_detail_152321_pris.png",
+                skill: "45s CT - 6000% Fire DMG (MAG). For 10s, consume 2%/s of own max HP, increase Allies' Arts by 4/s and increase Fire Allies' DMG by 40%.",
+                skillbreak: 500,
+                passive: 
+                    {
+                        ability1: "When equipped by Rin & Luvia, increase own Arts by 2/s and ATK by 30%. Does not stack with Abilities of the same name.",
+                        ability2: "Increase MAG RES by 5%."
+                        
+                    }
+            },
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_130853.png",
+                    mat2amt: 100,
+                    hover2: "Flame Fox Spirit Orb"
                 }
             },
         lore: 
