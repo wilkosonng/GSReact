@@ -20709,6 +20709,7 @@ const UnitInformation = [
         name: "Riviera (Dark)",
         attribute: "Dark",
         type: "Demon",
+        rank: "S",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_103575512.png",
@@ -20806,6 +20807,7 @@ const UnitInformation = [
         name: "Thetis (Light)",
         attribute: "Light",
         type: "Demon",
+        rank: "A",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_103585412.png",
