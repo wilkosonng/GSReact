@@ -21169,9 +21169,9 @@ const UnitInformation = [
                 author: `Zanster`
             }
     },
-    { // War God Fen - Missing Lore
+    { // War Hero Fen - Missing Lore
         id: 103617312,
-        name: "War God Fen",
+        name: "War Hero Fen",
         attribute: "Earth",
         type: "Human",
         image: 
@@ -21242,7 +21242,7 @@ const UnitInformation = [
                 skillbreak: 0,
                 passive: 
                     {
-                        ability1: `When equipped by War God Fen, increase own Skill CT REC and Arts DMG by 20%`,
+                        ability1: `When equipped by War Hero Fen, increase own Skill CT REC and Arts DMG by 20%`,
                         ability2: `Increase DMG to Human enemies by 10%`
                     }
             },
