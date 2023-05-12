@@ -263,7 +263,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
                         mat2amt: 50,
-                        hover2: `Flame Fox Spirit Orb`,
+                        hover2: `Flame Fox Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragDegilmagna.png`,
                         mat3amt: 2,
                         hover3: `Degilmagna`
@@ -279,7 +279,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
                         mat2amt: 50,
-                        hover2: `God's Spirit Orb`,
+                        hover2: `God's Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragWilkes.png`,
                         mat3amt: 2,
                         hover3: `Wilkes`
@@ -421,7 +421,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
                         mat2amt: 50,
-                        hover2: `Ice Spirit Orb`,
+                        hover2: `Ice Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragFreydal.png`,
                         mat3amt: 2,
                         hover3: `Freydal`
@@ -437,7 +437,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
                         mat2amt: 50,
-                        hover2: `Sinful Spirit Orb`,
+                        hover2: `Sinful Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragRagsherumPhantom.png`,
                         mat3amt: 2,
                         hover3: `Ragsherum Phantom`
@@ -580,7 +580,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
                         mat2amt: 50,
-                        hover2: `Flame Fox Spirit Orb`,
+                        hover2: `Flame Fox Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragIfrit.png`,
                         mat3amt: 2,
                         hover3: `Ifrit`
@@ -629,7 +629,7 @@ const UnitInformation = [
                 evoawk: "After he became a teacher of sword skills for Gramenia Republic, other than leaving the leaving the country once, he remained, and people greatly thanked him for his selfless devotion. On the other hand, he sometimes had a look of sorrow on his face. He hated to meet high officials on an extreme degree. He stayed single for his whole life. On his 80th birthday, surrounded by his disciples, he passed away with last words of 'Was I forgiven?' His sword skills are still passed won to the next generation."
             }
     },
-    { //Feena - Complete, Dream Evo Missing Evo Mats
+    { //Feena - Complete, Dream Evo Complete
         id: 100046411,
         name: "Feena",
         rank: "A-",
@@ -746,11 +746,11 @@ const UnitInformation = [
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
-                        hover2: `God's Spirit Orb`,
+                        hover2: `God's Soulgem`,
                         mat2amt: 50,
-                        mat3: `/db/Icons/dungeon_drops/PLACEHOLDER.png`,
+                        mat3: `/db/Icons/dungeon_drops/fragFosradius.png`,
                         mat3amt: 2,
-                        hover3: `PLACEHOLDER`
+                        hover3: `Fosradius`
                     },
                     passive: {
                         ability1: `Increases all God Allies' Arts by 2/s. Does not stack with Abilities of the same name.`,
@@ -763,10 +763,10 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
                         mat2amt: 50,
-                        hover2: `Sinful Spirit Orb`,
-                        mat3: `/db/Icons/dungeon_drops/PLACEHOLDER.png`,
+                        hover2: `Sinful Soulgem`,
+                        mat3: `/db/Icons/dungeon_drops/fragValzandeth.png`,
                         mat3amt: 2,
-                        hover3: `PLACEHOLDER`
+                        hover3: `Valzandeth`
                     },
                     passive: {
                         ability1: `Increase own BREAK Power by 60% against Dark enemies.`,
@@ -796,7 +796,7 @@ const UnitInformation = [
                 evoawk: "One of the Twin Knights of the Morning Star, who, like the Holy Mother, brought healing and charity to the people. Tales of her generosity have been handed down through every land, and though there is no trace in the history, they tell of how she brought soothing to those in need weeping as she did. The reason of her tears remains a mystery even now, but there are those who say she used to mutter words of apology, as well as the name of a vanished God."
             }
     },
-    { //Regulus - Complete, Dream Evo Missing Evo Mats
+    { //Regulus - Complete, Dream Evo Complete
         id: 100056511,
         name: "Regulus",
         rank: "C",
@@ -914,9 +914,9 @@ const UnitInformation = [
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
                         mat2amt: 50,
                         hover2: `Smogdragon Soulgem`,
-                        mat3: `/db/Icons/dungeon_drops/PLACEHOLDER.png`,
+                        mat3: `/db/Icons/dungeon_drops/fragTonetaurus.png`,
                         mat3amt: 2,
-                        hover3: `PLACEHOLDER`
+                        hover3: `Tonetaurus`
                     },
                     passive: {
                         ability1: `Adds "Increase all Allies' Arts by 20" effect to Arts.`,
@@ -928,11 +928,11 @@ const UnitInformation = [
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
-                        hover2: `God's Spirit Orb`,
+                        hover2: `God's Soulgem`,
                         mat2amt: 50,
-                        mat3: `/db/Icons/dungeon_drops/PLACEHOLDER.png`,
+                        mat3: `/db/Icons/dungeon_drops/fragWilkes.png`,
                         mat3amt: 2,
-                        hover3: `PLACEHOLDER`
+                        hover3: `Wilkes`
                     },
                     passive: {
                         ability1: `Adds "For 10s, heal all allies' Blind and increase allies' Blind RES by 100%" effect to Arts.`,
@@ -945,7 +945,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
                         mat2amt: 50,
-                        hover2: `Sinful Spirit Orb`,
+                        hover2: `Sinful Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/PLACEHOLDER.png`,
                         mat3amt: 2,
                         hover3: `PLACEHOLDER`
@@ -2231,7 +2231,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
                         mat2amt: 50,
-                        hover2: `Flame Fox Spirit Orb`,
+                        hover2: `Flame Fox Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragIfrit.png`,
                         mat3amt: 2,
                         hover3: `Ifrit`
@@ -2246,7 +2246,7 @@ const UnitInformation = [
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
-                        hover2: `Ice Spirit Orb`,
+                        hover2: `Ice Soulgem`,
                         mat2amt: 50,
                         mat3: `/db/Icons/dungeon_drops/fragAerugraxes.png`,
                         mat3amt: 2,
@@ -2278,7 +2278,7 @@ const UnitInformation = [
                 evoawk: "After the mortal combat at Sealed Fortress Gormarey, he has changed his actions. He has been leaving the subhead in charge, taking action on his own, and training even harder than before. For those who know Roy, they see him as if he decided something and is working vigorously towards that. Few know the faces he shows to his best friend. A huge ambition in his heart he will continue become stronger and believe his path he chosen."
             }
     },
-    { //Mira (Fire) - Complete, Dream Evo Missing Evo Mats
+    { //Mira (Fire) - Complete, Dream Evo Complete
         id: 101046111,
         name: "Mira (Fire)",
         rank: "F",
@@ -2386,10 +2386,10 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
                         mat2amt: 50,
-                        hover2: `Flame Fox Spirit Orb`,
-                        mat3: `/db/Icons/dungeon_drops/PLACEHOLDER.png`,
+                        hover2: `Flame Fox Soulgem`,
+                        mat3: `/db/Icons/dungeon_drops/fragFlogassa.png`,
                         mat3amt: 2,
-                        hover3: `PLACEHOLDER`
+                        hover3: `Flogassa`
                     },
                     passive: {
                         ability1: `Increase all Human Allies' Arts by 2/s. Does not stack with Abilities with the same name.`,
@@ -2401,11 +2401,11 @@ const UnitInformation = [
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
-                        hover2: `Ice Spirit Orb`,
+                        hover2: `Ice Soulgem`,
                         mat2amt: 50,
-                        mat3: `/db/Icons/dungeon_drops/PLACEHOLDER.png`,
+                        mat3: `/db/Icons/dungeon_drops/fragPalamicia.png`,
                         mat3amt: 2,
-                        hover3: `PLACEHOLDER`
+                        hover3: `Palamicia`
                     },
                     passive: {
                         ability1: `Increase own CRIT DMG by 150%.`,
@@ -2530,7 +2530,7 @@ const UnitInformation = [
                 evoawk: "The current head of General Staff for Gramenia became a skilled commander despite his underprivileged childhood. Having already changed his whole life to achieve power and status, this stern man once again begins to change when he meets an adventurer who offers the same words he heard in his childhood. Now, his enemies defeated and the strength he sought in hand, he begins little by little to gain control over the power sleeping within him, for his own sake and for those who count on him."
             }
     },
-    { //Zeorg (Light) - Complete, Dream Evo Missing Evo Mats
+    { //Zeorg (Light) - Complete, Dream Evo Complete
         id: 101066411,
         name: "Zeorg (Light)",
         rank: "F",
@@ -2630,11 +2630,11 @@ const UnitInformation = [
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
-                        hover2: `Ice Spirit Orb`,
+                        hover2: `Ice Soulgem`,
                         mat2amt: 50,
-                        mat3: `/db/Icons/dungeon_drops/PLACEHOLDER.png`,
+                        mat3: `/db/Icons/dungeon_drops/fragFreydal.png`,
                         mat3amt: 2,
-                        hover3: `PLACEHOLDER`
+                        hover3: `Freydal`
                     },
                     passive: {
                         ability1: `Adds "For 10s, Increase all Allies' Stats by 30%." effect to Arts.`,
@@ -2648,9 +2648,9 @@ const UnitInformation = [
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
                         mat2amt: 50,
                         hover2: `Smogdragon Soulgem`,
-                        mat3: `/db/Icons/dungeon_drops/PLACEHOLDER.png`,
+                        mat3: `/db/Icons/dungeon_drops/fragWilkes.png`,
                         mat3amt: 2,
-                        hover3: `PLACEHOLDER`
+                        hover3: `Wilkes`
                     },
                     passive: {
                         ability1: `Increase all Light Units' Arts by 2/s. Does not stack with Abilities with the same name.`,
@@ -3389,7 +3389,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
                         mat2amt: 50,
-                        hover2: `God's Spirit Orb`,
+                        hover2: `God's Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragRadachne.png`,
                         mat3amt: 2,
                         hover3: `Radachne`
@@ -3405,7 +3405,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
                         mat2amt: 50,
-                        hover2: `Sinful Spirit Orb`,
+                        hover2: `Sinful Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragRagsherumPhantom.png`,
                         mat3amt: 2,
                         hover3: `Ragsherum Phantom`
@@ -3884,7 +3884,7 @@ const UnitInformation = [
                 evoawk: "The fierce battle ended before the eyes of distant watcher Selia. However, the massive flames of the warriors' final clash spread in a great wildfire, threatening to consume the entire wilderness. Selia saw this, and used her Absolute Zero sorcery. The plains were frozen solid, and the rampaging flames died out. This disaster became known as the Thaumazein Winter, when the grain belt was buried in snow. The truth of what happened is recorded nowhere, but she surely doesn't mind."
             }
     },
-    { //Ashe Toto - Complete, Dream Evo Missing Evo Mats
+    { //Ashe Toto - Complete, Dream Evo Complete
         id: 101196312,
         name: "Ashe Toto",
         rank: "B-",
@@ -3977,11 +3977,11 @@ const UnitInformation = [
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
-                        hover2: `Ice Spirit Orb`,
+                        hover2: `Ice Soulgem`,
                         mat2amt: 50,
-                        mat3: `/db/Icons/dungeon_drops/PLACEHOLDER.png`,
+                        mat3: `/db/Icons/dungeon_drops/fragFreydal.png`,
                         mat3amt: 2,
-                        hover3: `PLACEHOLDER`
+                        hover3: `Freydal`
                     },
                     passive: {
                         ability1: `Increase all Allies' Water RES by 20%. Does not stack with Abilities with the same name.`,
@@ -3995,9 +3995,9 @@ const UnitInformation = [
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
                         mat2amt: 50,
                         hover2: `Smogdragon Soulgem`,
-                        mat3: `/db/Icons/dungeon_drops/PLACEHOLDER.png`,
+                        mat3: `/db/Icons/dungeon_drops/fragElpneumas.png`,
                         mat3amt: 2,
-                        hover3: `PLACEHOLDER`
+                        hover3: `Elpneumas`
                     },
                     passive: {
                         ability1: `Adds "Heal Allies by 30% of their Max HP" effect to Arts.`,
@@ -4188,7 +4188,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
                         mat2amt: 50,
-                        hover2: `Ice Spirit Orb`,
+                        hover2: `Ice Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragGeoZagnus.png`,
                         mat3amt: 2,
                         hover3: `Geo Zagnus`
@@ -4204,7 +4204,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
                         mat2amt: 50,
-                        hover2: `Sinful Spirit Orb`,
+                        hover2: `Sinful Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragOldeus.png`,
                         mat3amt: 2,
                         hover3: `Oldeus`
