@@ -14,7 +14,7 @@
             {
                 detailawk: "/db/Units/Detail/unit_detail_.png",
                 detailsuper: "/db/Units/Detail/unit_detail_.png",
-                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_.png"
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_.png",
                 thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_.png"
             },
         slots: 
@@ -67,12 +67,12 @@
             {
                 name: ``,
                 slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
+                detail: "/db/Equipment/Detail/item_detail_.png",
                 skill: ``,
                 skillbreak: ,
                 passive: 
                     {
-                        ability1: ``
+                        ability1: ``,
                         ability2: ``
                     }
             },
@@ -98,7 +98,7 @@
             lastupdated: `December 31, 2022`,
             author: `Zanster`
         }
-
+    }
         //format for Dream Evolution Passives. Remove / Add Colors as needed.
         Colors are:
         - fire
@@ -141,7 +141,7 @@
                 }
             },
         }
-    }
+    
 
     /db/Mines/thumbnail/physLB.png
     /db/Mines/thumbnail/magLB.png
@@ -28468,6 +28468,167 @@ const UnitInformation = [
                     mat2amt: 100,
                     hover2: "Flame Fox Spirit Orb"
                 }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { //Miyu - Missing Lore (JP)
+        id: 107747512,
+        name: `Miyu`,
+        attribute: `Dark`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_107746512.png",
+                detailsuper: "/db/Units/Detail/unit_detail_107747512.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107746512.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107747512.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/magLB.png",
+                slot32type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: 7425,
+                hpplus: 1400,
+                atk: 3987,
+                atkplus: 688,
+                def: 2820,
+                defplus: 587
+            },
+        skillset: 
+            {
+                skill: `13s CT - 4200% Dark DMG (MAG). For 10s, increase own Arts gauge by 3/s`,
+                skillbreak: 500,
+                arts: `25000% Dark DMG (MAG). For 20s, reduce enemies' Dark RES by 50%.`,
+                artsbreak: 1000,
+                truearts: `90000% Dark DMG (MAG). For 30s, increase own ATK and Accuracy rate by 150%.`,
+                trueartsbreak: 1500,
+                superarts: `185000% Dark DMG (MAG). For 20s, all allies ignore 100% of Enemies' DEF and increase Human allies' DMG by 200%.`,
+                superartsbreak: `1800`
+            },
+        passive: 
+            {
+                ability1: `For first 120s of Quest, increase own Arts gauge by 10/s. When own HP is 80% or above, increase own Arts DMG by 200%. `,
+                ability2: `Paralysis RES 100% UP.`,
+                ability3: `DMG 20% UP against enemies below 30% HP. `
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131455.png",
+                    mat2amt: 100,
+                    hover2: "Sinful Spirit Orb"
+                }
+            },
+        trueweapon: 
+            {
+                name: `Magical Sapphire`,
+                slot: "/db/Mines/thumbnail/magLB.png",
+                detail: "/db/Equipment/Detail/item_detail_152431.png",
+                skill: `45s CT - 8000% Dark DMG (MAG). For 10s, increase own ATK by 50% and reduce enemies' Magic RES by 30%.`,
+                skillbreak: 500,
+                passive: 
+                    {
+                        ability1: `When equipped by Miyu, increase DMG by 60% against Non-Giant Bosses. Does not stack with Abilities of the same name.`,
+                        ability2: `Magic RES 5% UP.`
+                    }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { //Emiya Shirou
+        id: 107777212,
+        name: `Emiya Shirou`,
+        attribute: `Water`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_107776212.png",
+                detailsuper: "/db/Units/Detail/unit_detail_107777212.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107776212.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107777212.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/suppLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/healLB.png",
+                slot32type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        stats: 
+            {
+                hp: 7480,
+                hpplus: 1410,
+                atk: 2887,
+                atkplus: 600,
+                def: 3687,
+                defplus: 640
+            },
+        skillset: 
+            {
+                skill: `8s CT - 2000% Water DMG (PHY). Increase own Arts by 30.
+                During Unlimited Blade Works: 8s CT - 2000% Water DMG (PHY). increase own Arts by 60.`,
+                skillbreak: 600,
+                arts: `For 10s, Increase allies' PHY RES by 30% & allies gain a DMG barrier that negates 15000 DMG.
+                During Unlimited Blade Works: For 20s, Increase allies' PHY RES by 30% & allies gain a DMG barrier that negates 15000 DMG.`,
+                artsbreak: 0,
+                truearts: `40000% Water DMG (PHY). For 20s, Reduce Enemies' PHY Res by 100%. 
+                During Unlimited Blade Works: 80000% Water DMG (PHY). For 20s, Reduce Enemies' PHY Res by 100%.`,
+                trueartsbreak: 1500,
+                superarts: `For 180s, Enter Unlimited Blade Works. 
+                During Unlimited Blade Works: 160000% Water DMG (PHY). For 35s, Increase own ATK & DMG Up by 200%.`,
+                superartsbreak: `2200`
+            },
+        passive: 
+            {
+                ability1: `Faker: During Unlimited Blade Works; Every 8s, deal 10000% Water DMG (PHY) to enemies. Increase own Para/Freeze Res by 100% & Increase all Allies' DMG Res by 30%. (Does not stack with abilities of the same name.) `,
+                ability2: `DMG to Dark Enemies 35% Up`,
+                ability3: `DMG to Light Enemies 35% Up`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_132152.png",
+                    mat2amt: 100,
+                    hover2: "Ice Spirit Orb"
+                }
+            },
+        trueweapon: 
+            {
+                name: `Rho Aias`,
+                slot: "/db/Mines/thumbnail/defLB.png",
+                detail: "/db/Equipment/Detail/item_detail_152441.png",
+                skill: `35s CT - For 10s, Increase All Allies' DMG Res by 30%.
+                If Used by Shirou Emiya: For 20s, Increase All Allies' DMG Res by 30%.`,
+                skillbreak: 0,
+                passive: 
+                    {
+                        ability1: `When Equipped by Shirou Emiya, At Start of Quest, Increase own Arts by 100. Own Skill CT REC UP by 20%`,
+                        ability2: `Increase own Heal Recovery by 5%`
+                    }
             },
         lore: 
             {   
