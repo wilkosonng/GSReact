@@ -427,7 +427,7 @@ const UnitInformation = [
                         hover3: `Freydal`
                     },
                     passive: {
-                        ability1: `Adds "Reduce enemies' Freeze RES by 30% for 30s" to Arts.`,
+                        ability1: `Adds "Reduce enemies' Freeze RES by 30% for 30s" effect to Arts.`,
                         ability2: ``
                     }
                 },
@@ -596,7 +596,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
                         mat2amt: 50,
-                        hover2: `Poison Dragon Spirit Orb`,
+                        hover2: `Smogdragon Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragElpneumas.png`,
                         mat3amt: 2,
                         hover3: `Elpneumas`
@@ -629,7 +629,7 @@ const UnitInformation = [
                 evoawk: "After he became a teacher of sword skills for Gramenia Republic, other than leaving the leaving the country once, he remained, and people greatly thanked him for his selfless devotion. On the other hand, he sometimes had a look of sorrow on his face. He hated to meet high officials on an extreme degree. He stayed single for his whole life. On his 80th birthday, surrounded by his disciples, he passed away with last words of 'Was I forgiven?' His sword skills are still passed won to the next generation."
             }
     },
-    { //Feena - Complete
+    { //Feena - Complete, Dream Evo Missing Evo Mats
         id: 100046411,
         name: "Feena",
         rank: "A-",
@@ -658,6 +658,15 @@ const UnitInformation = [
                 truearts: "22500% DMG (MAG). Cure all Ally Status Ailments (except Faint). For 20s, increase all Ally Status RES (except Faint) by 100% and heal all Ally HP by 300/s",
                 trueartsbreak: 4500
             },
+        skillsetJP: 
+            {
+                skill: "8s CT - 2600% Light DMG (MAG). For 5s, heal own HP by 20/s.",
+                skillbreak: 1000,
+                arts: "13000% Light DMG (MAG). Cure all Ally Status Ailments (except Faint). For 10s, increase all Ally Status RES (except Faint) by 100%",
+                artsbreak: 2600,
+                truearts: "26000% Light DMG (MAG). Cure all Ally Status Ailments (except Faint). For 20s, increase all Ally Status RES (except Faint) by 100% and heal all Ally HP by 300/s",
+                trueartsbreak: 4500
+            },
         passive: 
             {
                 ability1: "Increase own DMG to Demon Enemy by 80%",
@@ -676,6 +685,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/physLB.png",
@@ -722,6 +740,40 @@ const UnitInformation = [
                     hover5: "Aerugraxes"
                 }
             },
+            dreamJP: {
+                light: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                        hover2: `God's Spirit Orb`,
+                        mat2amt: 50,
+                        mat3: `/db/Icons/dungeon_drops/PLACEHOLDER.png`,
+                        mat3amt: 2,
+                        hover3: `PLACEHOLDER`
+                    },
+                    passive: {
+                        ability1: `Increases all God Allies' Arts by 2/s. Does not stack with Abilities of the same name.`,
+                        ability2: ``
+                    }
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                        mat2amt: 50,
+                        hover2: `Sinful Spirit Orb`,
+                        mat3: `/db/Icons/dungeon_drops/PLACEHOLDER.png`,
+                        mat3amt: 2,
+                        hover3: `PLACEHOLDER`
+                    },
+                    passive: {
+                        ability1: `Increase own BREAK Power by 60% against Dark enemies.`,
+                        ability2: ``
+                    }
+            }
+        },
         trueweapon: 
             {
                 name: "Centurion",
@@ -744,7 +796,7 @@ const UnitInformation = [
                 evoawk: "One of the Twin Knights of the Morning Star, who, like the Holy Mother, brought healing and charity to the people. Tales of her generosity have been handed down through every land, and though there is no trace in the history, they tell of how she brought soothing to those in need weeping as she did. The reason of her tears remains a mystery even now, but there are those who say she used to mutter words of apology, as well as the name of a vanished God."
             }
     },
-    { //Regulus - Complete
+    { //Regulus - Complete, Dream Evo Missing Evo Mats
         id: 100056511,
         name: "Regulus",
         rank: "C",
@@ -773,6 +825,15 @@ const UnitInformation = [
                 truearts: "25550% Dark DMG (PHY). For 8s, increase all Ally Critical Rate by 100% and DMG to Light Enemy by 50%",
                 trueartsbreak: 3800
             },
+        skillsetJP: 
+            {
+                skill: "7s CT - 2200% Dark DMG (PHY). Heal own HP by 5% of DMG dealt by own Skill",
+                skillbreak: 1300,
+                arts: "16000% Dark DMG (PHY). For 10s, increase all Allies' Critical Rate by 50%.",
+                artsbreak: 2000,
+                truearts: "40000% Dark DMG (PHY). For 12s, increase all Ally Critical Rate by 100% and DMG to Light Enemy by 50%",
+                trueartsbreak: 3800
+            },
         passive: 
             {
                 ability1: "Increase own Light RES by 30%",
@@ -790,6 +851,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/healLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/magLB.png",
@@ -836,6 +906,56 @@ const UnitInformation = [
                     hover5: "Oldeus"
                 }
             },
+            dreamJP: {
+                earth: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                        mat2amt: 50,
+                        hover2: `Smogdragon Soulgem`,
+                        mat3: `/db/Icons/dungeon_drops/PLACEHOLDER.png`,
+                        mat3amt: 2,
+                        hover3: `PLACEHOLDER`
+                    },
+                    passive: {
+                        ability1: `Adds "Increase all Allies' Arts by 20" effect to Arts.`,
+                        ability2: ``
+                    }
+                },
+                light: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                        hover2: `God's Spirit Orb`,
+                        mat2amt: 50,
+                        mat3: `/db/Icons/dungeon_drops/PLACEHOLDER.png`,
+                        mat3amt: 2,
+                        hover3: `PLACEHOLDER`
+                    },
+                    passive: {
+                        ability1: `Adds "For 10s, heal all allies' Blind and increase allies' Blind RES by 100%" effect to Arts.`,
+                        ability2: ``
+                    }
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                        mat2amt: 50,
+                        hover2: `Sinful Spirit Orb`,
+                        mat3: `/db/Icons/dungeon_drops/PLACEHOLDER.png`,
+                        mat3amt: 2,
+                        hover3: `PLACEHOLDER`
+                    },
+                    passive: {
+                        ability1: `Adds "Increase own Arts by 40" effect to Skill.`,
+                        ability2: ``
+                    }
+            }
+        },
         trueweapon: 
             {
                 name: "Nemesis Crow",
@@ -2158,7 +2278,7 @@ const UnitInformation = [
                 evoawk: "After the mortal combat at Sealed Fortress Gormarey, he has changed his actions. He has been leaving the subhead in charge, taking action on his own, and training even harder than before. For those who know Roy, they see him as if he decided something and is working vigorously towards that. Few know the faces he shows to his best friend. A huge ambition in his heart he will continue become stronger and believe his path he chosen."
             }
     },
-    { //Mira (Fire) - Complete
+    { //Mira (Fire) - Complete, Dream Evo Missing Evo Mats
         id: 101046111,
         name: "Mira (Fire)",
         rank: "F",
@@ -2182,6 +2302,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/healLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/healLB.png"
+            },
         stats: 
             {
                 hp: 6660,
@@ -2195,9 +2324,18 @@ const UnitInformation = [
             {
                 skill: "7s CT - 2100% Fire DMG (PHY). Increase this Skill's Break PWR by 50% against Burned Enemies + For 8s, reduce Enemies' Burn RES by 30%.",
                 skillbreak: 1750,
-                arts: "15500% Fire DMG (PHY). 100% chance to inflict Burn + Increase this Arts' Break PWR and Critical Rate by 50% against Burned Enemies.",
+                arts: "15500% Fire DMG (PHY). High chance to inflict Burn + Increase this Arts' Break PWR and Critical Rate by 50% against Burned Enemies.",
                 artsbreak: 3000,
                 truearts: "25500% Fire DMG (PHY). Increase this True Arts' DMG and Break PWR and Critical Rate by 100% against Burned Enemies.",
+                trueartsbreak: 5000
+            },
+        skillsetJP: 
+            {
+                skill: "7s CT - 2100% Fire DMG (PHY). For 8s, reduce Enemies' Burn RES by 30%.",
+                skillbreak: 2000,
+                arts: "16000% Fire DMG (PHY). 80% chance to inflict Burn.",
+                artsbreak: 3000,
+                truearts: "48000% Fire DMG (PHY). Increase this True Arts' DMG by 100% against Burned Enemies.",
                 trueartsbreak: 5000
             },
         passive: 
@@ -2205,6 +2343,13 @@ const UnitInformation = [
                 ability1: "Increase DMG to Demon Enemies by 70%.",
                 ability2: "When this unit dies, revive with 1 HP + For 5s, HP cannot drop below 1, heal HP by 16%/s (80% max HP). Can only be activated once per Quest. If revived by another unit or equipment, Ability is reset.",
                 ability3: "When near-death, increase ATK and Break PWR by 30%."
+            }, 
+        passiveJP: 
+            {
+                ability1: "Increase DMG to Demon Enemies by 70%.",
+                ability2: "When this unit dies, revive with 1 HP + For 5s, HP cannot drop below 1, heal HP by 16%/s (80% max HP). Can only be activated once per Quest. If revived by another unit or equipment, Ability is reset.",
+                ability3: "When near-death, increase ATK and Break PWR by 30%.",
+                ability4: "Increase own Critical Rate & Break Power by 100% against Burned Enemies."
             }, 
         evolution: 
             {
@@ -2234,6 +2379,40 @@ const UnitInformation = [
                     hover5: "Oldeus"
                 }
             },
+            dreamJP: {
+                fire: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
+                        mat2amt: 50,
+                        hover2: `Flame Fox Spirit Orb`,
+                        mat3: `/db/Icons/dungeon_drops/PLACEHOLDER.png`,
+                        mat3amt: 2,
+                        hover3: `PLACEHOLDER`
+                    },
+                    passive: {
+                        ability1: `Increase all Human Allies' Arts by 2/s. Does not stack with Abilities with the same name.`,
+                        ability2: ``
+                    }
+                },
+                water: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
+                        hover2: `Ice Spirit Orb`,
+                        mat2amt: 50,
+                        mat3: `/db/Icons/dungeon_drops/PLACEHOLDER.png`,
+                        mat3amt: 2,
+                        hover3: `PLACEHOLDER`
+                    },
+                    passive: {
+                        ability1: `Increase own CRIT DMG by 150%.`,
+                        ability2: ``
+                    }
+                }
+        },
         trueweapon: 
             {
                 name: "Noble Bamint",
@@ -2351,7 +2530,7 @@ const UnitInformation = [
                 evoawk: "The current head of General Staff for Gramenia became a skilled commander despite his underprivileged childhood. Having already changed his whole life to achieve power and status, this stern man once again begins to change when he meets an adventurer who offers the same words he heard in his childhood. Now, his enemies defeated and the strength he sought in hand, he begins little by little to gain control over the power sleeping within him, for his own sake and for those who count on him."
             }
     },
-    { //Zeorg (Light) - Complete
+    { //Zeorg (Light) - Complete, Dream Evo Missing Evo Mats
         id: 101066411,
         name: "Zeorg (Light)",
         rank: "F",
@@ -2375,6 +2554,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/suppLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
+            },
         stats: 
             {
                 hp: 7212,
@@ -2392,6 +2580,15 @@ const UnitInformation = [
                 artsbreak: 1990,
                 truearts: "24900% Light DMG (PHY). High chance to inflict Faint. Increase own Arts by 50.",
                 trueartsbreak: 2850
+            },
+        skillsetJP: 
+            {
+                skill: "9s CT - 2500% Light DMG (PHY). Heal own HP by 100.",
+                skillbreak: 1000,
+                arts: "15000% Light DMG (PHY). 70% chance to inflict Faint.",
+                artsbreak: 1990,
+                truearts: "40000% Light DMG (PHY). 100% chance to inflict Faint. Increase own Arts by 70.",
+                trueartsbreak: 2900
             },
         passive: 
             {
@@ -2427,6 +2624,40 @@ const UnitInformation = [
                     hover5: "Code-XTF"
                 }
             },
+        dreamJP: {
+                water: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
+                        hover2: `Ice Spirit Orb`,
+                        mat2amt: 50,
+                        mat3: `/db/Icons/dungeon_drops/PLACEHOLDER.png`,
+                        mat3amt: 2,
+                        hover3: `PLACEHOLDER`
+                    },
+                    passive: {
+                        ability1: `Adds "For 10s, Increase all Allies' Stats by 30%." effect to Arts.`,
+                        ability2: ``
+                    }
+                },
+                earth: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                        mat2amt: 50,
+                        hover2: `Smogdragon Soulgem`,
+                        mat3: `/db/Icons/dungeon_drops/PLACEHOLDER.png`,
+                        mat3amt: 2,
+                        hover3: `PLACEHOLDER`
+                    },
+                    passive: {
+                        ability1: `Increase all Light Units' Arts by 2/s. Does not stack with Abilities with the same name.`,
+                        ability2: ``
+                    }
+                }
+        },
         trueweapon: 
             {
                 name: "Ryude Magus",
@@ -3142,7 +3373,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
                         mat2amt: 50,
-                        hover2: `Poison Dragon Spirit Orb`,
+                        hover2: `Smogdragon Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragElpneumas.png`,
                         mat3amt: 2,
                         hover3: `Elpneumas`
@@ -3653,7 +3884,7 @@ const UnitInformation = [
                 evoawk: "The fierce battle ended before the eyes of distant watcher Selia. However, the massive flames of the warriors' final clash spread in a great wildfire, threatening to consume the entire wilderness. Selia saw this, and used her Absolute Zero sorcery. The plains were frozen solid, and the rampaging flames died out. This disaster became known as the Thaumazein Winter, when the grain belt was buried in snow. The truth of what happened is recorded nowhere, but she surely doesn't mind."
             }
     },
-    { //Ashe Toto - Complete
+    { //Ashe Toto - Complete, Dream Evo Missing Evo Mats
         id: 101196312,
         name: "Ashe Toto",
         rank: "B-",
@@ -3677,6 +3908,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/healLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/suppLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/healLB.png"
+            },
         stats: 
             {
                 hp: 6185,
@@ -3693,6 +3933,15 @@ const UnitInformation = [
                 arts: "12000% Earth DMG (PHY). For 15s, increase Allies’ evasion by 30%.",
                 artsbreak: 2000,
                 truearts: "20000% Earth DMG (PHY). Cure Allies’ Status Ailments (Except Faint) + For 20s, increase Earth Allies’ Arts by 2/s.",
+                trueartsbreak: 3400
+            },
+        skillsetJP: 
+            {
+                skill: "9s CT - 1900% Earth DMG (PHY).",
+                skillbreak: 1600,
+                arts: "15000% Earth DMG (PHY). For 15s, increase Allies’ evasion by 30%.",
+                artsbreak: 2000,
+                truearts: "30000% Earth DMG (PHY). Cure Allies’ Status Ailments (Except Faint) + For 20s, increase Earth Allies’ Arts by 3/s.",
                 trueartsbreak: 3400
             },
         passive: 
@@ -3722,6 +3971,40 @@ const UnitInformation = [
                     hover3: "Tonetaurus",
                 }
             },
+            dreamJP: {
+                water: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
+                        hover2: `Ice Spirit Orb`,
+                        mat2amt: 50,
+                        mat3: `/db/Icons/dungeon_drops/PLACEHOLDER.png`,
+                        mat3amt: 2,
+                        hover3: `PLACEHOLDER`
+                    },
+                    passive: {
+                        ability1: `Increase all Allies' Water RES by 20%. Does not stack with Abilities with the same name.`,
+                        ability2: ``
+                    }
+                },
+                earth: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                        mat2amt: 50,
+                        hover2: `Smogdragon Soulgem`,
+                        mat3: `/db/Icons/dungeon_drops/PLACEHOLDER.png`,
+                        mat3amt: 2,
+                        hover3: `PLACEHOLDER`
+                    },
+                    passive: {
+                        ability1: `Adds "Heal Allies by 30% of their Max HP" effect to Arts.`,
+                        ability2: ``
+                    }
+                }
+        },
         lore: 
             {   
                 evo4: "A spirit archer who fought prior to the Great War. A fox child, Toto was taken in by Eleanor, one of the six Great Witches, and spent his days training his archery skills in the depths of the forest. One day, he was ordered by Eleanor to chase down a troublesome witch who was disrupting nature's providence. After leaving the forest and travelling the world, he finally found Selia at Thaumazein Plain. Suddenly, a new, draconic challenger attacked...",
@@ -20709,6 +20992,7 @@ const UnitInformation = [
         name: "Riviera (Dark)",
         attribute: "Dark",
         type: "Demon",
+        rank: "S",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_103575512.png",
@@ -20806,6 +21090,7 @@ const UnitInformation = [
         name: "Thetis (Light)",
         attribute: "Light",
         type: "Demon",
+        rank: "A",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_103585412.png",
@@ -21167,9 +21452,9 @@ const UnitInformation = [
                 author: `Zanster`
             }
     },
-    { // War God Fen - Missing Lore
+    { // War Hero Fen - Missing Lore
         id: 103617312,
-        name: "War God Fen",
+        name: "War Hero Fen",
         attribute: "Earth",
         type: "Human",
         image: 
@@ -21228,7 +21513,7 @@ const UnitInformation = [
                     hover2: "Flogassa",
                     mat3: "/db/Icons/dungeon_drops/material_thumbnail_130653.png",
                     mat3amt: 220,
-                    hover3: "Poison Dragon Spirit Orb"
+                    hover3: "Smogdragon Soulgem"
                 }
             },
         trueweapon: //If no TW, may delete this section
@@ -21240,7 +21525,7 @@ const UnitInformation = [
                 skillbreak: 0,
                 passive: 
                     {
-                        ability1: `When equipped by War God Fen, increase own Skill CT REC and Arts DMG by 20%`,
+                        ability1: `When equipped by War Hero Fen, increase own Skill CT REC and Arts DMG by 20%`,
                         ability2: `Increase DMG to Human enemies by 10%`
                     }
             },
