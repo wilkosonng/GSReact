@@ -21540,6 +21540,7 @@ const UnitInformation = [
         name: "Valerie",
         attribute: "Water",
         type: "Human",
+        rank: "A+",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_103485212.png",
@@ -28521,7 +28522,9 @@ const UnitInformation = [
             {
                 ability1: `For first 120s of Quest, increase own Arts gauge by 10/s. When own HP is 80% or above, increase own Arts DMG by 200%. `,
                 ability2: `Paralysis RES 100% UP.`,
-                ability3: `DMG 20% UP against enemies below 30% HP. `
+                ability3: `DMG 20% UP against enemies below 30% HP.`,
+                ability4: `Increase Unit EXP by 20% (When Miyu's SP Illustration is owned).`,
+                ability5: `At the Start of a Quest, increase own Arts by 10. Does not stack with Abilities of the same name (When Miyu's SP Illustration is owned).`
             }, 
         evolution: 
             {
@@ -28586,24 +28589,26 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: `8s CT - 2000% Water DMG (PHY). Increase own Arts by 30.
+                skill: `8s CT - 2000% Water DMG (PHY). Increase own Arts by 30.\n
                 During Unlimited Blade Works: 8s CT - 2000% Water DMG (PHY). increase own Arts by 60.`,
                 skillbreak: 600,
-                arts: `For 10s, Increase allies' PHY RES by 30% & allies gain a DMG barrier that negates 15000 DMG.
+                arts: `For 10s, Increase allies' PHY RES by 30% & allies gain a DMG barrier that negates 15000 DMG.\n
                 During Unlimited Blade Works: For 20s, Increase allies' PHY RES by 30% & allies gain a DMG barrier that negates 15000 DMG.`,
                 artsbreak: 0,
-                truearts: `40000% Water DMG (PHY). For 20s, Reduce Enemies' PHY Res by 100%. 
+                truearts: `40000% Water DMG (PHY). For 20s, Reduce Enemies' PHY Res by 100%.\n
                 During Unlimited Blade Works: 80000% Water DMG (PHY). For 20s, Reduce Enemies' PHY Res by 100%.`,
                 trueartsbreak: 1500,
-                superarts: `For 180s, Enter Unlimited Blade Works. 
+                superarts: `For 180s, Enter Unlimited Blade Works.\n
                 During Unlimited Blade Works: 160000% Water DMG (PHY). For 35s, Increase own ATK & DMG Up by 200%.`,
                 superartsbreak: `2200`
             },
         passive: 
             {
-                ability1: `Faker: During Unlimited Blade Works; Every 8s, deal 10000% Water DMG (PHY) to enemies. Increase own Para/Freeze Res by 100% & Increase all Allies' DMG Res by 30%. (Does not stack with abilities of the same name.) `,
-                ability2: `DMG to Dark Enemies 35% Up`,
-                ability3: `DMG to Light Enemies 35% Up`
+                ability1: `During Unlimited Blade Works; Every 8s, deal 10000% Water DMG (PHY) to enemies. Increase own Para/Freeze Res by 100% & Increase all Allies' DMG Res by 30%. Does not stack with Abilities of the same name.`,
+                ability2: `DMG to Dark Enemies 35% UP.`,
+                ability3: `DMG to Light Enemies 35% UP.`,
+                ability4: `Increase Unit EXP by 20% (When Shirou's SP Illustration is owned).`,
+                ability5: `At the Start of a Quest, increase own Arts by 10. Does not stack with Abilities of the same name (When Shirou's SP Illustration is owned).`
             }, 
         evolution: 
             {
@@ -28621,13 +28626,12 @@ const UnitInformation = [
                 name: `Rho Aias`,
                 slot: "/db/Mines/thumbnail/defLB.png",
                 detail: "/db/Equipment/Detail/item_detail_152441.png",
-                skill: `35s CT - For 10s, Increase All Allies' DMG Res by 30%.
-                If Used by Shirou Emiya: For 20s, Increase All Allies' DMG Res by 30%.`,
+                skill: `35s CT - For 10s, increase All Allies' DMG Res by 30% for 10s. If used by Emiya Shirou, increase its duration by an additional 10s.`,
                 skillbreak: 0,
                 passive: 
                     {
-                        ability1: `When Equipped by Shirou Emiya, At Start of Quest, Increase own Arts by 100. Own Skill CT REC UP by 20%`,
-                        ability2: `Increase own Heal Recovery by 5%`
+                        ability1: `When Equipped by Emiya Shirou, At Start of Quest, Increase own Arts by 100. Own Skill CT REC UP by 20%.`,
+                        ability2: `Increase own Heal Recovery by 5%.`
                     }
             },
         lore: 

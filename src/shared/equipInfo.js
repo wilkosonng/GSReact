@@ -29027,9 +29027,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //獣剣『トランフレンジー』レプリカ (SR Equip) - JP Complete
+{ //Beast Steel 'Trance Frenzy' Replica - JP Complete
         id: 110581,
-        name: `獣剣『トランフレンジー』レプリカ`,
+        name: `Beast Steel 'Trance Frenzy' Replica`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 6,
         image: 
@@ -29054,11 +29054,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //獣剣『トランフレンジー』アレンジ (SR Equip) - JP Complete
+{ //Beast Steel 'Trance Frenzy' Replica - JP Complete
         id: 110591,
-        name: `獣剣『トランフレンジー』アレンジ`,
+        name: `Beast Steel 'Trance Frenzy' Custom`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 6,
         image: 
@@ -29083,12 +29083,11 @@ const EquipInformation = [
             {
                 ability1: `Increase all allies' Skill CT speed by 10%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //真『ユーサネイジア』 (WGFen TW) - JP Complete
+{ //True 'Euthanasia' - Missing Lore
         id: 110601,
-        name: `真『ユーサネイジア』`,
-        translate: `True 'Euthanasia'`,
+        name: `True 'Euthanasia'`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
@@ -29112,14 +29111,14 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When equipped by War God Fen, increase own Skill CT Speed and Arts DMG by 20% (Only once).`,
+                ability1: `When equipped by War Hero Fen, increase own Skill CT Speed and Arts DMG by 20% (Only once).`,
                 ability2: `Increase DMG to Humans by 10%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //賢装『アインヴァイザー』 (WGFen Farmable) - JP Complete
+{ //Shrewd Cloak 'Einweiser' - Missing Lore
         id: 110611,
-        name: `賢装『アインヴァイザー』`,
+        name: `Shrewd Cloak 'Einweiser'`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -29137,14 +29136,14 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `30s CT - Increase all allies' DMG resistance by 20% for 10s. If user is Earth, increase own Poison resistance by 100% for 10s.`,
+                skill: `30s CT - Increase all allies' DMG resistance by 20% for 10s. If user is Earth, increase all allies' Poison resistance by 100% for 10s.`,
                 break: 0
             },
         passive: 
             {
                 ability1: `HP Recovery Amount 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //真『迦楼羅 (Kirisame TW) - JP Complete
         id: 110621,
@@ -31607,6 +31606,66 @@ const EquipInformation = [
         passive: 
             {
                 ability1: `Increase MAX HP by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //神輝の祝冠 - JP Complete
+        id: 111461,
+        name: `神輝の祝冠`,
+        translate: `Divine Crown`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111460.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111461.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111460.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111461.png`
+            },
+        stats:
+            {
+                hp: 120,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - Heal all Allies' HP by 15%. If user is God, Heal all Allies' HP by 30% instead.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //冥鴉の兜 - JP Complete
+        id: 111471,
+        name: `冥鴉の兜`,
+        translate: `Dark Crow Helmet`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111470.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111471.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111470.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111471.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 120
+            },
+        skillset:  
+            {
+                skill: `30s CT - Increase Light & Dark Allies' DMG resistance by 20% for 15s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
             },
         lore: `Currently unreleased in Global.`
     },
@@ -39153,6 +39212,482 @@ const EquipInformation = [
             },
         lore: `Currently unreleased on Global.`
     },
+    { //真『マジカルサファイア』 (Miyu TW) - JP Complete
+        id: 152431,
+        name: `真『マジカルサファイア』`,
+        translate: `True 'Magical Sapphire'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152430.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152431.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152430.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152431.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 8000% Dark DMG (Magic). Increase own ATK by 50% and reduce enemies' Magic resistance by 30% for 10s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `When equipped by Miyu, increase DMG by 60% against Non-Giant Bosses. Does not stack with Abilities of the same name.`,
+                ability2: `Magic resistance 5% UP.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+{ //真『熾天覆う七つの円環』 (Shirou TW) - JP Complete
+        id: 152441,
+        name: `真『熾天覆う七つの円環』`,
+        translate: `True 'Rho Aias'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152440.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152441.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152440.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152441.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `35s CT - Increase All Allies' DMG resistance by 30% for 10s. If used by Emiya Shirou, increase its duration by an additional 10s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `When Equipped by Emiya Shirou, At Start of Quest, Increase own Arts by 100 and increase own Skill CT REC by 20%.`,
+                ability2: `Increase own Heal Recovery by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+{ //マジカルサファイア - JP Complete
+        id: 152451,
+        name: `マジカルサファイア`,
+        translate: `Magical Sapphire`,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152450.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152451.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152450.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152451.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 8000% Dark DMG (Magic). Reduce enemies' Dark resistance by 40% for 10s. If user is Human, reduce enemies' Dark resistance by 60% instead.`,
+                break: 800
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+{ //刺し穿つ死棘の槍 - JP Complete
+        id: 152461,
+        name: `刺し穿つ死棘の槍`,
+        translate: `Spear of Impaling Barbed Death`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152460.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152461.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152460.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152461.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `75s CT - 8000% Dark DMG (Magic). Increase own Dark DMG by 100% and own Accuracy rate by 50% for 15s.`,
+                break: 600
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+{ //美遊の服(ライダーver.) - JP Complete
+        id: 152471,
+        name: `美遊の服(ライダーver.)`,
+        translate: `Miyu's Clothes (Rider ver.)`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152470.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152471.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152470.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152471.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 120
+            },
+        skillset:  
+            {
+                skill: `60s CT - Increase all allies' DMG resistance by 10%, Light resistance by 20%, and Dark resistance by 20% for 20s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+{ //熾天覆う七つの円環 - JP Complete
+        id: 152481,
+        name: `熾天覆う七つの円環`,
+        translate: `Rho Aias`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152480.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152481.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152480.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152481.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `30s CT - Increase all allies' Magic resistance by 30% for 20s. If user is Human, increase all allies' Magic resistance by 45% instead.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+{ //衛宮士郎の服 - JP Complete
+        id: 152491,
+        name: `衛宮士郎の服`,
+        translate: `Emiya's Clothes`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152490.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152491.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152490.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152491.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `30s CT - Increase all allies' Arts gauge by 20. Increase Human allies' DMG by 60% for 12s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+{ //美遊の服 - JP Complete
+        id: 152501,
+        name: `美遊の服`,
+        translate: `Miyu's Clothes`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152500.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152501.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152500.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152501.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 6000% Dark DMG (Magic). Increase own Magic DMG by 50% for 10s. If user is Human, increase own Arts gauge by 2/s for 10s.`,
+                break: 400
+            },
+        passive: 
+            {
+                ability1: `DMG against Light enemies 5% UP.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+/*
+{ // - JP Complete
+        id: 152511,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152510.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152511.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152510.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152511.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+{ // - JP Complete
+        id: 152521,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152520.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152521.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152520.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152521.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+{ // - JP Complete
+        id: 152531,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152530.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152531.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152530.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152531.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+{ // - JP Complete
+        id: 152541,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152540.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152541.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152540.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152541.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+{ // - JP Complete
+        id: 152551,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152550.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152551.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152550.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152551.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+{ // - JP Complete
+        id: 152561,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152560.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152561.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152560.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152561.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+{ // - JP Complete
+        id: 152571,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152570.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152571.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152570.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152571.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+{ // - JP Complete
+        id: 152581,
+        name: ``,
+        type: `/db/Mines/thumbnail/LB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_152580.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_152581.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_152580.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_152581.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: ``,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    }
+*/
 ]
 
 export function getEquips() {
