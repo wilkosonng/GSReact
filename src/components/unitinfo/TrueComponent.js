@@ -73,7 +73,7 @@ export function RenderTrue({unitTrue, trueReview = false}) {
                                     <RenderImage detail={tw.true1.detail} />
                                     <RenderName name={tw.true1.name} slot={tw.true1.slot} />
                                     <RenderAll 
-                                    skill={tw.true1.skill} skillbreak={tw.true1.skillbreak} passive={tw.true1.passive} trueReview={trueReview.trueweapon.true1} />
+                                    skill={tw.true1.skill} skillbreak={tw.true1.skillbreak} passive={tw.true1.passive} trueReview={trueReview ? trueReview.trueweapon.true1 : false} />
                                     </center>
                                 </TabPane>
                             </TabContent>
@@ -82,7 +82,7 @@ export function RenderTrue({unitTrue, trueReview = false}) {
                                     <center>
                                     <RenderImage detail={tw.true2.detail} />
                                     <RenderName name={tw.true2.name} slot={tw.true2.slot} />
-                                    <RenderAll skill={tw.true2.skill} skillbreak={tw.true2.skillbreak} passive={tw.true2.passive} trueReview={trueReview.trueweapon.true2} />
+                                    <RenderAll skill={tw.true2.skill} skillbreak={tw.true2.skillbreak} passive={tw.true2.passive} trueReview={trueReview ? trueReview.trueweapon.true2 : false} />
                                     </center>
                                 </TabPane>
                             </TabContent>
@@ -93,7 +93,7 @@ export function RenderTrue({unitTrue, trueReview = false}) {
                                         <center>
                                         <RenderImage detail={tw.true3.detail} />
                                         <RenderName name={tw.true3.name} slot={tw.true3.slot} />
-                                        <RenderAll skill={tw.true3.skill} skillbreak={tw.true3.skillbreak} passive={tw.true3.passive} trueReview={trueReview.trueweapon.true3} />
+                                        <RenderAll skill={tw.true3.skill} skillbreak={tw.true3.skillbreak} passive={tw.true3.passive} trueReview={trueReview ? trueReview.trueweapon.true3 : false} />
                                         </center>
                                     </TabPane>
                                 </TabContent>
