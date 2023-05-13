@@ -21540,6 +21540,7 @@ const UnitInformation = [
         name: "Valerie",
         attribute: "Water",
         type: "Human",
+        rank: "A+",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_103485212.png",
