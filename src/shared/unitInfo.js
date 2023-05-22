@@ -21533,6 +21533,24 @@ const UnitInformation = [
             {   
                 evoawk: "Currently unreleased in Global.",
                 evosuper: "Currently unreleased in Global."
+            },
+        review:
+            {
+                skill: `Artgen on skill, tremendously useful for self-sustainability. 50 unconditional arts is huge, and helps War Hero Fen cycle his various arts easily when paired with a Primary Artsgen unit such as Hart, Emperor, or Juno.`,
+                arts: `It cannot be stated how useful EQCT buffs are, enabling full uptime on certain defense equips and helping artgen equips reset faster. Furthermore, it is also accompanied by a 40% accuracy buff, which is somewhat useful as several bosses have evasion.`,
+                truearts: `Teamwide crit along with unconditional artgen that stacks with most other units, something that is fairly rare so far, allowing players to slot in DPS units that previously lacked Crit Rate. And a decent TA multiplier as well. 20% super critical rate is a nice added touch, it cannot be too relied upon because of its aleatory nature but it helps buff War Hero Fen’s TA damage output.`,
+                superarts: `Ridiculously high DPS coupled with a 40% supercritical rate and a long-lasting ATK buff. Outdamages virtually anything else in the game unless the boss has critical resistance, in which case it still deals appreciable damage simply due to how high the multiplier is.`,
+                ability1: `30% free DMG RES that is available from the start of the quest with no other effort needed that having War Hero Fen as leader. Most quests will not last the 45s duration with him on board, and for those that do, it gives ample time to set up proper defenses. Note that if cresting other units with him on the team, he will not be able to be leader.`,
+                ability2: `Helps kickstart team arts, whether in a sustain or nuke scenario. Note that this passive does not stack with Dark Fen’s, but does stack with Forte/Draken/NY Milim’s.`,
+                ability3: `Helps everyone finish off enemies faster, especially at low hp when they tend to be most dangerous.`,
+                trueweapon: {
+                    skill: `Decent instant artgen with a good arts/s rate coupled with a DMG buff for humans. It is a nice option as a permanently available teamwide artgen equip, but ultimately it is replaceable by any other teamwide artgen equip.`,
+                    ability1: `Mild damage buff passive, along with a skill CT buff which will help a bit with artgen from skill.`,
+                    ability2: `A small DMG buff against Human enemies.`
+                },
+                overall: `Arguably the best unit in the game alongside Emperor Isliid, War Hero Fen does virtually everything except healing. While his arts/s output is not as high as some other units, he has a rare artsgen type (type A) that enables him to stack arts with most units, and he will outright have every unit start with 50 arts. He offers accuracy, EQCT and crit buffs, some teamwide DMG RES when leader, and he can also deal ridiculously high damage on top. War Hero Fen is thus an extremely versatile and self-sufficient unit who can fit well on virtually any team. Being able to use three different arts also makes him a much less linear unit than some of the older awakened units who too often spam the same arts over and over again. War Hero Fen breaks this trend, and proper arts cycling will prove invaluable to extract his full potential. Note that while the defense slot is a nice addition, the scarcity of Expert Limit Break Stones makes it so that other future units may be preferable to limit break beyond the standard LB5.`,
+                lastupdated: `May 16, 2023`,
+                author: `MOB of Metal`
             }
     },
     { // Valerie - Missing Lore
