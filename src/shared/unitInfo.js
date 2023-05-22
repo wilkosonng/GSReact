@@ -21532,8 +21532,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Secretary-general and strategist of the Gramenian army. Born in the slums. Later-president Kane saw his potential and taught the young street urchin swordplay, literature, tactics, and statecraft until he acquired the dignity of a military officer. When he took his current post, all trace of his crude origins had fallen away, leaving only a leader of bravery, intelligence, and esteem.",
+                evosuper: "What drove him was the power to overcome his own weaknesses. Although it lifted him from the slums, it gradually waned as he climbed the ranks. Only after hte turmoil brought about by the Great Seal's destruction did he feel that hunger again. This incomprehensible new world was yet another challenge to be conquered. However, it would not be for himself, but for those he wanted to protect... who revered him as a hero of war."
             },
         review:
             {
