@@ -20800,7 +20800,7 @@ const UnitInformation = [
                 author: `JC`
             }
     },
-    { // Mizuki the Twelfth - Complete
+    { // Mizuki the Twelfth - Complete, Review done
         id: 103496212,
         name: "Mizuki the Twelfth",
         attribute: "Water",
@@ -21452,9 +21452,10 @@ const UnitInformation = [
                 author: `Zanster`
             }
     },
-    { // War Hero Fen - Missing Lore
+    { // War Hero Fen - Missing Lore, Review done
         id: 103617312,
         name: "War Hero Fen",
+        rank: "SSS",
         attribute: "Earth",
         type: "Human",
         image: 
@@ -24547,7 +24548,7 @@ const UnitInformation = [
                 evoawk: "Crunchyroll-Hime is the champion of all things anime, and she's also a fantastic adventurer when duty calls, donning her trusty bow and accompanied by her mortal companion, Yuzu. Born hundreds of years ago, Hime can't remember her real name, or how she looked as a Kitsune, but she does know the burning fire of her true form rages inside of her. She's able to channel this power and defeat any foe she faces, and save any friend she needs to."
             }
     },
-    { //Naofumi - Complete
+    { //Naofumi - Complete, Review done
         id: 107256411,
         name: "Naofumi",
         rank: "A+",
@@ -24643,9 +24644,32 @@ const UnitInformation = [
             {   
                 evo5: "The Shield Hero, one of the the Four Holy Heroes. Once an ordinary young man, he was summoned to a medieval fantasy world to fight against hordes of monsters, which occurence was known as 'waves'. He was excited to be in a video game-like world but soon was betrayed by several heartless people. Disappointed and depressed, he became unable to believe anyone. Eventually, he found a few people who are now his allies. However, his name is still disgraced, and he remains a fugitive of the kingdom.",
                 evoawk: "When Rayas summoned him, Naofumi was fleeing from the army of Melromarc, accused of kidnapping and murdering the princess. Due to this traumatic experience, he could not open up to other people and kept a distance between Rayas and his friends. However, as he connected with the people of Reigrad, little by little, his frozen heart began to melt. As Naofumi grew closer to his new friends, he made a surprising proposal. Rayas and his friends agreed, but yet little did they know what would follow...!"
+            },
+        review:
+            {
+                skill: `Skills usually don't stand out in a unit's kit, but this one fits real nicely with Naofumi's role as a Taunt tank. Freeze and Paralysis, especially if the ailment lasts very long, can be such a bother, but with this skill on loop and Naofumi taunting for the team, Freeze/Paralysis won't be an issue for the most part.`,
+                arts: `The central part of his entire kit, redirecting damage taken towards himself while providing him a chonky barrier to help soak up the damage. Additionally, he provides some extra offensive support with a small damage buff for the entire team. With the buff he received to his Arts’ barrier amount, he is able to generate a bigger barrier compared to other taunt tanks such as Gerald and Celia.`,
+                truearts: `Most quests don't require Faint or DEF ignore, and Naofumi simply isn't a good source of damage to begin with, even after the buffed DMG multiplier he received. Unless inflicting Faint has a notable counter to a certain boss's mechanics, like Ragsherum Phantom (Giant Boss) for example, Naofumi’s Arts would generally be used more often than his True Arts.`,
+                ability1: `A small, additional DEF boost to help make Naofumi a bit tankier.`,
+                ability2: `A nice barrier to help with your team's survivability for when the enemy deals a hefty amount of damage right off the bat, giving Naofumi some leeway before he is able to start taunting.`,
+                trueweapon: {
+                    tw1: {
+                        skill: `True "Small Shield" provides great defensive effects, but it has a pretty short duration while having a fairly long cooldown. If uptime isn't issue, feel free to run it. If it is, then you may want to opt for a higher uptime DEF equip instead.`,
+                        ability1: `Increases his HP by a fairly reasonable amount, but it usually wouldn't matter much when under a barrier. Some art gauge generation, while small, is also always nice.`,
+                        ability2: `It doesn't really have an impact whatsoever. You could treat this as if it's not even there. That's how insignificant the healing value is.`
+                    },
+                    tw2: {
+                        skill: `It provides some impressive single-target healing and seal cleansing, which may come in handy for Naofumi as sealing can obstruct him from reapplying his damage redirection or Freeze/Paralysis resistance.`,
+                        ability1: `This would be the main reason for equipping this item on Naofumi. It substantially increases his barrier amount from 11000 to a whopping 15000, and the hefty 35% physical resistance gives him an edge over other tanks when it comes to handling Physical-based bosses.`,
+                        ability2: `Small but still appreciable DEF boost towards his tanking capabilities.`
+                    }
+                },
+                overall: `In short, Naofumi Iwatani offers tanking capabilities that are slightly better than other taunt tanks such as Gerald and Celia, but he can surpass them even more when he is equipped with his true weapons in the right situations. His true equipment (most notably True “Shield of Rage”) provides significant boosts to his ability to tank Physical bosses,, but he can still perform just fine even without it. What's also impressive is the fact that he is a FREE unit, giving newer players and unfortunate souls the opportunity to have a taunt tank and a luck unit. He's an easy and useful pick-up for newer players to help tackle hard-hitting quests, whilst still being very much a usable tank for those with more developed accounts. In terms of being a luck unit, Naofumi does not bring much to the table other than his high luck stat and being able to tank when farming something more difficult, but luck farms usually don't necessitate a tank.`,
+                lastupdated: `July 7, 2022`,
+                author: `Jeffers`
             }
     },
-    { //Raphtalia - Complete
+    { //Raphtalia - Complete, Review done
         id: 107266412,
         name: "Raphtalia",
         luckrank: "A",
@@ -24721,9 +24745,25 @@ const UnitInformation = [
             {   
                 evo5: "The Shield Hero's first companion, who is Demi-human. When Naofumi purchased her from the slave trader, she was just a child. However, the training with Naofumi led to her rapid development, and currently, she looks like an adult. At first, she was afraid of Naofumi as her slave master, but she came to understand his true, kind nature and now admires him. Admittedly, she has feelings for Naofumi, but since he was betrayed by a certain woman, he does not seem to care for romance... leaving Raphtalia somewhat lovelorn by her predicament.",
                 evoawk: "Raphtalia was summoned to Raktehelm along with Naofumi, Filo and Melty. She tries to act as a bridge between Naofumi and others without much success, Rayas and his friends included. However, on the battlefield, Raphtalia's sword skills are not to be outdone by Rayas and his friends as she shows off her techniques proudly."
+            },
+        review:
+            {
+                skill: `A surprisingly good amount of innate arts generation already built into the kit, allowing Raphtalia to be more self-sufficient, or at the very least, be able to activate her kit more readily. This is especially so when paired with her True Arts’ Skill CT recovery buff and overall innate Crit Rate buffs.`,
+                arts: `With the large refund of arts, this will likely serve as Raphtalia’s primary source of damage output after a True Arts use due to how immensely spammable it is. Furthermore, it has notable synergies with taunt tanks, though the heal generally won’t make too much of a difference as they’re spamming barriers anyways. As a side note, the 70 Arts refund does not have a limit, but rather is limited to one activation every Arts.`,
+                truearts: `A large multiplier paired with buffs that synergize well with the rest of her kit. The general strategy would be to take advantage of the 35s buffs from her True Arts to spam her Arts continuously. Coupled with the ArtGen from her Skill, she will be self-sufficient for those 35s spamming Arts.`,
+                ability1: `Nothing too spectacular on its own, though it does make her Arts refund more reliable as well as bolster her self-sufficiency from her Skill.`,
+                ability2: `Accuracy is a fairly niche skill that won’t have an impact on most stages. The DMG up, although conditional, is relatively powerful on its own, boosting Raphtalia’s overall DMG at the cost of having to run a Taunt tank.`,
+                trueweapon: {
+                    skill: `This is a great equip, not only on Raphtalia, but also on units whose Skill acts as a major part of their kit (in Raphtalia’s case, it’ll optimally generate 0.68 arts/sec). Although it won’t be explicitly better than an Arts generation equip on most units, it still holds value outside of being bound to Raphtalia.`,
+                    ability1: `With this True Weapon, this means that Raphtalia can effectively reach 100% Critical Rate when combined with her True Arts and passive, allowing for much more consistent spamming of her arts. The DMG is generally just an added bonus and cements this item as one of the best for Raphtalia.`,
+                    ability2: `A passive that has a specific audience. On most units, this won’t mean much, but like the equipment’s active effect, this can do extremely well on units where their Skill is an essential part of their kit.`
+                },
+                overall: `While Raphtalia was never a beacon of DPS units, she was certainly able to get the job done with her very arts spam-oriented kit. Despite her seemingly-fun kit, however, she offers very little outside of the damage she provides, making her a relatively weak asset to teams given her only strength is shared by a large pool of DPS units. On luck teams, she still fares well enough due to her gacha status and self-sufficiency, but finds difficulty competing with much faster options. Overall, she's a decent beginner DPS option who will likely get phased out rather quickly once players get access to better alternatives.`,
+                lastupdated: `July 7, 2022`,
+                author: `Jeffers`
             }
     },
-    { //Filo - Complete
+    { //Filo - Complete, Review done
         id: 107276312,
         name: "Filo",
         luckrank: "S",
@@ -24799,9 +24839,26 @@ const UnitInformation = [
             {   
                 evo5: "Filo is a 'Filolial', which is a bird-like monster that hatched from the egg Naofumi Iwatani purchased from the slave master. She was born in bird form, but since her caretaker was naofumi, one of the legendary heroes, she was able to change form into a small girl with wings like an angel. Although her personality is quite childish and often can't quite follow difficult conversations, Filo admires Naofumi as her master and Raphtalia as her sister. As soon as she met Melty, Filo instantly became friends with her, and have been besties since.",
                 evoawk: "Filo was summoned to Raktehelm along with Naofumi. Alghough she is in a different world, she is easy-going as always and warms up to Rayas and his friends right off the bat. It seems that she can understand Rolly's language... and also occasionally shows off her abilities as a monster. Since she was always on the run with Naofumi and his party, she was unable to eat proper meals. But in Reigrad, she's been given delicious meals at every turn and has been able to fully recharge. She'll pick fights with Raphtalia, but that's because Filo knows Naofumi can't attack back."
+            },
+        review:
+            {
+                skill: `Although 100% ATK up is a sizeable increase to her damage, unless its a multi-staged mission it'll take the majority of the mission's time to reach max stacks.`,
+                arts: `Nothing too special about this, reducing enemy defense is lackluster at best due to crits negating defense anyway. The action speed down is an although a great debuff doesn't warrant using her Normal Art over her True Art.`,
+                truearts: `While her increased multiplier does help her stand out amoung the countless DPS option the fatal flaw in her kit still remains, doing more damage to an enemy the lower its health is means she only can really shine when the boss is on deaths door.`,
+                ability1: `Artgen passives are always loved, although the extra 2 aps being locked behind high HP does make it a bit less consistent. The DMG res is a nice addition as well, just a shame it's limited to Physical only`,
+                ability2: `A sizeable addition to her damage against dragon bosses`,
+                trueweapon: {
+                    skill: `While being an option to give filo 100% crit rate, it's low uptime prevents it from being an amazing choice.`,
+                    ability1: `Offer Filo 1 more aps is a solid addition while the minor dmg boost also helps Filo get her TA ramp started`,
+                    ability2: `This is indeed...something, not something good but something
+                    `
+                },
+                overall: `With her latest buffs Filo can finally hold her own against other DPS option. The increased self sustainability from having up to 5 art per second helps increase her consistency across the board. While her massive 68k multiplier greatly helps boost the DMG up she gets from lowering the bosses HP, it still has the fatal flaw of being strongest when the boss is almost dead. As a luck unit Filo is a solid option, even more so if she's played to her strengths. By waiting for others to use their True arts first it allows filo to get more of the DMG up from the bosses HP being lower.`,
+                lastupdated: `July 7, 2022`,
+                author: `Zanster`
             }
     },
-    { //Melty - Complete
+    { //Melty - Complete, Review done
         id: 107286212,
         name: "Melty",
         rank: "SS",
@@ -24877,9 +24934,25 @@ const UnitInformation = [
             {   
                 evo5: "The Second Princess of Melromarc, which is the country Naofumi must protect as a hero. She is the first in line to the throne, even higher than her older sister. She is furious at her father and sister, who tried to frame Naofumi. Yet, they are her family and she suffers silently as she cannot sever her ties. She is typically a kind girl, but due to her royal stature she is forced to be strict and more adult-like than she actually feels. She was almost murdered in a succession conflict between her older sister and she has not gotten a good night's rest since finding out the crime against her was blamed on Naofumi.",
                 evoawk: "Melty was summoned to Raktehelm along with Naofumi, Raphtalia, and Filo. She is against Naofumi's opinion of remaining in Raktehelm because she wishes to return to Melromarc as soon as possible. However, knowing Naofumi feels more at home than ever in Raktehelm, she cannot deny his request outright and feels anxious."
+            },
+        review:
+            {
+                skill: `An extremely potent skill, 10 instant teamwide arts with a small heal. The CT has been shortened by 3s for a net contribution of 1 arts/s.`,
+                arts: `The atk buff has been buffed from 40% to 50%, and the duration from 13s to 15s. The extra attack buff is a nice added touch, but the extra duration allows an easier cycling of Melty’s arts. More importantly though, the art gen type has been modified from type B to type E, meaning that now, Melty’s NA stacks with the likes of Rosetta, Hart and Juno, but it no longer stacks with other collab units such as Yoh and the Mikus. This arts is perfect for a sustain-oriented approach, its low cost enables to start party arts quickly, and Melty now boasts one of the highest raw artsgen rates on NA for any unit.`,
+                truearts: `The multiplier itself is nothing to get too excited (and has not been buffed), but the DMG RES debuff has been increased from 50% to 60%, now making it the highest general DMG RES debuff on any unit (tied with Duke who needs the enemy to be in break). Moreover, the duration has been buffed from 15s to 20s, also making it easier to cycle Melty’s arts. On top of this, Melty’s TA also increases the party’s fire resistance by 20%, thereby giving her extra defensive utility against fire bosses.`,
+                ability1: `The seal resistance is minor, but the teamwide 20% arts dmg buff is notable, especially in nuking situations.`,
+                ability2: `Ideally you do not want to rely on units being near-death, but a faster skill means more arts to the party.`,
+                trueweapon: {
+                    skill: `Lower artgen than most support equips with a slight dmg res buff as an added bonus`,
+                    ability1: `On Melty, it's able to artgen the most out of any other 5☆ Support in the game currently at 4.8 arts/s, and the dmg res buff is doubled to 20%. A great equip on herself in sustain fights.`,
+                    ability2: `Nothing too flashy, a simple stat buff.`
+                },
+                overall: `Melty was already one of the most universally useful nuke supports, and she also has utility in sustain as well. Her buffs have basically improved her on both fronts, her debuff on TA coupled with her arts damage buff passive and slots enables her to be used in multiple nuke comps. On the other hand, her artsgen on NA which now stacks with Juno and Hart also enables her to be used for sustain. Melty’s versatility simply makes her a universally good support unit. Her True Weapon is a marginal improvement over the gacha version, mediocre on any other unit, but offering an additional 0.6 Arts/s and 10% DMG RES buff when used by Melty.`,
+                lastupdated: `July 7, 2022`,
+                author: `MOB of Metal`
             }
     },
-    { // Fitoria - Complete
+    { // Fitoria - Complete, Review done
         id: 107606312,
         name: "Fitoria",
         luckrank: "SS",
@@ -24956,6 +25029,23 @@ const UnitInformation = [
             {   
                 evo5: "The queen of all the world's Filolials. She rescued the Shield Hero's party after they freed Tyrant Dragon Rex. Though she possesses immense power, she believed only the Cardinal Heroes could fend off the Waves of Catastrophe, which is why she was so critical of Naofumi's refusal to cooperate with the others.",
                 evoawk: "Adamant that Naofumi reconcile with the other Heroes, she took Melty hostage and demanded a duel with Filo. Naofumi still hesitated, but Filo gladly accepted to help her friend. As for why the Filolial Queen took such drastic measures, she had a different reason..."
+            },
+        review:
+            {
+                skill: `This is without a shadow of doubt the strongest skill in the game. Regardless of it not having a 100% uptime it offers strong artgen and decent healing to the whole team. Funny enough Fitoria might be the only unit in the game you want to run Skill CT crest on.`,
+                arts: `A rather sizeable bit of DMG res and negligible barrier. Having 50% DMG RES against water enemies makes this a great option against any water boss who hits hard.`,
+                truearts: `A rather strong multiplier and innate crit rate while providing up to 120% dmg up to all allies if the boss is a giant boss. Giant bosses are just any boss who's... well giant, not just those in the giant boss catagory.`,
+                ability1: `Nothing too special about this, just nice to have.`,
+                ability2: `A small selfish conditional buff that won't help too much, but it's something`,
+                ability3: `A decent buff to demon allies HP.`,
+                trueweapon: {
+                    skill: `Similar to Juno's TW but with a better uptime, a solid magic res down option for any unit.`,
+                    ability1: `This passive does a bit of everything for Fitoria, helping her out in pretty much every possible way.`,
+                    ability2: `.....Yeah..`
+                },
+                overall: `Fitoria is truly a jack of all trades. Each part of her kit offers something different from the last making her a very versatile option. Her Artgen and healing being on her Skill means it's up at the start of the fight and can support the team from the beginning. Her Art provides solid dmg res, even more so against water bosses. While her True Art increases all allies DMG while also doing some nice DMG itself.`,
+                lastupdated: `July 7, 2022`,
+                author: `Zanster`
             }
     },
     { //Yusuke - Complete
