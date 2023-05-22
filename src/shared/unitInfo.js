@@ -7016,7 +7016,7 @@ const UnitInformation = [
                 evoawk: "Her life changed the moment when she protected the Captain of the Divine Knights from his former subordinates, who was trying to kill him. While once she had been a mere weapon, a mindless follower of orders, in that instant her own will began to flourish. She soon grew proud that she was able to pull the trigger for her own reasons. And tonight, she would need to open fire once more, to save her life, and the life of the one she wanted to protect..."
             }
     },
-    { //Gaia - Complete (+ JP version)
+    { //Gaia - Complete (+ JP version), Review done
         id: 101716211,
         name: "Gaia",
         rank: "A-",
@@ -7114,6 +7114,23 @@ const UnitInformation = [
                 evo4: "A divine swordsman during the early period in the Ancient War. He had absolute loyalty to the Higher Gods and paid no heed to personal peril, so he was often sent to the front lines. He was gravely wounded in a surprise attack by a Demon girl during a top-secret investigation of a Dragon research lab. However, his goal just happened to be home to a skilled doctor who saved his life. She saved him against the strong objections of her Dragon superiors, and just as he came to realize his obligation to her. Demons attacked the facility.",
                 evo5: "A swordsman who destroyed a Dragon facility early in Ancient War. His life was saved by a doctor there, yet his wounds still kept him from defending her in a Demon attack. Then, a Dragon researcher appeared and claimed to be able to awaken great power within him. so he agreed immediately with no doubts. His wounds healed before his very eyes. As he felt incredible power filling his body, he stood before the Demons. Though, he did not know that he will go berserk at this moment...",
                 evoawk: "A God knight who agreed to undergo an augmenting operation. It indeed let him fulfill his mission to destroy the invading Demon soldiers, but that moment of triumph was short-lived as he realized he could not control his new strength. That was why he ignored the outstretched hand of the girl who saved him and left without a word -- his very presence had become a threat to those he meant to protect."
+            },
+        review:
+            {
+                skill: ``,
+                arts: ``,
+                truearts: ``,
+                ability1: ``,
+                ability2: ``,
+                ability3: ``,
+                trueweapon: {
+                    skill: ``,
+                    ability1: ``,
+                    ability2: ``
+                },
+                overall: `Before awakening, Gaia was a mitigator/shield unit that only worked to a desirable level in mono-water teams, with his NA granting the team a shield that scales up by 1000 dmg x the number of water units in the team, and one of his passives granting 10% dmg res to near-death units. His awakening gives him a TA that increases the party’s dmg res by 20% and buffs water units’ damage by 30 %. This, coupled with his two defense slots, enables Gaia to be used to substantially mitigate boss dmg. While not as airtight as what Sanstone can achieve, this is nonetheless extremely useful for new players, especially on a free farmable unit that can also serve double-duty as luck unit, or for more experienced players in water ruins (where Gaia can also provide 1 arts/s teamwide with his passive). Awoken Gaia is a unit with a narrower use, but one that can be vital in certain quests.`,
+                lastupdated: `June 23, 2022`,
+                author: `MOB of Metal`
             }
     },
     { //Millenia - Complete
@@ -14497,7 +14514,7 @@ const UnitInformation = [
                 author: `JC`
             }
     },
-    { //Melissa - Complete
+    { //Melissa - Complete, Review done
         id: 102806412,
         name: "Melissa",
         rank: "B-",
@@ -14575,6 +14592,22 @@ const UnitInformation = [
             {   
                 evo5: "A Human knight who forged a new era out of the ensuing chaos in the Isliid Empire. Spending her childhood in an orphanage, she became apprenticed to the founder, who was a seasoned Dragon general. Her potential with the lance earned her the nickname \"Dragoon Princess\". Despite being Human, she fought with ferociousness reminiscent of her master to prove she was worthy of her title.",
                 evoawk: "Quite some time has passed since the veteran general fell to his pupil's sword. This young girl gained much during her time at his orphanage: a dragon spear, a sharp wit, a cheerful soul, and unbreakable bonds. Her master's death brought great sadness, but the treasure he gave her lives on. Hearing the laughter of the other orphans, the girl, later known as the Dragoon Princess, perseveres towards a brighter future."
+            },
+        review:
+            {
+                skill: `Surprisingly a decent skill with it providing roughly 2aps to Melissa.`,
+                arts: `While being a more niche ability, her chance to paralyze adds a bit of extra utility to her kit with a nice art refund if it get applied.`,
+                truearts: `While the multiplier would have been good if she came out 3 years ago, it has a hard time holding up nowadays. The healing off critical damage does offer some extra survivability to her, but sadly she doesn't offer anything to help the team survive.`,
+                ability1: `While the Critical rate buff is appreciated, 50% is on the more inconsistent side.`,
+                ability2: `This would honestly be a decent passive, if we had more than 3 decent dragon units in the game.`,
+                trueweapon: {
+                    skill: `Nothing too special about it's active effect, the paralyze chance is decent but rarely needed.`,
+                    ability1: `While the 20% crit rate is decent, it only boosts her up to 70% crit rate overall. The extra healing is nice but it runs into the same issue as her TA where keeping a DPS alive doesn't help keep the team alive.`,
+                    ability2: `Small ATK boost which is nice`
+                },
+                overall: `Melissa was a decent unit who released far too late and even being this late lacks a dragon she can really pair up with. Her self healing on TA is nice, but the fact she doesn't have 100% crit rate for her healing prevent it from helping on hellfire stages. Her damage is far too outclassed to be useful in todays meta with some perma pool units being able to out damage her and out perform her with paralyzing.`,
+                lastupdated: `June 23, 2022`,
+                author: `Zanster`
             }
     },
     { //Barossa - Missing Lore
@@ -18532,7 +18565,7 @@ const UnitInformation = [
                 evoawk: "Liese was committed to her duties as a priestess, but her heart longed to follow her childish dreams, in the same way her peers were taken by the awakenings of love. Cutting through the dark underbelly of Reigrad, she found the release she desired while clad in a trenchcoat and cap. As she saw how her alter ego put the people at ease, she gradually felt a new sense of purpose."
             }
     },
-    { //Emi - Complete
+    { //Emi - Complete, Review done
         id: 103246512,
         name: "Emi",
         rank: "A",
@@ -18643,6 +18676,36 @@ const UnitInformation = [
             {   
                 evo5: "A young woman who claims to be an Ancient. She fights Rayas and his allies with her ability to transform into a huge monster. Her distrustful and antisocial nature has kept her from making friends even within Shadow. The only reason she obeys orders is because their objective to create a new world ruled by the Ancients falls in line with her domineering tendencies.",
                 evoawk: "A young woman who claims the world belongs to her. She is able to use the powers of those she absorbs, and they also influence her transformed state. She holds Rayas in great contempt but does not understand why."
+            },
+        review:
+            {
+                skill: `The effect and duration aren't large enough to really do much; it basically has no significance in Emi's kit.`,
+                arts: `Just focus on entering/re-entering Revelation Mode. It won't even last long enough for when Emi will deal her most amount of damage.`,
+                truearts: `70 seconds is enough for one Mega Arts usage. Do note that her special skills aren't affected by CT buffs.`,
+                revelation: {
+                    skill1: `Pretty high chance to blind enemies, which will help with your survivability a good amount as long as the boss doesn't have high accuracy or guaranteed attacks.`,
+                    skill2: `Potent damage resistance debuff. More damage. Yay!`,
+                    skill3: `If there's no critical resistance, this will pretty much act like a 100% critical rate buff would for your team.`,
+                    megaskill: `Don't use this.`,
+                    megaarts: `Huge multiplier with a great teamwide DMG buff. You will have to charge this ability with using Emi's special skills. Optimal order for damage is 3-2-1-3-2 -> Mega Art`
+                },
+                ability1: `Pretty hefty DMG buff when you face against human-type enemies, which it will be decently often.`,
+                ability2: `Negligible passive.`,
+                ability3: `With a chance of 80%, Emi will be inflicting blindness pretty often, so this passive will usually boost her damage by a good amount.`,
+                trueweapon: {
+                    true1: {
+                        skill: `As you can only use equipment outside of Revelation Mode, it isn't even long enough for Emi to make good use of the debuff, so it would just be better to have another unit have something like True "Nemesis Crow" equipped if you want to reduce damage resistance. The main point of the item is the duration extension.`,
+                        ability1: `You could fit two Mega Arts in one Revelation Mode period with the extra 30 seconds. That's pretty cool. You'll need the 30 second extension if you want to use Mega Arts for the second time without pre-stages or other forms of animation cancellations.`,
+                        ability2: `This effect is negligible.`
+                    },
+                    true2: {
+                        skill: `Like with the other true weapon, 30 seconds is not long enough to have a significant impact. You would only use this if you wanted the one-time faster start-up.`,
+                        ability1: `Use if you want the one-time faster start-up. Otherwise, Akashic Eye is a great alternative.`
+                    }
+                },
+                overall: `Emi is a very strong unit, but she is very slow so you would only want to bring her in quests that last fairly long. When the quest does last long enough for her to be of good use, she deals some huge damage with great teamwide utility (inflicting blindness, critical resistance debuff, potent damage resistance debuff). For shorter quests, you'd opt for faster options, but she is an absolute powerhouse given the ample time needed to set her up and use her abilities.`,
+                lastupdated: `June 23, 2022`,
+                author: `Praying Patrick`
             }
     },
     { //Groitz - Complete, Review done
@@ -21452,7 +21515,7 @@ const UnitInformation = [
                 author: `Zanster`
             }
     },
-    { // War Hero Fen - Missing Lore, Review done
+    { // War Hero Fen - Complete, Review done
         id: 103617312,
         name: "War Hero Fen",
         rank: "SSS",
@@ -24653,12 +24716,12 @@ const UnitInformation = [
                 ability1: `A small, additional DEF boost to help make Naofumi a bit tankier.`,
                 ability2: `A nice barrier to help with your team's survivability for when the enemy deals a hefty amount of damage right off the bat, giving Naofumi some leeway before he is able to start taunting.`,
                 trueweapon: {
-                    tw1: {
+                    true1: {
                         skill: `True "Small Shield" provides great defensive effects, but it has a pretty short duration while having a fairly long cooldown. If uptime isn't issue, feel free to run it. If it is, then you may want to opt for a higher uptime DEF equip instead.`,
                         ability1: `Increases his HP by a fairly reasonable amount, but it usually wouldn't matter much when under a barrier. Some art gauge generation, while small, is also always nice.`,
                         ability2: `It doesn't really have an impact whatsoever. You could treat this as if it's not even there. That's how insignificant the healing value is.`
                     },
-                    tw2: {
+                    true2: {
                         skill: `It provides some impressive single-target healing and seal cleansing, which may come in handy for Naofumi as sealing can obstruct him from reapplying his damage redirection or Freeze/Paralysis resistance.`,
                         ability1: `This would be the main reason for equipping this item on Naofumi. It substantially increases his barrier amount from 11000 to a whopping 15000, and the hefty 35% physical resistance gives him an edge over other tanks when it comes to handling Physical-based bosses.`,
                         ability2: `Small but still appreciable DEF boost towards his tanking capabilities.`
