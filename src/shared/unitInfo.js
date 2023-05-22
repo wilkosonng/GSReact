@@ -19630,7 +19630,7 @@ const UnitInformation = [
                 evoawk: "The greatest swordswoman in Valkia. She consistently achieves top-class results during military exercises, so everyone expects her to become the next sergeant. The fact that Forte responds coldly to her doting is one of her few worries. She read 'Bonds Beyond Races', the biography of two warrior brothers, at a young age, which greatly influenced her personal moral code."
             }
     },
-    { //Lyla - Complete
+    { //Lyla - Complete, Review done
         id: 103366412,
         name: "Lyla",
         rank: "A",
@@ -19712,6 +19712,23 @@ const UnitInformation = [
             {   
                 evo5: "A heavy gunner of Valkia's army. Her hobby is collecting stuffed toys. She impresses everyone with her outstanding performance during military exercises, but she tends to lose herself in the thrill of combat. Younger than Forte and Airi, she values both as respected role models. A terrible experience soon after she enlisted taught her how weak she was then, but only a handful of others know exactly what happened.",
                 evoawk: "The best gunner in Valkia's army. She overcame her past trauma during a particularly tough training session. That mental fortitude later allowed her to support the promoted Forte. The influence of her closest comrades can be seen in her serious yet considerate personality. After Airi's disappearance, she took the initiative to form a search team that is active to this day, demonstrating her belief they will meet again."
+            },
+        review:
+            {
+                skill: `Pretty good arts generation, one of the best things anyone could ask for on a skill. Considering her critical rate passives, there usually won't be trouble utilizing this skill.`,
+                arts: `While it is one of those stacking mechanics, at least the damage buffs are teamwide and optional as opposed to a major requirement for certain units to deal damage themselves (i.e Orvell/Batiste). Most usage for the Normal Arts will be in long-term quests with multi-elemental sustain teams, situations where you will more likely have the opportunity to ramp these buffs up. However, do note that you have to bring a critical rate buffer if you're actually planning to make use of this.`,
+                truearts: `Having to compose the team of at least three unique elements, this will restrict options on who to bring as support/buffers. Some nuking examples are Shadie with Cestina + Kimono Milim or Erza + Forte, while Mako + Hart + [Non-Earth/Non-Light Damage Support] or Erza + Hart + [Water/Fire/Dark Arts Generator] will work nicely as sustaining compositions. As long as you can set up a decent multi-elemental team, Lyla should be able to delete most bosses if the true arts can actually land. Yes, do note that due to her animations, her true arts may not hit the boss.`,
+                ability1: `The amount is fairly decent, but you probably won't come across beast enemies too often.`,
+                ability2: `It's the small puzzle piece to complete the 100% critical rate when in conjunction with her main passive.`,
+                ability3: `It's effectively 100% critical rate when taking her other critical rate passive into account. Status ailments aren't an issue for the majority of quests, so utilizing this passive usually won't be difficult.`,
+                trueweapon: {
+                    skill: `True Maximus applies a hefty physical damage resistance debuff on enemies when equipped on Lyla, and considering its generous cooldown for a resistance debuffing item, it's pretty good on her for sustaining. For nuking, it's the most potent option for inflicting physical resistance when it's equipped on her, but it's still substitutable with alternatives that offer 5% less (or with True Draco La'cryma) if you do not have it.`,
+                    ability1: `This will boost her damage output by a fairly large amount.`,
+                    ability2: `Because it only affects the damage dealt by Lyla's skill, this effect is negligible.`
+                },
+                overall: `Unlike most units, Lyla will not perform as well on mono-elemental teams, and her large multiplier's reliance on unique elements largely limits the possible compositions you can make with her. However, Lyla can deal a huge amount of DPS if you can place her in a compatible team. Unfortunately, her attacks' hitbox is pretty bad as it shoots toward the ground, so her position on the screen will be something important to keep note of as she may miss sometimes. Newer players (or those with less options and variety in their unit lists) will struggle to make the most out of her kit, and most players will generally opt for a less-restrictive DPS option to place on their teams. As for the nuking connoisseurs, they'll most likely have compositions that are stronger and easier to make (i.e Saitama/Simon nukes).`,
+                lastupdated: `June 9, 2022`,
+                author: `Praying Patrick`
             }
     },
     { //Summer Juno - Complete, Review done
