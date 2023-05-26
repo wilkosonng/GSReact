@@ -29027,7 +29027,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //Beast Steel 'Trance Frenzy' Replica - JP Complete
+{ //Beast Steel 'Trance Frenzy' Replica - Missing Lore
         id: 110581,
         name: `Beast Steel 'Trance Frenzy' Replica`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -29056,7 +29056,7 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Beast Steel 'Trance Frenzy' Replica - JP Complete
+{ //Beast Steel 'Trance Frenzy' Replica - Missing Lore
         id: 110591,
         name: `Beast Steel 'Trance Frenzy' Custom`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -30208,9 +30208,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //罪業甲『デプスフォール』レプリカ (SR Equip)  - JP Complete
+{ //Sinful Guards "Fathomless" Replica  - Missing Lore
         id: 110981,
-        name: `罪業甲『デプスフォール』レプリカ`,
+        name: `Sinful Guards "Fathomless" Replica`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 6,
         image: 
@@ -30235,11 +30235,11 @@ const EquipInformation = [
             {
                 ability1: `DEF 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //罪業甲『デプスフォール』アレンジ (SR Equip)  - JP Complete
+{ //Sinful Guards "Fathomless" Custom  - Missing Lore
         id: 110991,
-        name: `罪業甲『デプスフォール』アレンジ`,
+        name: `Sinful Guards "Fathomless" Custom`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 6,
         image: 
@@ -30264,7 +30264,7 @@ const EquipInformation = [
             {
                 ability1: `Increase all allies’ Skill CT REC by 10%. `
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //非業鞭『ミゼラブルペイン』 (B3 Raid Equip) - JP Complete
         id: 111001,
@@ -38352,9 +38352,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //木の棒 (Overlord Equip) - JP Complete
+{ //Wooden Stick - Missing Lore
         id: 152141,
-        name: `木の棒`,
+        name: `Wooden Stick`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -38379,9 +38379,9 @@ const EquipInformation = [
             {
                 ability1: `Light resistance 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //3F (Overlord Equip) - JP Complete
+{ //3F - Missing Lore
         id: 152151,
         name: `3F`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -38408,11 +38408,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //ヘルメス・トリスメギストス (Overlord Equip) - JP Complete
+{ //Hermes Trismegistus - Missing Lore
         id: 152161,
-        name: `ヘルメス・トリスメギストス`,
+        name: `Hermes Trismegistus`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -38437,11 +38437,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //アルベドの服 (Overlord Equip) - JP Complete
+{ //Albedo's Dress - Missing Lore
         id: 152171,
-        name: `アルベドの服`,
+        name: `Albedo's Dress`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -38466,11 +38466,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //シャルティアの傘 (Overlord Equip) - JP Complete
+{ //Shalltear's Parasol - Missing Lore
         id: 152181,
-        name: `シャルティアの傘`,
+        name: `Shalltear's Parasol`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -38495,11 +38495,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //スポイトランス (Overlord Equip) - JP Complete
+{ //Pipette Lance - Missing Lore
         id: 152191,
-        name: `スポイトランス`,
+        name: `Pipette Lance`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -38524,11 +38524,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //シャルティアの服 (Overlord Equip) - JP Complete
+{ //Shalltear's Gown - Missing Lore
         id: 152201,
-        name: `シャルティアの服`,
+        name: `Shalltear's Gown`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -38553,11 +38553,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //極『木の棒』 (Overlord Equip EV) - JP Complete
+{ //Wooden Stick EV - Missing Lore
         id: 152211,
-        name: `極『木の棒』`,
+        name: `Wooden Stick EV`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -38582,7 +38582,7 @@ const EquipInformation = [
             {
                 ability1: `Light resistance 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //Staff of Ainz Ooal Gown (スタッフ・オブ・アインズ・ウール・ゴウン) - JP Complete
         id: 152221,

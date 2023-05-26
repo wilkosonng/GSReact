@@ -22701,7 +22701,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_131455.png",
                     mat2amt: 220,
-                    hover2: "Sinful Spirit Orb"
+                    hover2: "Sinflow Soulgem"
                 }
             },
         trueweapon: //If no TW, may delete this section
@@ -28242,7 +28242,7 @@ const UnitInformation = [
                 author: `MOB of Metal`
             }
     },
-    { // Albedo - Missing Lore
+    { // Albedo - Missing Lore (GL)
         id: 107707512,
         name: "Albedo",
         attribute: "Dark",
@@ -28298,16 +28298,16 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_131455.png",
                     mat2amt: 100,
-                    hover2: "Sinful Spirit Orb"
+                    hover2: "Sinflow Soulgem"
                 }
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
-    { // Shalltear - Missing Lore
+    { // Shalltear - Missing Lore (GL)
         id: 107717412,
         name: "Shalltear",
         attribute: "Light",
@@ -28368,8 +28368,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Missing Lore.",
+                evosuper: "Missing Lore."
             }
     },
     { // Ainz - Missing Lore
@@ -28428,7 +28428,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_131455.png",
                     mat2amt: 100,
-                    hover2: "Sinful Spirit Orb"
+                    hover2: "Sinflow Soulgem"
                 }
             },
         lore: 
@@ -28722,7 +28722,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_131455.png",
                     mat2amt: 100,
-                    hover2: "Sinful Spirit Orb"
+                    hover2: "Sinflow Soulgem"
                 }
             },
         trueweapon: 
