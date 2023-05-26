@@ -28245,7 +28245,7 @@ const UnitInformation = [
                 author: `MOB of Metal`
             }
     },
-    { // Albedo - Missing Lore (GL), Review done
+    { // Albedo - Complete, Review done
         id: 107707512,
         name: "Albedo",
         attribute: "Dark",
@@ -28306,8 +28306,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
-                evosuper: "Missing Lore."
+                evoawk: "A succubus who supervises all who protect the Great Tomb of Nazarick. Her golden eyes, ebony hair, and graceful wings give her an unworldly beauty. Ainz altered her character story on a lark so she would be obsessed with him, not expecting it to carry over when the game world became real.",
+                evosuper: "A demon also known as the Shield among the guardians of Nazarick. Her custom armor Hermes Trismegistus and her ability to nullify Super-tier magic three times lets her serve this role."
             },
         review:
             {
