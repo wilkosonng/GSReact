@@ -45,7 +45,7 @@
                 truearts: ``,
                 trueartsbreak: ,
                 superarts: ``,
-                superartsbreak: ``
+                superartsbreak: 
             },
         passive: 
             {
@@ -60,7 +60,7 @@
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
                     mat2amt: 220,
-                    hover2: "God's Spirit Orb"
+                    hover2: "Eternaglit Soulgem"
                 }
             },
         trueweapon: 
@@ -80,7 +80,10 @@
             {   
                 evoawk: "Currently unreleased in Global.",
                 evosuper: "Currently unreleased in Global."
-            },
+            }
+    }
+
+    ,
         review:
         {
             skill: ``,
@@ -98,7 +101,7 @@
             lastupdated: `December 31, 2022`,
             author: `Zanster`
         }
-    }
+
         //format for Dream Evolution Passives. Remove / Add Colors as needed.
         Colors are:
         - fire
@@ -16859,9 +16862,9 @@ const UnitInformation = [
                 author: `Berwick`
             }
     },
-    { //Chloe - Complete (+ JP version), Review done
+    { //Chloe (GS) - Complete (+ JP version), Review done
         id: 103056511,
-        name: "Chloe",
+        name: "Chloe (GS)",
         luckrank: "A",
         rank: "B+",
         attribute: "Dark",
@@ -21870,7 +21873,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_130853.png",
                     mat2amt: 220,
-                    hover2: "Flame Fox Spirit Orb"
+                    hover2: "Flame Fox Soulgem"
                 }
             },
         trueweapon: //If no TW, may delete this section
@@ -22024,7 +22027,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_130853.png",
                     mat2amt: 220,
-                    hover2: "Flame Fox Spirit Orb"
+                    hover2: "Flame Fox Soulgem"
                 }
             },
         trueweapon: //If no TW, may delete this section
@@ -22102,7 +22105,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_130853.png",
                     mat2amt: 220,
-                    hover2: "Flame Fox Spirit Orb"
+                    hover2: "Flame Fox Soulgem"
                 }
             },
         trueweapon: 
@@ -22180,7 +22183,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
                     mat2amt: 220,
-                    hover2: "God's Spirit Orb"
+                    hover2: "Eternaglit Soulgem"
                 }
             },
         trueweapon: //If no TW, may delete this section
@@ -22258,7 +22261,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
                     mat2amt: 220,
-                    hover2: "God's Spirit Orb"
+                    hover2: "Eternaglit Soulgem"
                 }
             },
         trueweapon: //If no TW, may delete this section
@@ -22336,7 +22339,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_130853.png",
                     mat2amt: 220,
-                    hover2: "Flame Fox Spirit Orb"
+                    hover2: "Flame Fox Soulgem"
                 }
             },
         trueweapon: //If no TW, may delete this section
@@ -22414,7 +22417,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_132152.png",
                     mat2amt: 220,
-                    hover2: "Ice Spirit Orb"
+                    hover2: "Ice Soulgem"
                 }
             },
         trueweapon: //If no TW, may delete this section
@@ -22492,7 +22495,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
                     mat2amt: 220,
-                    hover2: "God's Spirit Orb"
+                    hover2: "Eternaglit Soulgem"
                 }
             },
         lore: 
@@ -22557,7 +22560,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_130853.png",
                     mat2amt: 220,
-                    hover2: "Flame Fox Spirit Orb"
+                    hover2: "Flame Fox Soulgem"
                 }
             },
         lore: 
@@ -28242,7 +28245,7 @@ const UnitInformation = [
                 author: `MOB of Metal`
             }
     },
-    { // Albedo - Missing Lore (GL)
+    { // Albedo - Missing Lore (GL), Review done
         id: 107707512,
         name: "Albedo",
         attribute: "Dark",
@@ -28305,9 +28308,27 @@ const UnitInformation = [
             {   
                 evoawk: "Missing Lore.",
                 evosuper: "Missing Lore."
+            },
+        review:
+            {
+                skill: `Not much to say, Art on skill go brrrrrr.`,
+                arts: `While this does look great, sadly mono demon teams currently don't exist on global.`,
+                truearts: `The high uptime and sizeable barrier makes Albedo a decent option to bring for bosses who deal physical damage. Sadly only providing 20% dmg res puts her below competition such as Sanstone, however because it's physical dmg res, it can stack with units like Sanstone and Emperor.`,
+                superarts: `While the high multiplier is tempting, she lacks any innate dmg up to help actually damage. Her Super Art would mainly be used for when the boss does a large amount of damage in a short period of time.`,
+                ability1: `While you shouldn't be getting near death with Albedo on your team, this is a nice fallback that likely won't save you from any major nukes.`,
+                ability2: `A nice increase to her viability by preventing her from getting paralyzed.`,
+                ability3: `A nice increase to her viability by preven....wait a minute didn't I just say this?`,
+                trueweapon: {
+                    skill: ``,
+                    ability1: ``,
+                    ability2: ``
+                },
+                overall: `Overall Albedo is a strong defensive unit who is only screwed over due to its reliance on running mono demon, being able to provide them with 30% dmg res by ramping her Normal Art and an additional 20% physical res on TA along with a rather sizeable barrier. However, mono demon teams are not very viable in global right now, as time progress and we get more units such as Demon king Vox and the Dream Evolution for Zenon, then a mono demon team will become a viable option. But it's important to note, Albedo and mono demon comps heavily relies on their Bone Daddy, Ainz, to help carry the team.`,
+                lastupdated: `May 26, 2023`,
+                author: `Zanster`
             }
     },
-    { // Shalltear - Missing Lore (GL)
+    { // Shalltear - Missing Lore (GL), Review done
         id: 107717412,
         name: "Shalltear",
         attribute: "Light",
@@ -28363,13 +28384,31 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
                     mat2amt: 100,
-                    hover2: "God's Spirit Orb"
+                    hover2: "Eternaglit Soulgem"
                 }
             },
         lore: 
             {   
                 evoawk: "Missing Lore.",
                 evosuper: "Missing Lore."
+            },
+        review:
+            {
+                skill: `A funny nod to the anime, but not terribly functional. Might counter Hellfire if you use her as a dps for one of those stages, but otherwise won't do much in most situations.`,
+                arts: `Decent RES down buff for a decent duration. While she will provide more than enough dps on her own, this lets her further buff herself and other light or dark dps units.`,
+                truearts: `It seems like this is just a standard for good dps units nowadays. It goes without saying that this is a huge buff, and it even has a great duration.`,
+                superarts: `This is the core of Shalltear's kit. It essentially gives her a huge 180000% multiplier on TA that is further agumented by the Crit DMG buff.`,
+                ability1: `Fairly standard for a modern crit dps. The condition isn't too restrictive, and will easily be held, especially with the lifesteal from Shalltear's skill.`,
+                ability2: `At this point, most things are pretty much dead. But the extra damage is nice nontheless.`,
+                ability3: `Nice little addition for startup`,
+                trueweapon: {
+                    skill: ``,
+                    ability1: ``,
+                    ability2: ``
+                },
+                overall: `Shalltear has the largest multiplier on global, and for 200 Artsgauge no less. Along with further buffing on her TA and enemy debuffing on NA, Shalltear is one of the best dps units to date, and that position will be solidified with the release of units like Star God Liza who can adequately support her. However, while Shalltear is a great dps, that's all she does, and is therefore relegated to being luxury unit for faster clears. Most content is already nukable with currently available characters, and you can bet future content will find some way to lock her behind gimmicks. Regardless, she is a solid unit overall and excels at what she does. Just don't expect her to shatter the meta.`,
+                lastupdated: `May 26, 2023`,
+                author: `Pula`
             }
     },
     { // Ainz - Missing Lore
@@ -28493,7 +28532,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
                     mat2amt: 100,
-                    hover2: "God's Spirit Orb"
+                    hover2: "Eternaglit Soulgem"
                 }
             },
         lore: 
@@ -28574,7 +28613,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
                     mat2amt: 100,
-                    hover2: "God's Spirit Orb"
+                    hover2: "Eternaglit Soulgem"
                 }
             },
         lore: 
@@ -28655,7 +28694,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_130853.png",
                     mat2amt: 100,
-                    hover2: "Flame Fox Spirit Orb"
+                    hover2: "Flame Fox Soulgem"
                 }
             },
         lore: 
@@ -28704,7 +28743,7 @@ const UnitInformation = [
                 truearts: `90000% Dark DMG (MAG). For 30s, increase own ATK and Accuracy rate by 150%.`,
                 trueartsbreak: 1500,
                 superarts: `185000% Dark DMG (MAG). For 20s, all allies ignore 100% of Enemies' DEF and increase Human allies' DMG by 200%.`,
-                superartsbreak: `1800`
+                superartsbreak: 1800
             },
         passive: 
             {
@@ -28744,9 +28783,9 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
-    { //Emiya Shirou
+    { //Shirou Emiya - Missing Lore (JP)
         id: 107777212,
-        name: `Emiya Shirou`,
+        name: `Shirou Emiya`,
         attribute: `Water`,
         type: `Human`,
         image: 
@@ -28788,7 +28827,7 @@ const UnitInformation = [
                 trueartsbreak: 1500,
                 superarts: `For 180s, Enter Unlimited Blade Works.\n
                 During Unlimited Blade Works: 160000% Water DMG (PHY). For 35s, Increase own ATK & DMG Up by 200%.`,
-                superartsbreak: `2200`
+                superartsbreak: 2200
             },
         passive: 
             {
@@ -28806,7 +28845,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_132152.png",
                     mat2amt: 100,
-                    hover2: "Ice Spirit Orb"
+                    hover2: "Ice Soulgem"
                 }
             },
         trueweapon: 
@@ -28827,8 +28866,167 @@ const UnitInformation = [
                 evoawk: "Currently unreleased in Global.",
                 evosuper: "Currently unreleased in Global."
             }
+    },
+    { //Chloe Fate - Missing Lore (JP)
+        id: 107757112,
+        name: `Chloe (Fate)`,
+        attribute: `Fire`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_107756112detail_.png",
+                detailsuper: "/db/Units/Detail/unit_detail_107757112.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107756112.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107757112.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/suppLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/suppLB.png",
+                slot32type: "/db/Mines/thumbnail/physLB.png"
+            },
+        stats: 
+            {
+                hp: 7612,
+                hpplus: 1434,
+                atk: 3335,
+                atkplus: 630,
+                def: 3017,
+                defplus: 574
+            },
+        skillset: 
+            {
+                skill: `11s CT - 2200% Fire DMG (PHY). For 8s, lower enemy's Evasion by 20%.`,
+                skillbreak: 1000,
+                arts: `16000% Fire DMG (PHY). For 35s, lower enemies' BREAK RES by 40%.`,
+                artsbreak: 3000,
+                truearts: `35000% Fire DMG (PHY). For 20s, Increase allies' Arts by 5/s & BREAK PWR by 70%.`,
+                trueartsbreak: 6000,
+                superarts: `100000% Fire DMG (PHY). For 20s, reduce enemies' Fire RES by 100%`,
+                superartsbreak: 12000
+            },
+        passive: 
+            {
+                ability1: `Class Card Archer: When a Boss is Broken, Increase allies' Arts by 200. (Does not stack with Abilities of the same name.)`,
+                ability2: `Burn RES 70% UP`,
+                ability3: `Additional Attack Master: Increases all allies' DMG to Broken Enemies by 50%`,
+                ability4: `Unit EXP UP 20% UP. (When Chloe Illustration is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Chloe Illustration is owned)`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
+                    mat2amt: 100,
+                    hover2: "Flame Fox Soulgem"
+                }
+            },
+        trueweapon: 
+            {
+                name: `Kanshou & Bakuya`,
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_152511.png",
+                skill: `55s CT - 4000% Fire DMG (PHY). When used for the first time, increase own arts gauge by 50.`,
+                skillbreak: 4000,
+                passive: 
+                    {
+                        ability1: `When equipped by Chloe, increase own BREAK PWR by 40% & auto-fills Arts by 2/s. Does not stack with Abilities of the same name.`,
+                        ability2: `PHY RES 5% Up`
+                    }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
+    { //Saber Alter - Missing Lore (JP)
+        id: 107787512,
+        name: `Saber Alter`,
+        attribute: `Dark`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_107786512.png",
+                detailsuper: "/db/Units/Detail/unit_detail_107787512.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_107786512.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_107787512.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/physLB.png",
+                slot32type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: 7254,
+                hpplus: 1369,
+                atk: 4006,
+                atkplus: 691,
+                def: 2941,
+                defplus: 610
+            },
+        skillset: 
+            {
+                skill: `11s CT - 3000% Dark DMG (PHY). Increase own arts by 50. If this Skill crits, increase Arts by an additional 30.`,
+                skillbreak: 500,
+                arts: `26000% Dark DMG (PHY). For 20s, increase all allies' STATS by 30%.`,
+                artsbreak: 1000,
+                truearts: `64000% Dark DMG (PHY). For 30s, Increase own DMG by 100% & Reduce enemies' Dark RES by 70%.`,
+                trueartsbreak: 1500,
+                superarts: `170000% Dark DMG (PHY). For the duration of Super Arts, Increase own Super CRIT Rate by 60%. `,
+                superartsbreak: 2200
+            },
+        passive: 
+            {
+                ability1: `Seeker of the Holy Grail: When own HP is 50% or higher, Increase own CRIT Rate by 100%. Decrease own Accuracy by 30% if affected by Status Ailments`,
+                ability2: `Poison RES 40% Up`,
+                ability3: `Increase own ATK by 25% when HP is above 90%.`,
+                ability4: `Unit EXP UP 20% UP. (When Saber Alter Illustration is owned)`,
+                ability5: `At the Start of Quest, increase own Arts gauge by 10. Does not stack with Abilities of the same name. (When Saber Alter Illustration is owned)`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
+                    mat2amt: 100,
+                    hover2: "Sinful Soulgem"
+                }
+            },
+        trueweapon: 
+            {
+                name: `Excalibur Morgan`,
+                slot: "/db/Mines/thumbnail/physLB.png",
+                detail: "/db/Equipment/Detail/item_detail_152521.png",
+                skill: `50s CT - 8000% Dark DMG (PHY). For 10s, Increase own DMG by 50%. If user is Dark; Additionally increase own ATK by 50%.`,
+                skillbreak: 700,
+                passive: 
+                    {
+                        ability1: `When equipped by Saber Alter, Increase own CRIT DMG by 80%. Does not stack with Abilities of the same name.`,
+                        ability2: `MAG RES 5% Up`
+                    }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
     }
-
 ];
 
 export function getUnits() {
