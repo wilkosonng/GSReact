@@ -28389,7 +28389,7 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Missing Lore.",
+                evoawk: "The Floor Guardian of the first three levels in the Great Tomb of Nazarick. Her silver hair and porcelain skin combined with her red and purple ballroom gown give her a youthful appearance. However, she is actually a True Vampire.",
                 evosuper: "Missing Lore."
             },
         review:
