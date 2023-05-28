@@ -31690,7 +31690,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `45s CT - 4000% Light DMG (MAG). Reduce enemies' Light RES by 20% for 10s. If user is Light, reduce enemies' Evasion rate by 20%.`,
+                skill: `45s CT - 4000% Light DMG (Magic). Reduce enemies' Light resistance by 20% for 10s. If user is Light, reduce enemies' Evasion rate by 20%.`,
                 break: 500
             },
         passive: 
@@ -39505,13 +39505,13 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `55s CT - 4000% Fire DMG (PHY). When used for the first time, increase own Arts gauge by 50.`,
+                skill: `55s CT - 4000% Fire DMG (Physical). When used for the first time, increase own Arts gauge by 50.`,
                 break: 4000
             },
         passive: 
             {
                 ability1: `When equipped by Chloe, increase own Break Power by 40% & auto-fills Arts gauge by 2/s. Does not stack with Abilities of the same name.`,
-                ability2: `PHY RES 5% Up.`
+                ability2: `Physical resistance 5% Up.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -39536,13 +39536,13 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `50s CT - 8000% Dark DMG (PHY). Increase own DMG by 50% for 10s. If user is Dark, increase own ATK by 50% for 10s.`,
+                skill: `50s CT - 8000% Dark DMG (Physical). Increase own DMG by 50% for 10s. If user is Dark, increase own ATK by 50% for 10s.`,
                 break: 700
             },
         passive: 
             {
                 ability1: `When equipped by Saber Alter, Increase own CRI DMG by 80%. Does not stack with Abilities of the same name.`,
-                ability2: `MAG RES 5% Up.`
+                ability2: `Magic resistance 5% Up.`
             },
         lore: `Currently unreleased in Global.`
     },
@@ -39567,7 +39567,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `40s CT - 1000% Fire DMG (PHY). If User is Fire, increase own Arts gauge by 20.`,
+                skill: `40s CT - 1000% Fire DMG (Physical). If User is Fire, increase own Arts gauge by 20.`,
                 break: 3200
             },
         passive: 
@@ -39597,7 +39597,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `30s CT - Increase all Allies' Arts gauge by 3 and PHY DMG by 35% for 10s.`,
+                skill: `30s CT - Increase all Allies' Arts gauge by 3 and Physical DMG by 35% for 10s.`,
                 break: 0
             },
         passive: 
@@ -39627,7 +39627,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `35s CT - Increase target's Arts gauge by 4 for 10s. If user is Fire, increase target's PHY DMG by 20% for 10s.`,
+                skill: `35s CT - Increase target's Arts gauge by 4 for 10s. If user is Fire, increase target's Physical DMG by 20% for 10s.`,
                 break: 0
             },
         passive: 
@@ -39657,7 +39657,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `80s CT - 14000% Dark DMG (PHY). Increase own Arts DMG by 60% & all Dark Allies' DMG by 40% for 15s.`,
+                skill: `80s CT - 14000% Dark DMG (Physical). Increase own Arts DMG by 60% & all Dark Allies' DMG by 40% for 15s.`,
                 break: 800
             },
         passive: 
@@ -39687,7 +39687,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `30s CT - Increase all Allies' Dark RES by 30% & Heal all Allies' HP for 100 HP for 20s.`,
+                skill: `30s CT - Increase all Allies' Dark resistance by 30% & Heal all Allies' HP for 100 HP for 20s.`,
                 break: 0
             },
         passive: 
@@ -39717,7 +39717,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `40s CT - 2500% Fire DMG (PHY). Increases all allies' Arts gauge by 10. If user is Fire, increase all allies' Arts gauge by 20 instead.`,
+                skill: `40s CT - 2500% Fire DMG (Physical). Increases all allies' Arts gauge by 10. If user is Fire, increase all allies' Arts gauge by 20 instead.`,
                 break: 300
             },
         passive: 
