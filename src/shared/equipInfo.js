@@ -31669,6 +31669,36 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
+    { //ノーブルアイ - JP Complete
+        id: 111471,
+        name: `ノーブルアイ`,
+        translate: `Noble Eye`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111470.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111471.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111470.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111471.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 4000% Light DMG (MAG). Reduce enemies' Light RES by 20% for 10s. If user is Light, reduce enemies' Evasion rate by 20%.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `DEF 5% UP.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
     { //Ultra Relic 'Petraskia' - Missing Lore
         id: 140011,
         name: `Ultra Relic 'Petraskia'`,
@@ -39454,11 +39484,11 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-/*
-{ // - JP Complete
+{ //真『干将・莫耶』 - JP Complete
         id: 152511,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `真『干将・莫耶』`,
+        translate: `True 'Kanshou & Bakuya'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -39470,24 +39500,26 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `55s CT - 4000% Fire DMG (PHY). When used for the first time, increase own Arts gauge by 50.`,
+                break: 4000
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Chloe, increase own Break Power by 40% & auto-fills Arts gauge by 2/s. Does not stack with Abilities of the same name.`,
+                ability2: `PHY RES 5% Up.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ // - JP Complete
+{ //真『エクスカリバー・モルガン』 - JP Complete
         id: 152521,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `真『エクスカリバー・モルガン』`,
+        translate: `True 'Excalibur Morgan'`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -39499,24 +39531,26 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `50s CT - 8000% Dark DMG (PHY). Increase own DMG by 50% for 10s. If user is Dark, increase own ATK by 50% for 10s.`,
+                break: 700
             },
         passive: 
             {
-                ability1: ``
+                ability1: `When equipped by Saber Alter, Increase own CRI DMG by 80%. Does not stack with Abilities of the same name.`,
+                ability2: `MAG RES 5% Up.`
             },
         lore: `Currently unreleased in Global.`
     },
-{ // - JP Complete
+{ //干将・莫耶 - JP Complete
         id: 152531,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `干将・莫耶`,
+        translate: `Kanshou & Bakuya`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -39528,13 +39562,13 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 1000% Fire DMG (PHY). If User is Fire, increase own Arts gauge by 20.`,
+                break: 3200
             },
         passive: 
             {
@@ -39542,10 +39576,11 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ // - JP Complete
+{ //偽・射殺す百頭 - JP Complete
         id: 152541,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `偽・射殺す百頭`,
+        translate: `Fake Nine Heads`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
             {
@@ -39556,13 +39591,13 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 250,
+                atk: 125,
+                def: 125
             },
         skillset:  
             {
-                skill: ``,
+                skill: `30s CT - Increase all Allies' Arts gauge by 3 and PHY DMG by 35% for 10s.`,
                 break: 0
             },
         passive: 
@@ -39571,11 +39606,12 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ // - JP Complete
+{ //クロエの服 - JP Complete
         id: 152551,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `クロエの服`,
+        translate: `Chloe's Clothes`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_152550.png`,
@@ -39585,13 +39621,13 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 60,
+                atk: 30,
+                def: 30
             },
         skillset:  
             {
-                skill: ``,
+                skill: `35s CT - Increase target's Arts gauge by 4 for 10s. If user is Fire, increase target's PHY DMG by 20% for 10s.`,
                 break: 0
             },
         passive: 
@@ -39600,10 +39636,11 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ // - JP Complete
+{ //エクスカリバー・モルガン - JP Complete
         id: 152561,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `エクスカリバー・モルガン`,
+        translate: `Excalibur Morgan`,
+        type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
             {
@@ -39615,13 +39652,13 @@ const EquipInformation = [
         stats:
             {
                 hp: 0,
-                atk: 0,
+                atk: 500,
                 def: 0
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `80s CT - 14000% Dark DMG (PHY). Increase own Arts DMG by 60% & all Dark Allies' DMG by 40% for 15s.`,
+                break: 800
             },
         passive: 
             {
@@ -39629,10 +39666,11 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ // - JP Complete
+{ //黒化英霊セイバーの鎧 - JP Complete
         id: 152571,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
+        name: `黒化英霊セイバーの鎧`,
+        translate: `Saber Alter's Armor`,
+        type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
             {
@@ -39645,11 +39683,11 @@ const EquipInformation = [
             {
                 hp: 0,
                 atk: 0,
-                def: 0
+                def: 500
             },
         skillset:  
             {
-                skill: ``,
+                skill: `30s CT - Increase all Allies' Dark RES by 30% & Heal all Allies' HP for 100 HP for 20s.`,
                 break: 0
             },
         passive: 
@@ -39658,11 +39696,12 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ // - JP Complete
+{ //偽・偽・螺旋剣 - JP Complete
         id: 152581,
-        name: ``,
-        type: `/db/Mines/thumbnail/LB.png`,
-        star: 5,
+        name: `偽・偽・螺旋剣`,
+        translate: `Fake-Fake Spiral Sword (Caladbolg III)`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 4,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_152580.png`,
@@ -39672,22 +39711,21 @@ const EquipInformation = [
             },
         stats:
             {
-                hp: 0,
-                atk: 0,
-                def: 0
+                hp: 60,
+                atk: 30,
+                def: 30
             },
         skillset:  
             {
-                skill: ``,
-                break: 0
+                skill: `40s CT - 2500% Fire DMG (PHY). Increases all allies' Arts gauge by 10. If user is Fire, increase all allies' Arts gauge by 20 instead.`,
+                break: 300
             },
         passive: 
             {
-                ability1: ``
+                ability1: `ATK 5% UP.`
             },
         lore: `Currently unreleased in Global.`
     }
-*/
 ]
 
 export function getEquips() {
