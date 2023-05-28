@@ -31677,10 +31677,10 @@ const EquipInformation = [
         star: 5,
         image: 
             {
-                detail: `/db/Equipment/Detail/item_detail_111470.png`,
-                detailmax: `/db/Equipment/Detail/item_detail_111471.png`,
-                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111470.png`,
-                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111471.png`
+                detail: `/db/Equipment/Detail/item_detail_111480.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111481.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111480.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111481.png`
             },
         stats:
             {
