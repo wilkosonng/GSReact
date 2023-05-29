@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import { Container, Row, Col, Media, Card, CardHeader, CardBody, Accordion, AccordionBody, AccordionHeader, AccordionItem, Pagination, PaginationItem, PaginationLink } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import { getUnits } from '../shared/unitInfo';
@@ -35,6 +35,9 @@ export default function Units () {
         server: {
             Global: true,
             Japan: true
+        },
+        showOnly: {
+            ascended: false
         }
     })
 
@@ -108,6 +111,9 @@ export default function Units () {
                         <RenderSortOptions sortOrder={sortOrder} setSortOrder={setSortOrder}  />
                     </Col>
                     <Col>
+                        <RenderShowOnlyFilters filters={filters} handleChange={handleChange} />
+                    </Col>
+                    <Col>
                         <RenderUnitAmount units={units} setUnitsPerPage={setUnitsPerPage} unitsPerPage={unitsPerPage} setCurrentPage={setCurrentPage}  />
                     </Col>
                 </Row>
@@ -139,15 +145,21 @@ const RenderUnits = ({ units, filters, query, sortOrder, unitsPerPage, currentPa
         //Check for Search
         const hasMatchingName = unit.name.toLowerCase().includes(query.toLowerCase());
 
+        if(filters.showOnly.ascended) {
+            const hasAscended = unit.image.detailsuper !== undefined
+            return hasMatchingAttr && hasMatchingTypes && hasMatchingName && hasMatchingServer && hasAscended
+        }
         return hasMatchingAttr && hasMatchingTypes && hasMatchingName && hasMatchingServer
     })
     .sort((a, b) => {
-        //Default Sorting
-        if (sortOrder === "default") return a.id - b.id
-
         //If Attribute Order is checked
-        const attrOrder = ['Fire', 'Water', 'Earth', 'Light', 'Dark']
-        return attrOrder.indexOf(a.attribute) - attrOrder.indexOf(b.attribute)
+        if (sortOrder === "element") {
+            const attrOrder = ['Fire', 'Water', 'Earth', 'Light', 'Dark']
+            return attrOrder.indexOf(a.attribute) - attrOrder.indexOf(b.attribute)
+        }
+        
+        //Default Sort Order
+        return a.id - b.id
     })
 
     const totalUnits = filteredUnits.length;
@@ -493,5 +505,21 @@ const AttributeFilters = ({ filters, handleChange }) => {
                 </label>
             </form>
         </center>
+    )
+}
+
+const RenderShowOnlyFilters = ({ filters, handleChange }) => {
+    return (
+        <div className="show-only-options">
+            <div style={{ marginRight: ".2rem"}}>Show Only: </div>
+            <label style={{ backgroundColor: filters.showOnly.ascended ? "#5b5b5b" : "" }}>
+                <input type="checkbox"
+                        name="showOnly"
+                        value="ascended"
+                        checked={ filters.showOnly.ascended }
+                        onChange={handleChange} />
+                <center>Ascended</center>
+            </label>
+        </div>
     )
 }
