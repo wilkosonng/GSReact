@@ -85,6 +85,19 @@ th, tr {
   display: none;
 }
 
+.show-only-options {
+  margin: .3em;
+}
+
+.show-only-options > label {
+  border: 1px solid #292930;
+  width: 7em;
+}
+
+.show-only-options > label > input {
+  display: none;
+}
+
 .page-sort-options { 
   float: right;
   margin-right: 20%;
