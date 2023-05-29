@@ -3,7 +3,6 @@ import { Container, Row, Col, Media, Card, CardHeader, CardBody, Accordion, Acco
         Pagination, PaginationItem, PaginationLink } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import { getEquips } from '../../shared/equipInfo';
-import { Default, Mobile } from '../MobileCheckComponent';
 import Placeholder from 'react-placeholder';
 import 'react-placeholder/lib/reactPlaceholder.css';
 import '../../App.css';
@@ -62,6 +61,7 @@ const Equips = () => {
 
     //Sort Options
     const [sortOrder, setSortOrder] = useState("default")
+    const [sortRarity, setSortRarity] = useState("default")
 
     //Default amount of Equips per page
     const [equipsPerPage, setEquipsPerPage] = useState(100)
@@ -109,21 +109,24 @@ const Equips = () => {
 
                 <Row style={{ marginLeft: "5%", marginRight: "5%"}}>
                     <RenderSearch setQuery={setQuery} setCurrentPage={setCurrentPage} />
-                    <Col>
+                    <Col md="3">
                         <RenderSortOptions sortOrder={sortOrder} setSortOrder={setSortOrder} />
+                    </Col>
+                    <Col md="8">
+                        <RenderSortRarity sortRarity={sortRarity} setSortRarity={setSortRarity} />
                     </Col>
                     <Col>
                         <RenderEquipAmount equips={equips} setEquipsPerPage={setEquipsPerPage} equipsPerPage={equipsPerPage} setCurrentPage={setCurrentPage} />
                     </Col>
                 </Row>
-                <RenderEquips equips={equips} filters={filters} query={query} sortOrder={sortOrder} 
+                <RenderEquips equips={equips} filters={filters} query={query} sortOrder={sortOrder} sortRarity={sortRarity}
                         setEquipsPerPage={setEquipsPerPage} equipsPerPage={equipsPerPage} currentPage={currentPage} setCurrentPage={setCurrentPage} />
             </Container>
         </>
     )
 }
 
-const RenderEquips = ({ equips, filters, query, sortOrder, equipsPerPage, currentPage, setCurrentPage }) => {
+const RenderEquips = ({ equips, filters, query, sortOrder, sortRarity, equipsPerPage, currentPage, setCurrentPage }) => {
     const filteredEquips = equips
         .filter(equip => {
             const isGlobalChecked = filters.server.Global
@@ -171,13 +174,31 @@ const RenderEquips = ({ equips, filters, query, sortOrder, equipsPerPage, curren
         return hasMatchingServer && hasMatchingTypes && (hasMatchingName || hasMatchingTranslate) && hasMatchingRarities 
         })
     .sort((a, b) => {
-            //Default Sort
-            if(sortOrder === "default") return a.id - b.id
-
             //If Type Order checked
-            const typeOrder = ['/db/Mines/thumbnail/physLB.png', `/db/Mines/thumbnail/magLB.png`, `/db/Mines/thumbnail/defLB.png`, `/db/Mines/thumbnail/healLB.png`, `/db/Mines/thumbnail/suppLB.png`]
-            return typeOrder.indexOf(a.type) - typeOrder.indexOf(b.type)
+            if(sortOrder === "type") 
+            {
+                const typeOrder = ['/db/Mines/thumbnail/physLB.png', `/db/Mines/thumbnail/magLB.png`, `/db/Mines/thumbnail/defLB.png`, `/db/Mines/thumbnail/healLB.png`, `/db/Mines/thumbnail/suppLB.png`]
+                return typeOrder.indexOf(a.type) - typeOrder.indexOf(b.type)
+            }
+            //Default Sort
+            return a.id - b.id
         })
+    .sort((a, b) => {
+        //Rarity Sort Ascending
+        const rarityOrder = [6, 5, 4, 3, 2, 1]
+        if(sortRarity === "rarityasc") 
+        {
+            return rarityOrder.indexOf(a.star) - rarityOrder.indexOf(b.star)
+        }
+
+        //Rarity Sort Descending
+        if(sortRarity === "raritydesc") 
+        {
+            return rarityOrder.indexOf(b.star) - rarityOrder.indexOf(a.star)
+        }
+
+        return null
+    })
 
     //Determine Page amount
     const totalEquips = filteredEquips.length
@@ -196,25 +217,27 @@ const RenderEquips = ({ equips, filters, query, sortOrder, equipsPerPage, curren
     //Render Pagination with Equips
     return (
         <Row style={{ marginTop: "1rem"}}>
-            <Pagination aria-label="Equip Pages">
-                <PaginationItem disabled={ currentPage <= 1 }>
-                    <PaginationLink previous href="#" onClick={() => handlePageChange( currentPage - 1 )} />
-                </PaginationItem>
-                {
-                    [...Array(totalPages)].map((_, index) => {
-                        return (
-                            <PaginationItem active={ index + 1 === currentPage } key={index}>
-                                <PaginationLink href="#" onClick={() => handlePageChange(index + 1)}>
-                                    {index + 1}
-                                </PaginationLink>
-                            </PaginationItem>
-                        )
-                    })
-                }
-                <PaginationItem disabled={ currentPage >= totalPages }>
-                    <PaginationLink next href="#" onClick={() => handlePageChange(currentPage + 1)} />
-                </PaginationItem>
-            </Pagination>
+            <div style={{ overflowX: "auto"}}>
+                <Pagination aria-label="Equip Pages">
+                    <PaginationItem disabled={ currentPage <= 1 }>
+                        <PaginationLink previous href="#" onClick={() => handlePageChange( currentPage - 1 )} />
+                    </PaginationItem>
+                    {
+                        [...Array(totalPages)].map((_, index) => {
+                            return (
+                                <PaginationItem active={ index + 1 === currentPage } key={index}>
+                                    <PaginationLink href="#" onClick={() => handlePageChange(index + 1)}>
+                                        {index + 1}
+                                    </PaginationLink>
+                                </PaginationItem>
+                            )
+                        })
+                    }
+                    <PaginationItem disabled={ currentPage >= totalPages }>
+                        <PaginationLink next href="#" onClick={() => handlePageChange(currentPage + 1)} />
+                    </PaginationItem>
+                </Pagination>
+            </div>
             {
                 equipsToShow.map(equip => {
                     return (
@@ -240,25 +263,27 @@ const RenderEquips = ({ equips, filters, query, sortOrder, equipsPerPage, curren
                     )
                 })
             }
-            <Pagination aria-label="Equip Pages">
-                <PaginationItem disabled={ currentPage <= 1 }>
-                    <PaginationLink previous href="#" onClick={() => handlePageChange( currentPage - 1 )} />
-                </PaginationItem>
-                {
-                    [...Array(totalPages)].map((_, index) => {
-                        return (
-                            <PaginationItem active={ index + 1 === currentPage } key={index}>
-                                <PaginationLink href="#" onClick={() => handlePageChange(index + 1)}>
-                                    {index + 1}
-                                </PaginationLink>
-                            </PaginationItem>
-                        )
-                    })
-                }
-                <PaginationItem disabled={ currentPage >= totalPages }>
-                    <PaginationLink next href="#" onClick={() => handlePageChange(currentPage + 1)} />
-                </PaginationItem>
-            </Pagination>
+            <div style={{ overflowX: "auto"}}>
+                <Pagination aria-label="Equip Pages">
+                    <PaginationItem disabled={ currentPage <= 1 }>
+                        <PaginationLink previous href="#" onClick={() => handlePageChange( currentPage - 1 )} />
+                    </PaginationItem>
+                    {
+                        [...Array(totalPages)].map((_, index) => {
+                            return (
+                                <PaginationItem active={ index + 1 === currentPage } key={index}>
+                                    <PaginationLink href="#" onClick={() => handlePageChange(index + 1)}>
+                                        {index + 1}
+                                    </PaginationLink>
+                                </PaginationItem>
+                            )
+                        })
+                    }
+                    <PaginationItem disabled={ currentPage >= totalPages }>
+                        <PaginationLink next href="#" onClick={() => handlePageChange(currentPage + 1)} />
+                    </PaginationItem>
+                </Pagination>
+            </div>
         </Row>
     )
 }
@@ -310,6 +335,34 @@ const RenderSortOptions = ({ sortOrder, setSortOrder }) => {
     )
 }
 
+const RenderSortRarity = ({ sortRarity, setSortRarity }) => {
+    return (
+        <div className="sort-options">
+            <div style={{ marginRight: ".2rem" }}>Rarity: </div>
+            <label style={{ backgroundColor: sortRarity === "default" ? "#5b5b5b" : "", width: "7em" }}>
+                <input type="radio"
+                        value="default"
+                        checked={ sortRarity === "default" }
+                        onChange={() => setSortRarity("default")} />
+                <center>Default</center>
+            </label>
+            <label style={{ backgroundColor: sortRarity === "rarityasc" ? "#5b5b5b" : "", width: "7em" }}>
+                <input type="radio"
+                        value="rarityasc"
+                        checked={ sortRarity === "rarityasc" }
+                        onChange={() => setSortRarity("rarityasc")} />
+                <center>Rarity (6 =&gt; 1)</center>
+            </label>
+            <label style={{ backgroundColor: sortRarity === "raritydesc" ? "#5b5b5b" : "", width: "7em" }}>
+                <input type="radio"
+                        value="raritydesc"
+                        checked={ sortRarity === "raritydesc" }
+                        onChange={() => setSortRarity("raritydesc")} />
+                <center>Rarity (1 =&gt; 6)</center>
+            </label>
+        </div>
+    )
+}
 const RenderEquipAmount = ({ setEquipsPerPage, equipsPerPage, equips, setCurrentPage }) => {
     const handleSelectChange = (e) => {
         setEquipsPerPage(e.target.value)
