@@ -74,6 +74,7 @@ th, tr {
 .sort-options {
   margin: .3em;
   float: left;
+  user-select: none;
 }
 
 .sort-options > label {
