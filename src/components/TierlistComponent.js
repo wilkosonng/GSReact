@@ -454,7 +454,11 @@ function DisplayUnit({unit, imageSize, fontSizing}) {
             <center>
                 <Card style={{border: "none", width: "90px", backgroundColor: "rgba(0, 0, 0, 0)", padding: "0px", margin: "0px"}}>
                     <a href={`/units/${unit.name}/`} style={{textDecoration: "none"}}>
-                        <img src={unit.image.thumbawk} style={thumbnailSize} object-fit="cover" alt={unit.name} />
+                        {
+                            unit.image.thumbsuper ? <img src={unit.image.thumbsuper} style={thumbnailSize} object-fit="cover" alt={unit.name} />
+                            :
+                            <img src={unit.image.thumbawk} style={thumbnailSize} object-fit="cover" alt={unit.name} />
+                        }
                         <br />
                         <p style={{paddingTop: "0px", marginTop: "0px", marginBottom: "0px", color: "#aaabb8", fontSize: `${fontSizing}`, width: "75px", display: "inline-block"}}>{unit.name}</p>
                         <img src="/db/Icons/skill/thumbnail/skill0.png" style={{maxWidth: "20px", paddingTop: "0px", marginTop: "0px", paddingBottom: "0px", marginBottom: "2rem"}} alt="True Weapon is favorable for unit" />
@@ -468,7 +472,11 @@ function DisplayUnit({unit, imageSize, fontSizing}) {
         <center>
             <Card style={{border: "none", width: "90px", backgroundColor: "rgba(0, 0, 0, 0)", padding: "0px" , margin: "0px"}}>
                 <a href={`/units/${unit.name}/`} style={{textDecoration: "none"}}>
-                    <img src={unit.image.thumbawk} style={thumbnailSize}  alt={unit.name}/>
+                    {
+                            unit.image.thumbsuper ? <img src={unit.image.thumbsuper} style={thumbnailSize} object-fit="cover" alt={unit.name} />
+                            :
+                            <img src={unit.image.thumbawk} style={thumbnailSize} object-fit="cover" alt={unit.name} />
+                    }
                     <p style={{paddingBottom: "0px", marginBottom: "2px", color: "#aaabb8", fontSize: `${fontSizing}`, width: "75px", display: "inline-block"}}>{unit.name}</p>
                 </a>
             </Card>
