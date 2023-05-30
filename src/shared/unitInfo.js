@@ -21637,7 +21637,7 @@ const UnitInformation = [
                 author: `MOB of Metal`
             }
     },
-    { // Valerie - Missing Lore
+    { // Valerie - Complete, Missing Review
         id: 103486212,
         name: "Valerie",
         attribute: "Water",
@@ -21714,8 +21714,8 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "A knight-in-training of Famelle. The mental wounds from losing her parents at a tender age have not yet healed. She began studying the blade with the belief that it would grant her the strength to survive alone. To everyone's surprise, she swiftly outpaced those much older than her. Although she has opened up to fellow student Charlotte, dark thoughts still glimmer deep within her eyes.",
+                evoawk: "One of the next generation of soldiers upholding Famelle's legacy. Zeorg took her under his wing after her parents' death, and she became like a sister to his granddaughter Charlotte. Her gratitude for their familial love runs deep, but the insecurity if she can ever properly show it bothers her."
             }
     },
     { // Cosmo - Complete, Review done
