@@ -73,7 +73,7 @@ const EquipInformation = [
         lore: `A ring that allows the wearer to heal themselves and others. These rings were created by a great wizard after the Ancient War, in recompense to all the allies he was unable to save. Easy to obtain and very effective, they remain a popular piece of equipment. Being able to find such rings on ancient battlefields also speaks to how long they have been used.`
     },
     { //Detox Ring - Complete
-        id: 1000021,
+        id: 100021,
         name: `Detox Ring`,
         location: `Craftable - Smith`,
         type: `/db/Mines/thumbnail/healLB.png`,
