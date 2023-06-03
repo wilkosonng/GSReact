@@ -39029,7 +39029,7 @@ const EquipInformation = [
                 ability1: `When equipped by Illya, increase own DMG and stats by 20% (No Duplication).`,
                 ability2: `Increase ATK by 5%.`
             },
-        lore: `Currently unreleased on Global.`
+        lore: `Currently unreleased in Global.`
     },
     { //真『宝石剣ゼルレッチ』 - JP Complete
         id: 1523211,
@@ -39060,7 +39060,7 @@ const EquipInformation = [
                 ability1: `When equipped by Rin & Luvia, increase own Arts by 2/s and ATK by 30% (No Duplication).`,
                 ability2: `Increase Magic resistance by 5%.`
             },
-        lore: `Currently unreleased on Global.`
+        lore: `Currently unreleased in Global.`
     },
     { //マジカルルビー - JP Complete
         id: 1523311,
@@ -39090,7 +39090,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased on Global.`
+        lore: `Currently unreleased in Global.`
     },
     { //約束された勝利の剣 - JP Complete
         id: 1523411,
@@ -39120,7 +39120,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased on Global.`
+        lore: `Currently unreleased in Global.`
     },
     { //イリヤの服(セイバーver.) - JP Complete
         id: 152351,
@@ -39150,7 +39150,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased on Global.`
+        lore: `Currently unreleased in Global.`
     },
     { //宝石剣ゼルレッチ - JP Complete
         id: 152361,
@@ -39180,7 +39180,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased on Global.`
+        lore: `Currently unreleased in Global.`
     },
     { //遠坂凛の服 - JP Complete
         id: 152371,
@@ -39210,7 +39210,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased on Global.`
+        lore: `Currently unreleased in Global.`
     },
     { //イリヤの服 - JP Complete
         id: 152381,
@@ -39240,7 +39240,7 @@ const EquipInformation = [
             {
                 ability1: `BE Output 5% UP.`
             },
-        lore: `Currently unreleased on Global.`
+        lore: `Currently unreleased in Global.`
     },
     { //真『マジカルサファイア』 (Miyu TW) - JP Complete
         id: 152431,
