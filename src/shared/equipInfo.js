@@ -10193,7 +10193,7 @@ const EquipInformation = [
             },
         lore: `Ragsherum's trusted sword that never left his side when he tried to unseal the Demons in Gormarey. The sword cuts through its foes as if it has a mind of its own, soaking up any magical power from its victims to complete itself. Despite Ragsherum's passionate research, the "True" Geshpenst absorbed and perfected its master's moves without any intervention. Once reunited with its former master's armor, it will be an unstoppable force once again.`
     },
-    { //Cursed Axe 'Hell Galgen' - Missing Lore & Passive
+    { //Cursed Axe 'Hell Galgen' - Missing Lore
         id: 103911,
         name: `Cursed Axe 'Hell Galgen'`,
         location: `Side Quest [My Will, My Rage > The Masterless Dragon] Secret Equip`,
@@ -10219,7 +10219,7 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: ``
+                ability1: `Negates Poison. When equipped by a Dark Unit, increase own DMG as HP decreases. Reduces DMG from enemy (Only once)`
             },
         lore: `Missing Lore.`
     },
