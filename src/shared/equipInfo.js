@@ -7983,7 +7983,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `50s CT - `,
+                skill: `50s CT - Negates a total of 1000 DMG for all Allies' and reduces DMG Taken by 20% for 15s. Negates all Status Ailments (except Faint).`,
                 break: 0
             },
         passive: 
@@ -13967,12 +13967,12 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `50s CT - `,
+                skill: `50s CT - 8000% Dark DMG (Magic). Reduces enemy's Accuracy rate by 80% for 8s.`,
                 break: 700
             },
         passive: 
             {
-                ability1: `8000% Dark DMG (Magic). Reduces enemy's Accuracy rate by 80% for 8s.`
+                ability1: ``
             },
         lore: `Melia, the Blue-eyed Black Fox, looks dashing in her brand new swimsuit. As she attracted the gaze of the men scattered around the beach, she quietly joined up with her friends... And then the third princess exploded. She began shouting that Melia's clothes weren't fit for public view, that she should be ashamed, and so on... And Melia, looking amused, answered, "Oh, don't hold back. Do say what you really mean!" Yet again, her only goal was to stir trouble.`
     },
@@ -16901,7 +16901,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `40s CT - `,
+                skill: `40s CT - Negates 700 DMG Dealt to all Allies' for 10s. Increases all Allies' ATK by 10% for 10s (only once).`,
                 break: 0
             },
         passive: 
@@ -35710,12 +35710,12 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `70s CT - `,
+                skill: `70s CT - 3500% Water DMG (Magic). Reduces enemy's Water & Magic resistance by 35% for 10s.`,
                 break: 400
             },
         passive: 
             {
-                ability1: `3500% Water DMG (Magic). Reduces enemy's Water & Magic resistance by 35% for 10s.`
+                ability1: ``
             },
         lore: `Worn by Melty, the second princess of Melromarc. They match the refined elegance of her dress.`
     },
