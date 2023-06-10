@@ -11453,7 +11453,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `70s CT - 8000% Light DMG (PHY). For 8s, ignore 50% of Enemy DEF, and increase DMG RES by 30%.`,
+                skill: `70s CT - 8000% Light DMG (Physical). For 8s, ignore 50% of enemies' DEF, and increase DMG resistance by 30%.`,
                 break: 1200
             },
         passive: 
