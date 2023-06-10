@@ -29769,9 +29769,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //煌刻『フォーンクルス』レプリカ (SR Equip) - JP Complete
+{ //Ever Flash "Fon Cruz" Replica - Missing Lore
         id: 110831,
-        name: `煌刻『フォーンクルス』レプリカ`,
+        name: `Ever Flash 'Fon Cruz' Replica`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 6,
         image: 
@@ -29796,11 +29796,11 @@ const EquipInformation = [
             {
                 ability1: `DEF 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //煌刻『フォーンクルス』アレンジ (SR Equip) - JP Complete
+{ //Ever Flash 'Fon Cruz' Custom - Missing Lore
         id: 110841,
-        name: `煌刻『フォーンクルス』アレンジ`,
+        name: `Ever Flash 'Fon Cruz' Custom`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 6,
         image: 
@@ -29825,7 +29825,7 @@ const EquipInformation = [
             {
                 ability1: `Increase all allies' Skill CT speed by 10%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //真『メルクリウス』 (SGLiza TW)  - JP Complete
         id: 110851,
@@ -38614,9 +38614,9 @@ const EquipInformation = [
             },
         lore: `Missing Lore.`
     },
-{ //Staff of Ainz Ooal Gown (スタッフ・オブ・アインズ・ウール・ゴウン) - JP Complete
+{ //Staff of Ainz Ooal Gown - Missing Lore
         id: 152221,
-        name: `スタッフ・オブ・アインズ・ウール・ゴウン`,
+        name: `Staff of Ainz Ooal Gown`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -38641,11 +38641,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+            lore: `Missing Lore.`
     },
-{ //Shooting Star Ring (流れ星の指輪) - JP Complete
+{ //Shooting Star - Missing Lore
         id: 152231,
-        name: `流れ星の指輪`,
+        name: `Shooting Star`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -38670,11 +38670,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+            lore: `Missing Lore.`
     },
-{ //Ainz's Clothes (アインズの服) - JP Complete
+{ //Ainz's Cloak - Missing Lore
         id: 152241,
-        name: `アインズの服`,
+        name: `Ainz's Cloak`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -38699,11 +38699,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //Hourglass (砂時計) - JP Complete
+{ //Hourglass - Missing Lore
         id: 152251,
-        name: `砂時計`,
+        name: `Hourglass`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 4,
         image: 
@@ -38728,11 +38728,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+            lore: `Missing Lore.`
     },
-{ //Keraunos Mk-III (ケラウノスMk-III) - JP Complete
+{ //Keraunos Mk-III - Missing Lore
         id: 152261,
-        name: `ケラウノスMk-III`,
+        name: `Keraunos Mk-III`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -38757,11 +38757,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+            lore: `Missing Lore.`
     },
-{ //Narberal's Headdress (ナーベラルのヘッドドレス) - JP Complete
+{ //Narberal's Headdress - Missing Lore
         id: 152271,
-        name: `ナーベラルのヘッドドレス`,
+        name: `Narberal's Headdress`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -38786,11 +38786,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+            lore: `Missing Lore.`
     },
-{ //Narberal's Combat Maid Uniform (ナーベラルの戦闘用メイド服) - JP Complete
+{ //Narberal's Battle Dress - Missing Lore
         id: 152281,
-        name: `ナーベラルの戦闘用メイド服`,
+        name: `Narberal's Battle Dress`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -38815,11 +38815,11 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+            lore: `Missing Lore.`
     },
-{ //Mask of Envy (嫉妬する者たちのマスク)- JP Complete
+{ //Jealousy Mask - Missing Lore
         id: 152291,
-        name: `嫉妬する者たちのマスク`,
+        name: `Jealousy Mask`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -38844,11 +38844,11 @@ const EquipInformation = [
             {
                 ability1: `DEF 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //Mask of Envy EV (極『嫉妬する者たちのマスク』) - JP Complete
+{ //Jealousy Mask EV - Missing Lore
         id: 152301,
-        name: `極『嫉妬する者たちのマスク』`,
+        name: `Jealousy Mask EV`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         star: 5,
         image: 
@@ -38872,7 +38872,7 @@ const EquipInformation = [
         passive: 
             {
                 ability1: `DEF 5% UP.`,
-                ability2: [`Missing Passive 2.`]
+                ability2: [`Blind Time Reduction & Blind Evasion rate 20% UP.`, `Blind Time Reduction & Blind Evasion rate 10% UP.`, `Magic resistance 5% UP.`, `Physical resistance 5% UP.`, `ATK 5% UP.`, `Unit EXP 10% UP.`]
             },
         lore: `Currently unreleased in Global.`
     },
