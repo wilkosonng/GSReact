@@ -28390,7 +28390,7 @@ const UnitInformation = [
         lore: 
             {   
                 evoawk: "The Floor Guardian of the first three levels in the Great Tomb of Nazarick. Her silver hair and porcelain skin combined with her red and purple ballroom gown give her a youthful appearance. However, she is actually a True Vampire.",
-                evosuper: "Missing Lore."
+                evosuper: "She has the highest authority among the Floor Guardians. Although her sheer strength outclasses Ainz, she relies on that power and forgets the consequences of her actions. "
             },
         review:
             {
@@ -28411,7 +28411,7 @@ const UnitInformation = [
                 author: `Pula`
             }
     },
-    { // Ainz - Missing Lore
+    { // Ainz - Complete, Review done
         id: 107697512,
         name: "Ainz",
         attribute: "Dark",
@@ -28472,11 +28472,31 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Formerly Satoru Suzuki, addict of the game Yggdrasil. He joined Ainz Ooal Gown, a guild entirely of players with grotesque avatars that became one of the top ten, and became its leader.",
+                evosuper: "When the game world became reality, Satoru's body turned into that of Ainz's. With overwhelming charisma, perception, and mercy, he commands Nazarick as its highest authority. Or that is the character he tries to present, aided by his talent as the strongest sorcerer."
+            },
+        review:
+            {
+                skill: `Not anything overly significant compared to his other buffs, but it's a cool teamwide buff nontheless.`,
+                arts: `The buff itself isn't terrible, however since many bosses will usually have status ailment resistance, this isn't as consistent nor useful as you'd want it to be.`,
+                truearts: `Teamwide crit in the form of crit res down is handy to have, especially against crit resistant bosses. It will help our modern crit DPS units do their work when the boss has the aformentioned crit resistance. The 4 arts/s is fairly standard for collab artsgens, but it goes up to a solid 6 arts/s for demons, which currently isn't as good as it seems due to the lack of solid mono-demon teams on Global.`,
+                superarts: `Disregarding the inflated SAWK unit multiplier, the buff is fine. A 100% buff while decent, isn't really remarkable for 300 Arts. However, a 200% buff is amazing, but is unfortunately restricted to Dark units and therefore limits you to using Mikey, Shuri, Batiste, NYRimuru, or Ainz himself as a DPS, since we don't have that many good dark ones. Not to detract from the fact that it is infact 100% DMG Up to everyone else.`,
+                ability1: `Solid self sustainability ability. The condition won't be too hard to fulfill, as most teams work best at full health.`,
+                ability2: `The magnitude of the buff isn't even terrible, but since Ainz isn't a tank, its not really useful when only he has it.`,
+                ability3: `Negligible crit rate up buff. However, appreciated as it technically does allow the team to go above 100% Crit Rate just by using Ainz alone.`,
+                trueweapon: {
+                    skill: ``,
+                    ability1: ``,
+                    ability2: ``
+                },
+                overall: `Ainz is a DMG Support who provides respectable amounts of Artsgen & C.DMG with the added benefit of CRIT Res down, explained on the TA commentary; Allows for teams to achieve 200% Crit Rate to counteract a 100% Crit RES Up Buff. Moving away from this use case, Ainz would be a respectable Artsgen Unit with respectable damage. Nothing too spectacular once more Ascended units release in the future.
+                On that note, while Ainz is great for certain stages & team compositions (IE: Mono Demon-Dark), most players should instead prioritize more defense & utility oriented Ascended units that will allow for more variety & surviveability to an account such as Hazuki Senki (150% Phy DMG Up + 130% Arts DMG Up + 30% Damage Resistance to the team,) Valentines Priscilla (4 Arts/s on TA, 30% DMG Res + 150% PHY DMG UP to allies on SA, 50% HP instant Heal on Arts), and the like.
+                [You'll notice that alot more units are providing DMG Res] `,
+                lastupdated: `June 9, 2023`,
+                author: `Pula`
             }
     },
-    { // Narberal - Missing Lore
+    { // Narberal - Complete, Review done
         id: 107727412,
         name: "Narberal",
         attribute: "Light",
@@ -28537,8 +28557,26 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "A member of Pleiades, six combat maids in the Great Tomb of Nazarick. With her ability as a Doppelganger, she takes the form of a lovely human, with a long black pontytail and oval eyes.",
+                evosuper: "A spellcaster skilled in air magic. Her hostile attitude towards humans is so strong that Ainz has to keep it in check. Additionally, she has a careless side, such as bringing up Albedo in front of unrelated parties and forgetting names."
+            },
+        review:
+            {
+                skill: `A decent buff with a relatively good uptime. Unfortunately, being restricted to Demon Allies dulls its utility.`,
+                arts: `A classic DMG resistance and Arts generation arts with decent utility. But again, the arts gauge is lessened for most units due to its preferential treatment towards Demons.`,
+                truearts: `A very finnicky TA that will only see use for nuking or with selfish DPS units. The stats up is a nice bonus for pseudo heals.`,
+                superarts: `A large amount of MAG RES down, typically utilized for nukes as Narberal's Sustain Kit is primarily budgeted towards her Leader Specific DMG Up. Still nice if you are able to fit it into your rotations.`,
+                ability1: `A great passive, hindered by again, preferential treatment towards Demons.`,
+                ability2: `There aren't many situations where this would be very useful aside from maybe giving her time to get Magic resistance or heals on the rest of the team.`,
+                ability3: `An unnecessarily specific damage buff that won't see much use. But it's cool I guess.`,
+                trueweapon: {
+                    skill: ``,
+                    ability1: ``,
+                    ability2: ``
+                },
+                overall: `Narberal is a very interesting unit. She has decent utility with her NA and TA, and her TA and SA provide great damage buffs. However, she's very finnicky due to a mixture of her Demon Race restrictions and odd TA restrictions. Her TA buffs are great for selfish damage dealers or heavy hitting nukers, and if you are using a group of heavy hitting magic units, her Magic resistance down buffs will be of immense benefit to your damage output. But despite being pretty good, she pales slightly in comparison to other units due to her passives and skill falling short in general utility, and her lack of self sustainability. A decent unit to pick up, But certainly not worth a pity what with more valuble units expected in the future. `,
+                lastupdated: `June 9, 2023`,
+                author: `Pula`
             }
     },
     { // Illya - Missing Lore (JP)
