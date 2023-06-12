@@ -28250,6 +28250,7 @@ const UnitInformation = [
         name: "Albedo",
         attribute: "Dark",
         type: "Demon",
+        rank: "S",
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107706512.png",
@@ -28333,6 +28334,7 @@ const UnitInformation = [
         name: "Shalltear",
         attribute: "Light",
         type: "Demon",
+        rank: "S",
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107716412.png",
@@ -28416,6 +28418,7 @@ const UnitInformation = [
         name: "Ainz",
         attribute: "Dark",
         type: "Demon",
+        rank: "SS",
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107696512.png",
@@ -28501,6 +28504,7 @@ const UnitInformation = [
         name: "Narberal",
         attribute: "Light",
         type: "Demon",
+        rank: "S",
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107726412.png",
