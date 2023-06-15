@@ -22805,6 +22805,84 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
+    { //Luana - Missing Lore (JP)
+        id: 103337412,
+        name: `Luana`,
+        attribute: `Light`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_103336412.png",
+                detailsuper: "/db/Units/Detail/unit_detail_103337412.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103336412.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103337412.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/healLB.png",
+                slot32type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: 7492,
+                hpplus: 1412,
+                atk: 3815,
+                atkplus: 660,
+                def: 2856,
+                defplus: 594
+            },
+        skillset: 
+            {
+                skill: `11s CT - 3500% Light DMG (MAG). For 10s, Increase own Accuracy Rate by 30%.`,
+                skillbreak: 400,
+                arts: `23000% Light DMG (MAG). For 30s, Increase own ATK by 100% & Increase all allies' PHY & MAG Equipment CT REC by 30%.`,
+                artsbreak: 800,
+                truearts: `62000% Light DMG (MAG). Increase the damage of allies' next Arts, True Arts, Super Arts, Cross Arts, Phantom Bullet, or Mega Arts by 180%. (Only Once)`,
+                trueartsbreak: 1200,
+                superarts: `170000% Light DMG (MAG). For 15s, Reduce enemies' Light Res by 100%. If enemy is below 30% HP, reduce Light Res by 200% instead.`,
+                superartsbreak: 1800
+            },
+        passive: 
+            {
+                ability1: `Increase own DMG by [40% x Human Allies] (Max 160%) `,
+                ability2: `When this unit is set as leader, Increase all Allies' Max HP by 30%.`,
+                ability3: `Increase own Curse RES by 100%.`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
+                    mat2amt: 220,
+                    hover2: "Eternaglit Soulgem"
+                }
+            },
+        trueweapon: 
+            {
+                name: `Millenium Ark`,
+                slot: "/db/Mines/thumbnail/magLB.png",
+                detail: "/db/Equipment/Detail/item_detail_111491.png",
+                skill: `45s CT - 7000% Light DMG (MAG). For 10, Increase own Magic DMG & DMG to Giant Bosses by 35%.`,
+                skillbreak: 500,
+                passive: 
+                    {
+                        ability1: `When equipped by Luana, Increase own Arts by 4/s. Does not stack with Abilities of the same name.`,
+                        ability2: `Increase own Skill DMG by 20%`
+                    }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
     { //Zinogre Armor Rayas - Missing Lore
         id: 107006412,
         name: "Zinogre Armor Rayas",
