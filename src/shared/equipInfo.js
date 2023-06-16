@@ -31670,7 +31670,7 @@ const EquipInformation = [
         lore: `Currently unreleased in Global.`
     },
     { //ノーブルアイ - JP Complete
-        id: 111471,
+        id: 111481,
         name: `ノーブルアイ`,
         translate: `Noble Eye`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -31696,6 +31696,127 @@ const EquipInformation = [
         passive: 
             {
                 ability1: `DEF 5% UP.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //真『ミレニアムアーク』 - JP Complete
+        id: 111491,
+        name: `真『ミレニアムアーク』`,
+        translate: `True 'Millenium Arc'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111490.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111491.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111490.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111491.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 7000% Light DMG (MAG). Increase own Magic DMG & DMG to Giant Bosses by 35% for 10s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `When equipped by Luana, Increase own Arts gauge by 4/s. Does not stack with Abilities of the same name.`,
+                ability2: `Skill DMG 20% UP.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //千呪晶『ミレニアムアーク』 - JP Complete
+        id: 111501,
+        name: `千呪晶『ミレニアムアーク』`,
+        translate: `Childhood Memento 'Millenium Arc'`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111500.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111501.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111500.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111501.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 7000% Light DMG (MAG). Increase own Light DMG by 50% for 10s.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `Increase own Accuracy by 20% when above 90% HP.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //リブナルドベレー - JP Complete
+        id: 111511,
+        name: `リブナルドベレー`,
+        translate: `Ribbed Beret`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111510.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111511.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111510.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111511.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `55s CT - 4000% Light DMG (MAG). Reduce enemy's Light RES by 30% for 10s. When used for the first time, increase own Arts gauge by 50.`,
+                break: 400
+            },
+        passive: 
+            {
+                ability1: `Magic resistance 5% UP.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //煌霊靴『エレメンツ・ロウ』 - JP Complete
+        id: 111521,
+        name: `煌霊靴『エレメンツ・ロウ』`,
+        translate: `Gleaming Shoes 'Elements Row'`,
+        type: `/db/Mines/thumbnail/defLB.png`,
+        star: 4,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111520.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111521.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111520.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111521.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 0,
+                def: 120
+            },
+        skillset:  
+            {
+                skill: `35s CT - Blind ownself and increase all allies' Light RES and MAG RES by 20% for 15s.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Heal own HP by 2/s.`
             },
         lore: `Currently unreleased in Global.`
     },
