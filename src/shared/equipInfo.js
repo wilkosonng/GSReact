@@ -31781,7 +31781,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `55s CT - 4000% Light DMG (MAG). Reduce enemy's Light RES by 30% for 10s. When used for the first time, increase own Arts gauge by 50.`,
+                skill: `55s CT - 4000% Light DMG (MAG). Reduce enemy's Light resistance by 30% for 10s. When used for the first time, increase own Arts gauge by 50.`,
                 break: 400
             },
         passive: 
@@ -31811,7 +31811,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `35s CT - Blind ownself and increase all allies' Light RES and MAG RES by 20% for 15s.`,
+                skill: `35s CT - Blind ownself and increase all allies' Light resistance and Magic resistance by 20% for 15s.`,
                 break: 0
             },
         passive: 
