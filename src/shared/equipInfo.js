@@ -38764,9 +38764,9 @@ const EquipInformation = [
             },
             lore: `Missing Lore.`
     },
-{ //Shooting Star - Missing Lore
+{ //Shooting Star (OL) - Missing Lore
         id: 152231,
-        name: `Shooting Star`,
+        name: `Shooting Star (OL)`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
