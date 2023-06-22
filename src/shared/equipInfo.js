@@ -12905,13 +12905,12 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `50s CT - 8200% Dark DMG (Magic). Reduces enemy's Freeze resistance by 50% for 12s. If Water unit, increases own DMG by 20%.`,
-                break: 1200
+                skill: `55s CT - 7000% Dark DMG (Magic). Reduce enemy's Freeze resistance by 50% for 10s.`,
+                break: 1000
             },
         passive: 
             {
-                ability1: `When equipped by Alvina, DMG 20% UP & Paralyze, Seal & Curse Resistance 100% UP (Only once).`,
-                ability2: `All allies' Water & Dark Equipment 10% UP (Only once).`
+                ability1: `All allies' Water & Dark Equipment 10% UP (Only once).`
             },
         lore: `The magical spear of Alvina, sister to Corsair, of the Frozen Blade, one of the Three Blade Masters. She was able to overcome the dark power sleeping in her blood, and thus managed to awaken the draconic power in this spear. They say that Alvina herself, with her incomparable spear technique and the way she wove magical dragons and blades of ice, appeared like a goddess on the battlefield. They say her power possessed a will of its own, and at times it left its mistress' hands to attack and return, unbidden.`
     },
@@ -12966,7 +12965,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `50s CT - 8200% Dark DMG (Magic). Reduces enemy's Freeze resistance by 50% for 12s. If Water unit, increases own DMG by 20%.`,
+                skill: `50s CT - 8200% Dark DMG (Magic). Reduces enemy's Freeze resistance by 60% for 12s. If Water unit, increases own DMG by 20%.`,
                 break: 1200
             },
         passive: 
@@ -24686,9 +24685,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //蒼翼鎧『シエルブルー』 (Freydal Mines Equip) - JP Complete
+{ //Winged Mail 'Blue Pinions' - Missing Lore
         id: 109101,
-        name: `蒼翼鎧『シエルブルー』`,
+        name: `Winged Mail 'Blue Pinions'`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 4,
         image: 
@@ -24713,11 +24712,11 @@ const EquipInformation = [
             {
                 ability1: `Freeze Time Reduction & Freeze Evasion rate 10% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //蒼絶鎧『ラファール』 (Elite Freydal Mines Equip) - JP Complete
+{ //Occult Wings 'Rafale' - Missing Lore
         id: 109111,
-        name: `蒼絶鎧『ラファール』`,
+        name: `Occult Wings 'Rafale'`,
         type: `/db/Mines/thumbnail/defLB.png`,
         star: 5,
         image: 
@@ -24742,11 +24741,11 @@ const EquipInformation = [
             {
                 ability1: `Blind Time Reduction & Blind Evasion rate 20% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //翠竜甲『アウローラ』 (Elpneumas Mines Equip) - JP Complete
+{ //Sealed Branches 'Aurora' - Missing Lore
         id: 109121,
-        name: `翠竜甲『アウローラ』`,
+        name: `Sealed Branches 'Aurora'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 4,
         image: 
@@ -24771,11 +24770,11 @@ const EquipInformation = [
             {
                 ability1: `Earth resistance 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //翠絶甲『セラータ』 (Elite Elpneumas Mines Equip) - JP Complete
+{ //Occult Branches 'Seratta' - Missing Lore
         id: 109131,
-        name: `翠絶甲『セラータ』`,
+        name: `Occult Branches 'Seratta'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -24800,7 +24799,7 @@ const EquipInformation = [
             {
                 ability1: `Poison Time Reduction & Poison Evasion rate 10% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //Jade Star 'Le Courage' - Complete
         id: 109141,
@@ -28908,9 +28907,9 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //オラクルベール (Miranda Farmable) - JP Complete
+{ //Oracle Veil - Missing Lore
         id: 110541,
-        name: `オラクルベール`,
+        name: `Oracle Veil`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -28935,7 +28934,7 @@ const EquipInformation = [
             {
                 ability1: `Magic resistance 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //True 'Soaring Z' - Complete
         id: 110551,
@@ -32110,7 +32109,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //Ultra Relic 'Bracchium' - JP Complete
+{ //Ultra Relic 'Bracchium' - Missing Lore
         id: 140111,
         name: `Ultra Relic 'Bracchium'`,
         type: `/db/Mines/thumbnail/healLB.png`,
@@ -32137,9 +32136,9 @@ const EquipInformation = [
             {
                 ability1: `For 113.7s, increase all allies' Physical DMG by 13% and Heal Recovery by 18%. (At Passive Lv.101)`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //Ultra Relic 'Skeletooth' - JP Complete
+{ //Ultra Relic 'Skeletooth' - Missing Lore
         id: 140121,
         name: `Ultra Relic 'Skeletooth'`,
         type: `/db/Mines/thumbnail/defLB.png`,
@@ -32166,7 +32165,7 @@ const EquipInformation = [
             {
                 ability1: `For 122.7s, increase all allies' Status resistance (Except Faint) by 20% and all allies Heal for 12.5% of DMG taken. (At Passive Lv.101)`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //Ultra Relic 'Periusia' - JP Complete
         id: 140131,

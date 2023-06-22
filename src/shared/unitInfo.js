@@ -10840,7 +10840,7 @@ const UnitInformation = [
                 evoawk: "They say that the moment the Gods asked her and her nation for help holding a meeting with the neighboring countries, it was doomed to failure. Even as she played innocent, she was putting her strategies into place. She planted the poisonous seeds of dissent, helped in the revenge of the Machines who were playing at being friends with the Demons, and succeeded in setting off the war. She and her co-conspirators had only one purpose. That was to get the other 7 great races apart to destroy each other."
             }
     },
-    { //Alvina - Complete (+ JP version)
+    { //Alvina - Complete
         id: 102306212,
         name: "Alvina",
         rank: "B",
@@ -10903,19 +10903,6 @@ const UnitInformation = [
                 }
             },
         trueweapon: //If no TW, may delete this section
-            {
-                name: "Draco Hastia",
-                slot: "/db/Mines/thumbnail/magLB.png",
-                detail: "/db/Equipment/Detail/item_detail_105001.png",
-                skill: "50s CT - 8200% Dark DMG (MAG). For 12s, reduce Enemies' Freeze RES by 50%. If user is Water, increase DMG by 20% for 12s.",
-                skillbreak: 1200,
-                passive: 
-                    {
-                        ability1: "When equipped by Alvina, increase DMG by 20% and increase Paralysis, Seal and Curse RES by 100%. Does not stack with Abilities of the same name.",
-                        ability2: "Increase all Water and Dark Allies' Equipment DMG by 10%. Does not stack with Abilities of the same name."
-                    }
-            },
-        trueweaponJP: //If no TW, may delete this section
             {
                 name: "Draco Hastia",
                 slot: "/db/Mines/thumbnail/magLB.png",
