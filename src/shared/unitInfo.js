@@ -3727,7 +3727,7 @@ const UnitInformation = [
                 evoawk: "She is the greatest of all alchemists who is secretly approaching the world's rule of nature. Having the powers of once trying to revive the dead, she never stands at the stage. This is because she is getting the closest as she can to the truth of alchemy. Possessing the powers to overturn common sense and making the impossible possible, she cannot take the wrong path. With this firm belief. she will generously show her ultimate powers of an achemist to the adventurer standing against the world's danger"
             }
     },
-    { //Arosdea - Complete
+    { //Arosdea - Complete, DreamEvoJP added
         id: 101176112,
         name: "Arosdea",
         rank: "C",
@@ -3751,6 +3751,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/physLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/physLB.png"
+            },
         stats: 
             {
                 hp: 7536,
@@ -3767,6 +3776,15 @@ const UnitInformation = [
                 arts: "16000% Fire DMG (PHY). Increase Arts by 30 + For 10s, increase Allies' DMG to Enemies in BREAK by 100%.",
                 artsbreak: 2600,
                 truearts: "30000% Fire DMG (PHY). For 15s, reduce Enemies' DMG RES by 30%. For 30s, gain a DMG barrier that negates 3500 DMG to self.",
+                trueartsbreak: 3000
+            },
+        skillsetJP: 
+            {
+                skill: "8s CT - 2300% Fire DMG (PHY). Chance (15%) to inflict Burn.",
+                skillbreak: 1800,
+                arts: "20000% Fire DMG (PHY). Increase Arts by 30 + For 20s, increase Allies' DMG to Enemies in BREAK by 100%.",
+                artsbreak: 2600,
+                truearts: "44000% Fire DMG (PHY). For 15s, reduce Enemies' DMG RES by 50%. For 30s, gain a DMG barrier that negates 5000 DMG to self.",
                 trueartsbreak: 3000
             },
         passive: 
@@ -3796,6 +3814,40 @@ const UnitInformation = [
                     mat3amt: 2,
                     hover3: "Degilmagna",
                 }
+            },
+        dreamJP: {
+                fire: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
+                        mat2amt: 50,
+                        hover2: `Flame Fox Soulgem`,
+                        mat3: `/db/Icons/dungeon_drops/fragIfrit.png`,
+                        mat3amt: 2,
+                        hover3: `Ifrit`
+                    },
+                    passive: {
+                        ability1: `Increase CRI DMG by 70%.`,
+                        ability2: `Increase CRI rate by 100% when Near-death.`
+                    }
+                },
+                earth: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                        mat2amt: 50,
+                        hover2: `Smogdragon Soulgem`,
+                        mat3: `/db/Icons/dungeon_drops/fragTonetaurus.png`,
+                        mat3amt: 2,
+                        hover3: `Tonetaurus`
+                    },
+                    passive: {
+                        ability1: `Increase Break Power against Earth enemies by 70%.`,
+                        ability2: `Increase own Arts gauge by 2/s.`
+                    }
+                },
             },
         lore: 
             {   
@@ -16967,6 +17019,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/magLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/magLB.png"
+            },
         stats: 
             {
                 hp: 6378,
@@ -16985,11 +17046,26 @@ const UnitInformation = [
                 truearts: "30000% Fire DMG (PHY). Reduce Dragon Flame Count to 0. Increase own Arts Gauge by [Original Dragon Flame Count × 20], increase this True Arts' Multiplier by [Original Dragon Flame Count × 10000%].",
                 trueartsbreak: 1500
             },
+        skillsetJP: 
+            {
+                skill: "10s CT - 2300% Fire DMG (PHY). Increase Dragon Flame Count by 1. Chance (50%) to inflict Burn.",
+                skillbreak: 600,
+                arts: "20000% Fire DMG (PHY). Increase Dragon Flame Count by 3. For 15s, reduce Enemies' Burn RES by 50%.",
+                artsbreak: 1000,
+                truearts: "35000% Fire DMG (PHY). Reduce Dragon Flame Count to 0. Increase own Arts Gauge by [Original Dragon Flame Count × 25], increase this True Arts' Multiplier by [Original Dragon Flame Count × 12000%].",
+                trueartsbreak: 1500
+            },
         passive: 
             {
                 ability1: "Increase Critical Rate by 100% against Burned Enemies.",
                 ability2: "Increase own DMG by 30% against Enemies in BREAK.",
                 ability3: "Dragon Flame: Counts disappear after 30s (Max 5 stacks). Decrease Enemies' Fire RES by [Dragon Flame Count × 5%], deal [Dragon Flame Count × 350%]/s Fire DMG (PHY) to Enemies."
+            }, 
+        passiveJP: 
+            {
+                ability1: "Increase Critical Rate by 100% against Burned Enemies.",
+                ability2: "Increase own DMG by 30% against Enemies in BREAK.",
+                ability3: "Dragon Flame: Counts disappear after 60s (Max 8 stacks). Decrease Enemies' Fire RES by [Dragon Flame Count × 5%], deal [Dragon Flame Count × 350%]/s Fire DMG (PHY) to Enemies."
             }, 
         evolution: 
             {
@@ -17102,6 +17178,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/physLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/defLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/defLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/physLB.png"
+            },
         stats: 
             {
                 hp: 7275,
@@ -17118,6 +17203,15 @@ const UnitInformation = [
                 arts: "8000% Earth DMG (PHY). For 25s, redirect Allies' DMG taken to self & gain a DMG barrier that negates 8000 DMG to self. During Avenger Mode: For 25s, redirect Allies' DMG taken to self & gain a DMG barrier that negates 12000 DMG to self.",
                 artsbreak: 1200,
                 truearts: "30000% Earth DMG (PHY). For 15s, increase own DMG RES by 10%. During Avenger Mode: 60000% Earth DMG (PHY). For 15s, increase own DMG RES by 10% + Steal 100% of Enemies' Arts and exit Avenger Mode.",
+                trueartsbreak: 2000
+            },
+        skillsetJP: 
+            {
+                skill: "10s CT - 2000% Earth DMG (PHY). For 6s, increase own DEF by 20%.",
+                skillbreak: 600,
+                arts: "16000% Earth DMG (PHY). For 25s, redirect Allies' DMG taken to self & gain a DMG barrier that negates 10000 DMG to self. During Avenger Mode: For 25s, redirect Allies' DMG taken to self & gain a DMG barrier that negates 14000 DMG to self.",
+                artsbreak: 1200,
+                truearts: "30000% Earth DMG (PHY). For 15s, increase own DMG RES by 25%. During Avenger Mode: 110000% Earth DMG (PHY). For 15s, increase own DMG RES by 25% + Steal 100% of Enemies' Arts and exit Avenger Mode.",
                 trueartsbreak: 2000
             },
         passive: 
