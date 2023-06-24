@@ -40,7 +40,7 @@ return (
                                 </NavItem>
                                 <NavItem>
                                     <NavLink className="nav-link" to="/news" activeClassName="active" onClick={() => { setIsOpen(!isOpen) }}>
-                                        <b><p style={{paddingTop: "3px", marginBottom: "0rem", marginLeft: "0px"}}>NEWS</p></b>
+                                        <b><p style={{paddingTop: "3px", marginBottom: "0rem", marginLeft: "0px"}}>CHANGELOG</p></b>
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
