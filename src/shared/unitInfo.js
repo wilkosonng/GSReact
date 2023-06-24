@@ -2681,7 +2681,7 @@ const UnitInformation = [
                 evoawk: "A Hero and a living legend of Famelle. The more he was looked up to, the more he suffered between the created fake-self and true-self. However, thanks to his friends who did not judge him for his past mistakes, he regains his pride and braveness. Now that he has no doubts, his sword skills are sharper as ever. No one can be as strong as this veteran thus his name will continue to shine as a hero."
             }
     },
-    { //Melia (Dark) - Complete
+    { //Melia (Dark) - Complete, DreamEvoJP added
         id: 101076511,
         name: "Melia (Dark)",
         rank: "C",
@@ -2705,6 +2705,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/suppLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
+            },
         stats: 
             {
                 hp: 6420,
@@ -2721,6 +2730,15 @@ const UnitInformation = [
                 arts: "13800% Dark DMG (MAG). Chance to inflict Blind. During Arts, stop Enemy actions. Refresh Skill CT for Allies + For 4s, increase Allies' BE generation by 50%.",
                 artsbreak: 2000,
                 truearts: "28400% Dark DMG (MAG). During True Arts, stop Enemy actions. Steals 20 of Enemies' Arts + For 10s, increase Allies' MAG DMG by 50%.",
+                trueartsbreak: 3500
+            },
+        skillsetJP: 
+            {
+                skill: "9s CT - 2200% Dark DMG (MAG). Heal self by 2% of own max HP.",
+                skillbreak: 1000,
+                arts: "16000% Dark DMG (MAG). Chance (60%) to inflict Blind. During Arts, stop Enemy actions. Refresh Skill CT for Allies + For 10s, increase Allies' BE generation by 50%.",
+                artsbreak: 2000,
+                truearts: "45000% Dark DMG (MAG). During True Arts, stop Enemy actions. Steals 20 of Enemies' Arts + For 15s, increase Allies' MAG DMG by 80%.",
                 trueartsbreak: 3500
             },
         passive: 
@@ -2756,6 +2774,38 @@ const UnitInformation = [
                     mat5amt: 2,
                     hover5: "Ifrit"
                 }
+            },
+        dreamJP: {
+                earth: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                        mat2amt: 50,
+                        hover2: `Smogdragon`,
+                        mat3: `/db/Icons/dungeon_drops/fragGoldola.png`,
+                        mat3amt: 2,
+                        hover3: `Goldola`
+                    },
+                    passive: {
+                        ability1: `Change effect of Skill from "Heal self by 2% of own Max HP." to "Heal all allies by 1% of their Max HP."`
+                    }
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                        mat2amt: 50,
+                        hover2: `Sinful Soulgem`,
+                        mat3: `/db/Icons/dungeon_drops/fragMavroskia.png`,
+                        mat3amt: 2,
+                        hover3: `Mavroskia`
+                    },
+                    passive: {
+                        ability1: `Increase all Dark allies' Arts gauge by 2/s (Does not stack with Abilities of the same name). `
+                    }
+                },
             },
         trueweapon: 
             {
