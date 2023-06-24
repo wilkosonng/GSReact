@@ -1007,6 +1007,15 @@ const UnitInformation = [
                 truearts: "38000% Fire DMG (MAG). For 35s, increase all Fire Ally DMG by 35%",
                 trueartsbreak: 2400
             },
+        skillsetJP: 
+            {
+                skill: "3000% Fire DMG (PHY). Chance (25%) of inflicting Burn.",
+                skillbreak: 900,
+                arts: "35000% Fire DMG (MAG). Additionally, when under Light Dream Path, for 20s, reduce enemies' Burn RES by 20%.",
+                artsbreak: 1700,
+                truearts: "46000% Fire DMG (MAG). For 35s, increase all Fire Ally DMG by 50%",
+                trueartsbreak: 2400
+            },
         passive: 
             {
                 ability1: "Increase own DMG to Dragon Enemy by 50%",
@@ -1025,6 +1034,15 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/magLB.png"
+            },
+        slotsJP: 
+            {
+                slot1: 6,
                 slot1type: "/db/Mines/thumbnail/physLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/physLB.png",
