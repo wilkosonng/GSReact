@@ -981,7 +981,7 @@ const UnitInformation = [
                 evoawk: "After the end of the Ancient War, he was known as one of the Twin Knights of the Morning Star, but before that, he was already famous for saving the Magus Empire of La Riiz from great peril. He stood agaisnt the God Eater Mavroskia, which brings calamity wherever it appears, and turned its rampage. This is the only time in history a God Eater's destruction has been limited so far. They say he had the protection of a certain Witch, but his merit in the story is undeniable."
             }
     },
-    { //Dargeon - Complete
+    { //Dargeon - Complete, DreamEvoJP added
         id: 100566112,
         name: "Dargeon",
         rank: "C",
@@ -1057,6 +1057,54 @@ const UnitInformation = [
                     mat3amt: 2,
                     hover3: "Degilmagna",
                 }
+            },
+        dreamJP: {
+                fire: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
+                        mat2amt: 50,
+                        hover2: `Flame Fox Soulgem`,
+                        mat3: `/db/Icons/dungeon_drops/fragDegilmagna.png`,
+                        mat3amt: 2,
+                        hover3: `Degilmagna`
+                    },
+                    passive: {
+                        ability1: `Increase DMG against Earth enemies by 200%.`
+                    }
+                },
+                earth: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                        mat2amt: 50,
+                        hover2: `Smogdragon Soulgem`,
+                        mat3: `/db/Icons/dungeon_drops/fragGoldola.png`,
+                        mat3amt: 2,
+                        hover3: `Goldola`
+                    },
+                    passive: {
+                        ability1: `Increase Poison RES by 100%.`,
+                        ability2: `Increase own Arts gauge by 2/s.`
+                    }
+                },
+                light: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.png`,
+                        mat2amt: 50,
+                        hover2: `Eternaglit Soulgem`,
+                        mat3: `/db/Icons/dungeon_drops/fragWilkes.png`,
+                        mat3amt: 2,
+                        hover3: `Wilkes`
+                    },
+                    passive: {
+                        ability1: `Add "For 20s, reduce enemies' Burn RES by 20%." to Arts.`
+                    }
+                },
             },
         lore: 
             {   
