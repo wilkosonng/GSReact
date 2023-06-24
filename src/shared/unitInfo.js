@@ -16944,7 +16944,7 @@ const UnitInformation = [
                 author: `Orixy`
             }
     },
-    { //Angelas - Complete, Review done
+    { //Angelas - Complete, Review done, DreamJP added
         id: 103066112,
         name: "Angelas",
         rank: "A",
@@ -17010,6 +17010,40 @@ const UnitInformation = [
                     hover5: "Radachne"
                 }
             },
+            dreamJP: {
+                fire: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
+                        mat2amt: 50,
+                        hover2: `Flame Fox Soulgem`,
+                        mat3: `/db/Icons/dungeon_drops/fragFlogassa.png`,
+                        mat3amt: 2,
+                        hover3: `Flogassa`
+                    },
+                    passive: {
+                        ability1: `Increase CRI DMG by 50%.`,
+                        ability2: `Increase Skill CT Speed by 20%.`
+                    }
+                },
+                light: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131354.pn`,
+                        mat2amt: 50,
+                        hover2: `Eternaglit Soulgem`,
+                        mat3: `/db/Icons/dungeon_drops/fragRadachne.png`,
+                        mat3amt: 2,
+                        hover3: `Radachne`
+                    },
+                    passive: {
+                        ability1: `Increase Accuracy rate by 50%.`,
+                        ability2: `Increase own Arts gauge by 2/s.`
+                    }
+                }
+            },
         trueweapon: //If no TW, may delete this section
             {
                 name: "Drago La'cryma",
@@ -17046,7 +17080,7 @@ const UnitInformation = [
                 author: `Elric`
             }
     },
-    { //Eagle - Complete, Review done
+    { //Eagle - Complete, Review done, DreamJP Added
         id: 103076312,
         name: "Eagle",
         rank: "B+",
@@ -17108,6 +17142,56 @@ const UnitInformation = [
                     mat5: "/db/Icons/dungeon_drops/fragGoldola.png",
                     mat5amt: 2,
                     hover5: "Goldola"
+                }
+            },
+        dreamJP: {
+                water: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
+                        mat2amt: 50,
+                        hover2: `Ice Soulgem`,
+                        mat3: `/db/Icons/dungeon_drops/fragGeoZagnus.png`,
+                        mat3amt: 2,
+                        hover3: `Geo Zagnus`
+                    },
+                    passive: {
+                        ability1: `Increase Freeze RES by 100%.`,
+                        ability2: `Increase own Arts gauge by 3/s.`
+                    }
+                },
+                earth: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                        mat2amt: 50,
+                        hover2: `Smogdragon Soulgem`,
+                        mat3: `/db/Icons/dungeon_drops/fragTonetaurus.png`,
+                        mat3amt: 2,
+                        hover3: `Tonetaurus`
+                    },
+                    passive: {
+                        ability1: `Increase DMG RES by 15% when Near-death.`,
+                        ability2: `Increase own Arts gauge by 6/s when Near-death.`
+                    }
+                },
+                dark: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_131455.png`,
+                        mat2amt: 50,
+                        hover2: `Sinful Soulgem`,
+                        mat3: `/db/Icons/dungeon_drops/fragRagsherumPhantom.png`,
+                        mat3amt: 2,
+                        hover3: `Ragsherum Phantom`
+                    },
+                    passive: {
+                        ability1: `Increase own Arts gauge by 100 at the Start of Quest.`,
+                        ability2: `Increase DMG against God enemies by 100%.`
+                    }
                 }
             },
         trueweapon: //If no TW, may delete this section
