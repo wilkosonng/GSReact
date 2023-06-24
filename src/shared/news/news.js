@@ -1,56 +1,42 @@
 const NewsArticles = [
     {
-        id: 4,
+        id: 0,
         new: "new",
-        title: "Grand Summoners Database Grand Opening",
+        title: "Changelogs",
         category: "Site News",
-        date: "July 13, 2022",
+        date: "June 24, 2023",
         preview: "/chara_face_1200_1.png",
         article:`
-            <h3>It's finally here!</h3>
-            <p>Welcome to the GS Database. You can access the Units from the Navbar at the top.</p>
-            <p>The GS Discord staff is working hard to improve the website, while also adding other features.</p>
+            <h3>Changelog - June 24, 2023</h3>
+            <p>Hey Summoners, Site Admin here. We been in "grand opening" mode for over a year now, so probably best to actually update this.</p>
+            <p>We'll be adding site updates here so you can keep up to date on what's been going on with the website.</p>
             <br/>
-            <p>Currently, we have the Units list, Tierlist, and (some) Guides up and running. Other things, like the Equipment are Work in Progress. Keep checking back for all your GS needs</p>
+            <p>Over the past year, we added the Tierlist, Equip List, and Ascended units, while also allowing you to Sort and Filter the Unit and Equip lists.</p>
+            <p>Please note that we will do our best to keep the website up to date as quickly as possible, but we are merely human and we also have Jobs and real life to attend to. As such, there may be a couple days where the updates are slightly delayed. Please bear with us.</p>
+            <br/>
+            <p><b>Anyway, without further ado, here are today's additions: </b><p>
+            <br/>
+            
+            <p>Added Dream Evolutions and JP Buffs to the Following Units:</p>
+            <br/>
+            <a href="https://www.grandsummoners.info/units/Arosdea"><img src="/db/Units/Thumbnail/unit_thumbnail_101176112.png" /></a>
+            <a href="https://www.grandsummoners.info/units/Dargeon"><img src="/db/Units/Thumbnail/unit_thumbnail_100566112.png" /></a>
+            <a href="https://www.grandsummoners.info/units/Angelas"><img src="/db/Units/Thumbnail/unit_thumbnail_103066112.png" /></a>
+            <a href="https://www.grandsummoners.info/units/Herck"><img src="/db/Units/Thumbnail/unit_thumbnail_100576212.png" /></a>
+            <a href="https://www.grandsummoners.info/units/Valhalla"><img src="/db/Units/Thumbnail/unit_thumbnail_100586312.png" /></a>
+            <a href="https://www.grandsummoners.info/units/Eagle"><img src="/db/Units/Thumbnail/unit_thumbnail_103076312.png" /></a>
+            <a href="https://www.grandsummoners.info/units/Melia%20(Dark)"><img src="/db/Units/Thumbnail/unit_thumbnail_101076511.png" /></a>
+            <br/>
+            <b>NOTE: The unit skillsets show GL stats by default, please click "Japan" Tab to see the Dream Evolutions and the JP skillsets. This option will appear ONLY if the unit has any differences between the servers</b> <br/><br/>
+        
+            <p>Additionally, I want to ask for your help in bug-catching.</p>
+            <p>If you notice any issues like a unit page not loading, or Lore is missing (please provide screenshot of the lore), etc, please contact the #discord-feedback channel on the GSOD Discord. </p>
+            <p>This will ensure that the bug fixes are deployed quicker.</p>
+            <p>Fortunately, some users are already doing this and I greatly appreciate it.</p>
+            <br/>
+            <p>That's all for today. Until next time!</p>
             <p>Thanks, <br/> GSOD Staff</p>
         `
-    },
-    {
-        id: 3,
-        title: "Fairy Tail Collaboration Announced",
-        category: "Collaboration",
-        date: "April 1, 2022",
-        preview: '/db/news/assets/April012022/image0.png',
-        article: `Good news everyone! Fairy Tail Collaboration has just been announced!<br/>
-        The dates are listed in this image: <br/><img src="/db/news/assets/April012022/image0.png" class="newsImages"/>. 
-        <br/> Additionally, there will be Login Rewards from now until the Collaboration begins: 
-        <br/><img src="/db/news/assets/April012022/CountdownLoginBonus.png" class="newsImages"/> <br/><br/>
-        When Fairy Tail Collab begins, we will receive daily login rewards and summoning tickets: 
-        <br/><img src="/db/news/assets/April012022/UltimateLoginBonus.png" class="newsImages"/><br/>
-        <img src="/db/news/assets/April012022/SuperTicketCampaign.png" class="newsImages"/><br /><br />
-        The collab units will be able to gain up to 120 Luck from Fairy Tail Luck Crystals!<br/>
-        <img src="/db/news/assets/April012022/LuckGemFT.png" class="newsImages"/>`
-    },
-    {
-        id: 2,
-        title: "Yet another Test Title",
-        category: "Event",
-        article: "How should I word this?",
-        date: "September 2, 1009"
-    },
-    {
-        id: 1,
-        title: "test title",
-        category: "Maintenance",
-        article: "<>Testing to see if HTML tags can pass through.</>",
-        date: "March 24, 1984"
-    },
-    {
-        id: 0,
-        title: "another test",
-        category: "Event",
-        article: "<strong>Second test</strong>",
-        date: "Feburary 31, 2805"
     }
 ]
 
