@@ -1159,7 +1159,7 @@ const UnitInformation = [
                 evoawk: "Grand king of the rare Sea Giants, who ruled the seas during the Ancient War. He had good reason for his unrelenting attacks on his mother's relatives, the Sea Dragons. He wished only to minimize harm to both races. When he sensed the Ancient War would grow only longer and more cruel, his frenzied attack served to restrain the Sea Dragons, and protect his people from further battle. History hides his true intent, though he regrets nothing."
             }
     },
-    { //Valhalla - Complete
+    { //Valhalla - Complete, DreamEvoJP added
         id: 100586312,
         name: "Valhalla",
         rank: "B-",
@@ -1185,6 +1185,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/magLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/defLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/healLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/magLB.png"
+            },
         stats: 
             {
                 hp: 7068,
@@ -1196,11 +1205,11 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "8s CT - 1200% Earth DMG (MAG). For 5s, increase own Normal Attack DMG by 20.",
+                skill: "8s CT - 1300% Earth DMG (MAG). For 5s, increase own Normal Attack DMG by 20.",
                 skillbreak: 600,
-                arts: "For 20s, Heal all Ally HP by 200s and increase all Ally Skill CT REC by 60%",
+                arts: "For 20s, Heal all Ally HP by 200s and increase all Ally Skill CT REC by 75%",
                 artsbreak: 0,
-                truearts: "21000% Earht DMG (MAG). For 15s, Heal all Ally HP by 4%/s and increase all Ally DMG RES by 10%. If Ally is Earth, increase DMG RES by 20% instead",
+                truearts: "25000% Earht DMG (MAG). For 15s, Heal all Ally HP by 5%/s and increase all Ally DMG RES by 10%. If Ally is Earth, increase DMG RES by 20% instead",
                 trueartsbreak: 1900
             },
         passive: 
@@ -1235,6 +1244,39 @@ const UnitInformation = [
                     mat3amt: 2,
                     hover3: "Elpneumas",
                 }
+            },
+        dreamJP: {
+                water: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
+                        mat2amt: 50,
+                        hover2: `Ice Soulgem`,
+                        mat3: `/db/Icons/dungeon_drops/fragFreydal.png`,
+                        mat3amt: 2,
+                        hover3: `Freydal`
+                    },
+                    passive: {
+                        ability1: `Increase all allies' Water RES by 20% (Does not stack with passives with the same name).`
+                    }
+                },
+                earth: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130653.png`,
+                        mat2amt: 50,
+                        hover2: `Smogdragon Soulgem`,
+                        mat3: `/db/Icons/dungeon_drops/fragElpneumas.png`,
+                        mat3amt: 2,
+                        hover3: `Elpneumas`
+                    },
+                    passive: {
+                        ability1: `Increase own HP Recovery Amount by 20% (excluding Absorption attacks).`,
+                        ability2: `Increase own Arts gauge by 2/s.`
+                    }
+                },
             },
         lore: 
             {   
