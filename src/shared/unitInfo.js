@@ -1066,7 +1066,7 @@ const UnitInformation = [
                 evoawk: "There exists a legend in Famelle of an unlikely savior: a flame-wrapped Dragon with the majesty of a war god. He who once ravaged landand sky attained true enlightenment after his second duel with a master swordsman. Later, when the swordsman faced peril in the Ancient War, the Dragon appeared to fight alongside him out of respect for his strength as well as his own pride. Once the vast army was repelled, it was said he promised to duel the swordsman once again before soaring back into the endless blue."
             }
     },
-    { //Herck - Complete
+    { //Herck - Complete, DreamEvoJP added
         id: 100576212,
         name: "Herck",
         rank: "F",
@@ -1092,6 +1092,15 @@ const UnitInformation = [
                 slot3: 4,
                 slot3type: "/db/Mines/thumbnail/magLB.png"
             },
+        slotsJP: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/suppLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot3: 4,
+                slot3type: "/db/Mines/thumbnail/magLB.png"
+            },
         stats: 
             {
                 hp: 7128,
@@ -1110,11 +1119,26 @@ const UnitInformation = [
                 truearts: "28000% Water DMG (MAG). For 15s, all Allies' attacks have chance to inflict Freeze",
                 trueartsbreak: 7000
             },
+        skillsetJP: 
+            {
+                skill: "8s CT - 1800% Water DMG (PHY). Chance (10%) to inflict Freeze.",
+                skillbreak: 2100,
+                arts: "15000% Water DMG (MAG). For 15s, increase all Water Ally DMG RES by 30%",
+                artsbreak: 3100,
+                truearts: "40000% Water DMG (MAG). For 15s, all Allies' attacks have chance to inflict Freeze",
+                trueartsbreak: 7000
+            },
         passive: 
             {
                 ability1: "Increase own DMG to Spirit Enemy by 80%",
                 ability2: "Increase own DMG to Human Enemy by 80%",
                 ability3: "Increase own DMG by 30% when own HP is over 50%. (Does not stack)"
+            },
+        passiveJP: 
+            {
+                ability1: "Increase own DMG to Spirit Enemy by 80%",
+                ability2: "Increase own DMG to Human Enemy by 80%",
+                ability3: "Increase own DMG by 80% when own HP is over 50%. (Does not stack)"
             },
         evolution: 
             {
@@ -1150,6 +1174,38 @@ const UnitInformation = [
                     mat5amt: 3,
                     hover5: "Freydal"
                 }
+            },
+        dreamJP: {
+                fire: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
+                        mat2amt: 50,
+                        hover2: `Flame Fox Soulgem`,
+                        mat3: `/db/Icons/dungeon_drops/fragFlogassa.png`,
+                        mat3amt: 2,
+                        hover3: `Flogassa`
+                    },
+                    passive: {
+                        ability1: `Increase all allies' Fire RES by 20% (Does not stack with passives with the same name).`
+                    }
+                },
+                water: {
+                    evolution: {
+                        mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
+                        mat1amt: 10,
+                        mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
+                        mat2amt: 50,
+                        hover2: `Ice Soulgem`,
+                        mat3: `/db/Icons/dungeon_drops/fragGeoZagnus.png`,
+                        mat3amt: 2,
+                        hover3: `Geo Zagnus`
+                    },
+                    passive: {
+                        ability1: `Increase Break Power against Fire enemies by 70%.`
+                    }
+                },
             },
         lore: 
             {   
