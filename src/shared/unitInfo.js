@@ -23269,10 +23269,10 @@ const UnitInformation = [
         type: `Human`,
         image: 
             {
-                detailawk: "/db/Units/Detail/unit_detail_103737212.png",
-                detailsuper: "/db/Units/Detail/unit_detail_103736212.png",
-                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103737212.png",
-                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103736212.png"
+                detailawk: "/db/Units/Detail/unit_detail_103736212.png",
+                detailsuper: "/db/Units/Detail/unit_detail_103737212.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103736212.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103737212.png"
             },
         slots: 
             {
