@@ -31719,7 +31719,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `45s CT - 7000% Light DMG (MAG). Increase own Magic DMG & DMG to Giant Bosses by 35% for 10s.`,
+                skill: `45s CT - 7000% Light DMG (Magic). Increase own Magic DMG & DMG to Giant Bosses by 35% for 10s.`,
                 break: 500
             },
         passive: 
@@ -31750,7 +31750,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `50s CT - 7000% Light DMG (MAG). Increase own Light DMG by 50% for 10s.`,
+                skill: `50s CT - 7000% Light DMG (Magic). Increase own Light DMG by 50% for 10s.`,
                 break: 500
             },
         passive: 
@@ -31780,7 +31780,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `55s CT - 4000% Light DMG (MAG). Reduce enemy's Light resistance by 30% for 10s. When used for the first time, increase own Arts gauge by 50.`,
+                skill: `55s CT - 4000% Light DMG (Magic). Reduce enemy's Light resistance by 30% for 10s. When used for the first time, increase own Arts gauge by 50.`,
                 break: 400
             },
         passive: 
@@ -31816,6 +31816,306 @@ const EquipInformation = [
         passive: 
             {
                 ability1: `Heal own HP by 2/s.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //クレイヴ・ライトニング (Wilkes Raid equip) - JP Complete
+        id: 111531,
+        name: `クレイヴ・ライトニング`,
+        translate: `Craver Lightning`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111530.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111531.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111530.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111531.png`
+            },
+        stats:
+            {
+                hp: 500,
+                atk: 500,
+                def: 500
+            },
+        skillset:  
+            {
+                skill: `40s CT - 5000% Light DMG (Physical). Increase own Physical DMG by 50% for 12s. When used for the first time, increase own Arts gauge by 40.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `ATK 5% UP.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+{ //ミラの巫女ミニビキニ - JP Complete
+        id: 111541,
+        name: `ミラの巫女ミニビキニ`,
+        translate: `Mira's Miko Mini Bikini`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111540.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111541.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111540.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111541.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 10000% Fire DMG (Magic). Reduce enemies' DMG resistance by 20% for 10s,. If user's HP is 80% or higher, reduce enemies' DMG resistance by 40% instead.`,
+                break: 1000
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+{ //ケインのインディペンデンスサマー - JP Complete
+        id: 111551,
+        name: `ケインのインディペンデンスサマー`,
+        translate: `Kane's Independent Summer`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111550.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111551.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111550.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111551.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 6000% Dark DMG (Physical). Increase own DMG of next Super Arts by 100%. If user is Human, increase own DMG of next Super Arts by 150% instead.`,
+                break: 700
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+{ //セラのサマーアテンダント - JP Complete
+        id: 111561,
+        name: `セラのサマーアテンダント`,
+        translate: `Serah's Summer Attendant`,
+        type: `/db/Mines/thumbnail/suppLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111560.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111561.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111560.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111561.png`
+            },
+        stats:
+            {
+                hp: 250,
+                atk: 125,
+                def: 125
+            },
+        skillset:  
+            {
+                skill: `35s CT - Increase all Allies' Arts gauge by 30. Increase own Magic DMG by 25% for 60s (Stackable).`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+{ //マリカの毬柄マリンワンピ - JP Complete
+        id: 111571,
+        name: `マリカの毬柄マリンワンピ`,
+        translate: `Marika's Ball Pattern Marine One-Piece`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111570.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111571.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111570.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111571.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 2000% Fire DMG (Magic). Increase own Break Power by 50% and Fire Allies' Break Power by 30% for 15s.`,
+                break: 1500
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+{ //シャルのズッ友フリル - JP Complete
+        id: 111581,
+        name: `シャルのズッ友フリル`,
+        translate: `Char's Zutto Frill`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111580.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111581.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111580.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111581.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - 6500% Fire DMG (Magic). Increase own Arts DMG by 50% for 8s. If the user is Fire, Increase own Arts gauge by 40.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+{ //ヴァレリーのズッ友フリル - JP Complete
+        id: 111591,
+        name: `ヴァレリーのズッ友フリル`,
+        translate: `Valerie's Zutto Frill`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111590.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111591.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111590.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111591.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `45s CT - 6500% Water DMG (Physical). Increase own Arts DMG by 50% for 8s. If the user is Water, Increase own Arts gauge by 40.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: ``
+            },
+        lore: `Currently unreleased in Global.`
+    },
+{ //フェンのビッグウェーブ - JP Complete
+        id: 111611,
+        name: `フェンのビッグウェーブ`,
+        translate: `Fen's Big Wave`,
+        type: `/db/Mines/thumbnail/physLB.png`,
+        star: 5,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111610.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111611.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111610.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111611.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `35s CT - 4000% Water DMG (Physical). If user's HP is 80% or higher, increase own Physical DMG by 35% for 8s. If user's HP is below 80%, recover 6% of own HP.`,
+                break: 500
+            },
+        passive: 
+            {
+                ability1: `Increase own HP Recovery Amount by 5%.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+{ //天間器『ゼクスラスタ』レプリカ - JP Complete
+        id: 111621,
+        name: `天間器『ゼクスラスタ』レプリカ`,
+        translate: `Celestial Device 'Zex Rasta' Replica`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 6,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111620.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111621.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111620.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111621.png`
+            },
+        stats:
+            {
+                hp: 600,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `60s CT - Heal target's HP by 5%/s for 20s. If user is God or Giant, heal target's HP by 10%/s instead.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `Seal Time Reduction & Seal Evasion rate 10% UP.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+{ //天間器『ゼクスラスタ』アレンジ - JP Complete
+        id: 111631,
+        name: `天間器『ゼクスラスタ』アレンジ`,
+        translate: `Celestial Device 'Zex Rasta' Custom`,
+        type: `/db/Mines/thumbnail/healLB.png`,
+        star: 6,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111630.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111631.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111630.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111631.png`
+            },
+        stats:
+            {
+                hp: 600,
+                atk: 0,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `50s CT - Heal target's HP by 5%/s for 20s. If user is God or Giant, heal target's HP by 7%/s and increase all allies' DMG resistance by 20% instead.`,
+                break: 0
+            },
+        passive: 
+            {
+                ability1: `BE Output 5% UP.`
             },
         lore: `Currently unreleased in Global.`
     },

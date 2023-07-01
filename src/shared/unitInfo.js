@@ -23262,6 +23262,71 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
+    { //Summer Fen - Missing Lore (JP)
+        id: 103736212,
+        name: `Summer Fen`,
+        attribute: `Water`,
+        type: `Human`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_103737212.png",
+                detailsuper: "/db/Units/Detail/unit_detail_103736212.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103737212.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103736212.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/healLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/suppLB.png",
+                slot32type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: 7762,
+                hpplus: 1430,
+                atk: 3285,
+                atkplus: 634,
+                def: 3137,
+                defplus: 595
+            },
+        skillset: 
+            {
+                skill: `10s CT - 2400% Water DMG (PHY). Heal allies' HP by 15%.`,
+                skillbreak: 400,
+                arts: `15000% Water DMG (PHY). For 20s, increase own Heal Equipment CT Speed by 40% & Heal Amount by 60%.`,
+                artsbreak: 900,
+                truearts: `75000% Water DMG (PHY). For 25s, reduce enemies' CRI RES by 100% & Evasion rate by 40%.`,
+                trueartsbreak: 1700,
+                superarts: `120000% Water DMG (PHY). For 30s, reduce enemies' Water RES by 100%. For 60s, increase own Arts gauge by 8.`,
+                superartsbreak: 2100
+            },
+        passive: 
+            {
+                ability1: `At the Start of Quest, increase own Arts gauge by 100 and Increase own Arts gauge by 1 every time this unit is Hit.`,
+                ability2: `Increase own Burn RES by 100%.`,
+                ability3: `Increase own CRI DMG by 150%.`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_132152.png",
+                    mat2amt: 220,
+                    hover2: "Water Summoner's Road Orbs"
+                }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
     { //Zinogre Armor Rayas - Missing Lore
         id: 107006412,
         name: "Zinogre Armor Rayas",
