@@ -2,11 +2,35 @@ const NewsArticles = [
     {
         id: 0,
         new: "new",
-        title: "Changelogs",
+        title: "Changelogs - Updated July 1, 2023",
         category: "Site News",
-        date: "June 24, 2023",
+        date: "July 1, 2023",
         preview: "/chara_face_1200_1.png",
         article:`
+            <h3>Changelog - July 1, 2023</h3>
+            <p>Hey Summoners, Site Admin here. Summer events are starting, and with that, is a new unit.</p>
+            <p><b>Here are today's additions:</b></p>
+            <br/>
+            <p>Added the following Unit: </p>
+            <br/>
+            <a href="https://www.grandsummoners.info/units/Summer%20Fen"><img src="/db/Units/Thumbnail/unit_thumbnail_103737212.png" /></a>
+            <br/>
+            <p>Added the following Equips: </p>
+            <br/>
+            <a href="https://www.grandsummoners.info/equips/クレイヴ・ライトニング"><img src="/db/Equipment/Thumbnail/item_thumbnail_111531.png" /></a>
+            <a href="https://www.grandsummoners.info/equips/ミラの巫女ミニビキニ"><img src="/db/Equipment/Thumbnail/item_thumbnail_111541.png" /></a>
+            <a href="https://www.grandsummoners.info/equips/ケインのインディペンデンスサマー"><img src="/db/Equipment/Thumbnail/item_thumbnail_111551.png" /></a>
+            <a href="https://www.grandsummoners.info/equips/セラのサマーアテンダント"><img src="/db/Equipment/Thumbnail/item_thumbnail_111561.png" /></a>
+            <a href="https://www.grandsummoners.info/equips/マリカの毬柄マリンワンピ"><img src="/db/Equipment/Thumbnail/item_thumbnail_111571.png" /></a>
+            <a href="https://www.grandsummoners.info/equips/シャルのズッ友フリル"><img src="/db/Equipment/Thumbnail/item_thumbnail_111581.png" /></a>
+            <a href="https://www.grandsummoners.info/equips/ヴァレリーのズッ友フリル"><img src="/db/Equipment/Thumbnail/item_thumbnail_111591.png" /></a>
+            <a href="https://www.grandsummoners.info/equips/フェンのビッグウェーブ"><img src="/db/Equipment/Thumbnail/item_thumbnail_111611.png" /></a>
+            <a href="https://www.grandsummoners.info/equips/天間器『ゼクスラスタ』レプリカ"><img src="/db/Equipment/Thumbnail/item_thumbnail_111621.png" /></a>
+            <a href="https://www.grandsummoners.info/equips/天間器『ゼクスラスタ』アレンジ"><img src="/db/Equipment/Thumbnail/item_thumbnail_111631.png" /></a>
+            <br/>
+            <p>That's all for today. Until next time!</p>
+            <p>Thanks, <br/> GSOD Staff</p>
+            <br/>
             <h3>Changelog - June 24, 2023</h3>
             <p>Hey Summoners, Site Admin here. We been in "grand opening" mode for over a year now, so probably best to actually update this.</p>
             <p>We'll be adding site updates here so you can keep up to date on what's been going on with the website.</p>
