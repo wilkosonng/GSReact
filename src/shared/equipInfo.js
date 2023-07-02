@@ -11554,10 +11554,10 @@ const EquipInformation = [
             },
         lore: `This armor cast of rare metal and the feathers of the giant 'Flogassa' a bird said to embody the great Ogrone Volcano. The feathers provide its owner a magic barrier, which the same effect is achieved in this armor as well. However, to control this energy it consumes tremendous amounts of this relic, which has made mass production impossible.`
     },
-{ // Blue Life Sword 'Glamerald' (碧命剣『グラメラルド』) - JP Complete
+{ //Blue Life Sword 'Glamerald' (碧命剣『グラメラルド』) - JP Complete
         id: 104441,
         name: `碧命剣『グラメラルド』`,
-        translate: `'Glamerald'`,
+        translate: `Blue Life Sword 'Glamerald'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -11587,6 +11587,7 @@ const EquipInformation = [
 { //Blue Life Bow 'Eldrasta' (碧命弓『エルドラスタ』) - JP Complete
         id: 104451,
         name: `碧命弓『エルドラスタ』`,
+        translate: `Blue Life Bow 'Eldrasta'`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 4,
         image: 
@@ -11678,6 +11679,7 @@ const EquipInformation = [
 { //Magic Spear 'Graofang' (魔槍『グラオファング』) - JP Complete
         id: 104481,
         name: `魔槍『グラオファング』`,
+        translate: `Magic Spear 'Graofang'`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 5,
         image: 
@@ -11707,6 +11709,7 @@ const EquipInformation = [
 { //Flame Staff 'Terenolio' (焔精杖『テレノライオ』) - JP Complete
         id: 104491,
         name: `焔精杖『テレノライオ』`,
+        translate: `Flame Staff 'Terenolio'`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 5,
         image: 
@@ -32062,7 +32065,7 @@ const EquipInformation = [
 { //天間器『ゼクスラスタ』レプリカ - JP Complete
         id: 111621,
         name: `天間器『ゼクスラスタ』レプリカ`,
-        translate: `Celestial Device 'Zex Rasta' Replica`,
+        translate: `Celestial Device 'Zex Lustre' Replica`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 6,
         image: 
@@ -32092,7 +32095,7 @@ const EquipInformation = [
 { //天間器『ゼクスラスタ』アレンジ - JP Complete
         id: 111631,
         name: `天間器『ゼクスラスタ』アレンジ`,
-        translate: `Celestial Device 'Zex Rasta' Custom`,
+        translate: `Celestial Device 'Zex Lustre' Custom`,
         type: `/db/Mines/thumbnail/healLB.png`,
         star: 6,
         image: 
