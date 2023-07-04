@@ -7,6 +7,42 @@ const NewsArticles = [
         date: "July 1, 2023",
         preview: "/chara_face_1200_1.png",
         article:`
+            <h3>Changelog - July 4, 2023</h3>
+            <p><b>Here are today's additions:</b></p>
+            <br/><br/>
+            <p>Following Unit has been added to Global filter</p>
+            
+            <a href="https://www.grandsummoners.info/units/Ginzo:%20Battle%20Form"><img src="/db/Units/Thumbnail/unit_thumbnail_103506511.png" /></a>
+            <br/><br/>
+            <p>Following Units have been updated to match JP's stats</p>
+            
+            <a href="https://www.grandsummoners.info/units/Mizuki"><img src="/db/Units/Thumbnail/unit_thumbnail_102826212.png" /></a>
+            <a href="https://www.grandsummoners.info/units/Ginzo"><img src="/db/Units/Thumbnail/unit_thumbnail_102836512.png" /></a>
+            <a href="https://www.grandsummoners.info/units/Shuri"><img src="/db/Units/Thumbnail/unit_thumbnail_102856512.png" /></a>
+            <a href="https://www.grandsummoners.info/units/Amane"><img src="/db/Units/Thumbnail/unit_thumbnail_102866412.png" /></a>
+            <a href="https://www.grandsummoners.info/units/Kisaragi"><img src="/db/Units/Thumbnail/unit_thumbnail_102876112.png" /></a>
+            <a href="https://www.grandsummoners.info/units/Saku"><img src="/db/Units/Thumbnail/unit_thumbnail_102886312.png" /></a>
+            <br/><br/>
+            <p>Following Equips have been updated to match JP's stats</p>
+            <br/>
+            <a href="https://www.grandsummoners.info/equips/Forbidden%20'Demonic%20Seal'"><img src="/db/Equipment/Thumbnail/item_thumbnail_106701.png" /></a>
+            <a href="https://www.grandsummoners.info/equips/True%20'Demonic%20Seal'"><img src="/db/Equipment/Thumbnail/item_thumbnail_106721.png" /></a>
+            <a href="https://www.grandsummoners.info/equips/Ninja%20Spear%20'Netherworld%20Silver'"><img src="/db/Equipment/Thumbnail/item_thumbnail_106711.png" /></a>
+            <a href="https://www.grandsummoners.info/equips/True%20'Netherworld%20Silver'"><img src="/db/Equipment/Thumbnail/item_thumbnail_106731.png" /></a>
+            <a href="https://www.grandsummoners.info/equips/Storm%20Blade%20'TSUJI-KAZE'"><img src="/db/Equipment/Thumbnail/item_thumbnail_106751.png" /></a>
+            <a href="https://www.grandsummoners.info/equips/True%20'TSUJI-KAZE'"><img src="/db/Equipment/Thumbnail/item_thumbnail_106771.png" /></a>
+            <a href="https://www.grandsummoners.info/equips/True%20'Will-o'-the-Wisp'"><img src="/db/Equipment/Thumbnail/item_thumbnail_106761.png" /></a>
+            <a href="https://www.grandsummoners.info/equips/Oni%20Arm%20'Crimson%20Talon'"><img src="/db/Equipment/Thumbnail/item_thumbnail_106981.png" /></a>
+            <a href="https://www.grandsummoners.info/equips/True%20'Crimson%20Talon'"><img src="/db/Equipment/Thumbnail/item_thumbnail_106991.png" /></a>
+            <a href="https://www.grandsummoners.info/equips/Mech%20Blades%20'Dual%20Thunderbolts'"><img src="/db/Equipment/Thumbnail/item_thumbnail_107001.png" /></a>
+            <a href="https://www.grandsummoners.info/equips/True%20'Dual%20Thunderbolts'"><img src="/db/Equipment/Thumbnail/item_thumbnail_107011.png" /></a>
+            <a href="https://www.grandsummoners.info/equips/Ninja%20Garb%20'Mirage%20Kimono'"><img src="/db/Equipment/Thumbnail/item_thumbnail_107021.png" /></a>
+            <a href="https://www.grandsummoners.info/equips/Demon%20Edge%20'Blood%20Moon'"><img src="/db/Equipment/Thumbnail/item_thumbnail_107041.png" /></a>
+            <br/>
+            <p>That's all for today. Until next time!</p>
+            <p>Thanks, <br/> GSOD Staff</p>
+            
+            <br/><br/>
             <h3>Changelog - July 1, 2023</h3>
             <p>Hey Summoners, Site Admin here. Summer events are starting, and with that, is a new unit.</p>
             <p><b>Here are today's additions:</b></p>
