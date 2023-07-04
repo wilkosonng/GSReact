@@ -14945,7 +14945,7 @@ const UnitInformation = [
                 evoawk: "MCurrently unreleased in Global."
             }
     },
-    { //Mizuki - Complete (+ JP version)
+    { //Mizuki - Complete
         id: 102826212,
         name: "Mizuki",
         rank: "B",
@@ -15014,19 +15014,6 @@ const UnitInformation = [
                 name: "Demonic Seal",
                 slot: "/db/Mines/thumbnail/suppLB.png",
                 detail: "/db/Equipment/Detail/item_detail_106721.png",
-                skill: "25s CT - For 20s, increase own Arts by 3/s and increase own DMG by 30%.",
-                skillbreak: 0,
-                passive: 
-                    {
-                        ability1: "When equipped by Mizuki, increase own accuracy by 30% and increase Third Eye duration by 30s. Does not stack with Abilities of the same name.",
-                        ability2: "Heal own HP by 10/s."
-                    }
-            },
-        trueweaponJP: //If no TW, may delete this section
-            {
-                name: "Demonic Seal",
-                slot: "/db/Mines/thumbnail/suppLB.png",
-                detail: "/db/Equipment/Detail/item_detail_106721.png",
                 skill: "25s CT - For 20s, increase own Arts by 3/s and increase own DMG by 40%.",
                 skillbreak: 0,
                 passive: 
@@ -15041,7 +15028,7 @@ const UnitInformation = [
                 evoawk: "A proud shinobi who served as the leader of Imari Village. She has natural talent as a shinobi, and she was very respected because of that. With both pride and the future of the village on her shoulders, she continued to do assassination jobs in secret in order to sustain it. However, she was unable to hide her deeds forever. When she faced off against a Yoma in the depths of a dark cave, her sworn sisters Shiki and Kisaragi were badly hurt, forcing her to unleash her forbidden shinobi technique right in front of them."
             }
     },
-    { //Ginzo - Complete (+ JP version)
+    { //Ginzo - Complete
         id: 102836512,
         name: "Ginzo",
         rank: "B-",
@@ -15104,19 +15091,6 @@ const UnitInformation = [
                 }
             },
         trueweapon: //If no TW, may delete this section
-            {
-                name: "Netherworld Silver",
-                slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "/db/Equipment/Detail/item_detail_106731.png",
-                skill: "60s CT - 10000% Dark DMG (PHY). For 8s, increase own PHY DMG by 30%. Reduce Light Enemies' Dark RES by 20%.",
-                skillbreak: 2000,
-                passive: 
-                    {
-                        ability1: "When equipped by Ginzo, increase stats by 30% and increase own Arts by 1/s.",
-                        ability2: "When near-death, increase own Skill CT REC by 20%."
-                    }
-            },
-        trueweaponJP: //If no TW, may delete this section
             {
                 name: "Netherworld Silver",
                 slot: "/db/Mines/thumbnail/physLB.png",
@@ -15215,7 +15189,7 @@ const UnitInformation = [
                 evoawk: "A noble girl who fought alongside the other shinobi to fight a great Demonic threat in a land in the Far East. Having defeated the Demon Fox once again, completing her mission, two paths were available to her: one where she could live alongside the shinobi of Imari Village, and the other... She did not hesitate in her decision. She put her foot on the ground and began to walk. At the end of a long journey, she arrived at her destination. \"I'm home.\" Her voice that echoed throughout her homeland marked the beginning of a new story."
             }
     },
-    { //Shuri - Complete (+ JP version)
+    { //Shuri - Complete
         id: 102856512,
         name: "Shuri",
         rank: "A",
@@ -15283,19 +15257,6 @@ const UnitInformation = [
                 name: "Crimson Talon",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "/db/Equipment/Detail/item_detail_106991.png",
-                skill: "70s CT - 12500% Dark DMG (PHY). For 10s, increase own Arts by 4/s, reduce own DEF by 50%.",
-                skillbreak: 2300,
-                passive: 
-                    {
-                        ability1: "When equipped by Shuri, increase Arts by 80 when entering Third Eye.",
-                        ability2: "When near-death, increase ATK by 30%."
-                    }
-            },
-        trueweaponJP: //If no TW, may delete this section
-            {
-                name: "Crimson Talon",
-                slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "/db/Equipment/Detail/item_detail_106991.png",
                 skill: "60s CT - 12500% Dark DMG (PHY). For 10s, increase own Arts by 4/s, reduce own DEF by 30%.",
                 skillbreak: 2300,
                 passive: 
@@ -15310,7 +15271,7 @@ const UnitInformation = [
                 evoawk: "When she hurried to flee from the rising flames in front of her, what was waiting for her was the sight of her village destroyed, the culprit unknown. Within this miserable situation, she found the shinobi with prosthetic legs collapsed on the ground, who spoke to her the truth. Shuri cursed herself for not being able to see the true meaning behind the Divine Blade. Having lost so much, she left behind the village burnt to the ground, her eyes filled with rage toward the Demon Fox who took everything from her."
             }
     },
-    { //Amane - Complete (+ JP version)
+    { //Amane - Complete
         id: 102866412,
         name: "Amane",
         rank: "A",
@@ -15378,19 +15339,6 @@ const UnitInformation = [
                 name: "Dual Thunberbolts",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "/db/Equipment/Detail/item_detail_107011.png",
-                skill: "20s CT - 3800% Light DMG (PHY). For 5s, increase own Critical Rate by 20%.",
-                skillbreak: 500,
-                passive: 
-                    {
-                        ability1: "When equipped by Amane, increase Critical DMG by 70%. Does not stack with Abilities of the same name.",
-                        ability2: "Increase DMG to Human Enemies by 20%."
-                    }
-            },
-        trueweaponJP: //If no TW, may delete this section
-            {
-                name: "Dual Thunberbolts",
-                slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "/db/Equipment/Detail/item_detail_107011.png",
                 skill: "20s CT - 3800% Light DMG (PHY). For 5s, increase own Critical Rate by [# of times this equip has been used in quest x 25%] (up to 100%).",
                 skillbreak: 500,
                 passive: 
@@ -15405,7 +15353,7 @@ const UnitInformation = [
                 evoawk: "A high-ranking shinobi from Yakuno Village. The demon Fox that destroyed the village easily dodged all her attacks and disappeared, despite all the painful trials she had overcome. She lamented her weakness as she lay awake, half-conscious. However, she swore to become stronger in order to support her master after seeing her eyes burning with the flames of vengeance. She gained power almost on par with her master after going through a multitude of near-death experiences alongside her."
             }
     },
-    { //Kisaragi - Complete (+ JP version)
+    { //Kisaragi - Complete
         id: 102876112,
         name: "Kisaragi",
         rank: "A",
@@ -15476,19 +15424,6 @@ const UnitInformation = [
                 skillbreak: 2500,
                 passive: 
                     {
-                        ability1: "When equipped by Kisaragi, increase ATK by 30%. At the start of a Quest, increase own Arts by 100.",
-                        ability2: "Increase PHY RES by 10%."
-                    }
-            },
-        trueweaponJP: //If no TW, may delete this section
-            {
-                name: "Will-o'-the-Wisp",
-                slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "/db/Equipment/Detail/item_detail_106761.png",
-                skill: "80s CT - 11000% Fire DMG (PHY). For 12s, increase own ATK by 80%. If user is Fire, increase ATK by 150% instead.",
-                skillbreak: 2500,
-                passive: 
-                    {
                         ability1: "When equipped by Kisaragi, increase ATK by 50%. At the start of a Quest, increase own Arts by 100.",
                         ability2: "Increase PHY RES by 10%."
                     }
@@ -15499,7 +15434,7 @@ const UnitInformation = [
                 evoawk: "A top-ranked shinobi with extremely powerful ninja technique from Imari Village, located in the east. She fell into despair after losing her apprentice due to her own bad judgement. She grieved, wondering why her apprentice with a bright future died instead of herself, a shinobi stuck in the ways of old. Of course, no matter how much she suffered with this question in her mind, the answer never came. The only thing she knew was that she had to live his share of life in addition to her own. Despite sometimes wavering on the path she had chosen, she continued to tell herself that she must never stop walking."
             }
     },
-    { //Saku - Complete (+ JP version)
+    { //Saku - Complete
         id: 102886312,
         name: "Saku",
         rank: "F",
@@ -15561,19 +15496,6 @@ const UnitInformation = [
                 }
             },
         trueweapon: //If no TW, may delete this section
-            {
-                name: "TSUJI-KAZE",
-                slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "/db/Equipment/Detail/item_detail_106771.png",
-                skill: "65s CT - 9000% Earth DMG (PHY). For 10s, increase Allies' Earth DMG by 40%.",
-                skillbreak: 2200,
-                passive: 
-                    {
-                        ability1: "When equipped by Saku, increase DMG by 30% and increase max HP by 20%.",
-                        ability2: "Increase Skill CT REC by 10%."
-                    }
-            },
-        trueweaponJP: //If no TW, may delete this section
             {
                 name: "TSUJI-KAZE",
                 slot: "/db/Mines/thumbnail/physLB.png",
@@ -21364,9 +21286,9 @@ const UnitInformation = [
                 author: `MOB of Metal`
             }
     },
-    { // War Ginzo - Missing Lore (+ JP version)
+    { // Ginzo: Battle Form - Missing Lore
         id: 103506511,
-        name: "War Ginzo",
+        name: "Ginzo: Battle Form",
         attribute: "Dark",
         type: "Human",
         image: 
@@ -21427,26 +21349,26 @@ const UnitInformation = [
                     mat2amt: 1,
                     mat3: "/db/Icons/dungeon_drops/material_thumbnail_130150.png",
                     mat3amt: 20,
-                    hover3: "War Ginzo"
+                    hover3: "Ginzo: Battle Form"
                 }
             },
         trueweapon: //If no TW, may delete this section
             {
-                name: "Throat of the Underworld",
+                name: "Hell's Throat",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "/db/Equipment/Detail/item_detail_110161.png",
                 skill: "50s CT - 6500% Dark DMG (PHY). If user is Dark, for 8s, increase own Critical Rate by 100%. If user is Human, for 8s, increase own Critical DMG by 50%.",
                 skillbreak: 700,
                 passive: 
                     {
-                        ability1: "When equipped by War Ginzo, increase own stats by 30% and Arts gauge by 1/s. Does not stack with Abilities of the same name.",
+                        ability1: "When equipped by Ginzo: Battle Form, increase own stats by 30% and Arts gauge by 1/s. Does not stack with Abilities of the same name.",
                         ability2: "Increase ATK by 5%."
                     }
             },
         lore: 
             {   
-                evo5: "Currently unreleased in Global.",
-                evoawk: "Currently unreleased in Global."
+                evo5: "Missing Lore.",
+                evoawk: "Missing Lore."
             }
     },
     { //Riviera (Dark) - Missing Lore, Review done

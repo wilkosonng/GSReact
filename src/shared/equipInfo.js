@@ -17654,7 +17654,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `30s CT - Increases Own Arts Gauge by 3 and DMG by 20% for 15s.`,
+                skill: `30s CT - Increases own Arts Gauge by 3 and DMG by 30% for 20s.`,
                 break: 0
             },
         passive: 
@@ -17683,7 +17683,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `70s CT - 8000% Dark DMG (Physical). Increases own Physical DMG by 15% for 5s.`,
+                skill: `70s CT - 12000% Dark DMG (Physical). Increases own Physical DMG by 35% for 5s.`,
                 break: 1800
             },
         passive: 
@@ -17713,12 +17713,12 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `25s CT - Increases Own Arts Gauge by 3 and DMG by 30% for 20s.`,
+                skill: `25s CT - Increases Own Arts Gauge by 3 and DMG by 40% for 20s.`,
                 break: 0
             },
         passive: 
             {
-                ability1: `When Equipped by Mizuki, increases Accuracy Rate by 30%, and every time Third Eye is activated, extends Third Eye duration by 30s (only once).`,
+                ability1: `When Equipped by Mizuki, increases Accuracy Rate by 30%, and every time Third Eye is activated, extends Third Eye duration by 60s (only once).`,
                 ability2: `Increases HP Regeneration by 10.`
             },
         lore: `The hidden scroll held by Mizuki, the leader of Imari Village. This scroll containing various techniques and battle strategies is said to hide the secret greatness as a shinobi. It's said that only those who have lived honestly and trained both body and mind over a long period of time will be able to understand the true meaning of the scroll. However, the path is long and treacherous. One who is able to arrive at the location described in the scroll will be able to obtain power that is even comparable to that of the Great Yoma Lord.`
@@ -17744,12 +17744,12 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `60s CT - 10000% Dark DMG (Physical). Increases own Physical DMG by 30% for 8s. If enemy is Light, enemy's Dark resistance 20% DOWN.`,
+                skill: `60s CT - 13000% Dark DMG (Physical). Increases own Physical DMG by 50% for 8s. If enemy is Light, enemy's Dark resistance 20% DOWN.`,
                 break: 2000
             },
         passive: 
             {
-                ability1: `When equipped by Ginzo, all stats 30% UP & Auto-fills Arts gauge by 1 (Only once).`,
+                ability1: `When equipped by Ginzo, all stats 30% UP & Auto-fills Arts gauge by 2 (Only once).`,
                 ability2: `Skill CT 20% DOWN when Near-Death.`
             },
         lore: `The spear used by Ginzo, a legendary shinobi who protected Imari Village. Its tranquil atmosphere resembles the moon, and shines even within the all-enveloping darkness. It is said that this spear stabbed the great Yoma Lord himself, and only truly awakens when it resonates with the feelings of the one who holds it. When the spear's master puts his or her life on the line to protect someone, it transforms into a holy silver spear, and unleashes an attack that resembles a moonbeam cutting through the night to a brighter future ahead.`
@@ -17803,7 +17803,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `75s CT - 6000% Earth DMG (Physical). Increases all allies' Earth DMG by 20% for 8s.`,
+                skill: `75s CT - 6000% Earth DMG (Physical). Increases all allies' Earth DMG by 30% for 10s.`,
                 break: 1900
             },
         passive: 
@@ -17838,7 +17838,7 @@ const EquipInformation = [
             },
         passive: 
             {
-                ability1: `When equipped by Kisaragi, ATK 30% UP & Arts gauge 100 UP when quest starts (Only once).`,
+                ability1: `When equipped by Kisaragi, ATK 50% UP & Arts gauge 100 UP when quest starts (Only once).`,
                 ability2: `Physical DMG from enemy 10% DOWN.`
             },
         lore: `The sword of Kisaragi, a teacher of ninja techniques living in Imari Village. This burning blade has experienced much hardship alongside her, and by using memories of those events, has awoken the true strength sleeping within. The flames that flow out of the wounds of enemies cut with this blade eventually envelop them, and burn eternally, much like the passion in Kisaragi's heart. She never spoke of the memories burned into the blade till the day she died. However, the sword understood her feelings as she gazed upon it alone, as if recalling a precious memory.`
@@ -17864,7 +17864,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `65s CT - 9000% Earth DMG (Physical). Increases all allies' Earth DMG by 40% for 10s.`,
+                skill: `60s CT - 9000% Earth DMG (Physical). Increases all allies' Earth DMG by 40% for 10s.`,
                 break: 2200
             },
         passive: 
@@ -18493,7 +18493,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `80s CT - 9800% Dark DMG (Physical). Auto-fills own Arts gauge by 2 & reduces DEF by 50% for 10s.`,
+                skill: `70s CT - 9800% Dark DMG (Physical). Auto-fills own Arts gauge by 3 & reduces DEF by 30% for 10s.`,
                 break: 2000
             },
         passive: 
@@ -18523,7 +18523,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `70s CT - 12500% Dark DMG (Physical). Auto-fills own Arts gauge by 4 & reduces DEF by 50% for 10s.`,
+                skill: `60s CT - 12500% Dark DMG (Physical). Auto-fills own Arts gauge by 4 & reduces DEF by 30% for 10s.`,
                 break: 2300
             },
         passive: 
@@ -18553,7 +18553,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `30s CT - 3000% Light DMG (Physical). Increases own CRI rate by 20% for 5s.`,
+                skill: `30s CT - 3000% Light DMG (Physical). Increases own CRI rate by [# of times this equip has been used in quest x 25%] (up to 100%) for 5s.`,
                 break: 400
             },
         passive: 
@@ -18583,7 +18583,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `20s CT - 3800% Light DMG (Physical). Increases own CRI rate by 20% for 5s.`,
+                skill: `20s CT - 3800% Light DMG (Physical). Increases own CRI rate by [# of times this equip has been used in quest x 25%] (up to 100%) for 5s.`,
                 break: 500
             },
         passive: 
@@ -18613,7 +18613,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `65s CT - 6500% Light DMG (Magic). Increases all allies' BE Output by 30% for 8s. If Light Unit, own DMG 20% UP for 8s.`,
+                skill: `65s CT - 6500% Light DMG (Magic). Increases all allies' BE Output by 30% for 10s. If Light Unit, own DMG 20% UP for 10s.`,
                 break: 1000
             },
         passive: 
@@ -18673,7 +18673,7 @@ const EquipInformation = [
             },
         skillset:  
             {
-                skill: `80s CT - 8800% Fire DMG (Magic). Reduces Enemies' Fire and Dark Resistance by 20% for 6s.`,
+                skill: `70s CT - 8800% Fire DMG (Magic). Reduces Enemies' Fire and Dark Resistance by 20% for 8s.`,
                 break: 1500
             },
         passive: 
