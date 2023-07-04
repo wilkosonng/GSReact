@@ -21286,7 +21286,7 @@ const UnitInformation = [
                 author: `MOB of Metal`
             }
     },
-    { // Ginzo: Battle Form - Missing Lore
+    { // Ginzo: Battle Form - Missing Awk Lore
         id: 103506511,
         name: "Ginzo: Battle Form",
         attribute: "Dark",
@@ -21367,7 +21367,7 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evo5: "Missing Lore.",
+                evo5: "In Imari Village to the far east, he silently dedicated his life for the sake of the shinobi. Once seeking to become the perfect retainer, his role shifted into evaluator -- no heir would be accepted as leader until they bested him. Since hte distant past, he acts with great regard for Imari's future.",
                 evoawk: "Missing Lore."
             }
     },
