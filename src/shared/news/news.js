@@ -7,6 +7,19 @@ const NewsArticles = [
         date: "July 1, 2023",
         preview: "/chara_face_1200_1.png",
         article:`
+            <h3>Changelog - July 12, 2023</h3>
+            <p><b>Here are today's additions:</b></p>
+            <br/><br/>
+            <p>Following Unit has been added:</p>
+            <a href="https://www.grandsummoners.info/units/Summer%20Iris"><img src="/db/Units/Thumbnail/unit_thumbnail_103727112.png" /></a>
+            <br/><br/>
+            <p><b>Following Equip has been added:</b></p>
+            <a href="https://www.grandsummoners.info/equips/イリスのドリームロケット"><img src="/db/Equipment/Thumbnail/item_thumbnail_111601.png" /></a>
+            <br/>
+            <p>That's all for today. Until next time!</p>
+            <p>Thanks, <br/> GSOD Staff</p>
+            <br/>
+            <br/>
             <h3>Changelog - July 4, 2023</h3>
             <p><b>Here are today's additions:</b></p>
             <br/><br/>
