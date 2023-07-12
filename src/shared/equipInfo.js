@@ -32032,7 +32032,38 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //フェンのビッグウェーブ - JP Complete
+    { //イリスのドリームロケット
+        id: 111601,
+        name: `イリスのドリームロケット`,
+        translate: `Iris' Dream Rocket`,
+        location: `Summer Treasure (7th Summer Event)`,
+        type: `/db/Mines/thumbnail/magLB.png`,
+        star: 3,
+        image: 
+            {
+                detail: `/db/Equipment/Detail/item_detail_111600.png`,
+                detailmax: `/db/Equipment/Detail/item_detail_111601.png`,
+                thumb: `/db/Equipment/Thumbnail/item_thumbnail_111600.png`,
+                thumbmax: `/db/Equipment/Thumbnail/item_thumbnail_111601.png`
+            },
+        stats:
+            {
+                hp: 0,
+                atk: 500,
+                def: 0
+            },
+        skillset:  
+            {
+                skill: `40s CT - 5000% Fire DMG (MAG). For 10s, increase own Fire DMG by 40%. When used for the first time, increase own Arts gauge by 50.`,
+                break: `500`
+            },
+        passive: 
+            {
+                ability1: `MAG RES 5% UP.`
+            },
+        lore: `Currently unreleased in Global.`
+    },
+    { //フェンのビッグウェーブ - JP Complete
         id: 111611,
         name: `フェンのビッグウェーブ`,
         translate: `Fen's Big Wave`,
@@ -32062,7 +32093,7 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //天間器『ゼクスラスタ』レプリカ - JP Complete
+    { //天間器『ゼクスラスタ』レプリカ - JP Complete
         id: 111621,
         name: `天間器『ゼクスラスタ』レプリカ`,
         translate: `Celestial Device 'Zex Lustre' Replica`,
