@@ -23184,6 +23184,71 @@ const UnitInformation = [
                 evosuper: "Currently unreleased in Global."
             }
     },
+    { //Summer Iris - Missing Lore (JP)
+        id: 103727112,
+        name: `Summer Iris`,
+        attribute: `Fire`,
+        type: `God`,
+        image: 
+            {
+                detailawk: "/db/Units/Detail/unit_detail_103726112.png",
+                detailsuper: "/db/Units/Detail/unit_detail_103727112.png",
+                thumbawk: "/db/Units/Thumbnail/unit_thumbnail_103726112.png",
+                thumbsuper: "/db/Units/Thumbnail/unit_thumbnail_103727112.png"
+            },
+        slots: 
+            {
+                slot1: 6,
+                slot1type: "/db/Mines/thumbnail/healLB.png",
+                slot2: 5,
+                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot3: 4,
+                slot31type: "/db/Mines/thumbnail/magLB.png",
+                slot32type: "/db/Mines/thumbnail/defLB.png"
+            },
+        stats: 
+            {
+                hp: 7312,
+                hpplus: 1350,
+                atk: 3234,
+                atkplus: 625,
+                def: 3306,
+                defplus: 625
+            },
+        skillset: 
+            {
+                skill: `12s CT - Increase own Arts gauge by 50% of the difference between her current Arts gauge and Maximum Arts gauge. (MAX: 150)`,
+                skillbreak: 0,
+                arts: `17000% Fire DMG (MAG). For 20s, increase all allies' Skill CT Speed by 70% and all Fire allies' Skill CT Speed by an additional 50%.`,
+                artsbreak: 1000,
+                truearts: `60000% Fire DMG (MAG). For 25s, reduce enemies' MAG RES by 80%.`,
+                trueartsbreak: 1700,
+                superarts: `150000% Fire DMG (MAG). For 7s, increase all Fire allies' Arts gauge by 10. For 15s, increase all allies' Arts DMG based on how high this unit's current remaining HP is (MAX: 250%). `,
+                superartsbreak: 2500
+            },
+        passive: 
+            {
+                ability1: `Increase all allies' DMG RES by 15% and all Fire allies' DMG RES by an additional 15% (No Duplication).`,
+                ability2: `Increase DMG during Break by 20%.`,
+                ability3: `Increase DMG against Giant Bosses by 30%.`
+            }, 
+        evolution: 
+            {
+                evoawksuper:
+                {
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png",
+                    mat1amt: 30,
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
+                    mat2amt: 220,
+                    hover2: "Flame Fox Soulgem"
+                }
+            },
+        lore: 
+            {   
+                evoawk: "Currently unreleased in Global.",
+                evosuper: "Currently unreleased in Global."
+            }
+    },
     { //Summer Fen - Missing Lore (JP)
         id: 103736212,
         name: `Summer Fen`,
