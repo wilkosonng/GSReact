@@ -29034,6 +29034,7 @@ const EquipInformation = [
         name: `Beast Steel 'Trance Frenzy' Replica`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 6,
+        location: `Earth Summoner's Road`,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_110580.png`,
@@ -29063,6 +29064,7 @@ const EquipInformation = [
         name: `Beast Steel 'Trance Frenzy' Custom`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 6,
+        location: `Earth Summoner's Road`,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_110590.png`,
@@ -29270,11 +29272,12 @@ const EquipInformation = [
             },
         lore: `Currently unreleased in Global.`
     },
-{ //妖鎌『血塗れ三日月』アレンジ (SR Equip) - JP Complete
+{ //Yokai Sickle "Bloody Mikazuki" Replica (SR Equip) - Missing Lore
         id: 110661,
-        name: `妖鎌『血塗れ三日月』アレンジ`,
+        name: `Yokai Sickle "Bloody Mikazuki" Replica`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 6,
+        location: `Fire Summoner's Road`,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_110660.png`,
@@ -29297,11 +29300,11 @@ const EquipInformation = [
             {
                 ability1: `DEF 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-{ //妖鎌『血塗れ三日月』レプリカ (SR Equip) - JP Complete
+{ //Yokai Sickle "Bloody Mikazuki" Custom - Missing Lore
         id: 110671,
-        name: `妖鎌『血塗れ三日月』レプリカ`,
+        name: `Yokai Sickle "Bloody Mikazuki" Custom`,
         type: `/db/Mines/thumbnail/physLB.png`,
         star: 6,
         image: 
@@ -29326,7 +29329,7 @@ const EquipInformation = [
             {
                 ability1: `Increase all allies' Skill CT speed by 10%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
 { //忍僧具『豊穣』 (Hakurou Farmable) - JP Complete
         id: 110681,
@@ -29776,6 +29779,7 @@ const EquipInformation = [
         name: `Ever Flash 'Fon Cruz' Replica`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 6,
+        location: `Light Summoner's Road`,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_110830.png`,
@@ -29805,6 +29809,7 @@ const EquipInformation = [
         name: `Ever Flash 'Fon Cruz' Custom`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 6,
+        location: `Light Summoner's Road`,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_110840.png`,
@@ -30215,6 +30220,7 @@ const EquipInformation = [
         name: `Sinful Guards "Fathomless" Replica`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 6,
+        location: `Dark Summoner's Road`,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_110980.png`,
@@ -30244,6 +30250,7 @@ const EquipInformation = [
         name: `Sinful Guards "Fathomless" Custom`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 6,
+        location: `Dark Summoner's Road`,
         image: 
             {
                 detail: `/db/Equipment/Detail/item_detail_110990.png`,
@@ -39454,11 +39461,11 @@ const EquipInformation = [
             },
         lore: `Rimuru made this based on past New Year memories after seeing Reigrad's celebration. It was originally just an accessory to complete the look with his Haori, but Rimuru truly appreciates its high defensive power and warmth.`
     },
-    { //真『マジカルルビー』 - JP Complete
+    { //True 'Magical Ruby' - Missing Lore
         id: 1523111,
-        name: `真『マジカルルビー』`,
-        translate: `True 'Magical Ruby'`,
+        name: `True 'Magical Ruby'`,
         type: `/db/Mines/thumbnail/magLB.png`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         star: 5,
         image: 
             {
@@ -39483,13 +39490,13 @@ const EquipInformation = [
                 ability1: `When equipped by Illya, increase own DMG and stats by 20% (No Duplication).`,
                 ability2: `Increase ATK by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //真『宝石剣ゼルレッチ』 - JP Complete
+    { //True 'Jeweled Sword Zelretch - Missing Lore
         id: 1523211,
-        name: `真『宝石剣ゼルレッチ』`,
-        translate: `True 'Jeweled Sword of Zelretch'`,
+        name: `True 'Jeweled Sword Zelretch'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
+        location: `Alchemist - Exchange via Rainbow Gems`,
         star: 5,
         image: 
             {
@@ -39514,12 +39521,11 @@ const EquipInformation = [
                 ability1: `When equipped by Rin & Luvia, increase own Arts by 2/s and ATK by 30% (No Duplication).`,
                 ability2: `Increase Magic resistance by 5%.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore`
     },
-    { //マジカルルビー - JP Complete
+    { //Magical Ruby - Missing Lore
         id: 1523311,
-        name: `マジカルルビー`,
-        translate: `Magical Ruby`,
+        name: `Magical Ruby`,
         type: `/db/Mines/thumbnail/magLB.png`,
         star: 5,
         image: 
@@ -39544,13 +39550,13 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore`
     },
-    { //約束された勝利の剣 - JP Complete
+    { //Excalibur - Missing Lore
         id: 1523411,
-        name: `約束された勝利の剣`,
-        translate: `Sword of Promised Victory`,
+        name: `Excalibur`,
         type: `/db/Mines/thumbnail/physLB.png`,
+        location: `Crossover Equip Summon: Fate/PRISMA☆ILLYA Collab`,
         star: 5,
         image: 
             {
@@ -39574,13 +39580,13 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore.`
     },
-    { //イリヤの服(セイバーver.) - JP Complete
+    { //Illya's Saber Dress - Missing Lore
         id: 152351,
-        name: `イリヤの服(セイバーver.)`,
-        translate: `Illya's Clothes (Saber ver.)`,
+        name: `Illya's Saber Dress`,
         type: `/db/Mines/thumbnail/suppLB.png`,
+        location: `Crossover Equip Summon: Fate/PRISMA☆ILLYA Collab`,
         star: 4,
         image: 
             {
@@ -39604,13 +39610,13 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore`
     },
-    { //宝石剣ゼルレッチ - JP Complete
+    { //Jeweled Sword Zelretch - Missing Lore
         id: 152361,
-        name: `宝石剣ゼルレッチ`,
-        translate: `Jeweled Sword of Zelretch`,
+        name: `Jeweled Sword Zelretch`,
         type: `/db/Mines/thumbnail/suppLB.png`,
+        location: `Crossover Equip Summon: Fate/PRISMA☆ILLYA Collab`,
         star: 5,
         image: 
             {
@@ -39634,13 +39640,13 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore`
     },
-    { //遠坂凛の服 - JP Complete
+    { //Rin Tohsaka's Clothes - Missing Lore
         id: 152371,
-        name: `遠坂凛の服`,
-        translate: `Rin Tohsaka's Clothes`,
+        name: `Rin Tohsaka's Clothes`,
         type: `/db/Mines/thumbnail/magLB.png`,
+        location: `Crossover Equip Summon: Fate/PRISMA☆ILLYA Collab`,
         star: 5,
         image: 
             {
@@ -39664,13 +39670,13 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore`
     },
-    { //イリヤの服 - JP Complete
+    { //Illya's Clothes
         id: 152381,
-        name: `イリヤの服`,
-        translate: `Illya's Clothes`,
+        name: `Illya's Clothes`,
         type: `/db/Mines/thumbnail/defLB.png`,
+        location: `Crossover Equip Summon: Fate/PRISMA☆ILLYA Collab`,
         star: 4,
         image: 
             {
@@ -39694,13 +39700,14 @@ const EquipInformation = [
             {
                 ability1: `BE Output 5% UP.`
             },
-        lore: `Currently unreleased in Global.`
+        lore: `Missing Lore`
     },
     { //真『マジカルサファイア』 (Miyu TW) - JP Complete
         id: 152431,
         name: `真『マジカルサファイア』`,
         translate: `True 'Magical Sapphire'`,
         type: `/db/Mines/thumbnail/magLB.png`,
+        location: `Crossover Equip Summon: Fate/PRISMA☆ILLYA Collab`,
         star: 5,
         image: 
             {
@@ -39732,6 +39739,7 @@ const EquipInformation = [
         name: `真『熾天覆う七つの円環』`,
         translate: `True 'Rho Aias'`,
         type: `/db/Mines/thumbnail/defLB.png`,
+        location: `Crossover Equip Summon: Fate/PRISMA☆ILLYA Collab`,
         star: 5,
         image: 
             {
@@ -39763,6 +39771,7 @@ const EquipInformation = [
         name: `マジカルサファイア`,
         translate: `Magical Sapphire`,
         type: `/db/Mines/thumbnail/LB.png`,
+        location: `Crossover Equip Summon: Fate/PRISMA☆ILLYA Collab`,
         star: 5,
         image: 
             {
@@ -39793,6 +39802,7 @@ const EquipInformation = [
         name: `刺し穿つ死棘の槍`,
         translate: `Spear of Impaling Barbed Death`,
         type: `/db/Mines/thumbnail/magLB.png`,
+        location: `Crossover Equip Summon: Fate/PRISMA☆ILLYA Collab`,
         star: 5,
         image: 
             {
@@ -39823,6 +39833,7 @@ const EquipInformation = [
         name: `美遊の服(ライダーver.)`,
         translate: `Miyu's Clothes (Rider ver.)`,
         type: `/db/Mines/thumbnail/defLB.png`,
+        location: `Crossover Equip Summon: Fate/PRISMA☆ILLYA Collab`,
         star: 4,
         image: 
             {
@@ -39853,6 +39864,7 @@ const EquipInformation = [
         name: `熾天覆う七つの円環`,
         translate: `Rho Aias`,
         type: `/db/Mines/thumbnail/defLB.png`,
+        location: `Crossover Equip Summon: Fate/PRISMA☆ILLYA Collab`,
         star: 5,
         image: 
             {
@@ -39883,6 +39895,7 @@ const EquipInformation = [
         name: `衛宮士郎の服`,
         translate: `Emiya's Clothes`,
         type: `/db/Mines/thumbnail/suppLB.png`,
+        location: `Crossover Equip Summon: Fate/PRISMA☆ILLYA Collab`,
         star: 5,
         image: 
             {
@@ -39913,6 +39926,7 @@ const EquipInformation = [
         name: `美遊の服`,
         translate: `Miyu's Clothes`,
         type: `/db/Mines/thumbnail/magLB.png`,
+        location: `Crossover Equip Summon: Fate/PRISMA☆ILLYA Collab`,
         star: 5,
         image: 
             {
@@ -39943,6 +39957,7 @@ const EquipInformation = [
         name: `真『干将・莫耶』`,
         translate: `True 'Kanshou & Bakuya'`,
         type: `/db/Mines/thumbnail/physLB.png`,
+        location: `Crossover Equip Summon: Fate/PRISMA☆ILLYA Collab`,
         star: 5,
         image: 
             {
@@ -39974,6 +39989,7 @@ const EquipInformation = [
         name: `真『エクスカリバー・モルガン』`,
         translate: `True 'Excalibur Morgan'`,
         type: `/db/Mines/thumbnail/physLB.png`,
+        location: `Crossover Equip Summon: Fate/PRISMA☆ILLYA Collab`,
         star: 5,
         image: 
             {
@@ -40005,6 +40021,7 @@ const EquipInformation = [
         name: `干将・莫耶`,
         translate: `Kanshou & Bakuya`,
         type: `/db/Mines/thumbnail/physLB.png`,
+        location: `Crossover Equip Summon: Fate/PRISMA☆ILLYA Collab`,
         star: 5,
         image: 
             {
@@ -40035,6 +40052,7 @@ const EquipInformation = [
         name: `偽・射殺す百頭`,
         translate: `Fake Nine Heads`,
         type: `/db/Mines/thumbnail/suppLB.png`,
+        location: `Crossover Equip Summon: Fate/PRISMA☆ILLYA Collab`,
         star: 5,
         image: 
             {
@@ -40065,6 +40083,7 @@ const EquipInformation = [
         name: `クロエの服`,
         translate: `Chloe's Clothes`,
         type: `/db/Mines/thumbnail/suppLB.png`,
+        location: `Crossover Equip Summon: Fate/PRISMA☆ILLYA Collab`,
         star: 4,
         image: 
             {
@@ -40095,6 +40114,7 @@ const EquipInformation = [
         name: `エクスカリバー・モルガン`,
         translate: `Excalibur Morgan`,
         type: `/db/Mines/thumbnail/physLB.png`,
+        location: `Crossover Equip Summon: Fate/PRISMA☆ILLYA Collab`,
         star: 5,
         image: 
             {
@@ -40125,6 +40145,7 @@ const EquipInformation = [
         name: `黒化英霊セイバーの鎧`,
         translate: `Saber Alter's Armor`,
         type: `/db/Mines/thumbnail/defLB.png`,
+        location: `Crossover Equip Summon: Fate/PRISMA☆ILLYA Collab`,
         star: 5,
         image: 
             {
@@ -40155,6 +40176,7 @@ const EquipInformation = [
         name: `偽・偽・螺旋剣`,
         translate: `Fake-Fake Spiral Sword (Caladbolg III)`,
         type: `/db/Mines/thumbnail/suppLB.png`,
+        location: `Crossover Equip Summon: Fate/PRISMA☆ILLYA Collab`,
         star: 4,
         image: 
             {
