@@ -266,7 +266,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
                         mat2amt: 50,
-                        hover2: `Flame Fox Soulgem`,
+                        hover2: `Flametail Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragDegilmagna.png`,
                         mat3amt: 2,
                         hover3: `Degilmagna`
@@ -424,7 +424,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
                         mat2amt: 50,
-                        hover2: `Ice Soulgem`,
+                        hover2: `Frostsprite Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragFreydal.png`,
                         mat3amt: 2,
                         hover3: `Freydal`
@@ -583,7 +583,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
                         mat2amt: 50,
-                        hover2: `Flame Fox Soulgem`,
+                        hover2: `Flametail Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragIfrit.png`,
                         mat3amt: 2,
                         hover3: `Ifrit`
@@ -1083,7 +1083,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
                         mat2amt: 50,
-                        hover2: `Flame Fox Soulgem`,
+                        hover2: `Flametail Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragDegilmagna.png`,
                         mat3amt: 2,
                         hover3: `Degilmagna`
@@ -1248,7 +1248,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
                         mat2amt: 50,
-                        hover2: `Flame Fox Soulgem`,
+                        hover2: `Flametail Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragFlogassa.png`,
                         mat3amt: 2,
                         hover3: `Flogassa`
@@ -1263,7 +1263,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
                         mat2amt: 50,
-                        hover2: `Ice Soulgem`,
+                        hover2: `Frostsprite Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragGeoZagnus.png`,
                         mat3amt: 2,
                         hover3: `Geo Zagnus`
@@ -1374,7 +1374,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
                         mat2amt: 50,
-                        hover2: `Ice Soulgem`,
+                        hover2: `Frostsprite Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragFreydal.png`,
                         mat3amt: 2,
                         hover3: `Freydal`
@@ -2398,7 +2398,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
                         mat2amt: 50,
-                        hover2: `Flame Fox Soulgem`,
+                        hover2: `Flametail Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragIfrit.png`,
                         mat3amt: 2,
                         hover3: `Ifrit`
@@ -2413,7 +2413,7 @@ const UnitInformation = [
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
-                        hover2: `Ice Soulgem`,
+                        hover2: `Frostsprite Soulgem`,
                         mat2amt: 50,
                         mat3: `/db/Icons/dungeon_drops/fragAerugraxes.png`,
                         mat3amt: 2,
@@ -2553,7 +2553,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
                         mat2amt: 50,
-                        hover2: `Flame Fox Soulgem`,
+                        hover2: `Flametail Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragFlogassa.png`,
                         mat3amt: 2,
                         hover3: `Flogassa`
@@ -2568,7 +2568,7 @@ const UnitInformation = [
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
-                        hover2: `Ice Soulgem`,
+                        hover2: `Frostsprite Soulgem`,
                         mat2amt: 50,
                         mat3: `/db/Icons/dungeon_drops/fragPalamicia.png`,
                         mat3amt: 2,
@@ -2797,7 +2797,7 @@ const UnitInformation = [
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
-                        hover2: `Ice Soulgem`,
+                        hover2: `Frostsprite Soulgem`,
                         mat2amt: 50,
                         mat3: `/db/Icons/dungeon_drops/fragFreydal.png`,
                         mat3amt: 2,
@@ -4036,7 +4036,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
                         mat2amt: 50,
-                        hover2: `Flame Fox Soulgem`,
+                        hover2: `Flametail Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragIfrit.png`,
                         mat3amt: 2,
                         hover3: `Ifrit`
@@ -4246,7 +4246,7 @@ const UnitInformation = [
                         mat1: `/db/Icons/dungeon_drops/material_thumbnail_heroSoul.png`,
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
-                        hover2: `Ice Soulgem`,
+                        hover2: `Frostsprite Soulgem`,
                         mat2amt: 50,
                         mat3: `/db/Icons/dungeon_drops/fragFreydal.png`,
                         mat3amt: 2,
@@ -4457,7 +4457,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
                         mat2amt: 50,
-                        hover2: `Ice Soulgem`,
+                        hover2: `Frostsprite Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragGeoZagnus.png`,
                         mat3amt: 2,
                         hover3: `Geo Zagnus`
@@ -17229,7 +17229,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_130853.png`,
                         mat2amt: 50,
-                        hover2: `Flame Fox Soulgem`,
+                        hover2: `Flametail Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragFlogassa.png`,
                         mat3amt: 2,
                         hover3: `Flogassa`
@@ -17381,7 +17381,7 @@ const UnitInformation = [
                         mat1amt: 10,
                         mat2: `/db/Icons/dungeon_drops/material_thumbnail_132152.png`,
                         mat2amt: 50,
-                        hover2: `Ice Soulgem`,
+                        hover2: `Frostsprite Soulgem`,
                         mat3: `/db/Icons/dungeon_drops/fragGeoZagnus.png`,
                         mat3amt: 2,
                         hover3: `Geo Zagnus`
@@ -21291,6 +21291,8 @@ const UnitInformation = [
         name: "Ginzo: Battle Form",
         attribute: "Dark",
         type: "Human",
+        rank: "A-",
+        twrequire: "favorable",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_103505511.png",
@@ -21368,7 +21370,7 @@ const UnitInformation = [
         lore: 
             {   
                 evo5: "In Imari Village to the far east, he silently dedicated his life for the sake of the shinobi. Once seeking to become the perfect retainer, his role shifted into evaluator -- no heir would be accepted as leader until they bested him. Since hte distant past, he acts with great regard for Imari's future.",
-                evoawk: "Missing Lore."
+                evoawk: "His name is legendary among the shinobi's long history. Instead of free will, loyalty and duty led him to attain their ideal form. None know his true origins, but the tales describe how the struggle between the shinobi around the time of Ugetsu's defeat caused a marked change in him. What he witnessed then may have granted his existence new meaning."
             }
     },
     { //Riviera (Dark) - Missing Lore, Review done
@@ -22174,7 +22176,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_130853.png",
                     mat2amt: 220,
-                    hover2: "Flame Fox Soulgem"
+                    hover2: "Flametail Soulgem"
                 }
             },
         trueweapon: //If no TW, may delete this section
@@ -22328,7 +22330,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_130853.png",
                     mat2amt: 220,
-                    hover2: "Flame Fox Soulgem"
+                    hover2: "Flametail Soulgem"
                 }
             },
         trueweapon: //If no TW, may delete this section
@@ -22406,7 +22408,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_130853.png",
                     mat2amt: 220,
-                    hover2: "Flame Fox Soulgem"
+                    hover2: "Flametail Soulgem"
                 }
             },
         trueweapon: 
@@ -22640,7 +22642,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_130853.png",
                     mat2amt: 220,
-                    hover2: "Flame Fox Soulgem"
+                    hover2: "Flametail Soulgem"
                 }
             },
         trueweapon: //If no TW, may delete this section
@@ -22718,7 +22720,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_132152.png",
                     mat2amt: 220,
-                    hover2: "Ice Soulgem"
+                    hover2: "Frostsprite Soulgem"
                 }
             },
         trueweapon: //If no TW, may delete this section
@@ -22861,7 +22863,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_130853.png",
                     mat2amt: 220,
-                    hover2: "Flame Fox Soulgem"
+                    hover2: "Flametail Soulgem"
                 }
             },
         lore: 
@@ -23240,7 +23242,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_131354.png",
                     mat2amt: 220,
-                    hover2: "Flame Fox Soulgem"
+                    hover2: "Flametail Soulgem"
                 }
             },
         lore: 
@@ -25453,7 +25455,7 @@ const UnitInformation = [
     { //Melty - Complete, Review done
         id: 107286212,
         name: "Melty",
-        rank: "SS",
+        rank: "S",
         luckrank: "SSS",
         attribute: "Water",
         type: "Human",
@@ -29092,11 +29094,12 @@ const UnitInformation = [
                 author: `Pula`
             }
     },
-    { // Illya - Missing Lore (JP)
+    { // Illya - Complete, Review Done
         id: 107737412,
         name: "Illya",
         attribute: "Light",
         type: "Human",
+        rank: "SS",
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107736412.png",
@@ -29169,8 +29172,28 @@ const UnitInformation = [
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Illyasviel von Einzbern, an average elementary school girl. That was until Magical Ruby, a Kaleidostick, tricked her into making a contract to become a magical girl. In place of her proper owner Rin Tohsaka, she sets out to recover the Class Cards.",
+                evosuper: "A magical girl's greatest power is imagination. Drawing upon the limitless magical energy of the Kaleidostick, Illya can recreate anything her prolific mind envisions."
+            },
+        review:
+            {
+                skill: `A decent amount of Arts Generated each time you use skill, much appreciated on a support unit.`,
+                arts: `A good Light resistance down debuff with a relatively good uptime, which provides to do more damage, if you are using either True Arts or Super Art afterwards.`,
+                truearts: `She is able to generate 5 arts/s to the Party, if they have at least 50% or more HP, which is quite appreciated for general and shouldn’t be too hard to be kept up. As a bonus she’s able to do a decent amount of damage with a decent multiplier while providing a teamwide critical rate up by 100% with a long uptime. Illyasviel can do fairly well damage on her own.`,
+                superarts: `A quite strong Super Arts for pure damage output. Increasing her own damage output based by HP up to 300% with a good uptime of 20s, which can be paired by using Illyasviel True Arts to provide critical rate up, and Normal Art to apply Light Resistance down before. She can dish out some massive damage by her own even without using either of the two Arts before. Illyasviel still does an unreasonable amount of damage.`,
+                ability1: `An interesting passive that refunds 50 Arts Gauge each time you use any of her Arts, assuming you're keeping her healthy. This allows Illyasviel to cycle between her arts quite reliably & you should already be bringing a healer to your party anyways.`,
+                ability2: `A rather small damage increase against Dark Enemies, but since enemies tend to be commonly to be dark. It is appreciated, free damage output, which get increased.`,
+                ability3: `A nice 30% accuracy buff, which isn’t too noticeable. It can help a little bit, if the enemy has evasion up buff.`,
+                ability4: `Just helping by leveling your Ascended units to 120. Afterwards it has no use. It’s appreciated to have.`,
+                ability5: `Even if it’s just 10 Artgen at the start of the quest. It doesn’t hurt to get more free artgen.`,
+                trueweapon: {
+                    skill: `A huge Magic damage buff to increase Illyasviel damage output furthermore, if the health is over 80%, otherwise an appreciated heal of 20% of her MAX HP, which pairs well with her Super Art very well.`,
+                    ability1: `A nice damage buff and stat boost, just by equipping her True Weapon. `,
+                    ability2: `More free damage by increasing her ATK by 5%.`
+                },
+                overall: `Illyasviel von Einzbern is an awesome Ascended unit by offering both Artsgen & Crit Rate to the party while increasing her own DMG Output with a large multiplier on Super Arts. Due to the flexibility of being an Artsgen character she’s incredibly easy to slot into a party as there is no real demerit of doing so for most stages. Her roles consist of Artsgen + DPS, one can infer that she’s extremely good in nuking due to her large burst of damage on Super Arts.`,
+                lastupdated: `July 14, 2023`,
+                author: `Alice`
             }
     },
     { // Rin & Luvia - Missing Lore (JP)
@@ -29178,6 +29201,8 @@ const UnitInformation = [
         name: "Rin & Luvia",
         attribute: "Fire",
         type: "Human",
+        rank: "SS",
+        twrequire: "favorable",
         image: 
             {
                 detailawk: "/db/Units/Detail/unit_detail_107766112.png",
@@ -29225,7 +29250,7 @@ const UnitInformation = [
             }, 
         trueweapon: //If no TW, may delete this section
             {
-                name: "Jeweled Sword of Zelretch",
+                name: "Jeweled Sword Zelretch",
                 slot: "/db/Mines/thumbnail/suppLB.png",
                 detail: "/db/Equipment/Detail/item_detail_152321_pris.png",
                 skill: "45s CT - 6000% Fire DMG (MAG). For 10s, consume 2%/s of own max HP, increase Allies' Arts by 4/s and increase Fire Allies' DMG by 40%.",
@@ -29245,13 +29270,39 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_130853.png",
                     mat2amt: 100,
-                    hover2: "Flame Fox Soulgem"
+                    hover2: "Flametail Soulgem"
                 }
             },
         lore: 
             {   
-                evoawk: "Currently unreleased in Global.",
-                evosuper: "Currently unreleased in Global."
+                evoawk: "Punished by the Clock Tower, top authority of the Mage's Association, for the consequences of their constant quarrels. As a result, they must collect the Class Cards, but most of their attempts at cooperation still end in failure.",
+                evosuper: "Let the Ruby and Sapphire Kaleidosticks in order to recover the Class Cards. However, the sentient magical wands grew annoyed with their arguing and made new contracts with Illya and Miyu."
+            },
+        review:
+            {
+                skill: `A teamwide Artsgen Skill, although limited to Fire Units. Will allow Rin to cycle through her Arts alot faster due to a lack of existing Type G Artsgens.`,
+                arts: `If you’d skip ahead to her unique passive, you’ll notice the importance of this Arts. The viability of this Arts is entirely dependent on the Stage however, since the Fire RES Down isn’t really something you’d worry about once you look at what Arts & Super Arts can offer.
+                `,
+                truearts: `To follow up from Arts briefly; The Burn Res down further enhances her ability to Burn stages.
+                A whopping 70% DMG Res down onto the enemy enables the party to deal a lot more DPS onto the enemy, with a long duration to allow cycling between Rin’s Arts or Super Arts.`,
+                superarts: `Providing a large 150% MAG DMG Buff and after a very obnoxious delay an additional 100% MAG RES down, Super Arts rounds out Rin’s kit by adding a large burst of Damage with additional DMG Support for herself & the team.`,
+                ability1: `An unassuming Ailment = DMG Up passive, but this time it affects all allies.
+                Assuming you get several stacks of this passive, Rin becomes an amazing DMG Buffer for even physical teams. And what most players wouldn’t know is that Burn is extremely easy to inflict onto pre-stages. Not to say that the Burn-Proof stages don’t exist, just uncommon.`,
+                ability2: `A helpful passive for survivability.`,
+                ability3: `Faster Equipment CT Recovery for more consistent Artsgen & Healing from her slots.`,
+                ability4: `A nice bonus if you do happen to pick the Illustration but none have a real impact on gameplay to warrant obtaining them solely for this passive.`,
+                ability5: `A nice bonus if you do happen to pick the Illustration but none have a real impact on gameplay to warrant obtaining them solely for this passive.`,
+                trueweapon: {
+                    skill: `An interesting drawback for a Support equipment, though not one that’s entirely new.
+                    It provides a good amount of arts & sizeable DMG buff. The HP Drain is often negated through Heal/s or her own heal equipment.`,
+                    ability1: `Additional ATK for more damage output & Arts Gauge to allow for ease of use.`,
+                    ability2: `It is what it is.`
+                },
+                overall: `Rin & Luvia is an amazing DMG Support & DPS due to her various DMG Buffs & RES Down debuffs. Providing a combined total of 450% DMG Up (300% to Non-Magic Units) & 170% RES Down (70% for non-MAG), the team's damage output increases significantly. Noting how plenty of stages have at least 1-2 waves that can be inflicted with burn you’ll be able to gain these DMG stacks quite often.
+                TLDR: Apply Burn for DMG Up, once stacked alternate True Arts & Super Arts for plenty of damage output.
+                If no burn, Alternate anyways for damage.`,
+                lastupdated: `July 14, 2023`,
+                author: `Gian`
             }
     },
     { //Miyu - Missing Lore (JP)
@@ -29396,7 +29447,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_132152.png",
                     mat2amt: 100,
-                    hover2: "Ice Soulgem"
+                    hover2: "Frostsprite Soulgem"
                 }
             },
         trueweapon: 
@@ -29476,7 +29527,7 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_130853.png",
                     mat2amt: 100,
-                    hover2: "Flame Fox Soulgem"
+                    hover2: "Flametail Soulgem"
                 }
             },
         trueweapon: 
