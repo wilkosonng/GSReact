@@ -10437,7 +10437,7 @@ const UnitInformation = [
             },
         skillset: 
             {
-                skill: "6s CT - 2200% Water DMG (PHY).",
+                skill: "6s CT - 2200% Water DMG (PHY). Increase own Arts by 15.",
                 skillbreak: 2500,
                 arts: "16000% Water DMG (PHY). Increase Break PWR of this Arts by 250% during Enemy Arts.",
                 artsbreak: 4000,
