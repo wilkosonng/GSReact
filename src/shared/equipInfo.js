@@ -39582,7 +39582,7 @@ const EquipInformation = [
             },
         lore: `The strongest of all holy blades, known for its immense power and range. This is a Traced version created by Illya with a Class Card.`
     },
-    { //Illya's Saber Dress - Missing Lore
+    { //Illya's Saber Dress - Complete
         id: 152351,
         name: `Illya's Saber Dress`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -39610,7 +39610,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Missing Lore`
+        lore: `When Illya installs the Saber Class Card, the Heroic Spirit of King Arthur gives her this special outfit.`
     },
     { //Jeweled Sword Zelretch - Complete
         id: 152361,
@@ -39672,9 +39672,9 @@ const EquipInformation = [
             },
         lore: `A tight-fitting turtleneck sweater, mini-skirt, and knee-high socks.`
     },
-    { //Illya's Clothes
+    { //Illya's Costume - Complete
         id: 152381,
-        name: `Illya's Clothes`,
+        name: `Illya's Costume`,
         type: `/db/Mines/thumbnail/defLB.png`,
         location: `Limited Crossover Event: Fate/PRISMA☆ILLYA Collab`,
         star: 4,
@@ -39700,7 +39700,7 @@ const EquipInformation = [
             {
                 ability1: `BE Output 5% UP.`
             },
-        lore: `Missing Lore`
+        lore: `The outfit Illya wears when she transforms into a magical girl. According to Magical Ruby, she gains Magic Barrier, Physical Defense, Healing Factor, and Enhanced Physical Ability and other A-rank passives.`
     },
     { //真『マジカルサファイア』 (Miyu TW) - JP Complete
         id: 152431,
