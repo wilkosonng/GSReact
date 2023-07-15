@@ -39461,7 +39461,7 @@ const EquipInformation = [
             },
         lore: `Rimuru made this based on past New Year memories after seeing Reigrad's celebration. It was originally just an accessory to complete the look with his Haori, but Rimuru truly appreciates its high defensive power and warmth.`
     },
-    { //True 'Magical Ruby' - Missing Lore
+    { //True 'Magical Ruby' - Complete
         id: 1523111,
         name: `True 'Magical Ruby'`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -39490,11 +39490,11 @@ const EquipInformation = [
                 ability1: `When equipped by Illya, increase own DMG and stats by 20% (No Duplication).`,
                 ability2: `Increase ATK by 5%.`
             },
-        lore: `Missing Lore.`
+        lore: `The Kaleidostick of love and justice. She supplies endless power to whoever forms a magical girl contract with her, and she also has hte miraculous ability to make whatever that can be imagined reality. She was created along with Magical Sapphire.`
     },
-    { //True 'Jeweled Sword Zelretch - Missing Lore
+    { //True 'Zelretch - Complete
         id: 1523211,
-        name: `True 'Jeweled Sword Zelretch'`,
+        name: `True 'Zelretch'`,
         type: `/db/Mines/thumbnail/suppLB.png`,
         location: `Alchemist - Exchange via Rainbow Gems`,
         star: 5,
@@ -39521,9 +39521,9 @@ const EquipInformation = [
                 ability1: `When equipped by Rin & Luvia, increase own Arts by 2/s and ATK by 30% (No Duplication).`,
                 ability2: `Increase Magic resistance by 5%.`
             },
-        lore: `Missing Lore`
+        lore: `A Mystic Code named after its creator, the Wizard Marshal Zelretch. The blade is a massive crystal instead of sharpened metal, making it more of a staff than a sword.`
     },
-    { //Magical Ruby - Missing Lore
+    { //Magical Ruby - Complete
         id: 1523311,
         name: `Magical Ruby`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -39550,9 +39550,9 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Missing Lore`
+        lore: `The Kaleidostick of love and justice. She supplies endless power to whoever forms a magical girl contract with her, and she also has hte miraculous ability to make whatever that can be imagined reality. She was created along with Magical Sapphire.`
     },
-    { //Excalibur - Missing Lore
+    { //Excalibur - Complete
         id: 1523411,
         name: `Excalibur`,
         type: `/db/Mines/thumbnail/physLB.png`,
@@ -39580,7 +39580,7 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Missing Lore.`
+        lore: `The strongest of all holy blades, known for its immense power and range. This is a Traced version created by Illya with a Class Card.`
     },
     { //Illya's Saber Dress - Missing Lore
         id: 152351,
@@ -39612,7 +39612,7 @@ const EquipInformation = [
             },
         lore: `Missing Lore`
     },
-    { //Jeweled Sword Zelretch - Missing Lore
+    { //Jeweled Sword Zelretch - Complete
         id: 152361,
         name: `Jeweled Sword Zelretch`,
         type: `/db/Mines/thumbnail/suppLB.png`,
@@ -39640,9 +39640,9 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Missing Lore`
+        lore: `A Mystic Code named after its creator, the Wizard Marshal Zelretch. The blade is a massive crystal instead of sharpened metal, making it more of a staff than a sword.`
     },
-    { //Rin Tohsaka's Clothes - Missing Lore
+    { //Rin Tohsaka's Clothes - Complete
         id: 152371,
         name: `Rin Tohsaka's Clothes`,
         type: `/db/Mines/thumbnail/magLB.png`,
@@ -39670,13 +39670,13 @@ const EquipInformation = [
             {
                 ability1: ``
             },
-        lore: `Missing Lore`
+        lore: `A tight-fitting turtleneck sweater, mini-skirt, and knee-high socks.`
     },
     { //Illya's Clothes
         id: 152381,
         name: `Illya's Clothes`,
         type: `/db/Mines/thumbnail/defLB.png`,
-        location: `Crossover Equip Summon: Fate/PRISMA☆ILLYA Collab`,
+        location: `Limited Crossover Event: Fate/PRISMA☆ILLYA Collab`,
         star: 4,
         image: 
             {
