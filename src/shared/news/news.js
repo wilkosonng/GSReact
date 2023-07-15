@@ -2,11 +2,36 @@ const NewsArticles = [
     {
         id: 0,
         new: "new",
-        title: "Changelogs - Updated July 1, 2023",
+        title: "Changelogs - Updated July 14, 2023",
         category: "Site News",
-        date: "July 1, 2023",
+        date: "July 14, 2023",
         preview: "/chara_face_1200_1.png",
         article:`
+            <h3>Changelog - July 14, 2023</h3>
+            <p>Hey Summoners, Fate Collab has released on Global. And with that, we are updating the collaboration info to Global names.</p>
+            <p>I'm sure some of you have noticed we haven't put the SP illustrations yet. No worries they are coming.</p>
+            <p>In addition, the changelog will eventually be a bit easier to read, however I'm having difficulty finding free time for this. So it might take longer than expected</p>
+            <br/>
+            <p><b>Here are today's additions:</b></p>
+            <br/><br/>
+            <p>Following Units have been updated to Global Filters:</p>
+            <a href="https://www.grandsummoners.info/units/Illya"><img src="/db/Units/Thumbnail/unit_thumbnail_107737412.png" /></a>
+            <a href="https://www.grandsummoners.info/units/Rin%20&%20Luvia"><img src="/db/Units/Thumbnail/unit_thumbnail_107767112.png" /></a>
+            <br/><br/>
+            <p>Following Equips have been updated to Global Filters:</p>
+            <a href="https://www.grandsummoners.info/equips/Excalibur"><img src="/db/Equipment/Thumbnail/item_thumbnail_152341_pris.png" /></a>
+            <a href="https://www.grandsummoners.info/equips/True%20'Magical%20Ruby'"><img src="/db/Equipment/Thumbnail/item_thumbnail_152311_pris.png" /></a>
+            <a href="https://www.grandsummoners.info/equips/Magical%20Ruby'"><img src="/db/Equipment/Thumbnail/item_thumbnail_152331_pris.png" /></a>
+            <a href="https://www.grandsummoners.info/equips/Rin%20Tohsaka's%20Clothes"><img src="/db/Equipment/Thumbnail/item_thumbnail_152371.png" /></a>
+            <a href="https://www.grandsummoners.info/equips/Illya's%20Clothes"><img src="/db/Equipment/Thumbnail/item_thumbnail_152381.png" /></a>
+            <a href="https://www.grandsummoners.info/equips/Jeweled%20Sword%20Zelretch'"><img src="/db/Equipment/Thumbnail/item_thumbnail_152361.png" /></a>
+            <a href="https://www.grandsummoners.info/equips/True%20'Jeweled%20Sword%20Zelretch'"><img src="/db/Equipment/Thumbnail/item_thumbnail_152321_pris.png" /></a>
+            <a href="https://www.grandsummoners.info/equips/Illya's%20Saber%20Dress"><img src="/db/Equipment/Thumbnail/item_thumbnail_152351.png" /></a>
+            <br/>
+            <p>That's all for today. Until next time!</p>
+            <p>Thanks, <br/> GSOD Staff</p>
+
+            
             <h3>Changelog - July 12, 2023</h3>
             <p><b>Here are today's additions:</b></p>
             <br/><br/>
